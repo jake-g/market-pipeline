@@ -1,0 +1,45 @@
+exclude: '^(market_data/|logs/)'
+
+repos:
+  - repo: https://github.com/google/yapf
+    rev: v0.43.0
+    hooks:
+      - id: yapf
+        args: [--style, '{based_on_style: google, indent_width: 2, column_limit: 80}']
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 8.0.0
+    hooks:
+      - id: isort
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=5000']
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.19.1
+    hooks:
+      - id: mypy
+        additional_dependencies: [types-requests, pandas-stubs]
+        exclude: ^(tests/|notebooks/|backfill/|market_fetcher\.py|market_fetcher_test\.py)
+        args: [--ignore-missing-imports, --explicit-package-bases]
+
+  - repo: https://github.com/PyCQA/pylint
+    rev: v4.0.5
+    hooks:
+      - id: pylint
+        args:
+          - "--disable=C0114,C0115,C0116,R0903,W0718,C0301,C0415,E0401,W0212,W1514,C0321,W1203,W0201,W0611,R0912,R0915,W1309,W0702,W0109,R0914,R1702,R1730,W0613,R1723,W0612,W0511,C0103,C0302,R1731,R0913,W0640"
+          - "--indent-string=  "
+        exclude: |
+            (?x)^(
+                tests/|
+                notebooks/|
+                backfill/|
+                market_fetcher\.py
+            )
