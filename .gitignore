@@ -1,0 +1,21 @@
+# Ignore Files
+.env
+.DS_Store
+*.pkl
+*.zip
+*.py[cod]
+
+# Ignore Directories
+venv/
+old/
+logs/
+.test_*/
+.cache/
+__pycache__/
+.mypy_cache/
+notebooks/
+
+# Project Specific
+*AI_Stock_Predictor*
+*keys.tsv
+TODO.md
