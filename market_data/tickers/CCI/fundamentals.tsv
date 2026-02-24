@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	-0.04915732
-SandP52WeekChange	0.15480888
+52WeekChange	-0.057002008
+SandP52WeekChange	0.1602385
 address1	8020 Katy Freeway
 allTimeHigh	209.87
 allTimeLow	1.0
-ask	88.4
-askSize	200
+ask	0.0
+askSize	800
 auditRisk	2
 averageAnalystRating	2.0 - Buy
 averageDailyVolume10Day	3988610
-averageDailyVolume3Month	3229630
-averageVolume	3229630
+averageDailyVolume3Month	3217462
+averageVolume	3217462
 averageVolume10days	3988610
 beta	0.984
-bid	85.91
+bid	0.0
 bidSize	200
 boardRisk	1
 bookValue	-3.759
@@ -25,15 +25,15 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	88.01
+currentPrice	87.7
 currentRatio	0.255
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	88.345
-dayLow	85.9001
+dayHigh	88.62
+dayLow	86.65
 dividendDate	1767139200
 dividendRate	4.25
-dividendYield	4.83
+dividendYield	4.85
 earningsCallTimestampEnd	1770240600
 earningsCallTimestampStart	1770240600
 earningsTimestamp	1770238800
@@ -41,9 +41,9 @@ earningsTimestampEnd	1776891600
 earningsTimestampStart	1776891600
 ebitda	2776000000
 ebitdaMargins	0.65102994
-enterpriseToEbitda	24.406
-enterpriseToRevenue	15.889
-enterpriseValue	67751350272
+enterpriseToEbitda	24.358
+enterpriseToRevenue	15.858
+enterpriseValue	67616501760
 epsCurrentYear	2.35262
 epsForward	2.80024
 epsTrailingTwelveMonths	2.52
@@ -56,22 +56,22 @@ exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	713 570 3100
 fiftyDayAverage	87.1588
-fiftyDayAverageChange	0.8512039
-fiftyDayAverageChangePercent	0.009766127
-fiftyTwoWeekChangePercent	-4.9157324
+fiftyDayAverageChange	0.54119873
+fiftyDayAverageChangePercent	0.0062093413
+fiftyTwoWeekChangePercent	-5.700201
 fiftyTwoWeekHigh	115.76
-fiftyTwoWeekHighChange	-27.75
-fiftyTwoWeekHighChangePercent	-0.2397201
+fiftyTwoWeekHighChange	-28.060005
+fiftyTwoWeekHighChangePercent	-0.2423981
 fiftyTwoWeekLow	77.01
-fiftyTwoWeekLowChange	11.0
-fiftyTwoWeekLowChangePercent	0.14283858
+fiftyTwoWeekLowChange	10.689995
+fiftyTwoWeekLowChangePercent	0.13881306
 fiftyTwoWeekRange	77.01 - 115.76
 financialCurrency	USD
 firstTradeDateMilliseconds	903447000000
 fiveYearAvgDividendYield	4.78
 floatShares	434130000
 forwardEps	2.80024
-forwardPE	31.42945
+forwardPE	31.318743
 freeCashflow	1392249984
 fullExchangeName	NYSE
 gmtOffSetMilliseconds	-18000000
@@ -93,31 +93,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Crown Castle owns, operates and leases approximately 40,000 cell towers and approximately 90,000 route miles of fiber supporting small cells and fiber solutions across every major U.S. market. This nationwide portfolio of communications infrastructure connects cities and communities to essential data, technology and wireless service  bringing information, ideas and innovations to the people and businesses that need them.
 longName	Crown Castle Inc.
 market	us_market
-marketCap	38326509568
-marketState	CLOSED
+marketCap	38191509504
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_27198
 mostRecentQuarter	1767139200
-nameChangeDate	2026-02-22
+nameChangeDate	2026-02-23
 netIncomeToCommon	1103000064
 nextFiscalYearEnd	1798675200
 numberOfAnalystOpinions	18
-open	86.58
+open	87.84
 operatingCashflow	3056999936
 operatingMargins	0.4916
 overallRisk	4
 payoutRatio	1.8859
 phone	713 570 3000
-postMarketChange	-0.010002136
-postMarketChangePercent	-0.011364772
-postMarketPrice	88.0
-postMarketTime	1771635365
+postMarketChange	-0.69999695
+postMarketChangePercent	-0.7981722
+postMarketPrice	87.0
+postMarketTime	1771888741
 prevName	Crown Castle International Corp. (REIT)
-previousClose	86.47
-priceEpsCurrentYear	37.40936
+previousClose	88.01
+priceEpsCurrentYear	37.277588
 priceHint	2
-priceToBook	-23.413141
-priceToSalesTrailing12Months	8.988394
+priceToBook	-23.330671
+priceToSalesTrailing12Months	8.956733
 profitMargins	0.10413
 quickRatio	0.098
 quoteSourceName	Delayed Quote
@@ -125,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.0
 region	US
-regularMarketChange	1.54
-regularMarketChangePercent	1.78097
-regularMarketDayHigh	88.345
-regularMarketDayLow	85.9001
-regularMarketDayRange	85.9001 - 88.345
-regularMarketOpen	86.58
-regularMarketPreviousClose	86.47
-regularMarketPrice	88.01
-regularMarketTime	1771621202
-regularMarketVolume	3287033
+regularMarketChange	-0.310005
+regularMarketChangePercent	-0.352239
+regularMarketDayHigh	88.62
+regularMarketDayLow	86.65
+regularMarketDayRange	86.65 - 88.62
+regularMarketOpen	87.84
+regularMarketPreviousClose	88.01
+regularMarketPrice	87.7
+regularMarketTime	1771880402
+regularMarketVolume	2590910
 returnOnAssets	0.04058
 revenueGrowth	-0.35
 revenuePerShare	9.802
@@ -153,7 +153,7 @@ shortRatio	2.64
 sourceInterval	15
 state	TX
 symbol	CCI
-syntheticPEG	-0.8979842857142857
+syntheticPEG	-0.8948212285714287
 targetHighPrice	125.0
 targetLowPrice	84.0
 targetMeanPrice	98.91111
@@ -164,15 +164,15 @@ totalDebt	29565999104
 totalRevenue	4264000000
 tradeable	False
 trailingAnnualDividendRate	4.753
-trailingAnnualDividendYield	0.05496704
+trailingAnnualDividendYield	0.054005224
 trailingEps	2.52
-trailingPE	34.924603
+trailingPE	34.801586
 trailingPegRatio	1.3257
 triggerable	True
 twoHundredDayAverage	95.67465
-twoHundredDayAverageChange	-7.66465
-twoHundredDayAverageChangePercent	-0.08011161
+twoHundredDayAverageChange	-7.974655
+twoHundredDayAverageChangePercent	-0.083351806
 typeDisp	Equity
-volume	3287033
+volume	2590910
 website	https://www.crowncastle.com
 zip	77024-1908

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	4.8245616
-SandP52WeekChange	0.15480888
+52WeekChange	4.8186264
+SandP52WeekChange	0.1602385
 address1	5601 Great Oaks Parkway
 allTimeHigh	309.9
 allTimeLow	0.519652
-ask	304.52
+ask	292.47
 askSize	1
 auditRisk	10
 averageAnalystRating	1.6 - Buy
 averageDailyVolume10Day	10202980
-averageDailyVolume3Month	9209526
-averageVolume	9209526
+averageDailyVolume3Month	9182257
+averageVolume	9182257
 averageVolume10days	10202980
 beta	1.839
-bid	270.66
-bidSize	1
+bid	279.05
+bidSize	3
 boardRisk	4
 bookValue	20.915
 city	San Jose
@@ -25,12 +25,12 @@ corporateActions	[{'header': 'Dividend', 'message': 'WDC announced a cash divide
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	285.52
+currentPrice	280.42
 currentRatio	1.455
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	297.5
-dayLow	278.04
+dayHigh	294.82
+dayLow	278.18
 displayName	Western Digital
 dividendDate	1773792000
 dividendRate	0.5
@@ -44,7 +44,7 @@ ebitda	3356999936
 ebitdaMargins	0.31274
 epsCurrentYear	8.85487
 epsForward	13.44841
-epsTrailingTwelveMonths	10.59
+epsTrailingTwelveMonths	10.57
 esgPopulated	False
 exDividendDate	1772668800
 exchange	NMS
@@ -53,22 +53,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	225.0746
-fiftyDayAverageChange	60.44539
-fiftyDayAverageChangePercent	0.26855713
-fiftyTwoWeekChangePercent	482.45615
+fiftyDayAverageChange	55.345413
+fiftyDayAverageChangePercent	0.24589808
+fiftyTwoWeekChangePercent	481.86264
 fiftyTwoWeekHigh	309.9
-fiftyTwoWeekHighChange	-24.380005
-fiftyTwoWeekHighChangePercent	-0.078670554
+fiftyTwoWeekHighChange	-29.47998
+fiftyTwoWeekHighChangePercent	-0.0951274
 fiftyTwoWeekLow	28.83
-fiftyTwoWeekLowChange	256.69
-fiftyTwoWeekLowChangePercent	8.903573
+fiftyTwoWeekLowChange	251.59001
+fiftyTwoWeekLowChangePercent	8.726674
 fiftyTwoWeekRange	28.83 - 309.9
 financialCurrency	USD
 firstTradeDateMilliseconds	278692200000
 fiveYearAvgDividendYield	3.23
 floatShares	336678218
 forwardEps	13.44841
-forwardPE	21.230762
+forwardPE	20.851536
 freeCashflow	3899375104
 fullExchangeName	NasdaqGS
 fullTimeEmployees	40000
@@ -94,29 +94,29 @@ lastSplitFactor	1323:1000
 longBusinessSummary	Western Digital Corporation develops, manufactures, and sells data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer manufacturers, sales personnel, dealers, distributors, and retailers. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.
 longName	Western Digital Corporation
 market	us_market
-marketCap	97619083264
-marketState	CLOSED
+marketCap	95875407872
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_314057
 mostRecentQuarter	1633046400
 netIncomeToCommon	3945999872
 nextFiscalYearEnd	1782518400
 numberOfAnalystOpinions	23
-open	278.04
+open	283.95
 operatingCashflow	2671000064
 operatingMargins	0.15403
 overallRisk	5
 payoutRatio	0.0307
 phone	408 717 6000
-postMarketChange	-0.769989
-postMarketChangePercent	-0.26967955
-postMarketPrice	284.75
-postMarketTime	1771635595
-previousClose	284.66998
-priceEpsCurrentYear	32.244404
+postMarketChange	1.1899719
+postMarketChangePercent	0.42435342
+postMarketPrice	281.61
+postMarketTime	1771894757
+previousClose	285.52
+priceEpsCurrentYear	31.668451
 priceHint	2
-priceToBook	13.651445
-priceToSalesTrailing12Months	9.09438
+priceToBook	13.407602
+priceToSalesTrailing12Months	8.931936
 profitMargins	0.35644
 quickRatio	1.107
 quoteSourceName	Nasdaq Real Time Price
@@ -124,16 +124,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.61538
 region	US
-regularMarketChange	0.8500061
-regularMarketChangePercent	0.29859352
-regularMarketDayHigh	297.5
-regularMarketDayLow	278.04
-regularMarketDayRange	278.04 - 297.5
-regularMarketOpen	278.04
-regularMarketPreviousClose	284.66998
-regularMarketPrice	285.52
-regularMarketTime	1771621201
-regularMarketVolume	10510504
+regularMarketChange	-5.09998
+regularMarketChangePercent	-1.78621
+regularMarketDayHigh	294.82
+regularMarketDayLow	278.18
+regularMarketDayRange	278.18 - 294.82
+regularMarketOpen	283.95
+regularMarketPreviousClose	285.52
+regularMarketPrice	280.42
+regularMarketTime	1771880401
+regularMarketVolume	7153373
 returnOnAssets	0.09147
 returnOnEquity	0.41126
 revenuePerShare	31.023
@@ -159,15 +159,15 @@ targetMedianPrice	325.0
 totalRevenue	10734000128
 tradeable	False
 trailingAnnualDividendRate	0.325
-trailingAnnualDividendYield	0.0011416728
-trailingEps	10.59
-trailingPE	26.961283
+trailingAnnualDividendYield	0.001138274
+trailingEps	10.57
+trailingPE	26.529804
 trailingPegRatio	1.3641
 triggerable	True
 twoHundredDayAverage	127.00995
-twoHundredDayAverageChange	158.51004
-twoHundredDayAverageChangePercent	1.2480128
+twoHundredDayAverageChange	153.41006
+twoHundredDayAverageChangePercent	1.2078587
 typeDisp	Equity
-volume	10510504
+volume	7153373
 website	https://www.westerndigital.com
 zip	95119

@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.65183246
-SandP52WeekChange	0.15480888
+52WeekChange	0.6283871
+SandP52WeekChange	0.1602385
 address1	40 Agiou Konstantinou Street
 address2	Athens
 allTimeHigh	1133.0409
 allTimeLow	1.55
 ask	25.28
-askSize	2
+askSize	8
 averageDailyVolume10Day	1164990
-averageDailyVolume3Month	1328488
-averageVolume	1328488
+averageDailyVolume3Month	1319676
+averageVolume	1319676
 averageVolume10days	1164990
 beta	0.768
-bid	25.19
-bidSize	2
+bid	25.16
+bidSize	5
 bookValue	21.149
 city	Marousi
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Petros Alexandros Pappas', 'age': 72, 'title': 'Founder, CEO & Director', 'yearBorn': 1953, 'fiscalYear': 2014, 'totalPay': 9890, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Hamish  Norton Ph.D.', 'age': 66, 'title': 'President', 'yearBorn': 1959, 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Simos  Spyrou', 'age': 51, 'title': 'Co-Chief Financial Officer', 'yearBorn': 1974, 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christos  Begleris', 'age': 44, 'title': 'Co-Chief Financial Officer', 'yearBorn': 1981, 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nicos  Rescos', 'age': 53, 'title': 'Chief Operating Officer', 'yearBorn': 1972, 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Zenon  Kleopas', 'age': 70, 'title': 'Executive Vice President of Green Energy & Technology', 'yearBorn': 1955, 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Georgia  Mastagaki', 'title': 'Co-General Counsel & Co-Secretary', 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Charis  Plakantonaki', 'age': 45, 'title': 'Chief Strategy Officer', 'yearBorn': 1980, 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Constantinos  Simantiras', 'title': 'Head of Market Research', 'fiscalYear': 2014, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -26,8 +26,8 @@ currentPrice	25.24
 currentRatio	1.725
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	25.45
-dayLow	25.08
+dayHigh	25.3594
+dayLow	24.9235
 debtToEquity	50.951
 displayName	Star Bulk Carriers
 dividendDate	1766016000
@@ -58,7 +58,7 @@ executiveTeam	[]
 fiftyDayAverage	21.0112
 fiftyDayAverageChange	4.2288
 fiftyDayAverageChangePercent	0.20126408
-fiftyTwoWeekChangePercent	65.18324
+fiftyTwoWeekChangePercent	62.83871
 fiftyTwoWeekHigh	25.45
 fiftyTwoWeekHighChange	-0.21000099
 fiftyTwoWeekHighChangePercent	-0.008251512
@@ -97,23 +97,24 @@ longBusinessSummary	Star Bulk Carriers Corp., a shipping company, engages in the
 longName	Star Bulk Carriers Corp.
 market	us_market
 marketCap	2885246976
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_266636382
 mostRecentQuarter	1759190400
 netIncomeToCommon	61466000
 nextFiscalYearEnd	1767139200
+nonDilutedMarketCap	2873509587
 numberOfAnalystOpinions	4
-open	25.1
+open	25.01
 operatingCashflow	271140992
 operatingMargins	0.14102
 payoutRatio	1.6809
 phone	30 210 61 78 400
-postMarketChange	0.18700027
-postMarketChangePercent	0.7408886
-postMarketPrice	25.427
-postMarketTime	1771634992
-previousClose	24.99
+postMarketChange	-0.041200638
+postMarketChangePercent	-0.16323549
+postMarketPrice	25.1988
+postMarketTime	1771894312
+previousClose	25.24
 priceEpsCurrentYear	31.029861
 priceHint	2
 priceToBook	1.193437
@@ -124,16 +125,16 @@ quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	none
 region	US
-regularMarketChange	0.25
-regularMarketChangePercent	1.0004002
-regularMarketDayHigh	25.45
-regularMarketDayLow	25.08
-regularMarketDayRange	25.08 - 25.45
-regularMarketOpen	25.1
-regularMarketPreviousClose	24.99
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
+regularMarketDayHigh	25.3594
+regularMarketDayLow	24.9235
+regularMarketDayRange	24.9235 - 25.3594
+regularMarketOpen	25.01
+regularMarketPreviousClose	25.24
 regularMarketPrice	25.24
-regularMarketTime	1771621201
-regularMarketVolume	2335301
+regularMarketTime	1771880400
+regularMarketVolume	1107618
 returnOnAssets	0.01815
 returnOnEquity	0.02495
 revenueGrowth	-0.234
@@ -162,7 +163,7 @@ totalDebt	1230669952
 totalRevenue	1050828992
 tradeable	False
 trailingAnnualDividendRate	0.3
-trailingAnnualDividendYield	0.012004803
+trailingAnnualDividendYield	0.011885896
 trailingEps	0.47
 trailingPE	53.702126
 trailingPegRatio	None
@@ -171,6 +172,6 @@ twoHundredDayAverage	18.86835
 twoHundredDayAverageChange	6.3716507
 twoHundredDayAverageChangePercent	0.33768988
 typeDisp	Equity
-volume	2335301
+volume	1107618
 website	https://www.starbulk.com
 zip	15124

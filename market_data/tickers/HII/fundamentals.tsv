@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	1.5920858
-SandP52WeekChange	0.15480888
+52WeekChange	1.4935606
+SandP52WeekChange	0.1602385
 address1	4101 Washington Avenue
 allTimeHigh	447.74
 allTimeLow	22.62
-ask	443.61
-askSize	40
+ask	0.0
+askSize	80
 auditRisk	7
 averageAnalystRating	2.4 - Buy
 averageDailyVolume10Day	575820
-averageDailyVolume3Month	553958
-averageVolume	553958
+averageDailyVolume3Month	558557
+averageVolume	558557
 averageVolume10days	575820
 beta	0.329
-bid	433.0
+bid	0.0
 bidSize	160
 boardRisk	7
 bookValue	129.276
@@ -21,16 +21,16 @@ city	Newport News
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Christopher Douglas Kastner', 'age': 61, 'title': 'President, CEO & Director', 'yearBorn': 1964, 'fiscalYear': 2024, 'totalPay': 2737757, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Thomas E. Stiehle', 'age': 58, 'title': 'Executive VP & CFO', 'yearBorn': 1967, 'fiscalYear': 2024, 'totalPay': 976475, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Chad N. Boudreaux J.D.', 'age': 50, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1975, 'fiscalYear': 2024, 'totalPay': 1097511, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Edgar Andy Green III', 'age': 59, 'title': 'Executive VP & President of Mission Technologies', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 1651370, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Garry  Schwartz', 'title': 'Chief Operating Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nicolas G. Schuck', 'age': 51, 'title': 'Corporate VP, Chief Accounting Officer & Controller', 'yearBorn': 1974, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Tim  Taylor', 'title': 'Vice President of Engineering, Technology & Design', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher W. Soong', 'age': 52, 'title': 'Executive VP & Chief Information Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Christie  Thomas', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul Clinton Harris Sr.', 'age': 59, 'title': 'Executive VP and Chief Sustainability & Compliance Officer', 'yearBorn': 1966, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	5
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'HII announced a cash dividend of 1.38$ with an ex-date of Feb. 27, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1772168400000, 'amount': '1.38'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	437.57
+currentPrice	438.01
 currentRatio	1.133
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	447.65
-dayLow	433.6
+dayHigh	441.88
+dayLow	428.39
 debtToEquity	58.762
 displayName	Huntington Ingalls Industries
 dividendDate	1773360000
@@ -45,12 +45,12 @@ earningsTimestampEnd	1777555800
 earningsTimestampStart	1777555800
 ebitda	1130000000
 ebitdaMargins	0.09052
-enterpriseToEbitda	17.149
-enterpriseToRevenue	1.552
-enterpriseValue	19378423808
+enterpriseToEbitda	17.164
+enterpriseToRevenue	1.554
+enterpriseValue	19395690496
 epsCurrentYear	17.34608
 epsForward	20.31308
-epsTrailingTwelveMonths	15.4
+epsTrailingTwelveMonths	15.37
 esgPopulated	False
 exDividendDate	1772150400
 exchange	NYQ
@@ -59,22 +59,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	384.232
-fiftyDayAverageChange	53.338013
-fiftyDayAverageChangePercent	0.1388172
-fiftyTwoWeekChangePercent	159.20859
+fiftyDayAverageChange	53.778015
+fiftyDayAverageChangePercent	0.13996236
+fiftyTwoWeekChangePercent	149.35605
 fiftyTwoWeekHigh	447.74
-fiftyTwoWeekHighChange	-10.169983
-fiftyTwoWeekHighChangePercent	-0.022714037
+fiftyTwoWeekHighChange	-9.72998
+fiftyTwoWeekHighChangePercent	-0.021731319
 fiftyTwoWeekLow	167.7
-fiftyTwoWeekLowChange	269.87
-fiftyTwoWeekLowChangePercent	1.6092427
+fiftyTwoWeekLowChange	270.31
+fiftyTwoWeekLowChangePercent	1.6118665
 fiftyTwoWeekRange	167.7 - 447.74
 financialCurrency	USD
 firstTradeDateMilliseconds	1300800600000
 fiveYearAvgDividendYield	2.17
 floatShares	38959356
 forwardEps	20.31308
-forwardPE	21.541292
+forwardPE	21.562954
 freeCashflow	686000000
 fullExchangeName	NYSE
 fullTimeEmployees	44000
@@ -97,45 +97,46 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Huntington Ingalls Industries, Inc. designs, builds, overhauls, and repairs military ships in the United States. It operates through three segments: Ingalls, Newport News, and Mission Technologies. The company is involved in the design and construction of non-nuclear ships comprising amphibious assault ships, surface combatants, and national security cutters for the U.S. Navy and U.S. Coast Guard. It also provides nuclear-powered ships, such as aircraft carriers and submarines, as well as refueling and overhaul, and inactivation services of nuclear-powered aircraft carriers. In addition, the company offers naval nuclear support services, including fleet services comprising design, construction, maintenance, and disposal activities for in-service the U.S. Navy nuclear ships; and maintenance services on nuclear reactor prototypes. Further, the company provides C5ISR systems and operations; application of artificial intelligence and machine learning to battlefield decisions; defensive and offensive cyberspace strategies and electronic warfare; uncrewed autonomous systems; live, virtual, and constructive solutions; platform modernization; and critical nuclear operations. Huntington Ingalls Industries, Inc. was founded in 1886 and is headquartered in Newport News, Virginia.
 longName	Huntington Ingalls Industries, Inc.
 market	us_market
-marketCap	17171423232
-marketState	CLOSED
+marketCap	17188689920
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_363263
 mostRecentQuarter	1767139200
 netIncomeToCommon	605000000
 nextFiscalYearEnd	1798675200
 numberOfAnalystOpinions	10
-open	439.91
+open	432.75
 operatingCashflow	1196000000
 operatingMargins	0.05926
 overallRisk	6
 payoutRatio	0.35279998
 phone	757 380 2000
-postMarketChange	1.5499878
-postMarketChangePercent	0.35422623
-postMarketPrice	439.12
-postMarketTime	1771635600
-previousClose	443.14
-priceEpsCurrentYear	25.225872
+postMarketChange	3.1600037
+postMarketChangePercent	0.72144556
+postMarketPrice	441.17
+postMarketTime	1771894770
+previousClose	437.57
+priceEpsCurrentYear	25.251238
 priceHint	2
-priceToBook	3.3847737
-priceToSalesTrailing12Months	1.3754745
+priceToBook	3.3881774
+priceToSalesTrailing12Months	1.3768576
 profitMargins	0.048460003
 quickRatio	1.036
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.36364
 region	US
-regularMarketChange	-5.57001
-regularMarketChangePercent	-1.25694
-regularMarketDayHigh	447.65
-regularMarketDayLow	433.6
-regularMarketDayRange	433.6 - 447.65
-regularMarketOpen	439.91
-regularMarketPreviousClose	443.14
-regularMarketPrice	437.57
-regularMarketTime	1771621203
-regularMarketVolume	507937
+regularMarketChange	0.440002
+regularMarketChangePercent	0.100556
+regularMarketDayHigh	441.88
+regularMarketDayLow	428.39
+regularMarketDayRange	428.39 - 441.88
+regularMarketOpen	432.75
+regularMarketPreviousClose	437.57
+regularMarketPrice	438.01
+regularMarketTime	1771880403
+regularMarketVolume	469020
 returnOnAssets	0.04023
 returnOnEquity	0.124239996
 revenueGrowth	0.157
@@ -149,13 +150,13 @@ sharesPercentSharesOut	0.0327
 sharesShort	1284905
 sharesShortPreviousMonthDate	1767139200
 sharesShortPriorMonth	1280906
-shortName	Huntington Ingalls Industries,
+shortName	Huntington Ingalls Industries, 
 shortPercentOfFloat	0.0378
 shortRatio	2.14
 sourceInterval	15
 state	VA
 symbol	HII
-syntheticPEG	0.766594021352313
+syntheticPEG	0.7673649110320285
 targetHighPrice	465.0
 targetLowPrice	292.0
 targetMeanPrice	401.0
@@ -166,15 +167,15 @@ totalDebt	2980999936
 totalRevenue	12483999744
 tradeable	False
 trailingAnnualDividendRate	5.43
-trailingAnnualDividendYield	0.012253463
-trailingEps	15.4
-trailingPE	28.413637
+trailingAnnualDividendYield	0.012409442
+trailingEps	15.37
+trailingPE	28.497725
 trailingPegRatio	0.9772
 triggerable	True
 twoHundredDayAverage	297.36
-twoHundredDayAverageChange	140.21002
-twoHundredDayAverageChangePercent	0.4715161
+twoHundredDayAverageChange	140.65002
+twoHundredDayAverageChangePercent	0.4729958
 typeDisp	Equity
-volume	507937
+volume	469020
 website	https://www.hii.com
 zip	23607
