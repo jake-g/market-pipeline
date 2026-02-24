@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.2897004
-SandP52WeekChange	0.15480888
+52WeekChange	0.30156505
+SandP52WeekChange	0.1602385
 address1	929 Long Bridge Drive
 allTimeHigh	446.01
 allTimeLow	0.382716
-ask	232.05
-askSize	300
+ask	0.0
+askSize	100
 auditRisk	10
-averageAnalystRating	1.5 - Buy
+averageAnalystRating	1.6 - Buy
 averageDailyVolume10Day	5726650
-averageDailyVolume3Month	7987688
-averageVolume	7987688
+averageDailyVolume3Month	7963988
+averageVolume	7963988
 averageVolume10days	5726650
 beta	1.14
-bid	231.9
-bidSize	300
+bid	0.0
+bidSize	400
 boardRisk	2
 bookValue	6.943
 city	Arlington
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	232.03
+currentPrice	230.44
 currentRatio	1.188
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	236.08
-dayLow	231.14
+dayHigh	233.5
+dayLow	227.5
 debtToEquity	1032.894
 dividendDate	1583452800
 earningsCallTimestampEnd	1769527800
@@ -40,12 +40,12 @@ earningsTimestampEnd	1776864600
 earningsTimestampStart	1776864600
 ebitda	-3238000128
 ebitdaMargins	-0.03619
-enterpriseToEbitda	-64.836
-enterpriseToRevenue	2.347
-enterpriseValue	209940086784
-epsCurrentYear	0.47214
+enterpriseToEbitda	-64.451
+enterpriseToRevenue	2.333
+enterpriseValue	208691380224
+epsCurrentYear	0.50918
 epsForward	4.81859
-epsTrailingTwelveMonths	2.48
+epsTrailingTwelveMonths	2.49
 esgPopulated	False
 exDividendDate	1581552000
 exchange	NYQ
@@ -54,22 +54,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	230.1208
-fiftyDayAverageChange	1.909195
-fiftyDayAverageChangePercent	0.00829649
-fiftyTwoWeekChangePercent	28.97004
+fiftyDayAverageChange	0.3191986
+fiftyDayAverageChangePercent	0.0013870915
+fiftyTwoWeekChangePercent	30.156506
 fiftyTwoWeekHigh	254.35
-fiftyTwoWeekHighChange	-22.320007
-fiftyTwoWeekHighChangePercent	-0.087753125
+fiftyTwoWeekHighChange	-23.910004
+fiftyTwoWeekHighChangePercent	-0.09400434
 fiftyTwoWeekLow	128.88
-fiftyTwoWeekLowChange	103.149994
-fiftyTwoWeekLowChangePercent	0.80035686
+fiftyTwoWeekLowChange	101.56
+fiftyTwoWeekLowChangePercent	0.78801984
 fiftyTwoWeekRange	128.88 - 254.35
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	2.48
 floatShares	753501271
 forwardEps	4.81859
-forwardPE	48.153088
+forwardPE	47.823116
 freeCashflow	1761750016
 fullExchangeName	NYSE
 fullTimeEmployees	182000
@@ -95,15 +95,15 @@ lastSplitFactor	2:1
 longBusinessSummary	The Boeing Company, together with its subsidiaries, designs, develops, manufactures, sells, services, and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems, and services worldwide. The company operates through three segments: Commercial Airplanes; Defense, Space & Security; and Global Services. The Commercial Airplanes segment develops, produces, and markets commercial jet aircraft for passenger and cargo requirements. The Defense, Space & Security segment engages in the research, development, production, and modification of manned and unmanned military aircraft and weapons systems; strategic defense and intelligence systems, which include strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance, cyber and information solutions, and intelligence systems; and satellite systems, such as government and commercial satellites, and space exploration. The Global Services segment offers products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services to commercial and defense customers. The Boeing Company was incorporated in 1916 and is based in Arlington, Virginia.
 longName	The Boeing Company
 market	us_market
-marketCap	182224076800
-marketState	CLOSED
+marketCap	180975386624
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_370857
 mostRecentQuarter	1767139200
 netIncomeToCommon	1888999936
 nextFiscalYearEnd	1798675200
 numberOfAnalystOpinions	24
-open	232.63
+open	231.5
 operatingCashflow	1065000000
 operatingMargins	-0.03178
 overallRisk	8
@@ -111,31 +111,31 @@ payoutRatio	0.0
 pegRatio	6.53
 phone	703-465-3500
 postMarketChange	-0.08000183
-postMarketChangePercent	-0.03447909
-postMarketPrice	231.95
-postMarketTime	1771635550
-previousClose	233.71
-priceEpsCurrentYear	491.4432
+postMarketChangePercent	-0.03471699
+postMarketPrice	230.36
+postMarketTime	1771894800
+previousClose	232.03
+priceEpsCurrentYear	452.5708
 priceHint	2
-priceToBook	33.419273
-priceToSalesTrailing12Months	2.0368652
+priceToBook	33.190266
+priceToSalesTrailing12Months	2.0229077
 profitMargins	0.02498
 quickRatio	0.377
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.53846
+recommendationMean	1.61538
 region	US
-regularMarketChange	-1.68001
-regularMarketChangePercent	-0.718843
-regularMarketDayHigh	236.08
-regularMarketDayLow	231.14
-regularMarketDayRange	231.14 - 236.08
-regularMarketOpen	232.63
-regularMarketPreviousClose	233.71
-regularMarketPrice	232.03
-regularMarketTime	1771621202
-regularMarketVolume	5446395
+regularMarketChange	-1.59
+regularMarketChangePercent	-0.685255
+regularMarketDayHigh	233.5
+regularMarketDayLow	227.5
+regularMarketDayRange	227.5 - 233.5
+regularMarketOpen	231.5
+regularMarketPreviousClose	232.03
+regularMarketPrice	230.44
+regularMarketTime	1771880402
+regularMarketVolume	5359634
 returnOnAssets	-0.019989999
 returnOnEquity	2.90084
 revenueGrowth	0.571
@@ -166,14 +166,14 @@ totalRevenue	89462996992
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	2.48
-trailingPE	93.560486
+trailingEps	2.49
+trailingPE	92.54619
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	217.4157
-twoHundredDayAverageChange	14.614304
-twoHundredDayAverageChangePercent	0.06721825
+twoHundredDayAverageChange	13.024307
+twoHundredDayAverageChangePercent	0.059905093
 typeDisp	Equity
-volume	5446395
+volume	5359634
 website	https://www.boeing.com
 zip	22202-4208

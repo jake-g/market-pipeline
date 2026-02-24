@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | -0.012223244 |
+| Value | str | -0.012640953 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-22 |
+| Date | str | 2026-02-24 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.55 |
-| Headline | str | ‘Money's moving out of tech’: Wall Street weigh... |
-| Summary | str | Investors are rotating out of the most popular ... |
-| URL | str | https://finance.yahoo.com/news/moneys-moving-ou... |
+| Sentiment | float64 | 0.283 |
+| Headline | str | 3 Brilliant Growth Stocks to Buy Now and Hold f... |
+| Summary | str | Look beyond the current numbers for enduring gr... |
+| URL | str | https://www.fool.com/investing/2026/02/23/3-bri... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -64,12 +64,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - Topic News
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-22 |
+| Date | str | 2026-02-24 |
 | Source | str | Google |
-| Sentiment | float64 | 0.8 |
-| Headline | str | Joy Behar, 83, Reveals She Lost 25 Pounds Using... |
+| Sentiment | float64 | 0.6 |
+| Headline | str | Got $5,000? Viking Therapeutics Might Be a Weig... |
 | Summary | float64 | nan |
-| URL | str | https://news.google.com/rss/articles/CBMid0FVX3... |
+| URL | str | https://news.google.com/rss/articles/CBMimAFBVV... |
 
 ## 2. Macro Files
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators

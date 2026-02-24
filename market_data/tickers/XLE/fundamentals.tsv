@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	90.94
 allTimeLow	9.69
-ask	54.99
-askSize	7000
+ask	0.0
+askSize	38800
 averageDailyVolume10Day	50879270
-averageDailyVolume3Month	42373233
-averageVolume	42373233
+averageDailyVolume3Month	42520545
+averageVolume	42520545
 averageVolume10days	50879270
 beta3Year	0.58
-bid	54.91
-bidSize	15200
+bid	0.0
+bidSize	13500
 bookValue	52.115
 category	Equity Energy
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	55.28
-dayLow	54.51
+dayHigh	55.93
+dayLow	54.865
 dividendYield	2.87
 epsTrailingTwelveMonths	2.5060446
 esgPopulated	False
@@ -28,16 +28,16 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	48.4854
-fiftyDayAverageChange	6.3946
-fiftyDayAverageChangePercent	0.13188712
-fiftyTwoWeekChangePercent	20.68169
-fiftyTwoWeekHigh	55.88
-fiftyTwoWeekHighChange	-1.0
-fiftyTwoWeekHighChangePercent	-0.01789549
+fiftyDayAverageChange	6.6646004
+fiftyDayAverageChangePercent	0.13745582
+fiftyTwoWeekChangePercent	22.445333
+fiftyTwoWeekHigh	55.93
+fiftyTwoWeekHighChange	-0.7799988
+fiftyTwoWeekHighChangePercent	-0.013945982
 fiftyTwoWeekLow	37.245
-fiftyTwoWeekLowChange	17.635002
-fiftyTwoWeekLowChangePercent	0.47348645
-fiftyTwoWeekRange	37.245 - 55.88
+fiftyTwoWeekLowChange	17.905003
+fiftyTwoWeekLowChangePercent	0.48073575
+fiftyTwoWeekRange	37.245 - 55.93
 financialCurrency	USD
 firstTradeDateMilliseconds	914337000000
 fiveYearAverageReturn	0.23455879
@@ -51,34 +51,34 @@ legalType	Exchange Traded Fund
 longBusinessSummary	In seeking to track the performance of the index, the fund employs a replication strategy. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies that have been identified as Energy companies by the GICS®, including securities of companies from the following industries: oil, gas and consumable fuels; and energy equipment and services. It is non-diversified.
 longName	State Street Energy Select Sector SPDR ETF
 market	us_market
-marketCap	10230948864
-marketState	CLOSED
+marketCap	10281283584
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_8795479
 navPrice	54.88832
 netAssets	32989737000.0
 netExpenseRatio	0.08
-open	55.0
-postMarketChange	0.11000061
-postMarketChangePercent	0.20043842
-postMarketPrice	54.99
-postMarketTime	1771635590
-previousClose	55.18
+open	55.035
+postMarketChange	0.011798859
+postMarketChangePercent	0.021394122
+postMarketPrice	55.1618
+postMarketTime	1771894799
+previousClose	54.88
 priceHint	2
-priceToBook	1.0530558
+priceToBook	1.0582366
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.299999
-regularMarketChangePercent	-0.543674
-regularMarketDayHigh	55.28
-regularMarketDayLow	54.51
-regularMarketDayRange	54.51 - 55.28
-regularMarketOpen	55.0
-regularMarketPreviousClose	55.18
-regularMarketPrice	54.88
-regularMarketTime	1771621200
-regularMarketVolume	47513644
+regularMarketChange	0.27
+regularMarketChangePercent	0.491983
+regularMarketDayHigh	55.93
+regularMarketDayLow	54.865
+regularMarketDayRange	54.865 - 55.93
+regularMarketOpen	55.035
+regularMarketPreviousClose	54.88
+regularMarketPrice	55.15
+regularMarketTime	1771880400
+regularMarketVolume	43801479
 sharesOutstanding	186424000
 shortName	State Street Energy Select Sect
 sourceInterval	15
@@ -87,16 +87,16 @@ threeYearAverageReturn	0.1285298
 totalAssets	32989736960
 tradeable	False
 trailingAnnualDividendRate	2.16
-trailingAnnualDividendYield	0.03914462
-trailingPE	21.899052
+trailingAnnualDividendYield	0.0393586
+trailingPE	22.006792
 trailingPegRatio	None
 trailingThreeMonthNavReturns	16.75871
 trailingThreeMonthReturns	16.75871
 triggerable	True
 twoHundredDayAverage	44.799423
-twoHundredDayAverageChange	10.080578
-twoHundredDayAverageChangePercent	0.22501579
+twoHundredDayAverageChange	10.350578
+twoHundredDayAverageChangePercent	0.23104267
 typeDisp	ETF
-volume	47513644
+volume	43801479
 yield	0.0287
 ytdReturn	14.0487

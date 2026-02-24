@@ -1,18 +1,19 @@
 Metric	Value
-52WeekChange	-0.17005986
-SandP52WeekChange	0.15480888
+52WeekChange	-0.1081081
+SandP52WeekChange	0.1602385
 address1	190 West Tasman Drive
 allTimeHigh	18.6
 allTimeLow	1.62
-ask	6.97
-askSize	7800
+ask	0.0
+askSize	7300
 auditRisk	6
+averageAnalystRating	1.9 - Buy
 averageDailyVolume10Day	31862870
-averageDailyVolume3Month	37656308
-averageVolume	37656308
+averageDailyVolume3Month	37716922
+averageVolume	37716922
 averageVolume10days	31862870
 beta	3.105
-bid	6.96
+bid	0.0
 bidSize	16500
 boardRisk	8
 bookValue	2.54
@@ -24,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	6.93
+currentPrice	6.96
 currentRatio	18.195
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	7.27
-dayLow	6.8736
+dayHigh	6.98
+dayLow	6.66
 debtToEquity	5.356
 displayName	Archer Aviation
 earningsCallTimestampEnd	1772488800
@@ -39,11 +40,11 @@ earningsTimestampEnd	1772485200
 earningsTimestampStart	1772485200
 ebitda	-601600000
 ebitdaMargins	0.0
-enterpriseToEbitda	-4.922
+enterpriseToEbitda	-4.955
 enterpriseToRevenue	-
-enterpriseValue	2961096960
+enterpriseValue	2980637184
 epsCurrentYear	-0.82679
-epsForward	-0.73488
+epsForward	-0.73822
 epsTrailingTwelveMonths	-1.17
 esgPopulated	False
 exchange	NYQ
@@ -52,21 +53,21 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	7.9026
-fiftyDayAverageChange	-0.9726
-fiftyDayAverageChangePercent	-0.12307342
-fiftyTwoWeekChangePercent	-17.005985
+fiftyDayAverageChange	-0.9425998
+fiftyDayAverageChangePercent	-0.11927717
+fiftyTwoWeekChangePercent	-10.81081
 fiftyTwoWeekHigh	14.62
-fiftyTwoWeekHighChange	-7.69
-fiftyTwoWeekHighChangePercent	-0.5259918
+fiftyTwoWeekHighChange	-7.66
+fiftyTwoWeekHighChangePercent	-0.5239398
 fiftyTwoWeekLow	5.48
-fiftyTwoWeekLowChange	1.4499998
-fiftyTwoWeekLowChangePercent	0.26459852
+fiftyTwoWeekLowChange	1.48
+fiftyTwoWeekLowChangePercent	0.270073
 fiftyTwoWeekRange	5.48 - 14.62
 financialCurrency	USD
 firstTradeDateMilliseconds	1608301800000
 floatShares	544326127
-forwardEps	-0.73488
-forwardPE	-9.430111
+forwardEps	-0.73822
+forwardPE	-9.428084
 freeCashflow	-316537504
 fullExchangeName	NYSE
 fullTimeEmployees	774
@@ -86,45 +87,46 @@ lastFiscalYearEnd	1735603200
 longBusinessSummary	Archer Aviation Inc., together with its subsidiaries, designs and develops aircraft and related technologies and services in the United States and internationally. It operates through the commercial and defense sectors. The company offers electric vertical takeoff and landing (eVTOL) aircraft for use in urban air mobility (UAM) and Archer Direct, a commercial aircraft. It also provides direct-to-consumer aerial ride share services and maintenance and repair services. The company was incorporated in 2018 and is headquartered in San Jose, California.
 longName	Archer Aviation Inc.
 market	us_market
-marketCap	5087376384
-marketState	CLOSED
+marketCap	5109400064
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_681233855
 mostRecentQuarter	1759190400
 netIncomeToCommon	-627400000
 nextFiscalYearEnd	1767139200
 numberOfAnalystOpinions	9
-open	7.09
+open	6.71
 operatingCashflow	-408000000
 operatingMargins	0.0
 overallRisk	9
 payoutRatio	0.0
 phone	650 272 3233
-postMarketChange	0.03730011
-postMarketChangePercent	0.53824115
-postMarketPrice	6.9673
-postMarketTime	1771635576
-previousClose	7.23
-priceEpsCurrentYear	-8.381814
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	6.96
+postMarketTime	1771894800
+previousClose	6.93
+priceEpsCurrentYear	-8.418099
 priceHint	2
-priceToBook	2.7283463
+priceToBook	2.7401576
 priceToSalesTrailing12Months	-
 profitMargins	0.0
 quickRatio	17.648
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
-recommendationKey	none
+recommendationKey	buy
+recommendationMean	1.88889
 region	US
-regularMarketChange	-0.3
-regularMarketChangePercent	-4.14938
-regularMarketDayHigh	7.27
-regularMarketDayLow	6.8736
-regularMarketDayRange	6.8736 - 7.27
-regularMarketOpen	7.09
-regularMarketPreviousClose	7.23
-regularMarketPrice	6.93
-regularMarketTime	1771621203
-regularMarketVolume	28367706
+regularMarketChange	0.0300002
+regularMarketChangePercent	0.432903
+regularMarketDayHigh	6.98
+regularMarketDayLow	6.66
+regularMarketDayRange	6.66 - 6.98
+regularMarketOpen	6.71
+regularMarketPreviousClose	6.93
+regularMarketPrice	6.96
+regularMarketTime	1771880402
+regularMarketVolume	31594657
 returnOnAssets	-0.30335
 returnOnEquity	-0.59133
 sector	Industrials
@@ -156,9 +158,9 @@ trailingEps	-1.17
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	9.4997
-twoHundredDayAverageChange	-2.5696998
-twoHundredDayAverageChangePercent	-0.27050325
+twoHundredDayAverageChange	-2.5396996
+twoHundredDayAverageChangePercent	-0.26734525
 typeDisp	Equity
-volume	28367706
+volume	31594657
 website	https://www.archer.com
 zip	95134

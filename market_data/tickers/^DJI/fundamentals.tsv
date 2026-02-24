@@ -1,12 +1,12 @@
 Metric	Value
-52WeekChange	14.184511
+52WeekChange	13.765823
 allTimeHigh	50512.79
 allTimeLow	3095.79
 ask	49825.69
 askSize	0
 averageDailyVolume10Day	593040000
-averageDailyVolume3Month	543501166
-averageVolume	543501166
+averageDailyVolume3Month	540110000
+averageVolume	540110000
 averageVolume10days	593040000
 bid	49385.31
 bidSize	0
@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	49712.56
-dayLow	49158.28
+dayHigh	49695.61
+dayLow	48731.46
 esgPopulated	False
 exchange	DJI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 fiftyDayAverage	48999.566
-fiftyDayAverageChange	626.40234
-fiftyDayAverageChangePercent	0.012783835
-fiftyTwoWeekChangePercent	14.184511
+fiftyDayAverageChange	-195.50781
+fiftyDayAverageChangePercent	-0.003989991
+fiftyTwoWeekChangePercent	13.765823
 fiftyTwoWeekHigh	50512.79
-fiftyTwoWeekHighChange	-886.8203
-fiftyTwoWeekHighChangePercent	-0.017556353
+fiftyTwoWeekHighChange	-1708.7305
+fiftyTwoWeekHighChangePercent	-0.03382768
 fiftyTwoWeekLow	36611.78
-fiftyTwoWeekLowChange	13014.1875
-fiftyTwoWeekLowChangePercent	0.35546446
+fiftyTwoWeekLowChange	12192.277
+fiftyTwoWeekLowChangePercent	0.33301514
 fiftyTwoWeekRange	36611.78 - 50512.79
 firstTradeDateMilliseconds	694362600000
 fullExchangeName	DJI
@@ -39,25 +39,25 @@ hasPrePostMarketData	False
 language	en-US
 longName	Dow Jones Industrial Average
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_INDEXDJI
-open	49323.0
-previousClose	49395.2
+open	49536.54
+previousClose	49625.97
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	230.76953
-regularMarketChangePercent	0.4671902
-regularMarketDayHigh	49712.56
-regularMarketDayLow	49158.28
-regularMarketDayRange	49158.28 - 49712.56
-regularMarketOpen	49323.0
-regularMarketPreviousClose	49395.2
-regularMarketPrice	49625.97
-regularMarketTime	1771623667
-regularMarketVolume	574812034
+regularMarketChange	-821.91016
+regularMarketChangePercent	-1.6562098
+regularMarketDayHigh	49695.61
+regularMarketDayLow	48731.46
+regularMarketDayRange	48731.46 - 49695.61
+regularMarketOpen	49536.54
+regularMarketPreviousClose	49625.97
+regularMarketPrice	48804.06
+regularMarketTime	1771882927
+regularMarketVolume	574610226
 shortName	Dow Jones Industrial Average
 sourceInterval	120
 symbol	^DJI
@@ -65,7 +65,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	45989.242
-twoHundredDayAverageChange	3636.7266
-twoHundredDayAverageChangePercent	0.079077765
+twoHundredDayAverageChange	2814.8164
+twoHundredDayAverageChangePercent	0.061205976
 typeDisp	Index
-volume	574812034
+volume	574610226
