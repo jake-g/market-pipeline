@@ -1,20 +1,12 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
 
 > **Note**: For future roadmap and ideas, see `TODO.md`.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-# Versions
-
-> **Note**: Newest on top. These versions map directly to the official `git tag` releases on the GitHub repository.
+> **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
 ## [v1.4.3] - 2026-02-21
-### 🚀 Features & Refactoring
-- **Project Governance**:
-    - Added MIT License and formalized authorship.
+### Features & Refactoring
 - **Static Hosting (GH Pages)**:
     - `index.html` automatically loads `market_data/index.json`.
     - `market_dashboard_server.py` dynamically intercepts `/market_data/index.json` requests locally.
@@ -45,7 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Added GitHub Actions/Gitea Actions `.github/workflows/ci.yml` pipeline to automatically execute `pre-commit run --all-files` and `./run_tests.sh` across Ubuntu boxes per push.
 
 ## [v1.4.2] - 2026-02-21
-### 🚀 Features & Refactoring
+### Features & Refactoring
 - **Historical Backfill**: Implemented `fetch_historical_news_premium` (renamed from `fetch_historical_news`) with weekly windowing to bypass the 1000-item API limit.
 - **Financials Expansion**:
     - Added `update_financials` to fetch Income, Balance Sheet, Cash Flow, and Earnings.
@@ -59,7 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [v1.4.1] - 2026-02-20
-### 🌟 Enhancements & Fixes
+### Enhancements & Fixes
 - **Data Stats**: `STATS.md` enumerates missing core files dynamically via `SKIP_lists`.
 - **Legacy Migrations**: `backfill_sentiment.py` -> `backfill_legacy_data.py`.
 - **Insider Backfill**: Imports `/insiderBuying` CSVs into `insider_trading.tsv` via date deduplication.
@@ -75,7 +67,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [v1.4.0] - 2026-02-18
-### 🚀 Major Release: Unified Data Pipeline
+### Major Release: Unified Data Pipeline
 Consolidated fetching APIs onto an automated standard. TSV-centric schema optimized for Git storage.
 
 ### Added
@@ -123,7 +115,7 @@ Consolidated fetching APIs onto an automated standard. TSV-centric schema optimi
 ## [v1.3.0] - 2026-02-17
 **Refactored Market Data Library & Centralized Configuration**
 
-### 🚀 Major Changes
+### Major Changes
 - **New Library (`market_data/`)**: All data fetching logic (Prices, Fundamentals, News, Macro) has been moved to `market_fetcher.py`.
 - **Centralized Config (`config.py`)**:
     - `MACRO_ASSETS`, `SECTORS`, and `FRED_SERIES` are now single-source-of-truth.
@@ -170,3 +162,8 @@ Consolidated fetching APIs onto an automated standard. TSV-centric schema optimi
 **Initial Prototype**
 - Basic yfinance fetching.
 - Simple dataframe display.
+
+
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).

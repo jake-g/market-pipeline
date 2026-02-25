@@ -1,18 +1,19 @@
 pandas
-yfinance
+ipython
 plotly
+tqdm
+joblib
+# web
+requests
+lxml
+# nlp
 feedparser
 textblob
-joblib
-pandas_datareader
-requests
-ipython
-lxml
-tqdm
-Jinja2
-kaleido
+# market data
+yfinance
 sec-edgar-downloader
 alpha-vantage
+# dev
 python-dotenv
 pre-commit
 yapf

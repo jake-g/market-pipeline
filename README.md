@@ -6,12 +6,14 @@
 [![View Demo Dashboard](https://img.shields.io/badge/View_Demo-Dashboard-blue?style=flat)](https://jake-g.github.io/market-pipeline/)
 <!-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jake-g/market-pipeline/blob/main/notebooks/market_dashboard.ipynb) -->
 
-## 🚀 Overview
-A git-friendly market data pipeline for fetching, backfilling, and analyzing financial data (Prices, News, Fundamentals, Macro). Fetches data from Yahoo Finance, Alpha Vantage, Google News, and FRED, storing it in plaintext formats.
+## Overview
+Fetch market data for a list of tickers and store it in a LLM and git friendly format.
+
+Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, Fundamentals, Macro). Fetches data from Yahoo Finance, Alpha Vantage, Google News, and FRED, storing it in plaintext formats.
 
 ### Key Features
 - **Git-Friendly**: Uses TSV (Tab-Separated Values) and sort-stable updates to minimize diff noise.
-- **Incremental Fetching**: Only pulls new data to respect API limits and reduce runtimes.
+- **Incremental Fetching**: Only pulls new data to respect API limits and reduce runtimes. Also backfill options.
 - **Comprehensive Datasets**:
   - **OHLCV Prices**: Daily history (Default: 2018+).
   - **News**: Recent aggregate (Yahoo, Google, Seeking Alpha) and historical backfill (FNSPID, 2010-2020).
@@ -20,44 +22,27 @@ A git-friendly market data pipeline for fetching, backfilling, and analyzing fin
   - **Insider Trading**: SEC Form 4 extraction via `sec-edgar-downloader`.
   - **Sentiment & ML**: AlphaVantage Sentiment scoring and Hybrid TextBlob fallbacks.
 
+---
+## APIs & Datasets
+
+### APIs
+- **[Yahoo Finance (`yfinance`)](https://pypi.org/project/yfinance/)**: Historical OHLCV options and pricing data.
+- **[FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org/)**: Macroeconomic indicators (GDP, CPI, Interest Rates).
+- **[SEC Edgar (`sec-edgar-downloader`)](https://pypi.org/project/sec-edgar-downloader/)**: Form 4 extraction for insider trading data.
+- **[Alpha Vantage](https://www.alphavantage.co/)**: Highly enriched historical news and sentiment scoring.
+- **[Benzinga / Google News]**: RSS feeds used for real-time news aggregation.
+
+### Datasets
+- **FNSPID**: Financial News and Stock Price Integration Dataset
+  - *Paper*: [FNSPID: A Comprehensive Financial News Dataset in Time Series](https://arxiv.org/abs/2402.06698)
+  - *Authors*: Zihan Dong, Xinyu Fan, Zhiyuan Peng
+  - *Source*: [HuggingFace - Zihan1004/FNSPID](https://huggingface.co/datasets/Zihan1004/FNSPID)
 
 ---
 
-## 📘 Architecture & Library
+## Setup & Usage
 
-The core is governed by the `market_data` library (`market_fetcher.py` and `config.py`), providing an object-oriented interface for data fetching.
-
-### Core Components
-- **`MarketFetcher`**: Main class. Handles intelligent `joblib` caching, TSV structured output, and strict API error resilience. Generates `STATS.md` and `SCHEMA.md` audits post-run.
-- **`config.py`**: Central configuration mapping for `SECTORS`, `FRED_SERIES`, and cache invalidation timelines.
-
-### 📊 Market Data (`index.html`)
-The primary visualization UI providing fast, interactive analytics for the dataset:
-- **Interactive File Explorer**: Natively navigate the `market_data` tree (auto-expands to `STATS.md` on launch).
-- **Embedded Plotly**: Select any TSV, click `PLOT`, and multi-line graph all numeric columns instantly.
-- **Precomputed Metadata**: File line sizes and exact row lengths are precomputed efficiently by the static server for seamless browsing.
-- **Search & Pinning**: Filter TSVs via regex, and pin high-signal files via `localStorage`.
-- **Legacy Analytics Tracking**: Includes legacy views like shipping vs logistics overlays, volatility vs annualized return scatters, and macro heatmaps in interactive scripts.
-- **Built-in Analytics**: Pre-configured with Google Analytics for visitor traffic tracking ([View Analytics Dashboard](https://analytics.google.com/analytics/web/#/a385180260p525537369/reports/intelligenthome)).
-
----
-
-## 🛠️ Scripts & Automation
-
-| Script | Purpose |
-|---|---|
-| **`./run_test_pipeline.sh`** | **Verification**: Runs tests, fetches subset data (1000 limit), and validates integrity. Run before pushing. |
-| **`./run_fetch.sh`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
-| `market_fetcher.py` | Core CLI for fetching specific combinations (e.g. `--limit-tickers`, `--news-days`). |
-| `./run_server.sh` | **Local UI**: Starts a lightweight HTTP server & statically serves the dashboard into your browser. |
-| `backfill/fnspid.py` | Historical news backfill from HuggingFace (FNSPID). |
-| `backfill/legacy_data.py` | Imports generic legacy TSV/CSV dumps into the unified layout. |
-| `./run_tests.sh` | Orchestrates the `market_fetcher_test.py` and notebook validation tests. |
-| `./zip_project.sh` | Packages code for easy Google Colab upload. |
-
----
-
-## 📦 Setup & Usage
+Code is Python with .sh scripts to run common tasks.
 
 ### 1. Environment Setup
 It is recommended to use a virtual environment to keep dependencies isolated.
@@ -103,18 +88,44 @@ To set this up on your repo:
 3. Set the branch to `main` and the folder to `/ (root)`.
 4. Click **Save**. Your site will now securely deploy natively using `index.html`.
 
-### 5. Running on Google Colab
-To run the dashboard in the cloud:
-1.  Run `./zip_project.sh` locally to creating `market-pipeline.zip`.
-2.  Upload `market_dashboard.ipynb` to Colab.
-3.  Execute the **Setup** cell and upload `market-pipeline.zip` when prompted.
-
 
 > **Note**: These scripts automatically handle virtual environment creation and dependency installation via `run_env_setup.sh`.
 
 ---
 
-## 📂 Data Structure (`market_data/`)
+## Architecture & Library
+
+The core is governed by the `market_data` library (`market_fetcher.py` and `config.py`), providing an object-oriented interface for data fetching.
+
+### Core Components
+- **`MarketFetcher`**: Main class. Handles intelligent `joblib` caching, TSV structured output, and strict API error resilience. Generates `STATS.md` and `SCHEMA.md` audits post-run.
+- **`config.py`**: Central configuration mapping for `SECTORS`, `FRED_SERIES`, and cache invalidation timelines.
+
+### Market Data Dashboard (`index.html`)
+The primary human-readable visualization UI providing fast, interactive analytics for the dataset:
+- **Interactive File Explorer**: Natively navigate the `market_data` tree (auto-expands to `STATS.md` on launch).
+- **Embedded Plotly**: Select any TSV, click `PLOT`, and multi-line graph all numeric columns instantly.
+- **Precomputed Metadata**: File line sizes and exact row lengths are precomputed efficiently by the static server for seamless browsing.
+- **Search & Pinning**: Filter TSVs via regex, and pin high-signal files via `localStorage`.
+
+---
+
+## Scripts
+
+| Script | Purpose |
+|---|---|
+| **`./run_test_pipeline.sh`** | **Verification**: Runs tests, fetches subset data (1000 limit), and validates integrity. Run before pushing. |
+| **`./run_fetch.sh`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
+| `market_fetcher.py` | Core CLI for fetching specific combinations (e.g. `--limit-tickers`, `--news-days`). |
+| `./run_server.sh` | **Local UI**: Starts a lightweight HTTP server & statically serves the dashboard into your browser. |
+| `backfill/fnspid.py` | Historical news backfill from HuggingFace (FNSPID). |
+| `backfill/legacy_data.py` | Imports generic legacy TSV/CSV dumps into the unified layout. |
+| `./run_tests.sh` | Orchestrates the `market_fetcher_test.py` and notebook validation tests. |
+| `./zip_project.sh` | Packages code for easy Google Colab upload. |
+
+---
+
+## Data Structure (`market_data/`)
 
 Organized generically by **Ticker** and **Topic**. View `DATA_SCHEMA.md` for detailed column specs.
 
@@ -131,7 +142,7 @@ Organized generically by **Ticker** and **Topic**. View `DATA_SCHEMA.md` for det
 
 ---
 
-## 📊 Reports
+## Reports
 After every run, the system generates reports in `market_data/`:
 - **`STATS.md`**: Health check report (Root of `market_data/`).
   - Lists total count of news items.
@@ -142,7 +153,7 @@ After every run, the system generates reports in `market_data/`:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 Edit `config.py` to modify:
 - **`SECTORS`**: Groupings of tickers to fetch.
 - **`NEWS_TOPICS`**: General search terms (e.g., "Geopolitics", "AI").
@@ -152,9 +163,12 @@ Edit `config.py` to modify:
 
 ---
 
-## 🧪 Development Guide
+
+## Development Notes
 
 This project follows the **Google Python Style Guide** (2-space indent, strict typing).
+
+Set up your own `.env` file with your Alpha Vantage API key and other settings, see `.env.example`.
 
 ```bash
 # Run all style, type, and lint checks (yapf, isort, mypy, pylint)
@@ -171,7 +185,7 @@ pre-commit install
 
 ---
 
-## 🛠️ Developer Workspace & Workflow
+### Workspace & Workflow
 
 ### Environment Configuration
 Code style is strictly replicated across environments via:
@@ -187,40 +201,9 @@ The dashboard operates entirely serverless:
 2. GitHub Pages natively serves `index.html` from the `main` branch.
 3. The dashboard JS dynamically fetches `market_data/index.json` on load.
 
-### Git Release Workflow (Squash & Merge)
-We maintain a clean public history by squashing development branches:
-
-1. **Develop**: Commit iteratively on `dev-v1` (pushed to your private remote).
-2. **Release**: Squash and tag onto `main`:
-   ```bash
-   git checkout --orphan main  # (Or `git branch -D main` if existing)
-   git merge --squash dev-v1
-   git commit -m "Release vX.X.X: Description"
-   git tag -a vX.X.X -m "Official Release vX.X.X"
-   git push origin main --tags
-   ```
-3. **Draft**: Use the pushed tag to draft an official GitHub Release.
-
 ---
 
-## 📚 APIs & Datasets
-
-### APIs
-- **[Yahoo Finance (`yfinance`)](https://pypi.org/project/yfinance/)**: Historical OHLCV options and pricing data.
-- **[FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org/)**: Macroeconomic indicators (GDP, CPI, Interest Rates).
-- **[SEC Edgar (`sec-edgar-downloader`)](https://pypi.org/project/sec-edgar-downloader/)**: Form 4 extraction for insider trading data.
-- **[Alpha Vantage](https://www.alphavantage.co/)**: Highly enriched historical news and sentiment scoring.
-- **[Benzinga / Google News]**: RSS feeds used for real-time news aggregation.
-
-### Datasets
-- **FNSPID**: Financial News and Stock Price Integration Dataset
-  - *Paper*: [FNSPID: A Comprehensive Financial News Dataset in Time Series](https://arxiv.org/abs/2402.06698)
-  - *Authors*: Zihan Dong, Xinyu Fan, Zhiyuan Peng
-  - *Source*: [HuggingFace - Zihan1004/FNSPID](https://huggingface.co/datasets/Zihan1004/FNSPID)
-
----
-
-## 📄 License & Authorship
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 Created by [Jake Garrison (jake-g)](https://github.com/jake-g).
