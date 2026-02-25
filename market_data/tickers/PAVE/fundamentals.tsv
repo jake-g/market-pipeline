@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	56.74
 allTimeLow	9.77
-ask	0.0
-askSize	200
-averageDailyVolume10Day	1864240
-averageDailyVolume3Month	1395016
-averageVolume	1395016
-averageVolume10days	1864240
+ask	55.31
+askSize	700
+averageDailyVolume10Day	1979410
+averageDailyVolume3Month	1435768
+averageVolume	1435768
+averageVolume10days	1979410
 beta3Year	1.42
-bid	0.0
+bid	55.0
 bidSize	200
 category	Infrastructure
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	55.58
-dayLow	54.5
+dayHigh	56.0
+dayLow	54.75
 dividendYield	0.86
 epsTrailingTwelveMonths	1.8072076
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	51.0459
-fiftyDayAverageChange	3.8141022
-fiftyDayAverageChangePercent	0.07471907
-fiftyTwoWeekChangePercent	39.204407
+fiftyDayAverage	51.3149
+fiftyDayAverageChange	3.7551003
+fiftyDayAverageChangePercent	0.07317758
+fiftyTwoWeekChangePercent	38.50174
 fiftyTwoWeekHigh	56.74
-fiftyTwoWeekHighChange	-1.8800011
-fiftyTwoWeekHighChangePercent	-0.03313361
+fiftyTwoWeekHighChange	-1.670002
+fiftyTwoWeekHighChangePercent	-0.029432533
 fiftyTwoWeekLow	32.65
-fiftyTwoWeekLowChange	22.21
-fiftyTwoWeekLowChangePercent	0.680245
+fiftyTwoWeekLowChange	22.419998
+fiftyTwoWeekLowChangePercent	0.6866768
 fiftyTwoWeekRange	32.65 - 56.74
 firstTradeDateMilliseconds	1488983400000
-fiveYearAverageReturn	0.203924
+fiveYearAverageReturn	0.1952869
 fullExchangeName	Cboe US
 fundFamily	Global X Funds
 fundInceptionDate	1488758400
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index. The underlying index is designed to measure the performance of U.S. listed companies that provide exposure to domestic infrastructure development, including companies involved in construction and engineering; production of infrastructure raw materials, composites and products; industrial transportation; and producers/distributors of heavy construction equipment.
 longName	Global X U.S. Infrastructure Development ETF
 market	us_market
-marketState	PREPRE
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_415556335
-navPrice	55.64
+navPrice	55.63
 netAssets	11673537500.0
 netExpenseRatio	0.47
-open	55.45
+open	55.97
 phone	+1 8884938631
-postMarketChange	-0.29999924
-postMarketChangePercent	-0.54684514
-postMarketPrice	54.56
-postMarketTime	1771894547
-previousClose	55.64
+postMarketChange	0.15439987
+postMarketChangePercent	0.2803702
+postMarketPrice	55.2244
+postMarketTime	1772063931
+previousClose	55.65
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.779999
-regularMarketChangePercent	-1.40187
-regularMarketDayHigh	55.58
-regularMarketDayLow	54.5
-regularMarketDayRange	54.5 - 55.58
-regularMarketOpen	55.45
-regularMarketPreviousClose	55.64
-regularMarketPrice	54.86
-regularMarketTime	1771880400
-regularMarketVolume	1872645
+regularMarketChange	-0.580002
+regularMarketChangePercent	-1.04223
+regularMarketDayHigh	56.0
+regularMarketDayLow	54.75
+regularMarketDayRange	54.75 - 56.0
+regularMarketOpen	55.97
+regularMarketPreviousClose	55.65
+regularMarketPrice	55.07
+regularMarketTime	1772053200
+regularMarketVolume	1216995
 shortName	Global X U.S. Infrastructure De
 sourceInterval	15
 symbol	PAVE
-threeYearAverageReturn	0.2441905
+threeYearAverageReturn	0.25410998
 totalAssets	11673537536
 tradeable	False
-trailingPE	30.356226
+trailingPE	30.472425
 trailingPegRatio	None
 trailingThreeMonthNavReturns	5.87634
 trailingThreeMonthReturns	5.87634
 triggerable	True
-twoHundredDayAverage	46.905773
-twoHundredDayAverageChange	7.9542274
-twoHundredDayAverageChangePercent	0.16957887
+twoHundredDayAverage	47.065723
+twoHundredDayAverageChange	8.004276
+twoHundredDayAverageChangePercent	0.17006594
 typeDisp	ETF
-volume	1872645
+volume	1216995
 yield	0.0086
 ytdReturn	6.19636

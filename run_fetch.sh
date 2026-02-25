@@ -16,6 +16,7 @@ source ./run_env_setup.sh
 # Market Fetcher (Daily/Current)
 t0=$(date +%s)
 echo "📉 Running Market Fetcher (All Tickers)..."
+# ETA Note: Based on the 2/25/2026 run, the full market fetcher (prices, fundamentals, financials, and rss news) takes approximately 10 minutes.
 python3 market_fetcher.py 2>&1 | tee logs/run_market_fetcher_full.log
 t1=$(date +%s)
 echo "✅ Market Fetcher finished in $((t1-t0))s."
@@ -45,3 +46,7 @@ total_time=$((end_time-start_time))
 
 echo "🎉 Full Pipeline Complete."
 echo "⏱️ Total Time: ${total_time}s"
+
+echo "💾 Committing newly generated market data..."
+git add market_data/
+git commit -m "Auto-update market data: $(date)" || echo "No new market data to commit."

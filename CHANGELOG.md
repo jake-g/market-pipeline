@@ -5,9 +5,22 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.4.5] - 2026-02-25
+### Features & Architecture
+- **Script Automation & Centralization**:
+    - Created `reports/run_all_report_scripts.sh` to provide a single entrypoint for sequentially regenerating all reports.
+    - Abstracted discrete quantitative, reporting, and plotting methods out of individual report generator scripts into a single `reports/report_utils.py` library.
+    - Updated NVDA and Growth Portfolio reports with latest market data and standardized Graphviz decision tree visuals.
+- **Reporting Enhancements**:
+    - Updated reports based on latest market data.
+    - Replaced absolute dollar amounts with relative percentages in `growth_portfolio_plan.py` (privacy).
+- **API Performance Enhancements (`market_fetcher.py`)**:
+    - Fixed a bug where AlphaVantage payloads would not leverage local `.cache/` data when requesting missing values. Implemented robust intercept logic validating cache freshness.
+    - Added "Broad Market & Intl ETFs" sector to `config.py` and successfully fetched corresponding asset data.
+
 ## [v1.4.4] - 2026-02-24
 ### Features
-- **NVDA Q4 Earnings Playbook (`reports/2026-02-24_NVDA_earnings_trade/`)**:
+- **NVDA Q4 Earnings Playbook (`reports/2026-02-25_NVDA_earnings_trade/`)**:
     - Executable playbook for Q4 2026 based on 2-year historical data.
     - Integrated structural metrics: Sympathy Beta matrices (AMD/MU/TSM), 200-SMA distances, and active RSI mapping.
     - Evaluated historical IV crush and "gap-trap" fade mechanics vs pre-earnings FOMO.

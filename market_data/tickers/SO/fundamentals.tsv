@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.04952693
-SandP52WeekChange	0.1602385
+52WeekChange	0.060861707
+SandP52WeekChange	0.15681672
 address1	30 Ivan Allen Jr. Boulevard, NW
 allTimeHigh	100.84
 allTimeLow	3.35995
-ask	0.0
-askSize	200
+ask	96.0
+askSize	300
 auditRisk	6
 averageAnalystRating	2.7 - Hold
 averageDailyVolume10Day	9101650
-averageDailyVolume3Month	6213547
-averageVolume	6213547
+averageDailyVolume3Month	6210741
+averageVolume	6210741
 averageVolume10days	9101650
 beta	0.447
-bid	0.0
-bidSize	800
+bid	95.76
+bidSize	600
 boardRisk	5
 bookValue	32.179
 city	Atlanta
@@ -25,16 +25,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	95.18
+currentPrice	95.92
 currentRatio	0.646
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	96.02
-dayLow	94.5
+dayHigh	96.0
+dayLow	94.115
 debtToEquity	190.586
 dividendDate	1772755200
 dividendRate	2.96
-dividendYield	3.11
+dividendYield	3.09
 earningsCallTimestampEnd	1771524000
 earningsCallTimestampStart	1771524000
 earningsGrowth	-0.221
@@ -44,11 +44,11 @@ earningsTimestampEnd	1777555800
 earningsTimestampStart	1777555800
 ebitda	13927000064
 ebitdaMargins	0.47125998
-enterpriseToEbitda	13.056
-enterpriseToRevenue	6.153
-enterpriseValue	181830664192
+enterpriseToEbitda	13.115
+enterpriseToRevenue	6.181
+enterpriseValue	182659006464
 epsCurrentYear	4.56907
-epsForward	4.90694
+epsForward	4.91225
 epsTrailingTwelveMonths	4.02
 esgPopulated	False
 exDividendDate	1771286400
@@ -58,22 +58,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	88.3726
-fiftyDayAverageChange	6.8074036
-fiftyDayAverageChangePercent	0.0770307
-fiftyTwoWeekChangePercent	4.952693
+fiftyDayAverageChange	7.5474014
+fiftyDayAverageChangePercent	0.08540432
+fiftyTwoWeekChangePercent	6.0861707
 fiftyTwoWeekHigh	100.84
-fiftyTwoWeekHighChange	-5.659996
-fiftyTwoWeekHighChangePercent	-0.056128483
+fiftyTwoWeekHighChange	-4.919998
+fiftyTwoWeekHighChangePercent	-0.048790146
 fiftyTwoWeekLow	83.09
-fiftyTwoWeekLowChange	12.090004
-fiftyTwoWeekLowChangePercent	0.14550492
+fiftyTwoWeekLowChange	12.830002
+fiftyTwoWeekLowChangePercent	0.15441091
 fiftyTwoWeekRange	83.09 - 100.84
 financialCurrency	USD
 firstTradeDateMilliseconds	378657000000
 fiveYearAvgDividendYield	3.71
 floatShares	1116850273
-forwardEps	4.90694
-forwardPE	19.397017
+forwardEps	4.91225
+forwardPE	19.526693
 freeCashflow	-3460124928
 fullExchangeName	NYSE
 fullTimeEmployees	29502
@@ -83,7 +83,7 @@ grossMargins	0.48469
 grossProfits	14323999744
 hasPrePostMarketData	True
 heldPercentInsiders	0.00435
-heldPercentInstitutions	0.72793996
+heldPercentInstitutions	0.72785
 impliedSharesOutstanding	1101104843
 industry	Utilities - Regulated Electric
 industryDisp	Utilities - Regulated Electric
@@ -99,29 +99,29 @@ lastSplitFactor	10000:6109
 longBusinessSummary	The Southern Company, through its subsidiaries, engages in the sale of electricity. The company offers electric service to retail customers and wholesale customers; and energy-related products and services to natural gas choice markets. It also develops, constructs, acquires, owns, operates, and manages power generation assets, as well as battery energy storage projects; sells electricity at market-based rates in the wholesale market; and deploys microgrids for commercial, industrial, governmental, and utility customers. In addition, the company is involved in the distribution of natural gas in Illinois, Georgia, Virginia, and Tennessee; distributes energy and resilience solutions; and invests in telecommunications. The Southern Company was incorporated in 1945 and is headquartered in Atlanta, Georgia.
 longName	The Southern Company
 market	us_market
-marketCap	104803164160
-marketState	PREPRE
+marketCap	105617981440
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_120623
 mostRecentQuarter	1767139200
 netIncomeToCommon	4341000192
 nextFiscalYearEnd	1798675200
 numberOfAnalystOpinions	20
-open	94.615
+open	95.65
 operatingCashflow	9802000384
 operatingMargins	0.12735
 overallRisk	1
 payoutRatio	0.7264
 phone	404 506 5000
-postMarketChange	0.8199997
-postMarketChangePercent	0.8615252
-postMarketPrice	96.0
-postMarketTime	1771894771
-previousClose	94.3
-priceEpsCurrentYear	20.831373
+postMarketChange	0.07990265
+postMarketChangePercent	0.08330134
+postMarketPrice	95.9999
+postMarketTime	1772065062
+previousClose	95.81
+priceEpsCurrentYear	20.993332
 priceHint	2
-priceToBook	2.9578295
-priceToSalesTrailing12Months	3.5462782
+priceToBook	2.980826
+priceToSalesTrailing12Months	3.5738497
 profitMargins	0.14689
 quickRatio	0.338
 quoteSourceName	Nasdaq Real Time Price
@@ -129,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.65217
 region	US
-regularMarketChange	0.879997
-regularMarketChangePercent	0.933189
-regularMarketDayHigh	96.02
-regularMarketDayLow	94.5
-regularMarketDayRange	94.5 - 96.02
-regularMarketOpen	94.615
-regularMarketPreviousClose	94.3
-regularMarketPrice	95.18
-regularMarketTime	1771880402
-regularMarketVolume	5861922
+regularMarketChange	0.110001
+regularMarketChangePercent	0.114811
+regularMarketDayHigh	96.0
+regularMarketDayLow	94.115
+regularMarketDayRange	94.115 - 96.0
+regularMarketOpen	95.65
+regularMarketPreviousClose	95.81
+regularMarketPrice	95.92
+regularMarketTime	1772053202
+regularMarketVolume	3856868
 returnOnAssets	0.03281
 returnOnEquity	0.11043
 revenueGrowth	0.101
@@ -158,7 +158,7 @@ shortRatio	5.06
 sourceInterval	15
 state	GA
 symbol	SO
-syntheticPEG	-0.877693076923077
+syntheticPEG	-0.8835607692307692
 targetHighPrice	108.0
 targetLowPrice	76.0
 targetMeanPrice	98.375
@@ -169,15 +169,15 @@ totalDebt	74074996736
 totalRevenue	29553000448
 tradeable	False
 trailingAnnualDividendRate	2.94
-trailingAnnualDividendYield	0.031177094
+trailingAnnualDividendYield	0.030685734
 trailingEps	4.02
-trailingPE	23.676617
-trailingPegRatio	4.2523
+trailingPE	23.860697
+trailingPegRatio	3.293
 triggerable	True
 twoHundredDayAverage	91.26935
-twoHundredDayAverageChange	3.9106522
-twoHundredDayAverageChangePercent	0.042847376
+twoHundredDayAverageChange	4.65065
+twoHundredDayAverageChangePercent	0.050955225
 typeDisp	Equity
-volume	5861922
+volume	3856868
 website	https://www.southerncompany.com
 zip	30308

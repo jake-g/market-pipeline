@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.023658276
-SandP52WeekChange	0.1602385
+52WeekChange	0.045722246
+SandP52WeekChange	0.15681672
 address1	One Lagoon Drive
 address2	4th Floor
 allTimeHigh	994.03
 allTimeLow	2.0
-ask	945.82
-askSize	2
+ask	953.17
+askSize	1
 auditRisk	10
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	914350
-averageDailyVolume3Month	617774
-averageVolume	617774
-averageVolume10days	914350
+averageDailyVolume10Day	924250
+averageDailyVolume3Month	616228
+averageVolume	616228
+averageVolume10days	924250
 beta	1.067
-bid	944.54
+bid	961.61
 bidSize	1
 boardRisk	8
 bookValue	144.116
@@ -26,16 +26,16 @@ corporateActions	[{'header': 'Dividend', 'message': 'EQIX announced a cash divid
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	945.64
+currentPrice	960.52
 currentRatio	1.316
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	950.11
-dayLow	924.45
+dayHigh	962.41
+dayLow	945.0
 debtToEquity	160.291
 dividendDate	1773792000
 dividendRate	19.23
-dividendYield	2.03
+dividendYield	2.02
 earningsCallTimestampEnd	1770849000
 earningsCallTimestampStart	1770849000
 earningsTimestamp	1770843600
@@ -43,12 +43,12 @@ earningsTimestampEnd	1777496400
 earningsTimestampStart	1777496400
 ebitda	4072000000
 ebitdaMargins	0.43974
-enterpriseToEbitda	27.98
-enterpriseToRevenue	12.304
-enterpriseValue	113934786560
+enterpriseToEbitda	28.339
+enterpriseToRevenue	12.462
+enterpriseValue	115396820992
 epsCurrentYear	16.7325
-epsForward	17.80833
-epsTrailingTwelveMonths	13.81
+epsForward	17.61286
+epsTrailingTwelveMonths	13.8
 esgPopulated	False
 exDividendDate	1771977600
 exchange	NMS
@@ -57,23 +57,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	650 598 6900
-fiftyDayAverage	805.848
-fiftyDayAverageChange	139.79199
-fiftyDayAverageChangePercent	0.17347191
-fiftyTwoWeekChangePercent	2.3658276
+fiftyDayAverage	814.2974
+fiftyDayAverageChange	146.2226
+fiftyDayAverageChangePercent	0.17956902
+fiftyTwoWeekChangePercent	4.5722246
 fiftyTwoWeekHigh	992.9
-fiftyTwoWeekHighChange	-47.26001
-fiftyTwoWeekHighChangePercent	-0.047597956
+fiftyTwoWeekHighChange	-32.380005
+fiftyTwoWeekHighChangePercent	-0.032611545
 fiftyTwoWeekLow	701.41
-fiftyTwoWeekLowChange	244.23004
-fiftyTwoWeekLowChangePercent	0.3481987
+fiftyTwoWeekLowChange	259.11005
+fiftyTwoWeekLowChangePercent	0.3694131
 fiftyTwoWeekRange	701.41 - 992.9
 financialCurrency	USD
 firstTradeDateMilliseconds	966000600000
 fiveYearAvgDividendYield	1.84
 floatShares	97864856
-forwardEps	17.80833
-forwardPE	53.10099
+forwardEps	17.61286
+forwardPE	54.535152
 freeCashflow	2833250048
 fullExchangeName	NasdaqGS
 fullTimeEmployees	13716
@@ -83,7 +83,7 @@ grossMargins	0.51317
 grossProfits	4752000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.00634
-heldPercentInstitutions	0.98599
+heldPercentInstitutions	0.9858
 impliedSharesOutstanding	98254928
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -99,31 +99,31 @@ lastSplitFactor	1:32
 longBusinessSummary	Equinix, Inc. shortens the path to boundless connectivity anywhere in the world. Its digital infrastructure, data center footprint and interconnected ecosystems empower innovations that enhance our work, life and planet. Equinix connects economies, countries, organizations and communities, delivering seamless digital experiences and cutting-edge AI quickly, efficiently and everywhere.
 longName	Equinix, Inc.
 market	us_market
-marketCap	92913795072
-marketState	PREPRE
+marketCap	94375821312
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_28202
 mostRecentQuarter	1767139200
-nameChangeDate	2026-02-23
+nameChangeDate	2026-02-25
 netIncomeToCommon	1350000000
 nextFiscalYearEnd	1798675200
 numberOfAnalystOpinions	26
-open	926.07
+open	947.86
 operatingCashflow	3911000064
 operatingMargins	0.21540001
 overallRisk	6
 payoutRatio	1.3634
 phone	650 598 6000
-postMarketChange	4.3599854
-postMarketChangePercent	0.46106187
-postMarketPrice	950.0
-postMarketTime	1771894405
+postMarketChange	4.4799805
+postMarketChangePercent	0.46641198
+postMarketPrice	965.0
+postMarketTime	1772063523
 prevName	Equinix, Inc. (REIT)
-previousClose	928.11
-priceEpsCurrentYear	56.515167
+previousClose	946.74
+priceEpsCurrentYear	57.404453
 priceHint	2
-priceToBook	6.561659
-priceToSalesTrailing12Months	10.033887
+priceToBook	6.664909
+priceToSalesTrailing12Months	10.191773
 profitMargins	0.14579001
 quickRatio	0.809
 quoteSourceName	Nasdaq Real Time Price
@@ -131,16 +131,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.63333
 region	US
-regularMarketChange	17.53
-regularMarketChangePercent	1.88879
-regularMarketDayHigh	950.11
-regularMarketDayLow	924.45
-regularMarketDayRange	924.45 - 950.11
-regularMarketOpen	926.07
-regularMarketPreviousClose	928.11
-regularMarketPrice	945.64
-regularMarketTime	1771880402
-regularMarketVolume	617550
+regularMarketChange	13.780029
+regularMarketChangePercent	1.4555242
+regularMarketDayHigh	962.41
+regularMarketDayLow	945.0
+regularMarketDayRange	945.0 - 962.41
+regularMarketOpen	947.86
+regularMarketPreviousClose	946.74
+regularMarketPrice	960.52
+regularMarketTime	1772053202
+regularMarketVolume	639417
 returnOnAssets	0.03333
 returnOnEquity	0.09722
 revenueGrowth	0.081
@@ -160,26 +160,26 @@ shortRatio	4.75
 sourceInterval	15
 state	CA
 symbol	EQIX
-syntheticPEG	6.555677777777778
+syntheticPEG	6.7327348148148145
 targetHighPrice	1200.0
 targetLowPrice	870.0
-targetMeanPrice	1014.53845
-targetMedianPrice	1011.0
+targetMeanPrice	1023.2692
+targetMedianPrice	1033.5
 totalCash	1727000064
 totalCashPerShare	17.577
 totalDebt	22726000640
 totalRevenue	9260000256
 tradeable	False
 trailingAnnualDividendRate	18.76
-trailingAnnualDividendYield	0.020213122
-trailingEps	13.81
-trailingPE	68.47501
-trailingPegRatio	2.9005
+trailingAnnualDividendYield	0.019815367
+trailingEps	13.8
+trailingPE	69.6029
+trailingPegRatio	4.3544
 triggerable	True
-twoHundredDayAverage	807.93274
-twoHundredDayAverageChange	137.70728
-twoHundredDayAverageChangePercent	0.17044398
+twoHundredDayAverage	808.68115
+twoHundredDayAverageChange	151.83887
+twoHundredDayAverageChangePercent	0.1877611
 typeDisp	Equity
-volume	617550
+volume	639417
 website	https://www.equinix.com
 zip	94065-1562
