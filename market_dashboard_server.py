@@ -2,6 +2,7 @@
 """Run a lightweight local server to automatically serve market-pipeline dashboard."""
 
 import argparse
+import fnmatch
 import json
 import logging
 import os
@@ -14,12 +15,32 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-EXCLUDE_DIRS = {
-    '.git', 'venv', '__pycache__', 'node_modules', '.vscode', 'logs', '.cache',
-    'old', 'LSTM_AI_Stock_Predictor-main', 'alpha_vantage_api'
-}
-INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json'}
+ALLOWED_ROOT_DIRS = {'market_data', 'reports', 'alpha_vantage_api'}
+INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json', '.py', '.png'}
 EXCLUDE_FILES = {'requirements.txt', 'TODO.md', 'index.json'}
+
+def load_gitignore():
+  """Parses local .gitignore rules."""
+  ignore_patterns = set()
+  gitignore_path = os.path.join(ROOT_DIR, '.gitignore')
+  if os.path.exists(gitignore_path):
+    with open(gitignore_path, 'r', encoding='utf-8') as f:
+      for line in f:
+        line = line.strip()
+        if line and not line.startswith('#'):
+          if line.endswith('/'):
+            line = line[:-1]
+          ignore_patterns.add(line)
+  return ignore_patterns
+
+GITIGNORE_PATTERNS = load_gitignore()
+
+def is_ignored(rel_path):
+  """Checks if a relative path matches any parsed .gitignore pattern."""
+  for pattern in GITIGNORE_PATTERNS:
+    if fnmatch.fnmatch(rel_path, pattern) or fnmatch.fnmatch(os.path.basename(rel_path), pattern):
+      return True
+  return False
 
 
 def build_tree(root_dir, path=""):
@@ -37,9 +58,15 @@ def build_tree(root_dir, path=""):
     full_disk_path = os.path.join(root_dir, path, entry)
     rel_path = os.path.join(path, entry).replace('\\', '/')
 
+    if is_ignored(rel_path):
+      continue
+
     if os.path.isdir(full_disk_path):
-      if entry in EXCLUDE_DIRS:
-        continue
+      # If we are at the root level (path == ""), ONLY allow explicitly whitelisted folders.
+      if path == "":
+        if entry not in ALLOWED_ROOT_DIRS:
+          continue
+
       children = build_tree(root_dir, rel_path)
       if children:  # Only add folders that contain valid files
         items.append({
@@ -66,8 +93,7 @@ def build_tree(root_dir, path=""):
             "name": entry,
             "path": rel_path,
             "size": stat.st_size,
-            "lines": lines,
-            "lastModified": int(stat.st_mtime * 1000)
+            "lines": lines
         })
 
   # Sort: Important files at top (for root only), then folders, then alphabetically

@@ -5,8 +5,20 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.4.4] - 2026-02-24
+### Features
+- **NVDA Q4 Earnings Playbook (`reports/2026-02-24_NVDA_earnings_trade/`)**:
+    - Executable playbook for Q4 2026 based on 2-year historical data.
+    - Integrated structural metrics: Sympathy Beta matrices (AMD/MU/TSM), 200-SMA distances, and active RSI mapping.
+    - Evaluated historical IV crush and "gap-trap" fade mechanics vs pre-earnings FOMO.
+    - `nvda_trade_analysis.py` dynamically refreshes report targets with real-time terminal endpoints.
+- **Dashboard UI Refinements (`index.html`)**:
+    - **Syntax Highlighting**: Python (`.py`) scripts now render with Github-style syntax formatting via `highlight.js`.
+    - **Dual Themes**: Syntax colors dynamically switch on Dark/Light mode toggle.
+    - **Rendering Fix**: Patched `marked.js` API type-errors for image-heavy documents.
+
 ## [v1.4.3] - 2026-02-21
-### Features & Refactoring
+### Refactoring
 - **Static Hosting (GH Pages)**:
     - `index.html` automatically loads `market_data/index.json`.
     - `market_dashboard_server.py` dynamically intercepts `/market_data/index.json` requests locally.
@@ -37,7 +49,7 @@
     - Added GitHub Actions/Gitea Actions `.github/workflows/ci.yml` pipeline to automatically execute `pre-commit run --all-files` and `./run_tests.sh` across Ubuntu boxes per push.
 
 ## [v1.4.2] - 2026-02-21
-### Features & Refactoring
+### Refactoring
 - **Historical Backfill**: Implemented `fetch_historical_news_premium` (renamed from `fetch_historical_news`) with weekly windowing to bypass the 1000-item API limit.
 - **Financials Expansion**:
     - Added `update_financials` to fetch Income, Balance Sheet, Cash Flow, and Earnings.
@@ -51,7 +63,7 @@
 
 
 ## [v1.4.1] - 2026-02-20
-### Enhancements & Fixes
+### Fixes
 - **Data Stats**: `STATS.md` enumerates missing core files dynamically via `SKIP_lists`.
 - **Legacy Migrations**: `backfill_sentiment.py` -> `backfill_legacy_data.py`.
 - **Insider Backfill**: Imports `/insiderBuying` CSVs into `insider_trading.tsv` via date deduplication.
