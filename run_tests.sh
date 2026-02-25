@@ -20,4 +20,7 @@ python3 -m unittest backfill/legacy_data_test.py
 echo "🧹 Code Quality & Formatting Validation..."
 ./run_format.sh
 
+echo "🌐 Generating static index.json for dashboard..."
+python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
+
 echo "✅ All Tests Passed!"

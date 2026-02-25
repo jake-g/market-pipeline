@@ -103,7 +103,9 @@ SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     "AMKBY", # OTC/Foreign often lacks CIK mapping
     "PAVE", "ITA", "SMH", "URA", "XLE", # Sector ETFs
     # Foreign / ADRs (No Form 4)
-    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "ZIM"
+    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "ZIM",
+    # Specific Corporate Exclusions (Missing/404 on SEC Edgar)
+    "LDOS", "LLY", "LMT", "MA", "MATX", "SMCI", "SO", "UPS", "V", "VRT"
 ]
 # yapf: enable
 

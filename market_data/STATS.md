@@ -1,5 +1,5 @@
 # Data Stats Report
-Date: 2026-02-24 18:19
+Date: 2026-02-24 22:45
 
 ## 1. Global Metrics
 - **Total Tickers**: 153
@@ -86,14 +86,14 @@ Date: 2026-02-24 18:19
 | JOBY | 2020-11-09 to 2026-02-24 | 132 | 6 | 0 | None |
 | JPM | 2018-01-02 to 2026-02-24 | 269 | 465 | 0 | None |
 | KLAC | 2018-01-02 to 2026-02-24 | 151 | 390 | 0 | None |
-| LDOS | 2018-01-02 to 2026-02-24 | 128 | 0 | 0 | insider_trading.tsv |
+| LDOS | 2018-01-02 to 2026-02-24 | 128 | 0 | 0 | None |
 | LIN | 2018-01-02 to 2026-02-24 | 163 | 3 | 0 | None |
-| LLY | 2018-01-02 to 2026-02-24 | 238 | 0 | 0 | insider_trading.tsv |
-| LMT | 2018-01-02 to 2026-02-24 | 165 | 0 | 0 | insider_trading.tsv |
+| LLY | 2018-01-02 to 2026-02-24 | 238 | 0 | 0 | None |
+| LMT | 2018-01-02 to 2026-02-24 | 165 | 0 | 0 | None |
 | LRCX | 2018-01-02 to 2026-02-24 | 154 | 2 | 0 | None |
-| MA | 2018-01-02 to 2026-02-24 | 410 | 0 | 0 | insider_trading.tsv |
+| MA | 2018-01-02 to 2026-02-24 | 410 | 0 | 0 | None |
 | MARA | 2018-01-02 to 2026-02-24 | 198 | 1 | 0 | None |
-| MATX | 2018-01-02 to 2026-02-24 | 139 | 0 | 0 | insider_trading.tsv |
+| MATX | 2018-01-02 to 2026-02-24 | 139 | 0 | 0 | None |
 | META | 2018-01-02 to 2026-02-24 | 416 | 3 | 0 | None |
 | MPWR | 2018-01-02 to 2026-02-24 | 121 | 5 | 0 | None |
 | MSFT | 2018-01-02 to 2026-02-24 | 308 | 1 | 0 | None |
@@ -126,11 +126,11 @@ Date: 2026-02-24 18:19
 | SCCO | 2018-01-02 to 2026-02-24 | 119 | 4 | 0 | None |
 | SHEL | 2018-01-02 to 2026-02-24 | 183 | 0 | 0 | None |
 | SLB | 2018-01-02 to 2026-02-24 | 152 | 2 | 0 | None |
-| SMCI | 2018-01-02 to 2026-02-24 | 156 | 0 | 0 | insider_trading.tsv |
+| SMCI | 2018-01-02 to 2026-02-24 | 156 | 0 | 0 | None |
 | SMH | 2018-01-02 to 2026-02-24 | 258 | 0 | 0 | None |
 | SNOW | 2020-09-16 to 2026-02-24 | 524 | 7 | 0 | None |
 | SNPS | 2018-01-02 to 2026-02-24 | 185 | 3 | 0 | None |
-| SO | 2018-01-02 to 2026-02-24 | 458 | 0 | 0 | insider_trading.tsv |
+| SO | 2018-01-02 to 2026-02-24 | 458 | 0 | 0 | None |
 | SPY | 2018-01-02 to 2026-02-24 | 256 | 0 | 0 | None |
 | SYK | 2018-01-02 to 2026-02-24 | 134 | 2 | 0 | None |
 | TDG | 2018-01-02 to 2026-02-24 | 133 | 7 | 0 | None |
@@ -141,12 +141,12 @@ Date: 2026-02-24 18:19
 | TTE | 2018-01-02 to 2026-02-24 | 145 | 0 | 0 | None |
 | TXN | 2018-01-02 to 2026-02-24 | 164 | 5 | 0 | None |
 | UBER | 2019-05-10 to 2026-02-24 | 302 | 2 | 0 | None |
-| UPS | 2018-01-02 to 2026-02-24 | 310 | 0 | 0 | insider_trading.tsv |
+| UPS | 2018-01-02 to 2026-02-24 | 310 | 0 | 0 | None |
 | URA | 2018-01-02 to 2026-02-24 | 150 | 0 | 0 | None |
-| V | 2018-01-02 to 2026-02-24 | 451 | 0 | 0 | insider_trading.tsv |
+| V | 2018-01-02 to 2026-02-24 | 451 | 0 | 0 | None |
 | VALE | 2018-01-02 to 2026-02-24 | 212 | 1 | 0 | None |
 | VIXY | 2018-01-02 to 2026-02-24 | 27 | 0 | 0 | None |
-| VRT | 2018-08-02 to 2026-02-24 | 170 | 0 | 0 | insider_trading.tsv |
+| VRT | 2018-08-02 to 2026-02-24 | 170 | 0 | 0 | None |
 | VRTX | 2018-01-02 to 2026-02-24 | 153 | 3 | 0 | None |
 | VST | 2018-01-02 to 2026-02-24 | 142 | 5 | 0 | None |
 | WDC | 2018-01-02 to 2026-02-24 | 182 | 7 | 0 | None |
@@ -241,13 +241,4 @@ Date: 2026-02-24 18:19
 | US10Y | 16018 | 1962-01-02 | 2026-02-20 | Daily |
 
 ## 5. Missing Files / Anomalies
-- **LDOS**: Missing insider_trading.tsv
-- **LLY**: Missing insider_trading.tsv
-- **LMT**: Missing insider_trading.tsv
-- **MA**: Missing insider_trading.tsv
-- **MATX**: Missing insider_trading.tsv
-- **SMCI**: Missing insider_trading.tsv
-- **SO**: Missing insider_trading.tsv
-- **UPS**: Missing insider_trading.tsv
-- **V**: Missing insider_trading.tsv
-- **VRT**: Missing insider_trading.tsv
+No missing core files detected.

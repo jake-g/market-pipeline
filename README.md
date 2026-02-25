@@ -12,6 +12,7 @@ Fetch market data for a list of tickers and store it in a LLM and git friendly f
 Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, Fundamentals, Macro). Fetches data from Yahoo Finance, Alpha Vantage, Google News, and FRED, storing it in plaintext formats.
 
 ### Key Features
+- **[Web Dashboard](https://jake-g.github.io/market-pipeline/)**: Interactive visualization of market data.
 - **Git-Friendly**: Uses TSV (Tab-Separated Values) and sort-stable updates to minimize diff noise.
 - **Incremental Fetching**: Only pulls new data to respect API limits and reduce runtimes. Also backfill options.
 - **Comprehensive Datasets**:
@@ -20,10 +21,10 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
   - **Fundamentals**: Key metrics (P/E, Market Cap) and Quarterly Financials.
   - **Macro**: FRED Economic indicators (Inflation, PPI).
   - **Insider Trading**: SEC Form 4 extraction via `sec-edgar-downloader`.
-  - **Sentiment & ML**: AlphaVantage Sentiment scoring and Hybrid TextBlob fallbacks.
+  - **ML Sentiment**: AlphaVantage Sentiment scoring and Hybrid TextBlob fallbacks.
 
 ---
-## APIs & Datasets
+## Data Sources
 
 ### APIs
 - **[Yahoo Finance (`yfinance`)](https://pypi.org/project/yfinance/)**: Historical OHLCV options and pricing data.
@@ -40,7 +41,7 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
 
 ---
 
-## Setup & Usage
+## Setup
 
 Code is Python with .sh scripts to run common tasks.
 
@@ -93,7 +94,7 @@ To set this up on your repo:
 
 ---
 
-## Architecture & Library
+## Library
 
 The core is governed by the `market_data` library (`market_fetcher.py` and `config.py`), providing an object-oriented interface for data fetching.
 
@@ -106,7 +107,7 @@ The primary human-readable visualization UI providing fast, interactive analytic
 - **Interactive File Explorer**: Natively navigate the `market_data` tree (auto-expands to `STATS.md` on launch).
 - **Embedded Plotly**: Select any TSV, click `PLOT`, and multi-line graph all numeric columns instantly.
 - **Precomputed Metadata**: File line sizes and exact row lengths are precomputed efficiently by the static server for seamless browsing.
-- **Search & Pinning**: Filter TSVs via regex, and pin high-signal files via `localStorage`.
+- **Search and Pinning**: Filter TSVs via regex, and pin high-signal files via `localStorage`.
 
 ---
 
@@ -117,7 +118,7 @@ The primary human-readable visualization UI providing fast, interactive analytic
 | **`./run_test_pipeline.sh`** | **Verification**: Runs tests, fetches subset data (1000 limit), and validates integrity. Run before pushing. |
 | **`./run_fetch.sh`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
 | `market_fetcher.py` | Core CLI for fetching specific combinations (e.g. `--limit-tickers`, `--news-days`). |
-| `./run_server.sh` | **Local UI**: Starts a lightweight HTTP server & statically serves the dashboard into your browser. |
+| `./run_server.sh` | **Local UI**: Starts a lightweight HTTP server and statically serves the dashboard into your browser. |
 | `backfill/fnspid.py` | Historical news backfill from HuggingFace (FNSPID). |
 | `backfill/legacy_data.py` | Imports generic legacy TSV/CSV dumps into the unified layout. |
 | `./run_tests.sh` | Orchestrates the `market_fetcher_test.py` and notebook validation tests. |
@@ -133,8 +134,8 @@ Organized generically by **Ticker** and **Topic**. View `DATA_SCHEMA.md` for det
 - `prices.tsv`: Daily OHLCV.
 - `news.tsv`: Aggregated news (`Date, Source, Headline, Sentiment, URL, Summary`).
 - `fundamentals.tsv`: Static company metrics.
-- `earnings.tsv`: Dates & estimates.
-- `financials_quarterly.tsv`: Balance sheet & income statement.
+- `earnings.tsv`: Dates, estimates.
+- `financials_quarterly.tsv`: Balance sheet, income statement.
 
 ### 2. Topic/Macro Data
 - `topics/{TOPIC}/news.tsv`: Thematic news ("AI", "Macro").
@@ -185,7 +186,7 @@ pre-commit install
 
 ---
 
-### Workspace & Workflow
+### Workflow
 
 ### Environment Configuration
 Code style is strictly replicated across environments via:
