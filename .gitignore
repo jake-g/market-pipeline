@@ -7,15 +7,18 @@
 
 # Ignore Directories
 venv/
-old/
-logs/
 .test_*/
 .cache/
 __pycache__/
 .mypy_cache/
-notebooks/
 
 # Project Specific
+old/
+logs/
 *AI_Stock_Predictor*
 *keys.tsv
+*keygen.py
 TODO.md
+
+# wip
+notebooks/
