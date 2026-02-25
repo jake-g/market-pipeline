@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | -0.012640953 |
+| Value | str | -0.027011871 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -46,11 +46,11 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Date | str | 2026-02-25 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.125 |
-| Headline | str | Michael Saylor compares Bitcoin with Apple, Amazon |
-| Summary | str | One thing I have learnt as an investor is that ... |
-| URL | str | https://www.thestreet.com/crypto/markets/michae... |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | 13 Of The Best 3D Printer Accessories On Amazon... |
+| Summary | str | Amazon Inc. is set to create 700 full- and part... |
+| URL | str | https://news.google.com/rss/articles/CBMieEFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -64,30 +64,30 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - Topic News
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-25 |
+| Date | str | 2025-06-16 |
 | Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | Combined GLP-1 and GLP-2 treatment appears safe... |
+| Sentiment | float64 | 0.15 |
+| Headline | str | Are GLP-1 drugs worth their current cost? - UCh... |
 | Summary | float64 | nan |
-| URL | str | https://news.google.com/rss/articles/CBMizgFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMitAFBVV... |
 
 ## 2. Macro Files
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 100.0 |
-| AIR_PPI | float64 | 100.0 |
-| TRUCK_PPI | float64 | 100.0 |
-| WAREHOUSE_PPI | float64 | 100.0 |
-| MFG_CONST | float64 | 28318.0 |
-| TECH_PULSE | float64 | 18.3732 |
-| CHINA_IMPORTS | float64 | 293.1 |
-| TARIFFS | float64 | 0.952 |
-| GDP | float64 | 243.164 |
-| UNRATE | float64 | 3.4 |
-| HOUSING_STARTS | float64 | 1657.0 |
-| RECESSION_PROB | float64 | 0.86 |
-| CPI | float64 | 21.48 |
-| FEDFUNDS | float64 | 0.8 |
-| US02Y | float64 | 7.26 |
-| US10Y | float64 | 4.06 |
+| FREIGHT_PPI | float64 | 417.553 |
+| AIR_PPI | float64 | 178.066 |
+| TRUCK_PPI | float64 | 188.168 |
+| WAREHOUSE_PPI | float64 | 168.631 |
+| MFG_CONST | float64 | 214137.0 |
+| TECH_PULSE | float64 | 89.7508 |
+| CHINA_IMPORTS | float64 | 21104.2786 |
+| TARIFFS | float64 | 364.324 |
+| GDP | float64 | 31490.07 |
+| UNRATE | float64 | 4.3 |
+| HOUSING_STARTS | float64 | 1404.0 |
+| RECESSION_PROB | float64 | 0.8 |
+| CPI | float64 | 326.588 |
+| FEDFUNDS | float64 | 3.64 |
+| US02Y | float64 | 3.48 |
+| US10Y | float64 | 4.08 |

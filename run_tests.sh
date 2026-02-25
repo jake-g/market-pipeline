@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+echo "🧹 Initial Formatting Validation..."
+./run_format.sh
+
 echo "🧪 Running All Tests..."
 source ./run_env_setup.sh
 

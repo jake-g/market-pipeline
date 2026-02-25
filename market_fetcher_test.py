@@ -12,7 +12,7 @@ import pandas as pd
 from market_fetcher import MarketFetcher
 
 
-class TestMarketFetcherSuite(unittest.TestCase):
+class TestMarketFetcherIntegration(unittest.TestCase):
   """
     Unified test suite for MarketFetcher.
     Covers:
@@ -51,6 +51,20 @@ class TestMarketFetcherSuite(unittest.TestCase):
     for f in ["DATA_SCHEMA.md", "DATA_STATS.md"]:
       if os.path.exists(f):
         os.remove(f)
+
+class TestMarketFetcherDataIO(unittest.TestCase):
+  def setUp(self):
+    logging.basicConfig(level=logging.ERROR)
+    self.test_dir = Path(".test_data")
+    self.cache_dir = Path(".test_cache")
+    self.ticker = "AAPL"
+    self.ticker_dir = self.test_dir / "tickers" / self.ticker
+    self.ticker_dir.mkdir(parents=True, exist_ok=True)
+    self.fetcher = MarketFetcher(data_dir=str(self.test_dir), cache_dir=str(self.cache_dir))
+
+  def tearDown(self):
+    if self.test_dir.exists(): shutil.rmtree(self.test_dir)
+    if self.cache_dir.exists(): shutil.rmtree(self.cache_dir)
 
   def test_deduplication_and_update(self):
     # print("\n🧪 Testing TSV Deduplication & Append...")
@@ -285,6 +299,20 @@ class TestMarketFetcherSuite(unittest.TestCase):
     with patch("market_fetcher.Downloader") as mock_dl_cls:
       self.fetcher.update_insider_trading([self.ticker])
       mock_dl_cls.assert_not_called()
+
+class TestMarketFetcherExtraction(unittest.TestCase):
+  def setUp(self):
+    logging.basicConfig(level=logging.ERROR)
+    self.test_dir = Path(".test_data")
+    self.cache_dir = Path(".test_cache")
+    self.ticker = "AAPL"
+    self.ticker_dir = self.test_dir / "tickers" / self.ticker
+    self.ticker_dir.mkdir(parents=True, exist_ok=True)
+    self.fetcher = MarketFetcher(data_dir=str(self.test_dir), cache_dir=str(self.cache_dir))
+
+  def tearDown(self):
+    if self.test_dir.exists(): shutil.rmtree(self.test_dir)
+    if self.cache_dir.exists(): shutil.rmtree(self.cache_dir)
 
   @patch("market_fetcher.requests.get")
   def test_alphavantage_sentiment(self, mock_get):
@@ -602,6 +630,58 @@ class TestMarketFetcherSuite(unittest.TestCase):
     self.assertEqual(count, 1)
     mock_get.assert_not_called()  # Should NOT fetch if cached
 
+  def test_caching_empty_data_and_expiry(self):
+    """Test that missing data is cached as empty and expiration is honored."""
+    test_ticker = "CACHE_EMPTY_TEST"
+    (self.test_dir / "tickers" / test_ticker).mkdir(parents=True, exist_ok=True)
+
+    cache_key = f"yf_quarterly_financials_{test_ticker}"
+
+    # 1. First run: Mock Yahoo to fail, should cache empty DataFrame
+    with patch("market_fetcher.yf.Ticker") as mock_ticker_cls:
+      mock_ticker = mock_ticker_cls.return_value
+      # Emulate missing data by throwing an exception
+      type(mock_ticker).quarterly_financials = property(lambda self: getattr(self, "missing", None))
+
+      self.fetcher.update_financials([test_ticker], include_alphavantage=False)
+
+      # Verify empty DataFrame is cached
+      data = self.fetcher._load_cache(cache_key)
+      self.assertIsNotNone(data)
+      self.assertTrue(data.empty)
+
+    # 2. Second run: Mock Yahoo to return data, but cache shouldn't be expired yet
+    with patch("market_fetcher.yf.Ticker") as mock_ticker_cls:
+      mock_ticker_cls.side_effect = Exception("Should not be called, cache hit expected")
+
+      self.fetcher.update_financials([test_ticker], include_alphavantage=False)
+
+      # Cache should still be the empty DataFrame
+      data = self.fetcher._load_cache(cache_key)
+      self.assertTrue(data.empty)
+
+    # 3. Third run: Expire the cache manually
+    import time
+    cache_path = self.fetcher._get_cache_path(cache_key)
+    # set modification time to old (expired)
+    old_time = time.time() - 90000  # expire config.CACHE_EXPIRY_FUNDAMENTALS
+    os.utime(cache_path, (old_time, old_time))
+
+    # Now mock Yahoo to return real data
+    with patch("market_fetcher.yf.Ticker") as mock_ticker_cls:
+      mock_ticker = mock_ticker_cls.return_value
+      mock_ticker.quarterly_financials = pd.DataFrame(
+          {pd.to_datetime('2024-01-01'): [100.0]}, index=["Revenue"]
+      )
+      mock_ticker.quarterly_balance_sheet = pd.DataFrame()
+      mock_ticker.quarterly_cashflow = pd.DataFrame()
+
+      self.fetcher.update_financials([test_ticker], include_alphavantage=False)
+
+      # Verify the new data is fetched and cached
+      data = self.fetcher._load_cache(cache_key)
+      self.assertFalse(data.empty)
+      self.assertEqual(data.loc["Revenue", pd.to_datetime('2024-01-01')], 100.0)
 
 if __name__ == "__main__":
   unittest.main()

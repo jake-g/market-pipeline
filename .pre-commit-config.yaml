@@ -25,7 +25,7 @@ repos:
     rev: v1.19.1
     hooks:
       - id: mypy
-        additional_dependencies: [types-requests, pandas-stubs]
+        additional_dependencies: [types-requests, pandas-stubs, types-tabulate]
         exclude: ^(tests/|notebooks/|backfill/|market_fetcher\.py|market_fetcher_test\.py)
         args: [--ignore-missing-imports, --explicit-package-bases]
 

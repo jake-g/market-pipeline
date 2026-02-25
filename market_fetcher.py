@@ -85,17 +85,25 @@ FRED_SERIES: Dict[str, str] = {
 # yapf: disable
 SKIP_EARNINGS: List[str] = [
     # Indices & Volatility
-    "^DJI", "^GSPC", "^IXIC", "^RUT", "^TNX", "^VIX",
-    "CL=F", "GC=F",
+    "^DJI", "^GSPC", "^IXIC", "^RUT", "^TNX", "^VIX", "VIXY",
 
-    # ETFs (Sector/Commodity)
-    "BDRY", "CORN", "CURM", "ITA", "PAVE", "SMH", "SOYB", "URA", "WEAT", "XLE",
+    # Commodities & Futures
+    "CL=F", "GC=F", "NG=F", "CORN", "CURN", "SOYB", "WEAT",
+
+    # Core Vanguard/Broad ETFs
+    "VTI", "VOO", "SPY", "VTSAX", "VUG", "VTV", "VEA", "VWO", "VIGAX", "SCHD", "SCHG", "SCHV", "VGT",
+
+    # Sector & Thematic ETFs
+    "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE", "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH",
+
+    # Fixed Income & Preferred
+    "PFFD", "PFXF", "FAGOX", "FASPX",
+
+    # Industry-Specific or Foreign Alternatives
+    "BDRY", "COPX", "XLU",
 
     # ADRs / Foreign Listings (Irregular Financials)
-    "ASML", "BHP", "BITF", "GOLD", "HUT", "NEM", "RIO", "TSM",
-
-    # ETFs / Commodities
-    "SPY", "COPX", "NG=F", "XLU", "VIXY"
+    "ASML", "BHP", "BITF", "GOLD", "HUT", "NEM", "RIO", "TSM"
 ]
 
 # Tickers to skip for Insider Trading (ETFs, Indices, OTC)
@@ -858,38 +866,50 @@ class MarketFetcher:
       ticker_path = self.get_ticker_path(ticker)
       fin_file = ticker_path / FINANCIALS_FILENAME
 
+      if ticker in SKIP_EARNINGS:
+        for attr in ["quarterly_financials", "quarterly_balance_sheet", "quarterly_cashflow"]:
+          cache_key = f"yf_{attr}_{ticker}"
+          if self._load_cache(cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
+             self._save_cache(cache_key, pd.DataFrame())
+        continue
+
       combined_frames = []
 
       # 1. Fetch Yahoo Finance (Primary)
       try:
-        yf_ticker = yf.Ticker(ticker)
+        yf_ticker = None
 
-        # Helper to fetch with caching
-        def get_yf_df(attr_name: str) -> pd.DataFrame:
+        def get_yf_df(attr_name: str, yf_t: Optional[yf.Ticker]) -> Tuple[pd.DataFrame, yf.Ticker]:
           cache_key = f"yf_{attr_name}_{ticker}"
           data = self._load_cache(
               cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+
           if data is None:
+            if yf_t is None:
+               yf_t = yf.Ticker(ticker)
             try:
-              data = getattr(yf_ticker, attr_name)
-              if data is not None and not data.empty:
-                self._save_cache(cache_key, data)
+              data = getattr(yf_t, attr_name)
+              if data is None:
+                data = pd.DataFrame()
+              self._save_cache(cache_key, data)
             except Exception:
-              return pd.DataFrame()
-          return data if data is not None else pd.DataFrame()
+              self._save_cache(cache_key, pd.DataFrame())
+              data = pd.DataFrame()
+
+          return data if data is not None else pd.DataFrame(), yf_t
 
         # Yahoo returns (Metrics x Date), we want (Date x Metrics) so we Transpose (.T)
-        inc = get_yf_df("quarterly_financials").T
+        inc, yf_ticker = get_yf_df("quarterly_financials", yf_ticker)
         if not inc.empty:
-          combined_frames.append(inc)
+          combined_frames.append(inc.T)
 
-        bal = get_yf_df("quarterly_balance_sheet").T
+        bal, yf_ticker = get_yf_df("quarterly_balance_sheet", yf_ticker)
         if not bal.empty:
-          combined_frames.append(bal)
+          combined_frames.append(bal.T)
 
-        cf = get_yf_df("quarterly_cashflow").T
+        cf, yf_ticker = get_yf_df("quarterly_cashflow", yf_ticker)
         if not cf.empty:
-          combined_frames.append(cf)
+          combined_frames.append(cf.T)
 
       except Exception as e:
         self.logger.warning(f"Yahoo financials failed for {ticker}: {e}")
@@ -907,32 +927,39 @@ class MarketFetcher:
         for func, paths in endpoints.items():
           list_key, date_key = paths
 
-          # Simple retry/fetch logic
-          max_retries = len(self._av_keys) if self._av_keys else 1
-          if max_retries > 5:
-            max_retries = 5
+          cache_key = f"av_{func}_{ticker}"
+          data = self._load_cache(cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
 
-          data = None
-          for _ in range(max_retries):
-            api_key = self._get_current_api_key()
-            if not api_key:
-              break
-            try:
-              url = f"https://www.alphavantage.co/query?function={func}&symbol={ticker}&apikey={api_key}"
-              r = requests.get(url, timeout=10)
-              resp = r.json()
-              if "Information" in resp and "rate limit" in resp[
-                  "Information"].lower():
+          if not data:
+            # Simple retry/fetch logic
+            max_retries = len(self._av_keys) if self._av_keys else 1
+            if max_retries > 5:
+              max_retries = 5
+
+            for _ in range(max_retries):
+              api_key = self._get_current_api_key()
+              if not api_key:
+                break
+              try:
+                url = f"https://www.alphavantage.co/query?function={func}&symbol={ticker}&apikey={api_key}"
+                r = requests.get(url, timeout=10)
+                resp = r.json()
+                if "Information" in resp and "rate limit" in resp[
+                    "Information"].lower():
+                  self._get_next_api_key()
+                  time.sleep(1)
+                  continue
+                if list_key in resp:
+                  data = resp[list_key]
+                  self._save_cache(cache_key, data)
+                  break
+
+                # Cache empty responses to prevent repeated useless calls
+                self._save_cache(cache_key, [])
+                break
+              except:
                 self._get_next_api_key()
                 time.sleep(1)
-                continue
-              if list_key in resp:
-                data = resp[list_key]
-                break
-              break
-            except:
-              self._get_next_api_key()
-              time.sleep(1)
 
           if data:
             # Convert to DF
@@ -1154,6 +1181,8 @@ class MarketFetcher:
     for ticker in tqdm(tickers, desc="Fundamentals"):
       ticker_path = self.get_ticker_path(ticker)
 
+      yf_ticker = None
+
       # 1. Info / Stats
       cache_key = f"fund_{ticker}"
       info = self._load_cache(cache_key,
@@ -1161,12 +1190,16 @@ class MarketFetcher:
 
       if info is None:
         try:
-          stock = yf.Ticker(ticker)
-          info = stock.info
+          if yf_ticker is None:
+              yf_ticker = yf.Ticker(ticker)
+          info = yf_ticker.info
+          if info is None:
+             info = {}
           self._save_cache(cache_key, info)
         except Exception as e:
           self.logger.warning(f"Failed to fetch info for {ticker}: {e}")
-          continue
+          self._save_cache(cache_key, {})
+          info = {}
 
       # 1b. Preserve existing keys (e.g. pegRatio) if missing from fresh fetch
       fund_path = ticker_path / FUNDAMENTALS_FILENAME
@@ -1218,27 +1251,39 @@ class MarketFetcher:
             if max_retries > 3:
               max_retries = 3
 
-            overview = None
-            for _ in range(max_retries):
-              api_key = self._get_current_api_key()
-              if not api_key:
-                break
-              try:
-                url = f"https://www.alphavantage.co/query?function=OVERVIEW&symbol={ticker}&apikey={api_key}"
-                r = requests.get(url, timeout=10)
-                data = r.json()
-                if "Information" in data and "rate limit" in data[
-                    "Information"].lower():
+            cache_key = f"av_overview_{ticker}"
+            overview = self._load_cache(cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+
+            if overview is None:
+              for _ in range(max_retries):
+                api_key = self._get_current_api_key()
+                if not api_key:
+                  break
+                try:
+                  url = f"https://www.alphavantage.co/query?function=OVERVIEW&symbol={ticker}&apikey={api_key}"
+                  r = requests.get(url, timeout=10)
+                  data = r.json()
+                  if "Information" in data and "rate limit" in data[
+                      "Information"].lower():
+                    self._get_next_api_key()
+                    time.sleep(1)
+                    continue
+                  if "Symbol" in data:
+                    overview = data
+                    self._save_cache(cache_key, overview)
+                    break
+
+                  # Missing Symbol or failed lookup
+                  self._save_cache(cache_key, {})
+                  break
+                except:
                   self._get_next_api_key()
                   time.sleep(1)
-                  continue
-                if "Symbol" in data:
-                  overview = data
-                  break
-                break
-              except:
-                self._get_next_api_key()
-                time.sleep(1)
+
+              # If we exhausted retries (e.g. rate limit), cache empty so we don't stall next run
+              if overview is None:
+                self._save_cache(cache_key, {})
+                overview = {}
 
             if overview:
               # Map interesting AV fields to info dict
@@ -1287,18 +1332,28 @@ class MarketFetcher:
             f.write(f"{k}\t{val}\n")
 
       # 2. Earnings & 3. Financials
+      earn_key = f"earn_{ticker}"
       if ticker in SKIP_EARNINGS:
+        # Prevent skip logic from bypassing cache writes
+        if self._load_cache(earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
+          self._save_cache(earn_key, pd.DataFrame())
         continue
 
-      stock = yf.Ticker(ticker)
       try:
-        earn_key = f"earn_{ticker}"
         earnings = self._load_cache(
             earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+
         if earnings is None:
-          earnings = stock.earnings_dates
-          if earnings is not None:
+          try:
+            if yf_ticker is None:
+                yf_ticker = yf.Ticker(ticker)
+            earnings = yf_ticker.earnings_dates
+            if earnings is None:
+              earnings = pd.DataFrame()
             self._save_cache(earn_key, earnings)
+          except Exception:
+            self._save_cache(earn_key, pd.DataFrame())
+            earnings = pd.DataFrame()
 
         if earnings is not None and not earnings.empty:
           earnings.to_csv(ticker_path / EARNINGS_FILENAME, sep='\t')
@@ -1440,7 +1495,10 @@ class MarketFetcher:
             pass
 
         # Check Missing Files
-        expected_files = [PRICES_FILENAME, NEWS_FILENAME, FUNDAMENTALS_FILENAME]
+        expected_files = [PRICES_FILENAME, FUNDAMENTALS_FILENAME]
+
+        if ticker not in SKIP_INSIDER:
+          expected_files.append(NEWS_FILENAME)
 
         # Add conditional files
         if ticker not in SKIP_EARNINGS:
@@ -1675,7 +1733,7 @@ class MarketFetcher:
             dtype = str(df[col].dtype)
             example = "N/A"
             if not df[col].empty:
-              example = str(df[col].iloc[0])
+              example = str(df[col].iloc[-1])
             if len(example) > 50:
               example = example[:47] + "..."
             report.append(f"| {col} | {dtype} | {example} |")
@@ -1698,7 +1756,7 @@ class MarketFetcher:
           example = "N/A (Empty)"
           valid_rows = df[col].dropna()
           if not valid_rows.empty:
-            example = str(valid_rows.iloc[0])
+            example = str(valid_rows.iloc[-1])
 
           if len(example) > 50:
             example = example[:47] + "..."

@@ -4,7 +4,11 @@ import os
 from dotenv import load_dotenv
 
 # Paths
-DATA_DIR = "market_data"
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(PROJECT_ROOT, "market_data")
+MARKET_DATA_DIR = DATA_DIR
+TICKERS_DIR = os.path.join(DATA_DIR, "tickers")
+REPORTS_DIR = os.path.join(PROJECT_ROOT, "reports")
 
 # API Keys (prefer loading from .env)
 load_dotenv()  # Load secrets from personal .env file
@@ -60,12 +64,12 @@ SECTORS = {
     "Chips & Semi": [
         "NVDA", "AMD", "INTC", "TSM", "ASML", "MU", "MPWR", "AVGO", "SMH",
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
-        "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH"
+        "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
         "CRM", "ADBE", "CSCO", "NOW", "RDDT", "IONQ", "PANW", "CRWD", "NET",
-        "DELL", "HPE", "SMCI", "TTD"
+        "DELL", "HPE", "SMCI", "TTD", "VGT"
     ],
     "Auto & Robot": [
         "TSLA", "TM", "F", "ACHR", "JOBY", "RIVN", "UBER"
@@ -73,27 +77,34 @@ SECTORS = {
     "Energy & Power Grid": [
         "XOM", "CVX", "CCJ", "NEE", "XLE", "FSLR", "SHEL", "TTE", "BP", "COP",
         "EOG", "SLB", "HAL", "URA", "D", "ES", "VST", "CEG", "CNP", "SO",
-        "GE", "GEV", "ETN", "PWR", "LIN", "WM"
+        "GE", "GEV", "ETN", "PWR", "LIN", "WM", "VDE", "FENY", "VPU", "FUTY", "NLR"
     ],
     "Aerospace & Defense":
     ["LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS"],
     "Crypto & Minerals": [
         "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM", "GOLD", "PAAS", "FCX",
-        "SCCO", "VALE", "RIO", "BHP", "BMNR", "BITF", "HUT", "CAT"
+        "SCCO", "VALE", "RIO", "BHP", "BMNR", "BITF", "HUT", "CAT", "IBIT", "GLDM"
     ],
     "Data Center & Infra": [
-        "EQIX", "DLR", "AMT", "CCI", "VRT", "ANET", "IRM", "BX"
+        "EQIX", "DLR", "AMT", "CCI", "VRT", "ANET", "IRM", "BX", "SCHH"
     ],
     "Shipping & Logistics": [
         "ZIM", "FDX", "UPS", "MATX", "GSL", "DAC", "SBLK", "BDRY", "AMKBY",
         "PAVE", "CNI", "CP"
     ],
     "Bio & MedTech": [
-        "NVO", "LLY", "ISRG", "VRTX", "REGN", "SYK"
+        "NVO", "LLY", "ISRG", "VRTX", "REGN", "SYK", "VHT"
     ],
     "Consumer & Finance": [
-        "CMG", "WMT", "COST", "DE", "BLK", "V", "MA", "JPM"
+        "CMG", "WMT", "COST", "DE", "BLK", "V", "MA", "JPM", "VDC"
     ],
+    "Broad Market & Intl ETFs": [
+        "VOO", "VTI", "VTSAX", "SCHG", "VUG", "VIGAX", "SCHV", "VTV",
+        "SCHD", "VEA", "VWO"
+    ],
+    "Fixed Income & Preferred": [
+        "PFFD", "PFXF", "FAGOX", "FASPX"
+    ]
 }
 # yapf: enable
 

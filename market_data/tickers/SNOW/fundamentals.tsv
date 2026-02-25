@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.050548077
-SandP52WeekChange	0.1602385
+52WeekChange	-0.030868292
+SandP52WeekChange	0.15681672
 address1	106 East Babcock Street
 address2	Suite 3A
 allTimeHigh	429.0
 allTimeLow	107.13
-ask	0.0
-askSize	600
+ask	169.18
+askSize	100
 auditRisk	4
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	6702630
-averageDailyVolume3Month	5783962
-averageVolume	5783962
-averageVolume10days	6702630
+averageDailyVolume10Day	6832000
+averageDailyVolume3Month	5958175
+averageVolume	5958175
+averageVolume10days	6832000
 beta	1.147
-bid	0.0
-bidSize	200
+bid	166.5
+bidSize	300
 boardRisk	10
 bookValue	6.235
 city	Bozeman
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	157.6
+currentPrice	169.21
 currentRatio	1.367
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	169.4242
-dayLow	155.38
+dayHigh	170.47
+dayLow	160.14
 debtToEquity	125.912
 displayName	Snowflake
 earningsCallTimestampEnd	1772056800
@@ -41,34 +41,34 @@ earningsTimestampEnd	1772053200
 earningsTimestampStart	1772053200
 ebitda	-1233820032
 ebitdaMargins	-0.28125998
-enterpriseToEbitda	-43.169
-enterpriseToRevenue	12.142
-enterpriseValue	53263228928
-epsCurrentYear	1.20368
-epsForward	1.6242
-epsTrailingTwelveMonths	-4.02
+enterpriseToEbitda	-46.389
+enterpriseToRevenue	13.048
+enterpriseValue	57236172800
+epsCurrentYear	1.20375
+epsForward	1.62419
+epsTrailingTwelveMonths	-4.03
 esgPopulated	False
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	205.1786
-fiftyDayAverageChange	-47.578598
-fiftyDayAverageChangePercent	-0.2318887
-fiftyTwoWeekChangePercent	5.0548077
+fiftyDayAverage	202.7688
+fiftyDayAverageChange	-33.558792
+fiftyDayAverageChangePercent	-0.16550274
+fiftyTwoWeekChangePercent	-3.0868292
 fiftyTwoWeekHigh	280.67
-fiftyTwoWeekHighChange	-123.07001
-fiftyTwoWeekHighChangePercent	-0.4384865
+fiftyTwoWeekHighChange	-111.46001
+fiftyTwoWeekHighChangePercent	-0.3971212
 fiftyTwoWeekLow	120.1
-fiftyTwoWeekLowChange	37.500008
-fiftyTwoWeekLowChangePercent	0.31223986
+fiftyTwoWeekLowChange	49.11001
+fiftyTwoWeekLowChangePercent	0.40890932
 fiftyTwoWeekRange	120.1 - 280.67
 financialCurrency	USD
 firstTradeDateMilliseconds	1600263000000
 floatShares	331882670
-forwardEps	1.6242
-forwardPE	97.03239
+forwardEps	1.62419
+forwardPE	104.18117
 freeCashflow	1285029632
 fullExchangeName	NYSE
 fullTimeEmployees	9023
@@ -78,7 +78,7 @@ grossMargins	0.67243
 grossProfits	2949764096
 hasPrePostMarketData	True
 heldPercentInsiders	0.0339
-heldPercentInstitutions	0.78064
+heldPercentInstitutions	0.78015
 impliedSharesOutstanding	342200000
 industry	Software - Application
 industryDisp	Software - Application
@@ -90,29 +90,29 @@ lastFiscalYearEnd	1738281600
 longBusinessSummary	Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Bozeman, Montana.
 longName	Snowflake Inc.
 market	us_market
-marketCap	53930721280
-marketState	PREPRE
+marketCap	57903665152
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_275004592
 mostRecentQuarter	1761868800
 netIncomeToCommon	-1349539968
 nextFiscalYearEnd	1769817600
 numberOfAnalystOpinions	47
-open	169.68
+open	161.43
 operatingCashflow	873513024
 operatingMargins	-0.27164
 overallRisk	10
 payoutRatio	0.0
 phone	844 766 9355
-postMarketChange	0.3999939
-postMarketChangePercent	0.25380322
-postMarketPrice	158.0
-postMarketTime	1771894796
-previousClose	172.5
-priceEpsCurrentYear	130.93181
+postMarketChange	-3.4200134
+postMarketChangePercent	-2.021165
+postMarketPrice	165.79
+postMarketTime	1772065211
+previousClose	161.06
+priceEpsCurrentYear	140.56906
 priceHint	2
-priceToBook	25.276665
-priceToSalesTrailing12Months	12.294083
+priceToBook	27.138733
+priceToSalesTrailing12Months	13.199758
 profitMargins	-0.30764
 quickRatio	1.275
 quoteSourceName	Nasdaq Real Time Price
@@ -120,16 +120,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.55769
 region	US
-regularMarketChange	-14.9
-regularMarketChangePercent	-8.63768
-regularMarketDayHigh	169.4242
-regularMarketDayLow	155.38
-regularMarketDayRange	155.38 - 169.4242
-regularMarketOpen	169.68
-regularMarketPreviousClose	172.5
-regularMarketPrice	157.6
-regularMarketTime	1771880402
-regularMarketVolume	11082277
+regularMarketChange	8.15001
+regularMarketChangePercent	5.06023
+regularMarketDayHigh	170.47
+regularMarketDayLow	160.14
+regularMarketDayRange	160.14 - 170.47
+regularMarketOpen	161.43
+regularMarketPreviousClose	161.06
+regularMarketPrice	169.21
+regularMarketTime	1772053202
+regularMarketVolume	12971094
 returnOnAssets	-0.10469
 returnOnEquity	-0.53093
 revenueGrowth	0.287
@@ -149,7 +149,7 @@ shortRatio	2.88
 sourceInterval	15
 state	MT
 symbol	SNOW
-syntheticPEG	3.3809195121951223
+syntheticPEG	3.6300059233449478
 targetHighPrice	500.0
 targetLowPrice	170.0
 targetMeanPrice	266.01532
@@ -161,13 +161,13 @@ totalRevenue	4386721792
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-4.02
-trailingPegRatio	10.2059
+trailingEps	-4.03
+trailingPegRatio	5.6005
 triggerable	True
-twoHundredDayAverage	218.58295
-twoHundredDayAverageChange	-60.98294
-twoHundredDayAverageChangePercent	-0.2789922
+twoHundredDayAverage	218.4812
+twoHundredDayAverageChange	-49.271194
+twoHundredDayAverageChangePercent	-0.22551686
 typeDisp	Equity
-volume	11082277
+volume	12971094
 website	https://www.snowflake.com
 zip	59715

@@ -1,42 +1,42 @@
 Metric	Value
-52WeekChange	1.3233349
-SandP52WeekChange	0.1602385
+52WeekChange	1.287483
+SandP52WeekChange	0.15681672
 address1	358 Hall Avenue
 address2	PO Box 5030
 allTimeHigh	167.04
 allTimeLow	0.080078
-ask	0.0
-askSize	500
+ask	153.89
+askSize	200
 auditRisk	7
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	8820820
-averageDailyVolume3Month	9369371
-averageVolume	9369371
-averageVolume10days	8820820
+averageDailyVolume10Day	8142700
+averageDailyVolume3Month	9329358
+averageVolume	9329358
+averageVolume10days	8142700
 beta	1.21
-bid	0.0
-bidSize	400
+bid	152.24
+bidSize	100
 boardRisk	8
 bookValue	10.935
 city	Wallingford
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Richard Adam Norwitt J.D.', 'age': 55, 'title': 'President, CEO & Director', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 6695856, 'exercisedValue': 112908000, 'unexercisedValue': 281984160}, {'maxAge': 1, 'name': 'Mr. Craig A. Lampo CPA', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 1927606, 'exercisedValue': 49897500, 'unexercisedValue': 121367528}, {'maxAge': 1, 'name': 'Mr. Luc  Walter', 'age': 66, 'title': 'President of Harsh Environment Solutions Division', 'yearBorn': 1959, 'fiscalYear': 2024, 'totalPay': 1926644, 'exercisedValue': 31881490, 'unexercisedValue': 40137012}, {'maxAge': 1, 'name': 'Mr. William J. Doherty', 'age': 66, 'title': 'President of Communications Solutions Division', 'yearBorn': 1959, 'fiscalYear': 2024, 'totalPay': 1846180, 'exercisedValue': 23198900, 'unexercisedValue': 34750892}, {'maxAge': 1, 'name': 'Mr. Peter J. Straub', 'age': 57, 'title': 'President of the Interconnect & Sensor Systems Division', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 1100250, 'exercisedValue': 8128600, 'unexercisedValue': 16766669}, {'maxAge': 1, 'name': 'Mr. Michael R. Ivas', 'age': 54, 'title': 'SVP, Corporate Controller & Principal Accounting Officer', 'yearBorn': 1971, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sherri Ann Scribner', 'title': 'Vice President of Strategy & Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': "Mr. Lance E. D'Amico J.D.", 'age': 56, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2024, 'totalPay': 670665, 'exercisedValue': 4586250, 'unexercisedValue': 26096992}, {'maxAge': 1, 'name': 'Mr. Ben J. Reed', 'title': 'Vice President of Corporate Development', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David M. Silverman', 'age': 47, 'title': 'Executive Vice President of Human Resources', 'yearBorn': 1978, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	7
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'APH announced a cash dividend of 0.25$ with an ex-date of Mar. 23, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774242000000, 'amount': '0.25'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	147.82
+currentPrice	152.64
 currentRatio	2.979
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	151.755
-dayLow	147.2
+dayHigh	154.05
+dayLow	148.81
 debtToEquity	118.935
 displayName	Amphenol
 dividendDate	1776124800
 dividendRate	1.0
-dividendYield	0.68
+dividendYield	0.66
 earningsCallTimestampEnd	1769623200
 earningsCallTimestampStart	1769623200
 earningsGrowth	0.576
@@ -46,12 +46,12 @@ earningsTimestampEnd	1777469400
 earningsTimestampStart	1777469400
 ebitda	6970800128
 ebitdaMargins	0.30184
-enterpriseToEbitda	26.745
-enterpriseToRevenue	8.073
-enterpriseValue	186432651264
-epsCurrentYear	4.38569
-epsForward	5.14753
-epsTrailingTwelveMonths	3.34
+enterpriseToEbitda	27.595
+enterpriseToRevenue	8.329
+enterpriseValue	192357466112
+epsCurrentYear	4.38371
+epsForward	5.14591
+epsTrailingTwelveMonths	3.33
 esgPopulated	False
 exDividendDate	1774224000
 exchange	NYQ
@@ -59,23 +59,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	142.334
-fiftyDayAverageChange	5.4860077
-fiftyDayAverageChangePercent	0.0385432
-fiftyTwoWeekChangePercent	132.3335
+fiftyDayAverage	142.7752
+fiftyDayAverageChange	9.864792
+fiftyDayAverageChangePercent	0.06909317
+fiftyTwoWeekChangePercent	128.74829
 fiftyTwoWeekHigh	167.04
-fiftyTwoWeekHighChange	-19.219986
-fiftyTwoWeekHighChangePercent	-0.115062185
+fiftyTwoWeekHighChange	-14.399994
+fiftyTwoWeekHighChangePercent	-0.08620686
 fiftyTwoWeekLow	56.45
-fiftyTwoWeekLowChange	91.37001
-fiftyTwoWeekLowChangePercent	1.6186007
+fiftyTwoWeekLowChange	96.19
+fiftyTwoWeekLowChangePercent	1.7039858
 fiftyTwoWeekRange	56.45 - 167.04
 financialCurrency	USD
 firstTradeDateMilliseconds	689610600000
 fiveYearAvgDividendYield	0.86
 floatShares	1221372539
-forwardEps	5.14753
-forwardPE	28.716686
+forwardEps	5.14591
+forwardPE	29.662394
 freeCashflow	3280075008
 fullExchangeName	NYSE
 fullTimeEmployees	170000
@@ -85,7 +85,7 @@ grossMargins	0.37217999
 grossProfits	8595500032
 hasPrePostMarketData	True
 heldPercentInsiders	0.00675
-heldPercentInstitutions	0.97793
+heldPercentInstitutions	0.97753996
 impliedSharesOutstanding	1229214930
 industry	Electronic Components
 industryDisp	Electronic Components
@@ -100,47 +100,47 @@ lastSplitFactor	2:1
 longBusinessSummary	Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Communications Solutions, Harsh Environment Solutions, and Interconnect and Sensor Systems. The company offers connectors and connector systems, including high speed, radio frequency, power, fiber optic and other interconnect products; busbars and power distribution systems; power interconnect products; and other products. It also provides value-add products, such as backplane interconnect systems, cable assemblies and harnesses, and cable management products; and other products comprising flexible and rigid printed circuit boards, hinges, other mechanical, and production related products. In addition, the company offers consumer device, network infrastructure, and other antennas; coaxial, power, and specialty cables; and sensors and sensor-based products. It sells its products through its sales force, independent representatives, and a network of electronics distributors to original equipment manufacturers, electronic manufacturing services companies, original design manufacturers, and service providers in the automotive, commercial aerospace, communications networks, defense, industrial, information technology and data communications, mobile devices markets. The company was founded in 1932 and is headquartered in Wallingford, Connecticut.
 longName	Amphenol Corporation
 market	us_market
-marketCap	181702574080
-marketState	PREPRE
+marketCap	187627372544
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_24827
 mostRecentQuarter	1767139200
 netIncomeToCommon	4270299904
 nextFiscalYearEnd	1798675200
 numberOfAnalystOpinions	18
-open	150.12
+open	151.45
 operatingCashflow	5374700032
 operatingMargins	0.27469
 overallRisk	6
 payoutRatio	0.22309999
 pegRatio	1.946
 phone	203 265 8900
-postMarketChange	0.5799866
-postMarketChangePercent	0.39236
-postMarketPrice	148.4
-postMarketTime	1771894769
-previousClose	151.04
-priceEpsCurrentYear	33.705074
+postMarketChange	0.3600006
+postMarketChangePercent	0.23584945
+postMarketPrice	153.0
+postMarketTime	1772064969
+previousClose	151.5
+priceEpsCurrentYear	34.81982
 priceHint	2
-priceToBook	13.518062
-priceToSalesTrailing12Months	7.8677173
+priceToBook	13.958847
+priceToSalesTrailing12Months	8.124261
 profitMargins	0.1849
 quickRatio	2.374
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	none
 recommendationMean	1.77778
 region	US
-regularMarketChange	-3.21999
-regularMarketChangePercent	-2.13188
-regularMarketDayHigh	151.755
-regularMarketDayLow	147.2
-regularMarketDayRange	147.2 - 151.755
-regularMarketOpen	150.12
-regularMarketPreviousClose	151.04
-regularMarketPrice	147.82
-regularMarketTime	1771880402
-regularMarketVolume	6037006
+regularMarketChange	1.14
+regularMarketChangePercent	0.752475
+regularMarketDayHigh	154.05
+regularMarketDayLow	148.81
+regularMarketDayRange	148.81 - 154.05
+regularMarketOpen	151.45
+regularMarketPreviousClose	151.5
+regularMarketPrice	152.64
+regularMarketTime	1772053202
+regularMarketVolume	4521421
 returnOnAssets	0.13108
 returnOnEquity	0.36851
 revenueGrowth	0.491
@@ -162,23 +162,23 @@ state	CT
 symbol	APH
 targetHighPrice	210.0
 targetLowPrice	135.0
-targetMeanPrice	168.20833
-targetMedianPrice	168.5
+targetMeanPrice	169.44444
+targetMedianPrice	169.0
 totalCash	11434200064
 totalCashPerShare	9.302
 totalDebt	16067699712
 totalRevenue	23094700032
 tradeable	False
 trailingAnnualDividendRate	0.745
-trailingAnnualDividendYield	0.0049324683
-trailingEps	3.34
-trailingPE	44.25749
-trailingPegRatio	1.9461
+trailingAnnualDividendYield	0.0049174917
+trailingEps	3.33
+trailingPE	45.837837
+trailingPegRatio	1.6661
 triggerable	True
-twoHundredDayAverage	119.81775
-twoHundredDayAverageChange	28.002258
-twoHundredDayAverageChangePercent	0.2337071
+twoHundredDayAverage	120.5116
+twoHundredDayAverageChange	32.128403
+twoHundredDayAverageChangePercent	0.2666001
 typeDisp	Equity
-volume	6037006
+volume	4521421
 website	https://www.amphenol.com
 zip	06492
