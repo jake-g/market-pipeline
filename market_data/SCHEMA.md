@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-24 |
+| Date | str | 2026-02-25 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.283 |
-| Headline | str | 3 Brilliant Growth Stocks to Buy Now and Hold f... |
-| Summary | str | Look beyond the current numbers for enduring gr... |
-| URL | str | https://www.fool.com/investing/2026/02/23/3-bri... |
+| Sentiment | float64 | 0.125 |
+| Headline | str | Michael Saylor compares Bitcoin with Apple, Amazon |
+| Summary | str | One thing I have learnt as an investor is that ... |
+| URL | str | https://www.thestreet.com/crypto/markets/michae... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -64,12 +64,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - Topic News
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-24 |
+| Date | str | 2026-02-25 |
 | Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | Got $5,000? Viking Therapeutics Might Be a Weig... |
+| Sentiment | float64 | 0.5 |
+| Headline | str | Combined GLP-1 and GLP-2 treatment appears safe... |
 | Summary | float64 | nan |
-| URL | str | https://news.google.com/rss/articles/CBMimAFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMizgFBVV... |
 
 ## 2. Macro Files
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
