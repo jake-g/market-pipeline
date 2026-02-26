@@ -1,4 +1,3 @@
-# pylint: disable=protected-access, unspecified-encoding
 import datetime
 import logging
 import os
@@ -371,7 +370,9 @@ class TestMarketFetcherExtraction(unittest.TestCase):
         "pegRatio": 1.5,
         "forwardPE": 20,
         "earningsGrowth": 0.15,
-        "sector": "Technology"
+        "sector": "Technology",
+        "trailingEps": 5.0,
+        "currentPrice": 150.0
     }
     mock_ticker.earnings_dates = pd.DataFrame(
         {
@@ -379,6 +380,13 @@ class TestMarketFetcherExtraction(unittest.TestCase):
             "Reported EPS": [1.1]
         },
         index=pd.to_datetime(['2024-01-01']))
+
+    # Provide 10 quarters of increasing EPS to generate positive growth
+    dates = pd.date_range(end='2024-01-01', periods=10, freq='D')
+    eps_vals = [1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9] # Reverse order (newest to oldest index)
+    mock_ticker.quarterly_financials = pd.DataFrame(
+        {"Basic EPS": eps_vals[::-1]}, index=pd.Index(dates[::-1], name='Date')).T
+
     mock_ticker.quarterly_cashflow = pd.DataFrame(
         {"Capital Expenditures": [-1000]}, index=pd.to_datetime(['2024-01-01']))
 
@@ -395,6 +403,8 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     with open(self.ticker_dir / "fundamentals.tsv") as f:
       content = f.read()
       self.assertIn("pegRatio", content)
+      self.assertIn("graham_intrinsic_value", content)
+      self.assertIn("discount_to_intrinsic_value", content)
 
   @patch("market_fetcher.yf.Ticker")
   def test_update_financials(self, mock_ticker_cls):

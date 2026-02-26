@@ -10,14 +10,6 @@ import datetime
 import logging
 import os
 import sys
-
-# pylint: disable=wrong-import-position
-# Resolve the project root natively handling execution from any directory
-OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPORTS_DIR = os.path.abspath(os.path.join(OUTPUT_DIR, '..'))
-if REPORTS_DIR not in sys.path:
-  sys.path.insert(0, REPORTS_DIR)
-# pylint: enable=wrong-import-position
 from typing import Any, Dict, List, Tuple
 
 import matplotlib.pyplot as plt
@@ -25,11 +17,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from graphviz import Digraph
-
-# Resolve the project root natively handling execution from any directory
-# pylint: disable=wrong-import-position
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 from reports.report_utils import (format_num,
                                   generate_portfolio_markdown_table,
@@ -40,7 +27,8 @@ from reports.report_utils import (format_num,
                                   setup_decision_tree_aesthetics,
                                   setup_plot_aesthetics)
 
-# pylint: enable=wrong-import-position
+OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPORTS_DIR = os.path.abspath(os.path.join(OUTPUT_DIR, '..'))
 
 # Constants & Configuration
 
@@ -253,7 +241,7 @@ def generate_report(df: pd.DataFrame):
     f.write("---\n## Analytical Detail\n\n")
 
     f.write("### Holdings and Risk Details\n")
-    f.write("*Computed live against localized 200MA, Volatility, and RSI.* \n\n")
+    f.write("*Computed live against localized 200MA, Volatility, and RSI.*\n\n")
     f.write(generate_portfolio_markdown_table(df))
     f.write("\n\n")
 

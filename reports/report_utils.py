@@ -150,6 +150,29 @@ def get_technical_indicators(ticker: str, tickers_dir: str) -> Dict[str, Any]:
     return {}
 
 
+def get_intrinsic_value_metrics(ticker: str, tickers_dir: str) -> Dict[str, Any]:
+  """Retrieves Graham Intrinsic Value and Discount metrics from fundamentals."""
+  try:
+    fund_path = os.path.join(tickers_dir, ticker, "fundamentals.tsv")
+    if not os.path.exists(fund_path):
+      return {}
+
+    df = pd.read_csv(fund_path, sep="\t", names=['Metric', 'Value'], header=0)
+    df.set_index('Metric', inplace=True)
+
+    graham_val = df.loc['graham_intrinsic_value', 'Value'] if 'graham_intrinsic_value' in df.index else np.nan
+    discount = df.loc['discount_to_intrinsic_value', 'Value'] if 'discount_to_intrinsic_value' in df.index else np.nan
+
+    return {
+        "Ticker": ticker,
+        "Graham_Value": float(str(graham_val)) if pd.notna(graham_val) and str(graham_val).lower() != 'nan' else np.nan,
+        "Discount_to_Intrinsic_Value_Pct": float(str(discount)) if pd.notna(discount) and str(discount).lower() != 'nan' else np.nan
+    }
+  except Exception as e:
+    logger.warning("Could not retrieve intrinsic value metrics for %s: %s", ticker, e)
+    return {}
+
+
 # ==========================================
 # DATA PIPELINE INTEGRATION (I/O)
 # ==========================================
@@ -242,14 +265,29 @@ def get_recent_news(topic: str, market_data_dir: str) -> pd.DataFrame:
 
 def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
   """Generates a clean markdown table of the portfolio using purely relative percentages."""
+
+  # Ensure intrinsic value columns exist even if empty
+  if 'Graham_Value' not in df.columns:
+    df['Graham_Value'] = np.nan
+  if 'Discount_to_Intrinsic_Value_Pct' not in df.columns:
+    df['Discount_to_Intrinsic_Value_Pct'] = np.nan
+
   display_df = df[[
-      'Ticker', 'Name', 'Portfolio_Weight_Pct', 'Unrealized_PnL_Pct', 'RSI',
-      'Dist_to_200MA', 'MACD', 'MA_Cross', 'Time_Horizon', 'Exit_Strategy'
+      'Ticker', 'Name', 'Portfolio_Weight_Pct', 'Unrealized_PnL_Pct',
+      'Graham_Value', 'Discount_to_Intrinsic_Value_Pct',
+      'RSI', 'Dist_to_200MA', 'MACD', 'MA_Cross', 'Time_Horizon', 'Exit_Strategy'
   ]].copy()
+
   display_df['Portfolio_Weight_Pct'] = display_df['Portfolio_Weight_Pct'].apply(
       lambda x: format_num(x, is_pct=True))
   display_df['Unrealized_PnL_Pct'] = display_df['Unrealized_PnL_Pct'].apply(
       lambda x: format_num(x, is_pct=True, is_signed=True))
+
+  display_df['Graham_Value'] = display_df['Graham_Value'].apply(
+      lambda x: format_num(x, prefix="$"))
+  display_df['Discount_to_Intrinsic_Value_Pct'] = display_df['Discount_to_Intrinsic_Value_Pct'].apply(
+      lambda x: format_num(x, is_pct=True, is_signed=True))
+
   display_df['Dist_to_200MA'] = display_df['Dist_to_200MA'].apply(
       lambda x: format_num(x, is_pct=True, is_signed=True))
   display_df['RSI'] = display_df['RSI'].apply(format_num)

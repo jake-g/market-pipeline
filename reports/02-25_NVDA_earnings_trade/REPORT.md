@@ -146,7 +146,7 @@ The synthesis of these discrete data models dictates the actionable recommendati
 | 2025-05-28      | +8.02%         | +5.53%            | +6.45%            | +3.24%             |
 | 2025-08-27      | +4.10%         | -0.42%            | +1.59%            | -0.79%             |
 | 2025-11-19      | +3.46%         | +5.06%            | +5.09%            | -3.15%             |
-| 2026-02-25      | +5.88%         | TBD               | TBD               | TBD                |
+| 2026-02-25      | +5.88%         | NaN               | NaN               | NaN                |
 
 *   **Historical Average Gap Up (Open):** `+5.79%`
 *   **Historical Average Intraday Peak:** `+7.77%`
@@ -168,7 +168,7 @@ The synthesis of these discrete data models dictates the actionable recommendati
 | 2025-05-28      | +6.45%                 | +3.24%            | -3.21%                  |
 | 2025-08-27      | +1.59%                 | -0.79%            | -2.38%                  |
 | 2025-11-19      | +5.09%                 | -3.15%            | -8.24%                  |
-| 2026-02-25      | TBD                    | TBD               | TBD                     |
+| 2026-02-25      | NaN                    | NaN               | NaN                     |
 
 *   **Average Premium Decay per Quarter:** `-4.80%`
 
@@ -207,18 +207,18 @@ The synthesis of these discrete data models dictates the actionable recommendati
 | GOOG     | -0.88%                        | -0.25%                        |
 
 ### Corroborating Macro Data (Recent Headlines)
-*   **[GPU]** (2026-02-26): *This is the first year in three decades without a new Nvidia gaming GPU - XDA*
-*   **[GPU]** (2026-02-26): *Why AMD Is Putting $250M Behind Nutanix’s Agentic AI Push - crn.com*
-*   **[GPU]** (2026-02-25): *UK Graphics Card Price Guide 2026: Lowest Market Rates for Nvidia, AMD and Intel - facilitiesmanagement-now.com*
+*   **[GPU]** (2026-02-26): *ROG Ally gets a new GPU driver update, but it doesn’t look like the latest one - Sportskeeda Tech*
+*   **[GPU]** (2026-02-26): *Pico Prism Update: From 64 to 16 GPUs - Binance*
+*   **[GPU]** (2026-02-26): *Nvidia delivers first Vera Rubin AI GPU samples to customers — 88-core Vera CPU paired with Rubin GPUs with 288 GB of HBM4 memory apiece - Tom's Hardware*
 *   **[AI]** (2026-02-26): *Women Are Falling in Love With A.I. It’s a Problem for Beijing. - The New York Times*
-*   **[AI]** (2026-02-26): *Asia tech stocks rally as Nvidia earnings soothe AI slowdown fears - CNBC*
-*   **[AI]** (2026-02-26): *Building Exit Rights and Portability into AI Deals - Morgan Lewis*
-*   **[Data Center]** (2026-02-26): *Jeff Ostermayer: The facts about data centers and energy - Florida Politics*
-*   **[Data Center]** (2026-02-26): *As data center demand grows across Wisconsin, why haven't any come to La Crosse? - news8000.com*
-*   **[Data Center]** (2026-02-25): *Hearing set for Midtown St. Louis data center in March as city mulls zoning rules - STLPR*
+*   **[AI]** (2026-02-26): *OpenAI hires ex-Apple models head from Meta, The Information reports - Reuters*
+*   **[AI]** (2026-02-26): *Butler County Sheriff’s Department reacts to first AI-generated child pornography case in region - KFVS12*
+*   **[Data Center]** (2026-02-26): *TMJ4 gets exclusive look at $15B Port Washington data center construction: 'We want to be a good neighbor' - TMJ4 News*
+*   **[Data Center]** (2026-02-26): *Google data center water estimates go public, residents in Roanoke and Botetourt react - WSLS*
+*   **[Data Center]** (2026-02-26): *Palm Beach County residents voice strong opposition to proposed data center - WPBF*
 
 ### Known System Anomalies
 *   **Missing TSM Earnings Data:** The local `market_data/tickers/TSM/` environment lacked a localized `earnings.tsv` file. The Q4 cost-basis calculation for Taiwan Semiconductor was programmatically hardcoded to anchor to January 15, 2026 (its historic standard report date) to prevent pipeline failure and ensure accurate portfolio P/L math.
 
 ---
-*Generated: 2026-02-25 21:07 PST*
+*Generated: 2026-02-25 23:27 PST*

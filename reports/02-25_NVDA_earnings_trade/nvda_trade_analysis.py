@@ -1,11 +1,4 @@
 import os
-import sys
-
-# pylint: disable=wrong-import-position
-# Adjust the path to read market_data from the project root and reports utilities
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
-MARKET_DATA_DIR = os.path.join(PROJECT_ROOT, "market_data")
-REPORTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,18 +7,14 @@ import seaborn as sns
 from graphviz import Digraph
 from tabulate import tabulate
 
-# Resolve the project root for relative local imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
-MARKET_DATA_DIR = os.path.join(PROJECT_ROOT, "market_data")
-REPORTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-
 from reports.report_utils import (analyze_earnings_movement, format_num,
                                   get_recent_news, get_technical_indicators,
                                   plot_ma200_distance, plot_portfolio_rsi,
                                   setup_decision_tree_aesthetics)
 
-# pylint: enable=wrong-import-position
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+MARKET_DATA_DIR = os.path.join(PROJECT_ROOT, "market_data")
+REPORTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 
 
