@@ -255,19 +255,60 @@ def generate_trajectory_prediction_plot():
   plt.ylabel("Estimated Price ($)", fontsize=12)
   plt.xticks(x, labels, fontsize=10)
 
-  # --- TODO (2/26): Ground Truth Overlay ---
-  # Uncomment and populate actual prices after market close on 2/26
-  # actual_t1_open = 0 # INSERT PRE-MARKET ACTUAL
-  # actual_t1_peak = 0 # INSERT INTRADAY PEAK
-  # actual_t1_close = 0 # INSERT FINAL CLOSE
-
-  # actual_y = [t0_price, actual_t1_open, actual_t1_peak, actual_t1_close]
-  # plt.plot(x, actual_y, marker='D', label='ACTUAL 2/26 Ground Truth', color='black', linewidth=4, linestyle='-.')
-  # ----------------------------------------
+  # The structural 4-point sparse dot logic has been entirely removed
+  # per user request to avoid graphical misalignment with the granular intraday curve.
 
   # Target Buy Zone Annotation for the Baseline Fade
   buy_zone_y = fade_y[-1]
   plt.axhspan(195, 198, color='gold', alpha=0.3, label='Fade Buy Target ($195-$198)')
+
+  # --- Granular yfinance Overlay ---
+  try:
+    import yfinance as yf
+
+      # Prepost=True fetches after-hours and pre-market which maps directly into the gaps
+    df_intra = yf.download("NVDA", start="2026-02-25", end="2026-02-27", interval="5m", prepost=True)
+    if not df_intra.empty:
+      if isinstance(df_intra.columns, pd.MultiIndex):
+        df_intra.columns = df_intra.columns.get_level_values(0)
+
+      if df_intra.index.tz is None:
+        df_intra.index = df_intra.index.tz_localize('UTC').tz_convert('US/Eastern')
+      else:
+        df_intra.index = df_intra.index.tz_convert('US/Eastern')
+
+      close_series = df_intra['Close'].squeeze()
+
+      t0_t = pd.to_datetime('2026-02-25 16:00:00').tz_localize('US/Eastern')
+      t1_open_t = pd.to_datetime('2026-02-26 09:30:00').tz_localize('US/Eastern')
+      t1_peak_t = pd.to_datetime('2026-02-26 10:30:00').tz_localize('US/Eastern')
+      t1_close_t = pd.to_datetime('2026-02-26 16:00:00').tz_localize('US/Eastern')
+
+      mapped_x = []
+      mapped_y = []
+      for t, val in close_series.items():
+        if t < t0_t or t > t1_close_t:
+          continue
+        if t <= t1_open_t:
+                  # map t0_t -> t1_open_t to [0, 1]
+          frac = (t - t0_t).total_seconds() / (t1_open_t - t0_t).total_seconds() if t0_t != t1_open_t else 0
+          mx = 0 + frac
+        elif t <= t1_peak_t:
+                  # map t1_open_t -> t1_peak_t to [1, 2]
+          frac = (t - t1_open_t).total_seconds() / (t1_peak_t - t1_open_t).total_seconds() if t1_open_t != t1_peak_t else 0
+          mx = 1 + frac
+        else:
+                  # map t1_peak_t -> t1_close_t to [2, 3]
+          frac = (t - t1_peak_t).total_seconds() / (t1_close_t - t1_peak_t).total_seconds() if t1_peak_t != t1_close_t else 0
+          mx = 2 + frac
+
+        mapped_x.append(mx)
+        mapped_y.append(float(val))
+
+      if mapped_x and mapped_y:
+        plt.plot(mapped_x, mapped_y, color='purple', alpha=0.9, linewidth=3.0, label='Actual 2/26 Intraday Trajectory (5m)')
+  except Exception as e:
+    print(f"Skipping granular overlay: {e}")
 
   plt.legend(loc="upper left")
   plt.tight_layout()
@@ -305,6 +346,14 @@ def generate_nvda_fade_plot(nvda_df):
            label='Close (The Fade)',
            color='red',
            linewidth=2)
+
+  # Override logic for the retrospective dot
+  retrospective = plot_df[plot_df['Earnings_Date'].astype(str) == '2026-02-25']
+  if not retrospective.empty:
+    retro_date = retrospective['Earnings_Date'].astype(str).iloc[0]
+    plt.plot(retro_date, retrospective['Open_Change_Pct'].iloc[0], marker='*', color='gold', markersize=18, alpha=0.8, markeredgecolor='none')
+    plt.plot(retro_date, retrospective['High_Change_Pct'].iloc[0], marker='*', color='gold', markersize=18, alpha=0.8, markeredgecolor='none')
+    plt.plot(retro_date, retrospective['Close_Change_Pct'].iloc[0], marker='*', color='gold', markersize=18, alpha=0.8, markeredgecolor='none', label='2/26 Print (Retrospective)')
   plt.title("NVDA Post-Earnings Price Action (T+1): The Intraday Fade",
             fontsize=14,
             fontweight='bold')
@@ -334,10 +383,24 @@ def generate_nvda_surprise_scatter_plot(nvda_df):
 
   sns.scatterplot(x='Surprise_Pct',
                   y='Close_Change_Pct',
-                  data=plot_df,
+                  data=plot_df[plot_df['Earnings_Date'].astype(str) != '2026-02-25'],
                   s=150,
                   color='purple',
                   alpha=0.8)
+
+  retrospective = plot_df[plot_df['Earnings_Date'].astype(str) == '2026-02-25']
+  if not retrospective.empty:
+    sns.scatterplot(x='Surprise_Pct',
+                      y='Close_Change_Pct',
+                      data=retrospective,
+                      s=400,
+                      color='gold',
+                      marker='*',
+                      edgecolor='none',
+                      alpha=0.6,
+                      zorder=10,
+                      label='2/26 Print')
+
   sns.regplot(x='Surprise_Pct',
               y='Close_Change_Pct',
               data=plot_df,
@@ -354,12 +417,19 @@ def generate_nvda_surprise_scatter_plot(nvda_df):
 
   # Annotate points
   for i, row in plot_df.iterrows():
-    plt.annotate(row['Earnings_Date'],
+    date_str = str(row['Earnings_Date'])
+    label = date_str
+    font_weight = 'bold' if date_str == '2026-02-25' else 'normal'
+    color = 'black' if date_str == '2026-02-25' else 'k'
+
+    plt.annotate(label,
                  (row['Surprise_Pct'], row['Close_Change_Pct']),
                  textcoords="offset points",
                  xytext=(0, 10),
                  ha='center',
-                 fontsize=8)
+                 fontsize=8,
+                 fontweight=font_weight,
+                 color=color)
 
   plt.tight_layout()
   output_path = os.path.join(os.path.dirname(__file__), "plots",
@@ -367,6 +437,66 @@ def generate_nvda_surprise_scatter_plot(nvda_df):
   plt.savefig(output_path, dpi=300)
   plt.close()
 
+
+def generate_intraday_ground_truth_plot():
+  try:
+    import yfinance as yf
+
+    # Fetch 5-minute interval data for 2/25 and 2/26, with pre/post market to show AH earnings reaction
+    df = yf.download("NVDA", start="2026-02-25", end="2026-02-27", interval="5m", prepost=True)
+    if df.empty:
+      return
+
+    if isinstance(df.columns, pd.MultiIndex):
+      df.columns = df.columns.get_level_values(0)
+
+    plt.figure(figsize=(12, 6))
+    sns.set_theme(style="darkgrid")
+
+    if df.index.tz is None:
+      df.index = df.index.tz_localize('UTC').tz_convert('US/Eastern')
+    else:
+      df.index = df.index.tz_convert('US/Eastern')
+
+    # Unpack close series to handle potential dataframe quirks
+    close_series = df['Close'].squeeze()
+    plt.plot(df.index, close_series, color='black', linewidth=1.5)
+
+    # Mark the earnings print (Feb 25, 4:20 PM EST)
+    earnings_time = pd.to_datetime('2026-02-25 16:20:00').tz_localize('US/Eastern')
+    plt.axvline(x=earnings_time, color='red', linestyle='--', linewidth=2, label='Q4 Earnings Print')
+
+    # Annotate important points
+    t0_close_time = pd.to_datetime('2026-02-25 16:00:00').tz_localize('US/Eastern')
+    t1_open_time = pd.to_datetime('2026-02-26 09:30:00').tz_localize('US/Eastern')
+    t1_close_time = pd.to_datetime('2026-02-26 16:00:00').tz_localize('US/Eastern')
+
+    def annotate_price(t_time, label, color):
+      if t_time in df.index:
+        price = close_series.loc[t_time]
+      else:
+        idx = df.index.get_indexer([t_time], method='nearest')[0]
+        price = close_series.iloc[idx]
+        t_time = df.index[idx]
+
+      plt.scatter(t_time, price, color=color, s=100, zorder=5)
+      plt.annotate(f"{label}\\n${price:.2f}", (t_time, price), textcoords="offset points", xytext=(0,10), ha='center', fontsize=9, fontweight='bold', color=color)
+
+    annotate_price(t0_close_time, 'T0 Close', 'blue')
+    annotate_price(t1_open_time, 'T1 Open', 'orange')
+    annotate_price(t1_close_time, 'T1 Close', 'purple')
+
+    plt.title("NVDA Ground Truth Intraday Trajectory (Feb 25 - Feb 26)", fontsize=14, fontweight='bold')
+    plt.ylabel("Price ($)", fontsize=12)
+    plt.xlabel("Time (EST)", fontsize=12)
+    plt.legend(loc='upper right')
+    plt.tight_layout()
+
+    out_path = os.path.join(os.path.dirname(__file__), "plots", "nvda_intraday_ground_truth.png")
+    plt.savefig(out_path, dpi=300)
+    plt.close()
+  except Exception as e:
+    print(f"Failed to generate intraday plot: {e}")
 
 def build_nvda_decision_tree():
   """Generates a Graphviz decision tree for the highly volatile NVDA Earnings Print execution."""
@@ -452,6 +582,9 @@ def run_full_analysis():
   if nvda_df is not None:
     recent = nvda_df.tail(12).copy()
 
+    # Tag latest row as Retrospective
+    recent.loc[recent['Earnings_Date'] == pd.to_datetime('2026-02-25').date(), 'Earnings_Date'] = '2026-02-25 (Retrospective)'
+
     # Format numeric columns gracefully
     cols_to_format = ['Surprise_Pct', 'Open_Change_Pct', 'High_Change_Pct', 'Close_Change_Pct']
     for col in cols_to_format:
@@ -476,6 +609,10 @@ def run_full_analysis():
     generate_nvda_surprise_scatter_plot(nvda_df)
 
     generate_trajectory_prediction_plot()
+
+    generate_intraday_ground_truth_plot()
+    md_lines.append("\n#### Actual Intraday Ground Truth (Feb 25 - Feb 26)\n")
+    md_lines.append("![NVDA Intraday Trajectory](./plots/nvda_intraday_ground_truth.png)\n\n")
 
     # Inject IV Crush Table
     md_lines.append("### Implied Volatility (IV) Crush Metrics\n")

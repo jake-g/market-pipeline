@@ -1,13 +1,12 @@
-# NVDA Q4 Earnings Trade Report [2/25/2026]
+# NVDA Q4 Earnings Trade Report (with retrospective analysis) [2/25/2026]
 
 ## Query
 *This report was generated in response to the following query:*
 > "Given a hypothetical but realistic AI/Chip Q4 2025 portfolio (MU, TSM, INTC, AAPL, GOOG, AMD), should I buy NVDA ahead of their Q4 earnings? If so, what assets should be liquidated to fund the entry, and what is the exact execution timeline for the trade?"
 
 > **Update (2/25):** Liquidated INTC position for $2,000 cash, and used extra $1,000 cash to buy 5 shares of NVDA at the open today (Wed 2/25). Update Execution Plan to reflect this.
+> **Update (2/26):** NVDA dropped -5.45% to $184.89. Held the 5 shares and bought 10 NVDA, 2 AMD, and 1 MPWR during the afternoon fade (details below).
 
-> [!WARNING]
-> **Manual Data Injection Notice:** The current run of this report utilizes manually injected After-Hours (AH) proxy data for the Feb 25th 2026 earnings print (`$196.00` T+1 Proxy, `+5.88%` EPS Surprise). This ensures the plots and logic are immediately actionable for tomorrow's open. The automated daily fetch pipeline will overwrite and correct this proxy data with actual market prints after tomorrow's closing bell.
 
 ## Execution Plan
 *Baseline Target: T0 (Feb 24) Close of **$192.85***
@@ -117,40 +116,57 @@ This executable playbook was systematically derived from custom python data pipe
 
 The synthesis of these discrete data models dictates the actionable recommendation: *Do not buy the pre-market gap; buy the afternoon statistical fade.*
 
-## Post-Trade Reflection (Pending 2/26 Close)
-<!-- TODO (2/26): Fill in the following sections after the trade is complete to evaluate the thesis. -->
+## Post-Trade Reflection (2/26 Close)
+The NVDA Q4 thesis has been stress-tested by the actual market print. The automated data proxy has been replaced with the ground-truth T+1 closing prices.
 
 ### What Happened
-*(e.g., NVDA opened at $X, peaked at $Y, closed at $Z. The actual trajectory mapped closest to the [Baseline Fade / Super-Beat Squeeze / In-Line Miss] scenario.)*
+NVDA posted a standard $1.62 EPS (a `+5.32%` surprise, closely matching our 5.88% proxy), but **failed to generate any morning FOMO**.
+*   **Open:** $194.21 (-0.69% gap down)
+*   **Peak:** $194.21 (High was right at open)
+*   **Close:** $184.89 (-5.45% structural fade)
+The price trajectory completely abandoned the "Baseline Fade" (Scenario A) and perfectly mapped strictly to **Scenario C: In-Line Miss (Deflationary Plunge)**. The market punished a "standard" 5% beat as a failure, draining liquidity across the entire semiconductor sector.
 
 ### Execution Effectiveness
-*(Did we successfully sell the 5 shares at the open for max premium? Did we rebuy the 15+ shares during the afternoon fade? What was the net cost-basis reduction?)*
+*   **At the Open (The Hold):** Because there was no morning Gap-Up, the pre-set $200 limit sell order for the existing 5 shares did not trigger. I held the position through the initial `-0.69%` gap down.
+*   **In the Afternoon (The Pivot to Value):** While the initial playbook logic for Scenario C suggested aborting all buys, the massive structural fade pushed highly correlated targets into severe oversold territory. As the plunge cooled near the final third of the day, I aggressively deployed capital rather than hoarding cash:
+    *   **NVDA:** Bought 10 shares at ~$185 (averaging down into the fade).
+    *   **AMD:** Bought 2 shares at $203 (capitalizing on the heavy sympathy beta drag).
+    *   **MPWR:** Bought 1 share at $1176.
 
 ### Thesis Accuracy & Misses
-*   **What was correct:** *(e.g., The IV Crush materialized exactly as predicted. Sympathy beta hit AMD as expected.)*
-*   **What could have been better:** *(e.g., We underestimated the initial morning gap size. Should have waited 30 more minutes to rebuy in the afternoon. Macro news (Tariffs) had a larger/smaller effect than anticipated.)*
+*   **What was correct (The Sympathy Beta Matrix):** The historic beta matrix was **extremely accurate**. The "Historic Bear Case" predicted AMD at `-3.14%`, MU at `-3.13%`, and TSM at `-2.28%`. The *actual* 2/26 closes were **AMD (-3.40%)**, **MU (-3.13%)**, and **TSM (-2.81%)**. The quantitative risk modeling perfectly caught the sector-wide sympathy drag.
+*   **What was correct (IV Crush):** Options premium and equity valuation were structurally crushed off the peak, though the "peak" occurred identically at the open rather than 30 minutes in.
+*   **What was wrong (The Error):** The core failure of the thesis was underestimating how severely the market would penalize a 5.3% beat. We assigned the highest probability to a "Baseline Gap Up" driven by retail FOMO. We failed to recognize that macro headwinds (Energy grid bottlenecks, Big Tech Capex moderation) had already fundamentally capped retail exuberance. The "Standard Beat = Deflationary Plunge" mechanism is far stronger than historically averaged over the last 8 quarters.
+
+### Future Retrospectives
+<!-- TODO (3/05): 1-Week Out Retrospective - Did the NVDA/AMD oversold bounce materialize? -->
+<!-- TODO (3/26): 1-Month Out Retrospective - How did the pivot to value execute overall? -->
 
 ## Program Output
 *(Note: Everything below this line is programmatically generated and updated by `nvda_trade_analysis.py`. Run the script to refresh the data.)*
 
-| Earnings_Date   | Surprise_Pct   | Open_Change_Pct   | High_Change_Pct   | Close_Change_Pct   |
-|:----------------|:---------------|:------------------|:------------------|:-------------------|
-| 2023-05-24      | +18.80%        | +26.25%           | +29.40%           | +24.39%            |
-| 2023-08-23      | +29.35%        | +6.67%            | +6.78%            | +0.11%             |
-| 2023-11-21      | +18.73%        | -0.12%            | +0.84%            | -2.46%             |
-| 2024-02-21      | +11.40%        | +11.27%           | +16.52%           | +16.40%            |
-| 2024-05-22      | +9.74%         | +7.51%            | +12.03%           | +9.33%             |
-| 2024-08-28      | +5.66%         | -3.35%            | -0.90%            | -6.39%             |
-| 2024-11-20      | +8.52%         | +2.41%            | +4.83%            | +0.53%             |
-| 2025-02-26      | +5.25%         | +2.86%            | +2.87%            | -8.47%             |
-| 2025-05-28      | +8.02%         | +5.53%            | +6.45%            | +3.24%             |
-| 2025-08-27      | +4.10%         | -0.42%            | +1.59%            | -0.79%             |
-| 2025-11-19      | +3.46%         | +5.06%            | +5.09%            | -3.15%             |
-| 2026-02-25      | +5.88%         | NaN               | NaN               | NaN                |
+| Earnings_Date              | Surprise_Pct   | Open_Change_Pct   | High_Change_Pct   | Close_Change_Pct   |
+|:---------------------------|:---------------|:------------------|:------------------|:-------------------|
+| 2023-05-24                 | +18.80%        | +26.25%           | +29.40%           | +24.39%            |
+| 2023-08-23                 | +29.35%        | +6.67%            | +6.78%            | +0.11%             |
+| 2023-11-21                 | +18.73%        | -0.12%            | +0.84%            | -2.46%             |
+| 2024-02-21                 | +11.40%        | +11.27%           | +16.52%           | +16.40%            |
+| 2024-05-22                 | +9.74%         | +7.51%            | +12.03%           | +9.33%             |
+| 2024-08-28                 | +5.66%         | -3.35%            | -0.90%            | -6.39%             |
+| 2024-11-20                 | +8.52%         | +2.41%            | +4.83%            | +0.53%             |
+| 2025-02-26                 | +5.25%         | +2.86%            | +2.87%            | -8.47%             |
+| 2025-05-28                 | +8.02%         | +5.53%            | +6.45%            | +3.24%             |
+| 2025-08-27                 | +4.10%         | -0.42%            | +1.59%            | -0.79%             |
+| 2025-11-19                 | +3.46%         | +5.06%            | +5.09%            | -3.15%             |
+| 2026-02-25 (Retrospective) | +5.32%         | -0.69%            | -0.69%            | -5.46%             |
 
-*   **Historical Average Gap Up (Open):** `+5.79%`
-*   **Historical Average Intraday Peak:** `+7.77%`
-*   **Historical Average Close:** `+2.98%`
+*   **Historical Average Gap Up (Open):** `+5.25%`
+*   **Historical Average Intraday Peak:** `+7.07%`
+*   **Historical Average Close:** `+2.27%`
+
+
+#### Actual Intraday Ground Truth (Feb 25 - Feb 26)
+![NVDA Intraday Trajectory](./plots/nvda_intraday_ground_truth.png)
 
 ### Implied Volatility (IV) Crush Metrics
 *The 'Gap Trap': Tracking options premium decay from the Intraday Peak (FOMO) to the Final Close.*
@@ -168,30 +184,30 @@ The synthesis of these discrete data models dictates the actionable recommendati
 | 2025-05-28      | +6.45%                 | +3.24%            | -3.21%                  |
 | 2025-08-27      | +1.59%                 | -0.79%            | -2.38%                  |
 | 2025-11-19      | +5.09%                 | -3.15%            | -8.24%                  |
-| 2026-02-25      | NaN                    | NaN               | NaN                     |
+| 2026-02-25      | -0.69%                 | -5.46%            | -4.77%                  |
 
 *   **Average Premium Decay per Quarter:** `-4.80%`
 
 ### Current Portfolio Technical Indicators
 | Ticker   | Close   |   RSI |   Dist_to_200MA |   Trailing_5D_Ret |
 |:---------|:--------|------:|----------------:|------------------:|
-| NVDA     | $196.00 |  78.9 |            12.2 |               4.3 |
-| AMD      | $210.86 |  56.7 |            13.6 |               5.4 |
-| MU       | $429.00 |  66.7 |           109.9 |               1.9 |
-| TSM      | $387.73 |  84.3 |            43.3 |               7   |
-| INTC     | $46.88  |  44.6 |            46   |               3.1 |
-| AAPL     | $274.23 |  48.2 |            13.4 |               3.7 |
-| GOOG     | $313.03 |  30.5 |            25.9 |               3   |
+| NVDA     | $184.89 |  62.5 |             5.8 |              -1.6 |
+| AMD      | $203.68 |  57   |             9.4 |               0.2 |
+| MU       | $415.56 |  60.3 |           101.7 |              -0.4 |
+| TSM      | $376.81 |  73.9 |            38.8 |               4.6 |
+| INTC     | $45.46  |  41.8 |            41   |               1.9 |
+| AAPL     | $272.95 |  47.6 |            12.7 |               4.7 |
+| GOOG     | $307.15 |  28.4 |            23.2 |               1.2 |
 
 ### Q4 Portfolio Unrealized P/L (T0 Cost Basis)
 | Ticker   | Current Price   | Pre-Q4 Basis   | Date       | Q4 P/L   |
 |:---------|:----------------|:---------------|:-----------|:---------|
-| AMD      | $210.86         | $242.11        | 2026-02-03 | -12.9%   |
-| MU       | $429.00         | $225.43        | 2025-12-17 | +90.3%   |
-| TSM      | $387.73         | $341.64        | 2026-01-15 | +13.5%   |
-| INTC     | $46.88          | $54.32         | 2026-01-22 | -13.7%   |
-| AAPL     | $274.23         | $258.04        | 2026-01-29 | +6.3%    |
-| GOOG     | $313.03         | $333.34        | 2026-02-04 | -6.1%    |
+| AMD      | $203.68         | $242.11        | 2026-02-03 | -15.9%   |
+| MU       | $415.56         | $225.43        | 2025-12-17 | +84.3%   |
+| TSM      | $376.81         | $341.64        | 2026-01-15 | +10.3%   |
+| INTC     | $45.46          | $54.32         | 2026-01-22 | -16.3%   |
+| AAPL     | $272.95         | $258.04        | 2026-01-29 | +5.8%    |
+| GOOG     | $307.15         | $333.34        | 2026-02-04 | -7.9%    |
 
 ### Historical Asymmetric Sympathy Beta (Trailing 12 Quarters)
 > *How the portfolio acts specifically in response to NVDA crashing vs surging.*
@@ -207,18 +223,18 @@ The synthesis of these discrete data models dictates the actionable recommendati
 | GOOG     | -0.88%                        | -0.25%                        |
 
 ### Corroborating Macro Data (Recent Headlines)
-*   **[GPU]** (2026-02-26): *ROG Ally gets a new GPU driver update, but it doesn’t look like the latest one - Sportskeeda Tech*
-*   **[GPU]** (2026-02-26): *Pico Prism Update: From 64 to 16 GPUs - Binance*
-*   **[GPU]** (2026-02-26): *Nvidia delivers first Vera Rubin AI GPU samples to customers — 88-core Vera CPU paired with Rubin GPUs with 288 GB of HBM4 memory apiece - Tom's Hardware*
-*   **[AI]** (2026-02-26): *Women Are Falling in Love With A.I. It’s a Problem for Beijing. - The New York Times*
-*   **[AI]** (2026-02-26): *OpenAI hires ex-Apple models head from Meta, The Information reports - Reuters*
-*   **[AI]** (2026-02-26): *Butler County Sheriff’s Department reacts to first AI-generated child pornography case in region - KFVS12*
-*   **[Data Center]** (2026-02-26): *TMJ4 gets exclusive look at $15B Port Washington data center construction: 'We want to be a good neighbor' - TMJ4 News*
-*   **[Data Center]** (2026-02-26): *Google data center water estimates go public, residents in Roanoke and Botetourt react - WSLS*
-*   **[Data Center]** (2026-02-26): *Palm Beach County residents voice strong opposition to proposed data center - WPBF*
+*   **[GPU]** (2026-02-27): *Titan Technology Names CTO Simon Cheng as New CEO Amid GPU Demand Boom - TipRanks*
+*   **[GPU]** (2026-02-27): *LXD 6.7 Released With AMD GPU Passthrough Support - Phoronix*
+*   **[GPU]** (2026-02-27): *Why 2026 is the year engineers stop using AWS for AI Training: The Rise of Specialized GPU Clouds - Digg*
+*   **[AI]** (2026-02-27): *7 Best Practices for Employers Using AI Resume Screeners - JD Supra*
+*   **[AI]** (2026-02-27): *Anthropic says it won't agree to Pentagon demands to remove AI safeguards - USA Today*
+*   **[AI]** (2026-02-27): *‘It's clearly fake‘: Olympic hockey star disavows AI-generated White House video - Politico*
+*   **[Data Center]** (2026-02-27): *Florida charts its own course on data centers - Florida Politics*
+*   **[Data Center]** (2026-02-27): *Amazon’s $12B data center won’t raise Caddo-Bossier utility bills - Yahoo*
+*   **[Data Center]** (2026-02-27): *A Data Center Deal, Moving TEAM WV, Pushing the Governor Out of LEDA & More - WV MetroNews*
 
 ### Known System Anomalies
 *   **Missing TSM Earnings Data:** The local `market_data/tickers/TSM/` environment lacked a localized `earnings.tsv` file. The Q4 cost-basis calculation for Taiwan Semiconductor was programmatically hardcoded to anchor to January 15, 2026 (its historic standard report date) to prevent pipeline failure and ensure accurate portfolio P/L math.
 
 ---
-*Generated: 2026-02-25 23:27 PST*
+*Generated: 2026-02-26 19:32 PST*

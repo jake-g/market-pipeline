@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.44261563
-SandP52WeekChange	0.15681672
+52WeekChange	0.58019316
+SandP52WeekChange	0.16653454
 address1	19505 Biscayne Blvd
 address2	Suite 2350
 allTimeHigh	207.52
 allTimeLow	5.92
-ask	134.3
-askSize	15
+ask	136.04
+askSize	6
 auditRisk	7
 averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	53591860
-averageDailyVolume3Month	44177380
-averageVolume	44177380
-averageVolume10days	53591860
+averageDailyVolume10Day	53304490
+averageDailyVolume3Month	44486998
+averageVolume	44486998
+averageVolume10days	53304490
 beta	1.687
-bid	134.04
+bid	135.81
 bidSize	8
 boardRisk	10
 bookValue	3.089
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	134.19
+currentPrice	135.94
 currentRatio	7.11
 customPriceAlertConfidence	HIGH
 dateShortInterest	1769731200
-dayHigh	136.09
-dayLow	129.18
+dayHigh	137.51
+dayLow	132.63
 debtToEquity	3.063
-discount_to_intrinsic_value	-234.31
+discount_to_intrinsic_value	-233.38
 displayName	Palantir
 earningsCallTimestampEnd	1770069600
 earningsCallTimestampStart	1770069600
@@ -44,12 +44,12 @@ earningsTimestampEnd	1777928400
 earningsTimestampStart	1777928400
 ebitda	1440160000
 ebitdaMargins	0.32179
-enterpriseToEbitda	218.095
-enterpriseToRevenue	70.181
-enterpriseValue	314091995136
+enterpriseToEbitda	221.001
+enterpriseToRevenue	71.116
+enterpriseValue	318277419008
 epsCurrentYear	1.31865
 epsForward	1.82767
-epsTrailingTwelveMonths	0.63
+epsTrailingTwelveMonths	0.64
 eps_normalized_growth	6.735497340949229
 esgPopulated	False
 exchange	NMS
@@ -57,33 +57,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	164.014
-fiftyDayAverageChange	-29.824005
-fiftyDayAverageChangePercent	-0.18183815
-fiftyTwoWeekChangePercent	44.261562
+fiftyDayAverage	162.947
+fiftyDayAverageChange	-27.007004
+fiftyDayAverageChangePercent	-0.16574103
+fiftyTwoWeekChangePercent	58.019318
 fiftyTwoWeekHigh	207.52
-fiftyTwoWeekHighChange	-73.33
-fiftyTwoWeekHighChangePercent	-0.35336354
+fiftyTwoWeekHighChange	-71.58
+fiftyTwoWeekHighChangePercent	-0.34493062
 fiftyTwoWeekLow	66.12
-fiftyTwoWeekLowChange	68.07
-fiftyTwoWeekLowChangePercent	1.0294918
+fiftyTwoWeekLowChange	69.82
+fiftyTwoWeekLowChangePercent	1.0559589
 fiftyTwoWeekRange	66.12 - 207.52
 financialCurrency	USD
 firstTradeDateMilliseconds	1601472600000
 floatShares	2207062263
 forwardEps	1.82767
-forwardPE	73.42136
+forwardPE	74.37885
 freeCashflow	1260918400
 fullExchangeName	NasdaqGS
 fullTimeEmployees	4429
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1769904000
-graham_intrinsic_value	40.14
+graham_intrinsic_value	40.78
 grossMargins	0.82366997
 grossProfits	3686268928
 hasPrePostMarketData	True
 heldPercentInsiders	0.03762
-heldPercentInstitutions	0.61694
+heldPercentInstitutions	0.6168
 impliedSharesOutstanding	2391675711
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -95,8 +95,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Palantir Technologies Inc. builds and deploys software platforms for the intelligence community to assist in counterterrorism investigations and operations in the United States, the United Kingdom, and internationally. It provides Palantir Gotham integrates with other platforms for defense offerings which enables users to see, understand, and act in the modern battlespace; operations centers to the tactical edge; integrating data from domains and sensors in near real-time; and situational awareness and accelerating operational decision-making, as well as facilitates the hand-off between analysts and operational users, helping operators plan and execute real-world responses to threats that have been identified within the platform. The company also offers Palantir Foundry, a platform that transforms the ways organizations operate by creating a central operating system for their data; and allows individual users to integrate and analyze the data they need in one place. In addition, it provides Palantir Apollo, a software that delivers software and updates across the business, as well as enables customers to deploy their software virtually in any environment; and Palantir Artificial Intelligence Platform that provides unified access to open-source, self-hosted, and commercial large language models (LLMs) that can transform structured and unstructured data into LLM-understandable objects and can turn organizations' actions and processes into tools for humans and LLM-driven agents. The company was incorporated in 2003 and is headquartered in Aventura, Florida.
 longName	Palantir Technologies Inc.
 market	us_market
-marketCap	320938967040
-marketState	POST
+marketCap	325124390912
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_43580005
 mostRecentQuarter	1767139200
@@ -104,21 +104,21 @@ netIncomeToCommon	1625032960
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	312352847856
 numberOfAnalystOpinions	25
-open	130.61
+open	133.845
 operatingCashflow	2134472960
 operatingMargins	0.40901002
 overallRisk	10
 payoutRatio	0.0
 phone	720 358 3679
-postMarketChange	-0.8600006
-postMarketChangePercent	-0.6408828
-postMarketPrice	133.33
-postMarketTime	1772065176
-previousClose	128.84
-priceEpsCurrentYear	101.76317
+postMarketChange	-0.33000183
+postMarketChangePercent	-0.2427555
+postMarketPrice	135.61
+postMarketTime	1772153994
+previousClose	134.19
+priceEpsCurrentYear	103.09029
 priceHint	2
-priceToBook	43.441242
-priceToSalesTrailing12Months	71.71106
+priceToBook	44.00777
+priceToSalesTrailing12Months	72.646255
 profitMargins	0.36310002
 quickRatio	6.992
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.11111
 region	US
-regularMarketChange	5.350006
-regularMarketChangePercent	4.152442
-regularMarketDayHigh	136.09
-regularMarketDayLow	129.18
-regularMarketDayRange	129.18 - 136.09
-regularMarketOpen	130.61
-regularMarketPreviousClose	128.84
-regularMarketPrice	134.19
-regularMarketTime	1772053200
-regularMarketVolume	52698919
+regularMarketChange	1.75
+regularMarketChangePercent	1.30412
+regularMarketDayHigh	137.51
+regularMarketDayLow	132.63
+regularMarketDayRange	132.63 - 137.51
+regularMarketOpen	133.845
+regularMarketPreviousClose	134.19
+regularMarketPrice	135.94
+regularMarketTime	1772139601
+regularMarketVolume	44646503
 returnOnAssets	0.11597
 returnOnEquity	0.25983
 revenueGrowth	0.7
@@ -155,7 +155,7 @@ shortRatio	1.17
 sourceInterval	15
 state	FL
 symbol	PLTR
-syntheticPEG	0.11337455219271156
+syntheticPEG	0.1148530728844966
 targetHighPrice	260.0
 targetLowPrice	70.0
 targetMeanPrice	185.8676
@@ -167,14 +167,14 @@ totalRevenue	4475445760
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	0.63
-trailingPE	213.0
+trailingEps	0.64
+trailingPE	212.40627
 trailingPegRatio	2.8516
 triggerable	True
-twoHundredDayAverage	161.23997
-twoHundredDayAverageChange	-27.049973
-twoHundredDayAverageChangePercent	-0.16776219
+twoHundredDayAverage	161.31517
+twoHundredDayAverageChange	-25.375168
+twoHundredDayAverageChangePercent	-0.15730181
 typeDisp	Equity
-volume	52698919
+volume	44646503
 website	https://www.palantir.com
 zip	33180
