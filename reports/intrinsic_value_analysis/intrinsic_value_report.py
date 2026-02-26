@@ -60,14 +60,24 @@ def fetch_screener_data(limit=None) -> pd.DataFrame:
     if not metrics:
       continue
 
-    # Add technicals
+    # Load Prices and Technicals
+    current_price = np.nan
     try:
-      from report_utils import get_technical_indicators
-      tech_metrics = get_technical_indicators(ticker_folder, TICKERS_DIR)
-      metrics["RSI"] = tech_metrics.get("RSI", np.nan)
-      metrics["Dist_to_200MA"] = tech_metrics.get("Dist_to_200MA", np.nan)
-      metrics["MACD"] = np.nan
-      metrics["MA_Cross"] = "N/A"
+      pdf = pd.read_csv(os.path.join(ticker_path, "prices.tsv"), sep="\t")
+      if not pdf.empty:
+        current_price = float(pdf.iloc[-1]["Close"])
+        pdf['Date'] = pd.to_datetime(pdf['Date'])
+        pdf = pdf.sort_values('Date').reset_index(drop=True)
+
+        from reports.report_utils import calculate_technical_metrics
+        tech_metrics = calculate_technical_metrics(pdf)
+
+        metrics["RSI"] = tech_metrics.get("RSI", np.nan)
+        metrics["Dist_to_200MA"] = tech_metrics.get("Dist_to_200MA", np.nan)
+        metrics["MACD"] = tech_metrics.get("MACD", np.nan)
+        metrics["MA_Cross"] = tech_metrics.get("MA_Cross", "N/A")
+      else:
+        raise ValueError("Empty prices dataframe")
     except Exception as e:
       metrics["RSI"] = np.nan
       metrics["Dist_to_200MA"] = np.nan
@@ -93,14 +103,6 @@ def fetch_screener_data(limit=None) -> pd.DataFrame:
 
     metrics["Last_EPS_Surprise_Pct"] = eps_surprise
 
-    # Get Current Price
-    current_price = 0.0
-    try:
-      pdf = pd.read_csv(os.path.join(ticker_path, "prices.tsv"), sep="\t")
-      if not pdf.empty:
-        current_price = float(pdf.iloc[-1]["Close"])
-    except Exception:
-      pass
     metrics["Current_Price"] = current_price
 
     results.append(metrics)

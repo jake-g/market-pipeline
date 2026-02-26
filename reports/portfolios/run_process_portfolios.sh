@@ -2,9 +2,11 @@
 set -e
 
 # Environment Setup
-source ./run_env_setup.sh
+if [ -f "run_env_setup.sh" ]; then
+    source ./run_env_setup.sh
+fi
 
 echo "📊 Starting Portfolio Batch Processor..."
-cd reports/portfolios
-python3 portfolio_processor.py
+export PYTHONPATH="$(pwd):$PYTHONPATH"
+python3 reports/portfolios/portfolio_processor.py
 echo "✅ Portfolio Metrics Generation Complete!"

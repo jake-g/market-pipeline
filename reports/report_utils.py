@@ -227,10 +227,6 @@ def analyze_earnings_movement(ticker: str,
       close_pct = (t1_close - t0_close) / t0_close * 100
       high_pct = (t1_high - t0_close) / t0_close * 100
 
-      # TODO: remove the special case for 2/25
-      if edate == pd.to_datetime('2026-02-25').date():
-        open_pct, close_pct, high_pct = np.nan, np.nan, np.nan
-
       results.append({
           'Earnings_Date': edate,
           'Surprise_Pct': row['Surprise(%)'],

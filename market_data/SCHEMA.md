@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | -0.027011871 |
+| Value | str | -0.007725656 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-26 |
-| Source | str | Google |
-| Sentiment | float64 | 0.0 |
-| Headline | str | Amazon Wish List changes its shipping policy — ... |
-| Summary | str | Benchstone Capital exited its position in Norwe... |
-| URL | str | https://news.google.com/rss/articles/CBMihAFBVV... |
+| Date | str | 2026-02-27 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.333 |
+| Headline | str | TTM Technologies Stock Surges 250% In a Year, a... |
+| Summary | str | TTM Technologies supplies advanced printed circ... |
+| URL | str | https://www.fool.com/coverage/filings/2026/02/2... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
