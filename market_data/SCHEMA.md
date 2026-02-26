@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-25 |
+| Date | str | 2026-02-26 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | 13 Of The Best 3D Printer Accessories On Amazon... |
-| Summary | str | Amazon Inc. is set to create 700 full- and part... |
-| URL | str | https://news.google.com/rss/articles/CBMieEFVX3... |
+| Sentiment | float64 | 0.375 |
+| Headline | str | MIG Capital’s Richard Merage Cuts Amazon.com St... |
+| Summary | str | Amazon.com (NasdaqGS:AMZN) has surpassed Walmar... |
+| URL | str | https://news.google.com/rss/articles/CBMitgFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

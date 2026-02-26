@@ -12,7 +12,10 @@
     - Abstracted discrete quantitative, reporting, and plotting methods out of individual report generator scripts into a single `reports/report_utils.py` library.
     - Updated NVDA and Growth Portfolio reports with latest market data and standardized Graphviz decision tree visuals.
 - **Reporting Enhancements**:
-    - Updated reports based on latest market data.
+    - **Intrinsic Value Screener**: Adopted intrinsic value concepts to calculate Graham Intrinsic Value, normalized EPS growth, and theoretical discount. Added `reports/intrinsic_value_analysis/intrinsic_value_report.py` outputting a scatter plot against EPS Surprises.
+    - Merged `intrinsic_value_screener.py` logic natively into the report script to consolidate actionable analytics.
+    - Updated `reports/portfolios/portfolio_processor.py` to natively print intrinsic values mapping to current holdings.
+    - Fixed NaN issues within Intrinsic Value outputs by lowering log-linear regression bounds in `market_fetcher.py`.
     - Replaced absolute dollar amounts with relative percentages in `growth_portfolio_plan.py` (privacy).
 - **API Performance Enhancements (`market_fetcher.py`)**:
     - Fixed a bug where AlphaVantage payloads would not leverage local `.cache/` data when requesting missing values. Implemented robust intercept logic validating cache freshness.

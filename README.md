@@ -19,9 +19,10 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
   - **OHLCV Prices**: Daily history (Default: 2018+).
   - **News**: Recent aggregate (Yahoo, Google, Seeking Alpha) and historical backfill (FNSPID, 2010-2020).
   - **Fundamentals**: Key metrics (P/E, Market Cap) and Quarterly Financials.
-  - **Macro**: FRED Economic indicators (Inflation, PPI).
+  - **Macro**: FRED Economic indicators (Inflation, PPI, US10Y).
   - **Insider Trading**: SEC Form 4 extraction via `sec-edgar-downloader`.
   - **ML Sentiment**: AlphaVantage Sentiment scoring and Hybrid TextBlob fallbacks.
+  - **Calculated Metrics**: Graham Intrinsic Value, EPS Growth estimates, Technicals (RSI, MACD).
 
 ---
 ## Data Sources
@@ -144,7 +145,24 @@ Organized generically by **Ticker** and **Topic**. View `DATA_SCHEMA.md` for det
 ---
 
 ## Reports
-After every run, the system generates reports in `market_data/`:
+
+The pipeline includes a dedicated `reports/` directory designed for one off analysis.
+- All analysis scripts can be executed at once via `./reports/run_all_report_scripts.sh`.
+- Browse the `reports/` directory to examples.
+
+### Analysis Capabilities & Metrics
+The pipeline computes several advanced metrics natively during fetching and reporting:
+- **Graham Intrinsic Value & EPS Growth**: Calculates a stock's intrinsic value based on trailing EPS, estimated annualized growth via log-linear regression, and the current 10-Year Treasury Yield.
+- **Discount to Intrinsic Value**: Ranks tickers by how undervalued they are compared to their Graham Value.
+- **Technical Indicators**: Calculates dynamic RSI, MACD, MA Crossovers, and Distance to 200MA.
+- **Options IV Crush Risk**: Analyzes historical post-earnings volatility contraction.
+
+### Generalized Utilities
+- `reports/report_utils.py`: A shared module containing core mathematical functions (RSI, MACD) and plotting aesthetics, used by downstream scripts.
+- `reports/portfolios/portfolio_processor.py`: Merges raw holding amounts with the newly fetched pipeline metrics and fundamental intrinsic values, producing comprehensive markdown tables.
+
+
+After every standard fetch run, the system also generates generic data health reports in `market_data/`:
 - **`STATS.md`**: Health check report (Root of `market_data/`).
   - Lists total count of news items.
   - **Macro Data Health**: Shows per-indicator valid row counts and date ranges.

@@ -1,21 +1,17 @@
 import logging
 import os
 import sys
-
-# Resolve the project root natively handling execution from any directory
-# Add the project root to sys.path to allow importing modules from it
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
-if project_root not in sys.path:
-  sys.path.insert(0, project_root)
-
-# pylint: disable=wrong-import-position
 from typing import Any, Dict
 
 import numpy as np
 import pandas as pd
-from report_utils import calculate_technical_metrics
+
+from reports.report_utils import (calculate_technical_metrics,
+                                  get_intrinsic_value_metrics)
 
 logger = logging.getLogger(__name__)
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 
 DATA_DIR = os.path.join(project_root, "market_data")
 TICKERS_DIR = os.path.join(DATA_DIR, "tickers")
@@ -70,9 +66,16 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
   for ticker in portfolio_df['Ticker']:
     df = load_ticker_prices(ticker)
     metrics = calculate_technical_metrics(df)
-    if metrics:
-      metrics['Ticker'] = ticker
-      metrics_list.append(metrics)
+    intrinsic_metrics = get_intrinsic_value_metrics(ticker, TICKERS_DIR)
+
+    if metrics or intrinsic_metrics:
+      combined = {"Ticker": ticker}
+      if metrics:
+        combined.update(metrics)
+      if intrinsic_metrics:
+        combined.update(intrinsic_metrics)
+
+      metrics_list.append(combined)
 
   if not metrics_list:
     logger.warning(
