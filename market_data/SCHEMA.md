@@ -47,10 +47,10 @@ This report documents the file structures and column data types used in `market_
 |---|---|---|
 | Date | str | 2026-02-26 |
 | Source | str | Google |
-| Sentiment | float64 | 0.375 |
-| Headline | str | MIG Capital’s Richard Merage Cuts Amazon.com St... |
-| Summary | str | Amazon.com (NasdaqGS:AMZN) has surpassed Walmar... |
-| URL | str | https://news.google.com/rss/articles/CBMitgFBVV... |
+| Sentiment | float64 | 0.0 |
+| Headline | str | Amazon Wish List changes its shipping policy — ... |
+| Summary | str | Benchstone Capital exited its position in Norwe... |
+| URL | str | https://news.google.com/rss/articles/CBMihAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 326.588 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.48 |
-| US10Y | float64 | 4.08 |
+| US02Y | float64 | 3.43 |
+| US10Y | float64 | 4.04 |

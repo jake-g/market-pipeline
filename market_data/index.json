@@ -3,15 +3,15 @@
     "type": "file",
     "name": "CHANGELOG.md",
     "path": "CHANGELOG.md",
-    "size": 12665,
-    "lines": 199
+    "size": 12062,
+    "lines": 197
   },
   {
     "type": "file",
     "name": "README.md",
     "path": "README.md",
-    "size": 9510,
-    "lines": 210
+    "size": 10860,
+    "lines": 228
   },
   {
     "type": "folder",
@@ -27,8 +27,8 @@
             "type": "file",
             "name": "economic_indicators.tsv",
             "path": "market_data/macro/economic_indicators.tsv",
-            "size": 618144,
-            "lines": 17135
+            "size": 618214,
+            "lines": 17137
           }
         ]
       },
@@ -53,8 +53,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/^DJI/news.tsv",
-                "size": 140264,
-                "lines": 365
+                "size": 142702,
+                "lines": 373
               },
               {
                 "type": "file",
@@ -88,8 +88,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/^GSPC/news.tsv",
-                "size": 113858,
-                "lines": 310
+                "size": 116253,
+                "lines": 317
               },
               {
                 "type": "file",
@@ -123,15 +123,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/^IXIC/news.tsv",
-                "size": 107762,
-                "lines": 259
+                "size": 110316,
+                "lines": 266
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/^IXIC/news_sentiment.tsv",
-                "size": 2421,
-                "lines": 119
+                "size": 2462,
+                "lines": 121
               },
               {
                 "type": "file",
@@ -158,15 +158,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/^RUT/news.tsv",
-                "size": 58024,
-                "lines": 146
+                "size": 60533,
+                "lines": 150
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/^RUT/news_sentiment.tsv",
-                "size": 2110,
-                "lines": 104
+                "size": 2150,
+                "lines": 106
               },
               {
                 "type": "file",
@@ -193,15 +193,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/^TNX/news.tsv",
-                "size": 58819,
-                "lines": 132
+                "size": 59505,
+                "lines": 134
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/^TNX/news_sentiment.tsv",
-                "size": 1519,
-                "lines": 75
+                "size": 1559,
+                "lines": 77
               },
               {
                 "type": "file",
@@ -228,15 +228,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/^VIX/news.tsv",
-                "size": 75242,
-                "lines": 173
+                "size": 78899,
+                "lines": 185
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/^VIX/news_sentiment.tsv",
-                "size": 2347,
-                "lines": 116
+                "size": 2387,
+                "lines": 118
               },
               {
                 "type": "file",
@@ -256,7 +256,7 @@
                 "type": "file",
                 "name": "earnings.tsv",
                 "path": "market_data/tickers/AAPL/earnings.tsv",
-                "size": 1067,
+                "size": 1063,
                 "lines": 26
               },
               {
@@ -270,8 +270,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AAPL/fundamentals.tsv",
-                "size": 8226,
-                "lines": 184
+                "size": 8333,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -284,8 +284,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AAPL/news.tsv",
-                "size": 201168,
-                "lines": 431
+                "size": 201515,
+                "lines": 433
               },
               {
                 "type": "file",
@@ -326,7 +326,7 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ACHR/fundamentals.tsv",
-                "size": 6345,
+                "size": 6357,
                 "lines": 166
               },
               {
@@ -340,8 +340,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ACHR/news.tsv",
-                "size": 105438,
-                "lines": 241
+                "size": 104870,
+                "lines": 240
               },
               {
                 "type": "file",
@@ -382,8 +382,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ADBE/fundamentals.tsv",
-                "size": 8455,
-                "lines": 183
+                "size": 8562,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -396,8 +396,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ADBE/news.tsv",
-                "size": 120123,
-                "lines": 280
+                "size": 122025,
+                "lines": 284
               },
               {
                 "type": "file",
@@ -438,8 +438,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ADI/fundamentals.tsv",
-                "size": 8141,
-                "lines": 184
+                "size": 8247,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -452,14 +452,14 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ADI/news.tsv",
-                "size": 82056,
-                "lines": 192
+                "size": 83195,
+                "lines": 197
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ADI/news_sentiment.tsv",
-                "size": 17118,
+                "size": 17215,
                 "lines": 857
               },
               {
@@ -494,8 +494,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AMAT/fundamentals.tsv",
-                "size": 7845,
-                "lines": 185
+                "size": 7949,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -508,14 +508,14 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AMAT/news.tsv",
-                "size": 85885,
+                "size": 85756,
                 "lines": 209
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/AMAT/news_sentiment.tsv",
-                "size": 19321,
+                "size": 19333,
                 "lines": 861
               },
               {
@@ -550,8 +550,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AMD/fundamentals.tsv",
-                "size": 8464,
-                "lines": 178
+                "size": 8569,
+                "lines": 181
               },
               {
                 "type": "file",
@@ -564,14 +564,14 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AMD/news.tsv",
-                "size": 204855,
-                "lines": 465
+                "size": 205390,
+                "lines": 469
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/AMD/news_sentiment.tsv",
-                "size": 19766,
+                "size": 19778,
                 "lines": 856
               },
               {
@@ -606,8 +606,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AMKBY/fundamentals.tsv",
-                "size": 6881,
-                "lines": 160
+                "size": 6987,
+                "lines": 163
               },
               {
                 "type": "file",
@@ -655,8 +655,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AMT/fundamentals.tsv",
-                "size": 5906,
-                "lines": 185
+                "size": 6013,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -669,8 +669,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AMT/news.tsv",
-                "size": 83743,
-                "lines": 184
+                "size": 82621,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -711,8 +711,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AMZN/fundamentals.tsv",
-                "size": 7770,
-                "lines": 177
+                "size": 7876,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -725,15 +725,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AMZN/news.tsv",
-                "size": 230293,
-                "lines": 524
+                "size": 231732,
+                "lines": 533
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/AMZN/news_sentiment.tsv",
-                "size": 19756,
-                "lines": 839
+                "size": 19793,
+                "lines": 840
               },
               {
                 "type": "file",
@@ -767,8 +767,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ANET/fundamentals.tsv",
-                "size": 7566,
-                "lines": 177
+                "size": 7672,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -781,15 +781,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ANET/news.tsv",
-                "size": 57689,
-                "lines": 141
+                "size": 59246,
+                "lines": 149
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ANET/news_sentiment.tsv",
-                "size": 22337,
-                "lines": 964
+                "size": 22362,
+                "lines": 965
               },
               {
                 "type": "file",
@@ -823,8 +823,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/APH/fundamentals.tsv",
-                "size": 8303,
-                "lines": 184
+                "size": 8407,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -837,8 +837,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/APH/news.tsv",
-                "size": 69167,
-                "lines": 165
+                "size": 74186,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -879,22 +879,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ARM/fundamentals.tsv",
-                "size": 6902,
-                "lines": 169
+                "size": 7010,
+                "lines": 172
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ARM/news.tsv",
-                "size": 162980,
-                "lines": 363
+                "size": 170375,
+                "lines": 379
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ARM/news_sentiment.tsv",
-                "size": 803,
-                "lines": 39
+                "size": 823,
+                "lines": 40
               },
               {
                 "type": "file",
@@ -914,15 +914,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ASML/fundamentals.tsv",
-                "size": 7909,
-                "lines": 177
+                "size": 8015,
+                "lines": 180
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ASML/news.tsv",
-                "size": 110627,
-                "lines": 239
+                "size": 112849,
+                "lines": 245
               },
               {
                 "type": "file",
@@ -963,8 +963,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AVGO/fundamentals.tsv",
-                "size": 8118,
-                "lines": 183
+                "size": 8222,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -977,8 +977,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AVGO/news.tsv",
-                "size": 120741,
-                "lines": 284
+                "size": 120708,
+                "lines": 287
               },
               {
                 "type": "file",
@@ -1019,8 +1019,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/AXON/fundamentals.tsv",
-                "size": 7604,
-                "lines": 175
+                "size": 7712,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -1033,8 +1033,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AXON/news.tsv",
-                "size": 121935,
-                "lines": 283
+                "size": 120305,
+                "lines": 285
               },
               {
                 "type": "file",
@@ -1089,15 +1089,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BA/news.tsv",
-                "size": 150852,
-                "lines": 336
+                "size": 148257,
+                "lines": 339
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/BA/news_sentiment.tsv",
-                "size": 19879,
-                "lines": 842
+                "size": 19941,
+                "lines": 844
               },
               {
                 "type": "file",
@@ -1131,8 +1131,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BDRY/news.tsv",
-                "size": 23905,
-                "lines": 47
+                "size": 24042,
+                "lines": 48
               },
               {
                 "type": "file",
@@ -1173,15 +1173,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BHP/news.tsv",
-                "size": 131370,
-                "lines": 291
+                "size": 133919,
+                "lines": 298
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/BHP/news_sentiment.tsv",
-                "size": 1126,
-                "lines": 55
+                "size": 1249,
+                "lines": 61
               },
               {
                 "type": "file",
@@ -1208,8 +1208,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BITF/news.tsv",
-                "size": 55806,
-                "lines": 133
+                "size": 48236,
+                "lines": 122
               },
               {
                 "type": "file",
@@ -1250,8 +1250,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/BLK/fundamentals.tsv",
-                "size": 9405,
-                "lines": 175
+                "size": 9514,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -1264,21 +1264,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BLK/news.tsv",
-                "size": 166930,
-                "lines": 398
+                "size": 178586,
+                "lines": 427
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/BLK/news_sentiment.tsv",
-                "size": 18898,
+                "size": 18935,
                 "lines": 851
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/BLK/prices.tsv",
-                "size": 94066,
+                "size": 94065,
                 "lines": 2049
               }
             ]
@@ -1313,8 +1313,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BMNR/news.tsv",
-                "size": 51037,
-                "lines": 106
+                "size": 48397,
+                "lines": 113
               },
               {
                 "type": "file",
@@ -1362,8 +1362,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BP/news.tsv",
-                "size": 157624,
-                "lines": 355
+                "size": 161789,
+                "lines": 365
               },
               {
                 "type": "file",
@@ -1404,8 +1404,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/BX/fundamentals.tsv",
-                "size": 9760,
-                "lines": 178
+                "size": 9864,
+                "lines": 181
               },
               {
                 "type": "file",
@@ -1418,8 +1418,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/BX/news.tsv",
-                "size": 129340,
-                "lines": 290
+                "size": 121248,
+                "lines": 277
               },
               {
                 "type": "file",
@@ -1460,8 +1460,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CAT/fundamentals.tsv",
-                "size": 8540,
-                "lines": 186
+                "size": 8649,
+                "lines": 189
               },
               {
                 "type": "file",
@@ -1474,8 +1474,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CAT/news.tsv",
-                "size": 195974,
-                "lines": 446
+                "size": 204163,
+                "lines": 468
               },
               {
                 "type": "file",
@@ -1488,7 +1488,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/CAT/prices.tsv",
-                "size": 94933,
+                "size": 94935,
                 "lines": 2049
               }
             ]
@@ -1530,15 +1530,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CCI/news.tsv",
-                "size": 66780,
-                "lines": 150
+                "size": 66350,
+                "lines": 154
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CCI/news_sentiment.tsv",
-                "size": 15794,
-                "lines": 845
+                "size": 15868,
+                "lines": 846
               },
               {
                 "type": "file",
@@ -1572,15 +1572,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CCJ/fundamentals.tsv",
-                "size": 7125,
-                "lines": 183
+                "size": 7230,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CCJ/news.tsv",
-                "size": 83147,
-                "lines": 191
+                "size": 88545,
+                "lines": 203
               },
               {
                 "type": "file",
@@ -1621,8 +1621,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CDNS/fundamentals.tsv",
-                "size": 8466,
-                "lines": 179
+                "size": 8573,
+                "lines": 182
               },
               {
                 "type": "file",
@@ -1635,8 +1635,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CDNS/news.tsv",
-                "size": 62830,
-                "lines": 136
+                "size": 60280,
+                "lines": 141
               },
               {
                 "type": "file",
@@ -1677,8 +1677,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CEG/fundamentals.tsv",
-                "size": 7221,
-                "lines": 182
+                "size": 7328,
+                "lines": 185
               },
               {
                 "type": "file",
@@ -1691,15 +1691,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CEG/news.tsv",
-                "size": 81931,
-                "lines": 190
+                "size": 76741,
+                "lines": 184
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CEG/news_sentiment.tsv",
-                "size": 21362,
-                "lines": 1050
+                "size": 21387,
+                "lines": 1051
               },
               {
                 "type": "file",
@@ -1726,15 +1726,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CL=F/news.tsv",
-                "size": 86105,
-                "lines": 204
+                "size": 91369,
+                "lines": 216
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CL=F/news_sentiment.tsv",
-                "size": 1502,
-                "lines": 74
+                "size": 1562,
+                "lines": 77
               },
               {
                 "type": "file",
@@ -1782,15 +1782,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CLSK/news.tsv",
-                "size": 48281,
-                "lines": 105
+                "size": 35598,
+                "lines": 87
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CLSK/news_sentiment.tsv",
-                "size": 1545,
-                "lines": 76
+                "size": 1566,
+                "lines": 77
               },
               {
                 "type": "file",
@@ -1824,8 +1824,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CMG/fundamentals.tsv",
-                "size": 6982,
-                "lines": 178
+                "size": 7087,
+                "lines": 181
               },
               {
                 "type": "file",
@@ -1838,15 +1838,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CMG/news.tsv",
-                "size": 111357,
-                "lines": 254
+                "size": 103523,
+                "lines": 245
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CMG/news_sentiment.tsv",
-                "size": 24270,
-                "lines": 1046
+                "size": 24356,
+                "lines": 1047
               },
               {
                 "type": "file",
@@ -1880,15 +1880,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CNI/fundamentals.tsv",
-                "size": 7264,
-                "lines": 181
+                "size": 7370,
+                "lines": 184
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CNI/news.tsv",
-                "size": 55539,
-                "lines": 138
+                "size": 57150,
+                "lines": 141
               },
               {
                 "type": "file",
@@ -1929,8 +1929,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CNP/fundamentals.tsv",
-                "size": 7763,
-                "lines": 184
+                "size": 7868,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -1943,15 +1943,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CNP/news.tsv",
-                "size": 67645,
-                "lines": 163
+                "size": 75014,
+                "lines": 181
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CNP/news_sentiment.tsv",
-                "size": 15328,
-                "lines": 832
+                "size": 15427,
+                "lines": 834
               },
               {
                 "type": "file",
@@ -1999,15 +1999,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/COHR/news.tsv",
-                "size": 49911,
-                "lines": 134
+                "size": 54298,
+                "lines": 141
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/COHR/news_sentiment.tsv",
-                "size": 1477,
-                "lines": 73
+                "size": 1497,
+                "lines": 74
               },
               {
                 "type": "file",
@@ -2041,8 +2041,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/COIN/fundamentals.tsv",
-                "size": 6601,
-                "lines": 174
+                "size": 6707,
+                "lines": 177
               },
               {
                 "type": "file",
@@ -2055,8 +2055,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/COIN/news.tsv",
-                "size": 181486,
-                "lines": 415
+                "size": 185107,
+                "lines": 422
               },
               {
                 "type": "file",
@@ -2097,8 +2097,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/COP/fundamentals.tsv",
-                "size": 7355,
-                "lines": 183
+                "size": 7461,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -2111,8 +2111,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/COP/news.tsv",
-                "size": 158853,
-                "lines": 352
+                "size": 168127,
+                "lines": 369
               },
               {
                 "type": "file",
@@ -2125,7 +2125,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/COP/prices.tsv",
-                "size": 89861,
+                "size": 89862,
                 "lines": 2049
               }
             ]
@@ -2188,8 +2188,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/COST/fundamentals.tsv",
-                "size": 7887,
-                "lines": 184
+                "size": 7992,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -2202,8 +2202,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/COST/news.tsv",
-                "size": 250779,
-                "lines": 588
+                "size": 262020,
+                "lines": 613
               },
               {
                 "type": "file",
@@ -2244,28 +2244,28 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CP/fundamentals.tsv",
-                "size": 7502,
-                "lines": 186
+                "size": 7610,
+                "lines": 189
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CP/news.tsv",
-                "size": 101476,
-                "lines": 237
+                "size": 102694,
+                "lines": 241
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CP/news_sentiment.tsv",
-                "size": 1465,
-                "lines": 72
+                "size": 1485,
+                "lines": 73
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/CP/prices.tsv",
-                "size": 87184,
+                "size": 87185,
                 "lines": 2049
               }
             ]
@@ -2293,8 +2293,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CRM/fundamentals.tsv",
-                "size": 7811,
-                "lines": 188
+                "size": 7916,
+                "lines": 191
               },
               {
                 "type": "file",
@@ -2307,8 +2307,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CRM/news.tsv",
-                "size": 143889,
-                "lines": 353
+                "size": 150306,
+                "lines": 370
               },
               {
                 "type": "file",
@@ -2363,15 +2363,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CRWD/news.tsv",
-                "size": 90311,
+                "size": 90335,
                 "lines": 226
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CRWD/news_sentiment.tsv",
-                "size": 22381,
-                "lines": 964
+                "size": 22406,
+                "lines": 965
               },
               {
                 "type": "file",
@@ -2405,8 +2405,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CSCO/fundamentals.tsv",
-                "size": 7980,
-                "lines": 183
+                "size": 8085,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -2419,14 +2419,14 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CSCO/news.tsv",
-                "size": 79407,
-                "lines": 201
+                "size": 80432,
+                "lines": 204
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CSCO/news_sentiment.tsv",
-                "size": 19366,
+                "size": 19391,
                 "lines": 846
               },
               {
@@ -2461,8 +2461,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/CVX/fundamentals.tsv",
-                "size": 7750,
-                "lines": 179
+                "size": 7858,
+                "lines": 182
               },
               {
                 "type": "file",
@@ -2475,15 +2475,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/CVX/news.tsv",
-                "size": 93313,
-                "lines": 229
+                "size": 95973,
+                "lines": 235
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/CVX/news_sentiment.tsv",
-                "size": 19472,
-                "lines": 845
+                "size": 19534,
+                "lines": 847
               },
               {
                 "type": "file",
@@ -2517,8 +2517,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/D/fundamentals.tsv",
-                "size": 7664,
-                "lines": 185
+                "size": 7769,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -2531,8 +2531,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/D/news.tsv",
-                "size": 246185,
-                "lines": 590
+                "size": 261147,
+                "lines": 624
               },
               {
                 "type": "file",
@@ -2573,8 +2573,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/DAC/fundamentals.tsv",
-                "size": 5638,
-                "lines": 175
+                "size": 5744,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -2587,7 +2587,7 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/DAC/news.tsv",
-                "size": 90500,
+                "size": 90222,
                 "lines": 229
               },
               {
@@ -2629,8 +2629,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/DE/fundamentals.tsv",
-                "size": 8470,
-                "lines": 183
+                "size": 8578,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -2643,8 +2643,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/DE/news.tsv",
-                "size": 224063,
-                "lines": 537
+                "size": 234488,
+                "lines": 563
               },
               {
                 "type": "file",
@@ -2657,7 +2657,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/DE/prices.tsv",
-                "size": 94792,
+                "size": 94791,
                 "lines": 2049
               }
             ]
@@ -2685,8 +2685,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/DELL/fundamentals.tsv",
-                "size": 8131,
-                "lines": 180
+                "size": 8237,
+                "lines": 183
               },
               {
                 "type": "file",
@@ -2699,8 +2699,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/DELL/news.tsv",
-                "size": 142129,
-                "lines": 347
+                "size": 141523,
+                "lines": 348
               },
               {
                 "type": "file",
@@ -2741,8 +2741,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/DLR/fundamentals.tsv",
-                "size": 7625,
-                "lines": 184
+                "size": 7732,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -2755,21 +2755,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/DLR/news.tsv",
-                "size": 83480,
-                "lines": 208
+                "size": 87429,
+                "lines": 219
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/DLR/news_sentiment.tsv",
-                "size": 15043,
-                "lines": 849
+                "size": 15104,
+                "lines": 850
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/DLR/prices.tsv",
-                "size": 93972,
+                "size": 93971,
                 "lines": 2049
               }
             ]
@@ -2797,8 +2797,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ENTG/fundamentals.tsv",
-                "size": 8039,
-                "lines": 183
+                "size": 8146,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -2811,8 +2811,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ENTG/news.tsv",
-                "size": 49765,
-                "lines": 125
+                "size": 51371,
+                "lines": 129
               },
               {
                 "type": "file",
@@ -2853,8 +2853,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/EOG/fundamentals.tsv",
-                "size": 6718,
-                "lines": 185
+                "size": 6824,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -2867,8 +2867,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/EOG/news.tsv",
-                "size": 66017,
-                "lines": 171
+                "size": 67179,
+                "lines": 175
               },
               {
                 "type": "file",
@@ -2881,7 +2881,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/EOG/prices.tsv",
-                "size": 91784,
+                "size": 91782,
                 "lines": 2049
               }
             ]
@@ -2909,8 +2909,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/EQIX/fundamentals.tsv",
-                "size": 7051,
-                "lines": 185
+                "size": 7159,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -2923,8 +2923,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/EQIX/news.tsv",
-                "size": 64491,
-                "lines": 156
+                "size": 65699,
+                "lines": 160
               },
               {
                 "type": "file",
@@ -2937,7 +2937,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/EQIX/prices.tsv",
-                "size": 93093,
+                "size": 93092,
                 "lines": 2049
               }
             ]
@@ -2965,8 +2965,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ES/fundamentals.tsv",
-                "size": 7321,
-                "lines": 181
+                "size": 7426,
+                "lines": 184
               },
               {
                 "type": "file",
@@ -2979,15 +2979,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ES/news.tsv",
-                "size": 101587,
-                "lines": 253
+                "size": 97348,
+                "lines": 248
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ES/news_sentiment.tsv",
-                "size": 13428,
-                "lines": 819
+                "size": 13477,
+                "lines": 820
               },
               {
                 "type": "file",
@@ -3021,8 +3021,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ETN/fundamentals.tsv",
-                "size": 8374,
-                "lines": 181
+                "size": 8479,
+                "lines": 184
               },
               {
                 "type": "file",
@@ -3035,21 +3035,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ETN/news.tsv",
-                "size": 45520,
-                "lines": 122
+                "size": 45963,
+                "lines": 125
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ETN/news_sentiment.tsv",
-                "size": 17744,
+                "size": 17756,
                 "lines": 844
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/ETN/prices.tsv",
-                "size": 92486,
+                "size": 92488,
                 "lines": 2049
               }
             ]
@@ -3077,8 +3077,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/F/fundamentals.tsv",
-                "size": 7903,
-                "lines": 181
+                "size": 7944,
+                "lines": 182
               },
               {
                 "type": "file",
@@ -3091,15 +3091,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/F/news.tsv",
-                "size": 216683,
-                "lines": 555
+                "size": 227804,
+                "lines": 581
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/F/news_sentiment.tsv",
-                "size": 18781,
-                "lines": 838
+                "size": 18807,
+                "lines": 839
               },
               {
                 "type": "file",
@@ -3189,8 +3189,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/FCX/fundamentals.tsv",
-                "size": 7152,
-                "lines": 185
+                "size": 7256,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -3203,8 +3203,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/FCX/news.tsv",
-                "size": 54366,
-                "lines": 140
+                "size": 52888,
+                "lines": 135
               },
               {
                 "type": "file",
@@ -3245,8 +3245,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/FDX/fundamentals.tsv",
-                "size": 8282,
-                "lines": 177
+                "size": 8388,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -3259,21 +3259,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/FDX/news.tsv",
-                "size": 108649,
-                "lines": 253
+                "size": 110535,
+                "lines": 256
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/FDX/news_sentiment.tsv",
-                "size": 1362,
-                "lines": 67
+                "size": 1382,
+                "lines": 68
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/FDX/prices.tsv",
-                "size": 94861,
+                "size": 94860,
                 "lines": 2049
               }
             ]
@@ -3336,8 +3336,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/FSLR/fundamentals.tsv",
-                "size": 7316,
-                "lines": 177
+                "size": 7421,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -3350,15 +3350,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/FSLR/news.tsv",
-                "size": 87230,
-                "lines": 220
+                "size": 85917,
+                "lines": 219
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/FSLR/news_sentiment.tsv",
-                "size": 1136,
-                "lines": 56
+                "size": 1157,
+                "lines": 57
               },
               {
                 "type": "file",
@@ -3420,22 +3420,22 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GC=F/news.tsv",
-                "size": 100949,
-                "lines": 216
+                "size": 105540,
+                "lines": 225
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/GC=F/news_sentiment.tsv",
-                "size": 1468,
-                "lines": 72
+                "size": 1508,
+                "lines": 74
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/GC=F/prices.tsv",
-                "size": 87795,
-                "lines": 2050
+                "size": 87837,
+                "lines": 2051
               }
             ]
           },
@@ -3462,8 +3462,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/GD/fundamentals.tsv",
-                "size": 8508,
-                "lines": 184
+                "size": 8616,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -3476,21 +3476,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GD/news.tsv",
-                "size": 92245,
-                "lines": 225
+                "size": 94419,
+                "lines": 229
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/GD/news_sentiment.tsv",
-                "size": 1769,
-                "lines": 87
+                "size": 1829,
+                "lines": 90
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/GD/prices.tsv",
-                "size": 94367,
+                "size": 94368,
                 "lines": 2049
               }
             ]
@@ -3518,8 +3518,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/GE/fundamentals.tsv",
-                "size": 7831,
-                "lines": 183
+                "size": 7937,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -3532,15 +3532,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GE/news.tsv",
-                "size": 128904,
-                "lines": 297
+                "size": 129824,
+                "lines": 300
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/GE/news_sentiment.tsv",
-                "size": 782,
-                "lines": 38
+                "size": 802,
+                "lines": 39
               },
               {
                 "type": "file",
@@ -3574,8 +3574,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/GEV/fundamentals.tsv",
-                "size": 7364,
-                "lines": 183
+                "size": 7470,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -3588,15 +3588,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GEV/news.tsv",
-                "size": 68170,
-                "lines": 179
+                "size": 70277,
+                "lines": 182
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/GEV/news_sentiment.tsv",
-                "size": 1526,
-                "lines": 75
+                "size": 1546,
+                "lines": 76
               },
               {
                 "type": "file",
@@ -3623,15 +3623,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GLDM/news.tsv",
-                "size": 20063,
+                "size": 20077,
                 "lines": 59
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/GLDM/news_sentiment.tsv",
-                "size": 1058,
-                "lines": 52
+                "size": 1098,
+                "lines": 54
               },
               {
                 "type": "file",
@@ -3665,8 +3665,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GOLD/news.tsv",
-                "size": 233454,
-                "lines": 565
+                "size": 250219,
+                "lines": 604
               },
               {
                 "type": "file",
@@ -3707,8 +3707,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/GOOG/fundamentals.tsv",
-                "size": 7669,
-                "lines": 175
+                "size": 7774,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -3721,15 +3721,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GOOG/news.tsv",
-                "size": 117963,
-                "lines": 297
+                "size": 122955,
+                "lines": 307
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/GOOG/news_sentiment.tsv",
-                "size": 1409,
-                "lines": 69
+                "size": 1429,
+                "lines": 70
               },
               {
                 "type": "file",
@@ -3763,8 +3763,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/GSL/fundamentals.tsv",
-                "size": 5724,
-                "lines": 173
+                "size": 5830,
+                "lines": 176
               },
               {
                 "type": "file",
@@ -3777,8 +3777,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/GSL/news.tsv",
-                "size": 75094,
-                "lines": 160
+                "size": 73417,
+                "lines": 156
               },
               {
                 "type": "file",
@@ -3819,8 +3819,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/HAL/fundamentals.tsv",
-                "size": 8451,
-                "lines": 183
+                "size": 8558,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -3833,15 +3833,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/HAL/news.tsv",
-                "size": 98072,
-                "lines": 229
+                "size": 98813,
+                "lines": 233
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/HAL/news_sentiment.tsv",
-                "size": 1407,
-                "lines": 69
+                "size": 1447,
+                "lines": 71
               },
               {
                 "type": "file",
@@ -3875,8 +3875,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/HII/fundamentals.tsv",
-                "size": 7725,
-                "lines": 181
+                "size": 7831,
+                "lines": 184
               },
               {
                 "type": "file",
@@ -3889,21 +3889,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/HII/news.tsv",
-                "size": 58035,
+                "size": 58131,
                 "lines": 140
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/HII/news_sentiment.tsv",
-                "size": 1703,
-                "lines": 84
+                "size": 1724,
+                "lines": 85
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/HII/prices.tsv",
-                "size": 93232,
+                "size": 93231,
                 "lines": 2049
               }
             ]
@@ -3931,8 +3931,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/HPE/fundamentals.tsv",
-                "size": 8256,
-                "lines": 181
+                "size": 8298,
+                "lines": 182
               },
               {
                 "type": "file",
@@ -3945,7 +3945,7 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/HPE/news.tsv",
-                "size": 83216,
+                "size": 83715,
                 "lines": 197
               },
               {
@@ -3973,8 +3973,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/HUT/fundamentals.tsv",
-                "size": 6295,
-                "lines": 179
+                "size": 6398,
+                "lines": 182
               },
               {
                 "type": "file",
@@ -3987,15 +3987,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/HUT/news.tsv",
-                "size": 103444,
-                "lines": 264
+                "size": 106711,
+                "lines": 273
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/HUT/news_sentiment.tsv",
-                "size": 1485,
-                "lines": 73
+                "size": 1506,
+                "lines": 74
               },
               {
                 "type": "file",
@@ -4022,15 +4022,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/IBIT/news.tsv",
-                "size": 43056,
-                "lines": 117
+                "size": 45189,
+                "lines": 123
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/IBIT/news_sentiment.tsv",
-                "size": 1182,
-                "lines": 58
+                "size": 1222,
+                "lines": 60
               },
               {
                 "type": "file",
@@ -4064,8 +4064,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/IBM/fundamentals.tsv",
-                "size": 7896,
-                "lines": 183
+                "size": 8001,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -4078,15 +4078,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/IBM/news.tsv",
-                "size": 171232,
-                "lines": 407
+                "size": 176164,
+                "lines": 420
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/IBM/news_sentiment.tsv",
-                "size": 1043,
-                "lines": 51
+                "size": 1063,
+                "lines": 52
               },
               {
                 "type": "file",
@@ -4134,15 +4134,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/INTC/news.tsv",
-                "size": 115924,
-                "lines": 314
+                "size": 117572,
+                "lines": 318
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/INTC/news_sentiment.tsv",
-                "size": 1345,
-                "lines": 66
+                "size": 1406,
+                "lines": 69
               },
               {
                 "type": "file",
@@ -4190,15 +4190,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/IONQ/news.tsv",
-                "size": 81708,
-                "lines": 215
+                "size": 85282,
+                "lines": 225
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/IONQ/news_sentiment.tsv",
-                "size": 1339,
-                "lines": 66
+                "size": 1360,
+                "lines": 67
               },
               {
                 "type": "file",
@@ -4232,8 +4232,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/IRM/fundamentals.tsv",
-                "size": 7296,
-                "lines": 182
+                "size": 7402,
+                "lines": 185
               },
               {
                 "type": "file",
@@ -4246,15 +4246,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/IRM/news.tsv",
-                "size": 45903,
+                "size": 45991,
                 "lines": 117
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/IRM/news_sentiment.tsv",
-                "size": 1342,
-                "lines": 66
+                "size": 1362,
+                "lines": 67
               },
               {
                 "type": "file",
@@ -4288,8 +4288,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ISRG/fundamentals.tsv",
-                "size": 7775,
-                "lines": 178
+                "size": 7882,
+                "lines": 181
               },
               {
                 "type": "file",
@@ -4302,15 +4302,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ISRG/news.tsv",
-                "size": 71465,
-                "lines": 189
+                "size": 73496,
+                "lines": 194
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ISRG/news_sentiment.tsv",
-                "size": 1964,
-                "lines": 97
+                "size": 2025,
+                "lines": 100
               },
               {
                 "type": "file",
@@ -4337,21 +4337,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ITA/news.tsv",
-                "size": 73140,
-                "lines": 182
+                "size": 71439,
+                "lines": 179
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ITA/news_sentiment.tsv",
-                "size": 1486,
-                "lines": 73
+                "size": 1506,
+                "lines": 74
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/ITA/prices.tsv",
-                "size": 91013,
+                "size": 91012,
                 "lines": 2049
               }
             ]
@@ -4393,15 +4393,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/JOBY/news.tsv",
-                "size": 65439,
-                "lines": 163
+                "size": 66866,
+                "lines": 169
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/JOBY/news_sentiment.tsv",
-                "size": 1301,
-                "lines": 64
+                "size": 1321,
+                "lines": 65
               },
               {
                 "type": "file",
@@ -4435,8 +4435,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/JPM/fundamentals.tsv",
-                "size": 8280,
-                "lines": 178
+                "size": 8388,
+                "lines": 181
               },
               {
                 "type": "file",
@@ -4449,15 +4449,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/JPM/news.tsv",
-                "size": 126973,
-                "lines": 309
+                "size": 129221,
+                "lines": 315
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/JPM/news_sentiment.tsv",
-                "size": 924,
-                "lines": 45
+                "size": 945,
+                "lines": 46
               },
               {
                 "type": "file",
@@ -4491,8 +4491,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/KLAC/fundamentals.tsv",
-                "size": 8431,
-                "lines": 185
+                "size": 8538,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -4505,21 +4505,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/KLAC/news.tsv",
-                "size": 58912,
-                "lines": 162
+                "size": 58466,
+                "lines": 161
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/KLAC/news_sentiment.tsv",
-                "size": 1662,
-                "lines": 82
+                "size": 1702,
+                "lines": 84
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/KLAC/prices.tsv",
-                "size": 94308,
+                "size": 94309,
                 "lines": 2049
               }
             ]
@@ -4547,15 +4547,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/LDOS/fundamentals.tsv",
-                "size": 8750,
-                "lines": 184
+                "size": 8856,
+                "lines": 187
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/LDOS/news.tsv",
-                "size": 51847,
-                "lines": 130
+                "size": 52293,
+                "lines": 131
               },
               {
                 "type": "file",
@@ -4568,7 +4568,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/LDOS/prices.tsv",
-                "size": 89245,
+                "size": 89248,
                 "lines": 2049
               }
             ]
@@ -4596,8 +4596,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/LIN/fundamentals.tsv",
-                "size": 7212,
-                "lines": 182
+                "size": 7319,
+                "lines": 185
               },
               {
                 "type": "file",
@@ -4610,21 +4610,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/LIN/news.tsv",
-                "size": 68026,
-                "lines": 176
+                "size": 67645,
+                "lines": 178
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/LIN/news_sentiment.tsv",
-                "size": 1443,
-                "lines": 71
+                "size": 1464,
+                "lines": 72
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/LIN/prices.tsv",
-                "size": 95092,
+                "size": 95094,
                 "lines": 2049
               }
             ]
@@ -4652,22 +4652,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/LLY/fundamentals.tsv",
-                "size": 8409,
-                "lines": 183
+                "size": 8515,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/LLY/news.tsv",
-                "size": 102656,
-                "lines": 237
+                "size": 104617,
+                "lines": 241
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/LLY/news_sentiment.tsv",
-                "size": 1184,
-                "lines": 58
+                "size": 1225,
+                "lines": 60
               },
               {
                 "type": "file",
@@ -4701,28 +4701,28 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/LMT/fundamentals.tsv",
-                "size": 8452,
-                "lines": 185
+                "size": 8558,
+                "lines": 188
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/LMT/news.tsv",
-                "size": 72002,
+                "size": 72150,
                 "lines": 178
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/LMT/news_sentiment.tsv",
-                "size": 1597,
-                "lines": 79
+                "size": 1637,
+                "lines": 81
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/LMT/prices.tsv",
-                "size": 94267,
+                "size": 94265,
                 "lines": 2049
               }
             ]
@@ -4750,8 +4750,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/LRCX/fundamentals.tsv",
-                "size": 8325,
-                "lines": 184
+                "size": 8429,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -4764,15 +4764,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/LRCX/news.tsv",
-                "size": 62384,
-                "lines": 161
+                "size": 65185,
+                "lines": 167
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/LRCX/news_sentiment.tsv",
-                "size": 1380,
-                "lines": 68
+                "size": 1420,
+                "lines": 70
               },
               {
                 "type": "file",
@@ -4806,15 +4806,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/MA/fundamentals.tsv",
-                "size": 8309,
-                "lines": 182
+                "size": 8415,
+                "lines": 185
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/MA/news.tsv",
-                "size": 212559,
-                "lines": 500
+                "size": 223234,
+                "lines": 529
               },
               {
                 "type": "file",
@@ -4827,7 +4827,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/MA/prices.tsv",
-                "size": 94894,
+                "size": 94891,
                 "lines": 2049
               }
             ]
@@ -4869,15 +4869,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/MARA/news.tsv",
-                "size": 92399,
-                "lines": 228
+                "size": 94563,
+                "lines": 234
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/MARA/news_sentiment.tsv",
-                "size": 1307,
-                "lines": 64
+                "size": 1327,
+                "lines": 65
               },
               {
                 "type": "file",
@@ -4911,28 +4911,28 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/MATX/fundamentals.tsv",
-                "size": 8357,
-                "lines": 184
+                "size": 8465,
+                "lines": 187
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/MATX/news.tsv",
-                "size": 63603,
-                "lines": 159
+                "size": 66083,
+                "lines": 164
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/MATX/news_sentiment.tsv",
-                "size": 1763,
-                "lines": 87
+                "size": 1784,
+                "lines": 88
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/MATX/prices.tsv",
-                "size": 87176,
+                "size": 87175,
                 "lines": 2049
               }
             ]
@@ -4960,8 +4960,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/META/fundamentals.tsv",
-                "size": 8593,
-                "lines": 183
+                "size": 8701,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -4974,8 +4974,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/META/news.tsv",
-                "size": 204826,
-                "lines": 474
+                "size": 210789,
+                "lines": 489
               },
               {
                 "type": "file",
@@ -5016,8 +5016,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/MPWR/fundamentals.tsv",
-                "size": 7193,
-                "lines": 178
+                "size": 7301,
+                "lines": 181
               },
               {
                 "type": "file",
@@ -5030,21 +5030,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/MPWR/news.tsv",
-                "size": 46620,
-                "lines": 115
+                "size": 44607,
+                "lines": 110
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/MPWR/news_sentiment.tsv",
-                "size": 1420,
-                "lines": 70
+                "size": 1441,
+                "lines": 71
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/MPWR/prices.tsv",
-                "size": 93407,
+                "size": 93404,
                 "lines": 2049
               }
             ]
@@ -5072,8 +5072,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/MSFT/fundamentals.tsv",
-                "size": 8311,
-                "lines": 184
+                "size": 8417,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -5086,15 +5086,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/MSFT/news.tsv",
-                "size": 143499,
-                "lines": 355
+                "size": 145224,
+                "lines": 358
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/MSFT/news_sentiment.tsv",
-                "size": 826,
-                "lines": 40
+                "size": 846,
+                "lines": 41
               },
               {
                 "type": "file",
@@ -5142,15 +5142,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/MSTR/news.tsv",
-                "size": 90619,
-                "lines": 225
+                "size": 92248,
+                "lines": 232
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/MSTR/news_sentiment.tsv",
-                "size": 1366,
-                "lines": 67
+                "size": 1387,
+                "lines": 68
               },
               {
                 "type": "file",
@@ -5184,8 +5184,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/MU/fundamentals.tsv",
-                "size": 8383,
-                "lines": 184
+                "size": 8486,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -5198,15 +5198,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/MU/news.tsv",
-                "size": 134896,
-                "lines": 345
+                "size": 137533,
+                "lines": 349
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/MU/news_sentiment.tsv",
-                "size": 1086,
-                "lines": 53
+                "size": 1126,
+                "lines": 55
               },
               {
                 "type": "file",
@@ -5240,8 +5240,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/NEE/fundamentals.tsv",
-                "size": 8269,
-                "lines": 183
+                "size": 8374,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -5254,21 +5254,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NEE/news.tsv",
-                "size": 69616,
-                "lines": 197
+                "size": 72966,
+                "lines": 204
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/NEE/news_sentiment.tsv",
-                "size": 1384,
-                "lines": 68
+                "size": 1444,
+                "lines": 71
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/NEE/prices.tsv",
-                "size": 87714,
+                "size": 87713,
                 "lines": 2049
               }
             ]
@@ -5282,8 +5282,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/NEM/fundamentals.tsv",
-                "size": 6753,
-                "lines": 186
+                "size": 6858,
+                "lines": 189
               },
               {
                 "type": "file",
@@ -5296,15 +5296,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NEM/news.tsv",
-                "size": 77025,
+                "size": 77085,
                 "lines": 197
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/NEM/news_sentiment.tsv",
-                "size": 1225,
-                "lines": 60
+                "size": 1245,
+                "lines": 61
               },
               {
                 "type": "file",
@@ -5352,8 +5352,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NET/news.tsv",
-                "size": 246770,
-                "lines": 558
+                "size": 264549,
+                "lines": 598
               },
               {
                 "type": "file",
@@ -5422,15 +5422,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NLR/news.tsv",
-                "size": 42109,
-                "lines": 113
+                "size": 44240,
+                "lines": 120
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/NLR/news_sentiment.tsv",
-                "size": 1647,
-                "lines": 80
+                "size": 1728,
+                "lines": 84
               },
               {
                 "type": "file",
@@ -5464,8 +5464,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/NOC/fundamentals.tsv",
-                "size": 7524,
-                "lines": 184
+                "size": 7631,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -5478,15 +5478,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NOC/news.tsv",
-                "size": 83881,
-                "lines": 196
+                "size": 87341,
+                "lines": 203
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/NOC/news_sentiment.tsv",
-                "size": 1623,
-                "lines": 80
+                "size": 1724,
+                "lines": 85
               },
               {
                 "type": "file",
@@ -5520,8 +5520,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/NOW/fundamentals.tsv",
-                "size": 7479,
-                "lines": 176
+                "size": 7586,
+                "lines": 179
               },
               {
                 "type": "file",
@@ -5534,8 +5534,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NOW/news.tsv",
-                "size": 238031,
-                "lines": 580
+                "size": 254317,
+                "lines": 622
               },
               {
                 "type": "file",
@@ -5576,8 +5576,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/NVDA/fundamentals.tsv",
-                "size": 8399,
-                "lines": 186
+                "size": 8504,
+                "lines": 189
               },
               {
                 "type": "file",
@@ -5590,8 +5590,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NVDA/news.tsv",
-                "size": 181064,
-                "lines": 461
+                "size": 194978,
+                "lines": 496
               },
               {
                 "type": "file",
@@ -5632,8 +5632,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/NVO/fundamentals.tsv",
-                "size": 7566,
-                "lines": 176
+                "size": 7672,
+                "lines": 179
               },
               {
                 "type": "file",
@@ -5646,15 +5646,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NVO/news.tsv",
-                "size": 119853,
-                "lines": 300
+                "size": 120084,
+                "lines": 302
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/NVO/news_sentiment.tsv",
-                "size": 1549,
-                "lines": 76
+                "size": 1569,
+                "lines": 77
               },
               {
                 "type": "file",
@@ -5688,8 +5688,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/NVT/fundamentals.tsv",
-                "size": 7700,
-                "lines": 181
+                "size": 7804,
+                "lines": 184
               },
               {
                 "type": "file",
@@ -5702,15 +5702,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/NVT/news.tsv",
-                "size": 55582,
-                "lines": 127
+                "size": 57340,
+                "lines": 132
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/NVT/news_sentiment.tsv",
-                "size": 1344,
-                "lines": 66
+                "size": 1364,
+                "lines": 67
               },
               {
                 "type": "file",
@@ -5744,8 +5744,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ON/fundamentals.tsv",
-                "size": 7499,
-                "lines": 175
+                "size": 7606,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -5758,8 +5758,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ON/news.tsv",
-                "size": 256814,
-                "lines": 633
+                "size": 291298,
+                "lines": 711
               },
               {
                 "type": "file",
@@ -5800,8 +5800,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ORCL/fundamentals.tsv",
-                "size": 8472,
-                "lines": 184
+                "size": 8577,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -5814,15 +5814,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ORCL/news.tsv",
-                "size": 104689,
-                "lines": 253
+                "size": 106613,
+                "lines": 257
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ORCL/news_sentiment.tsv",
-                "size": 1129,
-                "lines": 55
+                "size": 1149,
+                "lines": 56
               },
               {
                 "type": "file",
@@ -5856,22 +5856,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/PAAS/fundamentals.tsv",
-                "size": 7256,
-                "lines": 183
+                "size": 7360,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/PAAS/news.tsv",
-                "size": 56492,
-                "lines": 140
+                "size": 53857,
+                "lines": 138
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/PAAS/news_sentiment.tsv",
-                "size": 1522,
-                "lines": 75
+                "size": 1542,
+                "lines": 76
               },
               {
                 "type": "file",
@@ -5905,8 +5905,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/PANW/fundamentals.tsv",
-                "size": 8270,
-                "lines": 177
+                "size": 8375,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -5919,15 +5919,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/PANW/news.tsv",
-                "size": 80588,
-                "lines": 196
+                "size": 84212,
+                "lines": 203
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/PANW/news_sentiment.tsv",
-                "size": 740,
-                "lines": 36
+                "size": 760,
+                "lines": 37
               },
               {
                 "type": "file",
@@ -5954,15 +5954,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/PAVE/news.tsv",
-                "size": 82686,
-                "lines": 196
+                "size": 85243,
+                "lines": 202
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/PAVE/news_sentiment.tsv",
-                "size": 2043,
-                "lines": 101
+                "size": 2083,
+                "lines": 103
               },
               {
                 "type": "file",
@@ -6066,8 +6066,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/PLTR/fundamentals.tsv",
-                "size": 7881,
-                "lines": 177
+                "size": 7986,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -6080,15 +6080,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/PLTR/news.tsv",
-                "size": 118761,
-                "lines": 294
+                "size": 118819,
+                "lines": 295
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/PLTR/news_sentiment.tsv",
-                "size": 787,
-                "lines": 38
+                "size": 807,
+                "lines": 39
               },
               {
                 "type": "file",
@@ -6122,8 +6122,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/PWR/fundamentals.tsv",
-                "size": 8469,
-                "lines": 183
+                "size": 8575,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -6136,21 +6136,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/PWR/news.tsv",
-                "size": 59928,
-                "lines": 157
+                "size": 61699,
+                "lines": 163
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/PWR/news_sentiment.tsv",
-                "size": 1242,
-                "lines": 61
+                "size": 1282,
+                "lines": 63
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/PWR/prices.tsv",
-                "size": 90612,
+                "size": 90611,
                 "lines": 2049
               }
             ]
@@ -6178,8 +6178,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/QCOM/fundamentals.tsv",
-                "size": 8287,
-                "lines": 183
+                "size": 8395,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -6192,8 +6192,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/QCOM/news.tsv",
-                "size": 90790,
-                "lines": 227
+                "size": 91622,
+                "lines": 228
               },
               {
                 "type": "file",
@@ -6206,7 +6206,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/QCOM/prices.tsv",
-                "size": 93219,
+                "size": 93220,
                 "lines": 2049
               }
             ]
@@ -6234,8 +6234,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/RDDT/fundamentals.tsv",
-                "size": 6734,
-                "lines": 175
+                "size": 6837,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -6248,8 +6248,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/RDDT/news.tsv",
-                "size": 72798,
-                "lines": 192
+                "size": 73941,
+                "lines": 193
               },
               {
                 "type": "file",
@@ -6290,8 +6290,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/REGN/fundamentals.tsv",
-                "size": 8311,
-                "lines": 181
+                "size": 8417,
+                "lines": 184
               },
               {
                 "type": "file",
@@ -6304,7 +6304,7 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/REGN/news.tsv",
-                "size": 65976,
+                "size": 65959,
                 "lines": 158
               },
               {
@@ -6346,8 +6346,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/RIO/news.tsv",
-                "size": 175819,
-                "lines": 423
+                "size": 178035,
+                "lines": 428
               },
               {
                 "type": "file",
@@ -6402,15 +6402,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/RIOT/news.tsv",
-                "size": 106050,
-                "lines": 258
+                "size": 107704,
+                "lines": 261
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/RIOT/news_sentiment.tsv",
-                "size": 1172,
-                "lines": 57
+                "size": 1193,
+                "lines": 58
               },
               {
                 "type": "file",
@@ -6458,15 +6458,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/RIVN/news.tsv",
-                "size": 54972,
-                "lines": 148
+                "size": 54751,
+                "lines": 151
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/RIVN/news_sentiment.tsv",
-                "size": 1407,
-                "lines": 69
+                "size": 1488,
+                "lines": 73
               },
               {
                 "type": "file",
@@ -6500,8 +6500,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/RTX/fundamentals.tsv",
-                "size": 8516,
-                "lines": 186
+                "size": 8622,
+                "lines": 189
               },
               {
                 "type": "file",
@@ -6514,21 +6514,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/RTX/news.tsv",
-                "size": 129853,
-                "lines": 302
+                "size": 130814,
+                "lines": 303
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/RTX/news_sentiment.tsv",
-                "size": 761,
-                "lines": 37
+                "size": 781,
+                "lines": 38
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/RTX/prices.tsv",
-                "size": 89311,
+                "size": 89310,
                 "lines": 2049
               }
             ]
@@ -6570,8 +6570,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SBLK/news.tsv",
-                "size": 38088,
-                "lines": 89
+                "size": 36151,
+                "lines": 83
               },
               {
                 "type": "file",
@@ -6612,8 +6612,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/SCCO/fundamentals.tsv",
-                "size": 7547,
-                "lines": 183
+                "size": 7651,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -6626,15 +6626,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SCCO/news.tsv",
-                "size": 48941,
-                "lines": 126
+                "size": 50466,
+                "lines": 128
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SCCO/news_sentiment.tsv",
-                "size": 1403,
-                "lines": 69
+                "size": 1424,
+                "lines": 70
               },
               {
                 "type": "file",
@@ -6661,15 +6661,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SCHD/news.tsv",
-                "size": 47698,
-                "lines": 117
+                "size": 53986,
+                "lines": 135
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SCHD/news_sentiment.tsv",
-                "size": 981,
-                "lines": 48
+                "size": 1081,
+                "lines": 53
               },
               {
                 "type": "file",
@@ -6696,15 +6696,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SCHG/news.tsv",
-                "size": 26039,
-                "lines": 74
+                "size": 27113,
+                "lines": 76
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SCHG/news_sentiment.tsv",
-                "size": 1441,
-                "lines": 71
+                "size": 1461,
+                "lines": 72
               },
               {
                 "type": "file",
@@ -6731,15 +6731,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SCHH/news.tsv",
-                "size": 11130,
-                "lines": 28
+                "size": 12829,
+                "lines": 31
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SCHH/news_sentiment.tsv",
-                "size": 554,
-                "lines": 27
+                "size": 594,
+                "lines": 29
               },
               {
                 "type": "file",
@@ -6766,15 +6766,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SCHV/news.tsv",
-                "size": 6165,
-                "lines": 17
+                "size": 6741,
+                "lines": 19
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SCHV/news_sentiment.tsv",
-                "size": 374,
-                "lines": 18
+                "size": 414,
+                "lines": 20
               },
               {
                 "type": "file",
@@ -6808,22 +6808,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/SHEL/fundamentals.tsv",
-                "size": 7896,
-                "lines": 179
+                "size": 8000,
+                "lines": 182
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SHEL/news.tsv",
-                "size": 73319,
-                "lines": 190
+                "size": 74542,
+                "lines": 192
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SHEL/news_sentiment.tsv",
-                "size": 1820,
-                "lines": 90
+                "size": 1840,
+                "lines": 91
               },
               {
                 "type": "file",
@@ -6857,8 +6857,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/SLB/fundamentals.tsv",
-                "size": 8398,
-                "lines": 187
+                "size": 8506,
+                "lines": 190
               },
               {
                 "type": "file",
@@ -6871,15 +6871,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SLB/news.tsv",
-                "size": 58381,
-                "lines": 146
+                "size": 60727,
+                "lines": 151
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SLB/news_sentiment.tsv",
-                "size": 1987,
-                "lines": 98
+                "size": 2047,
+                "lines": 101
               },
               {
                 "type": "file",
@@ -6913,22 +6913,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/SMCI/fundamentals.tsv",
-                "size": 8057,
-                "lines": 178
+                "size": 8162,
+                "lines": 181
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SMCI/news.tsv",
-                "size": 68598,
-                "lines": 175
+                "size": 70326,
+                "lines": 178
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SMCI/news_sentiment.tsv",
-                "size": 1397,
-                "lines": 69
+                "size": 1418,
+                "lines": 70
               },
               {
                 "type": "file",
@@ -6955,15 +6955,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SMH/news.tsv",
-                "size": 122424,
-                "lines": 298
+                "size": 127235,
+                "lines": 311
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SMH/news_sentiment.tsv",
-                "size": 1287,
-                "lines": 63
+                "size": 1407,
+                "lines": 69
               },
               {
                 "type": "file",
@@ -7011,8 +7011,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SNOW/news.tsv",
-                "size": 276797,
-                "lines": 621
+                "size": 295720,
+                "lines": 666
               },
               {
                 "type": "file",
@@ -7053,8 +7053,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/SNPS/fundamentals.tsv",
-                "size": 7252,
-                "lines": 179
+                "size": 7359,
+                "lines": 182
               },
               {
                 "type": "file",
@@ -7067,15 +7067,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SNPS/news.tsv",
-                "size": 82515,
-                "lines": 206
+                "size": 85386,
+                "lines": 214
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/SNPS/news_sentiment.tsv",
-                "size": 1764,
-                "lines": 87
+                "size": 1805,
+                "lines": 89
               },
               {
                 "type": "file",
@@ -7109,15 +7109,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/SO/fundamentals.tsv",
-                "size": 7310,
-                "lines": 183
+                "size": 7415,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SO/news.tsv",
-                "size": 223868,
-                "lines": 546
+                "size": 235846,
+                "lines": 576
               },
               {
                 "type": "file",
@@ -7186,8 +7186,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SPY/news.tsv",
-                "size": 129023,
-                "lines": 308
+                "size": 131967,
+                "lines": 312
               },
               {
                 "type": "file",
@@ -7228,8 +7228,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/SYK/fundamentals.tsv",
-                "size": 7858,
-                "lines": 185
+                "size": 7963,
+                "lines": 188
               },
               {
                 "type": "file",
@@ -7242,8 +7242,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/SYK/news.tsv",
-                "size": 56884,
-                "lines": 142
+                "size": 56647,
+                "lines": 141
               },
               {
                 "type": "file",
@@ -7284,8 +7284,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/TDG/fundamentals.tsv",
-                "size": 8279,
-                "lines": 177
+                "size": 8388,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -7298,8 +7298,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/TDG/news.tsv",
-                "size": 48910,
-                "lines": 124
+                "size": 52582,
+                "lines": 133
               },
               {
                 "type": "file",
@@ -7340,8 +7340,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/TM/fundamentals.tsv",
-                "size": 7604,
-                "lines": 175
+                "size": 7711,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -7354,15 +7354,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/TM/news.tsv",
-                "size": 145317,
-                "lines": 342
+                "size": 148359,
+                "lines": 348
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/TM/news_sentiment.tsv",
-                "size": 1844,
-                "lines": 91
+                "size": 1924,
+                "lines": 95
               },
               {
                 "type": "file",
@@ -7396,8 +7396,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/TSLA/fundamentals.tsv",
-                "size": 7941,
-                "lines": 176
+                "size": 8048,
+                "lines": 179
               },
               {
                 "type": "file",
@@ -7410,15 +7410,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/TSLA/news.tsv",
-                "size": 136779,
-                "lines": 329
+                "size": 139255,
+                "lines": 336
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/TSLA/news_sentiment.tsv",
-                "size": 829,
-                "lines": 40
+                "size": 889,
+                "lines": 43
               },
               {
                 "type": "file",
@@ -7438,15 +7438,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/TSM/fundamentals.tsv",
-                "size": 7292,
-                "lines": 179
+                "size": 7397,
+                "lines": 182
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/TSM/news.tsv",
-                "size": 91097,
-                "lines": 237
+                "size": 89402,
+                "lines": 232
               },
               {
                 "type": "file",
@@ -7487,8 +7487,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/TTD/fundamentals.tsv",
-                "size": 6955,
-                "lines": 177
+                "size": 7061,
+                "lines": 180
               },
               {
                 "type": "file",
@@ -7501,15 +7501,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/TTD/news.tsv",
-                "size": 79160,
+                "size": 78825,
                 "lines": 181
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/TTD/news_sentiment.tsv",
-                "size": 1725,
-                "lines": 85
+                "size": 1746,
+                "lines": 86
               },
               {
                 "type": "file",
@@ -7543,22 +7543,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/TTE/fundamentals.tsv",
-                "size": 7588,
-                "lines": 183
+                "size": 7695,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/TTE/news.tsv",
-                "size": 60287,
-                "lines": 150
+                "size": 66155,
+                "lines": 162
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/TTE/news_sentiment.tsv",
-                "size": 1499,
-                "lines": 74
+                "size": 1600,
+                "lines": 79
               },
               {
                 "type": "file",
@@ -7592,8 +7592,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/TXN/fundamentals.tsv",
-                "size": 8177,
-                "lines": 184
+                "size": 8285,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -7606,21 +7606,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/TXN/news.tsv",
-                "size": 71938,
-                "lines": 178
+                "size": 74080,
+                "lines": 183
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/TXN/news_sentiment.tsv",
-                "size": 1585,
-                "lines": 78
+                "size": 1605,
+                "lines": 79
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/TXN/prices.tsv",
-                "size": 94611,
+                "size": 94612,
                 "lines": 2049
               }
             ]
@@ -7648,8 +7648,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/UBER/fundamentals.tsv",
-                "size": 7808,
-                "lines": 174
+                "size": 7914,
+                "lines": 177
               },
               {
                 "type": "file",
@@ -7662,15 +7662,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/UBER/news.tsv",
-                "size": 153848,
-                "lines": 369
+                "size": 161426,
+                "lines": 383
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/UBER/news_sentiment.tsv",
-                "size": 643,
-                "lines": 31
+                "size": 663,
+                "lines": 32
               },
               {
                 "type": "file",
@@ -7704,15 +7704,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/UPS/fundamentals.tsv",
-                "size": 7726,
-                "lines": 182
+                "size": 7831,
+                "lines": 185
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/UPS/news.tsv",
-                "size": 141152,
-                "lines": 350
+                "size": 145249,
+                "lines": 359
               },
               {
                 "type": "file",
@@ -7725,7 +7725,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/UPS/prices.tsv",
-                "size": 93673,
+                "size": 93672,
                 "lines": 2049
               }
             ]
@@ -7746,15 +7746,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/URA/news.tsv",
-                "size": 56538,
-                "lines": 149
+                "size": 62261,
+                "lines": 163
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/URA/news_sentiment.tsv",
-                "size": 2382,
-                "lines": 118
+                "size": 2423,
+                "lines": 120
               },
               {
                 "type": "file",
@@ -7788,15 +7788,15 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/V/fundamentals.tsv",
-                "size": 7780,
-                "lines": 183
+                "size": 7886,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/V/news.tsv",
-                "size": 211103,
-                "lines": 534
+                "size": 222624,
+                "lines": 562
               },
               {
                 "type": "file",
@@ -7809,7 +7809,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/V/prices.tsv",
-                "size": 95409,
+                "size": 95408,
                 "lines": 2049
               }
             ]
@@ -7837,8 +7837,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/VALE/fundamentals.tsv",
-                "size": 6913,
-                "lines": 175
+                "size": 7020,
+                "lines": 178
               },
               {
                 "type": "file",
@@ -7851,21 +7851,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VALE/news.tsv",
-                "size": 88494,
-                "lines": 234
+                "size": 89396,
+                "lines": 239
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VALE/news_sentiment.tsv",
-                "size": 1584,
-                "lines": 78
+                "size": 1665,
+                "lines": 82
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/VALE/prices.tsv",
-                "size": 87460,
+                "size": 87303,
                 "lines": 2049
               }
             ]
@@ -7886,15 +7886,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VDC/news.tsv",
-                "size": 40907,
-                "lines": 103
+                "size": 42765,
+                "lines": 108
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VDC/news_sentiment.tsv",
-                "size": 1303,
-                "lines": 64
+                "size": 1464,
+                "lines": 72
               },
               {
                 "type": "file",
@@ -7921,8 +7921,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VDE/news.tsv",
-                "size": 28424,
-                "lines": 76
+                "size": 30155,
+                "lines": 78
               },
               {
                 "type": "file",
@@ -7935,7 +7935,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/VDE/prices.tsv",
-                "size": 89744,
+                "size": 89745,
                 "lines": 2049
               }
             ]
@@ -7956,15 +7956,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VEA/news.tsv",
-                "size": 46370,
-                "lines": 117
+                "size": 51118,
+                "lines": 130
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VEA/news_sentiment.tsv",
-                "size": 1784,
-                "lines": 88
+                "size": 1987,
+                "lines": 98
               },
               {
                 "type": "file",
@@ -7991,15 +7991,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VGT/news.tsv",
-                "size": 40987,
-                "lines": 111
+                "size": 42742,
+                "lines": 116
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VGT/news_sentiment.tsv",
-                "size": 1677,
-                "lines": 83
+                "size": 1757,
+                "lines": 87
               },
               {
                 "type": "file",
@@ -8026,15 +8026,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VHT/news.tsv",
-                "size": 53600,
-                "lines": 114
+                "size": 60687,
+                "lines": 130
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VHT/news_sentiment.tsv",
-                "size": 1326,
-                "lines": 65
+                "size": 1406,
+                "lines": 69
               },
               {
                 "type": "file",
@@ -8131,21 +8131,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VOO/news.tsv",
-                "size": 30989,
-                "lines": 85
+                "size": 35672,
+                "lines": 98
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VOO/news_sentiment.tsv",
-                "size": 1316,
-                "lines": 65
+                "size": 1556,
+                "lines": 77
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/VOO/prices.tsv",
-                "size": 95465,
+                "size": 95466,
                 "lines": 2049
               }
             ]
@@ -8166,21 +8166,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VPU/news.tsv",
-                "size": 22334,
-                "lines": 62
+                "size": 22694,
+                "lines": 63
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VPU/news_sentiment.tsv",
-                "size": 1139,
-                "lines": 56
+                "size": 1159,
+                "lines": 57
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/VPU/prices.tsv",
-                "size": 92867,
+                "size": 92865,
                 "lines": 2049
               }
             ]
@@ -8208,22 +8208,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/VRT/fundamentals.tsv",
-                "size": 8151,
-                "lines": 184
+                "size": 8256,
+                "lines": 187
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VRT/news.tsv",
-                "size": 65969,
-                "lines": 177
+                "size": 68368,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VRT/news_sentiment.tsv",
-                "size": 1725,
-                "lines": 85
+                "size": 1765,
+                "lines": 87
               },
               {
                 "type": "file",
@@ -8257,8 +8257,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/VRTX/fundamentals.tsv",
-                "size": 7828,
-                "lines": 176
+                "size": 7933,
+                "lines": 179
               },
               {
                 "type": "file",
@@ -8271,15 +8271,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VRTX/news.tsv",
-                "size": 60984,
-                "lines": 152
+                "size": 59387,
+                "lines": 150
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VRTX/news_sentiment.tsv",
-                "size": 1823,
-                "lines": 90
+                "size": 1883,
+                "lines": 93
               },
               {
                 "type": "file",
@@ -8313,8 +8313,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/VST/fundamentals.tsv",
-                "size": 7414,
-                "lines": 180
+                "size": 7522,
+                "lines": 183
               },
               {
                 "type": "file",
@@ -8327,15 +8327,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VST/news.tsv",
-                "size": 52261,
-                "lines": 141
+                "size": 51792,
+                "lines": 142
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VST/news_sentiment.tsv",
-                "size": 1820,
-                "lines": 90
+                "size": 1860,
+                "lines": 92
               },
               {
                 "type": "file",
@@ -8362,15 +8362,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VTI/news.tsv",
-                "size": 16866,
-                "lines": 49
+                "size": 15569,
+                "lines": 44
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VTI/news_sentiment.tsv",
-                "size": 1195,
-                "lines": 59
+                "size": 1215,
+                "lines": 60
               },
               {
                 "type": "file",
@@ -8397,15 +8397,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VTSAX/news.tsv",
-                "size": 12780,
-                "lines": 29
+                "size": 13021,
+                "lines": 30
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VTSAX/news_sentiment.tsv",
-                "size": 597,
-                "lines": 29
+                "size": 617,
+                "lines": 30
               },
               {
                 "type": "file",
@@ -8432,8 +8432,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VTV/news.tsv",
-                "size": 40990,
-                "lines": 97
+                "size": 41463,
+                "lines": 100
               },
               {
                 "type": "file",
@@ -8467,21 +8467,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VUG/news.tsv",
-                "size": 36153,
-                "lines": 97
+                "size": 35136,
+                "lines": 95
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/VUG/news_sentiment.tsv",
-                "size": 1513,
-                "lines": 75
+                "size": 1533,
+                "lines": 76
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/VUG/prices.tsv",
-                "size": 94014,
+                "size": 94013,
                 "lines": 2049
               }
             ]
@@ -8502,8 +8502,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/VWO/news.tsv",
-                "size": 30466,
-                "lines": 79
+                "size": 30304,
+                "lines": 78
               },
               {
                 "type": "file",
@@ -8544,8 +8544,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/WDC/fundamentals.tsv",
-                "size": 6999,
-                "lines": 173
+                "size": 7104,
+                "lines": 176
               },
               {
                 "type": "file",
@@ -8558,8 +8558,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/WDC/news.tsv",
-                "size": 71773,
-                "lines": 178
+                "size": 75294,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -8600,8 +8600,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/WM/fundamentals.tsv",
-                "size": 8351,
-                "lines": 183
+                "size": 8457,
+                "lines": 186
               },
               {
                 "type": "file",
@@ -8614,15 +8614,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/WM/news.tsv",
-                "size": 128975,
-                "lines": 316
+                "size": 133817,
+                "lines": 328
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/WM/news_sentiment.tsv",
-                "size": 1015,
-                "lines": 49
+                "size": 1035,
+                "lines": 50
               },
               {
                 "type": "file",
@@ -8656,8 +8656,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/WMT/fundamentals.tsv",
-                "size": 8530,
-                "lines": 184
+                "size": 8638,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -8670,15 +8670,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/WMT/news.tsv",
-                "size": 118613,
-                "lines": 292
+                "size": 116082,
+                "lines": 291
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/WMT/news_sentiment.tsv",
-                "size": 1123,
-                "lines": 55
+                "size": 1143,
+                "lines": 56
               },
               {
                 "type": "file",
@@ -8705,15 +8705,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/XLE/news.tsv",
-                "size": 39007,
-                "lines": 113
+                "size": 40043,
+                "lines": 114
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/XLE/news_sentiment.tsv",
-                "size": 1783,
-                "lines": 88
+                "size": 1803,
+                "lines": 89
               },
               {
                 "type": "file",
@@ -8782,8 +8782,8 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/XOM/fundamentals.tsv",
-                "size": 7677,
-                "lines": 184
+                "size": 7785,
+                "lines": 187
               },
               {
                 "type": "file",
@@ -8796,15 +8796,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/XOM/news.tsv",
-                "size": 73110,
+                "size": 74424,
                 "lines": 188
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/XOM/news_sentiment.tsv",
-                "size": 1328,
-                "lines": 65
+                "size": 1348,
+                "lines": 66
               },
               {
                 "type": "file",
@@ -8838,22 +8838,22 @@
                 "type": "file",
                 "name": "fundamentals.tsv",
                 "path": "market_data/tickers/ZIM/fundamentals.tsv",
-                "size": 6613,
-                "lines": 175
+                "size": 6718,
+                "lines": 178
               },
               {
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ZIM/news.tsv",
-                "size": 102362,
-                "lines": 229
+                "size": 103624,
+                "lines": 231
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ZIM/news_sentiment.tsv",
-                "size": 621,
-                "lines": 30
+                "size": 641,
+                "lines": 31
               },
               {
                 "type": "file",
@@ -8880,15 +8880,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Advanced Packaging/news.tsv",
-                "size": 61131,
-                "lines": 140
+                "size": 64197,
+                "lines": 146
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Advanced Packaging/news_sentiment.tsv",
-                "size": 1796,
-                "lines": 89
+                "size": 1816,
+                "lines": 90
               }
             ]
           },
@@ -8901,8 +8901,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/AI/news.tsv",
-                "size": 234041,
-                "lines": 582
+                "size": 249255,
+                "lines": 619
               },
               {
                 "type": "file",
@@ -8922,15 +8922,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/AI Regulation/news.tsv",
-                "size": 84694,
-                "lines": 211
+                "size": 89613,
+                "lines": 223
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/AI Regulation/news_sentiment.tsv",
-                "size": 873,
-                "lines": 42
+                "size": 933,
+                "lines": 45
               }
             ]
           },
@@ -8943,8 +8943,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Artificial Intelligence/news.tsv",
-                "size": 173981,
-                "lines": 418
+                "size": 182152,
+                "lines": 436
               },
               {
                 "type": "file",
@@ -8964,8 +8964,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Big Tech/news.tsv",
-                "size": 114891,
-                "lines": 279
+                "size": 119985,
+                "lines": 289
               },
               {
                 "type": "file",
@@ -8985,8 +8985,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Bitcoin ETF/news.tsv",
-                "size": 110613,
-                "lines": 273
+                "size": 112566,
+                "lines": 279
               },
               {
                 "type": "file",
@@ -9006,8 +9006,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/China/news.tsv",
-                "size": 203798,
-                "lines": 468
+                "size": 224991,
+                "lines": 518
               },
               {
                 "type": "file",
@@ -9027,8 +9027,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Chip Shortage/news.tsv",
-                "size": 79798,
-                "lines": 188
+                "size": 80970,
+                "lines": 190
               },
               {
                 "type": "file",
@@ -9048,15 +9048,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Commodities/news.tsv",
-                "size": 90391,
-                "lines": 230
+                "size": 92606,
+                "lines": 234
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Commodities/news_sentiment.tsv",
-                "size": 1121,
-                "lines": 55
+                "size": 1141,
+                "lines": 56
               }
             ]
           },
@@ -9069,15 +9069,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Compute Power/news.tsv",
-                "size": 68952,
-                "lines": 165
+                "size": 69043,
+                "lines": 166
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Compute Power/news_sentiment.tsv",
-                "size": 2133,
-                "lines": 105
+                "size": 2214,
+                "lines": 109
               }
             ]
           },
@@ -9090,15 +9090,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Container Rates/news.tsv",
-                "size": 54987,
-                "lines": 140
+                "size": 56089,
+                "lines": 143
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Container Rates/news_sentiment.tsv",
-                "size": 1845,
-                "lines": 91
+                "size": 1885,
+                "lines": 93
               }
             ]
           },
@@ -9111,15 +9111,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Copper Demand/news.tsv",
-                "size": 70672,
+                "size": 70130,
                 "lines": 175
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Copper Demand/news_sentiment.tsv",
-                "size": 1506,
-                "lines": 74
+                "size": 1526,
+                "lines": 75
               }
             ]
           },
@@ -9132,8 +9132,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Data Center/news.tsv",
-                "size": 193169,
-                "lines": 441
+                "size": 209400,
+                "lines": 476
               },
               {
                 "type": "file",
@@ -9153,15 +9153,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/EDA Software/news.tsv",
-                "size": 61061,
-                "lines": 152
+                "size": 62592,
+                "lines": 156
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/EDA Software/news_sentiment.tsv",
-                "size": 1458,
-                "lines": 72
+                "size": 1478,
+                "lines": 73
               }
             ]
           },
@@ -9174,15 +9174,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Electricity Demand/news.tsv",
-                "size": 103657,
-                "lines": 247
+                "size": 106980,
+                "lines": 255
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Electricity Demand/news_sentiment.tsv",
-                "size": 1427,
-                "lines": 70
+                "size": 1467,
+                "lines": 72
               }
             ]
           },
@@ -9195,8 +9195,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Energy/news.tsv",
-                "size": 213226,
-                "lines": 501
+                "size": 229559,
+                "lines": 543
               },
               {
                 "type": "file",
@@ -9216,15 +9216,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Federal Reserve/news.tsv",
-                "size": 110831,
-                "lines": 271
+                "size": 117408,
+                "lines": 286
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Federal Reserve/news_sentiment.tsv",
-                "size": 1024,
-                "lines": 50
+                "size": 1104,
+                "lines": 54
               }
             ]
           },
@@ -9237,8 +9237,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Freight/news.tsv",
-                "size": 121416,
-                "lines": 297
+                "size": 124954,
+                "lines": 305
               },
               {
                 "type": "file",
@@ -9258,8 +9258,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/GDP/news.tsv",
-                "size": 115078,
-                "lines": 282
+                "size": 120328,
+                "lines": 295
               },
               {
                 "type": "file",
@@ -9279,15 +9279,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Generative AI/news.tsv",
-                "size": 138577,
-                "lines": 354
+                "size": 147161,
+                "lines": 375
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Generative AI/news_sentiment.tsv",
-                "size": 885,
-                "lines": 43
+                "size": 925,
+                "lines": 45
               }
             ]
           },
@@ -9300,8 +9300,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Geopolitics/news.tsv",
-                "size": 107276,
-                "lines": 257
+                "size": 111674,
+                "lines": 268
               },
               {
                 "type": "file",
@@ -9321,8 +9321,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Global Markets/news.tsv",
-                "size": 160196,
-                "lines": 367
+                "size": 170745,
+                "lines": 390
               },
               {
                 "type": "file",
@@ -9342,8 +9342,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/GLP-1 Weight Loss/news.tsv",
-                "size": 117474,
-                "lines": 296
+                "size": 120795,
+                "lines": 305
               },
               {
                 "type": "file",
@@ -9363,8 +9363,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/GPU/news.tsv",
-                "size": 125332,
-                "lines": 301
+                "size": 131867,
+                "lines": 314
               },
               {
                 "type": "file",
@@ -9384,15 +9384,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Hyperscalers/news.tsv",
-                "size": 71025,
-                "lines": 179
+                "size": 71328,
+                "lines": 178
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Hyperscalers/news_sentiment.tsv",
-                "size": 1332,
-                "lines": 65
+                "size": 1352,
+                "lines": 66
               }
             ]
           },
@@ -9405,8 +9405,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Inflation/news.tsv",
-                "size": 135771,
-                "lines": 318
+                "size": 135191,
+                "lines": 316
               },
               {
                 "type": "file",
@@ -9426,15 +9426,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Interest Rates/news.tsv",
-                "size": 77185,
-                "lines": 189
+                "size": 77733,
+                "lines": 191
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Interest Rates/news_sentiment.tsv",
-                "size": 621,
-                "lines": 30
+                "size": 641,
+                "lines": 31
               }
             ]
           },
@@ -9447,15 +9447,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Logistics/news.tsv",
-                "size": 164512,
-                "lines": 389
+                "size": 168645,
+                "lines": 399
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Logistics/news_sentiment.tsv",
-                "size": 542,
-                "lines": 26
+                "size": 562,
+                "lines": 27
               }
             ]
           },
@@ -9468,8 +9468,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Natural Gas/news.tsv",
-                "size": 180481,
-                "lines": 426
+                "size": 188378,
+                "lines": 444
               },
               {
                 "type": "file",
@@ -9489,8 +9489,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Nuclear Energy/news.tsv",
-                "size": 156743,
-                "lines": 374
+                "size": 162196,
+                "lines": 387
               },
               {
                 "type": "file",
@@ -9510,8 +9510,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Oil/news.tsv",
-                "size": 211170,
-                "lines": 495
+                "size": 225447,
+                "lines": 527
               },
               {
                 "type": "file",
@@ -9531,15 +9531,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/OPEC/news.tsv",
-                "size": 57997,
-                "lines": 134
+                "size": 56045,
+                "lines": 131
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/OPEC/news_sentiment.tsv",
-                "size": 1836,
-                "lines": 90
+                "size": 1876,
+                "lines": 92
               }
             ]
           },
@@ -9552,15 +9552,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/OPEC+/news.tsv",
-                "size": 63439,
+                "size": 63481,
                 "lines": 143
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/OPEC+/news_sentiment.tsv",
-                "size": 1377,
-                "lines": 67
+                "size": 1397,
+                "lines": 68
               }
             ]
           },
@@ -9573,15 +9573,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Power Grid/news.tsv",
-                "size": 139199,
-                "lines": 326
+                "size": 142025,
+                "lines": 333
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Power Grid/news_sentiment.tsv",
-                "size": 1108,
-                "lines": 54
+                "size": 1128,
+                "lines": 55
               }
             ]
           },
@@ -9594,15 +9594,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Recession/news.tsv",
-                "size": 73579,
-                "lines": 184
+                "size": 74022,
+                "lines": 186
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Recession/news_sentiment.tsv",
-                "size": 1708,
-                "lines": 84
+                "size": 1728,
+                "lines": 85
               }
             ]
           },
@@ -9615,8 +9615,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Renewable Energy/news.tsv",
-                "size": 188595,
-                "lines": 461
+                "size": 199219,
+                "lines": 485
               },
               {
                 "type": "file",
@@ -9636,8 +9636,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Sanctions/news.tsv",
-                "size": 164558,
-                "lines": 396
+                "size": 174171,
+                "lines": 417
               },
               {
                 "type": "file",
@@ -9657,15 +9657,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Semiconductor Fabs/news.tsv",
-                "size": 73911,
-                "lines": 182
+                "size": 76286,
+                "lines": 188
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Semiconductor Fabs/news_sentiment.tsv",
-                "size": 2303,
-                "lines": 114
+                "size": 2363,
+                "lines": 117
               }
             ]
           },
@@ -9678,8 +9678,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Shipping/news.tsv",
-                "size": 169458,
-                "lines": 408
+                "size": 179467,
+                "lines": 432
               },
               {
                 "type": "file",
@@ -9699,15 +9699,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Small Modular Reactors/news.tsv",
-                "size": 71532,
-                "lines": 174
+                "size": 72496,
+                "lines": 177
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Small Modular Reactors/news_sentiment.tsv",
-                "size": 2112,
-                "lines": 101
+                "size": 2132,
+                "lines": 102
               }
             ]
           },
@@ -9720,15 +9720,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Sovereign AI/news.tsv",
-                "size": 119480,
-                "lines": 265
+                "size": 120734,
+                "lines": 267
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Sovereign AI/news_sentiment.tsv",
-                "size": 782,
-                "lines": 38
+                "size": 802,
+                "lines": 39
               }
             ]
           },
@@ -9741,8 +9741,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Supply Chain/news.tsv",
-                "size": 163796,
-                "lines": 406
+                "size": 170403,
+                "lines": 421
               },
               {
                 "type": "file",
@@ -9762,15 +9762,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Taiwan/news.tsv",
-                "size": 124982,
-                "lines": 329
+                "size": 126909,
+                "lines": 334
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Taiwan/news_sentiment.tsv",
-                "size": 748,
-                "lines": 36
+                "size": 769,
+                "lines": 37
               }
             ]
           },
@@ -9783,8 +9783,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Tariffs/news.tsv",
-                "size": 176391,
-                "lines": 429
+                "size": 184729,
+                "lines": 449
               },
               {
                 "type": "file",
@@ -9804,8 +9804,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Technology/news.tsv",
-                "size": 207334,
-                "lines": 486
+                "size": 224530,
+                "lines": 527
               },
               {
                 "type": "file",
@@ -9825,15 +9825,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Trade War/news.tsv",
-                "size": 114194,
-                "lines": 269
+                "size": 111860,
+                "lines": 262
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/topics/Trade War/news_sentiment.tsv",
-                "size": 1002,
-                "lines": 49
+                "size": 1022,
+                "lines": 50
               }
             ]
           },
@@ -9846,8 +9846,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Uranium/news.tsv",
-                "size": 111496,
-                "lines": 260
+                "size": 112980,
+                "lines": 263
               },
               {
                 "type": "file",
@@ -9867,8 +9867,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/US Economy/news.tsv",
-                "size": 112554,
-                "lines": 263
+                "size": 113818,
+                "lines": 267
               },
               {
                 "type": "file",
@@ -9888,8 +9888,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/War/news.tsv",
-                "size": 190568,
-                "lines": 465
+                "size": 201455,
+                "lines": 491
               },
               {
                 "type": "file",
@@ -9906,14 +9906,14 @@
         "type": "file",
         "name": "SCHEMA.md",
         "path": "market_data/SCHEMA.md",
-        "size": 3102,
+        "size": 3104,
         "lines": 93
       },
       {
         "type": "file",
         "name": "STATS.md",
         "path": "market_data/STATS.md",
-        "size": 14081,
+        "size": 14080,
         "lines": 271
       }
     ]
@@ -9937,7 +9937,7 @@
                 "type": "file",
                 "name": "decision_tree.png",
                 "path": "reports/02-25_growth_portfolio_plan/plots/decision_tree.png",
-                "size": 108388,
+                "size": 128577,
                 "lines": 0
               },
               {
@@ -9981,14 +9981,14 @@
             "type": "file",
             "name": "growth_portfolio_plan.py",
             "path": "reports/02-25_growth_portfolio_plan/growth_portfolio_plan.py",
-            "size": 12436,
-            "lines": 304
+            "size": 12368,
+            "lines": 303
           },
           {
             "type": "file",
             "name": "REPORT.md",
             "path": "reports/02-25_growth_portfolio_plan/REPORT.md",
-            "size": 8974,
+            "size": 10405,
             "lines": 89
           }
         ]
@@ -10007,7 +10007,7 @@
                 "type": "file",
                 "name": "nvda_decision_tree.png",
                 "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_decision_tree.png",
-                "size": 225549,
+                "size": 187640,
                 "lines": 0
               },
               {
@@ -10021,7 +10021,7 @@
                 "type": "file",
                 "name": "nvda_iv_crush.png",
                 "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_iv_crush.png",
-                "size": 135840,
+                "size": 139074,
                 "lines": 0
               },
               {
@@ -10042,21 +10042,21 @@
                 "type": "file",
                 "name": "portfolio_ma200_dist.png",
                 "path": "reports/02-25_NVDA_earnings_trade/plots/portfolio_ma200_dist.png",
-                "size": 123304,
+                "size": 126431,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "portfolio_rsi.png",
                 "path": "reports/02-25_NVDA_earnings_trade/plots/portfolio_rsi.png",
-                "size": 118986,
+                "size": 122424,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "portfolio_sympathy_beta.png",
                 "path": "reports/02-25_NVDA_earnings_trade/plots/portfolio_sympathy_beta.png",
-                "size": 94217,
+                "size": 93243,
                 "lines": 0
               }
             ]
@@ -10065,15 +10065,57 @@
             "type": "file",
             "name": "nvda_trade_analysis.py",
             "path": "reports/02-25_NVDA_earnings_trade/nvda_trade_analysis.py",
-            "size": 22646,
-            "lines": 564
+            "size": 22536,
+            "lines": 562
           },
           {
             "type": "file",
             "name": "REPORT.md",
             "path": "reports/02-25_NVDA_earnings_trade/REPORT.md",
-            "size": 17783,
+            "size": 17908,
             "lines": 224
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "intrinsic_value_analysis",
+        "path": "reports/intrinsic_value_analysis",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/intrinsic_value_analysis/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "intrinsic_value_scatter.png",
+                "path": "reports/intrinsic_value_analysis/plots/intrinsic_value_scatter.png",
+                "size": 465299,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "value_decision_tree.png",
+                "path": "reports/intrinsic_value_analysis/plots/value_decision_tree.png",
+                "size": 254651,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "intrinsic_value_report.py",
+            "path": "reports/intrinsic_value_analysis/intrinsic_value_report.py",
+            "size": 14311,
+            "lines": 354
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/intrinsic_value_analysis/REPORT.md",
+            "size": 7844,
+            "lines": 62
           }
         ]
       },
@@ -10086,8 +10128,8 @@
             "type": "file",
             "name": "portfolio_processor.py",
             "path": "reports/portfolios/portfolio_processor.py",
-            "size": 6418,
-            "lines": 179
+            "size": 6430,
+            "lines": 181
           }
         ]
       },
@@ -10095,8 +10137,8 @@
         "type": "file",
         "name": "report_utils.py",
         "path": "reports/report_utils.py",
-        "size": 17319,
-        "lines": 506
+        "size": 18922,
+        "lines": 543
       }
     ]
   },
@@ -10118,21 +10160,14 @@
     "type": "file",
     "name": "market_fetcher.py",
     "path": "market_fetcher.py",
-    "size": 66824,
-    "lines": 1868
+    "size": 71172,
+    "lines": 1961
   },
   {
     "type": "file",
     "name": "market_fetcher_test.py",
     "path": "market_fetcher_test.py",
-    "size": 23795,
-    "lines": 687
-  },
-  {
-    "type": "file",
-    "name": "test_pylint_imports.py",
-    "path": "test_pylint_imports.py",
-    "size": 141,
-    "lines": 7
+    "size": 24295,
+    "lines": 697
   }
 ]
