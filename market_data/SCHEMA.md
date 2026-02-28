@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-27 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.333 |
-| Headline | str | TTM Technologies Stock Surges 250% In a Year, a... |
-| Summary | str | TTM Technologies supplies advanced printed circ... |
-| URL | str | https://www.fool.com/coverage/filings/2026/02/2... |
+| Date | str | 2026-02-28 |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Amazon Is Selling a CarPlay Adapter for 50% Off... |
+| Summary | str | These cloud stocks are benefiting enormously fr... |
+| URL | str | https://news.google.com/rss/articles/CBMikwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
