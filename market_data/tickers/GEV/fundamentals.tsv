@@ -1,37 +1,37 @@
 Metric	Value
-52WeekChange	1.6135509
-SandP52WeekChange	0.16653454
+52WeekChange	1.7647319
+SandP52WeekChange	0.17593324
 address1	58 Charles Street
 allTimeHigh	894.93
 allTimeLow	115.0
-ask	874.0
+ask	881.0
 askSize	80
 auditRisk	10
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	2095140
-averageDailyVolume3Month	3141711
-averageVolume	3141711
-averageVolume10days	2095140
-bid	870.0
+averageDailyVolume10Day	2070330
+averageDailyVolume3Month	3178871
+averageVolume	3178871
+averageVolume10days	2070330
+bid	880.0
 bidSize	80
 boardRisk	3
 bookValue	41.472
 city	Cambridge
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Scott L. Strazik', 'age': 45, 'title': 'CEO, President & Director', 'yearBorn': 1980, 'fiscalYear': 2024, 'totalPay': 4795355, 'exercisedValue': 779088, 'unexercisedValue': 39637636}, {'maxAge': 1, 'name': 'Mr. Kenneth S. Parks', 'age': 62, 'title': 'Chief Financial Officer', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 2191941, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pablo M. Koziner', 'age': 52, 'title': 'Chief Commercial & Operations Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Matthew Joseph Potvin', 'title': 'VP, Controller & Chief Accounting Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael Jay Lapides', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Lola Felice Lin J.D.', 'age': 49, 'title': 'Chief Legal Officer & Secretary', 'yearBorn': 1976, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kristin  Carvell', 'title': 'Chief Communications Officer & President of GE Vernova Foundation', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Steven  Baert', 'age': 51, 'title': 'Chief People Officer', 'yearBorn': 1974, 'fiscalYear': 2024, 'totalPay': 4138555, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Philippe  Piron', 'title': 'Chief Executive Officer of Electrification Systems', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Hon. Roger J. Martella Jr.', 'title': 'Chief Corporate & Sustainability Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
-compensationRisk	6
+compensationRisk	7
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	876.46
+currentPrice	881.18
 currentRatio	0.982
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	879.55
-dayLow	830.7
+dayHigh	893.405
+dayLow	854.375
 debtToEquity	9.727
-discount_to_intrinsic_value	22.28
+discount_to_intrinsic_value	23.0
 displayName	GE Vernova
 dividendDate	1776124800
 dividendRate	1.5
@@ -45,12 +45,12 @@ earningsTimestampEnd	1777469400
 earningsTimestampStart	1777469400
 ebitda	2995000064
 ebitdaMargins	0.07868
-enterpriseToEbitda	76.665
-enterpriseToRevenue	6.032
-enterpriseValue	229610799104
-epsCurrentYear	14.15316
-epsForward	22.54168
-epsTrailingTwelveMonths	17.7
+enterpriseToEbitda	76.407
+enterpriseToRevenue	6.011
+enterpriseValue	228839931904
+epsCurrentYear	14.08899
+epsForward	22.54303
+epsTrailingTwelveMonths	17.65
 eps_normalized_growth	5.5148649428937615
 esgPopulated	False
 exDividendDate	1767571200
@@ -59,33 +59,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	714.2002
-fiftyDayAverageChange	162.25983
-fiftyDayAverageChangePercent	0.22719096
-fiftyTwoWeekChangePercent	161.35509
+fiftyDayAverage	722.1402
+fiftyDayAverageChange	159.0398
+fiftyDayAverageChangePercent	0.22023396
+fiftyTwoWeekChangePercent	176.47319
 fiftyTwoWeekHigh	894.93
-fiftyTwoWeekHighChange	-18.46997
-fiftyTwoWeekHighChangePercent	-0.020638453
+fiftyTwoWeekHighChange	-13.75
+fiftyTwoWeekHighChangePercent	-0.01536433
 fiftyTwoWeekLow	252.25
-fiftyTwoWeekLowChange	624.21
-fiftyTwoWeekLowChangePercent	2.474569
+fiftyTwoWeekLowChange	628.93
+fiftyTwoWeekLowChangePercent	2.4932804
 fiftyTwoWeekRange	252.25 - 894.93
 financialCurrency	USD
 firstTradeDateMilliseconds	1711546200000
-floatShares	269098217
-forwardEps	22.54168
-forwardPE	38.881752
+floatShares	269092826
+forwardEps	22.54303
+forwardPE	39.088802
 freeCashflow	5277749760
 fullExchangeName	NYSE
 fullTimeEmployees	78000
 gmtOffSetMilliseconds	-18000000
-governanceEpochDate	1769904000
-graham_intrinsic_value	1127.72
+governanceEpochDate	1772323200
+graham_intrinsic_value	1144.36
 grossMargins	0.20082001
 grossProfits	7645000192
 hasPrePostMarketData	True
 heldPercentInsiders	0.00316
-heldPercentInstitutions	0.78531
+heldPercentInstitutions	0.78542
 impliedSharesOutstanding	271320460
 industry	Specialty Industrial Machinery
 industryDisp	Specialty Industrial Machinery
@@ -99,32 +99,32 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, the Middle East, and Africa. The company operates through three segments: Power, Wind, and Electrification. The Power segment designs, manufactures, and services gas, nuclear, hydro, and steam technologies. It serves industrial, government, and other customers. The Wind segment offers wind generation technologies, including onshore and offshore wind turbines and blades. The Electrification segment provides grid solutions; power conversion; electrification software; and solar and storage solutions technologies required for the transmission, distribution, conversion, storage, and orchestration of electricity from point of generation to point of consumption. The company was incorporated in 2023 and is headquartered in Cambridge, Massachusetts.
 longName	GE Vernova Inc.
 market	us_market
-marketCap	237801521152
-marketState	POSTPOST
+marketCap	239082143744
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_1818848396
 mostRecentQuarter	1767139200
-nameChangeDate	2026-02-26
+nameChangeDate	2026-03-02
 netIncomeToCommon	4883999744
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	237113155364
+nonDilutedMarketCap	235460939750
 numberOfAnalystOpinions	30
-open	877.37
+open	865.0
 operatingCashflow	4986999808
 operatingMargins	0.07384
 overallRisk	7
 payoutRatio	0.070700005
 phone	617 674 7555
-postMarketChange	-3.460022
-postMarketChangePercent	-0.39477238
-postMarketPrice	873.0
-postMarketTime	1772153960
+postMarketChange	-3.2700195
+postMarketChangePercent	-0.37109554
+postMarketPrice	877.91
+postMarketTime	1772497786
 prevName	GE Vernova LLC
-previousClose	876.01
-priceEpsCurrentYear	61.926807
+previousClose	873.6
+priceEpsCurrentYear	62.543873
 priceHint	2
-priceToBook	21.133778
-priceToSalesTrailing12Months	6.2467566
+priceToBook	21.24759
+priceToSalesTrailing12Months	6.280397
 profitMargins	0.1283
 quickRatio	0.642
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.63636
 region	US
-regularMarketChange	0.450012
-regularMarketChangePercent	0.0513707
-regularMarketDayHigh	879.55
-regularMarketDayLow	830.7
-regularMarketDayRange	830.7 - 879.55
-regularMarketOpen	877.37
-regularMarketPreviousClose	876.01
-regularMarketPrice	876.46
-regularMarketTime	1772139602
-regularMarketVolume	2790667
+regularMarketChange	7.58002
+regularMarketChangePercent	0.867676
+regularMarketDayHigh	893.405
+regularMarketDayLow	854.375
+regularMarketDayRange	854.375 - 893.405
+regularMarketOpen	865.0
+regularMarketPreviousClose	873.6
+regularMarketPrice	881.18
+regularMarketTime	1772485202
+regularMarketVolume	2248149
 returnOnAssets	0.02338
 returnOnEquity	0.42641
 revenueGrowth	0.038
@@ -161,7 +161,7 @@ shortRatio	1.78
 sourceInterval	15
 state	MA
 symbol	GEV
-syntheticPEG	0.05788559178204556
+syntheticPEG	0.058193839511686773
 targetHighPrice	1019.0
 targetLowPrice	560.0
 targetMeanPrice	836.98267
@@ -172,15 +172,15 @@ totalDebt	1196000000
 totalRevenue	38067998720
 tradeable	False
 trailingAnnualDividendRate	1.25
-trailingAnnualDividendYield	0.0014269244
-trailingEps	17.7
-trailingPE	49.517513
-trailingPegRatio	3.3369
+trailingAnnualDividendYield	0.0014308608
+trailingEps	17.65
+trailingPE	49.925213
+trailingPegRatio	3.5588
 triggerable	True
-twoHundredDayAverage	607.2333
-twoHundredDayAverageChange	269.22675
-twoHundredDayAverageChangePercent	0.44336626
+twoHundredDayAverage	611.9042
+twoHundredDayAverageChange	269.27582
+twoHundredDayAverageChangePercent	0.44006208
 typeDisp	Equity
-volume	2790667
+volume	2248149
 website	https://www.gevernova.com
 zip	02141

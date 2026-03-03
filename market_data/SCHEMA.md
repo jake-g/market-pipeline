@@ -17,13 +17,13 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | -0.007725656 |
+| Value | str | 0.024290323 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
 | Earnings Date | str | 2026-04-30 17:00:00-04:00 |
-| EPS Estimate | float64 | 1.65 |
+| EPS Estimate | float64 | 1.64 |
 | Reported EPS | float64 | 1.95 |
 | Surprise(%) | float64 | -0.49 |
 
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-02-28 |
+| Date | str | 2026-03-02 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Amazon Is Selling a CarPlay Adapter for 50% Off... |
-| Summary | str | These cloud stocks are benefiting enormously fr... |
-| URL | str | https://news.google.com/rss/articles/CBMikwFBVV... |
+| Sentiment | float64 | 0.6 |
+| Headline | str | Is Amazon (AMZN) a Buy, Sell, or Hold in 2026? ... |
+| Summary | str | Netflix rose as investors backed management’s d... |
+| URL | str | https://news.google.com/rss/articles/CBMigwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -75,11 +75,11 @@ This report documents the file structures and column data types used in `market_
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 417.553 |
-| AIR_PPI | float64 | 178.066 |
-| TRUCK_PPI | float64 | 188.168 |
-| WAREHOUSE_PPI | float64 | 168.631 |
-| MFG_CONST | float64 | 214137.0 |
+| FREIGHT_PPI | float64 | 420.096 |
+| AIR_PPI | float64 | 174.01 |
+| TRUCK_PPI | float64 | 186.16 |
+| WAREHOUSE_PPI | float64 | 171.259 |
+| MFG_CONST | float64 | 202420.0 |
 | TECH_PULSE | float64 | 89.7508 |
 | CHINA_IMPORTS | float64 | 21104.2786 |
 | TARIFFS | float64 | 364.324 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 326.588 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.43 |
-| US10Y | float64 | 4.04 |
+| US02Y | float64 | 3.38 |
+| US10Y | float64 | 3.97 |
