@@ -1,6 +1,7 @@
 # pylint: disable=duplicate-code
 import logging
 import os
+import sys
 from typing import Any, Dict, List
 
 from graphviz import Digraph
@@ -292,27 +293,41 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
   if 'Discount_to_Intrinsic_Value_Pct' not in df.columns:
     df['Discount_to_Intrinsic_Value_Pct'] = np.nan
 
-  display_df = df[[
-      'Ticker', 'Name', 'Portfolio_Weight_Pct', 'Unrealized_PnL_Pct',
-      'Graham_Value', 'Discount_to_Intrinsic_Value_Pct', 'RSI', 'Dist_to_200MA',
-      'MACD', 'MA_Cross', 'Time_Horizon', 'Exit_Strategy'
-  ]].copy()
+  desired_cols = [
+      'Ticker', 'Name', 'Quantity', 'Portfolio_Weight_Pct',
+      'Unrealized_PnL_Pct', 'Graham_Value', 'Discount_to_Intrinsic_Value_Pct',
+      'RSI', 'Dist_to_200MA', 'MACD', 'MA_Cross', 'Time_Horizon',
+      'Exit_Strategy'
+  ]
+  actual_cols = [c for c in desired_cols if c in df.columns]
+  display_df = df[actual_cols].copy()
+  display_df = display_df.fillna("-")
 
-  display_df['Portfolio_Weight_Pct'] = display_df['Portfolio_Weight_Pct'].apply(
-      lambda x: format_num(x, is_pct=True))
-  display_df['Unrealized_PnL_Pct'] = display_df['Unrealized_PnL_Pct'].apply(
-      lambda x: format_num(x, is_pct=True, is_signed=True))
+  if 'Portfolio_Weight_Pct' in display_df.columns:
+    display_df['Portfolio_Weight_Pct'] = display_df[
+        'Portfolio_Weight_Pct'].apply(lambda x: format_num(x, is_pct=True)
+                                      if x != "-" else x)
+  if 'Unrealized_PnL_Pct' in display_df.columns:
+    display_df['Unrealized_PnL_Pct'] = display_df['Unrealized_PnL_Pct'].apply(
+        lambda x: format_num(x, is_pct=True, is_signed=True) if x != "-" else x)
 
-  display_df['Graham_Value'] = display_df['Graham_Value'].apply(
-      lambda x: format_num(x, prefix="$"))
-  display_df['Discount_to_Intrinsic_Value_Pct'] = display_df[
-      'Discount_to_Intrinsic_Value_Pct'].apply(
-          lambda x: format_num(x, is_pct=True, is_signed=True))
+  if 'Graham_Value' in display_df.columns:
+    display_df['Graham_Value'] = display_df['Graham_Value'].apply(
+        lambda x: format_num(x, prefix="$") if x != "-" else x)
+  if 'Discount_to_Intrinsic_Value_Pct' in display_df.columns:
+    display_df['Discount_to_Intrinsic_Value_Pct'] = display_df[
+        'Discount_to_Intrinsic_Value_Pct'].apply(lambda x: format_num(
+            x, is_pct=True, is_signed=True) if x != "-" else x)
 
-  display_df['Dist_to_200MA'] = display_df['Dist_to_200MA'].apply(
-      lambda x: format_num(x, is_pct=True, is_signed=True))
-  display_df['RSI'] = display_df['RSI'].apply(format_num)
-  display_df['MACD'] = display_df['MACD'].apply(format_num)
+  if 'Dist_to_200MA' in display_df.columns:
+    display_df['Dist_to_200MA'] = display_df['Dist_to_200MA'].apply(
+        lambda x: format_num(x, is_pct=True, is_signed=True) if x != "-" else x)
+  if 'RSI' in display_df.columns:
+    display_df['RSI'] = display_df['RSI'].apply(lambda x: format_num(x)
+                                                if x != "-" else x)
+  if 'MACD' in display_df.columns:
+    display_df['MACD'] = display_df['MACD'].apply(lambda x: format_num(x)
+                                                  if x != "-" else x)
 
   headers = display_df.columns.tolist()
   data = display_df.values.tolist()
@@ -565,3 +580,207 @@ def format_num(x, is_pct=False, is_signed=False, prefix="", default_nan="NaN"):
   if abs(x_val - round(x_val)) < 1e-6:
     return f"{prefix}{sign}{int(round(x_val))}{suffix}"
   return f"{prefix}{sign}{x_val:.2f}{suffix}"
+
+
+# ==========================================
+# PORTFOLIO THEMES & CUSTOM PLOTS
+# ==========================================
+
+# Ensure project root is in path to import config
+_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if _root not in sys.path:
+  sys.path.insert(0, _root)
+
+import config
+
+
+def get_theme(ticker: str) -> str:
+  """Returns the macro sector/theme for a given ticker using config.SECTORS."""
+  for sector, tickers in config.SECTORS.items():
+    if ticker in tickers:
+      return sector
+  return "Other"
+
+
+def load_portfolio_tsv(filepath: str) -> pd.DataFrame:
+  """Loads a portfolio TSV file and annotates it with themes."""
+  if not os.path.exists(filepath):
+    raise FileNotFoundError(f"Missing TSV: {filepath}")
+  df = pd.read_csv(filepath, sep="\t")
+  if "Ticker" in df.columns:
+    df["Theme"] = df["Ticker"].apply(get_theme)
+  return df
+
+
+def enrich_portfolio_df(df: pd.DataFrame, market_data_dir: str) -> pd.DataFrame:
+  """Enriches a portfolio DataFrame with intrinsic value and technical metrics."""
+  tickers_dir = os.path.join(market_data_dir, "tickers")
+  if "Ticker" not in df.columns:
+    return df
+
+  intrinsic_list = []
+  tech_list = []
+
+  for ticker in df["Ticker"]:
+    iv = get_intrinsic_value_metrics(ticker, tickers_dir)
+    if iv:
+      intrinsic_list.append(iv)
+
+    prices_path = os.path.join(tickers_dir, ticker, "prices.tsv")
+    if os.path.exists(prices_path):
+      try:
+        prices = pd.read_csv(prices_path, sep="\t")
+        prices['Date'] = pd.to_datetime(prices['Date'])
+        techs = calculate_technical_metrics(prices)
+        if techs:
+          techs["Ticker"] = ticker
+          tech_list.append(techs)
+      except Exception as e:
+        logger.warning("Error calculating techs for %s: %s", ticker, e)
+
+  if intrinsic_list:
+    iv_df = pd.DataFrame(intrinsic_list).dropna(how='all')
+    if not iv_df.empty and 'Ticker' in iv_df.columns:
+      for col in iv_df.columns:
+        if col != 'Ticker' and col in df.columns:
+          df = df.drop(columns=[col])
+      df = df.merge(iv_df, on="Ticker", how="left")
+
+  if tech_list:
+    tech_df = pd.DataFrame(tech_list).dropna(how='all')
+    if not tech_df.empty and 'Ticker' in tech_df.columns:
+      for col in tech_df.columns:
+        if col != 'Ticker' and col in df.columns:
+          df = df.drop(columns=[col])
+      df = df.merge(tech_df, on="Ticker", how="left")
+
+  return df
+
+
+def generate_exposure_plot(df: pd.DataFrame,
+                           title: str,
+                           save_path: str,
+                           privacy_mode: bool = False):
+  """Generates a bar plot of portfolio exposure by theme."""
+  if "Theme" not in df.columns or df.empty:
+    return
+  setup_plot_aesthetics()
+
+  if privacy_mode and "Portfolio_Weight_Pct" in df.columns:
+    theme_values = df.groupby(
+        "Theme")["Portfolio_Weight_Pct"].sum().sort_values(ascending=False)
+    x_label = "Portfolio Weight (%)"
+  else:
+    theme_values = df.groupby("Theme")["Current_Value"].sum().sort_values(
+        ascending=False)
+    x_label = "Total Value ($)"
+
+  plt.figure(figsize=(10, 6))
+  sns.barplot(x=theme_values.values,
+              y=theme_values.index,
+              hue=theme_values.index,
+              palette="viridis",
+              legend=False)
+  plt.title(title, fontweight='bold')
+  plt.xlabel(x_label)
+  plt.ylabel("")
+  plt.tight_layout()
+  plt.savefig(save_path, dpi=300)
+  plt.close()
+
+
+def generate_pnl_plot(df: pd.DataFrame,
+                      title: str,
+                      save_path: str,
+                      privacy_mode: bool = False):
+  """Generates a bar plot of unrealized PnL by theme."""
+  if "Theme" not in df.columns or df.empty:
+    return
+  setup_plot_aesthetics()
+
+  if privacy_mode and "Unrealized_PnL_Net" in df.columns and "Cost_Basis" in df.columns:
+    theme_grouped = df.groupby("Theme").agg({
+        "Unrealized_PnL_Net": "sum",
+        "Cost_Basis": "sum"
+    })
+    theme_pnl = (theme_grouped["Unrealized_PnL_Net"] /
+                 theme_grouped["Cost_Basis"].replace(0, 1)) * 100
+    theme_pnl = theme_pnl.sort_values(ascending=False)
+    x_label = "Unrealized PnL (%)"
+  elif "Unrealized_PnL_Net" in df.columns:
+    theme_pnl = df.groupby("Theme")["Unrealized_PnL_Net"].sum().sort_values(
+        ascending=False)
+    x_label = "PnL ($)"
+  else:
+    return
+
+  plt.figure(figsize=(10, 6))
+  colors = ["g" if val > 0 else "r" for val in theme_pnl.values]
+  sns.barplot(x=theme_pnl.values,
+              y=theme_pnl.index,
+              hue=theme_pnl.index,
+              palette=colors,
+              legend=False)
+  plt.title(title, fontweight='bold')
+  plt.xlabel(x_label)
+  plt.ylabel("")
+  plt.axvline(0, color="black", linestyle="--")
+  plt.tight_layout()
+  plt.savefig(save_path, dpi=300)
+  plt.close()
+
+
+def build_standard_portfolio_report(script_dir: str,
+                                    tsv_filename: str,
+                                    title_prefix: str,
+                                    tree_func,
+                                    markdown_template: str,
+                                    market_analysis: str = "",
+                                    privacy_mode: bool = False):
+  """
+  Abstracts the boilerplate sequence:
+  1. Creates plot directory.
+  2. Runs decision tree custom logic.
+  3. Loads TSV and plots theme exposures/PnL.
+  4. Generates standard metrics table (enriched with intrinsic/technical data).
+  5. Injects the table and market analysis into a customized markdown template.
+  """
+  plots_dir = os.path.join(script_dir, "plots")
+  os.makedirs(plots_dir, exist_ok=True)
+
+  tree_path = os.path.join(plots_dir, "decision_tree")
+  tree_func(tree_path)
+
+  tsv_path = os.path.abspath(
+      os.path.join(script_dir, f"../../portfolios/tsvs/{tsv_filename}"))
+  if not os.path.exists(tsv_path):
+    logging.warning("TSV not found: %s", tsv_path)
+    return
+
+  df = load_portfolio_tsv(tsv_path)
+
+  market_data_dir = os.path.abspath(
+      os.path.join(script_dir, "../../market_data"))
+  df = enrich_portfolio_df(df, market_data_dir)
+
+  generate_exposure_plot(df,
+                         f"{title_prefix} - Theme Exposure",
+                         os.path.join(plots_dir, "theme_exposure.png"),
+                         privacy_mode=privacy_mode)
+  generate_pnl_plot(df,
+                    f"{title_prefix} - Theme PnL",
+                    os.path.join(plots_dir, "theme_pnl.png"),
+                    privacy_mode=privacy_mode)
+
+  metrics_table = generate_portfolio_markdown_table(df)
+
+  # Format string, allowing `{market_analysis}` placeholder if present.
+  try:
+    report_md = markdown_template.format(metrics_table=metrics_table,
+                                         market_analysis=market_analysis)
+  except KeyError:
+    report_md = markdown_template.format(metrics_table=metrics_table)
+
+  out_path = os.path.join(script_dir, "REPORT.md")
+  with open(out_path, "w", encoding="utf-8") as f:
+    f.write(report_md)

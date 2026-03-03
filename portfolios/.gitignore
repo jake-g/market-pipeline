@@ -1,0 +1,10 @@
+# Ignore Portfolio specific (assume private)
+PORTFOLIO_REPORT*.md
+*.tsv
+*.json
+plots/
+tsvs/
+
+# Exclude the example mock data from being ignored (enable non-private)
+!*example*.tsv
+!portfolio_example.json

@@ -9,8 +9,8 @@ import pandas as pd
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
-from reports.portfolios import portfolio_processor
-from reports.portfolios import yahoo_portfolio_fetcher
+from portfolios import portfolio_processor
+from portfolios import yahoo_portfolio_fetcher
 
 
 class TestPortfolioPipeline(unittest.TestCase):
@@ -19,7 +19,7 @@ class TestPortfolioPipeline(unittest.TestCase):
     self.test_dir = os.path.dirname(os.path.abspath(__file__))
     self.mock_json = os.path.join(self.test_dir, "portfolio_example.json")
 
-  @patch("reports.portfolios.yahoo_portfolio_fetcher.logger")
+  @patch("portfolios.yahoo_portfolio_fetcher.logger")
   def test_01_fetcher_with_local_json(self, mock_logger):
     """Test the fetcher gracefully reads a local json and builds the expected files."""
     tsvs_dir = os.path.join(self.test_dir, "tsvs")
@@ -47,7 +47,7 @@ class TestPortfolioPipeline(unittest.TestCase):
     self.assertEqual(len(df), 3)  # AAPL, NVDA, and CASH
     self.assertTrue("CASH" in df['Ticker'].values)
 
-  @patch("reports.portfolios.portfolio_processor.logger")
+  @patch("portfolios.portfolio_processor.logger")
   def test_02_processor_ignores_examples(self, mock_logger):
     """Test the processor ignores files with example in the title."""
     active_path = os.path.join(self.test_dir, "tsvs",

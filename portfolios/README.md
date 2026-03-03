@@ -9,10 +9,10 @@ If your machine's IP address gets temporarily banned by Yahoo (resulting in endl
 1. Open Chrome and navigate directly to this API URL:
    `https://query1.finance.yahoo.com/v7/finance/desktop/portfolio?formatted=true&includeBetaVersion=1&keyMetricsModules=portfolioReturns%2CdividendPayouts%2CassetAllocation%2CsectorAllocation&lang=en-US&region=US&crumb=YOUR_CRUMB_HERE`
    *(Note: You can find this full URL in the Network tab when visiting the Portfolios page).*
-2. Save the raw JSON output to a file named `portfolio.json` in the `reports/portfolios` directory.
+2. Save the raw JSON output to a file named `portfolio.json` in the `portfolios` directory.
 3. Run the full pipeline wrapper in offline mode to process the localized data:
    ```bash
-   ./reports/portfolios/run_pipeline.sh --offline
+   ./portfolios/run_pipeline.sh --offline
    ```
 
 ---
@@ -42,10 +42,10 @@ Instead of manually finding the cookie and crumb, the fetcher script will automa
 1. Copy the cURL command as described above.
 2. Run the fetcher script:
    ```bash
-   python reports/portfolios/yahoo_portfolio_fetcher.py --dump
+   python portfolios/yahoo_portfolio_fetcher.py --dump
    ```
 3. If prompted, paste the `Copy as cURL` text and press `Enter`, then press `Ctrl+D` to finish input.
-4. The script will automatically parse your `YF_COOKIE` and `YF_CRUMB` and create a `.env` file in the `reports/portfolios/` directory.
+4. The script will automatically parse your `YF_COOKIE` and `YF_CRUMB` and create a `.env` file in the `portfolios/` directory.
 
 ### Finding Your `YF_USER_ID`
 
@@ -59,7 +59,7 @@ If the fetcher script fails because it cannot find your User ID automatically, y
 4. Click on that request and look at the **Payload** or the **Request URL**.
 5. You should see a parameter called `userId=xxxxxxxxxxxxx`.
 6. Copy that value (it's usually a long string of letters and numbers).
-7. Open `reports/portfolios/.env` and update the `YF_USER_ID` field:
+7. Open `portfolios/.env` and update the `YF_USER_ID` field:
    ```env
    YF_USER_ID="xxxxxxxxxxxxx"
    ```
@@ -73,14 +73,14 @@ If the fetcher script fails because it cannot find your User ID automatically, y
 The entire intelligence pipeline is automated, running unit validation, code formatting, parsing, quantitative enhancement, and finally exhaustively generating the Markdown view. Operations are heavily logged and cached into internal data siloes to maintain project cleanliness.
 
 ```bash
-./reports/portfolios/run_pipeline.sh
+./portfolios/run_pipeline.sh
 ```
 
 **Architecture & Footprint**:
 - **Logs**: Execution STDOUT and background terminal outputs are piped automatically into `logs/` at the project root via per-command `tee` hooks. Let this populate to track errors or debug missing dependencies without fighting raw console dumps.
-- **TSVs**: All dynamically generated raw Yahoo CSV exports (and post-processor combined metrics files) are generated discretely inside the `reports/portfolios/tsvs/` subset directory.
+- **TSVs**: All dynamically generated raw Yahoo CSV exports (and post-processor combined metrics files) are generated discretely inside the `portfolios/tsvs/` subset directory.
 - **Diff Constraints**: When fetching live Yahoo data, the code will dynamically diff your terminal responses against your cache and report raw absolute asset changes.
-- **Offline Mode**: Passing `--offline` executes calculations exclusively utilizing the `reports/portfolios/portfolio.json` snapshot payload safely avoiding `api bans`.
+- **Offline Mode**: Passing `--offline` executes calculations exclusively utilizing the `portfolios/portfolio.json` snapshot payload safely avoiding `api bans`.
 
 This generates `REPORT.md` in the current folder, embedding aggregate metrics, visualizations of asset allocation, and individual breakdowns of every processed portfolio.
 

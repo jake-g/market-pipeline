@@ -34,6 +34,10 @@ echo "✅ Market Fetcher finished in $((t1-t0))s."
 echo "🌐 Generating static index.json for dashboard..."
 python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 
+# Update Portfolios
+echo "📈 Running Portfolio Pipeline..."
+./portfolios/run_portfolio_pipeline.sh
+
 echo "🧹 Running Code Formatting & Validation..."
 ./run_format.sh
 
