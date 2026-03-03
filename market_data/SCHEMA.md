@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.024290323 |
+| Value | str | 0.0017757416 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (197 more) | | |
+| ... (210 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-02 |
+| Date | str | 2026-03-04 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.6 |
-| Headline | str | Stock Market Today, March 2: Netflix Advances A... |
-| Summary | str | Netflix rose as investors backed management’s d... |
-| URL | str | https://www.fool.com/coverage/stock-market-toda... |
+| Sentiment | float64 | 0.5 |
+| Headline | str | Amazon starts 15-minute grocery delivery servic... |
+| Summary | str | The service began in São Paulo on 3 March 2026 ... |
+| URL | str | https://www.retail-insight-network.com/news/ama... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

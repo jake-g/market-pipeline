@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.013164997
-SandP52WeekChange	0.17593324
+52WeekChange	-0.0015690327
+SandP52WeekChange	0.16670573
 address1	1725 3rd Street
 allTimeHigh	101.99
 allTimeLow	13.71
-ask	76.27
-askSize	600
+ask	76.42
+askSize	200
 auditRisk	1
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	20637710
-averageDailyVolume3Month	20932672
-averageVolume	20932672
-averageVolume10days	20637710
-beta	1.206
-bid	75.7
+averageDailyVolume10Day	20724010
+averageDailyVolume3Month	21156311
+averageVolume	21156311
+averageVolume10days	20724010
+beta	1.215
+bid	76.41
 bidSize	200
 boardRisk	3
 bookValue	13.077
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	75.95
+currentPrice	76.625
 currentRatio	1.136
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	76.495
-dayLow	73.15
+dayHigh	76.915
+dayLow	75.013
 debtToEquity	43.806
-discount_to_intrinsic_value	-70.45
+discount_to_intrinsic_value	-71.96
 displayName	Uber
 earningsCallTimestampEnd	1770210000
 earningsCallTimestampStart	1770210000
@@ -43,9 +43,9 @@ earningsTimestampEnd	1778074200
 earningsTimestampStart	1778074200
 ebitda	6312000000
 ebitdaMargins	0.12134
-enterpriseToEbitda	25.669
-enterpriseToRevenue	3.115
-enterpriseValue	162024914944
+enterpriseToEbitda	25.803
+enterpriseToRevenue	3.131
+enterpriseValue	162868740096
 epsCurrentYear	3.30428
 epsForward	4.28751
 epsTrailingTwelveMonths	4.73
@@ -56,22 +56,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	79.13
-fiftyDayAverageChange	-3.1800003
-fiftyDayAverageChangePercent	-0.04018704
-fiftyTwoWeekChangePercent	1.3164997
+fiftyDayAverage	78.975
+fiftyDayAverageChange	-2.3499985
+fiftyDayAverageChangePercent	-0.029756233
+fiftyTwoWeekChangePercent	-0.15690327
 fiftyTwoWeekHigh	101.99
-fiftyTwoWeekHighChange	-26.04
-fiftyTwoWeekHighChangePercent	-0.25531918
+fiftyTwoWeekHighChange	-25.364998
+fiftyTwoWeekHighChangePercent	-0.24870084
 fiftyTwoWeekLow	60.63
-fiftyTwoWeekLowChange	15.319996
-fiftyTwoWeekLowChangePercent	0.25268012
+fiftyTwoWeekLowChange	15.994999
+fiftyTwoWeekLowChangePercent	0.26381326
 fiftyTwoWeekRange	60.63 - 101.99
 financialCurrency	USD
 firstTradeDateMilliseconds	1557495000000
 floatShares	2046940413
 forwardEps	4.28751
-forwardPE	17.714245
+forwardPE	17.87168
 freeCashflow	6346124800
 fullExchangeName	NYSE
 fullTimeEmployees	34000
@@ -81,8 +81,8 @@ graham_intrinsic_value	44.56
 grossMargins	0.38497
 grossProfits	20024999936
 hasPrePostMarketData	True
-heldPercentInsiders	0.0061799996
-heldPercentInstitutions	0.85130996
+heldPercentInsiders	0.0046200003
+heldPercentInstitutions	0.85299003
 impliedSharesOutstanding	2077830382
 industry	Software - Application
 industryDisp	Software - Application
@@ -93,16 +93,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Uber Technologies, Inc. develops and operates proprietary technology applications in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. The company operates through three segments: Mobility, Delivery, and Freight. The Mobility segment connects consumers with a range of transportation modalities, such as ridesharing, carsharing, micromobility, rentals, public transit, taxis, and other modalities; and offers riders in a variety of vehicle types, as well as financial partnerships products and advertising services. The Delivery segment allows consumers to search for and discover restaurants to grocery, alcohol, convenience, and other retailers, as well as order a meal or other items, and either pick-up at the restaurant or have it delivered; and provides Uber direct, a white-label delivery-as-a-service for retailers and restaurants, as well as advertising services. The Freight segment manages transportation and logistics networks, which connects shippers and carriers in digital marketplace, including carriers upfronts, pricing, and shipment booking; and offers on-demand platform to automate logistics end-to-end transactions for small-and medium-sized businesses to global enterprises. The company was formerly known as Ubercab, Inc. and changed its name to Uber Technologies, Inc. in February 2011. Uber Technologies, Inc. was founded in 2009 and is headquartered in San Francisco, California.
 longName	Uber Technologies, Inc.
 market	us_market
-marketCap	157811212288
-marketState	POST
+marketCap	159213748224
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_144524848
 mostRecentQuarter	1767139200
 netIncomeToCommon	10053000192
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	155223107437
+nonDilutedMarketCap	156313908908
 numberOfAnalystOpinions	52
-open	73.5
+open	76.295
 operatingCashflow	10099000320
 operatingMargins	0.12349
 overallRisk	7
@@ -112,11 +112,11 @@ postMarketChange	-0.051193237
 postMarketChangePercent	-0.06740387
 postMarketPrice	75.8988
 postMarketTime	1772497898
-previousClose	75.42
-priceEpsCurrentYear	22.985338
+previousClose	76.36
+priceEpsCurrentYear	23.189621
 priceHint	2
-priceToBook	5.807907
-priceToSalesTrailing12Months	3.0338392
+priceToBook	5.8595247
+priceToSalesTrailing12Months	3.0608022
 profitMargins	0.19326
 quickRatio	0.93
 quoteSourceName	Nasdaq Real Time Price
@@ -124,16 +124,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.55357
 region	US
-regularMarketChange	0.529999
-regularMarketChangePercent	0.70273
-regularMarketDayHigh	76.495
-regularMarketDayLow	73.15
-regularMarketDayRange	73.15 - 76.495
-regularMarketOpen	73.5
-regularMarketPreviousClose	75.42
-regularMarketPrice	75.95
-regularMarketTime	1772485203
-regularMarketVolume	18600998
+regularMarketChange	0.2649994
+regularMarketChangePercent	0.34703952
+regularMarketDayHigh	76.915
+regularMarketDayLow	75.013
+regularMarketDayRange	75.013 - 76.915
+regularMarketOpen	76.295
+regularMarketPreviousClose	76.36
+regularMarketPrice	76.625
+regularMarketTime	1772654295
+regularMarketVolume	11525509
 returnOnAssets	0.061529998
 returnOnEquity	0.39925998
 revenueGrowth	0.201
@@ -153,7 +153,7 @@ shortRatio	2.22
 sourceInterval	15
 state	CA
 symbol	UBER
-syntheticPEG	-0.18529544979079496
+syntheticPEG	-0.18694225941422596
 targetHighPrice	150.0
 targetLowPrice	70.0
 targetMeanPrice	104.47404
@@ -166,13 +166,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	4.73
-trailingPE	16.057081
+trailingPE	16.19979
 trailingPegRatio	4.5104
 triggerable	True
-twoHundredDayAverage	88.5329
-twoHundredDayAverageChange	-12.582901
-twoHundredDayAverageChangePercent	-0.14212684
+twoHundredDayAverage	88.3838
+twoHundredDayAverageChange	-11.758797
+twoHundredDayAverageChangePercent	-0.13304245
 typeDisp	Equity
-volume	18600998
+volume	11525509
 website	https://www.uber.com
 zip	94158

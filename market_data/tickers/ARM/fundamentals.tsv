@@ -1,18 +1,18 @@
 Metric	Value
-52WeekChange	0.052435994
-SandP52WeekChange	0.17593324
+52WeekChange	-0.024523139
+SandP52WeekChange	0.16670573
 address1	110 Fulbourn Road
 allTimeHigh	188.75
 allTimeLow	46.5
-ask	147.27
-askSize	1
+ask	135.0
+askSize	4
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	3936200
-averageDailyVolume3Month	5909362
-averageVolume	5909362
-averageVolume10days	3936200
-beta	4.374
-bid	90.29
+averageDailyVolume10Day	3980560
+averageDailyVolume3Month	5987123
+averageVolume	5987123
+averageVolume10days	3980560
+beta	4.132
+bid	89.82
 bidSize	2
 bookValue	7.343
 city	Cambridge
@@ -22,14 +22,14 @@ corporateActions	[]
 country	United Kingdom
 cryptoTradeable	False
 currency	USD
-currentPrice	124.37
+currentPrice	124.8612
 currentRatio	5.427
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	125.81
-dayLow	121.64
+dayHigh	127.4
+dayLow	121.74
 debtToEquity	5.912
-discount_to_intrinsic_value	-1660.25
+discount_to_intrinsic_value	-1667.2
 displayName	Arm
 earningsCallTimestampEnd	1770242400
 earningsCallTimestampStart	1770242400
@@ -40,11 +40,11 @@ earningsTimestampEnd	1778101200
 earningsTimestampStart	1778101200
 ebitda	1083800064
 ebitdaMargins	0.23202999
-enterpriseToEbitda	119.026
-enterpriseToRevenue	27.617
-enterpriseValue	128999940096
-epsCurrentYear	1.75788
-epsForward	2.15804
+enterpriseToEbitda	116.429
+enterpriseToRevenue	27.015
+enterpriseValue	126185644032
+epsCurrentYear	1.75887
+epsForward	2.15419
 epsTrailingTwelveMonths	0.75
 eps_normalized_growth	-0.06639425289764656
 esgPopulated	False
@@ -53,22 +53,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	115.8762
-fiftyDayAverageChange	8.493805
-fiftyDayAverageChangePercent	0.07330069
-fiftyTwoWeekChangePercent	5.2435994
+fiftyDayAverage	116.0844
+fiftyDayAverageChange	8.776802
+fiftyDayAverageChangePercent	0.07560708
+fiftyTwoWeekChangePercent	-2.452314
 fiftyTwoWeekHigh	183.16
-fiftyTwoWeekHighChange	-58.79
-fiftyTwoWeekHighChangePercent	-0.3209762
+fiftyTwoWeekHighChange	-58.298805
+fiftyTwoWeekHighChangePercent	-0.3182944
 fiftyTwoWeekLow	80.0
-fiftyTwoWeekLowChange	44.370003
-fiftyTwoWeekLowChangePercent	0.55462503
+fiftyTwoWeekLowChange	44.8612
+fiftyTwoWeekLowChangePercent	0.56076497
 fiftyTwoWeekRange	80.0 - 183.16
 financialCurrency	USD
 firstTradeDateMilliseconds	1694698200000
 floatShares	136796220
-forwardEps	2.15804
-forwardPE	57.630997
+forwardEps	2.15419
+forwardPE	57.962017
 freeCashflow	824750016
 fullExchangeName	NasdaqGS
 fullTimeEmployees	8330
@@ -77,8 +77,8 @@ graham_intrinsic_value	7.07
 grossMargins	0.97495
 grossProfits	4553999872
 hasPrePostMarketData	True
-heldPercentInsiders	0.00072999997
-heldPercentInstitutions	0.94899005
+heldPercentInsiders	0.00048000002
+heldPercentInstitutions	0.95008004
 impliedSharesOutstanding	1061998569
 industry	Semiconductors
 industryDisp	Semiconductors
@@ -90,16 +90,16 @@ lastFiscalYearEnd	1743379200
 longBusinessSummary	Arm Holdings plc architects, develops, and licenses central processing unit products and related technologies for semiconductor companies and original equipment manufacturers. The company is involved in the licensing, marketing, research, and development of microprocessors, systems intellectual property (IPs), graphics processing units, physical IP and associated systems IPs, software, tools, and other related services. It also offers arm central processing units, accelerators, system IP products, and compute platform products, as well as development tools and software. The company's products are used in various markets, such as automotive, computing infrastructure, consumer technologies, and Internet of things. It operates in the United States, the People's Republic of China, Taiwan, the Republic of Korea, and internationally. The company was founded in 1990 and is headquartered in Cambridge, the United Kingdom. Arm Holdings plc is a subsidiary of SoftBank Group Corp.
 longName	Arm Holdings plc
 market	us_market
-marketCap	132080771072
-marketState	POST
+marketCap	132602413056
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_667281196
 mostRecentQuarter	1767139200
 netIncomeToCommon	801000000
 nextFiscalYearEnd	1774915200
-nonDilutedMarketCap	135351717619
+nonDilutedMarketCap	132080762026
 numberOfAnalystOpinions	35
-open	123.32
+open	122.98
 operatingCashflow	1522000000
 operatingMargins	0.15378
 payoutRatio	0.0
@@ -109,11 +109,11 @@ postMarketChange	-0.5699997
 postMarketChangePercent	-0.45830962
 postMarketPrice	123.8
 postMarketTime	1772497086
-previousClose	127.45
-priceEpsCurrentYear	70.75
+previousClose	121.72
+priceEpsCurrentYear	70.98944
 priceHint	2
-priceToBook	16.93722
-priceToSalesTrailing12Months	28.276766
+priceToBook	17.004112
+priceToSalesTrailing12Months	28.388441
 profitMargins	0.17148
 quickRatio	5.254
 quoteSourceName	Nasdaq Real Time Price
@@ -121,16 +121,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.0
 region	US
-regularMarketChange	-3.0799942
-regularMarketChangePercent	-2.4166296
-regularMarketDayHigh	125.81
-regularMarketDayLow	121.64
-regularMarketDayRange	121.64 - 125.81
-regularMarketOpen	123.32
-regularMarketPreviousClose	127.45
-regularMarketPrice	124.37
-regularMarketTime	1772485201
-regularMarketVolume	3811490
+regularMarketChange	3.1411972
+regularMarketChangePercent	2.5806746
+regularMarketDayHigh	127.4
+regularMarketDayLow	121.74
+regularMarketDayRange	121.74 - 127.4
+regularMarketOpen	122.98
+regularMarketPreviousClose	121.72
+regularMarketPrice	124.8612
+regularMarketTime	1772654052
+regularMarketVolume	2158677
 returnOnAssets	0.05878
 returnOnEquity	0.112679996
 revenueGrowth	0.263
@@ -150,7 +150,7 @@ sourceInterval	15
 symbol	ARM
 targetHighPrice	201.0
 targetLowPrice	80.0
-targetMeanPrice	147.69115
+targetMeanPrice	148.09114
 targetMedianPrice	150.0
 totalCash	3542000128
 totalCashPerShare	3.335
@@ -160,13 +160,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.75
-trailingPE	165.82668
-trailingPegRatio	1.7514
+trailingPE	166.4816
+trailingPegRatio	1.709
 triggerable	True
-twoHundredDayAverage	138.74287
-twoHundredDayAverageChange	-14.372871
-twoHundredDayAverageChangePercent	-0.10359358
+twoHundredDayAverage	138.67267
+twoHundredDayAverageChange	-13.81147
+twoHundredDayAverageChangePercent	-0.09959763
 typeDisp	Equity
-volume	3811490
+volume	2158677
 website	https://www.arm.com
 zip	CB1 9NJ
