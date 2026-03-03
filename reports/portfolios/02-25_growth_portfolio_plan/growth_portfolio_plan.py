@@ -12,20 +12,20 @@ import os
 import sys
 from typing import Any, Dict, List, Tuple
 
+from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from graphviz import Digraph
 
-from reports.report_utils import (format_num,
-                                  generate_portfolio_markdown_table,
-                                  plot_correlation_heatmap,
-                                  plot_momentum_scatter,
-                                  plot_portfolio_allocation,
-                                  plot_winners_losers,
-                                  setup_decision_tree_aesthetics,
-                                  setup_plot_aesthetics)
+from reports.report_utils import format_num
+from reports.report_utils import generate_portfolio_markdown_table
+from reports.report_utils import plot_correlation_heatmap
+from reports.report_utils import plot_momentum_scatter
+from reports.report_utils import plot_portfolio_allocation
+from reports.report_utils import plot_winners_losers
+from reports.report_utils import setup_decision_tree_aesthetics
+from reports.report_utils import setup_plot_aesthetics
 
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPORTS_DIR = os.path.abspath(os.path.join(OUTPUT_DIR, '..'))
@@ -211,31 +211,51 @@ def generate_report(df: pd.DataFrame):
     f.write("![Decision Tree](./plots/decision_tree.png)\n\n")
 
     f.write("### Near-Term Strategy\n")
-    f.write("*Goal: Liquidity Generation for the NVDA Trade and Trimming Extensions*\n")
+    f.write(
+        "*Goal: Liquidity Generation for the NVDA Trade and Trimming Extensions*\n"
+    )
 
     intc_row = df[df['Ticker'] == 'INTC']
     if not intc_row.empty:
       intc_w = intc_row.iloc[0]['Portfolio_Weight_Pct']
-      f.write(f"- **SELL INTC (Intel) [{intc_w:.1f}%]:** Sell entirely. Trading below 50/200MAs. Liquidate to fund the high-beta NVDA post-earnings drift.\n")
+      f.write(
+          f"- **SELL INTC (Intel) [{intc_w:.1f}%]:** Sell entirely. Trading below 50/200MAs. Liquidate to fund the high-beta NVDA post-earnings drift.\n"
+      )
 
     cash_row = df[df['Ticker'] == 'CASH']
     if not cash_row.empty:
       cash_w = cash_row.iloc[0]['Portfolio_Weight_Pct']
-      f.write(f"- **DEPLOY CASH [{cash_w:.1f}%]:** Reserve is ready. Deploy entirely into NVDA if it drops below immediate support, or leg in over 3 days.\n")
+      f.write(
+          f"- **DEPLOY CASH [{cash_w:.1f}%]:** Reserve is ready. Deploy entirely into NVDA if it drops below immediate support, or leg in over 3 days.\n"
+      )
 
-    f.write("- **TRIM TSM, ASML, AMAT:** Lock in 10-15% of profits. These are >15% above their 200MAs and highly vulnerable to a mean-reverting Tariff shock.\n\n")
+    f.write(
+        "- **TRIM TSM, ASML, AMAT:** Lock in 10-15% of profits. These are >15% above their 200MAs and highly vulnerable to a mean-reverting Tariff shock.\n\n"
+    )
 
     f.write("### Medium-Term Strategy\n")
     f.write("*Goal: Structural Rotation and Tax Harvesting*\n")
-    f.write("- **HARVEST ORCL:** Extremely poor relative strength. Harvest tax loss to offset massive semiconductor gains.\n")
-    f.write("- **BUY VST and CEG:** Reallocate ORCL capital to nuclear/unregulated power generation. The grid bottleneck is the next leg of the AI trade.\n")
-    f.write("- **BUY LMT and NOC:** Deploy semi trim capital as uncorrelated hedges against Strait of Hormuz tail risks.\n\n")
+    f.write(
+        "- **HARVEST ORCL:** Extremely poor relative strength. Harvest tax loss to offset massive semiconductor gains.\n"
+    )
+    f.write(
+        "- **BUY VST and CEG:** Reallocate ORCL capital to nuclear/unregulated power generation. The grid bottleneck is the next leg of the AI trade.\n"
+    )
+    f.write(
+        "- **BUY LMT and NOC:** Deploy semi trim capital as uncorrelated hedges against Strait of Hormuz tail risks.\n\n"
+    )
 
     f.write("### Long-Term Strategy\n")
     f.write("*Goal: Long-Term Asymmetric Bets*\n")
-    f.write("- **HOLD IONQ:** Binary quantum bet (1-2% sizing). Hold through volatility. Untethered to standard semiconductor cycles.\n")
-    f.write("- **HOLD NVO:** GLP-1 global demand inelasticity means multiple contraction will structurally burn off.\n")
-    f.write("- **BUY SMCI and VRT:** Add to server racks on any broad market pullback >10%.\n\n")
+    f.write(
+        "- **HOLD IONQ:** Binary quantum bet (1-2% sizing). Hold through volatility. Untethered to standard semiconductor cycles.\n"
+    )
+    f.write(
+        "- **HOLD NVO:** GLP-1 global demand inelasticity means multiple contraction will structurally burn off.\n"
+    )
+    f.write(
+        "- **BUY SMCI and VRT:** Add to server racks on any broad market pullback >10%.\n\n"
+    )
 
     # SECONDARY ANALYTICS GO BELOW
     f.write("---\n## Analytical Detail\n\n")
@@ -252,19 +272,30 @@ def generate_report(df: pd.DataFrame):
     f.write("### Technical Momentum and Trend Alignment\n")
     f.write("![Momentum Scatter](./plots/portfolio_momentum.png)\n\n")
     f.write("> [!CAUTION]\n")
-    f.write("> **Overextension Risk:** ASML, TSM, and AMAT are dangerously extended above their MAs. Highly vulnerable to multiple contraction if Data Center CAPEX falters.\n\n")
+    f.write(
+        "> **Overextension Risk:** ASML, TSM, and AMAT are dangerously extended above their MAs. Highly vulnerable to multiple contraction if Data Center CAPEX falters.\n\n"
+    )
 
     f.write("### Macro Scenario Drawdown Models\n")
     f.write("![Scenario Impact](./plots/portfolio_scenario_impact.png)\n\n")
-    f.write("- **Higher-for-Longer Rates:** Flat CPI means no cuts. High-beta/growth (IONQ, NVO, ORCL) suffers yield compression.\n")
-    f.write("- **Tariff Shock:** Broad 15-20% global tariffs historically squeeze semiconductor margins (AMAT risk).\n")
-    f.write("- **Geopolitics:** Iran/Hormuz escalation actively demands LMT/RTX and oil structural overweighting to offset SaaS bleeding.\n\n")
+    f.write(
+        "- **Higher-for-Longer Rates:** Flat CPI means no cuts. High-beta/growth (IONQ, NVO, ORCL) suffers yield compression.\n"
+    )
+    f.write(
+        "- **Tariff Shock:** Broad 15-20% global tariffs historically squeeze semiconductor margins (AMAT risk).\n"
+    )
+    f.write(
+        "- **Geopolitics:** Iran/Hormuz escalation actively demands LMT/RTX and oil structural overweighting to offset SaaS bleeding.\n\n"
+    )
 
     f.write("### Cross-Asset Risk Mapping (Correlations)\n")
     f.write("![Correlation Matrix](./plots/portfolio_correlation.png)\n\n")
-    f.write("*Notice the >0.85 block correlation between AMD, AMAT, and LRCX. If semis crack, 30% of this portfolio bleeds at once.*\n\n")
+    f.write(
+        "*Notice the >0.85 block correlation between AMD, AMAT, and LRCX. If semis crack, 30% of this portfolio bleeds at once.*\n\n"
+    )
 
-    f.write("---\n*Generated algorithmically by `growth_portfolio_analysis.py`.*\n")
+    f.write(
+        "---\n*Generated algorithmically by `growth_portfolio_analysis.py`.*\n")
 
 
 if __name__ == "__main__":
@@ -290,10 +321,14 @@ if __name__ == "__main__":
   # Filter out CASH purely for correlation heatmap so it doesn't skew correlation
   ticker_list = [t for t in ticker_list if t != 'CASH']
 
-  plot_portfolio_allocation(portfolio_tech_df, os.path.join(PLOTS_DIR, "portfolio_allocation.png"))
-  plot_momentum_scatter(portfolio_tech_df, os.path.join(PLOTS_DIR, "portfolio_momentum.png"))
-  plot_correlation_heatmap(ticker_list, TICKERS_DIR, os.path.join(PLOTS_DIR, "portfolio_correlation.png"))
-  plot_winners_losers(portfolio_tech_df, os.path.join(PLOTS_DIR, "portfolio_winners_losers.png"))
+  plot_portfolio_allocation(portfolio_tech_df,
+                            os.path.join(PLOTS_DIR, "portfolio_allocation.png"))
+  plot_momentum_scatter(portfolio_tech_df,
+                        os.path.join(PLOTS_DIR, "portfolio_momentum.png"))
+  plot_correlation_heatmap(ticker_list, TICKERS_DIR,
+                           os.path.join(PLOTS_DIR, "portfolio_correlation.png"))
+  plot_winners_losers(portfolio_tech_df,
+                      os.path.join(PLOTS_DIR, "portfolio_winners_losers.png"))
   plot_scenario_impact(portfolio_tech_df)
   build_decision_tree()
 

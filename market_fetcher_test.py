@@ -1,10 +1,11 @@
 import datetime
 import logging
 import os
+from pathlib import Path
 import shutil
 import unittest
-from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock
+from unittest.mock import patch
 
 import pandas as pd
 
@@ -51,7 +52,9 @@ class TestMarketFetcherIntegration(unittest.TestCase):
       if os.path.exists(f):
         os.remove(f)
 
+
 class TestMarketFetcherDataIO(unittest.TestCase):
+
   def setUp(self):
     logging.basicConfig(level=logging.ERROR)
     self.test_dir = Path(".test_data")
@@ -59,11 +62,14 @@ class TestMarketFetcherDataIO(unittest.TestCase):
     self.ticker = "AAPL"
     self.ticker_dir = self.test_dir / "tickers" / self.ticker
     self.ticker_dir.mkdir(parents=True, exist_ok=True)
-    self.fetcher = MarketFetcher(data_dir=str(self.test_dir), cache_dir=str(self.cache_dir))
+    self.fetcher = MarketFetcher(data_dir=str(self.test_dir),
+                                 cache_dir=str(self.cache_dir))
 
   def tearDown(self):
-    if self.test_dir.exists(): shutil.rmtree(self.test_dir)
-    if self.cache_dir.exists(): shutil.rmtree(self.cache_dir)
+    if self.test_dir.exists():
+      shutil.rmtree(self.test_dir)
+    if self.cache_dir.exists():
+      shutil.rmtree(self.cache_dir)
 
   def test_deduplication_and_update(self):
     # print("\n🧪 Testing TSV Deduplication & Append...")
@@ -299,7 +305,9 @@ class TestMarketFetcherDataIO(unittest.TestCase):
       self.fetcher.update_insider_trading([self.ticker])
       mock_dl_cls.assert_not_called()
 
+
 class TestMarketFetcherExtraction(unittest.TestCase):
+
   def setUp(self):
     logging.basicConfig(level=logging.ERROR)
     self.test_dir = Path(".test_data")
@@ -307,11 +315,14 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     self.ticker = "AAPL"
     self.ticker_dir = self.test_dir / "tickers" / self.ticker
     self.ticker_dir.mkdir(parents=True, exist_ok=True)
-    self.fetcher = MarketFetcher(data_dir=str(self.test_dir), cache_dir=str(self.cache_dir))
+    self.fetcher = MarketFetcher(data_dir=str(self.test_dir),
+                                 cache_dir=str(self.cache_dir))
 
   def tearDown(self):
-    if self.test_dir.exists(): shutil.rmtree(self.test_dir)
-    if self.cache_dir.exists(): shutil.rmtree(self.cache_dir)
+    if self.test_dir.exists():
+      shutil.rmtree(self.test_dir)
+    if self.cache_dir.exists():
+      shutil.rmtree(self.cache_dir)
 
   @patch("market_fetcher.requests.get")
   def test_alphavantage_sentiment(self, mock_get):
@@ -383,9 +394,12 @@ class TestMarketFetcherExtraction(unittest.TestCase):
 
     # Provide 10 quarters of increasing EPS to generate positive growth
     dates = pd.date_range(end='2024-01-01', periods=10, freq='D')
-    eps_vals = [1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9] # Reverse order (newest to oldest index)
+    eps_vals = [1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8,
+                1.9]  # Reverse order (newest to oldest index)
     mock_ticker.quarterly_financials = pd.DataFrame(
-        {"Basic EPS": eps_vals[::-1]}, index=pd.Index(dates[::-1], name='Date')).T
+        {
+            "Basic EPS": eps_vals[::-1]
+        }, index=pd.Index(dates[::-1], name='Date')).T
 
     mock_ticker.quarterly_cashflow = pd.DataFrame(
         {"Capital Expenditures": [-1000]}, index=pd.to_datetime(['2024-01-01']))
@@ -651,7 +665,8 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     with patch("market_fetcher.yf.Ticker") as mock_ticker_cls:
       mock_ticker = mock_ticker_cls.return_value
       # Emulate missing data by throwing an exception
-      type(mock_ticker).quarterly_financials = property(lambda self: getattr(self, "missing", None))
+      type(mock_ticker).quarterly_financials = property(
+          lambda self: getattr(self, "missing", None))
 
       self.fetcher.update_financials([test_ticker], include_alphavantage=False)
 
@@ -662,7 +677,8 @@ class TestMarketFetcherExtraction(unittest.TestCase):
 
     # 2. Second run: Mock Yahoo to return data, but cache shouldn't be expired yet
     with patch("market_fetcher.yf.Ticker") as mock_ticker_cls:
-      mock_ticker_cls.side_effect = Exception("Should not be called, cache hit expected")
+      mock_ticker_cls.side_effect = Exception(
+          "Should not be called, cache hit expected")
 
       self.fetcher.update_financials([test_ticker], include_alphavantage=False)
 
@@ -681,8 +697,7 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     with patch("market_fetcher.yf.Ticker") as mock_ticker_cls:
       mock_ticker = mock_ticker_cls.return_value
       mock_ticker.quarterly_financials = pd.DataFrame(
-          {pd.to_datetime('2024-01-01'): [100.0]}, index=["Revenue"]
-      )
+          {pd.to_datetime('2024-01-01'): [100.0]}, index=["Revenue"])
       mock_ticker.quarterly_balance_sheet = pd.DataFrame()
       mock_ticker.quarterly_cashflow = pd.DataFrame()
 
@@ -692,6 +707,7 @@ class TestMarketFetcherExtraction(unittest.TestCase):
       data = self.fetcher._load_cache(cache_key)
       self.assertFalse(data.empty)
       self.assertEqual(data.loc["Revenue", pd.to_datetime('2024-01-01')], 100.0)
+
 
 if __name__ == "__main__":
   unittest.main()

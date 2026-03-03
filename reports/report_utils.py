@@ -3,11 +3,11 @@ import logging
 import os
 from typing import Any, Dict, List
 
+from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from graphviz import Digraph
 from tabulate import tabulate
 
 logger = logging.getLogger(__name__)
@@ -15,6 +15,7 @@ logger = logging.getLogger(__name__)
 # ==========================================
 # QUANTITATIVE & TECHNICAL METRICS
 # ==========================================
+
 
 def compute_rsi(data: pd.Series, window: int = 14) -> pd.Series:
   """Calculates the Relative Strength Index (RSI) for a given pandas Series."""
@@ -36,12 +37,22 @@ def setup_plot_aesthetics():
                     "legend.frameon": False
                 })
 
+
 def setup_decision_tree_aesthetics(dot: Digraph):
   """Applies a clean, readable global font and structural style to Graphviz Digraph objects."""
-  dot.attr(rankdir="TB", size="12,12!", dpi="300", nodesep="0.5", ranksep="0.8", fontname="Helvetica", fontsize="14")
-  dot.attr("node", shape="box", style="rounded,filled", fontname="Helvetica-Bold", fontsize="14")
+  dot.attr(rankdir="TB",
+           size="12,12!",
+           dpi="300",
+           nodesep="0.5",
+           ranksep="0.8",
+           fontname="Helvetica",
+           fontsize="14")
+  dot.attr("node",
+           shape="box",
+           style="rounded,filled",
+           fontname="Helvetica-Bold",
+           fontsize="14")
   dot.attr("edge", fontname="Helvetica-Bold", fontsize="12")
-
 
 
 def calculate_technical_metrics(df: pd.DataFrame) -> Dict[str, Any]:
@@ -134,7 +145,8 @@ def get_technical_indicators(ticker: str, tickers_dir: str) -> Dict[str, Any]:
     prices['RSI'] = compute_rsi(prices['Close'])
 
     last_row = prices.iloc[-1]
-    dist_200 = ((last_row['Close'] - last_row['MA200']) / last_row['MA200']) * 100
+    dist_200 = (
+        (last_row['Close'] - last_row['MA200']) / last_row['MA200']) * 100
     last5_return = (last_row['Close'] / prices.iloc[-6]['Close'] - 1) * 100
 
     return {
@@ -150,7 +162,8 @@ def get_technical_indicators(ticker: str, tickers_dir: str) -> Dict[str, Any]:
     return {}
 
 
-def get_intrinsic_value_metrics(ticker: str, tickers_dir: str) -> Dict[str, Any]:
+def get_intrinsic_value_metrics(ticker: str,
+                                tickers_dir: str) -> Dict[str, Any]:
   """Retrieves Graham Intrinsic Value and Discount metrics from fundamentals."""
   try:
     fund_path = os.path.join(tickers_dir, ticker, "fundamentals.tsv")
@@ -160,22 +173,33 @@ def get_intrinsic_value_metrics(ticker: str, tickers_dir: str) -> Dict[str, Any]
     df = pd.read_csv(fund_path, sep="\t", names=['Metric', 'Value'], header=0)
     df.set_index('Metric', inplace=True)
 
-    graham_val = df.loc['graham_intrinsic_value', 'Value'] if 'graham_intrinsic_value' in df.index else np.nan
-    discount = df.loc['discount_to_intrinsic_value', 'Value'] if 'discount_to_intrinsic_value' in df.index else np.nan
+    graham_val = df.loc[
+        'graham_intrinsic_value',
+        'Value'] if 'graham_intrinsic_value' in df.index else np.nan
+    discount = df.loc[
+        'discount_to_intrinsic_value',
+        'Value'] if 'discount_to_intrinsic_value' in df.index else np.nan
 
     return {
-        "Ticker": ticker,
-        "Graham_Value": float(str(graham_val)) if pd.notna(graham_val) and str(graham_val).lower() != 'nan' else np.nan,
-        "Discount_to_Intrinsic_Value_Pct": float(str(discount)) if pd.notna(discount) and str(discount).lower() != 'nan' else np.nan
+        "Ticker":
+            ticker,
+        "Graham_Value":
+            float(str(graham_val)) if pd.notna(graham_val) and
+            str(graham_val).lower() != 'nan' else np.nan,
+        "Discount_to_Intrinsic_Value_Pct":
+            float(str(discount))
+            if pd.notna(discount) and str(discount).lower() != 'nan' else np.nan
     }
   except Exception as e:
-    logger.warning("Could not retrieve intrinsic value metrics for %s: %s", ticker, e)
+    logger.warning("Could not retrieve intrinsic value metrics for %s: %s",
+                   ticker, e)
     return {}
 
 
 # ==========================================
 # DATA PIPELINE INTEGRATION (I/O)
 # ==========================================
+
 
 def analyze_earnings_movement(ticker: str,
                               market_data_dir: str) -> pd.DataFrame:
@@ -270,8 +294,8 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
 
   display_df = df[[
       'Ticker', 'Name', 'Portfolio_Weight_Pct', 'Unrealized_PnL_Pct',
-      'Graham_Value', 'Discount_to_Intrinsic_Value_Pct',
-      'RSI', 'Dist_to_200MA', 'MACD', 'MA_Cross', 'Time_Horizon', 'Exit_Strategy'
+      'Graham_Value', 'Discount_to_Intrinsic_Value_Pct', 'RSI', 'Dist_to_200MA',
+      'MACD', 'MA_Cross', 'Time_Horizon', 'Exit_Strategy'
   ]].copy()
 
   display_df['Portfolio_Weight_Pct'] = display_df['Portfolio_Weight_Pct'].apply(
@@ -281,8 +305,9 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
 
   display_df['Graham_Value'] = display_df['Graham_Value'].apply(
       lambda x: format_num(x, prefix="$"))
-  display_df['Discount_to_Intrinsic_Value_Pct'] = display_df['Discount_to_Intrinsic_Value_Pct'].apply(
-      lambda x: format_num(x, is_pct=True, is_signed=True))
+  display_df['Discount_to_Intrinsic_Value_Pct'] = display_df[
+      'Discount_to_Intrinsic_Value_Pct'].apply(
+          lambda x: format_num(x, is_pct=True, is_signed=True))
 
   display_df['Dist_to_200MA'] = display_df['Dist_to_200MA'].apply(
       lambda x: format_num(x, is_pct=True, is_signed=True))
@@ -298,6 +323,7 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
 # PLOTTING
 # ==========================================
 
+
 def plot_portfolio_allocation(df: pd.DataFrame, out_path: str):
   """Generates a pie chart of the portfolio allocation without absolute totals."""
   setup_plot_aesthetics()
@@ -306,7 +332,8 @@ def plot_portfolio_allocation(df: pd.DataFrame, out_path: str):
   threshold = 1.0  # Group below 1% to clean chart
   plot_df = df.copy()
   plot_df.loc[plot_df['Portfolio_Weight_Pct'] < threshold, 'Ticker'] = 'Other'
-  plot_df = plot_df.groupby('Ticker')['Portfolio_Weight_Pct'].sum().reset_index()
+  plot_df = plot_df.groupby(
+      'Ticker')['Portfolio_Weight_Pct'].sum().reset_index()
 
   plt.pie(plot_df['Portfolio_Weight_Pct'],
           labels=plot_df['Ticker'],
@@ -523,6 +550,7 @@ def plot_ma200_distance(techs: List[Dict[str, Any]], out_path: str):
 # ==========================================
 # STRING & NUMBER FORMATTING UTILITIES
 # ==========================================
+
 
 def format_num(x, is_pct=False, is_signed=False, prefix="", default_nan="NaN"):
   """Gracefully formats floats avoiding trailing zeros if they represent integers."""

@@ -91,12 +91,17 @@ def create_detailed_decision_tree(output_path: str) -> None:
                 "alpha": 0.9
             })
 
-  edges: List[Tuple[str, str]] = [("START", "RSI_CHECK"), ("RSI_CHECK", "OVEREXTENDED"),
-           ("RSI_CHECK", "NORMALIZED"), ("OVEREXTENDED", "ACTION_AVOID"),
-           ("NORMALIZED", "SECTOR_CHECK"), ("SECTOR_CHECK", "SEMI_CORE"),
-           ("SECTOR_CHECK", "POWER_DATA"), ("SECTOR_CHECK", "DEFENSIVE"),
-           ("SEMI_CORE", "BUY_SEMI"), ("POWER_DATA", "BUY_POWER"),
-           ("DEFENSIVE", "HOLD_DEF")]
+  edges: List[Tuple[str, str]] = [("START", "RSI_CHECK"),
+                                  ("RSI_CHECK", "OVEREXTENDED"),
+                                  ("RSI_CHECK", "NORMALIZED"),
+                                  ("OVEREXTENDED", "ACTION_AVOID"),
+                                  ("NORMALIZED", "SECTOR_CHECK"),
+                                  ("SECTOR_CHECK", "SEMI_CORE"),
+                                  ("SECTOR_CHECK", "POWER_DATA"),
+                                  ("SECTOR_CHECK", "DEFENSIVE"),
+                                  ("SEMI_CORE", "BUY_SEMI"),
+                                  ("POWER_DATA", "BUY_POWER"),
+                                  ("DEFENSIVE", "HOLD_DEF")]
 
   for start, end in edges:
     start_x = float(nodes[start]["pos"][0])

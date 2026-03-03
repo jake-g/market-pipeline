@@ -11,6 +11,7 @@ repos:
     rev: 8.0.0
     hooks:
       - id: isort
+        args: [--profile, google]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
@@ -26,7 +27,7 @@ repos:
     hooks:
       - id: mypy
         additional_dependencies: [types-requests, pandas-stubs, types-tabulate]
-        exclude: ^(tests/|notebooks/|backfill/|market_fetcher\.py|market_fetcher_test\.py)
+        exclude: ^(tests/|notebooks/|backfill/)
         args: [--ignore-missing-imports, --explicit-package-bases]
 
   - repo: https://github.com/PyCQA/pylint
@@ -34,12 +35,11 @@ repos:
     hooks:
       - id: pylint
         args:
-          - "--disable=C0114,C0115,C0116,R0903,W0718,C0301,C0415,E0401,W0212,W1514,C0321,W1203,W0201,W0611,R0912,R0915,W1309,W0702,W0109,R0914,R1702,R1730,W0613,R1723,W0612,W0511,C0103,C0302,R1731,R0913,W0640"
+          - "--disable=C0114,C0115,C0116,R0903,W0718,C0301,C0415,E0401,W0212,W1514,C0321,W1203,W0201,W0611,R0912,R0915,W1309,W0702,W0109,R0914,R1702,R1730,W0613,R1723,W0612,W0511,C0103,C0302,R1731,R0913,W0640,C0413,R0917"
           - "--indent-string=  "
         exclude: |
             (?x)^(
                 tests/|
                 notebooks/|
-                backfill/|
-                market_fetcher\.py
+                backfill/
             )

@@ -3,12 +3,12 @@
 
 import argparse
 import fnmatch
+from http.server import SimpleHTTPRequestHandler
 import json
 import logging
 import os
 import socketserver
 import webbrowser
-from http.server import SimpleHTTPRequestHandler
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -18,6 +18,7 @@ ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 ALLOWED_ROOT_DIRS = {'market_data', 'reports', 'alpha_vantage_api'}
 INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json', '.py', '.png'}
 EXCLUDE_FILES = {'requirements.txt', 'TODO.md', 'index.json'}
+
 
 def load_gitignore():
   """Parses local .gitignore rules."""
@@ -33,12 +34,15 @@ def load_gitignore():
           ignore_patterns.add(line)
   return ignore_patterns
 
+
 GITIGNORE_PATTERNS = load_gitignore()
+
 
 def is_ignored(rel_path):
   """Checks if a relative path matches any parsed .gitignore pattern."""
   for pattern in GITIGNORE_PATTERNS:
-    if fnmatch.fnmatch(rel_path, pattern) or fnmatch.fnmatch(os.path.basename(rel_path), pattern):
+    if fnmatch.fnmatch(rel_path, pattern) or fnmatch.fnmatch(
+        os.path.basename(rel_path), pattern):
       return True
   return False
 
@@ -86,7 +90,7 @@ def build_tree(root_dir, path=""):
           with open(full_disk_path, 'r', encoding='utf-8') as f:
             lines = sum(1 for _ in f)
         except Exception:
-          pass # Fallback to 0 if encoding fails
+          pass  # Fallback to 0 if encoding fails
 
         items.append({
             "type": "file",
@@ -119,7 +123,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
     # We intercept requests for market_data/index.json to generate it dynamically
     # for local development. But to avoid browser caching issues,
     # there might be query params (e.g. ?t=123)
-    if self.path == '/market_data/index.json' or self.path.startswith('/market_data/index.json?'):
+    if self.path == '/market_data/index.json' or self.path.startswith(
+        '/market_data/index.json?'):
       self.send_response(200)
       self.send_header('Content-Type', 'application/json')
       self.end_headers()
