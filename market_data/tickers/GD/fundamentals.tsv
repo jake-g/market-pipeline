@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.4054873
-SandP52WeekChange	0.17593324
+52WeekChange	0.38690293
+SandP52WeekChange	0.16670573
 address1	11011 Sunset Hills Road
 allTimeHigh	369.7
 allTimeLow	0.3375
-ask	364.54
-askSize	200
+ask	364.58
+askSize	80
 auditRisk	7
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	1130840
-averageDailyVolume3Month	1339813
-averageVolume	1339813
-averageVolume10days	1130840
-beta	0.398
-bid	358.47
-bidSize	80
+averageDailyVolume10Day	1143370
+averageDailyVolume3Month	1356098
+averageVolume	1356098
+averageVolume10days	1143370
+beta	0.372
+bid	364.4
+bidSize	40
 boardRisk	5
 bookValue	94.902
 city	Reston
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	364.78
+currentPrice	364.625
 currentRatio	1.444
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	366.065
-dayLow	359.17
+dayHigh	366.75
+dayLow	359.315
 debtToEquity	38.205
-discount_to_intrinsic_value	-41.07
+discount_to_intrinsic_value	-44.02
 displayName	General Dynamics
 dividendDate	1770336000
 dividendRate	6.0
-dividendYield	1.68
+dividendYield	1.65
 earningsCallTimestampEnd	1769608800
 earningsCallTimestampStart	1769608800
 earningsGrowth	0.004
@@ -46,12 +46,12 @@ earningsTimestampEnd	1776864600
 earningsTimestampStart	1776864600
 ebitda	6344000000
 ebitdaMargins	0.12072
-enterpriseToEbitda	16.699
+enterpriseToEbitda	16.696
 enterpriseToRevenue	2.016
-enterpriseValue	105940312064
+enterpriseValue	105918717952
 epsCurrentYear	16.31954
 epsForward	18.0709
-epsTrailingTwelveMonths	15.79
+epsTrailingTwelveMonths	15.46
 eps_normalized_growth	0.031381495521412894
 esgPopulated	False
 exDividendDate	1768521600
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	351.8276
-fiftyDayAverageChange	12.952393
-fiftyDayAverageChangePercent	0.0368146
-fiftyTwoWeekChangePercent	40.54873
+fiftyDayAverage	352.9392
+fiftyDayAverageChange	11.685791
+fiftyDayAverageChangePercent	0.033109926
+fiftyTwoWeekChangePercent	38.690292
 fiftyTwoWeekHigh	369.7
-fiftyTwoWeekHighChange	-4.9200134
-fiftyTwoWeekHighChangePercent	-0.013308124
+fiftyTwoWeekHighChange	-5.075012
+fiftyTwoWeekHighChangePercent	-0.013727379
 fiftyTwoWeekLow	239.2
-fiftyTwoWeekLowChange	125.58
-fiftyTwoWeekLowChangePercent	0.52500004
+fiftyTwoWeekLowChange	125.425
+fiftyTwoWeekLowChangePercent	0.524352
 fiftyTwoWeekRange	239.2 - 369.7
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	2.09
 floatShares	253152038
 forwardEps	18.0709
-forwardPE	20.186045
+forwardPE	20.177467
 freeCashflow	3357250048
 fullExchangeName	NYSE
 fullTimeEmployees	117000
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1772323200
-graham_intrinsic_value	258.59
+graham_intrinsic_value	253.18
 grossMargins	0.1513
 grossProfits	7951000064
 hasPrePostMarketData	True
-heldPercentInsiders	0.00786
-heldPercentInstitutions	0.87067
+heldPercentInsiders	0.00509
+heldPercentInstitutions	0.87105006
 impliedSharesOutstanding	270389759
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -103,16 +103,16 @@ lastSplitFactor	2:1
 longBusinessSummary	General Dynamics Corporation operates as an aerospace and defense company worldwide. It operates through four segments: Aerospace, Marine Systems, Combat Systems, and Technologies. The Aerospace segment produces and sells business jets; and offers aircraft maintenance and repair, management, aircraft-on-ground support, customer support and custom completion services, modifications, upgrades, and lifecycle sustainment support services. The Marine Systems segment designs and builds nuclear-powered submarines, surface combatants, and auxiliary ships for the United States Navy and Jones Act ships for commercial customers, as well as provides maintenance, modernization, and lifecycle support services for navy ships; offers and program management, planning, engineering, and design support services for submarine construction programs. The Combat Systems segment manufactures land combat solutions, such as wheeled and tracked combat vehicles, Stryker wheeled combat vehicles, piranha vehicles, weapons systems, energetics and munitions, mobile bridge systems with payloads, tactical vehicles, main battle tanks, and armored vehicles; and offers modernization programs, support and sustainment services, and development programs. The Technologies segment provides information technology solutions and mission support services; mobile communication, computers, and command-and-control mission systems; intelligence, surveillance, and reconnaissance solutions to military, intelligence, and federal civilian customers; cloud services, cybersecurity, network modernization, artificial intelligence; machine learning; application development, high-performance computing, and 5G and advanced communications services; and unmanned undersea vehicle manufacturing and assembly services. The company was founded in 1899 and is headquartered in Reston, Virginia.
 longName	General Dynamics Corporation
 market	us_market
-marketCap	98632777728
-marketState	POST
+marketCap	98590867456
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_274561
 mostRecentQuarter	1767139200
 netIncomeToCommon	4209999872
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	96542663450
+nonDilutedMarketCap	98611145107
 numberOfAnalystOpinions	20
-open	362.43
+open	366.0
 operatingCashflow	5110000128
 operatingMargins	0.1014
 overallRisk	2
@@ -122,11 +122,11 @@ postMarketChange	0.730011
 postMarketChangePercent	0.20012364
 postMarketPrice	365.51
 postMarketTime	1772497792
-previousClose	357.05
-priceEpsCurrentYear	22.352346
+previousClose	364.7
+priceEpsCurrentYear	22.342848
 priceHint	2
-priceToBook	3.8437545
-priceToSalesTrailing12Months	1.876932
+priceToBook	3.8421214
+priceToSalesTrailing12Months	1.8761345
 profitMargins	0.08011
 quickRatio	0.781
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.17391
 region	US
-regularMarketChange	7.73001
-regularMarketChangePercent	2.16497
-regularMarketDayHigh	366.065
-regularMarketDayLow	359.17
-regularMarketDayRange	359.17 - 366.065
-regularMarketOpen	362.43
-regularMarketPreviousClose	357.05
-regularMarketPrice	364.78
-regularMarketTime	1772485202
-regularMarketVolume	1295669
+regularMarketChange	-0.07501221
+regularMarketChangePercent	-0.020568194
+regularMarketDayHigh	366.75
+regularMarketDayLow	359.315
+regularMarketDayRange	359.315 - 366.75
+regularMarketOpen	366.0
+regularMarketPreviousClose	364.7
+regularMarketPrice	364.625
+regularMarketTime	1772654137
+regularMarketVolume	507277
 returnOnAssets	0.05989
 returnOnEquity	0.17658001
 revenueGrowth	0.078
@@ -163,7 +163,7 @@ shortRatio	1.79
 sourceInterval	15
 state	VA
 symbol	GD
-syntheticPEG	50.4651125
+syntheticPEG	50.4436675
 targetHighPrice	444.0
 targetLowPrice	327.0
 targetMeanPrice	394.5275
@@ -174,15 +174,15 @@ totalDebt	9788999680
 totalRevenue	52550000640
 tradeable	False
 trailingAnnualDividendRate	6.0
-trailingAnnualDividendYield	0.01680437
-trailingEps	15.79
-trailingPE	23.101963
-trailingPegRatio	2.5626
+trailingAnnualDividendYield	0.016451878
+trailingEps	15.46
+trailingPE	23.585058
+trailingPegRatio	2.6175
 triggerable	True
-twoHundredDayAverage	325.2956
-twoHundredDayAverageChange	39.484406
-twoHundredDayAverageChangePercent	0.12138008
+twoHundredDayAverage	326.22446
+twoHundredDayAverageChange	38.400543
+twoHundredDayAverageChangePercent	0.11771203
 typeDisp	Equity
-volume	1295669
+volume	507277
 website	https://www.gd.com
 zip	20190

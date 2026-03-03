@@ -1,42 +1,42 @@
 Metric	Value
-52WeekChange	0.10011697
-SandP52WeekChange	0.17593324
+52WeekChange	0.08722913
+SandP52WeekChange	0.16670573
 address1	50 Hudson Yards
 allTimeHigh	1219.94
 allTimeLow	12.5
-ask	1067.8
-askSize	50
+ask	1053.2
+askSize	10
 auditRisk	3
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	767680
-averageDailyVolume3Month	718203
-averageVolume	718203
-averageVolume10days	767680
-beta	1.488
-bid	1065.0
-bidSize	70
+averageDailyVolume10Day	768770
+averageDailyVolume3Month	720591
+averageVolume	720591
+averageVolume10days	768770
+beta	1.487
+bid	1052.63
+bidSize	10
 boardRisk	6
 bookValue	360.407
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Laurence Douglas Fink', 'age': 73, 'title': 'Founder, CEO & Chairman', 'yearBorn': 1952, 'fiscalYear': 2024, 'totalPay': 12618443, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert Steven Kapito', 'age': 69, 'title': 'President & Member of Board of Directors', 'yearBorn': 1956, 'fiscalYear': 2024, 'totalPay': 8483737, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Martin S. Small', 'age': 48, 'title': 'Senior MD, CFO & Global Head of Corporate Strategy', 'yearBorn': 1977, 'fiscalYear': 2024, 'totalPay': 4154150, 'exercisedValue': 0, 'unexercisedValue': 13837516}, {'maxAge': 1, 'name': 'Mr. Robert Lawrence Goldstein', 'age': 51, 'title': 'Senior MD & COO', 'yearBorn': 1974, 'fiscalYear': 2024, 'totalPay': 4840270, 'exercisedValue': 28756620, 'unexercisedValue': 27724146}, {'maxAge': 1, 'name': 'Mr. J. Richard Kushel', 'age': 58, 'title': 'Senior MD & Head of the Portfolio Management Group', 'yearBorn': 1967, 'fiscalYear': 2024, 'totalPay': 3993770, 'exercisedValue': 5255915, 'unexercisedValue': 34350520}, {'maxAge': 1, 'name': 'Mr. Adebayo O. Ogunlesi J.D.', 'age': 71, 'title': 'Chairman & CEO Global Infrastructure Partners, Senior MD & Member of Board of Director', 'yearBorn': 1954, 'fiscalYear': 2024, 'totalPay': 4290011, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Bennett W. Golub Ph.D.', 'age': 67, 'title': 'Co-Founder', 'yearBorn': 1958, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  McKenna', 'title': 'Founder, MD, Global Head of Event Driven Equity Strategies & Portfolio Manager', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Jeff  Shen Ph.D.', 'title': 'MD, Co-CIO & Co-Head of Systematic Active Equity (SAE)', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Neeraj  Seth', 'title': 'MD, Chief Investment Officer & Head of Asian credit \x96 Singapore', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	8
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'BLK announced a cash dividend of 5.73$ with an ex-date of Mar. 6, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1772773200000, 'amount': '5.73'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	1068.31
+currentPrice	1053.905
 currentRatio	2.039
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	1075.52
-dayLow	1032.1
+dayHigh	1062.99
+dayLow	1045.0
 debtToEquity	24.367
-discount_to_intrinsic_value	-219.71
+discount_to_intrinsic_value	-217.28
 displayName	BlackRock
 dividendDate	1774310400
 dividendRate	22.92
-dividendYield	2.16
+dividendYield	2.18
 earningsCallTimestampEnd	1768480200
 earningsCallTimestampStart	1768480200
 earningsGrowth	-0.317
@@ -46,12 +46,12 @@ earningsTimestampEnd	1775827800
 earningsTimestampStart	1775827800
 ebitda	9685999616
 ebitdaMargins	0.39998
-enterpriseToEbitda	17.815
-enterpriseToRevenue	7.126
-enterpriseValue	172559581184
+enterpriseToEbitda	17.563
+enterpriseToRevenue	7.025
+enterpriseValue	170114465792
 epsCurrentYear	54.37955
 epsForward	61.91802
-epsTrailingTwelveMonths	35.47
+epsTrailingTwelveMonths	35.26
 eps_normalized_growth	-0.30770358042218215
 esgPopulated	False
 exDividendDate	1772755200
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	1092.1196
-fiftyDayAverageChange	-23.80957
-fiftyDayAverageChangePercent	-0.021801248
-fiftyTwoWeekChangePercent	10.011697
+fiftyDayAverage	1091.8748
+fiftyDayAverageChange	-37.969727
+fiftyDayAverageChangePercent	-0.0347748
+fiftyTwoWeekChangePercent	8.722914
 fiftyTwoWeekHigh	1219.94
-fiftyTwoWeekHighChange	-151.62988
-fiftyTwoWeekHighChangePercent	-0.12429291
+fiftyTwoWeekHighChange	-166.03491
+fiftyTwoWeekHighChangePercent	-0.13610089
 fiftyTwoWeekLow	773.74
-fiftyTwoWeekLowChange	294.57007
-fiftyTwoWeekLowChangePercent	0.38070938
+fiftyTwoWeekLowChange	280.16504
+fiftyTwoWeekLowChangePercent	0.36209196
 fiftyTwoWeekRange	773.74 - 1219.94
 financialCurrency	USD
 firstTradeDateMilliseconds	938784600000
 fiveYearAvgDividendYield	2.32
 floatShares	144415650
 forwardEps	61.91802
-forwardPE	17.253622
+forwardPE	17.020975
 freeCashflow	7034250240
 fullExchangeName	NYSE
 fullTimeEmployees	24900
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1772323200
-graham_intrinsic_value	334.15
+graham_intrinsic_value	332.17
 grossMargins	0.46705002
 grossProfits	11310000128
 hasPrePostMarketData	True
 heldPercentInsiders	0.019709999
-heldPercentInstitutions	0.82583
+heldPercentInstitutions	0.82564
 impliedSharesOutstanding	155150909
 industry	Asset Management
 industryDisp	Asset Management
@@ -100,16 +100,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	BlackRock, Inc. is a publicly owned investment manager. The firm primarily provides its services to institutional, intermediary, and individual investors including corporate, public, union, and industry pension plans, insurance companies, third-party mutual funds, endowments, public institutions, governments, foundations, charities, sovereign wealth funds, corporations, official institutions, and banks. It also provides global risk management and advisory services. The firm manages separate client-focused equity, fixed income, and balanced portfolios. It also launches and manages open-end and closed-end mutual funds, offshore funds, unit trusts, and alternative investment vehicles including structured funds. The firm launches equity, fixed income, balanced, and real estate mutual funds. It also launches equity, fixed income, balanced, currency, commodity, and multi-asset exchange traded funds. The firm also launches and manages hedge funds. It invests in the public equity, fixed income, real estate, currency, commodity, and alternative markets across the globe. The firm primarily invests in growth and value stocks of small-cap, mid-cap, SMID-cap, large-cap, and multi-cap companies. It also invests in dividend-paying equity securities. The firm invests in investment grade municipal securities, government securities including securities issued or guaranteed by a government or a government agency or instrumentality, corporate bonds, and asset-backed and mortgage-backed securities. It employs fundamental and quantitative analysis with a focus on bottom-up and top-down approach to make its investments. The firm employs liquidity, asset allocation, balanced, real estate, and alternative strategies to make its investments. In real estate sector, it seeks to invest in Poland and Germany. The firm benchmarks the performance of its portfolios against various S&P, Russell, Barclays, MSCI, Citigroup, and Merrill Lynch indices. BlackRock, Inc. was founded in 1988 and is based in New York, New York with additional offices in Atlanta, Georgia; Boston, Massachusetts; Chicago, Illinois; Dallas, Texas; Denver, Colorado; Greenwich, Connecticut; Houston, Texas; Miami, Florida; Newport Beach, California; Palo Alto, California; Philadelphia, Pennsylvania; Princeton, New Jersey; San Francisco, California; Santa Monica, California; Seattle, Washington; Washington, DC; West Palm Beach, Florida; Wilmington, Delaware; Mexico; Canada; South Africa; Netherlands; Greece; Serbia; Belgium; Hungary; Denmark; Ireland; Scotland; Germany; Switzerland; England; Luxembourg; Spain; Italy; France; Sweden; Austria; India; China; Australia; Hong Kong; South Korea; Singapore; Taiwan; Japan; Colombia; Argentina; Peru; Chile; Brazil; UAE; Saudi Arabia; Israel.
 longName	BlackRock, Inc.
 market	us_market
-marketCap	165749276672
-marketState	POST
+marketCap	163514318848
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_403413
 mostRecentQuarter	1767139200
 netIncomeToCommon	5552999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	164906973000
+nonDilutedMarketCap	163256709000
 numberOfAnalystOpinions	16
-open	1038.77
+open	1060.0
 operatingCashflow	3927000064
 operatingMargins	0.36744
 overallRisk	3
@@ -120,11 +120,11 @@ postMarketChange	-4.4300537
 postMarketChangePercent	-0.41467866
 postMarketPrice	1063.88
 postMarketTime	1772497577
-previousClose	1063.23
-priceEpsCurrentYear	19.645437
+previousClose	1052.59
+priceEpsCurrentYear	19.380539
 priceHint	2
-priceToBook	2.9641767
-priceToSalesTrailing12Months	6.8446183
+priceToBook	2.924208
+priceToSalesTrailing12Months	6.7523255
 profitMargins	0.22930999
 quickRatio	1.46
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.58824
 region	US
-regularMarketChange	5.08008
-regularMarketChangePercent	0.477797
-regularMarketDayHigh	1075.52
-regularMarketDayLow	1032.1
-regularMarketDayRange	1032.1 - 1075.52
-regularMarketOpen	1038.77
-regularMarketPreviousClose	1063.23
-regularMarketPrice	1068.31
-regularMarketTime	1772485202
-regularMarketVolume	707789
+regularMarketChange	1.3150635
+regularMarketChangePercent	0.12493597
+regularMarketDayHigh	1062.99
+regularMarketDayLow	1045.0
+regularMarketDayRange	1045.0 - 1062.99
+regularMarketOpen	1060.0
+regularMarketPreviousClose	1052.59
+regularMarketPrice	1053.905
+regularMarketTime	1772654074
+regularMarketVolume	290924
 returnOnAssets	0.03467
 returnOnEquity	0.107159995
 revenueGrowth	0.234
@@ -171,15 +171,15 @@ totalDebt	14995999744
 totalRevenue	24216000512
 tradeable	False
 trailingAnnualDividendRate	20.84
-trailingAnnualDividendYield	0.019600652
-trailingEps	35.47
-trailingPE	30.118692
-trailingPegRatio	1.0995
+trailingAnnualDividendYield	0.019798784
+trailingEps	35.26
+trailingPE	29.889538
+trailingPegRatio	1.0885
 triggerable	True
-twoHundredDayAverage	1084.3682
-twoHundredDayAverageChange	-16.058105
-twoHundredDayAverageChangePercent	-0.014808721
+twoHundredDayAverage	1085.3416
+twoHundredDayAverageChange	-31.436523
+twoHundredDayAverageChangePercent	-0.028964637
 typeDisp	Equity
-volume	707789
+volume	290924
 website	https://www.blackrock.com
 zip	10001

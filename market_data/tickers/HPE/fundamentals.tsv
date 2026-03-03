@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.12821865
-SandP52WeekChange	0.17593324
+52WeekChange	0.1455797
+SandP52WeekChange	0.16670573
 address1	1701 East Mossy Oaks Road
 allTimeHigh	26.44
 allTimeLow	6.756532
-ask	22.08
-askSize	2600
+ask	21.7
+askSize	3000
 auditRisk	1
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	16019370
-averageDailyVolume3Month	20279552
-averageVolume	20279552
-averageVolume10days	16019370
-beta	1.321
-bid	21.92
-bidSize	4000
+averageDailyVolume10Day	16392170
+averageDailyVolume3Month	19965144
+averageVolume	19965144
+averageVolume10days	16392170
+beta	1.311
+bid	21.69
+bidSize	3300
 boardRisk	1
 bookValue	18.727
 city	Spring
@@ -25,16 +25,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	22.13
+currentPrice	21.605
 currentRatio	1.014
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	22.1599
-dayLow	21.076
+dayHigh	21.99
+dayLow	21.54
 debtToEquity	97.265
 dividendDate	1768521600
 dividendRate	0.57
-dividendYield	2.65
+dividendYield	2.63
 earningsCallTimestampEnd	1773090000
 earningsCallTimestampStart	1773090000
 earningsGrowth	-0.889
@@ -44,9 +44,9 @@ earningsTimestampEnd	1773090000
 earningsTimestampStart	1773090000
 ebitda	4490999808
 ebitdaMargins	0.13095
-enterpriseToEbitda	10.828
-enterpriseToRevenue	1.418
-enterpriseValue	48630218752
+enterpriseToEbitda	10.683
+enterpriseToRevenue	1.399
+enterpriseValue	47976296448
 epsCurrentYear	2.35589
 epsForward	2.72995
 epsTrailingTwelveMonths	-0.04
@@ -58,23 +58,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	22.5462
-fiftyDayAverageChange	-0.41620064
-fiftyDayAverageChangePercent	-0.018459901
-fiftyTwoWeekChangePercent	12.821865
+fiftyDayAverage	22.4552
+fiftyDayAverageChange	-0.85020065
+fiftyDayAverageChangePercent	-0.037862085
+fiftyTwoWeekChangePercent	14.55797
 fiftyTwoWeekHigh	26.44
-fiftyTwoWeekHighChange	-4.3100014
-fiftyTwoWeekHighChangePercent	-0.16301064
+fiftyTwoWeekHighChange	-4.835001
+fiftyTwoWeekHighChangePercent	-0.1828669
 fiftyTwoWeekLow	11.965
-fiftyTwoWeekLowChange	10.164999
-fiftyTwoWeekLowChangePercent	0.84956115
+fiftyTwoWeekLowChange	9.639999
+fiftyTwoWeekLowChangePercent	0.8056832
 fiftyTwoWeekRange	11.965 - 26.44
 financialCurrency	USD
 firstTradeDateMilliseconds	1445261400000
 fiveYearAvgDividendYield	2.91
 floatShares	1327993958
 forwardEps	2.72995
-forwardPE	8.106376
+forwardPE	7.9140644
 freeCashflow	-213500000
 fullExchangeName	NYSE
 fullTimeEmployees	67000
@@ -83,8 +83,8 @@ governanceEpochDate	1772323200
 grossMargins	0.30257
 grossProfits	10376999936
 hasPrePostMarketData	True
-heldPercentInsiders	0.014989999
-heldPercentInstitutions	0.94161004
+heldPercentInsiders	0.00466
+heldPercentInstitutions	0.94126
 impliedSharesOutstanding	1334533172
 industry	Communication Equipment
 industryDisp	Communication Equipment
@@ -99,16 +99,16 @@ lastSplitFactor	1289:1000
 longBusinessSummary	Hewlett Packard Enterprise Company, together with its subsidiaries, develops intelligent solutions in the United States, the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and internationally. It operates in five segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other. The company offers general-purpose servers, workload-optimized servers, and integrated systems, including HPE ProLiant Rack and Tower servers; HPE Synergy; HPE Scale Up servers; HPE Edgeline servers; HPE Cray EX; HPE Cray XD; and HPE NonStop. It also provides cloud-native and hybrid solutions, such as HPE Alletra Storage; HPE InfoSight; HPE CloudPhysics; and HPE GreenLake. In addition, the company develops and sells networking and security products and services comprising hardware products, which include Wi-Fi and private cellular access points, MX and PTX routers, and gateways, as well as QFX, EX, and CX switches; software products, such as Mist and Aruba Central; and services comprising professional, maintenance, support services, management software, and education and training programs. Further, it offers investment solutions, including leasing, financing, IT consumption, utility programs, and asset management services, as well as supports financial solutions for on-premise flexible consumption models. The company serves commercial and large enterprise groups, as well as business and public sector enterprises. It sells its products through resellers, distribution partners, master area partners, original equipment manufacturers, independent software vendors, systems integrators, and advisory firms. The company was founded in 1939 and is headquartered in Spring, Texas.
 longName	Hewlett Packard Enterprise Company
 market	us_market
-marketCap	29533216768
-marketState	POST
+marketCap	28832587776
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_273983758
 mostRecentQuarter	1761868800
 netIncomeToCommon	-59000000
 nextFiscalYearEnd	1793404800
-nonDilutedMarketCap	28529517292
+nonDilutedMarketCap	28755414728
 numberOfAnalystOpinions	19
-open	21.19
+open	21.8
 operatingCashflow	2919000064
 operatingMargins	0.034089997
 overallRisk	2
@@ -119,11 +119,11 @@ postMarketChange	-0.02999878
 postMarketChangePercent	-0.13555707
 postMarketPrice	22.1
 postMarketTime	1772497125
-previousClose	21.47
-priceEpsCurrentYear	9.393477
+previousClose	21.64
+priceEpsCurrentYear	9.170631
 priceHint	2
-priceToBook	1.1817162
-priceToSalesTrailing12Months	0.86112714
+priceToBook	1.1536819
+priceToSalesTrailing12Months	0.84069824
 profitMargins	0.00166
 quickRatio	0.604
 quoteSourceName	Nasdaq Real Time Price
@@ -131,16 +131,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.18182
 region	US
-regularMarketChange	0.66
-regularMarketChangePercent	3.07406
-regularMarketDayHigh	22.1599
-regularMarketDayLow	21.076
-regularMarketDayRange	21.076 - 22.1599
-regularMarketOpen	21.19
-regularMarketPreviousClose	21.47
-regularMarketPrice	22.13
-regularMarketTime	1772485202
-regularMarketVolume	12548246
+regularMarketChange	-0.034999847
+regularMarketChangePercent	-0.16173682
+regularMarketDayHigh	21.99
+regularMarketDayLow	21.54
+regularMarketDayRange	21.54 - 21.99
+regularMarketOpen	21.8
+regularMarketPreviousClose	21.64
+regularMarketPrice	21.605
+regularMarketTime	1772654174
+regularMarketVolume	5860646
 returnOnAssets	0.0149
 returnOnEquity	0.0023
 revenueGrowth	0.144
@@ -170,14 +170,14 @@ totalDebt	24077000704
 totalRevenue	34296000512
 tradeable	False
 trailingAnnualDividendRate	0.52
-trailingAnnualDividendYield	0.02421984
+trailingAnnualDividendYield	0.024029575
 trailingEps	-0.04
 trailingPegRatio	0.8512
 triggerable	True
-twoHundredDayAverage	21.87595
-twoHundredDayAverageChange	0.2540493
-twoHundredDayAverageChangePercent	0.011613178
+twoHundredDayAverage	21.91595
+twoHundredDayAverageChange	-0.31095123
+twoHundredDayAverageChangePercent	-0.014188352
 typeDisp	Equity
-volume	12548246
+volume	5860646
 website	https://www.hpe.com
 zip	77389

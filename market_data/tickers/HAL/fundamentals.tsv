@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.43942428
-SandP52WeekChange	0.17593324
+52WeekChange	0.45762718
+SandP52WeekChange	0.16670573
 address1	3000 North Sam Houston Parkway East
 allTimeHigh	74.33
 allTimeLow	3.702841
-ask	36.19
-askSize	500
+ask	34.42
+askSize	1100
 auditRisk	9
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	10505860
-averageDailyVolume3Month	12827584
-averageVolume	12827584
-averageVolume10days	10505860
-beta	0.75
-bid	35.8
-bidSize	700
+averageDailyVolume10Day	11429240
+averageDailyVolume3Month	13000062
+averageVolume	13000062
+averageVolume10days	11429240
+beta	0.753
+bid	34.42
+bidSize	1100
 boardRisk	6
 bookValue	12.528
 city	Houston
@@ -25,17 +25,17 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	35.97
+currentPrice	34.3102
 currentRatio	2.04
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	36.84
-dayLow	34.99
+dayHigh	35.35
+dayLow	34.0712
 debtToEquity	79.162
-discount_to_intrinsic_value	-154.55
+discount_to_intrinsic_value	-142.8
 dividendDate	1774396800
 dividendRate	0.68
-dividendYield	1.89
+dividendYield	1.93
 earningsCallTimestampEnd	1769004000
 earningsCallTimestampStart	1769004000
 earningsGrowth	-0.005
@@ -45,9 +45,9 @@ earningsTimestampEnd	1776778200
 earningsTimestampStart	1776778200
 ebitda	4120999936
 ebitdaMargins	0.18576
-enterpriseToEbitda	8.804
-enterpriseToRevenue	1.635
-enterpriseValue	36280614912
+enterpriseToEbitda	8.66
+enterpriseToRevenue	1.609
+enterpriseValue	35685953536
 epsCurrentYear	2.22933
 epsForward	2.68855
 epsTrailingTwelveMonths	1.5
@@ -59,23 +59,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	32.372
-fiftyDayAverageChange	3.5979996
-fiftyDayAverageChangePercent	0.111145414
-fiftyTwoWeekChangePercent	43.94243
-fiftyTwoWeekHigh	36.84
-fiftyTwoWeekHighChange	-0.86999893
-fiftyTwoWeekHighChangePercent	-0.023615606
+fiftyDayAverage	32.698
+fiftyDayAverageChange	1.6121979
+fiftyDayAverageChangePercent	0.0493057
+fiftyTwoWeekChangePercent	45.76272
+fiftyTwoWeekHigh	37.03
+fiftyTwoWeekHighChange	-2.719799
+fiftyTwoWeekHighChangePercent	-0.07344853
 fiftyTwoWeekLow	18.72
-fiftyTwoWeekLowChange	17.250002
-fiftyTwoWeekLowChangePercent	0.9214745
-fiftyTwoWeekRange	18.72 - 36.84
+fiftyTwoWeekLowChange	15.5902
+fiftyTwoWeekLowChangePercent	0.83280987
+fiftyTwoWeekRange	18.72 - 37.03
 financialCurrency	USD
 firstTradeDateMilliseconds	76253400000
 fiveYearAvgDividendYield	1.68
 floatShares	832422549
 forwardEps	2.68855
-forwardPE	13.37896
+forwardPE	12.7616005
 freeCashflow	2139624960
 fullExchangeName	NYSE
 fullTimeEmployees	46000
@@ -85,8 +85,8 @@ graham_intrinsic_value	14.13
 grossMargins	0.15705
 grossProfits	3484000000
 hasPrePostMarketData	True
-heldPercentInsiders	0.0071799997
-heldPercentInstitutions	0.8874
+heldPercentInsiders	0.00482
+heldPercentInstitutions	0.88749003
 impliedSharesOutstanding	841626610
 industry	Oil & Gas Equipment & Services
 industryDisp	Oil & Gas Equipment & Services
@@ -102,16 +102,16 @@ lastSplitFactor	2:1
 longBusinessSummary	Halliburton Company provides products and services to the energy industry worldwide. It operates in two segments, Completion and Production, and Drilling and Evaluation. The Completion and Production segment offers production enhancement services that include stimulation and sand control services; cementing services, such as well bonding and casing, and casing equipment; and completion tools that offer downhole solutions and services, including well completion products and services, intelligent well completions, liner hanger systems, sand control systems, multilateral systems, and service tools. This segment also provides electrical submersible pumps, as well as artificial lift services; production solutions comprising coiled tubing, hydraulic workover units, downhole tools, and pumping and nitrogen services; pipeline and process services, such as pre-commissioning, commissioning, maintenance, and decommissioning; and specialty chemicals and services. The Drilling and Evaluation segment offers drilling fluid systems, performance additives, completion fluids, solids control, specialized testing equipment, and waste management services; drilling systems and services; wireline and perforating services consisting of open-hole logging, and cased-hole and slickline; and drill bits and services comprising roller cone bits, fixed cutter bits, hole enlargement, and related downhole tools and services, as well as coring equipment and services. This segment also provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management; testing and subsea services, such as acquisition and analysis of reservoir information and optimization solutions; and project management and integrated asset management services. Halliburton Company was founded in 1919 and is based in Houston, Texas.
 longName	Halliburton Company
 market	us_market
-marketCap	30273310720
-marketState	POST
+marketCap	28876378112
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_177698
 mostRecentQuarter	1767139200
 netIncomeToCommon	1283000064
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	30151740420
+nonDilutedMarketCap	29531954644
 numberOfAnalystOpinions	25
-open	37.025
+open	35.09
 operatingCashflow	2926000128
 operatingMargins	0.14902
 overallRisk	2
@@ -121,11 +121,11 @@ postMarketChange	0.12549973
 postMarketChangePercent	0.3489011
 postMarketPrice	36.0955
 postMarketTime	1772497746
-previousClose	36.0
-priceEpsCurrentYear	16.134893
+previousClose	35.09
+priceEpsCurrentYear	15.390364
 priceHint	2
-priceToBook	2.8711686
-priceToSalesTrailing12Months	1.3646462
+priceToBook	2.7386813
+priceToSalesTrailing12Months	1.3016759
 profitMargins	0.05783
 quickRatio	1.279
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.96296
 region	US
-regularMarketChange	-0.0299988
-regularMarketChangePercent	-0.0833299
-regularMarketDayHigh	36.84
-regularMarketDayLow	34.99
-regularMarketDayRange	34.99 - 36.84
-regularMarketOpen	37.025
-regularMarketPreviousClose	36.0
-regularMarketPrice	35.97
-regularMarketTime	1772485202
-regularMarketVolume	14081233
+regularMarketChange	-0.7798004
+regularMarketChangePercent	-2.2222867
+regularMarketDayHigh	35.35
+regularMarketDayLow	34.0712
+regularMarketDayRange	34.0712 - 35.35
+regularMarketOpen	35.09
+regularMarketPreviousClose	35.09
+regularMarketPrice	34.3102
+regularMarketTime	1772654160
+regularMarketVolume	8698964
 returnOnAssets	0.07374
 returnOnEquity	0.12274
 revenueGrowth	0.008
@@ -162,10 +162,10 @@ shortRatio	2.67
 sourceInterval	15
 state	TX
 symbol	HAL
-syntheticPEG	-26.75792
+syntheticPEG	-25.523201
 targetHighPrice	46.48
 targetLowPrice	28.0
-targetMeanPrice	36.3392
+targetMeanPrice	36.4992
 targetMedianPrice	36.0
 totalCash	2206000128
 totalCashPerShare	2.634
@@ -173,15 +173,15 @@ totalDebt	8316000256
 totalRevenue	22183999488
 tradeable	False
 trailingAnnualDividendRate	0.68
-trailingAnnualDividendYield	0.018888889
+trailingAnnualDividendYield	0.01937874
 trailingEps	1.5
-trailingPE	23.980001
+trailingPE	22.873466
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	25.536
-twoHundredDayAverageChange	10.434002
-twoHundredDayAverageChangePercent	0.4085997
+twoHundredDayAverage	25.67945
+twoHundredDayAverageChange	8.630751
+twoHundredDayAverageChangePercent	0.33609563
 typeDisp	Equity
-volume	14081233
+volume	8698964
 website	https://www.halliburton.com
 zip	77032
