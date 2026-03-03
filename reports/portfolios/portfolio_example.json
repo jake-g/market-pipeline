@@ -1,0 +1,64 @@
+{
+  "finance": {
+    "result": [
+      {
+        "portfolios": [
+          {
+            "id": "mock_id_1",
+            "name": "Example Active Account",
+            "currentMarketValue": 55000.50,
+            "totalGain": 15000.25,
+            "totalPercentGain": 37.5,
+            "dailyGain": 450.0,
+            "dailyPercentGain": 0.8,
+            "positions": [
+              {
+                "symbol": "AAPL",
+                "quantity": 100,
+                "currentMarketValue": 15000.0,
+                "purchasePrice": 100.0,
+                "totalGain": 5000.0,
+                "totalPercentGain": 50.0,
+                "dailyGain": 100.0,
+                "dailyPercentGain": 0.6
+              },
+              {
+                "symbol": "NVDA",
+                "quantity": 50,
+                "currentMarketValue": 40000.5,
+                "purchasePrice": 200.0,
+                "totalGain": 10000.25,
+                "totalPercentGain": 33.3,
+                "dailyGain": 350.0,
+                "dailyPercentGain": 0.88
+              }
+            ],
+            "cashPosition": 1500.0
+          },
+          {
+            "id": "mock_id_2",
+            "name": "Example Inactive Trust",
+            "currentMarketValue": 10000.0,
+            "totalGain": 500.0,
+            "totalPercentGain": 5.2,
+            "dailyGain": -10.0,
+            "dailyPercentGain": -0.1,
+            "positions": [
+              {
+                "symbol": "VTI",
+                "quantity": 40,
+                "currentMarketValue": 10000.0,
+                "purchasePrice": 230.0,
+                "totalGain": 800.0,
+                "totalPercentGain": 8.6,
+                "dailyGain": 50.0,
+                "dailyPercentGain": 0.5
+              }
+            ],
+            "cashPosition": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -448,11 +448,18 @@ class MarketFetcher:
           else:
             new_df.to_csv(insider_file, sep='\t', index=False)
 
-          # Mark as cached/updated
-          self._save_cache(cache_key, True)
+        # Mark as cached/updated
+        self._save_cache(cache_key, True)
+        time.sleep(0.5)  # Be polite to SEC Edgar max 10 requests / sec
 
       except Exception as e:
         self.logger.warning(f"Failed to fetch Insider for {ticker}: {e}")
+        # Add a longer sleep if we are likely rate limited, and cache True briefly to backoff
+        if "Max retries exceeded" in str(e) or "429" in str(e):
+          self.logger.warning(f"Throttled! Backing off for {ticker}.")
+          # Temporarily cache to avoid hammering on subsequent retries
+          self._save_cache(cache_key, True)
+          time.sleep(5.0)
 
   def _fetch_alphavantage_news(self,
                                ticker: str,

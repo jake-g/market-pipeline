@@ -5,6 +5,22 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.4.6] - 2026-03-02
+### Features & Architecture
+- **New Portfolio Reporting Pipeline**:
+    - Complete ground-up creation of an automated portfolio processing ecosystem (`yahoo_portfolio_fetcher.py`, `portfolio_processor.py`, and `generate_portfolio_report.py`).
+    - Added comprehensive unit testing coverage through the newly created `test_portfolio_pipeline.py`.
+    - Centralized automation into `reports/portfolios/run_pipeline.sh` executing unit tests, formatting, fetcher logic, metrics augmentation, and dynamic Markdown rendering.
+    - Script outputs piped strictly into `reports/portfolios/logs/`.
+- **API Evasion (Yahoo Finance)**:
+    - Bypassed global `429 Client Error` blockades by migrating from `requests` to `curl_cffi` to natively spoof Chrome TLS fingerprints.
+    - Moved authentication credentials securely out of python files into an untracked `reports/portfolios/.env`.
+- **Data Footprint Consolidation**:
+    - Extracted all portfolio outputs (raw files, combined matrices, and active-only groupings) strictly into `reports/portfolios/tsvs/`.
+    - Eliminated obsolete `*_metrics.tsv` redundancy by natively merging metrics upstream to original files.
+- **Reporting Enhancements**:
+    - Designed `reports/portfolios/REPORT.md` to split portfolios explicitly into *Active Trading* vs *Set & Forget*
+
 ## [v1.4.5] - 2026-02-25
 ### Features & Architecture
 - **Script Automation & Centralization**:
