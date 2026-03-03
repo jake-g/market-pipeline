@@ -7,8 +7,7 @@ from typing import Any, Dict
 import numpy as np
 import pandas as pd
 
-from reports.report_utils import calculate_technical_metrics
-from reports.report_utils import get_intrinsic_value_metrics
+from reports.report_utils import enrich_portfolio_df
 
 logger = logging.getLogger(__name__)
 
@@ -16,20 +15,6 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 
 DATA_DIR = os.path.join(project_root, "market_data")
 TICKERS_DIR = os.path.join(DATA_DIR, "tickers")
-
-
-def load_ticker_prices(ticker: str) -> pd.DataFrame:
-  """Loads historical prices for a given ticker."""
-  current_path = os.path.join(TICKERS_DIR, ticker, "prices.tsv")
-  try:
-    df = pd.read_csv(current_path, sep='\t')
-    df['Date'] = pd.to_datetime(df['Date'])
-    return df.sort_values('Date').reset_index(drop=True)
-  except FileNotFoundError:
-    # Don't log warnings for CASH placeholders
-    if ticker != 'CASH':
-      logger.warning("Prices not found for %s", ticker)
-    return pd.DataFrame()
 
 
 def process_portfolio(tsv_path: str) -> pd.DataFrame:
@@ -63,45 +48,13 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
   # Total account value for weighting
   total_val = portfolio_df['Current_Value'].sum()
 
-  metrics_list = []
-  for ticker in portfolio_df['Ticker']:
-    df = load_ticker_prices(ticker)
-    metrics = calculate_technical_metrics(df)
-    intrinsic_metrics = get_intrinsic_value_metrics(ticker, TICKERS_DIR)
+  full_df = enrich_portfolio_df(portfolio_df, DATA_DIR)
 
-    if metrics or intrinsic_metrics:
-      combined = {"Ticker": ticker}
-      if metrics:
-        combined.update(metrics)
-      if intrinsic_metrics:
-        combined.update(intrinsic_metrics)
-
-      metrics_list.append(combined)
-
-  if not metrics_list:
-    logger.warning(
-        f"Failed to extract historical metrics for tickers in {tsv_path}. Returning raw portfolio."
-    )
-    portfolio_df['Portfolio_Weight_Pct'] = (portfolio_df['Current_Value'] /
-                                            total_val) * 100
-    return portfolio_df
-
-  metrics_df = pd.DataFrame(metrics_list)
-  drop_cols = [
-      c for c in metrics_df.columns
-      if c in portfolio_df.columns and c != "Ticker"
-  ]
-  if drop_cols:
-    portfolio_df = portfolio_df.drop(columns=drop_cols)
-  full_df = pd.merge(portfolio_df, metrics_df, on="Ticker", how="left")
-
-  # Resolve pricing columns
-  if 'Current_Price_y' in full_df.columns:
-    full_df['Current_Price'] = full_df['Current_Price_y'].fillna(
+  # Resolve pricing columns (enrich_portfolio_df auto-resolves x/y collisions)
+  if 'Current_Price' in full_df.columns:
+    full_df['Current_Price'] = full_df['Current_Price'].fillna(
         full_df['Custom_Current_Price'])
-    full_df = full_df.drop(columns=['Current_Price_x', 'Current_Price_y'],
-                           errors='ignore')
-  elif 'Current_Price' not in full_df.columns:
+  else:
     full_df['Current_Price'] = full_df['Custom_Current_Price']
 
   # Add Portfolio Allocation Weight

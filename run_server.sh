@@ -6,5 +6,5 @@ source ./run_env_setup.sh
 
 echo "Git Status:"
 git status -s
-echo "Starting Market Pipeline Dashboard Server..."
-python3 market_dashboard_server.py
+echo "Starting Market Pipeline Dashboard Server (Local Mode)..."
+python3 market_dashboard_server.py --local

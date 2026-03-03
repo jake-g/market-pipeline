@@ -612,6 +612,7 @@
           style="padding:4px 8px; border: 2px solid var(--border); background:var(--bg); color:var(--fg); width:130px; font-family:var(--font); text-transform:uppercase;">
 
         <div id="plot-controls" class="hidden" style="display:flex; gap:10px; align-items:center;">
+          <select id="plot-y-col" class="hidden" style="max-width:200px; text-overflow: ellipsis;"></select>
           <button id="btn-plot">PLOT</button>
         </div>
 
@@ -704,6 +705,7 @@
 
     const dataContainer = document.getElementById('data-container');
     const plotControls = document.getElementById('plot-controls');
+    const plotYCol = document.getElementById('plot-y-col');
     const plotColCheckboxes = document.getElementById('plot-col-checkboxes');
     const btnPlot = document.getElementById('btn-plot');
     const plotContainer = document.getElementById('plot-container');
@@ -1094,7 +1096,7 @@
     }
 
     function setupToolbar(path) {
-      if (path.includes('fundamentals') || path.includes('stats') || pData.cols.length > 15) {
+      if ((path.includes('fundamentals') || path.includes('stats') || pData.cols.length > 15) && !path.includes('portfolios') && !pData.cols.includes('Ticker')) {
         isCardView = true;
       } else {
         isCardView = false;
@@ -1114,8 +1116,11 @@
         return l === 'date' || l === 'timestamp' || l === 'period' || l === 'datetime' || l.includes('date');
       });
 
+      const tickerCol = pData.cols.find(c => c.toLowerCase() === 'ticker');
+
       if (dateCol && pData.rows.length > 1) {
         plotControls.classList.remove('hidden');
+        if (plotYCol) plotYCol.classList.add('hidden');
 
         currentPlotData = { xCol: dateCol, yCols: [] };
         pData.cols.forEach(c => {
@@ -1123,8 +1128,31 @@
             currentPlotData.yCols.push(c);
           }
         });
+      } else if (tickerCol && pData.rows.length > 1) {
+        plotControls.classList.remove('hidden');
+        if (plotYCol) plotYCol.classList.remove('hidden');
+
+        currentPlotData = { xCol: tickerCol, yCols: [] };
+
+        if (plotYCol) {
+          plotYCol.innerHTML = '';
+          pData.cols.forEach(c => {
+            if (c !== tickerCol && typeof pData.rows[0][c] === 'number') {
+              currentPlotData.yCols.push(c);
+              const opt = document.createElement('option');
+              opt.value = c;
+              opt.text = c;
+              plotYCol.appendChild(opt);
+            }
+          });
+
+          if (pData.cols.includes('Unrealized_PnL_Pct')) plotYCol.value = 'Unrealized_PnL_Pct';
+          else if (pData.cols.includes('Portfolio_Weight_Pct')) plotYCol.value = 'Portfolio_Weight_Pct';
+          else if (pData.cols.includes('Unrealized_PnL_Net')) plotYCol.value = 'Unrealized_PnL_Net';
+        }
       } else {
         plotControls.classList.add('hidden');
+        if (plotYCol) plotYCol.classList.add('hidden');
         currentPlotData = null;
       }
     }
@@ -1139,6 +1167,14 @@
       if (currentPlotData.yCols.length === 0) return;
       updatePlot();
     });
+
+    if (plotYCol) {
+      plotYCol.addEventListener('change', () => {
+        if (plotContainer.style.display !== 'none') {
+          updatePlot();
+        }
+      });
+    }
 
     tableFilterInput.addEventListener('input', debounce((e) => {
       tableFilterString = e.target.value.trim();
@@ -1489,21 +1525,40 @@
 
       const xVals = pData.rows.map(r => r[currentPlotData.xCol]);
 
-      const traces = currentPlotData.yCols.map((yCol, idx) => {
+      const isPortfolio = currentPlotData.xCol.toLowerCase() === 'ticker';
+
+      let activeYCols = currentPlotData.yCols;
+      if (isPortfolio && typeof plotYCol !== 'undefined' && plotYCol && !plotYCol.classList.contains('hidden')) {
+        activeYCols = [plotYCol.value];
+      }
+
+      if (activeYCols.length === 0) return;
+
+      const traces = activeYCols.map((yCol, idx) => {
         const yVals = pData.rows.map(r => r[yCol]);
         const lowerCol = yCol.toLowerCase();
         const isMA = lowerCol.includes('sma') || lowerCol.includes('ema') || lowerCol.includes('ma_');
         const color = colors[idx % colors.length];
 
-        return {
-          name: yCol,
-          x: xVals,
-          y: yVals,
-          type: 'scatter',
-          mode: 'lines+markers',
-          line: { color: color, width: 2, dash: isMA ? 'dash' : 'solid' },
-          marker: { size: 3, color: color, opacity: 0.3 }
-        };
+        if (isPortfolio) {
+          return {
+            name: yCol,
+            x: xVals,
+            y: yVals,
+            type: 'bar',
+            marker: { color: color }
+          };
+        } else {
+          return {
+            name: yCol,
+            x: xVals,
+            y: yVals,
+            type: 'scatter',
+            mode: 'lines+markers',
+            line: { color: color, width: 2, dash: isMA ? 'dash' : 'solid' },
+            marker: { size: 3, color: color, opacity: 0.3 }
+          };
+        }
       });
 
       const layout = {
@@ -1512,10 +1567,11 @@
         legend: { font: { color: fg, family: font, size: 10 }, orientation: 'h', y: -0.2 },
         plot_bgcolor: bg,
         paper_bgcolor: bg,
+        barmode: 'group',
         font: { color: fg, family: font },
         margin: { l: 60, r: 20, t: 40, b: (currentPlotData.yCols.length > 1 ? 60 : 40) },
         xaxis: {
-          type: 'date',
+          type: isPortfolio ? 'category' : 'date',
           gridcolor: grid,
           zerolinecolor: fg,
           tickfont: { color: fg, family: font }
