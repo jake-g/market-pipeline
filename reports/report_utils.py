@@ -2,7 +2,7 @@
 import logging
 import os
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional, Tuple
 
 from graphviz import Digraph
 import matplotlib.pyplot as plt
@@ -54,6 +54,71 @@ def setup_decision_tree_aesthetics(dot: Digraph):
            fontname="Helvetica-Bold",
            fontsize="14")
   dot.attr("edge", fontname="Helvetica-Bold", fontsize="12")
+
+
+def draw_matplotlib_decision_tree(nodes: Dict[str, Dict[str, Any]],
+                                  edges: List[Tuple[str, str]],
+                                  title: str,
+                                  output_path: str,
+                                  edge_labels: Optional[Dict[Tuple[str, str],
+                                                             str]] = None,
+                                  figsize: Tuple[int, int] = (14, 8)):
+  """Generalized helper to render matplotlib-based node decision trees, extracting legacy repetitive code."""
+  os.makedirs(os.path.dirname(output_path), exist_ok=True)
+  plt.figure(figsize=figsize)
+  ax = plt.gca()
+  ax.axis('off')
+
+  for k, v in nodes.items():
+    pos_x, pos_y = float(v["pos"][0]), float(v["pos"][1])
+    ax.text(pos_x,
+            pos_y,
+            str(v["label"]),
+            size=v.get("size", 10),
+            ha="center",
+            va="center",
+            bbox={
+                "boxstyle": "round,pad=0.5",
+                "facecolor": str(v["color"]),
+                "edgecolor": "black",
+                "alpha": 0.9
+            })
+
+  edge_labels = edge_labels or {}
+  for start, end in edges:
+    if start not in nodes or end not in nodes:
+      continue
+    start_x, start_y = float(nodes[start]["pos"][0]), float(
+        nodes[start]["pos"][1])
+    end_x, end_y = float(nodes[end]["pos"][0]), float(nodes[end]["pos"][1])
+
+    ax.annotate("",
+                xy=(end_x, end_y + 0.05),
+                xycoords='data',
+                xytext=(start_x, start_y - 0.05),
+                textcoords='data',
+                arrowprops={
+                    "arrowstyle": "->",
+                    "color": "black",
+                    "lw": 1.5,
+                    "shrinkA": 5,
+                    "shrinkB": 5
+                })
+
+    label = edge_labels.get((start, end), "")
+    if label:
+      ax.text((start_x + end_x) / 2.0, (start_y + end_y) / 2.0,
+              label,
+              fontsize=8,
+              ha='center',
+              va='center',
+              backgroundcolor='white')
+
+  plt.title(title, fontsize=16, fontweight='bold', y=1.0)
+  plt.xlim(0, 1.25)
+  plt.ylim(-0.1, 1.1)
+  plt.savefig(output_path, bbox_inches='tight', dpi=150)
+  plt.close()
 
 
 def calculate_technical_metrics(df: pd.DataFrame) -> Dict[str, Any]:
@@ -676,11 +741,17 @@ def generate_exposure_plot(df: pd.DataFrame,
     x_label = "Total Value ($)"
 
   plt.figure(figsize=(10, 6))
-  sns.barplot(x=theme_values.values,
-              y=theme_values.index,
-              hue=theme_values.index,
-              palette="viridis",
-              legend=False)
+  ax = sns.barplot(x=theme_values.values,
+                   y=theme_values.index,
+                   hue=theme_values.index,
+                   palette="viridis",
+                   legend=False)
+
+  # Add explicit data labels to the end of each bar
+  for i, v in enumerate(theme_values.values):
+    label = f"{v:.1f}%" if "Portfolio Weight" in x_label else f"${v:,.0f}"
+    ax.text(v, i, f" {label}", va='center', fontsize=10, fontweight='bold')
+
   plt.title(title, fontweight='bold')
   plt.xlabel(x_label)
   plt.ylabel("")
@@ -716,11 +787,26 @@ def generate_pnl_plot(df: pd.DataFrame,
 
   plt.figure(figsize=(10, 6))
   colors = ["g" if val > 0 else "r" for val in theme_pnl.values]
-  sns.barplot(x=theme_pnl.values,
-              y=theme_pnl.index,
-              hue=theme_pnl.index,
-              palette=colors,
-              legend=False)
+  ax = sns.barplot(x=theme_pnl.values,
+                   y=theme_pnl.index,
+                   hue=theme_pnl.index,
+                   palette=colors,
+                   legend=False)
+
+  # Add explicit data labels to the end of each bar
+  for i, v in enumerate(theme_pnl.values):
+    label = f"{v:+.1f}%" if "Unrealized PnL (%)" in x_label else f"${v:+,.0f}"
+    align = 'left' if v >= 0 else 'right'
+    offset = theme_pnl.abs().max() * 0.02
+    x_pos = v + offset if v >= 0 else v - offset
+    ax.text(x_pos,
+            i,
+            label,
+            va='center',
+            ha=align,
+            fontsize=10,
+            fontweight='bold')
+
   plt.title(title, fontweight='bold')
   plt.xlabel(x_label)
   plt.ylabel("")
@@ -728,6 +814,110 @@ def generate_pnl_plot(df: pd.DataFrame,
   plt.tight_layout()
   plt.savefig(save_path, dpi=300)
   plt.close()
+
+
+def generate_quantitative_alerts(df: pd.DataFrame) -> str:
+  """Generates dynamic markdown bullets highlighting extremely overbought/oversold and anomalous assets."""
+  alerts = ""
+  if df.empty:
+    return "*No data available for quantitative scanning.*"
+
+  # 1. RSI Extremes
+  if 'RSI' in df.columns:
+    overbought = df[(df['RSI'].notna()) & (df['RSI'] > 70)]
+    if not overbought.empty:
+      alerts += "**⚠️ Overbought Targets (Trim Warning - RSI > 70):**\n"
+      for _, row in overbought.sort_values('RSI', ascending=False).iterrows():
+        alerts += f"- **{row['Ticker']}**: RSI {row['RSI']:.1f}\n"
+      alerts += "\n"
+
+    oversold = df[(df['RSI'].notna()) & (df['RSI'] < 40)]
+    if not oversold.empty:
+      alerts += "**✅ Oversold Accumulation Zones (RSI < 40):**\n"
+      for _, row in oversold.sort_values('RSI').iterrows():
+        alerts += f"- **{row['Ticker']}**: RSI {row['RSI']:.1f}\n"
+      alerts += "\n"
+
+  # 2. Moving Average Extension
+  if 'Dist_to_200MA' in df.columns:
+    extended = df[(df['Dist_to_200MA'].notna()) & (df['Dist_to_200MA'] > 40)]
+    if not extended.empty:
+      alerts += "**🚀 Structurally Over-Extended (>40% above 200MA):**\n"
+      for _, row in extended.sort_values('Dist_to_200MA',
+                                         ascending=False).iterrows():
+        alerts += f"- **{row['Ticker']}**: +{row['Dist_to_200MA']:.1f}%\n"
+      alerts += "\n"
+
+  # 3. Deep Intrinsic Value Discount
+  if 'Discount_to_Intrinsic_Value_Pct' in df.columns:
+    deep_value = df[(df['Discount_to_Intrinsic_Value_Pct'].notna()) &
+                    (df['Discount_to_Intrinsic_Value_Pct'] > 25)]
+    if not deep_value.empty:
+      alerts += "**💎 Deep Intrinsic Value (>25% Discount to Graham Base):**\n"
+      for _, row in deep_value.sort_values('Discount_to_Intrinsic_Value_Pct',
+                                           ascending=False).iterrows():
+        alerts += f"- **{row['Ticker']}**: {row['Discount_to_Intrinsic_Value_Pct']:.1f}% Undervalued\n"
+      alerts += "\n"
+
+  # 4. Volume Momentum Surges
+  if 'Vol_Momentum' in df.columns:
+    high_vol = df[(df['Vol_Momentum'].notna()) & (df['Vol_Momentum'] > 2.0)]
+    if not high_vol.empty:
+      alerts += "**🌊 Massive Volume Inflow (>2x Average 20D):**\n"
+      for _, row in high_vol.sort_values('Vol_Momentum',
+                                         ascending=False).iterrows():
+        alerts += f"- **{row['Ticker']}**: {row['Vol_Momentum']:.1f}x Avg Volume\n"
+      alerts += "\n"
+
+  return alerts if alerts else "*No extreme quantitative anomalies detected across the current dataset.*"
+
+
+def generate_near_term_action_plan(df: pd.DataFrame) -> str:
+  """Generates a Top 3 Buys and Top 3 Sells markdown block for near-term 1-2 day tactical actions based on momentum."""
+  actions = ""
+  if df.empty or 'RSI' not in df.columns:
+    return "*No tactical data available.*"
+
+  # Top 3 Buys: Lowest RSI, largest negative Dist_to_200MA
+  buys_df = df[(df['RSI'].notna()) & (df['Ticker'] != 'CASH')].sort_values(
+      by=['RSI', 'Dist_to_200MA'], ascending=[True, True]).head(3)
+
+  # Top 3 Sells: Highest RSI, largest positive Dist_to_200MA
+  sells_df = df[(df['RSI'].notna()) & (df['Ticker'] != 'CASH')].sort_values(
+      by=['RSI', 'Dist_to_200MA'], ascending=[False, False]).head(3)
+
+  actions += "**📈 Top 3 Tactical BUYS (1-2 Day Horizon):**\n"
+  if buys_df.empty:
+    actions += "- None meeting criteria.\n"
+  for _, row in buys_df.iterrows():
+    rsi = row.get('RSI', 'N/A')
+    dist = row.get('Dist_to_200MA', 'N/A')
+    ret_5d = row.get('Trailing_5D_Ret', 'N/A')
+    vol_mom = row.get('Vol_Momentum', 'N/A')
+    why = f"Severely oversold (RSI: {rsi:.1f}). " if isinstance(
+        rsi, float) and rsi < 40 else f"Cooling off (RSI: {rsi:.1f}). "
+    why += f"Extended {dist:+.1f}% from 200MA. " if isinstance(dist,
+                                                               float) else ""
+    why += f"5D Momentum: {ret_5d:+.1f}%. " if isinstance(ret_5d, float) else ""
+    why += f"Vol Surge: {vol_mom:.1f}x." if isinstance(
+        vol_mom, float) and vol_mom > 1.5 else ""
+    actions += f"- **{row['Ticker']}**: {why.strip()}\n"
+
+  actions += "\n**📉 Top 3 Tactical SELLS (1-2 Day Horizon):**\n"
+  if sells_df.empty:
+    actions += "- None meeting criteria.\n"
+  for _, row in sells_df.iterrows():
+    rsi = row.get('RSI', 'N/A')
+    dist = row.get('Dist_to_200MA', 'N/A')
+    ret_5d = row.get('Trailing_5D_Ret', 'N/A')
+    why = f"Overbought exhaustion risk (RSI: {rsi:.1f}). " if isinstance(
+        rsi, float) and rsi > 70 else f"Elevated momentum (RSI: {rsi:.1f}). "
+    why += f"Overextended {dist:+.1f}% from 200MA. " if isinstance(
+        dist, float) else ""
+    why += f"5D Run: {ret_5d:+.1f}%. " if isinstance(ret_5d, float) else ""
+    actions += f"- **{row['Ticker']}**: {why.strip()}\n"
+
+  return actions
 
 
 def build_standard_portfolio_report(script_dir: str,
@@ -773,13 +963,32 @@ def build_standard_portfolio_report(script_dir: str,
                     privacy_mode=privacy_mode)
 
   metrics_table = generate_portfolio_markdown_table(df)
+  quantitative_alerts = generate_quantitative_alerts(df)
 
-  # Format string, allowing `{market_analysis}` placeholder if present.
-  try:
-    report_md = markdown_template.format(metrics_table=metrics_table,
-                                         market_analysis=market_analysis)
-  except KeyError:
-    report_md = markdown_template.format(metrics_table=metrics_table)
+  # Explicit Static Trade Injection
+  trades_path = os.path.join(script_dir, "trades.tsv")
+  if os.path.exists(trades_path):
+    try:
+      trades_df = pd.read_csv(trades_path, sep='\t')
+      tactical_actions = trades_df.to_markdown(index=False)
+    except Exception as e:
+      logging.error(f"Failed to parse trades.tsv: {e}")
+      tactical_actions = generate_near_term_action_plan(df)
+  else:
+    tactical_actions = generate_near_term_action_plan(df)
+
+  format_args = {
+      "metrics_table": metrics_table,
+      "market_analysis": market_analysis,
+      "quantitative_alerts": quantitative_alerts,
+      "tactical_actions": tactical_actions
+  }
+
+  report_md = markdown_template
+  for key, value in format_args.items():
+    placeholder = f"{{{key}}}"
+    if placeholder in report_md:
+      report_md = report_md.replace(placeholder, value)
 
   out_path = os.path.join(script_dir, "REPORT.md")
   with open(out_path, "w", encoding="utf-8") as f:

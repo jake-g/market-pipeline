@@ -4,7 +4,7 @@
 set -e
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-cd "$DIR/../../" # Move to project root
+cd "$DIR/../" # Move to project root
 
 LOG_DIR="logs"
 mkdir -p "$LOG_DIR"

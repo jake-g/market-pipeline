@@ -28,7 +28,7 @@ The following scatter plot maps theoretical discount against actual corporate ea
 > **The Value Trap:** High-discount equities residing in the *lower-left* quadrant are actively missing earnings, suggesting their 'cheap' valuation is a direct function of collapsing forward guidance rather than market inefficiency.
 
 ### 🏆 Top Deep Value Targets
-*Filtered for positive execution (Surprise > 0) and high margin of safety (Discount > 0).* 
+*Filtered for positive execution (Surprise > 0) and high margin of safety (Discount > 0).*
 
 | Ticker   | Name   | Portfolio_Weight_Pct   | Unrealized_PnL_Pct   | Graham_Value   | Discount_to_Intrinsic_Value_Pct   |   RSI | Dist_to_200MA   |   MACD | MA_Cross   | Time_Horizon       | Exit_Strategy                |
 |:---------|:-------|:-----------------------|:---------------------|:---------------|:----------------------------------|------:|:----------------|-------:|:-----------|:-------------------|:-----------------------------|

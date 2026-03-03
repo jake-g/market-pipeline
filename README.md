@@ -80,6 +80,7 @@ Run the full daily update pipeline:
 ./run_server.sh
 ```
 This runs a fast local server that auto-updates the file tree dynamically.
+*(Note: Passing `--local` to `market_dashboard_server.py` or running the `.sh` natively allows you to inspect private folders ignored by git).*
 
 **Static Hosting (GitHub Pages):**
 The dashboard is designed to run completely statically anywhere (like GitHub pages).
@@ -92,6 +93,12 @@ To set this up on your repo:
 
 
 > **Note**: These scripts automatically handle virtual environment creation and dependency installation via `run_env_setup.sh`.
+
+---
+
+## Local Server Deployment (DietPi/Systemd)
+
+If you are deploying this project on a headless local server, please see the dedicated **[Local Server Deployment Guide](./deploy/README.md)** for instructions on setting up automated `systemd` cron jobs.
 
 ---
 
@@ -116,7 +123,6 @@ The primary human-readable visualization UI providing fast, interactive analytic
 
 | Script | Purpose |
 |---|---|
-| **`./run_test_pipeline.sh`** | **Verification**: Runs tests, fetches subset data (1000 limit), and validates integrity. Run before pushing. |
 | **`./run_fetch.sh`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
 | `market_fetcher.py` | Core CLI for fetching specific combinations (e.g. `--limit-tickers`, `--news-days`). |
 | `./run_server.sh` | **Local UI**: Starts a lightweight HTTP server and statically serves the dashboard into your browser. |
@@ -127,18 +133,27 @@ The primary human-readable visualization UI providing fast, interactive analytic
 
 ---
 
-## Data Structure (`market_data/`)
+## Repository Structure
 
+| Directory | Purpose |
+|---|---|
+| `market_data/` | Global output directory for fetched TSVs, metrics, and localized HTML dashboard views. |
+| `portfolios/` | Target CSVs outlining account holdings. Automatically enriched with technicals during pipeline runs. |
+| `reports/` | Individual markdown reports and specialized quantitative analysis scripts (e.g. `03-02_*`, `nvda_earnings`). |
+| `deploy/` | Systemd service files and dedicated deployment instructions for headless operation. |
+| `backfill/` | Standalone modules to retroactively repair historical news and fundamentals. |
+
+### Data Structure (`market_data/`)
 Organized generically by **Ticker** and **Topic**. View `DATA_SCHEMA.md` for detailed column specs.
 
-### 1. Ticker Data (`/tickers/{TICKER}/`)
+#### 1. Ticker Data (`/tickers/{TICKER}/`)
 - `prices.tsv`: Daily OHLCV.
 - `news.tsv`: Aggregated news (`Date, Source, Headline, Sentiment, URL, Summary`).
 - `fundamentals.tsv`: Static company metrics.
 - `earnings.tsv`: Dates, estimates.
 - `financials_quarterly.tsv`: Balance sheet, income statement.
 
-### 2. Topic/Macro Data
+#### 2. Topic/Macro Data
 - `topics/{TOPIC}/news.tsv`: Thematic news ("AI", "Macro").
 - `macro/economic_indicators.tsv`: FRED economic indicators.
 
@@ -158,8 +173,9 @@ The pipeline computes several advanced metrics natively during fetching and repo
 - **Options IV Crush Risk**: Analyzes historical post-earnings volatility contraction.
 
 ### Generalized Utilities
-- `reports/report_utils.py`: A shared module containing core mathematical functions (RSI, MACD) and plotting aesthetics, used by downstream scripts.
+- `reports/report_utils.py`: A shared module containing core mathematical functions (RSI, MACD), plotting aesthetics, and automatic `privacy_mode` redaction overlays used by downstream scripts.
 - `reports/portfolios/portfolio_processor.py`: Merges raw holding amounts with the newly fetched pipeline metrics and fundamental intrinsic values, producing comprehensive markdown tables.
+- `reports/portfolios/run_pipeline.sh`: A master shell script that automatically orchestrates data fetching, unit testing, string formatting, and final markdown report generation.
 
 
 After every standard fetch run, the system also generates generic data health reports in `market_data/`:

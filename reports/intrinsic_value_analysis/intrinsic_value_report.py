@@ -352,7 +352,7 @@ def generate_report(df: pd.DataFrame):
 
     f.write(f"### 🏆 Top Deep Value Targets\n")
     f.write(
-        "*Filtered for positive execution (Surprise > 0) and high margin of safety (Discount > 0).* \n\n"
+        "*Filtered for positive execution (Surprise > 0) and high margin of safety (Discount > 0).*\n\n"
     )
 
     # Format dataframe for the markdown table generator

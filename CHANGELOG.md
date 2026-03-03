@@ -7,6 +7,11 @@
 
 ## [v1.4.6] - 2026-03-02
 ### Features & Architecture
+- **Dashboard & Local DX**:
+    - Added `--local` flag to `market_dashboard_server.py` and `run_server.sh` to dynamically bypass `.gitignore` filters, enabling full local navigation of private directories (e.g. `portfolios/`).
+- **Reporting & Privacy Framework**:
+    - Engineered `privacy_mode` within `report_utils.py` and `build_standard_portfolio_report` to dynamically toggle raw cash values/balances into anonymized relative portfolio percentages for public-facing examples.
+    - Updated `reports/.gitignore` with structured exceptions (`!03-02_combined_active.../`) to allow sharing polished examples safely.
 - **New Portfolio Reporting Pipeline**:
     - Complete ground-up creation of an automated portfolio processing ecosystem (`yahoo_portfolio_fetcher.py`, `portfolio_processor.py`, and `generate_portfolio_report.py`).
     - Added comprehensive unit testing coverage through the newly created `test_portfolio_pipeline.py`.

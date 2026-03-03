@@ -18,6 +18,10 @@ ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 ALLOWED_ROOT_DIRS = {'market_data', 'reports', 'alpha_vantage_api'}
 INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json', '.py', '.png'}
 EXCLUDE_FILES = {'requirements.txt', 'TODO.md', 'index.json'}
+ALWAYS_IGNORE_DIRS = {
+    'LSTM_AI_Stock_Predictor-main', 'venv', 'notebooks', 'backfill', 'logs',
+    'old', '.cache', '__pycache__', '.git', '.gemini'
+}
 
 
 def load_gitignore():
@@ -47,7 +51,7 @@ def is_ignored(rel_path):
   return False
 
 
-def build_tree(root_dir, path=""):
+def build_tree(root_dir, path="", local_mode=False):
   """Recursively builds a tree of allowed files and directories."""
   items = []
   try:
@@ -56,22 +60,23 @@ def build_tree(root_dir, path=""):
     return items
 
   for entry in entries:
-    if entry.startswith('.') or entry in EXCLUDE_FILES:
+    if entry.startswith(
+        '.') or entry in EXCLUDE_FILES or entry in ALWAYS_IGNORE_DIRS:
       continue
 
     full_disk_path = os.path.join(root_dir, path, entry)
     rel_path = os.path.join(path, entry).replace('\\', '/')
 
-    if is_ignored(rel_path):
+    if not local_mode and is_ignored(rel_path):
       continue
 
     if os.path.isdir(full_disk_path):
       # If we are at the root level (path == ""), ONLY allow explicitly whitelisted folders.
       if path == "":
-        if entry not in ALLOWED_ROOT_DIRS:
+        if not local_mode and entry not in ALLOWED_ROOT_DIRS:
           continue
 
-      children = build_tree(root_dir, rel_path)
+      children = build_tree(root_dir, rel_path, local_mode)
       if children:  # Only add folders that contain valid files
         items.append({
             "type": "folder",
@@ -129,7 +134,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
       self.send_header('Content-Type', 'application/json')
       self.end_headers()
 
-      tree = build_tree(ROOT_DIR)
+      local_mode = getattr(self.server, 'local_mode', False)
+      tree = build_tree(ROOT_DIR, local_mode=local_mode)
       response_json = json.dumps(tree, separators=(',', ':'))
       self.wfile.write(response_json.encode('utf-8'))
     elif self.path == '/' or self.path.startswith('/?'):
@@ -149,6 +155,10 @@ def main():
   parser.add_argument('--build',
                       action='store_true',
                       help='Generate static index.json and exit')
+  parser.add_argument(
+      '--local',
+      action='store_true',
+      help='Include all gitignored files in dynamic tree (Local Dev Mode)')
   args = parser.parse_args()
 
   # Change to root dir so SimpleHTTPRequestHandler serves files correctly from here
@@ -157,7 +167,7 @@ def main():
   if args.build:
     output_path = os.path.join(ROOT_DIR, 'market_data', 'index.json')
     logger.info("Building static file tree to %s", output_path)
-    tree = build_tree(ROOT_DIR)
+    tree = build_tree(ROOT_DIR, local_mode=args.local)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
       # We indent with 2 spaces for readability and smaller git diffs,
@@ -171,6 +181,7 @@ def main():
 
   try:
     with ReusableTCPServer(("", args.port), DashboardHandler) as httpd:
+      httpd.local_mode = args.local
       url = f"http://localhost:{args.port}"
       logger.info("Dashboard serving at %s", url)
       logger.info("Opening browser...")
