@@ -87,6 +87,12 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
     return portfolio_df
 
   metrics_df = pd.DataFrame(metrics_list)
+  drop_cols = [
+      c for c in metrics_df.columns
+      if c in portfolio_df.columns and c != "Ticker"
+  ]
+  if drop_cols:
+    portfolio_df = portfolio_df.drop(columns=drop_cols)
   full_df = pd.merge(portfolio_df, metrics_df, on="Ticker", how="left")
 
   # Resolve pricing columns
@@ -151,9 +157,11 @@ if __name__ == "__main__":
   tsvs_dir = os.path.join(portfolios_dir, "tsvs")
   logger.info(f"Scanning for portfolios in: {tsvs_dir}")
   tsv_files = glob.glob(os.path.join(tsvs_dir, "*.tsv"))
-  # Only process raw portfolio TSVs (ignore prefixed system TSVs or examples)
+  # Only process raw portfolio TSVs and the combined active portfolio (ignore other prefixed system TSVs or examples)
   target_files = [
-      f for f in tsv_files if not os.path.basename(f).startswith("_") and
+      f for f in tsv_files
+      if (not os.path.basename(f).startswith("_") or
+          os.path.basename(f) == "_combined_active_portfolio.tsv") and
       "example" not in os.path.basename(f).lower()
   ]
 

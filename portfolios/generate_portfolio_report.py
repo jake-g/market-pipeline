@@ -13,7 +13,7 @@ PORTFOLIOS_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(PORTFOLIOS_DIR, "..", ".."))
 sys.path.append(PROJECT_ROOT)
 import config
-from reports.portfolios.yahoo_portfolio_fetcher import load_env_file
+from portfolios.yahoo_portfolio_fetcher import load_env_file
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -108,7 +108,7 @@ def create_pie_chart(df: pd.DataFrame,
 
 
 def generate_report():
-  """Builds an exhaustive REPORT.md file analyzing all portfolios, focused on active accounts."""
+  """Builds an exhaustive PORTFOLIO_REPORT.md file analyzing all portfolios, focused on active accounts."""
 
   # -------------------------------------------------------------
   # Render Output String
@@ -271,7 +271,7 @@ def generate_report():
     report_lines.append("\n\n")
 
   # Write output
-  report_path = os.path.join(PORTFOLIOS_DIR, "REPORT.md")
+  report_path = os.path.join(PORTFOLIOS_DIR, "PORTFOLIO_REPORT.md")
   with open(report_path, "w") as f:
     f.write("\n".join(report_lines))
 

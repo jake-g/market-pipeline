@@ -1,0 +1,10 @@
+# Report Exceptions allowed to be tracked
+!intrinsic_value_analysis/
+!02-25_NVDA_earnings_trade/
+!03-02_combined_active_iran_geopolitics/
+
+# Ignore all report date folders by default for privacy
+[0-9][0-9]-[0-9][0-9]_*/
+
+# Debug scripts
+run_report_generation.sh
