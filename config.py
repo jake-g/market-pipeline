@@ -49,11 +49,13 @@ NEWS_TOPICS = [
     "Supply Chain", "Shipping", "Logistics", "Freight", "Container Rates",
     "Semiconductor Fabs", "Chip Shortage", "EDA Software", "Advanced Packaging",
 
+    # Countries
+    "Iran", "Russia", "Ukraine", "Venezuela",  "Pakistan", "China", "Taiwan",
+
     # Macro, Finance & Geopolitics
     "Inflation", "Federal Reserve", "Interest Rates", "Recession", "GDP",
-    "Geopolitics", "War", "China", "Taiwan", "OPEC+", "Sanctions",
-    "Tariffs", "Trade War", "US Economy", "Global Markets", "Bitcoin ETF",
-    "GLP-1 Weight Loss"
+    "Geopolitics", "War", "OPEC+", "Sanctions", "Tariffs", "Trade War", "US Economy",
+    "Global Markets", "Bitcoin ETF",  "GLP-1 Weight Loss"
 ]
 
 # Sectors & Tickers
@@ -82,7 +84,7 @@ SECTORS = {
     "Aerospace & Defense":
     ["LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS"],
     "Crypto & Minerals": [
-        "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM", "GOLD", "PAAS", "FCX",
+        "BTC-USD", "ETH-USD", "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM", "GOLD", "PAAS", "FCX",
         "SCCO", "VALE", "RIO", "BHP", "BMNR", "BITF", "HUT", "CAT", "IBIT", "GLDM"
     ],
     "Data Center & Infra": [
@@ -102,6 +104,9 @@ SECTORS = {
         "VOO", "VTI", "VTSAX", "SCHG", "VUG", "VIGAX", "SCHV", "VTV",
         "SCHD", "VEA", "VWO"
     ],
+    "Mutual Funds": [
+        "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"
+    ],
     "Fixed Income & Preferred": [
         "PFFD", "PFXF", "FAGOX", "FASPX"
     ]
@@ -113,5 +118,5 @@ CACHE_DIR = ".cache"
 CACHE_EXPIRY_PRICES = 3600  # 1 hour
 CACHE_EXPIRY_NEWS = 14400  # 4 hours
 CACHE_EXPIRY_FUNDAMENTALS = 86400  # 24 hours
-CACHE_EXPIRY_INSIDER = 43200  # 12 hours
+CACHE_EXPIRY_INSIDER = 86400 * 2   # 48 hours
 CACHE_EXPIRY_MACRO = 86400 * 2  # 48 hours
