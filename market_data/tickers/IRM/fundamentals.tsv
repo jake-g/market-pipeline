@@ -1,41 +1,41 @@
 Metric	Value
-52WeekChange	0.19974244
-SandP52WeekChange	0.16653454
+52WeekChange	0.20086467
+SandP52WeekChange	0.17593324
 address1	85 New Hampshire Avenue
 address2	Suite 150
 allTimeHigh	130.24
 allTimeLow	2.510212
-ask	109.3
-askSize	200
+ask	110.09
+askSize	100
 auditRisk	1
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	2635640
-averageDailyVolume3Month	2071878
-averageVolume	2071878
-averageVolume10days	2635640
+averageDailyVolume10Day	2243230
+averageDailyVolume3Month	2118300
+averageVolume	2118300
+averageVolume10days	2243230
 beta	1.179
-bid	108.97
+bid	109.5
 bidSize	100
 boardRisk	4
 bookValue	-3.317
 city	Portsmouth
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. William L. Meaney BSc, MEng, MSIA', 'age': 65, 'title': 'President, CEO & Director', 'yearBorn': 1960, 'fiscalYear': 2024, 'totalPay': 4429385, 'exercisedValue': 16106344, 'unexercisedValue': 219832640}, {'maxAge': 1, 'name': 'Mr. Barry A. Hytinen', 'age': 50, 'title': 'Executive VP & CFO', 'yearBorn': 1975, 'fiscalYear': 2024, 'totalPay': 2182006, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Kidd', 'age': 43, 'title': 'Executive VP and GM of Iron Mountain Data Centers & Asset Lifecycle Management', 'yearBorn': 1982, 'fiscalYear': 2024, 'totalPay': 3096565, 'exercisedValue': 245627, 'unexercisedValue': 7868038}, {'maxAge': 1, 'name': 'Mr. Greg W. McIntosh CA', 'age': 51, 'title': 'Executive VP, Chief Commercial Officer and GM of Global Records & Information Management', 'yearBorn': 1974, 'fiscalYear': 2024, 'totalPay': 1382559, 'exercisedValue': 190579, 'unexercisedValue': 2188836}, {'maxAge': 1, 'name': 'Ms. Mithu  Bhargava', 'age': 45, 'title': 'Executive VP & GM for digital solutions', 'yearBorn': 1980, 'fiscalYear': 2024, 'totalPay': 1040089, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel  Borges', 'age': 56, 'title': 'Chief Accounting Officer & Senior VP', 'yearBorn': 1969, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark Andrew Rupe', 'title': 'Senior VP & Head of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Altamura', 'age': 42, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1983, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jemma  Johns', 'age': 50, 'title': 'Executive VP & Chief Human Resources Officer', 'yearBorn': 1975, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Garry B. Watzke', 'title': 'Senior Vice President', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
-compensationRisk	4
-corporateActions	[]
+compensationRisk	5
+corporateActions	[{'header': 'Dividend', 'message': 'IRM announced a cash dividend of 0.864$ with an ex-date of Mar. 16, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1773637200000, 'amount': '0.864'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	109.35
+currentPrice	110.33
 currentRatio	0.739
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	112.7
-dayLow	107.79
-discount_to_intrinsic_value	-257.56
+dayHigh	110.835
+dayLow	106.59
+discount_to_intrinsic_value	-240.33
 dividendDate	1775174400
 dividendRate	3.46
-dividendYield	3.09
+dividendYield	3.19
 earningsCallTimestampEnd	1770903000
 earningsCallTimestampStart	1770903000
 earningsGrowth	-0.142
@@ -45,12 +45,12 @@ earningsTimestampEnd	1777555800
 earningsTimestampStart	1777555800
 ebitda	2328571904
 ebitdaMargins	0.33738998
-enterpriseToEbitda	22.181
-enterpriseToRevenue	7.484
-enterpriseValue	51650547712
+enterpriseToEbitda	22.306
+enterpriseToRevenue	7.526
+enterpriseValue	51940466688
 epsCurrentYear	2.31446
 epsForward	2.56122
-epsTrailingTwelveMonths	0.48
+epsTrailingTwelveMonths	0.5
 eps_normalized_growth	0.6555376552700198
 esgPopulated	False
 exDividendDate	1773619200
@@ -59,34 +59,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	92.1512
-fiftyDayAverageChange	17.1988
-fiftyDayAverageChangePercent	0.18663673
-fiftyTwoWeekChangePercent	19.974243
+fiftyDayAverage	93.189
+fiftyDayAverageChange	17.140999
+fiftyDayAverageChangePercent	0.183938
+fiftyTwoWeekChangePercent	20.086468
 fiftyTwoWeekHigh	115.24
-fiftyTwoWeekHighChange	-5.8899994
-fiftyTwoWeekHighChangePercent	-0.051110722
+fiftyTwoWeekHighChange	-4.909996
+fiftyTwoWeekHighChangePercent	-0.0426067
 fiftyTwoWeekLow	72.33
-fiftyTwoWeekLowChange	37.019997
-fiftyTwoWeekLowChangePercent	0.51182073
+fiftyTwoWeekLowChange	38.0
+fiftyTwoWeekLowChangePercent	0.5253698
 fiftyTwoWeekRange	72.33 - 115.24
 financialCurrency	USD
 firstTradeDateMilliseconds	823185000000
-fiveYearAvgDividendYield	4.14
-floatShares	293220023
+fiveYearAvgDividendYield	4.08
+floatShares	293225939
 forwardEps	2.56122
-forwardPE	42.694496
+forwardPE	43.07713
 freeCashflow	-1168041728
 fullExchangeName	NYSE
 fullTimeEmployees	29400
 gmtOffSetMilliseconds	-18000000
-governanceEpochDate	1769904000
-graham_intrinsic_value	30.58
+governanceEpochDate	1772323200
+graham_intrinsic_value	32.42
 grossMargins	0.55381
 grossProfits	3822256896
 hasPrePostMarketData	True
 heldPercentInsiders	0.00953
-heldPercentInstitutions	0.88738
+heldPercentInstitutions	0.8874
 impliedSharesOutstanding	295835206
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -101,47 +101,47 @@ lastSplitFactor	1082:1000
 longBusinessSummary	Iron Mountain Incorporated is trusted by more than 240,000 customers in 61 countries, including approximately 95% of the Fortune 1000, to help unlock value and intelligence from their assets through services that transcend the physical and digital worlds. Our broad range of solutions address their information management, digital transformation, information security, data center and asset lifecycle management needs. Our longstanding commitment to safety, security, sustainability and innovation in support of our customers underpins everything we do.
 longName	Iron Mountain Incorporated
 market	us_market
-marketCap	32349579264
-marketState	POSTPOST
+marketCap	32639498240
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_30292
 mostRecentQuarter	1767139200
 netIncomeToCommon	144591008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	33500378727
+nonDilutedMarketCap	32047827865
 numberOfAnalystOpinions	11
-open	112.24
+open	107.27
 operatingCashflow	1339998976
 operatingMargins	0.21956
 overallRisk	3
 payoutRatio	6.5694
 phone	617 535 4766
-postMarketChange	-0.34999847
-postMarketChangePercent	-0.32007176
-postMarketPrice	109.0
-postMarketTime	1772149921
-previousClose	111.78
-priceEpsCurrentYear	47.24644
+postMarketChange	-0.83000183
+postMarketChangePercent	-0.75229025
+postMarketPrice	109.5
+postMarketTime	1772497583
+previousClose	108.33
+priceEpsCurrentYear	47.66987
 priceHint	2
-priceToBook	-32.966537
-priceToSalesTrailing12Months	4.687165
+priceToBook	-33.261986
+priceToSalesTrailing12Months	4.7291718
 profitMargins	0.02095
 quickRatio	0.612
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.72727
 region	US
-regularMarketChange	-2.43
-regularMarketChangePercent	-2.17391
-regularMarketDayHigh	112.7
-regularMarketDayLow	107.79
-regularMarketDayRange	107.79 - 112.7
-regularMarketOpen	112.24
-regularMarketPreviousClose	111.78
-regularMarketPrice	109.35
-regularMarketTime	1772139602
-regularMarketVolume	1609520
+regularMarketChange	2.0
+regularMarketChangePercent	1.84621
+regularMarketDayHigh	110.835
+regularMarketDayLow	106.59
+regularMarketDayRange	106.59 - 110.835
+regularMarketOpen	107.27
+regularMarketPreviousClose	108.33
+regularMarketPrice	110.33
+regularMarketTime	1772485202
+regularMarketVolume	1765517
 returnOnAssets	0.04405
 revenueGrowth	0.166
 revenuePerShare	23.364
@@ -160,7 +160,7 @@ shortRatio	3.51
 sourceInterval	15
 state	NH
 symbol	IRM
-syntheticPEG	-3.006654647887324
+syntheticPEG	-3.033600704225352
 targetHighPrice	140.0
 targetLowPrice	44.0
 targetMeanPrice	121.18182
@@ -171,15 +171,15 @@ totalDebt	19123404800
 totalRevenue	6901736960
 tradeable	False
 trailingAnnualDividendRate	3.219
-trailingAnnualDividendYield	0.02879764
-trailingEps	0.48
-trailingPE	227.8125
+trailingAnnualDividendYield	0.029714761
+trailingEps	0.5
+trailingPE	220.66
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	96.052
-twoHundredDayAverageChange	13.2979965
-twoHundredDayAverageChangePercent	0.13844581
+twoHundredDayAverage	96.16535
+twoHundredDayAverageChange	14.16465
+twoHundredDayAverageChangePercent	0.14729473
 typeDisp	Equity
-volume	1609520
+volume	1765517
 website	https://www.ironmountain.com
 zip	03801
