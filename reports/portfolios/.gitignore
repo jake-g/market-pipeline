@@ -1,0 +1,13 @@
+# Exclude the example mock data from being ignored
+!*example*.tsv
+!*example*.csv
+
+# Ignore all personal portfolios and outputs
+*.tsv
+REPORT*.md
+.env
+run_all_report_scripts.sh
+portfolio*.json
+!portfolio_example.json
+plots/
+old/

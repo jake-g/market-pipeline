@@ -1,3 +1,4 @@
+import glob
 import logging
 import os
 import sys
@@ -147,13 +148,14 @@ if __name__ == "__main__":
   logger.info("Starting Portfolio Batch Processor Engine...")
 
   portfolios_dir = os.path.dirname(os.path.abspath(__file__))
-  logger.info(f"Scanning for portfolios in: {portfolios_dir}")
-
-  import glob
-
-  # Find all TSVs that don't end in _metrics.tsv
-  tsv_files = glob.glob(os.path.join(portfolios_dir, "*.tsv"))
-  target_files = [f for f in tsv_files if not f.endswith("_metrics.tsv")]
+  tsvs_dir = os.path.join(portfolios_dir, "tsvs")
+  logger.info(f"Scanning for portfolios in: {tsvs_dir}")
+  tsv_files = glob.glob(os.path.join(tsvs_dir, "*.tsv"))
+  # Only process raw portfolio TSVs (ignore prefixed system TSVs or examples)
+  target_files = [
+      f for f in tsv_files
+      if not os.path.basename(f).startswith("_") and "example" not in os.path.basename(f).lower()
+  ]
 
   if not target_files:
     logger.warning("No portfolio TSVs found to process.")
@@ -162,20 +164,17 @@ if __name__ == "__main__":
   logger.info(f"Found {len(target_files)} portfolios to process.")
 
   for filepath in target_files:
-    base_name = os.path.splitext(os.path.basename(filepath))[0]
-    output_name = f"{base_name}_metrics.tsv"
-    output_path = os.path.join(portfolios_dir, output_name)
+    base_name = os.path.basename(filepath)
+    output_path = filepath
 
-    logger.info(f"--------------------------------------------------")
-    logger.info(f"Running processor on: {base_name}.tsv")
+    logger.info(f"Running processor on: {base_name}")
     enriched_df = process_portfolio(filepath)
 
     if enriched_df is not None and not enriched_df.empty:
+      # Overwrite the original TSV with the appended metrics columns
       enriched_df.to_csv(output_path, sep='\t', index=False)
-      logger.info(f"Successfully generated and saved: {output_name}")
+      logger.info(f"Successfully appended metrics and saved: {base_name}")
     else:
-      logger.error(
-          f"Failed to process or returned empty dataframe for: {base_name}.tsv")
+      logger.error(f"Failed to process or returned empty dataframe for: {base_name}")
 
-  logger.info(f"--------------------------------------------------")
   logger.info("Batch Processing Complete.")
