@@ -249,9 +249,9 @@ def backfill_benzinga_history(fetcher, tickers, start_year=2018, max_rows=None):
 
 
 def audit_fnspid(logger, limit=None):
+  from collections import Counter
   import datetime
   import os
-  from collections import Counter
 
   from datasets import load_dataset
   from tqdm import tqdm

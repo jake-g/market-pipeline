@@ -7,8 +7,8 @@ from typing import Any, Dict
 import numpy as np
 import pandas as pd
 
-from reports.report_utils import (calculate_technical_metrics,
-                                  get_intrinsic_value_metrics)
+from reports.report_utils import calculate_technical_metrics
+from reports.report_utils import get_intrinsic_value_metrics
 
 logger = logging.getLogger(__name__)
 
@@ -16,6 +16,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 
 DATA_DIR = os.path.join(project_root, "market_data")
 TICKERS_DIR = os.path.join(DATA_DIR, "tickers")
+
 
 def load_ticker_prices(ticker: str) -> pd.DataFrame:
   """Loads historical prices for a given ticker."""
@@ -29,7 +30,6 @@ def load_ticker_prices(ticker: str) -> pd.DataFrame:
     if ticker != 'CASH':
       logger.warning("Prices not found for %s", ticker)
     return pd.DataFrame()
-
 
 
 def process_portfolio(tsv_path: str) -> pd.DataFrame:
@@ -153,8 +153,8 @@ if __name__ == "__main__":
   tsv_files = glob.glob(os.path.join(tsvs_dir, "*.tsv"))
   # Only process raw portfolio TSVs (ignore prefixed system TSVs or examples)
   target_files = [
-      f for f in tsv_files
-      if not os.path.basename(f).startswith("_") and "example" not in os.path.basename(f).lower()
+      f for f in tsv_files if not os.path.basename(f).startswith("_") and
+      "example" not in os.path.basename(f).lower()
   ]
 
   if not target_files:
@@ -175,6 +175,7 @@ if __name__ == "__main__":
       enriched_df.to_csv(output_path, sep='\t', index=False)
       logger.info(f"Successfully appended metrics and saved: {base_name}")
     else:
-      logger.error(f"Failed to process or returned empty dataframe for: {base_name}")
+      logger.error(
+          f"Failed to process or returned empty dataframe for: {base_name}")
 
   logger.info("Batch Processing Complete.")

@@ -1,25 +1,25 @@
 """Market Fetcher Library"""
 import datetime
+from difflib import SequenceMatcher
 import hashlib
 import logging
 import os
+from pathlib import Path
 import re
 import shutil
 import time
-import xml.etree.ElementTree as ET
-from difflib import SequenceMatcher
-from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple, Union
+import xml.etree.ElementTree as ET
 
 import feedparser
 import joblib
 import numpy as np
 import pandas as pd
 import requests
-import yfinance as yf
 from sec_edgar_downloader import Downloader
 from textblob import TextBlob
 from tqdm import tqdm
+import yfinance as yf
 
 import config
 
@@ -91,11 +91,19 @@ SKIP_EARNINGS: List[str] = [
     # Commodities & Futures
     "CL=F", "GC=F", "NG=F", "CORN", "CURN", "SOYB", "WEAT",
 
+    # Crypto (No SEC Filings)
+    "BTC-USD", "ETH-USD",
+
     # Core Vanguard/Broad ETFs
-    "VTI", "VOO", "SPY", "VTSAX", "VUG", "VTV", "VEA", "VWO", "VIGAX", "SCHD", "SCHG", "SCHV", "VGT",
+    "VTI", "VOO", "SPY", "VTSAX", "VUG", "VTV", "VEA", "VWO", "VIGAX",
+    "SCHD", "SCHG", "SCHV", "VGT",
+
+    # Vanguard Mutual Funds (Institutional/Admiral Shares - No Form 4)
+    "VEMRX", "VFTAX", "VIGIX", "VIIIX", "VMFXX", "VTIFX",
 
     # Sector & Thematic ETFs
-    "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE", "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH",
+    "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
+    "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH",
 
     # Fixed Income & Preferred
     "PFFD", "PFXF", "FAGOX", "FASPX",
@@ -114,6 +122,7 @@ SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     # Foreign / ADRs (No Form 4)
     "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "ZIM",
     # Specific Corporate Exclusions (Missing/404 on SEC Edgar)
+    # Note: Even with CIK overrides, some of these may fail depending on SEC database availability
     "LDOS", "LLY", "LMT", "MA", "MATX", "SMCI", "SO", "UPS", "V", "VRT"
 ]
 # yapf: enable
@@ -364,10 +373,12 @@ class MarketFetcher:
         shares_elem = txn.find('.//transactionShares/value', ns)
         price_elem = txn.find('.//transactionPricePerShare/value', ns)
 
-        shares = round(float(shares_elem.text),
-                       2) if shares_elem is not None and shares_elem.text is not None else 0.0
-        price = round(float(price_elem.text),
-                      4) if price_elem is not None and price_elem.text is not None else 0.0
+        shares = round(
+            float(shares_elem.text), 2
+        ) if shares_elem is not None and shares_elem.text is not None else 0.0
+        price = round(
+            float(price_elem.text), 4
+        ) if price_elem is not None and price_elem.text is not None else 0.0
         amount = round(shares * price, 2)
 
         data.append((date, shares, amount, buy_flag))
@@ -877,10 +888,15 @@ class MarketFetcher:
       fin_file = ticker_path / FINANCIALS_FILENAME
 
       if ticker in SKIP_EARNINGS:
-        for attr in ["quarterly_financials", "quarterly_balance_sheet", "quarterly_cashflow"]:
+        for attr in [
+            "quarterly_financials", "quarterly_balance_sheet",
+            "quarterly_cashflow"
+        ]:
           cache_key = f"yf_{attr}_{ticker}"
-          if self._load_cache(cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
-             self._save_cache(cache_key, pd.DataFrame())
+          if self._load_cache(
+              cache_key,
+              expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
+            self._save_cache(cache_key, pd.DataFrame())
         continue
 
       combined_frames = []
@@ -889,14 +905,16 @@ class MarketFetcher:
       try:
         yf_ticker = None
 
-        def get_yf_df(attr_name: str, yf_t: Optional[yf.Ticker]) -> Tuple[pd.DataFrame, yf.Ticker]:
+        def get_yf_df(
+            attr_name: str,
+            yf_t: Optional[yf.Ticker]) -> Tuple[pd.DataFrame, yf.Ticker]:
           cache_key = f"yf_{attr_name}_{ticker}"
           data = self._load_cache(
               cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
 
           if data is None:
             if yf_t is None:
-               yf_t = yf.Ticker(ticker)
+              yf_t = yf.Ticker(ticker)
             try:
               data = getattr(yf_t, attr_name)
               if data is None:
@@ -938,7 +956,8 @@ class MarketFetcher:
           list_key, date_key = paths
 
           cache_key = f"av_{func}_{ticker}"
-          data = self._load_cache(cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+          data = self._load_cache(
+              cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
 
           if not data:
             # Simple retry/fetch logic
@@ -1181,12 +1200,14 @@ class MarketFetcher:
     # Cleanup temporary column
     return df.drop(columns=['Quality'], errors='ignore')
 
-  def estimate_growth_rate(self, eps_quarter_series: pd.Series, lookback_quarters: int = 30) -> float:
+  def estimate_growth_rate(self,
+                           eps_quarter_series: pd.Series,
+                           lookback_quarters: int = 30) -> float:
     """Estimates annualized earnings growth from quarterly EPS using log-linear regression."""
     eps = eps_quarter_series.dropna()
     eps = eps[eps > 0]
     if len(eps) < 4:
-        return np.nan
+      return np.nan
 
     eps_recent = eps.tail(lookback_quarters)
     y = np.log(eps_recent.values)
@@ -1218,10 +1239,10 @@ class MarketFetcher:
       if info is None:
         try:
           if yf_ticker is None:
-              yf_ticker = yf.Ticker(ticker)
+            yf_ticker = yf.Ticker(ticker)
           info = yf_ticker.info
           if info is None:
-             info = {}
+            info = {}
           self._save_cache(cache_key, info)
         except Exception as e:
           self.logger.warning(f"Failed to fetch info for {ticker}: {e}")
@@ -1279,7 +1300,8 @@ class MarketFetcher:
               max_retries = 3
 
             cache_key = f"av_overview_{ticker}"
-            overview = self._load_cache(cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+            overview = self._load_cache(
+                cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
 
             if overview is None:
               for _ in range(max_retries):
@@ -1359,69 +1381,78 @@ class MarketFetcher:
           # We need to load quarterly EPS temporarily to run the log-linear regression
           growth_rate = None
           earn_key = f"yf_quarterly_financials_{ticker}"
-          fin_data = self._load_cache(earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+          fin_data = self._load_cache(
+              earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
 
           if fin_data is None:
-             if yf_ticker is None:
-                 yf_ticker = yf.Ticker(ticker)
-             try:
-                fin_data = yf_ticker.quarterly_financials
-                if fin_data is None:
-                    fin_data = pd.DataFrame()
-                self._save_cache(earn_key, fin_data)
-             except Exception:
-                self._save_cache(earn_key, pd.DataFrame())
+            if yf_ticker is None:
+              yf_ticker = yf.Ticker(ticker)
+            try:
+              fin_data = yf_ticker.quarterly_financials
+              if fin_data is None:
                 fin_data = pd.DataFrame()
+              self._save_cache(earn_key, fin_data)
+            except Exception:
+              self._save_cache(earn_key, pd.DataFrame())
+              fin_data = pd.DataFrame()
 
           if fin_data is not None and not fin_data.empty:
-             # Basic EPS or Diluted EPS
-             eps_row = None
-             if "Basic EPS" in fin_data.index:
-                 eps_row = fin_data.loc["Basic EPS"]
-             elif "Diluted EPS" in fin_data.index:
-                 eps_row = fin_data.loc["Diluted EPS"]
+            # Basic EPS or Diluted EPS
+            eps_row = None
+            if "Basic EPS" in fin_data.index:
+              eps_row = fin_data.loc["Basic EPS"]
+            elif "Diluted EPS" in fin_data.index:
+              eps_row = fin_data.loc["Diluted EPS"]
 
-             if eps_row is not None:
-                # Need oldest to newest for the formula
-                eps_series = eps_row.iloc[::-1].apply(pd.to_numeric, errors='coerce')
-                growth_rate = self.estimate_growth_rate(eps_series)
+            if eps_row is not None:
+              # Need oldest to newest for the formula
+              eps_series = eps_row.iloc[::-1].apply(pd.to_numeric,
+                                                    errors='coerce')
+              growth_rate = self.estimate_growth_rate(eps_series)
 
           if growth_rate is not None and not np.isnan(growth_rate):
-              info["eps_normalized_growth"] = growth_rate
+            info["eps_normalized_growth"] = growth_rate
 
           # 3. Bond Yield (from FRED Macro Data)
-          bond_yield = 4.4 # Default fallback Graham yield
+          bond_yield = 4.4  # Default fallback Graham yield
           macro_file = self.data_dir / "macro" / MACRO_FILENAME
           if macro_file.exists():
             try:
               macro_df = pd.read_csv(macro_file, sep='\t')
               # US10Y is in the CSV. Get the last valid non-NaN value.
               if "US10Y" in macro_df.columns:
-                 valid_yields = macro_df["US10Y"].dropna()
-                 if not valid_yields.empty:
-                    bond_yield = valid_yields.iloc[-1]
+                valid_yields = macro_df["US10Y"].dropna()
+                if not valid_yields.empty:
+                  bond_yield = valid_yields.iloc[-1]
             except Exception as e:
-              self.logger.warning(f"Failed to read bond yield for intrinsic value: {e}")
+              self.logger.warning(
+                  f"Failed to read bond yield for intrinsic value: {e}")
 
           # 4. Calculate Graham Intrinsic Value
           if eps_ttm and growth_rate is not None and not np.isnan(growth_rate):
-             # Graham Intrinsic Value Equation: Value = EPS * (8.5 + 2 * Growth Rate) * (4.4 / Bond Yield)
-             # Growth is expected as an integer percentage in Graham's original formula (e.g. 5 for 5%)
-             # We bound growth conservatively
-             g_calc = max(0.0, min(growth_rate * 100, 25.0)) # Floor at 0, cap at 25% to prevent absurd valuations
+            # Graham Intrinsic Value Equation: Value = EPS * (8.5 + 2 * Growth Rate) * (4.4 / Bond Yield)
+            # Growth is expected as an integer percentage in Graham's original formula (e.g. 5 for 5%)
+            # We bound growth conservatively
+            g_calc = max(0.0, min(
+                growth_rate * 100,
+                25.0))  # Floor at 0, cap at 25% to prevent absurd valuations
 
-             if eps_ttm > 0:
-                 intrinsic_value = eps_ttm * (8.5 + 2 * g_calc) * (4.4 / bond_yield)
-                 info["graham_intrinsic_value"] = round(intrinsic_value, 2)
+            if eps_ttm > 0:
+              intrinsic_value = eps_ttm * (8.5 + 2 * g_calc) * (4.4 /
+                                                                bond_yield)
+              info["graham_intrinsic_value"] = round(intrinsic_value, 2)
 
-                 # Calculate discount
-                 current_price = info.get("currentPrice") or info.get("previousClose")
-                 if current_price and current_price > 0:
-                     discount = ((intrinsic_value - current_price) / intrinsic_value) * 100
-                     info["discount_to_intrinsic_value"] = round(discount, 2)
+              # Calculate discount
+              current_price = info.get("currentPrice") or info.get(
+                  "previousClose")
+              if current_price and current_price > 0:
+                discount = (
+                    (intrinsic_value - current_price) / intrinsic_value) * 100
+                info["discount_to_intrinsic_value"] = round(discount, 2)
 
         except Exception as e:
-           self.logger.warning(f"Failed to calculate Intrinsic Value for {ticker}: {e}")
+          self.logger.warning(
+              f"Failed to calculate Intrinsic Value for {ticker}: {e}")
 
         sorted_keys = sorted(info.keys())
         with open(ticker_path / FUNDAMENTALS_FILENAME, 'w',
@@ -1435,7 +1466,8 @@ class MarketFetcher:
       earn_key = f"earn_{ticker}"
       if ticker in SKIP_EARNINGS:
         # Prevent skip logic from bypassing cache writes
-        if self._load_cache(earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
+        if self._load_cache(
+            earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
           self._save_cache(earn_key, pd.DataFrame())
         continue
 
@@ -1446,7 +1478,7 @@ class MarketFetcher:
         if earnings is None:
           try:
             if yf_ticker is None:
-                yf_ticker = yf.Ticker(ticker)
+              yf_ticker = yf.Ticker(ticker)
             earnings = yf_ticker.earnings_dates
             if earnings is None:
               earnings = pd.DataFrame()

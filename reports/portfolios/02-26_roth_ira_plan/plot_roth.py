@@ -61,10 +61,11 @@ def create_roth_decision_tree(output_path: str) -> None:
                 "alpha": 0.9
             })
 
-  edges: List[Tuple[str, str]] = [("CASH", "NVDA_STATUS"), ("NVDA_STATUS", "ACTION_AVERAGE"),
-           ("NVDA_STATUS", "ACTION_DIVERSIFY"),
-           ("ACTION_AVERAGE", "OUTCOME_AVERAGE"),
-           ("ACTION_DIVERSIFY", "OUTCOME_DIVERSIFY")]
+  edges: List[Tuple[str, str]] = [("CASH", "NVDA_STATUS"),
+                                  ("NVDA_STATUS", "ACTION_AVERAGE"),
+                                  ("NVDA_STATUS", "ACTION_DIVERSIFY"),
+                                  ("ACTION_AVERAGE", "OUTCOME_AVERAGE"),
+                                  ("ACTION_DIVERSIFY", "OUTCOME_DIVERSIFY")]
 
   for start, end in edges:
     start_x = float(nodes[start]["pos"][0])
