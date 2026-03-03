@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (146 more) | | |
+| ... (197 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
 | Date | str | 2026-03-02 |
-| Source | str | Google |
+| Source | str | Yahoo |
 | Sentiment | float64 | 0.6 |
-| Headline | str | Is Amazon (AMZN) a Buy, Sell, or Hold in 2026? ... |
+| Headline | str | Stock Market Today, March 2: Netflix Advances A... |
 | Summary | str | Netflix rose as investors backed management’s d... |
-| URL | str | https://news.google.com/rss/articles/CBMigwFBVV... |
+| URL | str | https://www.fool.com/coverage/stock-market-toda... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
