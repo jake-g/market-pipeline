@@ -17,7 +17,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	6.3188
-dividendYield	1.12
+dividendYield	1.13
 epsTrailingTwelveMonths	20.083752
 esgPopulated	False
 exchange	NAS
@@ -25,16 +25,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	557.5242
-fiftyDayAverageChange	-6.684143
-fiftyDayAverageChangePercent	-0.011988974
-fiftyTwoWeekChangePercent	15.547907
+fiftyDayAverage	557.5826
+fiftyDayAverageChange	-5.572571
+fiftyDayAverageChangePercent	-0.009994162
+fiftyTwoWeekChangePercent	18.554592
 fiftyTwoWeekHigh	563.21
-fiftyTwoWeekHighChange	-12.369995
-fiftyTwoWeekHighChangePercent	-0.021963378
+fiftyTwoWeekHighChange	-11.200012
+fiftyTwoWeekHighChangePercent	-0.019886032
 fiftyTwoWeekLow	405.0
-fiftyTwoWeekLowChange	145.84003
-fiftyTwoWeekLowChangePercent	0.36009884
+fiftyTwoWeekLowChange	147.01001
+fiftyTwoWeekLowChangePercent	0.36298767
 fiftyTwoWeekRange	405.0 - 563.21
 firstTradeDateMilliseconds	868282200000
 fullExchangeName	Nasdaq
@@ -47,7 +47,7 @@ lastDividendValue	6.3188
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the S&P 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. It is non-diversified.
 longName	Vanguard Institutional Index Instl Pl
 market	us_market
-marketState	REGULAR
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_28113781
 morningStarOverallRating	4
@@ -55,28 +55,28 @@ morningStarRiskRating	3
 netAssets	338488754000.0
 netExpenseRatio	0.02
 phone	800-523-1036
-previousClose	556.07
+previousClose	555.12
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-5.23
-regularMarketChangePercent	-0.94052905
-regularMarketPreviousClose	556.07
-regularMarketPrice	550.84
-regularMarketTime	1772629862
+regularMarketChange	-3.11
+regularMarketChangePercent	-0.56023926
+regularMarketPreviousClose	555.12
+regularMarketPrice	552.01
+regularMarketTime	1772754799
 shortName	Vanguard Institutional Index Fu
 sourceInterval	15
 symbol	VIIIX
 totalAssets	338488754176
 tradeable	False
-trailingPE	27.427147
+trailingPE	27.485403
 trailingPegRatio	None
-trailingThreeMonthReturns	1.75407
+trailingThreeMonthReturns	0.7357
 triggerable	False
-twoHundredDayAverage	533.5929
-twoHundredDayAverageChange	17.247131
-twoHundredDayAverageChangePercent	0.03232264
+twoHundredDayAverage	533.96075
+twoHundredDayAverageChange	18.049255
+twoHundredDayAverageChangePercent	0.033802588
 typeDisp	Fund
-yield	0.0112
-ytdReturn	1.44728
+yield	0.0113
+ytdReturn	0.67564

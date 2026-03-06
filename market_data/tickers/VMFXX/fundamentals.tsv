@@ -1,7 +1,7 @@
 Metric	Value
 allTimeHigh	1.0
 allTimeLow	1.0
-averageMaturity	38
+averageMaturity	39
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
@@ -29,10 +29,10 @@ hasPrePostMarketData	False
 language	en-US
 longName	Vanguard Money Market Reserves - Vanguard Federal Money Market Fund
 market	us_market
-marketState	REGULAR
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_60274409
-netAssets	1.0
+netAssets	374775.6
 priceHint	4
 quoteSourceName	Delayed Quote
 quoteType	MONEYMARKET
@@ -42,7 +42,7 @@ regularMarketTime	1570657386
 shortName	Vanguard Money Market Reserves 
 sourceInterval	15
 symbol	VMFXX
-totalAssets	1000000
+totalAssets	374775578624
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingPegRatio	None
@@ -51,4 +51,4 @@ twoHundredDayAverage	1.0
 twoHundredDayAverageChange	0.0
 twoHundredDayAverageChangePercent	0.0
 typeDisp	MoneyMarket
-yield	0.036514
+yield	0.036531

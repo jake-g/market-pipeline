@@ -1,24 +1,24 @@
 Metric	Value
-52WeekChange	-0.06497097
-SandP52WeekChange	0.16670573
-address1	106 East Babcock Street
+52WeekChange	0.07707083
+SandP52WeekChange	0.19708562
+address1	135 Constitution Drive
 address2	Suite 3A
 allTimeHigh	429.0
 allTimeLow	107.13
-ask	168.7
-askSize	200
+ask	176.43
+askSize	300
 auditRisk	4
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	8582510
-averageDailyVolume3Month	6033596
-averageVolume	6033596
-averageVolume10days	8582510
+averageDailyVolume10Day	8551660
+averageDailyVolume3Month	5900544
+averageVolume	5900544
+averageVolume10days	8551660
 beta	1.212
-bid	168.3
+bid	177.1
 bidSize	300
 boardRisk	10
 bookValue	5.621
-city	Bozeman
+city	Menlo Park
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Sridhar  Ramaswamy Ph.D.', 'age': 58, 'title': 'CEO & Director', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1571806, 'exercisedValue': 0, 'unexercisedValue': 3250406}, {'maxAge': 1, 'name': 'Dr. Benoit  Dageville Ph.D.', 'age': 57, 'title': 'Co-Founder, Chief Architect & President of Product Division & Director', 'yearBorn': 1968, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christian  Kleinerman', 'age': 48, 'title': 'Executive Vice President of Product', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 814997, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Vivek  Raghunathan', 'age': 45, 'title': 'Senior Vice President of Engineering', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1438498, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Thierry  Cruanes', 'title': 'Co-Founder', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brian G. Robins', 'age': 55, 'title': 'Chief Financial Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Emily  Ho', 'age': 45, 'title': 'Chief Accounting Officer', 'yearBorn': 1980, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. S.  Muralidhar', 'title': 'Chief Technology Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mike  Blandina', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Katherine Anne McCracken', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	168.705
+currentPrice	177.45
 currentRatio	1.299
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	169.7599
-dayLow	164.0002
+dayHigh	178.6
+dayLow	168.71
 debtToEquity	142.462
 displayName	Snowflake
 earningsCallTimestampEnd	1772056800
@@ -41,34 +41,34 @@ earningsTimestampEnd	1772053200
 earningsTimestampStart	1772053200
 ebitda	-1110548992
 ebitdaMargins	-0.23709999
-enterpriseToEbitda	-49.94
-enterpriseToRevenue	11.841
-enterpriseValue	55460515840
-epsCurrentYear	1.78348
-epsForward	2.4251
-epsTrailingTwelveMonths	-4.01
+enterpriseToEbitda	-50.701
+enterpriseToRevenue	12.021
+enterpriseValue	56305983488
+epsCurrentYear	1.78708
+epsForward	2.43143
+epsTrailingTwelveMonths	-4.24
 esgPopulated	False
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	197.8926
-fiftyDayAverageChange	-29.187592
-fiftyDayAverageChangePercent	-0.14749208
-fiftyTwoWeekChangePercent	-6.497097
+fiftyDayAverage	196.8316
+fiftyDayAverageChange	-19.381607
+fiftyDayAverageChangePercent	-0.09846796
+fiftyTwoWeekChangePercent	7.707083
 fiftyTwoWeekHigh	280.67
-fiftyTwoWeekHighChange	-111.96501
-fiftyTwoWeekHighChangePercent	-0.39892048
+fiftyTwoWeekHighChange	-103.22002
+fiftyTwoWeekHighChangePercent	-0.3677629
 fiftyTwoWeekLow	120.1
-fiftyTwoWeekLowChange	48.605003
-fiftyTwoWeekLowChangePercent	0.40470445
+fiftyTwoWeekLowChange	57.35
+fiftyTwoWeekLowChangePercent	0.47751874
 fiftyTwoWeekRange	120.1 - 280.67
 financialCurrency	USD
 firstTradeDateMilliseconds	1600263000000
 floatShares	332556707
-forwardEps	2.4251
-forwardPE	69.5662
+forwardEps	2.43143
+forwardPE	72.981735
 freeCashflow	1763663744
 fullExchangeName	NYSE
 fullTimeEmployees	9023
@@ -78,7 +78,7 @@ grossMargins	0.67061996
 grossProfits	3141127936
 hasPrePostMarketData	True
 heldPercentInsiders	0.0322
-heldPercentInstitutions	0.78088
+heldPercentInstitutions	0.78092
 impliedSharesOutstanding	342200000
 industry	Software - Application
 industryDisp	Software - Application
@@ -87,34 +87,34 @@ ipoExpectedDate	2020-09-16
 isEarningsDateEstimate	False
 language	en-US
 lastFiscalYearEnd	1769817600
-longBusinessSummary	Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Bozeman, Montana.
+longBusinessSummary	Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Menlo Park, California.
 longName	Snowflake Inc.
 market	us_market
-marketCap	57730850816
-marketState	REGULAR
+marketCap	60723388416
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_275004592
 mostRecentQuarter	1769817600
 netIncomeToCommon	-1331616000
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	56733338000
-numberOfAnalystOpinions	47
-open	165.66
+nonDilutedMarketCap	57578572000
+numberOfAnalystOpinions	46
+open	168.71
 operatingCashflow	1221942016
 operatingMargins	-0.24420999
 overallRisk	10
 payoutRatio	0.0
 pegRatio	5.6
 phone	844 766 9355
-postMarketChange	-2.3554077
-postMarketChangePercent	-1.3828496
-postMarketPrice	167.9746
-postMarketTime	1772497871
-previousClose	165.79
-priceEpsCurrentYear	94.593155
+postMarketChange	-0.18989563
+postMarketChangePercent	-0.1070136
+postMarketPrice	177.2601
+postMarketTime	1772758787
+previousClose	168.26
+priceEpsCurrentYear	99.29605
 priceHint	2
-priceToBook	30.013344
-priceToSalesTrailing12Months	12.32526
+priceToBook	31.569117
+priceToSalesTrailing12Months	12.964152
 profitMargins	-0.28429002
 quickRatio	1.206
 quoteSourceName	Nasdaq Real Time Price
@@ -122,16 +122,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.53846
 region	US
-regularMarketChange	2.9150085
-regularMarketChangePercent	1.7582536
-regularMarketDayHigh	169.7599
-regularMarketDayLow	164.0002
-regularMarketDayRange	164.0002 - 169.7599
-regularMarketOpen	165.66
-regularMarketPreviousClose	165.79
-regularMarketPrice	168.705
-regularMarketTime	1772654269
-regularMarketVolume	2288858
+regularMarketChange	9.19
+regularMarketChangePercent	5.46179
+regularMarketDayHigh	178.6
+regularMarketDayLow	168.71
+regularMarketDayRange	168.71 - 178.6
+regularMarketOpen	168.71
+regularMarketPreviousClose	168.26
+regularMarketPrice	177.45
+regularMarketTime	1772744402
+regularMarketVolume	6055314
 returnOnAssets	-0.09158
 returnOnEquity	-0.53908
 revenueGrowth	0.301
@@ -149,12 +149,12 @@ shortName	Snowflake Inc.
 shortPercentOfFloat	0.039100002
 shortRatio	1.96
 sourceInterval	15
-state	MT
+state	CA
 symbol	SNOW
 targetHighPrice	500.0
-targetLowPrice	170.0
-targetMeanPrice	240.29192
-targetMedianPrice	235.0
+targetLowPrice	176.0
+targetMeanPrice	241.82
+targetMedianPrice	237.5
 totalCash	4029686016
 totalCashPerShare	11.773
 totalDebt	2741114112
@@ -162,13 +162,13 @@ totalRevenue	4683945984
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-4.01
+trailingEps	-4.24
 trailingPegRatio	5.6005
 triggerable	True
-twoHundredDayAverage	218.2596
-twoHundredDayAverageChange	-49.554596
-twoHundredDayAverageChangePercent	-0.2270443
+twoHundredDayAverage	218.18605
+twoHundredDayAverageChange	-40.736053
+twoHundredDayAverageChangePercent	-0.1867033
 typeDisp	Equity
-volume	2288858
+volume	6055314
 website	https://www.snowflake.com
-zip	59715
+zip	94025
