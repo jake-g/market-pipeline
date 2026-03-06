@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.05664313
-SandP52WeekChange	0.16670573
+52WeekChange	0.07961583
+SandP52WeekChange	0.19708562
 address1	800 Capitol Street
 address2	Suite 3000
 allTimeHigh	244.88
 allTimeLow	1.375
-ask	244.35
-askSize	100
+ask	248.0
+askSize	500
 auditRisk	1
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	2317650
-averageDailyVolume3Month	2121923
-averageVolume	2121923
-averageVolume10days	2317650
+averageDailyVolume10Day	2389500
+averageDailyVolume3Month	2141169
+averageVolume	2141169
+averageVolume10days	2389500
 beta	0.533
-bid	244.17
+bid	244.87
 bidSize	200
 boardRisk	1
 bookValue	24.793
@@ -22,18 +22,18 @@ city	Houston
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. James C. Fish Jr.', 'age': 63, 'title': 'CEO & Director', 'yearBorn': 1962, 'fiscalYear': 2024, 'totalPay': 4855010, 'exercisedValue': 7776604, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John J. Morris Jr.', 'age': 55, 'title': 'President & COO', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 2295698, 'exercisedValue': 2190014, 'unexercisedValue': 1019227}, {'maxAge': 1, 'name': 'Ms. Tara J. Hemmer', 'age': 52, 'title': 'Senior VP & Chief Sustainability Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'totalPay': 1790784, 'exercisedValue': 0, 'unexercisedValue': 4044183}, {'maxAge': 1, 'name': 'Mr. Rafael E. Carrasco', 'age': 53, 'title': 'Senior Vice President of Enterprise Strategy', 'yearBorn': 1972, 'fiscalYear': 2024, 'totalPay': 1633549, 'exercisedValue': 816870, 'unexercisedValue': 1187430}, {'maxAge': 1, 'name': 'Mr. David L. Reed', 'title': 'CFO & Executive VP', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John A. Carroll', 'age': 52, 'title': 'VP & Chief Accounting Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Johnson  Varkey', 'age': 53, 'title': 'Senior VP & Chief Information Officer', 'yearBorn': 1972, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Edward A. Egl', 'title': 'Director of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Charles C. Boettcher J.D.', 'age': 51, 'title': 'Executive VP of Corporate Development & Chief Legal Officer', 'yearBorn': 1974, 'fiscalYear': 2024, 'totalPay': 1357356, 'exercisedValue': 3335416, 'unexercisedValue': 891402}, {'maxAge': 1, 'name': 'Mr. Charles S. Schwager', 'title': 'VP and Chief Compliance & Ethics Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	1
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'WM announced a cash dividend of 0.945$ with an ex-date of Mar. 13, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1773378000000, 'amount': '0.945'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	244.35
+currentPrice	246.09
 currentRatio	0.889
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	244.48
-dayLow	240.5
+dayHigh	246.04
+dayLow	240.55
 debtToEquity	239.385
-discount_to_intrinsic_value	18.44
+discount_to_intrinsic_value	16.37
 displayName	Waste Management
 dividendDate	1766102400
 dividendRate	3.42
@@ -47,12 +47,12 @@ earningsTimestampEnd	1777323600
 earningsTimestampStart	1777323600
 ebitda	7559000064
 ebitdaMargins	0.29990998
-enterpriseToEbitda	16.127
-enterpriseToRevenue	4.837
-enterpriseValue	121905061888
-epsCurrentYear	8.21145
-epsForward	9.35916
-epsTrailingTwelveMonths	6.69
+enterpriseToEbitda	16.154
+enterpriseToRevenue	4.845
+enterpriseValue	122110763008
+epsCurrentYear	8.20404
+epsForward	9.35879
+epsTrailingTwelveMonths	6.77
 eps_normalized_growth	0.15952178494292668
 esgPopulated	False
 exDividendDate	1773360000
@@ -61,34 +61,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	226.1018
-fiftyDayAverageChange	18.2482
-fiftyDayAverageChangePercent	0.080707885
-fiftyTwoWeekChangePercent	5.664313
-fiftyTwoWeekHigh	244.88
-fiftyTwoWeekHighChange	-0.5299988
-fiftyTwoWeekHighChangePercent	-0.0021643203
+fiftyDayAverage	226.6144
+fiftyDayAverageChange	19.475601
+fiftyDayAverageChangePercent	0.08594159
+fiftyTwoWeekChangePercent	7.961583
+fiftyTwoWeekHigh	246.04
+fiftyTwoWeekHighChange	0.05000305
+fiftyTwoWeekHighChangePercent	0.0002032314
 fiftyTwoWeekLow	194.11
-fiftyTwoWeekLowChange	50.240005
-fiftyTwoWeekLowChangePercent	0.25882235
-fiftyTwoWeekRange	194.11 - 244.88
+fiftyTwoWeekLowChange	51.979996
+fiftyTwoWeekLowChangePercent	0.2677863
+fiftyTwoWeekRange	194.11 - 246.04
 financialCurrency	USD
 firstTradeDateMilliseconds	582989400000
 fiveYearAvgDividendYield	1.5
 floatShares	402028973
-forwardEps	9.35916
-forwardPE	26.108112
+forwardEps	9.35879
+forwardPE	26.295065
 freeCashflow	1732000000
 fullExchangeName	NYSE
 fullTimeEmployees	60500
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1772323200
-graham_intrinsic_value	299.58
+graham_intrinsic_value	294.27
 grossMargins	0.40438
 grossProfits	10192000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0028
-heldPercentInstitutions	0.83782995
+heldPercentInstitutions	0.83742994
 impliedSharesOutstanding	403335781
 industry	Waste Management
 industryDisp	Waste Management
@@ -102,30 +102,30 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Waste Management, Inc., through its subsidiaries, provides environmental solutions to residential, commercial, industrial, and municipal customers in the United States, Canada, Western Europe, and internationally. It offers collection services, including picking up and transporting waste and recyclable materials from where it was generated to a transfer station, recovery facility, or disposal site; owns and operates transfer stations; and owns, develops, and operates landfill gas-to-energy facilities that produce renewable electricity and renewable natural gas. It also operates materials processing and commodities recycling services, including cardboard, paper, glass, metals, plastics, construction and demolition materials, and other recycling commodities are recovered for resale or redirected for other purposes; markets and resells recycling commodities; recycling brokerage services, such as managing the marketing of recyclable materials for third parties; and other strategic business solutions. In addition, the company collects recyclable food and yard waste, as well as markets and sells mulch, compost, soil amendments, and renewable energy; offers remediation and construction, and industrial waste services; and manages and markets fly ash. Further, it provides Regulated Waste and Compliance Services (RWCS), which offers compliance programs, as well as collection, processing, and disposal of regulated and specialized waste, including medical, pharmaceutical, and hazardous waste; and Secure Information Destruction (SID) services that include the collection of personal and confidential information for secure destruction and recycling of sorted office paper. The company was formerly known as USA Waste Services, Inc. and changed its name to Waste Management, Inc. in 1998. Waste Management, Inc. was founded in 1968 and is based in Houston, Texas.
 longName	Waste Management, Inc.
 market	us_market
-marketCap	98555101184
-marketState	REGULAR
+marketCap	99256901632
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_190694
 mostRecentQuarter	1767139200
 netIncomeToCommon	2708000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	98188062526
+nonDilutedMarketCap	98393763774
 numberOfAnalystOpinions	25
-open	241.76
+open	242.63
 operatingCashflow	6042999808
 operatingMargins	0.20038
 overallRisk	1
 payoutRatio	0.4925
 phone	713 512 6200
-postMarketChange	-1.0700073
-postMarketChangePercent	-0.44020543
-postMarketPrice	242.0
-postMarketTime	1772497967
-previousClose	243.44
-priceEpsCurrentYear	29.75723
+postMarketChange	-0.58999634
+postMarketChangePercent	-0.2397482
+postMarketPrice	245.5
+postMarketTime	1772758769
+previousClose	243.95
+priceEpsCurrentYear	29.996199
 priceHint	2
-priceToBook	9.855605
-priceToSalesTrailing12Months	3.910296
+priceToBook	9.925786
+priceToSalesTrailing12Months	3.9381406
 profitMargins	0.10744
 quickRatio	0.77
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.74074
 region	US
-regularMarketChange	0.91000366
-regularMarketChangePercent	0.37381023
-regularMarketDayHigh	244.48
-regularMarketDayLow	240.5
-regularMarketDayRange	240.5 - 244.48
-regularMarketOpen	241.76
-regularMarketPreviousClose	243.44
-regularMarketPrice	244.35
-regularMarketTime	1772654329
-regularMarketVolume	1290738
+regularMarketChange	2.14
+regularMarketChangePercent	0.877229
+regularMarketDayHigh	246.04
+regularMarketDayLow	240.55
+regularMarketDayRange	240.55 - 246.04
+regularMarketOpen	242.63
+regularMarketPreviousClose	243.95
+regularMarketPrice	246.09
+regularMarketTime	1772744402
+regularMarketVolume	2830879
 returnOnAssets	0.06493
 returnOnEquity	0.29696
 revenueGrowth	0.071
@@ -162,7 +162,7 @@ shortRatio	2.1
 sourceInterval	15
 state	TX
 symbol	WM
-syntheticPEG	1.10627593220339
+syntheticPEG	1.1141976694915257
 targetHighPrice	285.0
 targetLowPrice	210.0
 targetMeanPrice	253.12
@@ -173,15 +173,15 @@ totalDebt	23917000704
 totalRevenue	25204000768
 tradeable	False
 trailingAnnualDividendRate	3.3
-trailingAnnualDividendYield	0.013555701
-trailingEps	6.69
-trailingPE	36.524666
-trailingPegRatio	2.8106
+trailingAnnualDividendYield	0.013527362
+trailingEps	6.77
+trailingPE	36.350075
+trailingPegRatio	2.8165
 triggerable	True
-twoHundredDayAverage	223.2424
-twoHundredDayAverageChange	21.107605
-twoHundredDayAverageChangePercent	0.09455016
+twoHundredDayAverage	223.32205
+twoHundredDayAverageChange	22.767944
+twoHundredDayAverageChangePercent	0.10195117
 typeDisp	Equity
-volume	1290738
+volume	2830879
 website	https://www.wm.com
 zip	77002
