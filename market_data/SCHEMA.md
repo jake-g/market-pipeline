@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.08031893 |
+| Value | str | 0.09882057 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -25,7 +25,7 @@ This report documents the file structures and column data types used in `market_
 | Earnings Date | str | 2026-04-30 17:00:00-04:00 |
 | EPS Estimate | float64 | 1.64 |
 | Reported EPS | float64 | 1.95 |
-| Surprise(%) | float64 | 0.22 |
+| Surprise(%) | float64 | -0.49 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-06 |
+| Date | str | 2026-03-07 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.15 |
-| Headline | str | Elon Musk's Starlink Escalates The 5G War In Sp... |
-| Summary | str | The 5G war just left Earth. Elon Musk amplified... |
-| URL | str | https://finance.yahoo.com/news/elon-musks-starl... |
+| Sentiment | float64 | 0.224 |
+| Headline | str | We Got Hooked on Fast, Free Shipping. Now Retai... |
+| Summary | str | As FedEx and UPS charge more, companies are try... |
+| URL | str | https://finance.yahoo.com/m/41008dec-7ac4-39a7-... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

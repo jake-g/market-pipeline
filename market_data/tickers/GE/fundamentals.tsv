@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.7332823
-SandP52WeekChange	0.19708562
+52WeekChange	0.7020092
+SandP52WeekChange	0.2166065
 address1	1 Neumann Way
 allTimeHigh	348.48
 allTimeLow	2.708226
-ask	328.45
-askSize	80
+ask	323.0
+askSize	120
 auditRisk	9
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	5131000
-averageDailyVolume3Month	5409603
-averageVolume	5409603
-averageVolume10days	5131000
+averageDailyVolume10Day	5167870
+averageDailyVolume3Month	5399866
+averageVolume	5399866
+averageVolume10days	5167870
 beta	1.369
-bid	327.0
-bidSize	160
+bid	322.31
+bidSize	360
 boardRisk	7
 bookValue	17.809
 city	Evendale
@@ -25,17 +25,17 @@ corporateActions	[{'header': 'Dividend', 'message': 'GE announced a cash dividen
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	326.99
+currentPrice	323.11
 currentRatio	1.041
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	341.81
-dayLow	320.8
+dayHigh	324.5378
+dayLow	317.61
 debtToEquity	114.07
-discount_to_intrinsic_value	35.46
+discount_to_intrinsic_value	36.14
 dividendDate	1777248000
 dividendRate	1.88
-dividendYield	0.55
+dividendYield	0.57
 earningsCallTimestampEnd	1776771000
 earningsCallTimestampStart	1776771000
 earningsGrowth	0.374
@@ -45,12 +45,12 @@ earningsTimestampEnd	1776778200
 earningsTimestampStart	1776778200
 ebitda	10702999552
 ebitdaMargins	0.23341
-enterpriseToEbitda	34.213
-enterpriseToRevenue	7.986
-enterpriseValue	366183350272
+enterpriseToEbitda	32.577
+enterpriseToRevenue	7.604
+enterpriseValue	348668166144
 epsCurrentYear	7.43146
 epsForward	8.55462
-epsTrailingTwelveMonths	8.05
+epsTrailingTwelveMonths	8.04
 eps_normalized_growth	0.34160767514694457
 esgPopulated	False
 exDividendDate	1773014400
@@ -59,34 +59,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	319.0626
-fiftyDayAverageChange	7.9273987
-fiftyDayAverageChangePercent	0.024845904
-fiftyTwoWeekChangePercent	73.32823
+fiftyDayAverage	319.4582
+fiftyDayAverageChange	3.6517944
+fiftyDayAverageChangePercent	0.011431213
+fiftyTwoWeekChangePercent	70.20092
 fiftyTwoWeekHigh	348.48
-fiftyTwoWeekHighChange	-21.49002
-fiftyTwoWeekHighChangePercent	-0.06166787
+fiftyTwoWeekHighChange	-25.370026
+fiftyTwoWeekHighChangePercent	-0.072801955
 fiftyTwoWeekLow	159.36
-fiftyTwoWeekLowChange	167.62999
-fiftyTwoWeekLowChangePercent	1.051895
+fiftyTwoWeekLowChange	163.74998
+fiftyTwoWeekLowChangePercent	1.0275476
 fiftyTwoWeekRange	159.36 - 348.48
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	0.39
 floatShares	1045121788
 forwardEps	8.55462
-forwardPE	38.22379
+forwardPE	37.770233
 freeCashflow	5210999808
 fullExchangeName	NYSE
 fullTimeEmployees	57000
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1772323200
-graham_intrinsic_value	506.62
+graham_intrinsic_value	505.99
 grossMargins	0.31499
 grossProfits	14444000256
 hasPrePostMarketData	True
-heldPercentInsiders	0.0019400001
-heldPercentInstitutions	0.80764
+heldPercentInsiders	0.00219
+heldPercentInstitutions	0.80763
 impliedSharesOutstanding	1054813911
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -102,7 +102,7 @@ lastSplitFactor	1253:1000
 longBusinessSummary	General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and aircraft systems. The company operates through two segments, Commercial Engines & Services, and Defense & Propulsion Technologies. The Commercial Engines & Services segment designs, develops, manufactures, maintenance, repair, and overhaul (MRO) services of jet engines and sale of spare parts for commercial airframes, business aviation, and aeroderivative applications. The Defense & Propulsion Technologies designs, develops, manufactures, and services jet engines and avionics and power systems for governments, militaries, and commercial airframers, as well as MRO of engines and the sale of spare parts. This segment also offers aircraft components and systems, such as small turboprop engines, aeroengine mechanical transmissions, turbines, combustors and controls, additive manufacturing, propeller systems, ignition systems, sensors and engine accessories for fixed wing and rotorcraft applications for commercial and military end users under the Avio Aero, Unison, Dowty Propellers, and Colibrium Additive brands. The company operates in the United States, Europe, Asia, the Americas, the Middle East, and Africa. General Electric Company was incorporated in 1892 and is based in Evendale, Ohio.
 longName	GE Aerospace
 market	us_market
-marketCap	344913575936
+marketCap	340820885504
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_177031
@@ -111,21 +111,21 @@ netIncomeToCommon	8600999936
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	356397353493
 numberOfAnalystOpinions	18
-open	336.58
+open	323.67
 operatingCashflow	8536999936
 operatingMargins	0.19549
 overallRisk	9
 payoutRatio	0.17889999
 phone	(513) 243-2000
-postMarketChange	0.84469604
-postMarketChangePercent	0.25832474
-postMarketPrice	327.8347
-postMarketTime	1772758781
-previousClose	339.81
-priceEpsCurrentYear	44.000774
+postMarketChange	-0.519989
+postMarketChangePercent	-0.16093251
+postMarketPrice	322.59
+postMarketTime	1772845045
+previousClose	326.99
+priceEpsCurrentYear	43.47867
 priceHint	2
-priceToBook	18.36094
-priceToSalesTrailing12Months	7.5218315
+priceToBook	18.143072
+priceToSalesTrailing12Months	7.4325786
 profitMargins	0.18982
 quickRatio	0.69
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.47368
 region	US
-regularMarketChange	-12.82
-regularMarketChangePercent	-3.7727
-regularMarketDayHigh	341.81
-regularMarketDayLow	320.8
-regularMarketDayRange	320.8 - 341.81
-regularMarketOpen	336.58
-regularMarketPreviousClose	339.81
-regularMarketPrice	326.99
-regularMarketTime	1772744403
-regularMarketVolume	3755751
+regularMarketChange	-3.88
+regularMarketChangePercent	-1.18658
+regularMarketDayHigh	324.5378
+regularMarketDayLow	317.61
+regularMarketDayRange	317.61 - 324.5378
+regularMarketOpen	323.67
+regularMarketPreviousClose	326.99
+regularMarketPrice	323.11
+regularMarketTime	1772830803
+regularMarketVolume	3108663
 returnOnAssets	0.0468
 returnOnEquity	0.44692
 revenueGrowth	0.176
@@ -162,7 +162,7 @@ shortRatio	2.43
 sourceInterval	15
 state	OH
 symbol	GE
-syntheticPEG	1.0220264705882354
+syntheticPEG	1.0098992780748663
 targetHighPrice	425.0
 targetLowPrice	290.0
 targetMeanPrice	362.83334
@@ -173,15 +173,15 @@ totalDebt	21557000192
 totalRevenue	45854998528
 tradeable	False
 trailingAnnualDividendRate	1.44
-trailingAnnualDividendYield	0.0042376625
-trailingEps	8.05
-trailingPE	40.619873
+trailingAnnualDividendYield	0.004403805
+trailingEps	8.04
+trailingPE	40.18781
 trailingPegRatio	5.8713
 triggerable	True
-twoHundredDayAverage	287.599
-twoHundredDayAverageChange	39.39099
-twoHundredDayAverageChangePercent	0.13696498
+twoHundredDayAverage	288.07504
+twoHundredDayAverageChange	35.034943
+twoHundredDayAverageChangePercent	0.121617414
 typeDisp	Equity
-volume	3755751
+volume	3108663
 website	https://www.geaerospace.com
 zip	45215
