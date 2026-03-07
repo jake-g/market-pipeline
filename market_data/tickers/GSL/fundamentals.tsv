@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.7276633
-SandP52WeekChange	0.19708562
+52WeekChange	0.64404607
+SandP52WeekChange	0.2166065
 address1	9 Irodou Attikou Street
 address2	Kifisia
 allTimeHigh	64.4
 allTimeLow	2.61
-ask	39.16
-askSize	200
+ask	38.81
+askSize	500
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	447240
-averageDailyVolume3Month	355516
-averageVolume	355516
-averageVolume10days	447240
+averageDailyVolume10Day	511860
+averageDailyVolume3Month	364921
+averageVolume	364921
+averageVolume10days	511860
 beta	0.901
-bid	38.46
+bid	38.75
 bidSize	200
 bookValue	47.999
 city	Athens
@@ -22,14 +22,14 @@ corporateActions	[]
 country	Greece
 cryptoTradeable	False
 currency	USD
-currentPrice	38.52
+currentPrice	38.81
 currentRatio	2.192
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	39.235
-dayLow	36.67
+dayHigh	39.4513
+dayLow	37.53
 debtToEquity	42.246
-discount_to_intrinsic_value	91.31
+discount_to_intrinsic_value	91.25
 displayName	Global Ship Lease
 dividendDate	1772755200
 dividendRate	2.5
@@ -39,15 +39,15 @@ earningsCallTimestampStart	1772724600
 earningsGrowth	0.165
 earningsQuarterlyGrowth	0.171
 earningsTimestamp	1772717400
-earningsTimestampEnd	1772717400
-earningsTimestampStart	1772717400
+earningsTimestampEnd	1779111000
+earningsTimestampStart	1779111000
 ebitda	478998016
 ebitdaMargins	0.64119005
 enterpriseToEbitda	3.479
 enterpriseToRevenue	2.231
 enterpriseValue	1666349568
-epsCurrentYear	10.01
-epsForward	7.9
+epsCurrentYear	9.68
+epsForward	9.415
 epsTrailingTwelveMonths	11.07
 eps_normalized_growth	0.14361580296574195
 esgPopulated	False
@@ -57,22 +57,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	36.9986
-fiftyDayAverageChange	1.5214005
-fiftyDayAverageChangePercent	0.04112049
-fiftyTwoWeekChangePercent	72.76633
+fiftyDayAverage	37.0926
+fiftyDayAverageChange	1.7173996
+fiftyDayAverageChangePercent	0.046300326
+fiftyTwoWeekChangePercent	64.40461
 fiftyTwoWeekHigh	41.4
-fiftyTwoWeekHighChange	-2.880001
-fiftyTwoWeekHighChangePercent	-0.069565244
+fiftyTwoWeekHighChange	-2.5900002
+fiftyTwoWeekHighChangePercent	-0.06256039
 fiftyTwoWeekLow	17.73
-fiftyTwoWeekLowChange	20.79
-fiftyTwoWeekLowChangePercent	1.172589
+fiftyTwoWeekLowChange	21.080002
+fiftyTwoWeekLowChangePercent	1.1889454
 fiftyTwoWeekRange	17.73 - 41.4
 financialCurrency	USD
 firstTradeDateMilliseconds	1218807000000
 floatShares	32520173
-forwardEps	7.9
-forwardPE	4.8759494
+forwardEps	9.415
+forwardPE	4.1221457
 freeCashflow	72714376
 fullExchangeName	NYSE
 fullTimeEmployees	7
@@ -87,7 +87,7 @@ impliedSharesOutstanding	35770652
 industry	Marine Shipping
 industryDisp	Marine Shipping
 industryKey	marine-shipping
-isEarningsDateEstimate	False
+isEarningsDateEstimate	True
 language	en-US
 lastDividendDate	1771891200
 lastDividendValue	0.625
@@ -97,7 +97,7 @@ lastSplitFactor	1:8
 longBusinessSummary	Global Ship Lease, Inc., together with its subsidiaries, engages in owning and chartering of containerships under fixed-rate charters to container shipping companies worldwide. As of March 10, 2025, it owned 70 mid-sized and smaller containerships, ranging from 2,207 to 11,040 twenty-foot equivalent unit (TEU), with an aggregate capacity of 404,681 TEU. The company was formerly known as Marathon Acquisition Corp. and changed its name to Global Ship Lease, Inc. in August 2008. Global Ship Lease, Inc. was founded in 2007 and is based in Athens, Greece.
 longName	Global Ship Lease, Inc.
 market	us_market
-marketCap	1377885568
+marketCap	1388259072
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_27194602
@@ -106,37 +106,37 @@ netIncomeToCommon	396878016
 nextFiscalYearEnd	1767139200
 nonDilutedMarketCap	1438695623
 numberOfAnalystOpinions	2
-open	38.8
+open	37.86
 operatingCashflow	440336992
 operatingMargins	0.52409
 payoutRatio	0.1762
 phone	30 210 62 33 670
-postMarketChange	-0.049999237
-postMarketChangePercent	-0.12980072
-postMarketPrice	38.47
-postMarketTime	1772757481
-previousClose	40.22
-priceEpsCurrentYear	3.848152
+postMarketChange	0.43999863
+postMarketChangePercent	1.1337248
+postMarketPrice	39.25
+postMarketTime	1772844529
+previousClose	38.52
+priceEpsCurrentYear	4.0092974
 priceHint	2
-priceToBook	0.8025167
-priceToSalesTrailing12Months	1.8444505
+priceToBook	0.8085585
+priceToSalesTrailing12Months	1.8583364
 profitMargins	0.54403
 quickRatio	1.861
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.0
 region	US
-regularMarketChange	-1.7
-regularMarketChangePercent	-4.22675
-regularMarketDayHigh	39.235
-regularMarketDayLow	36.67
-regularMarketDayRange	36.67 - 39.235
-regularMarketOpen	38.8
-regularMarketPreviousClose	40.22
-regularMarketPrice	38.52
-regularMarketTime	1772744402
-regularMarketVolume	918890
+regularMarketChange	0.290001
+regularMarketChangePercent	0.752858
+regularMarketDayHigh	39.4513
+regularMarketDayLow	37.53
+regularMarketDayRange	37.53 - 39.4513
+regularMarketOpen	37.86
+regularMarketPreviousClose	38.52
+regularMarketPrice	38.81
+regularMarketTime	1772830802
+regularMarketVolume	586066
 returnOnAssets	0.10119
 returnOnEquity	0.26184
 revenueGrowth	0.097
@@ -154,11 +154,11 @@ shortPercentOfFloat	0.0251
 shortRatio	2.62
 sourceInterval	15
 symbol	GSL
-syntheticPEG	0.29551208484848485
-targetHighPrice	42.0
+syntheticPEG	0.2498270121212121
+targetHighPrice	48.0
 targetLowPrice	32.0
-targetMeanPrice	37.0
-targetMedianPrice	37.0
+targetMeanPrice	40.0
+targetMedianPrice	40.0
 totalCash	497696000
 totalCashPerShare	13.914
 totalDebt	725350016
@@ -167,13 +167,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	11.07
-trailingPE	3.4796748
+trailingPE	3.505872
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	31.64305
-twoHundredDayAverageChange	6.876951
-twoHundredDayAverageChangePercent	0.21732897
+twoHundredDayAverage	31.7101
+twoHundredDayAverageChange	7.099901
+twoHundredDayAverageChangePercent	0.2239003
 typeDisp	Equity
-volume	918890
+volume	586066
 website	https://www.globalshiplease.com
 zip	14561

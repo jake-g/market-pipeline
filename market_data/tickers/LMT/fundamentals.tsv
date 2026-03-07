@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.4398266
-SandP52WeekChange	0.19708562
+52WeekChange	0.3828777
+SandP52WeekChange	0.2166065
 address1	6801 Rockledge Drive
 allTimeHigh	692.0
 allTimeLow	0.281186
-ask	655.27
-askSize	400
+ask	668.57
+askSize	40
 auditRisk	2
 averageAnalystRating	2.6 - Hold
-averageDailyVolume10Day	1794640
-averageDailyVolume3Month	1764288
-averageVolume	1764288
-averageVolume10days	1794640
+averageDailyVolume10Day	1829840
+averageDailyVolume3Month	1763588
+averageVolume	1763588
+averageVolume10days	1829840
 beta	0.197
-bid	653.0
-bidSize	40
+bid	671.8
+bidSize	120
 boardRisk	7
 bookValue	29.349
 city	Bethesda
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	655.0
+currentPrice	671.77
 currentRatio	1.087
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	663.0
-dayLow	647.2288
+dayHigh	672.86
+dayLow	656.4
 debtToEquity	338.804
-discount_to_intrinsic_value	50.81
+discount_to_intrinsic_value	50.31
 displayName	Lockheed Martin
 dividendDate	1774569600
 dividendRate	13.5
-dividendYield	2.03
+dividendYield	2.06
 earningsCallTimestampEnd	1769693400
 earningsCallTimestampStart	1769693400
 earningsGrowth	1.61
@@ -46,12 +46,12 @@ earningsTimestampEnd	1776778200
 earningsTimestampStart	1776778200
 ebitda	8285000192
 ebitdaMargins	0.1104
-enterpriseToEbitda	20.704
-enterpriseToRevenue	2.286
-enterpriseValue	171533713408
-epsCurrentYear	29.88627
-epsForward	31.99675
-epsTrailingTwelveMonths	21.16
+enterpriseToEbitda	20.441
+enterpriseToRevenue	2.257
+enterpriseValue	169352560640
+epsCurrentYear	29.92156
+epsForward	31.9657
+epsTrailingTwelveMonths	21.48
 eps_normalized_growth	1.1159603348281277
 esgPopulated	False
 exDividendDate	1772409600
@@ -61,29 +61,29 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	720 479 2750
-fiftyDayAverage	587.4086
-fiftyDayAverageChange	67.59137
-fiftyDayAverageChangePercent	0.115067035
-fiftyTwoWeekChangePercent	43.982662
+fiftyDayAverage	591.026
+fiftyDayAverageChange	80.74402
+fiftyDayAverageChangePercent	0.13661669
+fiftyTwoWeekChangePercent	38.28777
 fiftyTwoWeekHigh	692.0
-fiftyTwoWeekHighChange	-37.0
-fiftyTwoWeekHighChangePercent	-0.05346821
+fiftyTwoWeekHighChange	-20.22998
+fiftyTwoWeekHighChangePercent	-0.029234076
 fiftyTwoWeekLow	410.11
-fiftyTwoWeekLowChange	244.89001
-fiftyTwoWeekLowChangePercent	0.5971325
+fiftyTwoWeekLowChange	261.66003
+fiftyTwoWeekLowChangePercent	0.63802403
 fiftyTwoWeekRange	410.11 - 692.0
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	2.64
 floatShares	196021462
-forwardEps	31.99675
-forwardPE	20.470829
+forwardEps	31.9657
+forwardPE	21.015339
 freeCashflow	5281625088
 fullExchangeName	NYSE
 fullTimeEmployees	123000
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1772323200
-graham_intrinsic_value	1331.68
+graham_intrinsic_value	1351.82
 grossMargins	0.1024
 grossProfits	7685000192
 hasPrePostMarketData	True
@@ -104,7 +104,7 @@ lastSplitFactor	2:1
 longBusinessSummary	Lockheed Martin Corporation, an aerospace and defense company, engages in the research, design, development, manufacture, integration, and sustainment of technology systems, products, and services in the United States, Europe, Asia, the Middle East, and internationally. The company operates through four segments: Aeronautics; Missiles and Fire Control (MFC); Rotary and Mission Systems (RMS); and Space. The Aeronautics segment offers combat and air mobility aircraft, unmanned air vehicles, and related technologies. The MFC segment provides air and missile defense systems; tactical missiles and precision strike weapon systems; logistics; fire control systems; mission operations support, readiness, engineering support, and integration services; and ground vehicles. The RMS segment offers military and commercial helicopters, surface ships, sea and land-based missile defense systems, radar and laser systems, sea and air-based mission and combat systems, command and control mission solutions, cyber solutions, simulation and training solutions, and services and supports surface ships. The Space segment provides satellites; space transportation systems; strategic, advanced strike, and defensive systems; and classified systems and services in support of national security systems. This segment also provides network-enabled situational awareness and integrates space and ground global systems to help its customers gather, analyze, and securely distribute critical intelligence data. It serves primarily serves the U.S. government and international customers, as well as foreign military sales contracted through the U.S. government. The company was formerly known as The Lockheed Corporation and changed its name to Lockheed Martin Corporation in March 1995. Lockheed Martin Corporation was founded in 1912 and is based in Bethesda, Maryland.
 longName	Lockheed Martin Corporation
 market	us_market
-marketCap	151565549568
+marketCap	155446099968
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_285827
@@ -113,21 +113,21 @@ netIncomeToCommon	5016999936
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	152883717875
 numberOfAnalystOpinions	19
-open	662.1
+open	661.65
 operatingCashflow	8557000192
 operatingMargins	0.090100005
 overallRisk	5
 payoutRatio	0.62119997
 phone	301 897 6000
-postMarketChange	0.039978027
-postMarketChangePercent	0.0061035156
-postMarketPrice	655.04
-postMarketTime	1772758769
-previousClose	664.48
-priceEpsCurrentYear	21.916418
+postMarketChange	5.0700073
+postMarketChangePercent	0.75472367
+postMarketPrice	676.84
+postMarketTime	1772845197
+previousClose	655.0
+priceEpsCurrentYear	22.451036
 priceHint	2
-priceToBook	22.317625
-priceToSalesTrailing12Months	2.0195813
+priceToBook	22.889025
+priceToSalesTrailing12Months	2.071289
 profitMargins	0.06685
 quickRatio	0.901
 quoteSourceName	Nasdaq Real Time Price
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.57143
 region	US
-regularMarketChange	-9.47998
-regularMarketChangePercent	-1.42668
-regularMarketDayHigh	663.0
-regularMarketDayLow	647.2288
-regularMarketDayRange	647.2288 - 663.0
-regularMarketOpen	662.1
-regularMarketPreviousClose	664.48
-regularMarketPrice	655.0
-regularMarketTime	1772744402
-regularMarketVolume	1716867
+regularMarketChange	16.77
+regularMarketChangePercent	2.56031
+regularMarketDayHigh	672.86
+regularMarketDayLow	656.4
+regularMarketDayRange	656.4 - 672.86
+regularMarketOpen	661.65
+regularMarketPreviousClose	655.0
+regularMarketPrice	671.77
+regularMarketTime	1772830802
+regularMarketVolume	1873547
 returnOnAssets	0.07569
 returnOnEquity	0.76865
 revenueGrowth	0.091
@@ -164,7 +164,7 @@ shortRatio	1.6
 sourceInterval	15
 state	MD
 symbol	LMT
-syntheticPEG	0.1271480062111801
+syntheticPEG	0.1305300559006211
 targetHighPrice	740.0
 targetLowPrice	517.0
 targetMeanPrice	657.579
@@ -175,15 +175,15 @@ totalDebt	22770999296
 totalRevenue	75048001536
 tradeable	False
 trailingAnnualDividendRate	13.35
-trailingAnnualDividendYield	0.020090898
-trailingEps	21.16
-trailingPE	30.954632
+trailingAnnualDividendYield	0.02038168
+trailingEps	21.48
+trailingPE	31.27421
 trailingPegRatio	1.4189
 triggerable	True
-twoHundredDayAverage	496.6187
-twoHundredDayAverageChange	158.38129
-twoHundredDayAverageChangePercent	0.3189193
+twoHundredDayAverage	497.5521
+twoHundredDayAverageChange	174.21793
+twoHundredDayAverageChangePercent	0.3501501
 typeDisp	Equity
-volume	1716867
+volume	1873547
 website	https://www.lockheedmartin.com
 zip	20817

@@ -1,19 +1,19 @@
 Metric	Value
 allTimeHigh	147.27
 allTimeLow	-40.32
-ask	78.66
-averageDailyVolume10Day	519045
-averageDailyVolume3Month	321520
-averageVolume	321520
-averageVolume10days	519045
-bid	78.65
+ask	91.47
+averageDailyVolume10Day	530294
+averageDailyVolume3Month	319977
+averageVolume	319977
+averageVolume10days	530294
+bid	90.6
 contractSymbol	False
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
-dayHigh	79.91
-dayLow	78.53
+dayHigh	92.61
+dayLow	78.24
 esgPopulated	False
 exchange	NYM
 exchangeDataDelayedBy	10
@@ -21,17 +21,17 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 expireDate	1773964800
 expireIsoDate	2026-03-20T00:00:00Z
-fiftyDayAverage	62.4334
-fiftyDayAverageChange	16.236599
-fiftyDayAverageChangePercent	0.26006272
-fiftyTwoWeekChangePercent	12.507534
-fiftyTwoWeekHigh	79.91
-fiftyTwoWeekHighChange	-1.2400055
-fiftyTwoWeekHighChangePercent	-0.015517525
+fiftyDayAverage	62.886
+fiftyDayAverageChange	28.383995
+fiftyDayAverageChangePercent	0.45135632
+fiftyTwoWeekChangePercent	20.838308
+fiftyTwoWeekHigh	92.61
+fiftyTwoWeekHighChange	-1.340004
+fiftyTwoWeekHighChangePercent	-0.014469323
 fiftyTwoWeekLow	54.98
-fiftyTwoWeekLowChange	23.689999
-fiftyTwoWeekLowChangePercent	0.43088394
-fiftyTwoWeekRange	54.98 - 79.91
+fiftyTwoWeekLowChange	36.289997
+fiftyTwoWeekLowChangePercent	0.66005814
+fiftyTwoWeekRange	54.98 - 92.61
 firstTradeDateMilliseconds	967003200000
 fullExchangeName	NY Mercantile
 gmtOffSetMilliseconds	-18000000
@@ -42,32 +42,32 @@ market	us24_market
 marketState	REGULAR
 maxAge	86400
 open	79.08
-openInterest	274555
+openInterest	255814
 previousClose	81.01
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	FUTURE
 region	US
-regularMarketChange	-2.340004
-regularMarketChangePercent	-2.8885372
-regularMarketDayHigh	79.91
-regularMarketDayLow	78.53
-regularMarketDayRange	78.53 - 79.91
+regularMarketChange	10.2599945
+regularMarketChangePercent	12.665096
+regularMarketDayHigh	92.61
+regularMarketDayLow	78.24
+regularMarketDayRange	78.24 - 92.61
 regularMarketOpen	79.08
 regularMarketPreviousClose	81.01
-regularMarketPrice	78.67
-regularMarketTime	1772758421
-regularMarketVolume	12281
+regularMarketPrice	91.27
+regularMarketTime	1772834399
+regularMarketVolume	954254
 shortName	Crude Oil Apr 26
 sourceInterval	30
 symbol	CL=F
 tradeable	False
 trailingPegRatio	None
 triggerable	False
-twoHundredDayAverage	62.78395
-twoHundredDayAverageChange	15.886047
-twoHundredDayAverageChangePercent	0.2530272
+twoHundredDayAverage	62.883
+twoHundredDayAverageChange	28.386997
+twoHundredDayAverageChangePercent	0.4514256
 typeDisp	Futures
 underlyingExchangeSymbol	CLJ26.NYM
 underlyingSymbol	CLJ26.NYM
-volume	12281
+volume	954254
