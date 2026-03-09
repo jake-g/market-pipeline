@@ -24,12 +24,12 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	245.7532
-fiftyDayAverageChange	-9.843201
-fiftyDayAverageChangePercent	-0.040053193
-fiftyTwoWeekChangePercent	24.515629
+fiftyDayAverage	245.4196
+fiftyDayAverageChange	-9.509598
+fiftyDayAverageChangePercent	-0.038748324
+fiftyTwoWeekChangePercent	22.86979
 fiftyTwoWeekHigh	259.47
 fiftyTwoWeekHighChange	-23.559998
 fiftyTwoWeekHighChangePercent	-0.09080047
@@ -41,7 +41,7 @@ financialCurrency	USD
 firstTradeDateMilliseconds	895152600000
 fullExchangeName	Nasdaq
 fundInceptionDate	1075075200
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	49.0
@@ -50,7 +50,7 @@ longBusinessSummary	The fund employs an indexing investment approach designed to
 longName	Vanguard Growth Index Institutional
 market	us_market
 marketCap	194025603072
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_22939698
 morningStarOverallRating	4
@@ -68,7 +68,7 @@ regularMarketChange	-3.16
 regularMarketChangePercent	-1.3217885
 regularMarketPreviousClose	239.07
 regularMarketPrice	235.91
-regularMarketTime	1772845722
+regularMarketTime	1773058215
 sharesOutstanding	822456000
 shortName	Vanguard Index Trust - Growth I
 sourceInterval	15
@@ -81,9 +81,9 @@ trailingPE	34.79036
 trailingPegRatio	None
 trailingThreeMonthReturns	-5.95582
 triggerable	False
-twoHundredDayAverage	239.63815
-twoHundredDayAverageChange	-3.7281494
-twoHundredDayAverageChangePercent	-0.015557412
+twoHundredDayAverage	239.74785
+twoHundredDayAverageChange	-3.8378448
+twoHundredDayAverageChangePercent	-0.016007839
 typeDisp	Fund
 yield	0.0044
 ytdReturn	-5.48278

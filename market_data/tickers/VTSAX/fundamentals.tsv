@@ -24,12 +24,12 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	165.2942
-fiftyDayAverageChange	-3.934204
-fiftyDayAverageChangePercent	-0.023801222
-fiftyTwoWeekChangePercent	18.576504
+fiftyDayAverage	165.234
+fiftyDayAverageChange	-3.873993
+fiftyDayAverageChangePercent	-0.023445496
+fiftyTwoWeekChangePercent	20.28327
 fiftyTwoWeekHigh	167.1
 fiftyTwoWeekHighChange	-5.7400055
 fiftyTwoWeekHighChangePercent	-0.03435072
@@ -41,7 +41,7 @@ financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
 fullExchangeName	Nasdaq
 fundInceptionDate	990662400
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	59.0
@@ -50,7 +50,7 @@ longBusinessSummary	The fund employs an indexing investment approach designed to
 longName	Vanguard Total Stock Mkt Idx Adm
 market	us_market
 marketCap	1366436872192
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_6184536
 morningStarOverallRating	3
@@ -68,7 +68,7 @@ regularMarketChange	-2.24
 regularMarketChangePercent	-1.3691931
 regularMarketPreviousClose	163.6
 regularMarketPrice	161.36
-regularMarketTime	1772845722
+regularMarketTime	1773058215
 sharesOutstanding	8468250112
 shortName	Vanguard Total Stock Market Ind
 sourceInterval	15
@@ -81,9 +81,9 @@ trailingPE	26.256763
 trailingPegRatio	None
 trailingThreeMonthReturns	1.0143
 triggerable	False
-twoHundredDayAverage	157.33545
-twoHundredDayAverageChange	4.0245514
-twoHundredDayAverageChangePercent	0.025579432
+twoHundredDayAverage	157.4293
+twoHundredDayAverageChange	3.9306946
+twoHundredDayAverageChangePercent	0.024967998
 typeDisp	Fund
 yield	0.011
 ytdReturn	1.04779

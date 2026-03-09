@@ -17,12 +17,12 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.09882057 |
+| Value | str | 0.095970035 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
-| Earnings Date | str | 2026-04-30 17:00:00-04:00 |
+| Earnings Date | str | 2026-04-30 16:00:00-04:00 |
 | EPS Estimate | float64 | 1.64 |
 | Reported EPS | float64 | 1.95 |
 | Surprise(%) | float64 | -0.49 |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-07 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.224 |
-| Headline | str | We Got Hooked on Fast, Free Shipping. Now Retai... |
-| Summary | str | As FedEx and UPS charge more, companies are try... |
-| URL | str | https://finance.yahoo.com/m/41008dec-7ac4-39a7-... |
+| Date | str | 2026-03-09 |
+| Source | str | Google |
+| Sentiment | float64 | 0.7 |
+| Headline | str | Amazon Outlet’s ‘bright and cheery’ 3-piece flo... |
+| Summary | str | Amazon's robotaxi unit Zoox is expanding testin... |
+| URL | str | https://news.google.com/rss/articles/CBMifEFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -84,10 +84,10 @@ This report documents the file structures and column data types used in `market_
 | CHINA_IMPORTS | float64 | 21104.2786 |
 | TARIFFS | float64 | 364.324 |
 | GDP | float64 | 31490.07 |
-| UNRATE | float64 | 4.3 |
+| UNRATE | float64 | 4.4 |
 | HOUSING_STARTS | float64 | 1404.0 |
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 326.588 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.54 |
-| US10Y | float64 | 4.09 |
+| US02Y | float64 | 3.57 |
+| US10Y | float64 | 4.13 |

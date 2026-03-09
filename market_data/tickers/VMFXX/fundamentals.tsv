@@ -10,7 +10,7 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 fiftyDayAverage	1.0
 fiftyDayAverageChange	0.0
 fiftyDayAverageChangePercent	0.0
@@ -24,25 +24,25 @@ fiftyTwoWeekLowChangePercent	0.0
 fiftyTwoWeekRange	1.0 - 1.0
 firstTradeDateMilliseconds	1681738200000
 fullExchangeName	Nasdaq
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 longName	Vanguard Money Market Reserves - Vanguard Federal Money Market Fund
 market	us_market
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_60274409
-netAssets	374775.6
+netAssets	1.0
 priceHint	4
 quoteSourceName	Delayed Quote
 quoteType	MONEYMARKET
 region	US
 regularMarketPrice	1.0
-regularMarketTime	1772845467
+regularMarketTime	1773058063
 shortName	Vanguard Money Market Reserves 
 sourceInterval	15
 symbol	VMFXX
-totalAssets	374775578624
+totalAssets	1000000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingPegRatio	None

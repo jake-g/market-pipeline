@@ -24,12 +24,12 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	50.5344
-fiftyDayAverageChange	-0.6543999
-fiftyDayAverageChangePercent	-0.0129495915
-fiftyTwoWeekChangePercent	16.424025
+fiftyDayAverage	50.509
+fiftyDayAverageChange	-0.6289978
+fiftyDayAverageChangePercent	-0.012453183
+fiftyTwoWeekChangePercent	16.135036
 fiftyTwoWeekHigh	52.94
 fiftyTwoWeekHighChange	-3.0599976
 fiftyTwoWeekHighChangePercent	-0.05780124
@@ -41,7 +41,7 @@ financialCurrency	USD
 firstTradeDateMilliseconds	441642600000
 fullExchangeName	Nasdaq
 fundInceptionDate	1210291200
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	23.0
@@ -50,7 +50,7 @@ longBusinessSummary	The fund normally invests primarily in common stocks. It inv
 longName	Fidelity Advisor Value Strategies Fund
 market	us_market
 marketCap	1293981952
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_28114349
 morningStarOverallRating	4
@@ -64,10 +64,10 @@ quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
 regularMarketChange	-1.3
-regularMarketChangePercent	-2.5400546
+regularMarketChangePercent	-2.5400548
 regularMarketPreviousClose	51.18
 regularMarketPrice	49.88
-regularMarketTime	1772845707
+regularMarketTime	1773058200
 sharesOutstanding	25941900
 shortName	Fidelity Advisor Value Strategi
 sourceInterval	15
@@ -80,9 +80,9 @@ trailingPE	2.8353798
 trailingPegRatio	None
 trailingThreeMonthReturns	15.52323
 triggerable	False
-twoHundredDayAverage	48.09835
-twoHundredDayAverageChange	1.7816505
-twoHundredDayAverageChangePercent	0.03704182
+twoHundredDayAverage	48.1258
+twoHundredDayAverageChange	1.7542
+twoHundredDayAverageChangePercent	0.0364503
 typeDisp	Fund
 yield	0.0054
 ytdReturn	13.48485

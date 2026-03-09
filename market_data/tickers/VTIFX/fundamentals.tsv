@@ -22,12 +22,12 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	29.1748
-fiftyDayAverageChange	-0.10480118
-fiftyDayAverageChangePercent	-0.0035921815
-fiftyTwoWeekChangePercent	0.102984905
+fiftyDayAverage	29.1774
+fiftyDayAverageChange	-0.107400894
+fiftyDayAverageChangePercent	-0.0036809617
+fiftyTwoWeekChangePercent	-0.20597577
 fiftyTwoWeekHigh	29.94
 fiftyTwoWeekHighChange	-0.87000084
 fiftyTwoWeekHighChangePercent	-0.029058143
@@ -38,7 +38,7 @@ fiftyTwoWeekRange	28.94 - 29.94
 firstTradeDateMilliseconds	1370352600000
 fullExchangeName	Nasdaq
 fundInceptionDate	1369958400
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	-8.0
@@ -46,7 +46,7 @@ lastDividendValue	0.1287
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the Bloomberg Global Aggregate ex-USD Float Adjusted RIC Capped Index (USD Hedged). This index provides a broad-based measure of the global, investment-grade, fixed-rate bond markets. It is non-diversified.
 longName	Vanguard Total Intl Bd Idx Institutional
 market	us_market
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_204607725
 morningStarOverallRating	3
@@ -62,7 +62,7 @@ regularMarketChange	-0.09
 regularMarketChangePercent	-0.30864197
 regularMarketPreviousClose	29.16
 regularMarketPrice	29.07
-regularMarketTime	1772845722
+regularMarketTime	1773058215
 shortName	Vanguard Total International Bo
 sourceInterval	15
 symbol	VTIFX
@@ -73,9 +73,9 @@ trailingAnnualDividendYield	0.0
 trailingPegRatio	None
 trailingThreeMonthReturns	1.59418
 triggerable	False
-twoHundredDayAverage	29.5142
-twoHundredDayAverageChange	-0.44420052
-twoHundredDayAverageChangePercent	-0.0150504
+twoHundredDayAverage	29.51205
+twoHundredDayAverageChange	-0.44205093
+twoHundredDayAverageChangePercent	-0.014978658
 typeDisp	Fund
 yield	0.0416
 ytdReturn	1.88968

@@ -23,12 +23,12 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	65.242
-fiftyDayAverageChange	-2.251995
-fiftyDayAverageChangePercent	-0.034517568
-fiftyTwoWeekChangePercent	20.18435
+fiftyDayAverage	65.186
+fiftyDayAverageChange	-2.1959953
+fiftyDayAverageChangePercent	-0.033688147
+fiftyTwoWeekChangePercent	18.491352
 fiftyTwoWeekHigh	66.52
 fiftyTwoWeekHighChange	-3.529995
 fiftyTwoWeekHighChangePercent	-0.053066675
@@ -39,7 +39,7 @@ fiftyTwoWeekRange	46.92 - 66.52
 firstTradeDateMilliseconds	1549549800000
 fullExchangeName	Nasdaq
 fundInceptionDate	1042502400
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	53.0
@@ -47,7 +47,7 @@ lastDividendValue	0.5589
 longBusinessSummary	The index is composed of large- and mid-cap stocks of companies that are screened for certain environmental, social, and corporate governance (ESG) criteria by the index provider. The manager attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. It is non-diversified.
 longName	Vanguard FTSE Social Index Fund
 market	us_market
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_28116251
 morningStarOverallRating	3
@@ -63,7 +63,7 @@ regularMarketChange	-0.9
 regularMarketChangePercent	-1.4086711
 regularMarketPreviousClose	63.890003
 regularMarketPrice	62.99
-regularMarketTime	1772845463
+regularMarketTime	1773058059
 shortName	Vanguard FTSE Social Index Fund
 sourceInterval	15
 symbol	VFTAX
@@ -73,9 +73,9 @@ trailingPE	27.515001
 trailingPegRatio	None
 trailingThreeMonthReturns	-2.06996
 triggerable	False
-twoHundredDayAverage	62.77875
-twoHundredDayAverageChange	0.2112503
-twoHundredDayAverageChangePercent	0.003364997
+twoHundredDayAverage	62.8096
+twoHundredDayAverageChange	0.18040085
+twoHundredDayAverageChangePercent	0.0028721858
 typeDisp	Fund
 yield	0.0087
 ytdReturn	-2.12181

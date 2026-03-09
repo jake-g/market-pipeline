@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	2.2011023
-SandP52WeekChange	0.2166065
+52WeekChange	2.098949
+SandP52WeekChange	0.20045388
 address1	505 N. Cleveland Ave.
 allTimeHigh	264.86
 allTimeLow	4.75
-ask	254.44
-askSize	200
+ask	264.79
+askSize	100
 auditRisk	7
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	5731700
-averageDailyVolume3Month	6126498
-averageVolume	6126498
-averageVolume10days	5731700
+averageDailyVolume10Day	6209700
+averageDailyVolume3Month	6174205
+averageVolume	6174205
+averageVolume10days	6209700
 beta	2.076
-bid	241.91
-bidSize	500
+bid	264.35
+bidSize	300
 boardRisk	9
 bookValue	10.303
 city	Westerville
@@ -25,16 +25,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	241.78
+currentPrice	264.31
 currentRatio	1.547
 customPriceAlertConfidence	HIGH
 dateShortInterest	1770940800
-dayHigh	251.47
-dayLow	238.6501
+dayHigh	266.65
+dayLow	251.0
 debtToEquity	81.899
-discount_to_intrinsic_value	-12.33
+discount_to_intrinsic_value	-24.37
 displayName	Vertiv
-dividendDate	1766016000
+dividendDate	1774483200
 dividendRate	0.25
 dividendYield	0.1
 earningsCallTimestampEnd	1770825600
@@ -42,8 +42,8 @@ earningsCallTimestampStart	1770825600
 earningsGrowth	1.995
 earningsQuarterlyGrowth	2.031
 earningsTimestamp	1770816600
-earningsTimestampEnd	1777469400
-earningsTimestampStart	1777469400
+earningsTimestampEnd	1777465800
+earningsTimestampStart	1777465800
 ebitda	2207699968
 ebitdaMargins	0.21581
 enterpriseToEbitda	42.524
@@ -51,49 +51,49 @@ enterpriseToRevenue	9.177
 enterpriseValue	93881253888
 epsCurrentYear	6.13223
 epsForward	7.89002
-epsTrailingTwelveMonths	3.42
+epsTrailingTwelveMonths	3.41
 eps_normalized_growth	2.4051845892326957
 esgPopulated	False
-exDividendDate	1764028800
+exDividendDate	1773705600
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	614 841 6882
-fiftyDayAverage	200.3406
-fiftyDayAverageChange	41.439392
-fiftyDayAverageChangePercent	0.2068447
-fiftyTwoWeekChangePercent	220.11023
-fiftyTwoWeekHigh	264.86
-fiftyTwoWeekHighChange	-23.079987
-fiftyTwoWeekHighChangePercent	-0.08714033
+fiftyDayAverage	201.8512
+fiftyDayAverageChange	62.4588
+fiftyDayAverageChangePercent	0.30942994
+fiftyTwoWeekChangePercent	209.8949
+fiftyTwoWeekHigh	266.65
+fiftyTwoWeekHighChange	-2.3399963
+fiftyTwoWeekHighChangePercent	-0.008775535
 fiftyTwoWeekLow	53.6
-fiftyTwoWeekLowChange	188.18
-fiftyTwoWeekLowChangePercent	3.5108209
-fiftyTwoWeekRange	53.6 - 264.86
+fiftyTwoWeekLowChange	210.70999
+fiftyTwoWeekLowChangePercent	3.9311566
+fiftyTwoWeekRange	53.6 - 266.65
 financialCurrency	USD
 firstTradeDateMilliseconds	1533216600000
 fiveYearAvgDividendYield	0.07
 floatShares	376438629
 forwardEps	7.89002
-forwardPE	30.643776
+forwardPE	33.499283
 freeCashflow	1428925056
 fullExchangeName	NYSE
 fullTimeEmployees	34000
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	215.23
+graham_intrinsic_value	212.53
 grossMargins	0.36317003
 grossProfits	3715200000
 hasPrePostMarketData	True
 heldPercentInsiders	0.00375
-heldPercentInstitutions	0.80069
+heldPercentInstitutions	0.80121005
 impliedSharesOutstanding	382598464
 industry	Electrical Equipment & Parts
 industryDisp	Electrical Equipment & Parts
 industryKey	electrical-equipment-parts
-isEarningsDateEstimate	False
+isEarningsDateEstimate	True
 language	en-US
 lastDividendDate	1764028800
 lastDividendValue	0.063
@@ -101,17 +101,17 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled and liquid cooled thermal management products, integrated modular solutions, racks, single phase UPS, rack power distribution, rack thermal systems, configurable integrated solutions, energy storage solutions, hardware, and software infrastructure that are integral to the technologies used for various services, including artificial intelligence, e-commerce, online banking, file sharing, video on-demand, energy storage, wireless communications, Internet of Things, and online gaming. It also provides lifecycle management services, predictive analytics, and professional services for deploying, maintaining, and optimizing its products and their related systems; and preventative maintenance, acceptance testing, engineering and consulting, fluid management, performance assessments, remote monitoring, training, spare parts, and critical digital infrastructure software services. The company offers its products primarily under the Vertiv, Liebert, NetSure, Geist, Energy Labs, ERS, Albér, and Avocent brands. It serves through a network of direct sales professionals, independent sales representatives, channel partners, and original equipment manufacturers. The company is headquartered in Westerville, Ohio.
 longName	Vertiv Holdings Co
 market	us_market
-marketCap	92504653824
-marketState	POSTPOST
+marketCap	101124595712
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_579312452
 mostRecentQuarter	1767139200
-nameChangeDate	2026-03-06
+nameChangeDate	2026-03-09
 netIncomeToCommon	1332800000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	96139342033
+nonDilutedMarketCap	92504656625
 numberOfAnalystOpinions	24
-open	241.0
+open	251.49
 operatingCashflow	2113799936
 operatingMargins	0.21174
 overallRisk	8
@@ -122,28 +122,28 @@ postMarketChangePercent	5.2361665
 postMarketPrice	254.44
 postMarketTime	1772845200
 prevName	Vertiv Holdings Co.
-previousClose	249.75
-priceEpsCurrentYear	39.427746
+previousClose	241.78
+priceEpsCurrentYear	43.101776
 priceHint	2
-priceToBook	23.46695
-priceToSalesTrailing12Months	9.042576
+priceToBook	25.653692
+priceToSalesTrailing12Months	9.885199
 profitMargins	0.13028
 quickRatio	1.126
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.48
 region	US
-regularMarketChange	-7.97
-regularMarketChangePercent	-3.19119
-regularMarketDayHigh	251.47
-regularMarketDayLow	238.6501
-regularMarketDayRange	238.6501 - 251.47
-regularMarketOpen	241.0
-regularMarketPreviousClose	249.75
-regularMarketPrice	241.78
-regularMarketTime	1772830803
-regularMarketVolume	8078814
+regularMarketChange	22.529999
+regularMarketChangePercent	9.318389
+regularMarketDayHigh	266.65
+regularMarketDayLow	251.0
+regularMarketDayRange	251.0 - 266.65
+regularMarketOpen	251.49
+regularMarketPreviousClose	241.78
+regularMarketPrice	264.31
+regularMarketTime	1773076756
+regularMarketVolume	12736363
 returnOnAssets	0.111219995
 returnOnEquity	0.41809
 revenueGrowth	0.227
@@ -163,7 +163,7 @@ shortRatio	1.52
 sourceInterval	15
 state	OH
 symbol	VRT
-syntheticPEG	0.1536028872180451
+syntheticPEG	0.16791620551378444
 targetHighPrice	320.0
 targetLowPrice	155.0
 targetMeanPrice	263.1979
@@ -174,15 +174,15 @@ totalDebt	3227899904
 totalRevenue	10229900288
 tradeable	False
 trailingAnnualDividendRate	0.175
-trailingAnnualDividendYield	0.0007007007
-trailingEps	3.42
-trailingPE	70.69591
-trailingPegRatio	1.7732
+trailingAnnualDividendYield	0.00072379847
+trailingEps	3.41
+trailingPE	77.51026
+trailingPegRatio	1.7061
 triggerable	True
-twoHundredDayAverage	158.98045
-twoHundredDayAverageChange	82.799545
-twoHundredDayAverageChangePercent	0.5208159
+twoHundredDayAverage	159.65735
+twoHundredDayAverageChange	104.65265
+twoHundredDayAverageChangePercent	0.6554828
 typeDisp	Equity
-volume	8078814
+volume	12736363
 website	https://www.vertiv.com
 zip	43082

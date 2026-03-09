@@ -24,12 +24,12 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EST
+exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	201.5836
-fiftyDayAverageChange	-9.0336
-fiftyDayAverageChangePercent	-0.044813167
-fiftyTwoWeekChangePercent	25.601791
+fiftyDayAverage	201.1716
+fiftyDayAverageChange	-8.621597
+fiftyDayAverageChangePercent	-0.04285693
+fiftyTwoWeekChangePercent	23.271442
 fiftyTwoWeekHigh	219.02
 fiftyTwoWeekHighChange	-26.470001
 fiftyTwoWeekHighChangePercent	-0.120856546
@@ -41,7 +41,7 @@ financialCurrency	USD
 firstTradeDateMilliseconds	564244200000
 fullExchangeName	Nasdaq
 fundInceptionDate	878515200
-gmtOffSetMilliseconds	-18000000
+gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	58.0
@@ -50,7 +50,7 @@ longBusinessSummary	The fund normally invests at least 80% of assets in securiti
 longName	Fidelity Advisor Growth Opps M
 market	us_market
 marketCap	8362485248
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_28119800
 morningStarOverallRating	4
@@ -67,7 +67,7 @@ regularMarketChange	-3.64
 regularMarketChangePercent	-1.8553443
 regularMarketPreviousClose	196.19
 regularMarketPrice	192.55
-regularMarketTime	1772845707
+regularMarketTime	1773058200
 sharesOutstanding	43430200
 shortName	Fidelity Advisor Growth Opportu
 sourceInterval	15
@@ -80,9 +80,9 @@ trailingPE	3.7669222
 trailingPegRatio	None
 trailingThreeMonthReturns	-3.43096
 triggerable	False
-twoHundredDayAverage	199.9343
-twoHundredDayAverageChange	-7.3842926
-twoHundredDayAverageChangePercent	-0.036933597
+twoHundredDayAverage	200.03085
+twoHundredDayAverageChange	-7.48085
+twoHundredDayAverageChangePercent	-0.037398484
 typeDisp	Fund
 yield	0.0
 ytdReturn	-4.16136
