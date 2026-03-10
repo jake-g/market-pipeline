@@ -16,14 +16,16 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-from market_fetcher import SKIP_EARNINGS
-from reports.report_utils import generate_portfolio_markdown_table
-from reports.report_utils import get_intrinsic_value_metrics
-from reports.report_utils import setup_decision_tree_aesthetics
-from reports.report_utils import setup_plot_aesthetics
-
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(OUTPUT_DIR, '../..'))
+if project_root not in sys.path:
+  sys.path.insert(0, project_root)
+
+from market_fetcher import SKIP_EARNINGS
+from reports.report_utils import build_decision_tree
+from reports.report_utils import generate_portfolio_markdown_table
+from reports.report_utils import generate_screening_scatter
+from reports.report_utils import get_intrinsic_value_metrics
 
 DATA_DIR = os.path.join(project_root, "market_data")
 TICKERS_DIR = os.path.join(DATA_DIR, "tickers")
@@ -120,89 +122,6 @@ def fetch_screener_data(limit=None) -> pd.DataFrame:
   return df
 
 
-def generate_screening_scatter(df: pd.DataFrame, output_path: str):
-  """Generates the EPS Surprise vs. Intrinsic Value Discount scatter plot."""
-  if df.empty:
-    logger.warning("No data to plot.")
-    return
-
-  setup_plot_aesthetics()
-
-  # Tighter outlier filtering for better zoom and readability
-  plot_df = df.copy()
-
-  # Calculate IQR to remove extreme outliers dynamically
-  q1_disc = plot_df['Discount_to_Intrinsic_Value_Pct'].quantile(0.15)
-  q3_disc = plot_df['Discount_to_Intrinsic_Value_Pct'].quantile(0.85)
-  iqr_disc = q3_disc - q1_disc
-
-  q1_eps = plot_df['Last_EPS_Surprise_Pct'].quantile(0.15)
-  q3_eps = plot_df['Last_EPS_Surprise_Pct'].quantile(0.85)
-  iqr_eps = q3_eps - q1_eps
-
-  plot_df = plot_df[
-      (plot_df['Discount_to_Intrinsic_Value_Pct'] >= q1_disc - 1.5 * iqr_disc) &
-      (plot_df['Discount_to_Intrinsic_Value_Pct'] <= q3_disc + 1.5 * iqr_disc)]
-  plot_df = plot_df[
-      (plot_df['Last_EPS_Surprise_Pct'] >= q1_eps - 1.5 * iqr_eps) &
-      (plot_df['Last_EPS_Surprise_Pct'] <= q3_eps + 1.5 * iqr_eps)]
-
-  plt.figure(figsize=(14, 10))
-
-  # Simple Quadrant logic highlighting Actionable vs Value Trap zones
-  plt.axhline(0, color='black', alpha=0.3, linestyle='--')
-  plt.axvline(0, color='black', alpha=0.3, linestyle='--')
-
-  # Shade the "Deep Value / Holy Grail" Quadrant (Positive Discount, Positive EPS Surprise)
-  plt.axvspan(0,
-              q3_eps + 1.5 * iqr_eps,
-              ymin=0.5,
-              ymax=1,
-              alpha=0.08,
-              color='green')
-
-  # Shade the "Value Trap" Quadrant (Positive Discount, Negative EPS Surprise)
-  plt.axvspan(q1_eps - 1.5 * iqr_eps,
-              0,
-              ymin=0.5,
-              ymax=1,
-              alpha=0.08,
-              color='red')
-
-  scatter = sns.scatterplot(data=plot_df,
-                            x='Last_EPS_Surprise_Pct',
-                            y='Discount_to_Intrinsic_Value_Pct',
-                            hue='Current_Price',
-                            palette='viridis',
-                            size='Current_Price',
-                            sizes=(30, 300),
-                            alpha=0.7,
-                            edgecolor='black')
-
-  # Annotate all points shown on the scatter
-  for i in range(plot_df.shape[0]):
-    plt.text(x=plot_df['Last_EPS_Surprise_Pct'].iloc[i] + 0.3,
-             y=plot_df['Discount_to_Intrinsic_Value_Pct'].iloc[i] + 0.3,
-             s=plot_df['Ticker'].iloc[i],
-             fontdict={
-                 "color": 'black',
-                 "weight": "bold",
-                 "size": 8
-             })
-
-  plt.title('Value Screener: Intrinsic Value Discount vs. Last EPS Surprise',
-            fontweight='bold',
-            fontsize=16)
-  plt.xlabel('Most Recent EPS Surprise (%)', fontsize=12)
-  plt.ylabel('Discount to Graham Intrinsic Value (%)', fontsize=12)
-
-  plt.grid(True, alpha=0.3)
-  plt.tight_layout()
-  plt.savefig(output_path, dpi=300)
-  plt.close()
-  logger.info(f"Saved Screener Scatter plot to {output_path}")
-
-
 DATA_DIR = os.path.join(project_root, "market_data")
 TICKERS_DIR = os.path.join(DATA_DIR, "tickers")
 # Layout shared with the secondary sub-analysis pipelines
@@ -215,79 +134,6 @@ os.makedirs(assets_dir, exist_ok=True)
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
-
-
-def build_decision_tree(df: pd.DataFrame):
-  """Generates a quantitative Graphviz decision tree mapping value actionability."""
-  logger.info("Rendering Graphviz Value Decision Tree...")
-  dot = Digraph(comment='Value Execution Tree')
-  setup_decision_tree_aesthetics(dot)
-
-  # Core Pipeline state at head
-  dot.node(
-      'A',
-      f"Intrinsic Value\nScreener Matrix\n({datetime.date.today().strftime('%b %d, %Y')})",
-      shape='box',
-      style='filled',
-      fillcolor='lightblue')
-
-  # Identify extreme groupings if data exists
-  deep_value = df[df['Discount_to_Intrinsic_Value_Pct'] > 40]['Ticker'].head(
-      3).tolist()
-  fair_value = df[(df['Discount_to_Intrinsic_Value_Pct'] > 0) & (
-      df['Discount_to_Intrinsic_Value_Pct'] <= 40)]['Ticker'].head(3).tolist()
-  overvalued = df[df['Discount_to_Intrinsic_Value_Pct'] < -20]['Ticker'].head(
-      3).tolist()
-  value_traps = df[(df['Discount_to_Intrinsic_Value_Pct'] > 20) & (
-      df['Last_EPS_Surprise_Pct'] < 0)]['Ticker'].head(3).tolist()
-
-  dot.node('B1',
-           'Deep Value\n(Discount > 40%)',
-           style='filled',
-           fillcolor='lightgreen')
-  dot.node('B2',
-           'Fair Value\n(Discount 0% - 40%)',
-           style='filled',
-           fillcolor='lightyellow')
-  dot.node('B3',
-           'Overvalued Risk\n(Premium > 20%)',
-           style='filled',
-           fillcolor='lightcoral')
-  dot.node('B4',
-           'Value Traps\n(Discount > 20%, EPS Miss)',
-           style='filled',
-           fillcolor='lightgray')
-
-  dot.edge('A', 'B1', label='Margin of Safety')
-  dot.edge('A', 'B2', label='Steady Accumulation')
-  dot.edge('A', 'B3', label='Capitulation Risk')
-  dot.edge('A', 'B4', label='Fading Fundamentals')
-
-  # Dynamic Allocations
-  dot.node(
-      'C1',
-      f"BUY / CALL LEAPS:\n{', '.join(deep_value) if deep_value else 'No candidates'}",
-      shape='ellipse')
-  dot.node(
-      'C2',
-      f"HOLD / SELL PUTS:\n{', '.join(fair_value) if fair_value else 'No candidates'}",
-      shape='ellipse')
-  dot.node(
-      'C3',
-      f"TRIM EXPOSURE:\n{', '.join(overvalued) if overvalued else 'No candidates'}",
-      shape='ellipse')
-  dot.node(
-      'C4',
-      f"AVOID / SHORT:\n{', '.join(value_traps) if value_traps else 'No candidates'}",
-      shape='ellipse')
-
-  dot.edge('B1', 'C1')
-  dot.edge('B2', 'C2')
-  dot.edge('B3', 'C3')
-  dot.edge('B4', 'C4')
-
-  out_path = os.path.join(assets_dir, 'value_decision_tree')
-  dot.render(out_path, format='png', cleanup=True)
 
 
 def generate_report(df: pd.DataFrame):
@@ -422,7 +268,8 @@ if __name__ == "__main__":
   # Ensure the graph dependencies load the correct path
   plot_path = os.path.join(PLOTS_DIR, "intrinsic_value_scatter.png")
   generate_screening_scatter(screener_df, plot_path)
-  build_decision_tree(screener_df)
+  out_path = os.path.join(assets_dir, 'value_decision_tree')
+  build_decision_tree(screener_df, out_path)
 
   generate_report(screener_df)
 

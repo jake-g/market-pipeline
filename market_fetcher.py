@@ -11,8 +11,10 @@ import time
 from typing import Any, Dict, List, Optional, Set, Tuple, Union
 import xml.etree.ElementTree as ET
 
+from curl_cffi import requests as cffi_requests
 import feedparser
 import joblib
+from lxml import html
 import numpy as np
 import pandas as pd
 import requests
@@ -92,11 +94,12 @@ SKIP_EARNINGS: List[str] = [
     "CL=F", "GC=F", "NG=F", "CORN", "CURN", "SOYB", "WEAT",
 
     # Crypto (No SEC Filings)
-    "BTC-USD", "ETH-USD",
+    "BTC-USD", "ETH-USD", "SOL-USD",
 
     # Core Vanguard/Broad ETFs
     "VTI", "VOO", "SPY", "VTSAX", "VUG", "VTV", "VEA", "VWO", "VIGAX",
-    "SCHD", "SCHG", "SCHV", "VGT",
+    "SCHD", "SCHG", "SCHV", "VGT", "QQQ", "DIA", "IWM", "EFA", "EEM",
+    "URTH", "TLT",
 
     # Vanguard Mutual Funds (Institutional/Admiral Shares - No Form 4)
     "VEMRX", "VFTAX", "VIGIX", "VIIIX", "VMFXX", "VTIFX",
@@ -121,9 +124,10 @@ SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     "PAVE", "ITA", "SMH", "URA", "XLE", # Sector ETFs
     # Foreign / ADRs (No Form 4)
     "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "ZIM",
-    # Specific Corporate Exclusions (Missing/404 on SEC Edgar)
+    # Specific Corporate Exclusions (Missing/404 on SEC Edgar or no CIK mapping)
     # Note: Even with CIK overrides, some of these may fail depending on SEC database availability
-    "LDOS", "LLY", "LMT", "MA", "MATX", "SMCI", "SO", "UPS", "V", "VRT"
+    "ALB", "AMGN", "BSX", "CORZ", "FLNC", "FRO", "LDOS", "LLY", "LMT",
+    "MA", "MATX", "MNDY", "O", "PFE", "PLD", "SMCI", "SO", "SQM", "UPS", "V", "VRT"
 ]
 # yapf: enable
 
@@ -174,6 +178,88 @@ class MarketFetcher:
       return TextBlob(text).sentiment.polarity
     except Exception:
       return 0.0
+
+  @staticmethod
+  async def unwrap_google_news_url(url: str) -> str:
+    """Uses curl_cffi to unwrap a Google News RSS URL to the actual destination."""
+    if "news.google.com/rss/articles" in url:
+      try:
+        response = cffi_requests.get(
+            url,
+            impersonate="chrome",
+            timeout=10,
+            allow_redirects=True,
+            headers={
+                "User-Agent":
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+            })
+
+        final_url = response.url
+
+        # Google News sometimes uses a client-side JS redirect or meta refresh
+        # If the fetched URL is still google.com, parse the HTML
+        if "google.com" in final_url:
+          try:
+            tree = html.fromstring(response.content)
+            urls = tree.xpath('//a/@href')
+            for u in urls:
+              if u.startswith('http') and 'google.com' not in u:
+                return u
+
+            # Look for JS redirect
+            content_str = response.content.decode('utf-8')
+            match = re.search(r'data-n-au="([^"]+)"', content_str)
+            if match:
+              return match.group(1)
+          except Exception:
+            pass
+
+        return final_url
+
+      except Exception as e:
+        logging.warning("Failed to unwrap Google News URL %s: %s", url, e)
+    return url
+
+  @staticmethod
+  async def fetch_article_text(url: str,
+                               max_paragraphs: int = 20) -> Optional[str]:
+    """
+    Fetches the content of a URL (unwrapping Google News links if needed) using
+    curl_cffi to bypass basic anti-bot protections, and extracts the main paragraph text using lxml.
+    """
+    actual_url = await MarketFetcher.unwrap_google_news_url(url)
+    try:
+      response = cffi_requests.get(
+          actual_url,
+          impersonate="chrome",
+          timeout=10,
+          headers={
+              "User-Agent":
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+          })
+
+      if response.status_code != 200:
+        return None
+
+      tree = html.fromstring(response.content)
+      for bad_element in tree.xpath(
+          '//script | //style | //nav | //footer | //header'):
+        bad_element.getparent().remove(bad_element)
+
+      paragraphs = tree.xpath('//p/text() | //p/*/text()')
+      cleaned_paragraphs = []
+      for p in paragraphs:
+        text = str(p).strip()
+        if text and len(text) > 40:
+          cleaned_paragraphs.append(text)
+
+      if not cleaned_paragraphs:
+        return None
+
+      return " ".join(cleaned_paragraphs[:max_paragraphs])
+
+    except Exception:
+      return None
 
   def _get_cache_path(self, key: str) -> Path:
     safe_key = re.sub(r'[^a-zA-Z0-9]', '_', key)
@@ -663,6 +749,90 @@ class MarketFetcher:
       current_end = current_start
 
     self.update_daily_sentiment([ticker])
+    return total_added
+
+  def fetch_historical_topic_news(self,
+                                  start_date: datetime.date,
+                                  end_date: datetime.date,
+                                  thorough: bool = False) -> int:
+    """
+    Fetches historical news for all topics defined in config.NEWS_TOPICS using Google News RSS.
+    Chunks the requests into intervals (90 days if thorough, 365 days default) to bypass the 100-result limit.
+    """
+    total_added = 0
+    topics = getattr(config, 'NEWS_TOPICS', [])
+    if not topics:
+      self.logger.warning("No NEWS_TOPICS defined in config.")
+      return 0
+
+    self.logger.info(
+        f"Backfilling topic news from {start_date} to {end_date}...")
+
+    # Iterate through each topic
+    for topic in tqdm(topics, desc="Historical Topics"):
+      topic_added = 0
+      # Loop backward in chunks for faster, prioritized recent backfills
+      chunk_days = 90 if thorough else 365
+      current_end = end_date
+      while current_end > start_date:
+        current_start = max(current_end - datetime.timedelta(days=chunk_days),
+                            start_date)
+
+        start_str = current_start.strftime("%Y-%m-%d")
+        end_str = current_end.strftime("%Y-%m-%d")
+
+        import urllib.parse
+        safe_topic = urllib.parse.quote(topic)
+        url = f"https://news.google.com/rss/search?q={safe_topic}+after:{start_str}+before:{end_str}&hl=en-US&gl=US&ceid=US:en"
+
+        # We reuse the _fetch_rss_content logic to leverage the cache. We pass the raw string url.
+        raw_content = self._fetch_rss_content(
+            url, "Google", f"hist_topic_{topic}_{start_str}_{end_str}")
+
+        if raw_content:
+          feed = feedparser.parse(raw_content)
+          items = []
+          for entry in feed.entries:
+            try:
+              dt = pd.to_datetime(entry.published).tz_localize(None)
+              title_text = entry.title
+              source_text = "Google News"
+
+              if " - " in title_text:
+                parts = title_text.rsplit(" - ", 1)
+                title_text = parts[0]
+                source_text = parts[1]
+
+              items.append({
+                  "date":
+                      dt,
+                  "date_str":
+                      dt.strftime('%Y-%m-%d %H:%M:%S'),
+                  "source":
+                      source_text.strip(),
+                  "title":
+                      title_text.strip().replace("\t", " ").replace("\n", " "),
+                  "link":
+                      entry.link,
+                  "summary":
+                      getattr(entry, "summary",
+                              "").replace("\t", " ").replace("\n", " ")
+              })
+            except Exception as e:
+              self.logger.warning(
+                  f"Error parsing historical standard feed entry: {e}")
+
+          if items:
+            self._save_news_tsv(topic, items)
+            topic_added += len(items)
+            total_added += len(items)
+
+        # Decrement window
+        current_end = current_start - datetime.timedelta(days=1)
+        time.sleep(1)  # Polite delay between chunks
+
+      self.logger.info(f"  + {topic_added} items for {topic}")
+
     return total_added
 
   def update_news(self,
@@ -1479,7 +1649,11 @@ class MarketFetcher:
           try:
             if yf_ticker is None:
               yf_ticker = yf.Ticker(ticker)
-            earnings = yf_ticker.earnings_dates
+            try:
+              earnings = yf_ticker.get_earnings_dates(limit=160)
+            except Exception:
+              # Fallback to standard property if the heavy fetch fails
+              earnings = yf_ticker.earnings_dates
             if earnings is None:
               earnings = pd.DataFrame()
             self._save_cache(earn_key, earnings)

@@ -3,15 +3,15 @@
     "type": "file",
     "name": "CHANGELOG.md",
     "path": "CHANGELOG.md",
-    "size": 14011,
-    "lines": 218
+    "size": 14954,
+    "lines": 231
   },
   {
     "type": "file",
     "name": "README.md",
     "path": "README.md",
-    "size": 11953,
-    "lines": 244
+    "size": 13911,
+    "lines": 265
   },
   {
     "type": "folder",
@@ -284,8 +284,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AAPL/news.tsv",
-                "size": 375605,
-                "lines": 847
+                "size": 376136,
+                "lines": 849
               },
               {
                 "type": "file",
@@ -340,8 +340,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ACHR/news.tsv",
-                "size": 171438,
-                "lines": 402
+                "size": 170530,
+                "lines": 401
               },
               {
                 "type": "file",
@@ -9181,7 +9181,7 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/AI/news.tsv",
-                "size": 616482,
+                "size": 616499,
                 "lines": 1550
               },
               {
@@ -10310,74 +10310,74 @@
     "children": [
       {
         "type": "folder",
-        "name": "02-25_NVDA_earnings_trade",
-        "path": "reports/02-25_NVDA_earnings_trade",
+        "name": "02-25_earnings_NVDA_trade",
+        "path": "reports/02-25_earnings_NVDA_trade",
         "children": [
           {
             "type": "folder",
             "name": "plots",
-            "path": "reports/02-25_NVDA_earnings_trade/plots",
+            "path": "reports/02-25_earnings_NVDA_trade/plots",
             "children": [
               {
                 "type": "file",
                 "name": "nvda_decision_tree.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_decision_tree.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/nvda_decision_tree.png",
                 "size": 187640,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "nvda_fade_pattern.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_fade_pattern.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/nvda_fade_pattern.png",
                 "size": 353477,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "nvda_intraday_ground_truth.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_intraday_ground_truth.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/nvda_intraday_ground_truth.png",
                 "size": 239129,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "nvda_iv_crush.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_iv_crush.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/nvda_iv_crush.png",
                 "size": 139132,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "nvda_surprise_scatter.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_surprise_scatter.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/nvda_surprise_scatter.png",
                 "size": 209186,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "nvda_trajectory_prediction.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/nvda_trajectory_prediction.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/nvda_trajectory_prediction.png",
                 "size": 369361,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "portfolio_ma200_dist.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/portfolio_ma200_dist.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/portfolio_ma200_dist.png",
                 "size": 124952,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "portfolio_rsi.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/portfolio_rsi.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/portfolio_rsi.png",
                 "size": 121606,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "portfolio_sympathy_beta.png",
-                "path": "reports/02-25_NVDA_earnings_trade/plots/portfolio_sympathy_beta.png",
+                "path": "reports/02-25_earnings_NVDA_trade/plots/portfolio_sympathy_beta.png",
                 "size": 93243,
                 "lines": 0
               }
@@ -10386,16 +10386,632 @@
           {
             "type": "file",
             "name": "nvda_trade_analysis.py",
-            "path": "reports/02-25_NVDA_earnings_trade/nvda_trade_analysis.py",
+            "path": "reports/02-25_earnings_NVDA_trade/nvda_trade_analysis.py",
             "size": 31224,
             "lines": 895
           },
           {
             "type": "file",
             "name": "REPORT.md",
-            "path": "reports/02-25_NVDA_earnings_trade/REPORT.md",
+            "path": "reports/02-25_earnings_NVDA_trade/REPORT.md",
             "size": 19708,
             "lines": 240
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "02-25_portfolio_vanguard_individual_8479",
+        "path": "reports/02-25_portfolio_vanguard_individual_8479",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/02-25_portfolio_vanguard_individual_8479/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/02-25_portfolio_vanguard_individual_8479/plots/decision_tree.png",
+                "size": 128577,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "portfolio_allocation.png",
+                "path": "reports/02-25_portfolio_vanguard_individual_8479/plots/portfolio_allocation.png",
+                "size": 377443,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "portfolio_correlation.png",
+                "path": "reports/02-25_portfolio_vanguard_individual_8479/plots/portfolio_correlation.png",
+                "size": 1484263,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "portfolio_momentum.png",
+                "path": "reports/02-25_portfolio_vanguard_individual_8479/plots/portfolio_momentum.png",
+                "size": 236518,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "portfolio_scenario_impact.png",
+                "path": "reports/02-25_portfolio_vanguard_individual_8479/plots/portfolio_scenario_impact.png",
+                "size": 149270,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "portfolio_winners_losers.png",
+                "path": "reports/02-25_portfolio_vanguard_individual_8479/plots/portfolio_winners_losers.png",
+                "size": 241225,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "growth_portfolio_plan.py",
+            "path": "reports/02-25_portfolio_vanguard_individual_8479/growth_portfolio_plan.py",
+            "size": 12680,
+            "lines": 338
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/02-25_portfolio_vanguard_individual_8479/REPORT.md",
+            "size": 10405,
+            "lines": 89
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "02-26_portfolio_vanguard_individual_8479",
+        "path": "reports/02-26_portfolio_vanguard_individual_8479",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/02-26_portfolio_vanguard_individual_8479/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/02-26_portfolio_vanguard_individual_8479/plots/decision_tree.png",
+                "size": 108608,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "plot_growth.py",
+            "path": "reports/02-26_portfolio_vanguard_individual_8479/plot_growth.py",
+            "size": 2877,
+            "lines": 101
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/02-26_portfolio_vanguard_individual_8479/REPORT.md",
+            "size": 3682,
+            "lines": 57
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "02-26_portfolio_vanguard_roth_ira_6381",
+        "path": "reports/02-26_portfolio_vanguard_roth_ira_6381",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/02-26_portfolio_vanguard_roth_ira_6381/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/02-26_portfolio_vanguard_roth_ira_6381/plots/decision_tree.png",
+                "size": 74801,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "plot_roth.py",
+            "path": "reports/02-26_portfolio_vanguard_roth_ira_6381/plot_roth.py",
+            "size": 1849,
+            "lines": 65
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/02-26_portfolio_vanguard_roth_ira_6381/REPORT.md",
+            "size": 2519,
+            "lines": 41
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-02_portfolio_combined_active",
+        "path": "reports/03-02_portfolio_combined_active",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-02_portfolio_combined_active/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "active_combined_exposure.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/active_combined_exposure.png",
+                "size": 109867,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "active_combined_pnl.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/active_combined_pnl.png",
+                "size": 106146,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/decision_tree.png",
+                "size": 538838,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "roth_theme_exposure.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/roth_theme_exposure.png",
+                "size": 105266,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/theme_exposure.png",
+                "size": 179005,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/theme_pnl.png",
+                "size": 177703,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "vanguard_individual_8479_exposure.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/vanguard_individual_8479_exposure.png",
+                "size": 96407,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "vanguard_individual_8479_pnl.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/vanguard_individual_8479_pnl.png",
+                "size": 94640,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "vanguard_roth_ira_6381_exposure.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/vanguard_roth_ira_6381_exposure.png",
+                "size": 108105,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "vanguard_roth_ira_6381_pnl.png",
+                "path": "reports/03-02_portfolio_combined_active/plots/vanguard_roth_ira_6381_pnl.png",
+                "size": 107991,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "generate_plots.py",
+            "path": "reports/03-02_portfolio_combined_active/generate_plots.py",
+            "size": 2311,
+            "lines": 49
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-02_portfolio_combined_active/generate_report.py",
+            "size": 10049,
+            "lines": 226
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-02_portfolio_combined_active/REPORT.md",
+            "size": 15607,
+            "lines": 139
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-02_portfolio_vanguard_individual_8479",
+        "path": "reports/03-02_portfolio_vanguard_individual_8479",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-02_portfolio_vanguard_individual_8479/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-02_portfolio_vanguard_individual_8479/plots/decision_tree.png",
+                "size": 244535,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-02_portfolio_vanguard_individual_8479/plots/theme_exposure.png",
+                "size": 124891,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-02_portfolio_vanguard_individual_8479/plots/theme_pnl.png",
+                "size": 121846,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-02_portfolio_vanguard_individual_8479/generate_report.py",
+            "size": 5801,
+            "lines": 148
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-02_portfolio_vanguard_individual_8479/REPORT.md",
+            "size": 12030,
+            "lines": 120
+          },
+          {
+            "type": "file",
+            "name": "trades.tsv",
+            "path": "reports/03-02_portfolio_vanguard_individual_8479/trades.tsv",
+            "size": 692,
+            "lines": 11
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-02_portfolio_vanguard_roth_ira_6381",
+        "path": "reports/03-02_portfolio_vanguard_roth_ira_6381",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-02_portfolio_vanguard_roth_ira_6381/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-02_portfolio_vanguard_roth_ira_6381/plots/decision_tree.png",
+                "size": 270390,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-02_portfolio_vanguard_roth_ira_6381/plots/theme_exposure.png",
+                "size": 145664,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-02_portfolio_vanguard_roth_ira_6381/plots/theme_pnl.png",
+                "size": 141269,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-02_portfolio_vanguard_roth_ira_6381/generate_report.py",
+            "size": 5322,
+            "lines": 135
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-02_portfolio_vanguard_roth_ira_6381/REPORT.md",
+            "size": 9058,
+            "lines": 95
+          },
+          {
+            "type": "file",
+            "name": "trades.tsv",
+            "path": "reports/03-02_portfolio_vanguard_roth_ira_6381/trades.tsv",
+            "size": 719,
+            "lines": 11
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-09_portfolio_charles_schwab_individual_351",
+        "path": "reports/03-09_portfolio_charles_schwab_individual_351",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-09_portfolio_charles_schwab_individual_351/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-09_portfolio_charles_schwab_individual_351/plots/decision_tree.png",
+                "size": 568858,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-09_portfolio_charles_schwab_individual_351/plots/theme_exposure.png",
+                "size": 118610,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-09_portfolio_charles_schwab_individual_351/plots/theme_pnl.png",
+                "size": 108356,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-09_portfolio_charles_schwab_individual_351/generate_report.py",
+            "size": 4412,
+            "lines": 113
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-09_portfolio_charles_schwab_individual_351/REPORT.md",
+            "size": 7276,
+            "lines": 63
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-09_portfolio_combined_active",
+        "path": "reports/03-09_portfolio_combined_active",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-09_portfolio_combined_active/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-09_portfolio_combined_active/plots/decision_tree.png",
+                "size": 538838,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-09_portfolio_combined_active/plots/theme_exposure.png",
+                "size": 180403,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-09_portfolio_combined_active/plots/theme_pnl.png",
+                "size": 177597,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-09_portfolio_combined_active/generate_report.py",
+            "size": 7281,
+            "lines": 179
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-09_portfolio_combined_active/REPORT.md",
+            "size": 16640,
+            "lines": 128
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-09_portfolio_vanguard_individual_7991",
+        "path": "reports/03-09_portfolio_vanguard_individual_7991",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-09_portfolio_vanguard_individual_7991/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-09_portfolio_vanguard_individual_7991/plots/decision_tree.png",
+                "size": 556523,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-09_portfolio_vanguard_individual_7991/plots/theme_exposure.png",
+                "size": 140063,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-09_portfolio_vanguard_individual_7991/plots/theme_pnl.png",
+                "size": 135354,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "decision_tree.png",
+            "path": "reports/03-09_portfolio_vanguard_individual_7991/decision_tree.png",
+            "size": 104603,
+            "lines": 0
+          },
+          {
+            "type": "file",
+            "name": "decision_tree_master.png",
+            "path": "reports/03-09_portfolio_vanguard_individual_7991/decision_tree_master.png",
+            "size": 133608,
+            "lines": 0
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-09_portfolio_vanguard_individual_7991/generate_report.py",
+            "size": 4373,
+            "lines": 108
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-09_portfolio_vanguard_individual_7991/REPORT.md",
+            "size": 9190,
+            "lines": 69
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-09_portfolio_vanguard_individual_8479",
+        "path": "reports/03-09_portfolio_vanguard_individual_8479",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-09_portfolio_vanguard_individual_8479/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-09_portfolio_vanguard_individual_8479/plots/decision_tree.png",
+                "size": 290180,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-09_portfolio_vanguard_individual_8479/plots/theme_exposure.png",
+                "size": 131111,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-09_portfolio_vanguard_individual_8479/plots/theme_pnl.png",
+                "size": 123571,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-09_portfolio_vanguard_individual_8479/generate_report.py",
+            "size": 4255,
+            "lines": 102
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-09_portfolio_vanguard_individual_8479/REPORT.md",
+            "size": 11522,
+            "lines": 70
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-09_portfolio_vanguard_roth_ira_6381",
+        "path": "reports/03-09_portfolio_vanguard_roth_ira_6381",
+        "children": [
+          {
+            "type": "folder",
+            "name": "plots",
+            "path": "reports/03-09_portfolio_vanguard_roth_ira_6381/plots",
+            "children": [
+              {
+                "type": "file",
+                "name": "decision_tree.png",
+                "path": "reports/03-09_portfolio_vanguard_roth_ira_6381/plots/decision_tree.png",
+                "size": 461624,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_exposure.png",
+                "path": "reports/03-09_portfolio_vanguard_roth_ira_6381/plots/theme_exposure.png",
+                "size": 140863,
+                "lines": 0
+              },
+              {
+                "type": "file",
+                "name": "theme_pnl.png",
+                "path": "reports/03-09_portfolio_vanguard_roth_ira_6381/plots/theme_pnl.png",
+                "size": 133401,
+                "lines": 0
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "generate_report.py",
+            "path": "reports/03-09_portfolio_vanguard_roth_ira_6381/generate_report.py",
+            "size": 4454,
+            "lines": 115
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-09_portfolio_vanguard_roth_ira_6381/REPORT.md",
+            "size": 9229,
+            "lines": 70
           }
         ]
       },
@@ -10443,10 +11059,59 @@
       },
       {
         "type": "file",
+        "name": "03-06_NEWS_REPORT.md",
+        "path": "reports/03-06_NEWS_REPORT.md",
+        "size": 3101,
+        "lines": 26
+      },
+      {
+        "type": "file",
+        "name": "03-08_NEWS_REPORT.md",
+        "path": "reports/03-08_NEWS_REPORT.md",
+        "size": 2537,
+        "lines": 17
+      },
+      {
+        "type": "file",
+        "name": "03-09_NEWS_REPORT.md",
+        "path": "reports/03-09_NEWS_REPORT.md",
+        "size": 3155,
+        "lines": 20
+      },
+      {
+        "type": "file",
+        "name": "generate_notebooklm_report.py",
+        "path": "reports/generate_notebooklm_report.py",
+        "size": 8945,
+        "lines": 184
+      },
+      {
+        "type": "file",
+        "name": "PORTFOLIO_REPORT_PROMPT.md",
+        "path": "reports/PORTFOLIO_REPORT_PROMPT.md",
+        "size": 5270,
+        "lines": 80
+      },
+      {
+        "type": "file",
         "name": "report_utils.py",
         "path": "reports/report_utils.py",
-        "size": 35285,
-        "lines": 995
+        "size": 45696,
+        "lines": 1305
+      },
+      {
+        "type": "file",
+        "name": "upload_report_to_notebooklm.py",
+        "path": "reports/upload_report_to_notebooklm.py",
+        "size": 766,
+        "lines": 23
+      },
+      {
+        "type": "file",
+        "name": "WEEKLY_REPORT_Mar-01_to_Mar-08.md",
+        "path": "reports/WEEKLY_REPORT_Mar-01_to_Mar-08.md",
+        "size": 244,
+        "lines": 4
       }
     ]
   },
@@ -10468,14 +11133,28 @@
     "type": "file",
     "name": "market_fetcher.py",
     "path": "market_fetcher.py",
-    "size": 72247,
-    "lines": 2000
+    "size": 75092,
+    "lines": 2084
   },
   {
     "type": "file",
     "name": "market_fetcher_test.py",
     "path": "market_fetcher_test.py",
-    "size": 24469,
-    "lines": 713
+    "size": 25172,
+    "lines": 730
+  },
+  {
+    "type": "file",
+    "name": "notebooklm_client.py",
+    "path": "notebooklm_client.py",
+    "size": 5262,
+    "lines": 136
+  },
+  {
+    "type": "file",
+    "name": "TASK_TRACKER.md",
+    "path": "TASK_TRACKER.md",
+    "size": 5596,
+    "lines": 73
   }
 ]

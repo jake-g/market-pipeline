@@ -1,15 +1,31 @@
 # pylint: disable=duplicate-code
+import datetime
+import difflib
 import logging
 import os
+import re
 import sys
 from typing import Any, Dict, List, Optional, Tuple
 
 from graphviz import Digraph
+import markdown  # type: ignore
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
 from tabulate import tabulate
+from weasyprint import CSS
+from weasyprint import HTML
+
+# Append project root to import config
+REPORTS_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(REPORTS_DIR, ".."))
+if PROJECT_ROOT not in sys.path:
+  sys.path.insert(0, PROJECT_ROOT)
+
+import config
+from market_fetcher import MarketFetcher
+from notebooklm_client import MarketNewsClient
 
 logger = logging.getLogger(__name__)
 
@@ -263,6 +279,179 @@ def get_intrinsic_value_metrics(ticker: str,
 
 
 # ==========================================
+# ADVANCED VISUALIZATIONS
+# ==========================================
+
+
+def generate_screening_scatter(df: pd.DataFrame, output_path: str):
+  """Generates the EPS Surprise vs. Intrinsic Value Discount scatter plot."""
+  if df.empty or 'Discount_to_Intrinsic_Value_Pct' not in df or 'Last_EPS_Surprise_Pct' not in df:
+    logger.warning("No data to plot scatter.")
+    return
+
+  setup_plot_aesthetics()
+
+  # Tighter outlier filtering for better zoom and readability
+  plot_df = df.dropna(
+      subset=['Discount_to_Intrinsic_Value_Pct', 'Last_EPS_Surprise_Pct'
+             ]).copy()
+
+  if plot_df.empty:
+    return
+
+  # Calculate IQR to remove extreme outliers dynamically
+  q1_disc = plot_df['Discount_to_Intrinsic_Value_Pct'].quantile(0.15)
+  q3_disc = plot_df['Discount_to_Intrinsic_Value_Pct'].quantile(0.85)
+  iqr_disc = q3_disc - q1_disc
+
+  q1_eps = plot_df['Last_EPS_Surprise_Pct'].quantile(0.15)
+  q3_eps = plot_df['Last_EPS_Surprise_Pct'].quantile(0.85)
+  iqr_eps = q3_eps - q1_eps
+
+  plot_df = plot_df[
+      (plot_df['Discount_to_Intrinsic_Value_Pct'] >= q1_disc - 1.5 * iqr_disc) &
+      (plot_df['Discount_to_Intrinsic_Value_Pct'] <= q3_disc + 1.5 * iqr_disc)]
+  plot_df = plot_df[
+      (plot_df['Last_EPS_Surprise_Pct'] >= q1_eps - 1.5 * iqr_eps) &
+      (plot_df['Last_EPS_Surprise_Pct'] <= q3_eps + 1.5 * iqr_eps)]
+
+  plt.figure(figsize=(14, 10))
+
+  # Simple Quadrant logic highlighting Actionable vs Value Trap zones
+  plt.axhline(0, color='black', alpha=0.3, linestyle='--')
+  plt.axvline(0, color='black', alpha=0.3, linestyle='--')
+
+  # Shade the "Deep Value / Holy Grail" Quadrant (Positive Discount, Positive EPS Surprise)
+  plt.axvspan(0,
+              q3_eps + 1.5 * iqr_eps,
+              ymin=0.5,
+              ymax=1,
+              alpha=0.08,
+              color='green')
+
+  # Shade the "Value Trap" Quadrant (Positive Discount, Negative EPS Surprise)
+  plt.axvspan(q1_eps - 1.5 * iqr_eps,
+              0,
+              ymin=0.5,
+              ymax=1,
+              alpha=0.08,
+              color='red')
+
+  # Fallback size value if 'Current_Price' isn't available in standard TSV passes
+  size_col = 'Current_Value' if 'Current_Value' in plot_df else 'Current_Price' if 'Current_Price' in plot_df else None
+
+  scatter = sns.scatterplot(data=plot_df,
+                            x='Last_EPS_Surprise_Pct',
+                            y='Discount_to_Intrinsic_Value_Pct',
+                            hue='Ticker',
+                            palette='viridis',
+                            size=size_col,
+                            sizes=(30, 300) if size_col else None,
+                            alpha=0.7,
+                            edgecolor='black',
+                            legend=False)
+
+  # Annotate all points shown on the scatter
+  for i in range(plot_df.shape[0]):
+    plt.text(x=plot_df['Last_EPS_Surprise_Pct'].iloc[i] + 0.3,
+             y=plot_df['Discount_to_Intrinsic_Value_Pct'].iloc[i] + 0.3,
+             s=plot_df['Ticker'].iloc[i],
+             fontdict={
+                 "color": 'black',
+                 "weight": "bold",
+                 "size": 8
+             })
+
+  plt.title('Value Screener: Intrinsic Value Discount vs. Last EPS Surprise',
+            fontweight='bold',
+            fontsize=16)
+  plt.xlabel('Most Recent EPS Surprise (%)', fontsize=12)
+  plt.ylabel('Discount to Graham Intrinsic Value (%)', fontsize=12)
+
+  plt.grid(True, alpha=0.3)
+  plt.tight_layout()
+  plt.savefig(output_path, dpi=300)
+  plt.close()
+  logger.info(f"Saved Screener Scatter plot to {output_path}")
+
+
+def build_decision_tree(df: pd.DataFrame, out_path: str):
+  """Generates a quantitative Graphviz decision tree mapping value actionability."""
+  if df.empty or 'Discount_to_Intrinsic_Value_Pct' not in df or 'Last_EPS_Surprise_Pct' not in df:
+    logger.warning("No data to plot decision tree.")
+    return
+
+  logger.info("Rendering Graphviz Value Decision Tree...")
+  dot = Digraph(comment='Value Execution Tree')
+  setup_decision_tree_aesthetics(dot)
+
+  # Core Pipeline state at head
+  dot.node(
+      'A',
+      f"Intrinsic Value\nScreener Matrix\n({datetime.date.today().strftime('%b %d, %Y')})",
+      shape='box',
+      style='filled',
+      fillcolor='lightblue')
+
+  # Identify extreme groupings if data exists
+  deep_value = df[df['Discount_to_Intrinsic_Value_Pct'] > 40]['Ticker'].head(
+      3).tolist()
+  fair_value = df[(df['Discount_to_Intrinsic_Value_Pct'] > 0) & (
+      df['Discount_to_Intrinsic_Value_Pct'] <= 40)]['Ticker'].head(3).tolist()
+  overvalued = df[df['Discount_to_Intrinsic_Value_Pct'] < -20]['Ticker'].head(
+      3).tolist()
+  value_traps = df[(df['Discount_to_Intrinsic_Value_Pct'] > 20) & (
+      df['Last_EPS_Surprise_Pct'] < 0)]['Ticker'].head(3).tolist()
+
+  dot.node('B1',
+           'Deep Value\n(Discount > 40%)',
+           style='filled',
+           fillcolor='lightgreen')
+  dot.node('B2',
+           'Fair Value\n(Discount 0% - 40%)',
+           style='filled',
+           fillcolor='lightyellow')
+  dot.node('B3',
+           'Overvalued Risk\n(Premium > 20%)',
+           style='filled',
+           fillcolor='lightcoral')
+  dot.node('B4',
+           'Value Traps\n(Discount > 20%, EPS Miss)',
+           style='filled',
+           fillcolor='lightgray')
+
+  dot.edge('A', 'B1', label='Margin of Safety')
+  dot.edge('A', 'B2', label='Steady Accumulation')
+  dot.edge('A', 'B3', label='Capitulation Risk')
+  dot.edge('A', 'B4', label='Fading Fundamentals')
+
+  # Dynamic Allocations
+  dot.node(
+      'C1',
+      f"BUY / CALL LEAPS:\n{', '.join(deep_value) if deep_value else 'No candidates'}",
+      shape='ellipse')
+  dot.node(
+      'C2',
+      f"HOLD / SELL PUTS:\n{', '.join(fair_value) if fair_value else 'No candidates'}",
+      shape='ellipse')
+  dot.node(
+      'C3',
+      f"TRIM EXPOSURE:\n{', '.join(overvalued) if overvalued else 'No candidates'}",
+      shape='ellipse')
+  dot.node(
+      'C4',
+      f"AVOID / SHORT:\n{', '.join(value_traps) if value_traps else 'No candidates'}",
+      shape='ellipse')
+
+  dot.edge('B1', 'C1')
+  dot.edge('B2', 'C2')
+  dot.edge('B3', 'C3')
+  dot.edge('B4', 'C4')
+
+  dot.render(out_path, format='png', cleanup=True)
+
+
+# ==========================================
 # DATA PIPELINE INTEGRATION (I/O)
 # ==========================================
 
@@ -337,16 +526,158 @@ def analyze_earnings_movement(ticker: str,
     return pd.DataFrame()
 
 
-def get_recent_news(topic: str, market_data_dir: str) -> pd.DataFrame:
+def get_recent_news(
+    topic: str,
+    market_data_dir: str,
+    limit: int = 40,
+    end_date: Optional[datetime.datetime] = None) -> pd.DataFrame:
   """Retrieves the most recent news headlines for a generalized topic."""
   try:
     path = os.path.join(market_data_dir, f"topics/{topic}/news.tsv")
-    news = pd.read_csv(path, sep="\t")
+    news = pd.read_csv(path, sep="	")
     news['Date'] = pd.to_datetime(news['Date'])
-    return news.sort_values('Date', ascending=False).head(3)
+    if end_date:
+      news = news[news['Date'] <= end_date]
+    return news.sort_values('Date', ascending=False).head(limit)
   except Exception as e:
     logger.warning("Could not retrieve generic news for topic %s: %s", topic, e)
     return pd.DataFrame()
+
+
+def get_recent_ticker_news(
+    ticker: str,
+    market_data_dir: str,
+    limit: int = 40,
+    end_date: Optional[datetime.datetime] = None) -> pd.DataFrame:
+  """Retrieves the most recent news headlines for a specific ticker."""
+  try:
+    path = os.path.join(market_data_dir, f"tickers/{ticker}/news.tsv")
+    news = pd.read_csv(path, sep="	")
+    news['Date'] = pd.to_datetime(news['Date'])
+    if end_date:
+      news = news[news['Date'] <= end_date]
+    return news.sort_values('Date', ascending=False).head(limit)
+  except Exception as e:
+    logger.warning("Could not retrieve news for ticker %s: %s", ticker, e)
+    return pd.DataFrame()
+
+
+def _is_similar(text1: str, text2: str, threshold: float = 0.6) -> bool:
+  if not pd.notna(text1) or not pd.notna(text2):
+    return False
+  seq = difflib.SequenceMatcher(None, str(text1).lower(), str(text2).lower())
+  return seq.ratio() > threshold
+
+
+def format_recent_news_markdown(
+    topics: Dict[str, str],
+    market_data_dir: str,
+    tickers: Optional[List[str]] = None,
+    max_items: int = 5,
+    target_date: Optional[datetime.datetime] = None) -> str:
+  """
+    Takes a dict of {topic_dir_name: Display Label} and/or a list of tickers,
+    aggregates, deduplicates via fuzzy matching, and returns a formatted Markdown string.
+    Prioritizes detailed summaries if available (like from Alpha Vantage).
+    """
+  all_news = []
+  tickers = tickers or []
+
+  for topic, label in topics.items():
+    df = get_recent_news(topic.lower(), market_data_dir, end_date=target_date)
+    if df.empty:
+      df = get_recent_news(topic, market_data_dir, end_date=target_date)
+    if not df.empty:
+      df['Source_Label'] = label
+      if target_date:
+        df = df[df['Date'] <= target_date]
+      all_news.append(df)
+
+  for ticker in tickers:
+    df = get_recent_ticker_news(ticker, market_data_dir, end_date=target_date)
+    if not df.empty:
+      df['Source_Label'] = ticker
+      if target_date:
+        df = df[df['Date'] <= target_date]
+      all_news.append(df)
+
+  if not all_news:
+    return ""
+
+  combined_df = pd.concat(all_news, ignore_index=True)
+
+  if 'Date' not in combined_df.columns or 'Headline' not in combined_df.columns:
+    return ""
+
+  combined_df = combined_df.sort_values('Date',
+                                        ascending=False).reset_index(drop=True)
+
+  news_items: List[str] = []
+  seen_headlines: List[str] = []
+
+  for _, row in combined_df.iterrows():
+    if not pd.notna(row['Date']) or not pd.notna(row['Headline']):
+      continue
+
+    headline = str(row['Headline']).strip()
+
+    # Check similarity
+    if any(_is_similar(headline, seen) for seen in seen_headlines):
+      continue
+
+    seen_headlines.append(headline)
+    label = row.get('Source_Label', 'News')
+
+    summary_text = ""
+    if 'Summary' in row and pd.notna(row['Summary']) and len(
+        str(row['Summary']).strip()) > 10:
+      summary_raw = str(row['Summary']).strip()
+      if len(summary_raw) > 150:
+        summary_raw = summary_raw[:147] + "..."
+      # Removing potential newlines in summary to not break markdown list
+      summary_raw = summary_raw.replace('\\n', ' ').replace('\\r', '')
+      summary_text = f" - *{summary_raw}*"
+
+    url = row.get('URL', '#')
+
+    news_items.append(
+        f"- **{label} ({row['Date'].strftime('%m/%d')})**: [{headline}]({url}){summary_text}"
+    )
+
+    if len(news_items) >= max_items:
+      break
+
+  if news_items:
+    return "\\n".join(news_items) + "\\n\\n"
+  return ""
+
+
+def build_ticker_context_markdown(tickers: List[str],
+                                  market_data_dir: str) -> str:
+  """Builds a dense Markdown string containing Intrinsic Value and Recent News for a specific list of tickers.
+  Useful for injecting bespoke context into LLM prompts.
+  """
+  if not tickers:
+    return ""
+
+  context = "### Detailed Portfolio Context (News & Intrinsic Value)\\n"
+  for t in tickers:
+    # Fetch Intrinsic Value
+    metrics = get_intrinsic_value_metrics(
+        t, os.path.join(market_data_dir, "tickers"))
+    if metrics:
+      discount = metrics.get('Graham_Discount_Pct', 'N/A')
+      context += f"- **{t}**: Intrinsic Discount: {discount}%\\n"
+
+    # Fetch Ticker News
+    news_df = get_recent_ticker_news(t, market_data_dir, limit=3)
+    if not news_df.empty:
+      context += f"  - Recent News for {t}:\\n"
+      for _, r in news_df.iterrows():
+        headline = r.get('Headline', '')[:100]
+        if headline:
+          context += f"    - {headline}...\\n"
+  return context + "\\n"
 
 
 def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
@@ -656,8 +987,6 @@ _root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if _root not in sys.path:
   sys.path.insert(0, _root)
 
-import config
-
 
 def get_theme(ticker: str) -> str:
   """Returns the macro sector/theme for a given ticker using config.SECTORS."""
@@ -720,6 +1049,146 @@ def enrich_portfolio_df(df: pd.DataFrame, market_data_dir: str) -> pd.DataFrame:
       df = df.merge(tech_df, on="Ticker", how="left")
 
   return df
+
+
+# ==========================================
+# REPORT RENDERING & EXPORT UTILITIES
+# ==========================================
+
+DEFAULT_PDF_CSS = """
+@page {
+    size: A4;
+    margin: 1.5cm;
+}
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #111;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+}
+img {
+    max-width: 100%;
+    max-height: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 7pt;
+    table-layout: auto;
+    word-wrap: break-word;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+    word-break: break-all;
+}
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+ul, ol {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+}
+pre, code {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: monospace;
+}
+pre {
+    padding: 10px;
+    overflow-x: auto;
+}
+"""
+
+
+def render_markdown_to_pdf(md_path: str,
+                           output_path: Optional[str] = None) -> str:
+  """
+    Converts a Markdown file containing local image links to a self-contained PDF.
+    Returns the path to the generated PDF.
+    """
+  if not os.path.exists(md_path):
+    raise FileNotFoundError(f"Markdown file not found: {md_path}")
+
+  md_dir = os.path.abspath(os.path.dirname(md_path))
+  md_basename = os.path.basename(md_path)
+
+  if not output_path:
+    # Default save to reports/rendered/
+    root_dir = os.path.dirname(md_dir) if os.path.basename(
+        md_dir) != 'reports' else md_dir
+    if not root_dir.endswith('reports'):
+      parts = md_dir.split(os.sep)
+      if 'reports' in parts:
+        root_dir = os.sep.join(parts[:parts.index('reports') + 1])
+      else:
+        root_dir = md_dir
+
+    rendered_dir = os.path.join(root_dir, 'rendered')
+    os.makedirs(rendered_dir, exist_ok=True)
+    pdf_filename = os.path.splitext(md_basename)[0] + ".pdf"
+
+    parent_dir_name = os.path.basename(md_dir)
+    if parent_dir_name not in ("reports", "rendered"):
+      pdf_filename = f"{parent_dir_name}_{pdf_filename}"
+
+    output_path = os.path.join(rendered_dir, pdf_filename)
+
+  with open(md_path, 'r', encoding='utf-8') as f:
+    md_text = f.read()
+
+  def make_abs_path(match):
+    alt_text = match.group(1)
+    rel_path = match.group(2)
+    if rel_path.startswith(('http://', 'https://')):
+      return match.group(0)
+
+    if rel_path.startswith('./'):
+      rel_path = rel_path[2:]
+
+    abs_path = os.path.join(md_dir, rel_path)
+    abs_uri = f"file://{abs_path}"
+    return f"![{alt_text}]({abs_uri})"
+
+  md_text = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', make_abs_path, md_text)
+
+  html_body = markdown.markdown(md_text,
+                                extensions=['tables', 'fenced_code', 'nl2br'])
+
+  logger.info("Rendering PDF for %s...", md_basename)
+  try:
+    # Weasyprint expects a full HTML document structure for reliable rendering
+    full_html = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>{os.path.basename(md_path)}</title>
+    </head>
+    <body>
+        {html_body}
+    </body>
+    </html>
+    """
+    HTML(string=full_html,
+         base_url=md_dir).write_pdf(output_path,
+                                    stylesheets=[CSS(string=DEFAULT_PDF_CSS)])
+    logger.info("Successfully rendered PDF: %s", output_path)
+  except Exception as e:
+    logger.error("Failed to render PDF file: %s", e)
+
+  return output_path
 
 
 def generate_exposure_plot(df: pd.DataFrame,
@@ -993,3 +1462,134 @@ def build_standard_portfolio_report(script_dir: str,
   out_path = os.path.join(script_dir, "REPORT.md")
   with open(out_path, "w", encoding="utf-8") as f:
     f.write(report_md)
+
+  # --- AI PORTFOLIO ENHANCEMENT ---
+  # Only trigger if not explicitly disabled
+  if os.environ.get("DISABLE_NOTEBOOKLM_UPLOAD", "0") != "1":
+    try:
+      logger.info(f"Synthesizing AI tactical overlay for: {out_path}...")
+      curr_dir = os.path.dirname(os.path.abspath(__file__))
+      notebooklm_report_path = os.path.join(curr_dir, "notebooklm_report.py")
+      report_utils_path = os.path.join(curr_dir, "report_utils.py")
+
+      notebooklm_cmd = f"python3 '{notebooklm_report_path}' --mode portfolio --dir '{out_path}'"
+      os.system(notebooklm_cmd)
+
+      logger.info(f"Re-rendering Enhanced Markdown to PDF: {out_path}...")
+      render_cmd = f"python3 '{report_utils_path}' --render '{out_path}'"
+      os.system(render_cmd)
+    except Exception as e:
+      logger.error(
+          f"Failed to generate AI tactical overlay for {script_dir}: {e}")
+
+  import asyncio
+
+  if os.environ.get("DISABLE_NOTEBOOKLM_UPLOAD", "0") != "1":
+    logger.info(f"Auto-archiving report to NotebookLM: {script_dir}")
+    try:
+      asyncio.run(upload_directory_to_notebooklm(script_dir))
+    except Exception as e:
+      logger.error(f"Failed to auto-archive report to NotebookLM: {e}")
+      if "login" in str(e).lower() or "authentication" in str(e).lower():
+        logger.error(
+            "Please run `notebooklm login` from your terminal to authenticate.")
+
+
+# ==========================================
+# NOTEBOOKLM INTEGRATION
+# ==========================================
+
+
+async def upload_directory_to_notebooklm(dir_path: str,
+                                         project_name: str = "Market Reports"):
+  """
+    Uploads all relevant files from a generated report directory to NotebookLM.
+    This creates an automated archive we can chat with later.
+    """
+  if not os.path.exists(dir_path):
+    logger.error("Directory not found: %s", dir_path)
+    return
+
+  logger.info("Connecting to NotebookLM '%s' project...", project_name)
+  async with MarketNewsClient(project_name=project_name) as db:
+    await db.connect()
+
+    # Recursively find and upload all PDF and MD files in the directory
+    for root, _, files in os.walk(dir_path):
+      for file in files:
+        if file.endswith('.pdf') or file.endswith('.md'):
+          file_path = os.path.join(root, file)
+          await db.upload_file(file_path)
+          logger.info("Successfully uploaded %s", file_path)
+
+
+def build_daily_news_digest(
+    market_data_dir: str,
+    target_date: Optional[datetime.datetime] = None
+) -> Tuple[str, pd.DataFrame]:
+  """Fetches recent news dynamically using all topics and tickers in config.py."""
+
+  all_news = []
+
+  # 1. Fetch from all config.NEWS_TOPICS
+  for topic in config.NEWS_TOPICS:
+    clean_topic = topic.lower().replace(" ", "_")
+    df = get_recent_news(clean_topic, market_data_dir, limit=5)
+    if not df.empty:
+      df['Source_Label'] = f"Topic: {topic}"
+      if target_date:
+        df = df[df['Date'] <= target_date]
+      all_news.append(df)
+
+  # 2. Fetch from all config.SECTORS -> tickers
+  for sector_name, tickers in config.SECTORS.items():
+    for ticker in tickers:
+      df = get_recent_ticker_news(ticker, market_data_dir, limit=3)
+      if not df.empty:
+        df['Source_Label'] = f"{ticker} ({sector_name})"
+        if target_date:
+          df = df[df['Date'] <= target_date]
+        all_news.append(df)
+
+  if not all_news:
+    return "", pd.DataFrame()
+
+  combined_df = pd.concat(all_news, ignore_index=True)
+  if 'Date' not in combined_df.columns or 'Headline' not in combined_df.columns:
+    return "", pd.DataFrame()
+
+  combined_df = combined_df.sort_values('Date',
+                                        ascending=False).reset_index(drop=True)
+
+  text_blob = "MARKET NEWS DIGEST:\n\n"
+  seen_headlines: List[str] = []
+
+  for _, row in combined_df.iterrows():
+    if not pd.notna(row['Date']) or not pd.notna(row['Headline']):
+      continue
+
+    headline = str(row['Headline']).strip()
+    if any(_is_similar(headline, seen) for seen in seen_headlines):
+      continue
+
+    seen_headlines.append(headline)
+
+    summary_raw = ""
+    if 'Summary' in row and pd.notna(row['Summary']) and len(
+        str(row['Summary']).strip()) > 10:
+      summary_raw = str(row['Summary']).strip()
+      summary_raw = summary_raw.replace('\n', ' ').replace('\r', '')
+
+    text_blob += f"Title: {headline}\n"
+    text_blob += f"Topic/Ticker: {row.get('Source_Label', 'News')}\n"
+
+    # Capture the link for deep fetching later
+    link = str(row.get('URL', '')).strip()
+    if link and link.startswith('http'):
+      text_blob += f"Link: {link}\n"
+
+    if summary_raw:
+      text_blob += f"Summary: {summary_raw}\n"
+    text_blob += "\n"
+
+  return text_blob, combined_df

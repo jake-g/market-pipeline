@@ -20,6 +20,9 @@ python3 -m unittest backfill/legacy_data_test.py
 # echo "📓 Dashboard Notebook Validation (Optional)..."
 # python3 notebooks/notebook_test.py notebooks/market_dashboard.ipynb
 
+echo "📝 NotebookLM Client Tests..."
+python3 notebooklm_client.py 2>&1 | tee logs/test_notebooklm_client.log
+
 echo "🧹 Code Quality & Formatting Validation..."
 ./run_format.sh
 

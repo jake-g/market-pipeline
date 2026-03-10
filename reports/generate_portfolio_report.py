@@ -5,15 +5,21 @@ import os
 import sys
 
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 import seaborn as sns
 
 # Append project root to import config
-PORTFOLIOS_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.abspath(os.path.join(PORTFOLIOS_DIR, "..", ".."))
-sys.path.append(PROJECT_ROOT)
+REPORTS_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(REPORTS_DIR, ".."))
+PORTFOLIOS_DIR = os.path.join(PROJECT_ROOT, "portfolios")
+if PROJECT_ROOT not in sys.path:
+  sys.path.insert(0, PROJECT_ROOT)
 import config
 from portfolios.yahoo_portfolio_fetcher import load_env_file
+from reports.report_utils import build_decision_tree
+from reports.report_utils import generate_screening_scatter
+from reports.report_utils import get_intrinsic_value_metrics
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -34,6 +40,24 @@ else:
       "ACTIVE_TRADING_PORTFOLIOS not found in .env. Falling back to empty list."
   )
   ACTIVE_TRADING_PORTFOLIOS = []
+
+
+# pylint: disable=duplicate-code
+def get_latest_eps_surprise(ticker: str, tickers_dir: str) -> float:
+  """Retrieve the most recent EPS Surprise for a ticker."""
+  eps_surprise = np.nan
+  earnings_file = os.path.join(tickers_dir, ticker, "earnings.tsv")
+  if os.path.exists(earnings_file):
+    try:
+      edf = pd.read_csv(earnings_file, sep='\t')
+      edf = edf.dropna(subset=['Surprise(%)'])
+      if not edf.empty:
+        edf['Earnings Date'] = pd.to_datetime(edf['Earnings Date'], utc=True)
+        edf = edf.sort_values(by='Earnings Date', ascending=False)
+        eps_surprise = float(edf.iloc[0]['Surprise(%)'])
+    except Exception:
+      pass
+  return eps_surprise
 
 
 def map_sectors(df: pd.DataFrame) -> pd.DataFrame:
@@ -104,7 +128,7 @@ def create_pie_chart(df: pd.DataFrame,
   plt.tight_layout()
   plt.savefig(os.path.join(PLOTS_DIR, filename), bbox_inches='tight')
   plt.close()
-  return f"plots/{filename}"
+  return f"../portfolios/plots/{filename}"
 
 
 def generate_report():
@@ -181,6 +205,19 @@ def generate_report():
                                               ascending=False)
     active_agg_df = map_sectors(active_agg_df)
 
+    # Inject Intrinsic Value Metrics
+    tickers_dir = os.path.join(PROJECT_ROOT, "market_data", "tickers")
+    discounts = []
+    eps_surprises = []
+    for _, row in active_agg_df.iterrows():
+      t = row['Ticker']
+      metrics = get_intrinsic_value_metrics(t, tickers_dir)
+      discounts.append(metrics.get("Discount_to_Intrinsic_Value_Pct", np.nan))
+      eps_surprises.append(get_latest_eps_surprise(t, tickers_dir))
+
+    active_agg_df['Discount_to_Intrinsic_Value_Pct'] = discounts
+    active_agg_df['Last_EPS_Surprise_Pct'] = eps_surprises
+
   # 1. Active Portfolio Section
   report_lines.append("## 📈 Active Trading Portfolios\n")
   if not active_agg_df.empty:
@@ -205,6 +242,24 @@ def generate_report():
       report_lines.append(f"![Active Holdings]({alloc_plot})")
     if sec_plot:
       report_lines.append(f"![Active Sectors]({sec_plot})")
+
+    # Intrinsic Value Visualizations
+    scatter_path = os.path.join(PLOTS_DIR, "active_intrinsic_scatter.png")
+    tree_path = os.path.join(PLOTS_DIR,
+                             "active_value_decision_tree")  # dot appends .png
+
+    generate_screening_scatter(active_agg_df, scatter_path)
+    build_decision_tree(active_agg_df, tree_path)
+
+    if os.path.exists(scatter_path):
+      report_lines.append(
+          f"\n![Intrinsic Value Scatter](../portfolios/plots/active_intrinsic_scatter.png)"
+      )
+    if os.path.exists(tree_path + ".png"):
+      report_lines.append(
+          f"\n![Decision Tree](../portfolios/plots/active_value_decision_tree.png)"
+      )
+
     report_lines.append("\n\n### Active Aggregate Holdings\n")
 
     # Format df slightly for markdown
@@ -271,13 +326,31 @@ def generate_report():
     report_lines.append("\n\n")
 
   # Write output
-  report_path = os.path.join(PORTFOLIOS_DIR, "PORTFOLIO_REPORT.md")
+  reports_dir = os.path.join(PROJECT_ROOT, "reports")
+  report_path = os.path.join(reports_dir, "PORTFOLIO_REPORT.md")
   with open(report_path, "w") as f:
     f.write("\n".join(report_lines))
 
   logger.info(
       f"Successfully generated comprehensive Active/Global Markdown report: {report_path}"
   )
+
+  # --- AI PORTFOLIO ENHANCEMENT ---
+  if os.environ.get("DISABLE_NOTEBOOKLM_UPLOAD", "0") != "1":
+    try:
+      logger.info(f"Synthesizing AI tactical overlay for: {report_path}...")
+      notebooklm_report_script = os.path.join(reports_dir,
+                                              "notebooklm_report.py")
+      report_utils_script = os.path.join(reports_dir, "report_utils.py")
+
+      notebooklm_cmd = f"python3 '{notebooklm_report_script}' --mode portfolio --dir '{report_path}'"
+      os.system(notebooklm_cmd)
+
+      logger.info(f"Re-rendering Enhanced Markdown to PDF: {report_path}...")
+      render_cmd = f"python3 '{report_utils_script}' --render '{report_path}'"
+      os.system(render_cmd)
+    except Exception as e:
+      logger.error(f"Failed to generate global AI tactical overlay: {e}")
 
 
 if __name__ == "__main__":

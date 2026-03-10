@@ -324,6 +324,23 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     if self.cache_dir.exists():
       shutil.rmtree(self.cache_dir)
 
+  @patch("market_fetcher.cffi_requests.get")
+  def test_fetch_article_text(self, mock_get):
+    import asyncio
+
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.content = b"<html><body><header>Bad</header><p>This is paragraph 1 with enough length to be collected.</p><p>This is paragraph 2 also with enough length to be collected.</p></body></html>"
+    mock_get.return_value = mock_response
+
+    result = asyncio.run(
+        MarketFetcher.fetch_article_text("https://news.google.com/rss/fake"))
+
+    self.assertIsNotNone(result)
+    self.assertIn("This is paragraph 1", result)
+    self.assertIn("This is paragraph 2", result)
+    self.assertNotIn("Bad", result)
+
   @patch("market_fetcher.requests.get")
   def test_alphavantage_sentiment(self, mock_get):
     # Mock Response

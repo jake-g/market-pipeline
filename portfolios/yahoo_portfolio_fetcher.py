@@ -7,6 +7,7 @@ import os
 import re
 import shlex
 import sys
+import time
 from typing import Dict, List, Optional
 from urllib.parse import parse_qs
 from urllib.parse import urlparse
@@ -249,6 +250,11 @@ def main():
       type=str,
       help="Path to a manually saved portfolio.json file (skips fetching).",
   )
+  parser.add_argument(
+      "--force",
+      action="store_true",
+      help="Force a fresh fetch from Yahoo Finance, bypassing the 1-hour cache."
+  )
   args = parser.parse_args()
 
   logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -267,6 +273,18 @@ def main():
       custom_headers = json.loads(headers_str)
     except:
       pass
+  json_cache_path = os.path.join(os.path.dirname(__file__), "portfolio.json")
+
+  # Auto-inject the cached file if it's less than 1 hour old and we aren't forcing an update
+  if not args.local_json and not args.force and not args.dump:
+    if os.path.exists(json_cache_path):
+      age_seconds = time.time() - os.path.getmtime(json_cache_path)
+      max_age = config.CACHE_YAHOO_PORTFOLIO_HOURS * 3600
+      if age_seconds < max_age:
+        logger.info(
+            f"portfolio.json is only {int(age_seconds/60)} minutes old (Cache max: {config.CACHE_YAHOO_PORTFOLIO_HOURS}h). Using cached version. Use --force to override."
+        )
+        args.local_json = json_cache_path
 
   try:
     if args.local_json:
@@ -344,10 +362,16 @@ def main():
         json.dump(data, f, indent=2)
       logger.info("Dumped raw JSON to %s", dump_file)
     else:
+      # If we successfully fetched fresh data, overwrite the 1-hour cache
+      if not args.local_json:
+        with open(json_cache_path, "w", encoding="utf-8") as f:
+          json.dump(data, f, indent=2)
+        logger.info(f"Updated 1-hour cache buffer at {json_cache_path}")
+
       try:
         import pandas as pd
         portfolios = data.get("finance", {}).get("result",
-                                                 [])[0].get("portfolios", [])
+                                                 [{}])[0].get("portfolios", [])
         logger.info("Found %d portfolios.", len(portfolios))
 
         meta_report_rows = []

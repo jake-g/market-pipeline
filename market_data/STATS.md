@@ -1,16 +1,16 @@
 # Data Stats Report
-Date: 2026-03-09 17:07
+Date: 2026-03-09 19:45
 
 ## 1. Global Metrics
 - **Total Tickers**: 188
 - **Total Topics**: 54
-- **Total News Items**: 119166
+- **Total News Items**: 119167
 
 ## 2. Ticker Data
 | Ticker | Price Range | News | Insider | NaNs | Missing Files |
 |---|---|---|---|---|---|
-| AAPL | 2018-01-02 to 2026-03-09 | 846 | 495 | 0 | None |
-| ACHR | 2020-12-18 to 2026-03-09 | 401 | 2 | 0 | None |
+| AAPL | 2018-01-02 to 2026-03-09 | 848 | 495 | 0 | None |
+| ACHR | 2020-12-18 to 2026-03-09 | 400 | 2 | 0 | None |
 | ADBE | 2018-01-02 to 2026-03-09 | 460 | 608 | 0 | None |
 | ADI | 2018-01-02 to 2026-03-09 | 288 | 654 | 0 | None |
 | AMAT | 2018-01-02 to 2026-03-09 | 315 | 251 | 0 | None |

@@ -38,6 +38,16 @@ python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 echo "📈 Running Portfolio Pipeline..."
 ./portfolios/run_portfolio_pipeline.sh
 
+# Generate LLM Daily News Report
+echo "🗄️ Syncing local Market News to NotebookLM Archive (Market Feed)..."
+python3 reports/notebooklm_report.py --mode feed_upload 2>&1 | tee logs/sync_notebooklm_archive.log
+
+echo "🗂️ Generating Periodic Reports (Daily + Missing Weekly/Monthly)..."
+python3 reports/generate_periodic_reports.py 2>&1 | tee logs/generate_periodic_reports.log
+
+echo "☁️ Syncing all rendered PDF reports to NotebookLM..."
+python3 reports/notebooklm_report.py --mode report_upload 2>&1 | tee logs/sync_notebooklm_reports.log
+
 echo "🧹 Running Code Formatting & Validation..."
 ./run_format.sh
 
