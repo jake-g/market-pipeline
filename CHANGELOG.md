@@ -5,7 +5,18 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
-## [v1.5.0] - 2026-03-09
+## [v1.5.1] - 2026-03-10
+### Features & Refinements
+- **03-09 Tactical Portfolio Reports**:
+    - Abandoned generic automated wrapper generation in favor of 4 highly bespoke, distinct Python generator scripts targeting exact portfolio constraints (Schwab 351, Vanguard 7991, Vanguard Roth IRA 6381, and Combined Active Geopolitics).
+    - Hardcoded detailed decision tree topologies using Graphviz for each portfolio to map out macro responses, constraints, and actionable deployments.
+    - Updated report aesthetics to natively embed specific `## Visual Context` blocks showcasing Theme Exposure, PnL Contributions, and Intrinsic Value Mapping.
+- **NotebookLM Integration Refinements**:
+    - Inverted the flow of the Portfolio RAG AI Summary pipeline inside `notebooklm_report.py`. The AI synthesis block is now deliberately appended to the *bottom* of the Markdown logic rather than the top so the human-built tactical execution preamble reads first.
+- **Dependency & Config Patches**:
+    - Fixed a `yfinance` header request anomaly causing the `yahoo_portfolio_fetcher.py` to crash by adding `fake_useragent` to `requirements.txt`.
+    - Patched duplicate TSV joining bugs when pulling combined portfolio aggregates natively.
+
 ### Features & AI Integrations
 - **Agentic NotebookLM Pipeline**:
     - Centralized interaction with Google NotebookLM via a custom `notebooklm_client.py` wrapper.

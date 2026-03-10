@@ -402,7 +402,7 @@ class TestMarketFetcherExtraction(unittest.TestCase):
         "trailingEps": 5.0,
         "currentPrice": 150.0
     }
-    mock_ticker.earnings_dates = pd.DataFrame(
+    mock_ticker.get_earnings_dates.return_value = pd.DataFrame(
         {
             "EPS Estimate": [1.0],
             "Reported EPS": [1.1]

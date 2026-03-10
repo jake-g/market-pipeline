@@ -8,11 +8,21 @@ import re
 import shlex
 import sys
 import time
+
+# Add the project root to sys.path so 'config' can be resolved
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if PROJECT_ROOT not in sys.path:
+  sys.path.insert(0, PROJECT_ROOT)
+
 from typing import Dict, List, Optional
 from urllib.parse import parse_qs
 from urllib.parse import urlparse
 
 from curl_cffi import requests
+from fake_useragent import UserAgent
+import pandas as pd
+
+import config
 
 logger = logging.getLogger(__name__)
 
@@ -369,7 +379,7 @@ def main():
         logger.info(f"Updated 1-hour cache buffer at {json_cache_path}")
 
       try:
-        import pandas as pd
+
         portfolios = data.get("finance", {}).get("result",
                                                  [{}])[0].get("portfolios", [])
         logger.info("Found %d portfolios.", len(portfolios))

@@ -9,7 +9,7 @@ _Generated 2026-03-09_
 
 The escalation of conflict involving Iran, Israel, and the United States serves as the primary catalyst for global market volatility and strategic realignment [1-3].
 
-- **Direct Conflict and Containment:** The United States and Israel are currently in the tenth day of an active war with Iran, with Iranian missiles being intercepted over Turkey and the UAE [1, 2]. 
+- **Direct Conflict and Containment:** The United States and Israel are currently in the tenth day of an active war with Iran, with Iranian missiles being intercepted over Turkey and the UAE [1, 2].
 - **Strategic Resource Control:** Former President Trump has considered deploying special operations forces to seize Iranian uranium to prevent nuclear escalation [4]. Concurrently, the U.S. is negotiating with Venezuela and waiving oil sanctions to stabilize global supply [5, 6].
 - **U.S. Alliance Shifts:** Ukraine has sent drone experts to help protect U.S. bases in Jordan, while Canada has explicitly stated it will not participate in the Iran war [7, 8].
 - **Maritime Security Threats:** The closure or disruption of the Strait of Hormuz has forced the U.S. to offer a $20 billion reinsurance program for shipping, as tankers and bulkers hit record high costs due to geopolitical risk [9].
@@ -37,7 +37,7 @@ Despite geopolitical turmoil, the technology sector is seeing massive capital in
 Macro-economic strategy is shifting toward "Friendshoring" and "Nearshoring" as a response to supply chain vulnerabilities and the threat of increased tariffs [23-25].
 
 - **Supply Chain Regionalization:** Nearshoring is on the rise in the apparel and pharma sectors due to the Iran conflict, with Mexico and Morocco emerging as key hubs for North American and European markets respectively [23-25].
-- **Trade Protectionism:** Former President Trump is signaled to have more tariffs "up his sleeve," while the U.S. is currently reviewing wood tariffs on Canadian and Chinese imports [26]. 
+- **Trade Protectionism:** Former President Trump is signaled to have more tariffs "up his sleeve," while the U.S. is currently reviewing wood tariffs on Canadian and Chinese imports [26].
 - **Resilience of the U.S. Dollar:** Despite ongoing "de-dollarization" narratives, the U.S. dollar has surged as a "safe haven" currency as the Middle East conflict intensifies [27].
 - **North American Integration:** Canada and Mexico are scheduled to begin bilateral talks regarding the USMCA in May 2026 to coordinate strategies in a post-Trump trade environment [7, 25].
 
@@ -47,7 +47,7 @@ Macro-economic strategy is shifting toward "Friendshoring" and "Nearshoring" as 
 
 ### Macro & Themes
 
-*   **War-Induced Energy Volatility:** WTI crude spiked past **$115/bbl** Sunday on Iran conflict escalation and Strait of Hormuz closure fears [1, 2]. Prices settled near **$84/bbl** Monday [3]. 
+*   **War-Induced Energy Volatility:** WTI crude spiked past **$115/bbl** Sunday on Iran conflict escalation and Strait of Hormuz closure fears [1, 2]. Prices settled near **$84/bbl** Monday [3].
 *   **Stagflation Signals:** 10-year Treasury yield surged to **4.19%** [4]. VIX spiked to **31.77**, reaching the **98th percentile** of annual readings as market fear intensifies [5].
 *   **AI Power Infrastructure:** GE Vernova (GEV) added to **S&P 100** index, driven by surging data center energy demand [6]. Hyperscaler Nscale raised **$2B** in Series C funding backed by Nvidia and Dell [7].
 *   **Safe-Haven Rotation:** US Dollar and Bitcoin rising as safe havens amid Middle East instability [8, 9]. Fast-money hedge funds increased ETF shorts by **8.3%** [10].

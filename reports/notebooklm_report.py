@@ -242,10 +242,8 @@ async def generate_report(market_data_dir: str,
     if start_date_str:
       date_obj = pd.to_datetime(start_date_str).tz_localize(None)
       date_str = date_obj.strftime("%m-%d")
-      target_date = date_obj
     else:
       date_str = datetime.now().strftime("%m-%d")
-      target_date = None
 
     project_name = "Market Pipeline: Daily Data (Temp)"
     report_filename = f"{date_str}_DAILY_REPORT.md"
@@ -280,7 +278,7 @@ async def generate_report(market_data_dir: str,
       raise ValueError(
           "Portfolio mode requires a valid --dir pointing to the markdown report."
       )
-    project_name = "Market Reports"  # Re-use the clean project space for this heavy RAG
+    project_name = "Market Pipeline: Portfolio Synthesis (Temp)"
     report_filename = os.path.basename(dir_path)
     prompt = PROMPT_PORTFOLIO
   elif mode == 'feed_upload':
@@ -455,7 +453,7 @@ async def generate_report(market_data_dir: str,
             original_content = f.read()
           with open(output_path, 'w') as f:
             f.write(
-                f"# AI Tactical Summary\n> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n{report_content}\n\n---\n\n{original_content}"
+                f"{original_content}\n\n---\n\n# AI Tactical Summary\n> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n{report_content}"
             )
 
         else:
@@ -497,7 +495,7 @@ async def generate_report(market_data_dir: str,
         logger.info(f"✅ Rendered and Uploaded PDF report to {pdf_path}")
 
         # Clean up temporary generation projects
-        if mode in ['daily', 'weekly', 'monthly', 'yearly']:
+        if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio']:
           logger.info(f"Wiping temporary NotebookLM project: {project_name}...")
           await db.delete_project()
 
@@ -515,7 +513,7 @@ async def generate_report(market_data_dir: str,
     logger.error(f"Failed to run via NotebookLM: {e}")
 
     # Try to safely clean up any stranded projects during a crash
-    if mode in ['daily', 'weekly', 'monthly', 'yearly'] and 'db' in locals():
+    if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio'] and 'db' in locals():
       try:
         logger.info(
             f"Attempting to wipe crashed NotebookLM project: {project_name}...")

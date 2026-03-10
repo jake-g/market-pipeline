@@ -194,7 +194,8 @@ Organized generically by **Ticker** and **Topic**. View `DATA_SCHEMA.md` for det
 
 ## Reports
 
-The pipeline includes a dedicated `reports/` directory designed for one off analysis.
+The pipeline includes a dedicated `reports/` directory designed for one off analysis and highly bespoke tactical reporting:
+- Explicit, manual tactical pre-open generators (e.g., `03-09_portfolio_*`) with hardcoded geopolitical decision trees and constraint modeling.
 - All analysis scripts can be executed at once via `./reports/run_all_report_scripts.sh`.
 - Browse the `reports/` directory to examples.
 

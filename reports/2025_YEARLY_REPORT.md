@@ -9,7 +9,7 @@ _Generated 2026-03-09_
 
 The escalation of conflict involving Iran, Israel, and the United States serves as the primary catalyst for global market volatility and strategic realignment [1-3].
 
-- **Direct Conflict and Containment:** The United States and Israel are currently in the tenth day of an active war with Iran, with Iranian missiles being intercepted over Turkey and the UAE [1, 2]. 
+- **Direct Conflict and Containment:** The United States and Israel are currently in the tenth day of an active war with Iran, with Iranian missiles being intercepted over Turkey and the UAE [1, 2].
 - **Strategic Resource Control:** Former President Trump has considered deploying special operations forces to seize Iranian uranium to prevent nuclear escalation [4]. Concurrently, the U.S. is negotiating with Venezuela and waiving oil sanctions to stabilize global supply [5, 6].
 - **U.S. Alliance Shifts:** Ukraine has sent drone experts to help protect U.S. bases in Jordan, while Canada has explicitly stated it will not participate in the Iran war [7, 8].
 - **Maritime Security Threats:** The closure or disruption of the Strait of Hormuz has forced the U.S. to offer a $20 billion reinsurance program for shipping, as tankers and bulkers hit record high costs due to geopolitical risk [9].
@@ -37,7 +37,7 @@ Despite geopolitical turmoil, the technology sector is seeing massive capital in
 Macro-economic strategy is shifting toward "Friendshoring" and "Nearshoring" as a response to supply chain vulnerabilities and the threat of increased tariffs [23-25].
 
 - **Supply Chain Regionalization:** Nearshoring is on the rise in the apparel and pharma sectors due to the Iran conflict, with Mexico and Morocco emerging as key hubs for North American and European markets respectively [23-25].
-- **Trade Protectionism:** Former President Trump is signaled to have more tariffs "up his sleeve," while the U.S. is currently reviewing wood tariffs on Canadian and Chinese imports [26]. 
+- **Trade Protectionism:** Former President Trump is signaled to have more tariffs "up his sleeve," while the U.S. is currently reviewing wood tariffs on Canadian and Chinese imports [26].
 - **Resilience of the U.S. Dollar:** Despite ongoing "de-dollarization" narratives, the U.S. dollar has surged as a "safe haven" currency as the Middle East conflict intensifies [27].
 - **North American Integration:** Canada and Mexico are scheduled to begin bilateral talks regarding the USMCA in May 2026 to coordinate strategies in a post-Trump trade environment [7, 25].
 
@@ -76,25 +76,25 @@ The 2025 market was defined by a **"blockbuster" bull run** fueled by aggressive
 
 ### Q1: Tariff Shocks & The "Liberation Day" Pivot
 *   **Narrative:** Euphoria turned to caution as the Trump administration prepared aggressive auto and tech tariffs [18, 19].
-*   **Moments:** 
+*   **Moments:**
     *   **Nasdaq best day in 24 years** occurred on April 9 (+12%) before a series of "Liberation Day" tariff-induced sell-offs [20, 21].
     *   Magnificent 7 stocks dipped 10% collectively in late Q1 due to trade uncertainty [22].
 
 ### Q2: The Nuclear Renaissance & Strategic Onshoring
 *   **Narrative:** Focus shifted to powering the AI boom. The U.S. committed to **quadrupling nuclear power by 2050** [8].
-*   **Moments:** 
+*   **Moments:**
     *   The "Technology Prosperity Deal" with the UK bolstered cooperation in SMR (Small Modular Reactor) deployment [8].
     *   Dovish Fed signals in June sparked a rally in defense and uranium ETFs (e.g., URA) [23, 24].
 
 ### Q3: Monetary Pivot & Commodity Record Highs
 *   **Narrative:** The Fed resumed interest rate cuts on Sept 17, triggering a massive $14.63B influx into global equity ETFs in a single day [13].
-*   **Moments:** 
+*   **Moments:**
     *   **Gold hit record highs** above $4,200/oz as central banks accelerated "de-dollarization" [25, 26].
     *   **Copper prices** surged toward $12,000/ton, the best performance since 2009, driven by AI power grid needs [20, 27].
 
 ### Q4: Rationalization & The AI "Loop" Debate
 *   **Narrative:** Market leaders navigated "circular deals" (OpenAI/NVIDIA/Microsoft) while valuations reached "stretched" levels [1, 28].
-*   **Moments:** 
+*   **Moments:**
     *   **Trump and Xi agreed to a 1-year trade truce** on Oct 30, temporarily easing fears of a prolonged conflict [29].
     *   **Bitcoin hit $100,000** in November before facing a 28% pullback due to year-end institutional profit-taking [30, 31].
 
