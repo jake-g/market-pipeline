@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-ALLOWED_ROOT_DIRS = {'market_data', 'reports', 'alpha_vantage_api'}
+ALLOWED_ROOT_DIRS = {'market_data', 'reports', 'alpha_vantage_api', 'portfolios'}
 INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json', '.py', '.png'}
 EXCLUDE_FILES = {'requirements.txt', 'TODO.md', 'index.json'}
 ALWAYS_IGNORE_DIRS = {
@@ -25,29 +25,48 @@ ALWAYS_IGNORE_DIRS = {
 
 
 def load_gitignore():
-  """Parses local .gitignore rules."""
+  """Parses .gitignore rules from root and reports/."""
   ignore_patterns = set()
-  gitignore_path = os.path.join(ROOT_DIR, '.gitignore')
-  if os.path.exists(gitignore_path):
-    with open(gitignore_path, 'r', encoding='utf-8') as f:
-      for line in f:
-        line = line.strip()
-        if line and not line.startswith('#'):
-          if line.endswith('/'):
-            line = line[:-1]
-          ignore_patterns.add(line)
-  return ignore_patterns
+  allow_patterns = set()
+  
+  for gitignore_rel in ['.gitignore', 'reports/.gitignore', 'portfolios/.gitignore']:
+    gitignore_path = os.path.join(ROOT_DIR, gitignore_rel)
+    if os.path.exists(gitignore_path):
+      with open(gitignore_path, 'r', encoding='utf-8') as f:
+        for line in f:
+          line = line.strip()
+          if line and not line.startswith('#'):
+            is_allow = False
+            if line.startswith('!'):
+              is_allow = True
+              line = line[1:]
+              
+            if line.endswith('/'):
+              line = line[:-1]
+              
+            if is_allow:
+              allow_patterns.add(line)
+            else:
+              ignore_patterns.add(line)
+              
+  return ignore_patterns, allow_patterns
 
 
-GITIGNORE_PATTERNS = load_gitignore()
+IGNORE_PATTERNS, ALLOW_PATTERNS = load_gitignore()
 
 
 def is_ignored(rel_path):
   """Checks if a relative path matches any parsed .gitignore pattern."""
-  for pattern in GITIGNORE_PATTERNS:
+  for pattern in ALLOW_PATTERNS:
+    if fnmatch.fnmatch(rel_path, pattern) or fnmatch.fnmatch(
+        os.path.basename(rel_path), pattern):
+      return False
+
+  for pattern in IGNORE_PATTERNS:
     if fnmatch.fnmatch(rel_path, pattern) or fnmatch.fnmatch(
         os.path.basename(rel_path), pattern):
       return True
+
   return False
 
 
