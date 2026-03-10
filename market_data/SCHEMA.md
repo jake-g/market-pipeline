@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (146 more) | | |
+| ... (198 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
 | Date | str | 2026-03-09 |
 | Source | str | Google |
-| Sentiment | float64 | 0.7 |
-| Headline | str | Amazon Outlet’s ‘bright and cheery’ 3-piece flo... |
-| Summary | str | Amazon's robotaxi unit Zoox is expanding testin... |
-| URL | str | https://news.google.com/rss/articles/CBMifEFVX3... |
+| Sentiment | float64 | 0.5 |
+| Headline | str | Amazon’s Biggest Fire TV Redesign in Years Targ... |
+| Summary | str | Amazon.com, Inc. (NASDAQ:AMZN) is one of the Be... |
+| URL | str | https://news.google.com/rss/articles/CBMibkFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -60,16 +60,16 @@ This report documents the file structures and column data types used in `market_
 | Amount | float64 | 15336673.625 |
 | BuyFlag | int64 | 0 |
 
-## 2. Topic Files (Example: `GLP-1 Weight Loss`)
+## 2. Topic Files (Example: `Memory Shortage`)
 ### `news.tsv` - Topic News
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2025-06-16 |
+| Date | str | 2025-12-18 |
 | Source | str | Google |
-| Sentiment | float64 | 0.15 |
-| Headline | str | Are GLP-1 drugs worth their current cost? - UCh... |
+| Sentiment | float64 | 0.0 |
+| Headline | str | Global Memory Shortage Crisis: Market Analysis ... |
 | Summary | float64 | nan |
-| URL | str | https://news.google.com/rss/articles/CBMitAFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMi6AFBVV... |
 
 ## 2. Macro Files
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
