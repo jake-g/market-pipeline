@@ -5,48 +5,22 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
-## [v1.5.1] - 2026-03-10
-### Features & Refinements
-- **03-09 Tactical Portfolio Reports**:
-    - Abandoned generic automated wrapper generation in favor of 4 highly bespoke, distinct Python generator scripts targeting exact portfolio constraints (Schwab 351, Vanguard 7991, Vanguard Roth IRA 6381, and Combined Active Geopolitics).
-    - Hardcoded detailed decision tree topologies using Graphviz for each portfolio to map out macro responses, constraints, and actionable deployments.
-    - Updated report aesthetics to natively embed specific `## Visual Context` blocks showcasing Theme Exposure, PnL Contributions, and Intrinsic Value Mapping.
-- **NotebookLM Integration Refinements**:
-    - Inverted the flow of the Portfolio RAG AI Summary pipeline inside `notebooklm_report.py`. The AI synthesis block is now deliberately appended to the *bottom* of the Markdown logic rather than the top so the human-built tactical execution preamble reads first.
-- **Dependency & Config Patches**:
-    - Fixed a `yfinance` header request anomaly causing the `yahoo_portfolio_fetcher.py` to crash by adding `fake_useragent` to `requirements.txt`.
-    - Patched duplicate TSV joining bugs when pulling combined portfolio aggregates natively.
+## [v1.5.0] - 2026-03-10
+### Agentic NotebookLM Integration
+- **Unified Pipeline (`notebooklm_report.py`)**: Centralized CLI for generating daily, weekly, monthly, and yearly insights via Google NotebookLM, with segregated ingestion targets ("Market Reports" and "Market Feed").
+- **AI Summarization & RAG**: Built dynamic engine to stream topic-specific news into a temporary LLM context, outputting a holistic `AI_THEMES.md` analysis. This thematic overview and custom tactical AI RAG overlays are now natively injected into daily/weekly Markdown reports and portfolio preambles.
+- **PDF Rendering & Formatting**: Built a fully Python-native `weasyprint` rendering engine into `report_utils.py` to embed local charts into PDFs before upload. Hardened all prompts with strict formatting instructions (bulleted points, chronical timelines, explicit `## References`).
+- **API Notice**: Google updated backend APIs (March 10), breaking the `notebooklm-py` automated PDF upload RPC. Text/Markdown generation (`feed_upload`) remains fully functional.
 
-### Features & AI Integrations
-- **Agentic NotebookLM Pipeline**:
-    - Centralized interaction with Google NotebookLM via a custom `notebooklm_client.py` wrapper.
-    - Wrote `notebooklm_report.py` as a unified CLI for generating daily, weekly, monthly, and yearly insights.
-    - Built a fully Python-native `weasyprint` PDF rendering engine into `report_utils.py` to ensure local charts (matplotlib/seaborn) are embedded into `.pdf` files before upload.
-    - Segregated ingestion into two targets: **"Market Reports"** (for polished PDFs/analyses) and **"Market Feed"** (for raw, deeply scraped news URLs and TSV data points).
-    - Hooked `reports/notebooklm_report.py --mode daily` into the end of `run_fetch.sh`.
-    - Natively integrated custom tactical AI RAG overlays into `build_standard_portfolio_report` so every newly generated active portfolio table automatically receives a NotebookLM preamble before PDF rendering.
-    - Added explicit `await db.delete_project()` cleanup hooks throughout `notebooklm_report.py` to prevent temporary workspaces (like `Market Pipeline: Daily Data`) from persisting and cluttering the web UI.
-    - Upgraded `PROMPT_MONTHLY` and `PROMPT_YEARLY` to explicitly command NotebookLM to structure its synthesis into chronical timelines ("Week-by-Week" and "Quarter-by-Quarter" respectively).
-    - Hardened all generation prompts (`DAILY`, `WEEKLY`, `MONTHLY`, `YEARLY`) with strict formatting instructions demanding concise bulleted points and explicit `## References` mapping inline citations back to source URLs.
-    - Updated `generate_historical_reports.sh` to natively trigger nested weekly reports explicitly for February 2026.
-    - Expanded `get_recent_news` constraints to push up to 40 chronological events to NotebookLM at a time, providing much deeper context horizons for synthesis.
-- **Topical AI Summarization**:
-    - Built a dynamic engine directly into `reports/generate_periodic_reports.py` to stream all sector/topic news directly into a temporary LLM context.
-    - Prompts the LLM to output a holistic, synthesized `AI_THEMES.md` document tracking macro shifts and technological leaps.
-    - Injected this AI synthesis automatically into the top of the standard daily and weekly markdown reports before PDF serialization.
-- **Intelligent News Filtering**:
-    - Completely decoupled `build_daily_news_digest` from hardcoded topics, now pulling dynamically from `config.NEWS_TOPICS` and `config.SECTORS`.
-    - Abstracted news fetching into `reports/report_utils.py` and upgraded `format_recent_news_markdown`.
-    - Now natively merges generic topic news with portfolio-specific ticker news.
-    - Deduplicates similar headlines using `difflib` fuzzy matching.
-    - Explicitly injects complex `Summary` data (sourced from Alpha Vantage) as actionable Markdown bullets.
-- **Historical Topic Backfill**:
-    - Created `backfill/topic_news.py` to recursively crawl Google News for custom macroscopic topics (`config.NEWS_TOPICS`) spanning 2018-2025.
-    - Built deeply integrated reverse-chunking logic inside `market_fetcher.py` allowing backwards-in-time extraction (2025 to 2018).
-    - Added a `--thorough` flag to transition from hyper-fast 365-day headline processing down to highly granular 90-day chunking.
-    - Fortified `SKIP_EARNINGS` lists to gracefully bypass non-existent financials for newly added index/crypto funds (e.g. QQQ, IWM, SOL-USD).
-    - Hardcoded `.get_earnings_dates(limit=160)` into `market_fetcher.py` to bypass `yfinance`'s native 2020 limit, actively unlocking 40 years of earnings data ingestion without requiring external rate-limited APIs.
-    - Attempted deep (2018+) `INCOME_STATEMENT` backfilling via AlphaVantage, but ultimately rolled back the logic due to the free tier's strict 25 request/day threshold preventing portfolio-wide synthesis.
+### Advanced Tactical Reporting
+- **Bespoke Portfolio Generators**: Replaced generic wrapper logic with 4 dedicated scripts for specific portfolio constraints (Schwab 351, Vanguard 7991, Vanguard Roth IRA 6381, Combined Active Geopolitics).
+- **Visual Context & Logic**: Hardcoded detailed Graphviz decision tree topologies mapping out macro responses. Report aesthetics now embed specific `## Visual Context` blocks showcasing Theme Exposure and PnL.
+- **Reporting Enhancements**: Finalized Oracle (ORCL) earnings report layout and updated portfolio outputs to natively print intrinsic values mapping.
+
+### Intelligent Market Fetching
+- **Dynamic News Filtering**: Completely decoupled `build_daily_news_digest` from hardcoded topics. Now dynamically pulls from config, deduplicates similar headlines using `difflib` fuzzy matching, and explicitly injects Alpha Vantage `Summary` data as actionable bullets.
+- **Historical Deep Backfill**: Created `backfill/topic_news.py` for 2018-2025 recursive topic crawling via Google News. Built deeply integrated reverse-chunking logic and bypassed the native `yfinance` limit to natively unlock 40 years of earnings data ingestion without external rate-limited APIs.
+- **Fixes**: Fixed a `yfinance` header request crash by adding `fake_useragent` and patched duplicate TSV joining bugs when pulling combined portfolio aggregates natively.
 
 ## [v1.4.6] - 2026-03-02
 ### Features & Architecture

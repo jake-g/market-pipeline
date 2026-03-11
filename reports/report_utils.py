@@ -614,6 +614,9 @@ def get_recent_news(
     if end_date:
       news = news[news['Date'] <= end_date]
     return news.sort_values('Date', ascending=False).head(limit)
+  except FileNotFoundError:
+    logger.debug("News file not found for topic %s.", topic)
+    return pd.DataFrame()
   except Exception as e:
     logger.warning("Could not retrieve generic news for topic %s: %s", topic, e)
     return pd.DataFrame()
@@ -632,6 +635,9 @@ def get_recent_ticker_news(
     if end_date:
       news = news[news['Date'] <= end_date]
     return news.sort_values('Date', ascending=False).head(limit)
+  except FileNotFoundError:
+    logger.debug("News file not found for ticker %s.", ticker)
+    return pd.DataFrame()
   except Exception as e:
     logger.warning("Could not retrieve news for ticker %s: %s", ticker, e)
     return pd.DataFrame()
@@ -1618,8 +1624,7 @@ def build_daily_news_digest(
 
   # 1. Fetch from all config.NEWS_TOPICS
   for topic in config.NEWS_TOPICS:
-    clean_topic = topic.lower().replace(" ", "_")
-    df = get_recent_news(clean_topic, market_data_dir, limit=5)
+    df = get_recent_news(topic, market_data_dir, limit=5)
     if not df.empty:
       df['Source_Label'] = f"Topic: {topic}"
       if target_date:

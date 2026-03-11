@@ -15,12 +15,14 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-ALLOWED_ROOT_DIRS = {'market_data', 'reports', 'alpha_vantage_api', 'portfolios'}
+ALLOWED_ROOT_DIRS = {
+    'market_data', 'reports', 'alpha_vantage_api', 'portfolios'
+}
 INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json', '.py', '.png'}
 EXCLUDE_FILES = {'requirements.txt', 'TODO.md', 'index.json'}
 ALWAYS_IGNORE_DIRS = {
-    'LSTM_AI_Stock_Predictor-main', 'venv', 'notebooks', 'backfill', 'logs',
-    'old', '.cache', '__pycache__', '.git', '.gemini'
+    'forks', 'venv', 'notebooks', 'deploy', 'backfill', 'logs', 'old', '.cache',
+    '__pycache__', '.git', '.gemini'
 }
 
 
@@ -28,8 +30,10 @@ def load_gitignore():
   """Parses .gitignore rules from root and reports/."""
   ignore_patterns = set()
   allow_patterns = set()
-  
-  for gitignore_rel in ['.gitignore', 'reports/.gitignore', 'portfolios/.gitignore']:
+
+  for gitignore_rel in [
+      '.gitignore', 'reports/.gitignore', 'portfolios/.gitignore'
+  ]:
     gitignore_path = os.path.join(ROOT_DIR, gitignore_rel)
     if os.path.exists(gitignore_path):
       with open(gitignore_path, 'r', encoding='utf-8') as f:
@@ -40,15 +44,15 @@ def load_gitignore():
             if line.startswith('!'):
               is_allow = True
               line = line[1:]
-              
+
             if line.endswith('/'):
               line = line[:-1]
-              
+
             if is_allow:
               allow_patterns.add(line)
             else:
               ignore_patterns.add(line)
-              
+
   return ignore_patterns, allow_patterns
 
 

@@ -125,9 +125,8 @@ async def async_generate_thematic_summary(output_dir: str,
   # 1. Gather all news content by Topic
   topic_news_streams = {}
   for topic in config.NEWS_TOPICS:
-    clean_topic = topic.lower().replace(" ", "_")
     target_dt = pd.to_datetime(end_date).tz_localize(None) if end_date else None
-    df = get_recent_news(clean_topic,
+    df = get_recent_news(topic,
                          config.MARKET_DATA_DIR,
                          limit=5,
                          end_date=target_dt)

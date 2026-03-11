@@ -1,3 +1,4 @@
+# pylint: disable=duplicate-code
 import os
 # We need to import the modules to test.
 import sys
@@ -7,7 +8,8 @@ from unittest.mock import patch
 
 import pandas as pd
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                                "..")))
 
 from portfolios import portfolio_processor
 from portfolios import yahoo_portfolio_fetcher
@@ -29,10 +31,12 @@ class TestPortfolioPipeline(unittest.TestCase):
           os.remove(os.path.join(tsvs_dir, f))
 
     # Run fetcher on the mock file
-    with patch.object(
-        sys, 'argv',
-        ['yahoo_portfolio_fetcher.py', '--local-json', self.mock_json]):
-      yahoo_portfolio_fetcher.main()
+    with patch.dict(os.environ,
+                    {'ACTIVE_TRADING_PORTFOLIOS': 'example_active_account'}):
+      with patch.object(
+          sys, 'argv',
+          ['yahoo_portfolio_fetcher.py', '--local-json', self.mock_json]):
+        yahoo_portfolio_fetcher.main()
 
     # Check files were generated
     active_path = os.path.join(self.test_dir, "tsvs",
@@ -60,7 +64,9 @@ class TestPortfolioPipeline(unittest.TestCase):
     import glob
     tsv_files = glob.glob(os.path.join(self.test_dir, "tsvs", "*.tsv"))
     target_files = [
-        f for f in tsv_files if not os.path.basename(f).startswith("_") and
+        f for f in tsv_files
+        if (not os.path.basename(f).startswith("_") or
+            os.path.basename(f) == "_combined_active_portfolio.tsv") and
         "example" not in os.path.basename(f).lower()
     ]
 

@@ -30,4 +30,4 @@ python3 -m portfolios.portfolio_processor 2>&1 | tee "$LOG_DIR/portfolio_process
 
 
 echo "Generating Comprehensive Markdown Report"
-python3 -m portfolios.generate_portfolio_report 2>&1 | tee "$LOG_DIR/generate_portfolio_report.log"
+python3 reports/generate_portfolio_report.py 2>&1 | tee "$LOG_DIR/generate_portfolio_report.log"

@@ -33,9 +33,12 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
     return portfolio_df
 
   # Safety: Infer missing basic accounting columns if Vanguard export drops them
-  if 'Cost_Basis' not in portfolio_df.columns and 'Unrealized_PnL_Net' in portfolio_df.columns:
-    portfolio_df['Cost_Basis'] = portfolio_df['Current_Value'] - portfolio_df[
-        'Unrealized_PnL_Net']
+  if 'Cost_Basis' not in portfolio_df.columns:
+    if 'Unrealized_PnL_Net' in portfolio_df.columns:
+      portfolio_df['Cost_Basis'] = portfolio_df['Current_Value'] - portfolio_df[
+          'Unrealized_PnL_Net']
+    else:
+      portfolio_df['Cost_Basis'] = portfolio_df['Current_Value']  # Assume 0 PnL
 
   if 'Name' not in portfolio_df.columns:
     portfolio_df['Name'] = portfolio_df['Ticker']

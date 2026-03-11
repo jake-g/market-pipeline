@@ -21,15 +21,6 @@ python3 market_fetcher.py 2>&1 | tee logs/run_market_fetcher_full.log
 t1=$(date +%s)
 echo "✅ Market Fetcher finished in $((t1-t0))s."
 
-# Historical Backfill (FNSPID)
-# The script now checks config.DEFAULT_START_DATE internally and exits early if >= 2020.
-# echo "📚 Checking Historical Backfill (FNSPID)..."
-# python3 backfill/fnspid.py --limit 50000 2>&1 | tee logs/run_backfill_full.log
-
-# Backfill Sentiment Reference (One-Time / Historical)
-# echo "🧠 Backfilling Sentiment Reference Data..."
-# python3 backfill/legacy_data.py 2>&1 | tee logs/backfill_sentiment.log
-
 # Generate static index for GitHub Pages
 echo "🌐 Generating static index.json for dashboard..."
 python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
@@ -50,6 +41,16 @@ python3 reports/notebooklm_report.py --mode report_upload 2>&1 | tee logs/sync_n
 
 echo "🧹 Running Code Formatting & Validation..."
 ./run_format.sh
+
+# One off example tasks
+# Historical Backfill (FNSPID)
+# The script now checks config.DEFAULT_START_DATE internally and exits early if >= 2020.
+# echo "📚 Checking Historical Backfill (FNSPID)..."
+# python3 backfill/fnspid.py --limit 50000 2>&1 | tee logs/run_backfill_full.log
+
+# Backfill Sentiment Reference (One-Time / Historical)
+# echo "🧠 Backfilling Sentiment Reference Data..."
+# python3 backfill/legacy_data.py 2>&1 | tee logs/backfill_sentiment.log
 
 # echo "📦 Zipping project for Colab..."
 # zip -r market-pipeline.zip . -x "*.git*" "venv/*" "notebooks/.cache/*" "__pycache__/*" "*.DS_Store" "market-pipeline.zip" "logs/*"

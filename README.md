@@ -96,35 +96,39 @@ To set this up on your repo:
 > **Note**: These scripts automatically handle virtual environment creation and dependency installation via `run_env_setup.sh`.
 
 ### 7. Interactive Agentic News Pipeline (Google NotebookLM)
-We orchestrate `notebooklm-py` to automatically upload daily fetched market news and archive generated portfolio reports directly to Google NotebookLM. This provides a free, conversational LLM interface to query your data.
+We orchestrate `notebooklm-py` to automatically upload market news and generated reports to Google NotebookLM, providing a free, conversational LLM interface to query your data.
 
 **Setup Instructions:**
-1. You must have Google Chrome installed.
-2. The pipeline requires an active Google Session. To authenticate your local machine:
+1. Requires Google Chrome.
+2. Authenticate your local machine:
    ```bash
    source venv/bin/activate
    notebooklm login
    ```
-   *(A browser window will open. Complete the Google login, wait for the NotebookLM homepage to load, and press ENTER in the terminal).*
+   *(Complete Google login, wait for NotebookLM to load, then press ENTER in the terminal).*
+
+> [!WARNING]
+> **API Breakage Notice (March 10, 2026)**
+> An undocumented API change broke automated PDF uploading (`--mode report_upload`) in `notebooklm-py`. Text/Markdown syncing (`feed_upload`) remains functional.
 
 **Features:**
-*   **Topical AI Summarization (`reports/generate_periodic_reports.py`)**: Streams up to 40 generic sector and topic-specific news items per topic into a temporary NotebookLM project. Prompts the LLM to output a holistic `AI_THEMES.md` analysis tracking tech movements and macro shifts. Temporary projects are automatically deleted at maturity.
-*   **Daily News Synthesis (`reports/notebooklm_report.py --mode daily`)**: Automatically hooked into `run_fetch.sh`. It uploads the day's scraped news to a "Market News DB", automatically prepends the generated `AI_THEMES.md` thematic overview, asks the LLM to write a summarized market intelligence report, and saves it to `reports/MM-DD_DAILY_REPORT.md`.
-*   **Report Synthesis (`reports/notebooklm_report.py --mode [daily/weekly/monthly/yearly]`)**: Synthesizes a localized window of up to 40 aggregated deep-links and price action events into a highly detailed Markdown report. Before uploading, the report is **compiled into a `.pdf`** (to embed local visualization plots) and stored in the `Market Reports` NotebookLM project.
-*   **Raw Data Feed Sync (`reports/notebooklm_report.py --mode feed_upload`)**: Scans all local TSVs and dynamically deep-fetches all news URLs directly into the ad-hoc `Market Feed` NotebookLM database without generating a formalized report.
-*   **Portfolio AI Enhancements**: Runs an explicit RAG overlay across all newly generated active portfolio files (e.g. `reports/03-09_portfolio_combined_active/REPORT.md`) automatically during the `build_standard_portfolio_report` hook. The pipeline forces NotebookLM to synthesize a tactical preamble and prepend it directly to the local tabular Markdown file before triggering a final PDF render.
-*   **Batch Render and Upload (`reports/notebooklm_report.py --mode report_upload`)**: Automatically uploads all cleanly rendered PDFs found directly in the `reports/rendered/` directory to `Market Reports`.
-*   **Generate Historical Reports (Monthly/Yearly)**: There is a wrapper script to batch generate the entire history of monthly and yearly intelligence reports as PDFs.
+*   **AI Summarization (`reports/generate_periodic_reports.py`)**: Streams sector news to a temporary project to output an `AI_THEMES.md` analysis tracking macro shifts, auto-deleted at maturity.
+*   **Daily Synthesis (`reports/notebooklm_report.py --mode daily`)**: Hooked into `run_fetch.sh`. Uploads daily news, prepends `AI_THEMES.md`, generates a market intelligence report, and saves to `reports/MM-DD_DAILY_REPORT.md`.
+*   **Report Synthesis (`--mode [daily/weekly/monthly/yearly]`)**: Synthesizes events into a detailed Markdown report. Compiled to `.pdf` (to embed plots) and stored in NotebookLM.
+*   **Raw Data Feed (`--mode feed_upload`)**: Deep-fetches local TSV news URLs straight to NotebookLM without generating a formal report.
+*   **Portfolio Enhancements**: RAG overlay automatically synthesizes a tactical preamble for new active portfolios before rendering the final PDF.
+*   **Batch Render (`--mode report_upload`)**: Uploads existing PDFs from `reports/rendered/` to NotebookLM.
+*   **Historical Reports**: Batch generate history of intelligence reports.
     ```bash
     ./reports/generate_historical_reports.sh
     ```
-*   **Historical Deep Backfilling**: The local `market_fetcher.py` core actively overrides standard `yfinance` API limitations, natively pulling **40 years of earnings dates** per ticker (dating back to ~2002) without requiring external keys. *(Note: Deep "Income Statements" remain limited to the last 5 quarters natively due to Alpha Vantage free tier data caps).*
-*   **Explore CLI Examples**: View all the flags and functionalities available in the target script:
+*   **Deep Backfilling**: `market_fetcher.py` pulls up to 40 years of earnings dates without external keys.
+*   **CLI Examples**:
     ```bash
     cat ./reports/run_notebooklm_examples.sh
     ```
 
-*(Note: The `notebooklm-py` session requires periodic re-authentication via `notebooklm login` if the cookie expires).*
+*(Note: Periodic re-authentication via `notebooklm login` may be required).*
 
 ---
 
