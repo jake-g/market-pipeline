@@ -51,15 +51,17 @@ CRITICAL FORMATTING RULES:
 2. Highlight major defining moments of the year and provide concrete, numerical evidence.
 3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
-PROMPT_PORTFOLIO = """You are an elite portfolio manager powered by NotebookLM. Review the provided tabular text data representing my exact stock holdings, their recent performance metrics (Unrealized P/L, RSI, Dist_to_200MA), and the latest news context.
-Write a concise, high-level tactical summary of the portfolio's health.
-Identify the top 3 most overextended names (highest RSI/Dist_to_200MA) that might be ripe for profit-taking, and the top 3 deepest value traps or long-term plays (lowest RSI/deepest drawdowns).
-Identify any key portfolio concentrations (e.g., too heavily weighted in semiconductors or highly leveraged names).
-Crucially, provide actionable, single-account specific trade advice (buy/sell/hold) for this week and near term. Base your trades strictly on the numerical data, structural macro vectors, and immediate catalysts.
-Ensure high accuracy, sensibility, and consistency between your text recommendations and the tabular quantitative data provided.
-CRITICAL FORMATTING RULES:
-1. Be extremely concise. Avoid wordiness. Use terse bullet points and numerical tables.
-2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+PROMPT_PORTFOLIO = """You are an elite portfolio manager powered by NotebookLM. Review the provided tabular text data representing my exact stock holdings, their recent performance metrics, and the latest news context.
+
+Write a HIGHLY CONCISE tactical summary of the portfolio's health.
+Identify the top 3 most overextended names that might be ripe for profit-taking, and the top 3 deepest value traps or long-term plays.
+Identify any key portfolio concentrations.
+Crucially, provide actionable, single-account specific trade advice (buy/sell/hold) for this week and near term.
+
+CRITICAL INSTRUCTIONS:
+1. MAX 50 words per paragraph. NO FLUFl. NO EXPLANATIONS. Use numbers and terse bullet points.
+2. Ensure strict logical consistency between your advice and the provided data tables. If a stock is up 200%, do not call it a value play.
+3. You MUST include a numbered '## References' appendix at the very end. Map every single inline citation (e.g., [1]) to the exact Source Headline and URL provided. Format as Markdown."""
 
 
 def build_price_analysis_blob(market_data_dir: str,
@@ -451,11 +453,12 @@ async def generate_report(market_data_dir: str,
         if mode == 'portfolio':
           with open(output_path, 'r') as f:
             original_content = f.read()
-          with open(output_path, 'w') as f:
-            f.write(
-                f"{original_content}\n\n---\n\n# AI Tactical Summary\n> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n{report_content}"
-            )
-
+          with open(args.dir, "w") as f:
+            new_content = (
+                f"{original_content}\n\n---\n\n# AI Tactical Summary\n"
+                f"> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n"
+                f"{report_content}")
+            f.write(new_content)
         else:
           # Look for a fresh AI Thematic Summary
           thematic_content = ""
@@ -513,7 +516,8 @@ async def generate_report(market_data_dir: str,
     logger.error(f"Failed to run via NotebookLM: {e}")
 
     # Try to safely clean up any stranded projects during a crash
-    if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio'] and 'db' in locals():
+    if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio'
+               ] and 'db' in locals():
       try:
         logger.info(
             f"Attempting to wipe crashed NotebookLM project: {project_name}...")

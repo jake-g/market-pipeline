@@ -635,20 +635,30 @@ def format_recent_news_markdown(
       if len(summary_raw) > 150:
         summary_raw = summary_raw[:147] + "..."
       # Removing potential newlines in summary to not break markdown list
-      summary_raw = summary_raw.replace('\\n', ' ').replace('\\r', '')
+      summary_raw = summary_raw.replace('\\n',
+                                        ' ').replace('\\r',
+                                                     '').replace('\n', ' ')
       summary_text = f" - *{summary_raw}*"
 
-    url = row.get('URL', '#')
+    date_str = pd.to_datetime(row['Date']).strftime('%m/%d')
+    url = row.get('URL', '')
 
-    news_items.append(
-        f"- **{label} ({row['Date'].strftime('%m/%d')})**: [{headline}]({url}){summary_text}"
-    )
+    # Strip any rogue escaped newlines from the headline or url itself just in case
+    headline = headline.replace('\\n', ' ').replace('\n', ' ')
+    url = str(url).replace('\\n', '').replace('\n', '')
+
+    if url and str(url) != 'nan':
+      item = f"- **{label} ({date_str})**: [{headline}]({url}){summary_text}"
+    else:
+      item = f"- **{label} ({date_str})**: {headline}{summary_text}"
+
+    news_items.append(item)
 
     if len(news_items) >= max_items:
       break
 
   if news_items:
-    return "\\n".join(news_items) + "\\n\\n"
+    return "\n".join(news_items) + "\\n\\n"
   return ""
 
 
