@@ -81,7 +81,7 @@ The scatter plot below highlights how the market reacts to the magnitude of the 
 - **ORCL (03/10)**: [Oracle Earnings Prediction Market Preview: What Will Larry Ellison Say? - Benzinga](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYlFEWTItZFRmbTZhcDlxdkhtWFpSZjZDSEZHOHhXbWlYR1BJWExzN2JnT3I2WjdKQ2RjQlRnZ3dFenpBeUREemozbGRwYVZQcjBVeHk5OEFkWnZJc09VdUc3NnBtSVRjR0EyVEF4SjdxOTNYZHg1SE4tdWtCNFYzQjFLVHNzaUFrTHZYdWE5YjNjcjdUTFJHWlpqUzYxMFFDckdlc2MwaXY2Q0hSOFF1QUFtLVBzTENoUmtoTXdlZXBVXzZLaWl5dFlyM1VVRl9kZHc?oc=5)
 - **AMZN (03/10)**: [Amazon’s Massive Bond Sale Draws $126 Billion in Orders, One of the Largest Ever - TipRanks](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZjRQaDNxaWpweDVrNkU5cEV6Si1PTzUtLTlydWdOTFJXb3dCa2xBcUNEdkM2SzAtM1hQQTAyeFN5bndRS3V6eHJYWHJicWViSm04Ul9ZdEpsU3hfbEJVQVRQQ0syUXZnZkxaWTZwT3ZyV09mQ3IybzJrSm85OWlOLXdTSUE2Y1l0cUlWODB6eEZoVmtfREREWmtabzNraXNGYnJSTHB1VFF5bVE?oc=5)
 - **AMZN (03/10)**: [Amazon’s Record Bond Sale Tests AI Ambitions And Balance Sheet Choices - simplywall.st](https://news.google.com/rss/articles/CBMixAFBVV95cUxQVEVzeU1meXBYVFVNZ0dlM0ZWX3ZOZFhGY2VudUlqTzRnb0VhRndoSWM2b3dxcmZYMXhFOWxmRVZtU0VxWWtvTm91QnZzanlFa3dkYTJLMURYZVBEcW14RXhYWDlDSlVmd3d5RXVxd21Fd05IUER3TEI0blZXWVpraTIweURtWnVmM2dxcEFiS3pEdzkzR3I2TTRHNGNOOGpqWHBhUVNWLUpEem1Cd0JZNGl2WEhsMDZXUml3aUhEeGZTLW1m0gHKAUFVX3lxTE9TTHBuTkZTWmVoUl93ZGRsQU5GN3B6a2VkcjBCQVFjVmRYSWxiNGtRMHl0R1k5N0d5OXVqYS10d3lMdjdmb05Fc21WMThISkplbXB1cE9FSE0xVFprZ2dHNUF5UGtqeDVubXVlX1JEajVmT3EtVUJCd2REa09ENFJJOExrZUdyemVtX0FtQTdOWk9qZENqV3k1R0MzM01FeW4wQTdrclF1VFlISlNCUlNDSFVna0VEYndrNXFsYmVkX1ZtZWl0a2o4ZkE?oc=5)
-- **AMZN (03/10)**: [OpenAI Gave Amazing News to Amazon Shareholders - The Motley Fool](https://news.google.com/rss/articles/CBMilAFBVV95cUxPblo4UDNKbE84N2FMbHRHYnpvX1daendLaFF4NTJVa25tNVBMYnlyZ0NFemJtQ0M2N0ttcXM0emtGYUZsYnNMSjRuWlR1bGRMSzRaaTIwVFJmUEU2OEZpT2thTmd4M2M0emxOc2gtTTNQODE1SmpneFhwQVJWLTNKSlphN2hiMGphaG14dEdnQmo0b1VG?oc=5)
+- **AMZN (03/10)**: [Could Buying the Roundhill Magnificent Seven ETF Today Set You Up for Life?](https://www.fool.com/investing/2026/03/10/could-buying-the-roundhill-magnificent-seven-etf-t/?.tsrc=rss) - *As the name says, the fund invests only in the Magnificent Seven tech stocks.*
 - **AMZN (03/10)**: [Amazon Looks to Raise at Least $37 Billion Through Bond Sale - Bloomberg](https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0kwUXhXN1hJUUk1MThXRzZ3bzhPRWxsQ1VrRllNb0lreHJTeldmT3QyRmNyLW9TM1dhZm8wR3pXVVdyU2J0VloxNXh2Q2NGMlJ2SGVBaXhiVVExcjUtS0Z3TkVXUWc5TVVNbVZNQmR1eHRMTVlmMl95TnBUZzMyWmJwSzVsVUhWQ1FwTU81RXRVNWM2V3VTN2llUk5KZjdyT0VIb2xn?oc=5)
 - **AMZN (03/10)**: [Oracle Stock Jumps After Earnings Beat. AI Powers Stronger-Than-Expected Cloud Growth.](https://finance.yahoo.com/m/c807dae4-6fa8-3d07-a982-32e3af39e313/oracle-stock-jumps-after.html?.tsrc=rss) - *Oracle stock jumped late Tuesday after the enterprise and cloud-computing giant company reported fiscal Q3 results.*
 - **AMZN (03/10)**: [An Investor Just Bought $6 Million of This Stock That's Up 272% in a Year. Here's Whether It Still Has Room to Run](https://www.fool.com/coverage/filings/2026/03/10/an-investor-just-bought-usd6-million-of-this-stock-that-s-up-272-in-a-year-here-s-whether-it-still-has-room-to-run/?.tsrc=rss) - *This communications infrastructure firm serves global network operators and enterprises with integrated hardware and software solutions.*
@@ -99,27 +99,19 @@ The scatter plot below highlights how the market reacts to the magnitude of the 
 # AI Tactical Summary
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-Portfolio health is volatile, concentrated in **AI infrastructure** [1, 2]. Key metrics reveal aggressive debt-loading for scaling (AMZN) and consistent "gap trap" patterns in cloud providers (ORCL) [2, 3]. Broad market geopolitical tension is currently testing technical support levels for core mega-cap holdings [2].
+ORCL often exhibits a **"Gap Trap."** While Q3 results beat estimates [1], historical intraday peaks (+8.90%) frequently retreat to a +4.28% average close [2]. Option premium decay averages -4.38% [3]. Institutional support for **OCI (Oracle Cloud Infrastructure)** growth is the primary driver for potential trend breaks [4, 5].
 
-**Overextended Names:**
-1. **Communications Infrastructure Firm**: Up 272% annually; extreme profit-taking candidate [2].
-2. **Marvell (MRVL)**: Recent AI-driven jump following a high-volatility "roller-coaster" year [2].
-3. **Oracle (ORCL)**: Significant intraday "Fade Pattern" risk; historically loses 4.38% premium post-earnings [4, 5].
+*   **Scenario 1 (AI Acceleration):** Institutional buying overwhelms historical fades due to strong OCI guidance [1, 5].
+*   **Scenario 2 (Structural Fade):** Price action reverts to historical mean, fading the initial gap over 48-72 hours [4, 5].
+*   **Scenario 3 (Macro Rejection):** Sector-wide geopolitical volatility triggers rotation away from tech premiums [1, 5].
 
-**Value/Long-Term Plays:**
-1. **Amazon (AMZN)**: Flat pricing despite $126B bond demand; long-term AI infrastructure play [2].
-2. **Microsoft (MSFT)**: Maintains key technical levels despite U.S.-Iran war volatility [2].
-3. **Oracle (ORCL)**: Tier-1 Cloud pivot provides long-term value despite immediate post-earnings "Scenario 2" fade risk [1, 3].
-
-**Weekly Trade Advice:**
-*   **ORCL**: **SELL/WAIT**. Historical data predicts a structural fade over 48 hours [1, 3].
-*   **Communications Stock**: **SELL**. Realize gains from 272% run [2].
-*   **AMZN**: **HOLD**. Record bond sale orders indicate high institutional demand [2].
-*   **MSFT**: **HOLD**. Monitor support levels amid macro volatility [2].
+ORCL’s cloud pivot [4] aligns with AMZN’s **$42B bond-funded AI expansion** [1]. However, macro headwinds diverge; while ORCL "jumps" [1], MSFT faces pressure from **U.S.-Iran war volatility** [1]. This highlights ORCL’s idiosyncratic strength against a backdrop of intensifying sector-wide capital expenditure and geopolitical risk [1].
 
 ## References
-1. [1] ORCL Q3 Earnings Trade Analysis: Executive Summary
-2. [3] ORCL Q3 Earnings Trade Analysis: Historical Earnings Reactions
-3. [4] ORCL Q3 Earnings Trade Analysis: The 'Fade' Pattern
-4. [5] ORCL Q3 Earnings Trade Analysis: Implied Volatility (IV) Crush Metrics
-5. [2] Recent Industry News Context: Aggregated news snippets (Seeking Alpha, Bloomberg, etc.)
+1. Raw Earnings Data Tables: ORCL Q3 Earnings Trade Analysis [4]
+2. Raw Earnings Data Tables: Historical Earnings Reactions & Predictive Scenario Bounds [5]
+3. Raw Earnings Data Tables: The 'Fade' Pattern & Historical Average Peaks [2]
+4. Raw Earnings Data Tables: Implied Volatility (IV) Crush Metrics [3]
+5. Seeking Alpha: Oracle pops as Q3 results, guidance top estimates; updates on capital funding plans (ORCL:NYSE) [1]
+6. Bloomberg: Amazon Looks to Raise at Least $37 Billion Through Bond Sale [1]
+7. News Aggregator: Microsoft Stock Holds Key Level Amid Volatility; Is Microsoft A Buy Now? [1]

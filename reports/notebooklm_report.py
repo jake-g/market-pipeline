@@ -63,6 +63,16 @@ CRITICAL INSTRUCTIONS:
 2. Ensure strict logical consistency between your advice and the provided data tables. If a stock is up 200%, do not call it a value play.
 3. You MUST include a numbered '## References' appendix at the very end. Map every single inline citation (e.g., [1]) to the exact Source Headline and URL provided. Format as Markdown."""
 
+PROMPT_EARNINGS = """You are an elite equity research analyst powered by NotebookLM. Review the provided tabular data, historical price action, Implied Volatility (IV) crush metrics, and the latest news context for this specific earnings event.
+
+Write a HIGHLY CONCISE, zoomed-out tactical and macro analysis focused strictly on this particular ticker and its surrounding industry context.
+
+CRITICAL INSTRUCTIONS:
+1. MAX 50 words per paragraph. NO FLUFF. Use numbers and terse bullet points.
+2. Provide predictive scenarios based strictly on the provided quantitative data (historical gap fades, post-earnings drift) and support them with qualitative catalysts from the news.
+3. Contrast this ticker's earnings narrative with broader macroeconomic or sector-wide trends mentioned in the news to provide deeper, zoomed-out insights. Focus heavily on price trends and historical data. Do NOT mention random portfolio allocation or other tickers unless directly used to contrast the primary ticker's performance or ecosystem.
+4. You MUST include a numbered '## References' appendix at the very end. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+
 
 def build_price_analysis_blob(market_data_dir: str,
                               start_date: Optional[datetime],
@@ -283,6 +293,14 @@ async def generate_report(market_data_dir: str,
     project_name = "Market Pipeline: Portfolio Synthesis (Temp)"
     report_filename = os.path.basename(dir_path)
     prompt = PROMPT_PORTFOLIO
+  elif mode == 'earnings':
+    if not dir_path or not os.path.exists(dir_path):
+      raise ValueError(
+          "Earnings mode requires a valid --dir pointing to the markdown report."
+      )
+    project_name = "Market Pipeline: Earnings Synthesis (Temp)"
+    report_filename = os.path.basename(dir_path)
+    prompt = PROMPT_EARNINGS
   elif mode == 'feed_upload':
     project_name = "Market Feed"
     report_filename = None  # No direct prompt/file output, just archiving raw data
@@ -298,7 +316,9 @@ async def generate_report(market_data_dir: str,
       await db.connect()
 
       # Clear sources only for daily, weekly, monthly, yearly, and portfolio to ensure freshness
-      if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio']:
+      if mode in [
+          'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
+      ]:
         await db.clear_sources()
 
       # Gather TSVs
@@ -405,21 +425,22 @@ async def generate_report(market_data_dir: str,
             full_texts.append(f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
 
       # Final Prompting
-      if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio'
-                 ] and prompt:
+      if mode in [
+          'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
+      ] and prompt:
 
         # Build and Upload Quantitative summary
-        if mode == 'portfolio' and dir_path:
+        if mode in ['portfolio', 'earnings'] and dir_path:
           # For portfolio mode, just upload the exact markdown tabular document we are targeting
           with open(dir_path, 'r') as f:
-            await db.upload_news_text(f.read(),
-                                      title="Raw Portfolio Data Tables")
+            await db.upload_news_text(
+                f.read(), title=f"Raw {mode.capitalize()} Data Tables")
         else:
           target_start = pd.to_datetime(start_date_str).tz_localize(
               None) if start_date_str else None
           target_end = pd.to_datetime(end_date_str).tz_localize(
               None) if end_date_str else None
-        if mode != 'portfolio':
+        if mode not in ['portfolio', 'earnings']:
           if mode == 'daily':
             # Set target_start to 7 days ago if daily to give weekly momentum
             target_end = target_end or pd.Timestamp.now().tz_localize(None)
@@ -431,7 +452,7 @@ async def generate_report(market_data_dir: str,
             await db.upload_news_text(
                 quant_summary, title=f"Quantitative Price Action Summary")
 
-        if mode != 'portfolio':
+        if mode not in ['portfolio', 'earnings']:
           await db.upload_news_text(text_blob,
                                     title=f"{mode.capitalize()} Digest")
           if full_texts:
@@ -443,14 +464,14 @@ async def generate_report(market_data_dir: str,
         logger.info(f"Requesting LLM Synthesis for {mode}...")
         report_content = await db.ask_question(prompt)
 
-        if mode == 'portfolio' and dir_path:
+        if mode in ['portfolio', 'earnings'] and dir_path:
           output_path: str = dir_path
         else:
           output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                      report_filename or "report.md")
 
         # For portfolios: prepend the AI summary to the existing file
-        if mode == 'portfolio':
+        if mode in ['portfolio', 'earnings']:
           with open(output_path, 'r') as f:
             original_content = f.read()
           with open(output_path, "w") as f:
@@ -498,7 +519,9 @@ async def generate_report(market_data_dir: str,
         logger.info(f"✅ Rendered and Uploaded PDF report to {pdf_path}")
 
         # Clean up temporary generation projects
-        if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio']:
+        if mode in [
+            'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
+        ]:
           logger.info(f"Wiping temporary NotebookLM project: {project_name}...")
           await db.delete_project()
 
@@ -516,8 +539,9 @@ async def generate_report(market_data_dir: str,
     logger.error(f"Failed to run via NotebookLM: {e}")
 
     # Try to safely clean up any stranded projects during a crash
-    if mode in ['daily', 'weekly', 'monthly', 'yearly', 'portfolio'
-               ] and 'db' in locals():
+    if mode in [
+        'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
+    ] and 'db' in locals():
       try:
         logger.info(
             f"Attempting to wipe crashed NotebookLM project: {project_name}...")
@@ -536,7 +560,7 @@ if __name__ == "__main__":
                       choices=[
                           'daily', 'weekly', 'monthly', 'yearly', 'feed_upload',
                           'report_upload', 'upload', 'list', 'list_sources',
-                          'portfolio'
+                          'portfolio', 'earnings'
                       ],
                       required=True,
                       help="Type of operation or 'list' to view projects")
