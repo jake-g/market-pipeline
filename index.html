@@ -466,6 +466,7 @@
       display: block;
       margin: 16px auto;
       border: 1px solid var(--border);
+      cursor: zoom-in;
     }
 
     .markdown-body code {
@@ -565,6 +566,29 @@
       word-wrap: break-word;
       font-weight: bold;
     }
+
+    /* IMAGE ZOOM */
+    #image-modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-out;
+    }
+
+    #image-modal.active {
+      display: flex;
+    }
+
+    #image-modal img {
+      max-width: 95%;
+      max-height: 95%;
+      border: 4px solid var(--border);
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
   </style>
 </head>
 
@@ -642,6 +666,9 @@
     </div>
   </div>
 
+  <div id="image-modal">
+    <img id="image-modal-img" src="">
+  </div>
   <div id="tooltip"></div>
 
   <script>
@@ -816,13 +843,13 @@
         let html = '';
         for (const node of nodes) {
           if (node.type === 'folder') {
-            html += `<div class="tree-item folder" data-path="${node.path}" style="padding-left: ${10 + level * 15}px;">[+] ${node.name}</div>`;
+            html += `<div class="tree-item folder" data-path="${node.path}" style="padding-left: ${10 + level * 10}px; font-size: ${level > 0 ? '11px' : '13px'};">[+] ${node.name}</div>`;
             let childHTML = buildHTML(node.children || [], level + 1);
             // Make ID safe
             const safeId = node.path.replace(/[^a-zA-Z0-9-]/g, '-');
             html += `<div class="folder-children" id="folder-${safeId}" style="display:none;">${childHTML}</div>`;
           } else {
-            html += `<div class="tree-item file" data-path="${node.path}" style="padding-left: ${10 + level * 15}px;">${node.name}</div>`;
+            html += `<div class="tree-item file" data-path="${node.path}" style="padding-left: ${10 + level * 10}px; font-size: ${level > 0 ? '11px' : '13px'}; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${node.name}">${node.name}</div>`;
           }
         }
         return html;
@@ -1011,7 +1038,7 @@
         const ext = path.split('.').pop().toLowerCase();
 
         if (['png', 'jpg', 'jpeg'].includes(ext)) {
-          dataContainer.innerHTML = `<div style="text-align:center; padding:20px;"><img src="${fileMeta.url}?t=${new Date().getTime()}" style="max-width:100%; border:2px solid var(--border); box-shadow:4px 4px 0px var(--fg);"></div>`;
+          dataContainer.innerHTML = `<div style="text-align:center; padding:20px;"><img src="${fileMeta.url}?t=${new Date().getTime()}" style="max-width:100%; border:2px solid var(--border); box-shadow:4px 4px 0px var(--fg); cursor: zoom-in;"></div>`;
           plotControls.classList.add('hidden');
           btnViewToggle.classList.add('hidden');
           metaRowsContainer.classList.add('hidden');
@@ -1594,8 +1621,32 @@
       Plotly.newPlot('plot-container', traces, layout, config);
     }
 
+    // --- INTERACTIVITY / MODALS ---
+    document.addEventListener('click', (e) => {
+      // Zoom images
+      if (e.target.tagName === 'IMG' && (e.target.closest('.markdown-body') || e.target.closest('#content-area'))) {
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('image-modal-img');
+        if (modal && modalImg) {
+          modalImg.src = e.target.src;
+          modal.classList.add('active');
+        }
+      } else if (e.target.id === 'image-modal' || e.target.id === 'image-modal-img') {
+        const modal = document.getElementById('image-modal');
+        if (modal) modal.classList.remove('active');
+      }
+    });
+
     // --- KEYBOARD NAVIGATION ---
     document.addEventListener('keydown', (e) => {
+      // Escape closes modal
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('image-modal');
+        if (modal && modal.classList.contains('active')) {
+          modal.classList.remove('active');
+        }
+      }
+
       // If user is focused on an input, don't hijack unless it's ArrowDown escaping search
       if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') {
         if (document.activeElement.id === 'search-input' && e.key === 'ArrowDown') {

@@ -27,14 +27,20 @@ ALWAYS_IGNORE_DIRS = {
 
 
 def load_gitignore():
-  """Parses .gitignore rules from root and reports/."""
-  ignore_patterns = set()
-  allow_patterns = set()
+  """Parses .gitignore rules and returns them mapped by directory prefix."""
+  rules = []
 
+  # Order from specific to generic so inner gitignores override outer ones
   for gitignore_rel in [
-      '.gitignore', 'reports/.gitignore', 'portfolios/.gitignore'
+      'reports/.gitignore', 'portfolios/.gitignore', '.gitignore'
   ]:
     gitignore_path = os.path.join(ROOT_DIR, gitignore_rel)
+    prefix = os.path.dirname(gitignore_rel)
+    if prefix:
+      prefix += '/'
+
+    ignore_patterns = set()
+    allow_patterns = set()
     if os.path.exists(gitignore_path):
       with open(gitignore_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -52,24 +58,31 @@ def load_gitignore():
               allow_patterns.add(line)
             else:
               ignore_patterns.add(line)
+      rules.append((prefix, ignore_patterns, allow_patterns))
 
-  return ignore_patterns, allow_patterns
+  return rules
 
 
-IGNORE_PATTERNS, ALLOW_PATTERNS = load_gitignore()
+GITIGNORE_RULES = load_gitignore()
 
 
 def is_ignored(rel_path):
   """Checks if a relative path matches any parsed .gitignore pattern."""
-  for pattern in ALLOW_PATTERNS:
-    if fnmatch.fnmatch(rel_path, pattern) or fnmatch.fnmatch(
-        os.path.basename(rel_path), pattern):
-      return False
+  for prefix, ignore_patterns, allow_patterns in GITIGNORE_RULES:
+    if not rel_path.startswith(prefix):
+      continue
 
-  for pattern in IGNORE_PATTERNS:
-    if fnmatch.fnmatch(rel_path, pattern) or fnmatch.fnmatch(
-        os.path.basename(rel_path), pattern):
-      return True
+    local_path = rel_path[len(prefix):] if prefix else rel_path
+
+    for pattern in allow_patterns:
+      if fnmatch.fnmatch(local_path, pattern) or fnmatch.fnmatch(
+          os.path.basename(local_path), pattern):
+        return False
+
+    for pattern in ignore_patterns:
+      if fnmatch.fnmatch(local_path, pattern) or fnmatch.fnmatch(
+          os.path.basename(local_path), pattern):
+        return True
 
   return False
 

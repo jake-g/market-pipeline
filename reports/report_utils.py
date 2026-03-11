@@ -486,11 +486,8 @@ def generate_eps_surprise_scatter(df: pd.DataFrame, output_path: str):
                        alpha=0.7,
                        edgecolors='black')
 
-  # Annotate top positions
-  top_n = min(15, len(plot_df))
-  top_tickers = plot_df.nlargest(top_n, 'Current_Value')
-
-  for _, row in top_tickers.iterrows():
+  # Annotate all positions
+  for _, row in plot_df.iterrows():
     ax.annotate(row['Ticker'],
                 (row['Last_EPS_Surprise_Pct'], row['Unrealized_PnL_Pct']),
                 xytext=(5, 5),
@@ -529,6 +526,74 @@ def generate_eps_surprise_scatter(df: pd.DataFrame, output_path: str):
 
   plt.savefig(output_path, bbox_inches='tight', dpi=300)
   plt.close()
+
+
+def generate_rsi_dist200_scatter(df: pd.DataFrame, output_path: str):
+  """
+  Plot RSI vs Distance to 200MA.
+  Identifies overextended vs oversold conditions for rotation timing.
+  """
+  if df.empty or 'RSI' not in df or 'Dist_to_200MA' not in df:
+    logger.warning("No RSI/200MA data to plot scatter.")
+    return
+
+  plot_df = df.dropna(subset=['RSI', 'Dist_to_200MA']).copy()
+  if plot_df.empty:
+    return
+
+  logger.info("Generating RSI vs 200MA Scatter plot...")
+  fig, ax = plt.subplots(figsize=(10, 8))
+
+  sizes = np.log1p(plot_df['Current_Value'].fillna(1000)) * 20
+
+  scatter = ax.scatter(plot_df['RSI'],
+                       plot_df['Dist_to_200MA'],
+                       c=plot_df['RSI'],
+                       cmap='coolwarm',
+                       s=sizes,
+                       alpha=0.7,
+                       edgecolors='black')
+
+  for _, row in plot_df.iterrows():
+    ax.annotate(row['Ticker'], (row['RSI'], row['Dist_to_200MA']),
+                xytext=(5, 5),
+                textcoords='offset points',
+                fontsize=9)
+
+  ax.axhline(0, color='gray', linestyle='--', alpha=0.5)
+  ax.axvline(50, color='gray', linestyle='--', alpha=0.5)
+  ax.axvline(30, color='green', linestyle=':', alpha=0.5)
+  ax.axvline(70, color='red', linestyle=':', alpha=0.5)
+
+  ax.text(0.98,
+          0.98,
+          "Overbought & Overextended\n(Take Profits)",
+          transform=ax.transAxes,
+          alpha=0.3,
+          fontsize=12,
+          verticalalignment='top',
+          horizontalalignment='right')
+  ax.text(0.02,
+          0.02,
+          "Oversold & Below Trend\n(Deep Value)",
+          transform=ax.transAxes,
+          alpha=0.3,
+          fontsize=12,
+          verticalalignment='bottom')
+
+  cbar = plt.colorbar(scatter)
+  cbar.set_label('RSI')
+
+  plt.title('Technical Extension: RSI vs Distance to 200MA',
+            fontweight='bold',
+            fontsize=14)
+  plt.xlabel('RSI (Momentum)', fontweight='bold')
+  plt.ylabel('Distance to 200MA (%) (Trend Extension)', fontweight='bold')
+
+  plt.tight_layout()
+  plt.savefig(output_path, bbox_inches='tight', dpi=300)
+  plt.close()
+  logger.info(f"Generated RSI Scatter at {output_path}")
 
 
 def analyze_earnings_movement(ticker: str,
