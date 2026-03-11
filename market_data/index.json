@@ -3,15 +3,15 @@
     "type": "file",
     "name": "CHANGELOG.md",
     "path": "CHANGELOG.md",
-    "size": 19091,
-    "lines": 261
+    "size": 16441,
+    "lines": 235
   },
   {
     "type": "file",
     "name": "README.md",
     "path": "README.md",
-    "size": 15849,
-    "lines": 278
+    "size": 14511,
+    "lines": 282
   },
   {
     "type": "folder",
@@ -22,14 +22,14 @@
         "type": "file",
         "name": "SCHEMA.md",
         "path": "market_data/SCHEMA.md",
-        "size": 3098,
+        "size": 3095,
         "lines": 93
       },
       {
         "type": "file",
         "name": "STATS.md",
         "path": "market_data/STATS.md",
-        "size": 18748,
+        "size": 18776,
         "lines": 357
       }
     ]
@@ -57,8 +57,8 @@
         "type": "file",
         "name": "portfolio_processor.py",
         "path": "portfolios/portfolio_processor.py",
-        "size": 5002,
-        "lines": 142
+        "size": 5101,
+        "lines": 145
       },
       {
         "type": "file",
@@ -92,6 +92,27 @@
             "path": "reports/02-25_earnings_NVDA_trade/REPORT.md",
             "size": 19708,
             "lines": 240
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "03-10_earnings_ORCL_analysis",
+        "path": "reports/03-10_earnings_ORCL_analysis",
+        "children": [
+          {
+            "type": "file",
+            "name": "orcl_trade_analysis.py",
+            "path": "reports/03-10_earnings_ORCL_analysis/orcl_trade_analysis.py",
+            "size": 22753,
+            "lines": 641
+          },
+          {
+            "type": "file",
+            "name": "REPORT.md",
+            "path": "reports/03-10_earnings_ORCL_analysis/REPORT.md",
+            "size": 12880,
+            "lines": 117
           }
         ]
       },
@@ -171,6 +192,13 @@
         "path": "reports/03-09_DAILY_REPORT.md",
         "size": 10219,
         "lines": 81
+      },
+      {
+        "type": "file",
+        "name": "03-10_DAILY_REPORT.md",
+        "path": "reports/03-10_DAILY_REPORT.md",
+        "size": 15421,
+        "lines": 96
       },
       {
         "type": "file",
@@ -260,29 +288,29 @@
         "type": "file",
         "name": "generate_periodic_reports.py",
         "path": "reports/generate_periodic_reports.py",
-        "size": 8926,
-        "lines": 243
+        "size": 8870,
+        "lines": 242
       },
       {
         "type": "file",
         "name": "notebooklm_report.py",
         "path": "reports/notebooklm_report.py",
-        "size": 26729,
-        "lines": 563
+        "size": 28232,
+        "lines": 585
       },
       {
         "type": "file",
         "name": "PORTFOLIO_REPORT.md",
         "path": "reports/PORTFOLIO_REPORT.md",
-        "size": 88556,
-        "lines": 767
+        "size": 196394,
+        "lines": 765
       },
       {
         "type": "file",
         "name": "report_utils.py",
         "path": "reports/report_utils.py",
-        "size": 54826,
-        "lines": 1595
+        "size": 57971,
+        "lines": 1685
       }
     ]
   },
@@ -297,8 +325,8 @@
     "type": "file",
     "name": "market_dashboard_server.py",
     "path": "market_dashboard_server.py",
-    "size": 7143,
-    "lines": 217
+    "size": 7102,
+    "lines": 221
   },
   {
     "type": "file",

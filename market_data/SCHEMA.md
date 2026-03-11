@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.095970035 |
+| Value | str | 0.08596575 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-09 |
+| Date | str | 2026-03-10 |
 | Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | Amazon’s Biggest Fire TV Redesign in Years Targ... |
-| Summary | str | Amazon.com, Inc. (NASDAQ:AMZN) is one of the Be... |
-| URL | str | https://news.google.com/rss/articles/CBMibkFVX3... |
+| Sentiment | float64 | 0.7 |
+| Headline | str | Amazon is selling a gorgeous 3-piece boho quilt... |
+| Summary | str | Find insight on FedEx, UPS, Canadian travel and... |
+| URL | str | https://news.google.com/rss/articles/CBMihwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	42.22
 allTimeLow	3.75
-ask	10.09
-askSize	2400
-averageDailyVolume10Day	389010
-averageDailyVolume3Month	116723
-averageVolume	116723
-averageVolume10days	389010
+ask	10.3
+askSize	1200
+averageDailyVolume10Day	506700
+averageDailyVolume3Month	136401
+averageVolume	136401
+averageVolume10days	506700
 beta3Year	3.0
-bid	10.03
+bid	9.99
 bidSize	100
 category	Miscellaneous Sector
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	10.3899
-dayLow	9.58
+dayHigh	10.23
+dayLow	9.85
 dividendYield	0.0
 epsTrailingTwelveMonths	0.8617259
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	10.45962
-fiftyDayAverageChange	-0.36962032
-fiftyDayAverageChangePercent	-0.03533783
-fiftyTwoWeekChangePercent	59.69466
+fiftyDayAverage	10.49002
+fiftyDayAverageChange	-0.26002026
+fiftyDayAverageChangePercent	-0.024787394
+fiftyTwoWeekChangePercent	53.59281
 fiftyTwoWeekHigh	12.65
-fiftyTwoWeekHighChange	-2.5599995
-fiftyTwoWeekHighChangePercent	-0.20237151
+fiftyTwoWeekHighChange	-2.42
+fiftyTwoWeekHighChangePercent	-0.19130436
 fiftyTwoWeekLow	5.03
-fiftyTwoWeekLowChange	5.06
-fiftyTwoWeekLowChangePercent	1.0059642
+fiftyTwoWeekLowChange	5.1999993
+fiftyTwoWeekLowChangePercent	1.033797
 fiftyTwoWeekRange	5.03 - 12.65
 firstTradeDateMilliseconds	1521725400000
-fiveYearAverageReturn	-0.084336996
+fiveYearAverageReturn	-0.0887611
 fullExchangeName	NYSEArca
 fundFamily	Amplify ETFs
 fundInceptionDate	1521590400
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund seeks to achieve its investment objective by investing substantially all of its assets in the Freight Futures currently constituting the Benchmark Portfolio. The Benchmark Portfolio includes a combination of Capesize, Panamax and Supramax Freight Futures.
 longName	Breakwave Dry Bulk Shipping ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_539579359
-navPrice	10.5154
+navPrice	10.575
 netAssets	41567120.0
 netExpenseRatio	3.5
-open	10.2
+open	9.85
 phone	(908) 897-0510
-postMarketChange	0.22999954
-postMarketChangePercent	2.1988485
-postMarketPrice	10.69
-postMarketTime	1772845170
-previousClose	10.46
+postMarketChange	-0.23999977
+postMarketChangePercent	-2.3460388
+postMarketPrice	9.99
+postMarketTime	1773184159
+previousClose	10.26
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.3699999
-regularMarketChangePercent	-3.537284
-regularMarketDayHigh	10.3899
-regularMarketDayLow	9.58
-regularMarketDayRange	9.58 - 10.3899
-regularMarketOpen	10.2
-regularMarketPreviousClose	10.46
-regularMarketPrice	10.09
-regularMarketTime	1773076013
-regularMarketVolume	1046272
+regularMarketChange	-0.0300007
+regularMarketChangePercent	-0.292404
+regularMarketDayHigh	10.23
+regularMarketDayLow	9.85
+regularMarketDayRange	9.85 - 10.23
+regularMarketOpen	9.85
+regularMarketPreviousClose	10.26
+regularMarketPrice	10.23
+regularMarketTime	1773172800
+regularMarketVolume	202768
 shortName	Breakwave Dry Bulk Shipping ETF
 sourceInterval	15
 symbol	BDRY
-threeYearAverageReturn	0.0456111
+threeYearAverageReturn	0.0112966
 totalAssets	41567120
 tradeable	False
-trailingPE	11.70906
+trailingPE	11.871524
 trailingPegRatio	None
 trailingThreeMonthNavReturns	31.08454
 trailingThreeMonthReturns	31.08454
 triggerable	True
-twoHundredDayAverage	8.299355
-twoHundredDayAverageChange	1.7906456
-twoHundredDayAverageChangePercent	0.2157572
+twoHundredDayAverage	8.323855
+twoHundredDayAverageChange	1.9061441
+twoHundredDayAverageChangePercent	0.22899775
 typeDisp	ETF
-volume	1046272
+volume	202768
 yield	0.0
 ytdReturn	38.81048
