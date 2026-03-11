@@ -456,6 +456,81 @@ def build_decision_tree(df: pd.DataFrame, out_path: str):
 # ==========================================
 
 
+def generate_eps_surprise_scatter(df: pd.DataFrame, output_path: str):
+  """
+  Plot Unrealized PnL % vs Latest EPS Surprise % for Active Holdings.
+  Visualizes whether portfolio gains correspond to earnings momentum vs. hype.
+  """
+  if df.empty or 'Last_EPS_Surprise_Pct' not in df or 'Unrealized_PnL_Pct' not in df:
+    logger.warning("No EPS Surprise data to plot active scatter.")
+    return
+
+  # Filter out rows with NaN in these columns
+  plot_df = df.dropna(
+      subset=['Last_EPS_Surprise_Pct', 'Unrealized_PnL_Pct']).copy()
+  if plot_df.empty:
+    logger.warning("No valid overlapping EPS/PnL data to plot active scatter.")
+    return
+
+  logger.info("Generating Active EPS Surprise Scatter plot...")
+  fig, ax = plt.subplots(figsize=(10, 8))
+
+  # Create scatter with sizes proportional to position size (log scaled for viewability)
+  sizes = np.log1p(plot_df['Current_Value']) * 20
+
+  scatter = ax.scatter(plot_df['Last_EPS_Surprise_Pct'],
+                       plot_df['Unrealized_PnL_Pct'],
+                       c=plot_df['Day_Change_Pct'],
+                       cmap='RdYlGn',
+                       s=sizes,
+                       alpha=0.7,
+                       edgecolors='black')
+
+  # Annotate top positions
+  top_n = min(15, len(plot_df))
+  top_tickers = plot_df.nlargest(top_n, 'Current_Value')
+
+  for _, row in top_tickers.iterrows():
+    ax.annotate(row['Ticker'],
+                (row['Last_EPS_Surprise_Pct'], row['Unrealized_PnL_Pct']),
+                xytext=(5, 5),
+                textcoords='offset points',
+                fontsize=9)
+
+  # Add zero-lines
+  ax.axhline(0, color='gray', linestyle='--', alpha=0.5)
+  ax.axvline(0, color='gray', linestyle='--', alpha=0.5)
+
+  # Quadrant Labels
+  ax.text(0.02,
+          0.98,
+          "High Surprise\nBig Winners",
+          transform=ax.transAxes,
+          alpha=0.3,
+          fontsize=12,
+          verticalalignment='top')
+  ax.text(0.98,
+          0.02,
+          "High Surprise\nUnderperformers",
+          transform=ax.transAxes,
+          alpha=0.3,
+          fontsize=12,
+          verticalalignment='bottom',
+          horizontalalignment='right')
+
+  cbar = plt.colorbar(scatter)
+  cbar.set_label('Daily Change %')
+
+  plt.grid(True, linestyle=':', alpha=0.6)
+  plt.title("Active Holdings: Unrealized PnL vs. Last Earnings Surprise")
+  plt.xlabel("Latest EPS Surprise (%)")
+  plt.ylabel("Unrealized PnL (%)")
+  plt.tight_layout()
+
+  plt.savefig(output_path, bbox_inches='tight', dpi=300)
+  plt.close()
+
+
 def analyze_earnings_movement(ticker: str,
                               market_data_dir: str) -> pd.DataFrame:
   """Computes post-earnings price reactions (T0 close -> T1 open/high/close) for a generic ticker."""

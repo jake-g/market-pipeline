@@ -245,20 +245,63 @@ def generate_report():
 
     # Intrinsic Value Visualizations
     scatter_path = os.path.join(PLOTS_DIR, "active_intrinsic_scatter.png")
+    eps_scatter_path = os.path.join(PLOTS_DIR,
+                                    "active_eps_surprise_scatter.png")
     tree_path = os.path.join(PLOTS_DIR,
                              "active_value_decision_tree")  # dot appends .png
 
     generate_screening_scatter(active_agg_df, scatter_path)
     build_decision_tree(active_agg_df, tree_path)
+    # Generate EPS Surprise Scatter if data exists
+    if 'Last_EPS_Surprise_Pct' in active_agg_df.columns:
+      from reports.report_utils import generate_eps_surprise_scatter
+      generate_eps_surprise_scatter(active_agg_df, eps_scatter_path)
 
     if os.path.exists(scatter_path):
       report_lines.append(
           f"\n![Intrinsic Value Scatter](../portfolios/plots/active_intrinsic_scatter.png)"
       )
+    if os.path.exists(eps_scatter_path):
+      report_lines.append(
+          f"\n![EPS Surprise Scatter](../portfolios/plots/active_eps_surprise_scatter.png)"
+      )
     if os.path.exists(tree_path + ".png"):
       report_lines.append(
           f"\n![Decision Tree](../portfolios/plots/active_value_decision_tree.png)"
       )
+
+    report_lines.append("\n\n### Top Performance Extremes (Active)\n")
+    report_lines.append(
+        "*Top 3 overextended positions (gainers) and top 3 value traps / drawdowns (losers) from active tracking.*\n"
+    )
+
+    # Extract Top 3 Gainers
+    gainer_cols = [
+        'Ticker', 'Sector', 'Current_Value', 'Unrealized_PnL_Pct',
+        'Day_Change_Pct'
+    ]
+    top_gainers = active_agg_df.sort_values(by='Unrealized_PnL_Pct',
+                                            ascending=False)
+    # Filter to actual gains only, take top 3
+    top_gainers = top_gainers[top_gainers['Unrealized_PnL_Pct'] > 0].head(3)
+
+    if not top_gainers.empty:
+      report_lines.append("#### Top 3 Unrealized Gainers\n")
+      report_lines.append(
+          top_gainers[gainer_cols].round(2).to_markdown(index=False))
+      report_lines.append("\n")
+
+    # Extract Top 3 Losers
+    top_losers = active_agg_df.sort_values(by='Unrealized_PnL_Pct',
+                                           ascending=True)
+    # Filter to actual losses only, take top 3
+    top_losers = top_losers[top_losers['Unrealized_PnL_Pct'] < 0].head(3)
+
+    if not top_losers.empty:
+      report_lines.append("#### Top 3 Deepest Drawdowns\n")
+      report_lines.append(
+          top_losers[gainer_cols].round(2).to_markdown(index=False))
+      report_lines.append("\n")
 
     report_lines.append("\n\n### Active Aggregate Holdings\n")
 

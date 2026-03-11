@@ -453,7 +453,7 @@ async def generate_report(market_data_dir: str,
         if mode == 'portfolio':
           with open(output_path, 'r') as f:
             original_content = f.read()
-          with open(args.dir, "w") as f:
+          with open(output_path, "w") as f:
             new_content = (
                 f"{original_content}\n\n---\n\n# AI Tactical Summary\n"
                 f"> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n"
