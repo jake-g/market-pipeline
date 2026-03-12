@@ -9,6 +9,7 @@ import re
 import shutil
 import time
 from typing import Any, Dict, List, Optional, Set, Tuple, Union
+import urllib.parse
 import xml.etree.ElementTree as ET
 
 from curl_cffi import requests as cffi_requests
@@ -281,16 +282,21 @@ class MarketFetcher:
     path = self._get_cache_path(key)
     joblib.dump(data, path)
 
-  def _fetch_rss_content(self, url: str, source: str,
-                         ticker: str) -> Optional[str]:
+  def _fetch_rss_content(self,
+                         url: str,
+                         source: str,
+                         ticker: str,
+                         expiry_seconds: Optional[int] = None) -> Optional[str]:
     """Fetches raw RSS content with caching."""
     # Cache based on source and ticker (URL might change slightly but usually source+ticker is unique enough for feed)
     # We use a hashing of URL to be safe if multiple URLs per source
     url_hash = hashlib.md5(url.encode()).hexdigest()
     cache_key = f"rss_raw_{source}_{ticker}_{url_hash}"
 
-    content = self._load_cache(cache_key,
-                               expiry_seconds=config.CACHE_EXPIRY_NEWS)
+    # Use explicit expiry if passed, otherwise default to config
+    actual_expiry = expiry_seconds if expiry_seconds is not None else config.CACHE_EXPIRY_NEWS
+
+    content = self._load_cache(cache_key, expiry_seconds=actual_expiry)
     if content:
       return content
 
@@ -781,13 +787,21 @@ class MarketFetcher:
         start_str = current_start.strftime("%Y-%m-%d")
         end_str = current_end.strftime("%Y-%m-%d")
 
-        import urllib.parse
         safe_topic = urllib.parse.quote(topic)
         url = f"https://news.google.com/rss/search?q={safe_topic}+after:{start_str}+before:{end_str}&hl=en-US&gl=US&ceid=US:en"
 
+        # Calculate dynamic cache expiry:
+        # If the end date of the fetch window is before today, we aggressively cache
+        # it to prevent spamming Google News RSS on old windows.
+        is_historical = current_end < datetime.date.today()
+        cache_expiry = config.CACHE_EXPIRY_HISTORICAL_NEWS if is_historical else config.CACHE_EXPIRY_NEWS
+
         # We reuse the _fetch_rss_content logic to leverage the cache. We pass the raw string url.
         raw_content = self._fetch_rss_content(
-            url, "Google", f"hist_topic_{topic}_{start_str}_{end_str}")
+            url,
+            "Google",
+            f"hist_topic_{topic}_{start_str}_{end_str}",
+            expiry_seconds=cache_expiry)
 
         if raw_content:
           feed = feedparser.parse(raw_content)
@@ -871,7 +885,6 @@ class MarketFetcher:
 
       for src_name, url_template in feeds.items():
         try:
-          import urllib.parse
           safe_term = urllib.parse.quote(ticker)
           url = url_template.format(term=safe_term)
 
@@ -1254,8 +1267,21 @@ class MarketFetcher:
     else:
       combined = new_df
 
-    # Deduplicate by URL
-    combined.drop_duplicates(subset=['URL'], keep='last', inplace=True)
+    # Deduplicate by URL only if URL is present and valid
+    # Replace empty string URLs with NaN to prevent dropping all empty-URL rows
+    combined['URL'] = combined['URL'].replace('', pd.NA)
+    
+    # Identify rows with valid URLs to deduplicate
+    valid_url_mask = combined['URL'].notna()
+    
+    # Deduplicate the rows with URLs
+    if valid_url_mask.any():
+        deduped_valid = combined[valid_url_mask].drop_duplicates(subset=['URL'], keep='last')
+        # Combine back with the rows lacking URLs
+        combined = pd.concat([deduped_valid, combined[~valid_url_mask]])
+    
+    # Fill NaN URLs back to empty string
+    combined['URL'] = combined['URL'].fillna('')
 
     # Sort by Date Descending, then Sentiment Descending (Deterministic)
     try:

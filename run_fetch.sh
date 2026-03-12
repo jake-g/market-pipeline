@@ -64,5 +64,5 @@ echo "⏱️ Total Time: ${total_time}s"
 
 echo "💾 Committing newly generated market data..."
 git add market_data/
-git add reports/*LY_REPORT.md
+git add reports/news/*.md || true
 git commit -m "Auto-update market data: $(date)" || echo "No new market data to commit."
