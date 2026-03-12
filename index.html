@@ -62,6 +62,14 @@
       --neg: #ff2a4d;
     }
 
+    [data-theme="dark"] .markdown-body img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+
+    [data-theme="dark"] #image-modal img {
+      filter: none;
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -857,11 +865,13 @@
 
       let finalHtml = '';
       if (pinnedPaths.length > 0) {
-        finalHtml += `<div class="tree-item folder" data-path="pinned-virtual-folder" style="padding-left: 10px; color:var(--accent);">[-] PINNED FAVORITES</div>`;
+        finalHtml += `<div class="tree-item folder" data-path="pinned-virtual-folder" style="padding-left: 10px; font-size: 13px; color:var(--accent);">[-] PINNED FAVORITES</div>`;
         let childHTML = '';
         pinnedPaths.forEach(p => {
-          const filename = p.split('/').pop() || p;
-          childHTML += `<div class="tree-item file" data-path="${p}" style="padding-left: 25px; color:var(--accent); font-weight:bold;">★ ${filename}</div>`;
+          const parts = p.split('/');
+          const filename = parts.pop() || p;
+          const parentDir = parts.length > 0 ? parts.pop() + '/' : '';
+          childHTML += `<div class="tree-item file" data-path="${p}" style="padding-left: 20px; font-size: 11px; color:var(--accent); font-weight:bold; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${p}">★ ${parentDir}${filename}</div>`;
         });
         finalHtml += `<div class="folder-children" id="folder-pinned-virtual-folder" style="display:block; border-bottom: 2px dashed var(--accent); margin-bottom: 15px;">${childHTML}</div>`;
       }

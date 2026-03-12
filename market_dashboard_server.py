@@ -19,7 +19,7 @@ ALLOWED_ROOT_DIRS = {
     'market_data', 'reports', 'alpha_vantage_api', 'portfolios'
 }
 INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json', '.py', '.png'}
-EXCLUDE_FILES = {'requirements.txt', 'TODO.md', 'index.json'}
+EXCLUDE_FILES = {'requirements.txt', 'index.json', '__init__.py'}
 ALWAYS_IGNORE_DIRS = {
     'forks', 'venv', 'notebooks', 'deploy', 'backfill', 'logs', 'old', '.cache',
     '__pycache__', '.git', '.gemini'
