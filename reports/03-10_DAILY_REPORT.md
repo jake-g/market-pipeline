@@ -1,96 +1,86 @@
 # Market Intelligence Report
-*(Generated via NotebookLM Integration on 2026-03-10)*
+*(Generated via NotebookLM Integration on 2026-03-11)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
 ## Top AI Thematic Insights
-_Generated 2026-03-10_
 
-## Geopolitical Volatility and the Global Energy-War Nexus
+### Geopolitical Energy Crisis and Maritime Constraints
+*   **Strait of Hormuz Blockade:** The closure and mining of the Strait of Hormuz by Iran have paralyzed essential energy routes, with expectations that a reopening may take months [1-3].
+*   **Failed Strategic Interventions:** Despite a record 400-million-barrel oil release from the IEA, oil futures gained as investors doubted the reserve's efficacy against active Iranian attacks on shipping [4-6].
+*   **Oil Price Target Realignment:** The death of Iranian Supreme Leader Ayatollah Ali Khamenei has reignited market volatility, re-establishing the "$100 oil thesis" as crude benchmarks approach $90/bbl [6-8].
 
-The macro-economic landscape is currently dominated by the **US-Israel war with Iran**, which has entered a critical phase, triggering severe disruptions in global energy and trade corridors [1, 2].
+### Tech Sector Realignment and Infrastructure Sovereignty
+*   **Unravelling "Circular Deals":** Institutional skepticism is peaking regarding deals where tech giants fund AI startups to buy their own hardware; the rumored $100 billion OpenAI-Nvidia pact is now reported defunct [9-11].
+*   **Memory Chip Supply Crisis:** HBM capacity is reportedly sold out for 2026, while DRAM prices have jumped 80% to 90% in Q1, driving up costs for premium electric vehicles and AI infrastructure [12-14].
+*   **Sovereign AI Pivot:** Nations including India and regions in Africa are launching national AI initiatives to build localized data centers, aiming to bridge the "compute divide" and secure domestic data [15, 16].
 
-- **Strait of Hormuz Crisis:** The conflict has led to a partial blockade of the Strait of Hormuz, causing OPEC+ to slash output by up to 6.9 million barrels per day as tankers await passage [3, 4].
-- **Energy Price Shocks:** Global oil prices have spiked, with some regions seeing 8-9% increases in heating oil costs, while US gas prices jumped 60 cents in a single week [5-7].
-- **Strategic Sanction Shifts:** In response to the oil shock, the Trump administration is weighing the easing of sanctions on Russian oil to temper global Brent prices, fundamentally altering the geopolitical alignment regarding the Ukraine-Russia conflict [8, 9].
-- **Sovereign AI and Tech Autonomy:** The "US-Anthropic clash" and general geopolitical instability are driving a surge in "Sovereign AI" initiatives in India, the UK, and Canada, as nations seek to decouple their AI infrastructure from volatile external powers [10, 11].
+### Energy Constraints and the Nuclear Renaissance
+*   **Nuclear as the AI Baseload:** Nuclear energy is being repositioned as the critical clean power source for AI data centers, fueled by the EU’s €200 million investment in Small Modular Reactors (SMRs) [17-19].
+*   **Grid Modernization Capex:** Surging data center power loads have forced utilities like PPL to commit $8 billion through 2029 to modernize infrastructure [20-22].
+*   **Industrial Order Backlogs:** GE Vernova management anticipates its order backlog will exceed $200 billion by 2028, supported by international wind and nuclear projects [22-24].
 
-## The AI-Compute-Energy "Iron Triangle"
+## Quantitative Market Action & Specific Equities
 
-The scaling of AI data centers has reached a tipping point where **energy constraints** are now the primary bottleneck for technological advancement [12-14].
-
-- **Grid Strain and Record Demand:** US power consumption is projected to hit record highs in 2026 and 2027, driven almost exclusively by AI data center expansion, leading states like Minnesota to reconsider coal to meet demand [14, 15].
-- **The Nuclear Pivot:** There is a growing consensus that nuclear energy is the "only answer" for AI's power needs [13]. This is catalyzing the rapid deployment of Small Modular Reactors (SMRs) in the EU, Greece, and Sweden [16, 17].
-- **Compute-Driven Breakthroughs:** New research suggests that raw computing power—rather than algorithmic "secret sauce"—is the primary driver of AI breakthroughs, intensifying the race for high-density GPU clusters [12, 18].
-- **Agentic AI Evolution:** The focus of tech development is shifting toward "Agentic AI," with Meta acquiring networks for AI agents and startups like AgentMail raising millions to build infrastructure for autonomous digital entities [19, 20].
-
-## Custom Silicon and the Semiconductor Resurgence
-
-To mitigate the "advanced packaging crunch" and Nvidia's market dominance, major tech hyperscalers are aggressively pivoting toward **custom silicon** [21, 22].
-
-- **Custom Chip Boom:** Amazon, Meta, and Broadcom are accelerating internal chip development to train AI models, with Amazon positioned as a "sleeping giant" in the custom silicon space [21].
-- **Memory and Chip Shortages:** A renewed "memory crisis" is squeezing the market, with RAM shortages expected to decline PC shipments by 12% and drive up prices for consumer electronics [23].
-- **Foundry Geopolitics:** While TSMC’s Arizona fab has reached profitability, Taiwan is pushing back against aggressive US demands for further chip relocation, citing national security and the "looming Taiwan chip disaster" that Silicon Valley has long ignored [24, 25].
-- **Advanced Packaging Bottlenecks:** Nvidia has narrowed its packaging partners to just three as it struggles with a CoWoS (Chip on Wafer on Substrate) crunch, limiting the supply of next-generation RTX 50-series cards [22, 26].
-
-## Macro-economic Fragility and the Debt Supercycle
-
-The global economy is facing a "perfect storm" as **inflationary pressures** from the Iran war collide with staggering levels of sovereign debt [27-29].
-
-- **Unsustainable US Debt:** The United States has borrowed approximately $50 billion per week for the last five months, leading to bipartisan calls for transparency and a debt-to-GDP limit [29, 30].
-- **Recessionary Signals:** Economists are warning of a "significant" recession in 2027 as AI investment cools and wartime stimulus dries up, with CEOs already using the conflict as a justification for belt-tightening [31].
-- **Monetary Policy Tension:** The Federal Reserve faces an "economic perfect storm" under new leadership, balancing high interest rates (currently around 4.22%) against a cooling economy and volatile energy prices [27, 32].
-- **Supply Chain Fragmentation:** "Friend-shoring" and "nearshoring" strategies in Mexico and Morocco are increasing supply chain complexity and costs as firms flee the "dual chokepoint" crises in global maritime trade [33-36].
-
----
-
-## Quantitative Portfolio & Market Action
-
-### Macro & Themes
-
-*   **Geopolitical Volatility & Energy Shock:** Escalation of the war in the Middle East following the death of Iranian Supreme Leader Ayatollah Ali Khamenei has driven **Crude Oil (CL=F)** up **15.35%** [1, 2]. Markets are pricing in a "historical spike" due to the potential closure of the **Strait of Hormuz**, a critical chokepoint with no viable bypass [3, 4].
-*   **Stagflationary Pressures:** Global government bonds have sold off, pushing **10-year Treasury yields (^TNX)** to **4.19%** as energy-driven inflation fears rise [4, 5]. Defensive rotational strategies are accelerating, with **VIXY (+14.55%)** surging as the "fear gauge" tracks a **17.87%** jump in the **VIX** [2, 6].
-*   **AI Infrastructure & Power Constraints:** The "AI data center land war" is shifting focus to energy-rich states and resilient supply chains [7, 8]. **VRT (+7.47%)** reached a new **52-week high** as a primary infrastructure beneficiary [2, 9]. **CEG** solidified its lead in the AI data center power race with a **$16.4 billion acquisition** of Calpine [7].
-*   **Semiconductor Foundry & Memory Pivot:** **Intel (INTC)** is soaring on its **18A foundry inflection point** [10]. Meanwhile, a severe **memory shortage** is squeezing PC shipments (projected **-12%** this year), benefiting **Apple (AAPL)** which is bucking the trend [11].
-
-### Specific Equities
-
-| Ticker | Price Action | Key Qualitative Catalyst |
+### Top Winners
+| Ticker | Performance | News Catalyst Explaining the Move |
 | :--- | :--- | :--- |
-| **MRVL** | **+19.48%** | **Earnings Beat:** CEO delivered "amazing news" regarding Q4 performance and AI demand [2, 12]. |
-| **CL=F** | **+15.35%** | **Energy Crisis:** Death of Iranian leader re-ignited $100 oil thesis and supply disruption fears [1, 2]. |
-| **NET** | **+11.62%** | **Market Sentiment:** Benefiting from broader tech resilience despite Mideast tensions [2, 13]. |
-| **RIVN** | **+10.86%** | **Analyst Upgrade:** Named a "Buy" ahead of critical March 12 project milestones [2, 14]. |
-| **AVGO** | **+7.89%** | **AI Growth:** Shares surged following a strong Q1 beat and robust case for long-term AI sustainability [2, 15, 16]. |
-| **VRTX** | **+4.45%** | **Trial Success:** Kidney drug trial win bolstered clinical pipeline confidence [2, 17]. |
-| **ASTS** | **-16.55%** | **Options Volatility:** Extreme downward pressure driven by mixed options sentiment [18, 19]. |
-| **BDRY** | **-14.11%** | **Shipping Risk:** Shipping industry "uncharted territory" due to Strait of Hormuz closure [19, 20]. |
-| **IREN** | **-13.05%** | **Dilution:** Announced plans to purchase 150,000 GPUs funded by a massive **$6B equity offering** [19, 21, 22]. |
-| **CLSK** | **-9.66%** | **Weak Q1:** Reported losses coupled with high-cost pivot to Texas AI factory model [19, 23]. |
-| **UPS** | **-8.67%** | **Cost Headwinds:** Surging oil prices weighed heavily on logistics margins [19, 24]. |
+| **CL=F** | **+10.87%** | Crude oil surged due to Iranian mining of the Strait of Hormuz and inefficacy of the IEA's record reserve release [3, 5, 8, 25]. |
+| **IREN** | **+10.13%** | Momentum continued following a €3 million commitment to the Atlas AI fund and a successful pivot to HPC infrastructure [25-27]. |
+| **ORCL** | **+9.18%** | Premarket jump after strong earnings challenged "SaaS apocalypse" fears with resilient AI-driven demand [10, 25, 28]. |
+| **CORZ** | **+6.99%** | Secured a $1 billion loan for infrastructure growth alongside significant 7,000-share insider buying [25, 29, 30]. |
+| **PATH** | **+6.82%** | Identified as a rebound play in automation software as markets reassess high-performance AI tools [25, 31, 32]. |
+| **MU** | **+3.86%** | Management confirmed HBM capacity is sold out for 2026; announced next-gen AI memory partnership with Applied Materials [14, 25, 33]. |
+
+### Top Losers
+| Ticker | Performance | News Catalyst Explaining the Move |
+| :--- | :--- | :--- |
+| **CEG** | **-5.17%** | Shares plunged as February's CPI report showed a sharp, surprise monthly decline in electricity prices [34-36]. |
+| **FRO** | **-4.94%** | Broad rotation out of shipping names despite the ongoing Hormuz blockade crisis and earlier call option surges [36-38]. |
+| **CCJ** | **-3.91%** | Profit-taking and volatility in uranium markets despite long-term tailwinds for nuclear energy [17, 36, 39]. |
+| **SYK** | **-3.59%** | Hit by a 90-day catalyst watch and broader MedTech sector volatility despite intact fundamentals [36, 40, 41]. |
+| **APP** | **-3.34%** | Identified as a top S&P 500 mover loser amid high technology sector volatility and advertising competition concerns [36, 37, 42]. |
+| **MRVL** | **-3.07%** | Sub-sector valuation reassessment triggered by industry bellwether Taiwan Semiconductor reporting sales below expectations [36, 43, 44]. |
 
 ## References
-
-1.  [7] Constellation Energy Finalizes $16.4 Billion Calpine Acquisition, Solidifying Lead in AI Data Center Power Race - The Chronicle-Journal. [URL](https://news.google.com/rss/articles/CBMinAJBVV95cUxQSzc2R1ZmMDVMYWprQkFmNU9hVE10aW40S2FIRHhpNXZzRFE5YXdGMVE4cEZGTk04aDI0YUg2cnA3dGRLVVA2NlBhbGJINnY5dUZfdlNzd2xQbUVuZG5DeGJ2Q29qb0dTbk5NVnhBS3J1MDItaFRiYXNUWTh0UlVSWUZKSTUxM0JKczBlNHZLbDZ3SHZudzd0T004WldZckY4ek55XzROamc0cUhzdzhmRV9FV3Rzem1KZmJ0LTZ2NjJ0SmlXRjNoVVdaaGg0a1JRUTdkZnE0ZWtvWXp4bjF0STlHR1dIamZoX1JiMFdUTGkxaC1VNzROY1dXVVhvcDVzVmJzb2x2czlVbHBBNGNLUzJVaWVEOFVHbG9uRQ?oc=5)
-2.  [3] Economist on oil: 'There's no way to bypass Strait of Hormuz' - Yahoo Finance. [URL](https://finance.yahoo.com/video/economist-oil-theres-no-way-113007866.html?.tsrc=rss)
-3.  [12] Marvell Stock Investors Got Amazing News From Its CEO - The Globe and Mail. [URL](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRllVWFRoNzJvdGR5VEhZbDJ5SXdOdTk0d3pRNzdraWpRREI3Y2FjTmFXRWN6OURRUkxxeGVPazdRSFVSeEhQYTMzNEhxdHZXYzJKdEFRRVFDQUlzejk2bUJJQnFLNGd3REhKelNaMUFfY3FaTmhXZEFPZ0sxVFNIZWlpWHZVanhielh0TnljZ25ZWEpzb1dnVHJONjVMLXBsNDlWMVRuOFJzNm1XUjI0cWFQY3JEbjB6dmdNVDgzRDlzMkNsSl9CNHN5bFhySVJ2Z2s0?oc=5)
-4.  [14] Here's why Rivian stock is a buy before March 12 - USA Today. [URL](https://news.google.com/rss/articles/CBMihAFBVV95cUxPcTFienRtazU0VGxZN0JGcmFDbVV0aVBkaWM5VGNBWk9qVlVvSDlmN3diOURfT28zQU9qODgxQUk1SXZmREFkdTNvNFo4TzFINzlwcFZZXzhwcDRXX2llMDBMMHVtNklNUW9lME1tUGlKVFVGNFBLUEZxdWRpb0dQQzRqRXM?oc=5)
-5.  [18] Mixed options sentiment in AST SpaceMobile with shares up 2.59% - TipRanks. [URL](https://news.google.com/rss/articles/CBMisgFBVV95cUxPMDJfbS1mcEFJVmZpNWNtOThtUXhaMllsek9RQW5EVHgweWNobldEQVVXTzM2Q3NDRGxfSXFPRWpzMHpfZzRBbXYyYi1UNURKd09NTG1JdE9QVDBBRFFiWXpqNUZfMnVQWTVSWjlkVWQ0MXRzOGFBekF0MW9JLWxIcDJPb1VwUFBaRi1kclVfeWxBN2preWU3eno5eWs0bV9rS19QQmFNWlhxb0NjMm1CMzhB?oc=5)
-6.  [17] Vertex Pharmaceuticals (VRTX) Stock Rises 5% on Kidney Drug Trial Win - CoinCentral. [URL](https://news.google.com/rss/articles/CBMilgFBVV95cUxPVkRkVnoyMmMwajlJXzFjR1FyTU5ncWNSTk1IakJDLUNDY0VFWEVvYkUtajQ2MG5DWEdwOHM3WkYtWnNlVDlvc2VPMFFDejRoSnJrTlRZZ0FhRDVCUElaUThSUU1ReEZoTjVfUG00Yk9wRGkxVWc2SWIyQ1MtZmltQTd3aUV2dkVpNnZlaEt5SEFlTzlUbkE?oc=5)
-7.  [24] UPS Stock Is Deep in Oversold Territory. Should You Buy the Dip? - Barchart. [URL](https://www.barchart.com/story/news/667136/ups-stock-is-deep-in-oversold-territory-should-you-buy-the-dip?.tsrc=rss)
-8.  [20] Maersk CEO: We’re clearly in uncharted territory - CNN. [URL](https://www.cnn.com/2026/03/10/business/video/maersk-shipping-vincent-clerc-intv-031004pseg1-cnni-business-fast?cid=external-feeds_iluminar_yahoo&.tsrc=rss)
-9.  [9] Vertiv Holdings Co. (VRT) Soars to 52-Week High, Time to Cash Out? - Yahoo Finance. [URL](https://finance.yahoo.com/news/vertiv-holdings-co-vrt-soars-131503500.html?.tsrc=rss)
-10. [21] IREN adds 150,000 GPUs following $6B equity offering - Blockspace. [URL](https://blockspace.media/short/iren-adds-150000-gpus-following-6b-equity-offering/?.tsrc=rss)
-11. [22] Assessing IREN Valuation After $6b ATM Expansion And Massive NVIDIA GPU Commitment - Simply Wall St. [URL](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbG9MRUMyU2N0NGZPV2xUUHZPUkZUcFpDcnFiRDVVWHdDaWxENi1YQnlEdk5SWXVlbGZxQTdSejhxMG1MbXduQU9iS0UxcDRKalNfOFh1d2FQZFZaVkRPeExzb0FCcHF4ejltRWpIUm9LUnp1cXBIXzdxRmtHVmpsQ2RKc3ZZRnYyLTdlQXV6bHNGRlpFb2VuM2VLbjAtSmMzRWxkZ0FIX01aN1ZlUW5iblhjUUs4TDdBOHptV2xqeVfSAcYBQVVfeXFMTlJmUDFwbUJjanNITXAxMWxubTU3enFELThrU2hxSzFmUkk3aVpOMm5UMHBYXzBxMktzdGEweHo1cjYtMF9jRDVoNndHTjd0YmRhaHdlN0RKTW00anVfUUQ1eUh4MHQ3OEdLLTI3QW5YQlNfeDM0TFFjbTZSQmEwTnRZcEtYeUVrT0FfLVFmZzlDMkVEd3RMUEgtSmhLNEtpUlh3SWJSQ1BTY0QwNXh5WjhJZ2FIdDE2cnBiblhkMUVhc1l6Z2dR?oc=5)
-12. [11] Darkest hour descends! Goldman Sachs: Memory supply shortages are squeezing the market - Futu. [URL](https://news.google.com/rss/articles/CBMitAFBVV95cUxQWjJDdGE4S0tsZjdtZ1dlQlZ0QmdyTGF4Vkk4X2oxNll3UnhqZnNnVVNiUnVOMmdkLUFweWRqRDVLdlJMSUdYSHVPYWR5WDJuWDBsSnk4a2lybDBMQXh0RmdCUnduTkVrZDRBOC03aURzUUtjY0nyVWRwcHpaRFFrZXdnVVJBb3VORlN1ZXRPN3pnQXpQeXRoVmg3SjVCRm0zMXZJbE14a1J1QUcxMGVOek9zWkU?oc=5)
-13. [10] The 18A Inflection Point: Can Intel Reclaim the Silicon Throne? - FinancialContent. [URL](https://news.google.com/rss/articles/CBMizAFBVV95cUxQSlFWSnZSelBnN2NRRDRIejJUR3Y0eVF0YnpBbERDWDZpOXdKNUZkcDZueC1QQ2hkMmJqOUViV1poVng3VExBZ3RDV0pDS1VWbkRhbU1XdHF3cHZiTGZJVXFhTzhmaHp4VWk1T3dOdHlCQ1NvRUxENU8wbkh4eXFuVGJTY1haZVJRRGpPR1BPWmlYQ3ZmSW1JS09iQ0toUzh2MGgwQjJZbExnRGFVUnNUR05iMlF4bHpUN2trYmJVM2U4cGk4YmlIVmQxdnM?oc=5)
-14. [8] Nuclear energy is the only answer for AI's power needs - Seattlered.com. [URL](https://news.google.com/rss/articles/CBMie0FVX3lxTFBSb05tamRGSGtiTUVRZ0I2OVBWbWFuaFhla2xiQ3NsRVdSaXFYU1Z0bTRnYXQyZG93Z0hfaHlncFFISWxCcHdzcUZGNk8tWVpHanJRZ25qLThVdkw1ejVHVjRmck84c0krOXNrZDhqdW1IbHhBSlJPbUFZTQ?oc=5)
-15. [4] Treasury Yields, Dollar Rise as Oil Prices Soar - Yahoo Finance. [URL](https://finance.yahoo.com/m/1c36ae74-7a94-30e9-9db9-66af7851f4b6/treasury-yields%2C-dollar-rise.html?.tsrc=rss)
-16. [5] Stagflation Worries Fuel Global Bond Rout - Yahoo Finance. [URL](https://finance.yahoo.com/m/4e174237-2869-35fd-979d-404711de3746/stagflation-worries-fuel.html?.tsrc=rss)
-17. [13] VGT Goes Beyond The Fears Coming From Iran, South Korea, And U.S. Payrolls - Seeking Alpha. [URL](https://news.google.com/rss/articles/CBMinAFBVV95cUxPMjk2T1YyNFRjbzJiN3JibGR2dDJONnBNNl9lWU1PU0ktNG1PbUVaSi1ZUnptUThaTVBRNWMxemJrSGMxRU92bVFDR0V2c3hZU0lRLWstREtKVkJpWWh5eDJjRkRNNjBJYURkMXkxNWsyLTlVbGFrTENrRk5VTGQzaWk4c0w4UjI1TGYwbVZJcUFGS1loSDhzWS1kcXQ?oc=5)
-18. [23] Why CleanSpark (CLSK) Is Down 7.4% After Weak Q1 Loss And Texas AI Pivot News - Simply Wall St. [URL](https://news.google.com/rss/articles/CBMizAFBVV95cUxOdEZQdnZpLW1nVWp1VWZLX0JTa0tmWHFPX2lDWDBrbUNNcWZTbU5jUWcxOWJER1NVQXRnZ2tHWHhZMTdDVjgwX3Z3ZGxlaUVySWpQWnRfcWM2b1p1SVJkTk5yeGU3Sk15R2VsejNHY0dHRzBwcGRtLUZRd3VPTU9sb2dva21rU1h1OEpHbWljWE05Zm01d2pjbW92VUdyY3lPUTE3S0Q5b0laQzRab2IzeDR5Vmg2RTg3SUlPZzQzcEZnY3IySkt4QTJQOEjSAcwBQVVfeXFMTnRGUHZ2aS1tZ1VqdVVmS19CU2tLZlhxT19pQ1gwa21DTXFmU21OY1FnMTliREdTVUF0Z2drR1h4WTE3Q1Y4MF92d2RsZWlFcklqUFp0X3FjNm9adUlSZE5OcnhlN0pNeUdlbHozR2NHR0cwcHBkbS1GUXd1T01PbG9nb2tta1NYdThKR21pY1hNOWZtNXdqY21vdlVHcmN5T1ExN0tEOW9JWkM0Wm9iM3g0eVZoNkU4N0lJT2c0M3BGZ2NyMkpLeEEyUDhI?oc=5)
-19. [15] ETFs to Buy as Broadcom Shares Jump 5% After Q1 Earnings Beat - Yahoo Finance. [URL](https://finance.yahoo.com/news/etfs-buy-broadcom-shares-jump-145100518.html?.tsrc=rss)
-20. [1] The $100 Oil Trade Is Back, and These 3 ETFs Make It Easy to Profit - 24/7 Wall St. [URL](https://247wallst.com/investing/2026/03/05/the-100-oil-thesis-is-back-and-these-3-etfs-make-it-easy-to-profit/?.tsrc=rss)
-21. [16] Broadcom stock rallies as CEO Tan makes strong case for why AI growth will last - CNBC. [URL](https://news.google.com/rss/articles/CBMifEFVX3lxTE4xbXhJa21ZTzhHTk00T1VQSFl6djV0S21tWWdkZ2lha2JIc0Z0ZWFBc1F0cHYwRVpHSkhIbmJXZzJ0QjVyWnhtb2g3ZEhpc2hvcm5xR25HbnFtRmpaTDcwcTFJSXVYVXo3SGJRLUVBci1aNnQ3UkV5N2ppRkTSAYIBQVVfeXFMT25UUXpSVnIxQ3BidEx4WVJlSUVLYmNkR2FNcWNZNVJxc3lOZ2lpQmE2VlFpelRQbGFrTllfbWZNWnlwS3RwRFhsUno3MTFrM3hmU215SEdCaGcwMEQtZ1dmT3EtTDZnSVBzSl9WcHU1YUFDckRRTUZaUXdkLWJJdE96UQ?oc=5)
-22. [6] VIX, Wall Street's Fear Gauge, Is Skyrocketing—Here's How To Trade It - Benzinga. [URL](https://news.google.com/rss/articles/CBMiygFBVV95cUxQVzFHTVUxdE9Ra2dMYjBkMUN2NnNwT0s0QWM5a0dxMVhqbWJWQ3lnR0dMeDF0T0hueC1pSlBiX1dTMTRYUjAzN0xyRTJIUHZJWkV4VFB1VTlRaFM4enlxeExnRTAtU3FqWjJ1NFlNdWkzMVc2N0RlTmhhZmNYb2xKMmVDOVJlQU1jYVpjU2pfZWFUbXNZV0tBMmVjbU5lZ25zUTJsWG1LVXZVand2Vi1CVzlrVXZjUVpWWVNVVHpFeEY2OWRLWUFhYUVB?oc=5)
-23. [2] Quantitative Price Action Summary - Top Winners.
-24. [19] Quantitative Price Action Summary - Top Losers.
+1. [7] **Source Headline:** Treasury Yields Rise on Disappointing Auction. Pressure Mounts for Tomorrow’s Sale. **Link:** https://finance.yahoo.com/m/97d23c53-e4e1-3435-9328-1e09f0ded400/treasury-yields-rise-on.html?.tsrc=rss
+2. [1] **Source Headline:** Maersk CEO: We’re clearly in uncharted territory. **Link:** https://www.cnn.com/2026/03/10/business/video/maersk-shipping-vincent-clerc-intv-031004pseg1-cnni-business-fast?cid=external-feeds_iluminar_yahoo&.tsrc=rss
+3. [9] **Source Headline:** The latest circular AI deal stars Anthropic, Nvidia, and Microsoft. **Link:** https://news.google.com/rss/articles/CBMifkFVX3lxTE5ybXNCOWdCOWNXLThObkp2NV9pMHhvd0FyZnJ6UlVFY2lJMF83RVk2UWJMbExsT1hlaVJDZUxyOS1Vc3h1M3pKV0hsYXprRFNYRl9OY18xSElqZDhYSG53ektYZVpHemhJZ0hhUk1xX2ZScmVrX0JVamJnN2J0UQ?oc=5
+4. [34] **Source Headline:** Why Constellation Energy Plunged Today. **Link:** https://www.fool.com/investing/2026/03/11/why-constellation-energy-plunged-today/?.tsrc=rss
+5. [23] **Source Headline:** GE Vernova Expands Power Role As AI And Grid Backlog Swell. **Link:** https://finance.yahoo.com/news/ge-vernova-expands-power-role-161119945.html?.tsrc=rss
+6. [35] **Source Headline:** Constellation Energy Corporation (CEG) Registers a Bigger Fall Than the Market. **Link:** https://finance.yahoo.com/news/constellation-energy-corporation-ceg-registers-214504975.html?.tsrc=rss
+7. [2] **Source Headline:** The Strait of Hormuz Could Take Weeks—Even Months—to Reopen, Military Experts Say. **Link:** https://finance.yahoo.com/m/6de8d408-0ce3-3d9e-a000-435b0971fd85/the-strait-of-hormuz-could.html?.tsrc=rss
+8. [31] **Source Headline:** AST SpaceMobile (ASTS), TELUS (TU) Partner to Launch Space-Based Cellular Network. **Link:** https://finance.yahoo.com/news/ast-spacemobile-asts-telus-tu-205636483.html?.tsrc=rss
+9. [17] **Source Headline:** The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades. **Link:** https://www.fool.com/investing/2026/03/11/the-best-x-nuclear-energy-stocks-to-buy-and-hold-f/?.tsrc=rss
+10. [39] **Source Headline:** Magnetar Financial LLC Takes Position in Cameco Corporation $CCJ. **Link:** https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcWZNb0ZVdHQ1RzlQOGRDcEswZXk0eHNfSlNKSHN0ZWFiMnN4eTQ1NmJzV1BVM3VtcW9kRXlvWF9sMWNSWmJhbHJPeE9yS2g4bzUwM01CRnJwYkphZWRvTklOTHItNk5uUTNvOWcyLTdZSkxqMGhDTkN0dmNfSHppeGx5VklXNUg2QmpMOUdPZXhVWVE4cm5BOUNmOGlXY0oxQmFJRjl4dGFmek9ySjBOMUkwRDdZdkNPeXI1SHpiSUZSQQ?oc=5
+11. [32] **Source Headline:** South Carolina House Passes Historic Income Tax Reform. **Link:** https://news.google.com/rss/articles/CBMilwFBVV95cUxOWDdQNjBuWXdSNWlOZEtsZmlqdnF5blh2bHdNZVNFTU8tTHJOVTBxRnh5TFpIQ1pUYThxandkYk90TXFIRmNGcUV0RXJ0U0Z1cnJDVi0yLUUwSWdsT0ZYSko0akdMLXNBNEczdzdHWks5dzMwaWxBT2U5Qjg2a1VhX2FEclNDR2tJZWdLbzdHZGp1Yl81Rlpr?oc=5
+12. [37] **Source Headline:** S&P 500 Movers | Winners: VRTX, CIEN, GLW | Losers: CNC, FICO, APP. **Link:** https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ3pRSmRjT1BrTWh3RVFNamU5NjZyVUs3aEdKVXJKb3FfcVFIdmhqdm9nNDBIeVhSNmhLVGg3T3k2UlU4MmQzRXJfWGRPai1uZU5QRlVheEhNSEl2Q0dUNVBBLUxvT28xdmgtQTJTdy1EWGMzUXlPQUFUVlVac3dSQ19zWFlYQ0Y1SWZHNmFTQWlWU21CMnlYZW9aUVRkM3dnSXY4ZERnNV84UGM0RUp5a0pNOEZZUQ?oc=5
+13. [40] **Source Headline:** Intuitive Surgical Upgraded to Buy by Citi — Plus Key Moves on Stryker and Abbott. **Link:** https://247wallst.com/investing/2026/03/11/intuitive-surgical-upgraded-to-buy-by-citi-plus-key-moves-on-stryker-and-abbott/?.tsrc=rss
+14. [41] **Source Headline:** Stryker Corp Stock (SYK) Moved Down by 4.00% on Mar 11. **Link:** https://news.google.com/rss/articles/CBMigAFBVV95cUxPV3JiV2M3cTZxVTkzcGNvVjNsLVM1NGJLcVpiOGR1ODN5UW4zQTNTMjlsa01WNTBwMHdrR2xtckJNZ3V2ZE1loHVkTTloZWFxYXB4TC16Z1pWbkdwSnRTTlpENVN0dU84ZVYzRWFWUERnNzRVeEdMbEhPcDl2R1J4aXNwVEs3OA?oc=5
+15. [38] **Source Headline:** Traders Buy Large Volume of Frontline Call Options (NYSE:FRO). **Link:** https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmdRWWpRZGx6OVZWdDFZUmJFY1U1S3BQUlRBTnR3M0w1Z29uT3FaRmVNS05KOFdYRnlWX1NfaFl1c0NWV19IZDA0SmlNTmF3RDdLaFh6ZXZlc19PRjRZUHRXQ3pndl9FRXhxTXdXNm05V3huc3laNEUxUnpEdDhGeHFENDNNdHFDb3IwQnlUMHB4QzY3LXk5dHNxdHFCNVJWQWhWMHdZaXZsMlA1MTJjU1VB?oc=5
+16. [29] **Source Headline:** Core Scientific (CORZ) Stock: Insider Buys 7,000 Shares Amid AI Infrastructure Expansion. **Link:** https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzBKOGZpdmpYQlJpWGNiV0lrY0lBaEFQelNhMTNEdTBVb1kzYzBqVG8xWWY4dWRyZzdyRXFxQTFvT1dGdjVLMFc0bGZydnBncl90aVRJUEVEY09uSnFOZVo2SkNrUEg3cnlraWswa0lENmpjbUFSeTludnN1MURMd2RxM1VJd1ZtUy1fQWk2dzVBdElMS1Z6MG15VGxhZkprcktNOUNjMFI5bFVO?oc=5
+17. [30] **Source Headline:** Core Scientific Inks $1B Loan Deal to Fuel Infrastructure Growth. **Link:** https://news.google.com/rss/articles/CBMigAFBVV95cUxQSk13NXJqc280Yl9tU0c4c3dtT3VJUkNmcjdEX3QtQXJFUExjdWZ2QWxrTUR0a0R3VVlCbWhPa29IR3VIQWtOQUdFNngzb3R1MGs0ZkF6dEk3bmZxQlUwbXJUVndpby1PNU9hMVYzandoVlJqN1JHTDY3d0lhZnZPeA?oc=5
+18. [26] **Source Headline:** A Look At Iren (BIT:IRE) Valuation As It Commits €3 Million To Atlas AI Fund. **Link:** https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ2J5aUtOTDBsbnQ5VnVBa3BYRy12UDhDS19ZLU1sQlpvOGl1X0p3ODkxcjFPSHhPa2N6M19KMUhGb3FpTXp5eHNlc2tjcHdsckx4TjdROXAxNW1sTGJ6eXdWOWRkVWttQUFFYkJhMERqZTU1S2pxZlRPVnZlZVU4NXNYbG9mZXJzQ1Byam8tZlR1NUJpWGxJb1pJenhVb0MtMG9qQkw0M1NIelY4RjRYcnd4dXdXOGRQSlVtdkUySjBlcVVOeVZHVWVkMA?oc=5
+19. [27] **Source Headline:** Iren Stock Jumps 9% on Nvidia’s $2B Deal with Nebius. **Link:** https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pXUnNqN2pSUE5NSXNSZ1AxT0ZDRnJmOGwwUTNoYjRhaWRrQVhlMkpnaExTeUxpUl90c1pkenZ5LV9QOXBScXZmakpKVFJ4THA1ZEUzVVVHN010LWZHNVNRUF96VHNyczZVLXhKU0tYM3RtMzJ0cjRlZDc1MDR0Z0hGbUhKRDFRRWRLcDNQV0FPSEhl?oc=5
+20. [10] **Source Headline:** HPE CEO squares up to Cisco and Huawei as Juniper deal pays off. **Link:** https://news.google.com/rss/articles/CBMisgFBVV95cUxOTjhZN1hIalEzemhSZEdkcE5SdTdTVDhWU08wVVhieHhXT1dGc3RSblNEN2J6MHkwbzd5Yi1fN3VFNkdZaHZvTk1yVG5neGJPV3VTUE1zd3hqdFNaU3NVQUo4cWJfRnhhdmRKZVBaUWJYWndqVU43c2RCOXZQVTIxOTNUYjhVM3FMUHVzSEpiYnYtTDZqZWEtd01qTlRDMVNuWUpzQm1OTm41NnFzWmpZcjh3?oc=5
+21. [12] **Source Headline:** Nio sees EV costs rising on memory chip shortage. **Link:** https://news.google.com/rss/articles/CBMinwFBVV95cUxOSnZaTUtqQ09peWV3TmlsUDhRS0h6b0M5WkpGbkVtemZJLUdobFlWRHZSVmd0UE5EZEhpR0pNbXVoYkFLQ3hCd3VsUm96Mng0Nk1FWmJFOUpqaG1fMlN5cTFBdTJWNkFwLWdzQVBMNEZ4TWtxZFBSSm9vNVJCMkdlUl82SmFnNVpLT3EyTG9GQVR3Ny1vY2pmdXdROEZ6VXM?oc=5
+22. [13] **Source Headline:** AI-fueled memory chip shortage could raise prices of everyday tech (Video). **Link:** https://news.google.com/rss/articles/CBMisAFBVV95cUxObGQ3X3dHTVYtaWZEdW14dGtLc2w5anhxRUxzMlplY19ZVFcxdnZTRGx5NHhNaDgxeHc3dEVIN2tGX2p2Vk5QeXNYRUR1SG02NzFrNHpYZ2tmemRRXzI0UjZ2TG11S2pWZTF3cUx6Q0gtb3JMazFkWDBTV0l0aE9VcmxnZlk2eWNIV3ctdUFWWDVEMEhUblJ4V1FoVDBybWtHYWx3dVF4aVNzMFlyWWVkYw?oc=5
+23. [20] **Source Headline:** PPL Electric Utilities commits $8B to grid modernization through 2029. **Link:** https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSUgzOWtvV0xNY2h1QjJtSmh6VUFIWjJZbUZlOWlwdDJ6cnpDV3JqR2llbDc4NTJLdlZqd2FpTEV6SjdHZ2IwcERKQjdqVTZLU1oyQ2p3X2szbGk0SERnX0x4YU9zOTlvSndMRER0MUNsVjJtelNibHVoTEw4SmEzakowdERRVmtOVTlCcHdLMjdJYWQwb2ttRktWb0wyamZuZVNRXzhzbHctZw?oc=5
+24. [28] **Source Headline:** Oracle: The Bullish Reset And Long-Awaited Turning Point Is Finally Here (NYSE:ORCL). **Link:** https://news.google.com/rss/articles/CBMiqAFBVV95cUxQU0VwRjdhNk0zYXZsNWNIa0kwTjFGUFJ1UFFNRWxUV3IyRnJuZzVab1pJc0JNTnJyZnJ0QmxmZlg0ZW9IekVrWE15X2Jkb1Zpd3JpUV8yZXY3ci03OGsyUGdzUVVWTXZCV2dpVm9CRzRxdTd0SDRxbkREYVRWVVlNSUZFaldTVmhzV0xUazI3TnZOSVdZTWx1ZGM1bTZwemFQU3BrekI0SzE?oc=5
+25. [15] **Source Headline:** Cassava Technologies Launches National Sovereign Cloud To Power Africa’s AI. **Link:** https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdUJuR3dBMURDRW1aNHlmREk4SDVXMm8tM1hwNjlwMFlIeV8tRlVKUlFxYmFURkFXMUZDaFJYVmxxMk5uUFlXTGpKZUFIb1MyN1B5SlhSNmw4UjFVWXNNajNLdEY2MjN5S00tTVhtbnk4Uk9YeVB1bWpGSVp4VERNTkhBNldCbXhPaW1hdE0tM19URW1aai1sNk9pQzNxQ0Z4TFJlb04wNHQwS0wxUC05SW93YU5mbUx5?oc=5
+26. [16] **Source Headline:** Why sovereign AI for India is a strategic hedge against a ‘compute divide’. **Link:** https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVG9UdnU4YXBZWmpiYjhIcUhJTzhQbXdxNGk4WGtNeEpoU3lXVDljUk43VXV4b0dhWEg3NTJ6eVJTblNRQmdrYUI1TzJkcG5YVzNmWkwyWlA3N29wWDc0NGxDUGIzcl9VRzI0T0k4ZVg1VHliZW0yQ1lKNC1lS0dqSnhLV3NQTW9fN0N4bzNqdDdKUm5wclBrZ2Y4REpvR0pES2s2NjNyZkZNMDFiYzUyd1hNSWMxQkN5UWNqYmhtWFNGdnpZMG5kcnY4TFZnd1JlcUdERXJVbUtjTjYzM2RWeTlPUTNPQ2FB0gHvAUFVX3lxTE1fWnJYM0JEWGJIM0lXOWR2T2theXBkU0FIWmFCY0ZHOXk3QXd2bGFYR3BSZlRnOGNKSzh2dTdhTERyNXdBN1BVdXJSZXRpLVZIVXg2Nkk0dGRlTmdYMXN4SVVwbmo3eXl0NXNSRlhxWnBqd29vYmdaRWYxdDNZa25lN2ZWTWJsZGppOG91WUN6SWRmTlVGVy1May1hUGNMYUdxTlNVVlNYdVIwOG1VTmlKMUI2RG5xcnJVTlZacklJTjNacGU4Ti0xb3Q4Z195anhDZw?oc=5
+27. [33] **Source Headline:** Micron Technology: HBM Sold Out For 2026, Wall Street Is Still Underpricing (NASDAQ:MU). **Link:** https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRFdsMFhkTzItR0pfYjQ4aHBtVUY3dXU5eUFCNmRaTWJCYzE4YkhOWTlwb0lCSDkwbHJBMlpwTFdtaF8zd1VzUHMzQWJzdGRiWVhEa1FnOWliT0gyZFR0X0c5TlJrazRlLTA2UGZVWlU1bDN3SEJQMXV5cUZMMlZ4RkdQWFpkcXlHMEs3UFpNZXRRNHpXcWxadDlWUHZWVmVISHRrYUZiRUJLWHMySGlkUndmWFE0ak03dlVITGtBZXB6R2pmN09VVHVScTM2dV9UU2lLTkdB?oc=5
+28. [4] **Source Headline:** IEA agrees to release record 400 million barrels of oil to address Iran war supply disruption. **Link:** https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMPdHZnJjdTNQOTE1MUtlZ0ZvWlYtejZQaDYyR1YxYzc3dWRYaFY2akFoeHhaYWRHTWl5OGVYT3lGdUtGcEFZVi14TGpNNUJmWlJCbVhZbHZmOFFBVWc3VEptTWZsT0NBekpsMTlHdHhzeEZWRHJ2aTFleG1aeDJMdWx2MXB0d25J0gGOAUFVX3lxTE1kaGRtc3BfVUY2YVJZTTJOV3RPUC1vcjFSay1JVTRSSE9JMkJTeVp2Q2xMSG9ZT2hUaE8teW1fUXZ6SUMyNnNCcV9xemxqeWZTQlNtYnV2WnZTSG9PS0ROT0U4WmkyWUNkcHVQdkpCbklaSUMwOVVCNG50QUJxMVNBT0xyOXBIWkNIZGYzQ2c?oc=5
+29. [8] **Source Headline:** Oil Surges Again To $86 As Iran Attacks Ships In Hormuz. **Link:** https://news.google.com/rss/articles/CBMijwFBVV95cUxPcU1RYVV5WnUzaFgtd1RmXzJJdldFX1hVMXNTTndQRW9fQlJ3MkNWX2FCQUhoZkQwQmUzZ2R6TzFLUF95ajE5R1l2REd0ZjAtVnYwdXBRbVBEekJJN2VhRldFWVRBQXBDRXNueXRJTHQ3S0tHNUY0RV8xTW5hSWJ0b2hJTFY4SnNrdGNMdV9ibw?oc=5
+30. [18] **Source Headline:** EU unveils strategy to rapidly deploy small and advanced modular reactors. **Link:** https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFNxM2M2bmdiSkNtU0hhV1RGVmdFcDFYN21va3haYWdhclZNZFNMdmJZMl96TjZqYVhmV1pOOTA0R1VlLWNhX0VYNDZKMmdZSmgyelBqZ3AzOGVnaV9jWHpoUDVpd0pTQ1FtMFROZTRsV0p5RkdDS21vdVlsc1BhVTF4blVQbWowNTJOYmY4dHFWVGlHc1paMnhqYll3SDBqU2ZjbE1oeEExeUJ6S040?oc=5
+31. [19] **Source Headline:** EU Bets €200 Million on Small Nuclear Reactors. **Link:** https://news.google.com/rss/articles/CBMigwFBVV95cUxNT2ZfUFFmOUhUbnRSRE9aTXNkMlBKOWJBZHdpalpKZGU2VTE2Tk1GTzJ6QmlCclpFdElrS0xUcFhlNEVkRFExWjNia3gyRWw3bFQtYTRydTNzeW9tenNESGpNRWRqN3RRSHhWeUduV2FzYjZUTXkxaWRfLTl6T0N3VWlCSQ?oc=5
+32. [43] **Source Headline:** Impinj and IPG Photonics Shares Are Falling, What You Need To Know. **Link:** https://finance.yahoo.com/news/impinj-ipg-photonics-shares-falling-013114287.html?.tsrc=rss
+33. [14] **Source Headline:** Applied Materials and Micron Are Partnering on Memory. **Link:** https://www.barchart.com/story/news/693316/applied-materials-and-micron-are-partnering-on-memory-is-amat-or-mu-stock-a-better-buy-here?.tsrc=rss
+34. [5] **Source Headline:** The Stock Market Needs More Than Oracle Earnings to Forget About the Iran War. **Link:** https://finance.yahoo.com/m/d220b7f7-5b8c-355b-b672-bce56e4ed4f5/the-stock-market-needs-more.html?.tsrc=rss
+35. [44] **Source Headline:** Marvell: A Sturdy AI Investment Worth A Large Position (NASDAQ:MRVL). **Link:** https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTFZRzdmQ01NV1NGZG9iOVJSX3pod0NJMk85akhwMjNOLVhFcE9GRTdwZzRxTkppNmZyQ01oMC14a2RSZnhQZ3hzUnpRQnI5d0pGY3ZpUFp1ZW5WckhLVlYxOW5CVGNQeWVaZEZjSUdTdDhkbHJmM0lVUktFYm9rZjUzdW9wSURMcm0xU2hXYy0zSlFkVEtGeU9R?oc=5
+36. [11] **Source Headline:** Nebius: Why NVIDIA's $2B Bet Cements its AI Leadership. **Link:** https://finance.yahoo.com/news/nebius-why-nvidias-2b-bet-171700021.html?.tsrc=rss
+37. [6] **Source Headline:** Dow Jones Futures Fall As Oil Prices Run Past $90; Oracle, Nvidia Lift These AI Names. **Link:** https://finance.yahoo.com/m/e5178f58-7f28-301c-8d0b-4a67fdf4e108/dow-jones-futures-fall-as-oil.html?.tsrc=rss
+38. [42] **Source Headline:** Steel Dynamics (STLD) Ascends While Market Falls. **Link:** https://finance.yahoo.com/news/steel-dynamics-stld-ascends-while-221502298.html?.tsrc=rss
+39. [22] **Source Headline:** Historical Context: Recent Periodic Reports (Nuclear Energy Revival). **Link:** Excerpts from periodic summary text.
+40. [24] **Source Headline:** Historical Context: Recent Periodic Reports (GE Vernova Scalability). **Link:** Excerpts from periodic summary text.
+41. [25] **Source Headline:** QUANTITATIVE PRICE ACTION SUMMARY - Top Winners. **Link:** Internal price feed data.
+42. [36] **Source Headline:** QUANTITATIVE PRICE ACTION SUMMARY - Top Losers. **Link:** Internal price feed data.

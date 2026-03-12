@@ -21,27 +21,46 @@ logger = logging.getLogger(__name__)
 # --- NOTEBOOKLM PROMPT CONSTANTS ---
 
 PROMPT_DAILY = """You are a sophisticated hedge fund analyst powered by NotebookLM. Write a highly actionable, data-driven daily market intelligence report synthesizing the uploaded qualitative news and quantitative price action.
-Group the insights into two sections: 'Macro & Themes' and 'Specific Equities'.
+
+STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
+## Top AI Thematic Insights
+Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in the data. Highlight geopolitical shifts, tech leaps, and energy constraints. Use clean markdown (### headers for major themes and - bullet points for supporting evidence).
+
+## Quantitative Market Action & Specific Equities
+Explicitly correlate the top stock winners/losers from the Price Action Summary with the exact qualitative news events driving them. Quantify your points.
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and News Catalyst explaining the move.
+
 CRITICAL FORMATTING RULES:
-1. Be extremely concise. Avoid wordiness. Use terse bullet points and numerical tables.
-2. Explicitly correlate the top stock winners/losers from the Price Action Summary with the exact qualitative news events driving them. Quantify your points.
-3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+1. Be extremely concise. Avoid wordiness.
+2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
 PROMPT_WEEKLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly actionable, data-driven weekly synthesis report for the week of {start_date} to {end_date}.
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary and explain their performance strictly using the uploaded qualitative news.
-Summarize the broad market narrative, key macro events, tech sector momentum, and energy/geopolitical risks.
+
+STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
+## Top AI Thematic Insights
+Write a highly structured, authoritative executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Use clean markdown (### headers for major themes and - bullet points for supporting evidence).
+
+## Quantitative Market Action & Specific Equities
+Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers and cite the companies directly.
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and News Catalyst explaining the move.
+
 CRITICAL FORMATTING RULES:
-1. Be extremely concise. Avoid wordiness. Use terse bullet points and numerical tables.
-2. Rely heavily on the numbers, cite the companies directly, and ensure the tone is institutional.
-3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+1. Be extremely concise. Avoid wordiness. Ensure the tone is institutional.
+2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
 PROMPT_MONTHLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, data-driven monthly synthesis report for {month_year}.
+
+STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
+## Top AI Thematic Insights
+Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts that defined this month. Highlight major shifts or trends and assign explicit probabilities or data-backed weightings where possible. Break the broader market narrative and key events down chronologically into a Week-by-Week timeline here if necessary.
+
+## Quantitative Market Action & Specific Equities
 Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to the uploaded qualitative news.
-Break the broader market narrative and key events down chronologically into a Week-by-Week timeline.
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and News Catalyst explaining the move.
+
 CRITICAL FORMATTING RULES:
 1. Be extremely concise. Avoid wordiness. Use terse bullet points and numerical tables.
-2. Highlight major shifts or trends that characterized this month and assign explicit probabilities or data-backed weightings where possible.
-3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
 PROMPT_YEARLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, data-driven yearly synthesis report for {year}.
 Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to the uploaded qualitative news.
@@ -204,6 +223,58 @@ async def list_notebooklm_sources(target_project: str):
     logger.error(f"Error checking project {target_project}: {e}")
 
 
+async def upload_directory_to_notebooklm(dir_path: str,
+                                         project_name: str = "Market Reports"):
+  """
+    Uploads all relevant files from a generated report directory to NotebookLM.
+    This creates an automated archive we can chat with later, with smart deduplication.
+    """
+  if not os.path.exists(dir_path):
+    logger.error("Directory not found: %s", dir_path)
+    return
+
+  logger.info("Connecting to NotebookLM '%s' project...", project_name)
+  async with MarketNewsClient(project_name=project_name) as db:
+    await db.connect()
+
+    seen_titles = set()
+
+    # 1. Fetch current sources and deduplicate any existing stragglers in-place
+    if db.client and hasattr(db.client, 'sources'):
+      logger.info("Fetching and deduplicating existing sources in '%s'...",
+                  project_name)
+      existing_sources = await db.client.sources.list(db.notebook_id)
+      for src in existing_sources:
+        title = getattr(src, 'title', '')
+        if not title:
+          continue
+
+        if title in seen_titles:
+          logger.info("Deleting duplicate existing source: %s (ID: %s)", title,
+                      src.id)
+          try:
+            await db.client.sources.delete(db.notebook_id, src.id)
+          except Exception as e:
+            logger.error("Failed to delete duplicate source %s: %s", title, e)
+        else:
+          seen_titles.add(title)
+
+    # 2. Recursively find and upload new PDF files
+    logger.info("Syncing local reports to NotebookLM...")
+    for root, _, files in os.walk(dir_path):
+      for file in files:
+        if file.endswith('.pdf'):
+          # NotebookLM source titles from files perfectly match the basename
+          if file in seen_titles:
+            logger.info("Skipping already uploaded file: %s", file)
+            continue
+
+          file_path = os.path.join(root, file)
+          await db.upload_file(file_path)
+          logger.info("Successfully uploaded %s", file_path)
+          seen_titles.add(file)
+
+
 async def generate_report(market_data_dir: str,
                           mode: str,
                           start_date_str: Optional[str] = None,
@@ -231,7 +302,6 @@ async def generate_report(market_data_dir: str,
       logger.warning(f"Could not read sync state: {e}")
 
   if mode == 'report_upload':
-    from reports.report_utils import upload_directory_to_notebooklm
     logger.info(f"Uploading rendered PDF reports to NotebookLM Market Reports")
     # Hardcode project name and target directory specifically for this mode
     rendered_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),
@@ -245,7 +315,6 @@ async def generate_report(market_data_dir: str,
   if mode == 'upload':
     if not dir_path:
       raise ValueError("Generic upload mode requires a --dir argument.")
-    from reports.report_utils import upload_directory_to_notebooklm
     logger.info(f"Uploading directory to NotebookLM: {dir_path}")
     await upload_directory_to_notebooklm(dir_path)
     return
@@ -257,7 +326,7 @@ async def generate_report(market_data_dir: str,
     else:
       date_str = datetime.now().strftime("%m-%d")
 
-    project_name = "Market Pipeline: Daily Data (Temp)"
+    project_name = "Market Feed"
     report_filename = f"{date_str}_DAILY_REPORT.md"
     prompt = PROMPT_DAILY
   elif mode == 'weekly':
@@ -265,7 +334,7 @@ async def generate_report(market_data_dir: str,
       raise ValueError("Weekly mode requires start_date and end_date.")
     start_date = pd.to_datetime(start_date_str).tz_localize(None)
     end_date = pd.to_datetime(end_date_str).tz_localize(None)
-    project_name = "Market Pipeline: Historical Data (Temp)"
+    project_name = "Market Feed"
     report_filename = f"{end_date.strftime('%m-%d')}_WEEKLY_REPORT.md"
     prompt = PROMPT_WEEKLY.format(start_date=start_date_str,
                                   end_date=end_date_str)
@@ -274,7 +343,7 @@ async def generate_report(market_data_dir: str,
       raise ValueError("Monthly mode requires start_date and end_date.")
     start_date = pd.to_datetime(start_date_str).tz_localize(None)
     end_date = pd.to_datetime(end_date_str).tz_localize(None)
-    project_name = "Market Pipeline: Historical Data (Temp)"
+    project_name = "Market Feed"
     report_filename = f"{start_date.strftime('%Y-%m')}_MONTHLY_REPORT.md"
     prompt = PROMPT_MONTHLY.format(month_year=start_date.strftime('%B %Y'))
   elif mode == 'yearly':
@@ -282,7 +351,7 @@ async def generate_report(market_data_dir: str,
       raise ValueError("Yearly mode requires start_date and end_date.")
     start_date = pd.to_datetime(start_date_str).tz_localize(None)
     end_date = pd.to_datetime(end_date_str).tz_localize(None)
-    project_name = "Market Pipeline: Historical Data (Temp)"
+    project_name = "Market Feed"
     report_filename = f"{start_date.strftime('%Y')}_YEARLY_REPORT.md"
     prompt = PROMPT_YEARLY.format(year=start_date.strftime('%Y'))
   elif mode == 'portfolio':
@@ -315,132 +384,84 @@ async def generate_report(market_data_dir: str,
     async with MarketNewsClient(project_name=project_name) as db:
       await db.connect()
 
-      # Clear sources only for daily, weekly, monthly, yearly, and portfolio to ensure freshness
-      if mode in [
-          'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
-      ]:
+      # Clear sources only for one-off portfolio/earnings to ensure freshness
+      if mode in ['portfolio', 'earnings']:
         await db.clear_sources()
 
       # Gather TSVs
-      all_tsvs = glob.glob(os.path.join(market_data_dir, '**', 'news.tsv'),
-                           recursive=True)
-      weekly_news_dfs = []
-      unique_urls = set()
-
-      for tsv in all_tsvs:
-        try:
-          df = pd.read_csv(tsv, sep='\t')
-
-          if mode in ['daily', 'weekly', 'monthly', 'yearly'
-                     ] and 'Date' in df.columns:
-            # Filter logic for daily/weekly/monthly/yearly
-            df['ParsedDate'] = pd.to_datetime(df['Date'],
-                                              utc=True).dt.tz_localize(None)
-            if mode == 'daily':
-              # Basically everything in the TSV should be recent, but we can just use the unified digest logic
-              pass
-            elif mode in ['weekly', 'monthly', 'yearly']:
-              mask = (df['ParsedDate'] >= start_date) & (df['ParsedDate']
-                                                         <= end_date)
-              filtered = df.loc[mask]
-              if not filtered.empty:
-                weekly_news_dfs.append(filtered)
-
-          elif mode == 'feed_upload' and 'URL' in df.columns:
-            if 'Date' in df.columns:
-              df['ParsedDate'] = pd.to_datetime(df['Date'],
-                                                utc=True).dt.tz_localize(None)
-              df = df[df['ParsedDate'] > last_sync_date]
-
-            for url in df['URL'].dropna():
-              url_str = str(url).strip()
-              if url_str.startswith('http'):
-                unique_urls.add(url_str)
-        except Exception as e:
-          logger.warning(f"Error reading {tsv}: {e}")
-
-      text_blob = ""
       full_texts = []
 
       # Processing Logic
-      if mode == 'daily':
-        # Leverage existing report utils logic for the perfect daily aggregate
-        from reports.report_utils import build_daily_news_digest
-
-        target_date_obj = pd.to_datetime(start_date_str).tz_localize(
-            None) if start_date_str else None
-        text_blob, combined_df = build_daily_news_digest(
-            market_data_dir, target_date=target_date_obj)
-        if not text_blob or combined_df.empty:
-          logger.warning("No recent news found. Aborting.")
-          return
-
-        if 'Sentiment' in combined_df.columns:
-          top_df = combined_df.sort_values(by='Sentiment', ascending=False)
-        else:
-          top_df = combined_df
-
-        urls_to_fetch = []
-        if 'URL' in top_df.columns:
-          urls_to_fetch = [
-              str(row.get('URL', '')).strip()
-              for _, row in top_df.iterrows()
-              if str(row.get('URL', '')).strip().startswith('http')
-          ][:10]
-
-      elif mode in ['weekly', 'monthly', 'yearly']:
-        if not weekly_news_dfs:
-          logger.warning(f"No news found for this {mode} period.")
-          return
-        combined_df = pd.concat(
-            weekly_news_dfs,
-            ignore_index=True).drop_duplicates(subset=['Headline'])
-        if 'Sentiment' in combined_df.columns:
-          combined_df = combined_df.sort_values(by='Sentiment', ascending=False)
-
-        text_blob = f"{mode.upper()} DIGEST:\n\n"
-        for _, row in combined_df.iterrows():
-          text_blob += f"{row.get('Date')}: {row.get('Headline')} - {row.get('Summary', '')}\n"
-        urls_to_fetch = []
-        if 'URL' in combined_df.columns:
-          urls_to_fetch = [
-              str(u).strip()
-              for u in combined_df['URL'].dropna()
-              if str(u).strip().startswith('http')
-          ][:30 if mode == 'weekly' else 60]
-
-      elif mode == 'feed_upload':
-        urls_to_fetch = list(unique_urls)[:30]  # Batch limit
-
-      # Deep Fetch
-      logger.info(f"Scraping deep context for {len(urls_to_fetch)} URLs...")
-      for idx, url in enumerate(urls_to_fetch):
-        text = await MarketFetcher.fetch_article_text(
-            url, max_paragraphs=45 if mode != 'weekly' else 30)
-        if text and len(text) > 100:
-          if mode == 'feed_upload':
-            title = f"Data Feed - {url.split('/')[-1][:30]}"
-            await db.upload_news_text(text, title=title)
-          else:
-            full_texts.append(f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
-
-      # Final Prompting
-      if mode in [
-          'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
-      ] and prompt:
-
-        # Build and Upload Quantitative summary
-        if mode in ['portfolio', 'earnings'] and dir_path:
+      if mode in ['portfolio', 'earnings']:
+        if dir_path:
           # For portfolio mode, just upload the exact markdown tabular document we are targeting
           with open(dir_path, 'r') as f:
             await db.upload_news_text(
                 f.read(), title=f"Raw {mode.capitalize()} Data Tables")
-        else:
+      elif mode == 'feed_upload':
+        target_date_obj = pd.to_datetime(start_date_str).tz_localize(
+            None) if start_date_str else datetime.now()
+        feed_title = f"{target_date_obj.strftime('%Y-%m-%d')} Daily Market Feed"
+
+        # Deduplication check
+        if db.client and hasattr(db.client, 'sources'):
+          logger.info("Checking if '%s' is already in Market Feed...",
+                      feed_title)
+          existing_sources = await db.client.sources.list(db.notebook_id)
+          for src in existing_sources:
+            if getattr(src, 'title', '') == feed_title:
+              logger.info("Source '%s' already exists. Skipping.", feed_title)
+              return
+
+        from reports.report_utils import build_daily_news_digest
+        text_blob, combined_df = build_daily_news_digest(
+            market_data_dir, target_date=target_date_obj)
+
+        if not text_blob or combined_df.empty:
+          logger.warning(
+              f"No recent news found for {target_date_obj.strftime('%Y-%m-%d')}. Aborting."
+          )
+          return
+
+        urls_to_fetch = []
+        if 'URL' in combined_df.columns:
+          # Sort to get the most relevant
+          if 'Sentiment' in combined_df.columns:
+            top_df = combined_df.sort_values(by='Sentiment', ascending=False)
+          else:
+            top_df = combined_df
+
+          urls_to_fetch = [
+              str(row.get('URL', '')).strip()
+              for _, row in top_df.iterrows()
+              if str(row.get('URL', '')).strip().startswith('http')
+          ][:15]
+
+        # Deep Fetch
+        logger.info(f"Scraping deep context for {len(urls_to_fetch)} URLs...")
+        for idx, url in enumerate(urls_to_fetch):
+          text = await MarketFetcher.fetch_article_text(url, max_paragraphs=30)
+          if text and len(text) > 100:
+            full_texts.append(f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
+
+        final_market_feed_doc = f"# {feed_title}\n\n{text_blob}\n\n"
+        if full_texts:
+          final_market_feed_doc += "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
+              full_texts)
+        await db.upload_news_text(final_market_feed_doc, title=feed_title)
+        logger.info("✅ Uploaded single aggregated file: %s", feed_title)
+        return
+
+      # Final Prompting
+      if prompt:
+
+        # Build and Upload Quantitative summary for periodic reports
+        if mode in ['daily', 'weekly', 'monthly', 'yearly']:
           target_start = pd.to_datetime(start_date_str).tz_localize(
               None) if start_date_str else None
           target_end = pd.to_datetime(end_date_str).tz_localize(
               None) if end_date_str else None
-        if mode not in ['portfolio', 'earnings']:
+
           if mode == 'daily':
             # Set target_start to 7 days ago if daily to give weekly momentum
             target_end = target_end or pd.Timestamp.now().tz_localize(None)
@@ -448,18 +469,62 @@ async def generate_report(market_data_dir: str,
 
           quant_summary = build_price_analysis_blob(market_data_dir,
                                                     target_start, target_end)
-          if quant_summary:
-            await db.upload_news_text(
-                quant_summary, title=f"Quantitative Price Action Summary")
 
-        if mode not in ['portfolio', 'earnings']:
-          await db.upload_news_text(text_blob,
-                                    title=f"{mode.capitalize()} Digest")
-          if full_texts:
-            combined_deep_context = "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
-                full_texts)
-            await db.upload_news_text(combined_deep_context,
-                                      title="Combined Deep Context")
+          # Deduplicate Quantitative Summary
+          summary_title = "Quantitative Price Action Summary"
+          if db.client and hasattr(db.client, 'sources'):
+            logger.info(
+                f"Deduplicating old '{summary_title}' in project '{project_name}'..."
+            )
+            try:
+              sources = await db.client.sources.list(db.notebook_id)
+              for src in sources:
+                if getattr(src, 'title', '') == summary_title:
+                  logger.info("Deleting old summary (ID: %s)", src.id)
+                  await db.client.sources.delete(db.notebook_id, src.id)
+            except Exception as e:
+              logger.warning(f"Could not deduplicate old summaries: {e}")
+
+          if quant_summary:
+            await db.upload_news_text(quant_summary, title=summary_title)
+
+          # Inject recent historical reports to provide longitudinal context
+          historical_context = ""
+          logger.info(
+              "Scanning for recent historical reports to inject as context...")
+          reports_dir = os.path.dirname(os.path.abspath(__file__))
+          recent_reports = []
+          for report_file in os.listdir(reports_dir):
+            if report_file.endswith(
+                ".md") and report_file != "PORTFOLIO_REPORT.md":
+              # Only grab recent reports (last 7 days approx based on file mtime)
+              filepath = os.path.join(reports_dir, report_file)
+              if os.path.isfile(filepath):
+                mtime = os.path.getmtime(filepath)
+                if (datetime.now().timestamp() - mtime) < (7 * 86400):
+                  recent_reports.append((filepath, report_file))
+
+          # Deduplicate before uploading
+          if recent_reports:
+            history_title = "Historical Context: Recent Periodic Reports"
+            if db.client and hasattr(db.client, 'sources'):
+              logger.info(
+                  f"Deduplicating '{history_title}' in project '{project_name}'..."
+              )
+              try:
+                sources = await db.client.sources.list(db.notebook_id)
+                for src in sources:
+                  if getattr(src, 'title', '') == history_title:
+                    await db.client.sources.delete(db.notebook_id, src.id)
+              except Exception as e:
+                logger.warning(f"Could not deduplicate historical context: {e}")
+
+            for filepath, report_file in recent_reports:
+              with open(filepath, 'r') as f:
+                historical_context += f"\n\n--- Content from {report_file} ---\n\n{f.read()}"
+
+            if historical_context:
+              await db.upload_news_text(historical_context, title=history_title)
 
         logger.info(f"Requesting LLM Synthesis for {mode}...")
         report_content = await db.ask_question(prompt)
@@ -481,47 +546,24 @@ async def generate_report(market_data_dir: str,
                 f"{report_content}")
             f.write(new_content)
         else:
-          # Look for a fresh AI Thematic Summary
-          thematic_content = ""
-          ai_themes_path = os.path.join(
-              os.path.dirname(os.path.abspath(__file__)), "rendered",
-              "AI_THEMES.md")
-          if os.path.exists(ai_themes_path):
-            mtime = os.path.getmtime(ai_themes_path)
-            if (datetime.now().timestamp() - mtime) < 86400:  # Within 24h
-              with open(ai_themes_path, "r") as tf:
-                # Drop the auto-generated Title from the summary so we can embed it
-                theme_text = tf.read().replace("# AI Thematic Insight Report",
-                                               "## Top AI Thematic Insights")
-                thematic_content = f"{theme_text}\n\n---\n\n## Quantitative Portfolio & Market Action\n\n"
-                logger.info(
-                    "Successfully embedded AI_THEMES.md into the final report.")
-
+          # Write the generated report content directly
           with open(output_path, "w") as f:
             f.write(
                 f"# Market Intelligence Report\n*(Generated via NotebookLM Integration on {datetime.now().strftime('%Y-%m-%d')})*\n"
                 "> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n"
             )
-            if thematic_content:
-              f.write(thematic_content)
-
             f.write(report_content)
 
         # Automatically compile the Markdown into a PDF with embedded charts
         from reports.report_utils import render_markdown_to_pdf
         pdf_path = render_markdown_to_pdf(output_path)
 
-        # Upload the beautiful PDF to our primary database, not the raw markdown
-        logger.info(f"☁️ Uploading final PDF report to NotebookLM: {pdf_path}")
-        await db.upload_file(pdf_path)
-
         logger.info(f"✅ Saved MD report to {output_path}")
-        logger.info(f"✅ Rendered and Uploaded PDF report to {pdf_path}")
+        logger.info(f"✅ Rendered PDF report to {pdf_path}")
+        logger.info(f"✅ Ready for bulk upload later.")
 
-        # Clean up temporary generation projects
-        if mode in [
-            'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
-        ]:
+        # Clean up ONLY for portfolio and earnings (since they use temp projects)
+        if mode in ['portfolio', 'earnings']:
           logger.info(f"Wiping temporary NotebookLM project: {project_name}...")
           await db.delete_project()
 
@@ -539,9 +581,7 @@ async def generate_report(market_data_dir: str,
     logger.error(f"Failed to run via NotebookLM: {e}")
 
     # Try to safely clean up any stranded projects during a crash
-    if mode in [
-        'daily', 'weekly', 'monthly', 'yearly', 'portfolio', 'earnings'
-    ] and 'db' in locals():
+    if mode in ['portfolio', 'earnings'] and 'db' in locals():
       try:
         logger.info(
             f"Attempting to wipe crashed NotebookLM project: {project_name}...")

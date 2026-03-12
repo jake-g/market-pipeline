@@ -1,91 +1,65 @@
 # Market Intelligence Report
-*(Generated via NotebookLM Integration on 2026-03-10)*
+*(Generated via NotebookLM Integration on 2026-03-11)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
 ## Top AI Thematic Insights
-_Generated 2026-03-09_
 
-## Geopolitical Destabilization and the Iranian Conflict
+### Geopolitical Destabilization and Energy Shocks
+*   **Iranian Leadership Vacuum:** The death of Iranian Supreme Leader Ayatollah Ali Khamenei on February 28, 2026, served as a primary catalyst for global market volatility and the re-emergence of the "$100 oil thesis" [1, 2].
+*   **Maritime Security Crisis:** Iran began mining the Strait of Hormuz, forcing the U.S. to offer a $20 billion reinsurance program for shipping as tankers faced record-high costs [3, 4].
+*   **IEA Intervention Skepticism:** Despite a record 400-million-barrel oil release from the IEA, oil futures gained as investors doubted the intervention's efficacy against active shipping attacks [5, 6].
 
-The escalation of conflict involving Iran, Israel, and the United States serves as the primary catalyst for global market volatility and strategic realignment [1-3].
+### Tech Sector Momentum: The Infrastructure Pivot
+*   **Circular Deal Unraveling:** Institutional skepticism peaked regarding deals where tech giants fund AI startups that then purchase the giants' own hardware, notably with the collapse of the $100 billion OpenAI-Nvidia pact [2, 7].
+*   **Sovereign AI Initiatives:** Nations in Africa and India launched national "Sovereign AI" clouds to secure domestic data and reduce long-term reliance on foreign digital infrastructure [5, 8, 9].
+*   **Hardware Bottlenecks:** A severe memory chip shortage and rebounding metal prices began driving up costs for premium electric vehicles and AI infrastructure [10-12].
 
-- **Direct Conflict and Containment:** The United States and Israel are currently in the tenth day of an active war with Iran, with Iranian missiles being intercepted over Turkey and the UAE [1, 2].
-- **Strategic Resource Control:** Former President Trump has considered deploying special operations forces to seize Iranian uranium to prevent nuclear escalation [4]. Concurrently, the U.S. is negotiating with Venezuela and waiving oil sanctions to stabilize global supply [5, 6].
-- **U.S. Alliance Shifts:** Ukraine has sent drone experts to help protect U.S. bases in Jordan, while Canada has explicitly stated it will not participate in the Iran war [7, 8].
-- **Maritime Security Threats:** The closure or disruption of the Strait of Hormuz has forced the U.S. to offer a $20 billion reinsurance program for shipping, as tankers and bulkers hit record high costs due to geopolitical risk [9].
+### Macroeconomic Realignment and Capital Flight
+*   **16-Year High Domestic Outflows:** U.S. investors exited domestic stock markets at the fastest rate since 2010, withdrawing approximately $52 billion year-to-date due to fading Big Tech returns [2, 13].
+*   **Emerging Market Rotation:** Capital rotated heavily into Emerging Markets, which reached a five-year high in fund manager exposure and outperformed the S&P 500 [4, 13].
+*   **Stagflationary Risks:** While February CPI remained at 2.4%, energy-driven "war shocks" are expected to keep inflation elevated, complicating the Federal Reserve's rate trajectory [14, 15].
 
-## Energy Constraints and Global Inflationary Pressures
+## Quantitative Market Action & Specific Equities
 
-The conflict in the Middle East has triggered a severe energy shock, threatening global economic stability and forcing emergency domestic measures in several nations [3, 10, 11].
-
-- **Crude Oil Volatility:** Oil prices have surged to as high as $120 per barrel following the disruption of the Strait of Hormuz [10-12]. Although OPEC+ has agreed to gradually restore 1.65 million barrels per day (mmbbl/d) to the market, analysts suggest the duration of the Hormuz disruption is the more critical factor [12, 13].
-- **Domestic Energy Emergencies:** Pakistan has introduced a four-day work week and closed schools to manage an "energy emergency" [14]. Similarly, Taiwan has moved to cap oil-price rises to shield its economy [15].
-- **Inflationary Feed-through:** Surging oil prices have renewed inflation fears in the UK and Mexico, leading traders to bet on further interest rate hikes by the European Central Bank (ECB) [1, 11, 16].
-- **Strategic Reserve Depletion:** The U.S. is considering further sales from its strategic oil reserves to mitigate the price shock [11].
-
-## Tech Leaps: AI Infrastructure and Financial Tokenization
-
-Despite geopolitical turmoil, the technology sector is seeing massive capital inflows, particularly in artificial intelligence infrastructure and the on-chain migration of traditional finance [17-19].
-
-- **Hyperscaler Expansion:** London-based AI hyperscaler Nscale raised $2 billion at a $14.6 billion valuation to build out AI infrastructure [18]. Furthermore, hyperscalers are increasingly seeking off-grid power solutions to bypass traditional energy constraints [17].
-- **AI Agent Maturity:** Enterprise deployment of AI agents is accelerating, evidenced by Lyzr’s valuation jumping to $250 million [20].
-- **Tokenization of Capital Markets:** Nasdaq has partnered with Kraken to launch tokenized equities, with a target date of 2027, signaling a major shift toward stablecoins and blockchain as the "settlement rail" for Wall Street [19].
-- **Semiconductor Advancement:** Intel has released XeSS 3 to developers and listed its "Big Battlemage" ARC PRO 70 GPU, while Nexperia China has begun producing its own chips to navigate trade restrictions [21, 22].
-
-## Global Trade Realignment: Friendshoring and Economic Resilience
-
-Macro-economic strategy is shifting toward "Friendshoring" and "Nearshoring" as a response to supply chain vulnerabilities and the threat of increased tariffs [23-25].
-
-- **Supply Chain Regionalization:** Nearshoring is on the rise in the apparel and pharma sectors due to the Iran conflict, with Mexico and Morocco emerging as key hubs for North American and European markets respectively [23-25].
-- **Trade Protectionism:** Former President Trump is signaled to have more tariffs "up his sleeve," while the U.S. is currently reviewing wood tariffs on Canadian and Chinese imports [26].
-- **Resilience of the U.S. Dollar:** Despite ongoing "de-dollarization" narratives, the U.S. dollar has surged as a "safe haven" currency as the Middle East conflict intensifies [27].
-- **North American Integration:** Canada and Mexico are scheduled to begin bilateral talks regarding the USMCA in May 2026 to coordinate strategies in a post-Trump trade environment [7, 25].
-
----
-
-## Quantitative Portfolio & Market Action
-
-### Weekly Macroeconomic Synthesis Report: Feb 22 – Feb 28, 2026
-
-#### **I. Performance Analysis: Top Winners & Losers**
-
-| Ticker | Price Change | Institutional Context & Qualitative Drivers |
+### Top Winners
+| Ticker | Performance | News Catalyst Explaining the Move |
 | :--- | :--- | :--- |
-| **DELL** | **+24.29%** | **AI Infrastructure Pivot:** Performance driven by a market shift toward "high-quality infrastructure players" [1]. Massive backlog in data center power/thermal management (exemplified by industry peer Vertiv) signals sustained hardware demand for AI-ready capacity [1]. |
-| **IBM** | **+7.55%** | **Selective AI Phase:** Investors are migrating from high-valuation AI software to established players with "sustainable competitive advantages" and cash-rich balance sheets [1, 2]. |
-| **NVDA** | **-7.50%** | **Insider Exodus:** Magnificient Seven insiders (including NVDA) net-sold **$8.41 billion** in shares over the trailing year [2]. Zero insider buying recorded for NVDA specifically, signaling a "red flag" regarding historically expensive valuations [1, 2]. |
-| **AAPL** | **N/A*** | **Mixed Fundamentals:** Record Q1 revenue of **$119.6B** (+15.7%) and 23% iPhone growth [3]. However, delayed AI ("Siri") rollouts until late 2026 and a high **33.4 P/E** restrain momentum [3]. |
+| **AXON** | **+28.09%** | Significant institutional inflows and a Morgan Stanley upgrade citing strength in securing AI-driven work hubs [16-18]. |
+| **IONQ** | **+24.66%** | Market enthusiasm regarding its partnership with the University of Cambridge and cost/performance advantages in quantum computing [18, 19]. |
+| **DELL** | **+24.29%** | Expansion into AI-driven customer experience transformation and strong business laptop demand during sales events [18, 20]. |
+| **APP** | **+14.23%** | Continued momentum in AI-enhanced software applications despite broader technology sector volatility [18, 21]. |
+| **MARA** | **+13.45%** | Leveraged beta-play on Bitcoin as institutional adoption narratives strengthened despite macro headwinds [18, 22]. |
+| **CEG** | **+12.28%** | Massive nuclear energy revival as hyperscalers move to secure clean baseload power for AI data centers [18, 23]. |
+| **STNG** | **+10.14%** | Rising tanker rates and strategic vessel sales as the Hormuz blockade upended global logistics [18, 23, 24]. |
 
-*\*AAPL was not a top 15 winner/loser but represents a core market driver in the qualitative data.*
-
----
-
-#### **II. Broad Market Narrative & Macro Events**
-*   **The "Magnificent Seven" Warning:** Collective insider selling of **$8.4B** suggests a potential market peak or valuation correction [2]. Outside of a $1B buy by Elon Musk (Tesla), insider buying is nearly nonexistent across the cohort [2].
-*   **Infrastructure Super-cycle:** The "AI revolution" is transitioning from speculative software to physical capacity [1]. Key metrics: Vertiv (VRT) reported a **2.9x book-to-bill ratio** and a **$15B backlog**, indicating long-term commitment to data center expansion [1].
-*   **Selective Growth:** Investors are penalizing "lofty valuations" and rewarding companies with "pricing power" and "operating leverage" (e.g., Apple's 18.3% EPS growth) [1, 3].
-
----
-
-#### **III. Tech Sector Momentum**
-*   **Networking & Cloud:** Arista Networks (ANET) raised its annual growth projection to **25%**, with AI revenue reaching **$3.25B** (30% of total) [4].
-*   **Autonomous Mobility:** Uber (UBER) and Baidu launched the "Apollo Go" autonomous service in Dubai, aiming for **25% autonomous transport by 2030** [5].
-*   **Hardware Dominance:** Despite AI delays, Apple’s iPhone 17 family reached "all-time records across every geographic segment" [3].
-
----
-
-#### **IV. Energy, Defense, & Geopolitical Risks**
-*   **Aerospace Resilience:** Boeing (BA) secured an order for **15 787 Dreamliners** from Air Astana (Kazakhstan) [6]. Q4 revenue of **$23.9B** beat forecasts by **$1.6B**, primarily supported by its **Defense, Space & Security (BDS)** division [6].
-*   **Clean Energy Contraction:** Massive weekly declines in **First Solar (FSLR -18.56%)** and **Enphase (ENPH -10.82%)** suggest a rotation out of renewables amidst the broader shift toward AI infrastructure and traditional defense [7, 8].
-
----
+### Top Losers
+| Ticker | Performance | News Catalyst Explaining the Move |
+| :--- | :--- | :--- |
+| **FSLR** | **-18.56%** | Severe sector-wide rotation out of solar assets triggered by capital discipline concerns [25, 26]. |
+| **ENPH** | **-10.82%** | Negative price action followed a surprise monthly decline in electricity prices in the February CPI report [26, 27]. |
+| **LUNR** | **-9.15%** | Share price collapsed following the announcement of a $175 million dilution deal to raise capital [26, 28]. |
+| **KTOS** | **-8.62%** | Broad rotation out of aerospace and defense names despite positive industry fundamentals [26, 29]. |
+| **NVDA** | **-7.50%** | Sentiment hit by the termination of the $100 billion OpenAI deal and unravelling "circular deal" narratives [7, 26, 30]. |
+| **ASTS** | **-5.61%** | Dilution concerns and fear regarding competitive pressure from rival SpaceX [25, 26, 31]. |
+| **^VIX** | **-5.47%** | Volatility eased slightly mid-week as markets adjusted to new geopolitical benchmarks [26, 32]. |
 
 ## References
-1. **Source [2]:** "Magnificent Seven's $8.4 Billion Warning," The Motley Fool. [URL: Not provided in source text].
-2. **Source [1]:** "Vertiv Holdings: Smarter AI Bet / Barchart Disclosure Policy," Barchart. [URL: Not provided in source text].
-3. **Source [3]:** "Apple Q1 2026 Earnings: iPhone Records vs. AI Delays," The Motley Fool. [URL: Not provided in source text].
-4. **Source [4]:** "Arista Networks (ANET) Price Target Revision," Piper Sandler via Insider Monkey. [URL: Not provided in source text].
-5. **Source [5]:** "Uber Technologies (UBER) Autonomous Ride-Hailing Expansion," BTIG/Citi via Insider Monkey. [URL: Not provided in source text].
-6. **Source [6]:** "Boeing (BA) Q4 Earnings and Air Astana Order," Bank of America Securities/Bernstein via Insider Monkey. [URL: Not provided in source text].
-7. **Source [7]:** "Quantitative Price Action Summary: Top Winners," Feb 22-28, 2026. [Internal Data].
-8. **Source [8]:** "Quantitative Price Action Summary: Top Losers," Feb 22-28, 2026. [Internal Data].
+1. [13] Global ETFs Worth Watching as Investors Rethink U.S. Tech Bets - Yahoo Finance. https://finance.yahoo.com/news/global-etfs-worth-watching-investors-164300812.html
+2. [30] The $100 Billion OpenAI-Nvidia Deal Is Not Happening - Gizmodo. https://news.google.com/rss/articles/CBMiigFBVV95cUxNbEtoeGNGellOaTRNal8zbXVSYXlUSnhMYmdMM244dUlkYnJaOVo5dEpEWTl3ZXFGLUpWZng1RlVVd1dVN1FHSkZXVUtrNUNpN1d4dkxwdFJDVGdWRG4xV0h2QjZzSm5fNE90THhqWWR6SmExb3NVS1RSaDRnQ3NZRTVUMDd2S2xPcmc?oc=5
+3. [7] The Web Of AI Circular Deals Begins To Unravel (NYSEARCA:SPY) - Seeking Alpha. https://news.google.com/rss/articles/CBMikAFBVV95cUxObXlvVXB2NWFtZm1QbmF2bjFQV2ZDWUhLQjNNN0tXdjBWcU9CWWd3eG9BRWhONXJMZndYRm9sNHZKYmw0WlN0X0NhcmtTQ0pOYWZZN2MtMWJxRjJMZ2UxSFJUa0RSaV9WSkp2X2tjSHNydzlUSFNjOUhzaThvSXFxTnoyRjVqSzQtMkY2MUhHZmo?oc=5
+4. [1] The $100 Oil Trade Is Back, and These 3 ETFs Make It Easy to Profit - 24/7 Wall St. https://247wallst.com/investing/2026/03/05/the-100-oil-thesis-is-back-and-these-3-etfs-make-it-easy-to-profit/?.tsrc=rss
+5. [28] LUNR Stock Falls 16% As $175M Dilution Deal Weighs On Shares - Stocktwits. https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS1JieGVnOTRNUXA3dE5ZaDE1SkJIM2lsWFhmM0FlZXZybVZUYmtDZTdUT3AyOUV4NDJhXzFUTm85bFU3OUlNRFM3UUtBSHh5OGt0TUlfbHZIQXBSd2hRWWdvR1dla19xZUNQWEE0c2dsZjB2QXpJRUlzSXZyNVhVNU43UDN0VmFmTWNBX3V3UWJpQ3NtX0RtSjBuOWwtY3BDWDVRbTFySmlvRXlmc0ZlNXdHOUdEZUtvR1VnS1N3ZkRoREhCU3hUUVVZcWZlQndYYnZhNndEbmhBTEVlYk9KN29SYUh6WFMyZ2FUZ01QUkdrdw?oc=5
+6. [24] Scorpio Tankers Inc. (STNG): Strategic Tanker Sales and Solid Cash Flow Highlight Growth Potential - Yahoo Finance. https://finance.yahoo.com/news/scorpio-tankers-inc-stng-strategic-110945145.html
+7. [16] Sands Capital Management LLC Has $1.04 Billion Stock Position in Axon Enterprise, Inc. - MarketBeat. https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOEdIRGwzUkZiQ1NBR1J6NWxfVzk4ZmRXWnR2VzhvVlQ3ZVFhRGJFZ0VHUjRwbW44QmNqVE1IalE5RnB4MnZQbVJ1YXV2cV9vNTh1NnRGMFM4VXZHd1Yzd2JEbkhtRl90ZV9hWUtaWFNYZ3J5b0RoRzFxTnRzRGpXcG5oNzBvdVFyaDU4NWZQckpzRHYxQm44NW9QRThMYzhCbG1sQzlzbU5HZHVmUzlFOGcxS3NvYTBsZ1NvUjRzSWNXdEx0MUQxSDVsa2FpNTR5aURQNHhiSzZ3a094SE1CS0lR?oc=5
+8. [20] ISG Xperience Summit to Explore AI-Driven Customer Experience Transformation - Yahoo Finance. https://finance.yahoo.com/news/isg-xperience-summit-explore-ai-140000579.html
+9. [17] CrowdStrike’s Win Streak Continues. Why Morgan Stanley Says to Buy the Stock - Yahoo Finance. https://finance.yahoo.com/m/bdca3500-57c8-3541-947a-4341efa43bbe/crowdstrike%E2%80%99s-win-streak.html
+10. [19] Prediction: IonQ Will Be the First Quantum Stock to Prove the Bears Wrong - The Motley Fool. https://www.fool.com/investing/2026/03/11/prediction-ionq-will-be-the-first-quantum-stock-to/
+11. [31] SpaceX fearful of AST SpaceMobile’s potential? - Advanced Television. https://news.google.com/rss/articles/CBMilwFBVV95cUxQT1YxODdqb3NOaHV4aXVYdXF5cWtyWkZDVTFtQWF1cFJieGpFaUlLNFZDZXR3eWF4cmo0QlB5S1ZHczU1Mk1IUm0wdjdTeHhxQ1p0eklNSU1uVTVpdE8zRzlUam9qRWZYaEVWTTNlREYzNTdLTUUtN2FkQWljOE9FZDh5eHA2dVJvS3JXMFBPWDUwSEJzQmZF?oc=5
+12. [10] Nio sees EV costs rising on memory chip shortage and metal price rebound - CnEVPost. https://news.google.com/rss/articles/CBMinwFBVV95cUxOSnZaTUtqQ09peWV3TmlsUDhRS0h6b0M5WkpGbkVtemZJLUdobFlWRHZSVmd0UE5EZEhpR0pNbXVoYkFLQ3hCd3VsUm96Mng0Nk1FWmJFOUpqaG1fMlN5cTFBdTJWNkFwLWdzQVBMNEZ4TWtxZFBSSm9vNVJCMkdlUl82SmFnNVpLT3EyTG9GQVR3Ny1vY2pmdXdROEZ6VXM?oc=5
+13. [8] Cassava Technologies Launches National Sovereign Cloud To Power Africa’s AI - Africa.com. https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdUJuR3dBMURDRW1aNHlmREk4SDVXMm8tM1hwNjlwMFlIeV8tRlVKUlFxYmFURkFXMUZDaFJYVmxxMk5uUFlXTGpKZUFIb1MyN1B5SlhSNmw4UjFVWXNNajNLdEY2MjN5S00tTVhtbnk4Uk9YeVB1bWpGSVp4VERNTkhBNldCbXhPaW1hdE0tM19URW1aai1sNk9pQzNxQ0Z4TFJlb04wNHQwS0wxUC05SW93YU5mbUx5?oc=5
+14. [9] Why sovereign AI for India is a strategic hedge against a ‘compute divide’ - The Indian Express. https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVG9UdnU4YXBZWmpiYjhIcUhJTzhQbXdxNGk4WGtNeEpoU3lXVDljUk43VXV4b0dhWEg3NTJ6eVJTblNRQmdrYUI1TzJkcG5YVzNmWkwyWlA3N29wWDc0NGxDUGIzcl9VRzI0T0k4ZVg1VHliZW0yQ1lKNC1lS0dqSnhLV3NQTW9fN0N4bzNqdDdKUm5wclBrZ2Y4REpvR0pES2s2NjNyZkZNMDFiYzUyd1hNSWMxQkN5UWNqYmhtWFNGdnpZMG5kcnY4TFZnd1JlcUdERXJVbUtjTjYzM2RWeTlPUTNPQ2FB0gHvAUFVX3lxTE1fWnJYM0JEWGJIM0lXOWR2T2theXBkU0FIWmFCY0ZHOXk3QXd2bGFYR3BSZlRnOGNKSzh2dTdhTERyNXdBN1BVdXJSZXRpLVZIVXg2Nkk0dGRlTmdYMXN4SVVwbmo3eXl0NXNSRlhxWnBqd29vYmdaRWYxdDNZa25lN2ZWTWJsZGppOG91WUN6SWRmTlVGVy1May1hUGNMYUdxTlNVVlNYdVIwOG1VTmlKMUI2RG5xcnJVTlZacklJTjNacGU4Ti0xb3Q4Z195anhDZw?oc=5
+15. [32] Best drone deal: Save $500 on DJI Mini 5 Pro Fly More Combo - Mashable. https://news.google.com/rss/articles/CBMia0FVX3lxTE9wRTB6QVpHTHRfRnlGSGgzUkIybFBFaVNRUVloVmhRcHpnVFUwNmhYaUthYXQ2UnJ0NlZsSElTd1VJRkM4MDdwc0JSR3pGWnVCOFFHakJXYXlvaWlZRXFLZ1F6UjB6ck1uTHE4?oc=5
+16. [22] Bitcoin To $1.3 Million? Coinbase CEO Brian Armstrong Urges: 'Own A Crypto Wallet' - Yahoo Finance. https://finance.yahoo.com/news/bitcoin-1-3-million-coinbase-173108332.html
+17. [2] February 2026 Monthly Synthesis Report - Historical Context.
+18. [18] Quantitative Price Action Summary - Top Winners.
+19. [26] Quantitative Price Action Summary - Top Losers.

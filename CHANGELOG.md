@@ -8,8 +8,9 @@
 ## [v1.5.0] - 2026-03-10
 ### Agentic NotebookLM Integration
 - **Unified Pipeline (`notebooklm_report.py`)**: Centralized CLI for generating daily, weekly, monthly, and yearly insights via Google NotebookLM, with segregated ingestion targets ("Market Reports" and "Market Feed").
+- **Smart Deduplication & Historical Context**: Overhauled the `report_upload` and `feed_upload` sync engines to explicitly deduplicate overlapping PDFs and TSVs in-place before uploading. The synthesis engine now automatically scans local directories for recent historical reports and injects them back into the LLM context to ensure longitudinal memory.
 - **AI Summarization & RAG**: Built dynamic engine to stream topic-specific news into a temporary LLM context, outputting a holistic `AI_THEMES.md` analysis. This thematic overview and custom tactical AI RAG overlays are now natively injected into daily/weekly Markdown reports and portfolio preambles.
-- **PDF Rendering & Formatting**: Built a fully Python-native `weasyprint` rendering engine into `report_utils.py` to embed local charts into PDFs before upload. Hardened all prompts with strict formatting instructions (bulleted points, chronical timelines, explicit `## References`).
+- **PDF Rendering & Formatting**: Built a fully Python-native `weasyprint` rendering engine into `report_utils.py` to embed local charts into PDFs before upload. Hardened all prompts with strict formatting instructions (Markdown Tables, bulleted points, chronical timelines, explicit `## References`).
 - **API Notice**: Google updated backend APIs (March 10), breaking the `notebooklm-py` automated PDF upload RPC. Text/Markdown generation (`feed_upload`) remains fully functional.
 
 ### Advanced Tactical Reporting

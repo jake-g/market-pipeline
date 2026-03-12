@@ -107,17 +107,11 @@ We orchestrate `notebooklm-py` to automatically upload market news and generated
    ```
    *(Complete Google login, wait for NotebookLM to load, then press ENTER in the terminal).*
 
-> [!WARNING]
-> **API Breakage Notice (March 10, 2026)**
-> An undocumented API change broke automated PDF uploading (`--mode report_upload`) in `notebooklm-py`. Text/Markdown syncing (`feed_upload`) remains functional.
-
 **Features:**
-*   **AI Summarization (`reports/generate_periodic_reports.py`)**: Streams sector news to a temporary project to output an `AI_THEMES.md` analysis tracking macro shifts, auto-deleted at maturity.
-*   **Daily Synthesis (`reports/notebooklm_report.py --mode daily`)**: Hooked into `run_fetch.sh`. Uploads daily news, prepends `AI_THEMES.md`, generates a market intelligence report, and saves to `reports/MM-DD_DAILY_REPORT.md`.
-*   **Report Synthesis (`--mode [daily/weekly/monthly/yearly]`)**: Synthesizes events into a detailed Markdown report. Compiled to `.pdf` (to embed plots) and stored in NotebookLM.
-*   **Raw Data Feed (`--mode feed_upload`)**: Deep-fetches local TSV news URLs straight to NotebookLM without generating a formal report.
+*   **Daily Market Feed Aggregation (`reports/notebooklm_report.py --mode feed_upload`)**: Hooked into `run_fetch.sh`. Idempotently aggregates the top news URLs and prices into a daily plain-text sync inside the "Market Feed" project, serving as the persistent memory bank.
+*   **Report Synthesis (`--mode [daily/weekly/monthly/yearly]`)**: Synthesizes the raw data inside the Market Feed project into highly actionable, table-driven Markdown reports. The engine automatically injects recent historical reports into the prompt context to ensure longitudinal awareness across timeframes.
+*   **Batch Render (`--mode report_upload`)**: Smart-syncs all finalized PDFs from `reports/rendered/` to the "Market Reports" project, actively deduplicating overlapping files to keep the cloud workspace pristine.
 *   **Portfolio Enhancements**: RAG overlay automatically synthesizes a tactical preamble for new active portfolios before rendering the final PDF.
-*   **Batch Render (`--mode report_upload`)**: Uploads existing PDFs from `reports/rendered/` to NotebookLM.
 *   **Historical Reports**: Batch generate history of intelligence reports.
     ```bash
     ./reports/generate_historical_reports.sh

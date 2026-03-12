@@ -29,8 +29,8 @@ python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 echo "📈 Running Portfolio Pipeline..."
 ./portfolios/run_portfolio_pipeline.sh
 
-# Generate LLM Daily News Report
-echo "🗄️ Syncing local Market News to NotebookLM Archive (Market Feed)..."
+# NotebookLM Summarization Tasks
+echo "🗄️ Syncing Daily Aggregate News to NotebookLM Archive (Market Feed)..."
 python3 reports/notebooklm_report.py --mode feed_upload 2>&1 | tee logs/sync_notebooklm_archive.log
 
 echo "🗂️ Generating Periodic Reports (Daily + Missing Weekly/Monthly)..."
@@ -64,4 +64,5 @@ echo "⏱️ Total Time: ${total_time}s"
 
 echo "💾 Committing newly generated market data..."
 git add market_data/
+git add reports/*LY_REPORT.md
 git commit -m "Auto-update market data: $(date)" || echo "No new market data to commit."

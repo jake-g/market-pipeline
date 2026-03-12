@@ -279,16 +279,6 @@ def main():
   print(f"\n📄 Exporting PDF to {pdf_out}...")
   render_markdown_to_pdf(md_path, pdf_out)
 
-  # 8. Auto-upload to NotebookLM
-  print(f"\n☁️  Uploading PDF to NotebookLM 'Market Reports'...")
-
-  async def upload_pdf():
-    async with MarketNewsClient(project_name="Market Reports") as db:
-      await db.connect()
-      await db.upload_file(pdf_out)
-
-  asyncio.run(upload_pdf())
-
   print("=" * 60)
   print(f"✅ Success! Report generated at: {md_path}")
   print(f"✅ Auto-rendered PDF at: {pdf_out}")

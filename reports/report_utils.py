@@ -25,7 +25,6 @@ if PROJECT_ROOT not in sys.path:
 
 import config
 from market_fetcher import MarketFetcher
-from notebooklm_client import MarketNewsClient
 
 logger = logging.getLogger(__name__)
 
@@ -1637,46 +1636,6 @@ def build_standard_portfolio_report(script_dir: str,
     except Exception as e:
       logger.error(
           f"Failed to generate AI tactical overlay for {script_dir}: {e}")
-
-  import asyncio
-
-  if os.environ.get("DISABLE_NOTEBOOKLM_UPLOAD", "0") != "1":
-    logger.info(f"Auto-archiving report to NotebookLM: {script_dir}")
-    try:
-      asyncio.run(upload_directory_to_notebooklm(script_dir))
-    except Exception as e:
-      logger.error(f"Failed to auto-archive report to NotebookLM: {e}")
-      if "login" in str(e).lower() or "authentication" in str(e).lower():
-        logger.error(
-            "Please run `notebooklm login` from your terminal to authenticate.")
-
-
-# ==========================================
-# NOTEBOOKLM INTEGRATION
-# ==========================================
-
-
-async def upload_directory_to_notebooklm(dir_path: str,
-                                         project_name: str = "Market Reports"):
-  """
-    Uploads all relevant files from a generated report directory to NotebookLM.
-    This creates an automated archive we can chat with later.
-    """
-  if not os.path.exists(dir_path):
-    logger.error("Directory not found: %s", dir_path)
-    return
-
-  logger.info("Connecting to NotebookLM '%s' project...", project_name)
-  async with MarketNewsClient(project_name=project_name) as db:
-    await db.connect()
-
-    # Recursively find and upload all PDF and MD files in the directory
-    for root, _, files in os.walk(dir_path):
-      for file in files:
-        if file.endswith('.pdf') or file.endswith('.md'):
-          file_path = os.path.join(root, file)
-          await db.upload_file(file_path)
-          logger.info("Successfully uploaded %s", file_path)
 
 
 def build_daily_news_digest(

@@ -14,6 +14,7 @@ import pandas as pd
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
 from notebooklm_client import MarketNewsClient
+from reports.notebooklm_report import generate_report
 from reports.report_utils import get_recent_news
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
@@ -43,17 +44,15 @@ def generate_monthly_reports(start_year: int = 2026):
     filename = f"{current.strftime('%Y-%m')}_MONTHLY_REPORT.md"
     if is_report_missing(filename):
       logger.info(f"Missing Monthly Report found: {filename}")
-      # Pre-generate the context-aware thematic summary
-      generate_thematic_summary(end_date=last_day_of_month)
 
-      cmd = [
-          "python3", "reports/notebooklm_report.py", "--mode", "monthly",
-          "--start",
-          current.strftime("%Y-%m-%d"), "--end",
-          last_day_of_month.strftime("%Y-%m-%d")
-      ]
-      logger.info(f"Executing: {' '.join(cmd)}")
-      subprocess.run(cmd, check=True)
+      logger.info(
+          f"Executing native python call for monthly: {current.strftime('%Y-%m-%d')} to {last_day_of_month.strftime('%Y-%m-%d')}"
+      )
+      asyncio.run(
+          generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                          mode="monthly",
+                          start_date_str=current.strftime("%Y-%m-%d"),
+                          end_date_str=last_day_of_month.strftime("%Y-%m-%d")))
     else:
       logger.debug(f"Monthly report present: {filename}")
 
@@ -85,16 +84,15 @@ def generate_weekly_reports(start_year: int = 2026, start_month: int = 3):
     filename = f"{week_end.strftime('%m-%d')}_WEEKLY_REPORT.md"
     if is_report_missing(filename):
       logger.info(f"Missing Weekly Report found: {filename}")
-      # Pre-generate context-aware thematic summary
-      generate_thematic_summary(end_date=week_end)
 
-      cmd = [
-          "--start",
-          current_date.strftime("%Y-%m-%d"), "--end",
-          week_end.strftime("%Y-%m-%d")
-      ]
-      logger.info(f"Executing: {' '.join(cmd)}")
-      subprocess.run(cmd, check=True)
+      logger.info(
+          f"Executing native python call for weekly: {current_date.strftime('%Y-%m-%d')} to {week_end.strftime('%Y-%m-%d')}"
+      )
+      asyncio.run(
+          generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                          mode="weekly",
+                          start_date_str=current_date.strftime("%Y-%m-%d"),
+                          end_date_str=week_end.strftime("%Y-%m-%d")))
     else:
       logger.debug(f"Weekly report present: {filename}")
 
@@ -104,103 +102,10 @@ def generate_weekly_reports(start_year: int = 2026, start_month: int = 3):
 def generate_daily_report():
   """Generates the standard daily report for the current day."""
   logger.info("Generating Daily Report...")
-  generate_thematic_summary(end_date=datetime.date.today())
 
-  cmd = ["python3", "reports/notebooklm_report.py", "--mode", "daily"]
-  logger.info(f"Executing: {' '.join(cmd)}")
-  subprocess.run(cmd, check=True)
-
-
-async def async_generate_thematic_summary(output_dir: str,
-                                          end_date: Optional[
-                                              datetime.date] = None):
-  """
-  Collects recent news from all config topics, pushes them to a temporary NotebookLM project,
-  asks for a structured thematic summary, and saves the output to a markdown file.
-  """
-  logger.info(
-      f"Gathering news for thematic AI summary (bounded to {end_date or 'latest'})..."
-  )
-
-  # 1. Gather all news content by Topic
-  topic_news_streams = {}
-  for topic in config.NEWS_TOPICS:
-    target_dt = pd.to_datetime(end_date).tz_localize(None) if end_date else None
-    df = get_recent_news(topic,
-                         config.MARKET_DATA_DIR,
-                         limit=5,
-                         end_date=target_dt)
-    if not df.empty:
-      text_dump = ""
-      for _, row in df.iterrows():
-        text_dump += f"HEADLINE: {row['Headline']}\nSUMMARY: {row.get('Summary', '')}\nDEEP TEXT: {row.get('Article_Text', '')}\n\n"
-
-      if text_dump.strip():
-        topic_news_streams[f"Topic: {topic}"] = text_dump
-
-  if not topic_news_streams:
-    logger.warning("No recent topical news found. Skipping thematic summary.")
-    return None
-
-  # 2. Upload to temporary NotebookLM project
-  project_name = "TEMP: Topic Thematic Summarizer"
-  logger.info(f"Connecting to NotebookLM [{project_name}]...")
-
-  try:
-    async with MarketNewsClient(project_name=project_name) as db:
-      await db.connect()
-      await db.clear_sources()  # Ensure clean slate
-
-      # Combine all topics into a single upload to save API calls
-      combined_text = ""
-      for title, content in topic_news_streams.items():
-        if content.strip():
-          combined_text += f"====== {title} ======\n{content}\n"
-
-      if combined_text:
-        logger.info("Uploading combined topical news stream to NotebookLM...")
-        await db.upload_news_text(text_content=combined_text,
-                                  title="Aggregated Topical News")
-
-      # 3. Generate Summary
-      prompt = (
-          "You are an expert macro-economic analyst and tech strategist. Review the provided topical news streams. "
-          "Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in the data. "
-          "Highlight geopolitical shifts, tech leaps, and energy constraints. "
-          "Format strictly as clean markdown. Use ## headers for major themes and - bullet points for supporting evidence."
-      )
-
-      logger.info("Requesting thematic summary...")
-      markdown_summary = await db.summarize_sources(custom_prompt=prompt)
-
-      # Clean up the temporary project so it doesn't clutter the NotebookLM interface
-      logger.info("Wiping temporary thematic NotebookLM project...")
-      await db.delete_project()
-
-      # 4. Save to disk
-      if markdown_summary:
-        os.makedirs(output_dir, exist_ok=True)
-        output_path = os.path.join(output_dir, "AI_THEMES.md")
-        # Prepend a header
-        final_content = f"# AI Thematic Insight Report\n_Generated {datetime.datetime.now().strftime('%Y-%m-%d')}_\n\n{markdown_summary}"
-
-        with open(output_path, "w") as f:
-          f.write(final_content)
-
-        logger.info(f"Thematic summary saved to {output_path}")
-        return output_path
-
-      logger.error("Failed to generate thematic summary from NotebookLM.")
-
-  except Exception as e:
-    logger.error(f"Error generating thematic summary: {e}")
-    return None
-
-
-def generate_thematic_summary(end_date: Optional[datetime.date] = None):
-  """Generates the holistic AI thematic summary encompassing all topics."""
-  output_directory = os.path.join(REPORTS_DIR)
-  asyncio.run(async_generate_thematic_summary(output_directory, end_date))
+  logger.info("Executing native python call for daily report")
+  asyncio.run(
+      generate_report(market_data_dir=config.MARKET_DATA_DIR, mode="daily"))
 
 
 def main():

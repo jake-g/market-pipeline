@@ -9,6 +9,9 @@ cd "$DIR/../" # Move to project root
 LOG_DIR="logs"
 mkdir -p "$LOG_DIR"
 
+# Ensure Environment is securely configured
+source ./run_env_setup.sh
+
 echo "Running Unit Tests"
 python3 -m unittest portfolios.test_portfolio_pipeline
 

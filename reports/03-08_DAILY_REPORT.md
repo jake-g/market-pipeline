@@ -1,91 +1,90 @@
 # Market Intelligence Report
-*(Generated via NotebookLM Integration on 2026-03-10)*
+*(Generated via NotebookLM Integration on 2026-03-11)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
 ## Top AI Thematic Insights
-_Generated 2026-03-09_
 
-## Geopolitical Destabilization and the Iranian Conflict
+### Geopolitical Destabilization and Energy Shocks
+*   **Hormuz Blockade:** The closure and mining of the Strait of Hormuz by Iran have crippled global shipping and energy routes, with warnings that a reopening could take months [1-3].
+*   **Iranian Leadership Vacuum:** Market volatility remains elevated following the February 28 death of Supreme Leader Khamenei, reigniting the "$100 oil thesis" as crude benchmarks approach $90/bbl [4-6].
+*   **Strategic Reserve Efficacy:** Despite a record 400-million-barrel oil release from the IEA, futures gained as investors doubt the intervention's long-term protection against maritime attacks [6-8].
 
-The escalation of conflict involving Iran, Israel, and the United States serves as the primary catalyst for global market volatility and strategic realignment [1-3].
+### Tech Sector Realignment: Sovereign AI and Hardware Constraints
+*   **The "Sovereign AI" Pivot:** Nations in India and Africa are launching national AI initiatives and localized data center infrastructure to secure domestic data and bridge the "compute divide" [9-11].
+*   **Memory Chip Crisis:** A severe shortage of memory chips is driving up costs across electronics and premium EVs, with DRAM prices jumping 80% to 90% in Q1 2026 [12-14].
+*   **Circular Deal Skepticism:** Growing institutional doubt surrounds tech giants funding AI startups that purchase the giants' own hardware; notably, the rumored $100 billion OpenAI-Nvidia pact is reportedly defunct [15-17].
 
-- **Direct Conflict and Containment:** The United States and Israel are currently in the tenth day of an active war with Iran, with Iranian missiles being intercepted over Turkey and the UAE [1, 2].
-- **Strategic Resource Control:** Former President Trump has considered deploying special operations forces to seize Iranian uranium to prevent nuclear escalation [4]. Concurrently, the U.S. is negotiating with Venezuela and waiving oil sanctions to stabilize global supply [5, 6].
-- **U.S. Alliance Shifts:** Ukraine has sent drone experts to help protect U.S. bases in Jordan, while Canada has explicitly stated it will not participate in the Iran war [7, 8].
-- **Maritime Security Threats:** The closure or disruption of the Strait of Hormuz has forced the U.S. to offer a $20 billion reinsurance program for shipping, as tankers and bulkers hit record high costs due to geopolitical risk [9].
+### Energy Constraints and Grid Modernization
+*   **Nuclear Baseload Revival:** Nuclear energy is being repositioned as the essential clean baseload for AI data centers, evidenced by the EU's €200 million investment in Small Modular Reactors (SMRs) [18-20].
+*   **Grid Capex Surge:** Utilities have committed massive capital to grid modernization to support surging data center power loads, including an $8 billion plan by PPL through 2029 [20-22].
+*   **Industrial Backlogs:** GE Vernova management expects its order backlog to exceed $200 billion by 2028, driven by international grid and wind projects [20, 23].
 
-## Energy Constraints and Global Inflationary Pressures
+## Quantitative Market Action & Specific Equities
 
-The conflict in the Middle East has triggered a severe energy shock, threatening global economic stability and forcing emergency domestic measures in several nations [3, 10, 11].
-
-- **Crude Oil Volatility:** Oil prices have surged to as high as $120 per barrel following the disruption of the Strait of Hormuz [10-12]. Although OPEC+ has agreed to gradually restore 1.65 million barrels per day (mmbbl/d) to the market, analysts suggest the duration of the Hormuz disruption is the more critical factor [12, 13].
-- **Domestic Energy Emergencies:** Pakistan has introduced a four-day work week and closed schools to manage an "energy emergency" [14]. Similarly, Taiwan has moved to cap oil-price rises to shield its economy [15].
-- **Inflationary Feed-through:** Surging oil prices have renewed inflation fears in the UK and Mexico, leading traders to bet on further interest rate hikes by the European Central Bank (ECB) [1, 11, 16].
-- **Strategic Reserve Depletion:** The U.S. is considering further sales from its strategic oil reserves to mitigate the price shock [11].
-
-## Tech Leaps: AI Infrastructure and Financial Tokenization
-
-Despite geopolitical turmoil, the technology sector is seeing massive capital inflows, particularly in artificial intelligence infrastructure and the on-chain migration of traditional finance [17-19].
-
-- **Hyperscaler Expansion:** London-based AI hyperscaler Nscale raised $2 billion at a $14.6 billion valuation to build out AI infrastructure [18]. Furthermore, hyperscalers are increasingly seeking off-grid power solutions to bypass traditional energy constraints [17].
-- **AI Agent Maturity:** Enterprise deployment of AI agents is accelerating, evidenced by Lyzr’s valuation jumping to $250 million [20].
-- **Tokenization of Capital Markets:** Nasdaq has partnered with Kraken to launch tokenized equities, with a target date of 2027, signaling a major shift toward stablecoins and blockchain as the "settlement rail" for Wall Street [19].
-- **Semiconductor Advancement:** Intel has released XeSS 3 to developers and listed its "Big Battlemage" ARC PRO 70 GPU, while Nexperia China has begun producing its own chips to navigate trade restrictions [21, 22].
-
-## Global Trade Realignment: Friendshoring and Economic Resilience
-
-Macro-economic strategy is shifting toward "Friendshoring" and "Nearshoring" as a response to supply chain vulnerabilities and the threat of increased tariffs [23-25].
-
-- **Supply Chain Regionalization:** Nearshoring is on the rise in the apparel and pharma sectors due to the Iran conflict, with Mexico and Morocco emerging as key hubs for North American and European markets respectively [23-25].
-- **Trade Protectionism:** Former President Trump is signaled to have more tariffs "up his sleeve," while the U.S. is currently reviewing wood tariffs on Canadian and Chinese imports [26].
-- **Resilience of the U.S. Dollar:** Despite ongoing "de-dollarization" narratives, the U.S. dollar has surged as a "safe haven" currency as the Middle East conflict intensifies [27].
-- **North American Integration:** Canada and Mexico are scheduled to begin bilateral talks regarding the USMCA in May 2026 to coordinate strategies in a post-Trump trade environment [7, 25].
-
----
-
-## Quantitative Portfolio & Market Action
-
-## Macro & Themes
-
-*   **Geopolitical Volatility & Energy:** WTI crude rallied to **~$81/bbl** (from a Dec '25 trough of $55.44) following the death of Iranian Supreme Leader Ayatollah Ali Khamenei on Feb 28, 2026 [1]. $100 oil is now a central market thesis [1, 2].
-*   **USD Safe Haven:** Despite "de-dollarization" narratives, the US dollar is surging as a primary safe-haven asset due to escalating Middle East conflict [3-5].
-*   **Supply Chain Structural Shifts:** "Nearshoring" and "Friendshoring" are accelerating, particularly in **Mexico** (USMCA integration) and **Morocco** (high-tech hub for Germany), to mitigate Iran-related sourcing risks [6-9].
-*   **Monetary Policy & Yields:** Mortgage rates have dipped below **6% (5.98%)**, shifting focus to REIT ETFs like SCHH [10]. Conversely, reports of Chinese banks paring U.S. Treasury exposure are putting upward pressure on yields [11].
-
-## Specific Equities
-
-| Ticker | Price Action | Catalyst |
+### Top Winners
+| Ticker | Performance | News Catalyst Explaining the Move |
 | :--- | :--- | :--- |
-| **CEG** | **+22.0% (1M)** | Strong momentum in utility sector and power generation demand [12]. |
-| **GSL** | **-5.5%** | Market sell-off despite locking in **$2.24B** contracted revenue backlog [13]. |
-| **CLSK** | **-7.4%** | Impacted by weak Q1 loss and uncertainty regarding its Texas AI pivot [14]. |
-| **LUNR** | **-8.0%** | Sliding Thursday despite growth prospects from equity raises and defense wins [15, 16]. |
-| **FLNC** | **-49.0% (1M)** | Sharp pullback (**-6% in 1 day**) following a mixed return profile and revenue growth scrutiny [17, 18]. |
-| **MNDY** | **PT Cut (25% Upside)** | Analyst price targets slashed (Cantor Fitzgerald: **$148 to $95**) as management halts $1.8B 2027 target discussions [19]. |
-| **CHRW** | **Productivity +40%** | Implementation of "Lean AI" delivering significant gains despite muted freight demand [20, 21]. |
-| **SYM** | **+108.7% (1Y)** | Robust Q1 results driven by warehouse automation site acceptances and international expansion [22]. |
+| **WULF** | **+9.89%** | KBW maintained an "Outperform" rating despite a target trim, highlighting its successful pivot to HPC infrastructure [24, 25]. |
+| **CORZ** | **+9.10%** | Secured a $1 billion loan deal for infrastructure growth alongside a 7,000-share insider buy [25-27]. |
+| **FLNC** | **+8.98%** | Sector-wide rally fueled by a robust solar outlook and positive demand for energy storage [25, 28]. |
+| **IREN** | **+8.08%** | Momentum following a commitment to a €3 million Atlas AI fund and its transition to AI infrastructure [25, 29]. |
+| **ORCL** | **+7.63%** | Premarket jump after earnings challenged "SaaS apocalypse" fears with resilient AI-driven demand [25, 30]. |
+| **MU** | **+7.54%** | Confirmed HBM capacity is sold out for 2026 and announced an AI-memory partnership with Applied Materials [25, 31, 32]. |
+| **VRTX** | **+6.84%** | Positive Phase III data for povetacicept and robust pipeline expansion signaled strong growth [25, 33]. |
+
+### Top Losers
+| Ticker | Performance | News Catalyst Explaining the Move |
+| :--- | :--- | :--- |
+| **APP** | **-10.78%** | Identified as a top S&P 500 mover loser during high technology sector volatility [34, 35]. |
+| **AXON** | **-7.42%** | Significant institutional selling as major funds trimmed positions valued at over $1 billion [35, 36]. |
+| **CEG** | **-6.90%** | Shares plunged as the February CPI report showed a surprise monthly decline in electricity prices [35, 37]. |
+| **MNDY** | **-6.21%** | Impacted by consecutive class action lawsuit announcements from multiple law firms regarding investor losses [35, 38, 39]. |
+| **FRO** | **-5.61%** | Broad rotation out of logistics and shipping ETFs despite the ongoing Hormuz blockade crisis [35, 40]. |
+| **SYK** | **-5.50%** | Hit by a 90-day catalyst watch and broader MedTech volatility despite intact fundamentals [35, 41, 42]. |
+| **ZS** | **-5.42%** | Raised guidance was overshadowed by wider-than-expected losses, changing the case for some institutional holders [35, 43]. |
 
 ## References
-
-[19] Cantor Fitzgerald analyst Thomas Blakey reduced the price target on monday.com Ltd. (NASDAQ:MNDY). [Source](NotProvidedInText)
-[13] Global Ship Lease (GSL) Is Down 5.5% After Locking In US$2.24 Billion Contracted Revenue Backlog. [Source](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd1NEY0hpeGVFY2JqUFRjeWNzMU00X0JCaG5mWEJINkZKNFRUVjdtcm9tRE9kdldNN0JqdWotVjY5b0tacXdubVJOVVZ2MmJjZ19Ja0N1dEotaElYWTloUHBlMVBOOXp2cnd0aHU5NDI1dDcxbkQ2MlhSdVJUNEpXOG54d0FrbzdLN1VZdEZJSEl6UmJxVDI2Q0ZzeXk5M0VLaFB1X3RHcnVha1FNQ2dEbjFxTlNuSW5LYnN6dU5kNjA4WXlhbHJpZmhmNURhbWFrRnlXSlFB0gHbAUFVX3lxTFBsR2dkem5Tc1JjRWk2MWFicWd6TWZNelk2YjBMTzFoM0hZSE9Cc2F2ak1McS1LZmp1TWR1RmFEQWREUGlqdWlrc0RVSTgtUDdfN2lKWHRMbHA0a1Mxbl92RXpGckNtcnU3ZEFaRnRXT3M4X1hnZ2RJS2pJVlIxNGwwLUx1Sm5PYVhXalpnZE1NUWwxcE8xSUxJU3BCR1RJbE1QMEozVTVpa01zcFNQS2VSRzhsTF9reW1VWDd3MzJkeV83RWJhclZzemtLYVUwQWNVVmp1eFlQYl9jVQ?oc=5)
-[12] Is Constellation Energy (CEG) Still Fairly Priced After Its Strong 1-Year Share Gain. [Source](https://finance.yahoo.com/news/constellation-energy-ceg-still-fairly-181153767.html?.tsrc=rss)
-[20] C.H. Robinson Worldwide Touts “Lean AI” at Morgan Stanley Conference, Citing 40% Productivity Gain. [Source](https://www.marketbeat.com/instant-alerts/ch-robinson-worldwide-touts-lean-ai-at-morgan-stanley-conference-citing-40-productivity-gain-2026-03-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss)
-[21] C.H. Robinson Worldwide Touts “Lean AI” Gains as Freight Demand Stays Muted at Raymond James Conference. [Source](https://www.marketbeat.com/instant-alerts/ch-robinson-worldwide-touts-lean-ai-gains-as-freight-demand-stays-muted-at-raymond-james-conference-2026-03-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss)
-[17] Assessing Fluence Energy (FLNC) Valuation After A Sharp Pullback And Mixed Return Profile. [Source](https://finance.yahoo.com/news/assessing-fluence-energy-flnc-valuation-001853947.html?.tsrc=rss)
-[18] Aug PreEarnings: How strong is FLNC stock revenue growth. [Source](https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkVxODN6eDB4R05lR0liU2xWWklibHJuOVkzTlJ2WmpVQWRPNTU4dkRpTmlZVnlpS0ZDMWd4TjRjUF9ROVQzcUQ3T3dmTjR1NmktMGhwaXhfcXNKTzc0Mk1FSVZWSHo0Vm91U3NCV1lneU5Sc1JVNzA2LW5vRkppdE5GZWVRWTUwTWc?oc=5)
-[6] Why Mexico’s Nearshoring Strategy Runs Through USMCA. [Source](https://news.google.com/rss/articles/CBMimgFBVV95cUxONnkxajZIQnAxOUNLREJjb1VTVVZtQ05CR2k3Q1l6SFhFSUQ5ZG1IelZzM1pLQlBfTDFrOFVkbXhISHdJWEVpUWJSTWRvcHppd1UybDFCNm9MT3VaOXNQR0VGcG5oMERZLW9aLURWdy1jMzMzWWswcmZFNGpzZm1CTUdGMFlWWmJneURqZ1R2c3d6UzJwLXNGUVBB?oc=5)
-[14] Why CleanSpark (CLSK) Is Down 7.4% After Weak Q1 Loss And Texas AI Pivot News. [Source](https://news.google.com/rss/articles/CBMizAFBVV95cUxOdEZQdnZpLW1nVWp1VWZLX0JTa0tmWHFPX2lDWDBrbUNNcWZTbU5jUWcxOWJER1NVQXRnZ2tHWHhZMTdDVjgwX3Z3ZGxlaUVySWpQWnRfcWM2b1p1SVJkTk5yeGU3Sk15R2VsejNHY0dHRzBwcGRtLUZRd3VPTU9sb2dva21rU1h1OEpHbWljWE05Zm01d2pjbW92VUdyY3lPUTE3S0Q5b0laQzRab2IzeDR5Vmg2RTg3SUlPZzQzcEZnY3IySkt4QTJQOEjSAcwBQVVfeXFMTnRGUHZ2aS1tZ1VqdVVmS19CU2tLZlhxT19pQ1gwa21DTXFmU21OY1FnMTliREdTVUF0Z2drR1h4WTE3Q1Y4MF92d2RsZWlFcklqUFp0X3FjNm9adUlSZE5OcnhlN0pNeUdlbHozR2NHR0cwcHBkbS1GUXd1T01PbG9nb2tta1NYdThKR21pY1hNOWZtNXdqY21vdlVHcmN5T1ExN0tEOW9JWkM0Wm9iM3g0eVZoNkU4N0lJT2c0M3BGZ2NyMkpLeEEyUDhI?oc=5)
-[9] Morocco emerges as key nearshoring hub for German digital and engineering services. [Source](https://news.google.com/rss/articles/CBMigwFBVV95cUxNWWExUFdzQjFsOHp3QzAzME13bDlNd2RORUI3bFpINjBIMGxvdnhNRlEtRncxX3BlcjZaYnV2NHlYMU9sejVEbkFNV1dhSWhYNE1mNVZyNXFLcDNnWHk3WndvT3JWVFg5LWhMMDFGODgtb2tKbUhaVnFjYWV1ajRoMGZWUQ?oc=5)
-[2] Why $100 Oil Is Now in Sight. Who Wins, Who Loses. [Source](https://finance.yahoo.com/m/e2140e45-aecd-3ecc-8e77-6794d6a92fb1/why-%24100-oil-is-now-in-sight..html?.tsrc=rss)
-[22] Symbotic Q1 Strength And Execution Milestones Weighed Against Recent Pullback. [Source](https://finance.yahoo.com/news/symbotic-q1-strength-execution-milestones-111005313.html?.tsrc=rss)
-[15] Intuitive Machines Stock Slides 8% Thursday: What's Driving The Action?. [Source](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUGlLWGlpQ0lsS01XbEVVLVk3UEVLTk1kNXJZdlZwRFZrN1YxMFhuWDhLcEVEY1laa1cxWm5aaDN5b1BVYy1NeXNMUkZUYUU1RUdvVlBMWk5UckVHY0Z2X2pkcFJ5Rk5zaXdrMGYxRGZScHE5X3Zqdkp4MllXUWhCc3VCQnhHb3JZZUNldXZxbkhGYnV3QUpnbmNNM3pZTEtJbDhIN19GdmpfRmNWMXVPZWo5Q2hEakwzcXo0?oc=5)
-[3] US dollar advances as Middle East conflict rages on, fuels safe-haven demand. [Source](https://news.google.com/rss/articles/CBMikwFBVV95cUxQb0JRT3VraGRZSFJuemI4NE01bGwzNVlZdmc4WDJZMHVvMi14d21kWURnd1pOYkozcWhaMm5BNUhiYjBzSmM2MER4QTc0dXB2dmJ6WHVfdFVicldCa2NxaTlPUXVWLXcwSlU5a0NQbW9nTmZqZVB6VU1mVW5VQUlFRDRucG4zZzU5MWd5LU5CMkVsemc?oc=5)
-[1] The $100 Oil Trade Is Back, and These 3 ETFs Make It Easy to Profit. [Source](https://247wallst.com/investing/2026/03/05/the-100-oil-thesis-is-back-and-these-3-etfs-make-it-easy-to-profit/?.tsrc=rss)
-[16] Intuitive Machines Links Equity Raise And Defense Win To Growth Prospects. [Source](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNblA0Uno2Y2RDSG1vbTV0SVZGT1p4ZGZaNXZNLXJFRk1ZV1lZbHczbVpFd2dLcWc4Sm1Xdm15ZlA2c1VyTjBBanJqSTB4amM1bDZzR1JJeGZQZnh6bGQ3d3NONnMwU0Rfd1RZSXdqWUlwZEZZaXM5NTRaQmpxc2l2T3IwZloxTm1nYnRVeWVRVDZvZTV4a2ZDMzB1dUdPWHpqWDJoTDN3QlVHUFFJRmoyQXdKRDZPb081V1FKQ3BKczhIT0w0YkFuUVpYanVXRElab0hFbWZzVnQ5Z9IB3wFBVV95cUxPeHQzMjJpWHFaSFdqejczV01RWnVZQWhndHNaMW9UR0J6Y1hrOFg4MFF3azE2T2pWQmFvdEUwRXJsT096bktEaDdwVGMzR1NBeHV3MktfRlg1UFhnN1NnNC1jN1hSa3Z4bnJLckZ1OUlSMm8wNDBQazdiVEFmaDU3eXQtdS1NTDhFYndQdWtuVDlfNk40WnRCTFlFTEdxdkpQWmQzTlRLaGRZNWIwNnBLZDljWm41UGZodHpCYkxhbmtlRkdEeVUwTzl2N2ExeFZLVkdhMnVVYm51QVNjNHFB?oc=5)
-[7] Iran conflict and apparel sourcing: Nearshoring on the rise. [Source](https://news.google.com/rss/articles/CBMizwFBVV95cUxQS1lJZXpaYjRwOVk3bHhBNWx2MC1oWVFKd1ZwU0M1Y3ZVeXM0UVR5MEV6eGJzZUhuVkUxZ0RZa0pFanVjc2FPazZKSkMxMktDbl9id3BlZlJObElhVTZrcEl0VWRJSFk4RTFHYjBibDE0TD critically46c1BSbFB0VVk4YkUwTHZmeWpqeWxBNWJybXZoV2FLTnhRSnBaR1ZESTR0dXBmVXZBQ1VKWmlCMDNWVkVhMUI5MUpFbXdxaTRrLXRiT3VaQnhWbmFFb3hPLS1sWFE?oc=5)
-[8] Nearshoring, USMCA and the Race for North American Integration. [Source](https://news.google.com/rss/articles/CBMingFBVV95cUxOR1ViV0FWQTY2MURRYTdlLXF5M25GaTJVRldGNkdtM1NGaXlaZ1lLLXUwS3lCUmNxSFp4eGRaeEhrMEJuN3RDbVlFT0xLUEplcHpOWkFwbFpicEk5YjFwLUdsOTgxanpZVVR6cnNoMUNMWjRIa2dXSUtuZDJKZzhmY3ZVLUxRVjR0MHZvUHQ0amJIVU9jRXdLYURnZlYzQQ?oc=5)
-[5] VIX, Wall Street's Fear Gauge, Is Skyrocketing—Here's How To Trade It. [Source](https://news.google.com/rss/articles/CBMiygFBVV95cUxQVzFHTVUxdE9Ra2dMYjBkMUN2NnNwT0s0QWM5a0dxMVhqbWJWQ3lnR0dMeDF0T0hueC1pSlBiX1dTMTRYUjAzN0xyRTJIUHZJWkV4VFB1VTlRaFM4enlxeExnRTAtU3FqWjJ1NFlNdWkzMVc2N0RlTmhhZmNYb2xKMmVDOVJlQU1jYVpjU2pfZWFUbXNZV0tBMmVjbU5lZ25zUTJsWG1LVXZVand2Vi1CVzlrVXZjUVpWWVNVVHpFeEY2OWRLWUFhYUVB?oc=5)
-[4] What de-dollarization? US currency surges as safe haven. [Source](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaU9QNlpwV0kwaWI5a1o3NDBKWXBodDVIQUd5Q0NTZE5CcnF6NkNiYU04UFphcHI2NWlhRFM3QlFGbzZiODhvR0psUThOQkVJeXF5aFN0OE82Z21JYnhIb0dWMUZqdVBYU0xldll5N3FwUldoUG5lbHlXWHpoUnI1b1ZxLW5jZ0t0VTJMTDBlaTJ5dkt3TGJBdDc4YXIxT0FkN2R3NzN6TjZUMFJIWXJoT0VURmJBQXRlVGc4QWxNaDlvUQ?oc=5)
-[10] REIT ETFs in the Spotlight as U.S. Mortgage Rate Sinks Below 6%. [Source](https://finance.yahoo.com/news/reit-etfs-spotlight-u-mortgage-134900629.html?.tsrc=rss)
-[11] China Banks to Pare U.S. Treasuries? ETFs to Play. [Source](https://finance.yahoo.com/news/china-banks-pare-u-treasuries-130000726.html?.tsrc=rss)
+1. [1] Massachusetts gas prices are rising as Iran conflict continues - Fall River Herald News (https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlI1cEtYLUpIMTRWanMzb25obWZVQ01uamlPamJnRF9HbnhZdnNpajJMeDh0VFY1U1pYanI3WndQN2FJbjRxVE43QW5iY0didkhRdFc0VmlZb0FFSERxSGdsdnlmdnFkekliSGhXWUdYWWlyU1ZwLUdobHVmc0hmMUxaemw0ZkQ0czMyblNkZ3NqMEd6VzhmRERJRzVRcVZ5UHE4cU9CQ0dPQnRrZnc?oc=5)
+2. [2] Iran Conflict Brief: What It Will Take to Open Up the Strait of Hormuz - CGEP (https://news.google.com/rss/articles/CBMirAFBVV95cUxQaXZoaHc2amQ3c193U1NLRE0zNWdnT1pnSVFmODVRdzg1dnB4ZFVQci11LXM0UWRqMUZrbGZrbWNJYjhKY2c2a0ZkaVB0LUJnYjhCQ0hMVDMxLTdkSXhWLTczY1pyY21keE9yN1JlM0hXUjBBM1ZyeWdFWWRUM19mOGRnU09TQWU2SHNLYXZHXzhvUnVqQ2dEOERaS0xKcUpid1hsZFY0bWtIbHo5?oc=5)
+3. [3] 03-07_WEEKLY_REPORT.md (Market Intelligence Report)
+4. [4] The $100 Oil Trade Is Back, and These 3 ETFs Make It Easy to Profit - 24/7 Wall St (https://247wallst.com/investing/2026/03/05/the-100-oil-thesis-is-back-and-these-3-etfs-make-it-easy-to-profit/?.tsrc=rss)
+5. [5] Oil Surges Again To $86 As Iran Attacks Ships In Hormuz - Seeking Alpha (https://news.google.com/rss/articles/CBMijwFBVV95cUxPcU1RYVV5WnUzaFgtd1RmXzJJdldFX1hVMXNTTndQRW9fQlJ3MkNWX2FCQUhoZkQwQmUzZ2R6TzFLUF95ajE5R1l2REd0ZjAtVnYwdXBRbVBEekJJN2VhRldFWVRBQXBDRXNueXRJTHQ3S0tHNUY0RV8xTW5hSWJ0b2hJTFY4SnNrdGNMdV9ibw?oc=5)
+6. [6] 03-12_DAILY_REPORT.md (Market Intelligence Report)
+7. [7] IEA agrees to release record 400 million barrels of oil to address Iran war supply disruption - CNBC (https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUDdHZnJjdTNQOTE1MUtlZ0ZvWlYtejZQaDYyR1YxYzc3dWRYaFY2akFoeHhaYWRHTWl5OGVYT3lGdUtGcEFZVi14TGpNNUJmWlJCbVhZbHZmOFFBVWc3VEptTWZsT0NBekpsMTlHdHhzeEZWRHJ2aTFleG1aeDJMdWx2MXB0d25J)
+8. [8] Oil Futures Gain Despite IEA’s Planned Release of Reserves - WSJ (https://news.google.com/rss/articles/CBMi1wNBVV95cUxPclhhQ040RXBvcWgzbE4tdndUTTdyMlRwdDd5cVZacWVLcWl3V28wZm1oZmt3VkFnWEhoTUo3Sjk3Yzl3Snc0cjAwU2tJckYtWERjazF4R3ZfX2RSamZnNGdyRjFIaHpZd2p0NV8wd1d4YmlPUmQ2c3VUNjJmQzBqbG9XTy1SaV9sXzlZMU9oWkJ6cWZ2WjUtMDJpckdEbU5HWHpXWU9QcHhDSDZvWjZxMlNBQ1phS0FOQ0hRUjNGR2ZfdEE1MGc3Q1Y2M0lYQzQzT1F3MGxVTXhLdUZBckdtTWhhamJBdzJqYWZRdXN5blczd2tHM1BvUUJIY2NsQWRBRW1RYWQxVGJtckVBdzV6QXRqZGJYR0d0MXRlRmNPQnFaUTRNdTltWi1WcW9RdU94UmR3REM3elo5UWZvNTZ1bTVIMDAxS19nNndTSHpwT09IYloxTWNsaXhXMXZMbEo3NDZTZUZPQ1dzd1drSjliNm9KVnZpeWNscnQ2OENYM2hsNXRWSTFIVzZnRkxWQWtCM1JHU0pNbHZCV2JlbnVhTDJVZXBwZUJIZlFjUktOR25BUml1d1F1ekZpbndsZEt0ajh6bjhmSmZwUWh3RFpJNUcyUmEwRGs?oc=5)
+9. [9] Cassava Technologies Launches National Sovereign Cloud To Power Africa’s AI - Africa.com (https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdUJuR3dBMURDRW1aNHlmREk4SDVXMm8tM1hwNjlwMFlIeV8tRlVKUlFxYmFURkFXMUZDaFJYVmxxMk5uUFlXTGpKZUFIb1MyN1B5SlhSNmw4UjFVWXNNajNLdEY2MjN5S00tTVhtbnk4Uk9YeVB1bWpGSVp4VERNTkhBNldCbXhPaW1hdE0tM19URW1aai1sNk9pQzNxQ0Z4TFJlb04wNHQwS0wxUC05SW93YU5mbUx5?oc=5)
+10. [10] $300M Polarise 30MW AI Data Center Plan Targets Sovereignty - constructionreviewonline.com (https://news.google.com/rss/articles/CBMiWkFVX3lxTFByWERHYVlXWXlUZlJrOE9mX1YtUU1Sd0V2QmFDOWFXdFhTUm1kM2I5aEJHeU9Rd28wWHNvQmFZNXhYMVFpdUkzTmRiV3IyOVhtRE81RVFZT21NZw?oc=5)
+11. [11] 03-11_DAILY_REPORT.md (Market Intelligence Report)
+12. [12] Nio sees EV costs rising on memory chip shortage and metal price rebound - CnEVPost (https://news.google.com/rss/articles/CBMinwFBVV95cUxOSnZaTUtqQ09peWV3TmlsUDhRS0h6b0M5WkpGbkVtemZJLUdobFlWRHZSVmd0UE5EZEhpR0pNbXVoYkFLQ3hCd3VsUm96Mng0Nk1FWmJFOUpqaG1fMlN5cTFBdTJWNkFwLWdzQVBMNEZ4TWtxZFBSSm9vNVJCMkdlUl82SmFnNVpLT3EyTG9GQVR3Ny1vY2pmdXdROEZ6VXM?oc=5)
+13. [13] AI-fueled memory chip shortage could raise prices of everyday tech (Video) - Social News XYZ (https://news.google.com/rss/articles/CBMisAFBVV95cUxObld3NzU1SkstVTB5YVREblNqZ3Y1V2Z4VmlTeElXTGpkaFQ4RVFXQkl4OA?oc=5)
+14. [14] 03-12_DAILY_REPORT.md (Market Intelligence Report)
+15. [15] The $100 Billion OpenAI-Nvidia Deal Is Not Happening - Gizmodo (https://news.google.com/rss/articles/CBMiigFBVV95cUxNbEtoeGNGellOaTRNal8zbXVSYXlUSnhMYmdMM244dUlkYnJaOVo5dEpEWTl3ZXFGLUpWZng1RlVVd1dVN1FHSkZXVUtrNUNpN1d4dkxwdFJDVGdWRG4xV0h2QjZzSm5fNE90THhqWWR6SmExb3NVS1RSaDRnQ3NZRTVUMDd2S2xPcmc?oc=5)
+16. [16] The $100 Billion OpenAI-Nvidia Deal Is Not Happening - Gizmodo (https://news.google.com/rss/articles/CBMiigFBVV95cUxNbEtoeGNGellOaTRNal8zbXVSYXlUSnhMYmdMM244dUlkYnJaOVo5dEpEWTl3ZXFGLUpWZng1RlVVd1dVN1FHSkZXVUtrNUNpN1d4dkxwdFJDVGdWRG4xV0h2QjZzSm5fNE90THhqWWR6SmExb3NVS1RSaDRnQ3NZRTVUMDd2S2xPcmc?oc=5)
+17. [17] 03-07_WEEKLY_REPORT.md (Market Intelligence Report)
+18. [44] Meta Unveils 4-Chip MTIA Roadmap in 24 Months, Defies Industry - The Tech Buzz (https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3ZHaUtsSDJSQWwyS3JaUElkdTcwV2Nkd01TXzNjSTgwd1BGSkZYeU9iMy1CdFR5cDBXMkhRaWtoVENnUTVXS1pQVVl2dXd3Z2MwLU9KRVBLZ24tLXEwb3l2dU9GMU5yUHlHOXFabnlzUnV1azVkSDNpTlRfRXBPZnZ0TzRnQUZHbGtKaWFCZk5nTHNMemZNRG93?oc=5)
+19. [18] EU unveils strategy to rapidly deploy small and advanced modular reactors - Innovation News Network (https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFNxM2M2bmdiSkNtU0hhV1RGVmdFcDFYN21va3haYWdhclZNZFNMdmJZMl96TjZqYVhmV1pOOTA0R1VlLWNhX0VYNDZKMmdZSmgyelBqZ3AzOGVnaV9jWHpoUDVpd0pTQ1FtMFROZTRsV0p5RkdDS21vdVlsc1BhVTF4blVQbWowNTJOYmY4dHFWVGlHc1paMnhqYll3SDBqU2ZjbE1oeEExeUJ6S040?oc=5)
+20. [19] Iran war boosts global nuclear energy revival - Semafor (https://news.google.com/rss/articles/CBMikgFBVV95cUxQTjVFOFR0MnE2REJXdXZ6VExTTXRUb2w4ZmVYRmd0RThWZjM0X0dzR3RFbjhadlFETjdfOW9NWVItNDRvWEpwNFNfZmtKRENtd3BrRHVHdTdHcHlBbVYwR3djT3VfR0xQN1ZfQjYtV2xETW9aZnBzaGxlVk8zb3JyWTlaOHI0R3VMYTBVR3dsUVljQQ?oc=5)
+21. [20] 03-12_DAILY_REPORT.md (Market Intelligence Report)
+22. [21] PPL Electric Utilities commits $8B to grid modernization through 2029 - Pennsylvania Business Report (https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSUgzOWtvV0xNY2h1QjJtSmh6VUFIWjJZbUZlOWlwdDJ6cnpDV3JqR2llbDc4NTJLdlZqd2FpTEV6SjdHZ2IwcERKQjdqVTZLU1oyQ2p3X2szbGk0SERnX0x4YU9zOTlvSndMRER0MUNsVjJtelNibHVoTEw4SmEzakowdERRVmtOVTlCcHdLMjdJYWQwb2ttRktWb0wyamZuZVNRXzhzbHctZw?oc=5)
+23. [22] 03-11_DAILY_REPORT.md (Market Intelligence Report)
+24. [23] GE Vernova Expands Power Role As AI And Grid Backlog Swell - Yahoo Finance (https://finance.yahoo.com/news/ge-vernova-expands-power-role-161119945.html?.tsrc=rss)
+25. [24] Wall Street Cuts Cipher Mining (CIFR) and TeraWulf (WULF) Price Targets - 24/7 Wall St (https://247wallst.com/investing/2026/03/11/wall-street-cuts-cipher-mining-cifr-and-terawulf-wulf-price-targets/?.tsrc=rss)
+26. [25] Quantitative Price Action Summary - Top Winners
+27. [26] Core Scientific (CORZ) Stock: Insider Buys 7,000 Shares - Blockonomi (https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzBKOGZpdmpYQlJpWGNiV0lrY0lBaEFQelNhMTNEdTBVb1kzYzBqVG8xWWY4dWRyZzdyRXFxQTFvT1dGdjVLMFc0bGZydnBncl90aVRJUEVEY09uSnFOZVo2SkNrUEg3cnlraWswa0lENmpjbUFSeTludnN1MURMd2RxM1VJd1ZtUy1fQWk2dzVBdElMS1Z6MG15VGxhZkprcktNOUNjMFI5bFVO?oc=5)
+28. [27] Core Scientific Inks $1B Loan Deal to Fuel Infrastructure Growth - timothysykes.com (https://news.google.com/rss/articles/CBMigAFBVV95cUxQSk13NXJqc280Yl9tU0c4c3dtT3VJUkNmcjdEX3QtQXJFUExjdWZ2QWxrTUR0a0R3VVlCbWhPa29IR3VIQWtOQUdFNngzb3R1MGs0ZkF6dEk3bmZxQlUwbXJUVndpby1PNU9hMVYzandoVlJqN1JHTDY3d0lhZnZPeA?oc=5)
+29. [28] Fluence Energy (FLNC) +7.5%: Sector Rally on Strong Solar Outlook - Trefis (https://news.google.com/rss/articles/CBMiygFBVV95cUxPRl9iYlRRSVRDb1FjSU9Ba0lXeWdFR1QyTWZJaDJKVDQ4anBoUHN3bVdieE9JNmFyVEx6NHFGdlZXOURHOWZ4UmJqdC1kOGN6NzlxMnVxcjZsNThWRXA0SG5JX01RYkJiTTBJaDJrbk9MLXRHNTVRZXl4NXFjSmFlVENZQm5PZTBmUHNQTm5VYl9PS1pYeE42UlNmLW9wNXJDdlBNWDRxWC1MY3RiMXMyQ1N5ejlVNU1GNzJmQmlJejdvLWRsWGZ6TjRn?oc=5)
+30. [29] A Look At Iren (BIT:IRE) Valuation As It Commits €3 Million To Atlas AI Fund - simplywall.st (https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ2J5aUtOTDBsbnQ5VnVBa3BYRy12UDhDS19ZLU1sQlpvOGl1X0p3ODkxcjFPSHhPa2N6M19KMUhGb3FpTXp5eHNlc2tjcHdsckx4TjdROXAxNW1sTGJ6eXdWOWRkVWttQUFFYkJhMERqZTU1S2pxZlRPVnZlZVU4NXNYbG9mZXJzQ1Byam8tZlR1NUJpWGxJb1pJenhVb0MtMG9qQkw0M1NIelY4RjRYcnd4dXdXOGRQSlVtdkUySjBlcVVOeVZHVWVkMA?oc=5)
+31. [30] Oracle jumps 11% premarket as AI demand challenges 'SaaS apocalypse' fears - CoinDesk (https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVBCdDlJbXJEckV5UUJTbkxDYjRqSkVJY2ZqbkoyQl9SSTYwYTZENVIxSUk4WEpCdlNyZXRHbmd6T3pJYlNHRHd5enBrTW53N0g4MTJobzRCZXdpWG9hVHoyaWtnZ2ZsTFRtMWtKLWtOT3JNUTFfa3VuSU42Z2t2TlRGTnBvTC1LY2ZxRVBobHJ0N0dCOFNWX3lBcUJfRFpNanNRdDRUcDVCV3drUGM2SXF4dll0Zw?oc=5)
+32. [31] Micron Technology: HBM Sold Out For 2026 - Seeking Alpha (https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRFdsMFhkTzItR0pfYjQ4aHBtVUY3dXU5eUFCNmRaTWJCYzE4YkhOWTlwb0lCSDkwbHJBMlpwTFdtaF8zd1VzUHMzQWJzdGRiWVhEa1FnOWliT0gyZFR0X0c5TlJrazRlLTA2UGZVWlU1bDN3SEJQMXV5cUZMMlZ4RkdQWFpkcXlHMEs3UFpNZXRRNHpXcWxadDlWUHZWVmVISHRrYUZiRUJLWHMySGlkUndmWFE0ak03dlVITGtBZXB6R2pmN09VVHVScTM2dV9UU2lLTkdB?oc=5)
+33. [32] Applied Materials and Micron Are Partnering on Memory - Barchart.com (https://www.barchart.com/story/news/693316/applied-materials-and-micron-are-partnering-on-memory-is-amat-or-mu-stock-a-better-buy-here?.tsrc=rss)
+34. [33] VRTX: Phase III data and robust pipeline signal growth - TradingView (https://news.google.com/rss/articles/CBMihwJBVV95cUxNR1lhbUNmT3dud3VkMmk3ZmVCdFl6UkZ2RGhULU1UcGJsc3hkaVBMczBVbmEtU2YySzQ1QkJjS29nNW5MOU95QXBFc1ZCR3NUcDVyaXIyOC1UZHpkamZUWXFIRmJMQTVTYjRzUGo0RUFqNkY2N0ZidVRiZERrVTZYejlaZldTdHBaRHQ2RFdUdkJBdGtEcURJOXJvdmNleGZmX0wxMlJrVkdDMFBYR3J6UUpLMHlkUGtxNmVVSUdkTTV3cFRyMUhkMWtObnZNdFNtUy10YU43Y3NVdHJCTkxIaThLM2E4UDlXREVocEtrTFJwZ3JlRWYtY3A1Y3pES0t1alQwdnBCQQ?oc=5)
+35. [34] S&P 500 Movers | Winners: VRTX, CIEN, GLW | Losers: CNC, FICO, APP - Trefis (https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ3pRSmRjT1BrTWh3RVFNamU5NjZyVUs3aEdKVXJKb3FfcVFIdmhqdm9nNDBIeVhSNmhLVGg3T3k2UlU4MmQzRXJfWGRPai1uZU5QRlVheEhNSEl2Q0dUNVBBLUxvT28xdmgtQTJTdy1EWGMzUXlPQUFUVlVac3dSQ19zWFlYQ0Y1SWZHNmFTQWlWU21CMnlYZW9aUVRkM3dnSXY4ZERnNV84UGM0RUp5a0pNOEZZUQ?oc=5)
+36. [35] Quantitative Price Action Summary - Top Losers
+37. [36] Sands Capital Has $1.04 Billion Position in Axon Enterprise - MarketBeat (https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOEdIRGwzUkZiQ1NBR1J6NWxfVzk4ZmRXWnR2VzhvVlQ3ZVFhRGJFZ0VHUjRwbW44QmNqVE1IalE5RnB4MnZQbVJ1YXV2cV9vNTh1NnRGMFM4VXZHd1Yzd2JEbkhtRl90ZV9hWUtaWFNYZ3J5b0RoRzFxTnRzRGpXcG5oNzBvdVFyaDU4NWZQckpzRHYxQm44NW9QRThMYzhCbG1sQzlzbU5HZHVmUzlFOGcxS3NvYTBsZ1NvUjRzSWNXdEx0MUQxSDVsa2FpNTR5aURQNHhiSzZ3a094SE1CS0lR?oc=5)
+38. [37] Why Constellation Energy Plunged Today - The Motley Fool (https://www.fool.com/investing/2026/03/11/why-constellation-energy-plunged-today/)
+39. [38] MNDY INVESTOR ALERT: Investors Have Opportunity to Lead Class Action Lawsuit - ACCESS Newswire (https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkNYY1hlWkRQQkIzR0JQandFRmtlc0ZHeEhneUdabkY0Z1MtNEZvZHRkNVhhYVhmU3JKVUZVeWJ1NmF1WXFDSDhjeFJ3NksxX19ubUR5TVlJVTVIR0xOTHpIMVROMnpaUVFYMWVsTXg3cWl1LVpQeUIyc0xwZlFyZG1KR0pyMUhySzAtQ3NOUHdNYk5pOTZxM2J6d29xczZvZzliZU9mc2ZIQmdISUlEQTJ5VlhNNXpLVjBTYTVvOGVuZkptT2c5NGtOMmJ6X1VmMkZ5UFVMMjhobUVOUFhmV0lmWTU?oc=5)
+40. [39] Rosen Law Firm Urges monday.com Ltd. Stockholders to Contact the Firm - Bluefield Daily Telegraph (https://news.google.com/rss/articles/CBMiigJBVV95cUxPaDJsVkhXR3RFQ0Z4aklWRzQ0LU1UbXMwYnBEUk82eGJHSk0yMkpTV0c3aUEtS2tyNVZybWVYZEpzNldIb3hxQ3pncS15TXlTdmVaZTN4bjhCMno0MHJFeHRCVzQ2RlpFY2ZnV0kyMndFUWk1c0thVWN4YlFxNmVzOUxsY0s1RHdGTDJlTk1TX1pqclZSN3lfbnE4TlhpSC1IeTBjdEEtTXFFYURxdnc2T2pVMmR5bzdLdjJySFgwSnBLVXMtLU9wUXJnZE1zNUtDNmN2Z1FTejJveEE0c0VLeEZYejJwWE02clhKVFJsZnBwN3RTaXZ3ZjZua0FjUUUxSEdPTThnNjhTQQ?oc=5)
+41. [40] 03-12_DAILY_REPORT.md (Market Intelligence Report)
+42. [41] Intuitive Surgical Upgraded to Buy by Citi — Plus Moves on Stryker - 24/7 Wall St (https://247wallst.com/investing/2026/03/11/intuitive-surgical-upgraded-to-buy-by-citi-plus-key-moves-on-stryker-and-abbott/)
+43. [42] Stryker Corp Stock (SYK) Moved Down by 4.00%: Facts Behind Movement - TradingKey (https://news.google.com/rss/articles/CBMigAFBVV95cUxPV3JiV2M3cTZxVTkzcGNvVjNsLVM1NGJLcVpiOGR1ODN5UW4zQTNTMjlsa01WNTBwMHdrR2xtckJNZ3V2ZE1loHVkTTloZWFxYXB4TC16Z1pWbkdwSnRTTlpENVN0dU84ZVYzRWFWUERnNzRVeEdMbEhPcDl2R1J4aXNwVEs3OA?oc=5)
+44. [43] Raised Guidance Amid Wider Losses Change Case for Zscaler (ZS) - simplywall.st (https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNFZwUDlhR0Q1NERLckF3clJtWTRtRktHcnQ5RThkWGhnbXMzWU1ieERUTERSSlUxZ2JlSkFJU2RyYW5DaC1mTzN5OVVoaHF3eWcxOGpjcXIxOGJqLVQ5emowZ3ZXcHIyYXlSaEhISjdLZHBVai1uNmYzdEc2WGhJb25SdjZvcm54c2o4VG1NV0FFUXU0Tnk3MzhJZFNNVHFUQjhBQUV1Rjk3ZERnM2lVZUFTMVpOeWtWa3FTeXZLSHrSAcYBQVVfeXFMUHJDakU3bFNrUmhsWFUzSlM1VW05M2tyUC1KT1VPQlZXMWVYcG9JcjBBdi1JNEhUaWNJdmtibENYamVBQm8tNzJpaHpjYUt0MWF5VE16U1ZEeUdET2Y3WlF6X2lIQ2xhSWdMRjZ5VTQ1YmJodjRFS3B3TTl5ZXZSdWxCWnJ2TnV0S09uT0JiTjY1RG01OE5NdE1iekZVLURhVk9IcmtheGxIVmE0MlE4U3NkaW5XeUJic1VlV3psUUFOYnVSZkl3?oc=5)
