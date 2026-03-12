@@ -18,6 +18,7 @@ from market_fetcher import MarketFetcher
 from reports.report_utils import format_recent_news_markdown
 from reports.report_utils import get_intrinsic_value_metrics
 from reports.report_utils import get_technical_indicators
+from reports.report_utils import render_markdown_to_pdf
 from reports.report_utils import setup_decision_tree_aesthetics
 from reports.report_utils import setup_plot_aesthetics
 
@@ -357,6 +358,13 @@ def run_full_analysis():
   with open(report_path, "w") as f:
     f.write("".join(md))
   print(f"Analysis complete. Report saved to {report_path}")
+
+  print("Rendering PDF...")
+  try:
+    render_markdown_to_pdf(report_path)
+    print("✅ PDF rendered successfully!")
+  except Exception as e:
+    print(f"❌ PDF rendering failed: {e}")
 
 
 if __name__ == "__main__":

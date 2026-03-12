@@ -33,6 +33,7 @@ Senior Portfolio Managers requiring actionable, path-dependent logic for capital
         > 3. Provide a highly concise, bulleted readout of these insights.
         > 4. Output in rich markdown suitable for appending to the absolute end of a formal report.
 
-5.  **Final Assembly:**
+5.  **Final Assembly & Sync:**
     *   Copy the NotebookLM output into `iran_broad_strategy_analysis.py` (or let it manually append to `REPORT.md`).
+    *   **CRITICAL:** Ensure the final `REPORT.md` is rendered to PDF via `report_utils.render_report_to_pdf()` and uploaded to the NotebookLM general archive via `notebooklm_report.py`.
     *   Ensure strict section ordering: Context > Decision Trees > Portfolio > Timing > Future Refection > AI Insights > Deep Research.
