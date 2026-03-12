@@ -18,8 +18,8 @@ if PROJECT_ROOT not in sys.path:
   sys.path.insert(0, PROJECT_ROOT)
 
 import config
-from notebooklm_client import MarketNewsClient
 from reports import report_utils
+from reports.notebooklm_client import MarketNewsClient
 # pylint: disable=import-error,no-name-in-module
 from reports.report_utils import render_markdown_to_pdf
 

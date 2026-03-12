@@ -669,15 +669,30 @@ def get_recent_news(
     topic: str,
     market_data_dir: str,
     limit: int = 40,
+    start_date: Optional[datetime.datetime] = None,
     end_date: Optional[datetime.datetime] = None) -> pd.DataFrame:
   """Retrieves the most recent news headlines for a generalized topic."""
   try:
     path = os.path.join(market_data_dir, f"topics/{topic}/news.tsv")
     news = pd.read_csv(path, sep="	")
     news['Date'] = pd.to_datetime(news['Date'])
+    if start_date:
+      news = news[news['Date'] >= start_date]
     if end_date:
       news = news[news['Date'] <= end_date]
-    return news.sort_values('Date', ascending=False).head(limit)
+
+    news = news.sort_values('Date', ascending=False)
+
+    # If we have a bounded range, include everything up to a reasonable cap (e.g., 50)
+    # If it exceeds the cap, sample systematically to fit the cap to prevent huge payloads
+    if start_date and end_date:
+      cap = max(limit, 50)  # Fallback to 50 if limit is low but we are bounded
+      if len(news) > cap:
+        indices = np.linspace(0, len(news) - 1, cap, dtype=int)
+        return news.iloc[indices]
+      return news
+
+    return news.head(limit)
   except FileNotFoundError:
     logger.debug("News file not found for topic %s.", topic)
     return pd.DataFrame()
@@ -690,15 +705,29 @@ def get_recent_ticker_news(
     ticker: str,
     market_data_dir: str,
     limit: int = 40,
+    start_date: Optional[datetime.datetime] = None,
     end_date: Optional[datetime.datetime] = None) -> pd.DataFrame:
   """Retrieves the most recent news headlines for a specific ticker."""
   try:
     path = os.path.join(market_data_dir, f"tickers/{ticker}/news.tsv")
     news = pd.read_csv(path, sep="	")
     news['Date'] = pd.to_datetime(news['Date'])
+    if start_date:
+      news = news[news['Date'] >= start_date]
     if end_date:
       news = news[news['Date'] <= end_date]
-    return news.sort_values('Date', ascending=False).head(limit)
+
+    news = news.sort_values('Date', ascending=False)
+
+    # If we have a bounded range, include everything up to a reasonable cap (e.g., 50)
+    if start_date and end_date:
+      cap = max(limit, 50)
+      if len(news) > cap:
+        indices = np.linspace(0, len(news) - 1, cap, dtype=int)
+        return news.iloc[indices]
+      return news
+
+    return news.head(limit)
   except FileNotFoundError:
     logger.debug("News file not found for ticker %s.", ticker)
     return pd.DataFrame()
@@ -1213,18 +1242,22 @@ def enrich_portfolio_df(df: pd.DataFrame, market_data_dir: str) -> pd.DataFrame:
 DEFAULT_PDF_CSS = """
 @page {
     size: A4;
-    margin: 1.5cm;
+    margin: 1.0cm;
 }
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    line-height: 1.5;
+    line-height: 1.4;
     color: #333;
+    font-size: 9pt;
 }
 h1, h2, h3 {
     color: #111;
-    margin-top: 1.2em;
-    margin-bottom: 0.5em;
+    margin-top: 1.0em;
+    margin-bottom: 0.4em;
 }
+h1 { font-size: 16pt; }
+h2 { font-size: 14pt; }
+h3 { font-size: 12pt; }
 img {
     max-width: 100%;
     max-height: 600px;
@@ -1296,7 +1329,10 @@ def render_markdown_to_pdf(md_path: str,
 
     parent_dir_name = os.path.basename(md_dir)
     if parent_dir_name not in ("reports", "rendered"):
-      pdf_filename = f"{parent_dir_name}_{pdf_filename}"
+      if parent_dir_name == "news":
+        pass
+      else:
+        pdf_filename = f"{parent_dir_name}_{pdf_filename}"
 
     output_path = os.path.join(rendered_dir, pdf_filename)
 
@@ -1640,29 +1676,61 @@ def build_standard_portfolio_report(script_dir: str,
 
 def build_daily_news_digest(
     market_data_dir: str,
-    target_date: Optional[datetime.datetime] = None
-) -> Tuple[str, pd.DataFrame]:
+    start_date: Optional[datetime.datetime] = None,
+    target_date: Optional[datetime.datetime] = None,
+    backfill_news: bool = True) -> Tuple[str, pd.DataFrame]:
   """Fetches recent news dynamically using all topics and tickers in config.py."""
 
   all_news = []
 
+  # When building periodic reports spanning many days, we sample systematically
+  # across the whole window. We use moderate limits to avoid exploding the context.
+  topic_limit = 15 if start_date else 5
+  ticker_limit = 5 if start_date else 3
+
   # 1. Fetch from all config.NEWS_TOPICS
   for topic in config.NEWS_TOPICS:
-    df = get_recent_news(topic, market_data_dir, limit=5)
+    df = get_recent_news(topic,
+                         market_data_dir,
+                         limit=topic_limit,
+                         start_date=start_date,
+                         end_date=target_date)
+
+    # Retrospective Fallback: If bounded context is suspiciously sparse (< 10 items)
+    # trigger an on-demand historical fetch for this topic to backfill the gap.
+    if backfill_news and start_date and target_date and len(
+        df) < 10 and start_date.year >= 2025:
+      logger.info(
+          f"Sparse news detected for {topic} ({len(df)} items). Retrospectively fetching..."
+      )
+      try:
+        fetcher = MarketFetcher(data_dir=market_data_dir)
+        fetcher.fetch_historical_topic_news(start_date.date(),
+                                            target_date.date(),
+                                            thorough=False)
+        # Re-fetch after the backfill
+        df = get_recent_news(topic,
+                             market_data_dir,
+                             limit=topic_limit,
+                             start_date=start_date,
+                             end_date=target_date)
+      except Exception as e:
+        logger.warning(f"Failed retrospective fetch for {topic}: {e}")
+
     if not df.empty:
       df['Source_Label'] = f"Topic: {topic}"
-      if target_date:
-        df = df[df['Date'] <= target_date]
       all_news.append(df)
 
   # 2. Fetch from all config.SECTORS -> tickers
   for sector_name, tickers in config.SECTORS.items():
     for ticker in tickers:
-      df = get_recent_ticker_news(ticker, market_data_dir, limit=3)
+      df = get_recent_ticker_news(ticker,
+                                  market_data_dir,
+                                  limit=ticker_limit,
+                                  start_date=start_date,
+                                  end_date=target_date)
       if not df.empty:
         df['Source_Label'] = f"{ticker} ({sector_name})"
-        if target_date:
-          df = df[df['Date'] <= target_date]
         all_news.append(df)
 
   if not all_news:
@@ -1677,16 +1745,28 @@ def build_daily_news_digest(
 
   text_blob = "MARKET NEWS DIGEST:\n\n"
   seen_headlines: List[str] = []
+  seen_exact = set()
+
+  # Optimization: if handling massive time chunks (e.g., yearly scans of 5000+ items),
+  # O(N^2) fuzzy checking will freeze the program.
+  use_fuzzy = len(combined_df) < 500
 
   for _, row in combined_df.iterrows():
     if not pd.notna(row['Date']) or not pd.notna(row['Headline']):
       continue
 
     headline = str(row['Headline']).strip()
-    if any(_is_similar(headline, seen) for seen in seen_headlines):
+    headline_lower = headline.lower()
+
+    if headline_lower in seen_exact:
+      continue
+
+    if use_fuzzy and any(
+        _is_similar(headline, seen) for seen in seen_headlines):
       continue
 
     seen_headlines.append(headline)
+    seen_exact.add(headline_lower)
 
     summary_raw = ""
     if 'Summary' in row and pd.notna(row['Summary']) and len(

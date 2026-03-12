@@ -2,6 +2,7 @@
 import argparse
 import asyncio
 from datetime import datetime
+from datetime import timedelta
 import glob
 import logging
 import os
@@ -13,62 +14,92 @@ import pandas as pd
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from market_fetcher import MarketFetcher
-from notebooklm_client import MarketNewsClient
+from reports.notebooklm_client import MarketNewsClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # --- NOTEBOOKLM PROMPT CONSTANTS ---
 
-PROMPT_DAILY = """You are a sophisticated hedge fund analyst powered by NotebookLM. Write a highly actionable, data-driven daily market intelligence report synthesizing the uploaded qualitative news and quantitative price action.
+PROMPT_DAILY = """You are a sophisticated hedge fund analyst powered by NotebookLM. Write a highly actionable, detailed, and data-driven daily market intelligence report synthesizing the uploaded qualitative news and quantitative price action.
 
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in the data. Highlight geopolitical shifts, tech leaps, and energy constraints. Use clean markdown (### headers for major themes and - bullet points for supporting evidence).
+Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in the data. Provide deep insights into geopolitical shifts, tech leaps, and macro events. Explain the *why* behind the moves. Include a brief, sharp **Expert Forward Projection** analyzing where these trends are likely headed in the near term. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Provide 3-4 distinct paragraphs/bullet blocks of intense insight.
 
 ## Quantitative Market Action & Specific Equities
-Explicitly correlate the top stock winners/losers from the Price Action Summary with the exact qualitative news events driving them. Quantify your points.
-You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and News Catalyst explaining the move.
+Explicitly correlate the top stock winners/losers from the Price Action Summary with the exact qualitative news events driving them. Quantify your points and elaborate on the specific details of the catalyst (e.g., earnings beats, product launches, downgrades).
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
 
 CRITICAL FORMATTING RULES:
-1. Be extremely concise. Avoid wordiness.
+1. Be concise but highly insightful. Do not skimp on providing valuable details and the underlying rationale. Avoid generic fluff.
 2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
-PROMPT_WEEKLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly actionable, data-driven weekly synthesis report for the week of {start_date} to {end_date}.
+PROMPT_WEEKLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly actionable, detailed, and data-driven weekly synthesis report for the week of {start_date} to {end_date}.
 
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, authoritative executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Use clean markdown (### headers for major themes and - bullet points for supporting evidence).
+Write a highly structured, deep-dive executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Provide robust, detailed analysis on *why* these trends matter and how they developed over the days. Include a dedicated **Expert Forward Projection** section forecasting what these catalysts mean for the weeks ahead. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Aim for thorough, high-conviction insights.
 
 ## Quantitative Market Action & Specific Equities
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers and cite the companies directly.
-You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and News Catalyst explaining the move.
+Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers, cite the companies directly, and provide the specific narrative behind their price action.
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
 
 CRITICAL FORMATTING RULES:
-1. Be extremely concise. Avoid wordiness. Ensure the tone is institutional.
+1. Be sharp and institutional, but provide rich detail and zoomed-out context. Avoid generic fluff.
 2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
-PROMPT_MONTHLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, data-driven monthly synthesis report for {month_year}.
+PROMPT_MONTHLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, insightful, and data-driven monthly synthesis report for {month_year}.
 
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts that defined this month. Highlight major shifts or trends and assign explicit probabilities or data-backed weightings where possible. Break the broader market narrative and key events down chronologically into a Week-by-Week timeline here if necessary.
+Write a highly structured, deeply analytical executive summary grouping exactly the major themes and catalysts that defined this month. Highlight major shifts or trends and assign explicit probabilities or data-backed weightings where possible. Break the broader market narrative and key events down chronologically into a Week-by-Week timeline here. Conclude this section with an **Expert Forward Projection**, offering institutional-level forecasts for the coming months based on the data. Provide expansive context and tell the story of the month.
 
 ## Quantitative Market Action & Specific Equities
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to the uploaded qualitative news.
-You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and News Catalyst explaining the move.
+Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to the uploaded qualitative news. Dig into the specific earnings reports, upgrades, or macro events driving those tickers.
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
 
 CRITICAL FORMATTING RULES:
-1. Be extremely concise. Avoid wordiness. Use terse bullet points and numerical tables.
+1. Provide deep, institutional-grade insights. Be highly actionable but do not sacrifice detail for brevity. Avoid generic fluff. Use terse bullet points and numerical tables for structure, but write thick paragraphs for analysis.
 2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
 PROMPT_YEARLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, data-driven yearly synthesis report for {year}.
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to the uploaded qualitative news.
-Break the overarching market narrative and structural economic shifts down chronologically into a Quarter-by-Quarter timeline (Q1-Q4).
+
+STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
+
+## Executive Summary: The Year in Review
+Write a highly structured, authoritative executive summary grouping the major overarching themes, stock market performance, and catalysts that defined the year. Highlight major structural shifts or tech trends.
+
+## Quarterly Chronology
+Break the overarching market narrative and structural economic shifts down chronologically into a Quarter-by-Quarter timeline (Q1-Q4). Summarize the defining moments, market reactions, and major geopolitical/macro events for each distinct quarter.
+
+## Quantitative Market Action & Specific Equities
+Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to events from the qualitative news text where applicable.
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and News Catalyst explaining the move.
+
 CRITICAL FORMATTING RULES:
-1. Be extremely concise. Avoid wordiness. Use terse bullet points and numerical tables.
-2. Highlight major defining moments of the year and provide concrete, numerical evidence.
-3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+1. Be extremely actionable and data-driven. Avoid fluff and wordiness. Use terse bullet points and numerical tables.
+2. Highlight major defining moments of the year and provide concrete, numerical evidence when available.
+3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+
+PROMPT_YEARLY_PROSPECTIVE = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, data-driven prospective synthesis report for {year}.
+
+STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
+
+## Executive Summary: Outlook for {year}
+Write a highly structured, authoritative executive summary grouping the major overarching themes, stock market forecasts, and potential catalysts expected for the year. Highlight major structural shifts or tech trends anticipated by experts.
+
+## Key Forecasts & Major Events
+Summarize the defining predictions, market expectations, and major geopolitical/macro events to watch for over the next 12 months.
+
+## Sectors to Watch & Predictive Scenarios
+Highlight which sectors or specific fields (e.g., AI, Energy) are expected to overperform or underperform and provide the rationale.
+You MUST format this section cleanly, focusing on actionable insights.
+
+CRITICAL FORMATTING RULES:
+1. Be extremely actionable and data-driven. Avoid fluff and wordiness. Use terse bullet points.
+2. Highlight major anticipated moments of the year and provide concrete, numerical evidence when available.
+3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
 PROMPT_PORTFOLIO = """You are an elite portfolio manager powered by NotebookLM. Review the provided tabular text data representing my exact stock holdings, their recent performance metrics, and the latest news context.
 
@@ -279,7 +310,8 @@ async def generate_report(market_data_dir: str,
                           mode: str,
                           start_date_str: Optional[str] = None,
                           end_date_str: Optional[str] = None,
-                          dir_path: Optional[str] = None):
+                          dir_path: Optional[str] = None,
+                          backfill_news: bool = True):
   """
     Unified entry point for NotebookLM report generation.
     Supports 'daily', 'weekly', 'monthly', 'yearly', 'feed_upload', and 'report_upload' modes.
@@ -344,7 +376,7 @@ async def generate_report(market_data_dir: str,
     start_date = pd.to_datetime(start_date_str).tz_localize(None)
     end_date = pd.to_datetime(end_date_str).tz_localize(None)
     project_name = "Market Feed"
-    report_filename = f"{start_date.strftime('%Y-%m')}_MONTHLY_REPORT.md"
+    report_filename = f"{start_date.strftime('%m')}_MONTHLY_REPORT.md"
     prompt = PROMPT_MONTHLY.format(month_year=start_date.strftime('%B %Y'))
   elif mode == 'yearly':
     if not start_date_str or not end_date_str:
@@ -354,12 +386,21 @@ async def generate_report(market_data_dir: str,
     project_name = "Market Feed"
     report_filename = f"{start_date.strftime('%Y')}_YEARLY_REPORT.md"
     prompt = PROMPT_YEARLY.format(year=start_date.strftime('%Y'))
+  elif mode == 'yearly_prospective':
+    if not start_date_str or not end_date_str:
+      raise ValueError(
+          "Yearly prospective mode requires start_date and end_date.")
+    start_date = pd.to_datetime(start_date_str).tz_localize(None)
+    end_date = pd.to_datetime(end_date_str).tz_localize(None)
+    project_name = "Market Feed"
+    report_filename = f"{start_date.strftime('%Y')}_PROSPECTIVE_REPORT.md"
+    prompt = PROMPT_YEARLY_PROSPECTIVE.format(year=start_date.strftime('%Y'))
   elif mode == 'portfolio':
     if not dir_path or not os.path.exists(dir_path):
       raise ValueError(
           "Portfolio mode requires a valid --dir pointing to the markdown report."
       )
-    project_name = "Market Pipeline: Portfolio Synthesis (Temp)"
+    project_name = "Market Pipeline: Portfolio Synthesis"
     report_filename = os.path.basename(dir_path)
     prompt = PROMPT_PORTFOLIO
   elif mode == 'earnings':
@@ -367,7 +408,7 @@ async def generate_report(market_data_dir: str,
       raise ValueError(
           "Earnings mode requires a valid --dir pointing to the markdown report."
       )
-    project_name = "Market Pipeline: Earnings Synthesis (Temp)"
+    project_name = "Market Pipeline: Earnings Synthesis"
     report_filename = os.path.basename(dir_path)
     prompt = PROMPT_EARNINGS
   elif mode == 'feed_upload':
@@ -384,7 +425,7 @@ async def generate_report(market_data_dir: str,
     async with MarketNewsClient(project_name=project_name) as db:
       await db.connect()
 
-      # Clear sources only for one-off portfolio/earnings to ensure freshness
+      # Clear sources only for one-off temp projects to ensure freshness
       if mode in ['portfolio', 'earnings']:
         await db.clear_sources()
 
@@ -415,7 +456,9 @@ async def generate_report(market_data_dir: str,
 
         from reports.report_utils import build_daily_news_digest
         text_blob, combined_df = build_daily_news_digest(
-            market_data_dir, target_date=target_date_obj)
+            market_data_dir,
+            target_date=target_date_obj,
+            backfill_news=backfill_news)
 
         if not text_blob or combined_df.empty:
           logger.warning(
@@ -452,26 +495,129 @@ async def generate_report(market_data_dir: str,
         logger.info("✅ Uploaded single aggregated file: %s", feed_title)
         return
 
+      elif mode in ['weekly', 'monthly', 'yearly', 'yearly_prospective']:
+        # Ensure strings are not None for type checker
+        if not start_date_str or not end_date_str:
+          raise ValueError(
+              "start_date and end_date cannot be None for periodic reports")
+        target_start = pd.to_datetime(start_date_str).tz_localize(None)
+        target_end = pd.to_datetime(end_date_str).tz_localize(None)
+        feed_title = f"{target_start.strftime('%Y-%m-%d')} to {target_end.strftime('%Y-%m-%d')} Market Synthesis"
+
+        text_blob = None
+        if mode == 'yearly_prospective':
+          raw_year_file = os.path.join(
+              os.path.dirname(os.path.abspath(__file__)), "news",
+              f".{target_start.strftime('%Y')}_prospective_raw.md")
+        else:
+          raw_year_file = os.path.join(
+              os.path.dirname(os.path.abspath(__file__)), "news",
+              f".{target_start.strftime('%Y')}_raw.md")
+
+        combined_df = None
+        if mode in ['yearly', 'yearly_prospective'
+                   ] and os.path.exists(raw_year_file):
+          logger.info(f"Injecting deep raw context from: {raw_year_file}")
+          with open(raw_year_file, "r") as f:
+            text_blob = f.read()
+
+          # Also append TSV data if it exists for the year (e.g. 2025+)
+          if target_start.year >= 2025:
+            from reports.report_utils import build_daily_news_digest
+            tsv_blob, combined_df = build_daily_news_digest(
+                market_data_dir,
+                start_date=target_start,
+                target_date=target_end,
+                backfill_news=backfill_news)
+            if tsv_blob:
+              logger.info(
+                  "Appending scraped TSV market data to deep history context")
+              text_blob += f"\n\n--- ADDITIONAL SCRAPED MARKET DATA ({target_start.year}) ---\n\n{tsv_blob}\n"
+        else:
+          from reports.report_utils import build_daily_news_digest
+          text_blob, combined_df = build_daily_news_digest(
+              market_data_dir,
+              start_date=target_start,
+              target_date=target_end,
+              backfill_news=backfill_news)
+
+        if text_blob:
+          # Deep Fetching for Periodic Reports
+          urls_to_fetch = []
+          full_texts = []
+          if combined_df is not None and not combined_df.empty and 'URL' in combined_df.columns:
+            # Sort to get the most relevant
+            if 'Sentiment' in combined_df.columns:
+              top_df = combined_df.sort_values(by='Sentiment', ascending=False)
+            else:
+              top_df = combined_df
+
+            # Limit deep fetch differently based on period (e.g. Yearly shouldn't fetch 20 URLs, let's keep it to top 10-15)
+            urls_to_fetch = [
+                str(row.get('URL', '')).strip()
+                for _, row in top_df.iterrows()
+                if str(row.get('URL', '')).strip().startswith('http')
+            ][:10]  # Top 10 urls for deep context
+
+            if urls_to_fetch:
+              logger.info(
+                  f"Scraping deep context for {len(urls_to_fetch)} top URLs...")
+              for idx, url in enumerate(urls_to_fetch):
+                text = await MarketFetcher.fetch_article_text(url,
+                                                              max_paragraphs=30)
+                if text and len(text) > 100:
+                  full_texts.append(
+                      f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
+
+          final_market_feed_doc = f"# {feed_title} News Digest\n\n{text_blob}\n\n"
+          if full_texts:
+            final_market_feed_doc += "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
+                full_texts)
+
+          if db.client and hasattr(db.client, 'sources'):
+            logger.info(
+                f"Deduplicating old '{feed_title}' in project '{project_name}'..."
+            )
+            try:
+              sources = await db.client.sources.list(db.notebook_id)
+              for src in sources:
+                if getattr(src, 'title', '') == feed_title:
+                  logger.info("Deleting old periodic feed source (ID: %s)",
+                              src.id)
+                  await db.client.sources.delete(db.notebook_id, src.id)
+            except Exception as e:
+              logger.warning(
+                  f"Could not deduplicate old periodic feed source: {e}")
+          await db.upload_news_text(final_market_feed_doc, title=feed_title)
+          logger.info("✅ Uploaded bounded news text: %s", feed_title)
+
       # Final Prompting
       if prompt:
 
         # Build and Upload Quantitative summary for periodic reports
-        if mode in ['daily', 'weekly', 'monthly', 'yearly']:
-          target_start = pd.to_datetime(start_date_str).tz_localize(
-              None) if start_date_str else None
-          target_end = pd.to_datetime(end_date_str).tz_localize(
-              None) if end_date_str else None
+        if mode in [
+            'daily', 'weekly', 'monthly', 'yearly', 'yearly_prospective'
+        ]:
+          # Use previously parsed target_start/target_end for weekly/monthly/yearly
+          # Or parse anew if daily
+          ts = pd.to_datetime(start_date_str).tz_localize(
+              None).to_pydatetime() if start_date_str else None
+          te = pd.to_datetime(end_date_str).tz_localize(
+              None).to_pydatetime() if end_date_str else None
 
           if mode == 'daily':
-            # Set target_start to 7 days ago if daily to give weekly momentum
-            target_end = target_end or pd.Timestamp.now().tz_localize(None)
-            target_start = target_start or (target_end - pd.Timedelta(days=7))
+            # Set ts to 7 days ago if daily to give weekly momentum
+            if te is None:
+              te = datetime.now()
+            if ts is None:
+              ts = te - timedelta(days=7)
 
-          quant_summary = build_price_analysis_blob(market_data_dir,
-                                                    target_start, target_end)
+          quant_summary = build_price_analysis_blob(market_data_dir, ts, te)
 
           # Deduplicate Quantitative Summary
-          summary_title = "Quantitative Price Action Summary"
+          summary_title = f"{feed_title} - Quantitative Price Action Summary" if 'feed_title' in locals(
+          ) else f"Quantitative Price Action Summary {datetime.now().strftime('%Y-%m-%d')}"
+
           if db.client and hasattr(db.client, 'sources'):
             logger.info(
                 f"Deduplicating old '{summary_title}' in project '{project_name}'..."
@@ -490,19 +636,93 @@ async def generate_report(market_data_dir: str,
 
           # Inject recent historical reports to provide longitudinal context
           historical_context = ""
-          logger.info(
-              "Scanning for recent historical reports to inject as context...")
-          reports_dir = os.path.dirname(os.path.abspath(__file__))
-          recent_reports = []
-          for report_file in os.listdir(reports_dir):
-            if report_file.endswith(
-                ".md") and report_file != "PORTFOLIO_REPORT.md":
-              # Only grab recent reports (last 7 days approx based on file mtime)
-              filepath = os.path.join(reports_dir, report_file)
-              if os.path.isfile(filepath):
-                mtime = os.path.getmtime(filepath)
-                if (datetime.now().timestamp() - mtime) < (7 * 86400):
-                  recent_reports.append((filepath, report_file))
+
+          if mode in ['weekly', 'monthly', 'yearly', 'yearly_prospective']:
+            logger.info(
+                f"Scanning for {mode} recursive sub-reports to inject as context..."
+            )
+            reports_dir = os.path.dirname(os.path.abspath(__file__))
+            news_reports_dir = os.path.join(reports_dir, 'news')
+
+            # Read from reports/news if it exists, otherwise fallback to reports root during transition
+            scan_dirs = [news_reports_dir, reports_dir]
+            recent_reports = []
+
+            for scan_dir in scan_dirs:
+              if not os.path.exists(scan_dir):
+                continue
+              for report_file in os.listdir(scan_dir):
+                if report_file.endswith(
+                    ".md") and report_file != "PORTFOLIO_REPORT.md":
+                  filepath = os.path.join(scan_dir, report_file)
+                  if os.path.isfile(filepath):
+                    # For recursive injection, we check if the file falls within our bounds based on name or timeframe
+                    # A naive approach: just inject files whose timestamp falls into the window
+                    mtime_dt = datetime.fromtimestamp(
+                        os.path.getmtime(filepath))
+
+                    if target_start and target_end:
+                      if target_start <= mtime_dt <= target_end:
+                        recent_reports.append((filepath, report_file))
+                      elif "DAILY" in report_file and mode == "weekly":
+                        date_str = report_file.split("_")[0]  # MM-DD
+                        year = target_start.year
+                        try:
+                          report_dt = datetime.strptime(f"{year}-{date_str}",
+                                                        "%Y-%m-%d")
+                          if target_start <= report_dt <= target_end:
+                            recent_reports.append((filepath, report_file))
+                        except:
+                          pass
+                      elif "WEEKLY" in report_file and mode == "monthly":
+                        date_str = report_file.split("_")[0]  # MM-DD
+                        year = target_start.year
+                        try:
+                          report_dt = datetime.strptime(f"{year}-{date_str}",
+                                                        "%Y-%m-%d")
+                          if target_start <= report_dt <= target_end:
+                            recent_reports.append((filepath, report_file))
+                        except:
+                          pass
+                      elif mode in ['yearly', 'yearly_prospective'
+                                   ] and ("MONTHLY" in report_file or
+                                          "WEEKLY" in report_file):
+                        # Simple naive check: if the file contains the year or was modified in the year
+                        if target_start.strftime(
+                            "%Y"
+                        ) in report_file or mtime_dt.year == target_start.year:
+                          recent_reports.append((filepath, report_file))
+
+            # Deduplicate just to be safe
+            unique_reports = []
+            seen_files = set()
+            for rp in recent_reports:
+              if rp[1] not in seen_files:
+                seen_files.add(rp[1])
+                unique_reports.append(rp)
+            recent_reports = unique_reports
+
+          else:
+            logger.info(
+                "Scanning for recent historical reports to inject as context..."
+            )
+            reports_dir = os.path.dirname(os.path.abspath(__file__))
+            news_reports_dir = os.path.join(reports_dir, 'news')
+            recent_reports = []
+
+            scan_dirs = [news_reports_dir, reports_dir]
+            for scan_dir in scan_dirs:
+              if not os.path.exists(scan_dir):
+                continue
+              for report_file in os.listdir(scan_dir):
+                if report_file.endswith(
+                    ".md") and report_file != "PORTFOLIO_REPORT.md":
+                  # Only grab recent reports (last 7 days approx based on file mtime)
+                  filepath = os.path.join(scan_dir, report_file)
+                  if os.path.isfile(filepath):
+                    mtime = os.path.getmtime(filepath)
+                    if (datetime.now().timestamp() - mtime) < (7 * 86400):
+                      recent_reports.append((filepath, report_file))
 
           # Deduplicate before uploading
           if recent_reports:
@@ -532,8 +752,18 @@ async def generate_report(market_data_dir: str,
         if mode in ['portfolio', 'earnings'] and dir_path:
           output_path: str = dir_path
         else:
-          output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                     report_filename or "report.md")
+          # Daily / Periodic Report output routing
+          reports_dir = os.path.dirname(os.path.abspath(__file__))
+
+          if mode in [
+              'daily', 'weekly', 'monthly', 'yearly', 'yearly_prospective'
+          ]:
+            news_dir = os.path.join(reports_dir, 'news')
+            os.makedirs(news_dir, exist_ok=True)
+            output_path = os.path.join(news_dir, report_filename or "report.md")
+          else:
+            output_path = os.path.join(reports_dir, report_filename or
+                                       "report.md")
 
         # For portfolios: prepend the AI summary to the existing file
         if mode in ['portfolio', 'earnings']:
@@ -598,9 +828,10 @@ if __name__ == "__main__":
   parser = argparse.ArgumentParser(description="NotebookLM Report Generator")
   parser.add_argument("--mode",
                       choices=[
-                          'daily', 'weekly', 'monthly', 'yearly', 'feed_upload',
-                          'report_upload', 'upload', 'list', 'list_sources',
-                          'portfolio', 'earnings'
+                          'daily', 'weekly', 'monthly', 'yearly',
+                          'yearly_prospective', 'feed_upload', 'report_upload',
+                          'upload', 'list', 'list_sources', 'portfolio',
+                          'earnings'
                       ],
                       required=True,
                       help="Type of operation or 'list' to view projects")

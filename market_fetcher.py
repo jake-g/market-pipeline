@@ -116,7 +116,10 @@ SKIP_EARNINGS: List[str] = [
     "BDRY", "COPX", "XLU",
 
     # ADRs / Foreign Listings (Irregular Financials)
-    "ASML", "BHP", "BITF", "GOLD", "HUT", "NEM", "RIO", "TSM"
+    "ASML", "BHP", "BITF", "GOLD", "HUT", "NEM", "RIO", "TSM",
+
+    # Corporate Exclusions (Missing/Empty Financials)
+    "AWX", "BAH", "BB", "VSAT"
 ]
 
 # Tickers to skip for Insider Trading (ETFs, Indices, OTC)
@@ -127,8 +130,9 @@ SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "ZIM",
     # Specific Corporate Exclusions (Missing/404 on SEC Edgar or no CIK mapping)
     # Note: Even with CIK overrides, some of these may fail depending on SEC database availability
-    "ALB", "AMGN", "BSX", "CORZ", "FLNC", "FRO", "LDOS", "LLY", "LMT",
-    "MA", "MATX", "MNDY", "O", "PFE", "PLD", "SMCI", "SO", "SQM", "UPS", "V", "VRT"
+    "ALB", "AMGN", "AWK", "BSX", "CORZ", "CWCO", "DD", "ESLT", "FLNC", "FRO",
+    "LDOS", "LLY", "LMT", "MA", "MATX", "MNDY", "O", "PFE", "PLD", "SMCI", "SO",
+    "SQM", "UPS", "V", "VRT", "XYL"
 ]
 # yapf: enable
 
@@ -1270,16 +1274,17 @@ class MarketFetcher:
     # Deduplicate by URL only if URL is present and valid
     # Replace empty string URLs with NaN to prevent dropping all empty-URL rows
     combined['URL'] = combined['URL'].replace('', pd.NA)
-    
+
     # Identify rows with valid URLs to deduplicate
     valid_url_mask = combined['URL'].notna()
-    
+
     # Deduplicate the rows with URLs
     if valid_url_mask.any():
-        deduped_valid = combined[valid_url_mask].drop_duplicates(subset=['URL'], keep='last')
-        # Combine back with the rows lacking URLs
-        combined = pd.concat([deduped_valid, combined[~valid_url_mask]])
-    
+      deduped_valid = combined[valid_url_mask].drop_duplicates(subset=['URL'],
+                                                               keep='last')
+      # Combine back with the rows lacking URLs
+      combined = pd.concat([deduped_valid, combined[~valid_url_mask]])
+
     # Fill NaN URLs back to empty string
     combined['URL'] = combined['URL'].fillna('')
 

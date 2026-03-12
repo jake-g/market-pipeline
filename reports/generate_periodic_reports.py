@@ -13,24 +13,69 @@ import pandas as pd
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
-from notebooklm_client import MarketNewsClient
+from reports.notebooklm_client import MarketNewsClient
 from reports.notebooklm_report import generate_report
 from reports.report_utils import get_recent_news
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 logger = logging.getLogger(__name__)
 
-REPORTS_DIR = os.path.join(os.path.dirname(__file__), "rendered")
+REPORTS_DIR = os.path.dirname(os.path.abspath(__file__))
+NEWS_DIR = os.path.join(REPORTS_DIR, "news")
+RENDERED_DIR = os.path.join(REPORTS_DIR, "rendered")
 
 
 def is_report_missing(filename: str) -> bool:
   """Checks if the corresponding .pdf or .md file is missing from the reports structure."""
-  pdf_path = os.path.join(REPORTS_DIR, filename.replace('.md', '.pdf'))
-  md_path = os.path.join(os.path.dirname(REPORTS_DIR), filename)
+  pdf_path = os.path.join(RENDERED_DIR, filename.replace('.md', '.pdf'))
+  md_path = os.path.join(NEWS_DIR, filename)  # New location in reports/news/
   return not (os.path.exists(pdf_path) and os.path.exists(md_path))
 
 
-def generate_monthly_reports(start_year: int = 2026):
+def generate_yearly_reports(start_year: int = 2024,
+                            end_year: int = 2025,
+                            dry_run: bool = False):
+  """Generates missing yearly reports for the specified range."""
+
+  for year in range(start_year, end_year + 1):
+    filename = f"{year}_YEARLY_REPORT.md"
+    start_date_str = f"{year}-01-01"
+    end_date_str = f"{year}-12-31"
+
+    if is_report_missing(filename):
+      logger.info(f"Missing Yearly Report found: {filename}")
+      if not dry_run:
+        asyncio.run(
+            generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                            mode="yearly",
+                            start_date_str=start_date_str,
+                            end_date_str=end_date_str,
+                            backfill_news=False))
+    else:
+      logger.debug(f"Yearly report present: {filename}")
+
+
+def generate_prospective_reports(target_year: int = 2026,
+                                 dry_run: bool = False):
+  """Generates a prospective report for the given year."""
+  filename = f"{target_year}_PROSPECTIVE_REPORT.md"
+  start_date_str = f"{target_year}-01-01"
+  end_date_str = f"{target_year}-12-31"
+
+  if is_report_missing(filename):
+    logger.info(f"Missing Prospective Report found: {filename}")
+    if not dry_run:
+      asyncio.run(
+          generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                          mode="yearly_prospective",
+                          start_date_str=start_date_str,
+                          end_date_str=end_date_str,
+                          backfill_news=False))
+  else:
+    logger.debug(f"Prospective report present: {filename}")
+
+
+def generate_monthly_reports(start_year: int = 2025, dry_run: bool = False):
   """Generates missing monthly reports from the start year up to the LAST completed month."""
   today = datetime.date.today()
   # Only consider fully completed months
@@ -41,25 +86,26 @@ def generate_monthly_reports(start_year: int = 2026):
     next_month = current + relativedelta(months=1)
     last_day_of_month = next_month - relativedelta(days=1)
 
-    filename = f"{current.strftime('%Y-%m')}_MONTHLY_REPORT.md"
+    filename = f"{current.strftime('%m')}_MONTHLY_REPORT.md"
     if is_report_missing(filename):
       logger.info(f"Missing Monthly Report found: {filename}")
 
-      logger.info(
-          f"Executing native python call for monthly: {current.strftime('%Y-%m-%d')} to {last_day_of_month.strftime('%Y-%m-%d')}"
-      )
-      asyncio.run(
-          generate_report(market_data_dir=config.MARKET_DATA_DIR,
-                          mode="monthly",
-                          start_date_str=current.strftime("%Y-%m-%d"),
-                          end_date_str=last_day_of_month.strftime("%Y-%m-%d")))
+      if not dry_run:
+        asyncio.run(
+            generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                            mode="monthly",
+                            start_date_str=current.strftime("%Y-%m-%d"),
+                            end_date_str=last_day_of_month.strftime("%Y-%m-%d"),
+                            backfill_news=False))
     else:
       logger.debug(f"Monthly report present: {filename}")
 
     current = next_month
 
 
-def generate_weekly_reports(start_year: int = 2026, start_month: int = 3):
+def generate_weekly_reports(start_year: int = 2026,
+                            start_month: int = 3,
+                            dry_run: bool = False):
   """
   Generates missing weekly reports starting from the specified year/month
   up to the LAST completed week (Sunday to Saturday).
@@ -77,35 +123,60 @@ def generate_weekly_reports(start_year: int = 2026, start_month: int = 3):
   while True:
     week_end = current_date + datetime.timedelta(days=6)  # Saturday
 
-    # If the end of this week is in the future, the week isn't "over" yet
+    # If the end of this week is in the future, we still want to skip it, but maybe break if it's too far out
     if week_end >= today:
+      # If the start of the week is also >= today, we're fully in the future, break
+      if current_date >= today:
+        break
+      # Otherwise, this is the CURRENT incomplete week, just break because we only want fully completed weeks
       break
 
     filename = f"{week_end.strftime('%m-%d')}_WEEKLY_REPORT.md"
     if is_report_missing(filename):
       logger.info(f"Missing Weekly Report found: {filename}")
 
-      logger.info(
-          f"Executing native python call for weekly: {current_date.strftime('%Y-%m-%d')} to {week_end.strftime('%Y-%m-%d')}"
-      )
-      asyncio.run(
-          generate_report(market_data_dir=config.MARKET_DATA_DIR,
-                          mode="weekly",
-                          start_date_str=current_date.strftime("%Y-%m-%d"),
-                          end_date_str=week_end.strftime("%Y-%m-%d")))
+      if not dry_run:
+        asyncio.run(
+            generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                            mode="weekly",
+                            start_date_str=current_date.strftime("%Y-%m-%d"),
+                            end_date_str=week_end.strftime("%Y-%m-%d"),
+                            backfill_news=False))
     else:
       logger.debug(f"Weekly report present: {filename}")
 
     current_date += datetime.timedelta(days=7)
 
 
-def generate_daily_report():
-  """Generates the standard daily report for the current day."""
-  logger.info("Generating Daily Report...")
+def generate_daily_reports(start_date: str = "2026-03-06",
+                           dry_run: bool = False):
+  """Generates missing daily reports starting from the specified date (skipping weekends)."""
+  try:
+    current_date = datetime.datetime.strptime(start_date, "%Y-%m-%d").date()
+  except ValueError:
+    current_date = datetime.date(2026, 3, 6)
 
-  logger.info("Executing native python call for daily report")
-  asyncio.run(
-      generate_report(market_data_dir=config.MARKET_DATA_DIR, mode="daily"))
+  today = datetime.date.today()
+
+  while current_date <= today:
+    # Skip Weekends (Saturday=5, Sunday=6)
+    if current_date.weekday() < 5:
+      filename = f"{current_date.strftime('%m-%d')}_DAILY_REPORT.md"
+
+      # We consider daily reports generated *for* that day to be represented by the filename
+      # The global project requires just the limit date.
+      if is_report_missing(filename):
+        logger.info(f"Missing Daily Report found: {filename}")
+        if not dry_run:
+          asyncio.run(
+              generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                              mode="daily",
+                              start_date_str=current_date.strftime("%Y-%m-%d"),
+                              backfill_news=False))
+      else:
+        logger.debug(f"Daily report present: {filename}")
+
+    current_date += datetime.timedelta(days=1)
 
 
 def main():
@@ -119,26 +190,50 @@ def main():
   parser.add_argument(
       "--weekly-start-month",
       type=str,
-      default="2026-03",
+      default="2026-01",
       help="YYYY-MM to begin checking for missing weekly reports.")
   parser.add_argument("--dry-run",
                       action="store_true",
                       help="Print what would be generated without executing.")
 
+  parser.add_argument("--only-daily",
+                      action="store_true",
+                      help="Only generate daily reports.")
+  parser.add_argument("--only-weekly",
+                      action="store_true",
+                      help="Only generate weekly reports.")
+  parser.add_argument("--only-monthly",
+                      action="store_true",
+                      help="Only generate monthly reports.")
+  parser.add_argument("--only-prospective",
+                      action="store_true",
+                      help="Only generate prospective reports.")
   args = parser.parse_args()
 
   logger.info("==========================================")
   logger.info("Scanning for missing Historical NotebookLM Reports...")
   logger.info("==========================================\n")
 
-  # 2. Backfill any missing historical scopes
-  generate_monthly_reports(start_year=args.monthly_start_year)
+  run_all = not (args.only_daily or args.only_weekly or args.only_monthly or
+                 args.only_prospective)
 
-  parts = args.weekly_start_month.split('-')
-  generate_weekly_reports(start_year=int(parts[0]), start_month=int(parts[1]))
+  if run_all or args.only_daily:
+    generate_daily_reports(start_date="2026-03-06", dry_run=args.dry_run)
 
-  # 3. Generate the daily rollout
-  generate_daily_report()
+  if run_all or args.only_weekly:
+    parts = args.weekly_start_month.split('-')
+    generate_weekly_reports(start_year=int(parts[0]),
+                            start_month=int(parts[1]),
+                            dry_run=args.dry_run)
+
+  if run_all or args.only_monthly:
+    current_year = datetime.date.today().year
+    for y in range(2026, current_year + 1):
+      generate_monthly_reports(start_year=y, dry_run=args.dry_run)
+
+  if run_all or args.only_prospective:
+    current_year = datetime.date.today().year
+    generate_prospective_reports(target_year=current_year, dry_run=args.dry_run)
 
   logger.info("\n✅ Periodic report generation sweep complete.")
 

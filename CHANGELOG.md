@@ -5,6 +5,14 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.5.1] - 2026-03-12
+### Periodic Report Infrastructure & Historical Backfill
+- **Fully Bounded Synthesis Contexts**: Eliminated duplicate periodic report hallucination across timeframes. `notebooklm_report.py` now mounts tightly-scoped, temporary Google NotebookLM projects specific to the generation period (e.g. only uploading one week of data at a time for weekly reports).
+- **Deep Historical Scraping**: Built robust web history fetching mechanism (`backfill_historical_data.py`) querying DuckDuckGo to extract broad technological and macroeconomic summaries for years 2018-2025.
+- **Recursive Generation Hierarchy**: Periodic generation commands explicitly upload preceding/smaller reports into the NotebookLM context window (e.g., monthlies embed weeklies) to compound quantitative fidelity upwards securely.
+- **2026 Prospective Generation**: Added a `--only-prospective` pipeline sweep leveraging historical context to project forward-looking institutional insights.
+- **Clean Output Architecture**: All intermediate Markdown generation is now isolated strictly to `reports/news/` while final scaled PDFs output uniformly into `reports/rendered/`.
+
 ## [v1.5.0] - 2026-03-10
 ### Agentic NotebookLM Integration
 - **Unified Pipeline (`notebooklm_report.py`)**: Centralized CLI for generating daily, weekly, monthly, and yearly insights via Google NotebookLM, with segregated ingestion targets ("Market Reports" and "Market Feed").
