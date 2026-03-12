@@ -44,7 +44,7 @@ NEWS_TOPICS =[
     "Energy", "Oil", "OPEC", "Nuclear Energy", "Uranium", "Natural Gas",
     "Power Grid", "Renewable Energy", "Commodities", "Electricity Demand",
     "AI Energy Demand", "Small Modular Reactors", "Copper Demand",
-    "Battery Storage", "Grid Modernization",
+    "Battery Storage", "Grid Modernization", "Desalination", "Water Security",
 
     # Supply Chain, Chips & Shipping
     "Supply Chain", "Shipping", "Logistics", "Freight", "Container Rates",
@@ -60,7 +60,8 @@ NEWS_TOPICS =[
     "Inflation", "Federal Reserve", "Interest Rates", "Recession", "GDP",
     "Geopolitics", "War", "OPEC+", "Sanctions", "Tariffs", "Trade War", "US Economy",
     "Global Markets", "Bitcoin ETF", "GLP-1 Weight Loss", "De-dollarization",
-    "Commercial Real Estate", "US Debt", "Crypto Regulation", "Tokenization"
+    "Commercial Real Estate", "US Debt", "Crypto Regulation", "Tokenization",
+    "LUCAS", "Drones",  "Attritable Mass", "Hormuz"
 ]
 
 # Sectors & Tickers
@@ -87,10 +88,10 @@ SECTORS = {
         "XOM", "CVX", "CCJ", "NEE", "XLE", "FSLR", "SHEL", "TTE", "BP", "COP",
         "EOG", "SLB", "HAL", "URA", "D", "ES", "VST", "CEG", "CNP", "SO",
         "GE", "GEV", "ETN", "PWR", "LIN", "WM", "VDE", "FENY", "VPU", "FUTY",
-        "NLR", "ENPH", "FLNC"
+        "NLR", "ENPH", "FLNC", "KULR"
     ],
     "Aerospace & Defense": [
-        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS"
+        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT"
     ],
     "Crypto & Minerals": [
         "BTC-USD", "ETH-USD", "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM",
@@ -108,6 +109,9 @@ SECTORS = {
     "Bio & MedTech": [
         "NVO", "LLY", "ISRG", "VRTX", "REGN", "SYK", "VHT", "AMGN", "ABBV",
         "PFE", "MRK", "JNJ", "BSX", "MDT", "TMO"
+    ],
+    "Water & Desalination": [
+        "AWK", "XYL", "CWCO", "AWX", "DD",
     ],
     "Consumer & Finance": [
         "CMG", "WMT", "COST", "DE", "BLK", "V", "MA", "JPM", "VDC", "HD",

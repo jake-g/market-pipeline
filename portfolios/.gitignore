@@ -1,9 +1,9 @@
 # Manually allow example data to be pushed to git
-!*example*.tsv
+!tsvs/example_active_account.tsv
+!tsvs/example_inactive_trust.tsv
 !portfolio_example.json
 
 # Ignore Portfolio specific (assume private)
 *.tsv
 *.json
 plots/
-tsvs/
