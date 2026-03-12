@@ -5,7 +5,7 @@ address1	301 Water Street SE
 address2	Suite 200
 allTimeHigh	154.27
 allTimeLow	22.43
-ask	130.99
+ask	0.0
 askSize	200
 auditRisk	1
 averageAnalystRating	1.9 - Buy
@@ -14,7 +14,7 @@ averageDailyVolume3Month	1654920
 averageVolume	1654920
 averageVolume10days	2060110
 beta	1.169
-bid	117.57
+bid	0.0
 bidSize	400
 boardRisk	2
 bookValue	47.13
@@ -37,7 +37,7 @@ discount_to_intrinsic_value	18.09
 displayName	Xylem
 dividendDate	1774310400
 dividendRate	1.72
-dividendYield	1.4
+dividendYield	1.41
 earningsCallTimestampEnd	1770732000
 earningsCallTimestampStart	1770732000
 earningsGrowth	0.03
@@ -102,7 +102,7 @@ longBusinessSummary	Xylem Inc., together with its subsidiaries, engages in the d
 longName	Xylem Inc.
 market	us_market
 marketCap	29788438528
-marketState	POSTPOST
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_118218449
 mostRecentQuarter	1767139200
@@ -115,6 +115,7 @@ operatingCashflow	1240999936
 operatingMargins	0.15978
 overallRisk	2
 payoutRatio	0.4082
+pegRatio	1.774
 phone	202-869-9150
 postMarketChange	-1.4399948
 postMarketChangePercent	-1.1769471

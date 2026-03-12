@@ -32,7 +32,7 @@ dateShortInterest	1772150400
 dayHigh	171.76
 dayLow	160.585
 debtToEquity	432.511
-discount_to_intrinsic_value	52.01
+discount_to_intrinsic_value	47.59
 displayName	Oracle
 dividendDate	1769126400
 dividendRate	2.0
@@ -50,8 +50,8 @@ enterpriseToEbitda	20.624
 enterpriseToRevenue	8.878
 enterpriseValue	541715628032
 epsCurrentYear	7.39455
-epsForward	7.9447
-epsTrailingTwelveMonths	5.81
+epsForward	7.94164
+epsTrailingTwelveMonths	5.32
 eps_normalized_growth	0.6969470249794285
 esgPopulated	False
 exDividendDate	1767916800
@@ -75,14 +75,14 @@ financialCurrency	USD
 firstTradeDateMilliseconds	511021800000
 fiveYearAvgDividendYield	1.29
 floatShares	1706438101
-forwardEps	7.9447
-forwardPE	20.531927
+forwardEps	7.94164
+forwardPE	20.539837
 freeCashflow	-10208000000
 fullExchangeName	NYSE
 fullTimeEmployees	162000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	339.88
+graham_intrinsic_value	311.22
 grossMargins	0.68543
 grossProfits	41821999104
 hasPrePostMarketData	True
@@ -118,10 +118,10 @@ operatingMargins	0.31997
 overallRisk	10
 payoutRatio	0.35709998
 phone	(737) 867-1000
-postMarketChange	-2.5599976
-postMarketChangePercent	-1.5693953
-postMarketPrice	160.56
-postMarketTime	1773273187
+postMarketChange	-2.519989
+postMarketChangePercent	-1.5448682
+postMarketPrice	160.6
+postMarketTime	1773272621
 previousClose	149.4
 priceEpsCurrentYear	22.05949
 priceHint	2
@@ -163,7 +163,7 @@ shortRatio	1.03
 sourceInterval	15
 state	TX
 symbol	ORCL
-syntheticPEG	0.22587378437843783
+syntheticPEG	0.225960803080308
 targetHighPrice	400.0
 targetLowPrice	155.0
 targetMeanPrice	248.54974
@@ -175,8 +175,8 @@ totalRevenue	61015998464
 tradeable	False
 trailingAnnualDividendRate	2.0
 trailingAnnualDividendYield	0.013386881
-trailingEps	5.81
-trailingPE	28.075731
+trailingEps	5.32
+trailingPE	30.661652
 trailingPegRatio	1.1782
 triggerable	True
 twoHundredDayAverage	220.3118

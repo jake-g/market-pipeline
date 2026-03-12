@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-11 |
+| Date | str | 2026-03-12 |
 | Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | FCC Says Amazon Must Focus on Its Own Buildout,... |
-| Summary | str | As one of the most valuable companies on Earth,... |
-| URL | str | https://news.google.com/rss/articles/CBMirAFBVV... |
+| Sentiment | float64 | 0.5 |
+| Headline | str | It’s My Job to Shop for Kitchen Gadgets, and Th... |
+| Summary | str | Uber just announced a partnership with Zoox, Am... |
+| URL | str | https://news.google.com/rss/articles/CBMihAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

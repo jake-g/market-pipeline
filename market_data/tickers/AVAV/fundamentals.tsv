@@ -13,6 +13,7 @@ averageDailyVolume10Day	3658720
 averageDailyVolume3Month	1779789
 averageVolume	1779789
 averageVolume10days	3658720
+beta	1.259
 bid	205.5
 bidSize	4
 boardRisk	5
@@ -44,8 +45,8 @@ enterpriseToEbitda	84.223
 enterpriseToRevenue	6.59
 enterpriseValue	10611819520
 epsCurrentYear	2.87204
-epsForward	4.02792
-epsTrailingTwelveMonths	-1.14
+epsForward	4.04805
+epsTrailingTwelveMonths	-1.23
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	0
@@ -66,8 +67,8 @@ fiftyTwoWeekRange	102.25 - 417.86
 financialCurrency	USD
 firstTradeDateMilliseconds	1169562600000
 floatShares	37410606
-forwardEps	4.02792
-forwardPE	51.572525
+forwardEps	4.04805
+forwardPE	51.316067
 freeCashflow	-332336128
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1456
@@ -89,7 +90,7 @@ longBusinessSummary	AeroVironment, Inc. designs, develops, produces, delivers, a
 longName	AeroVironment, Inc.
 market	us_market
 marketCap	10372417536
-marketState	POSTPOST
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_1674636
 mostRecentQuarter	1769817600
@@ -102,6 +103,7 @@ operatingCashflow	-174180992
 operatingMargins	-0.06796
 overallRisk	4
 payoutRatio	0.0
+pegRatio	1.565
 phone	703 418 2828
 postMarketChange	-2.8300018
 postMarketChangePercent	-1.3623463
@@ -148,7 +150,7 @@ shortRatio	2.02
 sourceInterval	15
 state	VA
 symbol	AVAV
-syntheticPEG	0.3596410390516039
+syntheticPEG	0.3578526290097629
 targetHighPrice	450.0
 targetLowPrice	235.0
 targetMeanPrice	318.87708
@@ -160,7 +162,7 @@ totalRevenue	1610279040
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-1.14
+trailingEps	-1.23
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	274.49585
