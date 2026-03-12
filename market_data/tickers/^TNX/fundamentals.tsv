@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	4.1540003
-dayLow	4.104
+dayHigh	4.226
+dayLow	4.165
 esgPopulated	False
 exchange	CGI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
 fiftyDayAverage	4.37796
-fiftyDayAverageChange	-0.24196005
-fiftyDayAverageChangePercent	-0.05526776
+fiftyDayAverageChange	-0.16996002
+fiftyDayAverageChangePercent	-0.03882174
 fiftyTwoWeekChangePercent	29.821074
 fiftyTwoWeekHigh	4.997
-fiftyTwoWeekHighChange	-0.86100006
-fiftyTwoWeekHighChangePercent	-0.1723034
+fiftyTwoWeekHighChange	-0.78900003
+fiftyTwoWeekHighChangePercent	-0.15789473
 fiftyTwoWeekLow	3.345
-fiftyTwoWeekLowChange	0.7910001
-fiftyTwoWeekLowChangePercent	0.23647238
+fiftyTwoWeekLowChange	0.86300015
+fiftyTwoWeekLowChangePercent	0.25799707
 fiftyTwoWeekRange	3.345 - 4.997
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
@@ -42,20 +42,20 @@ market	usir_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	4.132
+open	4.177
 previousClose	4.136
 priceHint	4
 quoteType	INDEX
 region	US
-regularMarketChange	0.0
-regularMarketChangePercent	0.0
-regularMarketDayHigh	4.1540003
-regularMarketDayLow	4.104
-regularMarketDayRange	4.104 - 4.1540003
-regularMarketOpen	4.132
+regularMarketChange	0.07200003
+regularMarketChangePercent	1.740813
+regularMarketDayHigh	4.226
+regularMarketDayLow	4.165
+regularMarketDayRange	4.165 - 4.226
+regularMarketOpen	4.177
 regularMarketPreviousClose	4.136
-regularMarketPrice	4.136
-regularMarketTime	1773169195
+regularMarketPrice	4.208
+regularMarketTime	1773255594
 regularMarketVolume	0
 shortName	CBOE Interest Rate 10 Year T No
 sourceInterval	15
@@ -64,7 +64,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	4.307575
-twoHundredDayAverageChange	-0.17157507
-twoHundredDayAverageChangePercent	-0.03983101
+twoHundredDayAverageChange	-0.09957504
+twoHundredDayAverageChangePercent	-0.023116263
 typeDisp	Index
 volume	0

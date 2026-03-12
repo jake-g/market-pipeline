@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.08596575 |
+| Value | str | 0.07763088 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (198 more) | | |
+| ... (146 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-10 |
+| Date | str | 2026-03-11 |
 | Source | str | Google |
-| Sentiment | float64 | 0.7 |
-| Headline | str | Amazon is selling a gorgeous 3-piece boho quilt... |
-| Summary | str | Find insight on FedEx, UPS, Canadian travel and... |
-| URL | str | https://news.google.com/rss/articles/CBMihwFBVV... |
+| Sentiment | float64 | 0.6 |
+| Headline | str | FCC Says Amazon Must Focus on Its Own Buildout,... |
+| Summary | str | As one of the most valuable companies on Earth,... |
+| URL | str | https://news.google.com/rss/articles/CBMirAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -64,12 +64,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - Topic News
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2025-12-18 |
+| Date | str | 2025-12-02 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | Global Memory Shortage Crisis: Market Analysis ... |
+| Headline | str | The AI frenzy is driving a memory chip supply c... |
 | Summary | float64 | nan |
-| URL | str | https://news.google.com/rss/articles/CBMi6AFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMioAFBVV... |
 
 ## 2. Macro Files
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
@@ -87,7 +87,5 @@ This report documents the file structures and column data types used in `market_
 | UNRATE | float64 | 4.4 |
 | HOUSING_STARTS | float64 | 1404.0 |
 | RECESSION_PROB | float64 | 0.8 |
-| CPI | float64 | 326.588 |
+| CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.57 |
-| US10Y | float64 | 4.13 |
