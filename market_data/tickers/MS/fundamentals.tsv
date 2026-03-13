@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.4100877
-SandP52WeekChange	0.2111299
+52WeekChange	0.440634
+SandP52WeekChange	0.22716212
 address1	1585 Broadway
 allTimeHigh	192.68
 allTimeLow	6.71
-ask	158.75
-askSize	300
+ask	155.0
+askSize	100
 auditRisk	5
 averageAnalystRating	2.4 - Buy
-averageDailyVolume10Day	7553060
-averageDailyVolume3Month	6964506
-averageVolume	6964506
-averageVolume10days	7553060
+averageDailyVolume10Day	7388420
+averageDailyVolume3Month	6972822
+averageVolume	6972822
+averageVolume10days	7388420
 beta	1.207
-bid	160.86
-bidSize	500
+bid	153.0
+bidSize	300
 boardRisk	6
 bookValue	64.367
 city	New York
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	160.89
+currentPrice	154.37
 currentRatio	2.053
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	161.755
-dayLow	157.85
+dayHigh	156.25
+dayLow	152.8
 debtToEquity	455.747
-discount_to_intrinsic_value	67.59
+discount_to_intrinsic_value	68.9
 dividendDate	1770940800
 dividendRate	4.0
 dividendYield	2.49
@@ -44,10 +44,10 @@ earningsTimestamp	1776256200
 earningsTimestampEnd	1776256200
 earningsTimestampStart	1776256200
 ebitdaMargins	0.0
-enterpriseToRevenue	2.547
-enterpriseValue	179035521024
-epsCurrentYear	11.36204
-epsForward	12.30444
+enterpriseToRevenue	2.403
+enterpriseValue	168904982528
+epsCurrentYear	11.35878
+epsForward	12.3043
 epsTrailingTwelveMonths	10.22
 eps_normalized_growth	0.2003369257293055
 esgPopulated	False
@@ -57,23 +57,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	177.5236
-fiftyDayAverageChange	-16.633606
-fiftyDayAverageChangePercent	-0.093697995
-fiftyTwoWeekChangePercent	41.00877
+fiftyDayAverage	177.104
+fiftyDayAverageChange	-22.734009
+fiftyDayAverageChangePercent	-0.12836531
+fiftyTwoWeekChangePercent	44.0634
 fiftyTwoWeekHigh	192.68
-fiftyTwoWeekHighChange	-31.789993
-fiftyTwoWeekHighChangePercent	-0.16498855
+fiftyTwoWeekHighChange	-38.309998
+fiftyTwoWeekHighChangePercent	-0.19882707
 fiftyTwoWeekLow	94.33
-fiftyTwoWeekLowChange	66.56
-fiftyTwoWeekLowChangePercent	0.70560795
+fiftyTwoWeekLowChange	60.039993
+fiftyTwoWeekLowChangePercent	0.63648885
 fiftyTwoWeekRange	94.33 - 192.68
 financialCurrency	USD
 firstTradeDateMilliseconds	730477800000
 fiveYearAvgDividendYield	2.96
 floatShares	1206345034
-forwardEps	12.30444
-forwardPE	13.075768
+forwardEps	12.3043
+forwardPE	12.54602
 fullExchangeName	NYSE
 fullTimeEmployees	83000
 gmtOffSetMilliseconds	-14400000
@@ -83,7 +83,7 @@ grossMargins	0.87059
 grossProfits	61198999552
 hasPrePostMarketData	True
 heldPercentInsiders	0.23969999
-heldPercentInstitutions	0.62711
+heldPercentInstitutions	0.62714
 impliedSharesOutstanding	1587860206
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -91,7 +91,7 @@ industryKey	capital-markets
 irWebsite	http://www.morganstanley.com/about/ir/index.html
 isEarningsDateEstimate	False
 language	en-US
-lastDividendDate	1761868800
+lastDividendDate	1769731200
 lastDividendValue	1.0
 lastFiscalYearEnd	1767139200
 lastSplitDate	948931200
@@ -99,30 +99,30 @@ lastSplitFactor	2:1
 longBusinessSummary	Morgan Stanley, a financial holding company, provides various financial products and services to corporations, governments, financial institutions, and individuals in the Americas, Asia, Europe, the Middle East, and Africa. It operates through Institutional Securities, Wealth Management, and Investment Management segments. The company offers capital raising and financial advisory services, including services related to the underwriting of debt, equity securities, and other products, as well as advice on mergers and acquisitions, restructurings, and project finance. It also provides equity and fixed income products comprising sales, financing, prime brokerage, and market-making services; Asia wealth management; business-related investments services; originating corporate and commercial real estate loans, secured lending facilities, and extending securities-based and other financing; and research activities. In addition, the company offers financial advisor-led brokerage, investment advisory, custody, cash management, and administrative services; self-directed brokerage services; financial and wealth planning services; stock plan administration; securities-based lending, residential real estate loans, and other lending products; banking; and retirement plan services. Further, it provides equity, fixed income, alternatives and solutions, and liquidity and overlay services to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors, corporations, and individuals. Morgan Stanley was founded in 1924 and is headquartered in New York, New York.
 longName	Morgan Stanley
 market	us_market
-marketCap	255470829568
-marketState	POST
+marketCap	245117976576
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_472898
 mostRecentQuarter	1767139200
 netIncomeToCommon	16248999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	255248528114
+nonDilutedMarketCap	255470828543
 numberOfAnalystOpinions	21
-open	160.0
+open	154.37
 operatingCashflow	-17888999424
 operatingMargins	0.38625
 overallRisk	7
 payoutRatio	0.3771
 phone	212 761 4000
-postMarketChange	-3.6399994
-postMarketChangePercent	-2.262415
-postMarketPrice	157.25
-postMarketTime	1773272561
-previousClose	160.75
-priceEpsCurrentYear	14.16031
+postMarketChange	0.6300049
+postMarketChangePercent	0.40811357
+postMarketPrice	155.0
+postMarketTime	1773359972
+previousClose	160.89
+priceEpsCurrentYear	13.590367
 priceHint	2
-priceToBook	2.499573
-priceToSalesTrailing12Months	3.6342156
+priceToBook	2.3982787
+priceToSalesTrailing12Months	3.4869404
 profitMargins	0.23986
 quickRatio	1.673
 quoteSourceName	Nasdaq Real Time Price
@@ -130,16 +130,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.36
 region	US
-regularMarketChange	0.139999
-regularMarketChangePercent	0.0870914
-regularMarketDayHigh	161.755
-regularMarketDayLow	157.85
-regularMarketDayRange	157.85 - 161.755
-regularMarketOpen	160.0
-regularMarketPreviousClose	160.75
-regularMarketPrice	160.89
-regularMarketTime	1773259261
-regularMarketVolume	5360648
+regularMarketChange	-6.52
+regularMarketChangePercent	-4.05246
+regularMarketDayHigh	156.25
+regularMarketDayLow	152.8
+regularMarketDayRange	152.8 - 156.25
+regularMarketOpen	154.37
+regularMarketPreviousClose	160.89
+regularMarketPrice	154.37
+regularMarketTime	1773345602
+regularMarketVolume	11033564
 returnOnAssets	0.012920001
 returnOnEquity	0.15614
 revenueGrowth	0.11
@@ -159,7 +159,7 @@ shortRatio	2.0
 sourceInterval	15
 state	NY
 symbol	MS
-syntheticPEG	0.6316796135265701
+syntheticPEG	0.6060879227053141
 targetHighPrice	221.0
 targetLowPrice	148.0
 targetMeanPrice	195.80952
@@ -170,15 +170,15 @@ totalDebt	513408008192
 totalRevenue	70296002560
 tradeable	False
 trailingAnnualDividendRate	3.925
-trailingAnnualDividendYield	0.024416797
+trailingAnnualDividendYield	0.02439555
 trailingEps	10.22
-trailingPE	15.7426605
-trailingPegRatio	1.8335
+trailingPE	15.104696
+trailingPegRatio	1.8351
 triggerable	True
-twoHundredDayAverage	158.54265
-twoHundredDayAverageChange	2.347351
-twoHundredDayAverageChangePercent	0.014805802
+twoHundredDayAverage	158.7158
+twoHundredDayAverageChange	-4.34581
+twoHundredDayAverageChangePercent	-0.02738108
 typeDisp	Equity
-volume	5360648
+volume	11033564
 website	https://www.morganstanley.com
 zip	10036

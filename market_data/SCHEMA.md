@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.07763088 |
+| Value | str | 0.09675586 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-12 |
-| Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | It’s My Job to Shop for Kitchen Gadgets, and Th... |
-| Summary | str | Uber just announced a partnership with Zoox, Am... |
-| URL | str | https://news.google.com/rss/articles/CBMihAFBVV... |
+| Date | str | 2026-03-13 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.018 |
+| Headline | str | Jeff Bezos's EV Bet Just Got New CEO — And The ... |
+| Summary | str | Backed by Jeff Bezos, Slate Auto is looking to ... |
+| URL | str | https://finance.yahoo.com/news/jeff-bezoss-ev-b... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
