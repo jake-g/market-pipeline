@@ -1,38 +1,38 @@
 Metric	Value
-52WeekChange	0.21000707
-SandP52WeekChange	0.22716212
+52WeekChange	0.1782043
+SandP52WeekChange	0.1833111
 address1	Regatta Office Park
 address2	Windward Three, 4th Floor West Bay Road PO Box 1114
 allTimeHigh	39.12
 allTimeLow	1.5
-ask	34.62
-askSize	1
+ask	44.19
+askSize	2
 auditRisk	9
-averageDailyVolume10Day	112020
-averageDailyVolume3Month	80271
-averageVolume	80271
-averageVolume10days	112020
+averageDailyVolume10Day	113600
+averageDailyVolume3Month	81438
+averageVolume	81438
+averageVolume10days	113600
 beta	0.498
-bid	34.13
-bidSize	1
+bid	25.12
+bidSize	2
 boardRisk	4
 bookValue	13.832
 city	Grand Cayman
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Frederick W. McTaggart', 'age': 62, 'title': 'CEO, President & Director', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 1181320, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David W. Sasnett CPA', 'age': 68, 'title': 'Executive VP & CFO', 'yearBorn': 1957, 'fiscalYear': 2024, 'totalPay': 641008, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ramjeet  Jerrybandan', 'age': 57, 'title': 'Executive VP, COO & Company Secretary', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 651693, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Douglas R. Vizzini CPA', 'age': 57, 'title': 'Vice President of Finance & Assistant Company Secretary', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 416325, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	5
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'CWCO announced a cash dividend of $0.14 with an ex-date of Apr. 1, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1775016000000, 'amount': '0.14'}}]
 country	Cayman Islands
 cryptoTradeable	False
 currency	USD
-currentPrice	34.335
+currentPrice	34.59
 currentRatio	6.025
 customPriceAlertConfidence	HIGH
-dateShortInterest	1770940800
-dayHigh	34.6
-dayLow	33.73
+dateShortInterest	1772150400
+dayHigh	35.1
+dayLow	34.375
 debtToEquity	1.424
-discount_to_intrinsic_value	-274.02
+discount_to_intrinsic_value	-260.53
 displayName	Consolidated Water
 dividendDate	1777507200
 dividendRate	0.56
@@ -46,9 +46,9 @@ earningsTimestampEnd	1773691200
 earningsTimestampStart	1773691200
 ebitda	23476744
 ebitdaMargins	0.17944
-enterpriseToEbitda	18.423
-enterpriseToRevenue	3.306
-enterpriseValue	432512768
+enterpriseToEbitda	18.454
+enterpriseToRevenue	3.311
+enterpriseValue	433229696
 epsCurrentYear	1.24
 epsForward	1.56
 epsTrailingTwelveMonths	1.08
@@ -61,34 +61,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	345 949 2957
-fiftyDayAverage	36.788
-fiftyDayAverageChange	-2.452999
-fiftyDayAverageChangePercent	-0.06667933
-fiftyTwoWeekChangePercent	21.000708
+fiftyDayAverage	36.7584
+fiftyDayAverageChange	-2.1683998
+fiftyDayAverageChangePercent	-0.058990594
+fiftyTwoWeekChangePercent	17.82043
 fiftyTwoWeekHigh	39.12
-fiftyTwoWeekHighChange	-4.785
-fiftyTwoWeekHighChangePercent	-0.12231595
+fiftyTwoWeekHighChange	-4.529999
+fiftyTwoWeekHighChangePercent	-0.11579752
 fiftyTwoWeekLow	22.69
-fiftyTwoWeekLowChange	11.644999
-fiftyTwoWeekLowChangePercent	0.5132216
+fiftyTwoWeekLowChange	11.9
+fiftyTwoWeekLowChangePercent	0.5244601
 fiftyTwoWeekRange	22.69 - 39.12
 financialCurrency	USD
 firstTradeDateMilliseconds	791044200000
 fiveYearAvgDividendYield	1.94
 floatShares	14938973
 forwardEps	1.56
-forwardPE	22.009615
+forwardPE	22.173079
 freeCashflow	20716510
 fullExchangeName	NasdaqGS
 fullTimeEmployees	307
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	9.18
+graham_intrinsic_value	9.59
 grossMargins	0.35599
 grossProfits	46575736
 hasPrePostMarketData	True
 heldPercentInsiders	0.06103
-heldPercentInstitutions	0.6808
+heldPercentInstitutions	0.68154997
 impliedSharesOutstanding	15931336
 industry	Utilities - Regulated Water
 industryDisp	Utilities - Regulated Water
@@ -103,16 +103,16 @@ lastSplitFactor	2:1
 longBusinessSummary	Consolidated Water Co. Ltd., together with its subsidiaries, supplies potable water, treats wastewater and water for reuse, and provides water-related products and services in the Cayman Islands, the Bahamas, the United States, and the British Virgin Islands. The company operates through Retail, Bulk, Services, and Manufacturing segments. It produces potable water from seawater utilizing reverse osmosis technology and supplies water to end-users, including residential, commercial, and government customers, as well as government-owned distributors. The company is also involved in design, construction, and sale of water production and treatment plants, as well as management and operation of water production plants, and treatment and reuse infrastructure for third parties; provision of water related consulting services; and production and supply of bulk water. In addition, it manufactures and services a range of specialized and custom water-related products and systems applicable to commercial, municipal, and industrial water production, supply, and treatment; reverse osmosis desalination, membrane separation, and filtration equipment; and piping systems, vessels, and custom-fabricated components. Consolidated Water Co. Ltd. was incorporated in 1973 and is headquartered in Grand Cayman, the Cayman Islands.
 longName	Consolidated Water Co. Ltd.
 market	us_market
-marketCap	547002432
-marketState	PREPRE
+marketCap	551064896
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_407761
 mostRecentQuarter	1759190400
 netIncomeToCommon	17391780
 nextFiscalYearEnd	1767139200
-nonDilutedMarketCap	547002421
+nonDilutedMarketCap	547719331
 numberOfAnalystOpinions	1
-open	34.52
+open	34.84
 operatingCashflow	35190808
 operatingMargins	0.16308
 overallRisk	5
@@ -123,27 +123,27 @@ postMarketChange	-0.23500061
 postMarketChangePercent	-0.6844346
 postMarketPrice	34.1
 postMarketTime	1773269493
-previousClose	34.5
-priceEpsCurrentYear	27.689516
+previousClose	34.38
+priceEpsCurrentYear	27.89516
 priceHint	2
-priceToBook	2.4822874
-priceToSalesTrailing12Months	4.1809306
+priceToBook	2.5007231
+priceToSalesTrailing12Months	4.2119813
 profitMargins	0.129
 quickRatio	5.647
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	none
 region	US
-regularMarketChange	-0.165001
-regularMarketChangePercent	-0.478264
-regularMarketDayHigh	34.6
-regularMarketDayLow	33.73
-regularMarketDayRange	33.73 - 34.6
-regularMarketOpen	34.52
-regularMarketPreviousClose	34.5
-regularMarketPrice	34.335
-regularMarketTime	1773259202
-regularMarketVolume	134268
+regularMarketChange	0.20999908
+regularMarketChangePercent	0.61081755
+regularMarketDayHigh	35.1
+regularMarketDayLow	34.375
+regularMarketDayRange	34.375 - 35.1
+regularMarketOpen	34.84
+regularMarketPreviousClose	34.38
+regularMarketPrice	34.59
+regularMarketTime	1773423473
+regularMarketVolume	58039
 returnOnAssets	0.04197
 returnOnEquity	0.08166
 revenueGrowth	0.052
@@ -153,13 +153,13 @@ sectorDisp	Utilities
 sectorKey	utilities
 shareHolderRightsRisk	6
 sharesOutstanding	15931336
-sharesPercentSharesOut	0.0324
-sharesShort	515895
-sharesShortPreviousMonthDate	1768435200
-sharesShortPriorMonth	549089
+sharesPercentSharesOut	0.0321
+sharesShort	510629
+sharesShortPreviousMonthDate	1769731200
+sharesShortPriorMonth	541788
 shortName	Consolidated Water Co. Ltd.
-shortPercentOfFloat	0.0345
-shortRatio	7.0
+shortPercentOfFloat	0.0342
+shortRatio	6.04
 sourceInterval	15
 symbol	CWCO
 targetHighPrice	43.0
@@ -172,15 +172,15 @@ totalDebt	3221436
 totalRevenue	130832696
 tradeable	False
 trailingAnnualDividendRate	0.5
-trailingAnnualDividendYield	0.014492754
+trailingAnnualDividendYield	0.014543339
 trailingEps	1.08
-trailingPE	31.791664
+trailingPE	32.027775
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	33.5496
-twoHundredDayAverageChange	0.7854004
-twoHundredDayAverageChangePercent	0.023410128
+twoHundredDayAverage	33.58755
+twoHundredDayAverageChange	1.002449
+twoHundredDayAverageChangePercent	0.02984585
 typeDisp	Equity
-volume	134268
+volume	58039
 website	https://www.cwco.com
 zip	KY1-1102

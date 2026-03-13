@@ -46,11 +46,11 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Date | str | 2026-03-13 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.018 |
-| Headline | str | Jeff Bezos's EV Bet Just Got New CEO — And The ... |
-| Summary | str | Backed by Jeff Bezos, Slate Auto is looking to ... |
-| URL | str | https://finance.yahoo.com/news/jeff-bezoss-ev-b... |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Amazon’s Overlooked Outlet Is Packed with Indoo... |
+| Summary | str | Yahoo Finance's John Hyland tracks today's top ... |
+| URL | str | https://news.google.com/rss/articles/CBMiaEFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,3 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
+| US02Y | float64 | 3.64 |
+| US10Y | float64 | 4.21 |
