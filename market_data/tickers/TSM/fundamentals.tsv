@@ -1,36 +1,36 @@
 Metric	Value
-52WeekChange	0.9540807
-SandP52WeekChange	0.18122733
+52WeekChange	0.9195982
+SandP52WeekChange	0.16864312
 address1	Hsinchu Science Park
 address2	No. 8, Li-Hsin Road 6
 allTimeHigh	390.21
 allTimeLow	2.842947
-ask	0.0
-askSize	120
+ask	341.25
+askSize	40
 averageAnalystRating	1.4 - Strong Buy
 averageDailyVolume10Day	15101930
-averageDailyVolume3Month	13144037
-averageVolume	13144037
+averageDailyVolume3Month	13206393
+averageVolume	13206393
 averageVolume10days	15101930
 beta	1.282
-bid	0.0
-bidSize	200
+bid	341.08
+bidSize	160
 bookValue	6.546131
 city	Hsinchu City
 companyOfficers	[{'maxAge': 1, 'name': 'Dr. C. C.  Wei Ph.D.', 'title': 'Chairman & CEO', 'fiscalYear': 2024, 'totalPay': 20629328, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jen-Chau  Huang', 'title': 'Senior VP of Finance & CFO', 'fiscalYear': 2024, 'totalPay': 4701582, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Y. P.  Chyn', 'title': 'Executive VP of Operations & Co-COO', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Y. J. Mii', 'title': 'Executive VP & Co-COO', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Horng-Dar  Lin', 'title': 'Vice President of Corporate Information Technology & Chief Information Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeff  Su', 'title': 'Director of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sylvia  Fang', 'title': 'Senior VP of Legal, General Counsel & Corporate Governance Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pei-Hong  Chen', 'title': 'Vice President of the Human Resources', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Li Mei  He Ho', 'title': 'Senior Vice President of Corporate Strategy Development', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Wei-Jen  Lo', 'title': 'Senior Vice President of Corporate Strategy Development', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'TSM announced a cash dividend of $0.968 with an ex-date of Mar. 17, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1773720000000, 'amount': '0.968'}}]
 country	Taiwan
 cryptoTradeable	False
 currency	USD
-currentPrice	340.23
+currentPrice	340.86
 currentRatio	2.618
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
 dayHigh	344.5
-dayLow	339.82
+dayLow	340.285
 debtToEquity	19.565
-discount_to_intrinsic_value	45.63
+discount_to_intrinsic_value	45.58
 displayName	Taiwan Semiconductor Manufacturing Company
 dividendDate	1783555200
 dividendRate	3.52
@@ -44,12 +44,12 @@ earningsTimestampEnd	1776342600
 earningsTimestampStart	1776342600
 ebitda	2614264070144
 ebitdaMargins	0.68633
-enterpriseToEbitda	2.626
-enterpriseToRevenue	1.802
-enterpriseValue	6864143646720
+enterpriseToEbitda	2.607
+enterpriseToRevenue	1.789
+enterpriseValue	6814353588224
 epsCurrentYear	14.53815
 epsForward	17.95644
-epsTrailingTwelveMonths	10.38
+epsTrailingTwelveMonths	10.39
 eps_normalized_growth	0.39024517859564845
 esgPopulated	False
 exDividendDate	1773705600
@@ -60,27 +60,27 @@ exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	886 3 563 7000
 fiftyDayAverage	345.3002
-fiftyDayAverageChange	-5.0701904
-fiftyDayAverageChangePercent	-0.014683427
-fiftyTwoWeekChangePercent	95.40807
+fiftyDayAverageChange	-4.440216
+fiftyDayAverageChangePercent	-0.012859003
+fiftyTwoWeekChangePercent	91.95982
 fiftyTwoWeekHigh	390.21
-fiftyTwoWeekHighChange	-49.97998
-fiftyTwoWeekHighChangePercent	-0.12808482
+fiftyTwoWeekHighChange	-49.350006
+fiftyTwoWeekHighChangePercent	-0.12647039
 fiftyTwoWeekLow	134.25
-fiftyTwoWeekLowChange	205.98001
-fiftyTwoWeekLowChangePercent	1.5343018
+fiftyTwoWeekLowChange	206.60999
+fiftyTwoWeekLowChangePercent	1.5389943
 fiftyTwoWeekRange	134.25 - 390.21
 financialCurrency	TWD
 firstTradeDateMilliseconds	876403800000
 fiveYearAvgDividendYield	1.6
 floatShares	24181559980
 forwardEps	17.95644
-forwardPE	18.947521
+forwardPE	18.982603
 freeCashflow	643449290752
 fullExchangeName	NYSE
 fullTimeEmployees	76907
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	625.72
+graham_intrinsic_value	626.32
 grossMargins	0.59891
 grossProfits	2281294004224
 hasPrePostMarketData	True
@@ -101,8 +101,8 @@ lastSplitFactor	1005:1000
 longBusinessSummary	Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides various wafer fabrication processes, such as processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also involved in providing customer and engineering support services; manufacturing of masks; investment in technology start-up companies; research, designing, developing, manufacturing, packaging, testing, and sale of color filters; and investment activities. Its products are used in high performance computing, smartphones, Internet of things, automotive, and digital consumer electronics. The company was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.
 longName	Taiwan Semiconductor Manufacturing Company Limited
 market	us_market
-marketCap	1764604510208
-marketState	PREPRE
+marketCap	1767871873024
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_380075
 mostRecentQuarter	1767139200
@@ -120,10 +120,10 @@ postMarketChangePercent	-0.0999672
 postMarketPrice	339.8899
 postMarketTime	1773705589
 previousClose	338.31
-priceEpsCurrentYear	23.402567
+priceEpsCurrentYear	23.445898
 priceHint	2
-priceToBook	51.974213
-priceToSalesTrailing12Months	0.46326578
+priceToBook	52.07045
+priceToSalesTrailing12Months	0.46412358
 profitMargins	0.45099998
 quickRatio	2.298
 quoteSourceName	Nasdaq Real Time Price
@@ -131,16 +131,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.42105
 region	US
-regularMarketChange	1.92001
-regularMarketChangePercent	0.567531
+regularMarketChange	2.5499878
+regularMarketChangePercent	0.75374293
 regularMarketDayHigh	344.5
-regularMarketDayLow	339.82
-regularMarketDayRange	339.82 - 344.5
+regularMarketDayLow	340.285
+regularMarketDayRange	340.285 - 344.5
 regularMarketOpen	341.25
 regularMarketPreviousClose	338.31
-regularMarketPrice	340.23
-regularMarketTime	1773691202
-regularMarketVolume	9862508
+regularMarketPrice	340.86
+regularMarketTime	1773679689
+regularMarketVolume	6239960
 returnOnAssets	0.16555001
 returnOnEquity	0.35064
 revenueGrowth	0.205
@@ -158,7 +158,7 @@ shortPercentOfFloat	0.0039
 shortRatio	1.61
 sourceInterval	15
 symbol	TSM
-syntheticPEG	0.5413577428571428
+syntheticPEG	0.5423600857142857
 targetHighPrice	520.0
 targetLowPrice	351.0
 targetMeanPrice	430.65167
@@ -170,14 +170,14 @@ totalRevenue	3809054294016
 tradeable	False
 trailingAnnualDividendRate	22.0
 trailingAnnualDividendYield	0.065029114
-trailingEps	10.38
-trailingPE	32.77746
+trailingEps	10.39
+trailingPE	32.80654
 trailingPegRatio	1.2019
 triggerable	True
 twoHundredDayAverage	281.1252
-twoHundredDayAverageChange	59.104797
-twoHundredDayAverageChangePercent	0.21024367
+twoHundredDayAverageChange	59.73477
+twoHundredDayAverageChangePercent	0.21248457
 typeDisp	Equity
-volume	9862508
+volume	6239960
 website	https://www.tsmc.com
 zip	300096
