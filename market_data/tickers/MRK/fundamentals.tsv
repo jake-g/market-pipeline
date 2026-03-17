@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.22700882
-SandP52WeekChange	0.22716212
+52WeekChange	0.21964347
+SandP52WeekChange	0.16864312
 address1	126 East Lincoln Avenue
 allTimeHigh	134.63
 allTimeLow	0.265055
-ask	116.51
-askSize	300
+ask	114.73
+askSize	500
 auditRisk	6
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	10771010
-averageDailyVolume3Month	12899855
-averageVolume	12899855
-averageVolume10days	10771010
+averageDailyVolume10Day	9515430
+averageDailyVolume3Month	12594913
+averageVolume	12594913
+averageVolume10days	9515430
 beta	0.264
-bid	116.15
+bid	114.67
 bidSize	500
 boardRisk	5
 bookValue	21.258
@@ -21,22 +21,22 @@ city	Rahway
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Robert M. Davis J.D.', 'age': 58, 'title': 'Chairman, President & CEO', 'yearBorn': 1967, 'fiscalYear': 2024, 'totalPay': 4946636, 'exercisedValue': 12137946, 'unexercisedValue': 8920883}, {'maxAge': 1, 'name': 'Ms. Caroline A. Litchfield', 'age': 56, 'title': 'Executive VP & CFO', 'yearBorn': 1969, 'fiscalYear': 2024, 'totalPay': 2647054, 'exercisedValue': 2581579, 'unexercisedValue': 7022207}, {'maxAge': 1, 'name': 'Ms. Betty D. Larson', 'age': 49, 'title': 'Executive VP & Chief Human Resources Officer', 'yearBorn': 1976, 'fiscalYear': 2024, 'totalPay': 2294965, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard R. DeLuca Jr.', 'age': 62, 'title': 'Executive VP & President of Merck Animal Health', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 2169938, 'exercisedValue': 0, 'unexercisedValue': 5823540}, {'maxAge': 1, 'name': 'Dr. Dean Y. Li M.D., Ph.D.', 'age': 61, 'title': 'Executive VP & President of Merck Research Laboratories', 'yearBorn': 1964, 'fiscalYear': 2024, 'totalPay': 3281100, 'exercisedValue': 932530, 'unexercisedValue': 4699987}, {'maxAge': 1, 'name': 'Mr. Dalton E. Smart III', 'age': 58, 'title': 'Senior VP of Finance, Principal Accounting Officer & Global Controller', 'yearBorn': 1967, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David Michael Williams', 'age': 56, 'title': 'Executive VP and Chief Information & Digital Officer', 'yearBorn': 1969, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Peter  Dannenbaum', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jennifer L. Zachary J.D.', 'age': 46, 'title': 'Executive VP & General Counsel', 'yearBorn': 1979, 'fiscalYear': 2024, 'totalPay': 2732334, 'exercisedValue': 3461623, 'unexercisedValue': 4142191}, {'maxAge': 1, 'name': 'Mr. Chirfi  Guindo', 'age': 59, 'title': 'Executive Vice President of Strategic Access, Policy & Communications', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 1541708, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	5
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'MRK announced a cash dividend of $0.85 with an ex-date of Mar. 16, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1773633600000, 'amount': '0.85'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	115.91
+currentPrice	114.825
 currentRatio	1.536
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	116.6
-dayLow	114.3
+dayHigh	116.06
+dayLow	114.22
 debtToEquity	95.959
-discount_to_intrinsic_value	-79.47
+discount_to_intrinsic_value	-80.08
 displayName	Merck &
 dividendDate	1775520000
 dividendRate	3.4
-dividendYield	2.93
+dividendYield	2.94
 earningsCallTimestampEnd	1777554000
 earningsCallTimestampStart	1777554000
 earningsGrowth	-0.193
@@ -46,12 +46,12 @@ earningsTimestampEnd	1777552200
 earningsTimestampStart	1777552200
 ebitda	29105000448
 ebitdaMargins	0.44769
-enterpriseToEbitda	11.084
-enterpriseToRevenue	4.962
-enterpriseValue	322599944192
+enterpriseToEbitda	11.059
+enterpriseToRevenue	4.951
+enterpriseValue	321858240512
 epsCurrentYear	5.1208
-epsForward	9.74621
-epsTrailingTwelveMonths	7.27
+epsForward	9.77778
+epsTrailingTwelveMonths	7.28
 eps_normalized_growth	-0.10714976122152664
 esgPopulated	False
 exDividendDate	1773619200
@@ -60,29 +60,29 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	114.5256
-fiftyDayAverageChange	1.384407
-fiftyDayAverageChangePercent	0.012088189
-fiftyTwoWeekChangePercent	22.700882
+fiftyDayAverage	114.9024
+fiftyDayAverageChange	-0.07740021
+fiftyDayAverageChangePercent	-0.000673617
+fiftyTwoWeekChangePercent	21.964348
 fiftyTwoWeekHigh	125.14
-fiftyTwoWeekHighChange	-9.229996
-fiftyTwoWeekHighChangePercent	-0.07375736
+fiftyTwoWeekHighChange	-10.315002
+fiftyTwoWeekHighChangePercent	-0.0824277
 fiftyTwoWeekLow	73.31
-fiftyTwoWeekLowChange	42.600006
-fiftyTwoWeekLowChangePercent	0.5810941
+fiftyTwoWeekLowChange	41.515
+fiftyTwoWeekLowChangePercent	0.56629384
 fiftyTwoWeekRange	73.31 - 125.14
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	3.03
 floatShares	2468411452
-forwardEps	9.74621
-forwardPE	11.892828
+forwardEps	9.77778
+forwardPE	11.7434635
 freeCashflow	11886749696
 fullExchangeName	NYSE
 fullTimeEmployees	73000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	64.58
+graham_intrinsic_value	63.76
 grossMargins	0.77212
 grossProfits	50196000768
 hasPrePostMarketData	True
@@ -103,16 +103,16 @@ lastSplitFactor	1048:1000
 longBusinessSummary	Merck & Co., Inc. operates as a healthcare company worldwide. It offers human health pharmaceutical for various areas under the Keytruda, Keytruda Qlex, Welireg, Gardasil, ProQuad, M-M-R II, Varivax, Vaxneuvance, Capvaxive, RotaTeq, Pneumovax 23, Bridion, Prevymis, Dificid, Zerbaxa, Winrevair, Adempas/ Verquvo, Ohtuvayre, Lagevrio, Isentress/Isentress HD, Delstrigo, Pifeltro, Belsomra, Januvia, and Janumet brands. The company also provides veterinary pharmaceuticals, vaccines and health management solutions and services, such as livestock products under the Nuflor, Bovilis/Vista, Bovilis Cryptium, Banamine, Estrumate, Matrix, Resflor, Zuprevo, Revalor, Safe-Guard, M+Pac, Porcilis, Circumvent, Nobilis/Innovax, Paracox and Coccivac, Exzolt, Slice, Imvixa, Clynav, Aquavac/Norvax, Aquaflor, Flexolt brands; Allflex Livestock Intelligence solutions; and companion animal products under the Bravecto One-Month, Bravecto Injectable/Quantum, Bravecto TriUNO, Bravecto Plus, Sentinel Spectrum, Sentinel Flavor Tabs, Numelvi, Optimmune, Nobivac NXT, GilvetMab, Otomax, Mometamax, Mometamax Ultra, Posatex, Caninsulin/Vetsulin, Panacur, Safeguard, Regumate, Prestige, Scalibor/Exspot, Sure Petcare, and Home Again brands. It has development and commercialization agreement for three of Daiichi Sankyo's deruxtecan ADC candidates; AstraZeneca PLC to co-development and co-commercialize AstraZeneca's Lynparza products for multiple cancer types; licensed to develop, manufacture and commercialize LM-299, a novel investigational PD-1/VEGF bispecific antibody from LaNova; and collaboration agreement with Eisai Co., Ltd., Bayer AG, and Ridgeback Biotherapeutics LP, as well Moderna, Inc. Merck & Co., Inc. was founded in 1891 and is headquartered in Rahway, New Jersey.
 longName	Merck & Co., Inc.
 market	us_market
-marketCap	286574968832
-marketState	POSTPOST
+marketCap	283892383744
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_288502
 mostRecentQuarter	1767139200
 netIncomeToCommon	18254000128
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	287316674668
+nonDilutedMarketCap	285833239466
 numberOfAnalystOpinions	27
-open	115.465
+open	115.34
 operatingCashflow	16472000512
 operatingMargins	0.32773998
 overallRisk	3
@@ -122,11 +122,11 @@ postMarketChange	-0.4900055
 postMarketChangePercent	-0.4227465
 postMarketPrice	115.42
 postMarketTime	1773359950
-previousClose	116.21
-priceEpsCurrentYear	22.635136
+previousClose	114.76
+priceEpsCurrentYear	22.423254
 priceHint	2
-priceToBook	5.4525356
-priceToSalesTrailing12Months	4.4080997
+priceToBook	5.401496
+priceToSalesTrailing12Months	4.366836
 profitMargins	0.28078
 quickRatio	0.963
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.89655
 region	US
-regularMarketChange	-0.299995
-regularMarketChangePercent	-0.258149
-regularMarketDayHigh	116.6
-regularMarketDayLow	114.3
-regularMarketDayRange	114.3 - 116.6
-regularMarketOpen	115.465
-regularMarketPreviousClose	116.21
-regularMarketPrice	115.91
-regularMarketTime	1773345602
-regularMarketVolume	8323455
+regularMarketChange	0.06499481
+regularMarketChangePercent	0.05663542
+regularMarketDayHigh	116.06
+regularMarketDayLow	114.22
+regularMarketDayRange	114.22 - 116.06
+regularMarketOpen	115.34
+regularMarketPreviousClose	114.76
+regularMarketPrice	114.825
+regularMarketTime	1773679581
+regularMarketVolume	3389698
 returnOnAssets	0.12042
 returnOnEquity	0.36882
 revenueGrowth	0.05
@@ -163,10 +163,10 @@ shortRatio	2.34
 sourceInterval	15
 state	NJ
 symbol	MRK
-syntheticPEG	-0.6162087046632124
+syntheticPEG	-0.6084696113989637
 targetHighPrice	150.0
 targetLowPrice	100.0
-targetMeanPrice	127.22222
+targetMeanPrice	127.77778
 targetMedianPrice	130.0
 totalCash	14565000192
 totalCashPerShare	5.891
@@ -174,15 +174,15 @@ totalDebt	50533998592
 totalRevenue	65010999296
 tradeable	False
 trailingAnnualDividendRate	3.24
-trailingAnnualDividendYield	0.02788056
-trailingEps	7.27
-trailingPE	15.943604
-trailingPegRatio	3.5361
+trailingAnnualDividendYield	0.028232833
+trailingEps	7.28
+trailingPE	15.772664
+trailingPegRatio	3.5178
 triggerable	True
-twoHundredDayAverage	93.29825
-twoHundredDayAverageChange	22.611755
-twoHundredDayAverageChangePercent	0.2423599
+twoHundredDayAverage	93.68
+twoHundredDayAverageChange	21.144997
+twoHundredDayAverageChangePercent	0.22571516
 typeDisp	Equity
-volume	8323455
+volume	3389698
 website	https://www.merck.com
 zip	07065

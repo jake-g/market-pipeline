@@ -45,6 +45,9 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
 
   portfolio_df['Unrealized_PnL_Net'] = portfolio_df[
       'Current_Value'] - portfolio_df['Cost_Basis']
+  portfolio_df['Unrealized_PnL_Pct'] = (
+      portfolio_df['Unrealized_PnL_Net'] /
+      portfolio_df['Cost_Basis'].replace(0, 1)) * 100
   portfolio_df['Custom_Current_Price'] = portfolio_df[
       'Current_Value'] / portfolio_df['Quantity']
 
@@ -80,7 +83,7 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
       horizons.append("Short-Term Trim")
       strategies.append(
           "Trim 15-20% on next gap up; trailing 5% stop to protect profit")
-    elif pd.notna(pnl) and pnl < -0.30:
+    elif pd.notna(pnl) and pnl < -30:
       horizons.append("Long-Term Hold / Tax Loss")
       strategies.append(
           "Harvest tactical tax loss on rally, or hold for multi-year narrative"

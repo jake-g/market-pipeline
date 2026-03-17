@@ -1,20 +1,21 @@
 Metric	Value
-52WeekChange	-0.75689656
-SandP52WeekChange	0.1833111
+52WeekChange	-0.80397725
+SandP52WeekChange	0.16864312
 address1	555 Forge River Road
 address2	Suite 100
 allTimeHigh	43.92
 allTimeLow	0.8
-ask	2.78
-askSize	400
+ask	2.75
+askSize	500
 auditRisk	9
-averageDailyVolume10Day	961470
-averageDailyVolume3Month	1861098
-averageVolume	1861098
-averageVolume10days	961470
+averageAnalystRating	1.0 - Strong Buy
+averageDailyVolume10Day	976820
+averageDailyVolume3Month	1862471
+averageVolume	1862471
+averageVolume10days	976820
 beta	2.013
-bid	2.77
-bidSize	100
+bid	2.74
+bidSize	4000
 boardRisk	9
 bookValue	3.472
 city	Webster
@@ -25,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	2.775
+currentPrice	2.7499
 currentRatio	4.117
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	2.92
-dayLow	2.77
+dayHigh	2.8499
+dayLow	2.735
 debtToEquity	3.645
 displayName	KULR Technology
 earningsCallTimestampEnd	1763501400
@@ -39,9 +40,9 @@ earningsTimestampEnd	1774555200
 earningsTimestampStart	1774555200
 ebitda	-30468968
 ebitdaMargins	-1.827
-enterpriseToEbitda	-3.727
-enterpriseToRevenue	6.808
-enterpriseValue	113544608
+enterpriseToEbitda	-3.637
+enterpriseToRevenue	6.644
+enterpriseValue	110805464
 epsCurrentYear	-0.32
 epsForward	0.0
 epsTrailingTwelveMonths	-0.59
@@ -51,16 +52,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	3.258
-fiftyDayAverageChange	-0.4829998
-fiftyDayAverageChangePercent	-0.1482504
-fiftyTwoWeekChangePercent	-75.68966
+fiftyDayAverage	3.2522
+fiftyDayAverageChange	-0.5022998
+fiftyDayAverageChangePercent	-0.15444924
+fiftyTwoWeekChangePercent	-80.39773
 fiftyTwoWeekHigh	14.8
-fiftyTwoWeekHighChange	-12.025
-fiftyTwoWeekHighChangePercent	-0.81249994
+fiftyTwoWeekHighChange	-12.0501
+fiftyTwoWeekHighChangePercent	-0.81419593
 fiftyTwoWeekLow	2.15
-fiftyTwoWeekLowChange	0.625
-fiftyTwoWeekLowChangePercent	0.29069766
+fiftyTwoWeekLowChange	0.5999
+fiftyTwoWeekLowChangePercent	0.27902326
 fiftyTwoWeekRange	2.15 - 14.8
 financialCurrency	USD
 firstTradeDateMilliseconds	1532007000000
@@ -89,16 +90,16 @@ lastSplitFactor	1:8
 longBusinessSummary	KULR Technology Group, Inc., through its subsidiary, KULR Technology Corporation, develops and commercializes thermal management technologies for electronics, batteries, and other components applications in the United States. It provides lithium-ion battery thermal runaway shields; automated battery cell screening and test systems; safeCASE; fiber thermal interface materials; phase change material heat sinks; internal short circuit devices; and CRUX cathodes, as well as AI-powered robotic exoskeletons for U.S. Workforce. The company's technologies are used in electric vehicles, energy storage, battery recycling transportation, cloud computing, and 5G communication devices. It sells its products for applications, such as lithium-ion battery energy storage, electric vehicles, 5G communication, cloud computer infrastructure, consumer, and industrial devices. The company was formerly known as KT High-Tech Marketing Inc. and changed its name to KULR Technology Group, Inc. in August 2018. The company was founded in 2013 and is headquartered in Webster, Texas.
 longName	KULR Technology Group, Inc.
 market	us_market
-marketCap	126767632
+marketCap	125621016
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_328671450
 mostRecentQuarter	1759190400
 netIncomeToCommon	-22258884
 nextFiscalYearEnd	1767139200
-nonDilutedMarketCap	128823316
-numberOfAnalystOpinions	2
-open	2.85
+nonDilutedMarketCap	126082394
+numberOfAnalystOpinions	1
+open	2.84
 operatingCashflow	-35882396
 operatingMargins	-1.5354401
 overallRisk	9
@@ -108,27 +109,28 @@ postMarketChange	0.03999996
 postMarketChangePercent	1.4184384
 postMarketPrice	2.86
 postMarketTime	1773273501
-previousClose	2.82
+previousClose	2.76
 priceEpsCurrentYear	-8.671876
 priceHint	4
-priceToBook	0.7992512
-priceToSalesTrailing12Months	7.6013284
+priceToBook	0.79202193
+priceToSalesTrailing12Months	7.532574
 profitMargins	-1.3347
 quickRatio	3.542
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
-recommendationKey	none
+recommendationKey	strong_buy
+recommendationMean	1.0
 region	US
-regularMarketChange	-0.044999838
-regularMarketChangePercent	-1.595739
-regularMarketDayHigh	2.92
-regularMarketDayLow	2.77
-regularMarketDayRange	2.77 - 2.92
-regularMarketOpen	2.85
-regularMarketPreviousClose	2.82
-regularMarketPrice	2.775
-regularMarketTime	1773423512
-regularMarketVolume	505888
+regularMarketChange	-0.010099888
+regularMarketChangePercent	-0.3670151
+regularMarketDayHigh	2.8499
+regularMarketDayLow	2.735
+regularMarketDayRange	2.735 - 2.8499
+regularMarketOpen	2.84
+regularMarketPreviousClose	2.76
+regularMarketPrice	2.7499
+regularMarketTime	1773679555
+regularMarketVolume	432549
 returnOnAssets	-0.23492001
 returnOnEquity	-0.29072002
 revenueGrowth	1.161
@@ -148,10 +150,11 @@ shortRatio	6.62
 sourceInterval	15
 state	TX
 symbol	KULR
-targetHighPrice	12.0
+syntheticPEG	inf
+targetHighPrice	8.0
 targetLowPrice	8.0
-targetMeanPrice	10.0
-targetMedianPrice	10.0
+targetMeanPrice	8.0
+targetMedianPrice	8.0
 totalCash	20588596
 totalCashPerShare	0.451
 totalDebt	5393063
@@ -162,10 +165,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.59
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	4.64335
-twoHundredDayAverageChange	-1.86835
-twoHundredDayAverageChangePercent	-0.40237114
+twoHundredDayAverage	4.60915
+twoHundredDayAverageChange	-1.8592498
+twoHundredDayAverageChangePercent	-0.40338236
 typeDisp	Equity
-volume	505888
+volume	432549
 website	https://kulr.ai
 zip	77598

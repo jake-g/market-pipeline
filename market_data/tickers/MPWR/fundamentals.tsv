@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.8751247
-SandP52WeekChange	0.22716212
+52WeekChange	0.64302886
+SandP52WeekChange	0.16864312
 address1	1555 Palm Beach Lakes Boulevard
 allTimeHigh	1256.22
 allTimeLow	5.85
-ask	1038.22
+ask	1055.68
 askSize	1
 auditRisk	9
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	628290
-averageDailyVolume3Month	682577
-averageVolume	682577
-averageVolume10days	628290
+averageDailyVolume10Day	572480
+averageDailyVolume3Month	676203
+averageVolume	676203
+averageVolume10days	572480
 beta	1.49
-bid	1028.88
+bid	1048.75
 bidSize	2
 boardRisk	9
 bookValue	72.502
@@ -21,22 +21,22 @@ city	West Palm Beach
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael R. Hsing', 'age': 65, 'title': 'Founder, Chairman, President & CEO', 'yearBorn': 1960, 'fiscalYear': 2024, 'totalPay': 6710903, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Deming  Xiao', 'age': 62, 'title': 'Executive Vice President of Global Operations', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 3490913, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Saria  Tseng', 'age': 54, 'title': 'EVP of Strategic Corporate Development, General Counsel & Corporate Secretary', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 3490913, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Maurice  Sciammas', 'age': 65, 'title': 'Executive Vice President of Worldwide Sales & Marketing', 'yearBorn': 1960, 'fiscalYear': 2024, 'totalPay': 3490913, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert W. Dean II', 'age': 60, 'title': 'Interim Chief Financial Officer', 'yearBorn': 1965, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Genevieve  Cunningham', 'title': 'Senior Manager of Marketing Communications', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Arthur  Lee', 'title': 'Finance Manager', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	6
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'MPWR announced a cash dividend of $2.00 with an ex-date of Mar. 31, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774929600000, 'amount': '2.00'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	1033.88
+currentPrice	1087.36
 currentRatio	5.912
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	1049.43
-dayLow	1021.78
+dayHigh	1097.07
+dayLow	1074.0
 debtToEquity	0.683
-discount_to_intrinsic_value	-805.69
+discount_to_intrinsic_value	-866.86
 displayName	Monolithic Power Systems
 dividendDate	1776211200
 dividendRate	8.0
-dividendYield	0.75
+dividendYield	0.76
 earningsCallTimestampEnd	1770328800
 earningsCallTimestampStart	1770328800
 earningsGrowth	-0.862
@@ -46,12 +46,12 @@ earningsTimestampEnd	1777579200
 earningsTimestampStart	1777579200
 ebitda	781148992
 ebitdaMargins	0.27994
-enterpriseToEbitda	63.432
-enterpriseToRevenue	17.757
-enterpriseValue	49549676544
+enterpriseToEbitda	64.608
+enterpriseToRevenue	18.086
+enterpriseValue	50468675584
 epsCurrentYear	21.51703
 epsForward	25.8451
-epsTrailingTwelveMonths	12.85
+epsTrailingTwelveMonths	12.84
 eps_normalized_growth	-0.7986727076210598
 esgPopulated	False
 exDividendDate	1774915200
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	1088.6466
-fiftyDayAverageChange	-54.7666
-fiftyDayAverageChangePercent	-0.05030705
-fiftyTwoWeekChangePercent	87.51247
+fiftyDayAverage	1093.297
+fiftyDayAverageChange	-5.9370117
+fiftyDayAverageChangePercent	-0.0054303743
+fiftyTwoWeekChangePercent	64.30289
 fiftyTwoWeekHigh	1256.22
-fiftyTwoWeekHighChange	-222.33997
-fiftyTwoWeekHighChangePercent	-0.17699127
+fiftyTwoWeekHighChange	-168.85999
+fiftyTwoWeekHighChangePercent	-0.13441913
 fiftyTwoWeekLow	438.86
-fiftyTwoWeekLowChange	595.02
-fiftyTwoWeekLowChangePercent	1.3558311
+fiftyTwoWeekLowChange	648.5
+fiftyTwoWeekLowChangePercent	1.4776922
 fiftyTwoWeekRange	438.86 - 1256.22
 financialCurrency	USD
 firstTradeDateMilliseconds	1100874600000
 fiveYearAvgDividendYield	0.65
 floatShares	47147386
 forwardEps	25.8451
-forwardPE	40.00294
+forwardPE	42.07219
 freeCashflow	408796512
 fullExchangeName	NasdaqGS
 fullTimeEmployees	4501
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	114.15
+graham_intrinsic_value	112.46
 grossMargins	0.55179
 grossProfits	1539741056
 hasPrePostMarketData	True
 heldPercentInsiders	0.040430002
-heldPercentInstitutions	1.01856
+heldPercentInstitutions	1.01862
 impliedSharesOutstanding	49118000
 industry	Semiconductors
 industryDisp	Semiconductors
@@ -101,16 +101,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Monolithic Power Systems, Inc. provides semiconductor-based power electronics solutions in China, Taiwan, South Korea, Southeast Asia, Europe, the United States, Japan, and internationally. The company offers direct current (DC) to DC solutions to convert and control voltages within a range of electronic systems, such as cloud-based and on-premises CPU servers and workstations, AI systems, memory, storage solutions, notebooks, infotainment, power sources, home appliances, network infrastructure, and satellite communications. It also provides alternating current (AC) to DC; driver metal-oxide-semiconductor field-effect transistors; power management integrated circuits (ICs); and current limit switch and lighting control products. The company serves storage and computing, enterprise data, automotive, communications, consumer, and industrial end markets through third-party distributors and value-added resellers. Monolithic Power Systems, Inc. was incorporated in 1997 and is based in West Palm Beach, Florida.
 longName	Monolithic Power Systems, Inc.
 market	us_market
-marketCap	50782117888
-marketState	POSTPOST
+marketCap	53408948224
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_3051626
 mostRecentQuarter	1767139200
 netIncomeToCommon	621483008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	52609798620
+nonDilutedMarketCap	51701115620
 numberOfAnalystOpinions	14
-open	1046.21
+open	1078.84
 operatingCashflow	838201984
 operatingMargins	0.26617
 overallRisk	9
@@ -120,11 +120,11 @@ postMarketChange	5.2126465
 postMarketChangePercent	0.50418293
 postMarketPrice	1039.0927
 postMarketTime	1773359972
-previousClose	1071.09
-priceEpsCurrentYear	48.04938
+previousClose	1052.59
+priceEpsCurrentYear	50.534855
 priceHint	2
-priceToBook	14.26002
-priceToSalesTrailing12Months	18.198483
+priceToBook	14.997655
+priceToSalesTrailing12Months	19.139845
 profitMargins	0.22272
 quickRatio	4.256
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.3125
 region	US
-regularMarketChange	-37.21
-regularMarketChangePercent	-3.47403
-regularMarketDayHigh	1049.43
-regularMarketDayLow	1021.78
-regularMarketDayRange	1021.78 - 1049.43
-regularMarketOpen	1046.21
-regularMarketPreviousClose	1071.09
-regularMarketPrice	1033.88
-regularMarketTime	1773345603
-regularMarketVolume	477074
+regularMarketChange	34.77002
+regularMarketChangePercent	3.3032825
+regularMarketDayHigh	1097.07
+regularMarketDayLow	1074.0
+regularMarketDayRange	1074.0 - 1097.07
+regularMarketOpen	1078.84
+regularMarketPreviousClose	1052.59
+regularMarketPrice	1087.36
+regularMarketTime	1773679537
+regularMarketVolume	225140
 returnOnAssets	0.11813
 returnOnEquity	0.19173999
 revenueGrowth	0.208
@@ -161,7 +161,7 @@ shortRatio	2.97
 sourceInterval	15
 state	FL
 symbol	MPWR
-syntheticPEG	-0.4640712296983759
+syntheticPEG	-0.48807645011600925
 targetHighPrice	1500.0
 targetLowPrice	1000.0
 targetMeanPrice	1328.2858
@@ -172,15 +172,15 @@ totalDebt	24103000
 totalRevenue	2790458880
 tradeable	False
 trailingAnnualDividendRate	6.24
-trailingAnnualDividendYield	0.005825841
-trailingEps	12.85
-trailingPE	80.45759
-trailingPegRatio	1.764
+trailingAnnualDividendYield	0.005928234
+trailingEps	12.84
+trailingPE	84.685356
+trailingPegRatio	1.7336
 triggerable	True
-twoHundredDayAverage	913.00946
-twoHundredDayAverageChange	120.870544
-twoHundredDayAverageChangePercent	0.13238695
+twoHundredDayAverage	916.7033
+twoHundredDayAverageChange	170.65668
+twoHundredDayAverageChangePercent	0.18616349
 typeDisp	Equity
-volume	477074
+volume	225140
 website	https://www.monolithicpower.com
 zip	33401

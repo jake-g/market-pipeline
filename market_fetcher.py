@@ -119,7 +119,7 @@ SKIP_EARNINGS: List[str] = [
     "ASML", "BHP", "BITF", "GOLD", "HUT", "NEM", "RIO", "TSM",
 
     # Corporate Exclusions (Missing/Empty Financials)
-    "AWX", "BAH", "BB", "VSAT"
+    "AWX", "BAH", "BB", "NUE", "STRL", "VSAT"
 ]
 
 # Tickers to skip for Insider Trading (ETFs, Indices, OTC)
@@ -127,7 +127,7 @@ SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     "AMKBY", # OTC/Foreign often lacks CIK mapping
     "PAVE", "ITA", "SMH", "URA", "XLE", # Sector ETFs
     # Foreign / ADRs (No Form 4)
-    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "ZIM",
+    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "TTDKY", "ZIM",
     # Specific Corporate Exclusions (Missing/404 on SEC Edgar or no CIK mapping)
     # Note: Even with CIK overrides, some of these may fail depending on SEC database availability
     "ALB", "AMGN", "AWK", "BSX", "CORZ", "CWCO", "DD", "ESLT", "FLNC", "FRO",
@@ -1483,8 +1483,8 @@ class MarketFetcher:
           try:
             pe = info.get("forwardPE") or info.get("trailingPE")
             gr = info.get("earningsGrowth") or info.get("revenueGrowth")
-            if pe and gr:
-              peg_calc = pe / (gr * 100)
+            if pe is not None and gr is not None:
+              peg_calc = float(pe) / (float(gr) * 100)
           except Exception as e:
             self.logger.warning(
                 f"Failed to calculate syntheticPEG for {ticker}: {e}")

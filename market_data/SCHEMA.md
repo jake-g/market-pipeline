@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.09675586 |
+| Value | str | 0.060948253 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (146 more) | | |
+| ... (198 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-13 |
+| Date | str | 2026-03-17 |
 | Source | str | Google |
 | Sentiment | float64 | 1.0 |
-| Headline | str | Amazon’s Overlooked Outlet Is Packed with Indoo... |
-| Summary | str | Yahoo Finance's John Hyland tracks today's top ... |
-| URL | str | https://news.google.com/rss/articles/CBMiaEFVX3... |
+| Headline | str | Best spring cleaning deals Amazon has on vacuum... |
+| Summary | str | Amazon's stock behavior differed greatly from C... |
+| URL | str | https://news.google.com/rss/articles/CBMi1AFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -80,14 +80,14 @@ This report documents the file structures and column data types used in `market_
 | TRUCK_PPI | float64 | 186.16 |
 | WAREHOUSE_PPI | float64 | 171.259 |
 | MFG_CONST | float64 | 202420.0 |
-| TECH_PULSE | float64 | 89.7508 |
-| CHINA_IMPORTS | float64 | 21104.2786 |
+| TECH_PULSE | float64 | 92.2679 |
+| CHINA_IMPORTS | float64 | 21057.9084 |
 | TARIFFS | float64 | 364.324 |
-| GDP | float64 | 31490.07 |
+| GDP | float64 | 31442.483 |
 | UNRATE | float64 | 4.4 |
-| HOUSING_STARTS | float64 | 1404.0 |
+| HOUSING_STARTS | float64 | 1487.0 |
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.64 |
-| US10Y | float64 | 4.21 |
+| US02Y | float64 | 3.76 |
+| US10Y | float64 | 4.27 |
