@@ -21,6 +21,13 @@ python3 market_fetcher.py 2>&1 | tee logs/run_market_fetcher_full.log
 t1=$(date +%s)
 echo "✅ Market Fetcher finished in $((t1-t0))s."
 
+# Shipping & Logistics Metrics (Bottenecks, Ais, Congestion)
+ts0=$(date +%s)
+echo "🚢 Running Shipping & Logistics Fetcher..."
+python3 shipping_fetcher.py 2>&1 | tee logs/run_shipping_fetcher.log
+ts1=$(date +%s)
+echo "✅ Shipping Fetcher finished in $((ts1-ts0))s."
+
 # Update Portfolios
 echo "📈 Running Portfolio Pipeline..."
 ./portfolios/run_portfolio_pipeline.sh
@@ -40,6 +47,10 @@ python3 reports/notebooklm_report.py --mode report_upload 2>&1 | tee logs/sync_n
 # The script now checks config.DEFAULT_START_DATE internally and exits early if >= 2020.
 # echo "📚 Checking Historical Backfill (FNSPID)..."
 # python3 backfill/fnspid.py --limit 50000 2>&1 | tee logs/run_backfill_full.log
+
+# Historical Shipping Backfill (Future/Paid API)
+# echo "🚢 Running Historical Shipping Backfill..."
+# ./run_historical_shipping.sh 2>&1 | tee logs/run_historical_shipping.log
 
 # Backfill Sentiment Reference (One-Time / Historical)
 # echo "🧠 Backfilling Sentiment Reference Data..."

@@ -1786,4 +1786,55 @@ def build_daily_news_digest(
       text_blob += f"Summary: {summary_raw}\n"
     text_blob += "\n"
 
+  # Append Shipping/Macro context to the digest
+  text_blob = _append_shipping_to_digest(market_data_dir, text_blob, start_date,
+                                         target_date)
+
   return text_blob, combined_df
+
+
+def _append_shipping_to_digest(market_data_dir: str, text_blob: str,
+                               start_date: Optional[datetime.datetime],
+                               target_date: Optional[datetime.datetime]) -> str:
+  files_to_check = [
+      ("Global Congestion",
+       os.path.join(market_data_dir, "shipping", "chokepoint_metrics.tsv")),
+      ("Geopolitics & Tariffs",
+       os.path.join(market_data_dir, "shipping", "tariffs.tsv")),
+      ("Macro Constraints",
+       os.path.join(market_data_dir, "shipping", "shipping_macro.tsv")),
+  ]
+
+  shipping_blob = ""
+  for label, file_path in files_to_check:
+    if os.path.exists(file_path):
+      try:
+        df = pd.read_csv(file_path, sep="\t")
+        if "Date" in df.columns:
+          df['ParsedDate'] = pd.to_datetime(df['Date'],
+                                            utc=True).dt.tz_localize(None)
+          if start_date:
+            df = df[df['ParsedDate'] >= start_date]
+          if target_date:
+            df = df[df['ParsedDate'] <= target_date]
+
+          # We only care about appending the recent active points so we take the top 5
+          df = df.sort_values(by="ParsedDate", ascending=False).head(5)
+
+          if not df.empty:
+            shipping_blob += f"--- {label} ---\n"
+            for _, row in df.iterrows():
+              dt_str = row['ParsedDate'].strftime('%Y-%m-%d')
+              line_items = [
+                  f"{k}: {v}" for k, v in row.items()
+                  if k not in ['Date', 'ParsedDate'] and pd.notna(v)
+              ]
+              shipping_blob += f"[{dt_str}] " + " | ".join(line_items) + "\n"
+            shipping_blob += "\n"
+      except Exception as e:
+        logger.warning(f"Failed to append shipping context for {label}: {e}")
+
+  if shipping_blob:
+    text_blob += "\n\nADDITIONAL MACRO & SHIPPING METRICS:\n\n" + shipping_blob
+
+  return text_blob

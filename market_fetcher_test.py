@@ -3,13 +3,17 @@ import logging
 import os
 from pathlib import Path
 import shutil
+import tempfile
 import unittest
 from unittest.mock import MagicMock
 from unittest.mock import patch
 
 import pandas as pd
 
+import config
 from market_fetcher import MarketFetcher
+from shipping_fetcher import ShippingFetcher
+from shipping_fetcher import TariffFetcher
 
 
 class TestMarketFetcherIntegration(unittest.TestCase):
@@ -724,6 +728,210 @@ class TestMarketFetcherExtraction(unittest.TestCase):
       data = self.fetcher._load_cache(cache_key)
       self.assertFalse(data.empty)
       self.assertEqual(data.loc["Revenue", pd.to_datetime('2024-01-01')], 100.0)
+
+
+class TestShippingFetcher(unittest.TestCase):
+  """
+  Unified test suite for ShippingFetcher.
+  Covers API mocking, joblib caching isolation, and Pandas dataframe outputs.
+  """
+
+  def setUp(self):
+    logging.basicConfig(level=logging.ERROR)
+
+    self.test_dir = Path(".test_shipping_data")
+    self.cache_dir = Path(".test_shipping_cache")
+    if self.test_dir.exists():
+      shutil.rmtree(self.test_dir)
+    if self.cache_dir.exists():
+      shutil.rmtree(self.cache_dir)
+
+    self.fetcher = ShippingFetcher(data_dir=str(self.test_dir),
+                                   cache_dir=str(self.cache_dir))
+
+  def tearDown(self):
+    # Complete environmental cleanup
+    if self.test_dir.exists():
+      shutil.rmtree(self.test_dir)
+    if self.cache_dir.exists():
+      shutil.rmtree(self.cache_dir)
+
+  @patch("shipping_fetcher.ShippingFetcher._stream_ais_data",
+         new_callable=unittest.mock.AsyncMock)
+  def test_fetch_chokepoint_vessels_with_key(self, mock_stream):
+    """Ensure the API payload parses correctly via streaming when a key exists."""
+    config.AISSTREAM_API_KEY = "test_mock_key"
+    mock_msg1 = {
+        "MessageType": "PositionReport",
+        "MetaData": {
+            "MMSI": 99,
+            "latitude": 26.5,
+            "longitude": 56.4,
+            "ShipName": "Mock1"
+        },
+        "Message": {
+            "PositionReport": {
+                "Type": 80
+            }
+        }
+    }
+    mock_msg2 = {
+        "MessageType": "PositionReport",
+        "MetaData": {
+            "MMSI": 100,
+            "latitude": 26.6,
+            "longitude": 56.5,
+            "ShipName": "Mock2"
+        },
+        "Message": {
+            "PositionReport": {
+                "Type": 70
+            }
+        }
+    }
+
+    async def mock_stream_effect(*args, **kwargs):
+      self.fetcher.latest_stream_cache = [mock_msg1, mock_msg2]
+      return [mock_msg1, mock_msg2]
+
+    mock_stream.side_effect = mock_stream_effect
+
+    # Force cache miss
+    res = self.fetcher.fetch_chokepoint_vessels("TestMux", {
+        "min_lat": 26.2,
+        "max_lat": 26.8,
+        "min_lon": 56.1,
+        "max_lon": 56.6
+    })
+    self.assertIsNotNone(res)
+    self.assertEqual(len(res["data"]), 2)
+    mock_stream.assert_called_once()
+
+  def test_fetch_chokepoint_vessels_missing_key_mock(self):
+    """Ensure pipelines don't collapse when the key is entirely missing, falling back to mock data."""
+    config.AISSTREAM_API_KEY = None
+    res = self.fetcher.fetch_chokepoint_vessels("Panama", {
+        "min_lat": 8.5,
+        "max_lat": 9.5,
+        "min_lon": -80.0,
+        "max_lon": -79.0
+    })
+
+    self.assertIsNotNone(res)
+    # Panama mock is only 1 entry out of the 3 in _stream_ais_data mock!
+    self.assertEqual(len(res["data"]), 1)
+
+  @patch("shipping_fetcher.ShippingFetcher._stream_ais_data",
+         new_callable=unittest.mock.AsyncMock)
+  def test_joblib_cache_hit_prevents_request(self, mock_stream):
+    """Test that joblib caches short-circuit API calls."""
+    config.AISSTREAM_API_KEY = "test_mock_key"
+
+    async def mock_stream_effect(*args, **kwargs):
+      self.fetcher.latest_stream_cache = []
+      return []
+
+    mock_stream.side_effect = mock_stream_effect
+
+    # Fetch 1 - Network Call
+    self.fetcher.fetch_chokepoint_vessels("Malacca", {"min_lat": 2})
+    self.assertEqual(mock_stream.call_count, 1)
+
+    # Fetch 2 - JobLib Cache Hit
+    self.fetcher.fetch_chokepoint_vessels("Malacca", {"min_lat": 2})
+    self.assertEqual(mock_stream.call_count, 1)  # Still 1!
+
+  def test_calculate_congestion_index(self):
+    """Verify congestion algorithms are scaling and capping properly."""
+    # Standard scale
+    val = self.fetcher.calculate_congestion_index({"data": [1, 2, 3]}, 1.5)
+    self.assertEqual(val, 2.0)
+
+    # Cap logic preventing massive 5.0+ anomalies
+    val_cap = self.fetcher.calculate_congestion_index({"data": [1] * 20}, 1.0)
+    self.assertEqual(val_cap, 5.0)
+
+  def test_generate_daily_shipping_report(self):
+    """Verify full loop generates TSV and formats Dataframe properly."""
+    config.AISSTREAM_API_KEY = None  # Safely force the mock data returns
+    self.fetcher.generate_daily_shipping_report()
+
+    tsv_file = self.test_dir / "shipping" / "chokepoint_metrics.tsv"
+    self.assertTrue(tsv_file.exists())
+
+    df = pd.read_csv(tsv_file, sep='\t')
+    # Validate multiple geofences fetched
+    self.assertIn("Hormuz", df["Chokepoint_Name"].values)
+    self.assertIn("Taiwan_Strait", df["Chokepoint_Name"].values)
+    self.assertTrue(len(df) > 0)
+
+
+class TestTariffFetcher(unittest.TestCase):
+
+  def setUp(self):
+    self.test_dir = Path(tempfile.mkdtemp(prefix=".test_tariff_"))
+    self.data_dir = self.test_dir / "data"
+    self.cache_dir = self.test_dir / "cache"
+
+    # Save old API key
+    self.old_api_key = config.FRED_API_KEY
+    config.FRED_API_KEY = "dummy_key"
+
+    self.fetcher = TariffFetcher(data_dir=str(self.data_dir),
+                                 cache_dir=str(self.cache_dir))
+
+  def tearDown(self):
+    # Restore key
+    config.FRED_API_KEY = self.old_api_key
+    shutil.rmtree(self.test_dir, ignore_errors=True)
+
+  @patch("shipping_fetcher.requests.get")
+  def test_fetch_fred_series_success(self, mock_get):
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {
+        "observations": [{
+            "date": "2024-01-01",
+            "value": "100.5"
+        }, {
+            "date": "2024-02-01",
+            "value": "101.2"
+        }]
+    }
+    mock_get.return_value = mock_response
+
+    res = self.fetcher.fetch_fred_series("TEST_ID", start_date="2024-01-01")
+    self.assertEqual(len(res), 2)
+    self.assertEqual(res[0]["value"], 100.5)
+
+  @patch("shipping_fetcher.requests.get")
+  def test_fetch_fred_series_missing_key(self, mock_get):
+    config.FRED_API_KEY = None
+    res = self.fetcher.fetch_fred_series("TEST_ID")
+    self.assertEqual(res, [])
+    mock_get.assert_not_called()
+
+  @patch("shipping_fetcher.requests.get")
+  def test_generate_tariff_report(self, mock_get):
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {
+        "observations": [{
+            "date": "2024-01-01",
+            "value": "100.5"
+        }]
+    }
+    mock_get.return_value = mock_response
+
+    self.fetcher.generate_tariff_report(backfill=True)
+    # Verify macro
+    out_file_macro = self.data_dir / "shipping" / "shipping_macro.tsv"
+    self.assertTrue(out_file_macro.exists())
+
+    df_macro = pd.read_csv(out_file_macro, sep='\t')
+    self.assertIn("Date", df_macro.columns)
+    self.assertIn("US Customs Duties (B235RC1Q027SBEA)",
+                  df_macro["Name"].values)
 
 
 if __name__ == "__main__":

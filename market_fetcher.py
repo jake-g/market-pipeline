@@ -83,6 +83,77 @@ FRED_SERIES: Dict[str, str] = {
     "US10Y": "DGS10",  # 10-Year Treasury Yield
 }
 
+
+def fetch_fred_series(series_id: str,
+                      logger: logging.Logger,
+                      start_date: Optional[str] = None,
+                      limit: Optional[int] = None) -> Optional[pd.DataFrame]:
+  """
+    Fetches observations for a FRED series using the JSON API if available,
+    otherwise falls back to parsing the CSV graph.
+
+    Args:
+        series_id: The FRED series ID to query (e.g. 'PCU483111483111').
+        logger: A logger instance for warnings and errors.
+        start_date: Minimum date to retrieve (YYYY-MM-DD). Used only in JSON API.
+        limit: Max observations to retrieve. Used only in JSON API.
+
+    Returns:
+        A pandas DataFrame indexed by Date with a single column (series_id) of float values,
+        or None if fetching fails completely.
+    """
+  if config.FRED_API_KEY:
+    try:
+      url = "https://api.stlouisfed.org/fred/series/observations"
+      params: Dict[str, Union[str, int]] = {
+          "series_id": series_id,
+          "api_key": config.FRED_API_KEY,
+          "file_type": "json",
+          "sort_order": "asc",
+      }
+      if start_date:
+        params["observation_start"] = start_date
+      if limit:
+        params["limit"] = limit
+
+      res = requests.get(url, params=params, timeout=15)
+      if res.status_code == 200:
+        data = res.json().get("observations", [])
+        rows = []
+        for obs in data:
+          val = obs.get("value")
+          if val and val != ".":
+            try:
+              rows.append({
+                  "DATE": pd.to_datetime(obs["date"]),
+                  series_id: float(val)
+              })
+            except ValueError:
+              pass
+        if rows:
+          return pd.DataFrame(rows).set_index("DATE")
+      else:
+        logger.warning(
+            f"FRED API error for {series_id}: HTTP {res.status_code} - {res.text}"
+        )
+    except Exception as e:
+      logger.warning(f"Failed to fetch JSON FRED for {series_id}: {e}")
+
+  # Fallback to anonymous CSV scrape if API key missing or failed
+  try:
+    logger.info(f"Attempting CSV scrape fallback for FRED series: {series_id}")
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
+    series_df = pd.read_csv(url, index_col=0, parse_dates=True)
+    # Note: CSV scrape ignores start_date and limit, it just returns everything.
+    if not series_df.empty:
+      series_df.index.name = "DATE"
+      return series_df
+  except Exception as e:
+    logger.error(f"Failed to fetch CSV FRED for {series_id}: {e}")
+
+  return None
+
+
 # Tickers to skip for Earnings/Financials.
 # These are typically ETFs, Indices, or Futures which do not share the same
 # financial reporting structure as individual companies (e.g. no EPS/Revenue misses).
@@ -1713,13 +1784,9 @@ class MarketFetcher:
                                 expiry_seconds=config.CACHE_EXPIRY_MACRO)
 
       if series is None:
-        try:
-          url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
-          series = pd.read_csv(url, index_col=0, parse_dates=True)
+        series = fetch_fred_series(series_id, self.logger)
+        if series is not None:
           self._save_cache(cache_key, series)
-        except Exception as e:
-          self.logger.warning(f"Failed to fetch FRED {name}: {e}")
-          continue
 
       if series is not None and not series.empty:
         series = series.rename(columns={series_id: name})

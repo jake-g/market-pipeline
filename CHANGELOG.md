@@ -5,6 +5,13 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.6.0] - 2026-03-17
+### Shipping Data Enhancements & Global Logistics Tracking
+- **Shipping & Tariff APIs**: Added dedicated shipping fetch code (`shipping_fetcher.py`) to pull tariff and maritime chokepoint metrics (`chokepoint_metrics.tsv`, `tariffs.tsv`, `shipping_macro.tsv`).
+- **FRED API Integration**: Added `FRED_API_KEY` to support enhanced FRED macro data fetching. (TODO: Expand usage of this API for broader macroeconomic indicators).
+- **Testing**: Added robust asynchronous test mocking to support testing shipping and FRED data generation processes.
+- **Documentation**: Improved API documentation within the `api/` folder.
+
 ## [v1.5.1] - 2026-03-12
 ### Periodic Report Infrastructure & Historical Backfill
 - **Fully Bounded Synthesis Contexts**: Eliminated duplicate periodic report hallucination across timeframes. `notebooklm_report.py` now mounts tightly-scoped, temporary Google NotebookLM projects specific to the generation period (e.g. only uploading one week of data at a time for weekly reports).

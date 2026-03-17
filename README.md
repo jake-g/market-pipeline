@@ -22,6 +22,7 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
   - **Fundamentals**: Key metrics (P/E, Market Cap) and Quarterly Financials.
   - **Macro**: FRED Economic indicators (Inflation, PPI, US10Y).
   - **Insider Trading**: SEC Form 4 extraction via `sec-edgar-downloader`.
+  - **Shipping & Global Logistics**: Maritime chokepoint congestion and macro tariff policies via AISStream and FRED.
   - **ML Sentiment**: AlphaVantage Sentiment scoring and Hybrid TextBlob fallbacks.
   - **Calculated Metrics**: Graham Intrinsic Value, EPS Growth estimates, Technicals (RSI, MACD).
 
@@ -34,6 +35,7 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
 - **[SEC Edgar (`sec-edgar-downloader`)](https://pypi.org/project/sec-edgar-downloader/)**: Form 4 extraction for insider trading data.
 - **[Alpha Vantage](https://www.alphavantage.co/)**: Highly enriched historical news and sentiment scoring.
 - **[Benzinga / Google News]**: RSS feeds used for real-time news aggregation.
+- **[AISStream](https://aisstream.io/)**: WebSocket API for real-time global maritime vessel tracking.
 
 ### Datasets
 - **FNSPID**: Financial News and Stock Price Integration Dataset

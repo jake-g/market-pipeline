@@ -3,15 +3,15 @@
     "type": "file",
     "name": "CHANGELOG.md",
     "path": "CHANGELOG.md",
-    "size": 17977,
-    "lines": 244
+    "size": 18622,
+    "lines": 251
   },
   {
     "type": "file",
     "name": "README.md",
     "path": "README.md",
-    "size": 14240,
-    "lines": 276
+    "size": 14461,
+    "lines": 278
   },
   {
     "type": "folder",
@@ -29,6 +29,34 @@
             "path": "market_data/macro/economic_indicators.tsv",
             "size": 618739,
             "lines": 17150
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "shipping",
+        "path": "market_data/shipping",
+        "children": [
+          {
+            "type": "file",
+            "name": "chokepoint_metrics.tsv",
+            "path": "market_data/shipping/chokepoint_metrics.tsv",
+            "size": 161,
+            "lines": 5
+          },
+          {
+            "type": "file",
+            "name": "shipping_macro.tsv",
+            "path": "market_data/shipping/shipping_macro.tsv",
+            "size": 60647,
+            "lines": 721
+          },
+          {
+            "type": "file",
+            "name": "tariffs.tsv",
+            "path": "market_data/shipping/tariffs.tsv",
+            "size": 1148,
+            "lines": 13
           }
         ]
       },
@@ -340,8 +368,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ABBV/news.tsv",
-                "size": 98508,
-                "lines": 240
+                "size": 97569,
+                "lines": 238
               },
               {
                 "type": "file",
@@ -396,8 +424,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ACHR/news.tsv",
-                "size": 225708,
-                "lines": 532
+                "size": 225021,
+                "lines": 531
               },
               {
                 "type": "file",
@@ -12541,8 +12569,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/topics/Artificial Intelligence/news.tsv",
-                "size": 645855,
-                "lines": 1549
+                "size": 646139,
+                "lines": 1550
               },
               {
                 "type": "file",
@@ -14183,7 +14211,7 @@
         "type": "file",
         "name": "STATS.md",
         "path": "market_data/STATS.md",
-        "size": 19932,
+        "size": 20028,
         "lines": 378
       }
     ]
@@ -14974,8 +15002,8 @@
         "type": "file",
         "name": "report_utils.py",
         "path": "reports/report_utils.py",
-        "size": 61545,
-        "lines": 1789
+        "size": 63606,
+        "lines": 1840
       }
     ]
   },
@@ -14997,14 +15025,21 @@
     "type": "file",
     "name": "market_fetcher.py",
     "path": "market_fetcher.py",
-    "size": 80086,
-    "lines": 2205
+    "size": 82440,
+    "lines": 2272
   },
   {
     "type": "file",
     "name": "market_fetcher_test.py",
     "path": "market_fetcher_test.py",
-    "size": 25189,
-    "lines": 730
+    "size": 31993,
+    "lines": 938
+  },
+  {
+    "type": "file",
+    "name": "shipping_fetcher.py",
+    "path": "shipping_fetcher.py",
+    "size": 26922,
+    "lines": 770
   }
 ]
