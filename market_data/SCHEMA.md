@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.060948253 |
+| Value | str | 0.0981226 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |

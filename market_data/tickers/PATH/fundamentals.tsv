@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.07421148
-SandP52WeekChange	0.16864312
+52WeekChange	0.076279044
+SandP52WeekChange	0.19319427
 address1	One Vanderbilt Avenue
 address2	60th Floor
 allTimeHigh	90.0
 allTimeLow	9.38
-ask	11.53
-askSize	2400
+ask	11.83
+askSize	3100
 auditRisk	5
 averageAnalystRating	2.8 - Hold
-averageDailyVolume10Day	53879710
-averageDailyVolume3Month	34020615
-averageVolume	34020615
-averageVolume10days	53879710
+averageDailyVolume10Day	54643900
+averageDailyVolume3Month	34337023
+averageVolume	34337023
+averageVolume10days	54643900
 beta	1.09
-bid	11.53
-bidSize	3600
+bid	11.95
+bidSize	11500
 boardRisk	7
 bookValue	3.886
 city	New York
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	11.585
+currentPrice	11.98
 currentRatio	2.478
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	11.88
-dayLow	11.47
+dayHigh	12.09
+dayLow	11.56
 debtToEquity	3.406
 displayName	UiPath
 earningsCallTimestampEnd	1773262800
@@ -43,34 +43,34 @@ earningsTimestampEnd	1779998400
 earningsTimestampStart	1779998400
 ebitda	77924000
 ebitdaMargins	0.04838
-enterpriseToEbitda	61.658
-enterpriseToRevenue	2.983
-enterpriseValue	4804616192
+enterpriseToEbitda	61.589
+enterpriseToRevenue	2.98
+enterpriseValue	4799256576
 epsCurrentYear	0.79847
 epsForward	0.89636
-epsTrailingTwelveMonths	0.42
+epsTrailingTwelveMonths	0.52
 esgPopulated	False
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	13.1012
-fiftyDayAverageChange	-1.5162001
-fiftyDayAverageChangePercent	-0.11572986
-fiftyTwoWeekChangePercent	7.421148
+fiftyDayAverage	13.0048
+fiftyDayAverageChange	-1.0248003
+fiftyDayAverageChangePercent	-0.0788017
+fiftyTwoWeekChangePercent	7.6279044
 fiftyTwoWeekHigh	19.84
-fiftyTwoWeekHighChange	-8.255
-fiftyTwoWeekHighChangePercent	-0.41607863
+fiftyTwoWeekHighChange	-7.8600006
+fiftyTwoWeekHighChangePercent	-0.3961694
 fiftyTwoWeekLow	9.38
-fiftyTwoWeekLowChange	2.205
-fiftyTwoWeekLowChangePercent	0.23507461
+fiftyTwoWeekLowChange	2.5999994
+fiftyTwoWeekLowChangePercent	0.27718544
 fiftyTwoWeekRange	9.38 - 19.84
 financialCurrency	USD
 firstTradeDateMilliseconds	1619011800000
 floatShares	418680125
 forwardEps	0.89636
-forwardPE	12.924495
+forwardPE	13.365166
 freeCashflow	483727872
 fullExchangeName	NYSE
 fullTimeEmployees	3868
@@ -80,7 +80,7 @@ grossMargins	0.83242
 grossProfits	1340669056
 hasPrePostMarketData	True
 heldPercentInsiders	0.09395
-heldPercentInstitutions	0.75078005
+heldPercentInstitutions	0.7508
 impliedSharesOutstanding	534749684
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -92,32 +92,32 @@ lastFiscalYearEnd	1769817600
 longBusinessSummary	UiPath, Inc. provides an end-to-end automation platform that offers a range of robotic process automation (RPA) solutions primarily in the United States, Romania, the United Kingdom, the Netherlands, and internationally. The company delivers software robots that emulate human actions with precision and speed for organizations to automate repetitive tasks. Its platform's embedded AI, ML, and NLP capabilities improve decisioning and information processing; allows users to design and combine UI automations, API integrations, and AI-based document understanding in a single workflow; multi-tenant platform enterprise deployment with security and governance and Automation Cloud, which allows rapid automation without infrastructure overhead; and intuitive interface and low-code, drag-and-drop functionality. The company provides mining capabilities analyze the digital footprint of users' processes across all systems; tracks, measures, and forecasts automation performance, providing actionable metrics and predictive insights to continuously optimize business processes and maximize return on investment; and designed to enable people and automations to work together with each focusing on the processes to enhance productivity and improve business outcomes. It serves financial services, healthcare, manufacturing, retail, and public sector. The company was founded in 2005 and is headquartered in New York, New York.
 longName	UiPath, Inc.
 market	us_market
-marketCap	6195075072
-marketState	REGULAR
+marketCap	6406301184
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_343303132
 mostRecentQuarter	1769817600
-nameChangeDate	2026-03-15
+nameChangeDate	2026-03-17
 netIncomeToCommon	282329984
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	6192401339
+nonDilutedMarketCap	6187053843
 numberOfAnalystOpinions	16
-open	11.57
+open	11.61
 operatingCashflow	371208000
 operatingMargins	0.16644
 overallRisk	9
 payoutRatio	0.0
 phone	844 432 0455
-postMarketChange	-0.17000008
-postMarketChangePercent	-1.4951634
-postMarketPrice	11.2
-postMarketTime	1773359995
+postMarketChange	-0.009999275
+postMarketChangePercent	-0.08346641
+postMarketPrice	11.97
+postMarketTime	1773789734
 prevName	UiPath Inc.
-previousClose	11.58
-priceEpsCurrentYear	14.508998
+previousClose	11.57
+priceEpsCurrentYear	15.003694
 priceHint	2
-priceToBook	2.9812148
-priceToSalesTrailing12Months	3.846506
+priceToBook	3.0828614
+priceToSalesTrailing12Months	3.977656
 profitMargins	0.1753
 quickRatio	2.268
 quoteSourceName	Nasdaq Real Time Price
@@ -125,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.8
 region	US
-regularMarketChange	0.0050001144
-regularMarketChangePercent	0.043178882
-regularMarketDayHigh	11.88
-regularMarketDayLow	11.47
-regularMarketDayRange	11.47 - 11.88
-regularMarketOpen	11.57
-regularMarketPreviousClose	11.58
-regularMarketPrice	11.585
-regularMarketTime	1773679615
-regularMarketVolume	17591370
+regularMarketChange	0.41
+regularMarketChangePercent	3.54365
+regularMarketDayHigh	12.09
+regularMarketDayLow	11.56
+regularMarketDayRange	11.56 - 12.09
+regularMarketOpen	11.61
+regularMarketPreviousClose	11.57
+regularMarketPrice	11.98
+regularMarketTime	1773777602
+regularMarketVolume	32564974
 returnOnAssets	0.012610001
 returnOnEquity	0.14374
 revenueGrowth	0.136
@@ -154,7 +154,7 @@ shortRatio	3.06
 sourceInterval	15
 state	NY
 symbol	PATH
-syntheticPEG	0.12033980446927374
+syntheticPEG	0.12444288640595903
 targetHighPrice	17.0
 targetLowPrice	12.0
 targetMeanPrice	13.805
@@ -166,14 +166,14 @@ totalRevenue	1610572032
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	0.42
-trailingPE	27.583334
-trailingPegRatio	0.4085
+trailingEps	0.52
+trailingPE	23.038462
+trailingPegRatio	0.4081
 triggerable	True
-twoHundredDayAverage	13.42375
-twoHundredDayAverageChange	-1.8387499
-twoHundredDayAverageChangePercent	-0.13697736
+twoHundredDayAverage	13.4169
+twoHundredDayAverageChange	-1.4369001
+twoHundredDayAverageChangePercent	-0.107096285
 typeDisp	Equity
-volume	17591370
+volume	32564974
 website	https://www.uipath.com
 zip	10017

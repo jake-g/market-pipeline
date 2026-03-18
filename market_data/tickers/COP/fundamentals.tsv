@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.22675121
-SandP52WeekChange	0.16864312
+52WeekChange	0.20680392
+SandP52WeekChange	0.19319427
 address1	925 North Eldridge Parkway
 allTimeHigh	138.49
 allTimeLow	2.98574
-ask	121.58
-askSize	600
+ask	122.6
+askSize	300
 auditRisk	7
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	12939100
-averageDailyVolume3Month	8987803
-averageVolume	8987803
-averageVolume10days	12939100
+averageDailyVolume10Day	11728570
+averageDailyVolume3Month	8952237
+averageVolume	8952237
+averageVolume10days	11728570
 beta	0.279
-bid	121.54
-bidSize	200
+bid	121.74
+bidSize	800
 boardRisk	5
 bookValue	52.635
 city	Houston
@@ -25,17 +25,17 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	121.5
+currentPrice	122.87
 currentRatio	1.297
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	122.38
-dayLow	120.4001
+dayHigh	123.96
+dayLow	121.245
 debtToEquity	37.828
-discount_to_intrinsic_value	-118.45
+discount_to_intrinsic_value	-120.92
 dividendDate	1772409600
 dividendRate	3.36
-dividendYield	2.76
+dividendYield	2.77
 earningsCallTimestampEnd	1770310800
 earningsCallTimestampStart	1770310800
 earningsGrowth	-0.39
@@ -45,9 +45,9 @@ earningsTimestampEnd	1778157000
 earningsTimestampStart	1778157000
 ebitda	24160999424
 ebitdaMargins	0.40082002
-enterpriseToEbitda	6.887
-enterpriseToRevenue	2.761
-enterpriseValue	166403915776
+enterpriseToEbitda	6.858
+enterpriseToRevenue	2.749
+enterpriseValue	165707186176
 epsCurrentYear	5.43698
 epsForward	6.83447
 epsTrailingTwelveMonths	6.35
@@ -59,23 +59,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	106.2026
-fiftyDayAverageChange	15.297401
-fiftyDayAverageChangePercent	0.14403981
-fiftyTwoWeekChangePercent	22.675121
-fiftyTwoWeekHigh	122.5
-fiftyTwoWeekHighChange	-1.0
-fiftyTwoWeekHighChangePercent	-0.008163265
+fiftyDayAverage	106.7568
+fiftyDayAverageChange	16.113205
+fiftyDayAverageChangePercent	0.15093376
+fiftyTwoWeekChangePercent	20.680391
+fiftyTwoWeekHigh	123.96
+fiftyTwoWeekHighChange	-1.0899963
+fiftyTwoWeekHighChangePercent	-0.00879313
 fiftyTwoWeekLow	79.88
-fiftyTwoWeekLowChange	41.620003
-fiftyTwoWeekLowChangePercent	0.5210316
-fiftyTwoWeekRange	79.88 - 122.5
+fiftyTwoWeekLowChange	42.990005
+fiftyTwoWeekLowChangePercent	0.5381824
+fiftyTwoWeekRange	79.88 - 123.96
 financialCurrency	USD
 firstTradeDateMilliseconds	378657000000
 fiveYearAvgDividendYield	2.5
 floatShares	1219735570
 forwardEps	6.83447
-forwardPE	17.77753
+forwardPE	17.977985
 freeCashflow	7486875136
 fullExchangeName	NYSE
 fullTimeEmployees	9900
@@ -86,7 +86,7 @@ grossMargins	0.4618
 grossProfits	27836999680
 hasPrePostMarketData	True
 heldPercentInsiders	0.00105
-heldPercentInstitutions	0.84905
+heldPercentInstitutions	0.84904
 impliedSharesOutstanding	1222339152
 industry	Oil & Gas E&P
 industryDisp	Oil & Gas E&P
@@ -102,31 +102,31 @@ lastSplitFactor	1311791:1000000
 longBusinessSummary	ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids. It operates in five segments: Alaska; Lower 48; Canada; Europe, Middle East and North Africa; and Asia Pacific. The company's portfolio includes unconventional plays in North America; conventional assets in North America, Europe, Asia, and Australia; global LNG developments; oil sands assets in Canada; and an inventory of global exploration prospects. It serves in the United States, Canada, China, Equatorial Guinea, Libya, Malaysia, Norway, Singapore, the United Kingdom, and internationally. ConocoPhillips was founded in 1917 and is headquartered in Houston, Texas.
 longName	ConocoPhillips
 market	us_market
-marketCap	148514209792
-marketState	REGULAR
+marketCap	150188818432
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_296527
 mostRecentQuarter	1767139200
 netIncomeToCommon	7960999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	148990919237
+nonDilutedMarketCap	148294185920
 numberOfAnalystOpinions	27
-open	121.19
+open	121.95
 operatingCashflow	19796000768
 operatingMargins	0.16299999
 overallRisk	6
 payoutRatio	0.5008
 pegRatio	9.93
 phone	281 293 1000
-postMarketChange	0.58999634
-postMarketChangePercent	0.49060065
-postMarketPrice	120.85
-postMarketTime	1773359980
-previousClose	121.89
-priceEpsCurrentYear	22.346966
+postMarketChange	0.08999634
+postMarketChangePercent	0.07324517
+postMarketPrice	122.96
+postMarketTime	1773789355
+previousClose	121.32
+priceEpsCurrentYear	22.598944
 priceHint	2
-priceToBook	2.30835
-priceToSalesTrailing12Months	2.4637802
+priceToBook	2.3343785
+priceToSalesTrailing12Months	2.4915612
 profitMargins	0.13252
 quickRatio	1.069
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.82143
 region	US
-regularMarketChange	-0.3899994
-regularMarketChangePercent	-0.31996012
-regularMarketDayHigh	122.38
-regularMarketDayLow	120.4001
-regularMarketDayRange	120.4001 - 122.38
-regularMarketOpen	121.19
-regularMarketPreviousClose	121.89
-regularMarketPrice	121.5
-regularMarketTime	1773679436
-regularMarketVolume	3141524
+regularMarketChange	1.55
+regularMarketChangePercent	1.27762
+regularMarketDayHigh	123.96
+regularMarketDayLow	121.245
+regularMarketDayRange	121.245 - 123.96
+regularMarketOpen	121.95
+regularMarketPreviousClose	121.32
+regularMarketPrice	122.87
+regularMarketTime	1773777602
+regularMarketVolume	6188337
 returnOnAssets	0.06421
 returnOnEquity	0.12357
 revenueGrowth	-0.068
@@ -173,15 +173,15 @@ totalDebt	24394000384
 totalRevenue	60279001088
 tradeable	False
 trailingAnnualDividendRate	3.18
-trailingAnnualDividendYield	0.026089098
+trailingAnnualDividendYield	0.026211672
 trailingEps	6.35
-trailingPE	19.133858
-trailingPegRatio	3.1713
+trailingPE	19.349607
+trailingPegRatio	3.1564
 triggerable	True
-twoHundredDayAverage	95.64205
-twoHundredDayAverageChange	25.857948
-twoHundredDayAverageChangePercent	0.2703617
+twoHundredDayAverage	95.82575
+twoHundredDayAverageChange	27.04425
+twoHundredDayAverageChangePercent	0.2822232
 typeDisp	Equity
-volume	3141524
+volume	6188337
 website	https://www.conocophillips.com
 zip	77079-2703

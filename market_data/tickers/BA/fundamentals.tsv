@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.29681802
-SandP52WeekChange	0.16864312
+52WeekChange	0.32122302
+SandP52WeekChange	0.19319427
 address1	929 Long Bridge Drive
 allTimeHigh	446.01
 allTimeLow	0.382716
-ask	213.25
-askSize	200
+ask	210.62
+askSize	100
 auditRisk	10
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	7916880
-averageDailyVolume3Month	7326883
-averageVolume	7326883
-averageVolume10days	7916880
+averageDailyVolume10Day	8181350
+averageDailyVolume3Month	7327774
+averageVolume	7327774
+averageVolume10days	8181350
 beta	1.096
-bid	213.15
-bidSize	100
+bid	210.48
+bidSize	300
 boardRisk	2
 bookValue	6.943
 city	Arlington
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	213.71
+currentPrice	210.82
 currentRatio	1.188
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	216.15
-dayLow	210.75
+dayHigh	217.15
+dayLow	206.67
 debtToEquity	1032.894
 dividendDate	1583452800
 earningsCallTimestampEnd	1769527800
@@ -40,9 +40,9 @@ earningsTimestampEnd	1776861000
 earningsTimestampStart	1776861000
 ebitda	-3238000128
 ebitdaMargins	-0.03619
-enterpriseToEbitda	-59.466
-enterpriseToRevenue	2.152
-enterpriseValue	192552501248
+enterpriseToEbitda	-60.335
+enterpriseToRevenue	2.184
+enterpriseValue	195364044800
 epsCurrentYear	0.37772
 epsForward	4.7037
 epsTrailingTwelveMonths	2.48
@@ -53,23 +53,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	234.2782
-fiftyDayAverageChange	-20.568192
-fiftyDayAverageChangePercent	-0.08779388
-fiftyTwoWeekChangePercent	29.6818
+fiftyDayAverage	234.2052
+fiftyDayAverageChange	-23.385193
+fiftyDayAverageChangePercent	-0.099849164
+fiftyTwoWeekChangePercent	32.122303
 fiftyTwoWeekHigh	254.35
-fiftyTwoWeekHighChange	-40.64
-fiftyTwoWeekHighChangePercent	-0.15977983
+fiftyTwoWeekHighChange	-43.53
+fiftyTwoWeekHighChangePercent	-0.17114212
 fiftyTwoWeekLow	128.88
-fiftyTwoWeekLowChange	84.83
-fiftyTwoWeekLowChangePercent	0.6582092
+fiftyTwoWeekLowChange	81.94
+fiftyTwoWeekLowChangePercent	0.6357852
 fiftyTwoWeekRange	128.88 - 254.35
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	2.48
-floatShares	753493418
+floatShares	753414883
 forwardEps	4.7037
-forwardPE	45.434444
+forwardPE	44.820038
 freeCashflow	1761750016
 fullExchangeName	NYSE
 fullTimeEmployees	182000
@@ -79,7 +79,7 @@ grossMargins	0.04828
 grossProfits	4319000064
 hasPrePostMarketData	True
 heldPercentInsiders	0.00046999997
-heldPercentInstitutions	0.73864
+heldPercentInstitutions	0.73863
 impliedSharesOutstanding	785844140
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -95,31 +95,31 @@ lastSplitFactor	2:1
 longBusinessSummary	The Boeing Company, together with its subsidiaries, designs, develops, manufactures, sells, services, and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems, and services worldwide. The company operates through three segments: Commercial Airplanes; Defense, Space & Security; and Global Services. The Commercial Airplanes segment develops, produces, and markets commercial jet aircraft for passenger and cargo requirements. The Defense, Space & Security segment engages in the research, development, production, and modification of manned and unmanned military aircraft and weapons systems; strategic defense and intelligence systems, which include strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance, cyber and information solutions, and intelligence systems; and satellite systems, such as government and commercial satellites, and space exploration. The Global Services segment offers products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services to commercial and defense customers. The Boeing Company was incorporated in 1916 and is based in Arlington, Virginia.
 longName	The Boeing Company
 market	us_market
-marketCap	167942766592
-marketState	REGULAR
+marketCap	165671665664
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_370857
 mostRecentQuarter	1767139200
 netIncomeToCommon	1888999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	164940826544
+nonDilutedMarketCap	167754148565
 numberOfAnalystOpinions	24
-open	210.75
+open	214.68
 operatingCashflow	1065000000
 operatingMargins	-0.03178
 overallRisk	8
 payoutRatio	0.0
 pegRatio	6.53
 phone	703-465-3500
-postMarketChange	0.23001099
-postMarketChangePercent	0.112331994
-postMarketPrice	204.99
-postMarketTime	1773359970
-previousClose	209.89
-priceEpsCurrentYear	565.7895
+postMarketChange	-0.38000488
+postMarketChangePercent	-0.18025087
+postMarketPrice	210.44
+postMarketTime	1773789086
+previousClose	213.47
+priceEpsCurrentYear	558.1383
 priceHint	2
-priceToBook	30.780643
-priceToSalesTrailing12Months	1.8772316
+priceToBook	30.364397
+priceToSalesTrailing12Months	1.8518457
 profitMargins	0.02498
 quickRatio	0.377
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +127,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.61538
 region	US
-regularMarketChange	3.8200073
-regularMarketChangePercent	1.8200045
-regularMarketDayHigh	216.15
-regularMarketDayLow	210.75
-regularMarketDayRange	210.75 - 216.15
-regularMarketOpen	210.75
-regularMarketPreviousClose	209.89
-regularMarketPrice	213.71
-regularMarketTime	1773679403
-regularMarketVolume	4394964
+regularMarketChange	-2.64999
+regularMarketChangePercent	-1.24139
+regularMarketDayHigh	217.15
+regularMarketDayLow	206.67
+regularMarketDayRange	206.67 - 217.15
+regularMarketOpen	214.68
+regularMarketPreviousClose	213.47
+regularMarketPrice	210.82
+regularMarketTime	1773777602
+regularMarketVolume	6667701
 returnOnAssets	-0.019989999
 returnOnEquity	2.90084
 revenueGrowth	0.571
@@ -168,13 +168,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.48
-trailingPE	86.173386
+trailingPE	85.008064
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	219.20195
-twoHundredDayAverageChange	-5.4919434
-twoHundredDayAverageChangePercent	-0.025054263
+twoHundredDayAverage	219.2618
+twoHundredDayAverageChange	-8.441788
+twoHundredDayAverageChangePercent	-0.03850095
 typeDisp	Equity
-volume	4394964
+volume	6667701
 website	https://www.boeing.com
 zip	22202-4208
