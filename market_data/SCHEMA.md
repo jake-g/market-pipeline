@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.0981226 |
+| Value | str | 0.010380745 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (234 more) | | |
+| ... (146 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-17 |
+| Date | str | 2026-03-21 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Best spring cleaning deals Amazon has on vacuum... |
-| Summary | str | Amazon's stock behavior differed greatly from C... |
-| URL | str | https://news.google.com/rss/articles/CBMi1AFBVV... |
+| Sentiment | float64 | 0.6 |
+| Headline | str | Could Amazon and USPS' Failing Contract Negotia... |
+| Summary | str | Amazon.com (NasdaqGS: AMZN) has acquired Zurich... |
+| URL | str | https://news.google.com/rss/articles/CBMimAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -75,10 +75,10 @@ This report documents the file structures and column data types used in `market_
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 420.096 |
-| AIR_PPI | float64 | 174.01 |
-| TRUCK_PPI | float64 | 186.16 |
-| WAREHOUSE_PPI | float64 | 171.259 |
+| FREIGHT_PPI | float64 | 421.137 |
+| AIR_PPI | float64 | 175.008 |
+| TRUCK_PPI | float64 | 185.632 |
+| WAREHOUSE_PPI | float64 | 173.049 |
 | MFG_CONST | float64 | 202420.0 |
 | TECH_PULSE | float64 | 92.2679 |
 | CHINA_IMPORTS | float64 | 21057.9084 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.76 |
-| US10Y | float64 | 4.27 |
+| US02Y | float64 | 3.79 |
+| US10Y | float64 | 4.25 |
