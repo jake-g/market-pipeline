@@ -11,7 +11,7 @@ The AI investment narrative has officially matured from the speculative "build-o
 - **Sovereign Infrastructure over Global Efficiency:** There is a definitive shift away from globalized supply chain efficiency toward **Technological Sovereignty** [2, 6]. Institutional capital is rotating into "Heavy Asset, Low Obsolescence" (HALO) stocks—domestic energy and infrastructure plays that can sustain a massive AI buildout amid a fragmenting world order [6-8].
 
 ### Geopolitical Stagflation: The Hormuz Risk Premium
-The week was defined by acute geopolitical instability as the U.S.-Israel war with Iran ("Operation Epic Fury") entered its fourth week [6, 8]. 
+The week was defined by acute geopolitical instability as the U.S.-Israel war with Iran ("Operation Epic Fury") entered its fourth week [6, 8].
 - **The Chokepoint Crisis:** Markets have been forced to price in an **85.2% probability** of the closure of the **Strait of Hormuz**, a chokepoint for 20% of global crude trade [6, 8].
 - **Rhetorical Volatility:** Conflicting signals from President Trump—ranging from calls for "unconditional surrender" to "winding down" the war—have created a volatile "whack-a-mole" environment for risk assets [8-11].
 - **Economic Double Shock:** The global economy is facing a convergence of **15% global tariffs** and military-driven energy spikes, threatening a stagflationary environment as U.S. GDP growth decelerates to 1.4% [6-8].

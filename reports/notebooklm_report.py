@@ -21,28 +21,32 @@ logger = logging.getLogger(__name__)
 
 # --- NOTEBOOKLM PROMPT CONSTANTS ---
 
-PROMPT_DAILY = """You are a sophisticated hedge fund analyst powered by NotebookLM. Write a highly actionable, detailed, and data-driven daily market intelligence report synthesizing the uploaded qualitative news and quantitative price action.
+PROMPT_DAILY = """You are a sophisticated hedge fund analyst powered by NotebookLM. Write a highly actionable, detailed, and data-driven daily market intelligence report for {date}.
+
+PRIORITIZE content from the source titled "{date} Daily Market Feed" as the absolute foundation for this report. Today's qualitative news feeds and quantitative price changes are the most important elements. Use historical context (previous reports) ONLY for continuity and tracking continuous narrative trends, DO NOT summarize them or let them drown out today's data.
 
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in the data. Integrate context from any uploaded previous daily or weekly reports to maintain narrative consistency and call out evolving trends. Provide deep insights into geopolitical shifts, tech leaps, and macro events (e.g., CPI dumps, Fed guidance). Explain the *why* behind the moves. Include a brief, sharp **Expert Forward Projection** analyzing where these trends are likely headed in the near term. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Provide 3-4 distinct paragraphs/bullet blocks of intense insight.
+Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in TODAY'S data. Integrate context from previous reports *only* to explain the evolution of these themes. Explain the *why* behind today's moves. Include a brief, sharp **Expert Forward Projection** analyzing where these trends are likely headed in the near term. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Provide 3-4 distinct paragraphs/bullet blocks of intense insight.
 
 ## Quantitative Market Action & Specific Equities
-Explicitly correlate the top stock winners/losers from the Price Action Summary with the exact qualitative news events driving them. Quantify your points and elaborate on the specific details of the catalyst (e.g., earnings beats with actual numbers, product launches, guidance revisions).
-You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
+Explicitly correlate the top stock winners/losers from TODAY'S Price Action Summary with the exact qualitative news events driving them. Focus on the 1-day change. Quantify your points and elaborate on the specific details of the catalyst (e.g., earnings beats with actual numbers, product launches, guidance revisions).
+You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining today's move.
 
 CRITICAL FORMATTING RULES:
-1. Be concise but highly insightful. Do not skimp on providing valuable details and the underlying rationale. Avoid generic fluff.
+1. Be concise but highly insightful. Focus tightly on today's developments. Avoid generic fluff.
 2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
 
 PROMPT_WEEKLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly actionable, detailed, and data-driven weekly synthesis report for the week of {start_date} to {end_date}.
 
+FOCUS with a "zoomed out" perspective. Emphasize high-level thematic shifts, sector momentum pivots, and aggregate weekly performance over single-day noise. Rely on continuous context to show the evolution of trends.
+
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, deep-dive executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Contextualize the narrative using context from preceding uploaded reports to show the evolution of topics. Provide robust, detailed analysis on *why* these trends matter and how they developed over the days. Include a dedicated **Expert Forward Projection** section forecasting what these catalysts mean for the weeks ahead. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Aim for thorough, high-conviction insights.
+Write a highly structured, deep-dive executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Synthesize the primary narrative arc of the week. Contextualize using context from preceding uploaded reports to show the evolution of topics. Provide robust, detailed analysis on *why* these trends matter. Include a dedicated **Expert Forward Projection** section forecasting what these catalysts mean for the weeks ahead. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Aim for thorough, high-conviction insights.
 
 ## Quantitative Market Action & Specific Equities
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers, cite the companies directly, and provide the specific narrative behind their price action (e.g., specific Earnings beats or Guidance numbers).
+Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary for the week and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers, cite the companies directly, and provide the specific narrative behind their aggregate week move (e.g., earnings beats or guidance).
 You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
 
 CRITICAL FORMATTING RULES:
@@ -51,12 +55,14 @@ CRITICAL FORMATTING RULES:
 
 PROMPT_MONTHLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, insightful, and data-driven monthly synthesis report for {month_year}.
 
+FOCUS strictly on structural economic trends, monthly narrative arcs, and major macro pivots. Tell a unified story of the month, summarizing the aggregate narrative rather than a daily log of details.
+
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, deeply analytical executive summary grouping exactly the major themes and catalysts that defined this month. Highlight major shifts or trends, drawing benchmarks against previous uploaded continuous context tracking. Break the broader market narrative and key events down chronologically into a Week-by-Week timeline here. Conclude this section with an **Expert Forward Projection**, offering institutional-level forecasts for the coming months based on the data. Provide expansive context and tell the story of the month.
+Write a highly structured, deeply analytical executive summary grouping exactly the major themes and catalysts that defined this month. Highlight structural shifts or trends, drawing benchmarks against previous uploaded continuous context tracking. Break the broader market narrative and key events down chronologically into a Week-by-Week timeline here. Conclude this section with an **Expert Forward Projection**, offering institutional-level forecasts for the coming months based on the data. Provide expansive context and tell the story of the month.
 
 ## Quantitative Market Action & Specific Equities
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to the uploaded qualitative news. Dig into the specific earnings reports, upgrades, or macro events driving those tickers.
+Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary for the month. Correlate those specific stock returns to the uploaded qualitative news. Dig into the specific earnings reports, upgrades, or macro events driving those tickers for the month.
 You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
 
 CRITICAL FORMATTING RULES:
@@ -392,13 +398,17 @@ async def generate_report(market_data_dir: str,
   if mode == 'daily':
     if start_date_str:
       date_obj = pd.to_datetime(start_date_str).tz_localize(None)
-      date_str = date_obj.strftime("%m-%d")
+      date_m_d = date_obj.strftime("%m-%d")
+      full_date_str = date_obj.strftime("%Y-%m-%d")
     else:
-      date_str = datetime.now().strftime("%m-%d")
+      date_obj = pd.Timestamp.now()
+      date_m_d = date_obj.strftime("%m-%d")
+      full_date_str = date_obj.strftime("%Y-%m-%d")
 
     project_name = "Market Feed"
-    report_filename = f"{date_str}_DAILY_REPORT.md"
-    prompt = PROMPT_DAILY
+    report_filename = f"{date_m_d}_DAILY_REPORT.md"
+    prompt = PROMPT_DAILY.format(date=full_date_str)
+    feed_title = f"{full_date_str} Daily Market Feed"  # Define feed_title for summary naming
   elif mode == 'weekly':
     if not start_date_str or not end_date_str:
       raise ValueError("Weekly mode requires start_date and end_date.")
@@ -645,11 +655,10 @@ async def generate_report(market_data_dir: str,
               None).to_pydatetime() if end_date_str else None
 
           if mode == 'daily':
-            # Set ts to 7 days ago if daily to give weekly momentum
+            # For daily, we want 1-day return (comparison to previous close)
             if te is None:
               te = datetime.now()
-            if ts is None:
-              ts = te - timedelta(days=7)
+            ts = te  # Single day; build_price_analysis_blob looks back 1 row
 
           quant_summary = build_price_analysis_blob(market_data_dir, ts, te)
 
