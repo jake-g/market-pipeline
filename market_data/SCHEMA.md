@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-21 |
-| Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | Could Amazon and USPS' Failing Contract Negotia... |
-| Summary | str | Amazon.com (NasdaqGS: AMZN) has acquired Zurich... |
-| URL | str | https://news.google.com/rss/articles/CBMimAFBVV... |
+| Date | str | 2026-03-22 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.144 |
+| Headline | str | Bitcoin Got Its Biggest Regulatory Win In A Dec... |
+| Summary | str | “We’re not the securities and everything commis... |
+| URL | str | https://finance.yahoo.com/markets/crypto/articl... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
