@@ -10,8 +10,8 @@ askSize	16
 auditRisk	8
 averageAnalystRating	1.5 - Strong Buy
 averageDailyVolume10Day	4444200
-averageDailyVolume3Month	5652965
-averageVolume	5652965
+averageDailyVolume3Month	5696365
+averageVolume	5696365
 averageVolume10days	4444200
 beta	1.36
 bid	124.87
@@ -33,7 +33,7 @@ dateShortInterest	1772150400
 dayHigh	128.44
 dayLow	124.52
 debtToEquity	34.269
-discount_to_intrinsic_value	-928.14
+discount_to_intrinsic_value	-894.97
 displayName	Datadog
 earningsCallTimestampEnd	1770728400
 earningsCallTimestampStart	1770728400
@@ -49,7 +49,7 @@ enterpriseToRevenue	11.935
 enterpriseValue	40904384512
 epsCurrentYear	2.16585
 epsForward	2.64435
-epsTrailingTwelveMonths	0.3
+epsTrailingTwelveMonths	0.31
 eps_normalized_growth	0.15334910778185318
 esgPopulated	False
 exchange	NMS
@@ -70,7 +70,7 @@ fiftyTwoWeekLowChangePercent	0.53227985
 fiftyTwoWeekRange	81.63 - 201.69
 financialCurrency	USD
 firstTradeDateMilliseconds	1568899800000
-floatShares	324983477
+floatShares	325011683
 forwardEps	2.64435
 forwardPE	47.30085
 freeCashflow	879646720
@@ -78,12 +78,12 @@ fullExchangeName	NasdaqGS
 fullTimeEmployees	8100
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	12.17
+graham_intrinsic_value	12.57
 grossMargins	0.79976
 grossProfits	2740896000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0068
-heldPercentInstitutions	0.91069
+heldPercentInstitutions	0.9107
 impliedSharesOutstanding	353851329
 industry	Software - Application
 industryDisp	Software - Application
@@ -95,13 +95,13 @@ longBusinessSummary	Datadog, Inc. operates an observability and security platfor
 longName	Datadog, Inc.
 market	us_market
 marketCap	44259725312
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_134521275
 mostRecentQuarter	1767139200
 netIncomeToCommon	107741000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	45979441690
+nonDilutedMarketCap	44259724231
 numberOfAnalystOpinions	43
 open	128.16
 operatingCashflow	1050134976
@@ -125,8 +125,8 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.46809
 region	US
-regularMarketChange	-4.86
-regularMarketChangePercent	-3.74019
+regularMarketChange	-4.8600006
+regularMarketChangePercent	-3.7401881
 regularMarketDayHigh	128.44
 regularMarketDayLow	124.52
 regularMarketDayRange	124.52 - 128.44
@@ -166,9 +166,9 @@ totalRevenue	3427158016
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	0.3
-trailingPE	416.93332
-trailingPegRatio	0.9762
+trailingEps	0.31
+trailingPE	403.4839
+trailingPegRatio	0.9397
 triggerable	True
 twoHundredDayAverage	139.3487
 twoHundredDayAverageChange	-14.268692

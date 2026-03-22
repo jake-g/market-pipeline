@@ -8,8 +8,8 @@ ask	13.26
 askSize	256
 averageAnalystRating	3.0 - Hold
 averageDailyVolume10Day	131440
-averageDailyVolume3Month	94813
-averageVolume	94813
+averageDailyVolume3Month	94958
+averageVolume	94958
 averageVolume10days	131440
 beta	0.669
 bid	13.2
@@ -18,7 +18,7 @@ bookValue	3789.391
 city	Copenhagen
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Vincent  Clerc', 'age': 53, 'title': 'CEO & Member of Management Board', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 4121830, 'exercisedValue': 0, 'unexercisedValue': 1875273}, {'maxAge': 1, 'name': 'Mr. Robert  Erni', 'age': 59, 'title': 'CFO & Member of the Executive Board', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Rabab  Boulos', 'title': 'Chief Operating Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Navneet  Kapoor', 'age': 55, 'title': 'Chief Technology & Information Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 2040771, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Martin Christopher Dunwoodie', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mikkel  Linnet', 'title': 'Head of Global Media Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Susana  Elvira', 'title': 'Chief People Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Caroline  Pontoppidan', 'age': 60, 'title': 'Chief Corporate Affairs Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Katharina  Poehlmann', 'title': 'Senior VP & Head of Strategy', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Karsten  Kildahl', 'title': 'Chief Commercial Officer & Emerging Markets', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
-corporateActions	[{'header': 'Dividend', 'message': 'AMKBY announced a cash dividend of $0.379 with an ex-date of Mar. 27, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774584000000, 'amount': '0.379'}}]
+corporateActions	[]
 country	Denmark
 cryptoTradeable	False
 currency	USD
@@ -28,10 +28,10 @@ customPriceAlertConfidence	LOW
 dayHigh	13.73
 dayLow	13.2
 debtToEquity	33.371
-discount_to_intrinsic_value	-81.41
+discount_to_intrinsic_value	-69.18
 dividendDate	1743984000
 dividendRate	0.38
-dividendYield	2.68
+dividendYield	2.86
 earningsCallTimestampEnd	1746694800
 earningsCallTimestampStart	1746694800
 earningsTimestampEnd	1754548200
@@ -42,7 +42,7 @@ enterpriseToEbitda	-0.187
 enterpriseToRevenue	-0.021
 enterpriseValue	-1152728576
 epsForward	-0.28262
-epsTrailingTwelveMonths	0.83
+epsTrailingTwelveMonths	0.89
 eps_normalized_growth	-0.33516534887811344
 esgPopulated	False
 exDividendDate	1774569600
@@ -72,7 +72,7 @@ freeCashflow	3401625088
 fullExchangeName	OTC Markets OTCPK
 fullTimeEmployees	87153
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	7.3
+graham_intrinsic_value	7.83
 grossMargins	0.17665
 grossProfits	9537000448
 hasPrePostMarketData	False
@@ -94,13 +94,13 @@ longBusinessSummary	A.P. Møller - Mærsk A/S, together with its subsidiaries, o
 longName	A.P. Møller - Mærsk A/S
 market	us_market
 marketCap	38533500928
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_875418
 mostRecentQuarter	1767139200
 netIncomeToCommon	2724999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	40273161484
+nonDilutedMarketCap	38251073325
 numberOfAnalystOpinions	1
 open	13.73
 operatingCashflow	9761000448
@@ -151,8 +151,8 @@ totalRevenue	53987999744
 tradeable	False
 trailingAnnualDividendRate	75.461
 trailingAnnualDividendYield	5.314155
-trailingEps	0.83
-trailingPE	15.963856
+trailingEps	0.89
+trailingPE	14.887641
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	10.7677

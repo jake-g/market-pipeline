@@ -3,10 +3,10 @@ allTimeHigh	5586.2
 allTimeLow	255.0
 ask	4521.8
 askSize	8
-averageDailyVolume10Day	990
-averageDailyVolume3Month	3292
-averageVolume	3292
-averageVolume10days	990
+averageDailyVolume10Day	954
+averageDailyVolume3Month	3281
+averageVolume	3281
+averageVolume10days	954
 bid	4485.0
 bidSize	14
 contractSymbol	False
@@ -23,16 +23,16 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 expireDate	1777334400
 expireIsoDate	2026-04-28T00:00:00Z
-fiftyDayAverage	4953.724
-fiftyDayAverageChange	-461.72412
-fiftyDayAverageChangePercent	-0.09320748
-fiftyTwoWeekChangePercent	52.689922
+fiftyDayAverage	4956.138
+fiftyDayAverageChange	-381.23828
+fiftyDayAverageChangePercent	-0.07692245
+fiftyTwoWeekChangePercent	51.684307
 fiftyTwoWeekHigh	5586.2
-fiftyTwoWeekHighChange	-1094.2002
-fiftyTwoWeekHighChangePercent	-0.19587559
+fiftyTwoWeekHighChange	-1011.3003
+fiftyTwoWeekHighChangePercent	-0.18103546
 fiftyTwoWeekLow	2949.7
-fiftyTwoWeekLowChange	1542.3
-fiftyTwoWeekLowChangePercent	0.5228668
+fiftyTwoWeekLowChange	1625.2
+fiftyTwoWeekLowChangePercent	0.55097127
 fiftyTwoWeekRange	2949.7 - 5586.2
 firstTradeDateMilliseconds	967608000000
 fullExchangeName	COMEX
@@ -50,14 +50,14 @@ priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	FUTURE
 region	US
-regularMarketChange	-113.700195
-regularMarketChangePercent	-2.4686842
+regularMarketChange	-30.800293
+regularMarketChangePercent	-0.6687429
 regularMarketDayHigh	4738.2
 regularMarketDayLow	4478.4
 regularMarketDayRange	4478.4 - 4738.2
 regularMarketOpen	4653.9
 regularMarketPreviousClose	4605.7
-regularMarketPrice	4492.0
+regularMarketPrice	4574.9
 regularMarketTime	1774040399
 regularMarketVolume	220773
 shortName	Gold Apr 26
@@ -66,10 +66,10 @@ symbol	GC=F
 tradeable	False
 trailingPegRatio	None
 triggerable	False
-twoHundredDayAverage	4067.69
-twoHundredDayAverageChange	424.31006
-twoHundredDayAverageChangePercent	0.10431229
+twoHundredDayAverage	4073.9285
+twoHundredDayAverageChange	500.97144
+twoHundredDayAverageChangePercent	0.12297011
 typeDisp	Futures
 underlyingExchangeSymbol	GCJ26.CMX
-underlyingSymbol	GCJ26.CMX
+underlyingSymbol	GC.CMX
 volume	220773

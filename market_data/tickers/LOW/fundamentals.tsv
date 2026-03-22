@@ -4,16 +4,16 @@ SandP52WeekChange	0.12811458
 address1	1000 Lowes Blvd.
 allTimeHigh	293.06
 allTimeLow	0.328125
-ask	227.0
+ask	226.5
 askSize	80
 auditRisk	4
 averageAnalystRating	1.9 - Buy
 averageDailyVolume10Day	2744740
-averageDailyVolume3Month	2727437
-averageVolume	2727437
+averageDailyVolume3Month	2743285
+averageVolume	2743285
 averageVolume10days	2744740
 beta	0.935
-bid	224.63
+bid	226.1
 bidSize	40
 boardRisk	5
 bookValue	-17.677
@@ -21,7 +21,7 @@ city	Mooresville
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Marvin R. Ellison', 'age': 60, 'title': 'President, CEO & Chairman', 'yearBorn': 1965, 'fiscalYear': 2024, 'totalPay': 4439570, 'exercisedValue': 0, 'unexercisedValue': 68135848}, {'maxAge': 1, 'name': 'Mr. Brandon J. Sink CPA', 'age': 49, 'title': 'Executive VP & CFO', 'yearBorn': 1976, 'fiscalYear': 2024, 'totalPay': 1590620, 'exercisedValue': 671202, 'unexercisedValue': 1900747}, {'maxAge': 1, 'name': 'Ms. Seemantini  Godbole', 'age': 55, 'title': 'Executive VP and Chief Information & Digital Officer', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 1693105, 'exercisedValue': 8754471, 'unexercisedValue': 1661529}, {'maxAge': 1, 'name': 'Mr. William P. Boltz', 'age': 62, 'title': 'Executive Vice President of Merchandising', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 1807774, 'exercisedValue': 0, 'unexercisedValue': 1975462}, {'maxAge': 1, 'name': 'Mr. Joseph Michael McFarland III', 'age': 55, 'title': 'Executive Vice President of Stores', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 1750045, 'exercisedValue': 0, 'unexercisedValue': 20549756}, {'maxAge': 1, 'name': 'Mr. Dan Clayton Griggs Jr.', 'age': 47, 'title': 'Senior VP of Tax & Chief Accounting Officer', 'yearBorn': 1978, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kate  Pearlman', 'title': 'Vice President, Investor Relations & Treasurer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Juliette Williams Pryor J.D.', 'age': 60, 'title': 'Executive VP, Chief Legal Officer & Corporate Secretary', 'yearBorn': 1965, 'fiscalYear': 2024, 'totalPay': 4257676, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Luis A. Avila Esq.', 'title': 'Senior VP of Corporate Governance & Chief Compliance Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jennifer E. Wilson', 'title': 'Senior VP & Chief Marketing Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	5
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'LOW announced a cash dividend of $1.20 with an ex-date of Apr. 22, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1776830400000, 'amount': '1.20'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -31,11 +31,11 @@ customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
 dayHigh	229.8589
 dayLow	224.15
-discount_to_intrinsic_value	-120.24
+discount_to_intrinsic_value	-115.23
 displayName	Lowe's Companies
-dividendDate	1770163200
+dividendDate	1778025600
 dividendRate	4.8
-dividendYield	2.09
+dividendYield	2.14
 earningsCallTimestampEnd	1747832400
 earningsCallTimestampStart	1747832400
 earningsGrowth	-0.108
@@ -50,10 +50,10 @@ enterpriseToRevenue	1.963
 enterpriseValue	169342435328
 epsCurrentYear	12.6205
 epsForward	13.67814
-epsTrailingTwelveMonths	11.59
+epsTrailingTwelveMonths	11.86
 eps_normalized_growth	-0.09526383172939168
 esgPopulated	False
-exDividendDate	1768953600
+exDividendDate	1776816000
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
@@ -81,7 +81,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	300000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	101.99
+graham_intrinsic_value	104.37
 grossMargins	0.33476
 grossProfits	28885000192
 hasPrePostMarketData	True
@@ -103,7 +103,7 @@ longBusinessSummary	Lowe's Companies, Inc., together with its subsidiaries, oper
 longName	Lowe's Companies, Inc.
 market	us_market
 marketCap	126006534144
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_180871
 mostRecentQuarter	1769731200
@@ -173,8 +173,8 @@ totalRevenue	86286000128
 tradeable	False
 trailingAnnualDividendRate	4.75
 trailingAnnualDividendYield	0.020678246
-trailingEps	11.59
-trailingPE	19.381363
+trailingEps	11.86
+trailingPE	18.940136
 trailingPegRatio	2.3977
 triggerable	True
 twoHundredDayAverage	246.64764

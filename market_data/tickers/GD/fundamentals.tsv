@@ -4,16 +4,16 @@ SandP52WeekChange	0.12811458
 address1	11011 Sunset Hills Road
 allTimeHigh	369.7
 allTimeLow	0.3375
-ask	347.06
+ask	348.61
 askSize	200
 auditRisk	7
 averageAnalystRating	2.2 - Buy
 averageDailyVolume10Day	1313120
-averageDailyVolume3Month	1344291
-averageVolume	1344291
+averageDailyVolume3Month	1346731
+averageVolume	1346731
 averageVolume10days	1313120
 beta	0.372
-bid	345.78
+bid	343.0
 bidSize	80
 boardRisk	5
 bookValue	94.902
@@ -21,7 +21,7 @@ city	Reston
 companyOfficers	[{'maxAge': 1, 'name': 'Ms. Phebe N. Novakovic', 'age': 67, 'title': 'Chairperson & CEO', 'yearBorn': 1958, 'fiscalYear': 2024, 'totalPay': 6042454, 'exercisedValue': 15661996, 'unexercisedValue': 52216080}, {'maxAge': 1, 'name': 'Mr. Danny  Deep', 'age': 55, 'title': 'President', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 2136891, 'exercisedValue': 1136876, 'unexercisedValue': 7240046}, {'maxAge': 1, 'name': 'Ms. Kimberly A. Kuryea', 'age': 58, 'title': 'Senior VP & CFO', 'yearBorn': 1967, 'fiscalYear': 2024, 'totalPay': 2243347, 'exercisedValue': 7304409, 'unexercisedValue': 10271289}, {'maxAge': 1, 'name': 'Mr. Mark L. Burns', 'age': 65, 'title': 'Executive Vice President', 'yearBorn': 1960, 'fiscalYear': 2024, 'totalPay': 2019309, 'exercisedValue': 3191854, 'unexercisedValue': 12981979}, {'maxAge': 1, 'name': 'Mr. Jason W. Aiken CPA', 'age': 53, 'title': 'Executive Vice President of Combat & Mission Systems', 'yearBorn': 1972, 'fiscalYear': 2024, 'totalPay': 2684834, 'exercisedValue': 7781157, 'unexercisedValue': 16556013}, {'maxAge': 1, 'name': 'Mr. Robert E. Smith', 'age': 56, 'title': 'Executive Vice President of Marine Systems', 'yearBorn': 1969, 'fiscalYear': 2024, 'totalPay': 2012928, 'exercisedValue': 6473737, 'unexercisedValue': 7842038}, {'maxAge': 1, 'name': 'Mr. Shane A. Berg', 'age': 53, 'title': 'Senior Vice President of Human Resources & Administration', 'yearBorn': 1972, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Nicole M. Shelton', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gregory S. Gallopoulos', 'age': 65, 'title': 'Senior VP, General Counsel & Secretary', 'yearBorn': 1960, 'fiscalYear': 2024, 'totalPay': 1758747, 'exercisedValue': 2526242, 'unexercisedValue': 5856439}, {'maxAge': 1, 'name': 'Ms. Elizabeth L. Schmid', 'title': 'Senior Vice President for Government Relations & Communications', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	3
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'GD announced a cash dividend of $1.59 with an ex-date of Apr. 10, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1775793600000, 'amount': '1.59'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -32,11 +32,11 @@ dateShortInterest	1772150400
 dayHigh	352.0499
 dayLow	343.08
 debtToEquity	38.205
-discount_to_intrinsic_value	-47.93
+discount_to_intrinsic_value	-46.2
 displayName	General Dynamics
 dividendDate	1778198400
 dividendRate	6.09
-dividendYield	1.74
+dividendYield	1.76
 earningsCallTimestampEnd	1769608800
 earningsCallTimestampStart	1769608800
 earningsGrowth	0.004
@@ -51,7 +51,7 @@ enterpriseToRevenue	1.918
 enterpriseValue	100810637312
 epsCurrentYear	16.33375
 epsForward	18.0709
-epsTrailingTwelveMonths	15.28
+epsTrailingTwelveMonths	15.46
 eps_normalized_growth	0.031381495521412894
 esgPopulated	False
 exDividendDate	1775779200
@@ -74,7 +74,7 @@ fiftyTwoWeekRange	239.2 - 369.7
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	2.09
-floatShares	253116941
+floatShares	253119641
 forwardEps	18.0709
 forwardPE	19.13463
 freeCashflow	3357250048
@@ -82,7 +82,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	117000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	233.75
+graham_intrinsic_value	236.5
 grossMargins	0.1513
 grossProfits	7951000064
 hasPrePostMarketData	True
@@ -104,7 +104,7 @@ longBusinessSummary	General Dynamics Corporation operates as an aerospace and de
 longName	General Dynamics Corporation
 market	us_market
 marketCap	93495369728
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_274561
 mostRecentQuarter	1767139200
@@ -175,8 +175,8 @@ totalRevenue	52550000640
 tradeable	False
 trailingAnnualDividendRate	6.0
 trailingAnnualDividendYield	0.017160999
-trailingEps	15.28
-trailingPE	22.629581
+trailingEps	15.46
+trailingPE	22.366106
 trailingPegRatio	2.5045
 triggerable	True
 twoHundredDayAverage	331.3142

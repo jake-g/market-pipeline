@@ -9,11 +9,11 @@ askSize	40
 auditRisk	7
 averageAnalystRating	1.4 - Strong Buy
 averageDailyVolume10Day	3347980
-averageDailyVolume3Month	3739447
-averageVolume	3739447
+averageDailyVolume3Month	3760101
+averageVolume	3760101
 averageVolume10days	3347980
 beta	0.836
-bid	499.0
+bid	500.0
 bidSize	120
 boardRisk	2
 bookValue	8.654
@@ -32,10 +32,10 @@ dateShortInterest	1772150400
 dayHigh	499.215
 dayLow	491.005
 debtToEquity	256.042
-discount_to_intrinsic_value	50.87
+discount_to_intrinsic_value	50.42
 dividendDate	1778198400
 dividendRate	3.48
-dividendYield	0.71
+dividendYield	0.7
 earningsCallTimestampEnd	1769695200
 earningsCallTimestampStart	1769695200
 earningsGrowth	0.242
@@ -50,7 +50,7 @@ enterpriseToRevenue	13.771
 enterpriseValue	451568271360
 epsCurrentYear	19.59657
 epsForward	22.64506
-epsTrailingTwelveMonths	16.68
+epsTrailingTwelveMonths	16.53
 eps_normalized_growth	0.2849083670713741
 esgPopulated	False
 exDividendDate	1775692800
@@ -73,7 +73,7 @@ fiftyTwoWeekRange	465.59 - 601.77
 financialCurrency	USD
 firstTradeDateMilliseconds	1148563800000
 fiveYearAvgDividendYield	0.53
-floatShares	884000035
+floatShares	883991117
 forwardEps	22.64506
 forwardPE	21.917364
 freeCashflow	16269375488
@@ -81,7 +81,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	39800
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	1010.22
+graham_intrinsic_value	1001.13
 grossMargins	1.0
 grossProfits	32790999040
 hasPrePostMarketData	True
@@ -102,13 +102,13 @@ longBusinessSummary	Mastercard Incorporated, a technology company, provides tran
 longName	Mastercard Incorporated
 market	us_market
 marketCap	442934689792
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_6477196
 mostRecentQuarter	1767139200
 netIncomeToCommon	14968000512
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	438004698424
+nonDilutedMarketCap	442624286195
 numberOfAnalystOpinions	34
 open	492.47
 operatingCashflow	17648001024
@@ -173,9 +173,9 @@ totalRevenue	32790999040
 tradeable	False
 trailingAnnualDividendRate	3.15
 trailingAnnualDividendYield	0.00641365
-trailingEps	16.68
-trailingPE	29.755396
-trailingPegRatio	1.5699
+trailingEps	16.53
+trailingPE	30.025408
+trailingPegRatio	1.5865
 triggerable	True
 twoHundredDayAverage	556.8511
 twoHundredDayAverageChange	-60.531067

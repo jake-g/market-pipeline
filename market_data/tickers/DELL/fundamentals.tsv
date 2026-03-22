@@ -4,13 +4,13 @@ SandP52WeekChange	0.12811458
 address1	One Dell Way
 allTimeHigh	179.7
 allTimeLow	11.792645
-ask	158.43
+ask	159.99
 askSize	200
 auditRisk	10
 averageAnalystRating	1.8 - Buy
 averageDailyVolume10Day	8499220
-averageDailyVolume3Month	7939396
-averageVolume	7939396
+averageDailyVolume3Month	7990841
+averageVolume	7990841
 averageVolume10days	8499220
 beta	1.036
 bid	159.85
@@ -18,10 +18,10 @@ bidSize	200
 boardRisk	10
 bookValue	-3.788
 city	Round Rock
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael Saul Dell', 'age': 60, 'title': 'Chairman & CEO', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 3092256, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William F. Scannell', 'age': 63, 'title': 'President & Chief Customer Officer', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 1943639, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey W. Clarke', 'age': 62, 'title': 'COO & Vice Chairman', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 3575898, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard J. Rothberg Esq.', 'age': 61, 'title': 'General Counsel & Secretary', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1782009, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul  Frantz', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Zimmerman', 'title': 'Vice President of Corporate Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pete  Trizzino', 'title': 'President of Global Sales', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Jennifer D. Saavedra Ph.D.', 'age': 55, 'title': 'Chief Human Resources Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Maya G. McReynolds', 'age': 53, 'title': 'Senior VP & CFO of Client Solutions Group.', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael Saul Dell', 'age': 60, 'title': 'Chairman & CEO', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 3092256, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William F. Scannell', 'age': 63, 'title': 'President & Chief Customer Officer', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 1943639, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey W. Clarke', 'age': 62, 'title': 'COO & Vice Chairman', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 3575898, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard J. Rothberg Esq.', 'age': 61, 'title': 'General Counsel & Secretary', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1782009, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Kennedy', 'age': 47, 'title': 'Chief Financial Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard Troy Sharp', 'age': 40, 'title': 'Senior VP of Corporate Finance & Chief Accounting Officer', 'yearBorn': 1985, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul  Frantz', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Zimmerman', 'title': 'Vice President of Corporate Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Geraldine  Tunnell', 'age': 48, 'title': 'Chief Marketing Officer', 'yearBorn': 1977, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pete  Trizzino', 'title': 'President of Global Sales', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	8
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'DELL announced a cash dividend of $0.63 with an ex-date of Apr. 21, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1776744000000, 'amount': '0.63'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -31,11 +31,11 @@ customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
 dayHigh	169.89
 dayLow	157.67
-discount_to_intrinsic_value	70.18
+discount_to_intrinsic_value	70.04
 displayName	Dell
 dividendDate	1777593600
 dividendRate	2.52
-dividendYield	1.61
+dividendYield	1.6
 earningsCallTimestampEnd	1780000200
 earningsCallTimestampStart	1780000200
 earningsGrowth	0.573
@@ -48,9 +48,9 @@ ebitdaMargins	0.10090999
 enterpriseToEbitda	10.696
 enterpriseToRevenue	1.079
 enterpriseValue	122542161920
-epsCurrentYear	12.77779
+epsCurrentYear	12.77737
 epsForward	14.43108
-epsTrailingTwelveMonths	8.73
+epsTrailingTwelveMonths	8.69
 eps_normalized_growth	0.7612226272985099
 esgPopulated	False
 exDividendDate	1776729600
@@ -72,7 +72,7 @@ fiftyTwoWeekLowChangePercent	1.3799245
 fiftyTwoWeekRange	66.25 - 169.9
 financialCurrency	USD
 firstTradeDateMilliseconds	1471440600000
-floatShares	303947338
+floatShares	295107042
 forwardEps	14.43108
 forwardPE	10.925724
 freeCashflow	6606750208
@@ -80,12 +80,12 @@ fullExchangeName	NYSE
 fullTimeEmployees	97000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	528.73
+graham_intrinsic_value	526.31
 grossMargins	0.20125
 grossProfits	22848999424
 hasPrePostMarketData	True
 heldPercentInsiders	0.07693
-heldPercentInstitutions	0.85289
+heldPercentInstitutions	0.85183996
 impliedSharesOutstanding	662689606
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -101,7 +101,7 @@ longBusinessSummary	Dell Technologies Inc. designs, develops, manufactures, mark
 longName	Dell Technologies Inc.
 market	us_market
 marketCap	104486264832
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_266017
 mostRecentQuarter	1769731200
@@ -121,7 +121,7 @@ postMarketChangePercent	1.4714323
 postMarketPrice	159.99
 postMarketTime	1774051193
 previousClose	156.76
-priceEpsCurrentYear	12.339379
+priceEpsCurrentYear	12.339785
 priceHint	2
 priceToBook	-41.623547
 priceToSalesTrailing12Months	0.92027575
@@ -163,7 +163,7 @@ state	TX
 symbol	DELL
 targetHighPrice	220.0
 targetLowPrice	110.0
-targetMeanPrice	167.21739
+targetMeanPrice	167.86957
 targetMedianPrice	167.0
 totalCash	11532999680
 totalCashPerShare	17.86
@@ -172,8 +172,8 @@ totalRevenue	113537998848
 tradeable	False
 trailingAnnualDividendRate	2.1
 trailingAnnualDividendYield	0.013396274
-trailingEps	8.73
-trailingPE	18.06071
+trailingEps	8.69
+trailingPE	18.143845
 trailingPegRatio	0.6533
 triggerable	True
 twoHundredDayAverage	131.70815

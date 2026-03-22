@@ -39,11 +39,11 @@ hasPrePostMarketData	False
 language	en-US
 longName	CBOE Volatility Index
 market	cboe_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_INDEXVIX
 open	24.46
-previousClose	25.09
+previousClose	24.06
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
@@ -54,7 +54,7 @@ regularMarketDayHigh	29.28
 regularMarketDayLow	23.68
 regularMarketDayRange	23.68 - 29.28
 regularMarketOpen	24.46
-regularMarketPreviousClose	25.09
+regularMarketPreviousClose	24.06
 regularMarketPrice	26.78
 regularMarketTime	1774037701
 regularMarketVolume	0

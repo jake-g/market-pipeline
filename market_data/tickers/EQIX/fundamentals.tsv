@@ -10,8 +10,8 @@ askSize	2
 auditRisk	10
 averageAnalystRating	1.6 - Buy
 averageDailyVolume10Day	719700
-averageDailyVolume3Month	627557
-averageVolume	627557
+averageDailyVolume3Month	631130
+averageVolume	631130
 averageVolume10days	719700
 beta	1.031
 bid	957.38
@@ -19,7 +19,7 @@ bidSize	1
 boardRisk	8
 bookValue	144.116
 city	Redwood City
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Charles John Meyers', 'age': 59, 'title': 'Executive Chairman', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 735724, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Adaire Rita Fox-Martin', 'age': 61, 'title': 'President, CEO & Director', 'yearBorn': 1964, 'fiscalYear': 2024, 'totalPay': 1352076, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jonathan  Lin', 'age': 47, 'title': 'Chief Business Officer', 'yearBorn': 1978, 'fiscalYear': 2024, 'totalPay': 501871, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Charles John Meyers', 'age': 59, 'title': 'Executive Chairman', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 735724, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Adaire Rita Fox-Martin', 'age': 61, 'title': 'President, CEO & Director', 'yearBorn': 1964, 'fiscalYear': 2024, 'totalPay': 1352076, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Raouf F. Abdel', 'age': 57, 'title': 'Executive Vice President of Global Operations', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 521803, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael Earl Campbell', 'age': 59, 'title': 'Chief Sales Officer', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 557761, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Brandi Galvin Morandi J.D.', 'age': 52, 'title': 'Chief People Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'totalPay': 629870, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Keith D. Taylor', 'age': 63, 'title': 'Special Advisor', 'yearBorn': 1962, 'fiscalYear': 2024, 'totalPay': 715057, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jonathan  Lin', 'age': 47, 'title': 'Chief Business Officer', 'yearBorn': 1978, 'fiscalYear': 2024, 'totalPay': 501871, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Olivier C. Leonetti', 'age': 60, 'title': 'Chief Financial Officer', 'yearBorn': 1965, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Simon  Miller', 'age': 52, 'title': 'Chief Accounting Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Justin  Dustzadeh', 'title': 'Chief Technology Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	8
 corporateActions	[]
@@ -33,10 +33,10 @@ dateShortInterest	1772150400
 dayHigh	979.385
 dayLow	953.72
 debtToEquity	160.291
-discount_to_intrinsic_value	-706.18
+discount_to_intrinsic_value	-694.43
 dividendDate	1773792000
 dividendRate	19.23
-dividendYield	1.97
+dividendYield	2.0
 earningsCallTimestampEnd	1770849000
 earningsCallTimestampStart	1770849000
 earningsTimestamp	1770843600
@@ -47,9 +47,9 @@ ebitdaMargins	0.43974
 enterpriseToEbitda	28.306
 enterpriseToRevenue	12.447
 enterpriseValue	115263193088
-epsCurrentYear	16.64222
-epsForward	17.58
-epsTrailingTwelveMonths	13.52
+epsCurrentYear	16.68
+epsForward	17.48111
+epsTrailingTwelveMonths	13.72
 eps_normalized_growth	-0.2679587936907426
 esgPopulated	False
 exDividendDate	1771977600
@@ -74,19 +74,19 @@ financialCurrency	USD
 firstTradeDateMilliseconds	966000600000
 fiveYearAvgDividendYield	1.84
 floatShares	97866821
-forwardEps	17.58
-forwardPE	54.559727
+forwardEps	17.48111
+forwardPE	54.86837
 freeCashflow	2833250048
 fullExchangeName	NasdaqGS
 fullTimeEmployees	13716
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	118.98
+graham_intrinsic_value	120.74
 grossMargins	0.51317
 grossProfits	4752000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0029199999
-heldPercentInstitutions	0.98684
+heldPercentInstitutions	0.98683
 impliedSharesOutstanding	98254928
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -103,11 +103,11 @@ longBusinessSummary	Equinix, Inc. shortens the path to boundless connectivity an
 longName	Equinix, Inc.
 market	us_market
 marketCap	94242193408
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_28202
 mostRecentQuarter	1767139200
-nameChangeDate	2026-03-20
+nameChangeDate	2026-03-22
 netIncomeToCommon	1350000000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	94242196740
@@ -123,8 +123,8 @@ postMarketChangePercent	0.26794356
 postMarketPrice	961.73
 postMarketTime	1774049783
 prevName	Equinix, Inc. (REIT)
-previousClose	974.76
-priceEpsCurrentYear	57.634136
+previousClose	974.75995
+priceEpsCurrentYear	57.503593
 priceHint	2
 priceToBook	6.655472
 priceToSalesTrailing12Months	10.177342
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.6129
 region	US
-regularMarketChange	-15.6
-regularMarketChangePercent	-1.6004
+regularMarketChange	-15.599976
+regularMarketChangePercent	-1.6003916
 regularMarketDayHigh	979.385
 regularMarketDayLow	953.72
 regularMarketDayRange	953.72 - 979.385
 regularMarketOpen	975.73
-regularMarketPreviousClose	974.76
+regularMarketPreviousClose	974.75995
 regularMarketPrice	959.16
 regularMarketTime	1774036803
-regularMarketVolume	1817364
+regularMarketVolume	1817929
 returnOnAssets	0.03333
 returnOnEquity	0.09722
 revenueGrowth	0.081
@@ -164,26 +164,26 @@ shortRatio	2.55
 sourceInterval	15
 state	CA
 symbol	EQIX
-syntheticPEG	6.735768765432099
+syntheticPEG	6.773872839506173
 targetHighPrice	1200.0
 targetLowPrice	894.0
-targetMeanPrice	1032.7037
-targetMedianPrice	1042.0
+targetMeanPrice	1036.4075
+targetMedianPrice	1050.0
 totalCash	1727000064
 totalCashPerShare	17.577
 totalDebt	22726000640
 totalRevenue	9260000256
 tradeable	False
 trailingAnnualDividendRate	18.76
-trailingAnnualDividendYield	0.019245762
-trailingEps	13.52
-trailingPE	70.94378
+trailingAnnualDividendYield	0.019245764
+trailingEps	13.72
+trailingPE	69.909615
 trailingPegRatio	4.3259
 triggerable	True
 twoHundredDayAverage	816.862
 twoHundredDayAverageChange	142.29797
 twoHundredDayAverageChangePercent	0.17420074
 typeDisp	Equity
-volume	1817364
+volume	1817929
 website	https://www.equinix.com
 zip	94065-1562

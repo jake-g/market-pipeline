@@ -5,16 +5,16 @@ address1	222 Berkeley Street
 address2	11th Floor
 allTimeHigh	303.72
 allTimeLow	0.6
-ask	177.6
+ask	178.42
 askSize	200
 auditRisk	1
 averageAnalystRating	1.9 - Buy
 averageDailyVolume10Day	3257580
-averageDailyVolume3Month	3108152
-averageVolume	3108152
+averageDailyVolume3Month	3090713
+averageVolume	3090713
 averageVolume10days	3257580
 beta	0.907
-bid	177.11
+bid	177.12
 bidSize	300
 boardRisk	2
 bookValue	7.833
@@ -22,7 +22,7 @@ city	Boston
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Steven O. Vondran J.D.', 'age': 54, 'title': 'President, CEO & Director', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 3363277, 'exercisedValue': 3424715, 'unexercisedValue': 2969853}, {'maxAge': 1, 'name': 'Mr. Rodney M. Smith', 'age': 59, 'title': 'Executive VP, CFO & Treasurer', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 1674128, 'exercisedValue': 2824549, 'unexercisedValue': 5989760}, {'maxAge': 1, 'name': 'Ms. Ruth T. Dowling', 'age': 55, 'title': 'Executive VP, Chief Administrative Officer, General Counsel & Secretary', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 1568128, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eugene M. Noel', 'age': 56, 'title': 'Executive VP & COO', 'yearBorn': 1969, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert J. Meyer Jr., CPA', 'age': 61, 'title': 'Senior VP & Chief Accounting Officer', 'yearBorn': 1964, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Spencer Harris Kurn', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Brenna D. Jones', 'title': 'SVP & Chief Human Resources Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Colleen Richards Powell', 'title': 'Senior VP & Chief Diversity, Equity and Inclusion Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Julian  Plumstead', 'title': 'Senior Vice President of M&A and Business Development - Europe, Africa and Latin America', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Juan A. Font', 'age': 55, 'title': 'Senior VP and President & CEO of Coresite', 'yearBorn': 1970, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	2
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'AMT announced a cash dividend of $1.79 with an ex-date of Apr. 14, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1776139200000, 'amount': '1.79'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -33,10 +33,10 @@ dateShortInterest	1772150400
 dayHigh	185.48
 dayLow	175.6
 debtToEquity	434.211
-discount_to_intrinsic_value	-284.86
+discount_to_intrinsic_value	-272.72
 dividendDate	1777334400
 dividendRate	6.89
-dividendYield	3.77
+dividendYield	3.9
 earningsCallTimestampEnd	1771939800
 earningsCallTimestampStart	1771939800
 earningsGrowth	-0.332
@@ -51,7 +51,7 @@ enterpriseToRevenue	12.456
 enterpriseValue	132591034368
 epsCurrentYear	6.48155
 epsForward	6.90844
-epsTrailingTwelveMonths	5.22
+epsTrailingTwelveMonths	5.39
 eps_normalized_growth	-0.09635391572699803
 esgPopulated	False
 exDividendDate	1776124800
@@ -75,7 +75,7 @@ fiftyTwoWeekRange	166.88 - 234.33
 financialCurrency	USD
 firstTradeDateMilliseconds	888589800000
 fiveYearAvgDividendYield	2.83
-floatShares	464770461
+floatShares	464686566
 forwardEps	6.90844
 forwardPE	25.590435
 freeCashflow	4508987392
@@ -83,11 +83,11 @@ fullExchangeName	NYSE
 fullTimeEmployees	4866
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	45.94
+graham_intrinsic_value	47.43
 grossMargins	0.74183
 grossProfits	7896500224
 hasPrePostMarketData	True
-heldPercentInsiders	0.00162
+heldPercentInsiders	0.0016300001
 heldPercentInstitutions	0.96064
 impliedSharesOutstanding	468146623
 industry	REIT - Specialty
@@ -103,11 +103,11 @@ longBusinessSummary	American Tower Corporation (together with its subsidiaries, 
 longName	American Tower Corporation
 market	us_market
 marketCap	82763636736
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_24766
 mostRecentQuarter	1767139200
-nameChangeDate	2026-03-20
+nameChangeDate	2026-03-22
 netIncomeToCommon	2529499904
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	82399135327
@@ -176,8 +176,8 @@ totalRevenue	10644599808
 tradeable	False
 trailingAnnualDividendRate	6.8
 trailingAnnualDividendYield	0.03720727
-trailingEps	5.22
-trailingPE	33.867817
+trailingEps	5.39
+trailingPE	32.79963
 trailingPegRatio	1.9545
 triggerable	True
 twoHundredDayAverage	193.3152

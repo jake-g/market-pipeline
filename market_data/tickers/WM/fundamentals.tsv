@@ -10,11 +10,11 @@ askSize	200
 auditRisk	1
 averageAnalystRating	1.8 - Buy
 averageDailyVolume10Day	2152670
-averageDailyVolume3Month	2183367
-averageVolume	2183367
+averageDailyVolume3Month	2193498
+averageVolume	2193498
 averageVolume10days	2152670
 beta	0.533
-bid	230.78
+bid	230.0
 bidSize	500
 boardRisk	1
 bookValue	24.793
@@ -33,11 +33,11 @@ dateShortInterest	1772150400
 dayHigh	234.95
 dayLow	230.08
 debtToEquity	239.385
-discount_to_intrinsic_value	16.75
+discount_to_intrinsic_value	17.61
 displayName	Waste Management
 dividendDate	1774569600
 dividendRate	3.42
-dividendYield	1.46
+dividendYield	1.48
 earningsCallTimestampEnd	1769698800
 earningsCallTimestampStart	1769698800
 earningsGrowth	0.236
@@ -50,9 +50,9 @@ ebitdaMargins	0.29990998
 enterpriseToEbitda	15.476
 enterpriseToRevenue	4.641
 enterpriseValue	116984365056
-epsCurrentYear	8.2064
+epsCurrentYear	8.20626
 epsForward	9.35491
-epsTrailingTwelveMonths	6.64
+epsTrailingTwelveMonths	6.71
 eps_normalized_growth	0.15952178494292668
 esgPopulated	False
 exDividendDate	1773360000
@@ -75,7 +75,7 @@ fiftyTwoWeekRange	194.11 - 248.13
 financialCurrency	USD
 firstTradeDateMilliseconds	582989400000
 fiveYearAvgDividendYield	1.5
-floatShares	402045107
+floatShares	402041073
 forwardEps	9.35491
 forwardPE	24.71857
 freeCashflow	1732000000
@@ -83,11 +83,11 @@ fullExchangeName	NYSE
 fullTimeEmployees	60500
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	277.75
+graham_intrinsic_value	280.68
 grossMargins	0.40438
 grossProfits	10192000000
 hasPrePostMarketData	True
-heldPercentInsiders	0.0028
+heldPercentInsiders	0.00282
 heldPercentInstitutions	0.83802
 impliedSharesOutstanding	403335781
 industry	Waste Management
@@ -103,7 +103,7 @@ longBusinessSummary	Waste Management, Inc., through its subsidiaries, provides e
 longName	Waste Management, Inc.
 market	us_market
 marketCap	93267369984
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_190694
 mostRecentQuarter	1767139200
@@ -122,7 +122,7 @@ postMarketChangePercent	0.3286605
 postMarketPrice	232.0
 postMarketTime	1774050901
 previousClose	233.83
-priceEpsCurrentYear	28.178009
+priceEpsCurrentYear	28.17849
 priceHint	2
 priceToBook	9.326827
 priceToSalesTrailing12Months	3.7004986
@@ -174,8 +174,8 @@ totalRevenue	25204000768
 tradeable	False
 trailingAnnualDividendRate	3.3
 trailingAnnualDividendYield	0.014112817
-trailingEps	6.64
-trailingPE	34.825302
+trailingEps	6.71
+trailingPE	34.461998
 trailingPegRatio	2.3497
 triggerable	True
 twoHundredDayAverage	223.4398

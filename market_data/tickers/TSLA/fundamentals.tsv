@@ -9,8 +9,8 @@ askSize	5
 auditRisk	3
 averageAnalystRating	2.4 - Buy
 averageDailyVolume10Day	60950530
-averageDailyVolume3Month	61144022
-averageVolume	61144022
+averageDailyVolume3Month	60714488
+averageVolume	60714488
 averageVolume10days	60950530
 beta	1.926
 bid	367.32
@@ -32,7 +32,7 @@ dateShortInterest	1772150400
 dayHigh	379.89
 dayLow	364.4601
 debtToEquity	17.763
-discount_to_intrinsic_value	-3959.58
+discount_to_intrinsic_value	-3807.82
 displayName	Tesla
 earningsCallTimestampEnd	1769639400
 earningsCallTimestampStart	1769639400
@@ -48,7 +48,7 @@ enterpriseToRevenue	14.259
 enterpriseValue	1352132853760
 epsCurrentYear	2.05945
 epsForward	2.81043
-epsTrailingTwelveMonths	1.03
+epsTrailingTwelveMonths	1.07
 eps_normalized_growth	-0.28563079860819485
 esgPopulated	False
 exchange	NMS
@@ -77,12 +77,12 @@ fullExchangeName	NasdaqGS
 fullTimeEmployees	134785
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	9.06
+graham_intrinsic_value	9.42
 grossMargins	0.18027
 grossProfits	17093999616
 hasPrePostMarketData	True
-heldPercentInsiders	0.1113
-heldPercentInstitutions	0.44595
+heldPercentInsiders	0.111499995
+heldPercentInstitutions	0.44597
 impliedSharesOutstanding	3752431984
 industry	Auto Manufacturers
 industryDisp	Auto Manufacturers
@@ -96,13 +96,13 @@ longBusinessSummary	Tesla, Inc. designs, develops, manufactures, leases, and sel
 longName	Tesla, Inc.
 market	us_market
 marketCap	1380744822784
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_27444752
 mostRecentQuarter	1767139200
 netIncomeToCommon	3793999872
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	1427049883515
+nonDilutedMarketCap	1380744872832
 numberOfAnalystOpinions	41
 open	379.39
 operatingCashflow	14746999808
@@ -127,8 +127,8 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.4375
 region	US
-regularMarketChange	-12.34
-regularMarketChangePercent	-3.24481
+regularMarketChange	-12.339996
+regularMarketChangePercent	-3.2448058
 regularMarketDayHigh	379.89
 regularMarketDayLow	364.4601
 regularMarketDayRange	364.4601 - 379.89
@@ -136,7 +136,7 @@ regularMarketOpen	379.39
 regularMarketPreviousClose	380.3
 regularMarketPrice	367.96
 regularMarketTime	1774036800
-regularMarketVolume	74680129
+regularMarketVolume	78628603
 returnOnAssets	0.02095
 returnOnEquity	0.049250003
 revenueGrowth	-0.031
@@ -167,14 +167,14 @@ totalRevenue	94827003904
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	1.03
-trailingPE	357.2427
-trailingPegRatio	5.1865
+trailingEps	1.07
+trailingPE	343.88782
+trailingPegRatio	5.0182
 triggerable	True
 twoHundredDayAverage	394.38516
 twoHundredDayAverageChange	-26.42517
 twoHundredDayAverageChangePercent	-0.06700346
 typeDisp	Equity
-volume	74680129
+volume	78628603
 website	https://www.tesla.com
 zip	78725

@@ -10,16 +10,16 @@ askSize	500
 auditRisk	3
 averageAnalystRating	2.4 - Buy
 averageDailyVolume10Day	2865880
-averageDailyVolume3Month	1747157
-averageVolume	1747157
+averageDailyVolume3Month	1760020
+averageVolume	1760020
 averageVolume10days	2865880
 beta	0.281
-bid	88.64
+bid	88.27
 bidSize	200
 boardRisk	6
 bookValue	53.611
 city	Courbevoie
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Patrick  Pouyanne', 'age': 62, 'title': 'Chairman & CEO', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 5009182, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jean-Pierre  Sbraire', 'age': 60, 'title': 'Chief Financial Officer', 'yearBorn': 1965, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Marie-Noëlle  Semeria', 'title': 'Senior VP & Group CTO', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michel  Hourcard', 'title': 'SVP of Development & Ops Techniques - Exploration/Production & SVP of Scientific & Technical Center', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Renaud  Lions', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jacques-Emmanuel  Saulnier', 'title': 'Senior Vice President of Corporate Communications', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Catherine  Remy', 'age': 47, 'title': 'President of People & Social Engagement', 'yearBorn': 1978, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bernard  Pinatel', 'age': 63, 'title': 'President of Downstream and President of Marketing & Services', 'yearBorn': 1962, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Martin  Deffontaines', 'age': 60, 'title': 'Senior Vice President of Talent Management', 'yearBorn': 1965, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Helle  Kristoffersen', 'age': 61, 'title': 'President of Asia', 'yearBorn': 1964, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Patrick  Pouyanne', 'age': 62, 'title': 'Chairman & CEO', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 5014634, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jean-Pierre  Sbraire', 'age': 60, 'title': 'Chief Financial Officer', 'yearBorn': 1965, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Marie-Noëlle  Semeria', 'title': 'Senior VP & Group CTO', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michel  Hourcard', 'title': 'SVP of Development & Ops Techniques - Exploration/Production & SVP of Scientific & Technical Center', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Renaud  Lions', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jacques-Emmanuel  Saulnier', 'title': 'Senior Vice President of Corporate Communications', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Catherine  Remy', 'age': 47, 'title': 'President of People & Social Engagement', 'yearBorn': 1978, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bernard  Pinatel', 'age': 63, 'title': 'President of Downstream and President of Marketing & Services', 'yearBorn': 1962, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Martin  Deffontaines', 'age': 60, 'title': 'Senior Vice President of Talent Management', 'yearBorn': 1965, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Helle  Kristoffersen', 'age': 61, 'title': 'President of Asia', 'yearBorn': 1964, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	1
 corporateActions	[{'header': 'Dividend', 'message': 'TTE announced a cash dividend of $0.85 with an ex-date of Mar. 31, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774929600000, 'amount': '0.85'}}]
@@ -33,10 +33,10 @@ dateShortInterest	1772150400
 dayHigh	89.62
 dayLow	88.16
 debtToEquity	52.263
-discount_to_intrinsic_value	-76.93
+discount_to_intrinsic_value	-74.48
 dividendDate	1761091200
 dividendRate	3.91
-dividendYield	4.34
+dividendYield	4.4
 earningsCallTimestampEnd	1770818400
 earningsCallTimestampStart	1770818400
 earningsGrowth	-0.228
@@ -51,7 +51,7 @@ enterpriseToRevenue	1.232
 enterpriseValue	224707870720
 epsCurrentYear	8.51928
 epsForward	7.90856
-epsTrailingTwelveMonths	5.7
+epsTrailingTwelveMonths	5.78
 eps_normalized_growth	-0.20341307294650723
 esgPopulated	False
 exDividendDate	1774915200
@@ -74,19 +74,19 @@ fiftyTwoWeekRange	52.78 - 91.38
 financialCurrency	USD
 firstTradeDateMilliseconds	688397400000
 fiveYearAvgDividendYield	5.48
-floatShares	1782900096
+floatShares	1782664379
 forwardEps	7.90856
 forwardPE	11.222018
 freeCashflow	13514500096
 fullExchangeName	NYSE
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	50.16
+graham_intrinsic_value	50.86
 grossMargins	0.35978
 grossProfits	65604001792
 hasPrePostMarketData	True
 heldPercentInsiders	0.05547
-heldPercentInstitutions	0.53971
+heldPercentInstitutions	0.53968
 impliedSharesOutstanding	2152820808
 industry	Oil & Gas Integrated
 industryDisp	Oil & Gas Integrated
@@ -102,14 +102,14 @@ longBusinessSummary	TotalEnergies SE, a multi-energy company, produces and marke
 longName	TotalEnergies SE
 market	us_market
 marketCap	191062835200
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_326300
 mostRecentQuarter	1767139200
-nameChangeDate	2026-03-20
+nameChangeDate	2026-03-22
 netIncomeToCommon	13127000064
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	192482490630
+nonDilutedMarketCap	190350050260
 numberOfAnalystOpinions	8
 open	89.29
 operatingCashflow	27342999552
@@ -174,8 +174,8 @@ totalRevenue	182344007680
 tradeable	False
 trailingAnnualDividendRate	3.992
 trailingAnnualDividendYield	0.044326007
-trailingEps	5.7
-trailingPE	15.570176
+trailingEps	5.78
+trailingPE	15.354671
 trailingPegRatio	2.1735
 triggerable	True
 twoHundredDayAverage	65.6425

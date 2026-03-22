@@ -5,16 +5,16 @@ address1	Building Two
 address2	Parkmore Business Park West
 allTimeHigh	135.89
 allTimeLow	0.129883
-ask	86.91
+ask	86.7
 askSize	200
 auditRisk	8
 averageAnalystRating	1.9 - Buy
 averageDailyVolume10Day	8521940
-averageDailyVolume3Month	8023526
-averageVolume	8023526
+averageDailyVolume3Month	8048138
+averageVolume	8048138
 averageVolume10days	8521940
 beta	0.729
-bid	86.27
+bid	86.26
 bidSize	200
 boardRisk	7
 bookValue	38.169
@@ -22,7 +22,7 @@ city	Galway
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Geoffrey Straub Martha', 'age': 55, 'title': 'Chairman of the Board & CEO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3814693, 'exercisedValue': 1013706, 'unexercisedValue': 257865}, {'maxAge': 1, 'name': 'Mr. Thierry  Pieton', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 421766, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brett A. Wall', 'age': 59, 'title': 'Executive VP & President of Neuroscience Portfolio', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 1858925, 'exercisedValue': 187399, 'unexercisedValue': 2489}, {'maxAge': 1, 'name': 'Mr. Mark  Ploof', 'title': 'Senior Vice President of Global Operations and Business Services', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Denise L. Blomquist', 'title': 'VP, Global Controller & Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Laura  Mauri M.D., M.Sc.', 'age': 55, 'title': 'Senior VP and Chief Scientific & Medical Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Ingrid  Goldberg', 'title': 'Vice President & Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Quinn', 'age': 56, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew R. Walter', 'age': 46, 'title': 'SVP of Human Resources and Global Communications & Corporate Marketing', 'yearBorn': 1979, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason  Weidman', 'title': 'Senior VP and President of Coronary & Renal Denervation business', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
-corporateActions	[{'header': 'Dividend', 'message': 'MDT announced a cash dividend of $0.71 with an ex-date of Mar. 27, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774584000000, 'amount': '0.71'}}]
+corporateActions	[]
 country	Ireland
 cryptoTradeable	False
 currency	USD
@@ -33,11 +33,11 @@ dateShortInterest	1772150400
 dayHigh	87.275
 dayLow	85.78
 debtToEquity	57.06
-discount_to_intrinsic_value	-145.37
+discount_to_intrinsic_value	-143.32
 displayName	Medtronic
 dividendDate	1776384000
 dividendRate	2.84
-dividendYield	3.27
+dividendYield	3.3
 earningsCallTimestampEnd	1779278400
 earningsCallTimestampStart	1779278400
 earningsGrowth	-0.118
@@ -52,7 +52,7 @@ enterpriseToRevenue	3.678
 enterpriseValue	130518532096
 epsCurrentYear	5.64174
 epsForward	6.09355
-epsTrailingTwelveMonths	3.55
+epsTrailingTwelveMonths	3.58
 eps_normalized_growth	0.005270356917218555
 esgPopulated	False
 exDividendDate	1774569600
@@ -83,12 +83,12 @@ fullExchangeName	NYSE
 fullTimeEmployees	95000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	35.11
+graham_intrinsic_value	35.41
 grossMargins	0.65159
 grossProfits	23121000448
 hasPrePostMarketData	True
-heldPercentInsiders	0.00319
-heldPercentInstitutions	0.88211
+heldPercentInsiders	0.0032600001
+heldPercentInstitutions	0.88214
 impliedSharesOutstanding	1283884964
 industry	Medical Devices
 industryDisp	Medical Devices
@@ -104,7 +104,7 @@ longBusinessSummary	Medtronic plc develops, manufactures, and sells device-based
 longName	Medtronic plc
 market	us_market
 marketCap	110619533312
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_31348
 mostRecentQuarter	1769126400
@@ -174,8 +174,8 @@ totalRevenue	35484000256
 tradeable	False
 trailingAnnualDividendRate	2.83
 trailingAnnualDividendYield	0.032577414
-trailingEps	3.55
-trailingPE	24.270424
+trailingEps	3.58
+trailingPE	24.067041
 trailingPegRatio	1.5026
 triggerable	True
 twoHundredDayAverage	94.4885

@@ -5,16 +5,16 @@ address1	85 New Hampshire Avenue
 address2	Suite 150
 allTimeHigh	130.24
 allTimeLow	2.510212
-ask	100.17
+ask	110.0
 askSize	300
 auditRisk	1
 averageAnalystRating	1.7 - Buy
 averageDailyVolume10Day	1510830
-averageDailyVolume3Month	1886913
-averageVolume	1886913
+averageDailyVolume3Month	1889425
+averageVolume	1889425
 averageVolume10days	1510830
 beta	1.148
-bid	99.61
+bid	99.13
 bidSize	100
 boardRisk	4
 bookValue	-3.317
@@ -32,10 +32,10 @@ customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
 dayHigh	105.505
 dayLow	99.52
-discount_to_intrinsic_value	-249.93
+discount_to_intrinsic_value	-235.65
 dividendDate	1775174400
 dividendRate	3.46
-dividendYield	3.29
+dividendYield	3.47
 earningsCallTimestampEnd	1770903000
 earningsCallTimestampStart	1770903000
 earningsGrowth	-0.142
@@ -50,7 +50,7 @@ enterpriseToRevenue	7.066
 enterpriseValue	48769114112
 epsCurrentYear	2.31446
 epsForward	2.56122
-epsTrailingTwelveMonths	0.47
+epsTrailingTwelveMonths	0.49
 eps_normalized_growth	0.6555376552700198
 esgPopulated	False
 exDividendDate	1773619200
@@ -81,7 +81,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	29400
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	28.47
+graham_intrinsic_value	29.68
 grossMargins	0.55381
 grossProfits	3822256896
 hasPrePostMarketData	True
@@ -102,7 +102,7 @@ longBusinessSummary	Iron Mountain Incorporated is trusted by more than 240,000 c
 longName	Iron Mountain Incorporated
 market	us_market
 marketCap	29468143616
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_30292
 mostRecentQuarter	1767139200
@@ -173,8 +173,8 @@ totalRevenue	6901736960
 tradeable	False
 trailingAnnualDividendRate	3.219
 trailingAnnualDividendYield	0.030674672
-trailingEps	0.47
-trailingPE	211.93617
+trailingEps	0.49
+trailingPE	203.2857
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	96.79545

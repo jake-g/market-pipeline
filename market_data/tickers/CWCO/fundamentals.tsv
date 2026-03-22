@@ -10,8 +10,8 @@ askSize	1
 auditRisk	9
 averageAnalystRating	1.0 - Strong Buy
 averageDailyVolume10Day	300620
-averageDailyVolume3Month	109970
-averageVolume	109970
+averageDailyVolume3Month	110555
+averageVolume	110555
 averageVolume10days	300620
 beta	0.498
 bid	30.39
@@ -19,7 +19,7 @@ bidSize	1
 boardRisk	4
 bookValue	13.899
 city	Grand Cayman
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Frederick W. McTaggart', 'age': 62, 'title': 'CEO, President & Director', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 1181320, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ramjeet  Jerrybandan', 'age': 57, 'title': 'Executive VP, COO & Company Secretary', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 651693, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Douglas R. Vizzini CPA', 'age': 57, 'title': 'Vice President of Finance & Assistant Company Secretary', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 416325, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Frederick W. McTaggart', 'age': 62, 'title': 'CEO, President & Director', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 1181320, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David W. Sasnett C.P.A.', 'age': 68, 'title': 'Executive VP & CFO', 'yearBorn': 1957, 'fiscalYear': 2024, 'totalPay': 641008, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ramjeet  Jerrybandan', 'age': 57, 'title': 'Executive VP, COO & Company Secretary', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 651693, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Douglas R. Vizzini CPA', 'age': 57, 'title': 'Vice President of Finance & Assistant Company Secretary', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 416325, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	5
 corporateActions	[]
@@ -33,11 +33,11 @@ dateShortInterest	1772150400
 dayHigh	31.49
 dayLow	30.18
 debtToEquity	1.337
-discount_to_intrinsic_value	-201.58
+discount_to_intrinsic_value	-198.98
 displayName	Consolidated Water
 dividendDate	1777507200
 dividendRate	0.56
-dividendYield	1.82
+dividendYield	1.83
 earningsCallTimestampEnd	1773759600
 earningsCallTimestampStart	1773759600
 earningsGrowth	1.038
@@ -52,7 +52,7 @@ enterpriseToRevenue	2.813
 enterpriseValue	371523488
 epsCurrentYear	1.05
 epsForward	1.54
-epsTrailingTwelveMonths	1.15
+epsTrailingTwelveMonths	1.16
 eps_normalized_growth	-0.5445389801436336
 esgPopulated	False
 exDividendDate	1775001600
@@ -76,7 +76,7 @@ fiftyTwoWeekRange	22.69 - 39.12
 financialCurrency	USD
 firstTradeDateMilliseconds	791044200000
 fiveYearAvgDividendYield	1.94
-floatShares	14970597
+floatShares	14971714
 forwardEps	1.54
 forwardPE	19.818182
 freeCashflow	27623708
@@ -84,7 +84,7 @@ fullExchangeName	NasdaqGS
 fullTimeEmployees	293
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	10.12
+graham_intrinsic_value	10.21
 grossMargins	0.36630002
 grossProfits	48378808
 hasPrePostMarketData	True
@@ -105,7 +105,7 @@ longBusinessSummary	Consolidated Water Co. Ltd., together with its subsidiaries,
 longName	Consolidated Water Co. Ltd.
 market	us_market
 marketCap	487227680
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_407761
 mostRecentQuarter	1767139200
@@ -136,8 +136,8 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.0
 region	US
-regularMarketChange	-0.17
-regularMarketChangePercent	-0.553927
+regularMarketChange	-0.17000008
+regularMarketChangePercent	-0.5539266
 regularMarketDayHigh	31.49
 regularMarketDayLow	30.18
 regularMarketDayRange	30.18 - 31.49
@@ -145,7 +145,7 @@ regularMarketOpen	30.95
 regularMarketPreviousClose	30.69
 regularMarketPrice	30.52
 regularMarketTime	1774036804
-regularMarketVolume	855571
+regularMarketVolume	886376
 returnOnAssets	0.04558
 returnOnEquity	0.086969994
 revenueGrowth	0.044
@@ -175,14 +175,14 @@ totalRevenue	132073368
 tradeable	False
 trailingAnnualDividendRate	0.53
 trailingAnnualDividendYield	0.017269468
-trailingEps	1.15
-trailingPE	26.539131
+trailingEps	1.16
+trailingPE	26.310347
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	33.7389
 twoHundredDayAverageChange	-3.2188988
 twoHundredDayAverageChangePercent	-0.09540616
 typeDisp	Equity
-volume	855571
+volume	886376
 website	https://www.cwco.com
 zip	KY1-1102

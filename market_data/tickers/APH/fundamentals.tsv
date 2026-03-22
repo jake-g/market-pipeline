@@ -5,16 +5,16 @@ address1	358 Hall Avenue
 address2	PO Box 5030
 allTimeHigh	167.04
 allTimeLow	0.080078
-ask	126.16
+ask	129.5
 askSize	200
 auditRisk	7
 averageAnalystRating	1.8 - Buy
 averageDailyVolume10Day	9645900
-averageDailyVolume3Month	9854973
-averageVolume	9854973
+averageDailyVolume3Month	9930073
+averageVolume	9930073
 averageVolume10days	9645900
 beta	1.214
-bid	127.33
+bid	126.9
 bidSize	100
 boardRisk	8
 bookValue	10.935
@@ -22,7 +22,7 @@ city	Wallingford
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Richard Adam Norwitt J.D.', 'age': 55, 'title': 'President, CEO & Director', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 6695856, 'exercisedValue': 112908000, 'unexercisedValue': 281984160}, {'maxAge': 1, 'name': 'Mr. Craig A. Lampo CPA', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 1927606, 'exercisedValue': 49897500, 'unexercisedValue': 121367528}, {'maxAge': 1, 'name': 'Mr. Luc  Walter', 'age': 66, 'title': 'President of Harsh Environment Solutions Division', 'yearBorn': 1959, 'fiscalYear': 2024, 'totalPay': 1926644, 'exercisedValue': 31881490, 'unexercisedValue': 40137012}, {'maxAge': 1, 'name': 'Mr. William J. Doherty', 'age': 66, 'title': 'President of Communications Solutions Division', 'yearBorn': 1959, 'fiscalYear': 2024, 'totalPay': 1846180, 'exercisedValue': 23198900, 'unexercisedValue': 34750892}, {'maxAge': 1, 'name': 'Mr. Peter J. Straub', 'age': 57, 'title': 'President of the Interconnect & Sensor Systems Division', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 1100250, 'exercisedValue': 8128600, 'unexercisedValue': 16766669}, {'maxAge': 1, 'name': 'Mr. Michael R. Ivas', 'age': 54, 'title': 'SVP, Corporate Controller & Principal Accounting Officer', 'yearBorn': 1971, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sherri Ann Scribner', 'title': 'Vice President of Strategy & Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': "Mr. Lance E. D'Amico J.D.", 'age': 56, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2024, 'totalPay': 670665, 'exercisedValue': 4586250, 'unexercisedValue': 26096992}, {'maxAge': 1, 'name': 'Mr. Ben J. Reed', 'title': 'Vice President of Corporate Development', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David M. Silverman', 'age': 47, 'title': 'Executive Vice President of Human Resources', 'yearBorn': 1978, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	8
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'APH announced a cash dividend of $0.25 with an ex-date of Mar. 23, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774238400000, 'amount': '0.25'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -33,11 +33,11 @@ dateShortInterest	1772150400
 dayHigh	130.83
 dayLow	124.68
 debtToEquity	118.935
-discount_to_intrinsic_value	35.41
+discount_to_intrinsic_value	37.53
 displayName	Amphenol
 dividendDate	1776124800
 dividendRate	1.0
-dividendYield	0.77
+dividendYield	0.79
 earningsCallTimestampEnd	1769623200
 earningsCallTimestampStart	1769623200
 earningsGrowth	0.576
@@ -52,7 +52,7 @@ enterpriseToRevenue	6.951
 enterpriseValue	160520798208
 epsCurrentYear	4.38365
 epsForward	5.14591
-epsTrailingTwelveMonths	3.24
+epsTrailingTwelveMonths	3.35
 eps_normalized_growth	0.771640679021204
 esgPopulated	False
 exDividendDate	1774224000
@@ -83,7 +83,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	170000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	196.23
+graham_intrinsic_value	202.89
 grossMargins	0.37217999
 grossProfits	8595500032
 hasPrePostMarketData	True
@@ -104,7 +104,7 @@ longBusinessSummary	Amphenol Corporation, together with its subsidiaries, design
 longName	Amphenol Corporation
 market	us_market
 marketCap	155790704640
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_24827
 mostRecentQuarter	1767139200
@@ -175,8 +175,8 @@ totalRevenue	23094700032
 tradeable	False
 trailingAnnualDividendRate	0.745
 trailingAnnualDividendYield	0.005702258
-trailingEps	3.24
-trailingPE	39.117283
+trailingEps	3.35
+trailingPE	37.832836
 trailingPegRatio	1.4117
 triggerable	True
 twoHundredDayAverage	124.94105

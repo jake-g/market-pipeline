@@ -4,13 +4,13 @@ SandP52WeekChange	0.12811458
 address1	2300 Oracle Way
 allTimeHigh	345.72
 allTimeLow	0.040123
-ask	150.5
+ask	150.41
 askSize	200
 auditRisk	1
 averageAnalystRating	1.6 - Buy
 averageDailyVolume10Day	35256910
-averageDailyVolume3Month	26701088
-averageVolume	26701088
+averageDailyVolume3Month	26693640
+averageVolume	26693640
 averageVolume10days	35256910
 beta	1.648
 bid	150.3
@@ -21,7 +21,7 @@ city	Austin
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Lawrence J. Ellison', 'age': 81, 'title': 'Co-Founder, Chairman & CTO', 'yearBorn': 1944, 'fiscalYear': 2025, 'totalPay': 5643948, 'exercisedValue': 230992432, 'unexercisedValue': 858000000}, {'maxAge': 1, 'name': 'Mr. Jeffrey O. Henley', 'age': 80, 'title': 'Executive Vice Chairman of the Board', 'yearBorn': 1945, 'fiscalYear': 2025, 'totalPay': 658717, 'exercisedValue': 0, 'unexercisedValue': 195104000}, {'maxAge': 1, 'name': 'Ms. Safra Ada Catz', 'age': 63, 'title': 'Executive Vice Chair', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 1113417, 'exercisedValue': 510901632, 'unexercisedValue': 422698624}, {'maxAge': 1, 'name': 'Ms. Maria  Smith', 'age': 58, 'title': 'Executive VP & Chief Accounting Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 639362, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Stuart A. Levey', 'age': 61, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 990091, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael D. Sicilia', 'age': 53, 'title': 'Chief Executive Officer & Director', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Clayton  Magouyrk', 'age': 38, 'title': 'Chief Executive Officer & Director', 'yearBorn': 1987, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Douglas A. Kehring', 'age': 52, 'title': 'Executive VP & Principal Financial Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Hura', 'title': 'President of Global Field Operations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jae  Evans', 'title': 'Global Chief Information Officer & Executive VP', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
-corporateActions	[{'header': 'Dividend', 'message': 'ORCL announced a cash dividend of $0.50 with an ex-date of Apr. 9, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1775707200000, 'amount': '0.50'}}]
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -32,11 +32,11 @@ dateShortInterest	1772150400
 dayHigh	153.245
 dayLow	148.0
 debtToEquity	415.265
-discount_to_intrinsic_value	53.89
+discount_to_intrinsic_value	55.63
 displayName	Oracle
 dividendDate	1776988800
 dividendRate	2.0
-dividendYield	1.29
+dividendYield	1.34
 earningsCallTimestampEnd	1773176400
 earningsCallTimestampStart	1773176400
 earningsGrowth	0.245
@@ -51,7 +51,7 @@ enterpriseToRevenue	8.724
 enterpriseValue	559029551104
 epsCurrentYear	7.44902
 epsForward	7.97172
-epsTrailingTwelveMonths	5.36
+epsTrailingTwelveMonths	5.57
 eps_normalized_growth	0.47808293577293903
 esgPopulated	False
 exDividendDate	1775692800
@@ -82,12 +82,12 @@ fullExchangeName	NYSE
 fullTimeEmployees	162000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	324.63
+graham_intrinsic_value	337.35
 grossMargins	0.67084
 grossProfits	42985000960
 hasPrePostMarketData	True
 heldPercentInsiders	0.40549
-heldPercentInstitutions	0.44312
+heldPercentInstitutions	0.4431
 impliedSharesOutstanding	2876046000
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -104,7 +104,7 @@ longBusinessSummary	Oracle Corporation offers products and services that address
 longName	Oracle Corporation
 market	us_market
 marketCap	430486552576
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_22247
 mostRecentQuarter	1772236800
@@ -175,8 +175,8 @@ totalRevenue	64076001280
 tradeable	False
 trailingAnnualDividendRate	2.0
 trailingAnnualDividendYield	0.012860082
-trailingEps	5.36
-trailingPE	27.925371
+trailingEps	5.57
+trailingPE	26.87253
 trailingPegRatio	0.9468
 triggerable	True
 twoHundredDayAverage	220.02666

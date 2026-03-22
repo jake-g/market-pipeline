@@ -5,19 +5,19 @@ address1	135 Constitution Drive
 address2	Suite 3A
 allTimeHigh	429.0
 allTimeLow	107.13
-ask	168.16
+ask	168.98
 askSize	200
 auditRisk	4
 averageAnalystRating	1.5 - Strong Buy
 averageDailyVolume10Day	4197860
-averageDailyVolume3Month	5713259
-averageVolume	5713259
+averageDailyVolume3Month	5761993
+averageVolume	5761993
 averageVolume10days	4197860
 beta	1.212
-bid	168.71
+bid	168.66
 bidSize	300
 boardRisk	10
-bookValue	5.621
+bookValue	5.595
 city	Menlo Park
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Sridhar  Ramaswamy Ph.D.', 'age': 58, 'title': 'CEO & Director', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1571806, 'exercisedValue': 0, 'unexercisedValue': 3250406}, {'maxAge': 1, 'name': 'Dr. Benoit  Dageville Ph.D.', 'age': 57, 'title': 'Co-Founder, Chief Architect & President of Product Division & Director', 'yearBorn': 1968, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christian  Kleinerman', 'age': 48, 'title': 'Executive Vice President of Product', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 814997, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Vivek  Raghunathan', 'age': 45, 'title': 'Senior Vice President of Engineering', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1438498, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Thierry  Cruanes', 'title': 'Co-Founder', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brian G. Robins', 'age': 55, 'title': 'Chief Financial Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Emily  Ho', 'age': 45, 'title': 'Chief Accounting Officer', 'yearBorn': 1980, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. S.  Muralidhar', 'title': 'Chief Technology Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mike  Blandina', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Katherine Anne McCracken', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -39,14 +39,14 @@ earningsCallTimestampStart	1772056800
 earningsTimestamp	1772053200
 earningsTimestampEnd	1779912000
 earningsTimestampStart	1779912000
-ebitda	-1110548992
-ebitdaMargins	-0.23709999
-enterpriseToEbitda	-50.627
-enterpriseToRevenue	12.004
-enterpriseValue	56223834112
+ebitda	-1286213248
+ebitdaMargins	-0.2746
+enterpriseToEbitda	-44.105
+enterpriseToRevenue	12.111
+enterpriseValue	56728903680
 epsCurrentYear	1.78708
 epsForward	2.43143
-epsTrailingTwelveMonths	-3.78
+epsTrailingTwelveMonths	-3.95
 esgPopulated	False
 exchange	NYQ
 exchangeDataDelayedBy	0
@@ -66,19 +66,19 @@ fiftyTwoWeekLowChangePercent	0.39900088
 fiftyTwoWeekRange	120.1 - 280.67
 financialCurrency	USD
 firstTradeDateMilliseconds	1600263000000
-floatShares	332512209
+floatShares	335432297
 forwardEps	2.43143
 forwardPE	69.10336
-freeCashflow	1763663744
+freeCashflow	1587485568
 fullExchangeName	NYSE
-fullTimeEmployees	9023
+fullTimeEmployees	9060
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-grossMargins	0.67061996
-grossProfits	3141127936
+grossMargins	0.67169
+grossProfits	3146140928
 hasPrePostMarketData	True
-heldPercentInsiders	0.03207
-heldPercentInstitutions	0.78216004
+heldPercentInsiders	0.032
+heldPercentInstitutions	0.78217006
 impliedSharesOutstanding	342200000
 industry	Software - Application
 industryDisp	Software - Application
@@ -91,17 +91,17 @@ longBusinessSummary	Snowflake Inc. provides a cloud-based data platform for vari
 longName	Snowflake Inc.
 market	us_market
 marketCap	57496444928
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_275004592
 mostRecentQuarter	1769817600
 netIncomeToCommon	-1331616000
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	60021880000
+nonDilutedMarketCap	57496444000
 numberOfAnalystOpinions	46
 open	173.64
 operatingCashflow	1221942016
-operatingMargins	-0.24420999
+operatingMargins	-0.33236998
 overallRisk	10
 payoutRatio	0.0
 pegRatio	5.6
@@ -113,10 +113,10 @@ postMarketTime	1774051197
 previousClose	175.4
 priceEpsCurrentYear	94.019295
 priceHint	2
-priceToBook	29.89148
+priceToBook	30.030386
 priceToSalesTrailing12Months	12.275215
 profitMargins	-0.28429002
-quickRatio	1.206
+quickRatio	1.21
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	strong_buy
@@ -132,7 +132,7 @@ regularMarketPreviousClose	175.4
 regularMarketPrice	168.02
 regularMarketTime	1774036803
 regularMarketVolume	3669324
-returnOnAssets	-0.09158
+returnOnAssets	-0.09874
 returnOnEquity	-0.53908
 revenueGrowth	0.301
 revenuePerShare	13.879
@@ -156,13 +156,13 @@ targetLowPrice	176.0
 targetMeanPrice	239.84174
 targetMedianPrice	235.0
 totalCash	4029686016
-totalCashPerShare	11.773
+totalCashPerShare	11.67
 totalDebt	2741114112
 totalRevenue	4683945984
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-3.78
+trailingEps	-3.95
 trailingPegRatio	5.6005
 triggerable	True
 twoHundredDayAverage	216.9295

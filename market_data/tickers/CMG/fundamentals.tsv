@@ -10,11 +10,11 @@ askSize	900
 auditRisk	6
 averageAnalystRating	1.7 - Buy
 averageDailyVolume10Day	19226300
-averageDailyVolume3Month	17041822
-averageVolume	17041822
+averageDailyVolume3Month	17053536
+averageVolume	17053536
 averageVolume10days	19226300
 beta	1.019
-bid	33.37
+bid	33.45
 bidSize	2100
 boardRisk	1
 bookValue	2.17
@@ -33,7 +33,7 @@ dateShortInterest	1772150400
 dayHigh	33.74
 dayLow	32.93
 debtToEquity	179.319
-discount_to_intrinsic_value	-85.13
+discount_to_intrinsic_value	-86.76
 displayName	Chipotle Mexican Grill
 earningsCallTimestampEnd	1777494600
 earningsCallTimestampStart	1777494600
@@ -49,7 +49,7 @@ enterpriseToRevenue	3.982
 enterpriseValue	47488532480
 epsCurrentYear	1.14551
 epsForward	1.36784
-epsTrailingTwelveMonths	1.15
+epsTrailingTwelveMonths	1.14
 eps_normalized_growth	0.033196707586007346
 esgPopulated	False
 exchange	NYQ
@@ -78,7 +78,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	130301
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	18.02
+graham_intrinsic_value	17.87
 grossMargins	0.40098998
 grossProfits	4782030848
 hasPrePostMarketData	True
@@ -98,7 +98,7 @@ longBusinessSummary	Chipotle Mexican Grill, Inc., together with its subsidiaries
 longName	Chipotle Mexican Grill, Inc.
 market	us_market
 marketCap	44124413952
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_26446
 mostRecentQuarter	1767139200
@@ -124,10 +124,10 @@ priceToBook	15.377879
 priceToSalesTrailing12Months	3.6999738
 profitMargins	0.12878
 quickRatio	1.092
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.73684
+recommendationMean	1.68421
 region	US
 regularMarketChange	0.43
 regularMarketChangePercent	1.3054
@@ -169,8 +169,8 @@ totalRevenue	11925601280
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	1.15
-trailingPE	29.017391
+trailingEps	1.14
+trailingPE	29.271929
 trailingPegRatio	1.731
 triggerable	True
 twoHundredDayAverage	40.88475

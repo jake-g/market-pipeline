@@ -9,8 +9,8 @@ askSize	300
 auditRisk	5
 averageAnalystRating	2.4 - Buy
 averageDailyVolume10Day	3018070
-averageDailyVolume3Month	2591250
-averageVolume	2591250
+averageDailyVolume3Month	2566843
+averageVolume	2566843
 averageVolume10days	3018070
 beta	0.753
 bid	64.42
@@ -32,10 +32,10 @@ dateShortInterest	1772150400
 dayHigh	69.672
 dayLow	66.35
 debtToEquity	184.946
-discount_to_intrinsic_value	74.81
+discount_to_intrinsic_value	75.86
 dividendDate	1774915200
 dividendRate	3.15
-dividendYield	4.52
+dividendYield	4.72
 earningsCallTimestampEnd	1770991200
 earningsCallTimestampStart	1770991200
 earningsGrowth	4.662
@@ -48,9 +48,9 @@ ebitdaMargins	0.34667
 enterpriseToEbitda	11.775
 enterpriseToRevenue	4.082
 enterpriseValue	55298572288
-epsCurrentYear	4.88383
-epsForward	5.17422
-epsTrailingTwelveMonths	4.37
+epsCurrentYear	4.87284
+epsForward	5.16089
+epsTrailingTwelveMonths	4.56
 eps_normalized_growth	2.3602221928335805
 esgPopulated	False
 exDividendDate	1772668800
@@ -73,15 +73,15 @@ fiftyTwoWeekRange	52.28 - 76.41
 financialCurrency	USD
 firstTradeDateMilliseconds	99153000000
 fiveYearAvgDividendYield	3.77
-floatShares	374700558
-forwardEps	5.17422
-forwardPE	12.885034
+floatShares	374794432
+forwardEps	5.16089
+forwardPE	12.918314
 freeCashflow	761494400
 fullExchangeName	NYSE
 fullTimeEmployees	10731
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	264.67
+graham_intrinsic_value	276.18
 grossMargins	0.53622
 grossProfits	7264293888
 hasPrePostMarketData	True
@@ -101,7 +101,7 @@ longBusinessSummary	Eversource Energy, a public utility holding company, engages
 longName	Eversource Energy
 market	us_market
 marketCap	25034358784
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_292525
 mostRecentQuarter	1767139200
@@ -120,7 +120,7 @@ postMarketChangePercent	0.8999527
 postMarketPrice	67.27
 postMarketTime	1774050301
 previousClose	69.62
-priceEpsCurrentYear	13.651171
+priceEpsCurrentYear	13.681959
 priceHint	2
 priceToBook	1.5452543
 priceToSalesTrailing12Months	1.8479301
@@ -160,11 +160,11 @@ shortRatio	2.43
 sourceInterval	15
 state	MA
 symbol	ES
-syntheticPEG	0.027638425568425568
+syntheticPEG	0.02770981123981124
 targetHighPrice	87.0
 targetLowPrice	57.0
-targetMeanPrice	75.61538
-targetMedianPrice	77.0
+targetMeanPrice	75.30769
+targetMedianPrice	75.0
 totalCash	135351008
 totalCashPerShare	0.36
 totalDebt	30243997696
@@ -172,8 +172,8 @@ totalRevenue	13547243520
 tradeable	False
 trailingAnnualDividendRate	3.01
 trailingAnnualDividendYield	0.043234702
-trailingEps	4.37
-trailingPE	15.256293
+trailingEps	4.56
+trailingPE	14.620614
 trailingPegRatio	0.9593
 triggerable	True
 twoHundredDayAverage	68.40625

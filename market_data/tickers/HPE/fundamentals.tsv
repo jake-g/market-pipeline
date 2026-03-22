@@ -9,11 +9,11 @@ askSize	1000
 auditRisk	1
 averageAnalystRating	2.1 - Buy
 averageDailyVolume10Day	20794190
-averageDailyVolume3Month	17122409
-averageVolume	17122409
+averageDailyVolume3Month	17097905
+averageVolume	17097905
 averageVolume10days	20794190
 beta	1.311
-bid	21.9
+bid	21.58
 bidSize	7700
 boardRisk	1
 bookValue	18.642
@@ -21,7 +21,7 @@ city	Spring
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Antonio Fabio Neri', 'age': 58, 'title': 'CEO, President & Director', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 3840071, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Marie E. Myers', 'age': 57, 'title': 'Executive VP & CFO', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 2572554, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John F. Schultz J.D.', 'age': 61, 'title': 'Executive VP and Chief Operating & Legal Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 2011366, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Fidelma M. Russo', 'age': 62, 'title': 'Executive VP, GM of Hybrid Cloud & CTO', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 1659522, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rami  Rahim', 'age': 54, 'title': 'Executive VP, President & GM of Networking', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 2663607, 'exercisedValue': 0, 'unexercisedValue': 4954572}, {'maxAge': 1, 'name': 'Mr. Jeremy K. Cox', 'age': 47, 'title': 'Senior VP, Corporate Controller, Chief Tax Officer & Principal Accounting Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 1143956, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rom  Kosla', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul  Glaser J.D.', 'title': 'Head of Hewlett Packard Pathfinder & Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jennifer  Temple', 'title': 'Executive VP and Chief Marketing & Communications Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kirt Paul Karros C.F.A.', 'age': 56, 'title': 'Senior VP, Treasurer & Head of Corporate Development', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	7
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'HPE announced a cash dividend of $0.142 with an ex-date of Mar. 24, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774324800000, 'amount': '0.142'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -34,7 +34,7 @@ dayLow	21.47
 debtToEquity	87.223
 dividendDate	1776902400
 dividendRate	0.57
-dividendYield	2.58
+dividendYield	2.63
 earningsCallTimestampEnd	1773090000
 earningsCallTimestampStart	1773090000
 earningsGrowth	-0.303
@@ -100,13 +100,13 @@ longBusinessSummary	Hewlett Packard Enterprise Company, together with its subsid
 longName	Hewlett Packard Enterprise Company
 market	us_market
 marketCap	28821856256
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_273983758
 mostRecentQuarter	1769817600
 netIncomeToCommon	-234000000
 nextFiscalYearEnd	1793404800
-nonDilutedMarketCap	29350012448
+nonDilutedMarketCap	28779465190
 numberOfAnalystOpinions	19
 open	22.43
 operatingCashflow	4487000064

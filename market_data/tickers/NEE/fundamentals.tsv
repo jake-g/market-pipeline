@@ -4,21 +4,21 @@ SandP52WeekChange	0.12811458
 address1	700 Universe Boulevard
 allTimeHigh	95.91
 allTimeLow	0.84375
-ask	90.75
+ask	91.49
 askSize	400
 auditRisk	4
 averageAnalystRating	1.9 - Buy
 averageDailyVolume10Day	9643110
-averageDailyVolume3Month	9516768
-averageVolume	9516768
+averageDailyVolume3Month	9556445
+averageVolume	9556445
 averageVolume10days	9643110
 beta	0.749
-bid	90.68
+bid	90.0
 bidSize	400
 boardRisk	5
 bookValue	26.216
 city	Juno Beach
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. John W. Ketchum J.D.', 'age': 54, 'title': 'President, CEO & Chairman', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 7030809, 'exercisedValue': 0, 'unexercisedValue': 13236406}, {'maxAge': 1, 'name': 'Mr. Charles E. Sieving J.D.', 'age': 52, 'title': 'Executive VP and Chief Legal, Environmental & Federal Regulatory Affairs Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'totalPay': 3274566, 'exercisedValue': 2934276, 'unexercisedValue': 1891228}, {'maxAge': 1, 'name': 'Mr. Terrell Kirk Crews II', 'age': 47, 'title': 'Executive VP & Chief Risk Officer', 'yearBorn': 1978, 'fiscalYear': 2024, 'totalPay': 1793515, 'exercisedValue': 0, 'unexercisedValue': 645512}, {'maxAge': 1, 'name': 'Mr. Armando  Pimentel Jr.', 'age': 62, 'title': 'Chief Executive Officer of Florida Power & Light Company', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 3259155, 'exercisedValue': 5377692, 'unexercisedValue': 17471824}, {'maxAge': 1, 'name': 'Mr. Brian W. Bolster', 'age': 52, 'title': 'President & CEO of NextEra Energy Resources', 'yearBorn': 1973, 'fiscalYear': 2024, 'totalPay': 3610232, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael H. Dunne', 'age': 48, 'title': 'CFO, Executive VP of Finance, Treasurer & Assistant Secretary', 'yearBorn': 1977, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William John Gough', 'age': 37, 'title': 'Vice President, Controller and Chief Accounting Officer', 'yearBorn': 1988, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mark  Eidelman', 'title': 'Director of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Flechner', 'title': 'VP of Compliance & Corporate Secretary', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark E. Hickson', 'age': 57, 'title': 'Executive Vice President of Corporate Development & Strategy', 'yearBorn': 1968, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. John W. Ketchum J.D.', 'age': 54, 'title': 'President, CEO & Chairman', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 7030809, 'exercisedValue': 0, 'unexercisedValue': 13236406}, {'maxAge': 1, 'name': 'Mr. Charles E. Sieving J.D.', 'age': 52, 'title': 'Executive VP and Chief Legal, Environmental & Federal Regulatory Affairs Officer', 'yearBorn': 1973, 'fiscalYear': 2024, 'totalPay': 3274566, 'exercisedValue': 2934276, 'unexercisedValue': 1891228}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	8
 corporateActions	[]
@@ -32,11 +32,11 @@ dateShortInterest	1772150400
 dayHigh	94.21
 dayLow	89.17
 debtToEquity	146.242
-discount_to_intrinsic_value	53.82
+discount_to_intrinsic_value	55.22
 displayName	NextEra Energy
 dividendDate	1773619200
 dividendRate	2.49
-dividendYield	2.7
+dividendYield	2.79
 earningsCallTimestampEnd	1769522400
 earningsCallTimestampStart	1769522400
 earningsGrowth	0.26
@@ -51,7 +51,7 @@ enterpriseToRevenue	10.68
 enterpriseValue	292754227200
 epsCurrentYear	4.01565
 epsForward	4.38014
-epsTrailingTwelveMonths	3.2
+epsTrailingTwelveMonths	3.3
 eps_normalized_growth	0.8460206991411445
 esgPopulated	False
 exDividendDate	1772150400
@@ -82,7 +82,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	17400
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	193.81
+graham_intrinsic_value	199.86
 grossMargins	0.62268
 grossProfits	17068999680
 hasPrePostMarketData	True
@@ -103,7 +103,7 @@ longBusinessSummary	NextEra Energy, Inc., through its subsidiaries, generates, s
 longName	NextEra Energy, Inc.
 market	us_market
 marketCap	186475216896
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_270586
 mostRecentQuarter	1767139200
@@ -174,8 +174,8 @@ totalRevenue	27412000768
 tradeable	False
 trailingAnnualDividendRate	2.266
 trailingAnnualDividendYield	0.024521155
-trailingEps	3.2
-trailingPE	27.96875
+trailingEps	3.3
+trailingPE	27.121212
 trailingPegRatio	2.6737
 triggerable	True
 twoHundredDayAverage	80.2607

@@ -9,8 +9,8 @@ askSize	1
 auditRisk	7
 averageAnalystRating	1.4 - Strong Buy
 averageDailyVolume10Day	22884860
-averageDailyVolume3Month	30724863
-averageVolume	30724863
+averageDailyVolume3Month	30879046
+averageVolume	30879046
 averageVolume10days	22884860
 beta	0.657
 bid	112.12
@@ -21,7 +21,7 @@ city	Bentonville
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. John R. Furner', 'age': 50, 'title': 'President, CEO & Director', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 4327422, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John David Rainey Jr.', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3534727, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Suresh  Kumar Ph.D.', 'age': 60, 'title': 'Executive VP, Global CTO & Chief Development Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 3709340, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. C. Douglas McMillon', 'age': 59, 'title': 'Executive Officer & Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 6249434, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher  Nicholas', 'age': 47, 'title': 'President & CEO of Walmart International', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 3255161, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dwayne  Milum', 'title': 'Senior VP, Controller & Principal Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Stephanie  Wissink', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Elisebeth B. Collins', 'title': 'Executive VP, Global Chief Ethics & Compliance Officer and Special Counsel', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Allyson  Park', 'title': 'Senior VP & Chief Communications Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Donna Catherine Morris', 'age': 58, 'title': 'Executive VP & Chief People Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
-corporateActions	[{'header': 'Dividend', 'message': 'WMT announced a cash dividend of $0.248 with an ex-date of Mar. 20, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1773979200000, 'amount': '0.248'}}]
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -32,11 +32,11 @@ dateShortInterest	1772150400
 dayHigh	121.3
 dayLow	118.02
 debtToEquity	64.443
-discount_to_intrinsic_value	-404.66
+discount_to_intrinsic_value	-395.42
 displayName	Walmart
 dividendDate	1799020800
 dividendRate	0.99
-dividendYield	0.82
+dividendYield	0.83
 earningsCallTimestampEnd	1771506000
 earningsCallTimestampStart	1771506000
 earningsGrowth	-0.19
@@ -46,12 +46,12 @@ earningsTimestampEnd	1779366600
 earningsTimestampStart	1779366600
 ebitda	44027998208
 ebitdaMargins	0.061739996
-enterpriseToEbitda	23.012
+enterpriseToEbitda	23.011
 enterpriseToRevenue	1.421
-enterpriseValue	1013177188352
+enterpriseValue	1013137342464
 epsCurrentYear	2.91977
 epsForward	3.28421
-epsTrailingTwelveMonths	2.68
+epsTrailingTwelveMonths	2.73
 eps_normalized_growth	-0.03525821390730188
 esgPopulated	False
 exDividendDate	1778198400
@@ -74,7 +74,7 @@ fiftyTwoWeekRange	79.81 - 134.69
 financialCurrency	USD
 firstTradeDateMilliseconds	83597400000
 fiveYearAvgDividendYield	1.3
-floatShares	4371906083
+floatShares	4371826359
 forwardEps	3.28421
 forwardPE	36.24007
 freeCashflow	10554250240
@@ -82,7 +82,7 @@ fullExchangeName	NasdaqGS
 fullTimeEmployees	2100000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	23.58
+graham_intrinsic_value	24.02
 grossMargins	0.24927
 grossProfits	177768005632
 hasPrePostMarketData	True
@@ -95,8 +95,8 @@ industryKey	discount-stores
 ipoExpectedDate	2025-12-09
 isEarningsDateEstimate	False
 language	en-US
-lastDividendDate	1765497600
-lastDividendValue	0.235
+lastDividendDate	1773964800
+lastDividendValue	0.248
 lastFiscalYearEnd	1769817600
 lastSplitDate	1708905600
 lastSplitFactor	3:1
@@ -104,7 +104,7 @@ longBusinessSummary	Walmart Inc. engages in the operation of retail and wholesal
 longName	Walmart Inc.
 market	us_market
 marketCap	948875362304
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_313055
 mostRecentQuarter	1769817600
@@ -122,7 +122,7 @@ postMarketChange	0.1800003
 postMarketChangePercent	0.15123534
 postMarketPrice	119.2
 postMarketTime	1774051192
-previousClose	121.09
+previousClose	120.8425
 priceEpsCurrentYear	40.763485
 priceHint	2
 priceToBook	9.520838
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.44186
 region	US
-regularMarketChange	-2.07
-regularMarketChangePercent	-1.70947
+regularMarketChange	-1.8225021
+regularMarketChangePercent	-1.5081632
 regularMarketDayHigh	121.3
 regularMarketDayLow	118.02
 regularMarketDayRange	118.02 - 121.3
 regularMarketOpen	120.33
-regularMarketPreviousClose	121.09
+regularMarketPreviousClose	120.8425
 regularMarketPrice	119.02
 regularMarketTime	1774036802
-regularMarketVolume	57357711
+regularMarketVolume	57545642
 returnOnAssets	0.06834
 returnOnEquity	0.21847
 revenueGrowth	0.056
@@ -174,15 +174,15 @@ totalDebt	68425998336
 totalRevenue	713163014144
 tradeable	False
 trailingAnnualDividendRate	0.94
-trailingAnnualDividendYield	0.0077628214
-trailingEps	2.68
-trailingPE	44.410446
+trailingAnnualDividendYield	0.0077787205
+trailingEps	2.73
+trailingPE	43.59707
 trailingPegRatio	4.4581
 triggerable	True
 twoHundredDayAverage	108.06015
 twoHundredDayAverageChange	10.9598465
 twoHundredDayAverageChangePercent	0.10142357
 typeDisp	Equity
-volume	57357711
+volume	57545642
 website	https://www.stock.walmart.com
 zip	72716

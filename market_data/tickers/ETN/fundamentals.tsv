@@ -5,16 +5,16 @@ address1	Eaton House
 address2	30 Pembroke Road
 allTimeHigh	408.45
 allTimeLow	0.8677
-ask	361.0
+ask	360.0
 askSize	40
 auditRisk	3
 averageAnalystRating	1.8 - Buy
 averageDailyVolume10Day	2991320
-averageDailyVolume3Month	2844680
-averageVolume	2844680
+averageDailyVolume3Month	2857418
+averageVolume	2857418
 averageVolume10days	2991320
 beta	1.167
-bid	358.0
+bid	358.01
 bidSize	200
 boardRisk	1
 bookValue	50.077
@@ -33,11 +33,11 @@ dateShortInterest	1772150400
 dayHigh	366.92
 dayLow	353.6501
 debtToEquity	54.877
-discount_to_intrinsic_value	22.62
+discount_to_intrinsic_value	23.36
 displayName	Eaton
 dividendDate	1774569600
 dividendRate	4.4
-dividendYield	1.22
+dividendYield	1.23
 earningsCallTimestampEnd	1770134400
 earningsCallTimestampStart	1770134400
 earningsGrowth	0.189
@@ -52,7 +52,7 @@ enterpriseToRevenue	5.404
 enterpriseValue	148327727104
 epsCurrentYear	13.371
 epsForward	15.61496
-epsTrailingTwelveMonths	10.35
+epsTrailingTwelveMonths	10.45
 eps_normalized_growth	0.1726637273282805
 esgPopulated	False
 exDividendDate	1773100800
@@ -83,12 +83,12 @@ fullExchangeName	NYSE
 fullTimeEmployees	97303
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	461.11
+graham_intrinsic_value	465.56
 grossMargins	0.37772998
 grossProfits	10368000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.00065
-heldPercentInstitutions	0.85560995
+heldPercentInstitutions	0.85559
 impliedSharesOutstanding	388400000
 industry	Specialty Industrial Machinery
 industryDisp	Specialty Industrial Machinery
@@ -105,7 +105,7 @@ longBusinessSummary	Eaton Corporation plc operates as a power management company
 longName	Eaton Corporation plc
 market	us_market
 marketCap	138581114880
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_175265
 mostRecentQuarter	1767139200
@@ -130,7 +130,7 @@ priceToBook	7.125027
 priceToSalesTrailing12Months	5.04886
 profitMargins	0.1489
 quickRatio	0.742
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.8
@@ -175,8 +175,8 @@ totalRevenue	27448000512
 tradeable	False
 trailingAnnualDividendRate	4.16
 trailingAnnualDividendYield	0.011548176
-trailingEps	10.35
-trailingPE	34.473427
+trailingEps	10.45
+trailingPE	34.14354
 trailingPegRatio	2.6431
 triggerable	True
 twoHundredDayAverage	355.84134

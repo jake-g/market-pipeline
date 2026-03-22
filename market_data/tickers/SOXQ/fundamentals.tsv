@@ -4,8 +4,8 @@ allTimeLow	16.45
 ask	64.75
 askSize	1
 averageDailyVolume10Day	1163260
-averageDailyVolume3Month	1006431
-averageVolume	1006431
+averageDailyVolume3Month	1015830
+averageVolume	1015830
 averageVolume10days	1163260
 beta3Year	1.77
 bid	57.09
@@ -49,10 +49,10 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally will invest at least 90% of its total assets in the securities that comprise the underlying index. Strictly in accordance with its guidelines and mandated procedures, Nasdaq compiles the underlying index, which is a modified market-capitalization weighted index designed to measure the performance of the 30 largest companies listed in the United States that are engaged in the semiconductor business, as determined by the index Provider. The fund is non-diversified.
 longName	Invesco PHLX Semiconductor ETF
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_713971653
-navPrice	61.94
+navPrice	60.43
 netAssets	1031455170.0
 netExpenseRatio	0.19
 open	61.82
@@ -65,8 +65,8 @@ priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.51
-regularMarketChangePercent	-2.43863
+regularMarketChange	-1.5099983
+regularMarketChangePercent	-2.438628
 regularMarketDayHigh	62.1
 regularMarketDayLow	59.64
 regularMarketDayRange	59.64 - 62.1
@@ -74,11 +74,11 @@ regularMarketOpen	61.82
 regularMarketPreviousClose	61.92
 regularMarketPrice	60.41
 regularMarketTime	1774036801
-regularMarketVolume	1773874
+regularMarketVolume	1909962
 shortName	Invesco PHLX Semiconductor ETF
 sourceInterval	15
 symbol	SOXQ
-threeYearAverageReturn	0.3764616
+threeYearAverageReturn	0.3594784
 totalAssets	1031455168
 tradeable	False
 trailingPE	40.500668
@@ -90,6 +90,6 @@ twoHundredDayAverage	52.72955
 twoHundredDayAverageChange	7.6804504
 twoHundredDayAverageChangePercent	0.14565742
 typeDisp	ETF
-volume	1773874
+volume	1909962
 yield	0.0044
 ytdReturn	14.38565

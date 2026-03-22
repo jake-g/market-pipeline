@@ -9,17 +9,17 @@ askSize	400
 auditRisk	6
 averageAnalystRating	2.3 - Buy
 averageDailyVolume10Day	8587330
-averageDailyVolume3Month	6469847
-averageVolume	6469847
+averageDailyVolume3Month	6486605
+averageVolume	6486605
 averageVolume10days	8587330
 beta	1.054
-bid	96.35
+bid	96.25
 bidSize	100
 boardRisk	7
 bookValue	19.113
 city	Atlanta
-companyOfficers	[{'maxAge': 1, 'name': 'Ms. Carol B. Tome', 'age': 68, 'title': 'CEO & Director', 'yearBorn': 1957, 'fiscalYear': 2024, 'totalPay': 3969488, 'exercisedValue': 0, 'unexercisedValue': 2172635}, {'maxAge': 1, 'name': 'Mr. Brian  Dykes', 'age': 46, 'title': 'Chief Financial Officer & Executive Vice President', 'yearBorn': 1979, 'fiscalYear': 2024, 'totalPay': 1669306, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bala  Subramanian', 'age': 54, 'title': 'EVP and Chief Digital & Technology Officer', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 1611871, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kathleen M. Gutmann', 'age': 56, 'title': 'Executive VP and President of International, Healthcare & Supply Chain Solutions', 'yearBorn': 1969, 'fiscalYear': 2024, 'totalPay': 1903309, 'exercisedValue': 0, 'unexercisedValue': 584868}, {'maxAge': 1, 'name': 'Mr. Nando  Cesarone', 'age': 53, 'title': 'Executive VP & President of U.S. and UPS Airline', 'yearBorn': 1972, 'fiscalYear': 2024, 'totalPay': 1865744, 'exercisedValue': 0, 'unexercisedValue': 189723}, {'maxAge': 1, 'name': 'PJ  Guido', 'title': 'Investor Relations Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Norman M. Brothers Jr.', 'age': 57, 'title': 'Executive VP, Chief Legal, Compliance Officer & Corporate Secretary', 'yearBorn': 1968, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Darrell L. Ford', 'age': 60, 'title': 'Executive VP & Chief Human Resources Officer', 'yearBorn': 1965, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ralph  Ozoude', 'title': 'Managing Director of Nigerian Operations & Special Projects Manager for West Africa', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Harrison  Park', 'title': 'Managing Director of UPS Korea', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
-compensationAsOfEpochDate	1735603200
+companyOfficers	[{'maxAge': 1, 'name': 'Ms. Carol B. Tome', 'age': 68, 'title': 'CEO & Director', 'yearBorn': 1957, 'fiscalYear': 2025, 'totalPay': 3969488, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brian  Dykes', 'age': 46, 'title': 'Chief Financial Officer & Executive Vice President', 'yearBorn': 1979, 'fiscalYear': 2025, 'totalPay': 1669306, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bala  Subramanian', 'age': 54, 'title': 'EVP and Chief Digital & Technology Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 1611871, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kathleen M. Gutmann', 'age': 56, 'title': 'Executive VP and President of International, Healthcare & Supply Chain Solutions', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1903309, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nando  Cesarone', 'age': 53, 'title': 'Executive VP & President of U.S. and UPS Airline', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 1865744, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'PJ  Guido', 'title': 'Investor Relations Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Norman M. Brothers Jr.', 'age': 57, 'title': 'Executive VP, Chief Legal, Compliance Officer & Corporate Secretary', 'yearBorn': 1968, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Darrell L. Ford', 'age': 60, 'title': 'Executive VP & Chief Human Resources Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ralph  Ozoude', 'title': 'Managing Director of Nigerian Operations & Special Projects Manager for West Africa', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Harrison  Park', 'title': 'Managing Director of UPS Korea', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+compensationAsOfEpochDate	1767139200
 compensationRisk	8
 corporateActions	[]
 country	United States
@@ -32,11 +32,11 @@ dateShortInterest	1772150400
 dayHigh	97.6311
 dayLow	95.17
 debtToEquity	175.884
-discount_to_intrinsic_value	41.23
+discount_to_intrinsic_value	41.68
 displayName	United Parcel Service
 dividendDate	1772668800
 dividendRate	6.56
-dividendYield	6.79
+dividendYield	6.84
 earningsCallTimestampEnd	1777379400
 earningsCallTimestampStart	1777379400
 earningsGrowth	0.046
@@ -51,7 +51,7 @@ enterpriseToRevenue	1.174
 enterpriseValue	104125890560
 epsCurrentYear	7.05889
 epsForward	7.96034
-epsTrailingTwelveMonths	6.51
+epsTrailingTwelveMonths	6.56
 eps_normalized_growth	0.0785153576654749
 esgPopulated	False
 exDividendDate	1771286400
@@ -74,7 +74,7 @@ fiftyTwoWeekRange	82.0 - 122.41
 financialCurrency	USD
 firstTradeDateMilliseconds	942244200000
 fiveYearAvgDividendYield	4.13
-floatShares	743125329
+floatShares	744398982
 forwardEps	7.96034
 forwardPE	12.042199
 freeCashflow	5186874880
@@ -82,12 +82,12 @@ fullExchangeName	NYSE
 fullTimeEmployees	241250
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	163.12
+graham_intrinsic_value	164.38
 grossMargins	0.22601
 grossProfits	20038000640
 hasPrePostMarketData	True
-heldPercentInsiders	0.00031
-heldPercentInstitutions	0.69968003
+heldPercentInsiders	0.00023
+heldPercentInstitutions	0.69801
 impliedSharesOutstanding	849101714
 industry	Integrated Freight & Logistics
 industryDisp	Integrated Freight & Logistics
@@ -102,7 +102,7 @@ longBusinessSummary	United Parcel Service, Inc., a package delivery and logistic
 longName	United Parcel Service, Inc.
 market	us_market
 marketCap	81394892800
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_238570
 mostRecentQuarter	1767139200
@@ -173,8 +173,8 @@ totalRevenue	88661000192
 tradeable	False
 trailingAnnualDividendRate	6.56
 trailingAnnualDividendYield	0.06793703
-trailingEps	6.51
-trailingPE	14.725038
+trailingEps	6.56
+trailingPE	14.612805
 trailingPegRatio	1.4652
 triggerable	True
 twoHundredDayAverage	97.22395

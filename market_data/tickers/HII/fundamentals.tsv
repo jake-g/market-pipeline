@@ -4,13 +4,13 @@ SandP52WeekChange	0.12811458
 address1	4101 Washington Avenue
 allTimeHigh	460.0
 allTimeLow	22.62
-ask	429.05
+ask	412.0
 askSize	240
 auditRisk	7
 averageAnalystRating	2.4 - Buy
 averageDailyVolume10Day	583630
-averageDailyVolume3Month	579959
-averageVolume	579959
+averageDailyVolume3Month	575178
+averageVolume	575178
 averageVolume10days	583630
 beta	0.28
 bid	402.0
@@ -32,11 +32,11 @@ dateShortInterest	1772150400
 dayHigh	417.53
 dayLow	405.55
 debtToEquity	58.762
-discount_to_intrinsic_value	47.95
+discount_to_intrinsic_value	49.2
 displayName	Huntington Ingalls Industries
 dividendDate	1773360000
 dividendRate	5.52
-dividendYield	1.32
+dividendYield	1.35
 earningsCallTimestampEnd	1770300000
 earningsCallTimestampStart	1770300000
 earningsGrowth	0.281
@@ -51,7 +51,7 @@ enterpriseToRevenue	1.459
 enterpriseValue	18217232384
 epsCurrentYear	17.34608
 epsForward	20.31308
-epsTrailingTwelveMonths	15.01
+epsTrailingTwelveMonths	15.38
 eps_normalized_growth	0.2096798262726518
 esgPopulated	False
 exDividendDate	1772150400
@@ -74,7 +74,7 @@ fiftyTwoWeekRange	177.42 - 460.0
 financialCurrency	USD
 firstTradeDateMilliseconds	1300800600000
 fiveYearAvgDividendYield	2.15
-floatShares	38903631
+floatShares	38905201
 forwardEps	20.31308
 forwardPE	20.084597
 freeCashflow	686000000
@@ -82,7 +82,7 @@ fullExchangeName	NYSE
 fullTimeEmployees	44000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	783.76
+graham_intrinsic_value	803.08
 grossMargins	0.12696
 grossProfits	1584999936
 hasPrePostMarketData	True
@@ -101,7 +101,7 @@ longBusinessSummary	Huntington Ingalls Industries, Inc. designs, builds, overhau
 longName	Huntington Ingalls Industries, Inc.
 market	us_market
 marketCap	16010231808
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_363263
 mostRecentQuarter	1767139200
@@ -129,7 +129,7 @@ profitMargins	0.048460003
 quickRatio	1.036
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
-recommendationKey	buy
+recommendationKey	none
 recommendationMean	2.36364
 region	US
 regularMarketChange	-10.44
@@ -172,8 +172,8 @@ totalRevenue	12483999744
 tradeable	False
 trailingAnnualDividendRate	5.43
 trailingAnnualDividendYield	0.012977391
-trailingEps	15.01
-trailingPE	27.180546
+trailingEps	15.38
+trailingPE	26.526659
 trailingPegRatio	1.7418
 triggerable	True
 twoHundredDayAverage	317.50894
