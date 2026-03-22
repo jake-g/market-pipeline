@@ -14222,39 +14222,11 @@
     "path": "portfolios",
     "children": [
       {
-        "type": "folder",
-        "name": "tsvs",
-        "path": "portfolios/tsvs",
-        "children": [
-          {
-            "type": "file",
-            "name": "example_active_account.tsv",
-            "path": "portfolios/tsvs/example_active_account.tsv",
-            "size": 240,
-            "lines": 4
-          },
-          {
-            "type": "file",
-            "name": "example_inactive_trust.tsv",
-            "path": "portfolios/tsvs/example_inactive_trust.tsv",
-            "size": 144,
-            "lines": 2
-          }
-        ]
-      },
-      {
-        "type": "file",
-        "name": "portfolio_example.json",
-        "path": "portfolios/portfolio_example.json",
-        "size": 1838,
-        "lines": 64
-      },
-      {
         "type": "file",
         "name": "portfolio_processor.py",
         "path": "portfolios/portfolio_processor.py",
-        "size": 5237,
-        "lines": 148
+        "size": 5821,
+        "lines": 162
       },
       {
         "type": "file",
@@ -14274,8 +14246,8 @@
         "type": "file",
         "name": "yahoo_portfolio_fetcher.py",
         "path": "portfolios/yahoo_portfolio_fetcher.py",
-        "size": 21810,
-        "lines": 601
+        "size": 23557,
+        "lines": 646
       }
     ]
   },
@@ -14923,8 +14895,8 @@
             "type": "file",
             "name": "03-20_DAILY_REPORT.md",
             "path": "reports/news/03-20_DAILY_REPORT.md",
-            "size": 8642,
-            "lines": 53
+            "size": 7403,
+            "lines": 50
           },
           {
             "type": "file",
@@ -15030,15 +15002,15 @@
         "type": "file",
         "name": "notebooklm_report.py",
         "path": "reports/notebooklm_report.py",
-        "size": 45616,
-        "lines": 911
+        "size": 47236,
+        "lines": 927
       },
       {
         "type": "file",
         "name": "report_utils.py",
         "path": "reports/report_utils.py",
-        "size": 63606,
-        "lines": 1840
+        "size": 67018,
+        "lines": 1929
       }
     ]
   },
@@ -15046,15 +15018,15 @@
     "type": "file",
     "name": "config.py",
     "path": "config.py",
-    "size": 5969,
-    "lines": 146
+    "size": 6040,
+    "lines": 147
   },
   {
     "type": "file",
     "name": "market_dashboard_server.py",
     "path": "market_dashboard_server.py",
-    "size": 7559,
-    "lines": 236
+    "size": 7416,
+    "lines": 230
   },
   {
     "type": "file",

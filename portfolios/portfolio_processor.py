@@ -2,11 +2,18 @@ import glob
 import logging
 import os
 import sys
+import time
 from typing import Any, Dict
 
 import numpy as np
 import pandas as pd
 
+# Add the project root to sys.path so 'config' can be resolved
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if PROJECT_ROOT not in sys.path:
+  sys.path.insert(0, PROJECT_ROOT)
+
+import config
 from reports.report_utils import enrich_portfolio_df
 
 logger = logging.getLogger(__name__)
@@ -23,6 +30,16 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
     and returns a fully enriched DataFrame containing momentum and weights.
     """
   logger.info(f"Processing Portfolio: {tsv_path}")
+  if os.path.exists(tsv_path):
+    age_days = (time.time() - os.path.getmtime(tsv_path)) / 86400
+    if age_days > config.MAX_PORTFOLIO_AGE_DAYS:
+      logger.error(
+          f"Portfolio file {tsv_path} is stale: {age_days:.1f} days old (Max is {config.MAX_PORTFOLIO_AGE_DAYS} days). failing standalone stand."
+      )
+      raise ValueError(
+          f"Stale portfolio data File exceeds {config.MAX_PORTFOLIO_AGE_DAYS} days filter limit threshold triggering crash."
+      )
+
   try:
     portfolio_df = pd.read_csv(tsv_path, sep='\t')
   except FileNotFoundError:
@@ -118,10 +135,7 @@ if __name__ == "__main__":
   tsv_files = glob.glob(os.path.join(tsvs_dir, "*.tsv"))
   # Only process raw portfolio TSVs and the combined active portfolio (ignore other prefixed system TSVs or examples)
   target_files = [
-      f for f in tsv_files
-      if (not os.path.basename(f).startswith("_") or
-          os.path.basename(f) == "_combined_active_portfolio.tsv") and
-      "example" not in os.path.basename(f).lower()
+      f for f in tsv_files if "example" not in os.path.basename(f).lower()
   ]
 
   if not target_files:

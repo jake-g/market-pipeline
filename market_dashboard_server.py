@@ -19,9 +19,7 @@ ALLOWED_ROOT_DIRS = {
     'market_data', 'reports', 'alpha_vantage_api', 'portfolios'
 }
 INCLUDE_EXTS = {'.tsv', '.csv', '.md', '.txt', '.json', '.py', '.png'}
-EXCLUDE_FILES = {
-    'requirements.txt', 'index.json', '__init__.py', 'PORTFOLIO_REPORT.md'
-}
+EXCLUDE_FILES = {'requirements.txt', 'index.json', '__init__.py'}
 ALWAYS_IGNORE_DIRS = {
     'forks', 'venv', 'notebooks', 'deploy', 'backfill', 'logs', 'old', '.cache',
     '__pycache__', '.git', '.gemini'
@@ -41,8 +39,7 @@ def load_gitignore():
     if prefix:
       prefix += '/'
 
-    ignore_patterns = set()
-    allow_patterns = set()
+    pattern_list = []
     if os.path.exists(gitignore_path):
       with open(gitignore_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -56,11 +53,8 @@ def load_gitignore():
             if line.endswith('/'):
               line = line[:-1]
 
-            if is_allow:
-              allow_patterns.add(line)
-            else:
-              ignore_patterns.add(line)
-      rules.append((prefix, ignore_patterns, allow_patterns))
+            pattern_list.append((line, is_allow))
+      rules.append((prefix, pattern_list))
 
   return rules
 
@@ -70,21 +64,21 @@ GITIGNORE_RULES = load_gitignore()
 
 def is_ignored(rel_path):
   """Checks if a relative path matches any parsed .gitignore pattern."""
-  for prefix, ignore_patterns, allow_patterns in GITIGNORE_RULES:
+  for prefix, pattern_list in GITIGNORE_RULES:
     if not rel_path.startswith(prefix):
       continue
 
     local_path = rel_path[len(prefix):] if prefix else rel_path
 
-    for pattern in allow_patterns:
+    # Evaluate patterns in order; the last matching rule takes precedence.
+    is_ignored_state = None
+    for pattern, is_allow in pattern_list:
       if fnmatch.fnmatch(local_path, pattern) or fnmatch.fnmatch(
           os.path.basename(local_path), pattern):
-        return False
+        is_ignored_state = not is_allow
 
-    for pattern in ignore_patterns:
-      if fnmatch.fnmatch(local_path, pattern) or fnmatch.fnmatch(
-          os.path.basename(local_path), pattern):
-        return True
+    if is_ignored_state is not None:
+      return is_ignored_state
 
   return False
 

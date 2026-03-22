@@ -1,4 +1,4 @@
-Ticker	Price	Quantity	Current_Value	Unrealized_PnL_Net	Unrealized_PnL_Pct	Day_Change_Net	Day_Change_Pct
-AAPL	150.0	100.0	15000.0	5000.0	50.0	100.0	0.6
-NVDA	800.01	50.0	40000.5	10000.25	33.3	350.0	0.88
-CASH	1.0	1500.0	1500.0	0.0	0.0	0.0	0.0
+Ticker	Price	Quantity	Current_Value	Cost_Basis	Unrealized_PnL_Net	Unrealized_PnL_Pct	Day_Change_Net	Day_Change_Pct
+AAPL	150.0	100.0	15000.0	10000.0	5000.0	50.0	100.0	0.6
+NVDA	800.01	50.0	40000.5	30000.25	10000.25	33.3	350.0	0.88
+CASH	1.0	1500.0	1500.0	1500.0	0.0	0.0	0.0	0.0

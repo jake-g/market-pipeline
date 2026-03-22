@@ -2,6 +2,10 @@
 # Portfolio Automation Pipeline
 
 set -e
+set -o pipefail  # Crucial to fail if internal python fails
+
+# Required on macOS for Homebrew-installed tools like Graphviz (dot)
+export PATH="$PATH:/opt/homebrew/bin"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$DIR/../" # Move to project root

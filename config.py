@@ -144,3 +144,4 @@ CACHE_EXPIRY_INSIDER = 86400 * 2  # 48 hours
 CACHE_EXPIRY_MACRO = 86400 * 2  # 48 hours
 CACHE_EXPIRY_SHIPPING = 86400  # 24 hours
 CACHE_YAHOO_PORTFOLIO_HOURS = 1  # Yahoo Portfolios
+MAX_PORTFOLIO_AGE_DAYS = 3  # Max age for analysis triggering failures

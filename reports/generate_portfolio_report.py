@@ -3,11 +3,16 @@ import glob
 import logging
 import os
 import sys
+import time
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
+
+# Ensure Homebrew bin is on PATH for Graphviz dot executable on macOS
+if "/opt/homebrew/bin" not in os.environ["PATH"]:
+  os.environ["PATH"] += os.pathsep + "/opt/homebrew/bin"
 
 # Append project root to import config
 REPORTS_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -161,6 +166,14 @@ def generate_report():
   active_files = []
   inactive_files = []
   for f in all_tsv_files:
+    # Age check
+    age_days = (time.time() - os.path.getmtime(f)) / 86400
+    if age_days > config.MAX_PORTFOLIO_AGE_DAYS:
+      logger.error(
+          f"Portfolio file {f} is stale: {age_days:.1f} days old (Max is {config.MAX_PORTFOLIO_AGE_DAYS} days)."
+      )
+      raise ValueError(f"Stale portfolio data: {f} exceeds max age limit.")
+
     base = os.path.basename(f).replace(".tsv", "")
     if base in ACTIVE_TRADING_PORTFOLIOS:
       active_files.append(f)
@@ -386,11 +399,11 @@ def generate_report():
                                               "notebooklm_report.py")
       report_utils_script = os.path.join(reports_dir, "report_utils.py")
 
-      notebooklm_cmd = f"python3 '{notebooklm_report_script}' --mode portfolio --dir '{report_path}'"
+      notebooklm_cmd = f"'{sys.executable}' '{notebooklm_report_script}' --mode portfolio --dir '{report_path}'"
       os.system(notebooklm_cmd)
 
       logger.info(f"Re-rendering Enhanced Markdown to PDF: {report_path}...")
-      render_cmd = f"python3 '{report_utils_script}' --render '{report_path}'"
+      render_cmd = f"'{sys.executable}' '{report_utils_script}' --render '{report_path}'"
       os.system(render_cmd)
     except Exception as e:
       logger.error(f"Failed to generate global AI tactical overlay: {e}")

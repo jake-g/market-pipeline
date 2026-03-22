@@ -195,6 +195,39 @@ def load_env_file(filepath: str):
           os.environ[key.strip()] = val_clean
 
 
+def verify_yahoo_auth(cookie: str,
+                      crumb: str,
+                      custom_headers: Optional[dict] = None) -> bool:
+  """Quick pre-flight check to fail-fast if Yahoo auth cookie/crumb is stale."""
+  logger.info("Running pre-flight Yahoo Finance Auth test...")
+  url = "https://query1.finance.yahoo.com/v7/finance/desktop/portfolio"
+  params = {"crumb": crumb}
+
+  headers = {
+      "User-Agent": UserAgent().random,
+      "Accept": "*/*",
+      "Cookie": cookie
+  }
+  if custom_headers:
+    headers.update(custom_headers)
+
+  try:
+    r = requests.get(url, headers=headers, params=params, allow_redirects=False)
+    if r.status_code in (401, 403):
+      logger.error("Yahoo Auth Failed - HTTP %d. Credentials likely stale.",
+                   r.status_code)
+      return False
+    if r.status_code == 200:
+      logger.info("✅ Yahoo Auth Test Passed (HTTP 200)")
+      return True
+    logger.warning("Yahoo Auth Test returned unexpected Status Code: %d",
+                   r.status_code)
+    return False
+  except Exception as e:
+    logger.error("Auth Test failed due to network error: %s", e)
+    return False
+
+
 def fetch_yahoo_portfolios(cookie: str,
                            crumb: str,
                            user_id: str,
@@ -327,6 +360,13 @@ def main():
         )
         sys.exit(1)
 
+      # Pre-flight check before bulk execution triggers
+      if not verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers):
+        logger.error(
+            "Yahoo Auth check failed. Exiting to prevent stale data fallbacks.")
+        sys.exit(1)
+
+      # No fallback: if live fetch fails, crash the script so pipeline breaks explicitly
       data = fetch_yahoo_portfolios(cookie, crumb, user_id, custom_headers)
 
       # Diff against existing local portfolio.json (if present)
@@ -390,8 +430,12 @@ def main():
 
         # Parse Active config from env to build combined active matrix
         env_active = os.environ.get("ACTIVE_TRADING_PORTFOLIOS", "")
-        active_list = [p.strip() for p in env_active.split(",") if p.strip()
-                      ] if env_active else []
+        # Normalize list entries to match sanitized safe_name (single underscore, lowercase) using regex
+        active_list = [
+            re.sub(r'[^a-zA-Z0-9]+', '_', p).strip('_').lower()
+            for p in env_active.split(",")
+            if p.strip()
+        ] if env_active else []
 
         # Ensure tsvs dir exists
         out_dir = os.path.join(os.path.dirname(__file__), "tsvs")
@@ -431,6 +475,7 @@ def main():
                   "Price": current_price,
                   "Quantity": qty,
                   "Current_Value": pos_current_value,
+                  "Cost_Basis": pos_current_value - pos.get("totalGain", 0),
                   "Unrealized_PnL_Net": pos.get("totalGain", 0),
                   "Unrealized_PnL_Pct": pos.get("totalPercentGain", 0),
                   "Day_Change_Net": pos.get("dailyGain", 0),
@@ -452,10 +497,8 @@ def main():
               combined_positions[sym]["Day_Change_Net"] += pos.get(
                   "dailyGain", 0)
 
-              # Safe name generation for active check
-              safe_name = "".join(
-                  c for c in name if c.isalnum() or c in (" ", "_")).strip()
-              safe_name = safe_name.replace(" ", "_").lower().rstrip("_")
+              # Safe name generation for active check (robust regex normalization)
+              safe_name = re.sub(r'[^a-zA-Z0-9]+', '_', name).strip('_').lower()
 
               if safe_name in active_list:
                 if sym not in combined_active_positions:
@@ -481,6 +524,7 @@ def main():
                   "Price": 1.0,
                   "Quantity": round(cash, 2),
                   "Current_Value": round(cash, 2),
+                  "Cost_Basis": round(cash, 2),
                   "Unrealized_PnL_Net": 0.0,
                   "Unrealized_PnL_Pct": 0.0,
                   "Day_Change_Net": 0.0,
@@ -571,6 +615,7 @@ def main():
                 "Price": round(avg_price, 2),
                 "Quantity": qty,
                 "Current_Value": val,
+                "Cost_Basis": cost_basis,
                 "Unrealized_PnL_Net": unr_net,
                 "Unrealized_PnL_Pct": round(unr_pct, 2),
                 "Day_Change_Net": day_net,

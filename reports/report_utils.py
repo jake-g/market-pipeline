@@ -230,12 +230,33 @@ def get_technical_indicators(ticker: str, tickers_dir: str) -> Dict[str, Any]:
         (last_row['Close'] - last_row['MA200']) / last_row['MA200']) * 100
     last5_return = (last_row['Close'] / prices.iloc[-6]['Close'] - 1) * 100
 
+    # Historical Volatility & Sharpe (1yr)
+    log_ret = pd.Series(np.log(prices['Close'] / prices['Close'].shift(1)))
+    volatility_20d = log_ret.tail(20).std() * np.sqrt(252) * 100
+    volatility_252d = log_ret.tail(252).std() * np.sqrt(252) * 100
+
+    close_1y = prices['Close'].tail(252)
+    sharpe = np.nan
+    if len(close_1y) >= 200:
+      ann_ret = (close_1y.iloc[-1] / close_1y.iloc[0] - 1) * 100
+      sharpe = (ann_ret - 4.2) / volatility_252d if volatility_252d > 0 else 0
+
     return {
-        "Ticker": ticker,
-        "Close": f"${last_row['Close']:.2f}",
-        "RSI": round(last_row['RSI'], 1),
-        "Dist_to_200MA": round(dist_200, 1),
-        "Trailing_5D_Ret": round(last5_return, 1)
+        "Ticker":
+            ticker,
+        "Close":
+            f"${last_row['Close']:.2f}",
+        "RSI":
+            round(last_row['RSI'], 1),
+        "Dist_to_200MA":
+            round(dist_200, 1),
+        "Trailing_5D_Ret":
+            round(last5_return, 1),
+        "Volatility_20D":
+            round(volatility_20d, 2)
+            if not np.isnan(volatility_20d) else np.nan,
+        "Sharpe_1Y":
+            round(sharpe, 2) if not np.isnan(sharpe) else np.nan
     }
   except Exception as e:
     logger.warning("Could not calculate minimal technicals for %s: %s", ticker,
@@ -372,6 +393,67 @@ def generate_screening_scatter(df: pd.DataFrame, output_path: str):
   plt.savefig(output_path, dpi=300)
   plt.close()
   logger.info(f"Saved Screener Scatter plot to {output_path}")
+
+
+def generate_risk_return_scatter(df: pd.DataFrame, output_path: str):
+  """Plots 20-Day Volatility vs. Sharpe Ratio to visualize speculative risk/reward profile."""
+  if df.empty or 'Volatility_20D' not in df or 'Sharpe_1Y' not in df:
+    logger.warning("No data to plot risk scatter.")
+    return
+
+  # Use the aesthetic routine from advanced plots
+  plt.style.use('seaborn-v0_8-whitegrid')
+
+  plot_df = df.dropna(subset=['Volatility_20D', 'Sharpe_1Y']).copy()
+  if plot_df.empty:
+    return
+
+  plt.figure(figsize=(12, 9))
+
+  # Simple Quadrant logic highlighting High Risk vs Good Return zones
+  avg_vol = plot_df['Volatility_20D'].mean()
+  avg_sharpe = plot_df['Sharpe_1Y'].mean()
+
+  plt.axvline(avg_vol, color='gray', alpha=0.4, linestyle='--')
+  plt.axhline(avg_sharpe, color='gray', alpha=0.4, linestyle='--')
+
+  size_col = 'Current_Value' if 'Current_Value' in plot_df else 'Current_Price' if 'Current_Price' in plot_df else None
+
+  scatter = sns.scatterplot(data=plot_df,
+                            x='Volatility_20D',
+                            y='Sharpe_1Y',
+                            hue='Ticker',
+                            palette='viridis',
+                            size=size_col,
+                            sizes=(40, 400) if size_col else None,
+                            alpha=0.8,
+                            edgecolor='black',
+                            legend=False)
+
+  # Annotations
+  for i in range(plot_df.shape[0]):
+    plt.text(x=plot_df['Volatility_20D'].iloc[i] +
+             (plot_df['Volatility_20D'].max() * 0.01),
+             y=plot_df['Sharpe_1Y'].iloc[i] +
+             (plot_df['Sharpe_1Y'].max() * 0.01),
+             s=plot_df['Ticker'].iloc[i],
+             fontdict={
+                 "color": 'black',
+                 "weight": "bold",
+                 "size": 9
+             })
+
+  plt.title('Risk-Return Matrix: 20-Day Volatility vs. Sharpe Ratio',
+            fontweight='bold',
+            fontsize=16)
+  plt.xlabel('20-Day Volatility (StdDev %)', fontsize=12)
+  plt.ylabel('1-Year Sharpe Ratio (Annualized)', fontsize=12)
+
+  plt.grid(True, alpha=0.3)
+  plt.tight_layout()
+  plt.savefig(output_path, dpi=300)
+  plt.close()
+  logger.info(f"Saved Risk-Return Scatter plot to {output_path}")
 
 
 def build_decision_tree(df: pd.DataFrame, out_path: str):
@@ -874,10 +956,10 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
     df['Discount_to_Intrinsic_Value_Pct'] = np.nan
 
   desired_cols = [
-      'Ticker', 'Name', 'Quantity', 'Portfolio_Weight_Pct',
-      'Unrealized_PnL_Pct', 'Graham_Value', 'Discount_to_Intrinsic_Value_Pct',
-      'RSI', 'Dist_to_200MA', 'MACD', 'MA_Cross', 'Time_Horizon',
-      'Exit_Strategy'
+      'Ticker', 'Name', 'Quantity', 'Portfolio_Weight_Pct', 'Cost_Basis',
+      'Unrealized_PnL_Net', 'Unrealized_PnL_Pct', 'Graham_Value',
+      'Discount_to_Intrinsic_Value_Pct', 'RSI', 'Dist_to_200MA', 'MACD',
+      'MA_Cross', 'Time_Horizon', 'Exit_Strategy'
   ]
   actual_cols = [c for c in desired_cols if c in df.columns]
   display_df = df[actual_cols].copy()
@@ -890,6 +972,13 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
   if 'Unrealized_PnL_Pct' in display_df.columns:
     display_df['Unrealized_PnL_Pct'] = display_df['Unrealized_PnL_Pct'].apply(
         lambda x: format_num(x, is_pct=True, is_signed=True) if x != "-" else x)
+
+  if 'Cost_Basis' in display_df.columns:
+    display_df['Cost_Basis'] = display_df['Cost_Basis'].apply(
+        lambda x: format_num(x, prefix="$") if x != "-" else x)
+  if 'Unrealized_PnL_Net' in display_df.columns:
+    display_df['Unrealized_PnL_Net'] = display_df['Unrealized_PnL_Net'].apply(
+        lambda x: format_num(x, prefix="$", is_signed=True) if x != "-" else x)
 
   if 'Graham_Value' in display_df.columns:
     display_df['Graham_Value'] = display_df['Graham_Value'].apply(
