@@ -56,18 +56,60 @@ class MarketNewsClient:
       logger.error("Failed to connect to NotebookLM: %s", e)
       raise
 
+  async def _prune_sources_if_needed(self, threshold: int = 95):
+    """Checks source count and prunes oldest daily reports if exceeding threshold."""
+    client = self.client
+    if not self.notebook_id or client is None or not hasattr(client, 'sources'):
+      return
+
+    try:
+      sources = await client.sources.list(self.notebook_id)
+      if len(sources) < threshold:
+        return
+
+      logger.info(
+          "NotebookLM source count (%d) exceeds threshold (%d). Pruning...",
+          len(sources), threshold)
+
+      daily_sources = []
+      for src in sources:
+        title = getattr(src, 'title', '').upper()
+        if 'DAILY' in title or 'QUANTITATIVE' in title or 'NEWS_REPORTS' in title:
+          daily_sources.append(src)
+
+      if not daily_sources:
+        logger.warning(
+            "No daily sources found to prune, but threshold exceeded!")
+        return
+
+      # Sort chronologically by created_at (oldest first)
+      daily_sources.sort(key=lambda x: str(getattr(x, 'created_at', '')))
+
+      prune_count = min(10, len(daily_sources))
+      for i in range(prune_count):
+        src_to_delete = daily_sources[i]
+        logger.info("Pruning oldest daily source: %s",
+                    getattr(src_to_delete, 'title', src_to_delete.id))
+        await self.client.sources.delete(self.notebook_id, src_to_delete.id)
+
+    except Exception as e:
+      logger.warning("Failed to prune sources: %s", e)
+
   async def upload_news_text(self, text_content: str, title: str):
     """Uploads arbitrary text structure as a source to the notebook."""
     if not self.notebook_id:
       raise ValueError("Not connected to a notebook. Call connect() first.")
 
+    await self._prune_sources_if_needed()
+
     logger.info("Uploading news source to NotebookLM: %s", title)
     try:
-      if self.client and hasattr(self.client, 'sources'):
-        await self.client.sources.add_text(self.notebook_id,
-                                           title=title,
-                                           content=text_content,
-                                           wait=True)
+      client = self.client
+      if client is not None and hasattr(client, 'sources'):
+        await client.sources.add_text(self.notebook_id,
+                                      title=title,
+                                      content=text_content,
+                                      wait=True)
       else:
         logger.error("Client or sources not available.")
     except Exception as e:
@@ -78,12 +120,15 @@ class MarketNewsClient:
     if not self.notebook_id:
       raise ValueError("Not connected to a notebook. Call connect() first.")
 
+    await self._prune_sources_if_needed()
+
     logger.info("Uploading file to NotebookLM: %s", file_path)
     try:
-      if self.client and hasattr(self.client, 'sources'):
-        await self.client.sources.add_file(self.notebook_id,
-                                           file_path=file_path,
-                                           wait=True)
+      client = self.client
+      if client is not None and hasattr(client, 'sources'):
+        await client.sources.add_file(self.notebook_id,
+                                      file_path=file_path,
+                                      wait=True)
       else:
         logger.error("Client or sources not available.")
     except Exception as e:

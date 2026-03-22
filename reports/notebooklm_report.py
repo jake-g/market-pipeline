@@ -25,10 +25,10 @@ PROMPT_DAILY = """You are a sophisticated hedge fund analyst powered by Notebook
 
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in the data. Provide deep insights into geopolitical shifts, tech leaps, and macro events. Explain the *why* behind the moves. Include a brief, sharp **Expert Forward Projection** analyzing where these trends are likely headed in the near term. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Provide 3-4 distinct paragraphs/bullet blocks of intense insight.
+Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in the data. Integrate context from any uploaded previous daily or weekly reports to maintain narrative consistency and call out evolving trends. Provide deep insights into geopolitical shifts, tech leaps, and macro events (e.g., CPI dumps, Fed guidance). Explain the *why* behind the moves. Include a brief, sharp **Expert Forward Projection** analyzing where these trends are likely headed in the near term. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Provide 3-4 distinct paragraphs/bullet blocks of intense insight.
 
 ## Quantitative Market Action & Specific Equities
-Explicitly correlate the top stock winners/losers from the Price Action Summary with the exact qualitative news events driving them. Quantify your points and elaborate on the specific details of the catalyst (e.g., earnings beats, product launches, downgrades).
+Explicitly correlate the top stock winners/losers from the Price Action Summary with the exact qualitative news events driving them. Quantify your points and elaborate on the specific details of the catalyst (e.g., earnings beats with actual numbers, product launches, guidance revisions).
 You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
 
 CRITICAL FORMATTING RULES:
@@ -39,10 +39,10 @@ PROMPT_WEEKLY = """You are a macroeconomic analyst powered by NotebookLM. Write 
 
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, deep-dive executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Provide robust, detailed analysis on *why* these trends matter and how they developed over the days. Include a dedicated **Expert Forward Projection** section forecasting what these catalysts mean for the weeks ahead. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Aim for thorough, high-conviction insights.
+Write a highly structured, deep-dive executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Contextualize the narrative using context from preceding uploaded reports to show the evolution of topics. Provide robust, detailed analysis on *why* these trends matter and how they developed over the days. Include a dedicated **Expert Forward Projection** section forecasting what these catalysts mean for the weeks ahead. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Aim for thorough, high-conviction insights.
 
 ## Quantitative Market Action & Specific Equities
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers, cite the companies directly, and provide the specific narrative behind their price action.
+Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers, cite the companies directly, and provide the specific narrative behind their price action (e.g., specific Earnings beats or Guidance numbers).
 You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
 
 CRITICAL FORMATTING RULES:
@@ -53,7 +53,7 @@ PROMPT_MONTHLY = """You are a macroeconomic analyst powered by NotebookLM. Write
 
 STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
 ## Top AI Thematic Insights
-Write a highly structured, deeply analytical executive summary grouping exactly the major themes and catalysts that defined this month. Highlight major shifts or trends and assign explicit probabilities or data-backed weightings where possible. Break the broader market narrative and key events down chronologically into a Week-by-Week timeline here. Conclude this section with an **Expert Forward Projection**, offering institutional-level forecasts for the coming months based on the data. Provide expansive context and tell the story of the month.
+Write a highly structured, deeply analytical executive summary grouping exactly the major themes and catalysts that defined this month. Highlight major shifts or trends, drawing benchmarks against previous uploaded continuous context tracking. Break the broader market narrative and key events down chronologically into a Week-by-Week timeline here. Conclude this section with an **Expert Forward Projection**, offering institutional-level forecasts for the coming months based on the data. Provide expansive context and tell the story of the month.
 
 ## Quantitative Market Action & Specific Equities
 Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary. Correlate those specific stock returns ($, +%) to the uploaded qualitative news. Dig into the specific earnings reports, upgrades, or macro events driving those tickers.
@@ -148,20 +148,43 @@ def build_price_analysis_blob(market_data_dir: str,
       df['ParsedDate'] = pd.to_datetime(df['Date'],
                                         utc=True).dt.tz_localize(None)
 
-      if start_date:
-        df = df[df['ParsedDate'] >= start_date]
-      if end_date:
-        df = df[df['ParsedDate'] <= end_date]
+      # Sort first to maintain chronological order in master list
+      df = df.sort_values('ParsedDate')
 
-      if df.empty or len(df) < 2:
+      mask = pd.Series(True, index=df.index)
+      if start_date:
+        mask = mask & (df['ParsedDate'] >= start_date)
+      if end_date:
+        mask = mask & (df['ParsedDate'] <= end_date)
+
+      df_range = df[mask]
+
+      if df_range.empty:
         continue
 
-      df = df.sort_values('ParsedDate')
-      start_price = df.iloc[0]['Close']
-      end_price = df.iloc[-1]['Close']
-      high_price = df['High'].max(
-      ) if 'High' in df.columns else df['Close'].max()
-      low_price = df['Low'].min() if 'Low' in df.columns else df['Close'].min()
+      if len(df_range) == 1:
+        idx = df_range.index[0]
+        try:
+          row_pos = df.index.get_loc(idx)
+          # If we have a previous row in the fully sorted frame, use its close as the baseline
+          if isinstance(row_pos, int) and row_pos > 0:
+            start_price = df.iloc[row_pos - 1]['Close']
+            end_price = df_range.iloc[0]['Close']
+            high_price = df_range.iloc[0][
+                'High'] if 'High' in df_range.columns else end_price
+            low_price = df_range.iloc[0][
+                'Low'] if 'Low' in df_range.columns else end_price
+          else:
+            continue
+        except Exception:
+          continue
+      else:
+        start_price = df_range.iloc[0]['Close']
+        end_price = df_range.iloc[-1]['Close']
+        high_price = df_range['High'].max(
+        ) if 'High' in df_range.columns else df_range['Close'].max()
+        low_price = df_range['Low'].min(
+        ) if 'Low' in df_range.columns else df_range['Close'].min()
 
       return_pct = ((end_price - start_price) / start_price) * 100
 
@@ -186,9 +209,24 @@ def build_price_analysis_blob(market_data_dir: str,
   for _, row in res_df.head(15).iterrows():
     blob += f"- {row['Ticker']}: +{row['Return_Pct']:.2f}% (Start: ${row['Start_Price']:.2f}, End: ${row['End_Price']:.2f}, High: ${row['High']:.2f})\n"
 
-  blob += "\nTop Losers:\n"
-  for _, row in res_df.tail(15).iterrows():
-    blob += f"- {row['Ticker']}: {row['Return_Pct']:.2f}% (Start: ${row['Start_Price']:.2f}, End: ${row['End_Price']:.2f}, Low: ${row['Low']:.2f})\n"
+  blob += "\n### FULL TICKER LOOKUP TABLE\n"
+  try:
+    from tabulate import tabulate
+    display_df = res_df[['Ticker', 'Return_Pct', 'Start_Price',
+                         'End_Price']].copy()
+    display_df['Return_Pct'] = display_df['Return_Pct'].map(
+        lambda x: f"{x:+.2f}%")
+    display_df['Start_Price'] = display_df['Start_Price'].map(
+        lambda x: f"${x:.2f}")
+    display_df['End_Price'] = display_df['End_Price'].map(lambda x: f"${x:.2f}")
+    table_text = tabulate(display_df.values.tolist(),
+                          headers=['Ticker', 'Return %', 'Start', 'End'],
+                          tablefmt='pipe')
+    blob += table_text + "\n"
+  except ImportError:
+    # Fallback to simple format if tabulate is unavailable
+    for _, row in res_df.iterrows():
+      blob += f"- {row['Ticker']}: {row['Return_Pct']:+.2f}%\n"
 
   return blob
 
@@ -557,9 +595,10 @@ async def generate_report(market_data_dir: str,
                 str(row.get('URL', '')).strip()
                 for _, row in top_df.iterrows()
                 if str(row.get('URL', '')).strip().startswith('http')
-            ][:10]  # Top 10 urls for deep context
+            ][:20]  # Expanded to 20 urls for richer deep context
 
             if urls_to_fetch:
+
               logger.info(
                   f"Scraping deep context for {len(urls_to_fetch)} top URLs...")
               for idx, url in enumerate(urls_to_fetch):
@@ -717,12 +756,22 @@ async def generate_report(market_data_dir: str,
               for report_file in os.listdir(scan_dir):
                 if report_file.endswith(
                     ".md") and report_file != "PORTFOLIO_REPORT.md":
-                  # Only grab recent reports (last 7 days approx based on file mtime)
+                  import re
                   filepath = os.path.join(scan_dir, report_file)
                   if os.path.isfile(filepath):
-                    mtime = os.path.getmtime(filepath)
-                    if (datetime.now().timestamp() - mtime) < (7 * 86400):
-                      recent_reports.append((filepath, report_file))
+                    match = re.match(r"(\d{2}-\d{2})_", report_file)
+                    if match:
+                      file_date_str = match.group(1)
+                      try:
+                        target_year = te.year if te else datetime.now().year
+                        file_date = datetime.strptime(
+                            f"{target_year}-{file_date_str}", "%Y-%m-%d")
+                        ref_date = te if te else datetime.now()
+                        if file_date < ref_date and (ref_date -
+                                                     file_date).days <= 7:
+                          recent_reports.append((filepath, report_file))
+                      except ValueError:
+                        pass
 
           # Deduplicate before uploading
           if recent_reports:

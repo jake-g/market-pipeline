@@ -1,75 +1,90 @@
 # Market Intelligence Report
-*(Generated via NotebookLM Integration on 2026-03-12)*
+*(Generated via NotebookLM Integration on 2026-03-21)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
 ## Top AI Thematic Insights
 
-### Macroeconomic Theme: Escalating Risk Premiums and Inflationary Pressure
-- **Geopolitical Stagnation:** Volatility intensified as markets assessed the ongoing U.S.-Iran nuclear standoff in Geneva and the risk of potential U.S.-Israeli military action in Iran [1-3].
-- **Inflation Re-acceleration:** A hotter-than-expected Producer Price Index (PPI), which surged 0.8% in the core reading, fueled fears of persistent price pressures and a more hawkish Federal Reserve [4-6].
-- **Growth Deceleration:** Preliminary Q4 GDP figures of 1.4% indicated the U.S. economy moved in a negative direction as it entered early 2026 [7].
+The week of March 1 to March 7, 2026, represented a violent structural shift in the market regime, characterized by a transition from "AI hype" to a "geopolitical and energy reality" [1, 2]. While the first two months of 2026 were defined by a "wait and see" approach regarding Federal Reserve cuts and AI monetization, this week saw a decisive rotation into hard assets and a massive spike in volatility [3, 4].
 
-### Tech Sector Momentum: The "SaaSpocalypse" and Custom Silicon Shift
-- **Software Disruption:** The software industry faced a "SaaSpocalypse" as AI agents began dismantling the per-seat licensing models of traditional giants like Salesforce and Adobe [8].
-- **Infrastructure Pivot:** Investor interest migrated from chip designers toward semiconductor equipment makers and companies building the physical data center "factories" needed for AI deployment [9, 10].
-- **Cloud Economics:** AI began rewriting the economic models of cloud-consulting businesses, particularly impacting Amazon and Google Cloud margins [11, 12].
+### Geopolitical Escalation: "Operation Epic Fury"
+*   **The Hormuz Chokepoint:** The defining catalyst was the U.S.-Israeli military response to the death of Iranian Supreme Leader Ayatollah Ali Khamenei on February 28, known as "Operation Epic Fury" [2, 5]. This led to a 37.55% spike in the VIX as prediction markets placed an 85.2% probability on the closure of the Strait of Hormuz [2, 6].
+*   **Wartime Energy Premium:** The threat to global energy supplies sent WTI crude oil (CL=F) up 27.61% for the week, briefly touching $100 per barrel as the Navy began escorting tankers through contested waters [6, 7].
+*   **Policy Shock:** Compounding the war risk was President Trump’s sudden escalation of a 15% global tariff regime, which he characterized as essential for "national security" and "technological sovereignty" [2, 8].
 
-### Geopolitical Risks: Tariff Shocks and Regional Instability
-- **Trade Policy Volatility:** Markets remained rattled by "tariff shock" and Supreme Court challenges to newly announced trade policies from the Trump administration [13-15].
-- **Regional Conflicts:** Military operations, including a raid in Venezuela, reintroduced a significant risk premium to the global oil market [16-18].
+### Tech Sector Momentum Pivot: The "SaaSpocalypse" Returns
+*   **Impatience with AI ROI:** The market narrative has transitioned from "AI Deployment" to a "show me the money" phase, as hyperscaler capital expenditures are projected to hit $660 billion (2% of GDP) in 2026 [9, 10].
+*   **The Great Valuation Reset:** High P/E software and tech names experienced a "valuation hangover," with the Magnificent Seven losing nearly $3 trillion in market value this week [9, 11].
+*   **Hardware and Memory Decoupling:** Despite the software rout, companies focused on the "AI Factory" infrastructure—specifically power and memory—showed relative resilience as the market valued domestic manufacturing over globalized software services [12-14].
+
+### Macroeconomic Theme: Stagflationary Signals
+*   **Labor Market Cooling:** A surprise drop in nonfarm payrolls and a rise in jobless claims to 212,000 signaled that the job market is finally slowing after years of resilience [15, 16].
+*   **Inflationary Pressures:** Rising energy costs from the Iran conflict and tariff-induced price hikes for imported components have revived fears of a "tech-driven inflation surge," complicating the Fed’s easing path [2, 8].
+
+**Expert Forward Projection**
+The confluence of a 15% tariff wall and a hot war in the Middle East suggests that the "easy money" phase of the post-2024 recovery is over [3]. Investors should expect a **sustained multi-month rotation into "HALO" stocks** (Hard Assets, Low Obsolescence) such as energy majors and defense primes, which are insulated from AI disruption and benefit from geopolitical instability [17, 18]. The market-implied odds of a 2026 recession have risen to 40%, and a 10% to 15% correction in the S&P 500 is likely if the Strait of Hormuz remains a contested military zone [19, 20].
 
 ## Quantitative Market Action & Specific Equities
 
-### Top Winners
-| Ticker | Performance | News Catalyst Explaining the Move |
-| :--- | :--- | :--- |
-| **^VIX** | +37.55% | The "Fear Gauge" spiked to 2026 highs due to a "storm of headlines" regarding Iran, wholesale inflation, and an "AI panic" in the software sector [19-21]. |
-| **CL=F** | +27.61% | Oil prices surged near $70/barrel as Hormuz Strait risks and U.S.-Israeli military strike talk spurred a flight to energy assets [3, 18, 22]. |
-| **TTD** | +20.39% | Following a deep premarket slump on a cautious Q1 outlook, shares rebounded as investors viewed the sell-off as an overreaction to AI-driven advertising disruption [23-25]. |
-| **ESLT** | +12.87% | Reached record highs after reporting a US$25.20 billion order backlog, buoyed by rising global defense budgets and tensions in the Middle East [17, 26]. |
-| **CRWD** | +11.47% | Led a cybersecurity recovery as analysts at Wedbush and Jefferies characterized the software-mageddon sell-off as an attractive entry point for market leaders [27, 28]. |
+The quantitative summary for this week shows a market bifurcated between "War/Volatility Winners" and "Valuation Reset Losers" [6, 21].
 
-### Top Losers
-| Ticker | Performance | News Catalyst Explaining the Move |
+### Top Quantitative Winners (2026-03-01 to 2026-03-07)
+
+| Ticker | Performance | Detailed News Catalyst |
 | :--- | :--- | :--- |
-| **MOD** | -21.47% | Experienced a severe technical reversal and valuation reset after being identified as an "AI factory" trade that had become overextended [29, 30]. |
-| **COHR** | -21.14% | Slumped after a "valuation reset" despite bullish photonics launches, as investors questioned the sustainability of its 600% annual surge [8, 31, 32]. |
-| **ENTG** | -17.02% | Impacted by weak Q4 guidance and persistent insider selling, resulting in a consensus "Hold" rating from major brokerages [33-35]. |
-| **SCCO** | -15.48% | Shares fell sharply after management issued a lower copper output forecast for 2026 and warned that record-high prices were not sustainable [36-38]. |
-| **MARA** | -15.24% | Dragged lower as Bitcoin slipped below $65k, coupled with a Q4 earnings miss despite plans to expand into high-performance computing (HPC) [9, 39, 40]. |
+| **^VIX** | +37.55% | The "fear gauge" spiked to 29.49 (88th percentile) as investors hedged against tariff-induced shutdown risks and the escalation of "Operation Epic Fury" [4, 6, 22]. |
+| **CL=F** | +27.61% | Crude oil futures recorded their biggest weekly gain in history, topping $90/bbl on fears of a prolonged Strait of Hormuz closure and G7-level supply disruptions [1, 6, 23]. |
+| **TTD** | +20.39% | Defied the broad ad-tech rout after a significant CEO stock buy-back program was announced, signaling internal confidence despite a tougher growth environment [6, 24]. |
+| **APP** | +15.97% | Despite broad software weakness, AppLovin maintained momentum as a "superstar" beneficiary of AI-driven mobile advertising efficiencies, though analysts warned of a potential future downgrade [6, 25]. |
+| **CRWD** | +11.47% | CrowdStrike surged following an earnings report that "impressed" Wall Street, maintaining its moat as a critical defender of the "New AI Economy" [6, 24]. |
+| **ESLT** | +12.87% | Elbit Systems gained as global defense spending accelerated, with the market pricing in a "drone supercycle" linked to Middle East conflict needs [6, 26, 27]. |
+
+### Top Quantitative Losers (2026-03-01 to 2026-03-07)
+
+| Ticker | Performance | Detailed News Catalyst |
+| :--- | :--- | :--- |
+| **SMCI** | -33.32% | Shares collapsed as investors soured on margin pressure and execution risk; despite strong fundamentals, the stock entered its "most mispriced phase" as capital moved to safer havens [21, 28, 29]. |
+| **VST** | -12.76% | Vistra saw heavy profit-taking as the "AI Energy Trade" cooled; investors rotated from utility-scale power to "hard asset" oil plays during the Iran escalation [21, 30]. |
+| **NLR** | -11.58% | The nuclear energy ETF dipped as regulatory uncertainty around capacity-market price collars weighed on outlooks for 2026 and 2027 [21, 31]. |
+| **WDC** | -9.15% | Western Digital’s rally stalled following a secondary public share offering by its former parent, which dampened the momentum of the AI memory chip cycle [21, 32]. |
+| **CEG** | -10.90% | Constellation Energy fell after management held off on issuing a detailed 2026 outlook, citing a need to evaluate the long-term impact of new capacity-market collars [21, 31, 33]. |
 
 ## References
-1. [33] Entegris (ENTG) Is Down 5.9% After Weak Q4 Guidance and Analyst Estimate Cuts – What's Changed. https://news.google.com/rss/articles/CBMid0FVX3lxTE1DbXhGTnl1bHlUOHVTVjB3VzZZZ3FKc055aXZqc0w1YVZ3alpGVTdqU2lUbmxkLXQyVFNVY3NrOF9nMURPX25SeWFIQkZtRlRHeDI1TlRha19sRnhNZHZBZ215ak05bGVJNHh3b2xfdHJ3bGY5NVQ4?oc=5
-2. [36] How Investors Are Reacting To Southern Copper (SCCO) Record Profits Amid Lower Output And Market Deficit. https://news.google.com/rss/articles/CBMi6gFBVV95cUxOLXVydEE3NTBZNy1pbEZqRmJLbDZTUjh3MnNLTGF2dEt2QmJMQUdQU0dYNGtpM3BuM3E0WEFwdlY2VFJFUkJZQnlqQ2czVW9fNlR3bmJsSTJOQXd2bjcxbm41d1VHeEJqTjRFYXNwNFZJZFRleU9mWHdZajhtRlJlVnY2NzhVaFdfZU5qbWxSY29wUk9ZWjdNeVjacno4YndSTi1xMldqY2dDdlFuTDdRX3hvdEFlblVMajNxMGlwVERfMjMxV0hzS3dMdkpTYUJRd0dkZlRzME9KSWFZOXduMVJkNnBRVWJEZ2c?oc=5
-3. [34] Entegris, Inc. (NASDAQ:ENTG) Receives Consensus Rating of "Hold" from Brokerages. https://www.marketbeat.com/instant-alerts/entegris-inc-nasdaqentg-receives-consensus-rating-hold-from-brokerages-2026-01-29/
-4. [37] 30 More Picks for ’26 From the Barron’s Roundtable. https://finance.yahoo.com/m/782a083d-8829-30af-b509-44b86b0236e2/30-more-picks-for-%E2%80%9926-from.html?.tsrc=rss
-5. [31] Assessing Coherent (COHR) Valuation After New Photonics Launches And Strong Shareholder Returns. https://news.google.com/rss/articles/CBMikwFBVV95cUxQVFBWTWJzOG5TX0tmaEt6SmpjWlB1ZmJ4R2R3NVlrWGktMGx5OU5vQlZvV2VDRWh1R19WUEtQRW9yT1NmZnNfZ3ZIV0dkekFlLWZiZFAyVFBmMHNjdWFEOGtrVzFVWXdOTG1LN2hUakNCdEFhSUNFc2ZDckw5NWJzT1QzZTZKRkJBN3lfbnUtaVdwXzg?oc=5
-6. [29] 2026’s Biggest AI Trends: The Rise of AI Factories. https://news.google.com/rss/articles/CBMivwFBVV95cUxNMjB3Q0pxMVVaNFdZblVnbUEtdHNuOU5ndE10WUdHaTdnRnpMMzRkVUIweEpVbEdjcDk0dnFqU28yUzV6Wl9TZE0wNkdXRFp0Wk1Sc0UxeDV5bmJBT3RsYy1DSmNMdlNiNnRvbnE5OHRhTm96eFdwd3hoZE5KMDN2dkRZakNETHNtQUdSNi1RVTItV3VyM0wxTnA4YlotVjNOc2pEeG16YWtvWC1QWmtXTnBiNUpJYTFSS2k4M2tjZw?oc=5
-7. [26] Elbit Systems (TASE:ESLT) Is Up 8.1% After Record US $25.2b Backlog. https://finance.yahoo.com/news/elbit-systems-tase-eslt-8-131245777.html?.tsrc=rss
-8. [17] These Defense Stocks Break Out As Venezuela Amplifies Questions On Iran. https://finance.yahoo.com/m/36ffefd1-d0b2-3c95-ab0e-9f2c7d28f260/these-defense-stocks-break.html?.tsrc=rss
-9. [4] PPI Surged by 0.8%, Far Exceeding expected 0.3% Rise. https://finance.yahoo.com/news/pacbio-myriad-genetics-lemaitre-hims-002132277.html?.tsrc=rss
-10. [16] GSPC Today, March 01: Venezuela Raid Puts Risk Premium Back On. https://news.google.com/rss/articles/CBMikwFBVV95cUxNYWJNM0pYTjFjcExpOEpkTWFfVk1MS2RsN21IbW1EWXJLTjczalV4RzdDTlhWWE1XV2U0azE4dTZYZFc1anFvT1VnNjZUZ2tIMHBOQjVGVVIxYWpWeEFGcGJ2TEJNR08zTGMtaEIzMVd1REctU2QyZGY5bk1aR3pPQmFEQlpub0MxbE1sdFBacmtSNmc?oc=5
-11. [19] Stocks Fall Sharply at the Open. https://finance.yahoo.com/m/f8f94308-912e-3192-a685-3a84473506b5/stocks-fall-sharply-at-the.html?.tsrc=rss
-12. [23] Why The Trade Desk (TTD) Shares Are Falling Today. https://finance.yahoo.com/news/why-trade-desk-ttd-shares-215433542.html?.tsrc=rss
-13. [24] Why Is The Trade Desk (TTD) Stock Down 16% Premarket? https://news.google.com/rss/articles/CBMioAFBVV95cUxNRmJ0MnVXRDlKWjNrTHFGdXlhNWl0OHBZTUFsM1JpTjJRTmJSN1FvQXN2ODl3RWdMQVZOcUtCcHpidVlmRjUwamZxMlpCcTRmWFpoVEdKLWpwS3pJWjExWXp4TG9xbVFvN19DLXJIT1VaejZLS05yT1hiSjJxUlRRWHlFa0tBZ24wbkgwTjM4MUV2LUpKX3BCYktpRFVXVkp1?oc=5
-14. [9] MARA stock jumps despite Q4 miss on expansion plans into AI. https://news.google.com/rss/articles/CBMizwFBVV95cUxNajBxVnVDaGZXRWdfRjh0VkNueHM5Z3JEamE2THUxUXpVS09KM3FMVmplQkJvdDVXYjhPQlVjeGhOSlNqLW5wdS1PSEJKM05rdUNkdVY4aGlwdkdHREdYOEp0OV84TjBuOFZFaHhORzY0dkJzS0Z2ZDVyZ2Nuamx6czBqSVVnY2s3MTExTklrZVVTeEMyUEljQW54TkE1RHprM3IyX3FQb2xQbnF3a3UxYVZaSXNrdmYzSVY5RVlfN3BxUlk2MG84UGVRZ2p4ZzA?oc=5
-15. [41] Market Outlook: Nvidia reaction signals shift in AI trade. https://news.google.com/rss/articles/CBMivgFBVV95cUxQVW9wZzU2Z2paaE5PU0Ywd2pQR1dvUzVacjhUMUthRFJnd1J1UldvTXRCYTF2RHR5SjRHVExJSjVOdkR0ak5DZ0FRLU5JckJmdXA2TzRqdUpmdTJ2YktHNmpucUtqTkpib2YyOEFEeENudFNtd0lkUXQtM0FLQVVsOU9kRXlaNHpsYnowN09Sam1WbG5vWGZBd192eEtpY2RNSHNMVFh1WE16dlV1S3gteFk1NGZyUXpWZTVjWFdn?oc=5
-16. [1] Oil Futures Slip Amid Jitters Over U.S.-Iran Talks. https://finance.yahoo.com/m/988c3ba0-e030-34d7-be2a-c8275d90cb9f/oil-futures-slip-amid-jitters.html?.tsrc=rss
-17. [11] AI rewrites the economics of Amazon's cloud-consulting business. https://news.google.com/rss/articles/CBMirAFBVV95cUxNR3lKS2VLQzlfUVJVMThMZ3pOVl9lRXVXSVI3d3NTMHdQeVJOa2hManJ5a1VFNzI5cGQ2ZG0tMk9Mcmx1OFVzenZYNjc2YmJqRlB4SWNzX0VWaDh4NHV0ZDdycjc3UDFGTjZGUU1lMkhJczdqV0x4Q013VHA5aEtreWtueFFINE15MFZTRVFEYkFkcGJZWm1GdnJrRnJ4UGRTMXFuTGhmOGtnZ0pI?oc=5
-18. [38] SCCO Guides Lower Output For 2026. https://news.google.com/rss/articles/CBMiogFBVV95cUxQanZyLTdVY1g2QUxkN1ZBNjFZek1WSFgxbEVMUEVENXhuWVhpWUxuQVdQeURiSkptUGdtS2p1WEJVYWUydVdSc2MxSVlnS0FvNjdEQ29uWkJ0dHJiSEdnRHJYN2dpN3ZXSlpyT0JHVk9YNmMxdnBOWW1uTlB5bFZ4N0xyLURDZVpEZEtOeTVIR1FxdFJTQkhwT3piMXRXYm9XbFE?oc=5
-19. [22] Oil Price Forecast - Oil Around $65, Brent $71. https://news.google.com/rss/articles/CBMingFBVV95cUxPSVZ5cFVNUVVaWEhJZmRJRDhYSmR4Q0JtWVZkMkd0U1dEdEpGN05pYURZY2tKVFVLelpTYV9OWVQzYndBaTlpQS13SmN5MzBuOGhCOWdFQ2JHeFFJYnp0LTFWQkcycVJ4c1VjM2QyR1J2QVNaTjNvTzNQcUZkQlhoVU1wWDNjT25DTVA5NVQzNFFpd2hxVUdvdEEta2ZIZw?oc=5
-20. [20] Stocks Waver at the Open Following Another AI-Fueled Selloff. https://finance.yahoo.com/m/3a519377-e349-3e5f-a9bd-b2b16f2a846f/stocks-waver-at-the-open.html?.tsrc=rss
-21. [42] Oil Price Forecast 2026: Brent $72, WTI $67. https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjVidHRacXFjTWxGaHVHMElzMWlYUURySk9TZXRGRUlKWmd6UXBnZ2E5MG5DVWRFakxxaXY3bDNON3duRWdta2tnUEZYNXV3a3c0OXVBLWNJVmctMmlIbUVBNGFUaHdDdDRiMXBHck9RSHF2X20tUVpPYm12dHh5cmVtX25ES2hocXdtSTdjU04xTzVZbVZ3bFRodGZZVVMzVDRieGNOZmo2bS1E?oc=5
-22. [13] Nvidia Earnings Loom as Tariff Concerns Drive Dow 800 Points Lower. https://www.fool.com/coverage/stock-market-today/2026/02/23/stock-market-today-feb-23-nvidia-earnings-loom-as-tariff-concerns-drive-dow-800-points-lower/?.tsrc=rss
-23. [14] Novo Nordisk Plunges 16% After Obesity Drug Falls Short. https://www.fool.com/coverage/stock-market-today/2026/02/23/stock-market-today-feb-23-novo-nordisk-plunges-16-after-obesity-drug-falls-short/?.tsrc=rss
-24. [27] Anthropic’s Claude Code Security launch rattles cybersecurity stocks. https://www.proactiveinvestors.com/companies/news/1087792/anthropic-s-claude-code-security-launch-rattles-cybersecurity-stocks-wedbush-sees-selloff-as-overreaction-1087792.html?.tsrc=rss
-25. [12] Meet the Most Profitable Company in America (It’s Not Apple or Microsoft). https://247wallst.com/investing/2026/02/21/meet-the-most-profitable-company-in-america-its-not-apple-or-microsoft/
-26. [7] Pre-Markets Dip on GDP & PCE Figures. https://finance.yahoo.com/news/pre-markets-dip-gdp-pce-152400732.html?.tsrc=rss
-27. [15] S&P 500 Gains 0.7% As Supreme Court Strikes Down Tariffs. https://www.fool.com/coverage/stock-market-today/2026/02/20/stock-market-today-feb-20-s-and-p-500-gains-0-7-as-supreme-court-strikes-down-tariffs/?.tsrc=rss
-28. [2] Stock Market Today: Dow Drops Amid U.S.-Iran Tensions. https://finance.yahoo.com/m/9e3bb4c8-8cbc-36ae-813a-4288622e532b/stock-market-today%3A-dow-drops.html?.tsrc=rss
-29. [8] The Death of the 'Seat': How AI Agents Triggered the 2026 SaaSpocalypse for Salesforce and Adobe. https://markets.financialcontent.com/stocks/article/marketminute-2026-2-18-the-death-of-the-seat-how-ai-agents-triggered-the-2026-saaspocalypse-for-salesforce-and-adobe
-30. [3] Tech Stocks Rebound, Crude Rallies Above $64 On Iran Tensions. https://www.benzinga.com/markets/equities/26/02/50696965/tech-stocks-market-news-wednesday-wall-street-movers-earnings-gold-oil-iran-war-risks
-31. [21] Tech-led stock rout briefly sends VIX to new YTD high. https://news.google.com/rss/articles/CBMilgFBVV95cUxOV2g3UzFINmtnZ3ZGQ2lyb2tXMVdMRFNBZWdWaWc1bG9waGt5OVBCSTFXMFJpWmdUVnc0WUVUaHQ2eFRmOC1mZGwyenIxZTdFTG5nTkRVcG1Eb3NKYUxsTXc5UzMzaFgtbnpBMHhzVFF4dzVXbHItQjM2NEVFWmpENjZtMHBUTDUxc3l2NS1sbmVoS1lDS1E?oc=5
-32. [43] Nasdaq Snaps Five-Week Slide as Market Rotates Toward Defensive Stability. https://news.google.com/rss/articles/CBMi_gFBVV95cUxOeUdCcjM4R1dGMGswRGtPN2htclh5elJRY3VxdFo5cFFDYjFNd2ZIQkh5cGY1ZGVNN2FsNVJrXzN2UGZvdWlwUnpReEhQdTdMaVN6bjJER1dRa29fRmVtcW1YRGwxdC1qOENxNUxmVE40bTNXSHMtUWszckZRbE8zV3c3WDBlQTdpM004NFZYeVZNOGJSTGNGaTIyMWlCNTdUYkNHeW9WRW8yMmN2VWRmOHEwYUFNeUpxYzRhLTlUR0RzOFc4ZWVvNUVxT2xHZERKaUQ5NE1mX0NTeWltMkN3VzdHM0lETWpWUjY1REhoQTlLb0NaUGRGV3VYd0lPQQ?oc=5
-33. [44] Why Volatility ETFs Deserve Attention as a Short-Term Play. https://finance.yahoo.com/news/why-volatility-etfs-deserve-attention-160600926.html?.tsrc=rss
-34. [28] 1 Small-Cap Growth Stock Down 65% to Buy on the Dip, According to Wall Street. https://www.fool.com/investing/2026/02/12/1-small-growth-stock-down-65-buy-dip-wall-street/?.tsrc=rss
+1. [12] **The events of 2025 have signaled a broader shift in the global economic order.** https://www.bea.gov/news/glance
+2. [3] **Federal Reserve Chair Powell signaled at the December FOMC meeting that while the easing cycle has been successful, the central bank may pause.** https://www.goldmansachs.com/insights/outlooks/2026-outlooks
+3. [9] **Strategic pivots will be required for companies that have yet to fully integrate AI.** https://www.jpmorgan.com/insights/markets-and-economy/outlook/predictions-and-forecasts
+4. [28] **Super Micro’s Most Mispriced Phase (NASDAQ:SMCI).** https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTVFb3p1Y3RHR09RM3ZYLUJ0azRkWDJsa2k0MlRUU2g5X0FpdklmODFJeFlSVzctcDljYld3bLZvSlJ6MGNDc0w2c0FCSnlrYVlZdWpYNUR6SS1HVnRzZjBheE5MYjh6QUNWM3JjQl9pOURLTmhxQUZwN21oVmZadk1sdGlSTlE1bno1dmpkcDA2QXNqNnBhaFk2SlVIa0dyVlZYNg?oc=5
+5. [13] **2026’s Biggest AI Trends: The Rise of AI Factories.** https://news.google.com/rss/articles/CBMif0FVX3lxTFAtc1UtUU5ZOTNXU3FacDlaOFJ4cWlrQ2taNkY3V1Z3OVRwSlNxUzlHdUtpU0tFbW1PUEFPX1FMSXRia1cydWZpb0s4amJUWVNVMW1fWFp1aTY4ME1jNUxackIyR0VtazY0OHVoNzJQZlhkSnhuWHB2Um9RaDlaaEU?oc=5
+6. [34] **UCLA Anderson Forecast for the United States signals a meaningful shift in economic momentum.** https://www.anderson.ucla.edu/news-and-events/us-economy-poised-reaccelerate-2026-fiscal-stimulus-and-ai-investment-intensify
+7. [10] **Capital expenditures on AI infrastructure are projected to reach roughly $660 billion in 2026.** https://www.anderson.ucla.edu/news-and-events/us-economy-poised-reaccelerate-2026-fiscal-stimulus-and-ai-investment-intensify
+8. [25] **AppLovin: A Superstar Today, But I Envision Future Turmoil For Business (Downgrade).** https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdFdEY1p3bzN0MTIzRExBLWt0STRvb21GZERZNkI4YzNTUlM1MGhoalV1MFBGYy1aM0lWeElOOVU3SkVPc2lUdXZmb0QzS2xDU28tY1VqVWhZXzJHU3FKWE5GX3h5Vjdnemc1VG1zWHRBcWZWdGgzU21IS3dKMUFxV2FvZEppVUxoLVFqcXZaaUVKckdHTjZkdndEX21hSXZab19nSjdiR3MwbFRVSWJEYXZyY0otS2prVnExUi1QMW1UQQ?oc=5
+9. [7] **Confusion swept across markets after Energy Secretary Chris Wright claiming the Navy had escorted an oil tanker through the Strait of Hormuz.** https://finance.yahoo.com/news/us-stocks-advance-g-7-161648062.html?.tsrc=rss
+10. [19] **Market-Implied Odds of 2026 U.S. Recession Rise to 40%.** https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2JNTDVjRFRhRlZhRWluSENkOHlTeDZORkc1QndmMkRFMlVabjdmT0J1bE9FRWs5c1VUMmZEMWZ4MUs1UHM4bUZEU3JfS0xFM3JaUGFYMmpfb3AyMzZacXhlOVNxeXVRR204eElYa05la2NQenI0MVFsOHE4M1BRWTFENG8tbk50UEVGMWtPbmhEbWF3WG5sNEx6Si04blk3WnNERTBGUDUyTF9JOUhiU01FNm9BSUliREJZTHlNTXRTdUpTdklrZU9GMXE?oc=5
+11. [4] **The Dow Jones Industrial Average (NYSE: DIA) had a rough week, falling 2.95% as tariff anxiety, macro uncertainty, and a VIX spike to 23.75.** https://247wallst.com/investing/2026/03/07/dow-jones-movers-ibm-leads-sherwin-williams-drags-as-analysts-clash-on-salesforce/?.tsrc=rss
+12. [24] **The S&P 500 (SPY) fell nearly 2% on the week... The VIX fear gauge climbed to 29.49.** https://247wallst.com/investing/2026/03/07/sp-500-movers-trade-desk-surges-on-ceo-buy-palantir-rides-geopolitical-wave-crowdstrike-earnings-impress/?.tsrc=rss
+13. [15] **US benchmark equity indexes tumbled intraday as data showed a surprise drop in nonfarm payrolls.** https://finance.yahoo.com/news/equities-slump-intraday-following-payrolls-190652099.html?.tsrc=rss
+14. [1] **The US-Israeli war with Iran rippled through markets this week, sending oil prices to their biggest weekly gain.** https://www.cnn.com/2026/03/06/investing/us-stocks-oil-iran?.tsrc=rss
+15. [5] **The catalyst: the death of Iranian Supreme Leader Ayatollah Ali Khamenei on February 28, 2026.** https://247wallst.com/investing/2026/03/05/the-100-oil-thesis-is-back-and-these-3-etfs-make-it-easy-to-profit/?.tsrc=rss
+16. [35] **U.S. stocks sank as Wall Street kept punishing companies that could become losers in the AI revolution. A surprisingly discouraging update on inflation also hurt.** https://finance.yahoo.com/news/major-us-stock-indexes-fared-215438125.html?.tsrc=rss
+17. [17] **HALO investing spotlights hard-asset plays like Union Pacific and Exxon Mobil as must-own 2026 stocks.** https://finance.yahoo.com/news/zacks-market-edge-highlights-union-143700950.html?.tsrc=rss
+18. [16] **Weekly jobless claims rise to 212,000 from an upwardly revised 208,000.** https://finance.yahoo.com/m/aa44ec8f-b267-3980-8379-1a29f0e1eab4/treasury-yields-decline-as.html?.tsrc=rss
+19. [33] **Constellation Energy holds off on issuing a 2026 outlook, saying it will provide one late next month.** https://finance.yahoo.com/m/af8fe0f3-655e-3f17-89e0-c8896ab8b685/constellation-energy-stock.html?.tsrc=rss
+20. [14] **Amphenol, Western Digital and Vertiv ride a $650B AI capex boom.** https://finance.yahoo.com/news/zacks-analyst-blog-highlights-amphenol-153000933.html?.tsrc=rss
+21. [31] **The energy company tumbled over the past month as regulators discussed emergency auctions and capacity-market price collars.** https://www.fool.com/investing/2026/02/16/should-you-buy-constellation-while-its-below-290/?.tsrc=rss
+22. [8] **Following the recent U.S. military operations in Venezuela... President Trump is weighing military action over Greenland.** https://www.cnbc.com/arctic-geopolitics-2026
+23. [36] **Tech Rout Extends as S&P 500 Slides 1.2%.** https://meyka.com/blog/gspc-today-february-07-tech-rout-extends-as-sp-500-slides-12-0702/
+24. [26] **Global defense spending is accelerating and driving defense stocks dramatically higher.** https://www.fool.com/investing/2026/02/06/this-group-of-stocks-is-soaring-in-2026-trump-may/?.tsrc=rss
+25. [22] **Tech Rout Pushes S&P 500 Negative YTD.** https://meyka.com/blog/gspc-today-february-6-tech-rout-pushes-sp-500-negative-ytd-0602/
+26. [11] **Magnificent Seven Sink -- Nearly $3 Trillion in Market Value Vanishes.** https://finance.yahoo.com/news/magnificent-seven-sink-nearly-3-114037275.html?.tsrc=rss
+27. [37] **Super Micro Computer Surges on Blowout Earnings Fueled by AI Server Demand.** https://www.fool.com/coverage/stock-market-today/2026/02/04/stock-market-today-feb-4-super-micro-computer-surges-on-blowout-earnings-fueled-by-ai-server-demand/?.tsrc=rss
+28. [18] **HALO Stocks are the Must-Own Stocks of 2026.** https://finance.yahoo.com/news/halo-stocks-must-own-stocks-200600761.html?.tsrc=rss
+29. [38] **Alphabet, Apple, and Microsoft Got Kicked Out of the $4 Trillion Club.** https://www.fool.com/investing/2026/02/24/alphabet-apple-microsoft-4-trillion-club/?.tsrc=rss
+30. [29] **SMCI Declines 6% in a Month: Time to Hold or Fold the Stock?** https://finance.yahoo.com/news/smci-declines-6-month-time-155100076.html?.tsrc=rss
+31. [30] **Energy is leading the market this year as investors seek safety.** https://www.marketbeat.com/originals/how-long-will-energys-dominant-run-continue/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss
+32. [27] **The Drone Supercycle Wall Street Still Hasn’t Priced In.** https://finance.yahoo.com/news/drone-supercycle-wall-street-still-154500537.html?.tsrc=rss
+33. [32] **Sandisk stock price stalls amid secondary public share offering.** https://www.fastcompany.com/91494527/sandisk-stock-price-secondary-public-share-offering-rally-over?.tsrc=rss
+34. [39] **Review & Preview: Apocalypse Returns.** https://finance.yahoo.com/m/429984e9-6cea-358c-8b37-f25056270728/review-%26-preview%3A-apocalypse.html?.tsrc=rss
+35. [6] **Quantitative Price Action Summary - Top Winners.** [Excerpts from 2026-03-01 to 2026-03-07 Market Synthesis]
+36. [21] **Quantitative Price Action Summary - Top Losers.** [Excerpts from 2026-03-01 to 2026-03-07 Market Synthesis]
+37. [23] **Prolonged Strait of Hormuz closure would cause oil prices to surge.** https://www.cbsnews.com/news/strait-of-hormuz-iran-oil-prices-us/?ftag=YHF4eb9d17&.tsrc=rss
+38. [20] **Are Investors Prepared for 'More Violent and Frequent Shocks' This Year?** https://www.investopedia.com/are-investors-prepared-for-more-violent-and-frequent-shocks-this-year-iran-war-stocks-11922046?.tsrc=rss
+39. [2] **Historical Context: Geopolitical Shifts: "Operation Epic Fury" and the Hormuz Chokepoint.** [Excerpts from Historical Context: Recent Periodic Reports]

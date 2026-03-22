@@ -1,76 +1,73 @@
 # Market Intelligence Report
-*(Generated via NotebookLM Integration on 2026-03-16)*
+*(Generated via NotebookLM Integration on 2026-03-21)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
 ## Top AI Thematic Insights
 
-The week of March 8 to March 14, 2026, represented a critical juncture in the global financial landscape, as the "Operation Epic Fury" military campaign against Iran triggered a historic energy shock, pushing crude oil prices briefly to the **US$100 per barrel** threshold [1, 2]. Market participants are currently navigating a regime of acute stagflationary pressure, where resilient U.S. labor data collides with a massive geopolitical risk premium that is aggressively reordering institutional portfolios toward "hard assets" [3-5].
+The week of March 8 to March 14, 2026, represented a definitive escalation in the "stagflationary regime" that has characterized the first quarter of the year [1, 2]. Markets this week were dictated by the intersection of a generational energy shock, the continued technical fallout of the "SaaSpocalypse," and a pivot toward the "Inference Era" of artificial intelligence [3-5].
 
-### Macroeconomic Theme: The Stagflationary Energy Shock
-*   **Oil at US$100:** Crude oil futures recorded their most volatile period since 2024 following reports of Iranian strikes on tankers in Iraqi waters and a fire aboard the **USS Ford** [1, 4, 6]. This has effectively locked in a "stagflation" narrative, as surging energy costs threaten to reverse the recent "cool" CPI trends [1, 7].
-*   **Labor Resilience vs. Market Panic:** While weekly jobless claims declined to 213,000—indicating a still-robust domestic economy—equity indexes plummeted on Thursday as the "black gold" surge ignited fears of prolonged global inflation and a hawkish Federal Reserve pause [2, 3, 8].
+### Geopolitical Fragility: "Operation Epic Fury" and the $100 Oil Reality
+The dominant macroeconomic catalyst was the intensifying U.S.-Israeli military conflict with Iran [6, 7].
+- **The Hormuz Chokepoint:** Following reports of Iranian strikes on tankers in Iraqi waters, oil prices briefly touched the psychological threshold of **$100 per barrel** [3]. Prediction models now price an **85.2% probability** that the Strait of Hormuz will be closed, threatening roughly 20% of the global crude trade [8, 9].
+- **Hard Asset Rotation:** Institutional capital aggressively fled growth equities in favor of "Heavy Asset, Low Obsolescence" (HALO) stocks [8]. This rotation out of growth was accelerated by President Trump’s call for Iran’s "unconditional surrender" and the 15% global tariff rollout, which combined to fuel stagflationary fears [10, 11].
 
-### Tech Sector Momentum: The "Inference Inflection" and HBM Scarcity
-*   **Infrastructure Hegemony:** Nvidia CEO Jensen Huang heralded the **"inference inflection"** as the next phase of the AI boom, backed by a staggering **$1 trillion in orders** [9]. This fundamental demand shift has cemented the dominance of hardware providers over software laggards [10].
-*   **Memory Bottlenecks:** The "Memory Crisis" intensified this week, with reports confirming that **Micron (MU)** has already fully sold out its 2026 High-Bandwidth Memory (HBM) capacity [11-13]. This scarcity is creating a definitive performance gap within the semiconductor sector, favoring those controlling the physical bottlenecks of the compute value chain [14, 15].
+### Tech Sector Momentum: The Inference Inflection and Memory Scarcity
+The narrative for the technology sector shifted from speculative AI training toward the physical constraints of deployment [12, 13].
+- **The Inference Era:** Nvidia CEO Jensen Huang heralded the "inference inflection" as the next phase of the AI boom, backed by a reported $1 trillion in orders [4, 14]. However, the market displayed "optimism exhaustion," as even blockbuster guidance from hardware leaders faced "sell the news" reactions [5, 15].
+- **The Memory Crisis:** A structural bottleneck in high-bandwidth memory (HBM) became a central theme. **Micron (MU)** confirmed that its 2026 HBM capacity is already fully sold out, signaling that the "physical backbone" of AI is the primary constraint on growth for tech giants like Apple and Tesla [16-18].
+- **SaaSpocalypse Continuity:** Enterprise software continued its structural valuation reset [19]. The rise of "Agentic AI" continues to threaten the traditional per-seat licensing models of giants like Salesforce and Adobe, as autonomous agents begin replacing human-operated "seats" [5, 20].
 
-### Geopolitical Risks: "Operation Epic Fury" and Hormuz Chokepoints
-*   **Hormuz Closure Probability:** Geopolitical models have spiked the probability of a **Strait of Hormuz closure to 85.2%** following President Trump's call for Iran’s "unconditional surrender" [5, 16, 17]. This threat to 20% of the global crude trade has forced a massive capital rotation into "Heavy Asset, Low Obsolescence" (HALO) stocks [18, 19].
-*   **Technological Sovereignty:** The ongoing "AI Cold War" has accelerated a domestic investment boom, with the U.S. government awarding a historic **$26.5 billion energy loan** to support nuclear infrastructure essential for AI power needs [17, 20, 21].
+### Macro Themes: Decelerating Growth vs. Persistent Inflation
+The final release of preliminary Q4 2025 GDP data confirmed a decelerating economy (1.4%) just as the labor market showed signs of surprising fragility [1, 2].
+- **Payrolls Shock:** The surprise drop of 92,000 in non-farm payrolls for February, reported at the end of the week, added to market anxiety that the economy is entering a "death zone" of stagnant growth paired with high inflation [7, 21, 22].
+- **Monetary Policy Stasis:** The combination of $100 oil and a core PCE hit of 3.0% has forced the Federal Reserve into a strategic "wait and see" phase, effectively dismantling hopes for immediate interest rate cuts [23, 24].
 
 **Expert Forward Projection**
-Entering the final weeks of Q1 2026, we anticipate **prolonged stagflationary pressure** as 15% global tariffs begin to overlap with wartime energy shocks [22, 23]. The Federal Reserve is likely to maintain a strict **"wait and see" posture**, potentially delaying any further rate cuts until the inflationary impact of the Middle East conflict is fully absorbed [7, 24]. We project a definitive transition into a **pure stock-picker's environment**; performance will shift away from mega-cap tech relying on macro tailwinds toward mid-cap industrial and energy "backbone" winners that demonstrate tangible AI monetization and sovereign infrastructure moats [25-27].
+Entering the final weeks of Q1 2026, we anticipate **acute volatility** as the market navigates the transition into a pure "stock-picker's environment" [25]. The "easy money" of 2025 has evaporated, replaced by a regime where corporate fundamentals and tangible AI monetization are the only viable paths to premium valuations [25, 26]. We project that **defensive rotation** into energy, nuclear utilities (Cameco, Vistra), and domestic manufacturing will intensify as the 15% global tariffs and Middle East instability continue to feed inflationary expectations [26-28].
+
+---
 
 ## Quantitative Market Action & Specific Equities
 
-The following tables analyze the top quantitative movers for the week of 2026-03-08 to 2026-03-14 based on the provided Price Action Summary and supporting qualitative news.
+The quantitative leaders this week were dominated by memory hardware providers and volatility protection assets, while the losers reflected a violent correction in previously overextended AI server and power-utility plays.
 
 ### Top Weekly Winners
 | Ticker | Performance | Detailed News Catalyst Explaining the Move |
 | :--- | :--- | :--- |
-| **MU** | +9.45% | **HBM Scarcity:** Micron continues to set record highs as its 2026 High-Bandwidth Memory capacity is confirmed sold out, positioning it as a primary beneficiary of the AI "inference inflection" [9, 11, 12]. |
-| **CORZ** | +8.77% | **HPC Pivot:** Core Scientific gained institutional favor as Bitcoin miners successfully transition into high-performance computing (HPC) data center operators for AI workloads [12, 28, 29]. |
-| **VIXY** | +8.69% | **Fear Surge:** The volatility ETF spiked as reports of Iranian tanker attacks and the **USS Ford** fire pushed the market's "Fear Gauge" to its highest level since October [1, 4, 30]. |
-| **ETH-USD** | +8.29% | **Oversold Bounce:** Despite the broader "crypto winter" concerns, Ethereum staged a quarterly target reversal as analysts flagged it as heavily undervalued at the $2K level [12, 31, 32]. |
-| **BTC-USD** | +7.95% | **Hard Asset Flight:** Bitcoin rebounded toward $71k as investors sought digital "hard assets" amidst escalating Middle East war tensions and dollar volatility [9, 12, 33]. |
+| **MU** | **+9.45%** | **HBM Scarcity Dominance:** Shares reached record highs after management confirmed 2026 High-Bandwidth Memory (HBM) capacity is fully sold out under multi-year agreements [16, 29, 30]. |
+| **VIXY** | **+8.69%** | **Wartime Volatility:** The volatility-linked ETF surged as the "Fear Gauge" spiked in response to tanker attacks and the escalation of "Operation Epic Fury" in the Middle East [3, 29]. |
+| **BTC-USD**| **+7.95%** | **Institutional Pivot:** Rebounded above $71,000 as investors reassessed the duration of regional conflict and institutions stepped into "Digital Gold" as a hedge against fiat instability [30-32]. |
+| **ENPH** | **+7.86%** | **Operational Excellence:** Rebounded as analysts (Goldman/Jefferies) highlighted its fundamental "buy the dip" opportunity following a strong guidance update and oncology-adjacent AI diversification [30, 33, 34]. |
+| **NET** | **+5.44%** | **SaaS Recovery:** Cloudflare staged a technical turnaround after being oversold during the February "SaaSpocalypse," as record results and stronger edge AI guidance reframed its infrastructure role [29, 35]. |
 
 ### Top Weekly Losers
 | Ticker | Performance | Detailed News Catalyst Explaining the Move |
 | :--- | :--- | :--- |
-| **STNG** | -12.97% | **Broader Market Tumble:** Scorpio Tankers fell sharply as the broader market plummeted on news of oil hitting $100, which raised fears of a global stagflationary shock [1, 2, 34]. |
-| **ADBE** | -11.73% | **SaaSpocalypse Victim:** Adobe remains under intense pressure as the "death of the seat" narrative gains traction, with AI agents threatening its traditional per-seat licensing model [34-36]. |
-| **AXON** | -11.25% | **Profit Taking:** Shares experienced a significant pullback as investors locked in gains following a period of extreme outperformance driven by Middle East escalations [34, 37, 38]. |
-| **TMO** | -8.85% | **Guidance Fatigue:** Thermo Fisher slipped as the market reacted to a conservative 2026 outlook and recent reductions in institutional holdings [34, 39, 40]. |
-| **IONQ** | -8.06% | **Short-Seller Clouds:** Despite new collaborations with defense agencies, shares were weighed down by a lingering short-seller report and subsequent legal probes [34, 41, 42]. |
+| **SMCI** | **-33.32%** | **Execution Risk Crash:** Suffered a catastrophic technical decline after being placed in a "no-fly zone" by analysts due to extreme margin pressure and concerns over its cash flow sustainability [36-38]. |
+| **VST** | **-12.76%** | **Valuation Exhaustion:** Despite record 2025 results, the power utility fell sharply as price targets were trimmed, signaling that the "nuclear premium" has reached a near-term ceiling [38, 39]. |
+| **CEG** | **-10.90%** | **Profit Taking:** Constellation Energy faced technical exhaustion as investors locked in gains, re-evaluating the stock after nuclear energy regulators discussed new capacity-market price collars [38, 40, 41]. |
+| **KTOS** | **-8.79%** | **Defense Distribution:** Experienced a sharp reversal from early-year highs as capital rotated from speculative defense tech into higher-yield blue-chip yields to weather regional volatility [38, 41]. |
+| **ASML** | **-3.60%** | **CapEx Skepticism:** The semiconductor equipment giant continued its technical reset as investors grew impatient with long-term AI spending timelines, despite record quarterly bookings [38, 42, 43]. |
+
+---
 
 ## References
-1. [11] Micron Stock Forecast: Can the Rally Continue in 2026? https://www.barchart.com/story/news/590862/micron-stock-forecast-can-the-rally-continue-in-2026
-2. [12] 2026-03-08 to 2026-03-14 Market Synthesis - Quantitative Price Action Summary: Top Winners.
-3. [9] Nvidia CEO heralds ‘inference inflection’ as next phase of AI boom, backed by $1 trillion in orders. https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2ppWnlqNWZ3QUVlUXBnOG1OUlBYbTRoX0pzQXRRdEd1d052R1ZSUjlwVmdNd0twVGpyX2lORk5rWjdiRGtuSTB1ZXdTTF9OTkdxTE5qZ1JKSGVGM3VlRjlEWXhreDJ6czBVNmJub1VESHJFX01wWUhDc3lZOVgzcF90VmxKUWlIckVscl81RXZUU1dMRllVUDZSbW96MVBiLXVwdjZUZkhQaS1sQ2w0dlVQTU9DdUJvUlBTR2NHc2RPTzFBWVJCX0l0NA?oc=5
-4. [28] Clearline Capital Increases Core Scientific Stake as Bitcoin Mining Becomes a Data Center Business. https://www.fool.com/coverage/filings/2026/03/04/clearline-capital-increases-core-scientific-stake-as-bitcoin-mining-becomes-a-data-center-business/
-5. [29] Core Scientific Inc (CORZ) Q4 2025 Earnings Call Highlights. https://finance.yahoo.com/news/core-scientific-inc-corz-q4-050130169.html
-6. [30] 2026-03-01 to 2026-03-07 Market Synthesis - Quantitative Price Action Summary: Top Winners.
-7. [1] Iran Tanker Attacks Sent the VIX Surging Today. https://247wallst.com/investing/2026/03/12/iran-tanker-attacks-sent-the-vix-surging-today-here-is-what-could-push-it-to-50-from-here/
-8. [4] IXIC: Nasdaq Sheds 1.8% as Tech Shares Tumble. Oil Logs Best Day Since Covid. https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTnVyNndWT2kxNWRIOGNqV3pySktUOEdTUFRpRFNBeDNuRUdhdGotVFlxZkxwUnlraGRvUTJDd0ZINm9CMWtJTGJETG1hTTFPSEp3NFQ4eV9HWklpRWFwb09pam5JR0RTLTJzYmpXSzdKX21EemFzSEo5OTYtNGthUnJ1MTJ3aDE3djY4RTBvS2lSc3dSTG9tamV1b2J3WERrQ0wxRVRQZDhNZl9UdFlwOHdzYkpiaFN6Ry1JSHBPMzFWdmxmdGlqcDZNZ2d1TDRC?oc=5
-9. [31] Ethereum Price Prediction: This Metric Says ETH is Heavily Undervalued at $2K. https://news.google.com/rss/articles/CBMixAFBVV95cUxQUGxtV1F3X20zSkZEalZWaVVESDdQcHc3R0xVb2JIcVZyR3ZYYVZKVl9oUWF6UUxfUzRSTTJNTFFleDJtNDdCUTdSY3VWOXhqamwwMkRlX1ROa3J4d1oxOHl3eTVCcTFWRWNSNGZURG1SMTY1Q1BiU3pSaEVPak9QV3A2VG5NWHNiQUNNNXpZMTQwVEJ0UnJmakJ0eng1S3FYMzdrdDZyb0NUSjR6Q0llOW1HQXA5cnZvRDFWZnllVjFtcE1y?oc=5
-10. [32] WisdomTree Bitcoin (GB00BJYDH287.SG STU) 17 Feb 2026: Oversold bounce signal. https://meyka.com/blog/2016-market-hours-wisdomtree-bitcoin-gb00bjydh287sg-stu-17-feb-2026-oversold-bounce-signal-1702/
-11. [33] Bitcoin (BTC) price drops toward $70,000 as Iran war sends oil price higher. https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLWRyZHhoZk1lWFB1aDNGU1otb18zQ2hMY0steXVBVy15TXoxM2EweXlZMElWTjlhQ2UyQkJFckEwbmtkRXVMQXVaV0VKS1lLZExNNXVNMktFR0dKM2J5a0FrclFObEhhTVYwak91OVlyd2ItWTFDa2kwd0pUUk8xemdfc0tybzRSR3hFeGlHVHlZV2dHSl9MeHh3X3VTc0ZWYm1wa2RINHROUkxCd2Z4aHlsb1J5Q1JyNi1yei0wVjZ4b3M?oc=5
-12. [34] 2026-03-08 to 2026-03-14 Market Synthesis - Quantitative Price Action Summary: Top Losers.
-13. [2] Methode Electronics, Scorpio Tankers, ATI, and Quest Resource Shares Are Falling. https://finance.yahoo.com/news/methode-electronics-scorpio-tankers-ati-193651370.html
-14. [35] Adobe Systems Bear Put Spread Could Return 163% in this Down Move. https://www.barchart.com/story/news/251730/adobe-systems-bear-put-spread-could-return-163-in-this-down-move
-15. [36] 02_MONTHLY_REPORT.md: The SaaSpocalypse.
-16. [37] Why Axon Enterprise (AXON) Is Up 9.5% After AI-Fueled Revenue Surge. https://finance.yahoo.com/news/why-axon-enterprise-axon-9-131125480.html
-17. [38] 03-06_DAILY_REPORT.md: Quantitative Market Action - Top Losers.
-18. [39] Thermo Fisher slips after issuing 2026 outlook. https://news.google.com/rss/articles/CBMifEFVX3lxTFBfbnhHUHhuUzdGNzNqOXVjZDUyaDVuRFNhTFFUS0xWeUZ4U0JDSzJqMzF5Y0ZMX1hsSEdjOFhwQXFsUzR4X2EwYW05UEp1cmtBaTNXWDVHeFhFb2pxa2x6Rmh2eWM3T1F5X21XeHZzcHdJeU01ek9nSU42N2I?oc=5
-19. [40] Thermo Fisher Scientific Inc. $TMO Stake Reduced. https://news.google.com/rss/articles/CBMixAFBVV95cUxPWThHTENteTJTREhLUlBUNjB1NThzYWxfNVBRMktBdkRMTGpWN3VRaFNqZTZEeUtNMVBBVkZyUjczcVk4N1dmdlJ0ZVl5SDN6ak9RS2RyRDNFdVlYcDFhV1Y4MjlNM0ZMSHVwOF82dUNDekRlUXVlWmZDSEQ0ZHpCaXV2Vnpla3piMWtfQjdTTjRsajAzYnUwMlFqVFd5R1FNYmhaZUEyWnJsWS03RGJSREFoaVZHaUlkRHlaU1NPQW9qNjlG?oc=5
-20. [41] IonQ Stock Falls 2.5% This Week on Short-Seller Report and Legal Probe. https://247wallst.com/investing/2026/02/15/ionq-stock-falls-2-5-this-week-on-short-seller-report-and-legal-probe-converge/
-21. [42] IonQ (IONQ) Announces Collaboration with Applied Research Laboratory for Intelligence and Security (ARLIS). https://finance.yahoo.com/news/ionq-ionq-announces-collaboration-applied-154632330.html
-22. [3] Treasury Yields Edge Higher Amid Robust U.S. Data, Middle East Tension. https://finance.yahoo.com/m/61b85cb5-aca2-37ab-80a1-df0d34a3afaa/treasury-yields-edge-higher.html
-23. [8] Stock Market News for Mar 13, 2026. https://finance.yahoo.com/news/stock-market-news-mar-13-091300865.html
-24. [16] Gold Heads for Weekly Drop as Mideast War Keeps Oil Prices High. https://finance.yahoo.com/news/gold-set-weekly-drop-mideast-025559491.html
-25. [5] 03-12_DAILY_REPORT.md: Top AI Thematic Insights.
-26. [17] 03-06_DAILY_REPORT.md: Top AI Thematic Insights.
-27. [22] 02-28_WEEKLY_REPORT.md: Expert Forward Projection.
-28. [23] 01-31_WEEKLY_REPORT.md: Expert Forward Projection.
-29. [7] 01-10_WEEKLY_REPORT.md: Expert Forward Projection.
-30. [24] 01_MONTHLY_REPORT.md: Expert Forward Projection.
+
+1. [44] Qualcomm Drops 21% in 2026 — Is BofA Right to Call It a Sell? https://247wallst.com/investing/2026/03/11/qualcomm-drops-21-in-2026-is-bofa-right-to-call-it-a-sell/
+2. [45] Oracle (NYSE:ORCL) Shares Up 9.3% After Strong Earnings. https://news.google.com/rss/articles/CBMipwFBVV95cUxQYnN3dGpEM1pvQXJSUS1pTW5ZeUNvR1dsZnJoWndvcXdJUzc3OGZ2MnV2LWVMeENQQjhQWTVsWGlhX1BoMnJPNXM1YllET2tkYWlQUG1zRWNBT2JCNnhvUGRmQ1k5WmhrdUdIREstTzJGVnFkSFpMM1Q3aXJ5aGVPYzcyZHNXaXBVWi1heUUxVmZocDVsdjB4SDF0Um5GQy15NGJlY3B4MA?oc=5
+3. [6] Dow suffers worst week since April as oil hits $90 and weak jobs data adds to market anxiety. https://www.cnn.com/2026/03/06/investing/us-stocks-oil-iran
+4. [21] Stocks sink as oil prices sizzle and U.S. hiring fizzles. https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/
+5. [40] Should You Buy Constellation Energy Stock While It's Below $290? https://www.fool.com/investing/2026/02/16/should-you-buy-constellation-while-its-below-290/
+6. [39] Vistra (VST) Price Target Trimmed Despite Strong Earnings Performance. https://news.google.com/rss/articles/CBMigwFBVV95cUxPcGRzclhraXR2OFlUVENNUE0wQzJ1UHo1cTVESlZuUHQ5d1BndUVqSVQteC1HVHBocmRLY2pHU29iajhXZFdVSS0yS1JoQmtBMVBnOXhIOFdvd3VNTVZCSDVGeDE0MTdPOWI4aXJQUjFlUE9zbm5QTVplUW5ZVW9OS2lWNA?oc=5
+7. [36] SMCI Declines 6% in a Month: Time to Hold or Fold the Stock? https://finance.yahoo.com/news/smci-declines-6-month-time-155100076.html
+8. [35] Fastly Rallies on Earnings Turnaround and Expanding AI Edge Strategy. https://www.fool.com/coverage/stock-market-today/2026/02/13/stock-market-today-feb-13-fastly-rallies-on-earnings-turnaround-and-expanding-ai-edge-strategy/
+9. [16] Micron’s Early HBM4 Ramp Puts AI Memory Growth In Sharper Focus. https://finance.yahoo.com/news/micron-early-hbm4-ramp-puts-171139043.html
+10. [37] Jim Cramer Says "Super Micro Is in My No-Fly Zone". https://news.google.com/rss/articles/CBMihgFBVV95cUxOeFhBaVhYanVHbUZwaXJDU0tjbHd6TEhTVTRuQ3BKajctTGZwZkxLeUNBOEFZMXM4MTNoZzI3X2dSQTZKVDRlYV85YWgxM2Q3SzdsZTdkWDd2aUdjYlFQQnVYTmgzejJxOUhaTC1ad1Roc1pYUWR1eW4xTXVRVkdZX0JsSWZ6Zw?oc=5
+11. [7] Equities Fall Following Jobs Miss, US Crude Weekly Gain Biggest on Record. https://finance.yahoo.com/news/equities-fall-following-jobs-miss-220850849.html
+12. [22] Non-Farm Payrolls Sink -92K in February. https://finance.yahoo.com/news/non-farm-payrolls-sink-92k-153200897.html
+13. [32] These 3 Stocks Just Bounced From Lows — What Wall Street Thinks Comes Next. https://247wallst.com/investing/2026/03/06/these-3-stocks-just-bounced-from-lows-what-wall-street-thinks-comes-next/
+14. [29] Quantitative Price Action Summary 2026-03-08 to 2026-03-14: Top Winners.
+15. [3] Iran Tanker Attacks Sent the VIX Surging Today. https://247wallst.com/investing/2026/03/12/iran-tanker-attacks-sent-the-vix-surging-today-here-is-what-could-push-it-to-50-from-here/
+16. [4] Nvidia CEO heralds ‘inference inflection’ as next phase of AI boom. https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2ppWnlqNWZ3QUVlUXBnOG1OUlBYbTRoX0pzQXRRdEd1d052R1ZSUjlwVmdNd0twVGpyX2lORk5rWjdiRGtuSTB1ZXdTTF9OTkdxTE5qZ1JKSGVGM3VlRjlEWXhreDJ6czBVNmJub1VESHJFX01wWUhDc3lZOVgzcF90VmxKUWlIckVscl81RXZUU1dMRllVUDZSbW96MVBiLXVwdjZUZkhQaS1sQ2w0dlVQTU9DdUJvUlBTR2NHc2RPTzFBWVJCX0l0NA?oc=5
+17. [14] Nvidia's $1T Guidance Leaves Stock Flat, But These 4 Plays Could Explode. https://www.trefis.com/articles/593911/nvidias-1t-guidance-leaves-stock-flat-but-these-4-plays-could-explode/2026-03-18
+18. [38] Quantitative Price Action Summary 2026-03-21: Top Losers.

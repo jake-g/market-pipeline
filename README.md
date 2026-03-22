@@ -114,6 +114,7 @@ We orchestrate `notebooklm-py` to automatically upload market news and generated
 *   **Report Synthesis (`--mode [daily/weekly/monthly/yearly]`)**: Synthesizes the raw data inside the Market Feed project into highly actionable, table-driven Markdown reports. The engine automatically injects recent historical reports into the prompt context to ensure longitudinal awareness across timeframes.
 *   **Batch Render (`--mode report_upload`)**: Smart-syncs all finalized PDFs from `reports/rendered/` to the "Market Reports" project, actively deduplicating overlapping files to keep the cloud workspace pristine.
 *   **Portfolio Enhancements**: RAG overlay automatically synthesizes a tactical preamble for new active portfolios before rendering the final PDF.
+*   **Automatic Source Pruning**: Automatically prunes the 10 oldest daily reports when the notebook approaches the 100-source capacity limit (threshold: 95) to prevent upload failures.
 *   **Historical Reports**: Batch generate history of intelligence reports.
     ```bash
     ./reports/generate_historical_reports.sh
