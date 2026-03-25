@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	170.46
 allTimeLow	30.03
-ask	169.38
-askSize	200
-averageDailyVolume10Day	1233210
-averageDailyVolume3Month	1003651
-averageVolume	1003651
-averageVolume10days	1233210
+ask	169.46
+askSize	1700
+averageDailyVolume10Day	1202410
+averageDailyVolume3Month	1040194
+averageVolume	1040194
+averageVolume10days	1202410
 beta3Year	0.52
-bid	167.6
-bidSize	200
+bid	169.43
+bidSize	400
 bookValue	56.102
 category	Equity Energy
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	170.43
-dayLow	167.54
+dayHigh	170.22
+dayLow	164.16
 dividendYield	2.48
 epsTrailingTwelveMonths	7.6368113
 esgPopulated	False
@@ -27,16 +27,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	149.9932
-fiftyDayAverageChange	17.77681
-fiftyDayAverageChangePercent	0.11851744
-fiftyTwoWeekChangePercent	29.073704
+fiftyDayAverage	150.7644
+fiftyDayAverageChange	18.665588
+fiftyDayAverageChangePercent	0.123806335
+fiftyTwoWeekChangePercent	30.874407
 fiftyTwoWeekHigh	170.46
-fiftyTwoWeekHighChange	-2.6900024
-fiftyTwoWeekHighChangePercent	-0.015780842
+fiftyTwoWeekHighChange	-1.030014
+fiftyTwoWeekHighChangePercent	-0.0060425554
 fiftyTwoWeekLow	103.07
-fiftyTwoWeekLowChange	64.700005
-fiftyTwoWeekLowChangePercent	0.62772876
+fiftyTwoWeekLowChange	66.35999
+fiftyTwoWeekLowChangePercent	0.64383423
 fiftyTwoWeekRange	103.07 - 170.46
 financialCurrency	USD
 firstTradeDateMilliseconds	1096464600000
@@ -51,34 +51,34 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the energy sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard Energy Index Fund ETF Shares
 market	us_market
-marketCap	7004682752
-marketState	CLOSED
+marketCap	7073990144
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_8815884
 navPrice	167.68
 netAssets	11324698600.0
 netExpenseRatio	0.09
-open	168.56
-postMarketChange	0.02999878
-postMarketChangePercent	0.017880896
-postMarketPrice	167.8
-postMarketTime	1774051154
-previousClose	167.89
+open	164.885
+postMarketChange	0.559906
+postMarketChangePercent	0.3304645
+postMarketPrice	169.9899
+postMarketTime	1774310012
+previousClose	167.77
 priceHint	2
-priceToBook	2.990446
+priceToBook	3.0200348
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.119995
-regularMarketChangePercent	-0.0714725
-regularMarketDayHigh	170.43
-regularMarketDayLow	167.54
-regularMarketDayRange	167.54 - 170.43
-regularMarketOpen	168.56
-regularMarketPreviousClose	167.89
-regularMarketPrice	167.77
-regularMarketTime	1774036800
-regularMarketVolume	1415228
+regularMarketChange	1.65999
+regularMarketChangePercent	0.989443
+regularMarketDayHigh	170.22
+regularMarketDayLow	164.16
+regularMarketDayRange	164.16 - 170.22
+regularMarketOpen	164.885
+regularMarketPreviousClose	167.77
+regularMarketPrice	169.43
+regularMarketTime	1774296000
+regularMarketVolume	1494892
 sharesOutstanding	41751700
 shortName	Vanguard Energy ETF
 sourceInterval	15
@@ -87,16 +87,16 @@ threeYearAverageReturn	0.19397181
 totalAssets	11324698624
 tradeable	False
 trailingAnnualDividendRate	2.469
-trailingAnnualDividendYield	0.014706058
-trailingPE	21.968594
+trailingAnnualDividendYield	0.014716577
+trailingPE	22.18596
 trailingPegRatio	None
 trailingThreeMonthNavReturns	24.47085
 trailingThreeMonthReturns	24.47085
 triggerable	True
-twoHundredDayAverage	130.5037
-twoHundredDayAverageChange	37.26631
-twoHundredDayAverageChangePercent	0.28555754
+twoHundredDayAverage	130.77565
+twoHundredDayAverageChange	38.654343
+twoHundredDayAverageChangePercent	0.29557753
 typeDisp	ETF
-volume	1415228
+volume	1494892
 yield	0.0248
 ytdReturn	25.15089

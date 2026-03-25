@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.010380745 |
+| Value | str | 0.021535158 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-22 |
+| Date | str | 2026-03-25 |
 | Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | History Says You'll Regret Not Buying Amazon St... |
-| Summary | str | Masimo develops advanced noninvasive monitoring... |
-| URL | str | https://news.google.com/rss/articles/CBMilwFBVV... |
+| Sentiment | float64 | 0.5 |
+| Headline | str | Top spring sales happening this month at Amazon... |
+| Summary | str | Amazon.com (NasdaqGS:AMZN) agreed to acquire Fa... |
+| URL | str | https://news.google.com/rss/articles/CBMitAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -79,7 +79,7 @@ This report documents the file structures and column data types used in `market_
 | AIR_PPI | float64 | 175.008 |
 | TRUCK_PPI | float64 | 185.632 |
 | WAREHOUSE_PPI | float64 | 173.049 |
-| MFG_CONST | float64 | 202420.0 |
+| MFG_CONST | float64 | 196166.0 |
 | TECH_PULSE | float64 | 92.2679 |
 | CHINA_IMPORTS | float64 | 21057.9084 |
 | TARIFFS | float64 | 364.324 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.79 |
-| US10Y | float64 | 4.25 |
+| US02Y | float64 | 3.88 |
+| US10Y | float64 | 4.39 |

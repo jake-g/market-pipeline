@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.12286621
-SandP52WeekChange	0.12811458
+52WeekChange	-0.11659217
+SandP52WeekChange	0.13924158
 address1	P.O. Box 8999
 allTimeHigh	375.51
 allTimeLow	10.445
-ask	303.25
-askSize	80
+ask	304.43
+askSize	40
 auditRisk	10
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	7404610
-averageDailyVolume3Month	7677183
-averageVolume	7677183
-averageVolume10days	7404610
+averageDailyVolume10Day	7349010
+averageDailyVolume3Month	7842876
+averageVolume	7842876
+averageVolume10days	7349010
 beta	0.791
-bid	303.0
-bidSize	120
+bid	305.66
+bidSize	40
 boardRisk	1
 bookValue	20.034
 city	San Francisco
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	301.62
+currentPrice	304.44
 currentRatio	1.111
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	302.92
-dayLow	299.0101
+dayHigh	307.85
+dayLow	302.865
 debtToEquity	54.612
-discount_to_intrinsic_value	42.15
+discount_to_intrinsic_value	39.69
 displayName	Visa
 dividendDate	1772409600
 dividendRate	2.68
@@ -46,9 +46,9 @@ earningsTimestampEnd	1777406400
 earningsTimestampStart	1777406400
 ebitda	28987000832
 ebitdaMargins	0.70032
-enterpriseToEbitda	20.019
-enterpriseToRevenue	14.02
-enterpriseValue	580299325440
+enterpriseToEbitda	20.205
+enterpriseToRevenue	14.15
+enterpriseValue	585675046912
 epsCurrentYear	12.85357
 epsForward	14.53698
 epsTrailingTwelveMonths	10.65
@@ -60,28 +60,28 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	321.7024
-fiftyDayAverageChange	-20.082397
-fiftyDayAverageChangePercent	-0.06242539
-fiftyTwoWeekChangePercent	-12.286621
+fiftyDayAverage	320.7466
+fiftyDayAverageChange	-16.30661
+fiftyDayAverageChangePercent	-0.05083954
+fiftyTwoWeekChangePercent	-11.659217
 fiftyTwoWeekHigh	375.51
-fiftyTwoWeekHighChange	-73.890015
-fiftyTwoWeekHighChangePercent	-0.19677243
+fiftyTwoWeekHighChange	-71.07001
+fiftyTwoWeekHighChangePercent	-0.18926261
 fiftyTwoWeekLow	297.03
-fiftyTwoWeekLowChange	4.5899963
-fiftyTwoWeekLowChangePercent	0.015452973
+fiftyTwoWeekLowChange	7.4100037
+fiftyTwoWeekLowChangePercent	0.024946988
 fiftyTwoWeekRange	297.03 - 375.51
 financialCurrency	USD
 firstTradeDateMilliseconds	1205933400000
 fiveYearAvgDividendYield	0.69
 floatShares	1739812040
 forwardEps	14.53698
-forwardPE	20.748465
+forwardPE	20.942451
 freeCashflow	22032250880
 fullExchangeName	NYSE
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	521.4
+graham_intrinsic_value	504.77
 grossMargins	0.97777003
 grossProfits	40470999040
 hasPrePostMarketData	True
@@ -102,8 +102,8 @@ lastSplitFactor	4:1
 longBusinessSummary	Visa Inc. operates as a payment technology company in the United States and internationally. The company operates VisaNet, a transaction processing network that enables authorization, clearing, and settlement of payment transactions. It also offers credit, debit, and prepaid card products; tap to pay, tokenization, and click to pay services; Visa Direct, a platform which facilitates money movement, enabling clients to collect, hold, convert, and send funds across its network; and issuing solutions, such as airport lounge access, dining reservations, shopping experiences, event tickets, and seller offers. In addition, the company provides acceptance solutions, an omnichannel payment integration with e-commerce platforms; risk detection and prevention solutions; and advisory and other services comprising consulting practice, proprietary analytics models, data scientists and economists, marketing services, and managed services. It provides its services under the Visa, Visa Electron, V PAY, Interlink, and PLUS brands. The company serves consumers, sellers, financial institutions, and government entities. Visa Inc. was founded in 1958 and is headquartered in San Francisco, California.
 longName	Visa Inc.
 market	us_market
-marketCap	581535268864
-marketState	CLOSED
+marketCap	586972397568
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_38043467
 mostRecentQuarter	1767139200
@@ -111,22 +111,22 @@ netIncomeToCommon	20592001024
 nextFiscalYearEnd	1672444800
 nonDilutedMarketCap	580082610209
 numberOfAnalystOpinions	35
-open	299.85
+open	305.2
 operatingCashflow	24443000832
 operatingMargins	0.68296
 overallRisk	3
 payoutRatio	0.2291
 pegRatio	1.639
 phone	650 432 3200
-postMarketChange	1.480011
-postMarketChangePercent	0.49068728
-postMarketPrice	303.1
-postMarketTime	1774051193
-previousClose	299.71
-priceEpsCurrentYear	23.465855
+postMarketChange	1.0599976
+postMarketChangePercent	0.34817946
+postMarketPrice	305.5
+postMarketTime	1774310301
+previousClose	301.62
+priceEpsCurrentYear	23.68525
 priceHint	2
-priceToBook	15.055406
-priceToSalesTrailing12Months	14.049799
+priceToBook	15.196166
+priceToSalesTrailing12Months	14.18116
 profitMargins	0.50233
 quickRatio	0.725
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.34211
 region	US
-regularMarketChange	1.91
-regularMarketChangePercent	0.637284
-regularMarketDayHigh	302.92
-regularMarketDayLow	299.0101
-regularMarketDayRange	299.0101 - 302.92
-regularMarketOpen	299.85
-regularMarketPreviousClose	299.71
-regularMarketPrice	301.62
-regularMarketTime	1774036802
-regularMarketVolume	13993610
+regularMarketChange	2.82001
+regularMarketChangePercent	0.934954
+regularMarketDayHigh	307.85
+regularMarketDayLow	302.865
+regularMarketDayRange	302.865 - 307.85
+regularMarketOpen	305.2
+regularMarketPreviousClose	301.62
+regularMarketPrice	304.44
+regularMarketTime	1774296002
+regularMarketVolume	5655008
 returnOnAssets	0.18364
 returnOnEquity	0.53954
 revenueGrowth	0.146
@@ -173,15 +173,15 @@ totalDebt	21176999936
 totalRevenue	41391001600
 tradeable	False
 trailingAnnualDividendRate	2.52
-trailingAnnualDividendYield	0.008408128
+trailingAnnualDividendYield	0.008354884
 trailingEps	10.65
-trailingPE	28.321127
+trailingPE	28.585917
 trailingPegRatio	1.653
 triggerable	True
-twoHundredDayAverage	339.3825
-twoHundredDayAverageChange	-37.762512
-twoHundredDayAverageChangePercent	-0.11126829
+twoHundredDayAverage	339.0647
+twoHundredDayAverageChange	-34.624695
+twoHundredDayAverageChangePercent	-0.10211825
 typeDisp	Equity
-volume	13993610
+volume	5655008
 website	https://www.visa.com
 zip	94128-8999

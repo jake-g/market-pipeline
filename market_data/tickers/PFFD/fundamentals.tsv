@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	26.22
 allTimeLow	16.21
-ask	18.65
-askSize	2900
-averageDailyVolume10Day	604320
-averageDailyVolume3Month	610931
-averageVolume	610931
-averageVolume10days	604320
+ask	18.5
+askSize	16500
+averageDailyVolume10Day	646390
+averageDailyVolume3Month	618961
+averageVolume	618961
+averageVolume10days	646390
 beta3Year	0.87
-bid	18.32
-bidSize	15200
+bid	18.0
+bidSize	2500
 category	Preferred Stock
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	18.575
-dayLow	18.26
+dayHigh	18.545
+dayLow	18.36
 dividendYield	6.25
 esgPopulated	False
 exchange	PCX
@@ -25,16 +25,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	19.2176
-fiftyDayAverageChange	-0.91760063
-fiftyDayAverageChangePercent	-0.047747932
-fiftyTwoWeekChangePercent	-6.009245
+fiftyDayAverage	19.201
+fiftyDayAverageChange	-0.7410011
+fiftyDayAverageChangePercent	-0.0385918
+fiftyTwoWeekChangePercent	-5.333334
 fiftyTwoWeekHigh	19.89
-fiftyTwoWeekHighChange	-1.5900002
-fiftyTwoWeekHighChangePercent	-0.07993968
+fiftyTwoWeekHighChange	-1.4300003
+fiftyTwoWeekHighChangePercent	-0.07189544
 fiftyTwoWeekLow	17.81
-fiftyTwoWeekLowChange	0.48999977
-fiftyTwoWeekLowChangePercent	0.027512621
+fiftyTwoWeekLowChange	0.6499996
+fiftyTwoWeekLowChangePercent	0.03649633
 fiftyTwoWeekRange	17.81 - 19.89
 firstTradeDateMilliseconds	1505395800000
 fiveYearAverageReturn	-0.003753
@@ -48,33 +48,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of its underlying index. It also invests at least 80% of its total assets in preferred securities that are domiciled in, principally traded in or whose revenues are primarily from the U.S. The underlying index is designed to track the broad-based performance of the U.S. preferred securities market.
 longName	Global X U.S. Preferred ETF
 market	us_market
-marketState	CLOSED
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_528855653
 navPrice	18.35
 netAssets	2251016960.0
 netExpenseRatio	0.23
-open	18.53
+open	18.36
 phone	+1 8884938631
-postMarketChange	0.22000122
-postMarketChangePercent	1.2021925
-postMarketPrice	18.52
-postMarketTime	1774050601
-previousClose	18.59
+postMarketChange	0.1400013
+postMarketChangePercent	0.7584036
+postMarketPrice	18.6
+postMarketTime	1774308324
+previousClose	18.3
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.290001
-regularMarketChangePercent	-1.55998
-regularMarketDayHigh	18.575
-regularMarketDayLow	18.26
-regularMarketDayRange	18.26 - 18.575
-regularMarketOpen	18.53
-regularMarketPreviousClose	18.59
-regularMarketPrice	18.3
-regularMarketTime	1774036800
-regularMarketVolume	803055
+regularMarketChange	0.16
+regularMarketChangePercent	0.874316
+regularMarketDayHigh	18.545
+regularMarketDayLow	18.36
+regularMarketDayRange	18.36 - 18.545
+regularMarketOpen	18.36
+regularMarketPreviousClose	18.3
+regularMarketPrice	18.46
+regularMarketTime	1774296000
+regularMarketVolume	897231
 shortName	Global X U.S. Preferred ETF
 sourceInterval	15
 symbol	PFFD
@@ -85,10 +85,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	2.97724
 trailingThreeMonthReturns	2.97724
 triggerable	True
-twoHundredDayAverage	19.17295
-twoHundredDayAverageChange	-0.8729515
-twoHundredDayAverageChangePercent	-0.045530368
+twoHundredDayAverage	19.1717
+twoHundredDayAverageChange	-0.71170044
+twoHundredDayAverageChangePercent	-0.03712245
 typeDisp	ETF
-volume	803055
+volume	897231
 yield	0.0625
 ytdReturn	2.00336

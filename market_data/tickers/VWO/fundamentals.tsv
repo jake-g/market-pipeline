@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	59.09
 allTimeLow	18.5
-ask	53.0
-askSize	7900
-averageDailyVolume10Day	13228560
-averageDailyVolume3Month	12958211
-averageVolume	12958211
-averageVolume10days	13228560
+ask	53.81
+askSize	1300
+averageDailyVolume10Day	13212610
+averageDailyVolume3Month	13241120
+averageVolume	13241120
+averageVolume10days	13212610
 beta3Year	0.79
-bid	52.7
-bidSize	19000
+bid	53.53
+bidSize	11600
 bookValue	48.146
 category	Diversified Emerging Mkts
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	53.61
-dayLow	52.3901
+dayHigh	54.27
+dayLow	53.25
 dividendYield	2.58
 epsTrailingTwelveMonths	3.702366
 esgPopulated	False
@@ -27,16 +27,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	56.4576
-fiftyDayAverageChange	-3.8975983
-fiftyDayAverageChangePercent	-0.06903585
-fiftyTwoWeekChangePercent	13.963568
+fiftyDayAverage	56.4274
+fiftyDayAverageChange	-2.6273994
+fiftyDayAverageChangePercent	-0.046562478
+fiftyTwoWeekChangePercent	16.778814
 fiftyTwoWeekHigh	59.09
-fiftyTwoWeekHighChange	-6.529999
-fiftyTwoWeekHighChangePercent	-0.11050937
+fiftyTwoWeekHighChange	-5.290001
+fiftyTwoWeekHighChangePercent	-0.08952447
 fiftyTwoWeekLow	39.53
-fiftyTwoWeekLowChange	13.030003
-fiftyTwoWeekLowChangePercent	0.32962313
+fiftyTwoWeekLowChange	14.27
+fiftyTwoWeekLowChangePercent	0.3609917
 fiftyTwoWeekRange	39.53 - 59.09
 financialCurrency	USD
 firstTradeDateMilliseconds	1110465000000
@@ -51,34 +51,34 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index measures the investment return of stocks issued by companies located in emerging market countries. The fund employs an indexing investment approach designed to track the performance of the FTSE Emerging Markets All Cap China A Inclusion Index. It invests by sampling the index, meaning that it holds a broadly diversified collection of securities that, in the aggregate, approximates the index in terms of key characteristics.
 longName	Vanguard Emerging Markets Stock Index Fund
 market	us_market
-marketCap	74536386560
-marketState	CLOSED
+marketCap	76294848512
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_20936186
 navPrice	52.85
 netAssets	158398923000.0
 netExpenseRatio	0.06
-open	53.56
-postMarketChange	0.43999863
-postMarketChangePercent	0.83713585
-postMarketPrice	53.0
-postMarketTime	1774050622
-previousClose	54.01
+open	53.32
+postMarketChange	0.20000076
+postMarketChangePercent	0.37174863
+postMarketPrice	54.0
+postMarketTime	1774310255
+previousClose	52.56
 priceHint	2
-priceToBook	1.0916795
-quoteSourceName	Nasdaq Real Time Price
+priceToBook	1.1174345
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-1.45
-regularMarketChangePercent	-2.68468
-regularMarketDayHigh	53.61
-regularMarketDayLow	52.3901
-regularMarketDayRange	52.3901 - 53.61
-regularMarketOpen	53.56
-regularMarketPreviousClose	54.01
-regularMarketPrice	52.56
-regularMarketTime	1774036800
-regularMarketVolume	15546164
+regularMarketChange	1.24
+regularMarketChangePercent	2.3592
+regularMarketDayHigh	54.27
+regularMarketDayLow	53.25
+regularMarketDayRange	53.25 - 54.27
+regularMarketOpen	53.32
+regularMarketPreviousClose	52.56
+regularMarketPrice	53.8
+regularMarketTime	1774296003
+regularMarketVolume	21103511
 sharesOutstanding	1418119936
 shortName	Vanguard FTSE Emerging Markets 
 sourceInterval	15
@@ -87,16 +87,16 @@ threeYearAverageReturn	0.14217511
 totalAssets	158398922752
 tradeable	False
 trailingAnnualDividendRate	1.122
-trailingAnnualDividendYield	0.02077393
-trailingPE	14.196327
+trailingAnnualDividendYield	0.021347031
+trailingPE	14.531248
 trailingPegRatio	None
 trailingThreeMonthNavReturns	9.32976
 trailingThreeMonthReturns	9.32976
 triggerable	True
-twoHundredDayAverage	53.4671
-twoHundredDayAverageChange	-0.90709686
-twoHundredDayAverageChangePercent	-0.016965516
+twoHundredDayAverage	53.49655
+twoHundredDayAverageChange	0.30344772
+twoHundredDayAverageChangePercent	0.005672286
 typeDisp	ETF
-volume	15546164
+volume	21103511
 yield	0.025799999
 ytdReturn	8.01641

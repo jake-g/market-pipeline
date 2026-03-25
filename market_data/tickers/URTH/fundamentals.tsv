@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	192.84
 allTimeLow	49.32
-ask	178.03
-askSize	400
-averageDailyVolume10Day	510750
-averageDailyVolume3Month	453936
-averageVolume	453936
-averageVolume10days	510750
+ask	0.0
+askSize	100
+averageDailyVolume10Day	454900
+averageDailyVolume3Month	463913
+averageVolume	463913
+averageVolume10days	454900
 beta3Year	1.02
-bid	163.09
+bid	154.0
 bidSize	100
 category	Global Large-Stock Blend
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	180.88
-dayLow	177.07
+dayHigh	182.51
+dayLow	179.89
 dividendYield	1.44
 epsTrailingTwelveMonths	7.772913
 esgPopulated	False
@@ -26,16 +26,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	188.3026
-fiftyDayAverageChange	-10.302597
-fiftyDayAverageChangePercent	-0.054712985
-fiftyTwoWeekChangePercent	13.073301
+fiftyDayAverage	188.1486
+fiftyDayAverageChange	-7.608612
+fiftyDayAverageChangePercent	-0.040439375
+fiftyTwoWeekChangePercent	14.425146
 fiftyTwoWeekHigh	192.84
-fiftyTwoWeekHighChange	-14.839996
-fiftyTwoWeekHighChangePercent	-0.07695497
+fiftyTwoWeekHighChange	-12.300003
+fiftyTwoWeekHighChangePercent	-0.06378347
 fiftyTwoWeekLow	132.93
-fiftyTwoWeekLowChange	45.070007
-fiftyTwoWeekLowChangePercent	0.3390507
+fiftyTwoWeekLowChange	47.61
+fiftyTwoWeekLowChangePercent	0.35815844
 fiftyTwoWeekRange	132.93 - 192.84
 firstTradeDateMilliseconds	1326378600000
 fiveYearAverageReturn	0.1040522
@@ -49,33 +49,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally will invest at least 80% of its assets in the component securities of the underlying index and in investments that have economic characteristics that are substantially identical to the component securities of the underlying index. The index is designed to measure the performance of equity securities in the large and mid-capitalization segments of developed market countries.
 longName	iShares MSCI World ETF
 market	us_market
-marketCap	1228199936
-marketState	CLOSED
+marketCap	1245725952
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_145945262
 navPrice	177.76814
 netAssets	6917912600.0
 netExpenseRatio	0.24
-open	180.8
-postMarketChange	3.4900055
-postMarketChangePercent	1.9606773
-postMarketPrice	181.49
-postMarketTime	1774045441
-previousClose	181.36
+open	180.87
+postMarketChange	0.7400055
+postMarketChangePercent	0.4098845
+postMarketPrice	181.28
+postMarketTime	1774309741
+previousClose	178.0
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-3.36
-regularMarketChangePercent	-1.85267
-regularMarketDayHigh	180.88
-regularMarketDayLow	177.07
-regularMarketDayRange	177.07 - 180.88
-regularMarketOpen	180.8
-regularMarketPreviousClose	181.36
-regularMarketPrice	178.0
-regularMarketTime	1774036800
-regularMarketVolume	425677
+regularMarketChange	2.53999
+regularMarketChangePercent	1.42696
+regularMarketDayHigh	182.51
+regularMarketDayLow	179.89
+regularMarketDayRange	179.89 - 182.51
+regularMarketOpen	180.87
+regularMarketPreviousClose	178.0
+regularMarketPrice	180.54
+regularMarketTime	1774296000
+regularMarketVolume	505105
 sharesOutstanding	6900000
 shortName	iShares MSCI World ETF
 sourceInterval	15
@@ -85,15 +85,15 @@ totalAssets	6917912576
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	22.900038
+trailingPE	23.226812
 trailingPegRatio	None
 trailingThreeMonthNavReturns	3.76219
 trailingThreeMonthReturns	3.76219
 triggerable	True
-twoHundredDayAverage	180.5533
-twoHundredDayAverageChange	-2.553299
-twoHundredDayAverageChangePercent	-0.014141525
+twoHundredDayAverage	180.6304
+twoHundredDayAverageChange	-0.090408325
+twoHundredDayAverageChangePercent	-0.00050051557
 typeDisp	ETF
-volume	425677
+volume	505105
 yield	0.014400001
 ytdReturn	2.98799

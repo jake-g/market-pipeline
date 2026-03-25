@@ -1,38 +1,38 @@
 Metric	Value
-52WeekChange	0.2735772
-SandP52WeekChange	0.12811458
+52WeekChange	0.29234302
+SandP52WeekChange	0.13924158
 address1	170 West Tasman Drive
 allTimeHigh	88.19
 allTimeLow	0.068576
-ask	77.71
-askSize	12
+ask	82.83
+askSize	1
 auditRisk	6
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	26911170
-averageDailyVolume3Month	23221960
-averageVolume	23221960
-averageVolume10days	26911170
+averageDailyVolume10Day	25632620
+averageDailyVolume3Month	23518152
+averageVolume	23518152
+averageVolume10days	25632620
 beta	0.829
-bid	77.51
-bidSize	27
+bid	74.48
+bidSize	1
 boardRisk	7
 bookValue	12.085
 city	San Jose
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Charles H. Robbins', 'age': 59, 'title': 'Chairman & CEO', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 6968061, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeetendra I. Patel', 'age': 53, 'title': 'President & Chief Product Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 2945368, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Thimaya  Subaiya', 'age': 46, 'title': 'Executive Vice President of Operations', 'yearBorn': 1979, 'fiscalYear': 2025, 'totalPay': 2626614, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Deborah L. Stahlkopf', 'age': 54, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 2525966, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard Scott Herren', 'age': 63, 'title': 'Executive Advisor', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 3074739, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Patterson', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. M. Victoria Wong', 'age': 58, 'title': 'Senior VP & Chief Accounting Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Andrew  Ashton', 'title': 'Senior Vice President of Corporate Finance', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ahmed Sami  Badri', 'title': 'Head of Investor Relations & Strategic Finance', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Steve  Clayton', 'title': 'Senior VP & Chief Communications Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	8
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'CSCO announced a cash dividend of $0.42 with an ex-date of Apr. 2, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1775102400000, 'amount': '0.42'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	77.65
+currentPrice	78.82
 currentRatio	0.955
 customPriceAlertConfidence	HIGH
 dateShortInterest	1772150400
-dayHigh	79.04
-dayLow	76.72
+dayHigh	79.51
+dayLow	78.42
 debtToEquity	66.509
-discount_to_intrinsic_value	53.88
+discount_to_intrinsic_value	51.64
 displayName	Cisco Systems
 dividendDate	1776816000
 dividendRate	1.68
@@ -46,9 +46,9 @@ earningsTimestampEnd	1778702400
 earningsTimestampStart	1778702400
 ebitda	16291000320
 ebitdaMargins	0.27587
-enterpriseToEbitda	19.807
-enterpriseToRevenue	5.464
-enterpriseValue	322672197632
+enterpriseToEbitda	20.094
+enterpriseToRevenue	5.543
+enterpriseValue	327352811520
 epsCurrentYear	4.15615
 epsForward	4.51582
 epsTrailingTwelveMonths	2.78
@@ -60,29 +60,29 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	78.3068
-fiftyDayAverageChange	-0.6567993
-fiftyDayAverageChangePercent	-0.008387513
-fiftyTwoWeekChangePercent	27.357721
+fiftyDayAverage	78.404
+fiftyDayAverageChange	0.41600037
+fiftyDayAverageChangePercent	0.0053058565
+fiftyTwoWeekChangePercent	29.234303
 fiftyTwoWeekHigh	88.19
-fiftyTwoWeekHighChange	-10.540001
-fiftyTwoWeekHighChangePercent	-0.11951469
+fiftyTwoWeekHighChange	-9.370003
+fiftyTwoWeekHighChangePercent	-0.1062479
 fiftyTwoWeekLow	52.11
-fiftyTwoWeekLowChange	25.54
-fiftyTwoWeekLowChangePercent	0.49011707
+fiftyTwoWeekLowChange	26.71
+fiftyTwoWeekLowChangePercent	0.51256955
 fiftyTwoWeekRange	52.11 - 88.19
 financialCurrency	USD
 firstTradeDateMilliseconds	635178600000
 fiveYearAvgDividendYield	2.85
 floatShares	3943375718
 forwardEps	4.51582
-forwardPE	17.195105
+forwardPE	17.454195
 freeCashflow	10129500160
 fullExchangeName	NasdaqGS
 fullTimeEmployees	86200
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	168.37
+graham_intrinsic_value	163.0
 grossMargins	0.64814
 grossProfits	38274998272
 hasPrePostMarketData	True
@@ -102,8 +102,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Cisco Systems, Inc. designs, develops, and sells technologies that help to power, secure, and draw insights from the internet in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company offers data center switching; network security, identity and access management, and secure access service edge; threat intelligence, detection, and response solutions; interconnects public and private wireline and mobile networks, delivering connectivity to campus, data center, and branch networks; WEBEX suite, collaboration devices, and contact center; communication platform as a service software, including perpetual licenses, subscription arrangements, and hardware solutions; network assurance, monitoring and analytics, and observability suite; issue resolution, software support, and hardware replacement; professional services, such as planning, design, implementation, and high-value consulting; service and support packages, financing, and managed network services; and regional, national, and international wireline carriers, webscale products, internet, and cable. It also delivers connectivity to campus, data center, and branch networks; wireless products, including indoor and outdoor wireless coverage designed for seamless roaming use of voice, video, and data applications; end-to-end collaboration solutions through cloud, on-premise, or within hybrid cloud environments, transition collaboration solutions from on-premise to the cloud; and network assurance, monitoring and analytics, and observability suite. In addition, it offers technical support and advisory services. The company serves businesses, public institutions, governments, and service providers. It sells its products and services directly, through systems integrators, service providers, resellers, and distributors. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California.
 longName	Cisco Systems, Inc.
 market	us_market
-marketCap	306802491392
-marketState	CLOSED
+marketCap	311425269760
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_19691
 mostRecentQuarter	1769212800
@@ -111,21 +111,21 @@ netIncomeToCommon	11075999744
 nextFiscalYearEnd	1785024000
 nonDilutedMarketCap	306709194711
 numberOfAnalystOpinions	21
-open	78.445
+open	78.51
 operatingCashflow	13324999680
 operatingMargins	0.24868
 overallRisk	3
 payoutRatio	0.5899
 phone	(408) 526-4000
-postMarketChange	0.8499985
-postMarketChangePercent	1.0946535
-postMarketPrice	78.5
-postMarketTime	1774051185
-previousClose	78.51
-priceEpsCurrentYear	18.683157
+postMarketChange	0.6800003
+postMarketChangePercent	0.8627256
+postMarketPrice	79.5
+postMarketTime	1774310132
+previousClose	77.65
+priceEpsCurrentYear	18.964668
 priceHint	2
-priceToBook	6.4253206
-priceToSalesTrailing12Months	5.195287
+priceToBook	6.522135
+priceToSalesTrailing12Months	5.273568
 profitMargins	0.18756
 quickRatio	0.737
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.84615
 region	US
-regularMarketChange	-0.8600006
-regularMarketChangePercent	-1.0954026
-regularMarketDayHigh	79.04
-regularMarketDayLow	76.72
-regularMarketDayRange	76.72 - 79.04
-regularMarketOpen	78.445
-regularMarketPreviousClose	78.51
-regularMarketPrice	77.65
-regularMarketTime	1774036801
-regularMarketVolume	90380827
+regularMarketChange	1.17
+regularMarketChangePercent	1.50676
+regularMarketDayHigh	79.51
+regularMarketDayLow	78.42
+regularMarketDayRange	78.42 - 79.51
+regularMarketOpen	78.51
+regularMarketPreviousClose	77.65
+regularMarketPrice	78.82
+regularMarketTime	1774296004
+regularMarketVolume	16457441
 returnOnAssets	0.06994
 returnOnEquity	0.23754999
 revenueGrowth	0.097
@@ -162,7 +162,7 @@ shortRatio	2.14
 sourceInterval	15
 state	CA
 symbol	CSCO
-syntheticPEG	0.5511251602564103
+syntheticPEG	0.5594293269230769
 targetHighPrice	100.0
 targetLowPrice	75.0
 targetMeanPrice	88.80857
@@ -173,15 +173,15 @@ totalDebt	31740000256
 totalRevenue	59053998080
 tradeable	False
 trailingAnnualDividendRate	1.64
-trailingAnnualDividendYield	0.020889059
+trailingAnnualDividendYield	0.021120412
 trailingEps	2.78
-trailingPE	27.931656
+trailingPE	28.352518
 trailingPegRatio	1.3206
 triggerable	True
-twoHundredDayAverage	72.6061
-twoHundredDayAverageChange	5.0438995
-twoHundredDayAverageChangePercent	0.06946936
+twoHundredDayAverage	72.67825
+twoHundredDayAverageChange	6.1417465
+twoHundredDayAverageChangePercent	0.084505975
 typeDisp	Equity
-volume	90380827
+volume	16457441
 website	https://www.cisco.com
 zip	95134-1706

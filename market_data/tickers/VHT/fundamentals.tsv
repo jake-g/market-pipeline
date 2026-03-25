@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	298.61
 allTimeLow	34.0
-ask	273.77
-askSize	560
-averageDailyVolume10Day	198970
-averageDailyVolume3Month	247876
-averageVolume	247876
-averageVolume10days	198970
+ask	273.51
+askSize	160
+averageDailyVolume10Day	205760
+averageDailyVolume3Month	250789
+averageVolume	250789
+averageVolume10days	205760
 beta3Year	0.73
-bid	269.17
-bidSize	360
+bid	268.16
+bidSize	320
 bookValue	228.287
 category	Health
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	272.25
-dayLow	267.94
+dayHigh	272.712
+dayLow	269.21
 dividendYield	1.57
 epsTrailingTwelveMonths	10.647152
 esgPopulated	False
@@ -27,16 +27,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	287.7308
-fiftyDayAverageChange	-18.700806
-fiftyDayAverageChangePercent	-0.064994104
-fiftyTwoWeekChangePercent	-0.1262188
+fiftyDayAverage	287.234
+fiftyDayAverageChange	-17.783997
+fiftyDayAverageChangePercent	-0.061914664
+fiftyTwoWeekChangePercent	1.667738
 fiftyTwoWeekHigh	298.61
-fiftyTwoWeekHighChange	-29.579987
-fiftyTwoWeekHighChangePercent	-0.09905893
+fiftyTwoWeekHighChange	-29.159973
+fiftyTwoWeekHighChangePercent	-0.09765237
 fiftyTwoWeekLow	234.11
-fiftyTwoWeekLowChange	34.92
-fiftyTwoWeekLowChangePercent	0.14916064
+fiftyTwoWeekLowChange	35.34001
+fiftyTwoWeekLowChangePercent	0.15095472
 fiftyTwoWeekRange	234.11 - 298.61
 financialCurrency	USD
 firstTradeDateMilliseconds	1075473000000
@@ -51,34 +51,34 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the health care sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard Health Care Index Fund ETF Shares
 market	us_market
-marketCap	14608839680
-marketState	CLOSED
+marketCap	14631647232
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_22939088
 navPrice	269.08
 netAssets	20252338200.0
 netExpenseRatio	0.09
-open	271.5
-postMarketChange	2.7200012
-postMarketChangePercent	1.0110401
-postMarketPrice	271.75
-postMarketTime	1774051094
-previousClose	271.9
+open	272.35
+postMarketChange	3.0499878
+postMarketChangePercent	1.1319308
+postMarketPrice	272.5
+postMarketTime	1774309608
+previousClose	269.03
 priceHint	2
-priceToBook	1.1784726
-quoteSourceName	Delayed Quote
+priceToBook	1.1803125
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-2.87
-regularMarketChangePercent	-1.05553
-regularMarketDayHigh	272.25
-regularMarketDayLow	267.94
-regularMarketDayRange	267.94 - 272.25
-regularMarketOpen	271.5
-regularMarketPreviousClose	271.9
-regularMarketPrice	269.03
-regularMarketTime	1774036800
-regularMarketVolume	228367
+regularMarketChange	0.420013
+regularMarketChangePercent	0.156121
+regularMarketDayHigh	272.712
+regularMarketDayLow	269.21
+regularMarketDayRange	269.21 - 272.712
+regularMarketOpen	272.35
+regularMarketPreviousClose	269.03
+regularMarketPrice	269.45
+regularMarketTime	1774296000
+regularMarketVolume	226123
 sharesOutstanding	54301900
 shortName	Vanguard Health Care ETF
 sourceInterval	15
@@ -87,16 +87,16 @@ threeYearAverageReturn	0.0632774
 totalAssets	20252338176
 tradeable	False
 trailingAnnualDividendRate	2.846
-trailingAnnualDividendYield	0.010467083
-trailingPE	25.26779
+trailingAnnualDividendYield	0.010578746
+trailingPE	25.307238
 trailingPegRatio	None
 trailingThreeMonthNavReturns	0.9461
 trailingThreeMonthReturns	0.9461
 triggerable	True
-twoHundredDayAverage	269.7389
-twoHundredDayAverageChange	-0.7088928
-twoHundredDayAverageChangePercent	-0.0026280705
+twoHundredDayAverage	269.8587
+twoHundredDayAverageChange	-0.4086914
+twoHundredDayAverageChangePercent	-0.0015144644
 typeDisp	ETF
-volume	228367
+volume	226123
 yield	0.015700001
 ytdReturn	2.72102
