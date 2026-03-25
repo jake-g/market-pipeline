@@ -12,7 +12,7 @@ If your machine's IP address gets temporarily banned by Yahoo (resulting in endl
 2. Save the raw JSON output to a file named `portfolio.json` in the `portfolios` directory.
 3. Run the full pipeline wrapper in offline mode to process the localized data:
    ```bash
-   ./portfolios/run_pipeline.sh --offline
+   ./portfolios/run_portfolio_pipeline.sh --offline
    ```
 
 ---
@@ -35,17 +35,16 @@ pip install curl_cffi
 6. Refresh the page (`Cmd+R` or `Ctrl+R`). Look for a network request named something like `portfolio?formatted=true...` and click on it.
 7. Right-click on the request, select **Copy**, and then select **Copy as cURL**.
 
-## Setting Up Your `.env` File
+## Automatic Inline Credential Recovery
 
-Instead of manually finding the cookie and crumb, the fetcher script will automatically prompt you for the copied cURL command if your `.env` file is missing or incomplete:
+If you are running the live pipeline (`./portfolios/run_portfolio_pipeline.sh` or `run_fetch.sh`) and your Yahoo Finance credentials expire, the pipeline will **NO LONGER CRASH**.
 
-1. Copy the cURL command as described above.
-2. Run the fetcher script:
-   ```bash
-   python portfolios/yahoo_portfolio_fetcher.py --dump
-   ```
-3. If prompted, paste the `Copy as cURL` text and press `Enter`, then press `Ctrl+D` to finish input.
-4. The script will automatically parse your `YF_COOKIE` and `YF_CRUMB` and create a `.env` file in the `portfolios/` directory.
+Instead, it will automatically pause and poll your macOS clipboard for exactly 60 seconds.
+1. When you see the warning `🚨 Yahoo Finance credentials expired! Waiting for clipboard...`
+2. Simply open Chrome, go to your Portfolios -> Network Tab, and right-click `Copy as cURL` on the `portfolio` request.
+3. The script will securely detect the payload via `pbpaste`, dynamically extract the updated `Cookie` and `Crumb`, reset your clipboard, update the `.env` file, and **immediately resume the pipeline** without requiring you to restart anything!
+
+### Manual CLI Overrides
 
 ### Finding Your `YF_USER_ID`
 
@@ -73,7 +72,7 @@ If the fetcher script fails because it cannot find your User ID automatically, y
 The entire intelligence pipeline is automated, running unit validation, code formatting, parsing, quantitative enhancement, and finally exhaustively generating the Markdown view. Operations are heavily logged and cached into internal data siloes to maintain project cleanliness.
 
 ```bash
-./portfolios/run_pipeline.sh
+./portfolios/run_portfolio_pipeline.sh
 ```
 
 **Architecture & Footprint**:

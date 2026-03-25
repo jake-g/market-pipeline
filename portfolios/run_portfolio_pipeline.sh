@@ -25,11 +25,13 @@ echo "Running Code Formatting via run_format.sh"
 
 
 echo "Fetching Yahoo Portfolios"
-# Demo OFFLINE mode using cached portfolio.json:
-# python3 -m portfolios.yahoo_portfolio_fetcher --local-json portfolios/portfolio.json 2>&1 | tee "$LOG_DIR/yahoo_portfolio_fetcher.log"
-
-echo "Running in LIVE fetch mode using credentials from .env"
-python3 -m portfolios.yahoo_portfolio_fetcher 2>&1 | tee "$LOG_DIR/yahoo_portfolio_fetcher.log"
+if [[ " $* " == *" --offline "* ]]; then
+    echo "Running in OFFLINE fetch mode using cached portfolio.json"
+    python3 -m portfolios.yahoo_portfolio_fetcher --local-json portfolios/portfolio.json 2>&1 | tee "$LOG_DIR/yahoo_portfolio_fetcher.log"
+else
+    echo "Running in LIVE fetch mode using credentials from .env"
+    python3 -m portfolios.yahoo_portfolio_fetcher 2>&1 | tee "$LOG_DIR/yahoo_portfolio_fetcher.log"
+fi
 
 
 echo "Processing Portfolios (Metrics Engine)"

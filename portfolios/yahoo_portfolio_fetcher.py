@@ -113,24 +113,27 @@ def parse_curl_command(curl_text: str) -> dict:
 
 
 def prompt_for_curl_and_save_env(env_path: str):
-  """Prompts user for cURL string, parses it, and saves to .env."""
-  print("\nMissing Yahoo Finance credentials.")
-  print("Please navigate to https://finance.yahoo.com/portfolios in Chrome.")
-  print("Open Developer Tools -> Network tab -> search 'portfolio'.")
-  print(
-      "Refresh the page, right-click the 'portfolio?formatted=true...' request."
+  """Prompts user to paste cURL string via stdin, parses it, and saves to .env."""
+  logger.info("\n🚨 Yahoo Finance credentials expired or missing!")
+  logger.info(
+      "📋 ACTION REQUIRED: Open Chrome -> Yahoo Portfolios -> Network Tab -> Right-click the 'portfolio' request -> Copy as cURL"
   )
-  print("Select 'Copy' -> 'Copy as cURL'.")
-  print(
-      "\nPaste the 'Copy as cURL' text here (press Ctrl+D on a new line when finished):"
-  )
+  logger.info("\nPaste the 'Copy as cURL' text below.")
+  logger.info("Press ENTER twice when finished (or Ctrl+C to abort):")
 
   lines = []
+  blank_lines = 0
   try:
     for line in sys.stdin:
       lines.append(line)
+      if not line.strip():
+        blank_lines += 1
+        if blank_lines >= 1:
+          break
+      else:
+        blank_lines = 0
   except KeyboardInterrupt:
-    print("\nAborted.")
+    logger.info("\nAborted by user.")
     sys.exit(1)
 
   curl_text = "".join(lines)
@@ -145,10 +148,16 @@ def prompt_for_curl_and_save_env(env_path: str):
 
   user_id = credentials.get('user_id')
   if not user_id:
-    logger.warning(
-        "No User ID extracted. Please manually add YF_USER_ID to .env or you may face fetch errors."
-    )
-    user_id = ""
+    # Try to retain the existing user ID from the environment if present
+    existing_user_id = os.environ.get('YF_USER_ID')
+    if existing_user_id:
+      logger.info("No User ID in cURL. Retaining existing YF_USER_ID.")
+      user_id = existing_user_id
+    else:
+      logger.warning(
+          "No User ID extracted. Please manually add YF_USER_ID to .env or you may face fetch errors."
+      )
+      user_id = ""
 
   try:
     with open(env_path, "w") as f:
@@ -211,8 +220,18 @@ def verify_yahoo_auth(cookie: str,
   if custom_headers:
     headers.update(custom_headers)
 
+  # Ensure we have the minimum required
+  if 'User-Agent' not in headers and 'user-agent' not in headers:
+    headers["User-Agent"] = (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) "
+        "Gecko/20100101 Firefox/101.0")
+
   try:
-    r = requests.get(url, headers=headers, params=params, allow_redirects=False)
+    r = requests.get(url,
+                     headers=headers,
+                     params=params,
+                     allow_redirects=False,
+                     impersonate="chrome")
     if r.status_code in (401, 403):
       logger.error("Yahoo Auth Failed - HTTP %d. Credentials likely stale.",
                    r.status_code)
@@ -289,6 +308,12 @@ def main():
       help="Dump the raw JSON response to a file for inspection.",
   )
   parser.add_argument(
+      "--update-creds",
+      action="store_true",
+      help=
+      "Force update of Yahoo Finance credentials (prompts for new cURL string).",
+  )
+  parser.add_argument(
       "--local-json",
       type=str,
       help="Path to a manually saved portfolio.json file (skips fetching).",
@@ -335,13 +360,24 @@ def main():
       with open(args.local_json, 'r', encoding='utf-8') as f:
         data = json.load(f)
     else:
-      # Proceed with fetching using credentials
+      needs_update = args.update_creds
+
       if not cookie or not crumb:
+        logger.warning("Missing Cookie or Crumb in .env.")
+        needs_update = True
+      elif not verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers):
+        logger.warning(
+            "Yahoo Auth check failed with existing credentials in .env.")
+        needs_update = True
+
+      if needs_update:
+        logger.info(
+            "Prompting for new credentials via automated clipboard capture...")
         prompt_for_curl_and_save_env(env_path)
+        # Reload env vars
         cookie = os.environ.get("YF_COOKIE")
         crumb = os.environ.get("YF_CRUMB")
         user_id = os.environ.get("YF_USER_ID", "")
-
         headers_str = os.environ.get("YF_HEADERS")
         if headers_str:
           try:
@@ -349,21 +385,22 @@ def main():
           except:
             pass
 
-      if not cookie or not crumb:
-        logger.error("Still missing Cookie and Crumb. Exiting.")
-        sys.exit(1)
+        if not cookie or not crumb:
+          logger.error("Still missing Cookie and Crumb after capture. Exiting.")
+          sys.exit(1)
+
+        # Pre-flight check after update
+        if not verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers):
+          logger.error(
+              "Yahoo Auth check failed with newly captured credentials! IP may be strictly banned (429)."
+          )
+          sys.exit(1)
 
       # Fail gracefully if user_id missing and required by API structure
       if not user_id:
         logger.error(
             "YF_USER_ID is completely missing. Please add it to reports/portfolios/.env"
         )
-        sys.exit(1)
-
-      # Pre-flight check before bulk execution triggers
-      if not verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers):
-        logger.error(
-            "Yahoo Auth check failed. Exiting to prevent stale data fallbacks.")
         sys.exit(1)
 
       # No fallback: if live fetch fails, crash the script so pipeline breaks explicitly
@@ -405,19 +442,17 @@ def main():
           logger.warning(
               f"Could not compute structural diff against existing portfolio.json: {e}"
           )
-    if args.dump:
-      dump_file = os.path.join(os.path.dirname(__file__),
-                               "yf_portfolios_dump.json")
-      with open(dump_file, "w", encoding="utf-8") as f:
+    if not args.local_json:
+      with open(json_cache_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-      logger.info("Dumped raw JSON to %s", dump_file)
-    else:
-      # If we successfully fetched fresh data, overwrite the 1-hour cache
-      if not args.local_json:
-        with open(json_cache_path, "w", encoding="utf-8") as f:
-          json.dump(data, f, indent=2)
-        logger.info(f"Updated 1-hour cache buffer at {json_cache_path}")
+      logger.info(f"Updated local portfolio cache at {json_cache_path}")
 
+    if args.dump:
+      logger.info(
+          "Dump mode active: Updated cache and exiting early without processing TSVs."
+      )
+      sys.exit(0)
+    else:
       try:
 
         portfolios = data.get("finance", {}).get("result",
