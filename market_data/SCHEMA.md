@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.021535158 |
+| Value | str | 0.030378342 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -25,7 +25,7 @@ This report documents the file structures and column data types used in `market_
 | Earnings Date | str | 2026-04-30 16:00:00-04:00 |
 | EPS Estimate | float64 | 1.64 |
 | Reported EPS | float64 | 1.95 |
-| Surprise(%) | float64 | -0.49 |
+| Surprise(%) | float64 | 0.22 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-25 |
+| Date | str | 2026-03-26 |
 | Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | Top spring sales happening this month at Amazon... |
-| Summary | str | Amazon.com (NasdaqGS:AMZN) agreed to acquire Fa... |
-| URL | str | https://news.google.com/rss/articles/CBMitAFBVV... |
+| Sentiment | float64 | 0.625 |
+| Headline | str | Amazon's Big Spring Sale Has the Most Impressiv... |
+| Summary | str | Buffett always looks for value when investing. |
+| URL | str | https://news.google.com/rss/articles/CBMihwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

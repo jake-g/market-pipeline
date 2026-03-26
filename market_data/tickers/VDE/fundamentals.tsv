@@ -1,15 +1,15 @@
 Metric	Value
-allTimeHigh	170.46
+allTimeHigh	173.84
 allTimeLow	30.03
-ask	169.46
-askSize	1700
-averageDailyVolume10Day	1202410
-averageDailyVolume3Month	1040194
-averageVolume	1040194
-averageVolume10days	1202410
+ask	173.1
+askSize	500
+averageDailyVolume10Day	1106530
+averageDailyVolume3Month	1037446
+averageVolume	1037446
+averageVolume10days	1106530
 beta3Year	0.52
-bid	169.43
-bidSize	400
+bid	170.45
+bidSize	300
 bookValue	56.102
 category	Equity Energy
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	170.22
-dayLow	164.16
+dayHigh	172.35
+dayLow	170.49
 dividendYield	2.48
 epsTrailingTwelveMonths	7.6368113
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	150.7644
-fiftyDayAverageChange	18.665588
-fiftyDayAverageChangePercent	0.123806335
-fiftyTwoWeekChangePercent	30.874407
-fiftyTwoWeekHigh	170.46
-fiftyTwoWeekHighChange	-1.030014
-fiftyTwoWeekHighChangePercent	-0.0060425554
+fiftyDayAverage	151.5828
+fiftyDayAverageChange	19.857208
+fiftyDayAverageChangePercent	0.13099909
+fiftyTwoWeekChangePercent	32.14587
+fiftyTwoWeekHigh	173.84
+fiftyTwoWeekHighChange	-2.399994
+fiftyTwoWeekHighChangePercent	-0.013805764
 fiftyTwoWeekLow	103.07
-fiftyTwoWeekLowChange	66.35999
-fiftyTwoWeekLowChangePercent	0.64383423
-fiftyTwoWeekRange	103.07 - 170.46
+fiftyTwoWeekLowChange	68.37
+fiftyTwoWeekLowChangePercent	0.6633356
+fiftyTwoWeekRange	103.07 - 173.84
 financialCurrency	USD
 firstTradeDateMilliseconds	1096464600000
-fiveYearAverageReturn	0.2383057
+fiveYearAverageReturn	0.2480555
 fullExchangeName	NYSEArca
 fundFamily	Vanguard
 fundInceptionDate	1095897600
@@ -51,52 +51,52 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the energy sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard Energy Index Fund ETF Shares
 market	us_market
-marketCap	7073990144
+marketCap	7157911552
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_8815884
-navPrice	167.68
+navPrice	172.13
 netAssets	11324698600.0
 netExpenseRatio	0.09
-open	164.885
-postMarketChange	0.559906
-postMarketChangePercent	0.3304645
-postMarketPrice	169.9899
-postMarketTime	1774310012
-previousClose	167.77
+open	170.49
+postMarketChange	0.7599945
+postMarketChangePercent	0.44330058
+postMarketPrice	172.2
+postMarketTime	1774481963
+previousClose	172.12
 priceHint	2
-priceToBook	3.0200348
-quoteSourceName	Nasdaq Real Time Price
+priceToBook	3.0558624
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	1.65999
-regularMarketChangePercent	0.989443
-regularMarketDayHigh	170.22
-regularMarketDayLow	164.16
-regularMarketDayRange	164.16 - 170.22
-regularMarketOpen	164.885
-regularMarketPreviousClose	167.77
-regularMarketPrice	169.43
-regularMarketTime	1774296000
-regularMarketVolume	1494892
+regularMarketChange	-0.679993
+regularMarketChangePercent	-0.395069
+regularMarketDayHigh	172.35
+regularMarketDayLow	170.49
+regularMarketDayRange	170.49 - 172.35
+regularMarketOpen	170.49
+regularMarketPreviousClose	172.12
+regularMarketPrice	171.44
+regularMarketTime	1774468800
+regularMarketVolume	552432
 sharesOutstanding	41751700
 shortName	Vanguard Energy ETF
 sourceInterval	15
 symbol	VDE
-threeYearAverageReturn	0.19397181
+threeYearAverageReturn	0.2063106
 totalAssets	11324698624
 tradeable	False
 trailingAnnualDividendRate	2.469
-trailingAnnualDividendYield	0.014716577
-trailingPE	22.18596
+trailingAnnualDividendYield	0.014344644
+trailingPE	22.449162
 trailingPegRatio	None
 trailingThreeMonthNavReturns	24.47085
 trailingThreeMonthReturns	24.47085
 triggerable	True
-twoHundredDayAverage	130.77565
-twoHundredDayAverageChange	38.654343
-twoHundredDayAverageChangePercent	0.29557753
+twoHundredDayAverage	131.06165
+twoHundredDayAverageChange	40.378357
+twoHundredDayAverageChangePercent	0.30808675
 typeDisp	ETF
-volume	1494892
+volume	552432
 yield	0.0248
 ytdReturn	25.15089

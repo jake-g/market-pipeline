@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	83.86
 allTimeLow	8.083333
-ask	30.59
-askSize	58000
-averageDailyVolume10Day	27119500
-averageDailyVolume3Month	23181622
-averageVolume	23181622
-averageVolume10days	27119500
+ask	30.51
+askSize	42800
+averageDailyVolume10Day	27450920
+averageDailyVolume3Month	23295765
+averageVolume	23295765
+averageVolume10days	27450920
 beta3Year	0.65
-bid	30.55
-bidSize	20300
+bid	30.5
+bidSize	46900
 category	Large Value
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	30.83
-dayLow	30.5
+dayHigh	30.64
+dayLow	30.38
 dividendYield	3.3
 epsTrailingTwelveMonths	1.5856408
 esgPopulated	False
@@ -26,10 +26,10 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	30.5398
-fiftyDayAverageChange	0.0002002716
-fiftyDayAverageChangePercent	6.5577246e-06
-fiftyTwoWeekChangePercent	9.698272
+fiftyDayAverage	30.5816
+fiftyDayAverageChange	-0.041599274
+fiftyDayAverageChangePercent	-0.0013602714
+fiftyTwoWeekChangePercent	10.215831
 fiftyTwoWeekHigh	31.95
 fiftyTwoWeekHighChange	-1.4099998
 fiftyTwoWeekHighChangePercent	-0.04413145
@@ -38,7 +38,7 @@ fiftyTwoWeekLowChange	6.67
 fiftyTwoWeekLowChangePercent	0.27943024
 fiftyTwoWeekRange	23.87 - 31.95
 firstTradeDateMilliseconds	1319117400000
-fiveYearAverageReturn	0.0861343
+fiveYearAverageReturn	0.0891511
 fullExchangeName	NYSEArca
 fundFamily	Schwab ETFs
 fundInceptionDate	1319068800
@@ -52,34 +52,34 @@ market	us_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_141947998
-navPrice	30.37
+navPrice	30.63
 netAssets	85904450000.0
 netExpenseRatio	0.06
-open	30.68
+open	30.49
 phone	1-800-435-4000
-postMarketChange	0.02999878
-postMarketChangePercent	0.09822783
-postMarketPrice	30.57
-postMarketTime	1774310396
-previousClose	30.39
+postMarketChange	-0.030000687
+postMarketChangePercent	-0.09823407
+postMarketPrice	30.51
+postMarketTime	1774483199
+previousClose	30.3831
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.150002
-regularMarketChangePercent	0.493588
-regularMarketDayHigh	30.83
-regularMarketDayLow	30.5
-regularMarketDayRange	30.5 - 30.83
-regularMarketOpen	30.68
-regularMarketPreviousClose	30.39
+regularMarketChange	0.1569
+regularMarketChangePercent	0.516407
+regularMarketDayHigh	30.64
+regularMarketDayLow	30.38
+regularMarketDayRange	30.38 - 30.64
+regularMarketOpen	30.49
+regularMarketPreviousClose	30.3831
 regularMarketPrice	30.54
-regularMarketTime	1774296000
-regularMarketVolume	32923717
+regularMarketTime	1774468800
+regularMarketVolume	26737815
 shortName	Schwab US Dividend Equity ETF
 sourceInterval	15
 symbol	SCHD
-threeYearAverageReturn	0.1252131
+threeYearAverageReturn	0.1289703
 totalAssets	85904449536
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -89,10 +89,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	16.14946
 trailingThreeMonthReturns	16.14946
 triggerable	True
-twoHundredDayAverage	28.03145
-twoHundredDayAverageChange	2.5085506
-twoHundredDayAverageChangePercent	0.08949058
+twoHundredDayAverage	28.0535
+twoHundredDayAverageChange	2.4865017
+twoHundredDayAverageChangePercent	0.08863428
 typeDisp	ETF
-volume	32923717
+volume	26737815
 yield	0.033
 ytdReturn	15.74344

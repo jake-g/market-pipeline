@@ -1,42 +1,42 @@
 Metric	Value
-52WeekChange	-0.10802692
-SandP52WeekChange	0.13924158
+52WeekChange	-0.1067515
+SandP52WeekChange	0.14778364
 address1	1941 Stryker Way
 allTimeHigh	406.19
 allTimeLow	0.084105
-ask	333.5
-askSize	160
+ask	326.98
+askSize	280
 auditRisk	9
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	2676000
-averageDailyVolume3Month	2039857
-averageVolume	2039857
-averageVolume10days	2676000
+averageDailyVolume10Day	2787640
+averageDailyVolume3Month	2048270
+averageVolume	2048270
+averageVolume10days	2787640
 beta	0.869
-bid	332.25
-bidSize	240
+bid	325.44
+bidSize	200
 boardRisk	9
 bookValue	58.614
 city	Portage
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Kevin A. Lobo', 'age': 60, 'title': 'Chairman & CEO', 'yearBorn': 1965, 'fiscalYear': 2024, 'totalPay': 5275782, 'exercisedValue': 43295364, 'unexercisedValue': 191882304}, {'maxAge': 1, 'name': 'Mr. Spencer S. Stiles', 'age': 48, 'title': 'President & COO', 'yearBorn': 1977, 'fiscalYear': 2024, 'totalPay': 1879020, 'exercisedValue': 0, 'unexercisedValue': 22665086}, {'maxAge': 1, 'name': 'Mr. Glenn S. Boehnlein CPA', 'age': 63, 'title': 'Advisor', 'yearBorn': 1962, 'fiscalYear': 2024, 'totalPay': 2111081, 'exercisedValue': 19827876, 'unexercisedValue': 26137546}, {'maxAge': 1, 'name': 'Mr. Viju S. Menon', 'age': 57, 'title': 'Group President of Global Quality & Operations', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 1567937, 'exercisedValue': 0, 'unexercisedValue': 19779564}, {'maxAge': 1, 'name': 'Mr. J. Andrew Pierce', 'age': 51, 'title': 'Group President of MedSurg & Neurotechnology', 'yearBorn': 1974, 'fiscalYear': 2024, 'totalPay': 1879020, 'exercisedValue': 2370905, 'unexercisedValue': 22463508}, {'maxAge': 1, 'name': 'Mr. Preston W. Wells', 'age': 48, 'title': 'VP & CFO', 'yearBorn': 1977, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William E. Berry Jr.', 'age': 59, 'title': 'VP & Chief Accounting Officer', 'yearBorn': 1966, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert C. Cohen', 'title': 'CTO and VP of Global R&D - Joint Replacement', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alan  Douville', 'title': 'VP, Chief Information Officer & Chief Information Security Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason  Beach', 'title': 'Vice President of Finance & Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
-compensationAsOfEpochDate	1735603200
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Kevin A. Lobo', 'age': 60, 'title': 'Chairman & CEO', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 4716578, 'exercisedValue': 0, 'unexercisedValue': 194483536}, {'maxAge': 1, 'name': 'Mr. Spencer S. Stiles', 'age': 48, 'title': 'President & COO', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 1740581, 'exercisedValue': 3084339, 'unexercisedValue': 21627772}, {'maxAge': 1, 'name': 'Mr. William E. Berry Jr.', 'age': 59, 'title': 'VP & Chief Accounting Officer', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert C. Cohen', 'title': 'CTO and VP of Global R&D - Joint Replacement', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+compensationAsOfEpochDate	1767139200
 compensationRisk	2
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'SYK announced a cash dividend of $0.88 with an ex-date of Mar. 31, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1774929600000, 'amount': '0.88'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	332.59
+currentPrice	327.65
 currentRatio	1.893
 customPriceAlertConfidence	HIGH
-dateShortInterest	1772150400
-dayHigh	339.26
-dayLow	332.38
+dateShortInterest	1773360000
+dayHigh	334.14
+dayLow	324.93
 debtToEquity	72.971
-discount_to_intrinsic_value	32.39
+discount_to_intrinsic_value	33.55
 displayName	Stryker
 dividendDate	1777507200
 dividendRate	3.52
-dividendYield	1.05
+dividendYield	1.07
 earningsCallTimestampEnd	1769722200
 earningsCallTimestampStart	1769722200
 earningsGrowth	0.559
@@ -46,12 +46,12 @@ earningsTimestampEnd	1777579200
 earningsTimestampStart	1777579200
 ebitda	6949000192
 ebitdaMargins	0.27668
-enterpriseToEbitda	20.08
-enterpriseToRevenue	5.556
-enterpriseValue	139538432000
+enterpriseToEbitda	19.808
+enterpriseToRevenue	5.48
+enterpriseValue	137647947776
 epsCurrentYear	14.97344
-epsForward	16.7334
-epsTrailingTwelveMonths	8.39
+epsForward	16.74228
+epsTrailingTwelveMonths	8.41
 eps_normalized_growth	0.5809551588272159
 esgPopulated	False
 exDividendDate	1774915200
@@ -61,34 +61,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	(269) 385-1062
-fiftyDayAverage	362.627
-fiftyDayAverageChange	-30.037018
-fiftyDayAverageChangePercent	-0.08283172
-fiftyTwoWeekChangePercent	-10.802692
+fiftyDayAverage	361.8464
+fiftyDayAverageChange	-34.19641
+fiftyDayAverageChangePercent	-0.094505325
+fiftyTwoWeekChangePercent	-10.67515
 fiftyTwoWeekHigh	404.87
-fiftyTwoWeekHighChange	-72.28
-fiftyTwoWeekHighChangePercent	-0.17852645
-fiftyTwoWeekLow	328.23
-fiftyTwoWeekLowChange	4.3599854
-fiftyTwoWeekLowChangePercent	0.0132833235
-fiftyTwoWeekRange	328.23 - 404.87
+fiftyTwoWeekHighChange	-77.22
+fiftyTwoWeekHighChangePercent	-0.19072789
+fiftyTwoWeekLow	324.93
+fiftyTwoWeekLowChange	2.7200012
+fiftyTwoWeekLowChangePercent	0.008371037
+fiftyTwoWeekRange	324.93 - 404.87
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	0.99
 floatShares	346574345
-forwardEps	16.7334
-forwardPE	19.875816
+forwardEps	16.74228
+forwardPE	19.570215
 freeCashflow	4170125056
 fullExchangeName	NYSE
 fullTimeEmployees	56000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	491.93
+graham_intrinsic_value	493.11
 grossMargins	0.65042
 grossProfits	16336000000
 hasPrePostMarketData	True
-heldPercentInsiders	0.053979997
-heldPercentInstitutions	0.82234
+heldPercentInsiders	0.093839996
+heldPercentInstitutions	0.8217
 impliedSharesOutstanding	382688675
 industry	Medical Devices
 industryDisp	Medical Devices
@@ -104,48 +104,48 @@ lastSplitFactor	2:1
 longBusinessSummary	Stryker Corporation operates as a medical technology company in the United States and internationally. It operates through two segments, MedSurg and Neurotechnology, and Orthopaedics. The MedSurg and Neurotechnology segment offers surgical equipment, patient and caregiver safety technologies, navigation systems, endoscopic and communications systems, patient handling, emergency medical equipment and intensive care disposable products, clinical communication and artificial intelligence-assisted virtual care platform technology, and minimally invasive products for the treatment of acute ischemic and hemorrhagic stroke and venous thromboembolism; traditional brain and open skull based surgical procedures products; and orthobiologic and biosurgery products, including synthetic bone grafts and vertebral augmentation products. The Orthopaedics segment provides implants for use in total joint replacements, such as hip, knee and shoulder, ankle, and trauma and extremities surgeries; and Mako Shoulder, which expands the smart robotics suite of applications. The company sells its products to doctors, hospitals, and other healthcare facilities through company-owned subsidiaries and branches, as well as third-party dealers and distributors in approximately 61 countries. Stryker Corporation was founded in 1941 and is headquartered in Portage, Michigan.
 longName	Stryker Corporation
 market	us_market
-marketCap	127278424064
+marketCap	125387939840
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_94614
 mostRecentQuarter	1767139200
 netIncomeToCommon	3246000128
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	128457107537
+nonDilutedMarketCap	125717056624
 numberOfAnalystOpinions	28
-open	337.25
+open	332.74
 operatingCashflow	5043999744
 operatingMargins	0.27235
 overallRisk	7
 payoutRatio	0.4048
 pegRatio	1.618
 phone	(269) 385-2600
-postMarketChange	0.8501892
-postMarketChangePercent	0.25562683
-postMarketPrice	333.4402
-postMarketTime	1774310400
-previousClose	335.67
-priceEpsCurrentYear	22.211996
+postMarketChange	-0.72998047
+postMarketChangePercent	-0.22279276
+postMarketPrice	326.92
+postMarketTime	1774482944
+previousClose	328.51
+priceEpsCurrentYear	21.882078
 priceHint	2
-priceToBook	5.6742415
-priceToSalesTrailing12Months	5.067623
+priceToBook	5.5899615
+priceToSalesTrailing12Months	4.992353
 profitMargins	0.12923999
 quickRatio	1.044
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.87097
 region	US
-regularMarketChange	-3.08002
-regularMarketChangePercent	-0.917573
-regularMarketDayHigh	339.26
-regularMarketDayLow	332.38
-regularMarketDayRange	332.38 - 339.26
-regularMarketOpen	337.25
-regularMarketPreviousClose	335.67
-regularMarketPrice	332.59
-regularMarketTime	1774296003
-regularMarketVolume	1595256
+regularMarketChange	-0.860016
+regularMarketChangePercent	-0.261793
+regularMarketDayHigh	334.14
+regularMarketDayLow	324.93
+regularMarketDayRange	324.93 - 334.14
+regularMarketOpen	332.74
+regularMarketPreviousClose	328.51
+regularMarketPrice	327.65
+regularMarketTime	1774468802
+regularMarketVolume	1934022
 returnOnAssets	0.079229996
 returnOnEquity	0.15079
 revenueGrowth	0.114
@@ -155,13 +155,13 @@ sectorDisp	Healthcare
 sectorKey	healthcare
 shareHolderRightsRisk	6
 sharesOutstanding	382688675
-sharesPercentSharesOut	0.0112
-sharesShort	4273246
-sharesShortPreviousMonthDate	1769731200
-sharesShortPriorMonth	4109086
+sharesPercentSharesOut	0.0106
+sharesShort	4065508
+sharesShortPreviousMonthDate	1770940800
+sharesShortPriorMonth	4081187
 shortName	Stryker Corporation
-shortPercentOfFloat	0.0117
-shortRatio	2.04
+shortPercentOfFloat	0.0111
+shortRatio	2.08
 sourceInterval	15
 state	MI
 symbol	SYK
@@ -175,15 +175,15 @@ totalDebt	16359999488
 totalRevenue	25116000256
 tradeable	False
 trailingAnnualDividendRate	3.4
-trailingAnnualDividendYield	0.010128995
-trailingEps	8.39
-trailingPE	39.64124
-trailingPegRatio	1.5984
+trailingAnnualDividendYield	0.010349761
+trailingEps	8.41
+trailingPE	38.95957
+trailingPegRatio	1.5643
 triggerable	True
-twoHundredDayAverage	372.4217
-twoHundredDayAverageChange	-39.831696
-twoHundredDayAverageChangePercent	-0.10695321
+twoHundredDayAverage	372.14874
+twoHundredDayAverageChange	-44.49875
+twoHundredDayAverageChangePercent	-0.11957248
 typeDisp	Equity
-volume	1595256
+volume	1934022
 website	https://www.stryker.com
 zip	49002

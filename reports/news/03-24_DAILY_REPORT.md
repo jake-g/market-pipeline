@@ -19,7 +19,7 @@ A new trend is emerging in corporate governance where companies are aggressively
 - **Catalyst:** Integration of hyperscale cloud expertise into industrial-tier boardrooms [9].
 - **Actionable Evidence:** Infrastructure-linked sectors are being viewed as a "safe haven" from the software rout (SaaSpocalypse), with firms like ASML now being characterized as "bargains" despite broad tech pressure [1, 11].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 Near-term action will remain range-bound by geopolitical rumor cycles. Expect continued rotation out of broad SaaS and into "HALO" (Heavy Asset, Low Obsolescence) stocks [4, 12]. Until peace talks are verified, crude oil volatility will act as a ceiling for tech valuations, favoring infrastructure plays like Vertiv and specialized chip designers like ARM [4, 13].
 
 ## Quantitative Market Action & Specific Equities
