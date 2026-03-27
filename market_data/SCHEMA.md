@@ -47,10 +47,10 @@ This report documents the file structures and column data types used in `market_
 |---|---|---|
 | Date | str | 2026-03-27 |
 | Source | str | Google |
-| Sentiment | float64 | 0.567 |
-| Headline | str | Best Amazon Spring Sale Deals Under $25: Cheap ... |
-| Summary | str | It's the beginning of the AI pipeline. |
-| URL | str | https://news.google.com/rss/articles/CBMiggFBVV... |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Best Amazon Spring Sale portable power station ... |
+| Summary | str | Every month, without checking the price first, ... |
+| URL | str | https://news.google.com/rss/articles/CBMiigFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
