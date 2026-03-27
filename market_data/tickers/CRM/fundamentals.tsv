@@ -1,43 +1,43 @@
 Metric	Value
-52WeekChange	-0.3486601
-SandP52WeekChange	0.14778364
+52WeekChange	-0.34502
+SandP52WeekChange	0.15783262
 address1	Salesforce Tower
 address2	3rd Floor 415 Mission Street
 allTimeHigh	369.0
 allTimeLow	2.25
-ask	181.76
-askSize	200
+ask	185.9
+askSize	300
 auditRisk	2
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	14826760
-averageDailyVolume3Month	12330188
-averageVolume	12330188
-averageVolume10days	14826760
+averageDailyVolume10Day	15124630
+averageDailyVolume3Month	12498560
+averageVolume	12498560
+averageVolume10days	15124630
 beta	1.307
-bid	181.0
-bidSize	400
+bid	185.51
+bidSize	200
 boardRisk	8
 bookValue	63.662
 city	San Francisco
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Marc R. Benioff', 'age': 60, 'title': 'Co-Founder, Chairman & CEO', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 9646000, 'exercisedValue': 72533232, 'unexercisedValue': 121975536}, {'maxAge': 1, 'name': 'Mr. Srinivas  Tallapragada', 'age': 55, 'title': 'President, Chief Engineering & Customer Success Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 2512428, 'exercisedValue': 27424744, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Parker  Harris', 'age': 58, 'title': 'Co-Founder, CTO of Slack & Director', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 2250000, 'exercisedValue': 26011968, 'unexercisedValue': 72521712}, {'maxAge': 1, 'name': 'Mr. Stephen D. Fisher', 'age': 60, 'title': 'President, CPO, Executive VP and GM of Next Gen CRM & Unified Data', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Miguel  Milano', 'age': 56, 'title': 'President & Chief Revenue Officer', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Robin L. Washington CPA', 'age': 62, 'title': 'President, Chief Operating & Financial Officer and Director', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 200000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Schmaier', 'age': 61, 'title': 'President and Chief Strategy Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sabastian V. Niles', 'age': 45, 'title': 'President, Chief Legal Officer & Corporate Secretary', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 3918008, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Patrick  Stokes', 'title': 'President & Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sundeep G. Reddy', 'age': 51, 'title': 'Executive VP & Chief Accounting Officer', 'yearBorn': 1974, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	9
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'CRM announced a cash dividend of $0.44 with an ex-date of Apr. 9, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1775707200000, 'amount': '0.44'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	181.96
+currentPrice	185.64
 currentRatio	0.76
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	187.385
-dayLow	179.85
+dayHigh	187.47
+dayLow	179.53
 debtToEquity	29.947
-discount_to_intrinsic_value	60.21
+discount_to_intrinsic_value	60.77
 displayName	Salesforce
 dividendDate	1776902400
 dividendRate	1.76
-dividendYield	0.96
+dividendYield	0.97
 earningsCallTimestampEnd	1772056800
 earningsCallTimestampStart	1772056800
 earningsGrowth	0.179
@@ -47,12 +47,12 @@ earningsTimestampEnd	1779912000
 earningsTimestampStart	1779912000
 ebitda	12547999744
 ebitdaMargins	0.30218
-enterpriseToEbitda	14.034
-enterpriseToRevenue	4.241
-enterpriseValue	176095084544
-epsCurrentYear	13.18863
-epsForward	14.90718
-epsTrailingTwelveMonths	7.8
+enterpriseToEbitda	14.304
+enterpriseToRevenue	4.322
+enterpriseValue	179491717120
+epsCurrentYear	13.19603
+epsForward	14.90318
+epsTrailingTwelveMonths	7.96
 eps_normalized_growth	0.3435710827032816
 esgPopulated	False
 exDividendDate	1775692800
@@ -62,33 +62,33 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	415 901 7040
-fiftyDayAverage	203.21
-fiftyDayAverageChange	-21.25
-fiftyDayAverageChangePercent	-0.104571626
-fiftyTwoWeekChangePercent	-34.866013
+fiftyDayAverage	201.6612
+fiftyDayAverageChange	-16.021194
+fiftyDayAverageChangePercent	-0.07944609
+fiftyTwoWeekChangePercent	-34.502
 fiftyTwoWeekHigh	296.05
-fiftyTwoWeekHighChange	-114.08998
-fiftyTwoWeekHighChangePercent	-0.38537404
+fiftyTwoWeekHighChange	-110.40999
+fiftyTwoWeekHighChangePercent	-0.37294373
 fiftyTwoWeekLow	174.57
-fiftyTwoWeekLowChange	7.3899994
-fiftyTwoWeekLowChangePercent	0.042332582
+fiftyTwoWeekLowChange	11.069992
+fiftyTwoWeekLowChangePercent	0.06341291
 fiftyTwoWeekRange	174.57 - 296.05
 financialCurrency	USD
 firstTradeDateMilliseconds	1087997400000
 floatShares	897709800
-forwardEps	14.90718
-forwardPE	12.2062
+forwardEps	14.90318
+forwardPE	12.456402
 freeCashflow	16366999552
 fullExchangeName	NYSE
 fullTimeEmployees	83334
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	457.34
+graham_intrinsic_value	473.19
 grossMargins	0.77676004
 grossProfits	32255000576
 hasPrePostMarketData	True
 heldPercentInsiders	0.02684
-heldPercentInstitutions	0.85041
+heldPercentInstitutions	0.85035
 impliedSharesOutstanding	937000000
 industry	Software - Application
 industryDisp	Software - Application
@@ -105,50 +105,50 @@ lastSplitFactor	4:1
 longBusinessSummary	Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Service, which enables companies in every industry to bring all of their customer, employee, IT, and field service needs onto one integrated AI-powered platform; Data 360, a data engine that gives AI agents their context and serves as the foundation for how customers unify service offerings, making their data actionable for both humans and agents; Informatica, an AI-powered data management platform that enables customers to discover, integrate, govern, and deliver trusted data at scale across hybrid and multi-cloud environments; and Slack, a conversational interface for the agentic enterprise where people and agents work together, connecting knowledge, actions, and data in real time. It also provides marketing platforms; commerce services, which empower shopping experiences across various customer touchpoints; integration and analytics solutions; Salesforce Starter, a suite for small and medium-sized businesses that brings sales, service, marketing, and commerce together; and a field service solution that enables companies to connect service agents, dispatchers, and mobile employees through one centralized platform to schedule and dispatch work, as well as track and manage jobs. It serves financial services, healthcare and life sciences, manufacturing, automotive, and government sectors. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California.
 longName	Salesforce, Inc.
 market	us_market
-marketCap	170496524288
+marketCap	173944684544
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_122917
 mostRecentQuarter	1769817600
-nameChangeDate	2026-03-25
+nameChangeDate	2026-03-26
 netIncomeToCommon	7456999936
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	168927460000
+nonDilutedMarketCap	167949080000
 numberOfAnalystOpinions	53
-open	185.7
+open	181.18
 operatingCashflow	14995999744
 operatingMargins	0.19239001
 overallRisk	7
 payoutRatio	0.2133
 pegRatio	0.954
 phone	415 901 7000
-postMarketChange	-0.5200043
-postMarketChangePercent	-0.28577942
-postMarketPrice	181.44
-postMarketTime	1774483182
+postMarketChange	0.3600006
+postMarketChangePercent	0.19392405
+postMarketPrice	186.0
+postMarketTime	1774569591
 prevName	salesforce.com, inc.
-previousClose	183.02
-priceEpsCurrentYear	13.796733
+previousClose	181.96
+priceEpsCurrentYear	14.067867
 priceHint	2
-priceToBook	2.85822
-priceToSalesTrailing12Months	4.105877
+priceToBook	2.9160254
+priceToSalesTrailing12Months	4.188915
 profitMargins	0.17958
 quickRatio	0.644
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.63462
+recommendationMean	1.64151
 region	US
-regularMarketChange	-1.06
-regularMarketChangePercent	-0.57917
-regularMarketDayHigh	187.385
-regularMarketDayLow	179.85
-regularMarketDayRange	179.85 - 187.385
-regularMarketOpen	185.7
-regularMarketPreviousClose	183.02
-regularMarketPrice	181.96
-regularMarketTime	1774468802
-regularMarketVolume	12448773
+regularMarketChange	3.67999
+regularMarketChangePercent	2.02242
+regularMarketDayHigh	187.47
+regularMarketDayLow	179.53
+regularMarketDayRange	179.53 - 187.47
+regularMarketOpen	181.18
+regularMarketPreviousClose	181.96
+regularMarketPrice	185.64
+regularMarketTime	1774555203
+regularMarketVolume	10120119
 returnOnAssets	0.05179
 returnOnEquity	0.123959996
 revenueGrowth	0.121
@@ -170,7 +170,7 @@ state	CA
 symbol	CRM
 targetHighPrice	475.0
 targetLowPrice	190.0
-targetMeanPrice	273.66302
+targetMeanPrice	273.8517
 targetMedianPrice	255.0
 totalCash	9564999680
 totalCashPerShare	10.363
@@ -178,15 +178,15 @@ totalDebt	17710999552
 totalRevenue	41524998144
 tradeable	False
 trailingAnnualDividendRate	1.664
-trailingAnnualDividendYield	0.0090919025
-trailingEps	7.8
-trailingPE	23.328205
-trailingPegRatio	0.9934
+trailingAnnualDividendYield	0.009144867
+trailingEps	7.96
+trailingPE	23.321608
+trailingPegRatio	0.9872
 triggerable	True
-twoHundredDayAverage	240.1887
-twoHundredDayAverageChange	-58.2287
-twoHundredDayAverageChangePercent	-0.24242896
+twoHundredDayAverage	239.72595
+twoHundredDayAverageChange	-54.085953
+twoHundredDayAverageChangePercent	-0.22561575
 typeDisp	Equity
-volume	12448773
+volume	10120119
 website	https://www.salesforce.com
 zip	94105

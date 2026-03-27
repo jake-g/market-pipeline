@@ -17,15 +17,15 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.030378342 |
+| Value | str | 0.051400423 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
 | Earnings Date | str | 2026-04-30 16:00:00-04:00 |
-| EPS Estimate | float64 | 1.64 |
+| EPS Estimate | float64 | 1.65 |
 | Reported EPS | float64 | 1.95 |
-| Surprise(%) | float64 | 0.22 |
+| Surprise(%) | float64 | -0.49 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-26 |
+| Date | str | 2026-03-27 |
 | Source | str | Google |
-| Sentiment | float64 | 0.625 |
-| Headline | str | Amazon's Big Spring Sale Has the Most Impressiv... |
-| Summary | str | Buffett always looks for value when investing. |
-| URL | str | https://news.google.com/rss/articles/CBMihwFBVV... |
+| Sentiment | float64 | 0.567 |
+| Headline | str | Best Amazon Spring Sale Deals Under $25: Cheap ... |
+| Summary | str | It's the beginning of the AI pipeline. |
+| URL | str | https://news.google.com/rss/articles/CBMiggFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.88 |
-| US10Y | float64 | 4.39 |
+| US02Y | float64 | 3.84 |
+| US10Y | float64 | 4.33 |

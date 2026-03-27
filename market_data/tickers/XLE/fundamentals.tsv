@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	90.94
 allTimeLow	9.69
-ask	60.56
-askSize	6600
-averageDailyVolume10Day	54839600
-averageDailyVolume3Month	56583970
-averageVolume	56583970
-averageVolume10days	54839600
+ask	61.55
+askSize	24900
+averageDailyVolume10Day	54239280
+averageDailyVolume3Month	56998236
+averageVolume	56998236
+averageVolume10days	54239280
 beta3Year	0.51
-bid	60.55
-bidSize	19300
+bid	61.59
+bidSize	24700
 bookValue	52.115
 category	Equity Energy
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	61.0
-dayLow	60.26
+dayHigh	61.86
+dayLow	60.59
 dividendYield	2.62
 epsTrailingTwelveMonths	2.6016746
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	53.7552
-fiftyDayAverageChange	6.8148003
-fiftyDayAverageChangePercent	0.12677471
-fiftyTwoWeekChangePercent	29.750479
-fiftyTwoWeekHigh	61.47
-fiftyTwoWeekHighChange	-0.9000015
-fiftyTwoWeekHighChangePercent	-0.014641313
+fiftyDayAverage	54.0398
+fiftyDayAverageChange	7.4802017
+fiftyDayAverageChangePercent	0.13842024
+fiftyTwoWeekChangePercent	30.440403
+fiftyTwoWeekHigh	61.86
+fiftyTwoWeekHighChange	-0.34000015
+fiftyTwoWeekHighChangePercent	-0.0054962845
 fiftyTwoWeekLow	37.245
-fiftyTwoWeekLowChange	23.325
-fiftyTwoWeekLowChangePercent	0.6262586
-fiftyTwoWeekRange	37.245 - 61.47
+fiftyTwoWeekLowChange	24.275002
+fiftyTwoWeekLowChangePercent	0.6517654
+fiftyTwoWeekRange	37.245 - 61.86
 financialCurrency	USD
 firstTradeDateMilliseconds	914337000000
-fiveYearAverageReturn	0.2442252
+fiveYearAverageReturn	0.2422082
 fullExchangeName	NYSEArca
 fundFamily	State Street Investment Management
 fundInceptionDate	913766400
@@ -51,52 +51,52 @@ legalType	Exchange Traded Fund
 longBusinessSummary	In seeking to track the performance of the index, the fund employs a replication strategy. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies that have been identified as Energy companies by the GICS®, including securities of companies from the following industries: oil, gas and consumable fuels; and energy equipment and services. It is non-diversified.
 longName	State Street Energy Select Sector SPDR ETF
 market	us_market
-marketCap	11291701248
+marketCap	11468804096
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_8795479
-navPrice	60.82342
+navPrice	60.57113
 netAssets	37876244000.0
 netExpenseRatio	0.08
-open	60.32
-postMarketChange	0.08000183
-postMarketChangePercent	0.13208161
-postMarketPrice	60.65
-postMarketTime	1774483197
-previousClose	60.84
+open	60.67
+postMarketChange	0.07519913
+postMarketChangePercent	0.12223525
+postMarketPrice	61.5952
+postMarketTime	1774569595
+previousClose	60.57
 priceHint	2
-priceToBook	1.1622373
-quoteSourceName	Delayed Quote
+priceToBook	1.1804663
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.27
-regularMarketChangePercent	-0.443788
-regularMarketDayHigh	61.0
-regularMarketDayLow	60.26
-regularMarketDayRange	60.26 - 61.0
-regularMarketOpen	60.32
-regularMarketPreviousClose	60.84
-regularMarketPrice	60.57
-regularMarketTime	1774468800
-regularMarketVolume	42601001
+regularMarketChange	0.950001
+regularMarketChangePercent	1.56843
+regularMarketDayHigh	61.86
+regularMarketDayLow	60.59
+regularMarketDayRange	60.59 - 61.86
+regularMarketOpen	60.67
+regularMarketPreviousClose	60.57
+regularMarketPrice	61.52
+regularMarketTime	1774555200
+regularMarketVolume	54741364
 sharesOutstanding	186424000
 shortName	State Street Energy Select Sect
 sourceInterval	15
 symbol	XLE
-threeYearAverageReturn	0.19858931
+threeYearAverageReturn	0.1968136
 totalAssets	37876244480
 tradeable	False
 trailingAnnualDividendRate	2.16
-trailingAnnualDividendYield	0.03550296
-trailingPE	23.281158
+trailingAnnualDividendYield	0.03566122
+trailingPE	23.646309
 trailingPegRatio	None
 trailingThreeMonthNavReturns	24.62394
 trailingThreeMonthReturns	24.62394
 triggerable	True
-twoHundredDayAverage	46.52515
-twoHundredDayAverageChange	14.044849
-twoHundredDayAverageChangePercent	0.3018765
+twoHundredDayAverage	46.619476
+twoHundredDayAverageChange	14.900524
+twoHundredDayAverageChangePercent	0.31962016
 typeDisp	ETF
-volume	42601001
+volume	54741364
 yield	0.026199998
 ytdReturn	24.99914
