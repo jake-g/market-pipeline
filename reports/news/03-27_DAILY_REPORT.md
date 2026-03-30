@@ -13,7 +13,7 @@ A significant narrative shift has occurred in the bond market today as investors
 ### Official Nasdaq Correction and the "Peace Mirage"
 The **Nasdaq Composite** has officially entered correction territory today, falling more than 400 points to hit new 2026 lows [8, 9]. This move represents a drop of at least 10% from its recent peak, signaling that the "peace talk" relief rallies seen earlier in the month were mere mirages [7, 8]. Investors are now discounting diplomatic efforts and repositioning for a potential bear market (a 20% drawdown) as the war in Iran continues to disrupt global asset pricing across gold, oil, and Bitcoin [6, 9].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 We are witnessing the final breakdown of the 2025 growth-at-any-cost regime. Expect the Nasdaq to test the 20% bear market threshold in the coming weeks as "Claude Mythos" forces a complete repricing of the software sector. Alpha will reside exclusively in "Hard-Asset, Low-Obsolescence" (HALO) Materials and domestic Energy plays that benefit from the war-driven supply shock, as seen in today's higher prices for palm oil and crude [9, 10].
 
 ## Quantitative Market Action & Specific Equities

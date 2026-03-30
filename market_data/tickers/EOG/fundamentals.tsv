@@ -1,43 +1,43 @@
 Metric	Value
-52WeekChange	0.13004029
-SandP52WeekChange	0.15783262
+52WeekChange	0.16625082
+SandP52WeekChange	0.13489318
 address1	1111 Bagby Street
 address2	Sky Lobby 2
 allTimeHigh	150.88
 allTimeLow	2.03125
-ask	147.54
-askSize	100
+ask	150.0
+askSize	200
 auditRisk	8
 averageAnalystRating	2.3 - Buy
-averageDailyVolume10Day	5684510
-averageDailyVolume3Month	5306610
-averageVolume	5306610
-averageVolume10days	5684510
+averageDailyVolume10Day	5509020
+averageDailyVolume3Month	5303824
+averageVolume	5303824
+averageVolume10days	5509020
 beta	0.427
-bid	147.19
-bidSize	500
+bid	149.3
+bidSize	300
 boardRisk	6
 bookValue	55.486
 city	Houston
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Ezra Y. Yacob', 'age': 47, 'title': 'CEO & Chairman', 'yearBorn': 1978, 'fiscalYear': 2024, 'totalPay': 4775308, 'exercisedValue': 1765165, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Ann D. Janssen', 'age': 60, 'title': 'Executive VP & CFO', 'yearBorn': 1965, 'fiscalYear': 2024, 'totalPay': 1584151, 'exercisedValue': 233553, 'unexercisedValue': 1623891}, {'maxAge': 1, 'name': 'Mr. Jeffrey R. Leitzell', 'age': 45, 'title': 'Executive VP & COO', 'yearBorn': 1980, 'fiscalYear': 2024, 'totalPay': 1773888, 'exercisedValue': 207194, 'unexercisedValue': 1405302}, {'maxAge': 1, 'name': 'Mr. Michael P. Donaldson', 'age': 62, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1963, 'fiscalYear': 2024, 'totalPay': 2046055, 'exercisedValue': 798492, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Laura B. Distefano', 'title': 'VP & Chief Accounting Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sandeep  Bhakhri', 'title': 'Senior VP and Chief Information & Technology Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pearce Wheless Hammond Jr., C.F.A.', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michele L. Hatz', 'title': 'Senior VP & Chief Human Resources Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John J. Boyd III', 'title': 'Senior Vice President of Operations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Keith P. Trasko', 'title': 'Senior Vice President of Exploration & Production', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
-compensationAsOfEpochDate	1735603200
+companyOfficers	[{'maxAge': 1, 'name': 'Ms. Ann D. Janssen', 'age': 60, 'title': 'Executive VP & CFO', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 1787354, 'exercisedValue': 0, 'unexercisedValue': 1130262}, {'maxAge': 1, 'name': 'Mr. Jeffrey R. Leitzell', 'age': 45, 'title': 'Executive VP & COO', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1962005, 'exercisedValue': 393989, 'unexercisedValue': 731403}, {'maxAge': 1, 'name': 'Mr. Michael P. Donaldson', 'age': 62, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 1996068, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Laura B. Distefano', 'title': 'VP & Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sandeep  Bhakhri', 'title': 'Senior VP and Chief Information & Technology Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pearce Wheless Hammond Jr., C.F.A.', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michele L. Hatz', 'title': 'Senior VP & Chief Human Resources Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John J. Boyd III', 'title': 'Senior Vice President of Operations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Keith P. Trasko', 'title': 'Senior Vice President of Exploration & Production', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David D. Campbell', 'title': 'Senior Vice President of Exploration & Production', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+compensationAsOfEpochDate	1767139200
 compensationRisk	4
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'EOG announced a cash dividend of $1.02 with an ex-date of Apr. 16, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1776312000000, 'amount': '1.02'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	147.49
+currentPrice	149.56
 currentRatio	1.632
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	148.7
-dayLow	144.18
+dayHigh	150.1
+dayLow	147.0075
 debtToEquity	30.62
-discount_to_intrinsic_value	-81.66
+discount_to_intrinsic_value	-93.81
 displayName	EOG Resources
 dividendDate	1777507200
 dividendRate	4.08
-dividendYield	2.85
+dividendYield	2.73
 earningsCallTimestampEnd	1778076000
 earningsCallTimestampStart	1778076000
 earningsGrowth	-0.417
@@ -47,12 +47,12 @@ earningsTimestampEnd	1778011200
 earningsTimestampStart	1778011200
 ebitda	11724000256
 ebitdaMargins	0.51752
-enterpriseToEbitda	7.239
-enterpriseToRevenue	3.746
-enterpriseValue	84866129920
-epsCurrentYear	11.21889
-epsForward	11.80314
-epsTrailingTwelveMonths	9.4
+enterpriseToEbitda	7.333
+enterpriseToRevenue	3.795
+enterpriseValue	85976670208
+epsCurrentYear	11.82752
+epsForward	12.16604
+epsTrailingTwelveMonths	9.12
 eps_normalized_growth	-0.3454453250830447
 esgPopulated	False
 exDividendDate	1776297600
@@ -62,34 +62,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	713 651 6995
-fiftyDayAverage	121.4912
-fiftyDayAverageChange	25.998802
-fiftyDayAverageChangePercent	0.21399741
-fiftyTwoWeekChangePercent	13.004028
-fiftyTwoWeekHigh	148.7
-fiftyTwoWeekHighChange	-1.2099915
-fiftyTwoWeekHighChangePercent	-0.008137132
+fiftyDayAverage	123.0566
+fiftyDayAverageChange	26.503395
+fiftyDayAverageChangePercent	0.21537565
+fiftyTwoWeekChangePercent	16.625082
+fiftyTwoWeekHigh	150.1
+fiftyTwoWeekHighChange	-0.54000854
+fiftyTwoWeekHighChangePercent	-0.0035976584
 fiftyTwoWeekLow	101.59
-fiftyTwoWeekLowChange	45.90001
-fiftyTwoWeekLowChangePercent	0.45181623
-fiftyTwoWeekRange	101.59 - 148.7
+fiftyTwoWeekLowChange	47.97
+fiftyTwoWeekLowChangePercent	0.47219217
+fiftyTwoWeekRange	101.59 - 150.1
 financialCurrency	USD
 firstTradeDateMilliseconds	623511000000
 fiveYearAvgDividendYield	2.6
 floatShares	534533299
-forwardEps	11.80314
-forwardPE	12.495829
+forwardEps	12.16604
+forwardPE	12.293235
 freeCashflow	2327249920
 fullExchangeName	NYSE
 fullTimeEmployees	3400
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1772323200
-graham_intrinsic_value	81.19
+graham_intrinsic_value	77.17
 grossMargins	0.6202
 grossProfits	14049999872
 hasPrePostMarketData	True
 heldPercentInsiders	0.0030899998
-heldPercentInstitutions	0.95177
+heldPercentInstitutions	0.95178
 impliedSharesOutstanding	542598458
 industry	Oil & Gas E&P
 industryDisp	Oil & Gas E&P
@@ -104,30 +104,30 @@ lastSplitFactor	2:1
 longBusinessSummary	EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in producing basins in the United States, the Republic of Trinidad and Tobago, and internationally. The company also offers crude oil and condensate, and gathering, processing and marketing. The company was formerly known as Enron Oil & Gas Company. EOG Resources, Inc. was incorporated in 1985 and is headquartered in Houston, Texas.
 longName	EOG Resources, Inc.
 market	us_market
-marketCap	80027852800
-marketState	POSTPOST
+marketCap	81151025152
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_269660
 mostRecentQuarter	1767139200
 netIncomeToCommon	4979999744
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	76830946712
+nonDilutedMarketCap	80237667693
 numberOfAnalystOpinions	30
-open	144.32
+open	147.61
 operatingCashflow	10044000256
 operatingMargins	0.1694
 overallRisk	4
 payoutRatio	0.4326
 phone	713 651 7000
-postMarketChange	1.75
-postMarketChangePercent	1.186521
-postMarketPrice	149.24
-postMarketTime	1774569532
-previousClose	143.21
-priceEpsCurrentYear	13.146577
+postMarketChange	0.44000244
+postMarketChangePercent	0.29419795
+postMarketPrice	150.0
+postMarketTime	1774656000
+previousClose	147.49
+priceEpsCurrentYear	12.645084
 priceHint	2
-priceToBook	2.658148
-priceToSalesTrailing12Months	3.5326147
+priceToBook	2.6954546
+priceToSalesTrailing12Months	3.5821943
 profitMargins	0.21982999
 quickRatio	1.295
 quoteSourceName	Delayed Quote
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.25
 region	US
-regularMarketChange	4.28
-regularMarketChangePercent	2.98862
-regularMarketDayHigh	148.7
-regularMarketDayLow	144.18
-regularMarketDayRange	144.18 - 148.7
-regularMarketOpen	144.32
-regularMarketPreviousClose	143.21
-regularMarketPrice	147.49
-regularMarketTime	1774555202
-regularMarketVolume	4082897
+regularMarketChange	2.06999
+regularMarketChangePercent	1.40348
+regularMarketDayHigh	150.1
+regularMarketDayLow	147.0075
+regularMarketDayRange	147.0075 - 150.1
+regularMarketOpen	147.61
+regularMarketPreviousClose	147.49
+regularMarketPrice	149.56
+regularMarketTime	1774641603
+regularMarketVolume	3384621
 returnOnAssets	0.08199
 returnOnEquity	0.16829
 revenueGrowth	0.0
@@ -164,26 +164,26 @@ shortRatio	2.66
 sourceInterval	15
 state	TX
 symbol	EOG
-syntheticPEG	-0.2996601678657075
-targetHighPrice	170.0
+syntheticPEG	-0.2948017985611511
+targetHighPrice	185.0
 targetLowPrice	110.0
-targetMeanPrice	142.1
-targetMedianPrice	142.0
+targetMeanPrice	145.1
+targetMedianPrice	144.5
 totalCash	3396000000
 totalCashPerShare	6.33
 totalDebt	9134999552
 totalRevenue	22653999104
 tradeable	False
 trailingAnnualDividendRate	3.99
-trailingAnnualDividendYield	0.027861182
-trailingEps	9.4
-trailingPE	15.690427
-trailingPegRatio	3.7592
+trailingAnnualDividendYield	0.02705268
+trailingEps	9.12
+trailingPE	16.399122
+trailingPegRatio	3.9259
 triggerable	True
-twoHundredDayAverage	115.68845
-twoHundredDayAverageChange	31.801552
-twoHundredDayAverageChangePercent	0.2748896
+twoHundredDayAverage	116.01265
+twoHundredDayAverageChange	33.547348
+twoHundredDayAverageChangePercent	0.28916973
 typeDisp	Equity
-volume	4082897
+volume	3384621
 website	https://www.eogresources.com
 zip	77002

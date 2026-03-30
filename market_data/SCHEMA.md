@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.051400423 |
+| Value | str | 0.047724128 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (146 more) | | |
+| ... (144 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-27 |
+| Date | str | 2026-03-30 |
 | Source | str | Google |
 | Sentiment | float64 | 1.0 |
-| Headline | str | Best Amazon Spring Sale portable power station ... |
-| Summary | str | Every month, without checking the price first, ... |
-| URL | str | https://news.google.com/rss/articles/CBMiigFBVV... |
+| Headline | str | Best Amazon Spring Sale past-gen tech deals 202... |
+| Summary | str | Amazon has a broad portfolio of well-known subs... |
+| URL | str | https://news.google.com/rss/articles/CBMiiAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.8 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.84 |
-| US10Y | float64 | 4.33 |
+| US02Y | float64 | 3.96 |
+| US10Y | float64 | 4.42 |
