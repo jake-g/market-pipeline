@@ -49,7 +49,7 @@ This report documents the file structures and column data types used in `market_
 | Source | str | Google |
 | Sentiment | float64 | 1.0 |
 | Headline | str | Best Amazon Spring Sale past-gen tech deals 202... |
-| Summary | str | Amazon has a broad portfolio of well-known subs... |
+| Summary | str | We just covered Bill Gates’ 2026 Portfolio: Top... |
 | URL | str | https://news.google.com/rss/articles/CBMiiAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
