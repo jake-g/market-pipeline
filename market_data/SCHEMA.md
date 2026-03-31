@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.047724128 |
+| Value | str | 0.04568875 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-30 |
+| Date | str | 2026-03-31 |
 | Source | str | Google |
 | Sentiment | float64 | 1.0 |
-| Headline | str | Best Amazon Spring Sale past-gen tech deals 202... |
-| Summary | str | We just covered Bill Gates’ 2026 Portfolio: Top... |
-| URL | str | https://news.google.com/rss/articles/CBMiiAFBVV... |
+| Headline | str | Gear up for your best spring yet with these exp... |
+| Summary | str | Yahoo Finance Host Josh Lipton tracks today's t... |
+| URL | str | https://news.google.com/rss/articles/CBMif0FVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

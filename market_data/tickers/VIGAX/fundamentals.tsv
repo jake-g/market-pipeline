@@ -17,7 +17,7 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
-dividendRate	1.0119
+dividendRate	0.2359
 dividendYield	0.43
 epsTrailingTwelveMonths	6.9878783
 esgPopulated	False
@@ -26,16 +26,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	238.9566
-fiftyDayAverageChange	-21.536606
-fiftyDayAverageChangePercent	-0.090127684
-fiftyTwoWeekChangePercent	13.89209
+fiftyDayAverage	238.2818
+fiftyDayAverageChange	-13.491806
+fiftyDayAverageChangePercent	-0.05662122
+fiftyTwoWeekChangePercent	12.208664
 fiftyTwoWeekHigh	259.45
-fiftyTwoWeekHighChange	-42.030014
-fiftyTwoWeekHighChangePercent	-0.16199657
+fiftyTwoWeekHighChange	-34.66002
+fiftyTwoWeekHighChangePercent	-0.13359036
 fiftyTwoWeekLow	169.16
-fiftyTwoWeekLowChange	48.259995
-fiftyTwoWeekLowChangePercent	0.285292
+fiftyTwoWeekLowChange	55.62999
+fiftyTwoWeekLowChangePercent	0.3288602
 fiftyTwoWeekRange	169.16 - 259.45
 financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
@@ -45,12 +45,12 @@ gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	49.0
-lastDividendValue	1.0119
+lastDividendValue	0.2359
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, a broadly diversified index predominantly made up of growth stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index.
 longName	Vanguard Growth Index Admiral
 market	us_market
-marketCap	178818383872
-marketState	CLOSED
+marketCap	184879874048
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22939698
 morningStarOverallRating	4
@@ -58,17 +58,17 @@ morningStarRiskRating	3
 netAssets	335907095000.0
 netExpenseRatio	0.05
 phone	800-523-1036
-previousClose	222.74
+previousClose	216.17
 priceHint	2
-priceToBook	1.0077451
+priceToBook	1.0419052
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-5.32
-regularMarketChangePercent	-2.3884351
-regularMarketPreviousClose	222.74
-regularMarketPrice	217.42
-regularMarketTime	1774656509
+regularMarketChange	8.62
+regularMarketChangePercent	3.9876025
+regularMarketPreviousClose	216.17
+regularMarketPrice	224.79
+regularMarketTime	1774993512
 sharesOutstanding	822456000
 shortName	Vanguard Growth Index Fd Admira
 sourceInterval	15
@@ -76,14 +76,14 @@ symbol	VIGAX
 totalAssets	335907094528
 tradeable	False
 trailingAnnualDividendRate	1.54
-trailingAnnualDividendYield	0.00691389
-trailingPE	31.113878
+trailingAnnualDividendYield	0.0071240226
+trailingPE	32.16856
 trailingPegRatio	None
 trailingThreeMonthReturns	-5.95845
 triggerable	False
-twoHundredDayAverage	241.0302
-twoHundredDayAverageChange	-23.610199
-twoHundredDayAverageChangePercent	-0.09795535
+twoHundredDayAverage	241.0219
+twoHundredDayAverageChange	-16.231903
+twoHundredDayAverageChangePercent	-0.06734618
 typeDisp	Fund
 yield	0.0043
 ytdReturn	-5.48698

@@ -1,41 +1,41 @@
 Metric	Value
-52WeekChange	0.884915
-SandP52WeekChange	0.13489318
+52WeekChange	0.7905611
+SandP52WeekChange	0.1261568
 address1	One Dell Way
 allTimeHigh	186.39
 allTimeLow	11.792645
-ask	171.4
+ask	164.3
 askSize	200
 auditRisk	10
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	10790890
-averageDailyVolume3Month	8612763
-averageVolume	8612763
-averageVolume10days	10790890
+averageDailyVolume10Day	11012690
+averageDailyVolume3Month	8830663
+averageVolume	8830663
+averageVolume10days	11012690
 beta	1.036
-bid	169.5
-bidSize	200
+bid	163.8
+bidSize	400
 boardRisk	10
 bookValue	-3.788
 city	Round Rock
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael Saul Dell', 'age': 60, 'title': 'Chairman & CEO', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 3092256, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William F. Scannell', 'age': 63, 'title': 'President & Chief Customer Officer', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 1943639, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey W. Clarke', 'age': 62, 'title': 'COO & Vice Chairman', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 3575898, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard J. Rothberg Esq.', 'age': 61, 'title': 'General Counsel & Secretary', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1782009, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Kennedy', 'age': 47, 'title': 'Chief Financial Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard Troy Sharp', 'age': 40, 'title': 'Senior VP of Corporate Finance & Chief Accounting Officer', 'yearBorn': 1985, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul  Frantz', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Zimmerman', 'title': 'Vice President of Corporate Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Geraldine  Tunnell', 'age': 48, 'title': 'Chief Marketing Officer', 'yearBorn': 1977, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pete  Trizzino', 'title': 'President of Global Sales', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	8
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'DELL announced a cash dividend of $0.63 with an ex-date of Apr. 21, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1776744000000, 'amount': '0.63'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	171.81
+currentPrice	164.13
 currentRatio	0.91
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	176.12
-dayLow	170.345
-discount_to_intrinsic_value	66.01
+dayHigh	167.99
+dayLow	155.37
+discount_to_intrinsic_value	67.53
 displayName	Dell
 dividendDate	1777593600
 dividendRate	2.52
-dividendYield	1.47
+dividendYield	1.53
 earningsCallTimestampEnd	1780000200
 earningsCallTimestampStart	1780000200
 earningsGrowth	0.573
@@ -45,11 +45,11 @@ earningsTimestampEnd	1779998400
 earningsTimestampStart	1779998400
 ebitda	11457000448
 ebitdaMargins	0.10090999
-enterpriseToEbitda	11.493
-enterpriseToRevenue	1.16
-enterpriseValue	131673038848
+enterpriseToEbitda	11.09
+enterpriseToRevenue	1.119
+enterpriseValue	127055937536
 epsCurrentYear	12.79821
-epsForward	14.47155
+epsForward	14.49966
 epsTrailingTwelveMonths	8.68
 eps_normalized_growth	0.7612226272985099
 esgPopulated	False
@@ -59,22 +59,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	134.0928
-fiftyDayAverageChange	37.717194
-fiftyDayAverageChangePercent	0.2812768
-fiftyTwoWeekChangePercent	88.4915
+fiftyDayAverage	134.9928
+fiftyDayAverageChange	29.137207
+fiftyDayAverageChangePercent	0.21584268
+fiftyTwoWeekChangePercent	79.05611
 fiftyTwoWeekHigh	186.39
-fiftyTwoWeekHighChange	-14.580002
-fiftyTwoWeekHighChangePercent	-0.078223094
+fiftyTwoWeekHighChange	-22.259995
+fiftyTwoWeekHighChangePercent	-0.11942698
 fiftyTwoWeekLow	66.25
-fiftyTwoWeekLowChange	105.56
-fiftyTwoWeekLowChangePercent	1.5933584
+fiftyTwoWeekLowChange	97.880005
+fiftyTwoWeekLowChangePercent	1.477434
 fiftyTwoWeekRange	66.25 - 186.39
 financialCurrency	USD
 firstTradeDateMilliseconds	1471440600000
 floatShares	295061840
-forwardEps	14.47155
-forwardPE	11.872259
+forwardEps	14.49966
+forwardPE	11.319576
 freeCashflow	6606750208
 fullExchangeName	NYSE
 fullTimeEmployees	97000
@@ -85,7 +85,7 @@ grossMargins	0.20125
 grossProfits	22848999424
 hasPrePostMarketData	True
 heldPercentInsiders	0.07684
-heldPercentInstitutions	0.85210997
+heldPercentInstitutions	0.85463
 impliedSharesOutstanding	662689606
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -100,48 +100,48 @@ lastSplitFactor	1973:1000
 longBusinessSummary	Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions, including all-flash, purpose-built, hyper-converged infrastructure, software-defined storage, and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and optics that help its business customers to transform and modernize their infrastructure and complementing its server and storage solutions; and software, peripherals, and services, including consulting and support, and deployment. The CSG segment provides notebooks, desktops, and workstations and branded peripherals that include displays, docking stations, keyboards, mice, webcam and audio devices, and third-party software and peripherals; and configuration, and extended warranties services. The company is involved in originating, collecting, and servicing customer financing arrangements and offers payment and consumption solutions and services, such utility, subscription, as-a-service, leases, and loans, as well as fixed-term leases and loans. It serves enterprises, governmental agencies and other public institutions, educational institutions, healthcare organizations, small and medium-sized businesses, and consumers. The company was formerly known as Denali Holding Inc. and changed its name to Dell Technologies Inc. in March 2013. Dell Technologies Inc. was founded in 1984 and is headquartered in Round Rock, Texas.
 longName	Dell Technologies Inc.
 market	us_market
-marketCap	113856700416
-marketState	CLOSED
+marketCap	108767248384
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_266017
 mostRecentQuarter	1769731200
 netIncomeToCommon	5936000000
 nextFiscalYearEnd	1801267200
-nonDilutedMarketCap	110946041365
+nonDilutedMarketCap	106328939941
 numberOfAnalystOpinions	23
-open	175.13
+open	164.29
 operatingCashflow	11185000448
 operatingMargins	0.09623
 overallRisk	10
 payoutRatio	0.24190001
 pegRatio	0.83
 phone	800 289 3355
-postMarketChange	-1.800003
-postMarketChangePercent	-1.0476707
-postMarketPrice	170.01
-postMarketTime	1774655869
-previousClose	175.82
-priceEpsCurrentYear	13.424533
+postMarketChange	-0.120010376
+postMarketChangePercent	-0.0731191
+postMarketPrice	164.01
+postMarketTime	1774995504
+previousClose	164.66
+priceEpsCurrentYear	12.82445
 priceHint	2
-priceToBook	-45.356388
-priceToSalesTrailing12Months	1.002807
+priceToBook	-43.328934
+priceToSalesTrailing12Months	0.95798105
 profitMargins	0.05228
 quickRatio	0.594
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.84615
+recommendationMean	1.80769
 region	US
-regularMarketChange	-4.01001
-regularMarketChangePercent	-2.28075
-regularMarketDayHigh	176.12
-regularMarketDayLow	170.345
-regularMarketDayRange	170.345 - 176.12
-regularMarketOpen	175.13
-regularMarketPreviousClose	175.82
-regularMarketPrice	171.81
-regularMarketTime	1774641776
-regularMarketVolume	7197321
+regularMarketChange	-0.529999
+regularMarketChangePercent	-0.321875
+regularMarketDayHigh	167.99
+regularMarketDayLow	155.37
+regularMarketDayRange	155.37 - 167.99
+regularMarketOpen	164.29
+regularMarketPreviousClose	164.66
+regularMarketPrice	164.13
+regularMarketTime	1774987445
+regularMarketVolume	13689267
 returnOnAssets	0.0602
 returnOnEquity	0.443
 revenueGrowth	0.395
@@ -171,15 +171,15 @@ totalDebt	32259999744
 totalRevenue	113537998848
 tradeable	False
 trailingAnnualDividendRate	2.1
-trailingAnnualDividendYield	0.011944032
+trailingAnnualDividendYield	0.012753552
 trailingEps	8.68
-trailingPE	19.793777
-trailingPegRatio	0.7119
+trailingPE	18.908985
+trailingPegRatio	0.6823
 triggerable	True
-twoHundredDayAverage	133.24515
-twoHundredDayAverageChange	38.56485
-twoHundredDayAverageChangePercent	0.2894278
+twoHundredDayAverage	133.51225
+twoHundredDayAverageChange	30.617752
+twoHundredDayAverageChangePercent	0.22932541
 typeDisp	Equity
-volume	7197321
+volume	13689267
 website	https://www.dell.com
 zip	78682
