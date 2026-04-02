@@ -13,7 +13,7 @@ Market sentiment today was primarily driven by **"Hormuz Hope"**—fresh optimis
 ### The China Trade Barrier Pivot
 The afternoon session introduced a new volatility catalyst: **China’s Ministry of Commerce** initiating trade barrier investigations into U.S. practices [9]. This escalation directly targets the semiconductor supply chain, alleging disruption to global flows [9]. This creates a massive divergence between domestic-focused AI infrastructure plays and those with heavy Asian exposure, threatening to cap the recovery gains seen in the chip sector earlier in the day [9, 10].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 While today’s rally provided a historic 1-day reprieve, the S&P 500 is closing its **worst quarter since 2022** [11]. Investors should expect extreme volatility in April; if the 10-day military pause in Iran fails to hold, we anticipate a further **10-15% correction** as markets re-price the combined impact of $110+ oil and the new Chinese trade probes [12, 13]. Alpha will likely migrate to "Oracle-style" firms that are aggressively cutting legacy costs to fund AI capital expenditure [14].
 
 ## Quantitative Market Action & Specific Equities

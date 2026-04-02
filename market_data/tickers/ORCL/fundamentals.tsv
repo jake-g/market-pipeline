@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	-0.022122025
-SandP52WeekChange	0.1261568
+52WeekChange	0.058296323
+SandP52WeekChange	0.21843708
 address1	2300 Oracle Way
 allTimeHigh	345.72
 allTimeLow	0.040123
-ask	147.09
-askSize	40
+ask	0.0
+askSize	80
 auditRisk	1
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	22176050
-averageDailyVolume3Month	27395565
-averageVolume	27395565
-averageVolume10days	22176050
+averageDailyVolume10Day	22630940
+averageDailyVolume3Month	27470863
+averageVolume	27470863
+averageVolume10days	22630940
 beta	1.648
-bid	146.63
+bid	0.0
 bidSize	120
 boardRisk	10
 bookValue	11.666
@@ -21,22 +21,22 @@ city	Austin
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Lawrence J. Ellison', 'age': 81, 'title': 'Co-Founder, Chairman & CTO', 'yearBorn': 1944, 'fiscalYear': 2025, 'totalPay': 5643948, 'exercisedValue': 230992432, 'unexercisedValue': 858000000}, {'maxAge': 1, 'name': 'Mr. Jeffrey O. Henley', 'age': 80, 'title': 'Executive Vice Chairman of the Board', 'yearBorn': 1945, 'fiscalYear': 2025, 'totalPay': 658717, 'exercisedValue': 0, 'unexercisedValue': 195104000}, {'maxAge': 1, 'name': 'Ms. Safra Ada Catz', 'age': 63, 'title': 'Executive Vice Chair', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 1113417, 'exercisedValue': 510901632, 'unexercisedValue': 422698624}, {'maxAge': 1, 'name': 'Ms. Maria  Smith', 'age': 58, 'title': 'Executive VP & Chief Accounting Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 639362, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Stuart A. Levey', 'age': 61, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 990091, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael D. Sicilia', 'age': 53, 'title': 'Chief Executive Officer & Director', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Clayton  Magouyrk', 'age': 38, 'title': 'Chief Executive Officer & Director', 'yearBorn': 1987, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Douglas A. Kehring', 'age': 52, 'title': 'Executive VP & Principal Financial Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Hura', 'title': 'President of Global Field Operations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jae  Evans', 'title': 'Global Chief Information Officer & Executive VP', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'ORCL announced a cash dividend of $0.50 with an ex-date of Apr. 9, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1775707200000, 'amount': '0.50'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	147.11
+currentPrice	145.23
 currentRatio	1.347
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	147.39
-dayLow	139.85
+dayHigh	149.6288
+dayLow	144.67
 debtToEquity	415.265
-discount_to_intrinsic_value	54.65
+discount_to_intrinsic_value	56.52
 displayName	Oracle
 dividendDate	1776988800
 dividendRate	2.0
-dividendYield	1.44
+dividendYield	1.38
 earningsCallTimestampEnd	1773176400
 earningsCallTimestampStart	1773176400
 earningsGrowth	0.245
@@ -46,12 +46,12 @@ earningsTimestampEnd	1781121600
 earningsTimestampStart	1781121600
 ebitda	27441000448
 ebitdaMargins	0.42826
-enterpriseToEbitda	20.103
-enterpriseToRevenue	8.609
-enterpriseValue	551638138880
+enterpriseToEbitda	19.906
+enterpriseToRevenue	8.525
+enterpriseValue	546231156736
 epsCurrentYear	7.4504
 epsForward	7.9729
-epsTrailingTwelveMonths	5.57
+epsTrailingTwelveMonths	5.58
 eps_normalized_growth	0.47808293577293903
 esgPopulated	False
 exDividendDate	1775692800
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	156.2988
-fiftyDayAverageChange	-9.188797
-fiftyDayAverageChangePercent	-0.05878994
-fiftyTwoWeekChangePercent	-2.2122025
+fiftyDayAverage	154.7254
+fiftyDayAverageChange	-9.495407
+fiftyDayAverageChangePercent	-0.06136941
+fiftyTwoWeekChangePercent	5.8296323
 fiftyTwoWeekHigh	345.72
-fiftyTwoWeekHighChange	-198.61
-fiftyTwoWeekHighChangePercent	-0.57448226
+fiftyTwoWeekHighChange	-200.49
+fiftyTwoWeekHighChangePercent	-0.5799202
 fiftyTwoWeekLow	118.86
-fiftyTwoWeekLowChange	28.25
-fiftyTwoWeekLowChangePercent	0.23767458
+fiftyTwoWeekLowChange	26.369995
+fiftyTwoWeekLowChangePercent	0.2218576
 fiftyTwoWeekRange	118.86 - 345.72
 financialCurrency	USD
 firstTradeDateMilliseconds	511021800000
 fiveYearAvgDividendYield	1.29
 floatShares	1708975294
 forwardEps	7.9729
-forwardPE	18.451254
+forwardPE	18.215454
 freeCashflow	-22298499072
 fullExchangeName	NYSE
 fullTimeEmployees	162000
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1772323200
-graham_intrinsic_value	324.37
+governanceEpochDate	1775001600
+graham_intrinsic_value	334.02
 grossMargins	0.67084
 grossProfits	42985000960
 hasPrePostMarketData	True
 heldPercentInsiders	0.40549
-heldPercentInstitutions	0.44302
+heldPercentInstitutions	0.44262
 impliedSharesOutstanding	2876046000
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -103,47 +103,47 @@ lastSplitFactor	2:1
 longBusinessSummary	Oracle Corporation offers products and services that address enterprise information technology environments worldwide. Its Oracle cloud software as a service offering include various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.
 longName	Oracle Corporation
 market	us_market
-marketCap	423095140352
-marketState	POST
+marketCap	417688158208
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_22247
 mostRecentQuarter	1772236800
 netIncomeToCommon	16188000256
 nextFiscalYearEnd	1780185600
-nonDilutedMarketCap	399195184800
+nonDilutedMarketCap	417688160580
 numberOfAnalystOpinions	39
-open	140.3
+open	149.09
 operatingCashflow	23513999360
 operatingMargins	0.32676
-overallRisk	10
+overallRisk	9
 payoutRatio	0.35909998
 phone	(737) 867-1000
-postMarketChange	0.056106567
-postMarketChangePercent	0.038139194
-postMarketPrice	147.1661
-postMarketTime	1774995770
-previousClose	138.8
-priceEpsCurrentYear	19.745249
+postMarketChange	0.32000732
+postMarketChangePercent	0.2203452
+postMarketPrice	145.55
+postMarketTime	1775088000
+previousClose	147.11
+priceEpsCurrentYear	19.492912
 priceHint	2
-priceToBook	12.610148
-priceToSalesTrailing12Months	6.60302
+priceToBook	12.448997
+priceToSalesTrailing12Months	6.518636
 profitMargins	0.25298
 quickRatio	1.224
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.61364
 region	US
-regularMarketChange	8.31
-regularMarketChangePercent	5.98703
-regularMarketDayHigh	147.39
-regularMarketDayLow	139.85
-regularMarketDayRange	139.85 - 147.39
-regularMarketOpen	140.3
-regularMarketPreviousClose	138.8
-regularMarketPrice	147.11
-regularMarketTime	1774987372
-regularMarketVolume	23936815
+regularMarketChange	-1.88
+regularMarketChangePercent	-1.27796
+regularMarketDayHigh	149.6288
+regularMarketDayLow	144.67
+regularMarketDayRange	144.67 - 149.6288
+regularMarketOpen	149.09
+regularMarketPreviousClose	147.11
+regularMarketPrice	145.23
+regularMarketTime	1775073718
+regularMarketVolume	20444505
 returnOnAssets	0.06335
 returnOnEquity	0.57572
 revenueGrowth	0.217
@@ -151,7 +151,7 @@ revenuePerShare	22.538
 sector	Technology
 sectorDisp	Technology
 sectorKey	technology
-shareHolderRightsRisk	6
+shareHolderRightsRisk	5
 sharesOutstanding	2876046000
 sharesPercentSharesOut	0.0106
 sharesShort	30553140
@@ -163,7 +163,7 @@ shortRatio	1.06
 sourceInterval	15
 state	TX
 symbol	ORCL
-syntheticPEG	0.7531124081632653
+syntheticPEG	0.743487918367347
 targetHighPrice	400.0
 targetLowPrice	155.0
 targetMeanPrice	246.45872
@@ -174,15 +174,15 @@ totalDebt	162164998144
 totalRevenue	64076001280
 tradeable	False
 trailingAnnualDividendRate	2.0
-trailingAnnualDividendYield	0.014409222
-trailingEps	5.57
-trailingPE	26.41113
-trailingPegRatio	0.878
+trailingAnnualDividendYield	0.013595269
+trailingEps	5.58
+trailingPE	26.026882
+trailingPegRatio	0.9186
 triggerable	True
-twoHundredDayAverage	219.1489
-twoHundredDayAverageChange	-72.038895
-twoHundredDayAverageChangePercent	-0.32872123
+twoHundredDayAverage	218.5352
+twoHundredDayAverageChange	-73.30521
+twoHundredDayAverageChangePercent	-0.3354389
 typeDisp	Equity
-volume	23936815
+volume	20444505
 website	https://www.oracle.com
 zip	78741

@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.04568875 |
+| Value | str | 0.18025899 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-03-31 |
+| Date | str | 2026-04-02 |
 | Source | str | Google |
 | Sentiment | float64 | 1.0 |
-| Headline | str | Gear up for your best spring yet with these exp... |
-| Summary | str | Yahoo Finance Host Josh Lipton tracks today's t... |
-| URL | str | https://news.google.com/rss/articles/CBMif0FVX3... |
+| Headline | str | Best Amazon Spring Sale deals you can still sho... |
+| Summary | str | Amazon.com (NasdaqGS:AMZN) is reportedly in adv... |
+| URL | str | https://news.google.com/rss/articles/CBMieEFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -86,8 +86,8 @@ This report documents the file structures and column data types used in `market_
 | GDP | float64 | 31442.483 |
 | UNRATE | float64 | 4.4 |
 | HOUSING_STARTS | float64 | 1487.0 |
-| RECESSION_PROB | float64 | 0.8 |
+| RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.96 |
-| US10Y | float64 | 4.42 |
+| US02Y | float64 | 3.79 |
+| US10Y | float64 | 4.3 |
