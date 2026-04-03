@@ -13,7 +13,7 @@ A new structural risk has emerged at the center of the AI boom: the **OpenAI Cap
 ### Sovereign Energy Convergence and the Nuclear Bull Market
 The convergence of AI power demand and geopolitical instability has triggered a **"Nuclear Bull Market"** [8]. With the Iran war entering its second month and President Trump signaling potential seizures of enriched uranium, energy security has replaced transition rhetoric as the primary market driver [8, 9]. The market is rewarding "Hard-Asset, Low-Obsolescence" (HALO) plays like **Cameco (CCJ)** that control the physical fuel required for the AI data center expansion [8, 10]. This sovereign focus is creating a "Multidimensional Polarization," bifurcating the market between energy-secure winners and those exposed to the volatile $100/barrel crude reality [11-13].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 The "Hormuz Hope" ceasefire rally seen at the end of March is proving fragile [14, 15]. As we enter Q2 2026, the S&P 500 and Nasdaq remain vulnerable to a further **10-15% correction** as they digest hawkish Fed signals and the "Claude Mythos" contagion [16, 17]. Alpha will reside exclusively in firms with **physical moats**—specifically "Neocloud" providers (e.g., IREN) and specialized semiconductor integrators like Marvell—while legacy enterprise software continues to be liquidated in favor of high-productivity agentic platforms [16, 18, 19].
 
 ---
@@ -48,7 +48,7 @@ The "Hormuz Hope" ceasefire rally seen at the end of March is proving fragile [1
 4. [20] "Versigent Set to Join S&P SmallCap 600 - Yahoo Finance." https://finance.yahoo.com/news/versigent-set-join-p-smallcap-223200089.html
 5. [22] "C.H. Robinson Offers Carriers Help With Rising Cost of Diesel - Stock Titan." https://www.stocktitan.net/news/CHRW/c-h-robinson-offers-carriers-help-with-rising-cost-of-diesel-y3u5m9.html
 6. [8] "Amidst Iran War and ‘Nuclear Bull Market’ Raising Uranium Prices, Should You Buy Cameco Stock? - Barchart." https://www.barchart.com/story/news/1097385/amidst-iran-war-and-nuclear-bull-market-raising-uranium-prices-should-you-buy-cameco-stock
-7. [3] "03-27_DAILY_REPORT.md: The 'Claude Mythos' Leak and the SaaS Liquidation." 
+7. [3] "03-27_DAILY_REPORT.md: The 'Claude Mythos' Leak and the SaaS Liquidation."
 8. [18] "03-31_DAILY_REPORT.md: The 'Inference Infrastructure' Consolidation."
 9. [29] "03-26_DAILY_REPORT.md: The 'Agentic' Pivot and Defensive Consolidation."
 10. [4] "03-30_DAILY_REPORT.md: The 'Agentic' Expansion and Enterprise Monetization."

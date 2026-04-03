@@ -13,7 +13,7 @@ A major qualitative catalyst today is the **Morgan Stanley warning** regarding O
 ### The "Nuclear Bull Market" and Sovereign Resource Security
 The convergence of AI power demand and the ongoing Iran war has birthed a **"Nuclear Bull Market,"** with Uranium emerging as a primary strategic asset [7, 9, 10]. Today’s interest in **Cameco (CCJ)** is driven not only by the triple-digit growth in data center electricity needs but also by geopolitical volatility; President Trump’s rhetoric regarding the potential seizure of Iran’s enriched uranium supply has introduced a severe "sovereignty premium" to the materials sector [7, 9]. This theme evolves from the "AI Cold War" dynamics of 2025, where the market began valuing domestic manufacturing capacity and technological sovereignty over globalized efficiency [9, 11].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 We anticipate the S&P 500 and Nasdaq remain highly vulnerable to a **10-15% total correction** as they struggle to digest the dual pressures of near-$100 oil and the "Capital Loop" scrutiny [12, 13]. Alpha will likely reside exclusively in **"Neocloud" infrastructure (e.g., IREN)** and hard-asset "HALO" stocks that are immune to AI-driven software disruption [7, 12, 14].
 
 ## Quantitative Market Action & Specific Equities
