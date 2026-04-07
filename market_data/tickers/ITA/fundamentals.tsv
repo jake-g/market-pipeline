@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	250.65
 allTimeLow	12.955
-ask	0.0
-askSize	400
-averageDailyVolume10Day	1200350
-averageDailyVolume3Month	1307300
-averageVolume	1307300
-averageVolume10days	1200350
+ask	225.54
+askSize	100
+averageDailyVolume10Day	1148480
+averageDailyVolume3Month	1299345
+averageVolume	1299345
+averageVolume10days	1148480
 beta3Year	1.2
-bid	0.0
+bid	223.22
 bidSize	100
 category	Industrials
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	225.82
-dayLow	221.75
+dayHigh	225.29
+dayLow	221.215
 dividendYield	0.48
 epsTrailingTwelveMonths	5.977578
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	233.8506
-fiftyDayAverageChange	-10.210602
-fiftyDayAverageChangePercent	-0.043662928
-fiftyTwoWeekChangePercent	51.333057
+fiftyDayAverage	233.4834
+fiftyDayAverageChange	-8.2834015
+fiftyDayAverageChangePercent	-0.035477474
+fiftyTwoWeekChangePercent	63.409424
 fiftyTwoWeekHigh	250.65
-fiftyTwoWeekHighChange	-27.009995
-fiftyTwoWeekHighChangePercent	-0.1077598
+fiftyTwoWeekHighChange	-25.449997
+fiftyTwoWeekHighChangePercent	-0.101536
 fiftyTwoWeekLow	129.14
-fiftyTwoWeekLowChange	94.5
-fiftyTwoWeekLowChangePercent	0.73176396
+fiftyTwoWeekLowChange	96.06
+fiftyTwoWeekLowChangePercent	0.74384385
 fiftyTwoWeekRange	129.14 - 250.65
 firstTradeDateMilliseconds	1146835800000
-fiveYearAverageReturn	0.1697147
+fiveYearAverageReturn	0.1723325
 fullExchangeName	Cboe US
 fundFamily	iShares
 fundInceptionDate	1146441600
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index measures the performance of the aerospace and defense sector of the U.S. equity market, as defined by SPDJI. The fund generally will invest at least 80% of its assets in the component securities of its index and in investments that have economic characteristics that are substantially identical to the component securities of its index and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents. The fund is non-diversified.
 longName	iShares U.S. Aerospace & Defense ETF
 market	us_market
-marketState	PREPRE
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_32993612
-navPrice	218.61754
+navPrice	221.86668
 netAssets	16010935300.0
 netExpenseRatio	0.38
-open	221.75
+open	222.38
 phone	415-670-2000
-postMarketChange	0.3600006
-postMarketChangePercent	0.16097327
-postMarketPrice	224.0
-postMarketTime	1775087811
-previousClose	218.75
+postMarketChange	-0.19999695
+postMarketChangePercent	-0.088808596
+postMarketPrice	225.0
+postMarketTime	1775515377
+previousClose	221.91
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	4.89
-regularMarketChangePercent	2.23543
-regularMarketDayHigh	225.82
-regularMarketDayLow	221.75
-regularMarketDayRange	221.75 - 225.82
-regularMarketOpen	221.75
-regularMarketPreviousClose	218.75
-regularMarketPrice	223.64
-regularMarketTime	1775073600
-regularMarketVolume	1214329
+regularMarketChange	3.28999
+regularMarketChangePercent	1.48258
+regularMarketDayHigh	225.29
+regularMarketDayLow	221.215
+regularMarketDayRange	221.215 - 225.29
+regularMarketOpen	222.38
+regularMarketPreviousClose	221.91
+regularMarketPrice	225.2
+regularMarketTime	1775505600
+regularMarketVolume	787196
 shortName	iShares U.S. Aerospace & Defens
 sourceInterval	15
 symbol	ITA
-threeYearAverageReturn	0.2484464
+threeYearAverageReturn	0.2544293
 totalAssets	16010935296
 tradeable	False
-trailingPE	37.413147
+trailingPE	37.67412
 trailingPegRatio	None
 trailingThreeMonthNavReturns	18.93165
 trailingThreeMonthReturns	18.93165
 triggerable	True
-twoHundredDayAverage	211.62265
-twoHundredDayAverageChange	12.017349
-twoHundredDayAverageChangePercent	0.056786686
+twoHundredDayAverage	211.8364
+twoHundredDayAverageChange	13.363602
+twoHundredDayAverageChangePercent	0.06308454
 typeDisp	ETF
-volume	1214329
+volume	787196
 yield	0.0047999998
 ytdReturn	13.64404

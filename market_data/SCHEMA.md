@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.18025899 |
+| Value | str | 0.1969074 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-03 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.3 |
-| Headline | str | Amazon to slap a 3.5% surcharge on third-party ... |
-| Summary | str | Amazon is slapping a 3.5% fuel and logistics su... |
-| URL | str | https://finance.yahoo.com/economy/policy/articl... |
+| Date | str | 2026-04-06 |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Is Amazon.com (AMZN) The Best Tech Stock to Buy... |
+| Summary | str | This company has so many ways to win. |
+| URL | str | https://news.google.com/rss/articles/CBMilAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -81,13 +81,13 @@ This report documents the file structures and column data types used in `market_
 | WAREHOUSE_PPI | float64 | 173.049 |
 | MFG_CONST | float64 | 196166.0 |
 | TECH_PULSE | float64 | 92.2679 |
-| CHINA_IMPORTS | float64 | 21057.9084 |
+| CHINA_IMPORTS | float64 | 18955.648 |
 | TARIFFS | float64 | 364.324 |
 | GDP | float64 | 31442.483 |
-| UNRATE | float64 | 4.4 |
+| UNRATE | float64 | 4.3 |
 | HOUSING_STARTS | float64 | 1487.0 |
 | RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.79 |
-| US10Y | float64 | 4.3 |
+| US02Y | float64 | 3.84 |
+| US10Y | float64 | 4.35 |

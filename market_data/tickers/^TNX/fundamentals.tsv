@@ -14,24 +14,24 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	0.0
-dayLow	0.0
+dayHigh	4.366
+dayLow	4.317
 esgPopulated	False
 exchange	CGI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
 fiftyDayAverage	4.37796
-fiftyDayAverageChange	-0.058960438
-fiftyDayAverageChangePercent	-0.013467559
+fiftyDayAverageChange	-0.042960167
+fiftyDayAverageChangePercent	-0.009812827
 fiftyTwoWeekChangePercent	29.821074
 fiftyTwoWeekHigh	4.997
-fiftyTwoWeekHighChange	-0.67800045
-fiftyTwoWeekHighChangePercent	-0.1356815
-fiftyTwoWeekLow	0.0
-fiftyTwoWeekLowChange	4.319
-fiftyTwoWeekLowChangePercent	0.28878918
-fiftyTwoWeekRange	0.0 - 4.997
+fiftyTwoWeekHighChange	-0.6620002
+fiftyTwoWeekHighChangePercent	-0.13247952
+fiftyTwoWeekLow	3.345
+fiftyTwoWeekLowChange	0.99
+fiftyTwoWeekLowChangePercent	0.29596412
+fiftyTwoWeekRange	3.345 - 4.997
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
 gmtOffSetMilliseconds	-18000000
@@ -39,23 +39,23 @@ hasPrePostMarketData	False
 language	en-US
 longName	CBOE Interest Rate 10 Year T No
 market	usir_market
-marketState	PREPRE
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	0.0
-previousClose	4.311
+open	4.3599997
+previousClose	4.313
 priceHint	4
 quoteType	INDEX
 region	US
-regularMarketChange	0.007999897
-regularMarketChangePercent	0.1855694
-regularMarketDayHigh	0.0
-regularMarketDayLow	0.0
-regularMarketDayRange	0.0 - 0.0
-regularMarketOpen	0.0
-regularMarketPreviousClose	4.311
-regularMarketPrice	4.319
-regularMarketTime	1775069994
+regularMarketChange	0.021999836
+regularMarketChangePercent	0.51008195
+regularMarketDayHigh	4.366
+regularMarketDayLow	4.317
+regularMarketDayRange	4.317 - 4.366
+regularMarketOpen	4.3599997
+regularMarketPreviousClose	4.313
+regularMarketPrice	4.335
+regularMarketTime	1775501992
 regularMarketVolume	0
 shortName	CBOE Interest Rate 10 Year T No
 sourceInterval	15
@@ -64,7 +64,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	4.307575
-twoHundredDayAverageChange	0.0114245415
-twoHundredDayAverageChangePercent	0.0026521978
+twoHundredDayAverageChange	0.027424812
+twoHundredDayAverageChangePercent	0.0063666473
 typeDisp	Index
 volume	0

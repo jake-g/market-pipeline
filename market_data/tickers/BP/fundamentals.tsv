@@ -1,38 +1,38 @@
 Metric	Value
-52WeekChange	0.47319722
-SandP52WeekChange	0.21843708
+52WeekChange	0.7342657
+SandP52WeekChange	0.30034864
 address1	1 St James's Square
 allTimeHigh	79.77
 allTimeLow	0.619835
-ask	0.0
-askSize	500
+ask	47.39
+askSize	1900
 averageAnalystRating	2.7 - Hold
-averageDailyVolume10Day	26622870
-averageDailyVolume3Month	13921824
-averageVolume	13921824
-averageVolume10days	26622870
-beta	0.062
-bid	0.0
-bidSize	1300
+averageDailyVolume10Day	25855350
+averageDailyVolume3Month	14115283
+averageVolume	14115283
+averageVolume10days	25855350
+beta	-0.195
+bid	47.0
+bidSize	1500
 bookValue	3.449
 city	London
-companyOfficers	[{'maxAge': 1, 'name': 'Ms. Carol-Lee  Howle', 'age': 53, 'title': 'Interim CEO, EVP of Supply, Trading & Shipping & Director', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 2132831, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Katherine Anne Thomson', 'age': 57, 'title': 'CFO & Director', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 3497450, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Murray  Auchincloss', 'age': 55, 'title': 'Advisor', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 5965429, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gordon  Birrell', 'age': 61, 'title': 'Executive Vice President of Production & Operations', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Emeka  Emembolu', 'title': 'Executive Vice President of Technology', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Craig  Marshall C.M.A.', 'title': 'Group Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mike  Sosso', 'title': 'Executive Vice President of Legal', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kerry  Dryburgh', 'title': 'EVP of People, Culture & Communications and Chief Human Resources & Communications Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Anthony  Harbridge', 'title': 'Head of Executive Office, Alternative Energy & Regions', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Spencer  Dale', 'title': 'Group Chief Economist', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 corporateActions	[]
 country	United Kingdom
 cryptoTradeable	False
 currency	USD
-currentPrice	46.17
+currentPrice	47.48
 currentRatio	1.263
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	47.42
-dayLow	45.56
+dayHigh	47.51
+dayLow	46.7899
 debtToEquity	98.012
 displayName	BP p.l.c
 dividendDate	1774569600
 dividendRate	2.0
-dividendYield	4.32
+dividendYield	4.24
 earningsCallTimestampEnd	1770728400
 earningsCallTimestampStart	1770728400
 earningsTimestamp	1777379400
@@ -40,10 +40,10 @@ earningsTimestampEnd	1777379400
 earningsTimestampStart	1777379400
 ebitda	30168000512
 ebitdaMargins	0.16078
-enterpriseToEbitda	25.417
-enterpriseToRevenue	4.087
-enterpriseValue	766787387392
-epsCurrentYear	4.28094
+enterpriseToEbitda	25.901
+enterpriseToRevenue	4.164
+enterpriseValue	781395296256
+epsCurrentYear	4.46294
 epsForward	3.77007
 epsTrailingTwelveMonths	0.02
 esgPopulated	False
@@ -54,23 +54,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	44 20 7496 4630
-fiftyDayAverage	40.3266
-fiftyDayAverageChange	5.843399
-fiftyDayAverageChangePercent	0.14490186
-fiftyTwoWeekChangePercent	47.31972
+fiftyDayAverage	40.5506
+fiftyDayAverageChange	6.9294014
+fiftyDayAverageChangePercent	0.17088284
+fiftyTwoWeekChangePercent	73.42657
 fiftyTwoWeekHigh	48.27
-fiftyTwoWeekHighChange	-2.1000023
-fiftyTwoWeekHighChangePercent	-0.04350533
+fiftyTwoWeekHighChange	-0.7900009
+fiftyTwoWeekHighChangePercent	-0.016366292
 fiftyTwoWeekLow	25.22
-fiftyTwoWeekLowChange	20.949999
-fiftyTwoWeekLowChangePercent	0.8306899
+fiftyTwoWeekLowChange	22.26
+fiftyTwoWeekLowChangePercent	0.88263285
 fiftyTwoWeekRange	25.22 - 48.27
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	4.9
 floatShares	14726597061
 forwardEps	3.77007
-forwardPE	12.246456
+forwardPE	12.59393
 freeCashflow	5708624896
 fullExchangeName	NYSE
 fullTimeEmployees	93700
@@ -79,8 +79,8 @@ grossMargins	0.27384
 grossProfits	51382001664
 hasPrePostMarketData	True
 heldPercentInsiders	2.0000001e-05
-heldPercentInstitutions	0.1276
-impliedSharesOutstanding	2561659969
+heldPercentInstitutions	0.12767
+impliedSharesOutstanding	2611563093
 industry	Oil & Gas Integrated
 industryDisp	Oil & Gas Integrated
 industryKey	oil-gas-integrated
@@ -95,32 +95,32 @@ lastSplitFactor	2:1
 longBusinessSummary	BP p.l.c., an integrated energy company, engages in the oil and gas business worldwide. The company operates through Gas & Low Carbon Energy, Oil Production & Operations, and Customers & Products segments. It engages in the production of natural gas, marketing, and trading activities, as well as solar, wind, and hydrogen businesses. The company also offers aviation fuel products and services, such as jet fuel; aviation gasoline; UL91 aviation fuel; and sustainable aviation fuel. In addition, it engages in the convenience and retail fuel; EV charging; Castrol lubricants and fluids; B2B; midstream; crude oil production; refining and oil trading; and bioenergy businesses. The company was founded in 1908 and is headquartered in London, the United Kingdom.
 longName	BP p.l.c.
 market	us_market
-marketCap	118271836160
-marketState	PREPRE
+marketCap	123997011968
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_394466
 mostRecentQuarter	1767139200
-nameChangeDate	2026-04-01
+nameChangeDate	2026-04-06
 netIncomeToCommon	54000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	122742657015
+nonDilutedMarketCap	120823584144
 numberOfAnalystOpinions	18
-open	47.09
+open	47.23
 operatingCashflow	24493000704
 operatingMargins	0.03878
 payoutRatio	96.0
 pegRatio	0.155
 phone	44 20 7496 4000
-postMarketChange	-0.069999695
-postMarketChangePercent	-0.15161295
-postMarketPrice	46.1
-postMarketTime	1775087696
+postMarketChange	-0.24499893
+postMarketChangePercent	-0.5160045
+postMarketPrice	47.235
+postMarketTime	1775516433
 prevName	BP PLC
-previousClose	47.0
-priceEpsCurrentYear	10.785014
+previousClose	47.12
+priceEpsCurrentYear	10.638726
 priceHint	2
-priceToBook	13.386489
-priceToSalesTrailing12Months	0.6303226
+priceToBook	13.76631
+priceToSalesTrailing12Months	0.66083455
 profitMargins	0.00029
 quickRatio	0.792
 quoteSourceName	Nasdaq Real Time Price
@@ -128,16 +128,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.73684
 region	US
-regularMarketChange	-0.830002
-regularMarketChangePercent	-1.76596
-regularMarketDayHigh	47.42
-regularMarketDayLow	45.56
-regularMarketDayRange	45.56 - 47.42
-regularMarketOpen	47.09
-regularMarketPreviousClose	47.0
-regularMarketPrice	46.17
-regularMarketTime	1775073602
-regularMarketVolume	36884701
+regularMarketChange	0.360001
+regularMarketChangePercent	0.764008
+regularMarketDayHigh	47.51
+regularMarketDayLow	46.7899
+regularMarketDayRange	46.7899 - 47.51
+regularMarketOpen	47.23
+regularMarketPreviousClose	47.12
+regularMarketPrice	47.48
+regularMarketTime	1775505602
+regularMarketVolume	7250979
 returnOnAssets	0.0322
 returnOnEquity	0.017
 revenueGrowth	0.036
@@ -145,7 +145,7 @@ revenuePerShare	18.057
 sector	Energy
 sectorDisp	Energy
 sectorKey	energy
-sharesOutstanding	2561659969
+sharesOutstanding	2574793768
 sharesPercentSharesOut	0.0032
 sharesShort	8317885
 sharesShortPreviousMonthDate	1770940800
@@ -157,23 +157,23 @@ sourceInterval	15
 symbol	BP
 targetHighPrice	62.0
 targetLowPrice	31.0
-targetMeanPrice	43.45
-targetMedianPrice	41.5
+targetMeanPrice	45.12222
+targetMedianPrice	45.65
 totalCash	36653998080
 totalCashPerShare	2.384
 totalDebt	72529002496
 totalRevenue	187637006336
 tradeable	False
 trailingAnnualDividendRate	0.33
-trailingAnnualDividendYield	0.0070212767
+trailingAnnualDividendYield	0.007003396
 trailingEps	0.02
-trailingPE	2308.5
-trailingPegRatio	0.1867
+trailingPE	2374.0
+trailingPegRatio	0.1905
 triggerable	True
-twoHundredDayAverage	35.65495
-twoHundredDayAverageChange	10.515049
-twoHundredDayAverageChangePercent	0.29491135
+twoHundredDayAverage	35.73475
+twoHundredDayAverageChange	11.745251
+twoHundredDayAverageChangePercent	0.3286787
 typeDisp	Equity
-volume	36884701
+volume	7250979
 website	https://www.bp.com
 zip	SW1Y 4PD

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.25053686
-SandP52WeekChange	0.21843708
+52WeekChange	-0.18585688
+SandP52WeekChange	0.30034864
 address1	222 Berkeley Street
 address2	11th Floor
 allTimeHigh	303.72
 allTimeLow	0.6
-ask	0.0
-askSize	200
+ask	179.0
+askSize	100
 auditRisk	1
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	3821430
-averageDailyVolume3Month	3286070
-averageVolume	3286070
-averageVolume10days	3821430
-beta	0.907
-bid	0.0
+averageDailyVolume10Day	3884070
+averageDailyVolume3Month	3314936
+averageVolume	3314936
+averageVolume10days	3884070
+beta	0.93
+bid	173.5
 bidSize	100
 boardRisk	2
 bookValue	7.833
@@ -22,21 +22,21 @@ city	Boston
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Steven O. Vondran J.D.', 'age': 54, 'title': 'President, CEO & Director', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 3363277, 'exercisedValue': 3424715, 'unexercisedValue': 2969853}, {'maxAge': 1, 'name': 'Mr. Rodney M. Smith', 'age': 59, 'title': 'Executive VP, CFO & Treasurer', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 1674128, 'exercisedValue': 2824549, 'unexercisedValue': 5989760}, {'maxAge': 1, 'name': 'Ms. Ruth T. Dowling', 'age': 55, 'title': 'Executive VP, Chief Administrative Officer, General Counsel & Secretary', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 1568128, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eugene M. Noel', 'age': 56, 'title': 'Executive VP & COO', 'yearBorn': 1969, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert J. Meyer Jr., CPA', 'age': 61, 'title': 'Senior VP & Chief Accounting Officer', 'yearBorn': 1964, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Spencer Harris Kurn', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Brenna D. Jones', 'title': 'SVP & Chief Human Resources Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Colleen Richards Powell', 'title': 'Senior VP & Chief Diversity, Equity and Inclusion Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Julian  Plumstead', 'title': 'Senior Vice President of M&A and Business Development - Europe, Africa and Latin America', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Juan A. Font', 'age': 55, 'title': 'Senior VP and President & CEO of Coresite', 'yearBorn': 1970, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1735603200
 compensationRisk	2
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'AMT announced a cash dividend of $1.79 with an ex-date of Apr. 14, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1776139200000, 'amount': '1.79'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	171.02
+currentPrice	176.14
 currentRatio	0.397
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	173.91
-dayLow	169.8425
+dayHigh	177.19
+dayLow	171.7169
 debtToEquity	434.211
-discount_to_intrinsic_value	-264.12
+discount_to_intrinsic_value	-279.39
 dividendDate	1777334400
 dividendRate	6.89
-dividendYield	4.03
+dividendYield	3.97
 earningsCallTimestampEnd	1777379400
 earningsCallTimestampStart	1777379400
 earningsGrowth	-0.332
@@ -46,9 +46,9 @@ earningsTimestampEnd	1777379400
 earningsTimestampStart	1777379400
 ebitda	6907700224
 ebitdaMargins	0.64893997
-enterpriseToEbitda	18.805
-enterpriseToRevenue	12.204
-enterpriseValue	129901723648
+enterpriseToEbitda	18.988
+enterpriseToRevenue	12.322
+enterpriseValue	131164815360
 epsCurrentYear	6.46959
 epsForward	6.9326
 epsTrailingTwelveMonths	5.4
@@ -61,34 +61,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	617 375 7575
-fiftyDayAverage	180.9194
-fiftyDayAverageChange	-9.899399
-fiftyDayAverageChangePercent	-0.054717176
-fiftyTwoWeekChangePercent	-25.053686
+fiftyDayAverage	180.8306
+fiftyDayAverageChange	-4.6905975
+fiftyDayAverageChangePercent	-0.025939181
+fiftyTwoWeekChangePercent	-18.585688
 fiftyTwoWeekHigh	234.33
-fiftyTwoWeekHighChange	-63.309998
-fiftyTwoWeekHighChangePercent	-0.27017453
+fiftyTwoWeekHighChange	-58.190002
+fiftyTwoWeekHighChangePercent	-0.24832502
 fiftyTwoWeekLow	165.08
-fiftyTwoWeekLowChange	5.9400024
-fiftyTwoWeekLowChangePercent	0.035982568
+fiftyTwoWeekLowChange	11.059998
+fiftyTwoWeekLowChangePercent	0.066997804
 fiftyTwoWeekRange	165.08 - 234.33
 financialCurrency	USD
 firstTradeDateMilliseconds	888589800000
 fiveYearAvgDividendYield	2.86
 floatShares	464686566
 forwardEps	6.9326
-forwardPE	24.668957
+forwardPE	25.407495
 freeCashflow	4508987392
 fullExchangeName	NYSE
 fullTimeEmployees	4866
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1775001600
-graham_intrinsic_value	46.97
+graham_intrinsic_value	46.43
 grossMargins	0.74183
 grossProfits	7896500224
 hasPrePostMarketData	True
 heldPercentInsiders	0.0016300001
-heldPercentInstitutions	0.95995003
+heldPercentInstitutions	0.96041
 impliedSharesOutstanding	468146623
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -102,33 +102,33 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	American Tower Corporation is one of the largest global real estate investment trusts. It is a leading independent owner, operator and developer of multitenant communications real estate. The Company's primary business is the leasing of space on communications sites to wireless service providers, radio and television broadcast companies, wireless data providers, government agencies and municipalities and tenants in a few other industries. The Company refers to this business, inclusive of its data center business discussed below, as its property operations. Additionally, the Company offers tower-related services in the United States, which the Company refers to as its services operations. These services include site application, zoning and permitting, structural and mount analyses, and construction management services, together with program management offerings that support customer deployment needs from project scoping through construction. The Company's services operations primarily support the Company's site leasing business, including through the addition of new tenants and equipment on its sites. The Company's customers include its tenants, licensees and other payers. American Tower Corporation was incorporated in 1995 in Delaware, USA.
 longName	American Tower Corporation
 market	us_market
-marketCap	80062439424
-marketState	PREPRE
+marketCap	82459344896
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_24766
 mostRecentQuarter	1767139200
-nameChangeDate	2026-04-01
+nameChangeDate	2026-04-06
 netIncomeToCommon	2529499904
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	79709825916
+nonDilutedMarketCap	80972915778
 numberOfAnalystOpinions	22
-open	172.67
+open	172.74
 operatingCashflow	5464000000
 operatingMargins	0.44942
 overallRisk	1
 payoutRatio	1.2593
 pegRatio	52.79
 phone	617 375 7500
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	171.02
-postMarketTime	1775087410
+postMarketChange	-2.6399994
+postMarketChangePercent	-1.4988074
+postMarketPrice	173.5
+postMarketTime	1775514901
 prevName	American Tower Corporation (REIT)
-previousClose	172.58
-priceEpsCurrentYear	26.434443
+previousClose	173.73
+priceEpsCurrentYear	27.225836
 priceHint	2
-priceToBook	21.83327
-priceToSalesTrailing12Months	7.521414
+priceToBook	22.486914
+priceToSalesTrailing12Months	7.7465897
 profitMargins	0.23763001
 quickRatio	0.342
 quoteSourceName	Delayed Quote
@@ -136,16 +136,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.84
 region	US
-regularMarketChange	-1.56
-regularMarketChangePercent	-0.903927
-regularMarketDayHigh	173.91
-regularMarketDayLow	169.8425
-regularMarketDayRange	169.8425 - 173.91
-regularMarketOpen	172.67
-regularMarketPreviousClose	172.58
-regularMarketPrice	171.02
-regularMarketTime	1775073603
-regularMarketVolume	2294359
+regularMarketChange	2.41
+regularMarketChangePercent	1.38721
+regularMarketDayHigh	177.19
+regularMarketDayLow	171.7169
+regularMarketDayRange	171.7169 - 177.19
+regularMarketOpen	172.74
+regularMarketPreviousClose	173.73
+regularMarketPrice	176.14
+regularMarketTime	1775505602
+regularMarketVolume	2898888
 returnOnAssets	0.04895
 returnOnEquity	0.2628
 revenueGrowth	0.075
@@ -175,15 +175,15 @@ totalDebt	44963901440
 totalRevenue	10644599808
 tradeable	False
 trailingAnnualDividendRate	6.8
-trailingAnnualDividendYield	0.039402016
+trailingAnnualDividendYield	0.039141197
 trailingEps	5.4
-trailingPE	31.67037
-trailingPegRatio	1.8908
+trailingPE	32.61852
+trailingPegRatio	1.9207
 triggerable	True
-twoHundredDayAverage	191.56075
-twoHundredDayAverageChange	-20.540741
-twoHundredDayAverageChangePercent	-0.10722834
+twoHundredDayAverage	191.3545
+twoHundredDayAverageChange	-15.214508
+twoHundredDayAverageChangePercent	-0.079509534
 typeDisp	Equity
-volume	2294359
+volume	2898888
 website	https://www.americantower.com
 zip	02116
