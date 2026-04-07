@@ -122,6 +122,14 @@ def process_portfolio(tsv_path: str) -> pd.DataFrame:
   full_df['Time_Horizon'] = horizons
   full_df['Exit_Strategy'] = strategies
 
+  # Round float columns to 2 decimals (or 4 for Quantity) to clean up TSV
+  float_cols = full_df.select_dtypes(include=['float64', 'float32']).columns
+  for col in float_cols:
+    if col == 'Quantity':
+      full_df[col] = full_df[col].round(4)
+    else:
+      full_df[col] = full_df[col].round(2)
+
   return full_df
 
 
