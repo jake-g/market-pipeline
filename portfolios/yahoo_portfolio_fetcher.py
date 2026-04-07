@@ -159,6 +159,15 @@ def prompt_for_curl_and_save_env(env_path: str):
       )
       user_id = ""
 
+  # Preserve ACTIVE_TRADING_PORTFOLIOS if present
+  active_line = None
+  if os.path.exists(env_path):
+    with open(env_path, "r") as f:
+      for line in f:
+        if line.startswith("ACTIVE_TRADING_PORTFOLIOS="):
+          active_line = line
+          break
+
   try:
     with open(env_path, "w") as f:
       f.write(f'YF_COOKIE="{credentials["cookie"]}"\n')
@@ -167,6 +176,8 @@ def prompt_for_curl_and_save_env(env_path: str):
       if "headers" in credentials:
         # dump headers as JSON string safely
         f.write(f'YF_HEADERS=\'{json.dumps(credentials["headers"])}\'\n')
+      if active_line:
+        f.write(active_line)
 
     logger.info("Successfully saved credentials to %s", env_path)
 
