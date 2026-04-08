@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.1969074 |
+| Value | str | 0.24686515 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-06 |
+| Date | str | 2026-04-07 |
 | Source | str | Google |
 | Sentiment | float64 | 1.0 |
-| Headline | str | Is Amazon.com (AMZN) The Best Tech Stock to Buy... |
-| Summary | str | This company has so many ways to win. |
-| URL | str | https://news.google.com/rss/articles/CBMilAFBVV... |
+| Headline | str | If Magnificent 7 Executives Don’t Believe In Th... |
+| Summary | str | Amazon still has plenty of growth in store. |
+| URL | str | https://news.google.com/rss/articles/CBMisAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

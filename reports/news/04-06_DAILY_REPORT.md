@@ -13,7 +13,7 @@ As the Iran war sustains high fossil fuel volatility, the market is aggressively
 ### The Rise of Physical AI and Sovereign Defense
 Today’s demonstration of **"Physical AI"** by **Huntington Ingalls (HII)** and GrayMatter Robotics represents the move of AI agents out of the digital cloud and into tangible, national security hardware [10]. This thematic shift is exacerbated by rising Pacific tension risks, evidenced by today's reports on the Guam missile shield [11]. We are seeing a "Sovereign AI" trend where military and infrastructure firms are integrating AI into autonomous defense systems to mitigate the risks of global conflict [12, 13].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 The "Hormuz Hope" ceasefire rally that closed March is showing extreme fragility as Pacific defense risks emerge [9, 11]. While custom silicon leaders like Broadcom are providing a temporary floor for the tech sector, we anticipate a **10-15% total correction** in high-multiple software stocks as investors continue to liquidate legacy SaaS in favor of energy-heavy infrastructure and specialized hardware [8, 14].
 
 ## Quantitative Market Action & Specific Equities

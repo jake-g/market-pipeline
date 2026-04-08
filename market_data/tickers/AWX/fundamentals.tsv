@@ -1,18 +1,18 @@
 Metric	Value
-52WeekChange	0.03174603
-SandP52WeekChange	0.30034864
+52WeekChange	0.07024789
+SandP52WeekChange	0.32693863
 address1	One American Way
 allTimeHigh	20.2
 allTimeLow	0.92
-ask	2.7
-askSize	1000
-averageDailyVolume10Day	5980
-averageDailyVolume3Month	4895
-averageVolume	4895
-averageVolume10days	5980
+ask	2.61
+askSize	100
+averageDailyVolume10Day	4180
+averageDailyVolume3Month	4688
+averageVolume	4688
+averageVolume10days	4180
 beta	0.668
-bid	2.57
-bidSize	6500
+bid	2.59
+bidSize	6300
 bookValue	9.836
 city	Warren
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Ronald E. Klingle', 'age': 77, 'title': 'Chairman & CEO', 'yearBorn': 1948, 'fiscalYear': 2025, 'totalPay': 255000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael J. Havalo', 'age': 40, 'title': 'CFO, Treasurer, Secretary & Director', 'yearBorn': 1985, 'fiscalYear': 2025, 'totalPay': 207303, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kenneth J. McMahon', 'age': 72, 'title': 'CEO & President of American Waste Management Services Inc', 'yearBorn': 1953, 'fiscalYear': 2025, 'totalPay': 480669, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Clifford P. Davis', 'age': 62, 'title': 'Chief Technology Officer', 'yearBorn': 1963, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Frances R. Klingle', 'age': 78, 'title': 'Chief Administrative Officer', 'yearBorn': 1947, 'fiscalYear': 2025, 'totalPay': 105000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Christine M. Bell', 'age': 56, 'title': 'President of Avalon Golf & Country Club The Grand Resort and Director', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Marjorie J. Patterson', 'title': 'Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -25,7 +25,7 @@ currentPrice	2.59
 currentRatio	1.008
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	2.66
+dayHigh	2.6299
 dayLow	2.59
 debtToEquity	94.328
 discount_to_intrinsic_value	-12.21
@@ -36,9 +36,9 @@ earningsTimestampEnd	1754942400
 earningsTimestampStart	1754510400
 ebitda	5828000
 ebitdaMargins	0.069759995
-enterpriseToEbitda	6.774
-enterpriseToRevenue	0.473
-enterpriseValue	39479520
+enterpriseToEbitda	6.767
+enterpriseToRevenue	0.472
+enterpriseValue	39440528
 epsTrailingTwelveMonths	0.08
 eps_normalized_growth	0.0994661900599283
 esgPopulated	False
@@ -48,10 +48,10 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	330 856 8480
-fiftyDayAverage	2.6232
-fiftyDayAverageChange	-0.033200026
-fiftyDayAverageChangePercent	-0.012656308
-fiftyTwoWeekChangePercent	3.174603
+fiftyDayAverage	2.6198
+fiftyDayAverageChange	-0.029800177
+fiftyDayAverageChangePercent	-0.011374981
+fiftyTwoWeekChangePercent	7.024789
 fiftyTwoWeekHigh	5.43
 fiftyTwoWeekHighChange	-2.84
 fiftyTwoWeekHighChangePercent	-0.52302027
@@ -97,11 +97,11 @@ operatingMargins	0.00368
 payoutRatio	0.0
 pegRatio	4.389
 phone	330 856 8800
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	2.59
-postMarketTime	1775505960
-previousClose	2.6
+postMarketChange	-0.009899855
+postMarketChangePercent	-0.38223377
+postMarketPrice	2.5801
+postMarketTime	1775603221
+previousClose	2.59
 priceHint	4
 priceToBook	0.2633184
 priceToSalesTrailing12Months	0.120887294
@@ -111,16 +111,16 @@ quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	none
 region	US
-regularMarketChange	-0.00999999
-regularMarketChangePercent	-0.384615
-regularMarketDayHigh	2.66
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
+regularMarketDayHigh	2.6299
 regularMarketDayLow	2.59
-regularMarketDayRange	2.59 - 2.66
+regularMarketDayRange	2.59 - 2.6299
 regularMarketOpen	2.64
-regularMarketPreviousClose	2.6
+regularMarketPreviousClose	2.59
 regularMarketPrice	2.59
-regularMarketTime	1775501886
-regularMarketVolume	981
+regularMarketTime	1775592000
+regularMarketVolume	5038
 returnOnAssets	0.014579999
 returnOnEquity	-0.0026800002
 revenueGrowth	0.217
@@ -150,10 +150,10 @@ trailingEps	0.08
 trailingPE	32.375
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	2.61885
-twoHundredDayAverageChange	-0.028850079
-twoHundredDayAverageChangePercent	-0.011016316
+twoHundredDayAverage	2.61965
+twoHundredDayAverageChange	-0.029649973
+twoHundredDayAverageChangePercent	-0.011318296
 typeDisp	Equity
-volume	981
+volume	5038
 website	https://www.avalonholdings.com
 zip	44484-5555

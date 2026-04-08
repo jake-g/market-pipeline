@@ -1,43 +1,43 @@
 Metric	Value
-52WeekChange	1.551038
-SandP52WeekChange	0.30034864
+52WeekChange	1.5975664
+SandP52WeekChange	0.32693863
 address1	The Mille
 address2	8th Floor (East) 1000 Great West Road
 allTimeHigh	129.936
 allTimeLow	10.535
 ask	120.0
-askSize	100
+askSize	200
 auditRisk	2
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	2328230
-averageDailyVolume3Month	2376630
-averageVolume	2376630
-averageVolume10days	2328230
+averageDailyVolume10Day	2043160
+averageDailyVolume3Month	2369415
+averageVolume	2369415
+averageVolume10days	2043160
 beta	1.276
-bid	117.0
+bid	120.06
 bidSize	200
 boardRisk	2
 bookValue	23.064
 city	London
-companyOfficers	[{'maxAge': 1, 'name': 'Ms. Beth A. Wozniak', 'age': 61, 'title': 'CEO & Chairman of the Board', 'yearBorn': 1964, 'fiscalYear': 2024, 'totalPay': 3790404, 'exercisedValue': 3447543, 'unexercisedValue': 67121280}, {'maxAge': 1, 'name': 'Mr. Aravind  Padmanabhan Ph.D.', 'age': 56, 'title': 'Executive VP & CTO', 'yearBorn': 1969, 'fiscalYear': 2024, 'totalPay': 1423773, 'exercisedValue': 2872684, 'unexercisedValue': 2364232}]
-compensationAsOfEpochDate	1735603200
+companyOfficers	[{'maxAge': 1, 'name': 'Ms. Beth A. Wozniak', 'age': 61, 'title': 'CEO & Chairman of the Board', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 3790404, 'exercisedValue': 3447543, 'unexercisedValue': 67121280}, {'maxAge': 1, 'name': 'Mr. Gary L. Corona', 'age': 50, 'title': 'Executive VP & CFO', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 1653994, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Aravind  Padmanabhan Ph.D.', 'age': 56, 'title': 'Executive VP & CTO', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1423773, 'exercisedValue': 2872684, 'unexercisedValue': 2364232}, {'maxAge': 1, 'name': 'Ms. Lynnette R. Heath', 'age': 57, 'title': 'Executive VP & Chief HR Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1328279, 'exercisedValue': 4354491, 'unexercisedValue': 5108480}, {'maxAge': 1, 'name': 'Ms. Sara E. Zawoyski', 'age': 50, 'title': 'President of Systems Protection', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 1665620, 'exercisedValue': 12700876, 'unexercisedValue': 3503183}, {'maxAge': 1, 'name': 'Mr. Brian  Coleman', 'age': 40, 'title': 'President of Electrical Connections', 'yearBorn': 1985, 'fiscalYear': 2025, 'totalPay': 964638, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Randolph A. Wacker', 'age': 60, 'title': 'Senior VP, Chief Accounting Officer & Treasurer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Tony  Riter', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Martha Claire Bennett', 'age': 52, 'title': 'Executive VP & Chief Marketing Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 939663, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert J. Van Der Kolk', 'age': 56, 'title': 'President of EMEA & APAC', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+compensationAsOfEpochDate	1767139200
 compensationRisk	1
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'NVT announced a cash dividend of $0.21 with an ex-date of Apr. 24, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1777003200000, 'amount': '0.21'}}]
 country	United Kingdom
 cryptoTradeable	False
 currency	USD
-currentPrice	117.41
+currentPrice	118.92
 currentRatio	1.634
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	119.51
-dayLow	115.01
+dayHigh	119.12
+dayLow	115.23
 debtToEquity	45.92
-discount_to_intrinsic_value	23.68
+discount_to_intrinsic_value	22.4
 displayName	nVent Electric
 dividendDate	1778198400
 dividendRate	0.84
-dividendYield	0.71
+dividendYield	0.72
 earningsCallTimestampEnd	1770386400
 earningsCallTimestampStart	1770386400
 earningsGrowth	11.124
@@ -47,12 +47,12 @@ earningsTimestampEnd	1777638600
 earningsTimestampStart	1777638600
 ebitda	840499968
 ebitdaMargins	0.21589
-enterpriseToEbitda	24.453
-enterpriseToRevenue	5.279
-enterpriseValue	20553009152
+enterpriseToEbitda	24.347
+enterpriseToRevenue	5.256
+enterpriseValue	20464056320
 epsCurrentYear	4.17016
 epsForward	4.90417
-epsTrailingTwelveMonths	2.6
+epsTrailingTwelveMonths	2.59
 eps_normalized_growth	3.869745706855676
 esgPopulated	False
 exDividendDate	1776988800
@@ -61,34 +61,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	115.3272
-fiftyDayAverageChange	2.0828018
-fiftyDayAverageChangePercent	0.018059935
-fiftyTwoWeekChangePercent	155.1038
+fiftyDayAverage	115.444
+fiftyDayAverageChange	3.475998
+fiftyDayAverageChangePercent	0.030109819
+fiftyTwoWeekChangePercent	159.75664
 fiftyTwoWeekHigh	129.936
-fiftyTwoWeekHighChange	-12.526001
-fiftyTwoWeekHighChangePercent	-0.09640131
-fiftyTwoWeekLow	41.705
-fiftyTwoWeekLowChange	75.705
-fiftyTwoWeekLowChangePercent	1.8152499
-fiftyTwoWeekRange	41.705 - 129.936
+fiftyTwoWeekHighChange	-11.016006
+fiftyTwoWeekHighChangePercent	-0.084780246
+fiftyTwoWeekLow	44.29
+fiftyTwoWeekLowChange	74.63
+fiftyTwoWeekLowChangePercent	1.6850303
+fiftyTwoWeekRange	44.29 - 129.936
 financialCurrency	USD
 firstTradeDateMilliseconds	1524576600000
 fiveYearAvgDividendYield	1.46
 floatShares	161008159
 forwardEps	4.90417
-forwardPE	23.940851
+forwardPE	24.24875
 freeCashflow	574262528
 fullExchangeName	NYSE
 fullTimeEmployees	12000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1775001600
-graham_intrinsic_value	153.85
+graham_intrinsic_value	153.26
 grossMargins	0.37736
 grossProfits	1469100032
 hasPrePostMarketData	True
 heldPercentInsiders	0.0078799995
-heldPercentInstitutions	0.95652
+heldPercentInstitutions	0.95628
 impliedSharesOutstanding	161729472
 industry	Electrical Equipment & Parts
 industryDisp	Electrical Equipment & Parts
@@ -101,7 +101,7 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	nVent Electric plc designs, manufactures, markets, installs, and services electrical connection and protection solutions in the America, Europe, the Middle East, India, Africa, the Asia Pacific, and internationally. It operates in two segments, Systems Protection and Electrical Connections. The company provides solutions to protect electronics, systems, and data in mission critical applications, including data centers. It also offers solutions that connect power and data infrastructure. In addition, the company provides bus systems, cable management, control buildings, liquid and air-cooling solutions, electrical connections, enclosures, equipment protection, power connections, and power management solutions, switchgear systems, as well as tools and test instruments. The company markets its products through electrical distributors, retail, contractors, and original equipment manufacturers under the nVent CADDY, ERICO, HOFFMAN, ILSCO, SCHROFF, and TRACHTE brand names. Its products are used for various applications, such as industrial, commercial and residential, infrastructure, and energy. The company was founded in 1903 and is based in London, the United Kingdom.
 longName	nVent Electric plc
 market	us_market
-marketCap	18988658688
+marketCap	19232868352
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_542155250
@@ -110,21 +110,21 @@ netIncomeToCommon	428500000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	19073931350
 numberOfAnalystOpinions	13
-open	118.25
+open	116.8
 operatingCashflow	465200000
 operatingMargins	0.16218
 overallRisk	1
 payoutRatio	0.3077
 phone	44 20 3966 0279
-postMarketChange	-0.2800064
-postMarketChangePercent	-0.23848599
-postMarketPrice	117.13
-postMarketTime	1775516495
-previousClose	117.96
-priceEpsCurrentYear	28.154797
+postMarketChange	3.9745026
+postMarketChangePercent	3.342165
+postMarketPrice	122.8945
+postMarketTime	1775604527
+previousClose	117.41
+priceEpsCurrentYear	28.516891
 priceHint	2
-priceToBook	5.0906177
-priceToSalesTrailing12Months	4.8775163
+priceToBook	5.1560874
+priceToSalesTrailing12Months	4.940245
 profitMargins	0.18243
 quickRatio	1.087
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.28571
 region	US
-regularMarketChange	-0.549995
-regularMarketChangePercent	-0.466256
-regularMarketDayHigh	119.51
-regularMarketDayLow	115.01
-regularMarketDayRange	115.01 - 119.51
-regularMarketOpen	118.25
-regularMarketPreviousClose	117.96
-regularMarketPrice	117.41
-regularMarketTime	1775505602
-regularMarketVolume	1355891
+regularMarketChange	1.50999
+regularMarketChangePercent	1.28609
+regularMarketDayHigh	119.12
+regularMarketDayLow	115.23
+regularMarketDayRange	115.23 - 119.12
+regularMarketOpen	116.8
+regularMarketPreviousClose	117.41
+regularMarketPrice	118.92
+regularMarketTime	1775592003
+regularMarketVolume	1200610
 returnOnAssets	0.05821
 returnOnEquity	0.12299
 revenueGrowth	0.418
@@ -160,7 +160,7 @@ shortPercentOfFloat	0.020499999
 shortRatio	1.36
 sourceInterval	15
 symbol	NVT
-syntheticPEG	0.0215218006112909
+syntheticPEG	0.021798588637180868
 targetHighPrice	150.0
 targetLowPrice	68.04
 targetMeanPrice	133.08
@@ -171,15 +171,15 @@ totalDebt	1712899968
 totalRevenue	3893100032
 tradeable	False
 trailingAnnualDividendRate	0.8
-trailingAnnualDividendYield	0.0067819604
-trailingEps	2.6
-trailingPE	45.157696
+trailingAnnualDividendYield	0.0068137296
+trailingEps	2.59
+trailingPE	45.91506
 trailingPegRatio	1.5937
 triggerable	True
-twoHundredDayAverage	100.0729
-twoHundredDayAverageChange	17.337105
-twoHundredDayAverageChangePercent	0.17324476
+twoHundredDayAverage	100.3108
+twoHundredDayAverageChange	18.6092
+twoHundredDayAverageChangePercent	0.18551542
 typeDisp	Equity
-volume	1355891
+volume	1200610
 website	https://www.nvent.com
 zip	TW8 9DW

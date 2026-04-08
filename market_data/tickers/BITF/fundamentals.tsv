@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	1.6259947
-SandP52WeekChange	0.30034864
+52WeekChange	2.1578948
+SandP52WeekChange	0.32693863
 address1	110 Yonge Street
 address2	Suite 1601
 allTimeHigh	10.0
@@ -9,10 +9,10 @@ ask	2.38
 askSize	2
 auditRisk	10
 averageAnalystRating	1.4 - Strong Buy
-averageDailyVolume10Day	37764320
-averageDailyVolume3Month	36177920
-averageVolume	36177920
-averageVolume10days	37764320
+averageDailyVolume10Day	34696050
+averageDailyVolume3Month	35883581
+averageVolume	35883581
+averageVolume10days	34696050
 beta	4.094
 bid	1.43
 bidSize	2
@@ -22,7 +22,7 @@ city	Toronto
 companyOfficers	[]
 compensationAsOfEpochDate	1735603200
 compensationRisk	10
-corporateActions	[{'header': 'Ticker Change', 'message': 'BITF is trading under new symbol KEEL effective Apr. 6, 2026', 'meta': {'eventType': 'TICKER_CHANGE', 'dateEpochMs': 1775448000000, 'newTicker': 'KEEL'}}, {'header': 'Delisting', 'message': 'BITF was delisted effective Apr. 1, 2026', 'meta': {'eventType': 'DELISTING', 'dateEpochMs': 1775016000000}}]
+corporateActions	[{'header': 'Delisting', 'message': 'BITF was delisted effective Apr. 1, 2026', 'meta': {'eventType': 'DELISTING', 'dateEpochMs': 1775016000000}}, {'header': 'Ticker Change', 'message': 'BITF is trading under new symbol KEEL effective Apr. 6, 2026', 'meta': {'eventType': 'TICKER_CHANGE', 'dateEpochMs': 1775448000000, 'newTicker': 'KEEL'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
@@ -53,10 +53,10 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	2.2041
-fiftyDayAverageChange	-0.22409987
-fiftyDayAverageChangePercent	-0.1016741
-fiftyTwoWeekChangePercent	162.59947
+fiftyDayAverage	2.1941
+fiftyDayAverageChange	-0.21409988
+fiftyDayAverageChangePercent	-0.09757982
+fiftyTwoWeekChangePercent	215.78949
 fiftyTwoWeekHigh	6.6
 fiftyTwoWeekHighChange	-4.62
 fiftyTwoWeekHighChangePercent	-0.7
@@ -165,9 +165,9 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.38
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	2.36342
-twoHundredDayAverageChange	-0.38342
-twoHundredDayAverageChangePercent	-0.162231
+twoHundredDayAverage	2.370205
+twoHundredDayAverageChange	-0.3902049
+twoHundredDayAverageChangePercent	-0.16462919
 typeDisp	Equity
 volume	37311063
 website	https://www.bitfarms.com

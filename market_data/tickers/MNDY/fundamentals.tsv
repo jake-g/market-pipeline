@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	-0.69078326
-SandP52WeekChange	0.30034864
+52WeekChange	-0.6899047
+SandP52WeekChange	0.32693863
 address1	6 Yitzhak Sadeh Street
 allTimeHigh	450.0
-allTimeLow	66.26
-ask	67.89
-askSize	6
+allTimeLow	66.18
+ask	66.97
+askSize	2
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	1259640
-averageDailyVolume3Month	2417616
-averageVolume	2417616
-averageVolume10days	1259640
+averageDailyVolume10Day	1221880
+averageDailyVolume3Month	2418786
+averageVolume	2418786
+averageVolume10days	1221880
 beta	1.287
-bid	67.61
-bidSize	11
+bid	66.38
+bidSize	3
 bookValue	24.557
 city	Tel Aviv-Yafo
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Eran  Zinman', 'age': 41, 'title': 'Co-Founder, Co-CEO & Director', 'yearBorn': 1984, 'fiscalYear': 2024, 'totalPay': 661000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Roy  Mann', 'age': 45, 'title': 'Co-Founder, Co-CEO & Director', 'yearBorn': 1980, 'fiscalYear': 2024, 'totalPay': 661000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eliran  Glazer', 'age': 54, 'title': 'Chief Financial Officer', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 1103000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel  Lereya', 'age': 40, 'title': 'Chief Product & Technology Officer', 'yearBorn': 1985, 'fiscalYear': 2024, 'totalPay': 419000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Byron  Stephen', 'title': 'Director of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Shiran  Nawi', 'age': 40, 'title': 'Chief People & Legal Officer', 'yearBorn': 1985, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Harris  Beber', 'age': 45, 'title': 'Chief Marketing Officer', 'yearBorn': 1980, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Adi  Dar', 'age': 53, 'title': 'Chief Customer Officer', 'yearBorn': 1972, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Casey  George', 'age': 53, 'title': 'Chief Revenue Officer', 'yearBorn': 1972, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,14 +22,14 @@ corporateActions	[]
 country	Israel
 cryptoTradeable	False
 currency	USD
-currentPrice	67.7
+currentPrice	66.71
 currentRatio	2.503
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	69.28
-dayLow	66.25
+dayHigh	68.0401
+dayLow	66.15
 debtToEquity	13.536
-discount_to_intrinsic_value	48.92
+discount_to_intrinsic_value	49.67
 displayName	monday.com
 earningsCallTimestampEnd	1770643800
 earningsCallTimestampStart	1770643800
@@ -40,9 +40,9 @@ earningsTimestampEnd	1778502600
 earningsTimestampStart	1778502600
 ebitda	8217000
 ebitdaMargins	0.00667
-enterpriseToEbitda	240.131
-enterpriseToRevenue	1.602
-enterpriseValue	1973159808
+enterpriseToEbitda	236.177
+enterpriseToRevenue	1.575
+enterpriseValue	1940664960
 epsCurrentYear	4.05211
 epsForward	5.03106
 epsTrailingTwelveMonths	2.24
@@ -53,22 +53,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	83.6403
-fiftyDayAverageChange	-15.9403
-fiftyDayAverageChangePercent	-0.19058158
-fiftyTwoWeekChangePercent	-69.07832
+fiftyDayAverage	82.4407
+fiftyDayAverageChange	-15.730698
+fiftyDayAverageChangePercent	-0.19081229
+fiftyTwoWeekChangePercent	-68.99047
 fiftyTwoWeekHigh	316.98
-fiftyTwoWeekHighChange	-249.28001
-fiftyTwoWeekHighChangePercent	-0.7864219
-fiftyTwoWeekLow	66.25
-fiftyTwoWeekLowChange	1.449997
-fiftyTwoWeekLowChangePercent	0.021886745
-fiftyTwoWeekRange	66.25 - 316.98
+fiftyTwoWeekHighChange	-250.27002
+fiftyTwoWeekHighChangePercent	-0.7895451
+fiftyTwoWeekLow	66.15
+fiftyTwoWeekLowChange	0.55999756
+fiftyTwoWeekLowChangePercent	0.008465571
+fiftyTwoWeekRange	66.15 - 316.98
 financialCurrency	USD
 firstTradeDateMilliseconds	1623331800000
 floatShares	41516342
 forwardEps	5.03106
-forwardPE	13.456408
+forwardPE	13.25963
 freeCashflow	255467504
 fullExchangeName	NasdaqGS
 fullTimeEmployees	3155
@@ -78,7 +78,7 @@ grossMargins	0.89195997
 grossProfits	1098898048
 hasPrePostMarketData	True
 heldPercentInsiders	0.14128
-heldPercentInstitutions	0.8064
+heldPercentInstitutions	0.80641997
 impliedSharesOutstanding	51551463
 industry	Software - Application
 industryDisp	Software - Application
@@ -90,7 +90,7 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	monday.com Ltd., together with its subsidiaries, develops software applications in the United States, Europe, the Middle East, Africa, the United Kingdom, and internationally. The company provides Work Operating System (Work OS), a cloud-based visual work OS that consists of modular building blocks used and assembled to create software applications and work management tools. Its products include monday work management that manages workflows, projects, and portfolios for team collaboration and productivity; monday CRM, which tracks and manages various sales cycle; monday dev that builds agile product and software development workflows; monday service, which creates seamless connection between service desks and their data; WorkCanvas, a digital whiteboard; and WorkForms, which allows users to create personalized forms or surveys and gain organizational insights. The company serves organizations, educational or government institution, and distinct business unit of an organization. The company was formerly known as DaPulse Labs Ltd. and changed its name to monday.com Ltd. in December 2017. monday.com Ltd. was incorporated in 2012 and is headquartered in Tel Aviv-Yafo, Israel.
 longName	monday.com Ltd.
 market	us_market
-marketCap	3490033920
+marketCap	3438998016
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_214992529
@@ -99,20 +99,20 @@ netIncomeToCommon	118742000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	3496330575
 numberOfAnalystOpinions	25
-open	68.34
+open	67.07
 operatingCashflow	333644000
 operatingMargins	0.00714
 payoutRatio	0.0
 phone	972 5 5939 7720
-postMarketChange	0.30000305
-postMarketChangePercent	0.44313598
-postMarketPrice	68.0
-postMarketTime	1775516349
-previousClose	68.34
-priceEpsCurrentYear	16.707344
+postMarketChange	2.1415024
+postMarketChangePercent	3.210167
+postMarketPrice	68.8515
+postMarketTime	1775604379
+previousClose	67.7
+priceEpsCurrentYear	16.463026
 priceHint	2
-priceToBook	2.7568514
-priceToSalesTrailing12Months	2.8328266
+priceToBook	2.716537
+priceToSalesTrailing12Months	2.7914011
 profitMargins	0.096379995
 quickRatio	2.39
 quoteSourceName	Nasdaq Real Time Price
@@ -120,16 +120,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.61538
 region	US
-regularMarketChange	-0.6399994
-regularMarketChangePercent	-0.93649316
-regularMarketDayHigh	69.28
-regularMarketDayLow	66.25
-regularMarketDayRange	66.25 - 69.28
-regularMarketOpen	68.34
-regularMarketPreviousClose	68.34
-regularMarketPrice	67.7
-regularMarketTime	1775505602
-regularMarketVolume	1093372
+regularMarketChange	-0.98999786
+regularMarketChangePercent	-1.4623308
+regularMarketDayHigh	68.0401
+regularMarketDayLow	66.15
+regularMarketDayRange	66.15 - 68.0401
+regularMarketOpen	67.07
+regularMarketPreviousClose	67.7
+regularMarketPrice	66.71
+regularMarketTime	1775592001
+regularMarketVolume	863499
 returnOnAssets	-0.00058
 returnOnEquity	0.10429
 revenueGrowth	0.246
@@ -147,7 +147,7 @@ shortPercentOfFloat	0.1294
 shortRatio	2.25
 sourceInterval	15
 symbol	MNDY
-syntheticPEG	0.05772804804804805
+syntheticPEG	0.05688386958386958
 targetHighPrice	310.0
 targetLowPrice	75.0
 targetMeanPrice	127.76
@@ -160,13 +160,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.24
-trailingPE	30.223213
+trailingPE	29.78125
 trailingPegRatio	0.2834
 triggerable	True
-twoHundredDayAverage	170.8823
-twoHundredDayAverageChange	-103.1823
-twoHundredDayAverageChangePercent	-0.60382086
+twoHundredDayAverage	169.7738
+twoHundredDayAverageChange	-103.063805
+twoHundredDayAverageChangePercent	-0.60706544
 typeDisp	Equity
-volume	1093372
+volume	863499
 website	https://www.monday.com
 zip	6777506

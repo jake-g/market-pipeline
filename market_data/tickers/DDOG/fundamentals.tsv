@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.3646258
-SandP52WeekChange	0.30034864
+52WeekChange	0.33908045
+SandP52WeekChange	0.32693863
 address1	620 8th Avenue
 address2	45th Floor
 allTimeHigh	201.69
 allTimeLow	27.55
-ask	116.76
-askSize	9
+ask	122.07
+askSize	1
 auditRisk	8
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	4736320
-averageDailyVolume3Month	5950066
-averageVolume	5950066
-averageVolume10days	4736320
+averageDailyVolume10Day	4031720
+averageDailyVolume3Month	5909211
+averageVolume	5909211
+averageVolume10days	4031720
 beta	1.294
-bid	116.33
-bidSize	9
+bid	111.67
+bidSize	1
 boardRisk	10
 bookValue	10.587
 city	New York
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	116.5
+currentPrice	116.54
 currentRatio	3.382
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	119.1
-dayLow	114.57
+dayHigh	117.91
+dayLow	111.695
 debtToEquity	34.269
-discount_to_intrinsic_value	-848.53
+discount_to_intrinsic_value	-848.85
 displayName	Datadog
 earningsCallTimestampEnd	1770728400
 earningsCallTimestampStart	1770728400
@@ -44,9 +44,9 @@ earningsTimestampEnd	1777984200
 earningsTimestampStart	1777984200
 ebitda	7529000
 ebitdaMargins	0.0022
-enterpriseToEbitda	5211.878
-enterpriseToRevenue	11.45
-enterpriseValue	39240224768
+enterpriseToEbitda	5031.117
+enterpriseToRevenue	11.053
+enterpriseValue	37879283712
 epsCurrentYear	2.16072
 epsForward	2.63493
 epsTrailingTwelveMonths	0.31
@@ -57,22 +57,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	122.2895
-fiftyDayAverageChange	-5.7894974
-fiftyDayAverageChangePercent	-0.047342557
-fiftyTwoWeekChangePercent	36.46258
+fiftyDayAverage	121.9945
+fiftyDayAverageChange	-5.4544983
+fiftyDayAverageChangePercent	-0.04471102
+fiftyTwoWeekChangePercent	33.908047
 fiftyTwoWeekHigh	201.69
-fiftyTwoWeekHighChange	-85.19
-fiftyTwoWeekHighChangePercent	-0.4223809
-fiftyTwoWeekLow	81.63
-fiftyTwoWeekLowChange	34.870003
-fiftyTwoWeekLowChangePercent	0.42717144
-fiftyTwoWeekRange	81.63 - 201.69
+fiftyTwoWeekHighChange	-85.15
+fiftyTwoWeekHighChangePercent	-0.42218256
+fiftyTwoWeekLow	85.74
+fiftyTwoWeekLowChange	30.800003
+fiftyTwoWeekLowChangePercent	0.3592256
+fiftyTwoWeekRange	85.74 - 201.69
 financialCurrency	USD
 firstTradeDateMilliseconds	1568899800000
-floatShares	325032838
+floatShares	325029312
 forwardEps	2.63493
-forwardPE	44.2137
+forwardPE	44.22888
 freeCashflow	879646720
 fullExchangeName	NasdaqGS
 fullTimeEmployees	8100
@@ -82,8 +82,8 @@ graham_intrinsic_value	12.28
 grossMargins	0.79976
 grossProfits	2740896000
 hasPrePostMarketData	True
-heldPercentInsiders	0.0068
-heldPercentInstitutions	0.90912
+heldPercentInsiders	0.0070700003
+heldPercentInstitutions	0.91012
 impliedSharesOutstanding	353851329
 industry	Software - Application
 industryDisp	Software - Application
@@ -94,7 +94,7 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally. The company's products comprise infrastructure and application performance monitoring, log management, observability pipelines, synthetics, real user monitoring, product analytics, continuous profiler, database monitoring, data observability, LLM observability, error tracking, network monitoring, incident response, workflow automation and App builder, event management, bits AI SRE, cloud cost management, cloud security, code security, cloud SIEM, threat management, sensitive data scanner, and CI visibility. Datadog, Inc. was incorporated in 2010 and is headquartered in New York, New York.
 longName	Datadog, Inc.
 market	us_market
-marketCap	41223680000
+marketCap	41237835776
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_134521275
@@ -103,21 +103,21 @@ netIncomeToCommon	107741000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	42589545958
 numberOfAnalystOpinions	44
-open	117.25
+open	115.0
 operatingCashflow	1050134976
 operatingMargins	0.0100300005
 overallRisk	10
 payoutRatio	0.0
 phone	866 329 4466
-postMarketChange	-0.46620178
-postMarketChangePercent	-0.40017322
-postMarketPrice	116.0338
-postMarketTime	1775516306
-previousClose	120.36
-priceEpsCurrentYear	53.91721
+postMarketChange	3.909996
+postMarketChangePercent	3.3550677
+postMarketPrice	120.45
+postMarketTime	1775604299
+previousClose	116.5
+priceEpsCurrentYear	53.935722
 priceHint	2
-priceToBook	11.004062
-priceToSalesTrailing12Months	12.028532
+priceToBook	11.00784
+priceToSalesTrailing12Months	12.032662
 profitMargins	0.03144
 quickRatio	3.278
 quoteSourceName	Nasdaq Real Time Price
@@ -125,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.45833
 region	US
-regularMarketChange	-3.8600006
-regularMarketChangePercent	-3.2070463
-regularMarketDayHigh	119.1
-regularMarketDayLow	114.57
-regularMarketDayRange	114.57 - 119.1
-regularMarketOpen	117.25
-regularMarketPreviousClose	120.36
-regularMarketPrice	116.5
-regularMarketTime	1775505601
-regularMarketVolume	3413392
+regularMarketChange	0.040000916
+regularMarketChangePercent	0.03433555
+regularMarketDayHigh	117.91
+regularMarketDayLow	111.695
+regularMarketDayRange	111.695 - 117.91
+regularMarketOpen	115.0
+regularMarketPreviousClose	116.5
+regularMarketPrice	116.54
+regularMarketTime	1775592001
+regularMarketVolume	3635578
 returnOnAssets	-0.0043
 returnOnEquity	0.03343
 revenueGrowth	0.292
@@ -154,7 +154,7 @@ shortRatio	1.61
 sourceInterval	15
 state	NY
 symbol	DDOG
-syntheticPEG	-13.398090909090909
+syntheticPEG	-13.402690909090907
 targetHighPrice	260.0
 targetLowPrice	121.0
 targetMeanPrice	181.51704
@@ -167,13 +167,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.31
-trailingPE	375.80646
+trailingPE	375.9355
 trailingPegRatio	0.9042
 triggerable	True
-twoHundredDayAverage	139.3406
-twoHundredDayAverageChange	-22.840607
-twoHundredDayAverageChangePercent	-0.16391924
+twoHundredDayAverage	139.2989
+twoHundredDayAverageChange	-22.758904
+twoHundredDayAverageChangePercent	-0.16338179
 typeDisp	Equity
-volume	3413392
+volume	3635578
 website	https://www.datadoghq.com
 zip	10018

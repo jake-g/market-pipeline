@@ -21,7 +21,7 @@ The week of March 29 to April 4, 2026, represented a **violent structural consol
 *   **Infrastructure Moats:** Capital is now flowing toward firms that provide system-level integration (connectivity and custom silicon) required to power autonomous reasoning agents [10, 15, 17].
 *   **China Trade Conflict:** Retail and institutional investors are navigating a new risk: **China’s Ministry of Commerce** initiating trade barrier investigations into U.S. practices, specifically targeting the semiconductor supply chain [18, 19].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 The late-March rally is fundamentally fragile. We anticipate a **10-15% total correction** in the coming weeks as the "growth-at-any-cost" regime of 2025 fully breaks down [18, 20]. If the 10-day military pause fails to yield a permanent de-escalation, markets will re-price the combined impact of **$110+ oil** and the "SaaSpocalypse" [18, 20]. **Alpha will reside exclusively in "HALO" stocks** (Hard-Asset, Low-Obsolescence) and "Neocloud" providers like IREN that bypass legacy hyperscaler bloat [20, 21].
 
 ---
