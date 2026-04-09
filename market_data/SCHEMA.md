@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-07 |
+| Date | str | 2026-04-08 |
 | Source | str | Google |
 | Sentiment | float64 | 1.0 |
-| Headline | str | If Magnificent 7 Executives Don’t Believe In Th... |
-| Summary | str | Amazon still has plenty of growth in store. |
-| URL | str | https://news.google.com/rss/articles/CBMisAFBVV... |
+| Headline | str | The 32 best Mother’s Day gifts from Amazon that... |
+| Summary | str | Rigetti delayed the release of Cepheus-1-108Q i... |
+| URL | str | https://news.google.com/rss/articles/CBMiggFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 327.46 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.84 |
-| US10Y | float64 | 4.35 |
+| US02Y | float64 | 3.81 |
+| US10Y | float64 | 4.33 |
