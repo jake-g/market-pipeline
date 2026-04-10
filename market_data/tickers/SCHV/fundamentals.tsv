@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	78.8
 allTimeLow	6.88
-ask	31.34
-askSize	900
-averageDailyVolume10Day	5376310
-averageDailyVolume3Month	4606775
-averageVolume	4606775
-averageVolume10days	5376310
+ask	31.72
+askSize	52000
+averageDailyVolume10Day	5513460
+averageDailyVolume3Month	4661126
+averageVolume	4661126
+averageVolume10days	5513460
 beta3Year	0.86
-bid	30.68
-bidSize	2000
+bid	31.48
+bidSize	43900
 category	Large Value
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	30.8
-dayLow	30.58
+dayHigh	31.76
+dayLow	31.4301
 dividendYield	1.97
 epsTrailingTwelveMonths	1.42923
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	31.2896
-fiftyDayAverageChange	-0.5396004
-fiftyDayAverageChangePercent	-0.017245358
-fiftyTwoWeekChangePercent	30.912949
+fiftyDayAverage	31.3016
+fiftyDayAverageChange	0.3784008
+fiftyDayAverageChangePercent	0.012088865
+fiftyTwoWeekChangePercent	28.810787
 fiftyTwoWeekHigh	32.45
-fiftyTwoWeekHighChange	-1.7000008
-fiftyTwoWeekHighChangePercent	-0.05238831
-fiftyTwoWeekLow	23.17
-fiftyTwoWeekLowChange	7.58
-fiftyTwoWeekLowChangePercent	0.32714716
-fiftyTwoWeekRange	23.17 - 32.45
+fiftyTwoWeekHighChange	-0.77000046
+fiftyTwoWeekHighChangePercent	-0.023728827
+fiftyTwoWeekLow	23.84
+fiftyTwoWeekLowChange	7.84
+fiftyTwoWeekLowChangePercent	0.32885906
+fiftyTwoWeekRange	23.84 - 32.45
 firstTradeDateMilliseconds	1260887400000
-fiveYearAverageReturn	0.0936419
+fiveYearAverageReturn	0.098659694
 fullExchangeName	NYSEArca
 fundFamily	Schwab ETFs
 fundInceptionDate	1260489600
@@ -49,50 +49,50 @@ legalType	Exchange Traded Fund
 longBusinessSummary	To pursue its goal, the fund generally invests in stocks that are included in the Dow Jones U.S. Large-Cap Value Total Stock Market Index. The index includes the large-cap value portion of the Dow Jones U.S. Total Stock Market Index actually available to investors in the marketplace. The Dow Jones U.S. Large-Cap Value Total Stock Market Index includes the components ranked 1-750 by full market capitalization and that are classified as "value" based on a number of factors.
 longName	Schwab U.S. Large-Cap Value ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_83112017
-navPrice	30.82
+navPrice	31.52
 netAssets	14824918000.0
 netExpenseRatio	0.04
-open	30.72
+open	31.44
 phone	1-800-435-4000
-postMarketChange	0.54999924
-postMarketChangePercent	1.7886153
-postMarketPrice	31.3
-postMarketTime	1775603951
-previousClose	30.83
+postMarketChange	-0.010000229
+postMarketChangePercent	-0.031566378
+postMarketPrice	31.67
+postMarketTime	1775778562
+previousClose	31.52
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.0799999
-regularMarketChangePercent	-0.259487
-regularMarketDayHigh	30.8
-regularMarketDayLow	30.58
-regularMarketDayRange	30.58 - 30.8
-regularMarketOpen	30.72
-regularMarketPreviousClose	30.83
-regularMarketPrice	30.75
-regularMarketTime	1775592000
-regularMarketVolume	3924807
+regularMarketChange	0.16
+regularMarketChangePercent	0.507614
+regularMarketDayHigh	31.76
+regularMarketDayLow	31.4301
+regularMarketDayRange	31.4301 - 31.76
+regularMarketOpen	31.44
+regularMarketPreviousClose	31.52
+regularMarketPrice	31.68
+regularMarketTime	1775764800
+regularMarketVolume	4300106
 shortName	Schwab U.S. Large-Cap Value ETF
 sourceInterval	15
 symbol	SCHV
-threeYearAverageReturn	0.1476714
+threeYearAverageReturn	0.15617019
 totalAssets	14824918016
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	21.515081
+trailingPE	22.165783
 trailingPegRatio	None
 trailingThreeMonthNavReturns	3.51572
 trailingThreeMonthReturns	3.51572
 triggerable	True
-twoHundredDayAverage	29.5031
-twoHundredDayAverageChange	1.2469006
-twoHundredDayAverageChangePercent	0.042263374
+twoHundredDayAverage	29.5434
+twoHundredDayAverageChange	2.1366005
+twoHundredDayAverageChangePercent	0.07232074
 typeDisp	ETF
-volume	3924807
+volume	4300106
 yield	0.0197
 ytdReturn	3.51572

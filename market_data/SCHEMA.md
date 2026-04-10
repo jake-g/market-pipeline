@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.24686515 |
+| Value | str | 0.22089171 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-08 |
-| Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | The 32 best Mother’s Day gifts from Amazon that... |
-| Summary | str | Rigetti delayed the release of Cepheus-1-108Q i... |
-| URL | str | https://news.google.com/rss/articles/CBMiggFBVV... |
+| Date | str | 2026-04-10 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.274 |
+| Headline | str | Apple to shutter its first unionized US store i... |
+| Summary | str | April 9 (Reuters) - Apple said on Thursday that... |
+| URL | str | https://finance.yahoo.com/news/apple-shutter-fi... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
