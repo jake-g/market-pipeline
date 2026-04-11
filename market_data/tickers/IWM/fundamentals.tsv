@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	271.6
 allTimeLow	32.3
-ask	261.37
-askSize	300
-averageDailyVolume10Day	43587800
-averageDailyVolume3Month	45070965
-averageVolume	45070965
-averageVolume10days	43587800
+ask	261.89
+askSize	900
+averageDailyVolume10Day	39253240
+averageDailyVolume3Month	44409906
+averageVolume	44409906
+averageVolume10days	39253240
 beta3Year	1.32
-bid	261.15
-bidSize	600
+bid	261.75
+bidSize	2100
 bookValue	218.694
 category	Small Blend
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	262.9
-dayLow	258.8
+dayHigh	262.75
+dayLow	260.34
 dividendYield	1.02
 epsTrailingTwelveMonths	13.812947
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	256.4766
-fiftyDayAverageChange	5.4833984
-fiftyDayAverageChangePercent	0.021379722
-fiftyTwoWeekChangePercent	43.343796
+fiftyDayAverage	256.3812
+fiftyDayAverageChange	4.9187927
+fiftyDayAverageChangePercent	0.019185467
+fiftyTwoWeekChangePercent	40.08471
 fiftyTwoWeekHigh	271.6
-fiftyTwoWeekHighChange	-9.640015
-fiftyTwoWeekHighChangePercent	-0.035493426
-fiftyTwoWeekLow	176.98
-fiftyTwoWeekLowChange	84.979996
-fiftyTwoWeekLowChangePercent	0.48016724
-fiftyTwoWeekRange	176.98 - 271.6
+fiftyTwoWeekHighChange	-10.300018
+fiftyTwoWeekHighChangePercent	-0.037923485
+fiftyTwoWeekLow	180.77
+fiftyTwoWeekLowChange	80.52998
+fiftyTwoWeekLowChangePercent	0.44548312
+fiftyTwoWeekRange	180.77 - 271.6
 financialCurrency	USD
 firstTradeDateMilliseconds	959347800000
-fiveYearAverageReturn	0.0447604
+fiveYearAverageReturn	0.0459248
 fullExchangeName	NYSEArca
 fundFamily	iShares
 fundInceptionDate	958953600
@@ -51,53 +51,53 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally invests at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index (i.e., depositary receipts representing securities of the underlying index) and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents.
 longName	iShares Russell 2000 ETF
 market	us_market
-marketCap	73623855104
+marketCap	73438355456
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_8797658
-navPrice	260.25427
+navPrice	261.84027
 netAssets	71915577000.0
 netExpenseRatio	0.19
-open	258.78
+open	262.4
 phone	415-670-2000
-postMarketChange	-0.6799927
-postMarketChangePercent	-0.25957882
-postMarketPrice	261.28
-postMarketTime	1775779185
-previousClose	260.47
+postMarketChange	0.52020264
+postMarketChangePercent	0.19908254
+postMarketPrice	261.8202
+postMarketTime	1775865587
+previousClose	261.96
 priceHint	2
-priceToBook	1.1978381
-quoteSourceName	Delayed Quote
+priceToBook	1.19482
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	1.48999
-regularMarketChangePercent	0.572039
-regularMarketDayHigh	262.9
-regularMarketDayLow	258.8
-regularMarketDayRange	258.8 - 262.9
-regularMarketOpen	258.78
-regularMarketPreviousClose	260.47
-regularMarketPrice	261.96
-regularMarketTime	1775764800
-regularMarketVolume	26423028
+regularMarketChange	-0.660004
+regularMarketChangePercent	-0.251948
+regularMarketDayHigh	262.75
+regularMarketDayLow	260.34
+regularMarketDayRange	260.34 - 262.75
+regularMarketOpen	262.4
+regularMarketPreviousClose	261.96
+regularMarketPrice	261.3
+regularMarketTime	1775851200
+regularMarketVolume	20657373
 sharesOutstanding	281049984
 shortName	iShares Russell 2000 ETF
 sourceInterval	15
 symbol	IWM
-threeYearAverageReturn	0.1579534
+threeYearAverageReturn	0.1601572
 totalAssets	71915577344
 tradeable	False
 trailingAnnualDividendRate	2.017
-trailingAnnualDividendYield	0.007743694
-trailingPE	18.964815
+trailingAnnualDividendYield	0.007699649
+trailingPE	18.917034
 trailingPegRatio	None
 trailingThreeMonthNavReturns	0.85793
 trailingThreeMonthReturns	0.85793
 triggerable	True
-twoHundredDayAverage	243.5301
-twoHundredDayAverageChange	18.429886
-twoHundredDayAverageChangePercent	0.07567806
+twoHundredDayAverage	244.0152
+twoHundredDayAverageChange	17.28479
+twoHundredDayAverageChangePercent	0.07083489
 typeDisp	ETF
-volume	26423028
+volume	20657373
 yield	0.010199999
 ytdReturn	0.85793
