@@ -128,7 +128,7 @@ def prompt_for_curl_and_save_env(env_path: str):
       lines.append(line)
       if not line.strip():
         blank_lines += 1
-        if blank_lines >= 1:
+        if blank_lines >= 2:
           break
       else:
         blank_lines = 0
@@ -382,8 +382,7 @@ def main():
         needs_update = True
 
       if needs_update:
-        logger.info(
-            "Prompting for new credentials via automated clipboard capture...")
+        logger.info("Prompting for new credentials...")
         prompt_for_curl_and_save_env(env_path)
         # Reload env vars
         cookie = os.environ.get("YF_COOKIE")
