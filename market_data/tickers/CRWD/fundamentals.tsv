@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.024032593
-SandP52WeekChange	0.276026
+52WeekChange	0.049099565
+SandP52WeekChange	0.3206551
 address1	206 East 9th Street
 address2	Suite 1400
 allTimeHigh	566.9
 allTimeLow	31.95
-ask	415.0
-askSize	1
+ask	412.02
+askSize	3
 auditRisk	10
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	4093490
-averageDailyVolume3Month	4167696
-averageVolume	4167696
-averageVolume10days	4093490
+averageDailyVolume10Day	3973420
+averageDailyVolume3Month	4173463
+averageVolume	4173463
+averageVolume10days	3973420
 beta	1.072
-bid	395.0
+bid	410.42
 bidSize	2
 boardRisk	9
 bookValue	17.478
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	398.0
+currentPrice	411.16
 currentRatio	1.773
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	411.44
-dayLow	396.0534
+dayHigh	411.98
+dayLow	402.05
 debtToEquity	18.336
 displayName	CrowdStrike
 earningsCallTimestampEnd	1772575200
@@ -41,11 +41,11 @@ earningsTimestampEnd	1781035200
 earningsTimestampStart	1781035200
 ebitda	-46664000
 ebitdaMargins	-0.0097
-enterpriseToEbitda	-2092.575
-enterpriseToRevenue	20.293
-enterpriseValue	97647894528
+enterpriseToEbitda	-2072.194
+enterpriseToRevenue	20.095
+enterpriseValue	96696844288
 epsCurrentYear	4.85741
-epsForward	6.17242
+epsForward	6.17496
 epsTrailingTwelveMonths	-0.64
 esgPopulated	False
 exchange	NMS
@@ -53,22 +53,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	406.6536
-fiftyDayAverageChange	-8.653595
-fiftyDayAverageChangePercent	-0.021280017
-fiftyTwoWeekChangePercent	2.4032593
+fiftyDayAverage	405.7953
+fiftyDayAverageChange	5.3647156
+fiftyDayAverageChangePercent	0.013220251
+fiftyTwoWeekChangePercent	4.9099565
 fiftyTwoWeekHigh	566.9
-fiftyTwoWeekHighChange	-168.90002
-fiftyTwoWeekHighChangePercent	-0.29793617
+fiftyTwoWeekHighChange	-155.74002
+fiftyTwoWeekHighChangePercent	-0.2747222
 fiftyTwoWeekLow	342.72
-fiftyTwoWeekLowChange	55.28
-fiftyTwoWeekLowChangePercent	0.16129784
+fiftyTwoWeekLowChange	68.44
+fiftyTwoWeekLowChangePercent	0.19969656
 fiftyTwoWeekRange	342.72 - 566.9
 financialCurrency	USD
 firstTradeDateMilliseconds	1560346200000
-floatShares	249005922
-forwardEps	6.17242
-forwardPE	64.480385
+floatShares	249000850
+forwardEps	6.17496
+forwardPE	66.585045
 freeCashflow	1604615040
 fullExchangeName	NasdaqGS
 fullTimeEmployees	10698
@@ -78,7 +78,7 @@ grossMargins	0.74808997
 grossProfits	3599789056
 hasPrePostMarketData	True
 heldPercentInsiders	0.0308
-heldPercentInstitutions	0.75494003
+heldPercentInstitutions	0.75497
 impliedSharesOutstanding	253614090
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -89,31 +89,31 @@ lastFiscalYearEnd	1769817600
 longBusinessSummary	CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software as a service (SaaS) subscription-based model. The company offers corporate endpoint and cloud workload security, managed security, security and vulnerability management, IT operations management, identity protection, threat intelligence, data protection, SaaS security posture management, and AI powered workflow automation, and securing generative AI workload services, as well as security orchestration, automation, and response; and security information and event management, and log management services. It primarily sells subscriptions to its Falcon platform and cloud modules. The company was incorporated in 2011 and is headquartered in Austin, Texas.
 longName	CrowdStrike Holdings, Inc.
 market	us_market
-marketCap	100938407936
-marketState	REGULAR
+marketCap	104275976192
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_420347413
 mostRecentQuarter	1769817600
 netIncomeToCommon	-162502000
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	102013731561
+nonDilutedMarketCap	101062678724
 numberOfAnalystOpinions	50
-open	405.25
+open	408.53
 operatingCashflow	1612349056
 operatingMargins	0.0100300005
 overallRisk	10
 payoutRatio	0.0
 pegRatio	3.417
 phone	888 512 8906
-postMarketChange	-0.019989014
-postMarketChangePercent	-0.005273868
-postMarketPrice	379.0
-postMarketTime	1775865584
-previousClose	402.24
-priceEpsCurrentYear	81.93667
+postMarketChange	1.5400085
+postMarketChangePercent	0.37455213
+postMarketPrice	412.7
+postMarketTime	1776291831
+previousClose	398.46
+priceEpsCurrentYear	84.645935
 priceHint	2
-priceToBook	22.771482
-priceToSalesTrailing12Months	20.976374
+priceToBook	23.52443
+priceToSalesTrailing12Months	21.669966
 profitMargins	-0.033770002
 quickRatio	1.592
 quoteSourceName	Nasdaq Real Time Price
@@ -121,16 +121,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.67273
 region	US
-regularMarketChange	-4.23999
-regularMarketChangePercent	-1.0540947
-regularMarketDayHigh	411.44
-regularMarketDayLow	396.0534
-regularMarketDayRange	396.0534 - 411.44
-regularMarketOpen	405.25
-regularMarketPreviousClose	402.24
-regularMarketPrice	398.0
-regularMarketTime	1776188943
-regularMarketVolume	1764827
+regularMarketChange	12.700012
+regularMarketChangePercent	3.1872742
+regularMarketDayHigh	411.98
+regularMarketDayLow	402.05
+regularMarketDayRange	402.05 - 411.98
+regularMarketOpen	408.53
+regularMarketPreviousClose	398.46
+regularMarketPrice	411.16
+regularMarketTime	1776283201
+regularMarketVolume	3099776
 returnOnAssets	-0.015700001
 returnOnEquity	-0.04137
 revenueGrowth	0.233
@@ -162,12 +162,12 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	-0.64
-trailingPegRatio	3.3174
+trailingPegRatio	3.2865
 triggerable	True
-twoHundredDayAverage	461.40866
-twoHundredDayAverageChange	-63.40866
-twoHundredDayAverageChangePercent	-0.13742408
+twoHundredDayAverage	460.875
+twoHundredDayAverageChange	-49.714996
+twoHundredDayAverageChangePercent	-0.10787089
 typeDisp	Equity
-volume	1764827
+volume	3099776
 website	https://www.crowdstrike.com
 zip	78701

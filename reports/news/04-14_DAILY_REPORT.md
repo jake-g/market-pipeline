@@ -13,7 +13,7 @@ Today’s feed highlights a significant expansion of the AI narrative into **aut
 ### The Agentic Integration Milestone: Browser-Level Orchestration
 Google has triggered a tactical inflection in the AI UX landscape by announcing the integration of **one-click AI prompt tools directly into the Chrome browser** [9]. This move signifies the shift from "Chat-based AI" to "Agentic AI," where the browser acts as an orchestrator for complex workflows without requiring third-party SaaS middle-ware [9]. This development is a direct threat to legacy SaaS providers whose valuations were already reeling from the collapse of per-seat pricing models, as native browser agents begin to commoditize basic administrative and coding tasks [7].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 The market will likely maintain a tight "holding pattern" with a bullish bias over the next 48 hours awaiting the formal Iran peace announcement [1]. Investors should expect a continued rotation out of **war-inflated energy (XLE)** and into **undersold healthcare innovation (PFE, ABBV)** and **AI-enabling nuclear energy (Oklo)** as the VIX stabilizes [2, 10-12]. Any delay in the peace announcement could trigger a rapid "bull trap" correction back to late-March volatility levels.
 
 ## Quantitative Market Action & Specific Equities

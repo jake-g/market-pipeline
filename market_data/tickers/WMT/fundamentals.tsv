@@ -1,38 +1,38 @@
 Metric	Value
-52WeekChange	0.3256358
-SandP52WeekChange	0.276026
+52WeekChange	0.37131262
+SandP52WeekChange	0.3206551
 address1	1 Customer Drive
 allTimeHigh	134.69
 allTimeLow	0.004801
-ask	129.59
-askSize	1
+ask	124.85
+askSize	7
 auditRisk	6
 averageAnalystRating	1.4 - Strong Buy
-averageDailyVolume10Day	16005400
-averageDailyVolume3Month	29848153
-averageVolume	29848153
-averageVolume10days	16005400
+averageDailyVolume10Day	15496140
+averageDailyVolume3Month	29527768
+averageVolume	29527768
+averageVolume10days	15496140
 beta	0.661
-bid	116.96
-bidSize	1
+bid	124.59
+bidSize	7
 boardRisk	8
 bookValue	12.501
 city	Bentonville
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. John R. Furner', 'age': 50, 'title': 'President, CEO & Director', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 4327422, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John David Rainey Jr.', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3534727, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Suresh  Kumar Ph.D.', 'age': 60, 'title': 'Executive VP, Global CTO & Chief Development Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 3709340, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. C. Douglas McMillon', 'age': 59, 'title': 'Executive Officer & Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 6249434, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher  Nicholas', 'age': 47, 'title': 'President & CEO of Walmart International', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 3255161, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dwayne  Milum', 'title': 'Senior VP, Controller & Principal Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Stephanie  Wissink', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Allyson  Park', 'title': 'Senior VP & Chief Communications Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Donna Catherine Morris', 'age': 58, 'title': 'Executive VP & Chief People Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel J. Bartlett', 'age': 53, 'title': 'Executive Vice President of Corporate Affairs', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. John R. Furner', 'age': 50, 'title': 'President, CEO & Director', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 4327422, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John David Rainey Jr.', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3534727, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Suresh  Kumar Ph.D.', 'age': 60, 'title': 'Executive VP, Global CTO & Chief Development Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 3709340, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. C. Douglas McMillon', 'age': 59, 'title': 'Executive Officer & Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 6249434, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher  Nicholas', 'age': 47, 'title': 'President & CEO of Walmart International', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 3255161, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dwayne  Milum', 'title': 'Senior VP, Controller & Principal Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Stephanie  Wissink', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'WMT announced a cash dividend of $0.248 with an ex-date of May. 8, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1778212800000, 'amount': '0.248'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	124.2
+currentPrice	124.76
 currentRatio	0.79
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	124.6399
-dayLow	122.545
+dayHigh	125.07
+dayLow	123.1799
 debtToEquity	64.443
-discount_to_intrinsic_value	-424.28
+discount_to_intrinsic_value	-426.65
 displayName	Walmart
 dividendDate	1799020800
 dividendRate	0.99
@@ -46,9 +46,9 @@ earningsTimestampEnd	1779366600
 earningsTimestampStart	1779366600
 ebitda	44027998208
 ebitdaMargins	0.061739996
-enterpriseToEbitda	24.016
-enterpriseToRevenue	1.483
-enterpriseValue	1057384169472
+enterpriseToEbitda	24.103
+enterpriseToRevenue	1.488
+enterpriseValue	1061210947584
 epsCurrentYear	2.92002
 epsForward	3.28473
 epsTrailingTwelveMonths	2.73
@@ -60,23 +60,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	125.5434
-fiftyDayAverageChange	-1.3434067
-fiftyDayAverageChangePercent	-0.010700735
-fiftyTwoWeekChangePercent	32.56358
+fiftyDayAverage	125.6616
+fiftyDayAverageChange	-0.90159607
+fiftyDayAverageChangePercent	-0.007174794
+fiftyTwoWeekChangePercent	37.131264
 fiftyTwoWeekHigh	134.69
-fiftyTwoWeekHighChange	-10.4900055
-fiftyTwoWeekHighChangePercent	-0.07788259
+fiftyTwoWeekHighChange	-9.93
+fiftyTwoWeekHighChangePercent	-0.07372485
 fiftyTwoWeekLow	90.61
-fiftyTwoWeekLowChange	33.589996
-fiftyTwoWeekLowChangePercent	0.3707096
+fiftyTwoWeekLowChange	34.15
+fiftyTwoWeekLowChangePercent	0.37688997
 fiftyTwoWeekRange	90.61 - 134.69
 financialCurrency	USD
 firstTradeDateMilliseconds	83597400000
 fiveYearAvgDividendYield	1.29
-floatShares	4375095044
+floatShares	4375015320
 forwardEps	3.28473
-forwardPE	37.811325
+forwardPE	37.981815
 freeCashflow	10554250240
 fullExchangeName	NasdaqGS
 fullTimeEmployees	2100000
@@ -87,7 +87,7 @@ grossMargins	0.24927
 grossProfits	177768005632
 hasPrePostMarketData	True
 heldPercentInsiders	0.44935
-heldPercentInstitutions	0.38749
+heldPercentInstitutions	0.3875
 impliedSharesOutstanding	7972402501
 industry	Discount Stores
 industryDisp	Discount Stores
@@ -103,30 +103,30 @@ lastSplitFactor	3:1
 longBusinessSummary	Walmart Inc. engages in the operation of retail and wholesale stores and clubs, ecommerce websites, and mobile applications worldwide. The company operates through three segments: Walmart U.S., Walmart International, and Sam's Club U.S. It operates supercenters, supermarkets, warehouse clubs, cash and carry stores, and discount stores under Walmart and Walmart Neighborhood Market brands; membership-only warehouse clubs; and ecommerce websites, such as walmart.com.mx, walmart.ca, flipkart.com, PhonePe and other sites. It offers grocery items, including dry grocery, snacks, dairy, meat, produce, deli and bakery, frozen foods, alcoholic and nonalcoholic beverages, as well as consumables, such as health and beauty aids, pet supplies, household chemicals, paper goods, and baby products; and fuel and other categories. In addition, it is involved in the provision of health and wellness products covering pharmacy, optical and hearing services, over-the-counter drugs, and protein and nutrition products; and home, hardlines, and seasonal items, including home improvement, outdoor living, gardening, furniture, apparel, jewelry, tools and power equipment, housewares, toys, and mattresses. Further, the company offers consumer electronics and accessories, software, video games, office supplies, appliances, and third-party gift cards. Additionally, it operates digital payment platforms; offers financial services and related products, including money transfers, bill payments, money orders, check cashing, prepaid access, co-branded credit cards, installment lending, and earned wage access; and markets lines of merchandise under private and licensed brands. The company was formerly known as Wal-Mart Stores, Inc. and changed its name to Walmart Inc. in February 2018. Walmart Inc. was founded in 1945 and is based in Bentonville, Arkansas.
 longName	Walmart Inc.
 market	us_market
-marketCap	990172413952
-marketState	REGULAR
+marketCap	994636988416
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_313055
 mostRecentQuarter	1769817600
 netIncomeToCommon	21892999168
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	993122179549
+nonDilutedMarketCap	996948932750
 numberOfAnalystOpinions	41
-open	123.12
+open	124.5
 operatingCashflow	41564999680
 operatingMargins	0.04567
 overallRisk	2
 payoutRatio	0.3443
 phone	479-273-4000
-postMarketChange	0.13430023
-postMarketChangePercent	0.105940074
-postMarketPrice	126.9043
-postMarketTime	1775865592
-previousClose	124.56
-priceEpsCurrentYear	42.53395
+postMarketChange	-0.16000366
+postMarketChangePercent	-0.12824917
+postMarketPrice	124.6
+postMarketTime	1776292291
+previousClose	125.05
+priceEpsCurrentYear	42.725735
 priceHint	2
-priceToBook	9.9352045
-priceToSalesTrailing12Months	1.3884237
+priceToBook	9.980001
+priceToSalesTrailing12Months	1.394684
 profitMargins	0.0307
 quickRatio	0.204
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.44186
 region	US
-regularMarketChange	-0.3600006
-regularMarketChangePercent	-0.28901783
-regularMarketDayHigh	124.6399
-regularMarketDayLow	122.545
-regularMarketDayRange	122.545 - 124.6399
-regularMarketOpen	123.12
-regularMarketPreviousClose	124.56
-regularMarketPrice	124.2
-regularMarketTime	1776189380
-regularMarketVolume	6693548
+regularMarketChange	-0.29000092
+regularMarketChangePercent	-0.23190796
+regularMarketDayHigh	125.07
+regularMarketDayLow	123.1799
+regularMarketDayRange	123.1799 - 125.07
+regularMarketOpen	124.5
+regularMarketPreviousClose	125.05
+regularMarketPrice	124.76
+regularMarketTime	1776283200
+regularMarketVolume	16982735
 returnOnAssets	0.06834
 returnOnEquity	0.21847
 revenueGrowth	0.056
@@ -163,7 +163,7 @@ shortRatio	3.23
 sourceInterval	15
 state	AR
 symbol	WMT
-syntheticPEG	-1.990069736842105
+syntheticPEG	-1.999042894736842
 targetHighPrice	150.0
 targetLowPrice	62.0
 targetMeanPrice	136.43903
@@ -174,15 +174,15 @@ totalDebt	68425998336
 totalRevenue	713163014144
 tradeable	False
 trailingAnnualDividendRate	0.94
-trailingAnnualDividendYield	0.007546564
+trailingAnnualDividendYield	0.007516993
 trailingEps	2.73
-trailingPE	45.494503
-trailingPegRatio	4.666
+trailingPE	45.699635
+trailingPegRatio	4.684
 triggerable	True
-twoHundredDayAverage	110.15375
-twoHundredDayAverageChange	14.046249
-twoHundredDayAverageChangePercent	0.12751494
+twoHundredDayAverage	110.2989
+twoHundredDayAverageChange	14.461105
+twoHundredDayAverageChangePercent	0.13110834
 typeDisp	Equity
-volume	6693548
+volume	16982735
 website	https://www.stock.walmart.com
 zip	72716
