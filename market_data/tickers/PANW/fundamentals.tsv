@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.0838334
-SandP52WeekChange	0.26099288
+52WeekChange	-0.06361282
+SandP52WeekChange	0.276026
 address1	3000 Tannery Way
 allTimeHigh	223.61
 allTimeLow	6.513333
-ask	155.89
-askSize	6
+ask	164.6
+askSize	1
 auditRisk	1
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	9528270
-averageDailyVolume3Month	10785250
-averageVolume	10785250
-averageVolume10days	9528270
+averageDailyVolume10Day	9240350
+averageDailyVolume3Month	11031310
+averageVolume	11031310
+averageVolume10days	9240350
 beta	0.766
-bid	155.47
-bidSize	6
+bid	154.85
+bidSize	1
 boardRisk	9
 bookValue	13.361
 city	Santa Clara
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	155.73
+currentPrice	160.725
 currentRatio	1.045
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	166.83
-dayLow	151.28
+dayHigh	165.56
+dayLow	160.4
 debtToEquity	4.887
-discount_to_intrinsic_value	-44.19
+discount_to_intrinsic_value	-49.51
 displayName	Palo Alto Networks
 earningsCallTimestampEnd	1771363800
 earningsCallTimestampStart	1771363800
@@ -43,9 +43,9 @@ earningsTimestampEnd	1779307200
 earningsTimestampStart	1779307200
 ebitda	1536499968
 ebitdaMargins	0.15529999
-enterpriseToEbitda	80.051
-enterpriseToRevenue	12.432
-enterpriseValue	122998677504
+enterpriseToEbitda	83.652
+enterpriseToRevenue	12.991
+enterpriseValue	128531161088
 epsCurrentYear	3.69079
 epsForward	3.96831
 epsTrailingTwelveMonths	1.8
@@ -56,33 +56,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	161.069
-fiftyDayAverageChange	-5.3390045
-fiftyDayAverageChangePercent	-0.033147313
-fiftyTwoWeekChangePercent	-8.38334
+fiftyDayAverage	160.7952
+fiftyDayAverageChange	-0.07019043
+fiftyDayAverageChangePercent	-0.0004365207
+fiftyTwoWeekChangePercent	-6.361282
 fiftyTwoWeekHigh	223.61
-fiftyTwoWeekHighChange	-67.880005
-fiftyTwoWeekHighChangePercent	-0.30356425
+fiftyTwoWeekHighChange	-62.884995
+fiftyTwoWeekHighChangePercent	-0.28122622
 fiftyTwoWeekLow	139.57
-fiftyTwoWeekLowChange	16.159988
-fiftyTwoWeekLowChangePercent	0.11578411
+fiftyTwoWeekLowChange	21.154999
+fiftyTwoWeekLowChangePercent	0.15157267
 fiftyTwoWeekRange	139.57 - 223.61
 financialCurrency	USD
 firstTradeDateMilliseconds	1342791000000
-floatShares	809178240
+floatShares	809186400
 forwardEps	3.96831
-forwardPE	39.243404
+forwardPE	40.50213
 freeCashflow	2859225088
 fullExchangeName	NasdaqGS
 fullTimeEmployees	17027
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1775001600
-graham_intrinsic_value	108.0
+graham_intrinsic_value	107.5
 grossMargins	0.73502
 grossProfits	7271900160
 hasPrePostMarketData	True
-heldPercentInsiders	0.007900001
-heldPercentInstitutions	0.74539
+heldPercentInsiders	0.00789
+heldPercentInstitutions	0.74574
 impliedSharesOutstanding	816000000
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -96,16 +96,16 @@ lastSplitFactor	2:1
 longBusinessSummary	Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It offers Prisma Access, a secure access service edge solution; Strata Cloud Manager, a network security management solution; and Prisma AIRS to protect customers' entire AI ecosystem. It provides a comprehensive cloud native application protection platform; and Code to Cloud platform, as well as offers VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments. It provides security operation solutions through the Cortex platform that includes Cortex XSIAM, an AI-driven security operations platform; Cortex XDR to prevent, detect, and respond to cybersecurity attacks; and Cortex XSOAR for security orchestration, automation, and response; and Cortex Xpanse for attack surface management, as well as offers threat intelligence and advisory services under the Unit 42 name. It provides subscription services covering the areas of threat prevention, malware and persistent threat, URL filtering, laptop and mobile device protection, DNS security, Internet of Things security, SaaS security API, and SaaS security inline; and threat intelligence, data loss prevention, services to resolve network disruptions, and sensitive data protection. It offers professional services, including architecture design and planning, implementation, configuration, and firewall migration; education services, such as certifications, as well as online and in-classroom training; and support services. It sells its products and services through its channel partners, as well as directly to enterprises, service providers, and government entities operating in various industries, including education, energy, financial services, government entities, healthcare, Internet and media, manufacturing, public sector, and telecommunications. The company was incorporated in 2005 and is headquartered in Santa Clara, California.
 longName	Palo Alto Networks, Inc.
 market	us_market
-marketCap	127075680256
-marketState	POSTPOST
+marketCap	131151601664
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_25460099
 mostRecentQuarter	1769817600
 netIncomeToCommon	1281900032
 nextFiscalYearEnd	1785456000
-nonDilutedMarketCap	126297030000
+nonDilutedMarketCap	131795610000
 numberOfAnalystOpinions	49
-open	166.725
+open	163.19
 operatingCashflow	3974000128
 operatingMargins	0.15496999
 overallRisk	9
@@ -115,11 +115,11 @@ postMarketChange	0.41999817
 postMarketChangePercent	0.26969638
 postMarketPrice	156.15
 postMarketTime	1775865587
-previousClose	166.99
-priceEpsCurrentYear	42.194218
+previousClose	162.54
+priceEpsCurrentYear	43.54759
 priceHint	2
-priceToBook	11.655564
-priceToSalesTrailing12Months	12.84436
+priceToBook	12.029414
+priceToSalesTrailing12Months	13.25634
 profitMargins	0.12956999
 quickRatio	0.914
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +127,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.625
 region	US
-regularMarketChange	-11.26
-regularMarketChangePercent	-6.74292
-regularMarketDayHigh	166.83
-regularMarketDayLow	151.28
-regularMarketDayRange	151.28 - 166.83
-regularMarketOpen	166.725
-regularMarketPreviousClose	166.99
-regularMarketPrice	155.73
-regularMarketTime	1775851201
-regularMarketVolume	15562722
+regularMarketChange	-1.8149872
+regularMarketChangePercent	-1.1166403
+regularMarketDayHigh	165.56
+regularMarketDayLow	160.4
+regularMarketDayRange	160.4 - 165.56
+regularMarketOpen	163.19
+regularMarketPreviousClose	162.54
+regularMarketPrice	160.725
+regularMarketTime	1776189201
+regularMarketVolume	4163164
 returnOnAssets	0.034479998
 returnOnEquity	0.16259001
 revenueGrowth	0.149
@@ -156,7 +156,7 @@ shortRatio	1.99
 sourceInterval	15
 state	CA
 symbol	PANW
-syntheticPEG	0.648651305785124
+syntheticPEG	0.6694566942148761
 targetHighPrice	265.0
 targetLowPrice	114.0
 targetMeanPrice	205.96
@@ -169,13 +169,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	1.8
-trailingPE	86.51667
-trailingPegRatio	2.6118
+trailingPE	89.29167
+trailingPegRatio	2.7255
 triggerable	True
-twoHundredDayAverage	186.8742
-twoHundredDayAverageChange	-31.14421
-twoHundredDayAverageChangePercent	-0.16665868
+twoHundredDayAverage	186.66525
+twoHundredDayAverageChange	-25.940247
+twoHundredDayAverageChangePercent	-0.13896666
 typeDisp	Equity
-volume	15562722
+volume	4163164
 website	https://www.paloaltonetworks.com
 zip	95054

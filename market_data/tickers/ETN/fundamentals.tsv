@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.4505273
-SandP52WeekChange	0.26099288
+52WeekChange	0.45554268
+SandP52WeekChange	0.276026
 address1	Eaton House
 address2	30 Pembroke Road
 allTimeHigh	408.45
 allTimeLow	0.8677
-ask	404.75
-askSize	80
+ask	404.6
+askSize	160
 auditRisk	3
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	2112510
-averageDailyVolume3Month	2798379
-averageVolume	2798379
-averageVolume10days	2112510
+averageDailyVolume10Day	2079150
+averageDailyVolume3Month	2807981
+averageVolume	2807981
+averageVolume10days	2079150
 beta	1.164
-bid	403.12
-bidSize	80
+bid	404.46
+bidSize	40
 boardRisk	1
 bookValue	50.077
 city	Dublin
@@ -26,14 +26,14 @@ corporateActions	[]
 country	Ireland
 cryptoTradeable	False
 currency	USD
-currentPrice	403.0
+currentPrice	404.13
 currentRatio	1.319
 customPriceAlertConfidence	HIGH
-dateShortInterest	1773360000
-dayHigh	407.0
-dayLow	401.1
+dateShortInterest	1774915200
+dayHigh	407.83
+dayLow	397.5
 debtToEquity	54.877
-discount_to_intrinsic_value	12.62
+discount_to_intrinsic_value	11.97
 displayName	Eaton
 dividendDate	1774569600
 dividendRate	4.4
@@ -47,11 +47,11 @@ earningsTimestampEnd	1777552200
 earningsTimestampStart	1777552200
 ebitda	6310000128
 ebitdaMargins	0.22989
-enterpriseToEbitda	26.347
-enterpriseToRevenue	6.057
-enterpriseValue	166248693760
+enterpriseToEbitda	26.369
+enterpriseToRevenue	6.062
+enterpriseValue	166388350976
 epsCurrentYear	13.32741
-epsForward	15.53367
+epsForward	15.51011
 epsTrailingTwelveMonths	10.45
 eps_normalized_growth	0.1726637273282805
 esgPopulated	False
@@ -61,34 +61,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	367.4974
-fiftyDayAverageChange	35.502594
-fiftyDayAverageChangePercent	0.09660638
-fiftyTwoWeekChangePercent	45.05273
+fiftyDayAverage	368.4772
+fiftyDayAverageChange	35.6528
+fiftyDayAverageChangePercent	0.096757144
+fiftyTwoWeekChangePercent	45.554268
 fiftyTwoWeekHigh	408.45
-fiftyTwoWeekHighChange	-5.450012
-fiftyTwoWeekHighChangePercent	-0.013343156
+fiftyTwoWeekHighChange	-4.3200073
+fiftyTwoWeekHighChangePercent	-0.010576587
 fiftyTwoWeekLow	255.1
-fiftyTwoWeekLowChange	147.9
-fiftyTwoWeekLowChangePercent	0.5797726
+fiftyTwoWeekLowChange	149.03
+fiftyTwoWeekLowChangePercent	0.58420223
 fiftyTwoWeekRange	255.1 - 408.45
 financialCurrency	USD
 firstTradeDateMilliseconds	76253400000
 fiveYearAvgDividendYield	1.59
-floatShares	387256086
-forwardEps	15.53367
-forwardPE	25.943644
+floatShares	387252207
+forwardEps	15.51011
+forwardPE	26.055908
 freeCashflow	2598000128
 fullExchangeName	NYSE
 fullTimeEmployees	97303
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1775001600
-graham_intrinsic_value	461.22
+graham_intrinsic_value	459.08
 grossMargins	0.37772998
 grossProfits	10368000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.00065
-heldPercentInstitutions	0.85397005
+heldPercentInstitutions	0.85418
 impliedSharesOutstanding	388400000
 industry	Specialty Industrial Machinery
 industryDisp	Specialty Industrial Machinery
@@ -104,16 +104,16 @@ lastSplitFactor	2:1
 longBusinessSummary	Eaton Corporation plc operates as a power management company in the United States, Canada, Latin America, Europe, and the Asia Pacific. The company operates through Electrical Americas, Electrical Global, Aerospace, Vehicle, and eMobility segments. It offers electrical components, industrial components, power distribution and assemblies, residential products, single and three phase power quality and connectivity products, wiring devices, circuit protection products, utility power distribution products, and power reliability equipment; and hazardous duty electrical equipment, emergency lighting, fire detection, intrinsically safe explosion-proof instrumentation, and structural support systems. It also provides pumps, motors, hydraulic power units, hoses and fittings, and electro-hydraulic pumps; valves, cylinders, electronic controls, electromechanical actuators, sensors, aircraft flap and slat systems, and nose wheel steering systems; hose, thermoplastic tubing products, fittings, adapters, couplings, and sealing and ducting products; air-to-air refueling systems, fuel pumps, fuel inerting products, sensors, and adapters and regulators; oxygen generation system, payload carriages, and thermal management products; wiring connectors and cables; hydraulic and bag filters, strainers and cartridges, and golf grips for manufacturers of commercial and military aircraft, and related after-market customers, as well as industrial applications. In addition, the company offers transmissions, clutches, hybrid power systems, superchargers, engine valves and valve actuation systems, locking and limited slip differentials, transmission controls, and fuel vapor components for the vehicle industry; voltage inverters, converters, fuses, circuit protection units, vehicle controls, power distribution systems, fuel tank isolation valves, and commercial vehicle hybrid systems. The company formerly known as Abeiron Limited. The company was founded in 1911 and is based in Dublin, Ireland.
 longName	Eaton Corporation plc
 market	us_market
-marketCap	156525199360
-marketState	POSTPOST
+marketCap	156964093952
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_175265
 mostRecentQuarter	1767139200
 netIncomeToCommon	4087000064
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	155364849549
+nonDilutedMarketCap	156497766742
 numberOfAnalystOpinions	28
-open	404.22
+open	402.76
 operatingCashflow	4472000000
 operatingMargins	0.19972
 overallRisk	2
@@ -123,28 +123,28 @@ postMarketChange	0.7999878
 postMarketChangePercent	0.19850814
 postMarketPrice	403.8
 postMarketTime	1775865600
-previousClose	400.44
-priceEpsCurrentYear	30.238434
+previousClose	403.36
+priceEpsCurrentYear	30.323221
 priceHint	2
-priceToBook	8.047606
-priceToSalesTrailing12Months	5.7026086
+priceToBook	8.070172
+priceToSalesTrailing12Months	5.7185984
 profitMargins	0.1489
 quickRatio	0.742
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.77419
 region	US
-regularMarketChange	2.56
-regularMarketChangePercent	0.639296
-regularMarketDayHigh	407.0
-regularMarketDayLow	401.1
-regularMarketDayRange	401.1 - 407.0
-regularMarketOpen	404.22
-regularMarketPreviousClose	400.44
-regularMarketPrice	403.0
-regularMarketTime	1775851202
-regularMarketVolume	2217932
+regularMarketChange	0.77001953
+regularMarketChangePercent	0.19090132
+regularMarketDayHigh	407.83
+regularMarketDayLow	397.5
+regularMarketDayRange	397.5 - 407.83
+regularMarketOpen	402.76
+regularMarketPreviousClose	403.36
+regularMarketPrice	404.13
+regularMarketTime	1776188990
+regularMarketVolume	830144
 returnOnAssets	0.08326
 returnOnEquity	0.21525998
 revenueGrowth	0.131
@@ -154,16 +154,16 @@ sectorDisp	Industrials
 sectorKey	industrials
 shareHolderRightsRisk	6
 sharesOutstanding	387985340
-sharesPercentSharesOut	0.019199999
-sharesShort	7452982
-sharesShortPreviousMonthDate	1770940800
-sharesShortPriorMonth	7797185
+sharesPercentSharesOut	0.0228
+sharesShort	8834363
+sharesShortPreviousMonthDate	1772150400
+sharesShortPriorMonth	7459472
 shortName	Eaton Corporation, PLC
-shortPercentOfFloat	0.019199999
-shortRatio	2.84
+shortPercentOfFloat	0.0228
+shortRatio	3.21
 sourceInterval	15
 symbol	ETN
-syntheticPEG	1.3726795767195767
+syntheticPEG	1.378619470899471
 targetHighPrice	514.0
 targetLowPrice	321.0
 targetMeanPrice	410.20178
@@ -174,15 +174,15 @@ totalDebt	10684000256
 totalRevenue	27448000512
 tradeable	False
 trailingAnnualDividendRate	4.16
-trailingAnnualDividendYield	0.010388572
+trailingAnnualDividendYield	0.0103133675
 trailingEps	10.45
-trailingPE	38.564594
-trailingPegRatio	2.9663
+trailingPE	38.67273
+trailingPegRatio	2.988
 triggerable	True
-twoHundredDayAverage	358.578
-twoHundredDayAverageChange	44.421997
-twoHundredDayAverageChangePercent	0.12388378
+twoHundredDayAverage	358.88306
+twoHundredDayAverageChange	45.24695
+twoHundredDayAverageChangePercent	0.12607713
 typeDisp	Equity
-volume	2217932
+volume	830144
 website	https://www.eaton.com
 zip	D04 Y0C2

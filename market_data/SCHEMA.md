@@ -17,15 +17,15 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.30891716 |
+| Value | str | 0.33576477 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
 | Earnings Date | str | 2026-04-30 16:00:00-04:00 |
-| EPS Estimate | float64 | 1.65 |
+| EPS Estimate | float64 | 1.64 |
 | Reported EPS | float64 | 1.95 |
-| Surprise(%) | float64 | 0.22 |
+| Surprise(%) | float64 | -0.49 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-11 |
+| Date | str | 2026-04-14 |
 | Source | str | Google |
-| Sentiment | float64 | 0.35 |
-| Headline | str | Amazon has a gas discount most Prime members do... |
-| Summary | str | Amazon Pharmacy has entered the weight loss med... |
-| URL | str | https://news.google.com/rss/articles/CBMipgFBVV... |
+| Sentiment | float64 | 0.8 |
+| Headline | str | Amazon's 3 for $33 Blu-ray sale has some scream... |
+| Summary | str | Amazon said it would buy Globalstar for the equ... |
+| URL | str | https://news.google.com/rss/articles/CBMibEFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -75,9 +75,9 @@ This report documents the file structures and column data types used in `market_
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 421.137 |
-| AIR_PPI | float64 | 175.008 |
-| TRUCK_PPI | float64 | 185.632 |
+| FREIGHT_PPI | float64 | 409.156 |
+| AIR_PPI | float64 | 176.501 |
+| TRUCK_PPI | float64 | 185.239 |
 | WAREHOUSE_PPI | float64 | 173.049 |
 | MFG_CONST | float64 | 196166.0 |
 | TECH_PULSE | float64 | 92.2679 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 330.293 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.78 |
-| US10Y | float64 | 4.29 |
+| US02Y | float64 | 3.81 |
+| US10Y | float64 | 4.31 |

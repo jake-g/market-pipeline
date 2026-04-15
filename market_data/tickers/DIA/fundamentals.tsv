@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	505.3
 allTimeLow	64.78
-ask	479.1
-askSize	160
-averageDailyVolume10Day	5791090
-averageDailyVolume3Month	7008719
-averageVolume	7008719
-averageVolume10days	5791090
+ask	485.31
+askSize	400
+averageDailyVolume10Day	5476560
+averageDailyVolume3Month	6997953
+averageVolume	6997953
+averageVolume10days	5476560
 beta3Year	0.9
-bid	479.0
+bid	485.28
 bidSize	80
 bookValue	358.194
 category	Large Value
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	482.33
-dayLow	478.63
+dayHigh	485.615
+dayLow	481.89
 dividendYield	1.52
 epsTrailingTwelveMonths	20.402018
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	480.1358
-fiftyDayAverageChange	-0.8858032
-fiftyDayAverageChangePercent	-0.0018449014
-fiftyTwoWeekChangePercent	18.210745
+fiftyDayAverage	479.9742
+fiftyDayAverageChange	5.320801
+fiftyDayAverageChangePercent	0.011085597
+fiftyTwoWeekChangePercent	19.424831
 fiftyTwoWeekHigh	505.3
-fiftyTwoWeekHighChange	-26.049988
-fiftyTwoWeekHighChangePercent	-0.05155351
+fiftyTwoWeekHighChange	-20.004974
+fiftyTwoWeekHighChangePercent	-0.03959029
 fiftyTwoWeekLow	378.35
-fiftyTwoWeekLowChange	100.899994
-fiftyTwoWeekLowChangePercent	0.26668426
+fiftyTwoWeekLowChange	106.94501
+fiftyTwoWeekLowChangePercent	0.28266156
 fiftyTwoWeekRange	378.35 - 505.3
 financialCurrency	USD
 firstTradeDateMilliseconds	885306600000
-fiveYearAverageReturn	0.0926461
+fiveYearAverageReturn	0.0934439
 fullExchangeName	NYSEArca
 fundFamily	State Street Investment Management
 fundInceptionDate	884649600
@@ -51,53 +51,53 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The Trust’s Portfolio consists of substantially all of the component common stocks that comprise the DJIA, which are weighted in accordance with the terms of the Trust Agreement.
 longName	State Street SPDR Dow Jones Industrial Average ETF Trust
 market	us_market
-marketCap	38935658496
-marketState	POSTPOST
+marketCap	39426772992
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_6184218
-navPrice	481.88254
+navPrice	482.24213
 netAssets	41759683000.0
 netExpenseRatio	0.16
-open	482.195
+open	482.41
 phone	866.787.2257
 postMarketChange	0.27999878
 postMarketChangePercent	0.05842437
 postMarketPrice	479.53
 postMarketTime	1775865458
-previousClose	481.9
+previousClose	482.13
 priceHint	2
-priceToBook	1.3379622
-quoteSourceName	Delayed Quote
+priceToBook	1.3548385
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-2.64999
-regularMarketChangePercent	-0.549905
-regularMarketDayHigh	482.33
-regularMarketDayLow	478.63
-regularMarketDayRange	478.63 - 482.33
-regularMarketOpen	482.195
-regularMarketPreviousClose	481.9
-regularMarketPrice	479.25
-regularMarketTime	1775851200
-regularMarketVolume	2536547
+regularMarketChange	3.1650085
+regularMarketChangePercent	0.65646374
+regularMarketDayHigh	485.615
+regularMarketDayLow	481.89
+regularMarketDayRange	481.89 - 485.615
+regularMarketOpen	482.41
+regularMarketPreviousClose	482.13
+regularMarketPrice	485.295
+regularMarketTime	1776188977
+regularMarketVolume	2838844
 sharesOutstanding	81242896
 shortName	State Street SPDR Dow Jones Ind
 sourceInterval	15
 symbol	DIA
-threeYearAverageReturn	0.1482416
+threeYearAverageReturn	0.142239
 totalAssets	41759682560
 tradeable	False
 trailingAnnualDividendRate	5.62
-trailingAnnualDividendYield	0.01166217
-trailingPE	23.490324
+trailingAnnualDividendYield	0.011656607
+trailingPE	23.78662
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-3.21906
 trailingThreeMonthReturns	-3.21906
 triggerable	True
-twoHundredDayAverage	468.5836
-twoHundredDayAverageChange	10.666412
-twoHundredDayAverageChangePercent	0.022763094
+twoHundredDayAverage	468.84494
+twoHundredDayAverageChange	16.450073
+twoHundredDayAverageChangePercent	0.035086382
 typeDisp	ETF
-volume	2536547
+volume	2838844
 yield	0.0152
 ytdReturn	-3.21906

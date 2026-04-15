@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.13570023
-SandP52WeekChange	0.26099288
+52WeekChange	0.17165351
+SandP52WeekChange	0.276026
 address1	4505 Campus Drive
 allTimeHigh	84.64
 allTimeLow	3.04
-ask	28.87
-askSize	500
+ask	34.23
+askSize	200
 auditRisk	2
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	17692930
-averageDailyVolume3Month	21121775
-averageVolume	21121775
-averageVolume10days	17692930
+averageDailyVolume10Day	17258440
+averageDailyVolume3Month	21280591
+averageVolume	21280591
+averageVolume10days	17258440
 beta	2.803
-bid	28.74
-bidSize	700
+bid	34.23
+bidSize	400
 boardRisk	8
 bookValue	10.479
 city	College Park
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	28.79
+currentPrice	34.01
 currentRatio	15.504
 customPriceAlertConfidence	HIGH
-dateShortInterest	1773360000
-dayHigh	29.37
-dayLow	28.135
+dateShortInterest	1774915200
+dayHigh	35.875
+dayLow	31.06
 debtToEquity	0.787
 displayName	IonQ
 earningsCallTimestampEnd	1772055000
@@ -40,9 +40,9 @@ earningsTimestampEnd	1778097600
 earningsTimestampStart	1778097600
 ebitda	-514811008
 ebitdaMargins	0.0
-enterpriseToEbitda	-15.943
-enterpriseToRevenue	63.128
-enterpriseValue	8207627264
+enterpriseToEbitda	-16.634
+enterpriseToRevenue	65.863
+enterpriseValue	8563269120
 epsCurrentYear	-1.00275
 epsForward	-0.91201
 epsTrailingTwelveMonths	-1.82
@@ -52,22 +52,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	33.3326
-fiftyDayAverageChange	-4.5425987
-fiftyDayAverageChangePercent	-0.13628097
-fiftyTwoWeekChangePercent	13.570023
+fiftyDayAverage	33.063
+fiftyDayAverageChange	0.9469986
+fiftyDayAverageChangePercent	0.028642246
+fiftyTwoWeekChangePercent	17.165352
 fiftyTwoWeekHigh	84.64
-fiftyTwoWeekHighChange	-55.85
-fiftyTwoWeekHighChangePercent	-0.65985346
+fiftyTwoWeekHighChange	-50.63
+fiftyTwoWeekHighChangePercent	-0.59818053
 fiftyTwoWeekLow	23.485
-fiftyTwoWeekLowChange	5.3050003
-fiftyTwoWeekLowChangePercent	0.22588888
+fiftyTwoWeekLowChange	10.524998
+fiftyTwoWeekLowChangePercent	0.4481583
 fiftyTwoWeekRange	23.485 - 84.64
 financialCurrency	USD
 firstTradeDateMilliseconds	1609770600000
 floatShares	359971561
 forwardEps	-0.91201
-forwardPE	-31.567636
+forwardPE	-37.291256
 freeCashflow	-21779376
 fullExchangeName	NYSE
 fullTimeEmployees	1132
@@ -77,7 +77,7 @@ grossMargins	0.42062
 grossProfits	54687000
 hasPrePostMarketData	True
 heldPercentInsiders	0.02552
-heldPercentInstitutions	0.5373
+heldPercentInstitutions	0.53735
 impliedSharesOutstanding	367673857
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -88,16 +88,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	IonQ, Inc. develops quantum computing systems in the United States, Switzerland, and Internationally. It sells access to quantum computers of various qubit capacities. The company also makes access to its quantum computers through cloud platforms, such as Amazon Web Services (AWS), Braket, Microsoft's Azure Quantum, and Google's Cloud Marketplace, as well as through its cloud service. The company engages in quantum-safe communications and quantum detection systems. It provides contracts associated with the design, development, construction, and sale of specialized quantum computing hardware systems; maintenance and support services; and consulting services related to co-developing algorithms on quantum computing systems. The company has a collaboration agreement with University of Chicago. The company was founded in 2015 and is headquartered in College Park, Maryland.
 longName	IonQ, Inc.
 market	us_market
-marketCap	10585330688
-marketState	POSTPOST
+marketCap	12504587264
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_531207172
 mostRecentQuarter	1767139200
 netIncomeToCommon	-510377984
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	10295272428
+nonDilutedMarketCap	10911228898
 numberOfAnalystOpinions	13
-open	28.285
+open	31.78
 operatingCashflow	-283187008
 operatingMargins	-3.45663
 overallRisk	10
@@ -107,11 +107,11 @@ postMarketChange	0.07999992
 postMarketChangePercent	0.277874
 postMarketPrice	28.87
 postMarketTime	1775865594
-previousClose	28.08
-priceEpsCurrentYear	-28.711044
+previousClose	29.76
+priceEpsCurrentYear	-33.916725
 priceHint	2
-priceToBook	2.7473996
-priceToSalesTrailing12Months	81.4156
+priceToBook	3.2455385
+priceToSalesTrailing12Months	96.17729
 profitMargins	0.0
 quickRatio	14.849
 quoteSourceName	Nasdaq Real Time Price
@@ -119,16 +119,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.53846
 region	US
-regularMarketChange	0.710001
-regularMarketChangePercent	2.52849
-regularMarketDayHigh	29.37
-regularMarketDayLow	28.135
-regularMarketDayRange	28.135 - 29.37
-regularMarketOpen	28.285
-regularMarketPreviousClose	28.08
-regularMarketPrice	28.79
-regularMarketTime	1775851202
-regularMarketVolume	11902021
+regularMarketChange	4.249998
+regularMarketChangePercent	14.280908
+regularMarketDayHigh	35.875
+regularMarketDayLow	31.06
+regularMarketDayRange	31.06 - 35.875
+regularMarketOpen	31.78
+regularMarketPreviousClose	29.76
+regularMarketPrice	34.01
+regularMarketTime	1776189079
+regularMarketVolume	47768534
 returnOnAssets	-0.10422
 returnOnEquity	-0.24400999
 revenueGrowth	4.285
@@ -138,17 +138,17 @@ sectorDisp	Technology
 sectorKey	technology
 shareHolderRightsRisk	8
 sharesOutstanding	366640756
-sharesPercentSharesOut	0.2168
-sharesShort	79476027
-sharesShortPreviousMonthDate	1770940800
-sharesShortPriorMonth	82807735
+sharesPercentSharesOut	0.2207
+sharesShort	80934731
+sharesShortPreviousMonthDate	1772150400
+sharesShortPriorMonth	85889142
 shortName	IonQ, Inc.
-shortPercentOfFloat	0.2192
-shortRatio	3.51
+shortPercentOfFloat	0.2232
+shortRatio	4.05
 sourceInterval	15
 state	MD
 symbol	IONQ
-syntheticPEG	-0.07367009568261378
+syntheticPEG	-0.08702743523920653
 targetHighPrice	100.0
 targetLowPrice	35.0
 targetMeanPrice	65.29077
@@ -163,10 +163,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-1.82
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	46.50035
-twoHundredDayAverageChange	-17.71035
-twoHundredDayAverageChangePercent	-0.38086486
+twoHundredDayAverage	46.4586
+twoHundredDayAverageChange	-12.448601
+twoHundredDayAverageChangePercent	-0.26795042
 typeDisp	Equity
-volume	11902021
+volume	47768534
 website	https://www.ionq.com
 zip	20740
