@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	7.6599636
-SandP52WeekChange	0.3206551
+52WeekChange	7.733453
+SandP52WeekChange	0.32942438
 address1	55 Market Street
 address2	Level 6
 allTimeHigh	76.87
 allTimeLow	1.02
-ask	48.88
-askSize	19
+ask	47.8
+askSize	25
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	32086980
-averageDailyVolume3Month	38081391
-averageVolume	38081391
-averageVolume10days	32086980
+averageDailyVolume10Day	32045310
+averageDailyVolume3Month	37720173
+averageVolume	37720173
+averageVolume10days	32045310
 beta	4.308
-bid	48.46
-bidSize	19
+bid	47.62
+bidSize	1
 bookValue	7.569
 city	Sydney
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. William  Roberts', 'age': 35, 'title': 'Co-Founder, Co-CEO & Executive Director', 'yearBorn': 1990, 'fiscalYear': 2025, 'totalPay': 2952000, 'exercisedValue': 0, 'unexercisedValue': 11300000}, {'maxAge': 1, 'name': 'Mr. Daniel  Roberts', 'age': 40, 'title': 'Co-Founder, Co-CEO & Executive Director', 'yearBorn': 1985, 'fiscalYear': 2025, 'totalPay': 2952000, 'exercisedValue': 0, 'unexercisedValue': 11300000}, {'maxAge': 1, 'name': 'Mr. Anthony John Lewis', 'age': 49, 'title': 'Chief Financial Officer', 'yearBorn': 1976, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Shaw', 'age': 58, 'title': 'Chief Operating Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 711435, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Denis  Skrinnikoff', 'age': 40, 'title': 'Chief Technology Officer', 'yearBorn': 1985, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Cesilia  Kim', 'age': 50, 'title': 'Chief Legal Officer & Secretary', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 774970, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Kent  Draper', 'title': 'Chief Commercial Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John  Gross', 'title': 'Chief Innovation Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -23,12 +23,12 @@ corporateActions	[]
 country	Australia
 cryptoTradeable	False
 currency	USD
-currentPrice	48.82
+currentPrice	47.7
 currentRatio	4.96
 customPriceAlertConfidence	HIGH
 dateShortInterest	1773360000
-dayHigh	48.86
-dayLow	46.24
+dayHigh	49.79
+dayLow	45.07
 debtToEquity	153.017
 displayName	IREN
 earningsCallTimestampEnd	1770328800
@@ -38,9 +38,9 @@ earningsTimestampEnd	1778702400
 earningsTimestampStart	1778702400
 ebitda	194252992
 ebitdaMargins	0.25656998
-enterpriseToEbitda	84.025
-enterpriseToRevenue	21.559
-enterpriseValue	16322080768
+enterpriseToEbitda	84.589
+enterpriseToRevenue	21.703
+enterpriseValue	16431733760
 epsCurrentYear	-0.005
 epsForward	1.265
 epsTrailingTwelveMonths	1.44
@@ -50,22 +50,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	41.0753
-fiftyDayAverageChange	7.7447014
-fiftyDayAverageChangePercent	0.18854888
-fiftyTwoWeekChangePercent	765.99634
+fiftyDayAverage	40.9901
+fiftyDayAverageChange	6.7099
+fiftyDayAverageChangePercent	0.16369562
+fiftyTwoWeekChangePercent	773.3453
 fiftyTwoWeekHigh	76.87
-fiftyTwoWeekHighChange	-28.050003
-fiftyTwoWeekHighChangePercent	-0.3649018
-fiftyTwoWeekLow	5.24
-fiftyTwoWeekLowChange	43.58
-fiftyTwoWeekLowChangePercent	8.316794
-fiftyTwoWeekRange	5.24 - 76.87
+fiftyTwoWeekHighChange	-29.170002
+fiftyTwoWeekHighChangePercent	-0.37947184
+fiftyTwoWeekLow	5.36
+fiftyTwoWeekLowChange	42.34
+fiftyTwoWeekLowChangePercent	7.8992534
+fiftyTwoWeekRange	5.36 - 76.87
 financialCurrency	USD
 firstTradeDateMilliseconds	1637159400000
 floatShares	302757271
 forwardEps	1.265
-forwardPE	38.592884
+forwardPE	37.70751
 freeCashflow	-1249673600
 fullExchangeName	NasdaqGS
 fullTimeEmployees	257
@@ -73,8 +73,8 @@ gmtOffSetMilliseconds	-14400000
 grossMargins	0.68132
 grossProfits	515827008
 hasPrePostMarketData	True
-heldPercentInsiders	0.03014
-heldPercentInstitutions	0.40658
+heldPercentInsiders	0.03013
+heldPercentInstitutions	0.40815
 impliedSharesOutstanding	331759177
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -86,48 +86,49 @@ lastFiscalYearEnd	1751241600
 longBusinessSummary	IREN Limited operates in the vertically integrated data center business in Australia and Canada. The company owns and operates computing hardware, as well as electrical infrastructure and data centers. It also mines Bitcoin, a scarce digital asset that is created and transmitted through the operation of a peer-to-peer network of computers running the Bitcoin software. The company was formerly known as Iris Energy Limited and changed its name to IREN Limited in November 2024. The company was incorporated in 2018 and is based in Sydney, Australia.
 longName	IREN Limited
 market	us_market
-marketCap	16196482048
-marketState	POST
+marketCap	15824912384
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_706254871
 mostRecentQuarter	1767139200
 nameChangeDate	2026-04-15
 netIncomeToCommon	389736000
 nextFiscalYearEnd	1782777600
-nonDilutedMarketCap	15715432214
+nonDilutedMarketCap	16196483021
 numberOfAnalystOpinions	15
-open	47.24
+open	49.665
 operatingCashflow	410248992
 operatingMargins	-0.45836
 payoutRatio	0.0
+pegRatio	3.1061
 phone	61 2 7906 8301
-postMarketChange	-0.20000076
-postMarketChangePercent	-0.40966973
-postMarketPrice	48.62
-postMarketTime	1776291964
+postMarketChange	-0.6000023
+postMarketChangePercent	-1.2578664
+postMarketPrice	47.1
+postMarketTime	1776383974
 prevName	Iris Energy Limited
-previousClose	47.36
-priceEpsCurrentYear	-9764.0
+previousClose	48.82
+priceEpsCurrentYear	-9540.0
 priceHint	2
-priceToBook	6.4499936
-priceToSalesTrailing12Months	21.392735
+priceToBook	6.3020215
+priceToSalesTrailing12Months	20.901955
 profitMargins	0.51477003
 quickRatio	4.794
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.875
 region	US
-regularMarketChange	1.4599991
-regularMarketChangePercent	3.0827682
-regularMarketDayHigh	48.86
-regularMarketDayLow	46.24
-regularMarketDayRange	46.24 - 48.86
-regularMarketOpen	47.24
-regularMarketPreviousClose	47.36
-regularMarketPrice	48.82
-regularMarketTime	1776283201
-regularMarketVolume	31992308
+regularMarketChange	-1.12
+regularMarketChangePercent	-2.29414
+regularMarketDayHigh	49.79
+regularMarketDayLow	45.07
+regularMarketDayRange	45.07 - 49.79
+regularMarketOpen	49.665
+regularMarketPreviousClose	48.82
+regularMarketPrice	47.7
+regularMarketTime	1776369601
+regularMarketVolume	35642951
 returnOnAssets	-0.014249999
 returnOnEquity	0.20526
 revenueGrowth	0.59
@@ -146,7 +147,6 @@ shortRatio	1.55
 sourceInterval	15
 state	NSW
 symbol	IREN
-syntheticPEG	0.6541166779661016
 targetHighPrice	125.0
 targetLowPrice	26.0
 targetMeanPrice	72.06667
@@ -159,13 +159,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	1.44
-trailingPE	33.902775
+trailingPE	33.125
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	39.908974
-twoHundredDayAverageChange	8.911026
-twoHundredDayAverageChangePercent	0.22328377
+twoHundredDayAverage	40.083076
+twoHundredDayAverageChange	7.6169243
+twoHundredDayAverageChangePercent	0.19002843
 typeDisp	Equity
-volume	31992308
+volume	35642951
 website	https://iren.com
 zip	2000
