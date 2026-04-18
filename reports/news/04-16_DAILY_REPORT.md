@@ -13,7 +13,7 @@ A new infrastructure hierarchy is emerging with **Broadcom (AVGO)** asserting it
 ### Energy Resilience and The De-Risked Supply Chain
 Data from **TotalEnergies (TTE)** confirms that global energy production has remained stable despite the "war shock" of March, providing a necessary floor for the AI data center build-out [11, 12]. As the Pakistan-brokered peace deal matures, the "Hormuz Hope" narrative has transitioned into a "Geopolitical De-Risking" phase, leading to a massive capital rotation out of defensive energy hedges and into core domestic index anchors [12, 13]. This shift is particularly benefiting high-growth tech picks like **Palantir (PLTR)** and **Fluence (FLNC)**, which are now being designated as "Buys" despite premium valuations [11].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 The near-term trajectory favors a **"Flight to Quality"** within the AI hardware complex [14]. Expect a continued rotation into stocks that anchor the **Inference Infrastructure**, specifically those with visible long-term supply agreements and domestic manufacturing moats [9, 10]. As the **VIX normalizes toward 19**, the market will likely move from crisis management into an **"Inference Inflection"** phase where revenue realization for Agentic AI becomes the primary performance metric [13, 15].
 
 ## Quantitative Market Action & Specific Equities
