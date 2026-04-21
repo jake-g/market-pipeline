@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	35.26
 allTimeLow	6.0
-ask	32.0
-askSize	60700
-averageDailyVolume10Day	3481690
-averageDailyVolume3Month	4611340
-averageVolume	4611340
-averageVolume10days	3481690
+ask	30.77
+askSize	29500
+averageDailyVolume10Day	2822060
+averageDailyVolume3Month	4569888
+averageVolume	4569888
+averageVolume10days	2822060
 beta3Year	0.24
-bid	31.65
-bidSize	29400
+bid	30.77
+bidSize	1300
 category	Equity Energy
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	31.76
-dayLow	31.17
+dayHigh	31.08
+dayLow	30.59
 dividendYield	2.31
 epsTrailingTwelveMonths	1.5375317
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	31.568
-fiftyDayAverageChange	0.081998825
-fiftyDayAverageChangePercent	0.00259753
-fiftyTwoWeekChangePercent	39.3736
+fiftyDayAverage	31.6594
+fiftyDayAverageChange	-0.8894005
+fiftyDayAverageChangePercent	-0.028092777
+fiftyTwoWeekChangePercent	41.168358
 fiftyTwoWeekHigh	35.26
-fiftyTwoWeekHighChange	-3.6099987
-fiftyTwoWeekHighChangePercent	-0.10238227
+fiftyTwoWeekHighChange	-4.489998
+fiftyTwoWeekHighChangePercent	-0.1273397
 fiftyTwoWeekLow	21.51
-fiftyTwoWeekLowChange	10.139999
-fiftyTwoWeekLowChangePercent	0.4714086
+fiftyTwoWeekLowChange	9.26
+fiftyTwoWeekLowChangePercent	0.43049744
 fiftyTwoWeekRange	21.51 - 35.26
 firstTradeDateMilliseconds	1382621400000
-fiveYearAverageReturn	0.22835991
+fiveYearAverageReturn	0.2269511
 fullExchangeName	NYSEArca
 fundFamily	Fidelity Investments
 fundInceptionDate	1382313600
@@ -49,49 +49,49 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of assets in securities included in the fund's underlying index. The fund's underlying index is the MSCI USA IMI Energy 25/50 Index, which represents the performance of the energy sector in the U.S. equity market. It may or may not hold all of the securities in the MSCI USA IMI Energy 25/50 Index. The fund is non-diversified.
 longName	Fidelity MSCI Energy Index ETF
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_243638582
-navPrice	31.15201
+navPrice	30.69587
 netAssets	2037569790.0
 netExpenseRatio	0.084
-open	31.17
-postMarketChange	-0.020000458
-postMarketChangePercent	-0.0631926
-postMarketPrice	31.63
-postMarketTime	1776383988
-previousClose	31.15
+open	30.75
+postMarketChange	0.010000229
+postMarketChangePercent	0.03249993
+postMarketPrice	30.78
+postMarketTime	1776725701
+previousClose	30.69
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.5
-regularMarketChangePercent	1.60514
-regularMarketDayHigh	31.76
-regularMarketDayLow	31.17
-regularMarketDayRange	31.17 - 31.76
-regularMarketOpen	31.17
-regularMarketPreviousClose	31.15
-regularMarketPrice	31.65
-regularMarketTime	1776369600
-regularMarketVolume	1422746
+regularMarketChange	0.0799999
+regularMarketChangePercent	0.260671
+regularMarketDayHigh	31.08
+regularMarketDayLow	30.59
+regularMarketDayRange	30.59 - 31.08
+regularMarketOpen	30.75
+regularMarketPreviousClose	30.69
+regularMarketPrice	30.77
+regularMarketTime	1776715200
+regularMarketVolume	1641830
 shortName	Fidelity MSCI Energy Index ETF
 sourceInterval	15
 symbol	FENY
-threeYearAverageReturn	0.1313124
+threeYearAverageReturn	0.1302073
 totalAssets	2037569792
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	20.58494
+trailingPE	20.012596
 trailingPegRatio	None
 trailingThreeMonthNavReturns	38.11722
 trailingThreeMonthReturns	38.11722
 triggerable	True
-twoHundredDayAverage	26.4455
-twoHundredDayAverageChange	5.2045
-twoHundredDayAverageChangePercent	0.19680098
+twoHundredDayAverage	26.52205
+twoHundredDayAverageChange	4.2479496
+twoHundredDayAverageChangePercent	0.16016671
 typeDisp	ETF
-volume	1422746
+volume	1641830
 yield	0.0231
 ytdReturn	38.11722

@@ -1,42 +1,42 @@
 Metric	Value
-52WeekChange	0.25579715
-SandP52WeekChange	0.32942438
+52WeekChange	0.29823148
+SandP52WeekChange	0.38150132
 address1	One Amgen Center Drive
 allTimeHigh	391.29
 allTimeLow	0.075521
-ask	349.77
-askSize	1
+ask	350.99
+askSize	2
 auditRisk	5
 averageAnalystRating	2.5 - Buy
-averageDailyVolume10Day	2429590
-averageDailyVolume3Month	2804786
-averageVolume	2804786
-averageVolume10days	2429590
+averageDailyVolume10Day	2563310
+averageDailyVolume3Month	2803406
+averageVolume	2803406
+averageVolume10days	2563310
 beta	0.465
-bid	349.12
-bidSize	1
+bid	349.97
+bidSize	2
 boardRisk	7
 bookValue	16.069
 city	Thousand Oaks
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Robert A. Bradway', 'age': 62, 'title': 'Chairman & CEO', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 6693535, 'exercisedValue': 0, 'unexercisedValue': 108918352}, {'maxAge': 1, 'name': 'Mr. Peter H. Griffith', 'age': 66, 'title': 'Executive VP & CFO', 'yearBorn': 1959, 'fiscalYear': 2025, 'totalPay': 3311180, 'exercisedValue': 0, 'unexercisedValue': 8114863}, {'maxAge': 1, 'name': 'Dr. David M. Reese M.D.', 'age': 62, 'title': 'Executive VP & CTO', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 3490556, 'exercisedValue': 1192259, 'unexercisedValue': 17200032}, {'maxAge': 1, 'name': 'Mr. Murdo  Gordon', 'age': 58, 'title': 'Executive Vice President of Global Commercial Operations', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 3223764, 'exercisedValue': 0, 'unexercisedValue': 15054745}, {'maxAge': 1, 'name': 'Dr. James E. Bradner M.D.', 'age': 53, 'title': 'Executive Vice President of Research & Development', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 3840115, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Esteban  Santos', 'age': 57, 'title': 'Executive Vice President of Operations', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 3006074, 'exercisedValue': 0, 'unexercisedValue': 12988893}, {'maxAge': 1, 'name': 'Mr. Matthew C. Busch', 'age': 50, 'title': 'Chief Accounting Officer & VP of Finance', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Scott  Skellenger', 'title': 'Senior VP & Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Howard Y. Chang M.D., Ph.D.', 'title': 'Senior VP of Global Research & Chief Scientific Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Casey  Capparelli', 'title': 'Executive Director of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	4
-corporateActions	[{'header': 'Dividend', 'message': 'AMGN announced a cash dividend of $2.52 with an ex-date of May. 15, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1778817600000, 'amount': '2.52'}}]
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	349.39
+currentPrice	350.16
 currentRatio	1.14
 customPriceAlertConfidence	HIGH
-dateShortInterest	1773360000
-dayHigh	351.2518
-dayLow	346.63
+dateShortInterest	1774915200
+dayHigh	356.9
+dayLow	350.03
 debtToEquity	640.275
-discount_to_intrinsic_value	59.11
+discount_to_intrinsic_value	59.33
 displayName	Amgen
 dividendDate	1780617600
 dividendRate	10.08
-dividendYield	2.89
+dividendYield	2.84
 earningsCallTimestampEnd	1777581000
 earningsCallTimestampStart	1777581000
 earningsGrowth	1.121
@@ -46,12 +46,12 @@ earningsTimestampEnd	1777579200
 earningsTimestampStart	1777579200
 ebitda	16616999936
 ebitdaMargins	0.45215
-enterpriseToEbitda	14.121
-enterpriseToRevenue	6.385
-enterpriseValue	234650861568
-epsCurrentYear	22.34911
-epsForward	23.31597
-epsTrailingTwelveMonths	14.24
+enterpriseToEbitda	14.313
+enterpriseToRevenue	6.472
+enterpriseValue	237836746752
+epsCurrentYear	22.35032
+epsForward	23.31306
+epsTrailingTwelveMonths	14.25
 eps_normalized_growth	1.328879393352973
 esgPopulated	False
 exDividendDate	1778803200
@@ -61,34 +61,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	805 447 1010
-fiftyDayAverage	363.6128
-fiftyDayAverageChange	-14.222778
-fiftyDayAverageChangePercent	-0.039115176
-fiftyTwoWeekChangePercent	25.579716
+fiftyDayAverage	363.6108
+fiftyDayAverageChange	-13.450806
+fiftyDayAverageChangePercent	-0.036992315
+fiftyTwoWeekChangePercent	29.823149
 fiftyTwoWeekHigh	391.29
-fiftyTwoWeekHighChange	-41.899994
-fiftyTwoWeekHighChangePercent	-0.10708169
+fiftyTwoWeekHighChange	-41.130005
+fiftyTwoWeekHighChangePercent	-0.105113864
 fiftyTwoWeekLow	261.43
-fiftyTwoWeekLowChange	87.96002
-fiftyTwoWeekLowChangePercent	0.33645728
+fiftyTwoWeekLowChange	88.73001
+fiftyTwoWeekLowChangePercent	0.33940256
 fiftyTwoWeekRange	261.43 - 391.29
 financialCurrency	USD
 firstTradeDateMilliseconds	424704600000
 fiveYearAvgDividendYield	3.06
-floatShares	537606802
-forwardEps	23.31597
-forwardPE	14.985009
+floatShares	537622974
+forwardEps	23.31306
+forwardPE	15.019907
 freeCashflow	7501875200
 fullExchangeName	NasdaqGS
 fullTimeEmployees	31500
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1775001600
-graham_intrinsic_value	854.4
+graham_intrinsic_value	861.02
 grossMargins	0.70783997
 grossProfits	26013999104
 hasPrePostMarketData	True
 heldPercentInsiders	0.0022200001
-heldPercentInstitutions	0.85207003
+heldPercentInstitutions	0.85256
 impliedSharesOutstanding	539067675
 industry	Drug Manufacturers - General
 industryDisp	Drug Manufacturers - General
@@ -104,31 +104,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Amgen Inc. discovers, develops, manufactures, and delivers human therapeutics worldwide. The company's principal products include Enbrel for the treatment of rheumatoid arthritis, plaque psoriasis, and psoriatic arthritis; Otezla for the treatment of adult patients with plaque psoriasis, psoriatic arthritis, and oral ulcers associated with Behçet's disease; Prolia to treat postmenopausal women with osteoporosis; XGEVA for skeletal-related events prevention; Repatha, which reduces the risks of myocardial infarction, stroke, and coronary revascularization; Nplate for the treatment of patients with immune thrombocytopenia; KYPROLIS to treat patients with relapsed or refractory multiple myeloma; Aranesp to treat a lower-than-normal number of red blood cells and anemia; EVENITY for the treatment of osteoporosis in postmenopausal for women; Vectibix to treat patients with wild-type RAS metastatic colorectal cancer; BLINCYTO for the treatment of patients with acute lymphoblastic leukemia; TEPEZZA to treat thyroid eye disease; and KRYSTEXXA for the treatment of chronic refractory gout. It also markets other products, including PROLIA, REPATHA, OTEZLA, ENBREL, EVENITY, XGEVA, TEPEZZA, BLINCYTO, NPLATE, TEZSPIRE, KYPROLIS, ARANESP, KRYSTEXXA AND VECTIBIX, MVASI, PAVBLU, UPLIZNA, IMDELLTRA/IMDYLLTRA, AMJEVITA/AMGEVITA, TAVNEOS, NEULASTA, LUMAKRAS/LUMYKRAS, RAVICTI, PARSABIV, AIMOVIG, WEZLANA/WEZENLA, AND PROCYSBI. The company serves healthcare providers, including physicians or their clinics, dialysis centers, hospitals, and pharmacies. It distributes its products through pharmaceutical wholesale distributors. The company has collaboration agreements with AstraZeneca plc for the development and commercialization of TEZSPIRE; BEONE MEDICINES LTD. to develop and commercialize Aimovig; UCB for the development and commercialization of EVENITY; Kyowa Kirin Co., Ltd. for rocatinlimab development and commercialization; and BeiGene, Ltd. for oncology products expansion and development. The company was incorporated in 1980 and is headquartered in Thousand Oaks, California.
 longName	Amgen Inc.
 market	us_market
-marketCap	188344860672
-marketState	POSTPOST
+marketCap	188759932928
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_24816
 mostRecentQuarter	1767139200
 netIncomeToCommon	7711000064
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	187714145788
+nonDilutedMarketCap	191530744927
 numberOfAnalystOpinions	29
-open	346.63
+open	355.45
 operatingCashflow	9957999616
 operatingMargins	0.30549
 overallRisk	3
 payoutRatio	0.669
-pegRatio	2.453
+pegRatio	2.38
 phone	805 447 1000
-postMarketChange	1.0899963
-postMarketChangePercent	0.31197125
-postMarketPrice	350.48
-postMarketTime	1776382968
-previousClose	348.22
-priceEpsCurrentYear	15.6332855
+postMarketChange	2.7388
+postMarketChangePercent	0.7821567
+postMarketPrice	352.8988
+postMarketTime	1776726099
+previousClose	355.3
+priceEpsCurrentYear	15.666889
 priceHint	2
-priceToBook	21.743109
-priceToSalesTrailing12Months	5.124891
+priceToBook	21.791025
+priceToSalesTrailing12Months	5.136185
 profitMargins	0.20982
 quickRatio	0.734
 quoteSourceName	Nasdaq Real Time Price
@@ -136,16 +136,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.5
 region	US
-regularMarketChange	1.17001
-regularMarketChangePercent	0.335998
-regularMarketDayHigh	351.2518
-regularMarketDayLow	346.63
-regularMarketDayRange	346.63 - 351.2518
-regularMarketOpen	346.63
-regularMarketPreviousClose	348.22
-regularMarketPrice	349.39
-regularMarketTime	1776369601
-regularMarketVolume	1980156
+regularMarketChange	-5.139984
+regularMarketChangePercent	-1.4466603
+regularMarketDayHigh	356.9
+regularMarketDayLow	350.03
+regularMarketDayRange	350.03 - 356.9
+regularMarketOpen	355.45
+regularMarketPreviousClose	355.3
+regularMarketPrice	350.16
+regularMarketTime	1776715201
+regularMarketVolume	1953438
 returnOnAssets	0.07931
 returnOnEquity	1.0610299
 revenueGrowth	0.086
@@ -155,13 +155,13 @@ sectorDisp	Healthcare
 sectorKey	healthcare
 shareHolderRightsRisk	2
 sharesOutstanding	539067675
-sharesPercentSharesOut	0.026600001
-sharesShort	14323209
-sharesShortPreviousMonthDate	1770940800
-sharesShortPriorMonth	14443255
+sharesPercentSharesOut	0.025899999
+sharesShort	13981275
+sharesShortPreviousMonthDate	1772150400
+sharesShortPriorMonth	15113236
 shortName	Amgen Inc.
-shortPercentOfFloat	0.026700001
-shortRatio	6.07
+shortPercentOfFloat	0.025999999
+shortRatio	5.43
 sourceInterval	15
 state	CA
 symbol	AMGN
@@ -175,15 +175,15 @@ totalDebt	55435001856
 totalRevenue	36750999552
 tradeable	False
 trailingAnnualDividendRate	9.52
-trailingAnnualDividendYield	0.02733904
-trailingEps	14.24
-trailingPE	24.535816
-trailingPegRatio	2.333
+trailingAnnualDividendYield	0.02679426
+trailingEps	14.25
+trailingPE	24.572632
+trailingPegRatio	2.3804
 triggerable	True
-twoHundredDayAverage	321.884
-twoHundredDayAverageChange	27.506012
-twoHundredDayAverageChangePercent	0.08545318
+twoHundredDayAverage	322.5588
+twoHundredDayAverageChange	27.601196
+twoHundredDayAverageChangePercent	0.0855695
 typeDisp	Equity
-volume	1980156
+volume	1952968
 website	https://www.amgen.com
 zip	91320-1799

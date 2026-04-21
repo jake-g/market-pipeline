@@ -17,12 +17,12 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.43966162 |
+| Value | str | 0.4974898 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
-| Earnings Date | str | 2026-04-30 16:00:00-04:00 |
+| Earnings Date | str | 2026-04-29 16:00:00-04:00 |
 | EPS Estimate | float64 | 1.65 |
 | Reported EPS | float64 | 1.95 |
 | Surprise(%) | float64 | -0.49 |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-17 |
+| Date | str | 2026-04-20 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Amazon Stock (AMZN) Will Outperform the Magnifi... |
-| Summary | str | AMZN's AI-powered ads and logistics gains drive... |
-| URL | str | https://news.google.com/rss/articles/CBMimwFBVV... |
+| Sentiment | float64 | 0.6 |
+| Headline | str | SpaceX Could Soon Run Into a $2.7 Trillion Road... |
+| Summary | str | We just covered the 10 Best AI Stock Picks of M... |
+| URL | str | https://news.google.com/rss/articles/CBMimAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 330.293 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.76 |
-| US10Y | float64 | 4.29 |
+| US02Y | float64 | 3.71 |
+| US10Y | float64 | 4.26 |
