@@ -7,7 +7,7 @@
 The week of April 12 to April 18, 2026, represented a **violent structural realignment** of the global market regime, characterized by the definitive maturation of the "Hormuz Hope" narrative and a fundamental strategic pivot within the AI sector [1-3]. As the "war shock" of March faded into a "Geopolitical De-Risking" phase, the market pivoted from crisis management toward a high-stakes "show-me-the-money" period for AI infrastructure [2, 3].
 
 ### The Great Geopolitical De-Risking
-The primary narrative arc was the **normalization of volatility** following reports that the Pakistan-brokered Iran ceasefire would be extended into a permanent peace deal [3, 4]. This development effectively erased nearly all equity losses tied to the Middle East conflict, as the **VIX collapsed from its late-March peak of 31 down to 19** [3, 5]. 
+The primary narrative arc was the **normalization of volatility** following reports that the Pakistan-brokered Iran ceasefire would be extended into a permanent peace deal [3, 4]. This development effectively erased nearly all equity losses tied to the Middle East conflict, as the **VIX collapsed from its late-March peak of 31 down to 19** [3, 5].
 *   **Energy Premium Evaporation:** The military reprieve instantly removed the $110/barrel risk premium from crude oil, triggering a massive capital rotation out of defensive energy hedges (XLE, XOM) and back into high-beta growth assets [3, 6].
 *   **Supply Chain Resilience:** The reopening of the Strait of Hormuz de-risked the critical semiconductor supply chain, allowing investors to return their focus to the robust fundamentals of the hardware and foundry floors [5, 7].
 
@@ -17,7 +17,7 @@ A critical thematic shift emerged this week regarding how AI value is perceived.
 *   **Hardware and Foundry Dominance:** Despite the "SaaS-Pocalypse" weighing on software valuations earlier in the month, the hardware floor remains exceptionally robust [5, 7]. **Advanced Micro Devices (AMD)** is currently experiencing its best run since 2005, driven by rapid penetration into the AI data center market and the unveiling of next-generation architectures [2, 7].
 
 ### Tangible Revenue Maturation
-The AI narrative is transitioning from theoretical potential to **tangible revenue generation** [2]. 
+The AI narrative is transitioning from theoretical potential to **tangible revenue generation** [2].
 *   **Anthropic as a Catalyst:** News that AI startup Anthropic tripled its revenue in Q1 2026 served as a major market validator, reinforcing the "proxy dominance" of **Alphabet (GOOGL)**, which provides the critical compute infrastructure for these high-growth models [2].
 *   **Custom Silicon Advantage:** Structural dominance is shifting toward custom silicon architects (AVGO, MRVL) who provide superior revenue visibility through specialized AI accelerator architectures ("XPUs") compared to general-purpose GPU providers [1, 2].
 
