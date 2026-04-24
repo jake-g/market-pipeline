@@ -959,10 +959,16 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
       'Ticker', 'Name', 'Quantity', 'Portfolio_Weight_Pct', 'Cost_Basis',
       'Unrealized_PnL_Net', 'Unrealized_PnL_Pct', 'Graham_Value',
       'Discount_to_Intrinsic_Value_Pct', 'RSI', 'Dist_to_200MA', 'MACD',
-      'MA_Cross', 'Time_Horizon', 'Exit_Strategy'
+      'MA_Cross', 'Upcoming_Earnings', 'Time_Horizon', 'Exit_Strategy'
   ]
   actual_cols = [c for c in desired_cols if c in df.columns]
   display_df = df[actual_cols].copy()
+
+  # Replace NaNs in Discount with N/A BEFORE fillna("-")
+  if 'Discount_to_Intrinsic_Value_Pct' in display_df.columns:
+    display_df['Discount_to_Intrinsic_Value_Pct'] = display_df[
+        'Discount_to_Intrinsic_Value_Pct'].fillna("N/A")
+
   display_df = display_df.fillna("-")
 
   if 'Portfolio_Weight_Pct' in display_df.columns:
@@ -986,7 +992,7 @@ def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
   if 'Discount_to_Intrinsic_Value_Pct' in display_df.columns:
     display_df['Discount_to_Intrinsic_Value_Pct'] = display_df[
         'Discount_to_Intrinsic_Value_Pct'].apply(lambda x: format_num(
-            x, is_pct=True, is_signed=True) if x != "-" else x)
+            x, is_pct=True, is_signed=True) if x not in ["-", "N/A"] else x)
 
   if 'Dist_to_200MA' in display_df.columns:
     display_df['Dist_to_200MA'] = display_df['Dist_to_200MA'].apply(
@@ -1075,8 +1081,10 @@ def plot_momentum_scatter(df: pd.DataFrame, out_path: str):
   plt.close()
 
 
-def plot_correlation_heatmap(tickers: List[str], tickers_dir: str,
-                             out_path: str):
+def plot_correlation_heatmap(tickers: List[str],
+                             tickers_dir: str,
+                             out_path: str,
+                             figsize=(14, 12)):
   """Generates a correlation heatmap based on the last 180 days of returns."""
   setup_plot_aesthetics()
 
@@ -1098,7 +1106,7 @@ def plot_correlation_heatmap(tickers: List[str], tickers_dir: str,
   returns_df = prices_df.pct_change().dropna()
   corr_matrix = returns_df.corr()
 
-  plt.figure(figsize=(14, 12))
+  plt.figure(figsize=figsize)
   sns.heatmap(corr_matrix,
               annot=True,
               cmap='vlag',
@@ -1927,3 +1935,92 @@ def _append_shipping_to_digest(market_data_dir: str, text_blob: str,
     text_blob += "\n\nADDITIONAL MACRO & SHIPPING METRICS:\n\n" + shipping_blob
 
   return text_blob
+
+
+def get_upcoming_earnings(ticker: str, tickers_dir: str) -> str:
+  """Parses earnings.tsv for a ticker and returns the next upcoming date."""
+  earnings_path = os.path.join(tickers_dir, ticker, "earnings.tsv")
+  if not os.path.exists(earnings_path):
+    return ""
+  try:
+    df = pd.read_csv(earnings_path, sep="\t")
+    if 'Earnings Date' not in df.columns:
+      return ""
+
+    # Convert to datetime, handle timezone offset
+    df['Date_Parsed'] = pd.to_datetime(df['Earnings Date'],
+                                       errors='coerce',
+                                       utc=True)
+
+    # Filter for dates after today
+    today = pd.to_datetime(datetime.datetime.now().date(), utc=True)
+    future_earnings = df[df['Date_Parsed'] > today].sort_values('Date_Parsed')
+
+    if not future_earnings.empty:
+      next_date = future_earnings.iloc[0]['Earnings Date']
+      return next_date.split()[0]
+  except Exception as e:
+    logger.warning("Failed to parse earnings for %s: %s", ticker, e)
+  return ""
+
+
+def plot_portfolio_allocation_bar(df: pd.DataFrame, out_path: str):
+  """Generates a horizontal bar chart of the portfolio allocation."""
+  if df.empty:
+    return
+  setup_plot_aesthetics()
+  plt.figure(figsize=(10, 8))
+  df_p = df.sort_values(by='Portfolio_Weight_Pct', ascending=True)
+  labels = df_p['Ticker'].tolist()
+  sizes = [float(s) for s in df_p['Portfolio_Weight_Pct'].tolist()]
+
+  plt.barh(labels, sizes, color='skyblue')
+  plt.xlabel('Portfolio Weight (%)')
+  plt.title('Portfolio Allocation (% Relative Weight)',
+            fontweight='bold',
+            fontsize=14)
+  plt.tight_layout()
+  plt.savefig(out_path, dpi=200)
+  plt.close()
+  logger.info("Saved bar chart to %s", out_path)
+
+
+def generate_price_volume_capitulation_plot(ticker: str, tickers_dir: str,
+                                            output_path: str):
+  """Generates a price vs volume capitulation plot for a ticker."""
+  prices_path = os.path.join(tickers_dir, ticker, "prices.tsv")
+  if not os.path.exists(prices_path):
+    logger.warning("Prices file missing for %s", ticker)
+    return
+
+  try:
+    df = pd.read_csv(prices_path, sep="\t")
+    df['Date'] = pd.to_datetime(df['Date'])
+    df = df.sort_values('Date').tail(90)  # Last 90 days
+
+    plt.figure(figsize=(12, 6))
+    ax1 = plt.gca()
+    ax2 = ax1.twinx()
+
+    # Volume as bars
+    ax2.bar(df['Date'], df['Volume'], alpha=0.3, color='blue', label='Volume')
+    ax2.set_ylabel('Volume', color='blue')
+
+    # Price as line
+    ax1.plot(df['Date'],
+             df['Close'],
+             color='red',
+             label=f'{ticker} Price',
+             linewidth=2)
+    ax1.set_ylabel('Price ($)', color='red')
+
+    plt.title(f'{ticker} Price vs Volume Capitulation (Last 90 Days)',
+              fontsize=14,
+              fontweight='bold')
+    ax1.xaxis.set_major_formatter(plt.matplotlib.dates.DateFormatter('%m-%d'))
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=200)
+    plt.close()
+    logger.info("Saved price/volume plot to %s", output_path)
+  except Exception as e:
+    logger.warning("Failed to generate price/volume plot for %s: %s", ticker, e)
