@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.4974898 |
+| Value | str | 0.3689289 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-21 |
+| Date | str | 2026-04-24 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Amazon.com (AMZN) – Among the 10 Best Dow Stock... |
-| Summary | str | SAN FRANCISCO, April 21, 2026--All Remote - Git... |
-| URL | str | https://news.google.com/rss/articles/CBMikwFBVV... |
+| Sentiment | float64 | 0.0 |
+| Headline | str | Amazon-backed X-Energy raises $1.02 billion in ... |
+| Summary | str | While Apple (AAPL) may be known for its spacesh... |
+| URL | str | https://news.google.com/rss/articles/CBMiuwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 330.293 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.71 |
-| US10Y | float64 | 4.26 |
+| US02Y | float64 | 3.79 |
+| US10Y | float64 | 4.3 |

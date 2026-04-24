@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	105.94
 allTimeLow	28.543333
-ask	103.89
-askSize	8900
-averageDailyVolume10Day	15281340
-averageDailyVolume3Month	23618978
-averageVolume	23618978
-averageVolume10days	15281340
+ask	103.5
+askSize	800
+averageDailyVolume10Day	13988430
+averageDailyVolume3Month	23315626
+averageVolume	23315626
+averageVolume10days	13988430
 beta3Year	0.94
-bid	103.85
-bidSize	11000
+bid	100.0
+bidSize	5000
 bookValue	72.471
 category	Foreign Large Blend
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	103.93
-dayLow	103.14
+dayHigh	102.12
+dayLow	100.15
 dividendYield	3.35
 epsTrailingTwelveMonths	5.452878
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	100.57
-fiftyDayAverageChange	3.340004
-fiftyDayAverageChangePercent	0.03321074
-fiftyTwoWeekChangePercent	29.333008
+fiftyDayAverage	100.5816
+fiftyDayAverageChange	0.6584015
+fiftyDayAverageChangePercent	0.006545944
+fiftyTwoWeekChangePercent	21.740686
 fiftyTwoWeekHigh	105.94
-fiftyTwoWeekHighChange	-2.0299988
-fiftyTwoWeekHighChangePercent	-0.019161778
-fiftyTwoWeekLow	80.09
-fiftyTwoWeekLowChange	23.820007
-fiftyTwoWeekLowChangePercent	0.29741552
-fiftyTwoWeekRange	80.09 - 105.94
+fiftyTwoWeekHighChange	-4.7000046
+fiftyTwoWeekHighChangePercent	-0.044364776
+fiftyTwoWeekLow	82.89
+fiftyTwoWeekLowChange	18.349998
+fiftyTwoWeekLowChangePercent	0.22137772
+fiftyTwoWeekRange	82.89 - 105.94
 financialCurrency	USD
 firstTradeDateMilliseconds	998919000000
-fiveYearAverageReturn	0.0899784
+fiveYearAverageReturn	0.0878361
 fullExchangeName	NYSEArca
 fundFamily	iShares
 fundInceptionDate	997747200
@@ -51,53 +51,53 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally will invest at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index. The index is a free float-adjusted, market capitalization-weighted index designed to measure large- and mid-capitalization equity market performance of developed markets outside of the U.S. and Canada.
 longName	iShares MSCI EAFE ETF
 market	us_market
-marketCap	97509146624
+marketCap	95003615232
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_8797589
-navPrice	104.11016
+navPrice	101.87931
 netAssets	71451206000.0
 netExpenseRatio	0.32
-open	103.72
+open	101.75
 phone	415-670-2000
-postMarketChange	0.08999634
-postMarketChangePercent	0.086609885
-postMarketPrice	104.0
-postMarketTime	1776725181
-previousClose	104.32
+postMarketChange	-0.13999939
+postMarketChangePercent	-0.13828467
+postMarketPrice	101.1
+postMarketTime	1776983342
+previousClose	101.97
 priceHint	2
-priceToBook	1.4338149
-quoteSourceName	Nasdaq Real Time Price
+priceToBook	1.3969725
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.409996
-regularMarketChangePercent	-0.393018
-regularMarketDayHigh	103.93
-regularMarketDayLow	103.14
-regularMarketDayRange	103.14 - 103.93
-regularMarketOpen	103.72
-regularMarketPreviousClose	104.32
-regularMarketPrice	103.91
-regularMarketTime	1776715200
-regularMarketVolume	12738664
+regularMarketChange	-0.730003
+regularMarketChangePercent	-0.7159
+regularMarketDayHigh	102.12
+regularMarketDayLow	100.15
+regularMarketDayRange	100.15 - 102.12
+regularMarketOpen	101.75
+regularMarketPreviousClose	101.97
+regularMarketPrice	101.24
+regularMarketTime	1776974400
+regularMarketVolume	15767229
 sharesOutstanding	938400000
 shortName	iShares MSCI EAFE ETF
 sourceInterval	15
 symbol	EFA
-threeYearAverageReturn	0.1629558
+threeYearAverageReturn	0.1513284
 totalAssets	71451205632
 tradeable	False
 trailingAnnualDividendRate	1.761
-trailingAnnualDividendYield	0.016880753
-trailingPE	19.055992
+trailingAnnualDividendYield	0.017269785
+trailingPE	18.566341
 trailingPegRatio	None
 trailingThreeMonthNavReturns	1.00503
 trailingThreeMonthReturns	1.00503
 triggerable	True
-twoHundredDayAverage	95.59465
-twoHundredDayAverageChange	8.315353
-twoHundredDayAverageChangePercent	0.08698555
+twoHundredDayAverage	95.79435
+twoHundredDayAverageChange	5.445648
+twoHundredDayAverageChangePercent	0.056847278
 typeDisp	ETF
-volume	12738664
+volume	15767229
 yield	0.0335
 ytdReturn	1.00503
