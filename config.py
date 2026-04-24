@@ -39,15 +39,18 @@ FUZZY_DEDUPE_THRESHOLD = 0.8  # Threshold for dropping similar news headlines
 # yapf: disable
 NEWS_TOPICS =[
     # AI & Tech
-    "AI", "Artificial Intelligence", "Compute Power", "Data Center",
+    "AI", "Compute Power", "Data Center",
     "GPU", "Generative AI", "AI Regulation", "Technology", "Big Tech", "Sovereign AI",
     "Hyperscalers", "Circular Deals", "AI Agents", "Custom Silicon", "Cybersecurity",
+    "Quantum Computing", "Physical AI", "Inference Infrastructure", "Edge AI",
+    "Multimodal AI",
 
     # Energy, Grid & Commodities
     "Energy", "Oil", "OPEC", "Nuclear Energy", "Uranium", "Natural Gas",
     "Power Grid", "Renewable Energy", "Commodities", "Electricity Demand",
     "AI Energy Demand", "Small Modular Reactors", "Copper Demand",
     "Battery Storage", "Grid Modernization", "Desalination", "Water Security",
+    "Lithium", "Rare Earths", "Power Grid Constraints",
 
     # Supply Chain, Chips & Shipping
     "Supply Chain", "Shipping", "Logistics", "Freight", "Container Rates",
@@ -64,7 +67,8 @@ NEWS_TOPICS =[
     "Geopolitics", "War", "OPEC+", "Sanctions", "Tariffs", "Trade War", "US Economy",
     "Global Markets", "Bitcoin ETF", "GLP-1 Weight Loss", "De-dollarization",
     "Commercial Real Estate", "US Debt", "Crypto Regulation", "Tokenization",
-    "LUCAS", "Drones",  "Attritable Mass", "Hormuz"
+    "Drones",  "Attritable Mass", "Hormuz",
+    "Geopolitical De-Risking", "Corporate Austerity", "SaaS Valuation Reset"
 ]
 
 # Sectors & Tickers
@@ -95,7 +99,7 @@ SECTORS = {
         "NLR", "ENPH", "FLNC", "KULR"
     ],
     "Aerospace & Defense": [
-        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT"
+        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT"
     ],
     "Crypto & Minerals": [
         "BTC-USD", "ETH-USD", "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM",
@@ -123,7 +127,7 @@ SECTORS = {
     ],
     "Broad Market & Intl ETFs": [
         "VOO", "VTI", "VTSAX", "SCHG", "VUG", "VIGAX", "SCHV", "VTV",
-        "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH"
+        "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM"
     ],
     "Mutual Funds": [
         "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"

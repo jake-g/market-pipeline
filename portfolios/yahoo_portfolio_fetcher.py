@@ -129,7 +129,8 @@ def prompt_for_curl_and_save_env(env_path: str):
       result = subprocess.run(['pbpaste'],
                               capture_output=True,
                               text=True,
-                              timeout=2)
+                              timeout=2,
+                              check=True)
       clipboard_content = result.stdout
       if clipboard_content.strip().startswith('curl'):
         logger.info(
