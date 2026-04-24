@@ -2,7 +2,7 @@
 
 *Date: April 24, 2026*
 
-This report provides an anonymized overview of the holdings in the **Chip & AI Growth Strategy**. All prices and absolute dollar values have been omitted per your request. **Index funds and cash positions have been excluded to focus solely on individual stock exposure.**
+This report provides an anonymized overview of the holdings in the **Chip & AI Growth Strategy**.
 
 ## 📊 Allocation & Sector Breakdown
 
