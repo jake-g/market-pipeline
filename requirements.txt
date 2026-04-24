@@ -1,29 +1,42 @@
 pandas
-ipython
+numpy
+
+# Plotting & Visualization
 plotly
-tqdm
-joblib
-# web
+matplotlib
+seaborn
+graphviz
+
+# Web
 requests
-lxml
 curl_cffi
 fake_useragent
-# nlp
+lxml
 feedparser
-textblob
-# market data
+
+# Data APIs
 yfinance
 sec-edgar-downloader
 alpha-vantage
-# dev
+
+# NLP
+notebooklm-py[browser]
+textblob
+
+# Rendering
+markdown
+types-Markdown
+weasyprint
+
+# Utilities
+tqdm
+joblib
+tabulate
 python-dotenv
+ipython
+
+# Dev
 pre-commit
 yapf
 mypy
 pylint
-# notebooklm
-notebooklm-py[browser]
-# render markdown to pdf
-weasyprint
-types-Markdown
-markdown

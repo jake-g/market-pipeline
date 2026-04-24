@@ -6,6 +6,8 @@ import logging
 import os
 import re
 import shlex
+import shutil
+import subprocess
 import sys
 import time
 
@@ -118,25 +120,33 @@ def prompt_for_curl_and_save_env(env_path: str):
   logger.info(
       "📋 ACTION REQUIRED: Open Chrome -> Yahoo Portfolios -> Network Tab -> Right-click the 'portfolio' request -> Copy as cURL"
   )
-  logger.info("\nPaste the 'Copy as cURL' text below.")
-  logger.info("Press ENTER twice when finished (or Ctrl+C to abort):")
 
-  lines = []
-  blank_lines = 0
-  try:
-    for line in sys.stdin:
-      lines.append(line)
-      if not line.strip():
-        blank_lines += 1
-        if blank_lines >= 2:
-          break
-      else:
-        blank_lines = 0
-  except KeyboardInterrupt:
-    logger.info("\nAborted by user.")
-    sys.exit(1)
+  logger.info("\nChecking clipboard for 'Copy as cURL' command...")
 
-  curl_text = "".join(lines)
+  curl_text = ""
+  if shutil.which('pbpaste'):
+    try:
+      result = subprocess.run(['pbpaste'],
+                              capture_output=True,
+                              text=True,
+                              timeout=2)
+      clipboard_content = result.stdout
+      if clipboard_content.strip().startswith('curl'):
+        logger.info(
+            "✅ Found cURL command in clipboard. Using it automatically!")
+        curl_text = clipboard_content
+    except Exception as e:
+      logger.warning("Failed to read from clipboard: %s", e)
+
+  if not curl_text:
+    logger.info("No valid cURL found in clipboard.")
+    logger.info("Paste the 'Copy as cURL' text below.")
+    logger.info("Press Ctrl+D (EOF) when finished (or Ctrl+C to abort):")
+    try:
+      curl_text = sys.stdin.read()
+    except KeyboardInterrupt:
+      logger.info("\nAborted by user.")
+      sys.exit(1)
   if not curl_text.strip():
     logger.error("No input provided.")
     sys.exit(1)
