@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (144 more) | | |
+| ... (238 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
 | Date | str | 2026-04-24 |
 | Source | str | Google |
-| Sentiment | float64 | 0.0 |
-| Headline | str | Amazon-backed X-Energy raises $1.02 billion in ... |
-| Summary | str | While Apple (AAPL) may be known for its spacesh... |
-| URL | str | https://news.google.com/rss/articles/CBMiuwFBVV... |
+| Sentiment | float64 | 0.5 |
+| Headline | str | Meta is striking a deal with Amazon to use its ... |
+| Summary | str | US benchmark equity indexes were mostly higher ... |
+| URL | str | https://news.google.com/rss/articles/CBMib0FVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
