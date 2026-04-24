@@ -196,7 +196,7 @@ SKIP_EARNINGS: List[str] = [
 # Tickers to skip for Insider Trading (ETFs, Indices, OTC)
 SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     "AMKBY", # OTC/Foreign often lacks CIK mapping
-    "PAVE", "ITA", "SMH", "URA", "XLE", # Sector ETFs
+    "PAVE", "ITA", "SMH", "URA", "XLE", "CIBR", "VIG", "VIS", "VYM", # Sector ETFs
     # Foreign / ADRs (No Form 4)
     "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "TTDKY", "ZIM",
     # Specific Corporate Exclusions (Missing/404 on SEC Edgar or no CIK mapping)
