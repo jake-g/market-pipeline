@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.3689289 |
+| Value | str | 0.39345753 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -25,7 +25,7 @@ This report documents the file structures and column data types used in `market_
 | Earnings Date | str | 2026-04-29 16:00:00-04:00 |
 | EPS Estimate | float64 | 1.65 |
 | Reported EPS | float64 | 1.95 |
-| Surprise(%) | float64 | -0.49 |
+| Surprise(%) | float64 | 0.22 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 19471000000.0 |
 | Reconciled Cost Of Revenue | float64 | 109959000000.0 |
 | EBITDA | float64 | 46755000000.0 |
-| ... (238 more) | | |
+| ... (144 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-24 |
+| Date | str | 2026-04-28 |
 | Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | Meta is striking a deal with Amazon to use its ... |
-| Summary | str | US benchmark equity indexes were mostly higher ... |
-| URL | str | https://news.google.com/rss/articles/CBMib0FVX3... |
+| Sentiment | float64 | 1.0 |
+| Headline | str | The Best Amazon Summer Beauty Event Deals to Sh... |
+| Summary | str | Yahoo Finance Senior Reporter Brooke DiPalma ta... |
+| URL | str | https://news.google.com/rss/articles/CBMiigFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 330.293 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.79 |
-| US10Y | float64 | 4.3 |
+| US02Y | float64 | 3.78 |
+| US10Y | float64 | 4.35 |

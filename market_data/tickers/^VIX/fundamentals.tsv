@@ -1,5 +1,5 @@
 Metric	Value
-52WeekChange	-28.522856
+52WeekChange	-25.444763
 allTimeHigh	89.53
 allTimeLow	8.56
 ask	0.0
@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	21.56
-dayLow	18.7
+dayHigh	19.43
+dayLow	17.78
 esgPopulated	False
 exchange	CXI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
-fiftyDayAverage	22.4536
-fiftyDayAverageChange	-3.1436005
-fiftyDayAverageChangePercent	-0.14000429
-fiftyTwoWeekChangePercent	-28.522856
+fiftyDayAverage	22.4492
+fiftyDayAverageChange	-4.6191998
+fiftyDayAverageChangePercent	-0.20576234
+fiftyTwoWeekChangePercent	-25.444763
 fiftyTwoWeekHigh	35.3
-fiftyTwoWeekHighChange	-15.99
-fiftyTwoWeekHighChangePercent	-0.4529745
+fiftyTwoWeekHighChange	-17.47
+fiftyTwoWeekHighChangePercent	-0.49490085
 fiftyTwoWeekLow	13.38
-fiftyTwoWeekLowChange	5.9299994
-fiftyTwoWeekLowChangePercent	0.44319874
+fiftyTwoWeekLowChange	4.45
+fiftyTwoWeekLowChangePercent	0.33258593
 fiftyTwoWeekRange	13.38 - 35.3
 firstTradeDateMilliseconds	631267200000
 fullExchangeName	Cboe Indices
@@ -42,21 +42,21 @@ market	cboe_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXVIX
-open	19.42
-previousClose	18.92
+open	18.3
+previousClose	18.02
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	0.3899994
-regularMarketChangePercent	2.0613074
-regularMarketDayHigh	21.56
-regularMarketDayLow	18.7
-regularMarketDayRange	18.7 - 21.56
-regularMarketOpen	19.42
-regularMarketPreviousClose	18.92
-regularMarketPrice	19.31
-regularMarketTime	1776975301
+regularMarketChange	-0.19000053
+regularMarketChangePercent	-1.054387
+regularMarketDayHigh	19.43
+regularMarketDayLow	17.78
+regularMarketDayRange	17.78 - 19.43
+regularMarketOpen	18.3
+regularMarketPreviousClose	18.02
+regularMarketPrice	17.83
+regularMarketTime	1777407301
 regularMarketVolume	0
 shortName	CBOE Volatility Index
 sourceInterval	15
@@ -64,8 +64,8 @@ symbol	^VIX
 tradeable	False
 trailingPegRatio	None
 triggerable	False
-twoHundredDayAverage	18.22975
-twoHundredDayAverageChange	1.0802498
-twoHundredDayAverageChangePercent	0.059257522
+twoHundredDayAverage	18.2673
+twoHundredDayAverageChange	-0.43729973
+twoHundredDayAverageChangePercent	-0.023938937
 typeDisp	Index
 volume	0

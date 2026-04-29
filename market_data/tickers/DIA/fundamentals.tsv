@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	505.3
 allTimeLow	64.78
-ask	492.0
-askSize	40
-averageDailyVolume10Day	4478320
-averageDailyVolume3Month	6811831
-averageVolume	6811831
-averageVolume10days	4478320
+ask	492.24
+askSize	240
+averageDailyVolume10Day	4372220
+averageDailyVolume3Month	6732481
+averageVolume	6732481
+averageVolume10days	4372220
 beta3Year	0.9
-bid	493.17
-bidSize	40
+bid	491.39
+bidSize	120
 bookValue	358.194
 category	Large Value
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	495.13
-dayLow	488.51
+dayHigh	493.82
+dayLow	490.78
 dividendYield	1.52
 epsTrailingTwelveMonths	20.402018
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	479.3588
-fiftyDayAverageChange	13.641205
-fiftyDayAverageChangePercent	0.02845719
-fiftyTwoWeekChangePercent	23.387695
+fiftyDayAverage	478.9416
+fiftyDayAverageChange	12.478424
+fiftyDayAverageChangePercent	0.026054166
+fiftyTwoWeekChangePercent	21.376574
 fiftyTwoWeekHigh	505.3
-fiftyTwoWeekHighChange	-12.299988
-fiftyTwoWeekHighChangePercent	-0.024341952
-fiftyTwoWeekLow	393.8
-fiftyTwoWeekLowChange	99.20001
-fiftyTwoWeekLowChangePercent	0.25190455
-fiftyTwoWeekRange	393.8 - 505.3
+fiftyTwoWeekHighChange	-13.879974
+fiftyTwoWeekHighChangePercent	-0.02746878
+fiftyTwoWeekLow	397.41
+fiftyTwoWeekLowChange	94.01001
+fiftyTwoWeekLowChangePercent	0.23655672
+fiftyTwoWeekRange	397.41 - 505.3
 financialCurrency	USD
 firstTradeDateMilliseconds	885306600000
-fiveYearAverageReturn	0.098267294
+fiveYearAverageReturn	0.0958572
 fullExchangeName	NYSEArca
 fundFamily	State Street Investment Management
 fundInceptionDate	884649600
@@ -51,53 +51,53 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The Trust’s Portfolio consists of substantially all of the component common stocks that comprise the DJIA, which are weighted in accordance with the terms of the Trust Agreement.
 longName	State Street SPDR Dow Jones Industrial Average ETF Trust
 market	us_market
-marketCap	40052748288
+marketCap	39924383744
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_6184218
-navPrice	494.82288
+navPrice	491.6581
 netAssets	41759683000.0
 netExpenseRatio	0.16
-open	492.55
+open	493.46
 phone	866.787.2257
-postMarketChange	-0.23168945
-postMarketChangePercent	-0.046995834
-postMarketPrice	492.7683
-postMarketTime	1776987400
-previousClose	494.76
+postMarketChange	0.5999756
+postMarketChangePercent	0.12209018
+postMarketPrice	492.02
+postMarketTime	1777417853
+previousClose	491.83
 priceHint	2
-priceToBook	1.3763491
+priceToBook	1.3719381
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.76001
-regularMarketChangePercent	-0.35573
-regularMarketDayHigh	495.13
-regularMarketDayLow	488.51
-regularMarketDayRange	488.51 - 495.13
-regularMarketOpen	492.55
-regularMarketPreviousClose	494.76
-regularMarketPrice	493.0
-regularMarketTime	1776974400
-regularMarketVolume	4016872
+regularMarketChange	-0.409973
+regularMarketChangePercent	-0.0833567
+regularMarketDayHigh	493.82
+regularMarketDayLow	490.78
+regularMarketDayRange	490.78 - 493.82
+regularMarketOpen	493.46
+regularMarketPreviousClose	491.83
+regularMarketPrice	491.42
+regularMarketTime	1777406400
+regularMarketVolume	2822785
 sharesOutstanding	81242896
 shortName	State Street SPDR Dow Jones Ind
 sourceInterval	15
 symbol	DIA
-threeYearAverageReturn	0.1546394
+threeYearAverageReturn	0.1522534
 totalAssets	41759682560
 tradeable	False
 trailingAnnualDividendRate	5.62
-trailingAnnualDividendYield	0.0113590425
-trailingPE	24.164276
+trailingAnnualDividendYield	0.011426712
+trailingPE	24.086834
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-3.21906
 trailingThreeMonthReturns	-3.21906
 triggerable	True
-twoHundredDayAverage	470.52615
-twoHundredDayAverageChange	22.473846
-twoHundredDayAverageChangePercent	0.047763225
+twoHundredDayAverage	471.24435
+twoHundredDayAverageChange	20.17566
+twoHundredDayAverageChangePercent	0.042813584
 typeDisp	ETF
-volume	4016872
+volume	2822785
 yield	0.0152
 ytdReturn	-3.21906
