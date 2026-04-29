@@ -142,9 +142,18 @@ if __name__ == "__main__":
   logger.info(f"Scanning for portfolios in: {tsvs_dir}")
   tsv_files = glob.glob(os.path.join(tsvs_dir, "*.tsv"))
   # Only process raw portfolio TSVs and the combined active portfolio (ignore other prefixed system TSVs or examples)
-  target_files = [
-      f for f in tsv_files if "example" not in os.path.basename(f).lower()
-  ]
+  target_files = []
+  for f in tsv_files:
+    base_name = os.path.basename(f)
+    if "example" in base_name.lower():
+      continue
+    if base_name.startswith("_"):
+      if base_name in [
+          "_combined_active_portfolio.tsv", "_combined_portfolio.tsv"
+      ]:
+        target_files.append(f)
+    else:
+      target_files.append(f)
 
   if not target_files:
     logger.warning("No portfolio TSVs found to process.")

@@ -75,13 +75,13 @@ NEWS_TOPICS =[
 SECTORS = {
     "Macro Indices": [ #  Major Indices and Volatility measures
         "^GSPC", "^IXIC", "GC=F", "CL=F", "^TNX", "^VIX", "^DJI", "^RUT",
-        "SPY", "VIXY", "QQQ", "DIA", "IWM", "TLT"
+        "SPY", "VIXY", "QQQ", "DIA", "IWM", "TLT", "AIPO"
     ],
     "Chips & Semi": [
         "NVDA", "AMD", "INTC", "TSM", "ASML", "MU", "MPWR", "AVGO", "SMH",
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
-        "STM", "TTDKY"
+        "STM", "TTDKY", "TTMI"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
