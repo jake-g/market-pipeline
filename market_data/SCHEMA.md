@@ -17,15 +17,15 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.39345753 |
+| Value | str | 0.38296533 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
-| Earnings Date | str | 2026-04-29 16:00:00-04:00 |
-| EPS Estimate | float64 | 1.65 |
+| Earnings Date | str | 2026-02-05 16:00:00-05:00 |
+| EPS Estimate | float64 | 1.96 |
 | Reported EPS | float64 | 1.95 |
-| Surprise(%) | float64 | 0.22 |
+| Surprise(%) | float64 | -0.49 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-04-28 |
+| Date | str | 2026-04-30 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | The Best Amazon Summer Beauty Event Deals to Sh... |
-| Summary | str | Yahoo Finance Senior Reporter Brooke DiPalma ta... |
-| URL | str | https://news.google.com/rss/articles/CBMiigFBVV... |
+| Sentiment | float64 | 0.539 |
+| Headline | str | ASTS, RKLB, FLY, LUNR Rise Overnight: Amazon Va... |
+| Summary | str | Futures fell as Amazon, Microsoft and Meta slum... |
+| URL | str | https://news.google.com/rss/articles/CBMitwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

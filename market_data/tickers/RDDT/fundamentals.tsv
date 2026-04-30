@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.31169152
-SandP52WeekChange	0.290079
+52WeekChange	0.24379158
+SandP52WeekChange	0.27333546
 address1	South Tower
 address2	5th Floor 303 2nd Street
 allTimeHigh	282.95
 allTimeLow	37.35
-ask	148.42
-askSize	200
+ask	147.81
+askSize	300
 auditRisk	6
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	3770800
-averageDailyVolume3Month	5381285
-averageVolume	5381285
-averageVolume10days	3770800
+averageDailyVolume10Day	3759730
+averageDailyVolume3Month	5386726
+averageVolume	5386726
+averageVolume10days	3759730
 beta	2.407
-bid	147.5
-bidSize	100
+bid	144.96
+bidSize	600
 boardRisk	7
 bookValue	15.344
 city	San Francisco
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	147.93
+currentPrice	147.75
 currentRatio	11.56
 customPriceAlertConfidence	HIGH
 dateShortInterest	1776211200
-dayHigh	153.65
-dayLow	146.55
+dayHigh	148.78
+dayLow	143.09
 debtToEquity	0.793
-discount_to_intrinsic_value	4.94
+discount_to_intrinsic_value	4.7
 displayName	Reddit
 earningsCallTimestampEnd	1777581000
 earningsCallTimestampStart	1777581000
@@ -44,12 +44,12 @@ earningsTimestampEnd	1777579200
 earningsTimestampStart	1777579200
 ebitda	457932000
 ebitdaMargins	0.20791
-enterpriseToEbitda	61.477
-enterpriseToRevenue	12.782
-enterpriseValue	28152246272
-epsCurrentYear	6.61074
+enterpriseToEbitda	56.279
+enterpriseToRevenue	11.701
+enterpriseValue	25771939840
+epsCurrentYear	6.66083
 epsForward	8.43163
-epsTrailingTwelveMonths	2.63
+epsTrailingTwelveMonths	2.62
 eps_normalized_growth	4.397189150662994
 esgPopulated	False
 exchange	NYQ
@@ -57,33 +57,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	144.0198
-fiftyDayAverageChange	3.9101868
-fiftyDayAverageChangePercent	0.02715034
-fiftyTwoWeekChangePercent	31.169151
+fiftyDayAverage	144.3558
+fiftyDayAverageChange	3.3941956
+fiftyDayAverageChangePercent	0.023512706
+fiftyTwoWeekChangePercent	24.379158
 fiftyTwoWeekHigh	282.95
-fiftyTwoWeekHighChange	-135.02002
-fiftyTwoWeekHighChangePercent	-0.47718683
+fiftyTwoWeekHighChange	-135.20001
+fiftyTwoWeekHighChangePercent	-0.47782296
 fiftyTwoWeekLow	94.89
-fiftyTwoWeekLowChange	53.039993
-fiftyTwoWeekLowChangePercent	0.55896294
+fiftyTwoWeekLowChange	52.86
+fiftyTwoWeekLowChangePercent	0.5570661
 fiftyTwoWeekRange	94.89 - 282.95
 financialCurrency	USD
 firstTradeDateMilliseconds	1711027800000
 floatShares	135064210
 forwardEps	8.43163
-forwardPE	17.54465
+forwardPE	17.523302
 freeCashflow	446452992
 fullExchangeName	NYSE
 fullTimeEmployees	2555
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1775001600
-graham_intrinsic_value	155.62
+graham_intrinsic_value	155.03
 grossMargins	0.91182
 grossProfits	2008290048
 hasPrePostMarketData	True
 heldPercentInsiders	0.00798
-heldPercentInstitutions	0.97488
+heldPercentInstitutions	0.97479
 impliedSharesOutstanding	192435149
 industry	Internet Content & Information
 industryDisp	Internet Content & Information
@@ -95,31 +95,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Reddit, Inc. operates a digital community in the United States and internationally. The company's platform enables user to engage in conversations, explore passions, research new hobbies, exchange goods and services, create new communities and experiences, share laughs, and find belonging. It also organizes communities based on specific interests that enable users to engage in conversations by sharing experiences, submitting links, uploading images and videos, and replying to one another. Reddit, Inc. was founded in 2005 and is headquartered in San Francisco, California.
 longName	Reddit, Inc.
 market	us_market
-marketCap	28466929664
-marketState	POST
+marketCap	28432293888
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_29927936
 mostRecentQuarter	1767139200
 netIncomeToCommon	529720992
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	30830035220
+nonDilutedMarketCap	28466931591
 numberOfAnalystOpinions	31
-open	153.02
+open	146.0
 operatingCashflow	690875008
 operatingMargins	0.3195
 overallRisk	9
 payoutRatio	0.0
-pegRatio	1.25
+pegRatio	1.19
 phone	415 494 8016
-postMarketChange	0.43000793
-postMarketChangePercent	0.2906834
-postMarketPrice	148.36
-postMarketTime	1777418150
-previousClose	160.21
-priceEpsCurrentYear	22.37722
+postMarketChange	0.070007324
+postMarketChangePercent	0.047382284
+postMarketPrice	147.82
+postMarketTime	1777507152
+previousClose	147.93
+priceEpsCurrentYear	22.181921
 priceHint	2
-priceToBook	9.640902
-priceToSalesTrailing12Months	12.924791
+priceToBook	9.629171
+priceToSalesTrailing12Months	12.909065
 profitMargins	0.24051
 quickRatio	11.305
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +127,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.93548
 region	US
-regularMarketChange	-12.28
-regularMarketChangePercent	-7.66495
-regularMarketDayHigh	153.65
-regularMarketDayLow	146.55
-regularMarketDayRange	146.55 - 153.65
-regularMarketOpen	153.02
-regularMarketPreviousClose	160.21
-regularMarketPrice	147.93
-regularMarketTime	1777406506
-regularMarketVolume	5130054
+regularMarketChange	-0.179993
+regularMarketChangePercent	-0.121674
+regularMarketDayHigh	148.78
+regularMarketDayLow	143.09
+regularMarketDayRange	143.09 - 148.78
+regularMarketOpen	146.0
+regularMarketPreviousClose	147.93
+regularMarketPrice	147.75
+regularMarketTime	1777493087
+regularMarketVolume	3337403
 returnOnAssets	0.09909
 returnOnEquity	0.20938
 revenueGrowth	0.697
@@ -157,8 +157,8 @@ sourceInterval	15
 state	CA
 symbol	RDDT
 targetHighPrice	300.0
-targetLowPrice	125.0
-targetMeanPrice	223.82259
+targetLowPrice	110.0
+targetMeanPrice	223.33871
 targetMedianPrice	240.0
 totalCash	2476811008
 totalCashPerShare	12.965
@@ -167,14 +167,14 @@ totalRevenue	2202505984
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	2.63
-trailingPE	56.247143
-trailingPegRatio	1.2883
+trailingEps	2.62
+trailingPE	56.39313
+trailingPegRatio	1.1895
 triggerable	True
-twoHundredDayAverage	192.825
-twoHundredDayAverageChange	-44.895004
-twoHundredDayAverageChangePercent	-0.23282772
+twoHundredDayAverage	192.84355
+twoHundredDayAverageChange	-45.09355
+twoHundredDayAverageChangePercent	-0.23383489
 typeDisp	Equity
-volume	5130054
+volume	3337403
 website	https://redditinc.com
 zip	94107

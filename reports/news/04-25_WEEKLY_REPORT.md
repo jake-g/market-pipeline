@@ -13,12 +13,12 @@ The primary narrative arc this week was the explosive resurgence of **legacy sem
 - **The Inference Era:** Broadcom and Marvell continued to benefit from the "Inference Inflection," as demand for custom AI silicon and hardware-rich architecture outpaced supply, shifting the trade toward high-volume enabling components [9-11].
 
 ### Strategic Leadership Shifts and "The Cook Transition"
-Geopolitics and internal corporate strategy converged this week as **Apple (AAPL) CEO Tim Cook announced he would be stepping down** [12, 13]. 
+Geopolitics and internal corporate strategy converged this week as **Apple (AAPL) CEO Tim Cook announced he would be stepping down** [12, 13].
 - **Institutional Interpretation:** While initially a shock, the market interpreted the transition as an opportunity for Apple to pivot toward more aggressive AI compute build-outs under a new guard, aligning with the broader sector trend of strategic recalibration [11, 13].
 - **SaaS-Pocalypse Stabilization:** The "SaaS-Pocalypse" valuation reset, which had pressured high-multiple software firms throughout the quarter, began to stabilize as leaders who can successfully navigate "agentic" AI orchestration were separated from legacy laggards [13, 14].
 
 ### Geopolitical Brinksmanship and the "Hormuz Hope" Realization
-The market's resilience was tested early in the week by a failure in negotiations with Iran, leading to **threats of a blockaded Strait of Hormuz** [12, 15, 16]. 
+The market's resilience was tested early in the week by a failure in negotiations with Iran, leading to **threats of a blockaded Strait of Hormuz** [12, 15, 16].
 - **De-Risking Alpha:** By mid-week, sentiment shifted to "glass-half-full" as reports of an imminent peace deal surfaced, effectively erasing the $110/barrel "war premium" in crude oil and allowing capital to rotate back into domestic high-growth anchors [7, 17-19].
 - **Energy Stalwarts Stall:** As global supply chains appeared to stabilize, capital began pivoting away from defensive "hard asset" hedges like TotalEnergies and toward custom silicon architects and data center infrastructure [18, 20].
 

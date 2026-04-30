@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	157.29
 allTimeLow	17.04
-ask	154.31
+ask	154.53
 askSize	100
-averageDailyVolume10Day	1037050
-averageDailyVolume3Month	1635037
-averageVolume	1635037
-averageVolume10days	1037050
+averageDailyVolume10Day	1019810
+averageDailyVolume3Month	1606750
+averageVolume	1606750
+averageVolume10days	1019810
 beta3Year	0.77
-bid	154.28
-bidSize	200
+bid	154.52
+bidSize	500
 category	Large Value
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	155.15
-dayLow	154.07
+dayHigh	154.7
+dayLow	153.85
 dividendYield	2.37
 epsTrailingTwelveMonths	7.1932173
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	151.6266
-fiftyDayAverageChange	2.663391
-fiftyDayAverageChangePercent	0.01756546
-fiftyTwoWeekChangePercent	24.366497
+fiftyDayAverage	151.5924
+fiftyDayAverageChange	2.9075928
+fiftyDayAverageChangePercent	0.019180333
+fiftyTwoWeekChangePercent	24.636984
 fiftyTwoWeekHigh	157.29
-fiftyTwoWeekHighChange	-3.0
-fiftyTwoWeekHighChangePercent	-0.01907305
-fiftyTwoWeekLow	121.91
-fiftyTwoWeekLowChange	32.37999
-fiftyTwoWeekLowChangePercent	0.2656057
-fiftyTwoWeekRange	121.91 - 157.29
+fiftyTwoWeekHighChange	-2.7899933
+fiftyTwoWeekHighChangePercent	-0.017737895
+fiftyTwoWeekLow	123.54
+fiftyTwoWeekLowChange	30.96
+fiftyTwoWeekLowChangePercent	0.25060707
+fiftyTwoWeekRange	123.54 - 157.29
 firstTradeDateMilliseconds	1163687400000
-fiveYearAverageReturn	0.11657251
+fiveYearAverageReturn	0.1159513
 fullExchangeName	NYSEArca
 fundFamily	Vanguard
 fundInceptionDate	1163116800
@@ -49,47 +49,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the the Target Index, which consists of common stocks of companies that pay dividends that generally are higher than average (excluding real estate investment trusts (“REITs”)). Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the Target Index.
 longName	Vanguard High Dividend Yield Index Fund ETF Shares
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_30273256
-navPrice	154.57
+navPrice	154.29
 netAssets	88722817000.0
 netExpenseRatio	0.04
-open	154.8
-postMarketChange	-0.009994507
-postMarketChangePercent	-0.0064777415
-postMarketPrice	154.28
-postMarketTime	1777418097
-previousClose	154.6
+open	154.35
+postMarketChange	-0.30999756
+postMarketChangePercent	-0.20064567
+postMarketPrice	154.19
+postMarketTime	1777507173
+previousClose	154.29
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.310013
-regularMarketChangePercent	-0.200526
-regularMarketDayHigh	155.15
-regularMarketDayLow	154.07
-regularMarketDayRange	154.07 - 155.15
-regularMarketOpen	154.8
-regularMarketPreviousClose	154.6
-regularMarketPrice	154.29
-regularMarketTime	1777406400
-regularMarketVolume	1015301
+regularMarketChange	0.210007
+regularMarketChangePercent	0.136112
+regularMarketDayHigh	154.7
+regularMarketDayLow	153.85
+regularMarketDayRange	153.85 - 154.7
+regularMarketOpen	154.35
+regularMarketPreviousClose	154.29
+regularMarketPrice	154.5
+regularMarketTime	1777492800
+regularMarketVolume	828801
 shortName	Vanguard High Dividend Yield ET
 sourceInterval	15
 symbol	VYM
-threeYearAverageReturn	0.1672174
+threeYearAverageReturn	0.1630424
 totalAssets	88722817024
 tradeable	False
-trailingPE	21.449371
+trailingPE	21.478567
 trailingPegRatio	None
 trailingThreeMonthNavReturns	3.80436
 trailingThreeMonthReturns	3.80436
 triggerable	True
-twoHundredDayAverage	144.357
-twoHundredDayAverageChange	9.932999
-twoHundredDayAverageChangePercent	0.06880857
+twoHundredDayAverage	144.55125
+twoHundredDayAverageChange	9.948746
+twoHundredDayAverageChangePercent	0.06882504
 typeDisp	ETF
-volume	1015301
+volume	828801
 yield	0.023699999
 ytdReturn	3.80436
