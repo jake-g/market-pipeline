@@ -13,7 +13,7 @@ Despite the macro-driven dip, today’s action confirms a transition toward a **
 ### Institutional Re-rating and the "Berkshire Effect"
 A significant catalyst today is the revelation that **Berkshire Hathaway** has been reducing exposure across four major positions [7]. This deliberate reassessment of value and risk by a marquee institutional holder has introduced a "valuation ceiling" for several legacy core holdings [7]. Markets are interpreting this as a signal to rotate out of overcrowded "Magnificent Seven" trades and into specific hardware and industrial infrastructure plays like **Synopsys (SNPS)** and **KLA (KLAC)**, which both posted gains against the index retreat today [7-9].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 Near-term market direction will remain tethered to the 3-week ceasefire extension period [10]. Expect a continued **"Analog AI Pivot"** where capital flows into companies like Synopsys and KLA that provide the physical enablement for AI, as these names are proving more resilient to geopolitical shocks than speculative software [8, 9, 11]. If peace negotiations stall further, expect a sharp rotation back into energy hedges like **Devon Energy (DVN)** [12].
 
 ## Quantitative Market Action & Specific Equities

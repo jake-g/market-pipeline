@@ -13,7 +13,7 @@ A synchronized decline in chipmakers and AI-specific equities today directly mir
 ### Escalating Regulatory and Legal Headwinds for Hyperscalers
 Big Tech faces a new layer of systemic risk as California escalates its regulatory pressure via a litigation-driven child safety bill specifically targeting social media and recommendation algorithms [1]. This legislative move, combined with a Los Angeles jury recently finding major platforms negligent regarding product design, is contributing to the "valuation fatigue" observed in **Alphabet** and **Meta** [1, 5, 10]. Investors are increasingly wary that escalating legal costs and compliance mandates will compress margins just as companies are being asked to justify record R&D spending on AI models [1, 2].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 We anticipate a period of **near-term technical consolidation** as major indices pull back from recent all-time highs [6, 9]. Alpha in the coming weeks will reside strictly with entities that can demonstrate **tangible inference efficiency** and clear paths to software monetization [9]. Should the current Middle East ceasefire fracture further, expect a **5–10% técnico correction** in the Nasdaq, triggering a violent re-entry into energy (XLE) and hard-asset "HALO" stocks [9, 11].
 
 ## Quantitative Market Action & Specific Equities
