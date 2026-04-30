@@ -1146,11 +1146,10 @@ def plot_winners_losers(df: pd.DataFrame, out_path: str):
   plt.axvline(0, color='black', linewidth=1)
 
   for index, (_, row) in enumerate(plot_df.iterrows()):
-    val = row['Unrealized_PnL_Pct'] * 100
-    offset = abs(plot_df['Unrealized_PnL_Pct'].max() * 100) * 0.05
+    val = row['Unrealized_PnL_Pct']
+    offset = abs(plot_df['Unrealized_PnL_Pct'].max()) * 0.05
     align = 'left' if val > 0 else 'right'
-    x_pos = (val / 100) + (offset / 100) if val > 0 else (val / 100) - (offset /
-                                                                        100)
+    x_pos = val + offset if val > 0 else val - offset
     plt.text(x_pos, index, f"{val:+.1f}%", va='center', ha=align, fontsize=10)
 
   plt.savefig(out_path, bbox_inches='tight', dpi=300)
