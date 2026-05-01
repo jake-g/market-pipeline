@@ -47,10 +47,10 @@ This report documents the file structures and column data types used in `market_
 |---|---|---|
 | Date | str | 2026-04-30 |
 | Source | str | Google |
-| Sentiment | float64 | 0.539 |
-| Headline | str | ASTS, RKLB, FLY, LUNR Rise Overnight: Amazon Va... |
-| Summary | str | Futures fell as Amazon, Microsoft and Meta slum... |
-| URL | str | https://news.google.com/rss/articles/CBMitwFBVV... |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Amazon admits agentic AI is not the best - Supe... |
+| Summary | str | Google stock rose as parent Alphabet’s Q1 earni... |
+| URL | str | https://news.google.com/rss/articles/CBMilgFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -82,12 +82,12 @@ This report documents the file structures and column data types used in `market_
 | MFG_CONST | float64 | 196166.0 |
 | TECH_PULSE | float64 | 89.8561 |
 | CHINA_IMPORTS | float64 | 18955.648 |
-| TARIFFS | float64 | 364.324 |
-| GDP | float64 | 31422.526 |
+| TARIFFS | float64 | 346.15 |
+| GDP | float64 | 31856.257 |
 | UNRATE | float64 | 4.3 |
-| HOUSING_STARTS | float64 | 1487.0 |
+| HOUSING_STARTS | float64 | 1502.0 |
 | RECESSION_PROB | float64 | 0.48 |
 | CPI | float64 | 330.293 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.78 |
-| US10Y | float64 | 4.35 |
+| US02Y | float64 | 3.92 |
+| US10Y | float64 | 4.42 |
