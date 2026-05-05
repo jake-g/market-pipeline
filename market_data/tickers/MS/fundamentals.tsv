@@ -1,41 +1,41 @@
 Metric	Value
-52WeekChange	0.60226107
-SandP52WeekChange	0.27333546
+52WeekChange	0.5900502
+SandP52WeekChange	0.2795812
 address1	1585 Broadway
 allTimeHigh	194.59
 allTimeLow	6.71
-ask	187.33
-askSize	200
-auditRisk	5
+ask	0.0
+askSize	100
+auditRisk	6
 averageAnalystRating	2.3 - Buy
-averageDailyVolume10Day	5225570
-averageDailyVolume3Month	7170350
-averageVolume	7170350
-averageVolume10days	5225570
-beta	1.182
-bid	187.29
-bidSize	100
+averageDailyVolume10Day	4668310
+averageDailyVolume3Month	7094210
+averageVolume	7094210
+averageVolume10days	4668310
+beta	1.207
+bid	188.2
+bidSize	300
 boardRisk	6
 bookValue	64.367
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Edward N. Pick', 'age': 56, 'title': 'CEO & Chairman of the Board', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 12690324, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel Aaron Simkowitz', 'age': 59, 'title': 'Co-President', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 12201500, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Andrew Michael Saperstein', 'age': 58, 'title': 'Co-President', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 12297226, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sharon  Yeshaya', 'age': 45, 'title': 'Executive VP & CFO', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 8924403, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eric F. Grossman', 'age': 58, 'title': 'Executive VP and Chief Legal & Administrative Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 8981786, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael A. Pizzi', 'age': 50, 'title': 'Executive VP & Global Head of Technology and Operations', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael John Wilson', 'title': 'Chief U.S. Equity Strategist & Chief Investment Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Victoria  Worster', 'title': 'Chief Accounting Officer & Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Robyn Maslynsky Goldschmid', 'title': 'Managing Director', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Clint G. Gartin', 'title': 'Chairman of Investment Banking', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
-compensationRisk	8
-corporateActions	[{'header': 'Dividend', 'message': 'MS announced a cash dividend of $1.00 with an ex-date of Apr. 30, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1777521600000, 'amount': '1.00'}}]
+compensationRisk	5
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	187.08
+currentPrice	188.01
 currentRatio	2.053
 customPriceAlertConfidence	HIGH
 dateShortInterest	1776211200
-dayHigh	190.505
-dayLow	185.49
+dayHigh	190.35
+dayLow	187.12
 debtToEquity	455.747
-discount_to_intrinsic_value	70.9
+discount_to_intrinsic_value	70.98
 dividendDate	1778803200
 dividendRate	4.0
-dividendYield	2.14
+dividendYield	2.1
 earningsCallTimestampEnd	1784145600
 earningsCallTimestampStart	1784145600
 earningsGrowth	0.319
@@ -44,11 +44,11 @@ earningsTimestamp	1784118600
 earningsTimestampEnd	1784118600
 earningsTimestampStart	1784118600
 ebitdaMargins	0.0
-enterpriseToRevenue	2.998
-enterpriseValue	219373404160
-epsCurrentYear	11.81897
-epsForward	12.65967
-epsTrailingTwelveMonths	11.04
+enterpriseToRevenue	3.065
+enterpriseValue	224255606784
+epsCurrentYear	11.80947
+epsForward	12.65756
+epsTrailingTwelveMonths	11.05
 eps_normalized_growth	0.37554475239141394
 esgPopulated	False
 exDividendDate	1777507200
@@ -57,33 +57,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	171.4734
-fiftyDayAverageChange	15.606598
-fiftyDayAverageChangePercent	0.09101468
-fiftyTwoWeekChangePercent	60.226105
+fiftyDayAverage	172.0694
+fiftyDayAverageChange	15.940598
+fiftyDayAverageChangePercent	0.09264051
+fiftyTwoWeekChangePercent	59.00502
 fiftyTwoWeekHigh	194.59
-fiftyTwoWeekHighChange	-7.5099945
-fiftyTwoWeekHighChangePercent	-0.03859394
-fiftyTwoWeekLow	114.67
-fiftyTwoWeekLowChange	72.41
-fiftyTwoWeekLowChangePercent	0.63146424
-fiftyTwoWeekRange	114.67 - 194.59
+fiftyTwoWeekHighChange	-6.580002
+fiftyTwoWeekHighChangePercent	-0.0338147
+fiftyTwoWeekLow	117.21
+fiftyTwoWeekLowChange	70.799995
+fiftyTwoWeekLowChangePercent	0.60404396
+fiftyTwoWeekRange	117.21 - 194.59
 financialCurrency	USD
 firstTradeDateMilliseconds	730477800000
-fiveYearAvgDividendYield	2.97
+fiveYearAvgDividendYield	2.98
 floatShares	1199046200
-forwardEps	12.65967
-forwardPE	14.777637
+forwardEps	12.65756
+forwardPE	14.853573
 fullExchangeName	NYSE
 fullTimeEmployees	83922
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1775001600
-graham_intrinsic_value	642.92
+governanceEpochDate	1777593600
+graham_intrinsic_value	647.9
 grossMargins	0.87388
 grossProfits	63944998912
 hasPrePostMarketData	True
 heldPercentInsiders	0.24266
-heldPercentInstitutions	0.62952
+heldPercentInstitutions	0.62968
 impliedSharesOutstanding	1587860206
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -91,7 +91,7 @@ industryKey	capital-markets
 irWebsite	http://www.morganstanley.com/about/ir/index.html
 isEarningsDateEstimate	False
 language	en-US
-lastDividendDate	1769731200
+lastDividendDate	1777507200
 lastDividendValue	1.0
 lastFiscalYearEnd	1767139200
 lastSplitDate	948931200
@@ -99,48 +99,48 @@ lastSplitFactor	2:1
 longBusinessSummary	Morgan Stanley, a financial holding company, provides various financial products and services to corporations, governments, financial institutions, and individuals in the Americas, Asia, Europe, the Middle East, and Africa. It operates through Institutional Securities, Wealth Management, and Investment Management segments. The company offers capital raising and financial advisory services, including services related to the underwriting of debt, equity securities, and other products, as well as advice on mergers and acquisitions, restructurings, and project finance. It also provides equity and fixed income products comprising sales, financing, prime brokerage, and market-making services; Asia wealth management; business-related investments services; originating corporate and commercial real estate loans, secured lending facilities, and extending securities-based and other financing; and research activities. In addition, the company offers financial advisor-led brokerage, investment advisory, custody, cash management, and administrative services; self-directed brokerage services; financial and wealth planning services; stock plan administration; securities-based lending, residential real estate loans, and other lending products; banking; and retirement plan services. Further, it provides equity, fixed income, alternatives and solutions, and liquidity and overlay services to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors, corporations, and individuals. Morgan Stanley was founded in 1924 and is headquartered in New York, New York.
 longName	Morgan Stanley
 market	us_market
-marketCap	297056894976
-marketState	POSTPOST
+marketCap	298533584896
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_472898
 mostRecentQuarter	1774915200
 netIncomeToCommon	17503000576
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	300768800000
+nonDilutedMarketCap	300468600000
 numberOfAnalystOpinions	21
-open	190.01
+open	189.93
 operatingCashflow	-17888999424
 operatingMargins	0.40616
-overallRisk	7
+overallRisk	6
 payoutRatio	0.35549998
 pegRatio	2.29
 phone	212 761 4000
-postMarketChange	-0.7799988
-postMarketChangePercent	-0.41693327
-postMarketPrice	186.3
-postMarketTime	1777507195
-previousClose	190.36
-priceEpsCurrentYear	15.828791
+postMarketChange	-0.73599243
+postMarketChangePercent	-0.39146453
+postMarketPrice	187.274
+postMarketTime	1777933791
+previousClose	190.17
+priceEpsCurrentYear	15.920274
 priceHint	2
-priceToBook	2.9064584
-priceToSalesTrailing12Months	4.059596
+priceToBook	2.9209068
+priceToSalesTrailing12Months	4.079777
 profitMargins	0.24753
 quickRatio	1.673
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.32
 region	US
-regularMarketChange	-3.28
-regularMarketChangePercent	-1.72305
-regularMarketDayHigh	190.505
-regularMarketDayLow	185.49
-regularMarketDayRange	185.49 - 190.505
-regularMarketOpen	190.01
-regularMarketPreviousClose	190.36
-regularMarketPrice	187.08
-regularMarketTime	1777492887
-regularMarketVolume	5100734
+regularMarketChange	-2.16
+regularMarketChangePercent	-1.13583
+regularMarketDayHigh	190.35
+regularMarketDayLow	187.12
+regularMarketDayRange	187.12 - 190.35
+regularMarketOpen	189.93
+regularMarketPreviousClose	190.17
+regularMarketPrice	188.01
+regularMarketTime	1777924845
+regularMarketVolume	3049346
 returnOnAssets	0.012920001
 returnOnEquity	0.15614
 revenueGrowth	0.163
@@ -148,7 +148,7 @@ revenuePerShare	46.66
 sector	Financial Services
 sectorDisp	Financial Services
 sectorKey	financial-services
-shareHolderRightsRisk	6
+shareHolderRightsRisk	7
 sharesOutstanding	1580000000
 sharesPercentSharesOut	0.0
 sharesShort	15814
@@ -170,15 +170,15 @@ totalDebt	513408008192
 totalRevenue	73173999616
 tradeable	False
 trailingAnnualDividendRate	4.0
-trailingAnnualDividendYield	0.021012818
-trailingEps	11.04
-trailingPE	16.945652
-trailingPegRatio	2.2886
+trailingAnnualDividendYield	0.021033812
+trailingEps	11.05
+trailingPE	17.014479
+trailingPegRatio	2.2863
 triggerable	True
-twoHundredDayAverage	165.2454
-twoHundredDayAverageChange	21.834595
-twoHundredDayAverageChangePercent	0.13213435
+twoHundredDayAverage	165.7423
+twoHundredDayAverageChange	22.2677
+twoHundredDayAverageChangePercent	0.13435134
 typeDisp	Equity
-volume	5100734
+volume	3049346
 website	https://www.morganstanley.com
 zip	10036

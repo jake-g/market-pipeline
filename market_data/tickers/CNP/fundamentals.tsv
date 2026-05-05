@@ -1,42 +1,42 @@
 Metric	Value
-52WeekChange	0.10932648
-SandP52WeekChange	0.27333546
+52WeekChange	0.114969134
+SandP52WeekChange	0.2795812
 address1	1111 Louisiana Street
 allTimeHigh	44.47
 allTimeLow	3.57432
-ask	43.17
-askSize	400
+ask	0.0
+askSize	200
 auditRisk	3
 averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	5382400
-averageDailyVolume3Month	5344606
-averageVolume	5344606
-averageVolume10days	5382400
-beta	0.532
-bid	42.37
-bidSize	400
-boardRisk	4
+averageDailyVolume10Day	5512140
+averageDailyVolume3Month	5347756
+averageVolume	5347756
+averageVolume10days	5512140
+beta	0.476
+bid	0.0
+bidSize	1200
+boardRisk	5
 bookValue	17.502
 city	Houston
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Christopher A. Foster', 'age': 45, 'title': 'Executive VP & CFO', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1875620, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jesus  Soto Jr.', 'age': 57, 'title': 'Executive VP & COO', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1244292, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Monica  Karuturi', 'age': 46, 'title': 'Executive VP & General Counsel', 'yearBorn': 1979, 'fiscalYear': 2025, 'totalPay': 1989660, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason Michael Ryan', 'age': 49, 'title': 'Executive Vice President of Regulatory Services & Government Affairs', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 1441395, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Russell Keith Wright', 'age': 40, 'title': 'Chief Accounting Officer & VP', 'yearBorn': 1985, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Jason P. Wells CPA', 'age': 47, 'title': 'President, CEO & Chairman', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 4467318, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher A. Foster', 'age': 45, 'title': 'Executive VP & CFO', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1875620, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jesus  Soto Jr.', 'age': 57, 'title': 'Executive VP & COO', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1244292, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Monica  Karuturi', 'age': 46, 'title': 'Executive VP & General Counsel', 'yearBorn': 1979, 'fiscalYear': 2025, 'totalPay': 1989660, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason Michael Ryan', 'age': 49, 'title': 'Executive Vice President of Regulatory Services & Government Affairs', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 1441395, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Russell Keith Wright', 'age': 40, 'title': 'Chief Accounting Officer & VP', 'yearBorn': 1985, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ben  Vallejo', 'title': 'Vice President of Investor Relations & Corporate Planning', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Carol R. Helliker', 'age': 64, 'title': 'Chief Ethics & Compliance Officer, Senior VP & Deputy General Counsel', 'yearBorn': 1961, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Keith F. Stephens', 'title': 'Senior VP & Chief Communications Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Bertha  Villatoro', 'title': 'Senior VP & Chief Human Resources Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	5
-corporateActions	[{'header': 'Dividend', 'message': 'CNP announced a cash dividend of $0.23 with an ex-date of May. 21, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1779336000000, 'amount': '0.23'}}]
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	42.82
+currentPrice	43.32
 currentRatio	1.165
 customPriceAlertConfidence	HIGH
 dateShortInterest	1776211200
-dayHigh	43.295
-dayLow	42.755
+dayHigh	43.595
+dayLow	42.84
 debtToEquity	215.591
-discount_to_intrinsic_value	54.89
+discount_to_intrinsic_value	54.67
 displayName	CenterPoint Energy
 dividendDate	1781136000
 dividendRate	0.92
-dividendYield	2.15
+dividendYield	2.12
 earningsCallTimestampEnd	1776945600
 earningsCallTimestampStart	1776945600
 earningsGrowth	0.067
@@ -46,9 +46,9 @@ earningsTimestampEnd	1784809800
 earningsTimestampStart	1784809800
 ebitda	3664000000
 ebitdaMargins	0.38929
-enterpriseToEbitda	14.056
-enterpriseToRevenue	5.472
-enterpriseValue	51500535808
+enterpriseToEbitda	14.15
+enterpriseToRevenue	5.509
+enterpriseValue	51847245824
 epsCurrentYear	1.90897
 epsForward	2.08251
 epsTrailingTwelveMonths	1.63
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	43.0364
-fiftyDayAverageChange	-0.21640015
-fiftyDayAverageChangePercent	-0.005028305
-fiftyTwoWeekChangePercent	10.932648
+fiftyDayAverage	43.085
+fiftyDayAverageChange	0.23500061
+fiftyDayAverageChangePercent	0.005454349
+fiftyTwoWeekChangePercent	11.496914
 fiftyTwoWeekHigh	44.47
-fiftyTwoWeekHighChange	-1.6500015
-fiftyTwoWeekHighChangePercent	-0.037103698
+fiftyTwoWeekHighChange	-1.1500015
+fiftyTwoWeekHighChangePercent	-0.025860164
 fiftyTwoWeekLow	35.46
-fiftyTwoWeekLowChange	7.3600006
-fiftyTwoWeekLowChangePercent	0.20755783
+fiftyTwoWeekLowChange	7.8600006
+fiftyTwoWeekLowChangePercent	0.22165823
 fiftyTwoWeekRange	35.46 - 44.47
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
-fiveYearAvgDividendYield	2.44
+fiveYearAvgDividendYield	2.43
 floatShares	650126713
 forwardEps	2.08251
-forwardPE	20.561726
+forwardPE	20.80182
 freeCashflow	-4945375232
 fullExchangeName	NYSE
 fullTimeEmployees	8794
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1775001600
-graham_intrinsic_value	94.92
+governanceEpochDate	1777593600
+graham_intrinsic_value	95.57
 grossMargins	0.4592
 grossProfits	4321999872
 hasPrePostMarketData	True
 heldPercentInsiders	0.0023100001
-heldPercentInstitutions	1.01713
+heldPercentInstitutions	1.01643
 impliedSharesOutstanding	654169480
 industry	Utilities - Regulated Electric
 industryDisp	Utilities - Regulated Electric
@@ -103,48 +103,48 @@ lastSplitFactor	1000:843
 longBusinessSummary	CenterPoint Energy, Inc. operates as a public utility holding company in the United States. The company operates through Electric; Natural Gas; and Corporate and Other segments. The Electric segment provides electric transmission and distribution services to electric customers and electric generation assets, as well as optimizes assets in the wholesale power market in Indiana Electric's service territory. The Natural Gas segment engages in the intrastate natural gas sales, and natural gas transportation and distribution for residential, commercial, and industrial customers in Indiana, Minnesota, Ohio, and Texas; permanent pipeline connections through interconnects with various interstate and intrastate pipeline companies; and provides home appliance maintenance and repair services to customers in Minnesota and home repair protection plans to natural gas customers in Indiana, Mississippi, Ohio, and Texas through a third party. As of December 31, 2025, it served approximately 2,859,313 metered customers; owned 355 substations with transformer capacity of 81,692 megavolt amperes; and owned and operated approximately 208 miles of intrastate pipeline in Louisiana and Texas. The company was founded in 1866 and is headquartered in Houston, Texas.
 longName	CenterPoint Energy, Inc.
 market	us_market
-marketCap	28011536384
-marketState	POSTPOST
+marketCap	28338620416
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_279513
 mostRecentQuarter	1774915200
 netIncomeToCommon	1071000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	28214329672
+nonDilutedMarketCap	28358246958
 numberOfAnalystOpinions	16
-open	42.99
+open	43.09
 operatingCashflow	2358000128
 operatingMargins	0.21982999
-overallRisk	6
+overallRisk	7
 payoutRatio	0.546
-pegRatio	2.5
+pegRatio	2.52
 phone	713 207 1111
-postMarketChange	-0.52000046
-postMarketChangePercent	-1.2143868
-postMarketPrice	42.3
-postMarketTime	1777507200
-previousClose	43.13
-priceEpsCurrentYear	22.430944
+postMarketChange	0.22000122
+postMarketChangePercent	0.50785136
+postMarketPrice	43.54
+postMarketTime	1777932081
+previousClose	43.35
+priceEpsCurrentYear	22.692865
 priceHint	2
-priceToBook	2.4465773
-priceToSalesTrailing12Months	2.9761515
+priceToBook	2.4751456
+priceToSalesTrailing12Months	3.0109031
 profitMargins	0.11379
 quickRatio	0.471
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.11765
 region	US
-regularMarketChange	-0.310001
-regularMarketChangePercent	-0.71876
-regularMarketDayHigh	43.295
-regularMarketDayLow	42.755
-regularMarketDayRange	42.755 - 43.295
-regularMarketOpen	42.99
-regularMarketPreviousClose	43.13
-regularMarketPrice	42.82
-regularMarketTime	1777492802
-regularMarketVolume	4246471
+regularMarketChange	-0.0299988
+regularMarketChangePercent	-0.0692013
+regularMarketDayHigh	43.595
+regularMarketDayLow	42.84
+regularMarketDayRange	42.84 - 43.595
+regularMarketOpen	43.09
+regularMarketPreviousClose	43.35
+regularMarketPrice	43.32
+regularMarketTime	1777924802
+regularMarketVolume	2671616
 returnOnAssets	0.02843
 returnOnEquity	0.09561
 revenueGrowth	0.019
@@ -174,15 +174,15 @@ totalDebt	24682999808
 totalRevenue	9411999744
 tradeable	False
 trailingAnnualDividendRate	0.89
-trailingAnnualDividendYield	0.020635288
+trailingAnnualDividendYield	0.020530565
 trailingEps	1.63
-trailingPE	26.26994
-trailingPegRatio	2.5045
+trailingPE	26.576687
+trailingPegRatio	2.5172
 triggerable	True
-twoHundredDayAverage	39.83245
-twoHundredDayAverageChange	2.9875488
-twoHundredDayAverageChangePercent	0.07500289
+twoHundredDayAverage	39.9068
+twoHundredDayAverageChange	3.4132004
+twoHundredDayAverageChangePercent	0.0855293
 typeDisp	Equity
-volume	4246471
+volume	2671616
 website	https://www.centerpointenergy.com
 zip	77002
