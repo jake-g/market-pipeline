@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	57.08
 allTimeLow	9.77
-ask	56.46
-askSize	1400
-averageDailyVolume10Day	1558140
-averageDailyVolume3Month	1679885
-averageVolume	1679885
-averageVolume10days	1558140
+ask	57.62
+askSize	6400
+averageDailyVolume10Day	1673350
+averageDailyVolume3Month	1683815
+averageVolume	1683815
+averageVolume10days	1673350
 beta3Year	1.45
-bid	55.9
+bid	57.22
 bidSize	200
 category	Infrastructure
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	56.875
-dayLow	55.94
+dayHigh	57.62
+dayLow	56.66
 dividendYield	0.86
 epsTrailingTwelveMonths	1.8449111
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	53.2256
-fiftyDayAverageChange	2.9643974
-fiftyDayAverageChangePercent	0.055694953
-fiftyTwoWeekChangePercent	43.2289
-fiftyTwoWeekHigh	57.08
-fiftyTwoWeekHighChange	-0.8900032
-fiftyTwoWeekHighChangePercent	-0.015592207
+fiftyDayAverage	53.2366
+fiftyDayAverageChange	4.1334
+fiftyDayAverageChangePercent	0.077642076
+fiftyTwoWeekChangePercent	43.34184
+fiftyTwoWeekHigh	57.62
+fiftyTwoWeekHighChange	-0.25
+fiftyTwoWeekHighChangePercent	-0.0043387716
 fiftyTwoWeekLow	39.09
-fiftyTwoWeekLowChange	17.099998
-fiftyTwoWeekLowChangePercent	0.437452
-fiftyTwoWeekRange	39.09 - 57.08
+fiftyTwoWeekLowChange	18.279999
+fiftyTwoWeekLowChangePercent	0.46763876
+fiftyTwoWeekRange	39.09 - 57.62
 firstTradeDateMilliseconds	1488983400000
-fiveYearAverageReturn	0.1787418
+fiveYearAverageReturn	0.1707302
 fullExchangeName	Cboe US
 fundFamily	Global X Funds
 fundInceptionDate	1488758400
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index. The underlying index is designed to measure the performance of U.S. listed companies that provide exposure to domestic infrastructure development, including companies involved in construction and engineering; production of infrastructure raw materials, composites and products; industrial transportation; and producers/distributors of heavy construction equipment.
 longName	Global X U.S. Infrastructure Development ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_415556335
-navPrice	56.68
+navPrice	56.16
 netAssets	11634412500.0
 netExpenseRatio	0.47
-open	56.6
+open	56.855
 phone	+1 8884938631
-postMarketChange	0.21300125
-postMarketChangePercent	0.37907323
-postMarketPrice	56.403
-postMarketTime	1777933501
-previousClose	56.69
+postMarketChange	0.08230209
+postMarketChangePercent	0.14345843
+postMarketPrice	57.4523
+postMarketTime	1778023801
+previousClose	56.19
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.5
-regularMarketChangePercent	-0.88199
-regularMarketDayHigh	56.875
-regularMarketDayLow	55.94
-regularMarketDayRange	55.94 - 56.875
-regularMarketOpen	56.6
-regularMarketPreviousClose	56.69
-regularMarketPrice	56.19
-regularMarketTime	1777924800
-regularMarketVolume	1986770
+regularMarketChange	1.18
+regularMarketChangePercent	2.10002
+regularMarketDayHigh	57.62
+regularMarketDayLow	56.66
+regularMarketDayRange	56.66 - 57.62
+regularMarketOpen	56.855
+regularMarketPreviousClose	56.19
+regularMarketPrice	57.37
+regularMarketTime	1778011200
+regularMarketVolume	3169679
 shortName	Global X U.S. Infrastructure De
 sourceInterval	15
 symbol	PAVE
-threeYearAverageReturn	0.27803078
+threeYearAverageReturn	0.2810668
 totalAssets	11634412544
 tradeable	False
-trailingPE	30.45675
+trailingPE	31.096348
 trailingPegRatio	None
 trailingThreeMonthNavReturns	6.36383
 trailingThreeMonthReturns	6.36383
 triggerable	True
-twoHundredDayAverage	49.509174
-twoHundredDayAverageChange	6.6808243
-twoHundredDayAverageChangePercent	0.13494113
+twoHundredDayAverage	49.563225
+twoHundredDayAverageChange	7.806774
+twoHundredDayAverageChangePercent	0.15751143
 typeDisp	ETF
-volume	1986770
+volume	3169679
 yield	0.0086
 ytdReturn	6.36383

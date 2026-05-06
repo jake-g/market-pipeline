@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.4395492 |
+| Value | str | 0.470461 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-04 |
-| Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | Amazon to ship stuff for any business, not just... |
-| Summary | str | The tech giant launched a supply chain services... |
-| URL | str | https://news.google.com/rss/articles/CBMimwFBVV... |
+| Date | str | 2026-05-06 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.8 |
+| Headline | str | The Smartest Stocks to Buy With $1,000 in May |
+| Summary | str | Amazon and Apple are two great stocks to buy th... |
+| URL | str | https://www.fool.com/investing/2026/05/06/the-s... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	3.9146523
-SandP52WeekChange	0.2795812
+52WeekChange	3.80341
+SandP52WeekChange	0.2842635
 address1	2200 Mission College Boulevard
 allTimeHigh	100.45
 allTimeLow	0.216146
-ask	95.96
-askSize	21
+ask	110.0
+askSize	4
 auditRisk	8
 averageAnalystRating	2.6 - Hold
-averageDailyVolume10Day	159475670
-averageDailyVolume3Month	104736005
-averageVolume	104736005
-averageVolume10days	159475670
+averageDailyVolume10Day	161793550
+averageDailyVolume3Month	104831373
+averageVolume	104831373
+averageVolume10days	161793550
 beta	2.19
-bid	92.33
+bid	103.45
 bidSize	1
 boardRisk	4
 bookValue	22.884
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	95.78
+currentPrice	108.15
 currentRatio	2.312
 customPriceAlertConfidence	HIGH
 dateShortInterest	1776211200
-dayHigh	99.82
-dayLow	95.6
+dayHigh	110.48
+dayLow	100.08
 debtToEquity	36.028
 displayName	Intel
 dividendDate	1725148800
@@ -41,10 +41,10 @@ earningsTimestampEnd	1784836800
 earningsTimestampStart	1784836800
 ebitda	14174000128
 ebitdaMargins	0.26364002
-enterpriseToEbitda	37.147
-enterpriseToRevenue	9.793
-enterpriseValue	526527135744
-epsCurrentYear	1.08228
+enterpriseToEbitda	35.786
+enterpriseToRevenue	9.435
+enterpriseValue	507227275264
+epsCurrentYear	1.08123
 epsForward	1.49155
 epsTrailingTwelveMonths	-0.6
 esgPopulated	False
@@ -54,23 +54,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	55.6082
-fiftyDayAverageChange	40.1718
-fiftyDayAverageChangePercent	0.7224078
-fiftyTwoWeekChangePercent	391.46524
-fiftyTwoWeekHigh	100.45
-fiftyTwoWeekHighChange	-4.669998
-fiftyTwoWeekHighChangePercent	-0.046490774
+fiftyDayAverage	56.6416
+fiftyDayAverageChange	51.5084
+fiftyDayAverageChangePercent	0.909374
+fiftyTwoWeekChangePercent	380.341
+fiftyTwoWeekHigh	110.48
+fiftyTwoWeekHighChange	-2.3300018
+fiftyTwoWeekHighChangePercent	-0.021089805
 fiftyTwoWeekLow	18.97
-fiftyTwoWeekLowChange	76.81
-fiftyTwoWeekLowChangePercent	4.0490246
-fiftyTwoWeekRange	18.97 - 100.45
+fiftyTwoWeekLowChange	89.18
+fiftyTwoWeekLowChangePercent	4.701107
+fiftyTwoWeekRange	18.97 - 110.48
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	2.69
 floatShares	5016852680
 forwardEps	1.49155
-forwardPE	64.21508
+forwardPE	72.50847
 freeCashflow	-8301250048
 fullExchangeName	NasdaqGS
 fullTimeEmployees	85100
@@ -80,7 +80,7 @@ grossMargins	0.372
 grossProfits	20000000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.12954001
-heldPercentInstitutions	0.61837
+heldPercentInstitutions	0.61874
 impliedSharesOutstanding	5026000000
 industry	Semiconductors
 industryDisp	Semiconductors
@@ -96,31 +96,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group products, including client and commercial CPUs, discrete client GPUs, edge computing, and connectivity products; data center and AI products, such as server CPUs, discrete GPUs, and networking products; and semiconductors comprising wafer fabrication, substrates, and other related products and services. It also provides driving assistance and self-driving solutions; and develops and manufactures multi-beam mask writing tools. The company sells its products through sales organizations, distributors, resellers, retailers, and OEM partners. It serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. Intel Corporation has a strategic collaboration with Infosys Limited to develop a multi-layer AI fabric that unifies infrastructure, models, data, applications, and workflows into a composable and agent-ready ecosystem. The company was incorporated in 1968 and is headquartered in Santa Clara, California.
 longName	Intel Corporation
 market	us_market
-marketCap	481390264320
-marketState	POST
+marketCap	543561908224
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_21127
 mostRecentQuarter	1774656000
 netIncomeToCommon	-3174000128
 nextFiscalYearEnd	1798329600
-nonDilutedMarketCap	500690120000
+nonDilutedMarketCap	481390280000
 numberOfAnalystOpinions	42
-open	99.17
+open	100.505
 operatingCashflow	9980000256
 operatingMargins	0.06879
 overallRisk	6
 payoutRatio	0.0
 pegRatio	1.36
 phone	408 765 8080
-postMarketChange	0.45999908
-postMarketChangePercent	0.48026633
-postMarketPrice	96.24
-postMarketTime	1777934008
-previousClose	99.61
-priceEpsCurrentYear	88.49835
+postMarketChange	5.199997
+postMarketChangePercent	4.808134
+postMarketPrice	113.35
+postMarketTime	1778025599
+previousClose	95.78
+priceEpsCurrentYear	100.02497
 priceHint	2
-priceToBook	4.1854568
-priceToSalesTrailing12Months	8.953933
+priceToBook	4.7260094
+priceToSalesTrailing12Months	10.110334
 profitMargins	-0.05904
 quickRatio	1.657
 quoteSourceName	Nasdaq Real Time Price
@@ -128,16 +128,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.64583
 region	US
-regularMarketChange	-3.8300018
-regularMarketChangePercent	-3.8449974
-regularMarketDayHigh	99.82
-regularMarketDayLow	95.6
-regularMarketDayRange	95.6 - 99.82
-regularMarketOpen	99.17
-regularMarketPreviousClose	99.61
-regularMarketPrice	95.78
-regularMarketTime	1777924801
-regularMarketVolume	118485863
+regularMarketChange	12.370003
+regularMarketChangePercent	12.915017
+regularMarketDayHigh	110.48
+regularMarketDayLow	100.08
+regularMarketDayRange	100.08 - 110.48
+regularMarketOpen	100.505
+regularMarketPreviousClose	95.78
+regularMarketPrice	108.15
+regularMarketTime	1778011203
+regularMarketVolume	189332662
 returnOnAssets	0.0063099996
 returnOnEquity	-0.02911
 revenueGrowth	0.072
@@ -171,10 +171,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.6
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	40.1589
-twoHundredDayAverageChange	55.621098
-twoHundredDayAverageChangePercent	1.3850254
+twoHundredDayAverage	40.5238
+twoHundredDayAverageChange	67.626205
+twoHundredDayAverageChangePercent	1.6688021
 typeDisp	Equity
-volume	118485863
+volume	189332662
 website	https://www.intel.com
 zip	95054-1549

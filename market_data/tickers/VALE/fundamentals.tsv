@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.73791623
-SandP52WeekChange	0.2795812
+52WeekChange	0.70139635
+SandP52WeekChange	0.2842635
 address1	Praia de Botafogo, 186
 address2	Rooms 1801 to 2001
 allTimeHigh	44.15
 allTimeLow	1.804167
-ask	15.93
-askSize	16200
+ask	15.92
+askSize	15000
 averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	21870240
-averageDailyVolume3Month	31401645
-averageVolume	31401645
-averageVolume10days	21870240
+averageDailyVolume10Day	22061260
+averageDailyVolume3Month	30833320
+averageVolume	30833320
+averageVolume10days	22061260
 beta	0.753
-bid	0.0
-bidSize	18700
+bid	15.9
+bidSize	28800
 bookValue	8.63031
 city	Rio De Janeiro
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Gustavo Duarte Pimenta', 'age': 47, 'title': 'Chief Executive Officer', 'yearBorn': 1978, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Marcelo Feriozzi Bacci', 'age': 55, 'title': 'Executive Vice President of Finance & Investor Relations', 'yearBorn': 1970, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Carlos Henrique Senna Medeiros', 'age': 62, 'title': 'Executive Vice President of Operations', 'yearBorn': 1963, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rafael Jabur Bittar', 'age': 45, 'title': 'Executive Vice President of Technical', 'yearBorn': 1980, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Thiago Kiill Lofiego C.F.A.', 'title': 'Director & Head of Investor Relations', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Denis Celso Marques Cuenca', 'title': 'Chief Compliance Officer', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sami Arap Sobrinho', 'title': 'Chief Legal Officer', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Samanta  Pillar', 'title': 'Executive Vice President of People', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rogério Tavares Nogueira', 'title': 'Executive Vice President of Commercial & Development', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Grazielle Tallia Parenti', 'age': 54, 'title': 'Executive Vice President of Sustainability', 'yearBorn': 1971, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,18 +22,18 @@ corporateActions	[]
 country	Brazil
 cryptoTradeable	False
 currency	USD
-currentPrice	15.84
+currentPrice	15.93
 currentRatio	1.24
 customPriceAlertConfidence	HIGH
 dateShortInterest	1776211200
-dayHigh	16.18
-dayLow	15.795
+dayHigh	16.06
+dayLow	15.82
 debtToEquity	57.146
-discount_to_intrinsic_value	-8.42
+discount_to_intrinsic_value	-9.04
 displayName	Vale
 dividendDate	1773187200
 dividendRate	1.26
-dividendYield	7.78
+dividendYield	7.94
 earningsCallTimestampEnd	1777471200
 earningsCallTimestampStart	1777471200
 earningsGrowth	0.22
@@ -43,11 +43,11 @@ earningsTimestampEnd	1777406400
 earningsTimestampStart	1777406400
 ebitda	77895000064
 ebitdaMargins	0.36253
-enterpriseToEbitda	2.03
-enterpriseToRevenue	0.736
-enterpriseValue	158105157632
+enterpriseToEbitda	2.011
+enterpriseToRevenue	0.729
+enterpriseValue	156655222784
 epsCurrentYear	2.01944
-epsForward	2.03364
+epsForward	2.03355
 epsTrailingTwelveMonths	0.66
 eps_normalized_growth	0.06792895897989748
 esgPopulated	False
@@ -57,23 +57,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	16.1956
-fiftyDayAverageChange	-0.35560036
-fiftyDayAverageChangePercent	-0.021956602
-fiftyTwoWeekChangePercent	73.791626
+fiftyDayAverage	16.1782
+fiftyDayAverageChange	-0.24819946
+fiftyDayAverageChangePercent	-0.0153415995
+fiftyTwoWeekChangePercent	70.13963
 fiftyTwoWeekHigh	17.94
-fiftyTwoWeekHighChange	-2.1000004
-fiftyTwoWeekHighChangePercent	-0.11705688
+fiftyTwoWeekHighChange	-2.0100002
+fiftyTwoWeekHighChangePercent	-0.11204014
 fiftyTwoWeekLow	8.97
-fiftyTwoWeekLowChange	6.87
-fiftyTwoWeekLowChangePercent	0.76588625
+fiftyTwoWeekLowChange	6.96
+fiftyTwoWeekLowChangePercent	0.77591974
 fiftyTwoWeekRange	8.97 - 17.94
 financialCurrency	BRL
 firstTradeDateMilliseconds	1016721000000
 fiveYearAvgDividendYield	9.34
 floatShares	3962135665
-forwardEps	2.03364
-forwardPE	7.7889895
+forwardEps	2.03355
+forwardPE	7.8335915
 freeCashflow	10600125440
 fullExchangeName	NYSE
 fullTimeEmployees	65805
@@ -83,7 +83,7 @@ grossMargins	0.35076
 grossProfits	75364999168
 hasPrePostMarketData	True
 heldPercentInsiders	6.0000002e-05
-heldPercentInstitutions	0.24662
+heldPercentInstitutions	0.24774
 impliedSharesOutstanding	4264533765
 industry	Other Industrial Metals & Mining
 industryDisp	Other Industrial Metals & Mining
@@ -98,47 +98,47 @@ lastSplitFactor	2:1
 longBusinessSummary	Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil.
 longName	Vale S.A.
 market	us_market
-marketCap	67550216192
-marketState	POST
+marketCap	67934023680
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_874225
 mostRecentQuarter	1774915200
 netIncomeToCommon	15603000320
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	69276379453
+nonDilutedMarketCap	67645692785
 numberOfAnalystOpinions	25
-open	16.16
+open	16.06
 operatingCashflow	48816001024
 operatingMargins	0.28124002
 payoutRatio	1.205
-pegRatio	0.34
+pegRatio	0.33
 phone	55 21 3485 5000
-postMarketChange	0.05000019
-postMarketChangePercent	0.31565776
-postMarketPrice	15.89
-postMarketTime	1777933605
-previousClose	16.18
-priceEpsCurrentYear	7.843759
+postMarketChange	-0.020000458
+postMarketChangePercent	-0.12555215
+postMarketPrice	15.91
+postMarketTime	1778024781
+previousClose	15.84
+priceEpsCurrentYear	7.8883257
 priceHint	2
-priceToBook	1.8353918
-priceToSalesTrailing12Months	0.31438592
+priceToBook	1.8458202
+priceToSalesTrailing12Months	0.31617218
 profitMargins	0.072620004
 quickRatio	0.666
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.12
 region	US
-regularMarketChange	-0.34
-regularMarketChangePercent	-2.10136
-regularMarketDayHigh	16.18
-regularMarketDayLow	15.795
-regularMarketDayRange	15.795 - 16.18
-regularMarketOpen	16.16
-regularMarketPreviousClose	16.18
-regularMarketPrice	15.84
-regularMarketTime	1777924802
-regularMarketVolume	20588081
+regularMarketChange	0.0900002
+regularMarketChangePercent	0.568183
+regularMarketDayHigh	16.06
+regularMarketDayLow	15.82
+regularMarketDayRange	15.82 - 16.06
+regularMarketOpen	16.06
+regularMarketPreviousClose	15.84
+regularMarketPrice	15.93
+regularMarketTime	1778011203
+regularMarketVolume	23126934
 returnOnAssets	0.081870005
 returnOnEquity	0.068390004
 revenueGrowth	0.027
@@ -167,15 +167,15 @@ totalDebt	111957999616
 totalRevenue	214864003072
 tradeable	False
 trailingAnnualDividendRate	5.477
-trailingAnnualDividendYield	0.33850434
+trailingAnnualDividendYield	0.3457702
 trailingEps	0.66
-trailingPE	24.0
-trailingPegRatio	0.3373
+trailingPE	24.136364
+trailingPegRatio	0.3302
 triggerable	True
-twoHundredDayAverage	13.2295
-twoHundredDayAverageChange	2.6105003
-twoHundredDayAverageChangePercent	0.19732419
+twoHundredDayAverage	13.25965
+twoHundredDayAverageChange	2.67035
+twoHundredDayAverageChangePercent	0.20138918
 typeDisp	Equity
-volume	20588081
+volume	23126934
 website	https://vale.com
 zip	22250-145

@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	4.4639997
-dayLow	4.3900003
+dayHigh	4.43
+dayLow	4.406
 esgPopulated	False
 exchange	CGI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
 fiftyDayAverage	4.37796
-fiftyDayAverageChange	0.068039894
-fiftyDayAverageChangePercent	0.01554146
+fiftyDayAverageChange	0.038039684
+fiftyDayAverageChangePercent	0.008688906
 fiftyTwoWeekChangePercent	29.821074
 fiftyTwoWeekHigh	4.997
-fiftyTwoWeekHighChange	-0.5510001
-fiftyTwoWeekHighChangePercent	-0.11026618
+fiftyTwoWeekHighChange	-0.5810003
+fiftyTwoWeekHighChangePercent	-0.11626982
 fiftyTwoWeekLow	3.345
-fiftyTwoWeekLowChange	1.1010001
-fiftyTwoWeekLowChangePercent	0.329148
+fiftyTwoWeekLowChange	1.0709999
+fiftyTwoWeekLowChangePercent	0.3201793
 fiftyTwoWeekRange	3.345 - 4.997
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
@@ -42,20 +42,20 @@ market	usir_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	4.4
-previousClose	4.378
+open	4.4259996
+previousClose	4.446
 priceHint	4
 quoteType	INDEX
 region	US
-regularMarketChange	0.06800032
-regularMarketChangePercent	1.5532279
-regularMarketDayHigh	4.4639997
-regularMarketDayLow	4.3900003
-regularMarketDayRange	4.3900003 - 4.4639997
-regularMarketOpen	4.4
-regularMarketPreviousClose	4.378
-regularMarketPrice	4.446
-regularMarketTime	1777921191
+regularMarketChange	-0.03000021
+regularMarketChangePercent	-0.6747685
+regularMarketDayHigh	4.43
+regularMarketDayLow	4.406
+regularMarketDayRange	4.406 - 4.43
+regularMarketOpen	4.4259996
+regularMarketPreviousClose	4.446
+regularMarketPrice	4.416
+regularMarketTime	1778007594
 regularMarketVolume	0
 shortName	CBOE Interest Rate 10 Year T No
 sourceInterval	15
@@ -64,7 +64,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	4.307575
-twoHundredDayAverageChange	0.13842487
-twoHundredDayAverageChangePercent	0.03213522
+twoHundredDayAverageChange	0.10842466
+twoHundredDayAverageChangePercent	0.025170695
 typeDisp	Index
 volume	0

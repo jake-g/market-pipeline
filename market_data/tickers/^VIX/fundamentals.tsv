@@ -1,5 +1,5 @@
 Metric	Value
-52WeekChange	-28.130287
+52WeekChange	-26.130856
 allTimeHigh	89.53
 allTimeLow	8.56
 ask	0.0
@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	19.08
-dayLow	17.15
+dayHigh	18.02
+dayLow	17.2
 esgPopulated	False
 exchange	CXI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
-fiftyDayAverage	22.2448
-fiftyDayAverageChange	-3.9547997
-fiftyDayAverageChangePercent	-0.17778535
-fiftyTwoWeekChangePercent	-28.130287
+fiftyDayAverage	22.2288
+fiftyDayAverageChange	-4.8488007
+fiftyDayAverageChangePercent	-0.21813147
+fiftyTwoWeekChangePercent	-26.130856
 fiftyTwoWeekHigh	35.3
-fiftyTwoWeekHighChange	-17.009998
-fiftyTwoWeekHighChangePercent	-0.48186964
+fiftyTwoWeekHighChange	-17.92
+fiftyTwoWeekHighChangePercent	-0.50764877
 fiftyTwoWeekLow	13.38
-fiftyTwoWeekLowChange	4.910001
-fiftyTwoWeekLowChangePercent	0.36696568
+fiftyTwoWeekLowChange	3.999999
+fiftyTwoWeekLowChangePercent	0.2989536
 fiftyTwoWeekRange	13.38 - 35.3
 firstTradeDateMilliseconds	631267200000
 fullExchangeName	Cboe Indices
@@ -42,21 +42,21 @@ market	cboe_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXVIX
-open	17.38
+open	17.95
 previousClose	16.99
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	1.3000011
-regularMarketChangePercent	7.651567
-regularMarketDayHigh	19.08
-regularMarketDayLow	17.15
-regularMarketDayRange	17.15 - 19.08
-regularMarketOpen	17.38
+regularMarketChange	-0.91000175
+regularMarketChangePercent	-4.9754057
+regularMarketDayHigh	18.02
+regularMarketDayLow	17.2
+regularMarketDayRange	17.2 - 18.02
+regularMarketOpen	17.95
 regularMarketPreviousClose	16.99
-regularMarketPrice	18.29
-regularMarketTime	1777925701
+regularMarketPrice	17.38
+regularMarketTime	1778012101
 regularMarketVolume	0
 shortName	CBOE Volatility Index
 sourceInterval	15
@@ -64,8 +64,8 @@ symbol	^VIX
 tradeable	False
 trailingPegRatio	None
 triggerable	False
-twoHundredDayAverage	18.2792
-twoHundredDayAverageChange	0.010801315
-twoHundredDayAverageChangePercent	0.00059090747
+twoHundredDayAverage	18.28805
+twoHundredDayAverageChange	-0.90805054
+twoHundredDayAverageChangePercent	-0.049652673
 typeDisp	Index
 volume	0
