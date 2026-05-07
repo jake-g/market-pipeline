@@ -45,57 +45,55 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
 
 ---
 
-## Setup
+## Quick Start
 
-Code is Python with .sh scripts to run common tasks.
+This project provides a comprehensive `Makefile` to easily manage the environment, testing, formatting, and server orchestration.
 
 ### 1. Environment Setup
-It is recommended to use a virtual environment to keep dependencies isolated.
-
+Set up the Python virtual environment and install all necessary dependencies:
 ```bash
-# Create virtual environment
-python3 -m venv venv
-
-# Activate virtual environment
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
+make setup
 ```
 
 > **Note**: `lxml` is required for fetching Earnings/Financials. If installation fails, ensure you have system headers `libxml2-dev` and `libxslt-dev` installed, or use a pre-built binary.
 
 ### 2. Run Tests
-Validate the entire pipeline (Fetchers, Backfill, Notebook):
+Validate the entire pipeline (Fetchers, Backfill, and validation):
 ```bash
-./run_tests.sh
+make test
 ```
 
 ### 3. Fetch Data
 Run the full daily update pipeline:
 ```bash
-./run_fetch.sh
+make fetch
 ```
+*(This runs the production-ready `./run_fetch.sh` script under the hood).*
 
 ### 4. Running the Dashboard
 **Local Server (Recommended for Development):**
+To launch the server in the foreground:
 ```bash
-./run_server.sh
+make server
 ```
-This runs a fast local server that auto-updates the file tree dynamically.
-*(Note: Passing `--local` to `market_dashboard_server.py` or running the `.sh` natively allows you to inspect private folders ignored by git).*
+Or run it in the background:
+```bash
+make server-bg
+# Check status
+make server-status
+# Stop the server
+make server-stop
+```
+This runs a fast local server that auto-updates the file tree dynamically, letting you inspect private folders ignored by git.
 
 **Static Hosting (GitHub Pages):**
 The dashboard is designed to run completely statically anywhere (like GitHub pages).
-When `./run_fetch.sh` successfully finishes, it runs `market_dashboard_server.py --build` to create `market_data/index.json`. The `index.html` file will automatically load this static index.
+When the fetch pipeline successfully finishes, it automatically generates `market_data/index.json`. The `index.html` file will load this static index.
 To set this up on your repo:
 1. Navigate to your repository **Settings > Pages** on GitHub.
 2. Under **Build and deployment**, select **Deploy from a branch**.
 3. Set the branch to `main` and the folder to `/ (root)`.
 4. Click **Save**. Your site will now securely deploy natively using `index.html`.
-
-
-> **Note**: These scripts automatically handle virtual environment creation and dependency installation via `run_env_setup.sh`.
 
 ### 7. Interactive Agentic News Pipeline (Google NotebookLM)
 We orchestrate `notebooklm-py` to automatically upload market news and generated reports to Google NotebookLM, providing a free, conversational LLM interface to query your data.
@@ -154,15 +152,15 @@ The primary human-readable visualization UI providing fast, interactive analytic
 
 ## Scripts
 
-| Script | Purpose |
+| Command | Purpose |
 |---|---|
-| **`./run_fetch.sh`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
+| **`make fetch`** or **`./run_fetch.sh`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
 | `market_fetcher.py` | Core CLI for fetching specific combinations (e.g. `--limit-tickers`, `--news-days`). |
-| `./run_server.sh` | **Local UI**: Starts a lightweight HTTP server and statically serves the dashboard into your browser. |
+| **`make server`** | **Local UI**: Starts a lightweight HTTP server and statically serves the dashboard into your browser. |
 | `backfill/topic_news.py` | Massively parallel historical topic extraction from Google News (2018-2025). |
 | `backfill/fnspid.py` | Historical news backfill from HuggingFace (FNSPID). |
 | `backfill/legacy_data.py` | Imports generic legacy TSV/CSV dumps into the unified layout. |
-| `./run_tests.sh` | Orchestrates the `market_fetcher_test.py` and notebook validation tests. |
+| **`make test`** | Orchestrates the `market_fetcher_test.py` and validation tests. |
 | `./zip_project.sh` | Packages code for easy Google Colab upload. |
 
 ---
@@ -242,10 +240,10 @@ Set up your own `.env` file with your Alpha Vantage API key and other settings, 
 
 ```bash
 # Run all style, type, and lint checks (yapf, isort, mypy, pylint)
-./run_format.sh
+make format
 
 # Run full test suite
-./run_tests.sh
+make test
 ```
 
 Install `pre-commit` hooks locally to auto-enforce these rules before every commit:
