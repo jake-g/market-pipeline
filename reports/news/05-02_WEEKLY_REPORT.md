@@ -7,7 +7,7 @@
 The week of April 26 to May 2, 2026, represented a definitive **"Moment of Truth"** for the artificial intelligence investment cycle, as the market pivoted from speculative infrastructure hype toward a rigorous phase of **revenue verification** [1-3]. This structural maturation follows a month dominated by geopolitical "war shocks" in the Strait of Hormuz, transitioning into a hyper-focus on **Q1 2026 corporate earnings execution** [4, 5]. The primary narrative arc of the week was the aggressive differentiation between companies capable of demonstrating immediate top-line expansion from AI versus those facing a slower monetization curve [1, 6].
 
 ### The Revenue Verification Pivot and "Show-Me-The-Money" Maturation
-*   **Verification over Hype:** The market is no longer rewarding high-capex commitments—which have reached a massive **$725 billion surge** among the "Magnificent 7" for 2026—without immediate evidence of top-line growth [3, 6]. 
+*   **Verification over Hype:** The market is no longer rewarding high-capex commitments—which have reached a massive **$725 billion surge** among the "Magnificent 7" for 2026—without immediate evidence of top-line growth [3, 6].
 *   **Software Scrutiny:** Unlike the hardware layer, AI software integration is facing concerns of a significantly slower adoption curve [1, 7]. High-profile tools like **Adobe’s Firefly Assistant** have faced critical reviews, contributing to a "SaaS-pocalypse" sentiment where software-heavy firms are penalized if adoption lags [1, 2, 7].
 *   **Infrastructure Maturation:** The AI trade has matured from specialized GPU dominance toward the **physical enablement layer**, pulling legacy industrial and grid infrastructure leaders into its orbit to sustain the "New Economy" [5, 8].
 

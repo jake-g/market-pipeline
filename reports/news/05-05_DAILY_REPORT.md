@@ -39,7 +39,7 @@ As we progress through May, expect a widening performance gap between "execution
 ## References
 1. [9] "Which Oil and Gas Stock Has Dominated in 2026: Occidental Petroleum, ConocoPhillips, or EOG Resources?" https://247wallst.com/investing/2026/05/06/which-oil-and-gas-stock-has-dominated-in-2026-occidental-petroleum-conocophillips-or-eog-resources/
 2. [15] "S&P 500 and Nasdaq-100 Surge: AMD Earnings Steal the Show at Midday." https://www.fool.com/investing/2026/05/06/sp-500-and-nasdaq-100-surge-on-amd-earnings/
-3. [16] "05-04_DAILY_REPORT.md - Historical Context: Recent Periodic Reports." 
+3. [16] "05-04_DAILY_REPORT.md - Historical Context: Recent Periodic Reports."
 4. [5] "Custom Silicon and Profit Preservation - Historical Context: Recent Periodic Reports."
 5. [7] "Top Winners (Daily Performance Focus) - Historical Context: Recent Periodic Reports."
 6. [11] "Top Losers (Daily Performance Focus) - Historical Context: Recent Periodic Reports."

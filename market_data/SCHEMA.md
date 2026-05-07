@@ -81,7 +81,7 @@ This report documents the file structures and column data types used in `market_
 | WAREHOUSE_PPI | float64 | 173.049 |
 | MFG_CONST | float64 | 196166.0 |
 | TECH_PULSE | float64 | 89.8561 |
-| CHINA_IMPORTS | float64 | 18955.648 |
+| CHINA_IMPORTS | float64 | 20859.034 |
 | TARIFFS | float64 | 346.15 |
 | GDP | float64 | 31856.257 |
 | UNRATE | float64 | 4.3 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 1.82 |
 | CPI | float64 | 330.293 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.88 |
-| US10Y | float64 | 4.39 |
+| US02Y | float64 | 3.93 |
+| US10Y | float64 | 4.43 |

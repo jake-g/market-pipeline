@@ -1,17 +1,17 @@
 # Data Stats Report
-Date: 2026-05-06 16:42
+Date: 2026-05-06 20:28
 
 ## 1. Global Metrics
 - **Total Tickers**: 263
 - **Total Topics**: 94
-- **Total News Items**: 509924
+- **Total News Items**: 510015
 
 ## 2. Ticker Data
 | Ticker | Price Range | News | Insider | NaNs | Missing Files |
 |---|---|---|---|---|---|
-| AAPL | 2018-01-02 to 2026-05-06 | 3007 | 497 | 0 | None |
-| ABBV | 2018-01-02 to 2026-05-06 | 746 | 2 | 0 | None |
-| ACHR | 2020-12-18 to 2026-05-06 | 699 | 6 | 0 | None |
+| AAPL | 2018-01-02 to 2026-05-06 | 3041 | 497 | 0 | None |
+| ABBV | 2018-01-02 to 2026-05-06 | 784 | 2 | 0 | None |
+| ACHR | 2020-12-18 to 2026-05-06 | 716 | 6 | 0 | None |
 | ADBE | 2018-01-02 to 2026-05-06 | 1299 | 611 | 0 | None |
 | ADI | 2018-01-02 to 2026-05-06 | 857 | 658 | 0 | None |
 | AIPO | 2025-07-25 to 2026-05-06 | 52 | 0 | 0 | None |
@@ -276,7 +276,7 @@ Date: 2026-05-06 16:42
 ## 3. Topic Data (News Only)
 | Topic | News Count | Start Date | End Date |
 |---|---|---|---|
-| AI | 5565 | 2026-02-09 | 2026-05-06 |
+| AI | 5566 | 2026-02-09 | 2026-05-06 |
 | AI Agents | 3059 | 2026-02-18 | 2026-05-06 |
 | AI Energy Demand | 1144 | 2025-04-10 | 2026-05-06 |
 | AI Regulation | 1729 | 2025-08-18 | 2026-05-06 |
@@ -292,7 +292,7 @@ Date: 2026-05-06 16:42
 | Circular Deals | 120 | 2025-09-23 | 2026-05-05 |
 | Commercial Real Estate | 2929 | 2025-09-29 | 2026-05-06 |
 | Commodities | 2253 | 2025-05-24 | 2026-05-06 |
-| Compute Power | 509 | 2025-03-28 | 2026-05-06 |
+| Compute Power | 510 | 2025-03-28 | 2026-05-06 |
 | Container Rates | 872 | 2025-05-23 | 2026-05-06 |
 | Copper Demand | 646 | 2025-05-01 | 2026-05-06 |
 | Corporate Austerity | 24 | 2025-05-02 | 2026-03-25 |
@@ -373,19 +373,19 @@ Date: 2026-05-06 16:42
 
 ## 4. Macro Data
 - **File**: `market_data/macro/economic_indicators.tsv`
-- **Total Rows**: 16528
+- **Total Rows**: 16530
 
 ### Health Check
 | Indicator | Valid Rows | Start Date | End Date | Status |
 |---|---|---|---|---|
-| DATE | 16528 | ? | ? | Daily |
+| DATE | 16530 | ? | ? | Daily |
 | FREIGHT_PPI | 454 | ? | ? | Quarterly |
 | AIR_PPI | 268 | ? | ? | Quarterly |
 | TRUCK_PPI | 268 | ? | ? | Quarterly |
 | WAREHOUSE_PPI | 267 | ? | ? | Quarterly |
 | MFG_CONST | 289 | ? | ? | Quarterly |
 | TECH_PULSE | 951 | ? | ? | Monthly |
-| CHINA_IMPORTS | 494 | ? | ? | Quarterly |
+| CHINA_IMPORTS | 495 | ? | ? | Quarterly |
 | TARIFFS | 269 | ? | ? | Quarterly |
 | GDP | 317 | ? | ? | Quarterly |
 | UNRATE | 938 | ? | ? | Monthly |
@@ -393,8 +393,8 @@ Date: 2026-05-06 16:42
 | RECESSION_PROB | 706 | ? | ? | Monthly |
 | CPI | 950 | ? | ? | Monthly |
 | FEDFUNDS | 862 | ? | ? | Monthly |
-| US02Y | 12476 | ? | ? | Monthly |
-| US10Y | 16068 | ? | ? | Daily |
+| US02Y | 12478 | ? | ? | Monthly |
+| US10Y | 16070 | ? | ? | Daily |
 
 ## 5. Missing Files / Anomalies
 - **Developed Mkts Idx Trust**: Missing earnings.tsv, financials_quarterly.tsv, insider_trading.tsv
