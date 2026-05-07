@@ -2,7 +2,7 @@ Metric	Value
 address1	Valley Forge, PA 19482
 address2	PO Box 2600
 address3	Vanguard Index Funds
-allTimeHigh	172.93
+allTimeHigh	176.23
 allTimeLow	16.43
 annualHoldingsTurnover	0.03
 annualReportExpenseRatio	0.0004
@@ -10,7 +10,7 @@ averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
 averageVolume10days	0
-beta3Year	1.04
+beta3Year	1.03
 bookValue	139.506
 companyOfficers	[]
 corporateActions	[]
@@ -18,7 +18,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.4808
-dividendYield	1.16
+dividendYield	1.05
 epsTrailingTwelveMonths	6.2257657
 esgPopulated	False
 exchange	NAS
@@ -26,17 +26,17 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	163.5226
-fiftyDayAverageChange	10.217407
-fiftyDayAverageChangePercent	0.06248315
-fiftyTwoWeekChangePercent	29.187214
-fiftyTwoWeekHigh	172.93
-fiftyTwoWeekHighChange	0.8100128
-fiftyTwoWeekHighChangePercent	0.0046840506
-fiftyTwoWeekLow	133.86
-fiftyTwoWeekLowChange	39.880005
-fiftyTwoWeekLowChangePercent	0.29792324
-fiftyTwoWeekRange	133.86 - 172.93
+fiftyDayAverage	163.9318
+fiftyDayAverageChange	12.2982025
+fiftyDayAverageChangePercent	0.07502024
+fiftyTwoWeekChangePercent	30.155098
+fiftyTwoWeekHigh	176.23
+fiftyTwoWeekHighChange	0.0
+fiftyTwoWeekHighChangePercent	0.0
+fiftyTwoWeekLow	135.32
+fiftyTwoWeekLowChange	40.90999
+fiftyTwoWeekLowChangePercent	0.30232033
+fiftyTwoWeekRange	135.32 - 176.23
 financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
 fullExchangeName	Nasdaq
@@ -46,44 +46,44 @@ hasPrePostMarketData	False
 language	en-US
 lastCapGain	59.0
 lastDividendValue	0.4808
-longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, which represents approximately 100% of the investable U.S. stock market and includes large-, mid-, small-, and micro-cap stocks. It invests by sampling the index, meaning that it holds a broadly diversified collection of securities that, in the aggregate, approximates the full index in terms of key characteristics. The fund is non-diversified.
+longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the CRSP U.S. Total Market Index (the “Target Index”), which represents 100% of the investable U.S. stock market, as determined by the index provider. Under normal circumstances, the fund invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the target index.
 longName	Vanguard Total Stock Mkt Idx Adm
 market	us_market
 marketCap	1445106810880
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_6184536
 morningStarOverallRating	3
 morningStarRiskRating	4
-netAssets	1991753860000.0
+netAssets	2202624330000.0
 netExpenseRatio	0.04
 phone	800-523-1036
-previousClose	172.26001
+previousClose	173.73999
 priceHint	2
-priceToBook	1.2453946
+priceToBook	1.2632432
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	1.48
-regularMarketChangePercent	0.8591663
-regularMarketPreviousClose	172.26001
-regularMarketPrice	173.74
-regularMarketTime	1778021630
+regularMarketChange	2.49
+regularMarketChangePercent	1.433176
+regularMarketPreviousClose	173.73999
+regularMarketPrice	176.23
+regularMarketTime	1778155820
 sharesOutstanding	8468250112
 shortName	Vanguard Total Stock Market Ind
 sourceInterval	15
 symbol	VTSAX
-totalAssets	1991753859072
+totalAssets	2202624327680
 tradeable	False
 trailingAnnualDividendRate	2.802
-trailingAnnualDividendYield	0.01626611
-trailingPE	27.906609
+trailingAnnualDividendYield	0.016127547
+trailingPE	28.306557
 trailingPegRatio	None
-trailingThreeMonthReturns	-3.96886
+trailingThreeMonthReturns	4.32128
 triggerable	False
-twoHundredDayAverage	161.08565
-twoHundredDayAverageChange	12.654358
-twoHundredDayAverageChangePercent	0.07855671
+twoHundredDayAverage	161.32675
+twoHundredDayAverageChange	14.903244
+twoHundredDayAverageChangePercent	0.09237925
 typeDisp	Fund
-yield	0.0116
-ytdReturn	-3.96886
+yield	0.0105
+ytdReturn	5.97048

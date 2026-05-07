@@ -2,7 +2,7 @@ Metric	Value
 address1	Valley Forge PA 19482
 address2	Po Box 2600 V26
 address3	Vanguard Health Care
-allTimeHigh	68.26
+allTimeHigh	69.85
 allTimeLow	21.12
 annualHoldingsTurnover	0.07
 annualReportExpenseRatio	0.0011
@@ -10,14 +10,14 @@ averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
 averageVolume10days	0
-beta3Year	1.08
+beta3Year	1.1
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.1537
-dividendYield	0.96
+dividendYield	0.85
 epsTrailingTwelveMonths	2.3211162
 esgPopulated	False
 exchange	NAS
@@ -25,17 +25,17 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	63.818
-fiftyDayAverageChange	4.8219986
-fiftyDayAverageChangePercent	0.075558595
-fiftyTwoWeekChangePercent	27.987957
-fiftyTwoWeekHigh	68.26
-fiftyTwoWeekHighChange	0.37999725
-fiftyTwoWeekHighChangePercent	0.0055669094
-fiftyTwoWeekLow	53.13
-fiftyTwoWeekLowChange	15.509998
-fiftyTwoWeekLowChangePercent	0.29192543
-fiftyTwoWeekRange	53.13 - 68.26
+fiftyDayAverage	64.0272
+fiftyDayAverageChange	5.8227997
+fiftyDayAverageChangePercent	0.0909426
+fiftyTwoWeekChangePercent	30.026066
+fiftyTwoWeekHigh	69.85
+fiftyTwoWeekHighChange	0.0
+fiftyTwoWeekHighChangePercent	0.0
+fiftyTwoWeekLow	53.67
+fiftyTwoWeekLowChange	16.18
+fiftyTwoWeekLowChangePercent	0.30147198
+fiftyTwoWeekRange	53.67 - 69.85
 firstTradeDateMilliseconds	1549549800000
 fullExchangeName	Nasdaq
 fundInceptionDate	1042502400
@@ -47,35 +47,35 @@ lastDividendValue	0.1537
 longBusinessSummary	The index is composed of large- and mid-cap stocks of companies that are screened for certain environmental, social, and corporate governance (ESG) criteria by the index provider. The manager attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. It is non-diversified.
 longName	Vanguard FTSE Social Index Fund
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_28116251
 morningStarOverallRating	3
 morningStarRiskRating	5
-netAssets	23433193500.0
+netAssets	26222243800.0
 netExpenseRatio	0.11
-previousClose	68.0
+previousClose	68.64
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	0.64
-regularMarketChangePercent	0.9411764
-regularMarketPreviousClose	68.0
-regularMarketPrice	68.64
-regularMarketTime	1778021370
+regularMarketChange	1.21
+regularMarketChangePercent	1.7628205
+regularMarketPreviousClose	68.64
+regularMarketPrice	69.85
+regularMarketTime	1778155658
 shortName	Vanguard FTSE Social Index Fund
 sourceInterval	15
 symbol	VFTAX
-totalAssets	23433193472
+totalAssets	26222243840
 tradeable	False
-trailingPE	29.57198
+trailingPE	30.093279
 trailingPegRatio	None
-trailingThreeMonthReturns	-7.52008
+trailingThreeMonthReturns	3.59649
 triggerable	False
-twoHundredDayAverage	63.9825
-twoHundredDayAverageChange	4.657501
-twoHundredDayAverageChangePercent	0.072793365
+twoHundredDayAverage	64.0727
+twoHundredDayAverageChange	5.777298
+twoHundredDayAverageChangePercent	0.09016786
 typeDisp	Fund
-yield	0.0095999995
-ytdReturn	-7.52008
+yield	0.0085
+ytdReturn	3.88114

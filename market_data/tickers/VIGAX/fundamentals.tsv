@@ -2,7 +2,7 @@ Metric	Value
 address1	Valley Forge, PA 19482
 address2	PO Box 2600
 address3	Vanguard Index Funds
-allTimeHigh	259.45
+allTimeHigh	265.51
 allTimeLow	16.74
 annualHoldingsTurnover	0.12
 annualReportExpenseRatio	0.0005
@@ -10,7 +10,7 @@ averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
 averageVolume10days	0
-beta3Year	1.18
+beta3Year	1.22
 bookValue	215.749
 companyOfficers	[]
 corporateActions	[]
@@ -18,7 +18,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.2359
-dividendYield	0.44
+dividendYield	0.39
 epsTrailingTwelveMonths	6.8965573
 esgPopulated	False
 exchange	NAS
@@ -26,17 +26,17 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	239.3416
-fiftyDayAverageChange	21.018387
-fiftyDayAverageChangePercent	0.08781753
-fiftyTwoWeekChangePercent	30.902826
-fiftyTwoWeekHigh	259.45
-fiftyTwoWeekHighChange	0.90997314
-fiftyTwoWeekHighChangePercent	0.0035073159
-fiftyTwoWeekLow	197.49
-fiftyTwoWeekLowChange	62.86998
-fiftyTwoWeekLowChangePercent	0.31834513
-fiftyTwoWeekRange	197.49 - 259.45
+fiftyDayAverage	240.358
+fiftyDayAverageChange	25.152008
+fiftyDayAverageChangePercent	0.10464394
+fiftyTwoWeekChangePercent	33.02771
+fiftyTwoWeekHigh	265.51
+fiftyTwoWeekHighChange	0.0
+fiftyTwoWeekHighChangePercent	0.0
+fiftyTwoWeekLow	199.58
+fiftyTwoWeekLowChange	65.93001
+fiftyTwoWeekLowChangePercent	0.33034375
+fiftyTwoWeekRange	199.58 - 265.51
 financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
 fullExchangeName	Nasdaq
@@ -46,44 +46,44 @@ hasPrePostMarketData	False
 language	en-US
 lastCapGain	49.0
 lastDividendValue	0.2359
-longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, a broadly diversified index predominantly made up of growth stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index.
+longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the target index, a broadly diversified index made up of the growth stocks of large U.S. companies, as determined by the index provider. Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the target index.
 longName	Vanguard Growth Index Admiral
 market	us_market
 marketCap	210203312128
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22939698
 morningStarOverallRating	4
 morningStarRiskRating	3
-netAssets	317921722000.0
+netAssets	365000786000.0
 netExpenseRatio	0.05
 phone	800-523-1036
-previousClose	258.52
+previousClose	260.36002
 priceHint	2
-priceToBook	1.2067727
+priceToBook	1.2306432
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	1.84
-regularMarketChangePercent	0.71174383
-regularMarketPreviousClose	258.52
-regularMarketPrice	260.36
-regularMarketTime	1778021630
+regularMarketChange	5.15
+regularMarketChangePercent	1.9780303
+regularMarketPreviousClose	260.36002
+regularMarketPrice	265.51
+regularMarketTime	1778155820
 sharesOutstanding	822456000
 shortName	Vanguard Growth Index Fd Admira
 sourceInterval	15
 symbol	VIGAX
-totalAssets	317921722368
+totalAssets	365000785920
 tradeable	False
 trailingAnnualDividendRate	1.54
-trailingAnnualDividendYield	0.005956986
-trailingPE	37.752167
+trailingAnnualDividendYield	0.0059148865
+trailingPE	38.49892
 trailingPegRatio	None
-trailingThreeMonthReturns	-10.39504
+trailingThreeMonthReturns	3.75623
 triggerable	False
-twoHundredDayAverage	243.7567
-twoHundredDayAverageChange	16.603287
-twoHundredDayAverageChangePercent	0.06811418
+twoHundredDayAverage	244.0746
+twoHundredDayAverageChange	21.43541
+twoHundredDayAverageChangePercent	0.08782319
 typeDisp	Fund
-yield	0.0044
-ytdReturn	-10.39504
+yield	0.0039
+ytdReturn	2.3846

@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.09021199
-SandP52WeekChange	0.2842635
+52WeekChange	0.11325002
+SandP52WeekChange	0.3003528
 address1	One Coca-Cola Plaza
 allTimeHigh	82.0
 allTimeLow	0.182292
-ask	78.76
-askSize	100
+ask	78.78
+askSize	1300
 auditRisk	4
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	15046720
-averageDailyVolume3Month	16385013
-averageVolume	16385013
-averageVolume10days	15046720
+averageDailyVolume10Day	15500320
+averageDailyVolume3Month	16234157
+averageVolume	16234157
+averageVolume10days	15500320
 beta	0.356
-bid	78.4
+bid	78.46
 bidSize	1100
 boardRisk	8
 bookValue	7.816
@@ -21,22 +21,22 @@ city	Atlanta
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. James Robert B. Quincey', 'age': 60, 'title': 'Executive Chairman', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 7231315, 'exercisedValue': 7605114, 'unexercisedValue': 59902496}, {'maxAge': 1, 'name': 'Mr. John  Murphy', 'age': 63, 'title': 'President & CFO', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 3988074, 'exercisedValue': 1107465, 'unexercisedValue': 20311522}, {'maxAge': 1, 'name': 'Mr. Manuel Arroyo Prieto', 'age': 58, 'title': 'EVP, Chief Marketing & Customer Commercial Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 2532132, 'exercisedValue': 0, 'unexercisedValue': 10408435}, {'maxAge': 1, 'name': 'Ms. Jennifer Kay Mann J.D.', 'age': 53, 'title': 'Executive VP & President of North America Operating Unit', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 2343780, 'exercisedValue': 0, 'unexercisedValue': 5160516}, {'maxAge': 1, 'name': 'Ms. Erin L. May', 'age': 45, 'title': 'Senior VP, Chief Accounting Officer & Controller', 'yearBorn': 1980, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Nancy W. Quan', 'age': 59, 'title': 'Executive VP and Global Chief Technical & Innovation Officer', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Neeraj S. Tolmare', 'age': 51, 'title': 'Senior VP & Chief Information Officer', 'yearBorn': 1974, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Todd  Beiger', 'title': 'VP & Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Monica Howard Douglas', 'age': 52, 'title': 'Executive VP & Global General Counsel', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Beatriz R. Perez', 'age': 55, 'title': 'Executive VP & Global Chief of Communications, Sustainability and Strategic Partnerships Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'KO announced a cash dividend of $0.53 with an ex-date of May. 15, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1778817600000, 'amount': '0.53'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	78.48
+currentPrice	78.43
 currentRatio	1.358
 customPriceAlertConfidence	HIGH
 dateShortInterest	1776211200
-dayHigh	78.78
-dayLow	77.75
+dayHigh	79.145
+dayLow	78.095
 debtToEquity	124.943
-discount_to_intrinsic_value	-189.68
+discount_to_intrinsic_value	-192.14
 displayName	Coca-Cola
 dividendDate	1782864000
 dividendRate	2.12
-dividendYield	2.71
+dividendYield	2.68
 earningsCallTimestampEnd	1777379400
 earningsCallTimestampStart	1777379400
 earningsGrowth	0.182
@@ -46,11 +46,11 @@ earningsTimestampEnd	1784637000
 earningsTimestampStart	1784637000
 ebitda	16718000128
 ebitdaMargins	0.33922002
-enterpriseToEbitda	22.167
-enterpriseToRevenue	7.519
-enterpriseValue	370586812416
-epsCurrentYear	3.26126
-epsForward	3.47806
+enterpriseToEbitda	22.36
+enterpriseToRevenue	7.585
+enterpriseValue	373813673984
+epsCurrentYear	3.26263
+epsForward	3.47849
 epsTrailingTwelveMonths	3.18
 eps_normalized_growth	-0.07104456730942299
 esgPopulated	False
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	77.1308
-fiftyDayAverageChange	1.349205
-fiftyDayAverageChangePercent	0.017492428
-fiftyTwoWeekChangePercent	9.021198
+fiftyDayAverage	77.0594
+fiftyDayAverageChange	1.3705978
+fiftyDayAverageChangePercent	0.017786251
+fiftyTwoWeekChangePercent	11.325002
 fiftyTwoWeekHigh	82.0
-fiftyTwoWeekHighChange	-3.5199966
-fiftyTwoWeekHighChangePercent	-0.04292679
+fiftyTwoWeekHighChange	-3.5699997
+fiftyTwoWeekHighChangePercent	-0.04353658
 fiftyTwoWeekLow	65.35
-fiftyTwoWeekLowChange	13.130005
-fiftyTwoWeekLowChangePercent	0.20091821
+fiftyTwoWeekLowChange	13.080002
+fiftyTwoWeekLowChangePercent	0.20015305
 fiftyTwoWeekRange	65.35 - 82.0
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	2.89
-floatShares	3873783070
-forwardEps	3.47806
-forwardPE	22.564304
+floatShares	3873740045
+forwardEps	3.47849
+forwardPE	22.547138
 freeCashflow	3126125056
 fullExchangeName	NYSE
 fullTimeEmployees	65900
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1777593600
-graham_intrinsic_value	27.09
+graham_intrinsic_value	26.85
 grossMargins	0.61744
 grossProfits	30429999104
 hasPrePostMarketData	True
 heldPercentInsiders	0.09896
-heldPercentInstitutions	0.66846
+heldPercentInstitutions	0.67046
 impliedSharesOutstanding	4302482418
 industry	Beverages - Non-Alcoholic
 industryDisp	Beverages - Non - Alcoholic
@@ -103,31 +103,31 @@ lastSplitFactor	2:1
 longBusinessSummary	The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta, Sprite, Simply, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, Fuze Tea, Georgia, glacéau smartwater, glacéau vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, Santa Clara, and dogadan brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The Coca-Cola Company was founded in 1886 and is headquartered in Atlanta, Georgia.
 longName	The Coca-Cola Company
 market	us_market
-marketCap	337658839040
-marketState	POSTPOST
+marketCap	337443684352
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_26642
 mostRecentQuarter	1775174400
 netIncomeToCommon	13701000192
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	336411100263
+nonDilutedMarketCap	337658820164
 numberOfAnalystOpinions	23
-open	78.19
+open	78.79
 operatingCashflow	14631000064
 operatingMargins	0.35055
 overallRisk	4
 payoutRatio	0.64779997
-pegRatio	4.01
+pegRatio	4.06
 phone	404 676 2121
-postMarketChange	0.11249542
-postMarketChangePercent	0.14334278
-postMarketPrice	78.5925
-postMarketTime	1778025363
-previousClose	78.19
-priceEpsCurrentYear	24.06432
+postMarketChange	0.123298645
+postMarketChangePercent	0.15720852
+postMarketPrice	78.5533
+postMarketTime	1778189590
+previousClose	79.23
+priceEpsCurrentYear	24.038889
 priceHint	2
-priceToBook	10.040942
-priceToSalesTrailing12Months	6.851287
+priceToBook	10.034545
+priceToSalesTrailing12Months	6.8469214
 profitMargins	0.278
 quickRatio	0.782
 quoteSourceName	Nasdaq Real Time Price
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.70833
 region	US
-regularMarketChange	0.290001
-regularMarketChangePercent	0.370893
-regularMarketDayHigh	78.78
-regularMarketDayLow	77.75
-regularMarketDayRange	77.75 - 78.78
-regularMarketOpen	78.19
-regularMarketPreviousClose	78.19
-regularMarketPrice	78.48
-regularMarketTime	1778011202
-regularMarketVolume	11450986
+regularMarketChange	-0.800003
+regularMarketChangePercent	-1.00972
+regularMarketDayHigh	79.145
+regularMarketDayLow	78.095
+regularMarketDayRange	78.095 - 79.145
+regularMarketOpen	78.79
+regularMarketPreviousClose	79.23
+regularMarketPrice	78.43
+regularMarketTime	1778184002
+regularMarketVolume	15814842
 returnOnAssets	0.09512
 returnOnEquity	0.43372002
 revenueGrowth	0.121
@@ -166,7 +166,7 @@ state	GA
 symbol	KO
 targetHighPrice	92.0
 targetLowPrice	71.38
-targetMeanPrice	85.75565
+targetMeanPrice	85.79913
 targetMedianPrice	87.0
 totalCash	13820000256
 totalCashPerShare	3.212
@@ -174,15 +174,15 @@ totalDebt	44646998016
 totalRevenue	49284001792
 tradeable	False
 trailingAnnualDividendRate	2.06
-trailingAnnualDividendYield	0.026346078
+trailingAnnualDividendYield	0.02600025
 trailingEps	3.18
-trailingPE	24.679245
-trailingPegRatio	4.0097
+trailingPE	24.66352
+trailingPegRatio	4.0246
 triggerable	True
-twoHundredDayAverage	71.9924
-twoHundredDayAverageChange	6.487602
-twoHundredDayAverageChangePercent	0.0901151
+twoHundredDayAverage	72.08135
+twoHundredDayAverageChange	6.348648
+twoHundredDayAverageChangePercent	0.08807615
 typeDisp	Equity
-volume	11450986
+volume	15814842
 website	https://www.coca-colacompany.com
 zip	30313
