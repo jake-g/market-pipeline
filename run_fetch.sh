@@ -65,7 +65,7 @@ echo "🌐 Generating static index.json for dashboard..."
 python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 
 echo "🧹 Running Code Formatting & Validation..."
-./run_format.sh
+make format
 
 end_time=$(date +%s)
 total_time=$((end_time-start_time))

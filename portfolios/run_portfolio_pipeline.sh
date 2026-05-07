@@ -21,7 +21,7 @@ python3 -m unittest portfolios.test_portfolio_pipeline
 
 
 echo "Running Code Formatting via run_format.sh"
-./run_format.sh || true
+make format || true
 
 
 echo "Fetching Yahoo Portfolios"

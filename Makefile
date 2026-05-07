@@ -51,6 +51,7 @@ test: format
 	@venv/bin/python3 -m unittest backfill/legacy_data_test.py
 	@echo "📝 Running NotebookLM Client Tests..."
 	@venv/bin/python3 reports/notebooklm_client.py 2>&1 | tee logs/test_notebooklm_client.log
+	@PYTHONPATH=. venv/bin/python3 -m unittest reports/notebooklm_client_test.py
 	@echo "🌐 Generating static index.json for dashboard..."
 	@venv/bin/python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 	@echo "🖌️  Running final formatting verification..."
