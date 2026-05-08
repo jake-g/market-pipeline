@@ -1963,6 +1963,28 @@ def get_upcoming_earnings(ticker: str, tickers_dir: str) -> str:
   return ""
 
 
+def get_recent_earnings(ticker: str, tickers_dir: str) -> str:
+  """Finds the most recent reported earnings date."""
+  earnings_path = os.path.join(tickers_dir, ticker, "earnings.tsv")
+  if not os.path.exists(earnings_path):
+    return ""
+  try:
+    df = pd.read_csv(earnings_path, sep="\t")
+    if 'Earnings Date' not in df.columns:
+      return ""
+    df['Date_Parsed'] = pd.to_datetime(df['Earnings Date'],
+                                       errors='coerce',
+                                       utc=True)
+    today = pd.to_datetime(datetime.datetime.now().date(), utc=True)
+    past_earnings = df[df['Date_Parsed'] <= today].sort_values('Date_Parsed',
+                                                               ascending=False)
+    if not past_earnings.empty:
+      return past_earnings.iloc[0]['Earnings Date'].split()[0]
+  except Exception as e:
+    pass
+  return ""
+
+
 def plot_portfolio_allocation_bar(df: pd.DataFrame, out_path: str):
   """Generates a horizontal bar chart of the portfolio allocation."""
   if df.empty:
