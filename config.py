@@ -81,7 +81,7 @@ SECTORS = {
         "NVDA", "AMD", "INTC", "TSM", "ASML", "MU", "MPWR", "AVGO", "SMH",
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
-        "STM", "TTDKY", "TTMI"
+        "STM", "TTDKY", "TTMI", "SOXX"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
@@ -104,11 +104,11 @@ SECTORS = {
     "Crypto & Minerals": [
         "BTC-USD", "ETH-USD", "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM",
         "GOLD", "PAAS", "FCX", "SCCO", "VALE", "RIO", "BHP", "BMNR", "BITF",
-        "HUT", "CAT", "IBIT", "GLDM", "SOL-USD", "ALB", "SQM"
+        "HUT", "CAT", "IBIT", "GLDM", "SOL-USD", "ALB", "SQM", "CF", "MEOH"
     ],
     "Data Center & Infra": [
         "EQIX", "DLR", "AMT", "CCI", "VRT", "ANET", "IRM", "BX", "SCHH",
-        "MOD", "CORZ", "IREN", "WULF"
+        "MOD", "CORZ", "IREN", "WULF", "GLW"
     ],
     "Shipping & Logistics": [
         "ZIM", "FDX", "UPS", "MATX", "GSL", "DAC", "SBLK", "BDRY", "AMKBY",
@@ -116,18 +116,18 @@ SECTORS = {
     ],
     "Bio & MedTech": [
         "NVO", "LLY", "ISRG", "VRTX", "REGN", "SYK", "VHT", "AMGN", "ABBV",
-        "PFE", "MRK", "JNJ", "BSX", "MDT", "TMO"
+        "PFE", "MRK", "JNJ", "BSX", "MDT", "TMO", "MRNA", "PPH"
     ],
     "Water & Desalination": [
         "AWK", "XYL", "CWCO", "AWX", "DD",
     ],
     "Consumer & Finance": [
         "CMG", "WMT", "COST", "DE", "BLK", "V", "MA", "JPM", "VDC", "HD",
-        "LOW", "PG", "KO", "GS", "MS", "BAC", "O", "PLD"
+        "LOW", "PG", "KO", "GS", "MS", "BAC", "O", "PLD", "DIS"
     ],
     "Broad Market & Intl ETFs": [
         "VOO", "VTI", "VTSAX", "SCHG", "VUG", "VIGAX", "SCHV", "VTV",
-        "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM"
+        "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM", "VAW"
     ],
     "Mutual Funds": [
         "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"

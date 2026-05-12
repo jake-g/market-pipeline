@@ -161,6 +161,13 @@ if __name__ == "__main__":
 
   logger.info(f"Found {len(target_files)} portfolios to process.")
 
+  # Extract all tickers from config
+  config_tickers = set()
+  for sector_tickers in config.SECTORS.values():
+    config_tickers.update(sector_tickers)
+
+  missing_tickers = set()
+
   for filepath in target_files:
     base_name = os.path.basename(filepath)
     output_path = filepath
@@ -172,8 +179,22 @@ if __name__ == "__main__":
       # Overwrite the original TSV with the appended metrics columns
       enriched_df.to_csv(output_path, sep='\t', index=False)
       logger.info(f"Successfully appended metrics and saved: {base_name}")
+
+      # Check for missing tickers in combined portfolios
+      if base_name in [
+          "_combined_active_portfolio.tsv", "_combined_portfolio.tsv"
+      ]:
+        portfolio_tickers = set(enriched_df['Ticker'].dropna().unique())
+        # Exclude 'CASH' as it is a special marker
+        portfolio_tickers.discard('CASH')
+        missing = portfolio_tickers - config_tickers
+        missing_tickers.update(missing)
     else:
       logger.error(
           f"Failed to process or returned empty dataframe for: {base_name}")
 
   logger.info("Batch Processing Complete.")
+
+  if missing_tickers:
+    print(f"\n⚠️ Tickers in combined portfolio not in config.py: "
+          f"{', '.join(sorted(list(missing_tickers)))}")
