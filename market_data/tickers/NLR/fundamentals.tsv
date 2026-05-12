@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	168.12
 allTimeLow	27.72
-ask	144.49
-askSize	100
-averageDailyVolume10Day	400600
-averageDailyVolume3Month	437563
-averageVolume	437563
-averageVolume10days	400600
+ask	146.05
+askSize	600
+averageDailyVolume10Day	447030
+averageDailyVolume3Month	441123
+averageVolume	441123
+averageVolume10days	447030
 beta3Year	1.21
-bid	144.13
+bid	145.6
 bidSize	100
 category	Natural Resources
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	149.3
-dayLow	143.31
+dayHigh	147.565
+dayLow	140.94
 dividendYield	2.19
 epsTrailingTwelveMonths	5.2271857
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	139.9996
-fiftyDayAverageChange	4.140396
-fiftyDayAverageChangePercent	0.029574342
-fiftyTwoWeekChangePercent	79.25775
+fiftyDayAverage	139.6866
+fiftyDayAverageChange	5.963394
+fiftyDayAverageChangePercent	0.04269124
+fiftyTwoWeekChangePercent	65.9755
 fiftyTwoWeekHigh	168.12
-fiftyTwoWeekHighChange	-23.979996
-fiftyTwoWeekHighChangePercent	-0.1426362
-fiftyTwoWeekLow	83.01
-fiftyTwoWeekLowChange	61.129997
-fiftyTwoWeekLowChangePercent	0.73641723
-fiftyTwoWeekRange	83.01 - 168.12
+fiftyTwoWeekHighChange	-22.470001
+fiftyTwoWeekHighChangePercent	-0.13365455
+fiftyTwoWeekLow	84.57
+fiftyTwoWeekLowChange	61.079994
+fiftyTwoWeekLowChangePercent	0.7222419
+fiftyTwoWeekRange	84.57 - 168.12
 firstTradeDateMilliseconds	1187184600000
-fiveYearAverageReturn	0.2531229
+fiveYearAverageReturn	0.23478849
 fullExchangeName	NYSEArca
 fundFamily	VanEck
 fundInceptionDate	1186963200
@@ -49,50 +49,50 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund normally invests at least 80% of its total assets in securities that comprise the fund's benchmark index. The index includes equity securities and depositary receipts issued by companies involved in uranium and nuclear energy. The fund is non-diversified.
 longName	VanEck Uranium and Nuclear ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_36373120
-navPrice	147.93
+navPrice	141.56
 netAssets	5147035600.0
 netExpenseRatio	0.52
-open	148.45
+open	142.73
 phone	888-658-8287
-postMarketChange	1.8600006
-postMarketChangePercent	1.2904125
-postMarketPrice	146.0
-postMarketTime	1778189660
-previousClose	149.25
+postMarketChange	0.3400116
+postMarketChangePercent	0.23344429
+postMarketPrice	145.99
+postMarketTime	1778543704
+previousClose	140.88
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-5.11
-regularMarketChangePercent	-3.42379
-regularMarketDayHigh	149.3
-regularMarketDayLow	143.31
-regularMarketDayRange	143.31 - 149.3
-regularMarketOpen	148.45
-regularMarketPreviousClose	149.25
-regularMarketPrice	144.14
-regularMarketTime	1778184000
-regularMarketVolume	827089
+regularMarketChange	4.76999
+regularMarketChangePercent	3.38585
+regularMarketDayHigh	147.565
+regularMarketDayLow	140.94
+regularMarketDayRange	140.94 - 147.565
+regularMarketOpen	142.73
+regularMarketPreviousClose	140.88
+regularMarketPrice	145.65
+regularMarketTime	1778529600
+regularMarketVolume	582528
 shortName	VanEck Uranium and Nuclear ETF
 sourceInterval	15
 symbol	NLR
-threeYearAverageReturn	0.4138462
+threeYearAverageReturn	0.3861238
 totalAssets	5147035648
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	27.575068
+trailingPE	27.863941
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-4.00929
 trailingThreeMonthReturns	-4.00929
 triggerable	True
-twoHundredDayAverage	135.6578
-twoHundredDayAverageChange	8.482193
-twoHundredDayAverageChangePercent	0.06252639
+twoHundredDayAverage	135.9174
+twoHundredDayAverageChange	9.73259
+twoHundredDayAverageChangePercent	0.07160665
 typeDisp	ETF
-volume	827089
+volume	582528
 yield	0.0219
 ytdReturn	16.96999

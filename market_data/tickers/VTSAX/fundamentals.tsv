@@ -2,7 +2,7 @@ Metric	Value
 address1	Valley Forge, PA 19482
 address2	PO Box 2600
 address3	Vanguard Index Funds
-allTimeHigh	176.23
+allTimeHigh	176.69
 allTimeLow	16.43
 annualHoldingsTurnover	0.03
 annualReportExpenseRatio	0.0004
@@ -26,17 +26,17 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	163.9318
-fiftyDayAverageChange	12.2982025
-fiftyDayAverageChangePercent	0.07502024
-fiftyTwoWeekChangePercent	30.155098
-fiftyTwoWeekHigh	176.23
-fiftyTwoWeekHighChange	0.0
-fiftyTwoWeekHighChangePercent	0.0
-fiftyTwoWeekLow	135.32
-fiftyTwoWeekLowChange	40.90999
-fiftyTwoWeekLowChangePercent	0.30232033
-fiftyTwoWeekRange	135.32 - 176.23
+fiftyDayAverage	164.329
+fiftyDayAverageChange	12.661011
+fiftyDayAverageChangePercent	0.07704672
+fiftyTwoWeekChangePercent	26.387691
+fiftyTwoWeekHigh	176.69
+fiftyTwoWeekHighChange	0.30000305
+fiftyTwoWeekHighChangePercent	0.0016979062
+fiftyTwoWeekLow	138.71
+fiftyTwoWeekLowChange	38.28
+fiftyTwoWeekLowChangePercent	0.27597144
+fiftyTwoWeekRange	138.71 - 176.69
 financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
 fullExchangeName	Nasdaq
@@ -50,7 +50,7 @@ longBusinessSummary	The fund manager employs an indexing investment approach des
 longName	Vanguard Total Stock Mkt Idx Adm
 market	us_market
 marketCap	1445106810880
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_6184536
 morningStarOverallRating	3
@@ -58,17 +58,17 @@ morningStarRiskRating	4
 netAssets	2202624330000.0
 netExpenseRatio	0.04
 phone	800-523-1036
-previousClose	173.73999
+previousClose	176.69
 priceHint	2
-priceToBook	1.2632432
+priceToBook	1.2686911
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	2.49
-regularMarketChangePercent	1.433176
-regularMarketPreviousClose	173.73999
-regularMarketPrice	176.23
-regularMarketTime	1778155820
+regularMarketChange	0.3
+regularMarketChangePercent	0.1697889
+regularMarketPreviousClose	176.69
+regularMarketPrice	176.99
+regularMarketTime	1778544509
 sharesOutstanding	8468250112
 shortName	Vanguard Total Stock Market Ind
 sourceInterval	15
@@ -76,14 +76,14 @@ symbol	VTSAX
 totalAssets	2202624327680
 tradeable	False
 trailingAnnualDividendRate	2.802
-trailingAnnualDividendYield	0.016127547
-trailingPE	28.306557
+trailingAnnualDividendYield	0.015858283
+trailingPE	28.428633
 trailingPegRatio	None
 trailingThreeMonthReturns	4.32128
 triggerable	False
-twoHundredDayAverage	161.32675
-twoHundredDayAverageChange	14.903244
-twoHundredDayAverageChangePercent	0.09237925
+twoHundredDayAverage	161.57256
+twoHundredDayAverageChange	15.41745
+twoHundredDayAverageChangePercent	0.09542122
 typeDisp	Fund
 yield	0.0105
 ytdReturn	5.97048

@@ -1,37 +1,37 @@
 Metric	Value
-52WeekChange	44.125046
-allTimeHigh	25850.19
+52WeekChange	40.29615
+allTimeHigh	26248.62
 allTimeLow	54.87
 ask	0.0
 askSize	0
-averageDailyVolume10Day	8235243000
-averageDailyVolume3Month	8802942131
-averageVolume	8802942131
-averageVolume10days	8235243000
+averageDailyVolume10Day	8288879000
+averageDailyVolume3Month	8817683333
+averageVolume	8817683333
+averageVolume10days	8288879000
 bid	0.0
 bidSize	0
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	26036.379
-dayLow	25713.646
+dayHigh	26359.309
+dayLow	26129.828
 esgPopulated	False
 exchange	NIM
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
-fiftyDayAverage	23082.498
-fiftyDayAverageChange	2723.6973
-fiftyDayAverageChangePercent	0.11799838
-fiftyTwoWeekChangePercent	44.125046
-fiftyTwoWeekHigh	26036.379
-fiftyTwoWeekHighChange	-230.1836
-fiftyTwoWeekHighChangePercent	-0.008840845
-fiftyTwoWeekLow	17776.0
-fiftyTwoWeekLowChange	8030.1953
-fiftyTwoWeekLowChangePercent	0.45174366
-fiftyTwoWeekRange	17776.0 - 26036.379
+fiftyDayAverage	23202.955
+fiftyDayAverageChange	3071.17
+fiftyDayAverageChangePercent	0.13236116
+fiftyTwoWeekChangePercent	40.29615
+fiftyTwoWeekHigh	26359.309
+fiftyTwoWeekHighChange	-85.18359
+fiftyTwoWeekHighChangePercent	-0.0032316323
+fiftyTwoWeekLow	18472.71
+fiftyTwoWeekLowChange	7801.414
+fiftyTwoWeekLowChangePercent	0.42232102
+fiftyTwoWeekRange	18472.71 - 26359.309
 firstTradeDateMilliseconds	34612200000
 fullExchangeName	Nasdaq GIDS
 gmtOffSetMilliseconds	-14400000
@@ -39,33 +39,33 @@ hasPrePostMarketData	False
 language	en-US
 longName	NASDAQ Composite
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXIXIC
-open	25881.305
-previousClose	25838.943
+open	26135.633
+previousClose	26247.076
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	-32.748047
-regularMarketChangePercent	-0.12673911
-regularMarketDayHigh	26036.379
-regularMarketDayLow	25713.646
-regularMarketDayRange	25713.646 - 26036.379
-regularMarketOpen	25881.305
-regularMarketPreviousClose	25838.943
-regularMarketPrice	25806.195
-regularMarketTime	1778188559
-regularMarketVolume	8046336000
+regularMarketChange	27.048828
+regularMarketChangePercent	0.103054635
+regularMarketDayHigh	26359.309
+regularMarketDayLow	26129.828
+regularMarketDayRange	26129.828 - 26359.309
+regularMarketOpen	26135.633
+regularMarketPreviousClose	26247.076
+regularMarketPrice	26274.125
+regularMarketTime	1778534159
+regularMarketVolume	10969151000
 shortName	NASDAQ Composite
 sourceInterval	15
 symbol	^IXIC
 tradeable	False
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	22776.26
-twoHundredDayAverageChange	3029.9355
-twoHundredDayAverageChangePercent	0.13303043
+twoHundredDayAverage	22826.96
+twoHundredDayAverageChange	3447.164
+twoHundredDayAverageChangePercent	0.15101284
 typeDisp	Index
-volume	8046336000
+volume	10969151000

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.12625873
-SandP52WeekChange	0.3003528
+52WeekChange	-0.09862661
+SandP52WeekChange	0.26603174
 address1	8020 Katy Freeway
 allTimeHigh	209.87
 allTimeLow	1.0
-ask	91.35
-askSize	300
+ask	92.0
+askSize	200
 auditRisk	2
 averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	3035040
-averageDailyVolume3Month	3182580
-averageVolume	3182580
-averageVolume10days	3035040
+averageDailyVolume10Day	3084880
+averageDailyVolume3Month	3188820
+averageVolume	3188820
+averageVolume10days	3084880
 beta	0.949
-bid	91.19
-bidSize	500
+bid	83.35
+bidSize	700
 boardRisk	1
 bookValue	-4.404
 city	Houston
@@ -25,16 +25,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	91.07
+currentPrice	90.67
 currentRatio	0.267
 customPriceAlertConfidence	HIGH
 dateShortInterest	1776211200
-dayHigh	91.35
-dayLow	89.885
-discount_to_intrinsic_value	-355.15
+dayHigh	92.305
+dayLow	90.45
+discount_to_intrinsic_value	-348.04
 dividendDate	1774915200
 dividendRate	4.25
-dividendYield	4.71
+dividendYield	4.69
 earningsCallTimestampEnd	1776889800
 earningsCallTimestampStart	1776889800
 earningsTimestamp	1776888000
@@ -42,9 +42,9 @@ earningsTimestampEnd	1784750400
 earningsTimestampStart	1784750400
 ebitda	2729999872
 ebitdaMargins	0.64799005
-enterpriseToEbitda	25.336
-enterpriseToRevenue	16.418
-enterpriseValue	69168644096
+enterpriseToEbitda	25.42
+enterpriseToRevenue	16.472
+enterpriseValue	69397102592
 epsCurrentYear	2.39917
 epsForward	2.96135
 epsTrailingTwelveMonths	2.37
@@ -57,35 +57,35 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	713 570 3100
-fiftyDayAverage	86.0098
-fiftyDayAverageChange	5.060196
-fiftyDayAverageChangePercent	0.05883278
-fiftyTwoWeekChangePercent	-12.625874
+fiftyDayAverage	86.1938
+fiftyDayAverageChange	4.4761963
+fiftyDayAverageChangePercent	0.051931765
+fiftyTwoWeekChangePercent	-9.862661
 fiftyTwoWeekHigh	115.76
-fiftyTwoWeekHighChange	-24.690002
-fiftyTwoWeekHighChangePercent	-0.21328613
+fiftyTwoWeekHighChange	-25.090004
+fiftyTwoWeekHighChangePercent	-0.21674156
 fiftyTwoWeekLow	75.96
-fiftyTwoWeekLowChange	15.110001
-fiftyTwoWeekLowChangePercent	0.19892049
+fiftyTwoWeekLowChange	14.709999
+fiftyTwoWeekLowChangePercent	0.19365455
 fiftyTwoWeekRange	75.96 - 115.76
 financialCurrency	USD
 firstTradeDateMilliseconds	903447000000
 fiveYearAvgDividendYield	4.89
-floatShares	435071320
+floatShares	435509247
 forwardEps	2.96135
-forwardPE	30.752867
+forwardPE	30.617792
 freeCashflow	1202875008
 fullExchangeName	NYSE
 fullTimeEmployees	1500
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1777593600
-graham_intrinsic_value	20.01
+graham_intrinsic_value	20.24
 grossMargins	0.73819
 grossProfits	3110000128
 hasPrePostMarketData	True
 heldPercentInsiders	0.00113
-heldPercentInstitutions	0.99224997
-impliedSharesOutstanding	436367346
+heldPercentInstitutions	1.07637
+impliedSharesOutstanding	436451983
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
 industryKey	reit-specialty
@@ -97,33 +97,33 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Crown Castle Inc. owns, operates and leases approximately 40,000 cell towers and approximately 90,000 route miles of fiber. It primarily supports small cells and fiber solutions across every major U.S. market. This nationwide portfolio of communications infrastructure connects cities and communities to essential data, technology and wireless service  bringing information, ideas and innovations to the people and businesses that need them. Crown Castle Inc. was incorporated in 1994 in Delaware, USA.
 longName	Crown Castle Inc.
 market	us_market
-marketCap	39739973632
-marketState	POST
+marketCap	39573098496
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_27198
 mostRecentQuarter	1774915200
-nameChangeDate	2026-05-07
+nameChangeDate	2026-05-11
 netIncomeToCommon	1039000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	38880330528
+nonDilutedMarketCap	39529456100
 numberOfAnalystOpinions	20
-open	90.0
+open	90.96
 operatingCashflow	2924999936
 operatingMargins	0.47722998
 overallRisk	4
 payoutRatio	1.7932
-pegRatio	1.47
+pegRatio	1.48
 phone	713 570 3000
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	91.07
-postMarketTime	1778187900
+postMarketChange	-0.33000183
+postMarketChangePercent	-0.36395922
+postMarketPrice	90.34
+postMarketTime	1778543848
 prevName	Crown Castle International Corp. (REIT)
-previousClose	90.24
-priceEpsCurrentYear	37.95896
+previousClose	90.57
+priceEpsCurrentYear	37.792236
 priceHint	2
-priceToBook	-20.678928
-priceToSalesTrailing12Months	9.432702
+priceToBook	-20.588102
+priceToSalesTrailing12Months	9.393092
 profitMargins	0.25136
 quickRatio	0.09
 quoteSourceName	Nasdaq Real Time Price
@@ -131,16 +131,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.09524
 region	US
-regularMarketChange	0.830002
-regularMarketChangePercent	0.919772
-regularMarketDayHigh	91.35
-regularMarketDayLow	89.885
-regularMarketDayRange	89.885 - 91.35
-regularMarketOpen	90.0
-regularMarketPreviousClose	90.24
-regularMarketPrice	91.07
-regularMarketTime	1778184002
-regularMarketVolume	2332021
+regularMarketChange	0.0999985
+regularMarketChangePercent	0.11041
+regularMarketDayHigh	92.305
+regularMarketDayLow	90.45
+regularMarketDayRange	90.45 - 92.305
+regularMarketOpen	90.96
+regularMarketPreviousClose	90.57
+regularMarketPrice	90.67
+regularMarketTime	1778529602
+regularMarketVolume	3169463
 returnOnAssets	0.04048
 returnOnEquity	-2.067
 revenueGrowth	-0.048
@@ -149,7 +149,7 @@ sector	Real Estate
 sectorDisp	Real Estate
 sectorKey	real-estate
 shareHolderRightsRisk	5
-sharesOutstanding	436367346
+sharesOutstanding	436451983
 sharesPercentSharesOut	0.024300002
 sharesShort	10585030
 sharesShortPreviousMonthDate	1773360000
@@ -170,15 +170,15 @@ totalDebt	29878999040
 totalRevenue	4212999936
 tradeable	False
 trailingAnnualDividendRate	4.25
-trailingAnnualDividendYield	0.047096632
+trailingAnnualDividendYield	0.04692503
 trailingEps	2.37
-trailingPE	38.426163
-trailingPegRatio	1.4535
+trailingPE	38.257385
+trailingPegRatio	1.4775
 triggerable	True
-twoHundredDayAverage	91.65025
-twoHundredDayAverageChange	-0.5802536
-twoHundredDayAverageChangePercent	-0.006331173
+twoHundredDayAverage	91.45855
+twoHundredDayAverageChange	-0.78855133
+twoHundredDayAverageChangePercent	-0.008621953
 typeDisp	Equity
-volume	2332021
+volume	3169463
 website	https://www.crowncastle.com
 zip	77024-1908

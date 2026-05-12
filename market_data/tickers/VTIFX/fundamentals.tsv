@@ -24,16 +24,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	28.921
-fiftyDayAverageChange	-0.041000366
-fiftyDayAverageChangePercent	-0.0014176677
-fiftyTwoWeekChangePercent	-2.1680236
+fiftyDayAverage	28.8978
+fiftyDayAverageChange	-0.09780121
+fiftyDayAverageChangePercent	-0.0033843825
+fiftyTwoWeekChangePercent	-1.7346919
 fiftyTwoWeekHigh	29.94
-fiftyTwoWeekHighChange	-1.0600014
-fiftyTwoWeekHighChangePercent	-0.035404187
+fiftyTwoWeekHighChange	-1.1400013
+fiftyTwoWeekHighChangePercent	-0.038076196
 fiftyTwoWeekLow	28.62
-fiftyTwoWeekLowChange	0.25999832
-fiftyTwoWeekLowChangePercent	0.009084498
+fiftyTwoWeekLowChange	0.1799984
+fiftyTwoWeekLowChangePercent	0.006289252
 fiftyTwoWeekRange	28.62 - 29.94
 firstTradeDateMilliseconds	1370352600000
 fullExchangeName	Nasdaq
@@ -46,23 +46,23 @@ lastDividendValue	0.2654
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the Bloomberg Global Aggregate ex-USD Float Adjusted RIC Capped Index (USD Hedged). This index provides a broad-based measure of the global, investment-grade, fixed-rate bond markets. It is non-diversified.
 longName	Vanguard Total Intl Bd Idx Institutional
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_204607725
 morningStarOverallRating	3
 morningStarRiskRating	3
 netAssets	117950480000.0
 netExpenseRatio	0.03
-previousClose	28.75
+previousClose	28.89
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	0.13
-regularMarketChangePercent	0.45217392
-regularMarketPreviousClose	28.75
-regularMarketPrice	28.88
-regularMarketTime	1778155820
+regularMarketChange	-0.09
+regularMarketChangePercent	-0.3115265
+regularMarketPreviousClose	28.89
+regularMarketPrice	28.8
+regularMarketTime	1778544509
 shortName	Vanguard Total International Bo
 sourceInterval	15
 symbol	VTIFX
@@ -73,9 +73,9 @@ trailingAnnualDividendYield	0.0
 trailingPegRatio	None
 trailingThreeMonthReturns	-0.5641
 triggerable	False
-twoHundredDayAverage	29.3607
-twoHundredDayAverageChange	-0.48070145
-twoHundredDayAverageChangePercent	-0.016372275
+twoHundredDayAverage	29.3533
+twoHundredDayAverageChange	-0.55330086
+twoHundredDayAverageChangePercent	-0.018849699
 typeDisp	Fund
 yield	0.042600002
 ytdReturn	-0.15335

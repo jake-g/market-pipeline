@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	1013920.0
 allTimeLow	11.33
-ask	26.92
-askSize	500
-averageDailyVolume10Day	3001260
-averageDailyVolume3Month	4710770
-averageVolume	4710770
-averageVolume10days	3001260
+ask	27.54
+askSize	1300
+averageDailyVolume10Day	2592430
+averageDailyVolume3Month	4734523
+averageVolume	4734523
+averageVolume10days	2592430
 beta3Year	60.71
-bid	26.78
-bidSize	200
+bid	27.25
+bidSize	500
 category	Trading--Miscellaneous
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	27.29
-dayLow	26.782
+dayHigh	27.5399
+dayLow	26.8712
 dividendYield	0.0
 esgPopulated	False
 exchange	BTS
@@ -25,19 +25,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	30.6438
-fiftyDayAverageChange	-3.7938004
-fiftyDayAverageChangePercent	-0.12380319
-fiftyTwoWeekChangePercent	-54.201187
-fiftyTwoWeekHigh	60.88
-fiftyTwoWeekHighChange	-34.03
-fiftyTwoWeekHighChangePercent	-0.5589684
+fiftyDayAverage	30.6548
+fiftyDayAverageChange	-3.2448006
+fiftyDayAverageChangePercent	-0.10584967
+fiftyTwoWeekChangePercent	-47.06458
+fiftyTwoWeekHigh	57.99
+fiftyTwoWeekHighChange	-30.580002
+fiftyTwoWeekHighChangePercent	-0.5273323
 fiftyTwoWeekLow	24.81
-fiftyTwoWeekLowChange	2.040001
-fiftyTwoWeekLowChangePercent	0.08222495
-fiftyTwoWeekRange	24.81 - 60.88
+fiftyTwoWeekLowChange	2.6000004
+fiftyTwoWeekLowChangePercent	0.10479647
+fiftyTwoWeekRange	24.81 - 57.99
 firstTradeDateMilliseconds	1294151400000
-fiveYearAverageReturn	-0.4684511
+fiveYearAverageReturn	-0.46197417
 fullExchangeName	Cboe US
 fundFamily	ProShares
 fundInceptionDate	1294012800
@@ -48,37 +48,37 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index seeks to offer exposure to market volatility through publicly traded futures markets and is designed to measure the implied volatility of the S&P 500 over 30 days in the future.
 longName	ProShares VIX Short-Term Futures ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_117792624
-navPrice	27.11
+navPrice	27.05
 netAssets	214781664.0
 netExpenseRatio	0.96
-open	26.87
+open	27.08
 phone	240-497-6400
-postMarketChange	0.20999908
-postMarketChangePercent	0.7821195
-postMarketPrice	27.06
-postMarketTime	1778189708
-previousClose	27.09
+postMarketChange	0.040000916
+postMarketChangePercent	0.14593548
+postMarketPrice	27.45
+postMarketTime	1778543893
+previousClose	27.05
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.24
-regularMarketChangePercent	-0.885935
-regularMarketDayHigh	27.29
-regularMarketDayLow	26.782
-regularMarketDayRange	26.782 - 27.29
-regularMarketOpen	26.87
-regularMarketPreviousClose	27.09
-regularMarketPrice	26.85
-regularMarketTime	1778184000
-regularMarketVolume	2532540
+regularMarketChange	0.360001
+regularMarketChangePercent	1.33087
+regularMarketDayHigh	27.5399
+regularMarketDayLow	26.8712
+regularMarketDayRange	26.8712 - 27.5399
+regularMarketOpen	27.08
+regularMarketPreviousClose	27.05
+regularMarketPrice	27.41
+regularMarketTime	1778529600
+regularMarketVolume	2415837
 shortName	VIX Short-Term Futures ETF
 sourceInterval	15
 symbol	VIXY
-threeYearAverageReturn	-0.4420935
+threeYearAverageReturn	-0.4392353
 totalAssets	214781664
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -87,10 +87,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	1.76281
 trailingThreeMonthReturns	1.76281
 triggerable	True
-twoHundredDayAverage	31.7496
-twoHundredDayAverageChange	-4.899599
-twoHundredDayAverageChangePercent	-0.15432003
+twoHundredDayAverage	31.5925
+twoHundredDayAverageChange	-4.182501
+twoHundredDayAverageChangePercent	-0.13238904
 typeDisp	ETF
-volume	2532540
+volume	2415837
 yield	0.0
 ytdReturn	5.46529
