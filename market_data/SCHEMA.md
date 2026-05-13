@@ -47,10 +47,10 @@ This report documents the file structures and column data types used in `market_
 |---|---|---|
 | Date | str | 2026-05-12 |
 | Source | str | Google |
-| Sentiment | float64 | 0.0 |
-| Headline | str | Amazon Upfront Brings Out Michael B. Jordan, Ch... |
-| Summary | str | Bank of America has added FedEx (NYSE:FDX) to i... |
-| URL | str | https://news.google.com/rss/articles/CBMioAFBVV... |
+| Sentiment | float64 | 0.6 |
+| Headline | str | Amazon's AI Chips Are Driving Growth. Here's Wh... |
+| Summary | str | EBay called GameStop's takeover bid 'neither cr... |
+| URL | str | https://news.google.com/rss/articles/CBMimAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
