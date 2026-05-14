@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	1.2564249
-SandP52WeekChange	0.26603174
+52WeekChange	1.0581074
+SandP52WeekChange	0.2581271
 address1	Iris House
 address2	7th floor, Flat/Office 740B 8, John Kennedy Street
 allTimeHigh	361.8
 allTimeLow	3.79
-ask	38.19
-askSize	600
+ask	36.92
+askSize	100
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	2068860
-averageDailyVolume3Month	3947268
-averageVolume	3947268
-averageVolume10days	2068860
+averageDailyVolume10Day	2483900
+averageDailyVolume3Month	3924449
+averageVolume	3924449
+averageVolume10days	2483900
 beta	0.049
-bid	38.14
-bidSize	600
+bid	36.92
+bidSize	300
 bookValue	11.281
 city	Limassol
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Lars H. Barstad', 'age': 54, 'title': 'Chief Executive Officer of Frontline Management AS', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 761000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Inger Marie Klemp', 'age': 61, 'title': 'Chief Financial Officer of Frontline Management AS', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 252000}, {'maxAge': 1, 'name': 'Marios  Saveriades', 'title': 'Secretary', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -23,18 +23,18 @@ corporateActions	[]
 country	Cyprus
 cryptoTradeable	False
 currency	USD
-currentPrice	38.15
+currentPrice	36.98
 currentRatio	1.43
 customPriceAlertConfidence	HIGH
-dateShortInterest	1776211200
-dayHigh	39.31
-dayLow	37.57
+dateShortInterest	1777507200
+dayHigh	37.61
+dayLow	36.66
 debtToEquity	122.178
-discount_to_intrinsic_value	61.81
+discount_to_intrinsic_value	62.31
 displayName	Frontline
 dividendDate	1773878400
 dividendRate	1.76
-dividendYield	4.45
+dividendYield	4.73
 earningsCallTimestampEnd	1772200800
 earningsCallTimestampStart	1772200800
 earningsGrowth	2.416
@@ -44,9 +44,9 @@ earningsTimestampEnd	1780057800
 earningsTimestampStart	1780057800
 ebitda	898118976
 ebitdaMargins	0.45703
-enterpriseToEbitda	12.589
-enterpriseToRevenue	5.754
-enterpriseValue	11306627072
+enterpriseToEbitda	12.351
+enterpriseToRevenue	5.645
+enterpriseValue	11092909056
 epsCurrentYear	5.44126
 epsForward	3.10061
 epsTrailingTwelveMonths	1.7
@@ -58,33 +58,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	35.1864
-fiftyDayAverageChange	2.9636002
-fiftyDayAverageChangePercent	0.08422572
-fiftyTwoWeekChangePercent	125.64249
+fiftyDayAverage	35.1696
+fiftyDayAverageChange	1.8103981
+fiftyDayAverageChangePercent	0.051476218
+fiftyTwoWeekChangePercent	105.81074
 fiftyTwoWeekHigh	39.89
-fiftyTwoWeekHighChange	-1.7399979
-fiftyTwoWeekHighChangePercent	-0.0436199
+fiftyTwoWeekHighChange	-2.9099998
+fiftyTwoWeekHighChangePercent	-0.07295061
 fiftyTwoWeekLow	16.25
-fiftyTwoWeekLowChange	21.900002
-fiftyTwoWeekLowChangePercent	1.3476924
+fiftyTwoWeekLowChange	20.73
+fiftyTwoWeekLowChangePercent	1.2756922
 fiftyTwoWeekRange	16.25 - 39.89
 financialCurrency	USD
 firstTradeDateMilliseconds	997104600000
 fiveYearAvgDividendYield	11.48
 floatShares	120775144
 forwardEps	3.10061
-forwardPE	12.304031
+forwardPE	11.926685
 freeCashflow	544334720
 fullExchangeName	NYSE
 fullTimeEmployees	85
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	99.9
+graham_intrinsic_value	98.11
 grossMargins	0.49488997
 grossProfits	972510016
 hasPrePostMarketData	True
 heldPercentInsiders	0.35786998
-heldPercentInstitutions	0.29429
+heldPercentInstitutions	0.30875
 impliedSharesOutstanding	222622890
 industry	Oil & Gas Midstream
 industryDisp	Oil & Gas Midstream
@@ -99,17 +99,17 @@ lastSplitFactor	1:5
 longBusinessSummary	Frontline plc, a shipping company, engages in the ownership and operation of oil and product tankers worldwide. The company owns and operates oil and product tankers, such as very large crude carriers (VLCCs), Suezmax tankers, and LR2/Aframax tankers. As of December 31, 2025, it operated a fleet of 80 vessels, including 41 VLCCs, 21 Suezmax tankers, and 18 LR2/Aframax tankers. The company is also involved in the charter, purchase, and sale of vessels. Frontline plc was founded in 1985 and is based in Limassol, Cyprus.
 longName	Frontline plc
 market	us_market
-marketCap	8493063680
-marketState	POSTPOST
+marketCap	8232594432
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_144797851
 mostRecentQuarter	1767139200
-nameChangeDate	2026-05-11
+nameChangeDate	2026-05-13
 netIncomeToCommon	379080992
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	8795830344
 numberOfAnalystOpinions	4
-open	39.155
+open	37.34
 operatingCashflow	682460032
 operatingMargins	0.44496
 payoutRatio	0.5471
@@ -120,28 +120,28 @@ postMarketChangePercent	0.8387934
 postMarketPrice	38.47
 postMarketTime	1778543669
 prevName	Frontline Ltd.
-previousClose	39.51
-priceEpsCurrentYear	7.0112443
+previousClose	37.19
+priceEpsCurrentYear	6.7962203
 priceHint	2
-priceToBook	3.3817925
-priceToSalesTrailing12Months	4.321941
+priceToBook	3.278078
+priceToSalesTrailing12Months	4.1893935
 profitMargins	0.19291
 quickRatio	1.095
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
-recommendationKey	buy
+recommendationKey	none
 recommendationMean	1.75
 region	US
-regularMarketChange	-1.36
-regularMarketChangePercent	-3.44216
-regularMarketDayHigh	39.31
-regularMarketDayLow	37.57
-regularMarketDayRange	37.57 - 39.31
-regularMarketOpen	39.155
-regularMarketPreviousClose	39.51
-regularMarketPrice	38.15
-regularMarketTime	1778529603
-regularMarketVolume	3085806
+regularMarketChange	-0.20999908
+regularMarketChangePercent	-0.5646655
+regularMarketDayHigh	37.61
+regularMarketDayLow	36.66
+regularMarketDayRange	36.66 - 37.61
+regularMarketOpen	37.34
+regularMarketPreviousClose	37.19
+regularMarketPrice	36.98
+regularMarketTime	1778774867
+regularMarketVolume	536599
 returnOnAssets	0.061880004
 returnOnEquity	0.15629
 revenueGrowth	0.467
@@ -150,13 +150,13 @@ sector	Energy
 sectorDisp	Energy
 sectorKey	energy
 sharesOutstanding	222622889
-sharesPercentSharesOut	0.0225
-sharesShort	5015499
-sharesShortPreviousMonthDate	1773360000
-sharesShortPriorMonth	3550670
+sharesPercentSharesOut	0.028299998
+sharesShort	6302120
+sharesShortPreviousMonthDate	1774915200
+sharesShortPriorMonth	3894748
 shortName	Frontline Plc
-shortPercentOfFloat	0.035
-shortRatio	1.35
+shortPercentOfFloat	0.044
+shortRatio	1.95
 sourceInterval	15
 symbol	FRO
 targetHighPrice	45.0
@@ -169,15 +169,15 @@ totalDebt	3067745024
 totalRevenue	1965104000
 tradeable	False
 trailingAnnualDividendRate	1.76
-trailingAnnualDividendYield	0.044545688
+trailingAnnualDividendYield	0.04732455
 trailingEps	1.7
-trailingPE	22.441177
+trailingPE	21.752941
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	26.69655
-twoHundredDayAverageChange	11.453451
-twoHundredDayAverageChangePercent	0.42902362
+twoHundredDayAverage	26.98315
+twoHundredDayAverageChange	9.996849
+twoHundredDayAverageChangePercent	0.37048486
 typeDisp	Equity
-volume	3085806
+volume	536599
 website	https://www.frontlineplc.cy
 zip	3106

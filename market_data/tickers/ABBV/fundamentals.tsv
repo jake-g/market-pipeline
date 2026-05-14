@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.060398817
-SandP52WeekChange	0.26603174
+52WeekChange	0.14762223
+SandP52WeekChange	0.2581271
 address1	1 North Waukegan Road
 allTimeHigh	244.81
 allTimeLow	33.33
-ask	203.51
+ask	211.56
 askSize	100
 auditRisk	6
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	6880560
-averageDailyVolume3Month	6924926
-averageVolume	6924926
-averageVolume10days	6880560
+averageDailyVolume10Day	6229920
+averageDailyVolume3Month	6823147
+averageVolume	6823147
+averageVolume10days	6229920
 beta	0.305
-bid	202.08
-bidSize	600
+bid	211.44
+bidSize	400
 boardRisk	5
 bookValue	-3.767
 city	North Chicago
@@ -25,17 +25,17 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	202.78
+currentPrice	211.715
 currentRatio	0.796
 customPriceAlertConfidence	HIGH
-dateShortInterest	1776211200
-dayHigh	205.309
-dayLow	202.01
-discount_to_intrinsic_value	-1064.12
+dateShortInterest	1777507200
+dayHigh	213.51
+dayLow	208.352
+discount_to_intrinsic_value	-1137.61
 displayName	AbbVie
 dividendDate	1778803200
 dividendRate	6.92
-dividendYield	3.43
+dividendYield	3.32
 earningsCallTimestampEnd	1777467600
 earningsCallTimestampStart	1777467600
 earningsGrowth	-0.462
@@ -45,10 +45,10 @@ earningsTimestampEnd	1785414600
 earningsTimestampStart	1785414600
 ebitda	29915000832
 ebitdaMargins	0.47621
-enterpriseToEbitda	14.028
-enterpriseToRevenue	6.68
-enterpriseValue	419662102528
-epsCurrentYear	14.24622
+enterpriseToEbitda	14.439
+enterpriseToRevenue	6.876
+enterpriseValue	431941287936
+epsCurrentYear	14.24684
 epsForward	16.21193
 epsTrailingTwelveMonths	2.04
 eps_normalized_growth	-0.20505884580421818
@@ -59,35 +59,35 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	212.3218
-fiftyDayAverageChange	-9.541794
-fiftyDayAverageChangePercent	-0.044940248
-fiftyTwoWeekChangePercent	6.0398817
+fiftyDayAverage	210.7006
+fiftyDayAverageChange	1.014389
+fiftyDayAverageChangePercent	0.004814362
+fiftyTwoWeekChangePercent	14.762222
 fiftyTwoWeekHigh	244.81
-fiftyTwoWeekHighChange	-42.03
-fiftyTwoWeekHighChangePercent	-0.17168416
+fiftyTwoWeekHighChange	-33.095
+fiftyTwoWeekHighChangePercent	-0.13518648
 fiftyTwoWeekLow	176.57
-fiftyTwoWeekLowChange	26.209991
-fiftyTwoWeekLowChangePercent	0.14843966
+fiftyTwoWeekLowChange	35.14499
+fiftyTwoWeekLowChangePercent	0.1990428
 fiftyTwoWeekRange	176.57 - 244.81
 financialCurrency	USD
 firstTradeDateMilliseconds	1357137000000
 fiveYearAvgDividendYield	3.62
 floatShares	1763683266
 forwardEps	16.21193
-forwardPE	12.508073
+forwardPE	13.059211
 freeCashflow	20811624448
 fullExchangeName	NYSE
 fullTimeEmployees	57000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1777593600
-graham_intrinsic_value	17.42
+graham_intrinsic_value	17.11
 grossMargins	0.72026
 grossProfits	45246001152
 hasPrePostMarketData	True
-heldPercentInsiders	0.00116
-heldPercentInstitutions	0.79913
-impliedSharesOutstanding	1768762377
+heldPercentInsiders	0.00112
+heldPercentInstitutions	0.78395
+impliedSharesOutstanding	1766792821
 industry	Drug Manufacturers - General
 industryDisp	Drug Manufacturers - General
 industryKey	drug-manufacturers-general
@@ -99,8 +99,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and therapies worldwide. The company offers Skyrizi to treat autoimmune diseases; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma; and Emrelis for the treatment of lung cancer. It also provides facial injectables, plastics and regenerative medicine, body contouring, and skincare products; botox Cosmetic for the treatment of glabellar lines, crow's feet, forehead lines, and platysma bands; Juvederm Collection to treat volume loss in the temples, undereye, cheeks, chin, lips and lower face; Vraylar to treat schizophrenia, bipolar disorder, and depressive disorder; Duodopa to treat Parkinson's disease; Ubrelvy to treat migraine; Qulipta for episodic and chronic migraine; and Vyalev for the treatment of motor fluctuations, as well as Botox Therapeutic to treat chronic migraine, overactive bladder, spasticity, cervical dystonia, and other conditions. In addition, the company offers Ozurdex for visual impairment; Lumigan/Ganfort and Alphagan/Combigan for the reduction of elevated intraocular pressure in patients with open angle glaucoma or ocular hypertension; and other eye care products, including Refresh/Optive, Xen, Durysta, and Restasis. Further, it provides Mavyret to treat chronic hepatitis C virus genotype 1-6 infection; Creon, a pancreatic enzyme therapy; and Linzess/Constella to treat irritable bowel syndrome with constipation and chronic idiopathic constipation. The company was incorporated in 2012 and is headquartered in North Chicago, Illinois.
 longName	AbbVie Inc.
 market	us_market
-marketCap	358669615104
-marketState	POSTPOST
+marketCap	374056550400
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_141885706
 mostRecentQuarter	1774915200
@@ -108,22 +108,22 @@ netIncomeToCommon	3595000064
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	356494057084
 numberOfAnalystOpinions	30
-open	202.01
+open	209.5
 operatingCashflow	21223999488
 operatingMargins	0.32156
 overallRisk	7
 payoutRatio	3.2598002
-pegRatio	0.56
+pegRatio	0.57
 phone	847 932 7900
 postMarketChange	0.7299957
 postMarketChangePercent	0.35999396
 postMarketPrice	203.51
 postMarketTime	1778543971
-previousClose	201.55
-priceEpsCurrentYear	14.233952
+previousClose	208.5
+priceEpsCurrentYear	14.860489
 priceHint	2
-priceToBook	-53.830635
-priceToSalesTrailing12Months	5.7095723
+priceToBook	-56.20255
+priceToSalesTrailing12Months	5.954513
 profitMargins	0.05786
 quickRatio	0.519
 quoteSourceName	Nasdaq Real Time Price
@@ -131,16 +131,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.75
 region	US
-regularMarketChange	1.23
-regularMarketChangePercent	0.610268
-regularMarketDayHigh	205.309
-regularMarketDayLow	202.01
-regularMarketDayRange	202.01 - 205.309
-regularMarketOpen	202.01
-regularMarketPreviousClose	201.55
-regularMarketPrice	202.78
-regularMarketTime	1778529603
-regularMarketVolume	3117367
+regularMarketChange	3.2149963
+regularMarketChangePercent	1.5419647
+regularMarketDayHigh	213.51
+regularMarketDayLow	208.352
+regularMarketDayRange	208.352 - 213.51
+regularMarketOpen	209.5
+regularMarketPreviousClose	208.5
+regularMarketPrice	211.715
+regularMarketTime	1778774319
+regularMarketVolume	1580807
 returnOnAssets	0.10032
 returnOnEquity	62.25
 revenueGrowth	0.124
@@ -149,14 +149,14 @@ sector	Healthcare
 sectorDisp	Healthcare
 sectorKey	healthcare
 shareHolderRightsRisk	9
-sharesOutstanding	1768762377
-sharesPercentSharesOut	0.0124
-sharesShort	21845453
-sharesShortPreviousMonthDate	1773360000
-sharesShortPriorMonth	25110220
+sharesOutstanding	1766792821
+sharesPercentSharesOut	0.0117999995
+sharesShort	20907964
+sharesShortPreviousMonthDate	1774915200
+sharesShortPriorMonth	20125180
 shortName	AbbVie Inc.
-shortPercentOfFloat	0.0137
-shortRatio	3.06
+shortPercentOfFloat	0.013200001
+shortRatio	3.02
 sourceInterval	15
 state	IL
 symbol	ABBV
@@ -170,15 +170,15 @@ totalDebt	72912003072
 totalRevenue	62819000320
 tradeable	False
 trailingAnnualDividendRate	6.74
-trailingAnnualDividendYield	0.033440832
+trailingAnnualDividendYield	0.03232614
 trailingEps	2.04
-trailingPE	99.40196
+trailingPE	103.78186
 trailingPegRatio	0.5556
 triggerable	True
-twoHundredDayAverage	218.33495
-twoHundredDayAverageChange	-15.554947
-twoHundredDayAverageChangePercent	-0.0712435
+twoHundredDayAverage	218.5825
+twoHundredDayAverageChange	-6.867508
+twoHundredDayAverageChangePercent	-0.03141838
 typeDisp	Equity
-volume	3117367
+volume	1580807
 website	https://www.abbvie.com
 zip	60064-6400

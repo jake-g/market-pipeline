@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.0069407225
-SandP52WeekChange	0.26603174
+52WeekChange	-0.027191997
+SandP52WeekChange	0.2581271
 address1	241 18th Street South
 address2	Suite 650
 allTimeHigh	417.86
 allTimeLow	16.98
-ask	166.81
-askSize	5
+ask	206.72
+askSize	2
 auditRisk	5
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	1107550
-averageDailyVolume3Month	1614146
-averageVolume	1614146
-averageVolume10days	1107550
+averageDailyVolume10Day	1263880
+averageDailyVolume3Month	1622078
+averageVolume	1622078
+averageVolume10days	1263880
 beta	1.355
-bid	166.08
-bidSize	5
+bid	159.01
+bidSize	2
 boardRisk	6
 bookValue	85.937
 city	Arlington
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	166.45
+currentPrice	163.8
 currentRatio	5.51
 customPriceAlertConfidence	HIGH
-dateShortInterest	1776211200
-dayHigh	168.3363
-dayLow	158.3
+dateShortInterest	1777507200
+dayHigh	165.99
+dayLow	160.0
 debtToEquity	19.335
 displayName	AeroVironment
 earningsCallTimestampEnd	1773174600
@@ -41,34 +41,34 @@ earningsTimestampEnd	1782244800
 earningsTimestampStart	1782244800
 ebitda	151164992
 ebitdaMargins	0.09388
-enterpriseToEbitda	56.319
-enterpriseToRevenue	5.287
-enterpriseValue	8513529856
+enterpriseToEbitda	54.524
+enterpriseToRevenue	5.118
+enterpriseValue	8242099200
 epsCurrentYear	2.88073
 epsForward	4.05076
-epsTrailingTwelveMonths	-4.34
+epsTrailingTwelveMonths	-4.35
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	198.7282
-fiftyDayAverageChange	-32.2782
-fiftyDayAverageChangePercent	-0.16242385
-fiftyTwoWeekChangePercent	0.69407225
+fiftyDayAverage	194.8768
+fiftyDayAverageChange	-31.076797
+fiftyDayAverageChangePercent	-0.15946895
+fiftyTwoWeekChangePercent	-2.7191997
 fiftyTwoWeekHigh	417.86
-fiftyTwoWeekHighChange	-251.40999
-fiftyTwoWeekHighChangePercent	-0.60166085
-fiftyTwoWeekLow	158.3
-fiftyTwoWeekLowChange	8.149994
-fiftyTwoWeekLowChangePercent	0.051484484
-fiftyTwoWeekRange	158.3 - 417.86
+fiftyTwoWeekHighChange	-254.05998
+fiftyTwoWeekHighChangePercent	-0.60800266
+fiftyTwoWeekLow	156.0
+fiftyTwoWeekLowChange	7.800003
+fiftyTwoWeekLowChangePercent	0.05000002
+fiftyTwoWeekRange	156.0 - 417.86
 financialCurrency	USD
 firstTradeDateMilliseconds	1169562600000
 floatShares	37411676
 forwardEps	4.05076
-forwardPE	41.091057
+forwardPE	40.43686
 freeCashflow	-304053504
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1456
@@ -77,8 +77,8 @@ governanceEpochDate	1777593600
 grossMargins	0.25004998
 grossProfits	402648992
 hasPrePostMarketData	True
-heldPercentInsiders	0.0076200003
-heldPercentInstitutions	0.94096
+heldPercentInsiders	0.0076599997
+heldPercentInstitutions	0.89935994
 impliedSharesOutstanding	50605071
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -89,8 +89,8 @@ lastFiscalYearEnd	1745971200
 longBusinessSummary	AeroVironment, Inc. designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services for government agencies and businesses in the United States and internationally. It operates in two segments, Autonomous Systems; and Space, Cyber and Directed Energy. The company provides uncrewed aircraft systems (UAS), which include small and medium UAS, and kinesis command and control software; and counter-UAS and precision strike, a loitering munitions solution that deliver actionable intelligence and precision firepower modern warfighters, including precision strike, radio frequency and kinetic C-UAS, and electronic warfare systems. It also offers autonomy, AI, and platform technologies; unmanned maritime; uncrewed ground systems; and high-altitude pseudo-satellites. The company provides digital beamforming technology, a multi-band/beam software defined antenna tile that allows simultaneous communication with multiple satellites; laser communications, a data transmission systems for space operations; space-qualified hardware for line of sight stabilization and control electronics in low, medium, and geostationary earth orbit, as well as cislunar orbits; phased array antenna technology to supports hypersonic telemetry and tracking, and other missile testing; and directed energy solution. It also offers cyber solution for national security and defense operations; and HaloCortex OSINT, an AI-powered OSINT analysis platform to provide insights and solve department of defense and commercial challenges. AeroVironment, Inc. was incorporated in 1971 and is headquartered in Arlington, Virginia.
 longName	AeroVironment, Inc.
 market	us_market
-marketCap	8423214080
-marketState	POSTPOST
+marketCap	8289111040
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_1674636
 mostRecentQuarter	1769817600
@@ -98,7 +98,7 @@ netIncomeToCommon	-224360000
 nextFiscalYearEnd	1777507200
 nonDilutedMarketCap	8516327398
 numberOfAnalystOpinions	17
-open	164.65
+open	160.005
 operatingCashflow	-174180992
 operatingMargins	-0.051149998
 overallRisk	4
@@ -109,11 +109,11 @@ postMarketChange	-0.20999146
 postMarketChangePercent	-0.12615888
 postMarketPrice	166.24
 postMarketTime	1778543932
-previousClose	168.29
-priceEpsCurrentYear	57.780495
+previousClose	160.99
+priceEpsCurrentYear	56.86059
 priceHint	2
-priceToBook	1.936884
-priceToSalesTrailing12Months	5.230903
+priceToBook	1.9060476
+priceToSalesTrailing12Months	5.147624
 profitMargins	-0.13933
 quickRatio	4.396
 quoteSourceName	Nasdaq Real Time Price
@@ -121,16 +121,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.63158
 region	US
-regularMarketChange	-1.84
-regularMarketChangePercent	-1.09335
-regularMarketDayHigh	168.3363
-regularMarketDayLow	158.3
-regularMarketDayRange	158.3 - 168.3363
-regularMarketOpen	164.65
-regularMarketPreviousClose	168.29
-regularMarketPrice	166.45
-regularMarketTime	1778529601
-regularMarketVolume	1380789
+regularMarketChange	2.8099976
+regularMarketChangePercent	1.7454485
+regularMarketDayHigh	165.99
+regularMarketDayLow	160.0
+regularMarketDayRange	160.0 - 165.99
+regularMarketOpen	160.005
+regularMarketPreviousClose	160.99
+regularMarketPrice	163.8
+regularMarketTime	1778774365
+regularMarketVolume	370283
 returnOnAssets	-0.012619999
 returnOnEquity	-0.08741
 revenueGrowth	1.434
@@ -140,13 +140,13 @@ sectorDisp	Industrials
 sectorKey	industrials
 shareHolderRightsRisk	4
 sharesOutstanding	50605071
-sharesPercentSharesOut	0.0863
-sharesShort	4365055
-sharesShortPreviousMonthDate	1773360000
-sharesShortPriorMonth	3838211
+sharesPercentSharesOut	0.0892
+sharesShort	4515039
+sharesShortPreviousMonthDate	1774915200
+sharesShortPriorMonth	4617063
 shortName	AeroVironment, Inc.
-shortPercentOfFloat	0.114300005
-shortRatio	3.6
+shortPercentOfFloat	0.1182
+shortRatio	4.16
 sourceInterval	15
 state	VA
 symbol	AVAV
@@ -161,13 +161,13 @@ totalRevenue	1610279040
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-4.34
+trailingEps	-4.35
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	268.6147
-twoHundredDayAverageChange	-102.16469
-twoHundredDayAverageChangePercent	-0.38033918
+twoHundredDayAverage	267.02264
+twoHundredDayAverageChange	-103.22264
+twoHundredDayAverageChangePercent	-0.38656887
 typeDisp	Equity
-volume	1380789
+volume	370283
 website	https://www.avinc.com
 zip	22202

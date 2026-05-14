@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	5.7212644
-SandP52WeekChange	0.26603174
+52WeekChange	5.568182
+SandP52WeekChange	0.2581271
 address1	9 Federal Street
 allTimeHigh	43.98
 allTimeLow	0.54
-ask	25.06
-askSize	122
+ask	24.0
+askSize	14
 auditRisk	9
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	32694580
-averageDailyVolume3Month	31977996
-averageVolume	31977996
-averageVolume10days	32694580
+averageDailyVolume10Day	31536950
+averageDailyVolume3Month	31288321
+averageVolume	31288321
+averageVolume10days	31536950
 beta	4.284
-bid	17.43
-bidSize	1
+bid	17.13
+bidSize	2
 boardRisk	8
 bookValue	0.334
 city	Easton
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	23.37
+currentPrice	23.785
 currentRatio	1.202
 customPriceAlertConfidence	HIGH
-dateShortInterest	1776211200
-dayHigh	24.36
-dayLow	22.12
+dateShortInterest	1777507200
+dayHigh	23.88
+dayLow	22.88
 debtToEquity	3699.474
 displayName	TeraWulf
 earningsCallTimestampEnd	1778241600
@@ -40,11 +40,11 @@ earningsTimestampEnd	1786019400
 earningsTimestampStart	1786019400
 ebitda	-144763008
 ebitdaMargins	-0.86137
-enterpriseToEbitda	-87.168
-enterpriseToRevenue	75.083
-enterpriseValue	12618652672
-epsCurrentYear	-0.5575
-epsForward	0.235
+enterpriseToEbitda	-97.69
+enterpriseToRevenue	84.147
+enterpriseValue	14141940736
+epsCurrentYear	-0.43
+epsForward	0.3
 epsTrailingTwelveMonths	-2.51
 esgPopulated	False
 exchange	NCM
@@ -52,23 +52,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	17.8638
-fiftyDayAverageChange	5.506201
-fiftyDayAverageChangePercent	0.30823234
-fiftyTwoWeekChangePercent	572.12646
+fiftyDayAverage	18.31
+fiftyDayAverageChange	5.4750004
+fiftyDayAverageChangePercent	0.29901695
+fiftyTwoWeekChangePercent	556.8182
 fiftyTwoWeekHigh	25.76
-fiftyTwoWeekHighChange	-2.3899994
-fiftyTwoWeekHighChangePercent	-0.09277948
-fiftyTwoWeekLow	3.09
-fiftyTwoWeekLowChange	20.28
-fiftyTwoWeekLowChangePercent	6.563107
-fiftyTwoWeekRange	3.09 - 25.76
+fiftyTwoWeekHighChange	-1.9750004
+fiftyTwoWeekHighChangePercent	-0.07666927
+fiftyTwoWeekLow	3.31
+fiftyTwoWeekLowChange	20.475
+fiftyTwoWeekLowChangePercent	6.185801
+fiftyTwoWeekRange	3.31 - 25.76
 financialCurrency	USD
 firstTradeDateMilliseconds	765552600000
-floatShares	329311992
-forwardEps	0.235
-forwardPE	99.446815
-freeCashflow	-78431128
+floatShares	383918872
+forwardEps	0.3
+forwardPE	79.28333
+freeCashflow	-284243616
 fullExchangeName	NasdaqCM
 fullTimeEmployees	141
 gmtOffSetMilliseconds	-14400000
@@ -76,9 +76,9 @@ governanceEpochDate	1777593600
 grossMargins	0.64018995
 grossProfits	107591000
 hasPrePostMarketData	True
-heldPercentInsiders	0.22635001
-heldPercentInstitutions	0.80674005
-impliedSharesOutstanding	492634856
+heldPercentInsiders	0.22734
+heldPercentInstitutions	0.77524
+impliedSharesOutstanding	495532645
 industry	Capital Markets
 industryDisp	Capital Markets
 industryKey	capital-markets
@@ -92,8 +92,8 @@ lastSplitFactor	3:2
 longBusinessSummary	TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States. It also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy. The company was founded in 2021 and is headquartered in Easton, Maryland.
 longName	TeraWulf Inc.
 market	us_market
-marketCap	11512877056
-marketState	POSTPOST
+marketCap	11786244096
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_1671971858
 mostRecentQuarter	1774915200
@@ -101,9 +101,9 @@ netIncomeToCommon	-1027632000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	11525192456
 numberOfAnalystOpinions	12
-open	23.075
+open	23.25
 operatingCashflow	-197258000
-operatingMargins	-4.01167
+operatingMargins	-3.6618
 overallRisk	8
 payoutRatio	0.0
 phone	410 770 9500
@@ -111,11 +111,11 @@ postMarketChange	0.067798615
 postMarketChangePercent	0.2901096
 postMarketPrice	23.4378
 postMarketTime	1778543996
-previousClose	23.39
-priceEpsCurrentYear	-41.919285
+previousClose	23.12
+priceEpsCurrentYear	-55.313953
 priceHint	2
-priceToBook	69.97006
-priceToSalesTrailing12Months	68.503746
+priceToBook	71.21258
+priceToSalesTrailing12Months	70.13033
 profitMargins	0.0
 quickRatio	1.105
 quoteSourceName	Nasdaq Real Time Price
@@ -123,17 +123,17 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.45455
 region	US
-regularMarketChange	-0.0199986
-regularMarketChangePercent	-0.0855004
-regularMarketDayHigh	24.36
-regularMarketDayLow	22.12
-regularMarketDayRange	22.12 - 24.36
-regularMarketOpen	23.075
-regularMarketPreviousClose	23.39
-regularMarketPrice	23.37
-regularMarketTime	1778529601
-regularMarketVolume	25184577
-returnOnAssets	-0.03609
+regularMarketChange	0.664999
+regularMarketChangePercent	2.8762932
+regularMarketDayHigh	23.88
+regularMarketDayLow	22.88
+regularMarketDayRange	22.88 - 23.88
+regularMarketOpen	23.25
+regularMarketPreviousClose	23.12
+regularMarketPrice	23.785
+regularMarketTime	1778776208
+regularMarketVolume	9745637
+returnOnAssets	-0.0342
 returnOnEquity	-22.15947
 revenueGrowth	-0.011
 revenuePerShare	0.412
@@ -141,24 +141,24 @@ sector	Financial Services
 sectorDisp	Financial Services
 sectorKey	financial-services
 shareHolderRightsRisk	3
-sharesOutstanding	492634856
-sharesPercentSharesOut	0.2345
-sharesShort	102092218
-sharesShortPreviousMonthDate	1773360000
-sharesShortPriorMonth	96576471
+sharesOutstanding	495532645
+sharesPercentSharesOut	0.21370001
+sharesShort	105298684
+sharesShortPreviousMonthDate	1774915200
+sharesShortPriorMonth	98355926
 shortName	TeraWulf Inc.
-shortPercentOfFloat	0.285
+shortPercentOfFloat	0.25190002
 shortRatio	3.15
 sourceInterval	15
 state	MD
 symbol	WULF
-syntheticPEG	-90.40619545454547
+syntheticPEG	-72.07575454545456
 targetHighPrice	41.5
-targetLowPrice	22.0
-targetMeanPrice	29.04167
-targetMedianPrice	29.0
+targetLowPrice	25.0
+targetMeanPrice	31.04167
+targetMedianPrice	30.0
 totalCash	2629995008
-totalCashPerShare	6.187
+totalCashPerShare	5.307
 totalDebt	5314066944
 totalRevenue	168062000
 tradeable	False
@@ -167,10 +167,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-2.51
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	13.56925
-twoHundredDayAverageChange	9.800751
-twoHundredDayAverageChangePercent	0.7222765
+twoHundredDayAverage	13.83775
+twoHundredDayAverageChange	9.947249
+twoHundredDayAverageChangePercent	0.71884876
 typeDisp	Equity
-volume	25184577
+volume	9745637
 website	https://www.terawulf.com
 zip	21601

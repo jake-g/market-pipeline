@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.11789489
-SandP52WeekChange	0.26603174
+52WeekChange	0.1475234
+SandP52WeekChange	0.2581271
 address1	909 Kifer Road
-allTimeHigh	114.82
+allTimeHigh	117.84
 allTimeLow	1.472
-ask	115.59
-askSize	2
+ask	123.0
+askSize	1
 auditRisk	1
 averageAnalystRating	2.7 - Hold
-averageDailyVolume10Day	6796380
-averageDailyVolume3Month	6288938
-averageVolume	6288938
-averageVolume10days	6796380
+averageDailyVolume10Day	7219600
+averageDailyVolume3Month	6201685
+averageVolume	6201685
+averageVolume10days	7219600
 beta	0.919
-bid	115.26
-bidSize	2
+bid	114.17
+bidSize	1
 boardRisk	7
 bookValue	1.348
 city	Sunnyvale
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	115.44
+currentPrice	120.56
 currentRatio	1.153
 customPriceAlertConfidence	HIGH
-dateShortInterest	1776211200
-dayHigh	115.485
-dayLow	112.095
+dateShortInterest	1777507200
+dayHigh	120.75
+dayLow	115.77
 debtToEquity	57.31
-discount_to_intrinsic_value	-183.45
+discount_to_intrinsic_value	-201.43
 displayName	Fortinet
 earningsCallTimestampEnd	1778099400
 earningsCallTimestampStart	1778099400
@@ -43,11 +43,11 @@ earningsTimestampEnd	1785960000
 earningsTimestampStart	1785960000
 ebitda	2361400064
 ebitdaMargins	0.33215
-enterpriseToEbitda	34.661
-enterpriseToRevenue	11.513
-enterpriseValue	81849229312
-epsCurrentYear	3.13604
-epsForward	3.42258
+enterpriseToEbitda	35.359
+enterpriseToRevenue	11.745
+enterpriseValue	83497689088
+epsCurrentYear	3.15799
+epsForward	3.42734
 epsTrailingTwelveMonths	2.58
 eps_normalized_growth	0.03606944632781839
 esgPopulated	False
@@ -57,34 +57,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	408 235 7737
-fiftyDayAverage	83.9852
-fiftyDayAverageChange	31.454803
-fiftyDayAverageChangePercent	0.37452793
-fiftyTwoWeekChangePercent	11.789489
-fiftyTwoWeekHigh	115.485
-fiftyTwoWeekHighChange	-0.04499817
-fiftyTwoWeekHighChangePercent	-0.00038964514
+fiftyDayAverage	86.139
+fiftyDayAverageChange	34.420998
+fiftyDayAverageChangePercent	0.3995983
+fiftyTwoWeekChangePercent	14.75234
+fiftyTwoWeekHigh	120.75
+fiftyTwoWeekHighChange	-0.19000244
+fiftyTwoWeekHighChangePercent	-0.0015735192
 fiftyTwoWeekLow	70.12
-fiftyTwoWeekLowChange	45.32
-fiftyTwoWeekLowChangePercent	0.6463206
-fiftyTwoWeekRange	70.12 - 115.485
+fiftyTwoWeekLowChange	50.439995
+fiftyTwoWeekLowChangePercent	0.7193382
+fiftyTwoWeekRange	70.12 - 120.75
 financialCurrency	USD
 firstTradeDateMilliseconds	1258554600000
 floatShares	617644573
-forwardEps	3.42258
-forwardPE	33.728943
+forwardEps	3.42734
+forwardPE	35.17597
 freeCashflow	1813049984
 fullExchangeName	NasdaqGS
 fullTimeEmployees	15311
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1777593600
-graham_intrinsic_value	40.73
+graham_intrinsic_value	40.0
 grossMargins	0.80304
 grossProfits	5709199872
 hasPrePostMarketData	True
-heldPercentInsiders	0.174
-heldPercentInstitutions	0.72122
-impliedSharesOutstanding	732102047
+heldPercentInsiders	0.17387
+heldPercentInstitutions	0.69382006
+impliedSharesOutstanding	732648391
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
 industryKey	software-infrastructure
@@ -96,8 +96,8 @@ lastSplitFactor	5:1
 longBusinessSummary	Fortinet, Inc. provides cybersecurity and convergence of networking and security solutions worldwide. The company offers FortiOS, a unified operating system designed to address cybersecurity threats; FortiASIC application-specific integrated circuit (ASIC)-based security processing units; FortiCloud, a private cloud software as a service platform; FortiAI, which provides a dual-layered defense across the Fortinet Security Fabric; FortiEndpoint, which converges secure connectivity, endpoint protection, and capabilities into a single agent; and OT Security, which protect the engineered systems that underpin infrastructure and supply chains. It also provides secure networking solutions that focus on the convergence of networking and security; network firewall solutions comprising FortiGate data centers, hyperscale, and distributed firewalls; wireless local area network solutions; and secure connectivity solutions. In addition, the company offers the Fortinet Unified Secure Access Service Edge solutions that include firewall, software-defined wide-area network, secure web gateway, cloud access services broker, data loss prevention, and zero trust network access; and web application firewalls, cloud network security with virtualized firewalls, cloud-native firewalls, cloud-native application protection, and code security. Further, it provides AI-driven security operation solutions, which include a suite of cybersecurity solutions, as well as FortiEDR, FortiXDR, FortiNDR, FortiSandbox, FortiDeceptor, FortiDLP, and FortiRecon. Additionally, the company offers FortiGuard Labs, a cybersecurity threat intelligence and research organization; FortiGuard and Other Security Services, a suite of AI-powered security capabilities that consists of FortiGuard application, content, device, NOC/SOC, and web security services; and FortiCare technical support services. Fortinet, Inc. was incorporated in 2000 and is headquartered in Sunnyvale, California.
 longName	Fortinet, Inc.
 market	us_market
-marketCap	84513857536
-marketState	POSTPOST
+marketCap	88328085504
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_2689126
 mostRecentQuarter	1774915200
@@ -105,22 +105,22 @@ netIncomeToCommon	1954499968
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	83510880501
 numberOfAnalystOpinions	36
-open	112.095
+open	117.68
 operatingCashflow	2804400128
 operatingMargins	0.31282
 overallRisk	5
 payoutRatio	0.0
-pegRatio	2.56
+pegRatio	2.57
 phone	408 235 7700
 postMarketChange	0.3299942
 postMarketChangePercent	0.28585777
 postMarketPrice	115.77
 postMarketTime	1778543992
-previousClose	114.07
-priceEpsCurrentYear	36.810757
+previousClose	117.69
+priceEpsCurrentYear	38.17618
 priceHint	2
-priceToBook	85.63798
-priceToSalesTrailing12Months	11.887455
+priceToBook	89.436195
+priceToSalesTrailing12Months	12.423952
 profitMargins	0.27491
 quickRatio	1.034
 quoteSourceName	Nasdaq Real Time Price
@@ -128,16 +128,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.69767
 region	US
-regularMarketChange	1.37
-regularMarketChangePercent	1.20102
-regularMarketDayHigh	115.485
-regularMarketDayLow	112.095
-regularMarketDayRange	112.095 - 115.485
-regularMarketOpen	112.095
-regularMarketPreviousClose	114.07
-regularMarketPrice	115.44
-regularMarketTime	1778529601
-regularMarketVolume	6707147
+regularMarketChange	2.869995
+regularMarketChangePercent	2.4386058
+regularMarketDayHigh	120.75
+regularMarketDayLow	115.77
+regularMarketDayRange	115.77 - 120.75
+regularMarketOpen	117.68
+regularMarketPreviousClose	117.69
+regularMarketPrice	120.56
+regularMarketTime	1778774968
+regularMarketVolume	1842024
 returnOnAssets	0.13586001
 returnOnEquity	1.32392
 revenueGrowth	0.201
@@ -146,21 +146,21 @@ sector	Technology
 sectorDisp	Technology
 sectorKey	technology
 shareHolderRightsRisk	5
-sharesOutstanding	732102047
-sharesPercentSharesOut	0.026400002
-sharesShort	19357643
-sharesShortPreviousMonthDate	1773360000
-sharesShortPriorMonth	19147172
+sharesOutstanding	732648391
+sharesPercentSharesOut	0.026099999
+sharesShort	19090539
+sharesShortPreviousMonthDate	1774915200
+sharesShortPriorMonth	18901077
 shortName	Fortinet, Inc.
-shortPercentOfFloat	0.0319
-shortRatio	3.03
+shortPercentOfFloat	0.031600002
+shortRatio	3.4
 sourceInterval	15
 state	CA
 symbol	FTNT
 targetHighPrice	130.0
 targetLowPrice	70.0
-targetMeanPrice	105.5
-targetMedianPrice	109.0
+targetMeanPrice	106.47222
+targetMedianPrice	110.0
 totalCash	3294899968
 totalCashPerShare	4.497
 totalDebt	567200000
@@ -169,13 +169,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.58
-trailingPE	44.74419
+trailingPE	46.728683
 trailingPegRatio	2.5648
 triggerable	True
-twoHundredDayAverage	82.94515
-twoHundredDayAverageChange	32.49485
-twoHundredDayAverageChangePercent	0.3917631
+twoHundredDayAverage	83.1078
+twoHundredDayAverageChange	37.452194
+twoHundredDayAverageChangePercent	0.45064595
 typeDisp	Equity
-volume	6707147
+volume	1842024
 website	https://www.fortinet.com
 zip	94086

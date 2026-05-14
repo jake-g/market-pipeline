@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.16644245
-SandP52WeekChange	0.26603174
+52WeekChange	-0.20789742
+SandP52WeekChange	0.2581271
 address1	1750 Presidents Street
 allTimeHigh	205.77
 allTimeLow	25.45679
-ask	127.57
-askSize	400
+ask	125.64
+askSize	100
 auditRisk	4
 averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	1381750
-averageDailyVolume3Month	1191286
-averageVolume	1191286
-averageVolume10days	1381750
+averageDailyVolume10Day	1732110
+averageDailyVolume3Month	1221767
+averageVolume	1221767
+averageVolume10days	1732110
 beta	0.57
-bid	127.0
-bidSize	400
+bid	125.37
+bidSize	200
 boardRisk	1
 bookValue	39.854
 city	Reston
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	127.68
+currentPrice	125.86
 currentRatio	1.397
 customPriceAlertConfidence	HIGH
-dateShortInterest	1776211200
-dayHigh	129.95
-dayLow	125.34
+dateShortInterest	1777507200
+dayHigh	126.18
+dayLow	123.52
 debtToEquity	137.125
-discount_to_intrinsic_value	-36.81
+discount_to_intrinsic_value	-37.32
 displayName	Leidos
 dividendDate	1782777600
 dividendRate	1.72
-dividendYield	1.32
+dividendYield	1.39
 earningsCallTimestampEnd	1777982400
 earningsCallTimestampStart	1777982400
 earningsGrowth	-0.076
@@ -46,11 +46,11 @@ earningsTimestampEnd	1785241800
 earningsTimestampStart	1785241800
 ebitda	2404000000
 ebitdaMargins	0.13873
-enterpriseToEbitda	9.4
-enterpriseToRevenue	1.304
-enterpriseValue	22598287360
-epsCurrentYear	12.3207
-epsForward	13.16514
+enterpriseToEbitda	9.217
+enterpriseToRevenue	1.279
+enterpriseValue	22156781568
+epsCurrentYear	12.3227
+epsForward	13.15914
 epsTrailingTwelveMonths	10.93
 eps_normalized_growth	-0.11510546351634077
 esgPopulated	False
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	158.6578
-fiftyDayAverageChange	-30.977806
-fiftyDayAverageChangePercent	-0.19524917
-fiftyTwoWeekChangePercent	-16.644245
+fiftyDayAverage	155.5596
+fiftyDayAverageChange	-29.6996
+fiftyDayAverageChangePercent	-0.19092104
+fiftyTwoWeekChangePercent	-20.789742
 fiftyTwoWeekHigh	205.77
-fiftyTwoWeekHighChange	-78.090004
-fiftyTwoWeekHighChangePercent	-0.3795014
-fiftyTwoWeekLow	125.34
-fiftyTwoWeekLowChange	2.340004
-fiftyTwoWeekLowChangePercent	0.018669251
-fiftyTwoWeekRange	125.34 - 205.77
+fiftyTwoWeekHighChange	-79.91
+fiftyTwoWeekHighChangePercent	-0.38834623
+fiftyTwoWeekLow	121.53
+fiftyTwoWeekLowChange	4.330002
+fiftyTwoWeekLowChangePercent	0.03562908
+fiftyTwoWeekRange	121.53 - 205.77
 financialCurrency	USD
 firstTradeDateMilliseconds	1161091800000
 fiveYearAvgDividendYield	1.25
 floatShares	124747736
-forwardEps	13.16514
-forwardPE	9.698339
+forwardEps	13.15914
+forwardPE	9.564455
 freeCashflow	1194749952
 fullExchangeName	NYSE
 fullTimeEmployees	50000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1777593600
-graham_intrinsic_value	93.33
+graham_intrinsic_value	91.66
 grossMargins	0.17906
 grossProfits	3103000064
 hasPrePostMarketData	True
-heldPercentInsiders	0.00562
-heldPercentInstitutions	0.85771006
+heldPercentInsiders	0.00567
+heldPercentInstitutions	0.80968004
 impliedSharesOutstanding	125785466
 industry	Information Technology Services
 industryDisp	Information Technology Services
@@ -103,8 +103,8 @@ lastSplitFactor	405:1000
 longBusinessSummary	Leidos Holdings, Inc., together with its subsidiaries, provides services and solutions for government and commercial customers in the United States and internationally. The National Security & Digital segment provides national security software; services by using artificial intelligence and machine learning to coordinate sea, ground, air, and space to help warfighters; offensive, defensive, and physical cyber operation solutions; intelligence analysis, operational support, logistics operations, security, linguistics, force production, biometrics, chemical, biological, radiological, nuclear, and explosives, energetics, training, and other services; and Digital Modernization and transformation services. The Health & Civil segment offers air traffic control systems; health mission software; managed health services; infrastructure management and operation; logistical operations and information technology support; and life science research and development support services. The Commercial & International segment provides power grid engineering and design, grid modernization, utility planning and consulting, energy management and efficiency, technology-driven innovation, and software and application development; people scanners, computed tomography carry-on baggage scanners, checked baggage scanners, and explosive trace detectors; mobile, non-intrusive ports and borders inspection systems; and open-architecture platform that transforms airport security by integrating disparate devices and technologies into a unified management system. The Defense Systems segment offers air and missile defense, maritime, aerospace, and cyber and threat systems; offers airborne training, intelligence, surveillance, and reconnaissance missions; and provides space-based electro-optic infrared systems, multi/hyperspectral, electronic warfare and signals intelligence, and communications payloads. Leidos Holdings, Inc. was founded in 1969 and is headquartered in Reston, Virginia.
 longName	Leidos Holdings, Inc.
 market	us_market
-marketCap	16060288000
-marketState	POSTPOST
+marketCap	15831358464
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_110741
 mostRecentQuarter	1775174400
@@ -112,7 +112,7 @@ netIncomeToCommon	1412999936
 nextFiscalYearEnd	1798848000
 nonDilutedMarketCap	16365946981
 numberOfAnalystOpinions	14
-open	128.68
+open	124.54
 operatingCashflow	1992999936
 operatingMargins	0.12227
 overallRisk	1
@@ -123,11 +123,11 @@ postMarketChange	0.11000061
 postMarketChangePercent	0.08615336
 postMarketPrice	127.79
 postMarketTime	1778543860
-previousClose	130.11
-priceEpsCurrentYear	10.363048
+previousClose	124.17
+priceEpsCurrentYear	10.213671
 priceHint	2
-priceToBook	3.2036934
-priceToSalesTrailing12Months	0.9267867
+priceToBook	3.1580267
+priceToSalesTrailing12Months	0.91357595
 profitMargins	0.08154
 quickRatio	1.106
 quoteSourceName	Nasdaq Real Time Price
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.125
 region	US
-regularMarketChange	-2.43
-regularMarketChangePercent	-1.86765
-regularMarketDayHigh	129.95
-regularMarketDayLow	125.34
-regularMarketDayRange	125.34 - 129.95
-regularMarketOpen	128.68
-regularMarketPreviousClose	130.11
-regularMarketPrice	127.68
-regularMarketTime	1778529602
-regularMarketVolume	1854293
+regularMarketChange	1.6900024
+regularMarketChangePercent	1.3610393
+regularMarketDayHigh	126.18
+regularMarketDayLow	123.52
+regularMarketDayRange	123.52 - 126.18
+regularMarketOpen	124.54
+regularMarketPreviousClose	124.17
+regularMarketPrice	125.86
+regularMarketTime	1778775274
+regularMarketVolume	264887
 returnOnAssets	0.09232
 returnOnEquity	0.30579
 revenueGrowth	0.037
@@ -154,19 +154,19 @@ sectorDisp	Technology
 sectorKey	technology
 shareHolderRightsRisk	2
 sharesOutstanding	125785466
-sharesPercentSharesOut	0.0277
-sharesShort	3483444
-sharesShortPreviousMonthDate	1773360000
-sharesShortPriorMonth	3764705
+sharesPercentSharesOut	0.026199998
+sharesShort	3300026
+sharesShortPreviousMonthDate	1774915200
+sharesShortPriorMonth	3628171
 shortName	Leidos Holdings, Inc.
-shortPercentOfFloat	0.0317
-shortRatio	3.3
+shortPercentOfFloat	0.03
+shortRatio	4.0
 sourceInterval	15
 state	VA
 symbol	LDOS
 targetHighPrice	225.0
 targetLowPrice	160.0
-targetMeanPrice	190.92857
+targetMeanPrice	190.2857
 targetMedianPrice	194.0
 totalCash	457000000
 totalCashPerShare	3.633
@@ -174,15 +174,15 @@ totalDebt	6944000000
 totalRevenue	17329000448
 tradeable	False
 trailingAnnualDividendRate	1.66
-trailingAnnualDividendYield	0.012758435
+trailingAnnualDividendYield	0.013368769
 trailingEps	10.93
-trailingPE	11.68161
+trailingPE	11.515096
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	178.37045
-twoHundredDayAverageChange	-50.690453
-twoHundredDayAverageChangePercent	-0.28418636
+twoHundredDayAverage	177.8374
+twoHundredDayAverageChange	-51.9774
+twoHundredDayAverageChangePercent	-0.29227486
 typeDisp	Equity
-volume	1854293
+volume	264887
 website	https://www.leidos.com
 zip	20190

@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.3069402 |
+| Value | str | 0.31661546 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-12 |
+| Date | str | 2026-05-14 |
 | Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | Amazon's AI Chips Are Driving Growth. Here's Wh... |
-| Summary | str | EBay called GameStop's takeover bid 'neither cr... |
-| URL | str | https://news.google.com/rss/articles/CBMimAFBVV... |
+| Sentiment | float64 | 0.65 |
+| Headline | str | Amazon: Most Attractive Of The Hyperscalers (NA... |
+| Summary | str | Futures rose as Cisco soared on earnings. AI ch... |
+| URL | str | https://news.google.com/rss/articles/CBMiiwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -75,10 +75,10 @@ This report documents the file structures and column data types used in `market_
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 409.156 |
-| AIR_PPI | float64 | 176.501 |
-| TRUCK_PPI | float64 | 185.239 |
-| WAREHOUSE_PPI | float64 | 173.049 |
+| FREIGHT_PPI | float64 | 430.372 |
+| AIR_PPI | float64 | 194.099 |
+| TRUCK_PPI | float64 | 210.086 |
+| WAREHOUSE_PPI | float64 | 179.064 |
 | MFG_CONST | float64 | 190071.0 |
 | TECH_PULSE | float64 | 89.8561 |
 | CHINA_IMPORTS | float64 | 20859.034 |
@@ -87,7 +87,7 @@ This report documents the file structures and column data types used in `market_
 | UNRATE | float64 | 4.3 |
 | HOUSING_STARTS | float64 | 1502.0 |
 | RECESSION_PROB | float64 | 1.82 |
-| CPI | float64 | 330.293 |
+| CPI | float64 | 332.407 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 3.9 |
-| US10Y | float64 | 4.38 |
+| US02Y | float64 | 4.0 |
+| US10Y | float64 | 4.46 |
