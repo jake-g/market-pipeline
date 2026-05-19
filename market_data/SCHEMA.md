@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.31661546 |
+| Value | str | 0.29788792 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-14 |
+| Date | str | 2026-05-19 |
 | Source | str | Google |
-| Sentiment | float64 | 0.65 |
-| Headline | str | Amazon: Most Attractive Of The Hyperscalers (NA... |
-| Summary | str | Futures rose as Cisco soared on earnings. AI ch... |
-| URL | str | https://news.google.com/rss/articles/CBMiiwFBVV... |
+| Sentiment | float64 | 0.75 |
+| Headline | str | Best Amazon Memorial Day deals 2026: TVs, Bose ... |
+| Summary | str | Apple, Nvidia Among Top Picks as Oppenheimer Be... |
+| URL | str | https://news.google.com/rss/articles/CBMickFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -80,7 +80,7 @@ This report documents the file structures and column data types used in `market_
 | TRUCK_PPI | float64 | 210.086 |
 | WAREHOUSE_PPI | float64 | 179.064 |
 | MFG_CONST | float64 | 190071.0 |
-| TECH_PULSE | float64 | 89.8561 |
+| TECH_PULSE | float64 | 94.5093 |
 | CHINA_IMPORTS | float64 | 20859.034 |
 | TARIFFS | float64 | 346.15 |
 | GDP | float64 | 31856.257 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 1.82 |
 | CPI | float64 | 332.407 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 4.0 |
-| US10Y | float64 | 4.46 |
+| US02Y | float64 | 4.09 |
+| US10Y | float64 | 4.59 |

@@ -2,7 +2,7 @@ Metric	Value
 address1	Valley Forge PA 19482
 address2	Po Box 2600 V26
 address3	Vanguard Health Care
-allTimeHigh	70.77
+allTimeHigh	71.35
 allTimeLow	21.12
 annualHoldingsTurnover	0.07
 annualReportExpenseRatio	0.0011
@@ -18,27 +18,27 @@ currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.1537
 dividendYield	0.85
-epsTrailingTwelveMonths	2.3211162
+epsTrailingTwelveMonths	2.470153
 esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	64.6324
-fiftyDayAverageChange	6.137596
-fiftyDayAverageChangePercent	0.0949616
-fiftyTwoWeekChangePercent	25.590061
-fiftyTwoWeekHigh	70.77
-fiftyTwoWeekHighChange	0.0
-fiftyTwoWeekHighChangePercent	0.0
+fiftyDayAverage	65.0548
+fiftyDayAverageChange	5.2651978
+fiftyDayAverageChangePercent	0.08093481
+fiftyTwoWeekChangePercent	24.24028
+fiftyTwoWeekHigh	71.35
+fiftyTwoWeekHighChange	-1.0299988
+fiftyTwoWeekHighChangePercent	-0.014435863
 fiftyTwoWeekLow	55.23
-fiftyTwoWeekLowChange	15.539997
-fiftyTwoWeekLowChangePercent	0.28136876
-fiftyTwoWeekRange	55.23 - 70.77
+fiftyTwoWeekLowChange	15.09
+fiftyTwoWeekLowChangePercent	0.27322108
+fiftyTwoWeekRange	55.23 - 71.35
 firstTradeDateMilliseconds	1549549800000
 fullExchangeName	Nasdaq
-fundInceptionDate	1549497600
+fundInceptionDate	1042502400
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
@@ -54,28 +54,28 @@ morningStarOverallRating	3
 morningStarRiskRating	5
 netAssets	26222243800.0
 netExpenseRatio	0.11
-previousClose	70.229996
+previousClose	70.45
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	0.54
-regularMarketChangePercent	0.7689023
-regularMarketPreviousClose	70.229996
-regularMarketPrice	70.77
-regularMarketTime	1778760458
+regularMarketChange	-0.13
+regularMarketChangePercent	-0.18452804
+regularMarketPreviousClose	70.45
+regularMarketPrice	70.32
+regularMarketTime	1779192458
 shortName	Vanguard FTSE Social Index Fund
 sourceInterval	15
 symbol	VFTAX
 totalAssets	26222243840
 tradeable	False
-trailingPE	30.48964
+trailingPE	28.46787
 trailingPegRatio	None
 trailingThreeMonthReturns	3.59649
 triggerable	False
-twoHundredDayAverage	64.31075
-twoHundredDayAverageChange	6.459244
-twoHundredDayAverageChangePercent	0.100438006
+twoHundredDayAverage	64.4601
+twoHundredDayAverageChange	5.8599014
+twoHundredDayAverageChangePercent	0.090907425
 typeDisp	Fund
 yield	0.0085
 ytdReturn	3.88114

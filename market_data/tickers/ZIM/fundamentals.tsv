@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.4281752
-SandP52WeekChange	0.2581271
+52WeekChange	0.3602122
+SandP52WeekChange	0.24620819
 address1	9 Andrei Sakharov Street
 address2	PO Box 15067 Matam
 allTimeHigh	91.23
 allTimeLow	6.39
-ask	25.76
-askSize	300
+ask	25.63
+askSize	200
 averageAnalystRating	3.0 - Hold
-averageDailyVolume10Day	2111060
-averageDailyVolume3Month	2817283
-averageVolume	2817283
-averageVolume10days	2111060
+averageDailyVolume10Day	2080060
+averageDailyVolume3Month	1825809
+averageVolume	1825809
+averageVolume10days	2080060
 beta	1.183
-bid	25.75
+bid	25.62
 bidSize	200
 bookValue	33.378
 city	Haifa
@@ -22,18 +22,18 @@ corporateActions	[]
 country	Israel
 cryptoTradeable	False
 currency	USD
-currentPrice	25.685
+currentPrice	25.6
 currentRatio	1.233
 customPriceAlertConfidence	HIGH
 dateShortInterest	1777507200
-dayHigh	25.9784
-dayLow	25.685
+dayHigh	25.75
+dayLow	25.54
 debtToEquity	142.543
-discount_to_intrinsic_value	23.04
+discount_to_intrinsic_value	21.06
 displayName	ZIM Integrated Shipping Services
 dividendDate	1774483200
 dividendRate	1.99
-dividendYield	7.73
+dividendYield	7.76
 earningsCallTimestampEnd	1763643600
 earningsCallTimestampStart	1763643600
 earningsGrowth	-0.932
@@ -43,10 +43,10 @@ earningsTimestampEnd	1779280200
 earningsTimestampStart	1779280200
 ebitda	948700032
 ebitdaMargins	0.13741
-enterpriseToEbitda	7.44
-enterpriseToRevenue	1.022
-enterpriseValue	7058097152
-epsCurrentYear	-1.3309
+enterpriseToEbitda	7.426
+enterpriseToRevenue	1.02
+enterpriseValue	7044846080
+epsCurrentYear	-2.71545
 epsForward	-3.6798
 epsTrailingTwelveMonths	3.98
 eps_normalized_growth	-0.917361032150144
@@ -57,32 +57,32 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	26.7176
-fiftyDayAverageChange	-1.0326004
-fiftyDayAverageChangePercent	-0.038648695
-fiftyTwoWeekChangePercent	42.81752
+fiftyDayAverage	26.5534
+fiftyDayAverageChange	-0.95339966
+fiftyDayAverageChangePercent	-0.035904992
+fiftyTwoWeekChangePercent	36.02122
 fiftyTwoWeekHigh	29.97
-fiftyTwoWeekHighChange	-4.285
-fiftyTwoWeekHighChangePercent	-0.14297631
+fiftyTwoWeekHighChange	-4.369999
+fiftyTwoWeekHighChangePercent	-0.14581245
 fiftyTwoWeekLow	12.33
-fiftyTwoWeekLowChange	13.355
-fiftyTwoWeekLowChangePercent	1.0831306
+fiftyTwoWeekLowChange	13.27
+fiftyTwoWeekLowChangePercent	1.0762368
 fiftyTwoWeekRange	12.33 - 29.97
 financialCurrency	USD
 firstTradeDateMilliseconds	1611844200000
-floatShares	114755824
+floatShares	114744982
 forwardEps	-3.6798
-forwardPE	-6.9799986
+forwardPE	-6.9568996
 freeCashflow	1363399936
 fullExchangeName	NYSE
 fullTimeEmployees	4714
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	33.37
+graham_intrinsic_value	32.43
 grossMargins	0.3539
 grossProfits	2443399936
 hasPrePostMarketData	True
 heldPercentInsiders	0.013710001
-heldPercentInstitutions	0.47169
+heldPercentInstitutions	0.5206
 impliedSharesOutstanding	120519497
 industry	Marine Shipping
 industryDisp	Marine Shipping
@@ -96,7 +96,7 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	ZIM Integrated Shipping Services Ltd., together with its subsidiaries, provides container shipping and related services in Israel and internationally. The company offers door-to-door and port-to-port transportation services for various types of customers, including end-users, consolidators, and freight forwarders. It also provides ZIMonitor, a reefer cargo tracking service, a device attached to the engine of the reefer, and allows customers to track and monitor, cargo, such as pharmaceuticals, food and delicate electronics. As of December 31, 2025, it operated a fleet of 128 vessels, such as 115 container vessels and 13 vehicle transport vessels, as well as a network of 56 weekly lines. ZIM Integrated Shipping Services Ltd. was incorporated in 1945 and is headquartered in Haifa, Israel.
 longName	ZIM Integrated Shipping Services Ltd.
 market	us_market
-marketCap	3095543296
+marketCap	3085299200
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_13461755
@@ -105,7 +105,7 @@ netIncomeToCommon	479200000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	3207023815
 numberOfAnalystOpinions	4
-open	25.83
+open	25.74
 operatingCashflow	2299500032
 operatingMargins	-0.02021
 payoutRatio	1.0754
@@ -114,11 +114,11 @@ postMarketChange	-0.059999466
 postMarketChangePercent	-0.2266697
 postMarketPrice	26.41
 postMarketTime	1778544000
-previousClose	25.75
-priceEpsCurrentYear	-19.298971
+previousClose	25.64
+priceEpsCurrentYear	-9.427535
 priceHint	2
-priceToBook	0.76951885
-priceToSalesTrailing12Months	0.44835654
+priceToBook	0.7669723
+priceToSalesTrailing12Months	0.4468728
 profitMargins	0.069409996
 quickRatio	1.143
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.0
 region	US
-regularMarketChange	-0.065000534
-regularMarketChangePercent	-0.25242925
-regularMarketDayHigh	25.9784
-regularMarketDayLow	25.685
-regularMarketDayRange	25.685 - 25.9784
-regularMarketOpen	25.83
-regularMarketPreviousClose	25.75
-regularMarketPrice	25.685
-regularMarketTime	1778776241
-regularMarketVolume	350536
+regularMarketChange	-0.03999901
+regularMarketChangePercent	-0.15600237
+regularMarketDayHigh	25.75
+regularMarketDayLow	25.54
+regularMarketDayRange	25.54 - 25.75
+regularMarketOpen	25.74
+regularMarketPreviousClose	25.64
+regularMarketPrice	25.6
+regularMarketTime	1779212743
+regularMarketVolume	384505
 returnOnAssets	0.04754
 returnOnEquity	0.11936
 revenueGrowth	-0.315
@@ -153,7 +153,7 @@ shortPercentOfFloat	0.0275
 shortRatio	2.77
 sourceInterval	15
 symbol	ZIM
-syntheticPEG	0.07489268884120172
+syntheticPEG	0.07464484549356223
 targetHighPrice	35.0
 targetLowPrice	9.0
 targetMeanPrice	22.775
@@ -164,15 +164,15 @@ totalDebt	5738200064
 totalRevenue	6904200192
 tradeable	False
 trailingAnnualDividendRate	1.99
-trailingAnnualDividendYield	0.07728156
+trailingAnnualDividendYield	0.07761311
 trailingEps	3.98
-trailingPE	6.4535174
+trailingPE	6.432161
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	20.26835
-twoHundredDayAverageChange	5.416649
-twoHundredDayAverageChangePercent	0.26724666
+twoHundredDayAverage	20.41195
+twoHundredDayAverageChange	5.188051
+twoHundredDayAverageChangePercent	0.25416735
 typeDisp	Equity
-volume	350536
+volume	384505
 website	https://www.zim.com
 zip	3190500
