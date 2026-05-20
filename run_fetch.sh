@@ -5,8 +5,6 @@ set -e
 mkdir -p logs
 
 start_time=$(date +%s)
-
-echo "🚀 Starting Full Market Data Pipeline..."
 echo "📅 Start Time: $(date)"
 
 

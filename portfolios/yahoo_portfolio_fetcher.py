@@ -28,6 +28,9 @@ import config
 
 logger = logging.getLogger(__name__)
 
+# Portfolios
+IGNORED_PORTFOLIO_PREFIXES = ["wealthfront", "vanguard : employee_retirement"]
+
 
 def parse_curl_command(curl_text: str) -> dict:
   """Extracts cookie, crumb, and userId from a cURL command."""
@@ -493,6 +496,9 @@ def main():
             if p.strip()
         ] if env_active else []
 
+        # Get ignored portfolio prefixes
+        ignored_prefixes = [p.lower() for p in IGNORED_PORTFOLIO_PREFIXES]
+
         # Ensure tsvs dir exists
         out_dir = os.path.join(os.path.dirname(__file__), "tsvs")
         os.makedirs(out_dir, exist_ok=True)
@@ -511,6 +517,16 @@ def main():
 
           logger.info("Portfolio: %s (ID: %s) - %d positions", name, pf_id,
                       len(positions))
+
+          # Check if this portfolio should be ignored for combining
+          should_ignore = False
+          for prefix in ignored_prefixes:
+            if name.lower().startswith(prefix):
+              should_ignore = True
+              break
+
+          if should_ignore:
+            logger.info("Ignoring portfolio '%s' in combined aggregates.", name)
 
           if positions:
             # Flatten the position data into a DataFrame
@@ -539,38 +555,40 @@ def main():
               })
 
               # Add to combined dictionaries
-              if sym not in combined_positions:
-                combined_positions[sym] = {
-                    "Quantity": 0.0,
-                    "Current_Value": 0.0,
-                    "Unrealized_PnL_Net": 0.0,
-                    "Day_Change_Net": 0.0
-                }
-              combined_positions[sym]["Quantity"] += qty
-              combined_positions[sym]["Current_Value"] += pos_current_value
-              combined_positions[sym]["Unrealized_PnL_Net"] += pos.get(
-                  "totalGain", 0)
-              combined_positions[sym]["Day_Change_Net"] += pos.get(
-                  "dailyGain", 0)
-
-              # Safe name generation for active check (robust regex normalization)
-              safe_name = re.sub(r'[^a-zA-Z0-9]+', '_', name).strip('_').lower()
-
-              if safe_name in active_list:
-                if sym not in combined_active_positions:
-                  combined_active_positions[sym] = {
+              if not should_ignore:
+                if sym not in combined_positions:
+                  combined_positions[sym] = {
                       "Quantity": 0.0,
                       "Current_Value": 0.0,
                       "Unrealized_PnL_Net": 0.0,
                       "Day_Change_Net": 0.0
                   }
-                combined_active_positions[sym]["Quantity"] += qty
-                combined_active_positions[sym][
-                    "Current_Value"] += pos_current_value
-                combined_active_positions[sym]["Unrealized_PnL_Net"] += pos.get(
+                combined_positions[sym]["Quantity"] += qty
+                combined_positions[sym]["Current_Value"] += pos_current_value
+                combined_positions[sym]["Unrealized_PnL_Net"] += pos.get(
                     "totalGain", 0)
-                combined_active_positions[sym]["Day_Change_Net"] += pos.get(
+                combined_positions[sym]["Day_Change_Net"] += pos.get(
                     "dailyGain", 0)
+
+                # Safe name generation for active check (robust regex normalization)
+                safe_name = re.sub(r'[^a-zA-Z0-9]+', '_',
+                                   name).strip('_').lower()
+
+                if safe_name in active_list:
+                  if sym not in combined_active_positions:
+                    combined_active_positions[sym] = {
+                        "Quantity": 0.0,
+                        "Current_Value": 0.0,
+                        "Unrealized_PnL_Net": 0.0,
+                        "Day_Change_Net": 0.0
+                    }
+                  combined_active_positions[sym]["Quantity"] += qty
+                  combined_active_positions[sym][
+                      "Current_Value"] += pos_current_value
+                  combined_active_positions[sym][
+                      "Unrealized_PnL_Net"] += pos.get("totalGain", 0)
+                  combined_active_positions[sym]["Day_Change_Net"] += pos.get(
+                      "dailyGain", 0)
 
             # Check if there's a cash position
             cash = p.get("cashPosition", 0)
@@ -587,30 +605,31 @@ def main():
                   "Day_Change_Pct": 0.0
               })
 
-              if "CASH" not in combined_positions:
-                combined_positions["CASH"] = {
-                    "Quantity": 0.0,
-                    "Current_Value": 0.0,
-                    "Unrealized_PnL_Net": 0.0,
-                    "Day_Change_Net": 0.0
-                }
-              combined_positions["CASH"]["Quantity"] += cash
-              combined_positions["CASH"]["Current_Value"] += cash
-
-              safe_name = "".join(
-                  c for c in name if c.isalnum() or c in (" ", "_")).strip()
-              safe_name = safe_name.replace(" ", "_").lower().rstrip("_")
-
-              if safe_name in active_list:
-                if "CASH" not in combined_active_positions:
-                  combined_active_positions["CASH"] = {
+              if not should_ignore:
+                if "CASH" not in combined_positions:
+                  combined_positions["CASH"] = {
                       "Quantity": 0.0,
                       "Current_Value": 0.0,
                       "Unrealized_PnL_Net": 0.0,
                       "Day_Change_Net": 0.0
                   }
-                combined_active_positions["CASH"]["Quantity"] += cash
-                combined_active_positions["CASH"]["Current_Value"] += cash
+                combined_positions["CASH"]["Quantity"] += cash
+                combined_positions["CASH"]["Current_Value"] += cash
+
+                safe_name = "".join(
+                    c for c in name if c.isalnum() or c in (" ", "_")).strip()
+                safe_name = safe_name.replace(" ", "_").lower().rstrip("_")
+
+                if safe_name in active_list:
+                  if "CASH" not in combined_active_positions:
+                    combined_active_positions["CASH"] = {
+                        "Quantity": 0.0,
+                        "Current_Value": 0.0,
+                        "Unrealized_PnL_Net": 0.0,
+                        "Day_Change_Net": 0.0
+                    }
+                  combined_active_positions["CASH"]["Quantity"] += cash
+                  combined_active_positions["CASH"]["Current_Value"] += cash
 
             df = pd.DataFrame(rows)
             if not df.empty:

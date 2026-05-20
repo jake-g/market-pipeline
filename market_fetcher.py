@@ -171,7 +171,7 @@ SKIP_EARNINGS: List[str] = [
     # Core Vanguard/Broad ETFs
     "VTI", "VOO", "SPY", "VTSAX", "VUG", "VTV", "VEA", "VWO", "VIGAX",
     "SCHD", "SCHG", "SCHV", "VGT", "QQQ", "DIA", "IWM", "EFA", "EEM",
-    "URTH", "TLT", "AIPO", "VIG", "VYM", "VIS",
+    "URTH", "TLT", "AIPO", "VIG", "VYM", "VIS", "VAW", "VXUS",
 
 
     # Vanguard Mutual Funds (Institutional/Admiral Shares - No Form 4)
@@ -179,7 +179,8 @@ SKIP_EARNINGS: List[str] = [
 
     # Sector & Thematic ETFs
     "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
-    "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH", "CIBR",
+    "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH", "CIBR", "PPH",
+    "SOXX", "XSD",
 
 
     # Fixed Income & Preferred

@@ -81,12 +81,13 @@ SECTORS = {
         "NVDA", "AMD", "INTC", "TSM", "ASML", "MU", "MPWR", "AVGO", "SMH",
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
-        "STM", "TTDKY", "TTMI", "SOXX"
+        "STM", "TTDKY", "TTMI", "SOXX", "XSD"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
         "CRM", "ADBE", "CSCO", "NOW", "RDDT", "IONQ", "PANW", "CRWD", "NET",
-        "DELL", "HPE", "SMCI", "TTD", "VGT", "APP", "MNDY", "DDOG", "FTNT", "ZS"
+        "DELL", "HPE", "SMCI", "TTD", "VGT", "APP", "MNDY", "DDOG", "FTNT", "ZS",
+        "NBIS"
     ],
     "Auto & Robot": [
         "TSLA", "TM", "F", "ACHR", "JOBY", "RIVN", "UBER", "SYM", "PATH",
@@ -127,7 +128,8 @@ SECTORS = {
     ],
     "Broad Market & Intl ETFs": [
         "VOO", "VTI", "VTSAX", "SCHG", "VUG", "VIGAX", "SCHV", "VTV",
-        "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM", "VAW"
+        "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM",
+        "VAW", "VXUS"
     ],
     "Mutual Funds": [
         "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"
