@@ -12,7 +12,7 @@ The week of May 10 to May 16, 2026, served as the definitive **structural matura
 *   **Capital Rotation into Risk-On Growth:** Easing volatility (VIX normalizing toward 19) and AI-specific execution catalysts fueled a **US$48.7 billion surge** into global equity funds [4, 6, 10]. This marks a definitive pivot away from the defensive "HALO" (Hard Assets, Low Obsolescence) rotation seen in March [6, 11].
 
 ### Tech Sector Momentum: From Hyperscale to Physical Sovereignty
-*   **Maturation of the Inference Layer:** The market is no longer viewing AI as a monolithic trade. A **K-shaped divergence** is emerging where edge-AI providers and neocloud entities (e.g., NBIS) that bypass legacy hyperscaler bloat are outperforming traditional SaaS names [1, 12, 13]. 
+*   **Maturation of the Inference Layer:** The market is no longer viewing AI as a monolithic trade. A **K-shaped divergence** is emerging where edge-AI providers and neocloud entities (e.g., NBIS) that bypass legacy hyperscaler bloat are outperforming traditional SaaS names [1, 12, 13].
 *   **The Physical Layer Thesis:** Institutional alpha is residing increasingly in the "physical layer"—the power procurement, high-density storage, and liquid cooling systems essential for AI data centers [3, 13, 14]. This is characterized by a rotation into "Watt's Law" winners like **Quanta Services (PWR)** and **nVent (NVT)** [15-17].
 
 ### Geopolitical Risks and The "AI Cold War"

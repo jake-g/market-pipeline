@@ -49,7 +49,7 @@ This report documents the file structures and column data types used in `market_
 | Source | str | Google |
 | Sentiment | float64 | 0.75 |
 | Headline | str | Best Amazon Memorial Day deals 2026: TVs, Bose ... |
-| Summary | str | Apple, Nvidia Among Top Picks as Oppenheimer Be... |
+| Summary | str | The "Magnificent Seven" are looking less magnif... |
 | URL | str | https://news.google.com/rss/articles/CBMickFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
