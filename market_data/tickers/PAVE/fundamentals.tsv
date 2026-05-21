@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	58.55
 allTimeLow	9.77
-ask	54.25
-askSize	1000
-averageDailyVolume10Day	1826940
-averageDailyVolume3Month	1669985
-averageVolume	1669985
-averageVolume10days	1826940
+ask	0.0
+askSize	200
+averageDailyVolume10Day	1662810
+averageDailyVolume3Month	1675245
+averageVolume	1675245
+averageVolume10days	1662810
 beta3Year	1.4
-bid	54.24
-bidSize	600
+bid	0.0
+bidSize	100
 category	Infrastructure
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	54.34
-dayLow	53.32
+dayHigh	54.68
+dayLow	53.73
 dividendYield	0.77
 epsTrailingTwelveMonths	1.8996254
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	53.6725
-fiftyDayAverageChange	0.45750046
-fiftyDayAverageChangePercent	0.008523927
-fiftyTwoWeekChangePercent	29.945385
+fiftyDayAverage	53.7039
+fiftyDayAverageChange	0.7861023
+fiftyDayAverageChangePercent	0.014637713
+fiftyTwoWeekChangePercent	30.288351
 fiftyTwoWeekHigh	58.55
-fiftyTwoWeekHighChange	-4.419998
-fiftyTwoWeekHighChangePercent	-0.075491
+fiftyTwoWeekHighChange	-4.0599976
+fiftyTwoWeekHighChangePercent	-0.069342405
 fiftyTwoWeekLow	40.61
-fiftyTwoWeekLowChange	13.52
-fiftyTwoWeekLowChangePercent	0.33292294
+fiftyTwoWeekLowChange	13.880001
+fiftyTwoWeekLowChangePercent	0.34178776
 fiftyTwoWeekRange	40.61 - 58.55
 firstTradeDateMilliseconds	1488983400000
-fiveYearAverageReturn	0.1660406
+fiveYearAverageReturn	0.16552919
 fullExchangeName	Cboe US
 fundFamily	Global X Funds
 fundInceptionDate	1488758400
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index. The underlying index is designed to measure the performance of U.S. listed companies that provide exposure to domestic infrastructure development, including companies involved in construction and engineering; production of infrastructure raw materials, composites and products; industrial transportation; and producers/distributors of heavy construction equipment.
 longName	Global X U.S. Infrastructure Development ETF
 market	us_market
-marketState	REGULAR
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_415556335
-navPrice	54.71
+navPrice	53.75
 netAssets	13361818600.0
 netExpenseRatio	0.47
-open	54.34
+open	54.16
 phone	+1 8884938631
-postMarketChange	0.12999725
-postMarketChangePercent	0.22790542
-postMarketPrice	57.17
-postMarketTime	1778543904
-previousClose	54.72
+postMarketChange	-0.29000092
+postMarketChangePercent	-0.5322094
+postMarketPrice	54.2
+postMarketTime	1779321391
+previousClose	53.77
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.59000015
-regularMarketChangePercent	-1.0782167
-regularMarketDayHigh	54.34
-regularMarketDayLow	53.32
-regularMarketDayRange	53.32 - 54.34
-regularMarketOpen	54.34
-regularMarketPreviousClose	54.72
-regularMarketPrice	54.13
-regularMarketTime	1779212502
-regularMarketVolume	1048256
+regularMarketChange	0.720001
+regularMarketChangePercent	1.33904
+regularMarketDayHigh	54.68
+regularMarketDayLow	53.73
+regularMarketDayRange	53.73 - 54.68
+regularMarketOpen	54.16
+regularMarketPreviousClose	53.77
+regularMarketPrice	54.49
+regularMarketTime	1779307200
+regularMarketVolume	1294472
 shortName	Global X U.S. Infrastructure De
 sourceInterval	15
 symbol	PAVE
-threeYearAverageReturn	0.2555586
+threeYearAverageReturn	0.2504665
 totalAssets	13361818624
 tradeable	False
-trailingPE	28.495092
+trailingPE	28.684603
 trailingPegRatio	None
 trailingThreeMonthNavReturns	12.02444
 trailingThreeMonthReturns	12.02444
 triggerable	True
-twoHundredDayAverage	50.094624
-twoHundredDayAverageChange	4.0353775
-twoHundredDayAverageChangePercent	0.0805551
+twoHundredDayAverage	50.138424
+twoHundredDayAverageChange	4.3515778
+twoHundredDayAverageChangePercent	0.08679128
 typeDisp	ETF
-volume	1048256
+volume	1294472
 yield	0.0077
 ytdReturn	18.96588

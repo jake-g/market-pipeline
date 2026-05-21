@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.29788792 |
+| Value | str | 0.2894789 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-19 |
+| Date | str | 2026-05-21 |
 | Source | str | Google |
-| Sentiment | float64 | 0.75 |
-| Headline | str | Best Amazon Memorial Day deals 2026: TVs, Bose ... |
-| Summary | str | The "Magnificent Seven" are looking less magnif... |
-| URL | str | https://news.google.com/rss/articles/CBMickFVX3... |
+| Sentiment | float64 | 0.0 |
+| Headline | str | AWS Says Announcing OpenAI-Compatible API Suppo... |
+| Summary | str | (Bloomberg) -- Nvidia Corp., facing more invest... |
+| URL | str | https://news.google.com/rss/articles/CBMi6AFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

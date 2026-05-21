@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.03998363
-SandP52WeekChange	0.24620819
+52WeekChange	-0.014015436
+SandP52WeekChange	0.25818658
 address1	5260 California Avenue
 allTimeHigh	204.0
 allTimeLow	0.541667
@@ -8,10 +8,10 @@ ask	75.37
 askSize	1
 auditRisk	4
 averageAnalystRating	2.7 - Hold
-averageDailyVolume10Day	6306860
-averageDailyVolume3Month	3713018
-averageVolume	3713018
-averageVolume10days	6306860
+averageDailyVolume10Day	6116730
+averageDailyVolume3Month	3729767
+averageVolume	3729767
+averageVolume10days	6116730
 beta	1.476
 bid	67.66
 bidSize	1
@@ -21,18 +21,18 @@ city	Irvine
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Philip Gordon Brace', 'age': 54, 'title': 'CEO, President & Director', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 2267283, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Philip Matthew Carter', 'age': 46, 'title': 'Senior VP, CFO and Principal Financial & Accounting Officer', 'yearBorn': 1979, 'fiscalYear': 2025, 'totalPay': 1428727, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Reza  Kasnavi', 'age': 52, 'title': 'Executive VP, Chief Operations & Technology Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 1476680, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert John Terry J.D.', 'age': 59, 'title': 'Senior VP, General Counsel & Secretary', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 1239283, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Karilee A. Durham', 'age': 56, 'title': 'Senior Vice President of Human Resources', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1125868, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rajvindra S. Gill', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Todd  Lepinski', 'title': 'Senior VP of Sales & Marketing', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Joel R. King', 'age': 51, 'title': 'Senior VP & GM of Mobile Solutions Business', 'yearBorn': 1974, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Yusuf  Jamal', 'age': 48, 'title': 'Senior VP & GM of Diversified Analog Solutions', 'yearBorn': 1977, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'SWKS announced a cash dividend of $0.71 with an ex-date of May. 26, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1779768000000, 'amount': '0.71'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	71.82
+currentPrice	74.35
 currentRatio	2.376
 customPriceAlertConfidence	HIGH
 dateShortInterest	1777507200
-dayHigh	72.36
-dayLow	69.21
+dayHigh	74.44
+dayLow	70.31
 debtToEquity	20.632
-discount_to_intrinsic_value	-267.26
+discount_to_intrinsic_value	-280.2
 displayName	Skyworks
 dividendDate	1781568000
 dividendRate	2.84
@@ -46,9 +46,9 @@ earningsTimestampEnd	1785873600
 earningsTimestampStart	1785873600
 ebitda	909100032
 ebitdaMargins	0.22479
-enterpriseToEbitda	11.384
-enterpriseToRevenue	2.559
-enterpriseValue	10348859392
+enterpriseToEbitda	12.045
+enterpriseToRevenue	2.708
+enterpriseValue	10950482944
 epsCurrentYear	5.01067
 epsForward	5.14599
 epsTrailingTwelveMonths	2.4
@@ -60,23 +60,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	59.7402
-fiftyDayAverageChange	12.0798
-fiftyDayAverageChangePercent	0.20220554
-fiftyTwoWeekChangePercent	-3.998363
+fiftyDayAverage	60.0416
+fiftyDayAverageChange	14.308399
+fiftyDayAverageChangePercent	0.2383081
+fiftyTwoWeekChangePercent	-1.4015436
 fiftyTwoWeekHigh	90.9
-fiftyTwoWeekHighChange	-19.080002
-fiftyTwoWeekHighChangePercent	-0.209901
+fiftyTwoWeekHighChange	-16.550003
+fiftyTwoWeekHighChangePercent	-0.18206824
 fiftyTwoWeekLow	51.93
-fiftyTwoWeekLowChange	19.89
-fiftyTwoWeekLowChangePercent	0.38301557
+fiftyTwoWeekLowChange	22.419998
+fiftyTwoWeekLowChangePercent	0.43173498
 fiftyTwoWeekRange	51.93 - 90.9
 financialCurrency	USD
 firstTradeDateMilliseconds	463411800000
 fiveYearAvgDividendYield	2.72
 floatShares	149679502
 forwardEps	5.14599
-forwardPE	13.956498
+forwardPE	14.448143
 freeCashflow	687837504
 fullExchangeName	NasdaqGS
 fullTimeEmployees	10000
@@ -87,7 +87,7 @@ grossMargins	0.41075
 grossProfits	1661200000
 hasPrePostMarketData	True
 heldPercentInsiders	0.00429
-heldPercentInstitutions	1.1442701
+heldPercentInstitutions	1.14442
 impliedSharesOutstanding	150405963
 industry	Semiconductors
 industryDisp	Semiconductors
@@ -103,31 +103,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Skyworks Solutions, Inc., together with its subsidiaries, develops, manufactures, and markets analog and mixed-signal semiconductor products and solutions in the United States, Taiwan, China, South Korea, Europe, the Middle East, Africa, and the Asia Pacific. The company offers amplifiers, antenna tuners, attenuators, automotive tuners and digital radios, wireless ASoC, DC/DC converters, demodulators, detectors, digital power isolators, diodes, directional couplers, diversity receive modules, filters, front-end modules, hybrids, light emitting diode drivers, low noise amplifiers, mixers, modulators, and optocouplers/optoisolators. It also provides phase locked loops, phase shifters, power dividers/combiners, power over ethernet, power isolators, ProSLIC family of subscriber line interface circuits, receivers, system in package, switches, synthesizers, timing devices, voltage-controlled oscillators/synthesizers, and voltage regulators. The company sells its products through direct sales force, electronic component distributors, and independent sales representatives. Its products are used in aerospace, automotive, broadband, cellular infrastructure, connected home, defense, entertainment and gaming, industrial, medical, smartphone, tablet, and wearables applications. The company was founded in 1962 and is headquartered in Irvine, California.
 longName	Skyworks Solutions, Inc.
 market	us_market
-marketCap	10802156544
-marketState	REGULAR
+marketCap	11182683136
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_1462309
 mostRecentQuarter	1775174400
 netIncomeToCommon	361200000
 nextFiscalYearEnd	1790985600
-nonDilutedMarketCap	10307320644
+nonDilutedMarketCap	10581059497
 numberOfAnalystOpinions	19
-open	69.99
+open	70.5
 operatingCashflow	960000000
 operatingMargins	0.07704
 overallRisk	10
 payoutRatio	1.1791999
-pegRatio	1.61
+pegRatio	1.7
 phone	949 231 3000
-postMarketChange	0.05000305
-postMarketChangePercent	0.07130052
-postMarketPrice	70.18
-postMarketTime	1778543947
+postMarketChange	-0.099998474
+postMarketChangePercent	-0.13449694
+postMarketPrice	74.25
+postMarketTime	1779321066
 previousClose	70.35
-priceEpsCurrentYear	14.333412
+priceEpsCurrentYear	14.838334
 priceHint	2
-priceToBook	1.869777
-priceToSalesTrailing12Months	2.6709583
+priceToBook	1.9356434
+priceToSalesTrailing12Months	2.7650478
 profitMargins	0.08931
 quickRatio	1.336
 quoteSourceName	Nasdaq Real Time Price
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.72
 region	US
-regularMarketChange	1.4700012
-regularMarketChangePercent	2.089554
-regularMarketDayHigh	72.36
-regularMarketDayLow	69.21
-regularMarketDayRange	69.21 - 72.36
-regularMarketOpen	69.99
+regularMarketChange	4.0
+regularMarketChangePercent	5.68586
+regularMarketDayHigh	74.44
+regularMarketDayLow	70.31
+regularMarketDayRange	70.31 - 74.44
+regularMarketOpen	70.5
 regularMarketPreviousClose	70.35
-regularMarketPrice	71.82
-regularMarketTime	1779212658
-regularMarketVolume	2282462
+regularMarketPrice	74.35
+regularMarketTime	1779307200
+regularMarketVolume	4105664
 returnOnAssets	0.03537
 returnOnEquity	0.06171
 revenueGrowth	-0.01
@@ -176,13 +176,13 @@ tradeable	False
 trailingAnnualDividendRate	2.83
 trailingAnnualDividendYield	0.040227436
 trailingEps	2.4
-trailingPE	29.925
-trailingPegRatio	1.5698
+trailingPE	30.979164
+trailingPegRatio	1.6115
 triggerable	True
-twoHundredDayAverage	66.0959
-twoHundredDayAverageChange	5.724098
-twoHundredDayAverageChangePercent	0.08660292
+twoHundredDayAverage	66.1092
+twoHundredDayAverageChange	8.240799
+twoHundredDayAverageChangePercent	0.124654345
 typeDisp	Equity
-volume	2282462
+volume	4105664
 website	https://www.skyworksinc.com
 zip	92617
