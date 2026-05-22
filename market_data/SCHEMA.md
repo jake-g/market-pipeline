@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-21 |
-| Source | str | Google |
-| Sentiment | float64 | 0.0 |
-| Headline | str | AWS Says Announcing OpenAI-Compatible API Suppo... |
-| Summary | str | (Bloomberg) -- Nvidia Corp., facing more invest... |
-| URL | str | https://news.google.com/rss/articles/CBMi6AFBVV... |
+| Date | str | 2026-05-22 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.08 |
+| Headline | str | Dow Jones Futures Rise After Dow's Closing High... |
+| Summary | str | The Dow hit a record close as oil prices fell f... |
+| URL | str | https://finance.yahoo.com/m/7df82031-d91e-3551-... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -85,9 +85,9 @@ This report documents the file structures and column data types used in `market_
 | TARIFFS | float64 | 346.15 |
 | GDP | float64 | 31856.257 |
 | UNRATE | float64 | 4.3 |
-| HOUSING_STARTS | float64 | 1502.0 |
+| HOUSING_STARTS | float64 | 1465.0 |
 | RECESSION_PROB | float64 | 1.82 |
 | CPI | float64 | 332.407 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 4.09 |
-| US10Y | float64 | 4.59 |
+| US02Y | float64 | 4.04 |
+| US10Y | float64 | 4.57 |
