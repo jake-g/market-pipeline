@@ -344,4 +344,7 @@ if __name__ == "__main__":
       else:
         raise
 
-  asyncio.run(run_test())
+  if os.environ.get("CI"):
+    print("Skipping live NotebookLM integration test in CI environment.")
+  else:
+    asyncio.run(run_test())

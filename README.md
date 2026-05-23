@@ -259,7 +259,7 @@ pre-commit install
 Code style is strictly replicated across environments via:
 1. **VS Code**: `.vscode/settings.json` enables auto-formatting on save (`Cmd+S`).
 2. **Pre-Commit**: `.pre-commit-config.yaml` is the local gatekeeper for `yapf`, `isort`, `mypy`, and `pylint`.
-3. **CI Pipeline**: `.github/workflows/ci.yml` runs both `pre-commit` and `./run_tests.sh` on push to Gitea/GitHub to prevent validation drift.
+3. **CI Pipeline**: `.github/workflows/ci.yml` runs the validation checks and test suite via `make test` on push to Gitea/GitHub to prevent validation drift.
 
 *(Recommended VS Code Extensions: `Python`, `Pylint`, `Mypy Type Checker`, `isort`, `YAPF`)*
 
