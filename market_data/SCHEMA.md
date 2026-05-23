@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.2894789 |
+| Value | str | 0.33568835 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -46,11 +46,11 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Date | str | 2026-05-22 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.08 |
-| Headline | str | Dow Jones Futures Rise After Dow's Closing High... |
-| Summary | str | The Dow hit a record close as oil prices fell f... |
-| URL | str | https://finance.yahoo.com/m/7df82031-d91e-3551-... |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Amazon's Memorial Day Sale Is Packed with Thous... |
+| Summary | str | The dominant technology enterprise makes it eas... |
+| URL | str | https://news.google.com/rss/articles/CBMicEFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

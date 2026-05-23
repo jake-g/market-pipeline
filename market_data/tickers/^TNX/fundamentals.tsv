@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	4.659
-dayLow	4.566
+dayHigh	4.586
+dayLow	4.528
 esgPopulated	False
 exchange	CGI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
 fiftyDayAverage	4.37796
-fiftyDayAverageChange	0.19403982
-fiftyDayAverageChangePercent	0.04432197
+fiftyDayAverageChange	0.18003988
+fiftyDayAverageChangePercent	0.041124146
 fiftyTwoWeekChangePercent	29.821074
 fiftyTwoWeekHigh	4.997
-fiftyTwoWeekHighChange	-0.4250002
-fiftyTwoWeekHighChangePercent	-0.08505107
+fiftyTwoWeekHighChange	-0.43900013
+fiftyTwoWeekHighChangePercent	-0.08785273
 fiftyTwoWeekLow	3.345
-fiftyTwoWeekLowChange	1.227
-fiftyTwoWeekLowChangePercent	0.36681613
+fiftyTwoWeekLowChange	1.213
+fiftyTwoWeekLowChangePercent	0.3626308
 fiftyTwoWeekRange	3.345 - 4.997
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
@@ -42,20 +42,20 @@ market	usir_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	4.643
-previousClose	4.667
+open	4.542
+previousClose	4.586
 priceHint	4
 quoteType	INDEX
 region	US
-regularMarketChange	-0.09499979
-regularMarketChangePercent	-2.0355644
-regularMarketDayHigh	4.659
-regularMarketDayLow	4.566
-regularMarketDayRange	4.566 - 4.659
-regularMarketOpen	4.643
-regularMarketPreviousClose	4.667
-regularMarketPrice	4.572
-regularMarketTime	1779303595
+regularMarketChange	-0.027999878
+regularMarketChangePercent	-0.6105512
+regularMarketDayHigh	4.586
+regularMarketDayLow	4.528
+regularMarketDayRange	4.528 - 4.586
+regularMarketOpen	4.542
+regularMarketPreviousClose	4.586
+regularMarketPrice	4.558
+regularMarketTime	1779476393
 regularMarketVolume	0
 shortName	CBOE Interest Rate 10 Year T No
 sourceInterval	15
@@ -64,7 +64,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	4.307575
-twoHundredDayAverageChange	0.2644248
-twoHundredDayAverageChangePercent	0.061385997
+twoHundredDayAverageChange	0.25042486
+twoHundredDayAverageChangePercent	0.058135923
 typeDisp	Index
 volume	0

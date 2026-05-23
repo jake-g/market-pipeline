@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	250.65
 allTimeLow	12.955
-ask	0.0
-askSize	400
-averageDailyVolume10Day	771370
-averageDailyVolume3Month	1196654
-averageVolume	1196654
-averageVolume10days	771370
+ask	225.44
+askSize	100
+averageDailyVolume10Day	718100
+averageDailyVolume3Month	1180368
+averageVolume	1180368
+averageVolume10days	718100
 beta3Year	1.02
-bid	0.0
+bid	225.36
 bidSize	100
 category	Industrials
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	223.65
-dayLow	218.29
+dayHigh	226.2375
+dayLow	224.155
 dividendYield	0.49
 epsTrailingTwelveMonths	6.1000094
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	224.4068
-fiftyDayAverageChange	-1.1268005
-fiftyDayAverageChangePercent	-0.0050212406
-fiftyTwoWeekChangePercent	27.829504
+fiftyDayAverage	223.7674
+fiftyDayAverageChange	1.6026001
+fiftyDayAverageChangePercent	0.007161902
+fiftyTwoWeekChangePercent	30.458927
 fiftyTwoWeekHigh	250.65
-fiftyTwoWeekHighChange	-27.369995
-fiftyTwoWeekHighChangePercent	-0.109196074
+fiftyTwoWeekHighChange	-25.279999
+fiftyTwoWeekHighChangePercent	-0.100857764
 fiftyTwoWeekLow	168.44
-fiftyTwoWeekLowChange	54.839996
-fiftyTwoWeekLowChangePercent	0.32557586
+fiftyTwoWeekLowChange	56.929993
+fiftyTwoWeekLowChangePercent	0.33798382
 fiftyTwoWeekRange	168.44 - 250.65
 firstTradeDateMilliseconds	1146835800000
-fiveYearAverageReturn	0.1691646
+fiveYearAverageReturn	0.1699882
 fullExchangeName	Cboe US
 fundFamily	iShares
 fundInceptionDate	1146441600
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index measures the performance of the aerospace and defense sector of the U.S. equity market, as defined by SPDJI. The fund generally will invest at least 80% of its assets in the component securities of its index and in investments that have economic characteristics that are substantially identical to the component securities of its index and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents. The fund is non-diversified.
 longName	iShares U.S. Aerospace & Defense ETF
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_32993612
-navPrice	218.0029
+navPrice	223.19156
 netAssets	13564854300.0
 netExpenseRatio	0.38
-open	219.28
+open	225.0
 phone	415-670-2000
-postMarketChange	-1.0968933
-postMarketChangePercent	-0.49126357
-postMarketPrice	222.1831
-postMarketTime	1779321217
-previousClose	218.32
+postMarketChange	-0.16999817
+postMarketChangePercent	-0.0754307
+postMarketPrice	225.2
+postMarketTime	1779490429
+previousClose	223.15
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	4.95999
-regularMarketChangePercent	2.27189
-regularMarketDayHigh	223.65
-regularMarketDayLow	218.29
-regularMarketDayRange	218.29 - 223.65
-regularMarketOpen	219.28
-regularMarketPreviousClose	218.32
-regularMarketPrice	223.28
-regularMarketTime	1779307200
-regularMarketVolume	865414
+regularMarketChange	2.22
+regularMarketChangePercent	0.994847
+regularMarketDayHigh	226.2375
+regularMarketDayLow	224.155
+regularMarketDayRange	224.155 - 226.2375
+regularMarketOpen	225.0
+regularMarketPreviousClose	223.15
+regularMarketPrice	225.37
+regularMarketTime	1779480000
+regularMarketVolume	459260
 shortName	iShares U.S. Aerospace & Defens
 sourceInterval	15
 symbol	ITA
-threeYearAverageReturn	0.2568327
+threeYearAverageReturn	0.2660337
 totalAssets	13564854272
 tradeable	False
-trailingPE	36.60322
+trailingPE	36.945843
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-5.7501
 trailingThreeMonthReturns	-5.7501
 triggerable	True
-twoHundredDayAverage	217.1721
-twoHundredDayAverageChange	6.107895
-twoHundredDayAverageChangePercent	0.028124675
+twoHundredDayAverage	217.427
+twoHundredDayAverageChange	7.942993
+twoHundredDayAverageChangePercent	0.03653177
 typeDisp	ETF
-volume	865414
+volume	459260
 yield	0.0049
 ytdReturn	2.01648
