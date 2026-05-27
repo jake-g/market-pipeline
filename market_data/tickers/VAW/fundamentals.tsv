@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	245.26
 allTimeLow	34.94
-ask	230.63
-askSize	200
-averageDailyVolume10Day	55310
-averageDailyVolume3Month	70665
-averageVolume	70665
-averageVolume10days	55310
+ask	231.75
+askSize	500
+averageDailyVolume10Day	55090
+averageDailyVolume3Month	70788
+averageVolume	70788
+averageVolume10days	55090
 beta3Year	1.02
-bid	225.99
+bid	229.95
 bidSize	100
 category	Natural Resources
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	228.575
-dayLow	226.62
+dayHigh	231.9
+dayLow	230.095
 dividendYield	1.37
 epsTrailingTwelveMonths	9.245142
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	228.9168
-fiftyDayAverageChange	-1.136795
-fiftyDayAverageChangePercent	-0.004965975
-fiftyTwoWeekChangePercent	19.602049
+fiftyDayAverage	228.9716
+fiftyDayAverageChange	2.9084015
+fiftyDayAverageChangePercent	0.012702018
+fiftyTwoWeekChangePercent	18.01461
 fiftyTwoWeekHigh	245.26
-fiftyTwoWeekHighChange	-17.479996
-fiftyTwoWeekHighChangePercent	-0.071271285
-fiftyTwoWeekLow	187.58
-fiftyTwoWeekLowChange	40.199997
-fiftyTwoWeekLowChangePercent	0.21430854
-fiftyTwoWeekRange	187.58 - 245.26
+fiftyTwoWeekHighChange	-13.37999
+fiftyTwoWeekHighChangePercent	-0.05455431
+fiftyTwoWeekLow	188.5
+fiftyTwoWeekLowChange	43.380005
+fiftyTwoWeekLowChangePercent	0.23013265
+fiftyTwoWeekRange	188.5 - 245.26
 firstTradeDateMilliseconds	1075473000000
-fiveYearAverageReturn	0.054461002
+fiveYearAverageReturn	0.055971198
 fullExchangeName	NYSEArca
 fundFamily	Vanguard
 fundInceptionDate	1075075200
@@ -49,47 +49,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the materials sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard Materials Index Fund ETF Shares
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_22939102
-navPrice	226.56
+navPrice	227.86
 netAssets	4537353200.0
 netExpenseRatio	0.09
-open	227.88
-postMarketChange	1.9199982
-postMarketChangePercent	0.8429178
-postMarketPrice	229.7
-postMarketTime	1779487086
-previousClose	226.61
+open	229.8
+postMarketChange	-0.3400116
+postMarketChangePercent	-0.14663257
+postMarketPrice	231.54
+postMarketTime	1779834048
+previousClose	227.78
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	1.17
-regularMarketChangePercent	0.516305
-regularMarketDayHigh	228.575
-regularMarketDayLow	226.62
-regularMarketDayRange	226.62 - 228.575
-regularMarketOpen	227.88
-regularMarketPreviousClose	226.61
-regularMarketPrice	227.78
-regularMarketTime	1779480000
-regularMarketVolume	41002
+regularMarketChange	4.10001
+regularMarketChangePercent	1.79999
+regularMarketDayHigh	231.9
+regularMarketDayLow	230.095
+regularMarketDayRange	230.095 - 231.9
+regularMarketOpen	229.8
+regularMarketPreviousClose	227.78
+regularMarketPrice	231.88
+regularMarketTime	1779825600
+regularMarketVolume	60184
 shortName	Vanguard Materials ETF
 sourceInterval	15
 symbol	VAW
-threeYearAverageReturn	0.1131042
+threeYearAverageReturn	0.12782641
 totalAssets	4537353216
 tradeable	False
-trailingPE	24.637804
+trailingPE	25.081282
 trailingPegRatio	None
 trailingThreeMonthNavReturns	3.53172
 trailingThreeMonthReturns	3.53172
 triggerable	True
-twoHundredDayAverage	216.074
-twoHundredDayAverageChange	11.705994
-twoHundredDayAverageChangePercent	0.054175854
+twoHundredDayAverage	216.23116
+twoHundredDayAverageChange	15.6488495
+twoHundredDayAverageChangePercent	0.07237093
 typeDisp	ETF
-volume	41002
+volume	60184
 yield	0.0137
 ytdReturn	12.35853

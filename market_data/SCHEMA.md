@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.33568835 |
+| Value | str | 0.29269004 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-22 |
-| Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Amazon's Memorial Day Sale Is Packed with Thous... |
-| Summary | str | The dominant technology enterprise makes it eas... |
-| URL | str | https://news.google.com/rss/articles/CBMicEFVX3... |
+| Date | str | 2026-05-26 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.7 |
+| Headline | str | Magnificent Seven Post Best Earnings In Nearly ... |
+| Summary | str | The Magnificent Seven's first-quarter earnings ... |
+| URL | str | https://finance.yahoo.com/m/820f239f-8cab-373e-... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 1.82 |
 | CPI | float64 | 332.407 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 4.04 |
-| US10Y | float64 | 4.57 |
+| US02Y | float64 | 4.13 |
+| US10Y | float64 | 4.56 |
