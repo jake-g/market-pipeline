@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.7518685
-SandP52WeekChange	0.26208222
+52WeekChange	0.7679168
+SandP52WeekChange	0.27201355
 address1	325 Binney Street
 allTimeHigh	497.49
 allTimeLow	11.54
-ask	49.5
+ask	48.92
 askSize	1
 auditRisk	7
 averageAnalystRating	3.0 - Hold
-averageDailyVolume10Day	8333060
-averageDailyVolume3Month	7590955
-averageVolume	7590955
-averageVolume10days	8333060
+averageDailyVolume10Day	5426630
+averageDailyVolume3Month	7442191
+averageVolume	7442191
+averageVolume10days	5426630
 beta	1.056
-bid	44.86
-bidSize	1
+bid	45.6
+bidSize	2
 boardRisk	6
 bookValue	21.954
 city	Cambridge
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	47.03
+currentPrice	46.825
 currentRatio	2.409
 customPriceAlertConfidence	HIGH
-dateShortInterest	1777507200
-dayHigh	48.6717
-dayLow	46.17
+dateShortInterest	1778803200
+dayHigh	47.245
+dayLow	45.89
 debtToEquity	17.522
 displayName	Moderna
 earningsCallTimestampEnd	1777636800
@@ -40,9 +40,9 @@ earningsTimestampEnd	1785501000
 earningsTimestampStart	1785501000
 ebitda	-2299000064
 ebitdaMargins	-1.03326
-enterpriseToEbitda	-6.418
-enterpriseToRevenue	6.631
-enterpriseValue	14753857536
+enterpriseToEbitda	-6.518
+enterpriseToRevenue	6.734
+enterpriseValue	14983993344
 epsCurrentYear	-8.81023
 epsForward	-4.20422
 epsTrailingTwelveMonths	-8.14
@@ -52,22 +52,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	50.6238
-fiftyDayAverageChange	-3.5937996
-fiftyDayAverageChangePercent	-0.07099032
-fiftyTwoWeekChangePercent	75.18685
+fiftyDayAverage	50.3992
+fiftyDayAverageChange	-3.5741997
+fiftyDayAverageChangePercent	-0.070917785
+fiftyTwoWeekChangePercent	76.79168
 fiftyTwoWeekHigh	59.55
-fiftyTwoWeekHighChange	-12.52
-fiftyTwoWeekHighChangePercent	-0.21024351
+fiftyTwoWeekHighChange	-12.724998
+fiftyTwoWeekHighChangePercent	-0.21368596
 fiftyTwoWeekLow	22.28
-fiftyTwoWeekLowChange	24.749998
-fiftyTwoWeekLowChangePercent	1.1108617
+fiftyTwoWeekLowChange	24.545
+fiftyTwoWeekLowChangePercent	1.1016606
 fiftyTwoWeekRange	22.28 - 59.55
 financialCurrency	USD
 firstTradeDateMilliseconds	1544193000000
 floatShares	370102383
 forwardEps	-4.20422
-forwardPE	-11.186379
+forwardPE	-11.13762
 freeCashflow	-20000000
 fullExchangeName	NasdaqGS
 fullTimeEmployees	4700
@@ -88,16 +88,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.
 longName	Moderna, Inc.
 market	us_market
-marketCap	18660857856
-marketState	POST
+marketCap	18579517440
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_128680956
 mostRecentQuarter	1774915200
 netIncomeToCommon	-3193999872
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	18601339821
+nonDilutedMarketCap	18890993790
 numberOfAnalystOpinions	20
-open	47.21
+open	47.18
 operatingCashflow	-1466000000
 operatingMargins	-1.3110499
 overallRisk	10
@@ -107,11 +107,11 @@ postMarketChange	0.29000092
 postMarketChangePercent	0.61662966
 postMarketPrice	47.32
 postMarketTime	1779839972
-previousClose	46.88
-priceEpsCurrentYear	-5.3381124
+previousClose	47.61
+priceEpsCurrentYear	-5.314844
 priceHint	2
-priceToBook	2.1422064
-priceToSalesTrailing12Months	8.386903
+priceToBook	2.1328688
+priceToSalesTrailing12Months	8.350346
 profitMargins	-1.4355099
 quickRatio	2.235
 quoteSourceName	Nasdaq Real Time Price
@@ -119,16 +119,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.95833
 region	US
-regularMarketChange	0.149998
-regularMarketChangePercent	0.319961
-regularMarketDayHigh	48.6717
-regularMarketDayLow	46.17
-regularMarketDayRange	46.17 - 48.6717
-regularMarketOpen	47.21
-regularMarketPreviousClose	46.88
-regularMarketPrice	47.03
-regularMarketTime	1779825601
-regularMarketVolume	3923196
+regularMarketChange	-0.78499985
+regularMarketChangePercent	-1.6488129
+regularMarketDayHigh	47.245
+regularMarketDayLow	45.89
+regularMarketDayRange	45.89 - 47.245
+regularMarketOpen	47.18
+regularMarketPreviousClose	47.61
+regularMarketPrice	46.825
+regularMarketTime	1779990134
+regularMarketVolume	2459861
 returnOnAssets	-0.13093
 returnOnEquity	-0.36556998
 revenueGrowth	2.602
@@ -138,17 +138,17 @@ sectorDisp	Healthcare
 sectorKey	healthcare
 shareHolderRightsRisk	9
 sharesOutstanding	396786259
-sharesPercentSharesOut	0.147
-sharesShort	58309643
-sharesShortPreviousMonthDate	1774915200
-sharesShortPriorMonth	60649602
+sharesPercentSharesOut	0.1464
+sharesShort	58071415
+sharesShortPreviousMonthDate	1776211200
+sharesShortPriorMonth	59437562
 shortName	Moderna, Inc.
-shortPercentOfFloat	0.17979999
-shortRatio	10.34
+shortPercentOfFloat	0.17899999
+shortRatio	7.25
 sourceInterval	15
 state	MA
 symbol	MRNA
-syntheticPEG	-0.042991464258262876
+syntheticPEG	-0.04280407378939278
 targetHighPrice	69.0
 targetLowPrice	21.0
 targetMeanPrice	43.2
@@ -163,10 +163,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-8.14
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	37.05065
-twoHundredDayAverageChange	9.979347
-twoHundredDayAverageChangePercent	0.26934338
+twoHundredDayAverage	37.2602
+twoHundredDayAverageChange	9.5648
+twoHundredDayAverageChangePercent	0.25670287
 typeDisp	Equity
-volume	3923196
+volume	2459861
 website	https://www.modernatx.com
 zip	02142

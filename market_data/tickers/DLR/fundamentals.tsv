@@ -1,43 +1,43 @@
 Metric	Value
-52WeekChange	0.12508786
-SandP52WeekChange	0.26208222
+52WeekChange	0.11291075
+SandP52WeekChange	0.27201355
 address1	601 West 2nd Street
 address2	Floor 32
 allTimeHigh	208.14
 allTimeLow	12.0
-ask	193.9
+ask	193.52
 askSize	200
 auditRisk	1
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	1882290
-averageDailyVolume3Month	2022450
-averageVolume	2022450
-averageVolume10days	1882290
+averageDailyVolume10Day	1950610
+averageDailyVolume3Month	1999365
+averageVolume	1999365
+averageVolume10days	1950610
 beta	1.08
-bid	193.78
-bidSize	400
+bid	193.44
+bidSize	200
 boardRisk	2
 bookValue	64.877
 city	Austin
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Andrew P. Power', 'age': 45, 'title': 'President, CEO & Director', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 6896813, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew R. Mercier', 'age': 45, 'title': 'Chief Financial Officer', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 2039441, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jeannie  Lee', 'age': 48, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 1641275, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Siew Noi  Nah', 'age': 45, 'title': 'MD & Head of Asia Pacific', 'yearBorn': 1980, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Steven J. Smith', 'age': 60, 'title': 'Managing Director of Americas', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey Michael  Tapley CFA', 'age': 61, 'title': 'Chief Operating Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gregory S. Wright', 'age': 60, 'title': 'Chief Investment Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 2185981, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Christine B. Kornegay', 'age': 61, 'title': 'Chief Accounting Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher  Sharp', 'age': 50, 'title': 'Chief Technology Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 1197306, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jordan  Sadler', 'title': 'Senior VP of Public & Private Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	8
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'DLR announced a cash dividend of $1.22 with an ex-date of Jun. 15, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1781496000000, 'amount': '1.22'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	193.67
+currentPrice	193.36
 currentRatio	1.227
 customPriceAlertConfidence	HIGH
-dateShortInterest	1777507200
-dayHigh	194.685
-dayLow	192.23
+dateShortInterest	1778803200
+dayHigh	193.85
+dayLow	190.7
 debtToEquity	76.592
-discount_to_intrinsic_value	-528.01
+discount_to_intrinsic_value	-523.69
 displayName	Digital Realty Trust
 dividendDate	1782777600
 dividendRate	4.88
-dividendYield	2.54
+dividendYield	2.55
 earningsCallTimestampEnd	1776978000
 earningsCallTimestampStart	1776978000
 earningsGrowth	0.676
@@ -47,12 +47,12 @@ earningsTimestampEnd	1784836800
 earningsTimestampStart	1784836800
 ebitda	2888658944
 ebitdaMargins	0.4575
-enterpriseToEbitda	30.396
-enterpriseToRevenue	13.906
-enterpriseValue	87804649472
-epsCurrentYear	3.08384
+enterpriseToEbitda	30.158
+enterpriseToRevenue	13.797
+enterpriseValue	87115890688
+epsCurrentYear	2.96922
 epsForward	2.86414
-epsTrailingTwelveMonths	3.76
+epsTrailingTwelveMonths	3.78
 eps_normalized_growth	-0.44553753929121453
 esgPopulated	False
 exDividendDate	1781481600
@@ -62,34 +62,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	415 738 6501
-fiftyDayAverage	189.5548
-fiftyDayAverageChange	4.115204
-fiftyDayAverageChangePercent	0.021709837
-fiftyTwoWeekChangePercent	12.508785
+fiftyDayAverage	190.0452
+fiftyDayAverageChange	3.314804
+fiftyDayAverageChangePercent	0.017442187
+fiftyTwoWeekChangePercent	11.291075
 fiftyTwoWeekHigh	208.14
-fiftyTwoWeekHighChange	-14.470001
-fiftyTwoWeekHighChangePercent	-0.06952052
+fiftyTwoWeekHighChange	-14.779999
+fiftyTwoWeekHighChangePercent	-0.07100989
 fiftyTwoWeekLow	146.23
-fiftyTwoWeekLowChange	47.440002
-fiftyTwoWeekLowChangePercent	0.32442045
+fiftyTwoWeekLowChange	47.130005
+fiftyTwoWeekLowChangePercent	0.32230052
 fiftyTwoWeekRange	146.23 - 208.14
 financialCurrency	USD
 firstTradeDateMilliseconds	1099056600000
 fiveYearAvgDividendYield	3.41
 floatShares	329007447
 forwardEps	2.86414
-forwardPE	67.6189
+forwardPE	67.510666
 freeCashflow	3261901824
 fullExchangeName	NYSE
 fullTimeEmployees	4282
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1777593600
-graham_intrinsic_value	30.84
+graham_intrinsic_value	31.0
 grossMargins	0.55342996
 grossProfits	3494372096
 hasPrePostMarketData	True
 heldPercentInsiders	0.00013
-heldPercentInstitutions	1.00764
+heldPercentInstitutions	1.00772
 impliedSharesOutstanding	357699070
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -103,16 +103,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Digital Realty Trust, Inc. owns, acquires, develops, and operates data centers through its operating partnership subsidiary, Digital Realty Trust, L.P. The company is focused on providing data center, colocation, and interconnection solutions for domestic and international customers across a variety of industry verticals ranging from cloud and information technology services, communications and social networking to financial services, manufacturing, energy, healthcare, and consumer products. As of March 31, 2026, the company's 309 data centers, including 89 data centers held as investments in unconsolidated entities, contain applications and operations critical to the day-to-day operations of technology industry and corporate enterprise data center customers. Digital Realty's portfolio is comprised of approximately 3.0 gigawatts of IT capacity, as well as approximately 6.3 gigawatts of buildable IT capacity under active development and held for future development, located throughout North America, Europe, South America, Asia, Australia, and Africa. Digital Realty Trust, Inc. was established on March 09, 2004 and is based in Dallas, United States.
 longName	Digital Realty Trust, Inc.
 market	us_market
-marketCap	69275582464
-marketState	POST
+marketCap	69164695552
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_11041860
 mostRecentQuarter	1774915200
 netIncomeToCommon	1337165056
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	67480507622
+nonDilutedMarketCap	67368057679
 numberOfAnalystOpinions	29
-open	194.5
+open	191.92
 operatingCashflow	2545472000
 operatingMargins	0.17191
 overallRisk	7
@@ -123,11 +123,11 @@ postMarketChange	1.7445984
 postMarketChangePercent	0.9008098
 postMarketPrice	195.4146
 postMarketTime	1779839718
-previousClose	192.03
-priceEpsCurrentYear	62.801575
+previousClose	191.71
+priceEpsCurrentYear	65.12148
 priceHint	2
-priceToBook	2.9851873
-priceToSalesTrailing12Months	10.971659
+priceToBook	2.9804091
+priceToSalesTrailing12Months	10.954097
 profitMargins	0.21823
 quickRatio	1.119
 quoteSourceName	Nasdaq Real Time Price
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.71875
 region	US
-regularMarketChange	1.64
-regularMarketChangePercent	0.854033
-regularMarketDayHigh	194.685
-regularMarketDayLow	192.23
-regularMarketDayRange	192.23 - 194.685
-regularMarketOpen	194.5
-regularMarketPreviousClose	192.03
-regularMarketPrice	193.67
-regularMarketTime	1779825603
-regularMarketVolume	1958382
+regularMarketChange	1.6499939
+regularMarketChangePercent	0.86067176
+regularMarketDayHigh	193.85
+regularMarketDayLow	190.7
+regularMarketDayRange	190.7 - 193.85
+regularMarketOpen	191.92
+regularMarketPreviousClose	191.71
+regularMarketPrice	193.36
+regularMarketTime	1779989940
+regularMarketVolume	478330
 returnOnAssets	0.01255
 returnOnEquity	0.05688
 revenueGrowth	0.167
@@ -155,9 +155,9 @@ sectorKey	real-estate
 shareHolderRightsRisk	9
 sharesOutstanding	351406070
 sharesPercentSharesOut	0.0
-sharesShort	6862
-sharesShortPreviousMonthDate	1774915200
-sharesShortPriorMonth	22748
+sharesShort	8063
+sharesShortPreviousMonthDate	1776211200
+sharesShortPriorMonth	12927
 shortName	Digital Realty Trust, Inc.
 shortPercentOfFloat	0.0
 shortRatio	0.0
@@ -174,15 +174,15 @@ totalDebt	19452149760
 totalRevenue	6314048000
 tradeable	False
 trailingAnnualDividendRate	4.88
-trailingAnnualDividendYield	0.025412697
-trailingEps	3.76
-trailingPE	51.507977
-trailingPegRatio	12.9485
+trailingAnnualDividendYield	0.025455114
+trailingEps	3.78
+trailingPE	51.15344
+trailingPegRatio	12.927
 triggerable	True
-twoHundredDayAverage	172.6156
-twoHundredDayAverageChange	21.054398
-twoHundredDayAverageChangePercent	0.12197274
+twoHundredDayAverage	172.8368
+twoHundredDayAverageChange	20.523193
+twoHundredDayAverageChangePercent	0.11874319
 typeDisp	Equity
-volume	1958382
+volume	478330
 website	https://www.digitalrealty.com
 zip	78701

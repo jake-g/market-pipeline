@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.29269004 |
+| Value | str | 0.32158482 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-26 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.7 |
-| Headline | str | Magnificent Seven Post Best Earnings In Nearly ... |
-| Summary | str | The Magnificent Seven's first-quarter earnings ... |
-| URL | str | https://finance.yahoo.com/m/820f239f-8cab-373e-... |
+| Date | str | 2026-05-28 |
+| Source | str | Google |
+| Sentiment | float64 | 0.6 |
+| Headline | str | Amazon Has a ‘Handy’ Victorinox Swiss Army Knif... |
+| Summary | str | Best Buy  is known for its laptops and smartpho... |
+| URL | str | https://news.google.com/rss/articles/CBMingFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

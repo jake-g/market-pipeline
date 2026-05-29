@@ -1,37 +1,37 @@
 Metric	Value
-52WeekChange	26.208221
-allTimeHigh	7517.12
+52WeekChange	27.201355
+allTimeHigh	7539.09
 allTimeLow	4.4
 ask	7500.56
 askSize	0
-averageDailyVolume10Day	5472027000
-averageDailyVolume3Month	5493453833
-averageVolume	5493453833
-averageVolume10days	5472027000
+averageDailyVolume10Day	5429388000
+averageDailyVolume3Month	5474784918
+averageVolume	5474784918
+averageVolume10days	5429388000
 bid	7429.78
 bidSize	0
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	7539.09
-dayLow	7501.1
+dayHigh	7566.58
+dayLow	7508.04
 esgPopulated	False
 exchange	SNP
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
-fiftyDayAverage	6987.9575
-fiftyDayAverageChange	531.1626
-fiftyDayAverageChangePercent	0.076011136
-fiftyTwoWeekChangePercent	26.208221
-fiftyTwoWeekHigh	7539.09
-fiftyTwoWeekHighChange	-19.969727
-fiftyTwoWeekHighChangePercent	-0.0026488246
+fiftyDayAverage	7022.1157
+fiftyDayAverageChange	541.44434
+fiftyDayAverageChangePercent	0.07710558
+fiftyTwoWeekChangePercent	27.201355
+fiftyTwoWeekHigh	7566.58
+fiftyTwoWeekHighChange	-3.0200195
+fiftyTwoWeekHighChangePercent	-0.0003991261
 fiftyTwoWeekLow	5843.66
-fiftyTwoWeekLowChange	1675.46
-fiftyTwoWeekLowChangePercent	0.28671414
-fiftyTwoWeekRange	5843.66 - 7539.09
+fiftyTwoWeekLowChange	1719.8999
+fiftyTwoWeekLowChangePercent	0.29431894
+fiftyTwoWeekRange	5843.66 - 7566.58
 firstTradeDateMilliseconds	-1325583000000
 fullExchangeName	SNP
 gmtOffSetMilliseconds	-14400000
@@ -39,33 +39,33 @@ hasPrePostMarketData	False
 language	en-US
 longName	S&P 500
 market	us_market
-marketState	POSTPOST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_INDEXGSPC
-open	7511.79
-previousClose	7473.47
+open	7519.82
+previousClose	7520.36
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Free Realtime Quote
 quoteType	INDEX
 region	US
-regularMarketChange	45.649902
-regularMarketChangePercent	0.610826
-regularMarketDayHigh	7539.09
-regularMarketDayLow	7501.1
-regularMarketDayRange	7501.1 - 7539.09
-regularMarketOpen	7511.79
-regularMarketPreviousClose	7473.47
-regularMarketPrice	7519.12
-regularMarketTime	1779828232
-regularMarketVolume	3046247000
+regularMarketChange	43.200195
+regularMarketChangePercent	0.5744401
+regularMarketDayHigh	7566.58
+regularMarketDayLow	7508.04
+regularMarketDayRange	7508.04 - 7566.58
+regularMarketOpen	7519.82
+regularMarketPreviousClose	7520.36
+regularMarketPrice	7563.56
+regularMarketTime	1779990439
+regularMarketVolume	1620559000
 shortName	S&P 500
 sourceInterval	15
 symbol	^GSPC
 tradeable	False
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	6807.657
-twoHundredDayAverageChange	711.4629
-twoHundredDayAverageChangePercent	0.10450921
+twoHundredDayAverage	6819.207
+twoHundredDayAverageChange	744.353
+twoHundredDayAverageChangePercent	0.109155364
 typeDisp	Index
-volume	3046247000
+volume	1620469000
