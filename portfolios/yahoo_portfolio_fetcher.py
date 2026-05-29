@@ -118,32 +118,66 @@ def parse_curl_command(curl_text: str) -> dict:
 
 
 def prompt_for_curl_and_save_env(env_path: str):
-  """Prompts user to paste cURL string via stdin, parses it, and saves to .env."""
+  """Prompts user to paste cURL, parses it, and saves to .env."""
   logger.info("\n🚨 Yahoo Finance credentials expired or missing!")
   logger.info(
-      "📋 ACTION REQUIRED: Open Chrome -> Yahoo Portfolios -> Network Tab -> Right-click the 'portfolio' request -> Copy as cURL"
-  )
+      "📋 ACTION REQUIRED: Open Chrome -> Yahoo Portfolios -> Network Tab -> "
+      "Right-click the 'portfolio' request -> Copy as cURL")
+
+  chrome_url = "https://finance.yahoo.com/portfolios"
+  logger.info("Opening Google Chrome with DevTools to: %s", chrome_url)
+  try:
+    # pylint: disable=consider-using-with
+    subprocess.Popen([
+        "open", "-a", "Google Chrome", "--args",
+        "--auto-open-devtools-for-tabs", chrome_url
+    ])
+  except Exception as e:
+    logger.warning("Failed to open Google Chrome automatically: %s", e)
+    # Fallback to standard web browser open if Chrome fails
+    import webbrowser
+    webbrowser.open(chrome_url)
 
   logger.info("\nChecking clipboard for 'Copy as cURL' command...")
 
   curl_text = ""
   if shutil.which('pbpaste'):
+    logger.info("Waiting for cURL command in clipboard...")
+    logger.info("Press Ctrl+C to abort at any time.")
+    start_wait = time.time()
+    last_heartbeat = 0
     try:
-      result = subprocess.run(['pbpaste'],
-                              capture_output=True,
-                              text=True,
-                              timeout=2,
-                              check=True)
-      clipboard_content = result.stdout
-      if clipboard_content.strip().startswith('curl'):
-        logger.info(
-            "✅ Found cURL command in clipboard. Using it automatically!")
-        curl_text = clipboard_content
-    except Exception as e:
-      logger.warning("Failed to read from clipboard: %s", e)
+      while True:
+        try:
+          result = subprocess.run(['pbpaste'],
+                                  capture_output=True,
+                                  text=True,
+                                  timeout=2,
+                                  check=True)
+          clipboard_content = result.stdout.strip()
+          if (clipboard_content.startswith('curl') and
+              'portfolio' in clipboard_content and
+              ('query1.finance.yahoo.com' in clipboard_content or
+               'query2.finance.yahoo.com' in clipboard_content)):
+            logger.info("✅ Found cURL command in clipboard! Processing...")
+            curl_text = clipboard_content
+            break
+        except Exception:
+          pass
+
+        elapsed = int(time.time() - start_wait)
+        if elapsed - last_heartbeat >= 5:
+          logger.info("... still waiting for cURL in clipboard (%ds)...",
+                      elapsed)
+          last_heartbeat = elapsed
+
+        time.sleep(1.0)
+    except KeyboardInterrupt:
+      logger.info("\nAborted by user.")
+      sys.exit(1)
 
   if not curl_text:
-    logger.info("No valid cURL found in clipboard.")
+    logger.info("No pbpaste clipboard support, falling back to manual entry.")
     logger.info("Paste the 'Copy as cURL' text below.")
     logger.info("Press Ctrl+D (EOF) when finished (or Ctrl+C to abort):")
     try:
@@ -151,6 +185,7 @@ def prompt_for_curl_and_save_env(env_path: str):
     except KeyboardInterrupt:
       logger.info("\nAborted by user.")
       sys.exit(1)
+
   if not curl_text.strip():
     logger.error("No input provided.")
     sys.exit(1)
@@ -348,6 +383,9 @@ def main():
       action="store_true",
       help="Force a fresh fetch from Yahoo Finance, bypassing the 1-hour cache."
   )
+  parser.add_argument("--check-auth",
+                      action="store_true",
+                      help="Verify Yahoo Finance credentials and exit.")
   args = parser.parse_args()
 
   logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -364,8 +402,19 @@ def main():
   if headers_str:
     try:
       custom_headers = json.loads(headers_str)
-    except:
+    except Exception:
       pass
+
+  if args.check_auth:
+    if not cookie or not crumb:
+      logger.error("Yahoo Finance credentials missing in .env")
+      sys.exit(1)
+    if verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers):
+      logger.info("✅ Yahoo Finance Auth Valid")
+      sys.exit(0)
+    else:
+      logger.error("❌ Yahoo Finance Auth Expired or Invalid")
+      sys.exit(1)
   json_cache_path = os.path.join(os.path.dirname(__file__), "portfolio.json")
 
   # Auto-inject the cached file if it's less than 1 hour old and we aren't forcing an update

@@ -357,6 +357,7 @@ async def upload_directory_to_notebooklm(dir_path: str,
           seen_titles.add(file)
 
 
+# pylint: disable=too-many-return-statements
 async def generate_report(market_data_dir: str,
                           mode: str,
                           start_date_str: Optional[str] = None,
@@ -470,6 +471,10 @@ async def generate_report(market_data_dir: str,
     project_name = "Market Feed"
     report_filename = None  # No direct prompt/file output, just archiving raw data
     prompt = None
+  elif mode == 'check_auth':
+    project_name = "Market Reports"
+    report_filename = None
+    prompt = None
   else:
     raise ValueError(f"Unknown mode: {mode}")
 
@@ -479,6 +484,10 @@ async def generate_report(market_data_dir: str,
   try:
     async with MarketNewsClient(project_name=project_name) as db:
       await db.connect()
+
+      if mode == 'check_auth':
+        logger.info("✅ NotebookLM Auth Valid")
+        return
 
       # Clear sources only for one-off temp projects to ensure freshness
       if mode in ['portfolio', 'earnings']:
@@ -887,6 +896,7 @@ async def generate_report(market_data_dir: str,
     if "login" in str(e).lower() or "authentication" in str(e).lower():
       logger.error(
           "Please run `notebooklm login` from your terminal to authenticate.")
+    sys.exit(1)
 
 
 if __name__ == "__main__":
@@ -896,7 +906,7 @@ if __name__ == "__main__":
                           'daily', 'weekly', 'monthly', 'yearly',
                           'yearly_prospective', 'feed_upload', 'report_upload',
                           'upload', 'list', 'list_sources', 'portfolio',
-                          'earnings'
+                          'earnings', 'check_auth'
                       ],
                       required=True,
                       help="Type of operation or 'list' to view projects")

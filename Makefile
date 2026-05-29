@@ -1,7 +1,7 @@
 # Makefile for market-pipeline
 # Handles setup, testing, formatting, serving, and other utility tasks.
 
-.PHONY: help setup format test server server-bg server-stop server-status fetch portfolio portfolio-offline yahoo-creds deploy-preview reports-historical notebooklm-auth clean
+.PHONY: help setup format test test-auth server server-bg server-stop server-status fetch portfolio portfolio-offline yahoo-creds deploy-preview reports-historical notebooklm-auth clean
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
 
@@ -14,6 +14,7 @@ help:
 	@echo "  make setup              - Set up virtual environment and install dependencies"
 	@echo "  make format             - Format code using YAPF and run pre-commit checks"
 	@echo "  make test               - Run all tests and generate static dashboard index"
+	@echo "  make test-auth          - Verify Yahoo Finance and NotebookLM authentication status"
 	@echo "  make server             - Launch the dashboard server in foreground (local mode)"
 	@echo "  make server-bg          - Launch the dashboard server in background"
 	@echo "  make server-stop        - Stop the background dashboard server"
@@ -57,6 +58,13 @@ test: format
 	@echo "🖌️  Running final formatting verification..."
 	@venv/bin/pre-commit run --all-files
 	@echo "✅ All Tests & Verifications Passed!"
+
+# Verify authentication credentials status
+test-auth: setup
+	@echo "Checking Yahoo Finance Authentication..."
+	@venv/bin/python3 -m portfolios.yahoo_portfolio_fetcher --check-auth
+	@echo "Checking NotebookLM Authentication..."
+	@venv/bin/python3 reports/notebooklm_report.py --mode check_auth
 
 # Run server (foreground)
 server: setup
