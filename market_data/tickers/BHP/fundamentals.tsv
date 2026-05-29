@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.7826264
-SandP52WeekChange	0.27201355
+52WeekChange	0.7922025
+SandP52WeekChange	0.2794361
 address1	171 Collins Street
 address2	Level 18
 allTimeHigh	91.45
 allTimeLow	1.132095
-ask	88.36
+ask	88.87
 askSize	200
 averageAnalystRating	3.1 - Hold
-averageDailyVolume10Day	2608250
-averageDailyVolume3Month	3087293
-averageVolume	3087293
-averageVolume10days	2608250
+averageDailyVolume10Day	2381900
+averageDailyVolume3Month	3064172
+averageVolume	3064172
+averageVolume10days	2381900
 beta	0.797
-bid	88.33
-bidSize	300
+bid	88.92
+bidSize	2200
 bookValue	19.858
 city	Melbourne
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Mike P. Henry B.Sc., BSc (Chem)', 'age': 59, 'title': 'CEO & Executive Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 3778000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Vandita  Pant B.Com., M.B.A.', 'age': 54, 'title': 'Chief Financial Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 2166000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Geraldine A. Slattery B.Sc., M.Sc.', 'age': 55, 'title': 'President of Australia', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 2221000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brandon  Craig', 'title': 'President of Americas', 'fiscalYear': 2025, 'totalPay': 1848000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Edgar  Basto-Baez B.Sc.', 'age': 57, 'title': 'Chief Operating Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1501500, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Johan  van Jaarsveld B.E., Ph.D.', 'age': 52, 'title': 'Chief Technical Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dinesh  Bishop', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Caroline  Cox B.A., L.L.B., M.A.', 'age': 54, 'title': 'Chief Legal, Governance & External Affairs Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. James  Agar', 'title': 'Vice President of Communications', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michiel  Hovers', 'title': 'Group Sales & Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -23,12 +23,12 @@ corporateActions	[]
 country	Australia
 cryptoTradeable	False
 currency	USD
-currentPrice	88.225
+currentPrice	88.91
 currentRatio	1.649
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	88.53
-dayLow	86.3
+dayHigh	89.4
+dayLow	87.87
 debtToEquity	52.639
 dividendDate	1774483200
 dividendRate	2.66
@@ -41,12 +41,12 @@ earningsTimestampEnd	1771362000
 earningsTimestampStart	1771362000
 ebitda	26292000768
 ebitdaMargins	0.48700002
-enterpriseToEbitda	17.749
-enterpriseToRevenue	8.644
-enterpriseValue	466657902592
+enterpriseToEbitda	17.743
+enterpriseToRevenue	8.641
+enterpriseValue	466505596928
 epsCurrentYear	4.95771
 epsForward	5.31972
-epsTrailingTwelveMonths	4.02
+epsTrailingTwelveMonths	4.03
 esgPopulated	False
 exDividendDate	1772755200
 exchange	NYQ
@@ -55,23 +55,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	61 3 9609 3015
-fiftyDayAverage	78.235
-fiftyDayAverageChange	9.989998
-fiftyDayAverageChangePercent	0.12769218
-fiftyTwoWeekChangePercent	78.26264
+fiftyDayAverage	78.5814
+fiftyDayAverageChange	10.328606
+fiftyDayAverageChangePercent	0.1314383
+fiftyTwoWeekChangePercent	79.220245
 fiftyTwoWeekHigh	91.45
-fiftyTwoWeekHighChange	-3.2249985
-fiftyTwoWeekHighChangePercent	-0.035265155
+fiftyTwoWeekHighChange	-2.5399933
+fiftyTwoWeekHighChangePercent	-0.027774667
 fiftyTwoWeekLow	45.74
-fiftyTwoWeekLowChange	42.484997
-fiftyTwoWeekLowChangePercent	0.9288368
+fiftyTwoWeekLowChange	43.170002
+fiftyTwoWeekLowChangePercent	0.94381285
 fiftyTwoWeekRange	45.74 - 91.45
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	7.1
 floatShares	4924537690
 forwardEps	5.31972
-forwardPE	16.58452
+forwardPE	16.713287
 freeCashflow	8137124864
 fullExchangeName	NYSE
 fullTimeEmployees	39369
@@ -80,7 +80,7 @@ grossMargins	0.83085
 grossProfits	44856000512
 hasPrePostMarketData	True
 heldPercentInsiders	5e-05
-heldPercentInstitutions	0.04303
+heldPercentInstitutions	0.04302
 impliedSharesOutstanding	2540345092
 industry	Other Industrial Metals & Mining
 industryDisp	Other Industrial Metals & Mining
@@ -95,32 +95,32 @@ lastSplitFactor	1121:1000
 longBusinessSummary	BHP Group Limited operates as a resources company in Australia, Europe, China, Japan, India, South Korea, rest of Asia, North America, South America, and internationally. The company operates through Copper, Iron Ore, and Coal segments. It also engages in the mining of copper, uranium, gold, zinc, lead, molybdenum, silver, iron ore, cobalt, and metallurgical and energy coal. In addition, the company is involved in the mining, smelting, and refining of nickel, as well as potash development activities. Further, it provides towing, freight, marketing and trading, marketing support, finance, administrative, and other services. BHP Group Limited was founded in 1851 and is headquartered in Melbourne, Australia.
 longName	BHP Group Limited
 market	us_market
-marketCap	224121946112
-marketState	REGULAR
+marketCap	225862090752
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_256654
 mostRecentQuarter	1767139200
-nameChangeDate	2026-05-28
+nameChangeDate	2026-05-29
 netIncomeToCommon	10243000320
 nextFiscalYearEnd	1782777600
-nonDilutedMarketCap	223243452065
+nonDilutedMarketCap	219424349589
 numberOfAnalystOpinions	7
-open	87.0
+open	89.105
 operatingCashflow	19747000320
 operatingMargins	0.40728
 payoutRatio	0.5464
 pegRatio	5.95
 phone	61 3 9609 3333
-postMarketChange	-0.61100006
-postMarketChangePercent	-0.70644015
-postMarketPrice	85.879
-postMarketTime	1779839117
+postMarketChange	-0.84000397
+postMarketChangePercent	-0.94478005
+postMarketPrice	88.07
+postMarketTime	1780088336
 prevName	BHP Group
-previousClose	87.83
-priceEpsCurrentYear	17.795515
+previousClose	87.8
+priceEpsCurrentYear	17.933685
 priceHint	2
-priceToBook	4.442794
-priceToSalesTrailing12Months	4.151329
+priceToBook	4.477289
+priceToSalesTrailing12Months	4.183561
 profitMargins	0.18972999
 quickRatio	1.232
 quoteSourceName	Nasdaq Real Time Price
@@ -128,16 +128,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.125
 region	US
-regularMarketChange	0.39499664
-regularMarketChangePercent	0.4497286
-regularMarketDayHigh	88.53
-regularMarketDayLow	86.3
-regularMarketDayRange	86.3 - 88.53
-regularMarketOpen	87.0
-regularMarketPreviousClose	87.83
-regularMarketPrice	88.225
-regularMarketTime	1779989823
-regularMarketVolume	774906
+regularMarketChange	1.11
+regularMarketChangePercent	1.26424
+regularMarketDayHigh	89.4
+regularMarketDayLow	87.87
+regularMarketDayRange	87.87 - 89.4
+regularMarketOpen	89.105
+regularMarketPreviousClose	87.8
+regularMarketPrice	88.91
+regularMarketTime	1780084802
+regularMarketVolume	3030668
 returnOnAssets	0.122250006
 returnOnEquity	0.24712999
 revenueGrowth	0.108
@@ -166,15 +166,15 @@ totalDebt	29195999232
 totalRevenue	53987999744
 tradeable	False
 trailingAnnualDividendRate	1.33
-trailingAnnualDividendYield	0.01514289
-trailingEps	4.02
-trailingPE	21.946518
+trailingAnnualDividendYield	0.015148064
+trailingEps	4.03
+trailingPE	22.062035
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	65.30145
-twoHundredDayAverageChange	22.923546
-twoHundredDayAverageChangePercent	0.35104188
+twoHundredDayAverage	65.4739
+twoHundredDayAverageChange	23.436104
+twoHundredDayAverageChangePercent	0.35794574
 typeDisp	Equity
-volume	774906
+volume	3030668
 website	https://www.bhp.com
 zip	3000

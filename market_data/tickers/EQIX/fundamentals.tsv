@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.20597684
-SandP52WeekChange	0.27201355
+52WeekChange	0.20321321
+SandP52WeekChange	0.2794361
 address1	One Lagoon Drive
 address2	4th Floor
 allTimeHigh	1128.68
 allTimeLow	2.0
-ask	1072.17
-askSize	2
+ask	1067.66
+askSize	1
 auditRisk	10
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	554910
-averageDailyVolume3Month	573742
-averageVolume	573742
-averageVolume10days	554910
+averageDailyVolume10Day	536640
+averageDailyVolume3Month	571635
+averageVolume	571635
+averageVolume10days	536640
 beta	0.997
-bid	1068.86
+bid	1062.35
 bidSize	1
 boardRisk	7
 bookValue	144.976
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	1076.3
+currentPrice	1068.04
 currentRatio	1.178
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	1080.77
-dayLow	1056.0
+dayHigh	1071.705
+dayLow	1055.64
 debtToEquity	162.961
-discount_to_intrinsic_value	-599.05
+discount_to_intrinsic_value	-581.99
 dividendDate	1781654400
 dividendRate	19.7
 dividendYield	1.84
@@ -46,12 +46,12 @@ earningsTimestampEnd	1785355200
 earningsTimestampStart	1785355200
 ebitda	4281999872
 ebitdaMargins	0.44951
-enterpriseToEbitda	29.786
-enterpriseToRevenue	13.389
-enterpriseValue	127545638912
+enterpriseToEbitda	29.768
+enterpriseToRevenue	13.381
+enterpriseValue	127468716032
 epsCurrentYear	17.74667
 epsForward	19.22333
-epsTrailingTwelveMonths	14.45
+epsTrailingTwelveMonths	14.44
 eps_normalized_growth	0.012712563267146981
 esgPopulated	False
 exDividendDate	1779235200
@@ -61,34 +61,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	650 598 6900
-fiftyDayAverage	1045.6016
-fiftyDayAverageChange	30.698486
-fiftyDayAverageChangePercent	0.02935964
-fiftyTwoWeekChangePercent	20.597685
+fiftyDayAverage	1047.4528
+fiftyDayAverageChange	20.58728
+fiftyDayAverageChangePercent	0.019654615
+fiftyTwoWeekChangePercent	20.321321
 fiftyTwoWeekHigh	1128.68
-fiftyTwoWeekHighChange	-52.380005
-fiftyTwoWeekHighChangePercent	-0.046408195
+fiftyTwoWeekHighChange	-60.640015
+fiftyTwoWeekHighChangePercent	-0.053726487
 fiftyTwoWeekLow	710.52
-fiftyTwoWeekLowChange	365.78003
-fiftyTwoWeekLowChangePercent	0.5148061
+fiftyTwoWeekLowChange	357.52002
+fiftyTwoWeekLowChangePercent	0.5031808
 fiftyTwoWeekRange	710.52 - 1128.68
 financialCurrency	USD
 firstTradeDateMilliseconds	966000600000
 fiveYearAvgDividendYield	1.85
-floatShares	98238627
+floatShares	98240600
 forwardEps	19.22333
-forwardPE	55.98926
+forwardPE	55.559574
 freeCashflow	2725125120
 fullExchangeName	NasdaqGS
 fullTimeEmployees	13716
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1777593600
-graham_intrinsic_value	153.97
+graham_intrinsic_value	156.61
 grossMargins	0.51606
 grossProfits	4915999744
 hasPrePostMarketData	True
 heldPercentInsiders	0.00269
-heldPercentInstitutions	1.00046
+heldPercentInstitutions	1.0005001
 impliedSharesOutstanding	98624248
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -104,33 +104,33 @@ lastSplitFactor	1:32
 longBusinessSummary	Equinix, Inc. shortens the path to boundless connectivity anywhere in the world. Its digital infrastructure, data center footprint and interconnected ecosystems empower innovations that enhance our work, life and planet. Equinix connects economies, countries, organizations and communities, delivering seamless digital experiences and cutting-edge AI quickly, efficiently and everywhere. Equinix, Inc. was established on June 22, 1998 and is based in Redwood City, United States.
 longName	Equinix, Inc.
 market	us_market
-marketCap	106149281792
-marketState	REGULAR
+marketCap	105334644736
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_28202
 mostRecentQuarter	1774915200
-nameChangeDate	2026-05-28
+nameChangeDate	2026-05-29
 netIncomeToCommon	1422000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	105549642694
+nonDilutedMarketCap	105472715781
 numberOfAnalystOpinions	28
-open	1065.93
+open	1069.25
 operatingCashflow	3819000064
 operatingMargins	0.24343
 overallRisk	5
 payoutRatio	1.3299
-pegRatio	3.54
+pegRatio	3.51
 phone	650 598 6000
-postMarketChange	12.369995
-postMarketChangePercent	1.1478889
-postMarketPrice	1090.0
-postMarketTime	1779839672
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	1068.04
+postMarketTime	1780086836
 prevName	Equinix, Inc. (REIT)
-previousClose	1070.22
-priceEpsCurrentYear	60.648003
+previousClose	1069.44
+priceEpsCurrentYear	60.18256
 priceHint	2
-priceToBook	7.423988
-priceToSalesTrailing12Months	11.143112
+priceToBook	7.367013
+priceToSalesTrailing12Months	11.057595
 profitMargins	0.14928001
 quickRatio	0.554
 quoteSourceName	Nasdaq Real Time Price
@@ -138,16 +138,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.58065
 region	US
-regularMarketChange	6.080078
-regularMarketChangePercent	0.5681148
-regularMarketDayHigh	1080.77
-regularMarketDayLow	1056.0
-regularMarketDayRange	1056.0 - 1080.77
-regularMarketOpen	1065.93
-regularMarketPreviousClose	1070.22
-regularMarketPrice	1076.3
-regularMarketTime	1779989977
-regularMarketVolume	112180
+regularMarketChange	-1.3999023
+regularMarketChangePercent	-0.1309005
+regularMarketDayHigh	1071.705
+regularMarketDayLow	1055.64
+regularMarketDayRange	1055.64 - 1071.705
+regularMarketOpen	1069.25
+regularMarketPreviousClose	1069.44
+regularMarketPrice	1068.04
+regularMarketTime	1780084801
+regularMarketVolume	943008
 returnOnAssets	0.03495
 returnOnEquity	0.10059
 revenueGrowth	0.121
@@ -177,15 +177,15 @@ totalDebt	23335999488
 totalRevenue	9525999616
 tradeable	False
 trailingAnnualDividendRate	19.23
-trailingAnnualDividendYield	0.017968269
-trailingEps	14.45
-trailingPE	74.484436
-trailingPegRatio	3.5101
+trailingAnnualDividendYield	0.017981375
+trailingEps	14.44
+trailingPE	73.964
+trailingPegRatio	3.5076
 triggerable	True
-twoHundredDayAverage	870.8982
-twoHundredDayAverageChange	205.40186
-twoHundredDayAverageChangePercent	0.23585059
+twoHundredDayAverage	872.36163
+twoHundredDayAverageChange	195.6784
+twoHundredDayAverageChangePercent	0.22430882
 typeDisp	Equity
-volume	112180
+volume	943008
 website	https://www.equinix.com
 zip	94065-1562

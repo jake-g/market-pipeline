@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.32158482 |
+| Value | str | 0.3365202 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-28 |
+| Date | str | 2026-05-29 |
 | Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | Amazon Has a ‘Handy’ Victorinox Swiss Army Knif... |
-| Summary | str | Best Buy  is known for its laptops and smartpho... |
-| URL | str | https://news.google.com/rss/articles/CBMingFBVV... |
+| Sentiment | float64 | 0.5 |
+| Headline | str | Brazilian court orders restoration of Fordlandi... |
+| Summary | str | Alphabet's Google Cloud posts a monster Q1'26: ... |
+| URL | str | https://news.google.com/rss/articles/CBMiugFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -83,11 +83,11 @@ This report documents the file structures and column data types used in `market_
 | TECH_PULSE | float64 | 94.5093 |
 | CHINA_IMPORTS | float64 | 20859.034 |
 | TARIFFS | float64 | 346.15 |
-| GDP | float64 | 31856.257 |
+| GDP | float64 | 31819.464 |
 | UNRATE | float64 | 4.3 |
 | HOUSING_STARTS | float64 | 1465.0 |
 | RECESSION_PROB | float64 | 1.82 |
 | CPI | float64 | 332.407 |
 | FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 4.13 |
-| US10Y | float64 | 4.56 |
+| US02Y | float64 | 4.0 |
+| US10Y | float64 | 4.48 |

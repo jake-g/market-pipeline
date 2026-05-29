@@ -1,18 +1,18 @@
 Metric	Value
-52WeekChange	0.0573771
-SandP52WeekChange	0.27201355
+52WeekChange	0.04897964
+SandP52WeekChange	0.2794361
 address1	One American Way
 allTimeHigh	20.2
 allTimeLow	0.92
-ask	0.0
-askSize	300
-averageDailyVolume10Day	15080
-averageDailyVolume3Month	6803
-averageVolume	6803
-averageVolume10days	15080
+ask	2.55
+askSize	600
+averageDailyVolume10Day	15160
+averageDailyVolume3Month	6722
+averageVolume	6722
+averageVolume10days	15160
 beta	0.627
 bid	2.54
-bidSize	200
+bidSize	1400
 bookValue	9.519
 city	Warren
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Ronald E. Klingle', 'age': 77, 'title': 'Chairman & CEO', 'yearBorn': 1948, 'fiscalYear': 2025, 'totalPay': 255000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael J. Havalo', 'age': 40, 'title': 'CFO, Treasurer, Secretary & Director', 'yearBorn': 1985, 'fiscalYear': 2025, 'totalPay': 207303, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kenneth J. McMahon', 'age': 72, 'title': 'CEO & President of American Waste Management Services Inc', 'yearBorn': 1953, 'fiscalYear': 2025, 'totalPay': 480669, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Clifford P. Davis', 'age': 62, 'title': 'Chief Technology Officer', 'yearBorn': 1963, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Frances R. Klingle', 'age': 78, 'title': 'Chief Administrative Officer', 'yearBorn': 1947, 'fiscalYear': 2025, 'totalPay': 105000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Christine M. Bell', 'age': 56, 'title': 'President of Avalon Golf & Country Club The Grand Resort and Director', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Marjorie J. Patterson', 'title': 'Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -21,11 +21,11 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	2.5421
+currentPrice	2.54
 currentRatio	0.96
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	2.555
+dayHigh	2.5599
 dayLow	2.54
 debtToEquity	97.278
 discount_to_intrinsic_value	-12.21
@@ -36,9 +36,9 @@ earningsTimestampEnd	1754942400
 earningsTimestampStart	1754510400
 ebitda	6202000
 ebitdaMargins	0.07285
-enterpriseToEbitda	6.6
-enterpriseToRevenue	0.481
-enterpriseValue	40935532
+enterpriseToEbitda	6.594
+enterpriseToRevenue	0.48
+enterpriseValue	40896536
 epsTrailingTwelveMonths	0.14
 eps_normalized_growth	0.0994661900599283
 esgPopulated	False
@@ -48,16 +48,16 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	330 856 8480
-fiftyDayAverage	2.5528
-fiftyDayAverageChange	-0.010699987
-fiftyDayAverageChangePercent	-0.0041914713
-fiftyTwoWeekChangePercent	5.73771
+fiftyDayAverage	2.552
+fiftyDayAverageChange	-0.012000084
+fiftyDayAverageChangePercent	-0.004702227
+fiftyTwoWeekChangePercent	4.897964
 fiftyTwoWeekHigh	5.43
-fiftyTwoWeekHighChange	-2.8878999
-fiftyTwoWeekHighChangePercent	-0.53184164
+fiftyTwoWeekHighChange	-2.8899999
+fiftyTwoWeekHighChangePercent	-0.53222835
 fiftyTwoWeekLow	2.1
-fiftyTwoWeekLowChange	0.44210005
-fiftyTwoWeekLowChangePercent	0.21052384
+fiftyTwoWeekLowChange	0.44000006
+fiftyTwoWeekLowChangePercent	0.20952384
 fiftyTwoWeekRange	2.1 - 5.43
 financialCurrency	USD
 firstTradeDateMilliseconds	898608600000
@@ -83,15 +83,15 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Avalon Holdings Corporation provides waste management services to industrial, commercial, municipal, and governmental customers in the United States. It operates through Waste Management Services, and Golf and Related Operations segments. The Waste Management Services segment offers hazardous and nonhazardous waste disposal brokerage and management services; captive landfill management services; and turnkey services, including daily operations, facilities management, and management reporting. This segment also engages in the saltwater injection well operations. The Golf and Related Operations segment is involved in the operation and management of golf courses and related clubhouses and facilities; and a hotel and its associated resort amenities, as well as an athletic centers. The company's golf and country club facilities offer swimming pools, fitness centers, tennis courts, dining and banquet, conference facilities, salon, and spa services. It also owns and operates hotel under the brand of The Grand Resort. Avalon Holdings Corporation was incorporated in 1998 and is headquartered in Warren, Ohio.
 longName	Avalon Holdings Corporation
 market	us_market
-marketCap	9912746
-marketState	REGULAR
+marketCap	9904557
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_385420
 mostRecentQuarter	1774915200
 netIncomeToCommon	585000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	10060531
-open	2.54
+nonDilutedMarketCap	10021536
+open	2.5402
 operatingCashflow	3507000
 operatingMargins	-0.04168
 payoutRatio	0.0
@@ -101,26 +101,26 @@ postMarketChange	-0.00999999
 postMarketChangePercent	-0.39370042
 postMarketPrice	2.53
 postMarketTime	1779831982
-previousClose	2.58
+previousClose	2.57
 priceHint	4
-priceToBook	0.26705536
-priceToSalesTrailing12Months	0.11643562
+priceToBook	0.26683474
+priceToSalesTrailing12Months	0.11633942
 profitMargins	0.0068699997
 quickRatio	0.809
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	none
 region	US
-regularMarketChange	-0.03789997
-regularMarketChangePercent	-1.4689912
-regularMarketDayHigh	2.555
+regularMarketChange	-0.03
+regularMarketChangePercent	-1.16731
+regularMarketDayHigh	2.5599
 regularMarketDayLow	2.54
-regularMarketDayRange	2.54 - 2.555
-regularMarketOpen	2.54
-regularMarketPreviousClose	2.58
-regularMarketPrice	2.5421
-regularMarketTime	1779987494
-regularMarketVolume	1477
+regularMarketDayRange	2.54 - 2.5599
+regularMarketOpen	2.5402
+regularMarketPreviousClose	2.57
+regularMarketPrice	2.54
+regularMarketTime	1780084298
+regularMarketVolume	2871
 returnOnAssets	0.01741
 returnOnEquity	0.0086199995
 revenueGrowth	0.099
@@ -147,13 +147,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.14
-trailingPE	18.157856
+trailingPE	18.142857
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	2.6227
-twoHundredDayAverageChange	-0.08060002
-twoHundredDayAverageChangePercent	-0.030731698
+twoHundredDayAverage	2.623
+twoHundredDayAverageChange	-0.082999945
+twoHundredDayAverageChangePercent	-0.031643137
 typeDisp	Equity
-volume	1477
+volume	2871
 website	https://www.avalonholdings.com
 zip	44484-5555

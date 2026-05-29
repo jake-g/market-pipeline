@@ -1,37 +1,37 @@
 Metric	Value
-52WeekChange	40.734924
-allTimeHigh	2932.74
+52WeekChange	42.118
+allTimeHigh	2942.61
 allTimeLow	105.46
 ask	0.0
 askSize	0
-averageDailyVolume10Day	5429388000
-averageDailyVolume3Month	5474784918
-averageVolume	5474784918
-averageVolume10days	5429388000
+averageDailyVolume10Day	5407214000
+averageDailyVolume3Month	5475108709
+averageVolume	5475108709
+averageVolume10days	5407214000
 bid	0.0
 bidSize	0
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	2942.6052
-dayLow	2897.8503
+dayHigh	2932.5713
+dayLow	2898.8254
 esgPopulated	False
 exchange	WCB
 exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
-fiftyDayAverage	2701.1975
-fiftyDayAverageChange	234.30444
-fiftyDayAverageChangePercent	0.08674095
-fiftyTwoWeekChangePercent	40.734924
-fiftyTwoWeekHigh	2942.6052
-fiftyTwoWeekHighChange	-7.1032715
-fiftyTwoWeekHighChangePercent	-0.0024139397
+fiftyDayAverage	2709.529
+fiftyDayAverageChange	209.80933
+fiftyDayAverageChangePercent	0.07743387
+fiftyTwoWeekChangePercent	42.118
+fiftyTwoWeekHigh	2942.61
+fiftyTwoWeekHighChange	-23.271729
+fiftyTwoWeekHighChangePercent	-0.007908532
 fiftyTwoWeekLow	2043.6
-fiftyTwoWeekLowChange	891.902
-fiftyTwoWeekLowChangePercent	0.43643668
-fiftyTwoWeekRange	2043.6 - 2942.6052
+fiftyTwoWeekLowChange	875.7384
+fiftyTwoWeekLowChangePercent	0.42852733
+fiftyTwoWeekRange	2043.6 - 2942.61
 firstTradeDateMilliseconds	558279000000
 fullExchangeName	Chicago Options
 gmtOffSetMilliseconds	-14400000
@@ -39,24 +39,24 @@ hasPrePostMarketData	False
 language	en-US
 longName	 Russell 2000 Index
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_INDEXRUT
-open	2915.0405
-previousClose	2919.9421
+open	2932.5713
+previousClose	2936.5698
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	15.559814
-regularMarketChangePercent	0.53286046
-regularMarketDayHigh	2942.6052
-regularMarketDayLow	2897.8503
-regularMarketDayRange	2897.8503 - 2942.6052
-regularMarketOpen	2915.0405
-regularMarketPreviousClose	2919.9421
-regularMarketPrice	2935.502
-regularMarketTime	1779989540
+regularMarketChange	-17.231445
+regularMarketChangePercent	-0.5867882
+regularMarketDayHigh	2932.5713
+regularMarketDayLow	2898.8254
+regularMarketDayRange	2898.8254 - 2932.5713
+regularMarketOpen	2932.5713
+regularMarketPreviousClose	2936.5698
+regularMarketPrice	2919.3384
+regularMarketTime	1780086608
 regularMarketVolume	0
 shortName	Russell 2000
 sourceInterval	15
@@ -64,8 +64,8 @@ symbol	^RUT
 tradeable	False
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	2549.9133
-twoHundredDayAverageChange	385.58862
-twoHundredDayAverageChangePercent	0.15121636
+twoHundredDayAverage	2553.5137
+twoHundredDayAverageChange	365.8247
+twoHundredDayAverageChangePercent	0.14326327
 typeDisp	Index
 volume	0
