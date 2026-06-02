@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.3365202 |
+| Value | str | 0.309654 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-05-29 |
-| Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | Brazilian court orders restoration of Fordlandi... |
-| Summary | str | Alphabet's Google Cloud posts a monster Q1'26: ... |
-| URL | str | https://news.google.com/rss/articles/CBMiugFBVV... |
+| Date | str | 2026-06-02 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.278 |
+| Headline | str | Bank of America reiterates Amazon stock forecas... |
+| Summary | str | Amazon (AMZN) stock is up about 14.63% year to ... |
+| URL | str | https://www.thestreet.com/investing/stocks/bank... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -79,15 +79,15 @@ This report documents the file structures and column data types used in `market_
 | AIR_PPI | float64 | 194.099 |
 | TRUCK_PPI | float64 | 210.086 |
 | WAREHOUSE_PPI | float64 | 179.064 |
-| MFG_CONST | float64 | 190071.0 |
+| MFG_CONST | float64 | 185725.0 |
 | TECH_PULSE | float64 | 94.5093 |
 | CHINA_IMPORTS | float64 | 20859.034 |
 | TARIFFS | float64 | 346.15 |
 | GDP | float64 | 31819.464 |
 | UNRATE | float64 | 4.3 |
 | HOUSING_STARTS | float64 | 1465.0 |
-| RECESSION_PROB | float64 | 1.82 |
+| RECESSION_PROB | float64 | 0.44 |
 | CPI | float64 | 332.407 |
-| FEDFUNDS | float64 | 3.64 |
-| US02Y | float64 | 4.0 |
-| US10Y | float64 | 4.48 |
+| FEDFUNDS | float64 | 3.63 |
+| US02Y | float64 | 3.98 |
+| US10Y | float64 | 4.45 |

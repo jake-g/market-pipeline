@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.5891183
-SandP52WeekChange	0.2794361
+52WeekChange	-0.5726489
+SandP52WeekChange	0.27697718
 address1	1850 Towers Crescent Plaza
 allTimeHigh	543.0
 allTimeLow	0.42
-ask	171.56
+ask	163.46
 askSize	2
 auditRisk	10
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	13789340
-averageDailyVolume3Month	18310575
-averageVolume	18310575
-averageVolume10days	13789340
+averageDailyVolume10Day	14125850
+averageDailyVolume3Month	18325082
+averageVolume	18325082
+averageVolume10days	14125850
 beta	3.595
-bid	148.52
-bidSize	2
+bid	147.0
+bidSize	1
 boardRisk	10
 bookValue	105.951
 city	Tysons Corner
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	159.09
+currentPrice	149.78
 currentRatio	6.053
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	162.06
-dayLow	148.2463
+dayHigh	153.87
+dayLow	144.29
 debtToEquity	18.094
 dividendDate	1747872000
 earningsCallTimestampEnd	1778014800
@@ -40,12 +40,12 @@ earningsTimestampEnd	1785441600
 earningsTimestampStart	1785441600
 ebitda	-13990264832
 ebitdaMargins	0.0
-enterpriseToEbitda	-4.873
-enterpriseToRevenue	139.004
-enterpriseValue	68177010688
+enterpriseToEbitda	-4.827
+enterpriseToRevenue	137.675
+enterpriseValue	67525177344
 epsCurrentYear	51.76256
 epsForward	4.46196
-epsTrailingTwelveMonths	-36.98
+epsTrailingTwelveMonths	-36.99
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	0
@@ -53,33 +53,33 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	703 848 8610
-fiftyDayAverage	155.4098
-fiftyDayAverageChange	3.680191
-fiftyDayAverageChangePercent	0.023680558
-fiftyTwoWeekChangePercent	-58.91183
+fiftyDayAverage	155.7804
+fiftyDayAverageChange	-6.0003967
+fiftyDayAverageChangePercent	-0.038518306
+fiftyTwoWeekChangePercent	-57.26489
 fiftyTwoWeekHigh	457.22
-fiftyTwoWeekHighChange	-298.13
-fiftyTwoWeekHighChangePercent	-0.65204936
+fiftyTwoWeekHighChange	-307.44
+fiftyTwoWeekHighChangePercent	-0.67241156
 fiftyTwoWeekLow	104.17
-fiftyTwoWeekLowChange	54.92
-fiftyTwoWeekLowChangePercent	0.5272151
+fiftyTwoWeekLowChange	45.61
+fiftyTwoWeekLowChangePercent	0.437842
 fiftyTwoWeekRange	104.17 - 457.22
 financialCurrency	USD
 firstTradeDateMilliseconds	897571800000
-floatShares	329992230
+floatShares	330030779
 forwardEps	4.46196
-forwardPE	35.654736
+forwardPE	33.568207
 freeCashflow	-8699502592
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1511
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1777593600
+governanceEpochDate	1780272000
 grossMargins	0.68114
 grossProfits	334075008
 hasPrePostMarketData	True
 heldPercentInsiders	0.00205
-heldPercentInstitutions	0.64015996
-impliedSharesOutstanding	351109540
+heldPercentInstitutions	0.64015
+impliedSharesOutstanding	351911534
 industry	Software - Application
 industryDisp	Software - Application
 industryKey	software-application
@@ -92,33 +92,33 @@ lastSplitFactor	10:1
 longBusinessSummary	Strategy Inc, together with its subsidiaries, operates as a bitcoin treasury company in the United States, Europe, the Middle East, Africa, and internationally. It offers investors varying degrees of economic exposure to Bitcoin by offering a range of securities, including equity and fixed income instruments. The company also provides AI-powered enterprise analytics software, including Strategy One, which provides non-technical users with the ability to directly access novel and actionable insights for decision-making. In addition, the company provides Strategy Mosaic, a universal intelligence layer that offers enterprises with consistent definitions and governance across data sources, regardless of where that data resides or which tools access it. The company was formerly known as MicroStrategy Incorporated and changed its name to Strategy Inc in August 2025. The company was incorporated in 1989 and is headquartered in Tysons Corner, Virginia.
 longName	Strategy Inc
 market	us_market
-marketCap	55858016256
-marketState	POST
+marketCap	52709306368
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_384976
 mostRecentQuarter	1774915200
-nameChangeDate	2026-05-29
+nameChangeDate	2026-06-01
 netIncomeToCommon	-12773697536
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	53242250645
+nonDilutedMarketCap	55858016718
 numberOfAnalystOpinions	14
-open	149.925
+open	148.465
 operatingCashflow	-50863000
 operatingMargins	-116.41528
 overallRisk	10
 payoutRatio	0.0
 pegRatio	2.85
 phone	703 848 8600
-postMarketChange	-0.19000244
-postMarketChangePercent	-0.11943079
-postMarketPrice	158.9
-postMarketTime	1780088783
+postMarketChange	-0.58000183
+postMarketChangePercent	-0.38723585
+postMarketPrice	149.2
+postMarketTime	1780358399
 prevName	MicroStrategy Incorporated
-previousClose	151.64
-priceEpsCurrentYear	3.0734568
+previousClose	159.09
+priceEpsCurrentYear	2.8935971
 priceHint	2
-priceToBook	1.5015432
-priceToSalesTrailing12Months	113.887405
+priceToBook	1.4136724
+priceToSalesTrailing12Months	107.46759
 profitMargins	0.0
 quickRatio	5.926
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.26667
 region	US
-regularMarketChange	7.449997
-regularMarketChangePercent	4.9129496
-regularMarketDayHigh	162.06
-regularMarketDayLow	148.2463
-regularMarketDayRange	148.2463 - 162.06
-regularMarketOpen	149.925
-regularMarketPreviousClose	151.64
-regularMarketPrice	159.09
-regularMarketTime	1780084801
-regularMarketVolume	19137065
+regularMarketChange	-9.31
+regularMarketChangePercent	-5.85203
+regularMarketDayHigh	153.87
+regularMarketDayLow	144.29
+regularMarketDayRange	144.29 - 153.87
+regularMarketOpen	148.465
+regularMarketPreviousClose	159.09
+regularMarketPrice	149.78
+regularMarketTime	1780344001
+regularMarketVolume	17612877
 returnOnAssets	-0.17813998
 returnOnEquity	-0.30756
 revenueGrowth	0.119
@@ -144,7 +144,7 @@ sector	Technology
 sectorDisp	Technology
 sectorKey	technology
 shareHolderRightsRisk	10
-sharesOutstanding	331469290
+sharesOutstanding	332271284
 sharesPercentSharesOut	0.112799995
 sharesShort	39548870
 sharesShortPreviousMonthDate	1776211200
@@ -157,7 +157,7 @@ state	VA
 symbol	MSTR
 targetHighPrice	645.0
 targetLowPrice	212.0
-targetMeanPrice	380.7857
+targetMeanPrice	376.85715
 targetMedianPrice	347.5
 totalCash	2207218944
 totalCashPerShare	6.298
@@ -166,13 +166,13 @@ totalRevenue	490467008
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-36.98
+trailingEps	-36.99
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	208.8745
-twoHundredDayAverageChange	-49.7845
-twoHundredDayAverageChangePercent	-0.23834647
+twoHundredDayAverage	207.698
+twoHundredDayAverageChange	-57.918
+twoHundredDayAverageChangePercent	-0.2788568
 typeDisp	Equity
-volume	19137065
+volume	17612877
 website	https://www.strategy.com
 zip	22182

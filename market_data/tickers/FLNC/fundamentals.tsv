@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	3.544681
-SandP52WeekChange	0.2794361
+52WeekChange	3.252252
+SandP52WeekChange	0.27697718
 address1	4601 Fairfax Drive
 address2	Suite 600
 allTimeHigh	39.4
 allTimeLow	3.46
-ask	22.3
-askSize	1
+ask	30.08
+askSize	2
 auditRisk	9
 averageAnalystRating	2.8 - Hold
-averageDailyVolume10Day	9733000
-averageDailyVolume3Month	7498808
-averageVolume	7498808
-averageVolume10days	9733000
+averageDailyVolume10Day	9679520
+averageDailyVolume3Month	7557350
+averageVolume	7557350
+averageVolume10days	9679520
 beta	2.615
-bid	16.3
+bid	20.47
 bidSize	2
 boardRisk	10
 bookValue	2.772
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	18.88
+currentPrice	27.15
 currentRatio	1.435
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	21.205
-dayLow	18.615
+dayHigh	28.88
+dayLow	23.2442
 debtToEquity	87.731
 displayName	Fluence Energy
 earningsCallTimestampEnd	1778157000
@@ -41,11 +41,11 @@ earningsTimestampEnd	1778097600
 earningsTimestampStart	1778097600
 ebitda	-18452000
 ebitdaMargins	-0.00714
-enterpriseToEbitda	-159.418
-enterpriseToRevenue	1.138
-enterpriseValue	2941586432
-epsCurrentYear	-0.13296
-epsForward	0.12899
+enterpriseToEbitda	-201.093
+enterpriseToRevenue	1.436
+enterpriseValue	3710564864
+epsCurrentYear	-0.13355
+epsForward	0.18374
 epsTrailingTwelveMonths	-0.31
 esgPopulated	False
 exchange	NMS
@@ -53,32 +53,32 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	15.9601
-fiftyDayAverageChange	2.919899
-fiftyDayAverageChangePercent	0.18294992
-fiftyTwoWeekChangePercent	354.4681
+fiftyDayAverage	16.0179
+fiftyDayAverageChange	11.132099
+fiftyDayAverageChangePercent	0.69497865
+fiftyTwoWeekChangePercent	325.22522
 fiftyTwoWeekHigh	33.51
-fiftyTwoWeekHighChange	-14.629999
-fiftyTwoWeekHighChangePercent	-0.43658608
+fiftyTwoWeekHighChange	-6.3599987
+fiftyTwoWeekHighChangePercent	-0.18979406
 fiftyTwoWeekLow	4.403
-fiftyTwoWeekLowChange	14.476999
-fiftyTwoWeekLowChangePercent	3.2879853
+fiftyTwoWeekLowChange	22.747
+fiftyTwoWeekLowChangePercent	5.16625
 fiftyTwoWeekRange	4.403 - 33.51
 financialCurrency	USD
 firstTradeDateMilliseconds	1635427800000
 floatShares	100279316
-forwardEps	0.12899
-forwardPE	146.36794
+forwardEps	0.18374
+forwardPE	147.76314
 freeCashflow	-133672128
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1670
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1777593600
+governanceEpochDate	1780272000
 grossMargins	0.11708
 grossProfits	302601984
 hasPrePostMarketData	True
 heldPercentInsiders	0.1446
-heldPercentInstitutions	0.84278
+heldPercentInstitutions	0.84326
 impliedSharesOutstanding	184310685
 industry	Utilities - Renewable
 industryDisp	Utilities - Renewable
@@ -90,31 +90,31 @@ lastFiscalYearEnd	1759190400
 longBusinessSummary	Fluence Energy, Inc., through its subsidiaries, provides energy storage and optimization software for renewables and storage applications in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. It sells energy storage products with integrated hardware, software, and digital intelligence. The company's energy storage products include Gridstack Pro, a large-scale front-of-the-meter application; Gridstack, a front-of-the-meter application; Ultrastack for critical system requirements of distribution and transmission networks; Smartstack, a split architecture design, incorporating embedded intelligence and higher energy density compared to traditional AC systems. The company also provides operational and maintenance services; and digital applications. It serves independent power producers, developers, conglomerates, utilities/load-serving entities, and commercial and industrial customers. Fluence Energy, Inc. was founded in 2018 and is headquartered in Arlington, Virginia.
 longName	Fluence Energy, Inc.
 market	us_market
-marketCap	3479785728
-marketState	POST
+marketCap	5004035072
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_1683252955
 mostRecentQuarter	1774915200
 netIncomeToCommon	-41799000
 nextFiscalYearEnd	1790726400
-nonDilutedMarketCap	2836853426
+nonDilutedMarketCap	2507480931
 numberOfAnalystOpinions	17
-open	21.205
+open	23.46
 operatingCashflow	-236027008
 operatingMargins	-0.08434
 overallRisk	9
 payoutRatio	0.0
 pegRatio	3.18
 phone	833 358 3623
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	18.88
-postMarketTime	1780088624
-previousClose	21.36
-priceEpsCurrentYear	-141.99757
+postMarketChange	1.7399998
+postMarketChangePercent	6.4088387
+postMarketPrice	28.89
+postMarketTime	1780358397
+previousClose	18.88
+priceEpsCurrentYear	-203.29463
 priceHint	2
-priceToBook	6.8109665
-priceToSalesTrailing12Months	1.3463802
+priceToBook	9.794372
+priceToSalesTrailing12Months	1.9361347
 profitMargins	-0.01617
 quickRatio	0.716
 quoteSourceName	Nasdaq Real Time Price
@@ -122,16 +122,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.75
 region	US
-regularMarketChange	-2.4800014
-regularMarketChangePercent	-11.610493
-regularMarketDayHigh	21.205
-regularMarketDayLow	18.615
-regularMarketDayRange	18.615 - 21.205
-regularMarketOpen	21.205
-regularMarketPreviousClose	21.36
-regularMarketPrice	18.88
-regularMarketTime	1780084801
-regularMarketVolume	11153510
+regularMarketChange	8.27
+regularMarketChangePercent	43.803
+regularMarketDayHigh	28.88
+regularMarketDayLow	23.2442
+regularMarketDayRange	23.2442 - 28.88
+regularMarketOpen	23.46
+regularMarketPreviousClose	18.88
+regularMarketPrice	27.15
+regularMarketTime	1780344001
+regularMarketVolume	44955609
 returnOnAssets	-0.01324
 returnOnEquity	-0.12718001
 revenueGrowth	0.077
@@ -153,7 +153,7 @@ state	VA
 symbol	FLNC
 targetHighPrice	28.0
 targetLowPrice	9.0
-targetMeanPrice	18.41176
+targetMeanPrice	18.58824
 targetMedianPrice	17.0
 totalCash	387299008
 totalCashPerShare	2.916
@@ -165,10 +165,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.31
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	16.812426
-twoHundredDayAverageChange	2.0675735
-twoHundredDayAverageChangePercent	0.122978896
+twoHundredDayAverage	16.869974
+twoHundredDayAverageChange	10.2800255
+twoHundredDayAverageChangePercent	0.6093682
 typeDisp	Equity
-volume	11153510
+volume	44955609
 website	https://fluenceenergy.com
 zip	22203

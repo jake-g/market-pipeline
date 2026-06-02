@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	159.68
 allTimeLow	17.04
-ask	159.2
+ask	159.75
 askSize	300
-averageDailyVolume10Day	1012500
-averageDailyVolume3Month	1412225
-averageVolume	1412225
-averageVolume10days	1012500
+averageDailyVolume10Day	1008070
+averageDailyVolume3Month	1404252
+averageVolume	1404252
+averageVolume10days	1008070
 beta3Year	0.73
-bid	158.58
-bidSize	1200
+bid	159.19
+bidSize	200
 category	Large Value
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	159.2088
-dayLow	158.6
+dayHigh	159.49
+dayLow	158.1936
 dividendYield	2.24
 epsTrailingTwelveMonths	7.4080505
 esgPopulated	False
@@ -26,10 +26,10 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	153.2012
-fiftyDayAverageChange	5.9888
-fiftyDayAverageChangePercent	0.039091077
-fiftyTwoWeekChangePercent	22.709656
+fiftyDayAverage	153.4348
+fiftyDayAverageChange	5.7552032
+fiftyDayAverageChangePercent	0.037509114
+fiftyTwoWeekChangePercent	23.012138
 fiftyTwoWeekHigh	159.68
 fiftyTwoWeekHighChange	-0.48999023
 fiftyTwoWeekHighChangePercent	-0.0030685763
@@ -38,7 +38,7 @@ fiftyTwoWeekLowChange	31.270004
 fiftyTwoWeekLowChangePercent	0.24444969
 fiftyTwoWeekRange	127.92 - 159.68
 firstTradeDateMilliseconds	1163687400000
-fiveYearAverageReturn	0.114076994
+fiveYearAverageReturn	0.11529879
 fullExchangeName	NYSEArca
 fundFamily	Vanguard
 fundInceptionDate	1163116800
@@ -49,36 +49,36 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the the Target Index, which consists of common stocks of companies that pay dividends that generally are higher than average (excluding real estate investment trusts (“REITs”)). Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the Target Index.
 longName	Vanguard High Dividend Yield Index Fund ETF Shares
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_30273256
-navPrice	158.36
+navPrice	159.16
 netAssets	94628389000.0
 netExpenseRatio	0.04
-open	158.85
-postMarketChange	0.23899841
-postMarketChangePercent	0.15013406
-postMarketPrice	159.429
-postMarketTime	1780089025
-previousClose	158.32
+open	158.64
+postMarketChange	0.55999756
+postMarketChangePercent	0.35177934
+postMarketPrice	159.75
+postMarketTime	1780358372
+previousClose	159.19
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.869995
-regularMarketChangePercent	0.549517
-regularMarketDayHigh	159.2088
-regularMarketDayLow	158.6
-regularMarketDayRange	158.6 - 159.2088
-regularMarketOpen	158.85
-regularMarketPreviousClose	158.32
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
+regularMarketDayHigh	159.49
+regularMarketDayLow	158.1936
+regularMarketDayRange	158.1936 - 159.49
+regularMarketOpen	158.64
+regularMarketPreviousClose	159.19
 regularMarketPrice	159.19
-regularMarketTime	1780084800
-regularMarketVolume	901099
+regularMarketTime	1780344000
+regularMarketVolume	1170259
 shortName	Vanguard High Dividend Yield ET
 sourceInterval	15
 symbol	VYM
-threeYearAverageReturn	0.1898744
+threeYearAverageReturn	0.19603519
 totalAssets	94628388864
 tradeable	False
 trailingPE	21.488785
@@ -86,10 +86,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	5.42411
 trailingThreeMonthReturns	5.42411
 triggerable	True
-twoHundredDayAverage	146.7201
-twoHundredDayAverageChange	12.46991
-twoHundredDayAverageChangePercent	0.08499115
+twoHundredDayAverage	146.8329
+twoHundredDayAverageChange	12.357101
+twoHundredDayAverageChangePercent	0.08415758
 typeDisp	ETF
-volume	901099
+volume	1170259
 yield	0.0224
 ytdReturn	10.15501
