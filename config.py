@@ -91,7 +91,7 @@ SECTORS = {
     ],
     "Auto & Robot": [
         "TSLA", "TM", "F", "ACHR", "JOBY", "RIVN", "UBER", "SYM", "PATH",
-        "ASTS", "RKLB", "LUNR"
+        "ASTS", "LUNR"
     ],
     "Energy & Power Grid": [
         "XOM", "CVX", "CCJ", "NEE", "XLE", "FSLR", "SHEL", "TTE", "BP", "COP",
@@ -100,7 +100,7 @@ SECTORS = {
         "NLR", "ENPH", "FLNC", "KULR"
     ],
     "Aerospace & Defense": [
-        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT"
+        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT", "RKLB"
     ],
     "Crypto & Minerals": [
         "BTC-USD", "ETH-USD", "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM",

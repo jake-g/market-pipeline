@@ -312,8 +312,8 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/AAPL/news.tsv",
-                "size": 1639447,
-                "lines": 3766
+                "size": 1639987,
+                "lines": 3767
               },
               {
                 "type": "file",
@@ -326,7 +326,7 @@
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/AAPL/prices.tsv",
-                "size": 98541,
+                "size": 98542,
                 "lines": 2115
               }
             ]
@@ -368,21 +368,21 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ABBV/news.tsv",
-                "size": 388128,
-                "lines": 882
+                "size": 388824,
+                "lines": 884
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ABBV/news_sentiment.tsv",
-                "size": 3335,
-                "lines": 164
+                "size": 3355,
+                "lines": 165
               },
               {
                 "type": "file",
                 "name": "prices.tsv",
                 "path": "market_data/tickers/ABBV/prices.tsv",
-                "size": 95503,
+                "size": 95504,
                 "lines": 2115
               }
             ]
@@ -424,15 +424,15 @@
                 "type": "file",
                 "name": "news.tsv",
                 "path": "market_data/tickers/ACHR/news.tsv",
-                "size": 358419,
-                "lines": 842
+                "size": 359182,
+                "lines": 843
               },
               {
                 "type": "file",
                 "name": "news_sentiment.tsv",
                 "path": "market_data/tickers/ACHR/news_sentiment.tsv",
-                "size": 4646,
-                "lines": 229
+                "size": 4666,
+                "lines": 230
               },
               {
                 "type": "file",
@@ -16465,6 +16465,13 @@
             "path": "reports/news/05-27_DAILY_REPORT.md",
             "size": 847,
             "lines": 9
+          },
+          {
+            "type": "file",
+            "name": "06-01_DAILY_REPORT.md",
+            "path": "reports/news/06-01_DAILY_REPORT.md",
+            "size": 6675,
+            "lines": 51
           },
           {
             "type": "file",
