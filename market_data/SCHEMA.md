@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.309654 |
+| Value | str | 0.23785162 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 18945000000.0 |
 | Reconciled Cost Of Revenue | float64 | 87463000000.0 |
 | EBITDA | float64 | 59579000000.0 |
-| ... (145 more) | | |
+| ... (239 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-02 |
+| Date | str | 2026-06-04 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.278 |
-| Headline | str | Bank of America reiterates Amazon stock forecas... |
-| Summary | str | Amazon (AMZN) stock is up about 14.63% year to ... |
-| URL | str | https://www.thestreet.com/investing/stocks/bank... |
+| Sentiment | float64 | 0.15 |
+| Headline | str | Target hijacks Amazon to keep winning shoppers ... |
+| Summary | str | For the past year, many big retailers have been... |
+| URL | str | https://www.thestreet.com/retail/target-aligns-... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
