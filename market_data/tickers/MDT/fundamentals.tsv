@@ -5,7 +5,7 @@ address1	Building Two
 address2	Parkmore Business Park West
 allTimeHigh	135.89
 allTimeLow	0.129883
-ask	81.92
+ask	0.0
 askSize	400
 auditRisk	8
 averageAnalystRating	1.9 - Buy
@@ -13,31 +13,31 @@ averageDailyVolume10Day	12737670
 averageDailyVolume3Month	9607260
 averageVolume	9607260
 averageVolume10days	12737670
-beta	0.632
-bid	81.91
+beta	0.597
+bid	0.0
 bidSize	400
 boardRisk	7
 bookValue	38.169
 city	Galway
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Geoffrey Straub Martha', 'age': 55, 'title': 'Chairman of the Board & CEO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3814693, 'exercisedValue': 1013706, 'unexercisedValue': 257865}, {'maxAge': 1, 'name': 'Mr. Thierry  Pieton', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 421766, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rogerio  Branco', 'title': 'SVP & Chief Operations and Supply Chain Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Denise L. Blomquist', 'title': 'VP, Global Controller & Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Laura  Mauri M.D., M.Sc.', 'age': 55, 'title': 'Senior VP and Chief Scientific & Medical Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Ingrid  Goldberg', 'title': 'Vice President & Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Quinn', 'age': 56, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew R. Walter', 'age': 46, 'title': 'Senior Vice President of Human Resources, IT and Global Communications & Corporate Marketing', 'yearBorn': 1979, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason  Weidman', 'title': 'Senior VP and President of Coronary & Renal Denervation business', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alex  Gu', 'title': 'Senior VP & President of Greater China Region', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Geoffrey Straub Martha', 'age': 55, 'title': 'Chairman of the Board & CEO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3814693, 'exercisedValue': 1013706, 'unexercisedValue': 257865}, {'maxAge': 1, 'name': 'Mr. Thierry  Pieton', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 421766, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brett A. Wall', 'age': 59, 'title': 'Executive Officer', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 1858925, 'exercisedValue': 187399, 'unexercisedValue': 2489}, {'maxAge': 1, 'name': 'Mr. Rogerio  Branco', 'title': 'SVP & Chief Operations and Supply Chain Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Denise L. Blomquist', 'title': 'VP, Global Controller & Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Laura  Mauri M.D., M.Sc.', 'age': 55, 'title': 'Senior VP and Chief Scientific & Medical Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Ingrid  Goldberg', 'title': 'Vice President & Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Quinn', 'age': 56, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew R. Walter', 'age': 46, 'title': 'Senior Vice President of Human Resources, IT and Global Communications & Corporate Marketing', 'yearBorn': 1979, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason  Weidman', 'title': 'Senior VP and President of Coronary & Renal Denervation business', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
-corporateActions	[{'header': 'Dividend', 'message': 'MDT announced a cash dividend of $9.72 with an ex-date of Jun. 26, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1782446400000, 'amount': '9.72'}}]
+corporateActions	[]
 country	Ireland
 cryptoTradeable	False
 currency	USD
-currentPrice	81.93
+currentPrice	81.67
 currentRatio	2.535
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	82.83
-dayLow	80.0
+dayHigh	82.68
+dayLow	81.11
 debtToEquity	57.06
-discount_to_intrinsic_value	-134.61
+discount_to_intrinsic_value	-133.86
 displayName	Medtronic
 dividendDate	1776384000
-dividendRate	38.88
-dividendYield	49.88
+dividendRate	2.88
+dividendYield	3.53
 earningsCallTimestampEnd	1779278400
 earningsCallTimestampStart	1779278400
 earningsGrowth	0.171
@@ -45,13 +45,13 @@ earningsQuarterlyGrowth	0.177
 earningsTimestamp	1780489800
 earningsTimestampEnd	1787056200
 earningsTimestampStart	1787056200
-ebitda	9786000384
-ebitdaMargins	0.26911
-enterpriseToEbitda	12.138
-enterpriseToRevenue	3.229
-enterpriseValue	114585518080
-epsCurrentYear	6.05782
-epsForward	6.4441
+ebitda	10081000448
+ebitdaMargins	0.27722
+enterpriseToEbitda	12.375
+enterpriseToRevenue	3.431
+enterpriseValue	124753887232
+epsCurrentYear	5.94776
+epsForward	6.41606
 epsTrailingTwelveMonths	3.73
 eps_normalized_growth	0.005270356917218555
 esgPopulated	False
@@ -63,33 +63,33 @@ exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	353 1 438 1798
 fiftyDayAverage	81.5262
-fiftyDayAverageChange	0.40380096
-fiftyDayAverageChangePercent	0.0049530207
+fiftyDayAverageChange	0.14379883
+fiftyDayAverageChangePercent	0.0017638358
 fiftyTwoWeekChangePercent	-10.402298
 fiftyTwoWeekHigh	106.33
-fiftyTwoWeekHighChange	-24.400002
-fiftyTwoWeekHighChangePercent	-0.22947429
+fiftyTwoWeekHighChange	-24.660004
+fiftyTwoWeekHighChangePercent	-0.23191953
 fiftyTwoWeekLow	73.31
-fiftyTwoWeekLowChange	8.620003
-fiftyTwoWeekLowChangePercent	0.11758291
+fiftyTwoWeekLowChange	8.360001
+fiftyTwoWeekLowChangePercent	0.1140363
 fiftyTwoWeekRange	73.31 - 106.33
 financialCurrency	USD
 firstTradeDateMilliseconds	105197400000
 fiveYearAvgDividendYield	3.0
 floatShares	1281317194
-forwardEps	6.4441
-forwardPE	12.713956
+forwardEps	6.41606
+forwardPE	12.728995
 freeCashflow	4073125120
 fullExchangeName	NYSE
 fullTimeEmployees	95000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1780531200
 graham_intrinsic_value	34.92
-grossMargins	0.65018
-grossProfits	23643000832
+grossMargins	0.65383005
+grossProfits	23776000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0031
-heldPercentInstitutions	0.89386004
+heldPercentInstitutions	0.89387
 impliedSharesOutstanding	1283884964
 industry	Medical Devices
 industryDisp	Medical Devices
@@ -104,48 +104,48 @@ lastSplitFactor	2:1
 longBusinessSummary	Medtronic plc develops, manufactures, and sells device-based medical therapies to healthcare systems, physicians, clinicians, and patients in the United States, Ireland, and internationally. The Cardiovascular Portfolio segment offers implantable cardiac pacemakers, cardioverter defibrillators, and cardiac resynchronization therapy devices; cardiac ablation products; insertable cardiac monitor systems; TYRX products; and remote monitoring and patient-centered software. It also provides aortic valves, surgical valve replacement and repair products, endovascular stent grafts and accessories, and transcatheter pulmonary valves, and percutaneous coronary intervention products, percutaneous angioplasty balloons, and other products. The Neuroscience Portfolio segment offers medical devices and implants, biologic solutions, spinal cord stimulation and brain modulation systems, implantable drug infusion systems, and interventional products, as well as nerve ablation system under the Accurian name. The segment offers its products for spinal surgeons, neurosurgeons, neurologists, pain management specialists, anesthesiologists, orthopedic surgeons, urologists, urogynecologists, and interventional radiologists, as well as ear, nose, and throat specialists, and energy surgical instruments. The Medical Surgical Portfolio segment offers surgical stapling devices, vessel sealing instruments, wound closure and electrosurgery products, AI-powered surgical video and analytics platform, robotic-assisted surgery products, hernia mechanical devices, mesh implants, gynecology products, gastrointestinal and hepatologic diagnostics and therapies, and therapies to treat diseases and conditions, and patient monitoring and airway management products. The Diabetes Operating Unit segment provides insulin pumps and consumables, continuous glucose monitoring systems and sensors, and InPen, a smart insulin pen. Medtronic plc was founded in 1949 and is headquartered in Galway, Ireland.
 longName	Medtronic plc
 market	us_market
-marketCap	105188696064
-marketState	POSTPOST
+marketCap	104854880256
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_31348
 mostRecentQuarter	1776988800
 netIncomeToCommon	4800999936
 nextFiscalYearEnd	1808524800
-nonDilutedMarketCap	94686516095
+nonDilutedMarketCap	104854885009
 numberOfAnalystOpinions	26
-open	80.0
+open	82.1
 operatingCashflow	7329999872
-operatingMargins	0.20526
+operatingMargins	0.21301001
 overallRisk	7
 payoutRatio	0.7614
-pegRatio	1.29
+pegRatio	1.61
 phone	353 1 438 1700
-postMarketChange	0.040000916
-postMarketChangePercent	0.048823282
-postMarketPrice	81.97
-postMarketTime	1780617597
-previousClose	77.95
-priceEpsCurrentYear	13.524668
+postMarketChange	-0.2587967
+postMarketChangePercent	-0.31688097
+postMarketPrice	81.4112
+postMarketTime	1780703984
+previousClose	81.93
+priceEpsCurrentYear	13.731219
 priceHint	2
-priceToBook	2.1465063
-priceToSalesTrailing12Months	2.8926601
+priceToBook	2.1396945
+priceToSalesTrailing12Months	2.8834803
 profitMargins	0.13203
 quickRatio	1.553
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.86667
+recommendationMean	1.9
 region	US
-regularMarketChange	3.98
-regularMarketChangePercent	5.10584
-regularMarketDayHigh	82.83
-regularMarketDayLow	80.0
-regularMarketDayRange	80.0 - 82.83
-regularMarketOpen	80.0
-regularMarketPreviousClose	77.95
-regularMarketPrice	81.93
-regularMarketTime	1780603202
-regularMarketVolume	19433028
+regularMarketChange	-0.260002
+regularMarketChangePercent	-0.317347
+regularMarketDayHigh	82.68
+regularMarketDayLow	81.11
+regularMarketDayRange	81.11 - 82.68
+regularMarketOpen	82.1
+regularMarketPreviousClose	81.93
+regularMarketPrice	81.67
+regularMarketTime	1780689602
+regularMarketVolume	15280947
 returnOnAssets	0.04567
 returnOnEquity	0.09929
 revenueGrowth	0.099
@@ -165,24 +165,24 @@ shortRatio	1.5
 sourceInterval	15
 symbol	MDT
 targetHighPrice	121.0
-targetLowPrice	80.0
-targetMeanPrice	103.15385
-targetMedianPrice	104.0
+targetLowPrice	78.0
+targetMeanPrice	99.34615
+targetMedianPrice	101.5
 totalCash	8383000064
 totalCashPerShare	6.529
 totalDebt	28071000064
 totalRevenue	36364001280
 tradeable	False
-trailingAnnualDividendRate	0.0
-trailingAnnualDividendYield	0.0
+trailingAnnualDividendRate	2.84
+trailingAnnualDividendYield	0.034663737
 trailingEps	3.73
-trailingPE	21.965147
-trailingPegRatio	1.2862
+trailingPE	21.895441
+trailingPegRatio	1.6108
 triggerable	True
 twoHundredDayAverage	92.5537
-twoHundredDayAverageChange	-10.623703
-twoHundredDayAverageChangePercent	-0.1147842
+twoHundredDayAverageChange	-10.883705
+twoHundredDayAverageChangePercent	-0.11759341
 typeDisp	Equity
-volume	19433028
+volume	15280947
 website	https://www.medtronic.com
 zip	H91 4K49

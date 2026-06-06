@@ -5,7 +5,7 @@ address1	2, place Jean Millier
 address2	Arche Nord – Coupole / Regnault Paris La Défense cedex
 allTimeHigh	94.17
 allTimeLow	9.75
-ask	91.25
+ask	0.0
 askSize	500
 auditRisk	10
 averageAnalystRating	2.3 - Buy
@@ -13,30 +13,30 @@ averageDailyVolume10Day	1318040
 averageDailyVolume3Month	1937228
 averageVolume	1937228
 averageVolume10days	1318040
-beta	0.059
-bid	88.5
+beta	0.045
+bid	0.0
 bidSize	200
 boardRisk	4
 bookValue	53.611
 city	Courbevoie
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Patrick  Pouyanne', 'age': 62, 'title': 'Chairman & CEO', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 4833943, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jean-Pierre  Sbraire', 'age': 60, 'title': 'Chief Financial Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Marie-Noëlle  Semeria', 'title': 'Senior VP & Group CTO', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michel  Hourcard', 'title': 'SVP of Development & Ops Techniques - Exploration/Production & SVP of Scientific & Technical Center', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Renaud  Lions', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jacques-Emmanuel  Saulnier', 'title': 'Senior Vice President of Corporate Communications', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bernard  Pinatel', 'age': 63, 'title': 'President of Downstream and President of Marketing & Services', 'yearBorn': 1962, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Catherine  Remy', 'age': 47, 'title': 'President of People & Social Engagement', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Martin  Deffontaines', 'age': 60, 'title': 'Senior Vice President of Talent Management', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Helle  Kristoffersen', 'age': 61, 'title': 'President of Asia', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Patrick  Pouyanne', 'age': 62, 'title': 'Chairman & CEO', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 4835400, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jean-Pierre  Sbraire', 'age': 60, 'title': 'Chief Financial Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Marie-Noëlle  Semeria', 'title': 'Senior VP & Group CTO', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michel  Hourcard', 'title': 'SVP of Development & Ops Techniques - Exploration/Production & SVP of Scientific & Technical Center', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Renaud  Lions', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jacques-Emmanuel  Saulnier', 'title': 'Senior Vice President of Corporate Communications', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bernard  Pinatel', 'age': 63, 'title': 'President of Downstream and President of Marketing & Services', 'yearBorn': 1962, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Catherine  Remy', 'age': 47, 'title': 'President of People & Social Engagement', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Martin  Deffontaines', 'age': 60, 'title': 'Senior Vice President of Talent Management', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Helle  Kristoffersen', 'age': 61, 'title': 'President of Asia', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
-corporateActions	[{'header': 'Dividend', 'message': 'TTE announced a cash dividend of $0.85 with an ex-date of Jun. 30, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1782792000000, 'amount': '0.85'}}]
+corporateActions	[]
 country	France
 cryptoTradeable	False
 currency	USD
-currentPrice	90.17
+currentPrice	88.71
 currentRatio	1.076
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	90.175
-dayLow	89.37
+dayHigh	89.89
+dayLow	88.27
 debtToEquity	51.304
-discount_to_intrinsic_value	76.66
+discount_to_intrinsic_value	77.04
 dividendDate	1776902400
 dividendRate	4.22
-dividendYield	4.71
+dividendYield	4.76
 earningsCallTimestampEnd	1777460400
 earningsCallTimestampStart	1777460400
 earningsGrowth	0.571
@@ -46,9 +46,9 @@ earningsTimestampEnd	1784836800
 earningsTimestampStart	1784836800
 ebitda	36652998656
 ebitdaMargins	0.19924
-enterpriseToEbitda	6.26
-enterpriseToRevenue	1.247
-enterpriseValue	229458460672
+enterpriseToEbitda	6.175
+enterpriseToRevenue	1.23
+enterpriseValue	226343550976
 epsCurrentYear	11.45081
 epsForward	10.06431
 epsTrailingTwelveMonths	6.74
@@ -61,22 +61,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	90.4552
-fiftyDayAverageChange	-0.28520203
-fiftyDayAverageChangePercent	-0.0031529644
+fiftyDayAverageChange	-1.7452011
+fiftyDayAverageChangePercent	-0.019293541
 fiftyTwoWeekChangePercent	51.215397
 fiftyTwoWeekHigh	94.17
-fiftyTwoWeekHighChange	-4.0
-fiftyTwoWeekHighChangePercent	-0.042476375
+fiftyTwoWeekHighChange	-5.459999
+fiftyTwoWeekHighChangePercent	-0.05798024
 fiftyTwoWeekLow	57.39
-fiftyTwoWeekLowChange	32.78
-fiftyTwoWeekLowChangePercent	0.5711796
+fiftyTwoWeekLowChange	31.32
+fiftyTwoWeekLowChangePercent	0.54573965
 fiftyTwoWeekRange	57.39 - 94.17
 financialCurrency	USD
 firstTradeDateMilliseconds	688397400000
 fiveYearAvgDividendYield	5.37
-floatShares	1805066774
+floatShares	1804981434
 forwardEps	10.06431
-forwardPE	8.959382
+forwardPE	8.814315
 freeCashflow	10052124672
 fullExchangeName	NYSE
 fullTimeEmployees	94847
@@ -87,7 +87,7 @@ grossMargins	0.38448003
 grossProfits	70728998912
 hasPrePostMarketData	True
 heldPercentInsiders	0.08856
-heldPercentInstitutions	0.57152003
+heldPercentInstitutions	0.57313997
 impliedSharesOutstanding	2221191979
 industry	Oil & Gas Integrated
 industryDisp	Oil & Gas Integrated
@@ -102,33 +102,33 @@ lastSplitFactor	2:1
 longBusinessSummary	TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Brazil, India, and internationally. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France.
 longName	TotalEnergies SE
 market	us_market
-marketCap	200284880896
-marketState	POSTPOST
+marketCap	197041930240
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_326300
 mostRecentQuarter	1774915200
-nameChangeDate	2026-06-04
+nameChangeDate	2026-06-06
 netIncomeToCommon	15086000128
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	200263431055
+nonDilutedMarketCap	199583863524
 numberOfAnalystOpinions	7
-open	89.72
+open	89.84
 operatingCashflow	28141000704
 operatingMargins	0.20353001
 overallRisk	5
 payoutRatio	0.5884
-pegRatio	0.73
+pegRatio	0.74
 phone	33 1 47 44 46 46
-postMarketChange	-1.0
-postMarketChangePercent	-1.1090163
-postMarketPrice	89.17
-postMarketTime	1780617401
+postMarketChange	-0.40999603
+postMarketChangePercent	-0.46217567
+postMarketPrice	88.3
+postMarketTime	1780703743
 prevName	TOTAL SE
-previousClose	89.58
-priceEpsCurrentYear	7.874552
+previousClose	90.17
+priceEpsCurrentYear	7.74705
 priceHint	2
-priceToBook	1.6819309
-priceToSalesTrailing12Months	1.0887356
+priceToBook	1.6546977
+priceToSalesTrailing12Months	1.0711071
 profitMargins	0.08201
 quickRatio	0.507
 quoteSourceName	Delayed Quote
@@ -136,16 +136,16 @@ quoteType	EQUITY
 recommendationKey	none
 recommendationMean	2.28571
 region	US
-regularMarketChange	0.589996
-regularMarketChangePercent	0.658625
-regularMarketDayHigh	90.175
-regularMarketDayLow	89.37
-regularMarketDayRange	89.37 - 90.175
-regularMarketOpen	89.72
-regularMarketPreviousClose	89.58
-regularMarketPrice	90.17
-regularMarketTime	1780603202
-regularMarketVolume	993438
+regularMarketChange	-1.46
+regularMarketChangePercent	-1.61916
+regularMarketDayHigh	89.89
+regularMarketDayLow	88.27
+regularMarketDayRange	88.27 - 89.89
+regularMarketOpen	89.84
+regularMarketPreviousClose	90.17
+regularMarketPrice	88.71
+regularMarketTime	1780689602
+regularMarketVolume	825125
 returnOnAssets	0.04892
 returnOnEquity	0.12512
 revenueGrowth	0.034
@@ -174,15 +174,15 @@ totalDebt	64250998784
 totalRevenue	183960993792
 tradeable	False
 trailingAnnualDividendRate	4.111
-trailingAnnualDividendYield	0.04589194
+trailingAnnualDividendYield	0.045591664
 trailingEps	6.74
-trailingPE	13.378339
-trailingPegRatio	0.7343
+trailingPE	13.161721
+trailingPegRatio	0.7287
 triggerable	True
 twoHundredDayAverage	73.0462
-twoHundredDayAverageChange	17.123795
-twoHundredDayAverageChangePercent	0.23442416
+twoHundredDayAverageChange	15.663795
+twoHundredDayAverageChangePercent	0.21443681
 typeDisp	Equity
-volume	993438
+volume	825125
 website	https://totalenergies.com
 zip	92078

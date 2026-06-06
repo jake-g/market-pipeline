@@ -5,7 +5,7 @@ address1	241 18th Street South
 address2	Suite 650
 allTimeHigh	417.86
 allTimeLow	16.98
-ask	245.76
+ask	232.48
 askSize	2
 auditRisk	5
 averageAnalystRating	1.6 - Buy
@@ -13,8 +13,8 @@ averageDailyVolume10Day	1598880
 averageDailyVolume3Month	1414766
 averageVolume	1414766
 averageVolume10days	1598880
-beta	1.355
-bid	146.95
+beta	1.361
+bid	142.97
 bidSize	2
 boardRisk	6
 bookValue	85.937
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	204.4
+currentPrice	185.92
 currentRatio	5.51
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	205.552
-dayLow	189.12
+dayHigh	200.77
+dayLow	181.2
 debtToEquity	19.335
 displayName	AeroVironment
 earningsCallTimestampEnd	1773174600
@@ -41,9 +41,9 @@ earningsTimestampEnd	1782763200
 earningsTimestampStart	1782763200
 ebitda	151164992
 ebitdaMargins	0.09388
-enterpriseToEbitda	68.8
-enterpriseToRevenue	6.459
-enterpriseValue	10400120832
+enterpriseToEbitda	62.722
+enterpriseToRevenue	5.888
+enterpriseValue	9481433088
 epsCurrentYear	2.88073
 epsForward	4.03311
 epsTrailingTwelveMonths	-4.35
@@ -54,21 +54,21 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	185.1434
-fiftyDayAverageChange	19.256592
-fiftyDayAverageChangePercent	0.10400906
+fiftyDayAverageChange	0.77659607
+fiftyDayAverageChangePercent	0.004194565
 fiftyTwoWeekChangePercent	2.6153564
 fiftyTwoWeekHigh	417.86
-fiftyTwoWeekHighChange	-213.45999
-fiftyTwoWeekHighChangePercent	-0.51084095
+fiftyTwoWeekHighChange	-231.93999
+fiftyTwoWeekHighChangePercent	-0.5550663
 fiftyTwoWeekLow	156.0
-fiftyTwoWeekLowChange	48.399994
-fiftyTwoWeekLowChangePercent	0.31025636
+fiftyTwoWeekLowChange	29.919998
+fiftyTwoWeekLowChangePercent	0.19179486
 fiftyTwoWeekRange	156.0 - 417.86
 financialCurrency	USD
 firstTradeDateMilliseconds	1169562600000
 floatShares	37413664
 forwardEps	4.03311
-forwardPE	50.68049
+forwardPE	46.09842
 freeCashflow	-304053504
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1456
@@ -78,7 +78,7 @@ grossMargins	0.25004998
 grossProfits	402648992
 hasPrePostMarketData	True
 heldPercentInsiders	0.0076599997
-heldPercentInstitutions	0.89275
+heldPercentInstitutions	0.89277
 impliedSharesOutstanding	50605071
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -89,31 +89,31 @@ lastFiscalYearEnd	1745971200
 longBusinessSummary	AeroVironment, Inc. designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services for government agencies and businesses in the United States and internationally. It operates in two segments, Autonomous Systems; and Space, Cyber and Directed Energy. The company provides uncrewed aircraft systems (UAS), which include small and medium UAS, and kinesis command and control software; and counter-UAS and precision strike, a loitering munitions solution that deliver actionable intelligence and precision firepower modern warfighters, including precision strike, radio frequency and kinetic C-UAS, and electronic warfare systems. It also offers autonomy, AI, and platform technologies; unmanned maritime; uncrewed ground systems; and high-altitude pseudo-satellites. The company provides digital beamforming technology, a multi-band/beam software defined antenna tile that allows simultaneous communication with multiple satellites; laser communications, a data transmission systems for space operations; space-qualified hardware for line of sight stabilization and control electronics in low, medium, and geostationary earth orbit, as well as cislunar orbits; phased array antenna technology to supports hypersonic telemetry and tracking, and other missile testing; and directed energy solution. It also offers cyber solution for national security and defense operations; and HaloCortex OSINT, an AI-powered OSINT analysis platform to provide insights and solve department of defense and commercial challenges. AeroVironment, Inc. was incorporated in 1971 and is headquartered in Arlington, Virginia.
 longName	AeroVironment, Inc.
 market	us_market
-marketCap	10343675904
-marketState	POSTPOST
+marketCap	9408494592
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_1674636
 mostRecentQuarter	1769817600
 netIncomeToCommon	-224360000
 nextFiscalYearEnd	1777507200
-nonDilutedMarketCap	10341146258
+nonDilutedMarketCap	10343676512
 numberOfAnalystOpinions	17
-open	191.0
+open	199.29
 operatingCashflow	-174180992
 operatingMargins	-0.051149998
 overallRisk	4
 payoutRatio	0.0
 pegRatio	1.57
 phone	703 418 2828
-postMarketChange	-0.4099884
-postMarketChangePercent	-0.20058142
-postMarketPrice	203.99
-postMarketTime	1780617475
-previousClose	191.47
-priceEpsCurrentYear	70.95424
+postMarketChange	-0.55999756
+postMarketChangePercent	-0.30120352
+postMarketPrice	185.36
+postMarketTime	1780703987
+previousClose	204.4
+priceEpsCurrentYear	64.5392
 priceHint	2
-priceToBook	2.3784866
-priceToSalesTrailing12Months	6.42353
+priceToBook	2.1634455
+priceToSalesTrailing12Months	5.842773
 profitMargins	-0.13933
 quickRatio	4.396
 quoteSourceName	Nasdaq Real Time Price
@@ -121,16 +121,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.63158
 region	US
-regularMarketChange	12.93
-regularMarketChangePercent	6.75301
-regularMarketDayHigh	205.552
-regularMarketDayLow	189.12
-regularMarketDayRange	189.12 - 205.552
-regularMarketOpen	191.0
-regularMarketPreviousClose	191.47
-regularMarketPrice	204.4
-regularMarketTime	1780603201
-regularMarketVolume	1005162
+regularMarketChange	-18.48
+regularMarketChangePercent	-9.04109
+regularMarketDayHigh	200.77
+regularMarketDayLow	181.2
+regularMarketDayRange	181.2 - 200.77
+regularMarketOpen	199.29
+regularMarketPreviousClose	204.4
+regularMarketPrice	185.92
+regularMarketTime	1780689601
+regularMarketVolume	1110904
 returnOnAssets	-0.012619999
 returnOnEquity	-0.08741
 revenueGrowth	1.434
@@ -165,9 +165,9 @@ trailingEps	-4.35
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	261.6147
-twoHundredDayAverageChange	-57.21469
-twoHundredDayAverageChangePercent	-0.21869832
+twoHundredDayAverageChange	-75.69469
+twoHundredDayAverageChangePercent	-0.28933653
 typeDisp	Equity
-volume	1005162
+volume	1110904
 website	https://www.avinc.com
 zip	22202

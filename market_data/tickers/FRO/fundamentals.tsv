@@ -5,15 +5,15 @@ address1	Iris House
 address2	7th floor, Flat/Office 740B 8, John Kennedy Street
 allTimeHigh	361.8
 allTimeLow	3.79
-ask	34.26
+ask	0.0
 askSize	200
 averageAnalystRating	2.0 - Buy
 averageDailyVolume10Day	3400550
 averageDailyVolume3Month	3475733
 averageVolume	3475733
 averageVolume10days	3400550
-beta	0.049
-bid	34.0
+beta	0.022
+bid	0.0
 bidSize	600
 bookValue	12.763
 city	Limassol
@@ -23,18 +23,18 @@ corporateActions	[]
 country	Cyprus
 cryptoTradeable	False
 currency	USD
-currentPrice	34.16
+currentPrice	35.17
 currentRatio	2.034
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	34.65
-dayLow	33.795
+dayHigh	35.52
+dayLow	34.01
 debtToEquity	92.619
-discount_to_intrinsic_value	85.32
+discount_to_intrinsic_value	84.89
 displayName	Frontline
 dividendDate	1782172800
 dividendRate	3.13
-dividendYield	9.08
+dividendYield	8.9
 earningsCallTimestampEnd	1779454800
 earningsCallTimestampStart	1779454800
 earningsGrowth	15.797
@@ -44,9 +44,9 @@ earningsTimestampEnd	1779453000
 earningsTimestampStart	1779453000
 ebitda	1169954048
 ebitdaMargins	0.51964
-enterpriseToEbitda	8.345
-enterpriseToRevenue	4.337
-enterpriseValue	9763740672
+enterpriseToEbitda	8.538
+enterpriseToRevenue	4.436
+enterpriseValue	9988589568
 epsCurrentYear	6.74883
 epsForward	2.99458
 epsTrailingTwelveMonths	4.06
@@ -59,22 +59,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	36.0402
-fiftyDayAverageChange	-1.8801994
-fiftyDayAverageChangePercent	-0.052169506
+fiftyDayAverageChange	-0.8702011
+fiftyDayAverageChangePercent	-0.024145292
 fiftyTwoWeekChangePercent	90.0717
 fiftyTwoWeekHigh	39.89
-fiftyTwoWeekHighChange	-5.7299995
-fiftyTwoWeekHighChangePercent	-0.14364502
+fiftyTwoWeekHighChange	-4.720001
+fiftyTwoWeekHighChangePercent	-0.11832543
 fiftyTwoWeekLow	16.25
-fiftyTwoWeekLowChange	17.91
-fiftyTwoWeekLowChangePercent	1.1021538
+fiftyTwoWeekLowChange	18.919998
+fiftyTwoWeekLowChangePercent	1.1643076
 fiftyTwoWeekRange	16.25 - 39.89
 financialCurrency	USD
 firstTradeDateMilliseconds	997104600000
 fiveYearAvgDividendYield	11.48
 floatShares	142919442
 forwardEps	2.99458
-forwardPE	11.407275
+forwardPE	11.744551
 freeCashflow	373963616
 fullExchangeName	NYSE
 fullTimeEmployees	85
@@ -84,7 +84,7 @@ grossMargins	0.55826
 grossProfits	1256914944
 hasPrePostMarketData	True
 heldPercentInsiders	0.35786998
-heldPercentInstitutions	0.35673
+heldPercentInstitutions	0.35667
 impliedSharesOutstanding	222622890
 industry	Oil & Gas Midstream
 industryDisp	Oil & Gas Midstream
@@ -99,32 +99,32 @@ lastSplitFactor	1:5
 longBusinessSummary	Frontline plc, a shipping company, engages in the ownership and operation of oil and product tankers worldwide. The company owns and operates oil and product tankers, such as very large crude carriers (VLCCs), Suezmax tankers, and LR2/Aframax tankers. As of December 31, 2025, it operated a fleet of 80 vessels, including 41 VLCCs, 21 Suezmax tankers, and 18 LR2/Aframax tankers. The company is also involved in the charter, purchase, and sale of vessels. Frontline plc was founded in 1985 and is based in Limassol, Cyprus.
 longName	Frontline plc
 market	us_market
-marketCap	7604797952
-marketState	POSTPOST
+marketCap	7829646848
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_144797851
 mostRecentQuarter	1774915200
-nameChangeDate	2026-06-04
+nameChangeDate	2026-06-06
 netIncomeToCommon	904913984
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	7720561790
+nonDilutedMarketCap	7829647006
 numberOfAnalystOpinions	4
-open	34.29
+open	34.07
 operatingCashflow	927028992
 operatingMargins	0.51809
 payoutRatio	0.4335
 pegRatio	5.58
 phone	357 2 5588767
-postMarketChange	0.057498932
-postMarketChangePercent	0.1683224
-postMarketPrice	34.2175
-postMarketTime	1780615207
+postMarketChange	-0.07009888
+postMarketChangePercent	-0.19931442
+postMarketPrice	35.0999
+postMarketTime	1780703582
 prevName	Frontline Ltd.
-previousClose	34.46
-priceEpsCurrentYear	5.0616183
+previousClose	34.16
+priceEpsCurrentYear	5.2112737
 priceHint	2
-priceToBook	2.6764867
-priceToSalesTrailing12Months	3.3776884
+priceToBook	2.7556217
+priceToSalesTrailing12Months	3.4775555
 profitMargins	0.40192002
 quickRatio	1.0
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.0
 region	US
-regularMarketChange	-0.299999
-regularMarketChangePercent	-0.870572
-regularMarketDayHigh	34.65
-regularMarketDayLow	33.795
-regularMarketDayRange	33.795 - 34.65
-regularMarketOpen	34.29
-regularMarketPreviousClose	34.46
-regularMarketPrice	34.16
-regularMarketTime	1780603202
-regularMarketVolume	1954533
+regularMarketChange	1.01
+regularMarketChangePercent	2.95667
+regularMarketDayHigh	35.52
+regularMarketDayLow	34.01
+regularMarketDayRange	34.01 - 35.52
+regularMarketOpen	34.07
+regularMarketPreviousClose	34.16
+regularMarketPrice	35.17
+regularMarketTime	1780689602
+regularMarketVolume	3760519
 returnOnAssets	0.09212
 returnOnEquity	0.35009
 revenueGrowth	0.669
@@ -169,15 +169,15 @@ totalDebt	2631087104
 totalRevenue	2251480064
 tradeable	False
 trailingAnnualDividendRate	3.13
-trailingAnnualDividendYield	0.09082995
+trailingAnnualDividendYield	0.091627635
 trailingEps	4.06
-trailingPE	8.413794
+trailingPE	8.662561
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	28.1918
-twoHundredDayAverageChange	5.9682007
-twoHundredDayAverageChangePercent	0.21169989
+twoHundredDayAverageChange	6.978199
+twoHundredDayAverageChangePercent	0.24752584
 typeDisp	Equity
-volume	1954533
+volume	3760519
 website	https://www.frontlineplc.cy
 zip	3106

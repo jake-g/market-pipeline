@@ -5,7 +5,7 @@ address1	85 New Hampshire Avenue
 address2	Suite 150
 allTimeHigh	134.09
 allTimeLow	2.510212
-ask	132.0
+ask	0.0
 askSize	300
 auditRisk	1
 averageAnalystRating	1.7 - Buy
@@ -13,8 +13,8 @@ averageDailyVolume10Day	1314690
 averageDailyVolume3Month	1502261
 averageVolume	1502261
 averageVolume10days	1314690
-beta	1.227
-bid	129.78
+beta	1.218
+bid	0.0
 bidSize	200
 boardRisk	3
 bookValue	-4.084
@@ -26,16 +26,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	130.25
+currentPrice	124.66
 currentRatio	0.769
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	130.25
-dayLow	125.6
-discount_to_intrinsic_value	-146.96
+dayHigh	129.3204
+dayLow	124.18
+discount_to_intrinsic_value	-136.36
 dividendDate	1783036800
 dividendRate	3.46
-dividendYield	2.7
+dividendYield	2.77
 earningsCallTimestampEnd	1777552200
 earningsCallTimestampStart	1777552200
 earningsGrowth	8.6
@@ -45,9 +45,9 @@ earningsTimestampEnd	1777552200
 earningsTimestampStart	1777552200
 ebitda	2449746944
 ebitdaMargins	0.33811
-enterpriseToEbitda	23.904
-enterpriseToRevenue	8.082
-enterpriseValue	58558869504
+enterpriseToEbitda	23.225
+enterpriseToRevenue	7.853
+enterpriseValue	56895705088
 epsCurrentYear	2.43322
 epsForward	2.67371
 epsTrailingTwelveMonths	0.92
@@ -60,22 +60,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	117.9406
-fiftyDayAverageChange	12.309402
-fiftyDayAverageChangePercent	0.10436951
+fiftyDayAverageChange	6.719406
+fiftyDayAverageChangePercent	0.0569728
 fiftyTwoWeekChangePercent	26.33294
 fiftyTwoWeekHigh	134.09
-fiftyTwoWeekHighChange	-3.8399963
-fiftyTwoWeekHighChangePercent	-0.028637456
+fiftyTwoWeekHighChange	-9.429993
+fiftyTwoWeekHighChangePercent	-0.07032585
 fiftyTwoWeekLow	77.77
-fiftyTwoWeekLowChange	52.480003
-fiftyTwoWeekLowChangePercent	0.6748104
+fiftyTwoWeekLowChange	46.890007
+fiftyTwoWeekLowChangePercent	0.60293186
 fiftyTwoWeekRange	77.77 - 134.09
 financialCurrency	USD
 firstTradeDateMilliseconds	823185000000
 fiveYearAvgDividendYield	3.91
-floatShares	294623815
+floatShares	294689271
 forwardEps	2.67371
-forwardPE	48.71508
+forwardPE	46.62435
 freeCashflow	-499464512
 fullExchangeName	NYSE
 fullTimeEmployees	29400
@@ -101,31 +101,31 @@ lastSplitFactor	1082:1000
 longBusinessSummary	Iron Mountain Incorporated is a global leader in information management services, and is trusted by more than 240,000 customers in 61 countries. It also includes approximately 95% of the Fortune 1000, to help unlock value and intelligence from their assets through services that transcend the physical and digital worlds. Their broad range of solutions address their information management, digital transformation, information security, data center and asset lifecycle management (ALM) needs. Their longstanding commitment to safety, security, sustainability and innovation in support of our customers underpins everything we do. We currently serve customers across an array of market verticals commercial, legal, financial, healthcare, technology, life sciences, energy, business services, entertainment and government organizations. They are listed on the New York Stock Exchange (the NYSE) and are a constituent of the Standard & Poor's 500 Index, the Morgan Stanley Capital International (MSCI) REIT index and the FTSE EPRA Nareit Global Real Estate Index. As of December 31, 2025, we were number 567 on the Fortune 1000. We have been organized and have operated as a REIT beginning with our taxable year ended December 31, 2014. The firm was founded and incorporated in 1951 and is based in Portsmouth, United States.
 longName	Iron Mountain Incorporated
 market	us_market
-marketCap	38752587776
-marketState	POSTPOST
+marketCap	37089427456
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_30292
 mostRecentQuarter	1774915200
 netIncomeToCommon	272304000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	38220020521
+nonDilutedMarketCap	37089426733
 numberOfAnalystOpinions	11
-open	129.25
+open	129.04
 operatingCashflow	1481250048
 operatingMargins	0.20955999
 overallRisk	2
 payoutRatio	3.5848
 pegRatio	2.7
 phone	617 535 4766
-postMarketChange	-0.51220703
-postMarketChangePercent	-0.39324915
-postMarketPrice	129.7378
-postMarketTime	1780613941
-previousClose	127.95
-priceEpsCurrentYear	53.529892
+postMarketChange	0.33999634
+postMarketChangePercent	0.2727389
+postMarketPrice	125.0
+postMarketTime	1780703034
+previousClose	130.25
+priceEpsCurrentYear	51.232525
 priceHint	2
-priceToBook	-31.892752
-priceToSalesTrailing12Months	5.34861
+priceToBook	-30.523996
+priceToSalesTrailing12Months	5.1190615
 profitMargins	0.03758
 quickRatio	0.63
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.72727
 region	US
-regularMarketChange	2.3
-regularMarketChangePercent	1.79758
-regularMarketDayHigh	130.25
-regularMarketDayLow	125.6
-regularMarketDayRange	125.6 - 130.25
-regularMarketOpen	129.25
-regularMarketPreviousClose	127.95
-regularMarketPrice	130.25
-regularMarketTime	1780603202
-regularMarketVolume	727930
+regularMarketChange	-5.59
+regularMarketChangePercent	-4.29174
+regularMarketDayHigh	129.3204
+regularMarketDayLow	124.18
+regularMarketDayRange	124.18 - 129.3204
+regularMarketOpen	129.04
+regularMarketPreviousClose	130.25
+regularMarketPrice	124.66
+regularMarketTime	1780689602
+regularMarketVolume	1706323
 returnOnAssets	0.04557
 returnOnEquity	2.251
 revenueGrowth	0.216
@@ -172,15 +172,15 @@ totalDebt	19716626432
 totalRevenue	7245357056
 tradeable	False
 trailingAnnualDividendRate	3.298
-trailingAnnualDividendYield	0.025775695
+trailingAnnualDividendYield	0.025320537
 trailingEps	0.92
-trailingPE	141.57608
+trailingPE	135.5
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	101.6497
-twoHundredDayAverageChange	28.600304
-twoHundredDayAverageChangePercent	0.28136143
+twoHundredDayAverageChange	23.010307
+twoHundredDayAverageChangePercent	0.22636868
 typeDisp	Equity
-volume	727930
+volume	1706323
 website	https://www.ironmountain.com
 zip	03801

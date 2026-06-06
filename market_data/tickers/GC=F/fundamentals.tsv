@@ -1,13 +1,13 @@
 Metric	Value
 allTimeHigh	5586.2
 allTimeLow	255.0
-ask	4479.7
+ask	4359.0
 askSize	8
 averageDailyVolume10Day	10288
 averageDailyVolume3Month	3505
 averageVolume	3505
 averageVolume10days	10288
-bid	4479.2
+bid	4336.6
 bidSize	14
 contractSymbol	False
 corporateActions	[]
@@ -15,7 +15,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
 dayHigh	4508.7
-dayLow	4478.7
+dayLow	4336.6
 esgPopulated	False
 exchange	CMX
 exchangeDataDelayedBy	10
@@ -24,15 +24,15 @@ exchangeTimezoneShortName	EDT
 expireDate	1787788800
 expireIsoDate	2026-08-27T00:00:00Z
 fiftyDayAverage	4630.256
-fiftyDayAverageChange	-150.85596
-fiftyDayAverageChangePercent	-0.03258048
+fiftyDayAverageChange	-264.95605
+fiftyDayAverageChangePercent	-0.05722277
 fiftyTwoWeekChangePercent	32.411133
 fiftyTwoWeekHigh	5586.2
-fiftyTwoWeekHighChange	-1106.8003
-fiftyTwoWeekHighChangePercent	-0.19813116
+fiftyTwoWeekHighChange	-1220.9004
+fiftyTwoWeekHighChangePercent	-0.21855651
 fiftyTwoWeekLow	3253.8
-fiftyTwoWeekLowChange	1225.5999
-fiftyTwoWeekLowChangePercent	0.37666723
+fiftyTwoWeekLowChange	1111.4998
+fiftyTwoWeekLowChangePercent	0.3416005
 fiftyTwoWeekRange	3253.8 - 5586.2
 firstTradeDateMilliseconds	967608000000
 fullExchangeName	COMEX
@@ -41,25 +41,25 @@ hasPrePostMarketData	False
 headSymbolAsString	GC=F
 language	en-US
 market	us24_market
-marketState	REGULAR
+marketState	CLOSED
 maxAge	86400
 open	4503.0
-openInterest	262500
+openInterest	263912
 previousClose	4505.0
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	FUTURE
 region	US
-regularMarketChange	-25.600098
-regularMarketChangePercent	-0.56825966
+regularMarketChange	-139.7002
+regularMarketChangePercent	-3.1010032
 regularMarketDayHigh	4508.7
-regularMarketDayLow	4478.7
-regularMarketDayRange	4478.7 - 4508.7
+regularMarketDayLow	4336.6
+regularMarketDayRange	4336.6 - 4508.7
 regularMarketOpen	4503.0
 regularMarketPreviousClose	4505.0
-regularMarketPrice	4479.4
-regularMarketTime	1780618834
-regularMarketVolume	5520
+regularMarketPrice	4365.3
+regularMarketTime	1780693199
+regularMarketVolume	173440
 shortName	Gold Aug 26
 sourceInterval	15
 symbol	GC=F
@@ -67,9 +67,9 @@ tradeable	False
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	4404.727
-twoHundredDayAverageChange	74.67285
-twoHundredDayAverageChangePercent	0.016952889
+twoHundredDayAverageChange	-39.427246
+twoHundredDayAverageChangePercent	-0.008951121
 typeDisp	Futures
 underlyingExchangeSymbol	GCQ26.CMX
 underlyingSymbol	GCQ26.CMX
-volume	5520
+volume	173440

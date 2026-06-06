@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-05 |
+| Date | str | 2026-06-06 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.65 |
-| Headline | str | Best Media Spend Strategies for Amazon Prime Day |
-| Summary | str | Measured's latest report looks at what is most ... |
-| URL | str | https://wwd.com/sourcing-journal/industry-news/... |
+| Sentiment | float64 | 0.483 |
+| Headline | str | The "Magnificent Seven's" Capex Spending Spree ... |
+| Summary | str | Major hyperscalers in the U.S. are going to spe... |
+| URL | str | https://www.fool.com/investing/2026/06/06/the-m... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

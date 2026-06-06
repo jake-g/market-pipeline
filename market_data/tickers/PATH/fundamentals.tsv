@@ -5,7 +5,7 @@ address1	One Vanderbilt Avenue
 address2	60th Floor
 allTimeHigh	90.0
 allTimeLow	9.2
-ask	11.69
+ask	0.0
 askSize	5400
 auditRisk	5
 averageAnalystRating	2.8 - Hold
@@ -13,8 +13,8 @@ averageDailyVolume10Day	51468760
 averageDailyVolume3Month	34369066
 averageVolume	34369066
 averageVolume10days	51468760
-beta	0.909
-bid	11.63
+beta	0.968
+bid	0.0
 bidSize	3100
 boardRisk	8
 bookValue	3.635
@@ -26,13 +26,13 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	11.67
+currentPrice	11.24
 currentRatio	2.307
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	12.14
-dayLow	11.43
-debtToEquity	3.783
+dayHigh	11.94
+dayLow	11.045
+debtToEquity	4.362
 displayName	UiPath
 earningsCallTimestampEnd	1780002000
 earningsCallTimestampStart	1780002000
@@ -43,9 +43,9 @@ earningsTimestampEnd	1779998400
 earningsTimestampStart	1779998400
 ebitda	123626000
 ebitdaMargins	0.073920004
-enterpriseToEbitda	39.433
-enterpriseToRevenue	2.915
-enterpriseValue	4874972160
+enterpriseToEbitda	37.204
+enterpriseToRevenue	2.75
+enterpriseValue	4599430656
 epsCurrentYear	0.78515
 epsForward	0.90702
 epsTrailingTwelveMonths	0.6
@@ -56,22 +56,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	10.7278
-fiftyDayAverageChange	0.9421997
-fiftyDayAverageChangePercent	0.087827854
+fiftyDayAverageChange	0.5121994
+fiftyDayAverageChangePercent	0.047745053
 fiftyTwoWeekChangePercent	-11.9909525
 fiftyTwoWeekHigh	19.84
-fiftyTwoWeekHighChange	-8.17
-fiftyTwoWeekHighChangePercent	-0.41179436
+fiftyTwoWeekHighChange	-8.6
+fiftyTwoWeekHighChangePercent	-0.43346775
 fiftyTwoWeekLow	9.2
-fiftyTwoWeekLowChange	2.4700003
-fiftyTwoWeekLowChangePercent	0.2684783
+fiftyTwoWeekLowChange	2.04
+fiftyTwoWeekLowChangePercent	0.22173913
 fiftyTwoWeekRange	9.2 - 19.84
 financialCurrency	USD
 firstTradeDateMilliseconds	1619011800000
-floatShares	415725696
+floatShares	410195815
 forwardEps	0.90702
-forwardPE	12.86631
-freeCashflow	522565632
+forwardPE	12.39223
+freeCashflow	511553632
 fullExchangeName	NYSE
 fullTimeEmployees	3981
 gmtOffSetMilliseconds	-14400000
@@ -79,9 +79,9 @@ governanceEpochDate	1780531200
 grossMargins	0.8305
 grossProfits	1388871936
 hasPrePostMarketData	True
-heldPercentInsiders	0.094919994
-heldPercentInstitutions	0.81869006
-impliedSharesOutstanding	520443397
+heldPercentInsiders	0.095410004
+heldPercentInstitutions	0.82288
+impliedSharesOutstanding	518120266
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
 industryKey	software-infrastructure
@@ -92,33 +92,33 @@ lastFiscalYearEnd	1769817600
 longBusinessSummary	UiPath, Inc. provides an automation platform that offers a range of robotic process automation (RPA) solutions primarily in the United States, Romania, the United Kingdom, the Netherlands, and internationally. It offers the UiPath platform, an integrated enterprise software platform that enables AI agents, robots, people, and models to work together in coordinated workflows. The company's UiPath platform includes the UiPath Maestro process orchestration and process intelligence; UiPath agent builder; RPA and API automation; UiPath intelligent xtraction and processing; UiPath test cloud for testing and quality assurance; UiPath packaged and prebuilt agentic solutions; and centralized governance capabilities that apply across automations, AI agents, and manual tasks. It serves the financial services, healthcare, manufacturing, retail, and public sectors. The company was founded in 2005 and is headquartered in New York, New York.
 longName	UiPath, Inc.
 market	us_market
-marketCap	6073574400
-marketState	POSTPOST
+marketCap	5823671808
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_343303132
 mostRecentQuarter	1777507200
-nameChangeDate	2026-06-04
+nameChangeDate	2026-06-06
 netIncomeToCommon	327409984
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	6339000575
+nonDilutedMarketCap	5823671789
 numberOfAnalystOpinions	16
-open	11.91
+open	11.64
 operatingCashflow	384134016
 operatingMargins	0.07274
 overallRisk	10
 payoutRatio	0.0
-pegRatio	0.42
+pegRatio	0.4
 phone	844 432 0455
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	11.67
-postMarketTime	1780617561
+postMarketChange	-0.12679958
+postMarketChangePercent	-1.1281102
+postMarketPrice	11.1132
+postMarketTime	1780703993
 prevName	UiPath Inc.
 previousClose	11.67
-priceEpsCurrentYear	14.863402
+priceEpsCurrentYear	14.315736
 priceHint	2
-priceToBook	3.210454
-priceToSalesTrailing12Months	3.6318038
+priceToBook	3.0921595
+priceToSalesTrailing12Months	3.4823701
 profitMargins	0.19578
 quickRatio	2.065
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.8
 region	US
-regularMarketChange	0.0
-regularMarketChangePercent	0.0
-regularMarketDayHigh	12.14
-regularMarketDayLow	11.43
-regularMarketDayRange	11.43 - 12.14
-regularMarketOpen	11.91
+regularMarketChange	-0.43
+regularMarketChangePercent	-3.68466
+regularMarketDayHigh	11.94
+regularMarketDayLow	11.045
+regularMarketDayRange	11.045 - 11.94
+regularMarketOpen	11.64
 regularMarketPreviousClose	11.67
-regularMarketPrice	11.67
-regularMarketTime	1780603202
-regularMarketVolume	42233310
+regularMarketPrice	11.24
+regularMarketTime	1780689602
+regularMarketVolume	34496212
 returnOnAssets	0.02365
 returnOnEquity	0.18181999
 revenueGrowth	0.173
@@ -144,7 +144,7 @@ sector	Technology
 sectorDisp	Technology
 sectorKey	technology
 shareHolderRightsRisk	10
-sharesOutstanding	455752691
+sharesOutstanding	453429560
 sharesPercentSharesOut	0.2468
 sharesShort	128434263
 sharesShortPreviousMonthDate	1776211200
@@ -160,20 +160,20 @@ targetLowPrice	10.98
 targetMeanPrice	13.31125
 targetMedianPrice	13.0
 totalCash	1307244032
-totalCashPerShare	2.497
-totalDebt	71991000
+totalCashPerShare	2.523
+totalDebt	83003000
 totalRevenue	1672329984
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.6
-trailingPE	19.449999
-trailingPegRatio	0.4377
+trailingPE	18.733332
+trailingPegRatio	0.4194
 triggerable	True
 twoHundredDayAverage	13.01945
-twoHundredDayAverageChange	-1.3494501
-twoHundredDayAverageChangePercent	-0.10364878
+twoHundredDayAverageChange	-1.7794504
+twoHundredDayAverageChangePercent	-0.13667631
 typeDisp	Equity
-volume	42233310
+volume	34496212
 website	https://www.uipath.com
 zip	10017

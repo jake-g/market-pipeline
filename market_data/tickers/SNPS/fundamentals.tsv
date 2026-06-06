@@ -4,7 +4,7 @@ SandP52WeekChange	0.27181315
 address1	675 Almanor Avenue
 allTimeHigh	651.73
 allTimeLow	5.5625
-ask	494.23
+ask	490.0
 askSize	1
 auditRisk	1
 averageAnalystRating	1.8 - Buy
@@ -12,9 +12,9 @@ averageDailyVolume10Day	2447590
 averageDailyVolume3Month	1842006
 averageVolume	1842006
 averageVolume10days	2447590
-beta	1.245
-bid	493.92
-bidSize	1
+beta	1.214
+bid	464.89
+bidSize	2
 boardRisk	7
 bookValue	159.201
 city	Sunnyvale
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	494.48
+currentPrice	464.85
 currentRatio	1.434
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	500.35
-dayLow	485.0
+dayHigh	488.952
+dayLow	458.53
 debtToEquity	35.574
-discount_to_intrinsic_value	-1255.34
+discount_to_intrinsic_value	-1177.04
 displayName	Synopsys
 earningsCallTimestampEnd	1779915600
 earningsCallTimestampStart	1779915600
@@ -43,12 +43,12 @@ earningsTimestampEnd	1779912000
 earningsTimestampStart	1779912000
 ebitda	1696253056
 ebitdaMargins	0.19543
-enterpriseToEbitda	60.745
-enterpriseToRevenue	11.872
-enterpriseValue	103039156224
+enterpriseToEbitda	57.4
+enterpriseToRevenue	11.218
+enterpriseValue	97365622784
 epsCurrentYear	14.78985
 epsForward	17.23426
-epsTrailingTwelveMonths	4.38
+epsTrailingTwelveMonths	4.37
 eps_normalized_growth	-0.9577573743051064
 esgPopulated	False
 exchange	NMS
@@ -58,32 +58,32 @@ exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	650-965-8637
 fiftyDayAverage	465.1964
-fiftyDayAverageChange	29.2836
-fiftyDayAverageChangePercent	0.0629489
+fiftyDayAverageChange	-0.34640503
+fiftyDayAverageChangePercent	-0.0007446425
 fiftyTwoWeekChangePercent	3.2807946
 fiftyTwoWeekHigh	651.73
-fiftyTwoWeekHighChange	-157.24997
-fiftyTwoWeekHighChangePercent	-0.24128085
+fiftyTwoWeekHighChange	-186.87997
+fiftyTwoWeekHighChangePercent	-0.28674448
 fiftyTwoWeekLow	376.18
-fiftyTwoWeekLowChange	118.30002
-fiftyTwoWeekLowChangePercent	0.31447718
+fiftyTwoWeekLowChange	88.67001
+fiftyTwoWeekLowChangePercent	0.23571166
 fiftyTwoWeekRange	376.18 - 651.73
 financialCurrency	USD
 firstTradeDateMilliseconds	699114600000
-floatShares	190387893
+floatShares	190385978
 forwardEps	17.23426
-forwardPE	28.691687
+forwardPE	26.972437
 freeCashflow	3538958592
 fullExchangeName	NasdaqGS
 fullTimeEmployees	28000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1780531200
-graham_intrinsic_value	36.48
+graham_intrinsic_value	36.4
 grossMargins	0.82598996
 grossProfits	7169120768
 hasPrePostMarketData	True
 heldPercentInsiders	0.029849999
-heldPercentInstitutions	0.90887
+heldPercentInstitutions	0.91209
 impliedSharesOutstanding	191479325
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -97,31 +97,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Synopsys, Inc. provides design IP solutions in the semiconductor and electronics industries. It operates in two segments, Design Automation and Design IP. The company offers Digital and Custom IC Design solution that provides digital design implementation solutions; Verification solution that offers virtual prototyping, static and formal verification, simulation, emulation, field programmable gate array (FPGA)-based prototyping, and debug solutions; FPGA design products that are programmed to perform specific functions; synopsys technology computer-aided design (TCAD), mask synthesis, and manufacturing analytic solutions; and AI-driven EDA solutions. It also provides pre-verified and silicon-proven IP solutions, logic libraries and embedded memories, processor and security solutions, IP Offerings for the automotive market, SOC infrastructure IP, data path and building block IP, and mathematical and floating-point components. Synopsys, Inc. has a strategic collaboration with Arm Holdings plc for development of AGI CPU that provides solutions across its full-stack design portfolio including EDA, interface IP, and hardware-assisted verification (HAV). The company was incorporated in 1986 and is headquartered in Sunnyvale, California.
 longName	Synopsys, Inc.
 market	us_market
-marketCap	94682701824
-marketState	POSTPOST
+marketCap	89009168384
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_35028
 mostRecentQuarter	1777507200
 netIncomeToCommon	773267968
 nextFiscalYearEnd	1793404800
-nonDilutedMarketCap	97338514863
+nonDilutedMarketCap	89009164226
 numberOfAnalystOpinions	26
-open	500.3
+open	488.24
 operatingCashflow	2796464128
 operatingMargins	0.10383
 overallRisk	5
 payoutRatio	0.0
-pegRatio	3.23
+pegRatio	3.14
 phone	650-584-5000
-postMarketChange	-4.1276245
-postMarketChangePercent	-0.8347404
-postMarketPrice	490.3524
-postMarketTime	1780617488
-previousClose	498.02
-priceEpsCurrentYear	33.43374
+postMarketChange	-0.16000366
+postMarketChangePercent	-0.034420494
+postMarketPrice	464.69
+postMarketTime	1780703958
+previousClose	494.48
+priceEpsCurrentYear	31.43034
 priceHint	2
-priceToBook	3.1060107
-priceToSalesTrailing12Months	10.908925
+priceToBook	2.9198937
+priceToSalesTrailing12Months	10.255245
 profitMargins	0.089090005
 quickRatio	0.997
 quoteSourceName	Nasdaq Real Time Price
@@ -129,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.76
 region	US
-regularMarketChange	-3.53998
-regularMarketChangePercent	-0.71081
-regularMarketDayHigh	500.35
-regularMarketDayLow	485.0
-regularMarketDayRange	485.0 - 500.35
-regularMarketOpen	500.3
-regularMarketPreviousClose	498.02
-regularMarketPrice	494.48
-regularMarketTime	1780603200
-regularMarketVolume	2005985
+regularMarketChange	-29.63
+regularMarketChangePercent	-5.99215
+regularMarketDayHigh	488.952
+regularMarketDayLow	458.53
+regularMarketDayRange	458.53 - 488.952
+regularMarketOpen	488.24
+regularMarketPreviousClose	494.48
+regularMarketPrice	464.85
+regularMarketTime	1780689600
+regularMarketVolume	1747823
 returnOnAssets	0.014939999
 returnOnEquity	0.03824
 revenueGrowth	0.419
@@ -169,14 +169,14 @@ totalRevenue	8679379968
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	4.38
-trailingPE	112.89497
-trailingPegRatio	3.225
+trailingEps	4.37
+trailingPE	106.373
+trailingPegRatio	2.9491
 triggerable	True
 twoHundredDayAverage	467.26346
-twoHundredDayAverageChange	27.216553
-twoHundredDayAverageChangePercent	0.058246695
+twoHundredDayAverageChange	-2.4134521
+twoHundredDayAverageChangePercent	-0.0051650777
 typeDisp	Equity
-volume	2005985
+volume	1747823
 website	https://www.synopsys.com
 zip	94085

@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	26923.701
-dayLow	26554.238
+dayHigh	26572.248
+dayLow	25648.469
 esgPopulated	False
 exchange	NIM
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 fiftyDayAverage	24596.035
-fiftyDayAverageChange	2234.9219
-fiftyDayAverageChangePercent	0.09086513
+fiftyDayAverageChange	1113.3965
+fiftyDayAverageChangePercent	0.045267314
 fiftyTwoWeekChangePercent	39.150967
 fiftyTwoWeekHigh	27190.21
-fiftyTwoWeekHighChange	-359.2539
-fiftyTwoWeekHighChangePercent	-0.013212619
+fiftyTwoWeekHighChange	-1480.7793
+fiftyTwoWeekHighChangePercent	-0.054460015
 fiftyTwoWeekLow	19226.22
-fiftyTwoWeekLowChange	7604.7363
-fiftyTwoWeekLowChangePercent	0.39553985
+fiftyTwoWeekLowChange	6483.211
+fiftyTwoWeekLowChangePercent	0.33720672
 fiftyTwoWeekRange	19226.22 - 27190.21
 firstTradeDateMilliseconds	34612200000
 fullExchangeName	Nasdaq GIDS
@@ -39,25 +39,25 @@ hasPrePostMarketData	False
 language	en-US
 longName	NASDAQ Composite
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_INDEXIXIC
-open	26579.297
-previousClose	26853.977
+open	26536.592
+previousClose	26830.957
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	-23.019531
-regularMarketChangePercent	-0.08572113
-regularMarketDayHigh	26923.701
-regularMarketDayLow	26554.238
-regularMarketDayRange	26554.238 - 26923.701
-regularMarketOpen	26579.297
-regularMarketPreviousClose	26853.977
-regularMarketPrice	26830.957
-regularMarketTime	1780607759
-regularMarketVolume	7983150000
+regularMarketChange	-1121.5254
+regularMarketChangePercent	-4.179968
+regularMarketDayHigh	26572.248
+regularMarketDayLow	25648.469
+regularMarketDayRange	25648.469 - 26572.248
+regularMarketOpen	26536.592
+regularMarketPreviousClose	26830.957
+regularMarketPrice	25709.432
+regularMarketTime	1780694159
+regularMarketVolume	10108920000
 shortName	NASDAQ Composite
 sourceInterval	15
 symbol	^IXIC
@@ -65,7 +65,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	23274.252
-twoHundredDayAverageChange	3556.705
-twoHundredDayAverageChangePercent	0.15281716
+twoHundredDayAverageChange	2435.1797
+twoHundredDayAverageChangePercent	0.10462977
 typeDisp	Index
-volume	7983150000
+volume	10108920000

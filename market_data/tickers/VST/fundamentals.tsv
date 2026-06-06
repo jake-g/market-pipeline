@@ -4,7 +4,7 @@ SandP52WeekChange	0.27181315
 address1	6555 Sierra Drive
 allTimeHigh	219.82
 allTimeLow	11.3
-ask	153.39
+ask	0.0
 askSize	200
 auditRisk	4
 averageAnalystRating	1.4 - Strong Buy
@@ -12,8 +12,8 @@ averageDailyVolume10Day	5411700
 averageDailyVolume3Month	4661193
 averageVolume	4661193
 averageVolume10days	5411700
-beta	1.447
-bid	153.01
+beta	1.405
+bid	0.0
 bidSize	200
 boardRisk	1
 bookValue	7.753
@@ -21,21 +21,21 @@ city	Irving
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. James A. Burke CPA', 'age': 57, 'title': 'President, CEO & Director', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 4555627, 'exercisedValue': 182202480, 'unexercisedValue': 45886368}, {'maxAge': 1, 'name': 'Mr. Kristopher E. Moldovan', 'age': 53, 'title': 'Executive VP & CFO', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 1512241, 'exercisedValue': 19397544, 'unexercisedValue': 148}, {'maxAge': 1, 'name': 'Ms. Stephanie Zapata Moore', 'age': 52, 'title': 'Executive VP, General Counsel & Chief Compliance Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 1352023, 'exercisedValue': 0, 'unexercisedValue': 147}, {'maxAge': 1, 'name': 'Ms. Stacey H. Dore J.D.', 'age': 52, 'title': 'Chief Strategy and Sustainability Officer & Executive VP of Public Affairs', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 1560472, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Scott A. Hudson', 'age': 61, 'title': 'Executive VP & President of Retail', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1530478, 'exercisedValue': 16044162, 'unexercisedValue': 18518504}, {'maxAge': 1, 'name': 'Ms. Margaret M. Montemayor', 'age': 47, 'title': 'Senior VP, Chief Accounting Officer & Controller', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Tom  Farrah', 'title': 'Senior VP & CIO', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eric  Micek C.F.A.', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Amanda  DonCarlos', 'title': 'Senior VP & Chief Human Resources Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sano  Blocker', 'title': 'Senior Vice President of Government Affairs', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	2
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'VST announced a cash dividend of $0.229 with an ex-date of Jun. 22, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1782100800000, 'amount': '0.229'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	153.7
+currentPrice	148.76
 currentRatio	0.896
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	154.025
-dayLow	150.19
+dayHigh	154.18
+dayLow	147.5
 debtToEquity	355.187
-discount_to_intrinsic_value	-208.57
+discount_to_intrinsic_value	-198.65
 dividendDate	1782777600
 dividendRate	0.92
-dividendYield	0.6
+dividendYield	0.62
 earningsCallTimestampEnd	1778162400
 earningsCallTimestampStart	1778162400
 earningsGrowth	-0.523
@@ -45,13 +45,13 @@ earningsTimestampEnd	1786019400
 earningsTimestampStart	1786019400
 ebitda	6790000128
 ebitdaMargins	0.34919
-enterpriseToEbitda	10.837
-enterpriseToRevenue	3.784
-enterpriseValue	73581944832
+enterpriseToEbitda	10.591
+enterpriseToRevenue	3.698
+enterpriseValue	71916265472
 epsCurrentYear	8.58517
 epsForward	10.95725
 epsTrailingTwelveMonths	5.98
-eps_normalized_growth	-0.37311056259484177
+eps_normalized_growth	-0.37468744131928844
 esgPopulated	False
 exDividendDate	1782086400
 exchange	NYQ
@@ -60,22 +60,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	154.4146
-fiftyDayAverageChange	-0.7145996
-fiftyDayAverageChangePercent	-0.004627798
+fiftyDayAverageChange	-5.654602
+fiftyDayAverageChangePercent	-0.036619607
 fiftyTwoWeekChangePercent	-9.990048
 fiftyTwoWeekHigh	219.82
-fiftyTwoWeekHighChange	-66.12001
-fiftyTwoWeekHighChangePercent	-0.3007916
+fiftyTwoWeekHighChange	-71.06001
+fiftyTwoWeekHighChangePercent	-0.32326454
 fiftyTwoWeekLow	132.66
-fiftyTwoWeekLowChange	21.039993
-fiftyTwoWeekLowChangePercent	0.15860088
+fiftyTwoWeekLowChange	16.09999
+fiftyTwoWeekLowChangePercent	0.12136281
 fiftyTwoWeekRange	132.66 - 219.82
 financialCurrency	USD
 firstTradeDateMilliseconds	1475674200000
 fiveYearAvgDividendYield	1.82
-floatShares	314426023
+floatShares	314432767
 forwardEps	10.95725
-forwardPE	14.027243
+forwardPE	13.576399
 freeCashflow	476875008
 fullExchangeName	NYSE
 fullTimeEmployees	6390
@@ -86,7 +86,7 @@ grossMargins	0.38637
 grossProfits	7512999936
 hasPrePostMarketData	True
 heldPercentInsiders	0.00796
-heldPercentInstitutions	0.91081
+heldPercentInstitutions	0.91086996
 impliedSharesOutstanding	337182468
 industry	Utilities - Independent Power Producers
 industryDisp	Utilities - Independent Power Producers
@@ -99,48 +99,48 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Vistra Corp., together with its subsidiaries, operates as an integrated retail electricity and power generation company in the United States. The company operates through five segments: Retail, Texas, East, West, and Asset Closure. The company retails electricity and natural gas to residential, commercial, and industrial customers across states in the United States and the District of Columbia. It is also involved in electricity generation, wholesale energy purchases and sales, commodity risk management, fuel procurement, and fuel logistics management activities. In addition, the company engages in decommissioning and reclamation of retired generation facilities, including mines, and battery removal and remediation activities. It serves approximately 5 million customers with a generation capacity of approximately 44,000 megawatts with a portfolio of natural gas, nuclear, coal, solar, and battery energy storage facilities. The company was formerly known as Vistra Energy Corp. and changed its name to Vistra Corp. in July 2020. Vistra Corp. was founded in 1882 and is based in Irving, Texas.
 longName	Vistra Corp.
 market	us_market
-marketCap	51824943104
-marketState	POSTPOST
+marketCap	50159259648
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_7959935
 mostRecentQuarter	1774915200
 netIncomeToCommon	2048999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	52182358747
+nonDilutedMarketCap	51824945331
 numberOfAnalystOpinions	17
-open	151.54
+open	152.0
 operatingCashflow	4670000128
 operatingMargins	0.26578
 overallRisk	1
 payoutRatio	0.1515
-pegRatio	0.47
+pegRatio	0.46
 phone	214 812 4600
-postMarketChange	-0.3999939
-postMarketChangePercent	-0.26024327
-postMarketPrice	153.3
-postMarketTime	1780617515
-previousClose	153.8
-priceEpsCurrentYear	17.902966
+postMarketChange	-1.4399872
+postMarketChangePercent	-0.96799356
+postMarketPrice	147.32
+postMarketTime	1780703992
+previousClose	153.7
+priceEpsCurrentYear	17.327555
 priceHint	2
-priceToBook	19.824585
-priceToSalesTrailing12Months	2.6652067
+priceToBook	19.18741
+priceToSalesTrailing12Months	2.5795453
 profitMargins	0.11525
 quickRatio	0.263
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.42105
 region	US
-regularMarketChange	-0.100006
-regularMarketChangePercent	-0.0650235
-regularMarketDayHigh	154.025
-regularMarketDayLow	150.19
-regularMarketDayRange	150.19 - 154.025
-regularMarketOpen	151.54
-regularMarketPreviousClose	153.8
-regularMarketPrice	153.7
-regularMarketTime	1780603202
-regularMarketVolume	2570639
+regularMarketChange	-4.94
+regularMarketChangePercent	-3.21405
+regularMarketDayHigh	154.18
+regularMarketDayLow	147.5
+regularMarketDayRange	147.5 - 154.18
+regularMarketOpen	152.0
+regularMarketPreviousClose	153.7
+regularMarketPrice	148.76
+regularMarketTime	1780689603
+regularMarketVolume	3654167
 returnOnAssets	0.06022
 returnOnEquity	0.42898
 revenueGrowth	0.434
@@ -170,15 +170,15 @@ totalDebt	19925999616
 totalRevenue	19445000192
 tradeable	False
 trailingAnnualDividendRate	0.906
-trailingAnnualDividendYield	0.005890767
+trailingAnnualDividendYield	0.0058946
 trailingEps	5.98
-trailingPE	25.702341
-trailingPegRatio	0.4605
+trailingPE	24.876253
+trailingPegRatio	0.4573
 triggerable	True
 twoHundredDayAverage	172.54765
-twoHundredDayAverageChange	-18.847656
-twoHundredDayAverageChangePercent	-0.1092316
+twoHundredDayAverageChange	-23.787659
+twoHundredDayAverageChangePercent	-0.13786139
 typeDisp	Equity
-volume	2570639
+volume	3654167
 website	https://vistracorp.com
 zip	75039

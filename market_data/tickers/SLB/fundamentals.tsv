@@ -5,7 +5,7 @@ address1	5599 San Felipe
 address2	17th Floor
 allTimeHigh	118.76
 allTimeLow	6.5
-ask	58.39
+ask	0.0
 askSize	1600
 auditRisk	3
 averageAnalystRating	1.6 - Buy
@@ -13,8 +13,8 @@ averageDailyVolume10Day	15067650
 averageDailyVolume3Month	16268474
 averageVolume	16268474
 averageVolume10days	15067650
-beta	0.731
-bid	57.5
+beta	0.708
+bid	0.0
 bidSize	800
 boardRisk	1
 bookValue	17.509
@@ -22,22 +22,22 @@ city	Houston
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Olivier  Le Peuch', 'age': 61, 'title': 'CEO & Director', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 4058208, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Stephane  Biguet', 'age': 56, 'title': 'Executive VP & CFO', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1837839, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Demosthenis  Pafitis', 'age': 57, 'title': 'Chief Technology Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1224750, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Dianne B. Ralston J.D.', 'age': 58, 'title': 'Chief Legal Officer & Secretary', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1632502, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Abdellah  Merad', 'age': 51, 'title': 'Executive Vice President of Core Services & Equipment', 'yearBorn': 1974, 'fiscalYear': 2025, 'totalPay': 1897794, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Howard  Guild', 'age': 53, 'title': 'Chief Accounting Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sebastien  Lehnherr', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. James R. McDonald', 'age': 46, 'title': 'Senior Vice President of Investor Relations & Industry Affairs', 'yearBorn': 1979, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Giles  Powell', 'title': 'Director of Corporate Communication', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Aparna  Raman', 'age': 50, 'title': 'Chief Strategy & Marketing Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
-corporateActions	[{'header': 'Dividend', 'message': 'SLB announced a cash dividend of $0.295 with an ex-date of Jun. 3, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1780459200000, 'amount': '0.295'}}]
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	58.01
+currentPrice	54.87
 currentRatio	1.341
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	58.12
-dayLow	56.1
+dayHigh	57.92
+dayLow	54.49
 debtToEquity	42.515
-discount_to_intrinsic_value	-206.8
+discount_to_intrinsic_value	-190.19
 displayName	SLB
 dividendDate	1783555200
 dividendRate	1.18
-dividendYield	2.08
+dividendYield	2.15
 earningsCallTimestampEnd	1784923200
 earningsCallTimestampStart	1784923200
 earningsGrowth	-0.138
@@ -47,9 +47,9 @@ earningsTimestampEnd	1784896200
 earningsTimestampStart	1784896200
 ebitda	7510000128
 ebitdaMargins	0.20897
-enterpriseToEbitda	12.794
-enterpriseToRevenue	2.673
-enterpriseValue	96081297408
+enterpriseToEbitda	12.169
+enterpriseToRevenue	2.543
+enterpriseValue	91386814464
 epsCurrentYear	2.60677
 epsForward	3.34682
 epsTrailingTwelveMonths	2.27
@@ -62,22 +62,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	54.1212
-fiftyDayAverageChange	3.8887978
-fiftyDayAverageChangePercent	0.0718535
+fiftyDayAverageChange	0.7487984
+fiftyDayAverageChangePercent	0.013835583
 fiftyTwoWeekChangePercent	71.8561
 fiftyTwoWeekHigh	58.82
-fiftyTwoWeekHighChange	-0.8100014
-fiftyTwoWeekHighChangePercent	-0.013770849
+fiftyTwoWeekHighChange	-3.9500008
+fiftyTwoWeekHighChangePercent	-0.06715404
 fiftyTwoWeekLow	31.64
-fiftyTwoWeekLowChange	26.369999
-fiftyTwoWeekLowChangePercent	0.8334387
+fiftyTwoWeekLowChange	23.23
+fiftyTwoWeekLowChangePercent	0.7341972
 fiftyTwoWeekRange	31.64 - 58.82
 financialCurrency	USD
 firstTradeDateMilliseconds	378657000000
 fiveYearAvgDividendYield	2.04
 floatShares	1490378131
 forwardEps	3.34682
-forwardPE	17.33287
+forwardPE	16.394667
 freeCashflow	3043124992
 fullExchangeName	NYSE
 fullTimeEmployees	109000
@@ -88,7 +88,7 @@ grossMargins	0.17802
 grossProfits	6398000128
 hasPrePostMarketData	True
 heldPercentInsiders	0.00219
-heldPercentInstitutions	0.92816
+heldPercentInstitutions	0.92811996
 impliedSharesOutstanding	1495057661
 industry	Oil & Gas Equipment & Services
 industryDisp	Oil & Gas Equipment & Services
@@ -104,33 +104,33 @@ lastSplitFactor	2:1
 longBusinessSummary	SLB N.V. engages in the provision of technology for the energy industry worldwide. The company operates through four divisions: Digital & Integration, Reservoir Performance, Well Construction, and Production Systems. The company provides field development and hydrocarbon production, carbon management, and integration of adjacent energy systems; reservoir interpretation and data processing services for exploration data; and well construction and production improvement services and products. It also offers subsurface geology and fluids evaluation information; stimulation services to restore or enhance well productivity through hydraulic fracturing, matrix stimulation, and water treatment; and intervention services to oil and gas operators. In addition, the company offers mud logging, directional drilling, measurement-while-drilling, and logging-while-drilling services, as well as engineering support services; supplies drilling fluid systems; designs, manufactures, and markets roller cone and fixed cutter drill bits; bottom-hole-assembly and borehole enlargement technologies; well planning, well drilling, engineering, supervision, logistics, procurement, and contracting of third parties, as well as drilling rig management solutions; and drilling equipment and services, as well as land drilling rigs and related services. Further, it provides artificial lift; supplies packers, safety valves, sand control technology, and various intelligent systems; midstream production systems; valves, chokes, actuators, and surface trees; and OneSubsea, an integrated solutions, products, systems, and services, including wellheads, subsea trees, manifolds and flowline connectors, control systems, connectors, and services. SLB N.V. was formerly known as Schlumberger Limited and change its name to SLB N.V. in October 2025. The company was founded in 1926 and is based in Houston, Texas.
 longName	SLB N.V.
 market	us_market
-marketCap	86728294400
-marketState	POSTPOST
+marketCap	82033811456
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_301966
 mostRecentQuarter	1774915200
-nameChangeDate	2026-06-04
+nameChangeDate	2026-06-06
 netIncomeToCommon	3328999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	84994028027
+nonDilutedMarketCap	82033813859
 numberOfAnalystOpinions	28
-open	56.99
+open	57.6
 operatingCashflow	6316000256
 operatingMargins	0.12269
 overallRisk	1
 payoutRatio	0.5066
-pegRatio	1.95
+pegRatio	1.89
 phone	713 513 2000
-postMarketChange	-0.2899971
-postMarketChangePercent	-0.49990883
-postMarketPrice	57.72
-postMarketTime	1780617466
+postMarketChange	0.13000107
+postMarketChangePercent	0.23692559
+postMarketPrice	55.0
+postMarketTime	1780703943
 prevName	Schlumberger Limited
-previousClose	56.85
-priceEpsCurrentYear	22.253593
+previousClose	58.01
+priceEpsCurrentYear	21.049036
 priceHint	2
-priceToBook	3.313153
-priceToSalesTrailing12Months	2.4132082
+priceToBook	3.1338167
+priceToSalesTrailing12Months	2.2825847
 profitMargins	0.09263
 quickRatio	0.867
 quoteSourceName	Delayed Quote
@@ -138,16 +138,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.62069
 region	US
-regularMarketChange	1.16
-regularMarketChangePercent	2.04046
-regularMarketDayHigh	58.12
-regularMarketDayLow	56.1
-regularMarketDayRange	56.1 - 58.12
-regularMarketOpen	56.99
-regularMarketPreviousClose	56.85
-regularMarketPrice	58.01
-regularMarketTime	1780603202
-regularMarketVolume	9944613
+regularMarketChange	-3.14
+regularMarketChangePercent	-5.41286
+regularMarketDayHigh	57.92
+regularMarketDayLow	54.49
+regularMarketDayRange	54.49 - 57.92
+regularMarketOpen	57.6
+regularMarketPreviousClose	58.01
+regularMarketPrice	54.87
+regularMarketTime	1780689602
+regularMarketVolume	10035329
 returnOnAssets	0.06467
 returnOnEquity	0.14066
 revenueGrowth	0.027
@@ -177,15 +177,15 @@ totalDebt	11628999680
 totalRevenue	35939000320
 tradeable	False
 trailingAnnualDividendRate	1.15
-trailingAnnualDividendYield	0.020228673
+trailingAnnualDividendYield	0.019824168
 trailingEps	2.27
-trailingPE	25.555065
-trailingPegRatio	1.9539
+trailingPE	24.171806
+trailingPegRatio	1.8859
 triggerable	True
 twoHundredDayAverage	43.81985
-twoHundredDayAverageChange	14.190147
-twoHundredDayAverageChangePercent	0.3238292
+twoHundredDayAverageChange	11.050148
+twoHundredDayAverageChangePercent	0.2521722
 typeDisp	Equity
-volume	9944613
+volume	10035329
 website	https://www.slb.com
 zip	77056

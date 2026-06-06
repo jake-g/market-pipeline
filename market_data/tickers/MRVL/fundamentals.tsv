@@ -5,7 +5,7 @@ address1	1000 North West Street
 address2	Suite 1200
 allTimeHigh	324.2
 allTimeLow	1.984375
-ask	334.58
+ask	276.33
 askSize	1
 auditRisk	3
 averageAnalystRating	1.4 - Strong Buy
@@ -13,11 +13,11 @@ averageDailyVolume10Day	51396420
 averageDailyVolume3Month	30691420
 averageVolume	30691420
 averageVolume10days	51396420
-beta	2.251
-bid	307.0
-bidSize	8
+beta	2.277
+bid	260.91
+bidSize	3
 boardRisk	4
-bookValue	16.887
+bookValue	20.804
 city	Wilmington
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Matthew J. Murphy', 'age': 52, 'title': 'CEO & Chairman', 'yearBorn': 1973, 'fiscalYear': 2026, 'totalPay': 4864280, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher R. Koopmans', 'age': 48, 'title': 'President & COO', 'yearBorn': 1977, 'fiscalYear': 2026, 'totalPay': 2119420, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Willem A. Meintjes', 'age': 44, 'title': 'Executive VP & CFO', 'yearBorn': 1981, 'fiscalYear': 2026, 'totalPay': 1811433, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark J. Casper Esq.', 'age': 57, 'title': 'Executive VP, Secretary & Chief Legal Officer', 'yearBorn': 1968, 'fiscalYear': 2026, 'totalPay': 1299434, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sandeep  Bharathi', 'age': 54, 'title': 'President of Data Center Group', 'yearBorn': 1971, 'fiscalYear': 2026, 'totalPay': 2169438, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Justin  Scarpulla', 'age': 52, 'title': 'Senior VP & Chief Accounting Officer', 'yearBorn': 1973, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nishit  Sahay', 'title': 'Senior VP & Chief Information Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ashish  Saran', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gary  Ignatin', 'title': 'Executive Vice President of Corporate Development', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dean E. Jarnac Jr.', 'age': 51, 'title': 'Executive VP & Chief Sales Officer', 'yearBorn': 1974, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1798675200
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	316.43
+currentPrice	263.47
 currentRatio	3.278
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	321.5
-dayLow	277.59
+dayHigh	300.7243
+dayLow	261.39
 debtToEquity	28.97
-discount_to_intrinsic_value	-1209.95
+discount_to_intrinsic_value	-990.71
 displayName	Marvell Technology
 dividendDate	1777507200
 dividendRate	0.24
-dividendYield	0.08
+dividendYield	0.09
 earningsCallTimestampEnd	1779914700
 earningsCallTimestampStart	1779914700
 earningsGrowth	-0.804
@@ -47,9 +47,9 @@ earningsTimestampEnd	1787860800
 earningsTimestampStart	1787860800
 ebitda	2712000000
 ebitdaMargins	0.31111
-enterpriseToEbitda	102.598
-enterpriseToRevenue	31.92
-enterpriseValue	278246555648
+enterpriseToEbitda	85.515
+enterpriseToRevenue	26.605
+enterpriseValue	231917158400
 epsCurrentYear	4.04749
 epsForward	6.17263
 epsTrailingTwelveMonths	2.9
@@ -62,22 +62,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fiftyDayAverage	157.5638
-fiftyDayAverageChange	158.8662
-fiftyDayAverageChangePercent	1.0082659
+fiftyDayAverageChange	105.906204
+fiftyDayAverageChangePercent	0.6721481
 fiftyTwoWeekChangePercent	362.9374
 fiftyTwoWeekHigh	324.2
-fiftyTwoWeekHighChange	-7.7700195
-fiftyTwoWeekHighChangePercent	-0.023966746
+fiftyTwoWeekHighChange	-60.73001
+fiftyTwoWeekHighChangePercent	-0.18732266
 fiftyTwoWeekLow	61.44
-fiftyTwoWeekLowChange	254.98999
-fiftyTwoWeekLowChangePercent	4.150228
+fiftyTwoWeekLowChange	202.03
+fiftyTwoWeekLowChangePercent	3.2882488
 fiftyTwoWeekRange	61.44 - 324.2
 financialCurrency	USD
 firstTradeDateMilliseconds	962371800000
 fiveYearAvgDividendYield	0.38
-floatShares	871939404
+floatShares	871956900
 forwardEps	6.17263
-forwardPE	51.2634
+forwardPE	42.68359
 freeCashflow	2269700096
 fullExchangeName	NasdaqGS
 fullTimeEmployees	7480
@@ -88,7 +88,7 @@ grossMargins	0.51502997
 grossProfits	4489600000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0074400003
-heldPercentInstitutions	0.85514
+heldPercentInstitutions	0.85519
 impliedSharesOutstanding	875553173
 industry	Semiconductors
 industryDisp	Semiconductors
@@ -103,33 +103,33 @@ lastSplitFactor	2:1
 longBusinessSummary	Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits, interconnects, fibre channel adapters, and processors. The company also provides interconnect products, including pulse amplitude modulation, coherent and coherent-lite digital signal processors (DSPs), laser drivers, trans-impedance amplifiers, silicon photonics, co-packaged optics, linear pluggable optics chipsets, data center interconnect, active electrical cable DSPs and peripheral component interconnect express retimer solutions; fibre channel products comprising host bus adapters and controllers for server and storage system connectivity; storage controllers for hard disk drives and solid-state-drives; host system interfaces, including serial advanced technology attachment and serial attached SCSI, peripheral component interconnect express, compute express link switches, non-volatile memory express (NVMe), and NVMe over fabrics; and develops ultra accelerator linkTM switches and ethernet for scale-up networking switches. The company serves data centers, communications, and other markets. It offers its products through direct customers and distributors. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware.
 longName	Marvell Technology, Inc.
 market	us_market
-marketCap	277051277312
-marketState	POSTPOST
+marketCap	230681985024
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_31158
 mostRecentQuarter	1777680000
-nameChangeDate	2026-06-04
+nameChangeDate	2026-06-06
 netIncomeToCommon	2526700032
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	254383092000
+nonDilutedMarketCap	230483556000
 numberOfAnalystOpinions	41
-open	282.95
+open	299.425
 operatingCashflow	2056400000
 operatingMargins	0.14479999
 overallRisk	1
 payoutRatio	0.0825
-pegRatio	1.64
+pegRatio	1.79
 phone	302 295 4840
-postMarketChange	-11.630005
-postMarketChangePercent	-3.67538
-postMarketPrice	304.8
-postMarketTime	1780617599
+postMarketChange	9.410004
+postMarketChangePercent	3.5715654
+postMarketPrice	272.88
+postMarketTime	1780703999
 prevName	Marvell Technology Group Ltd.
-previousClose	301.65
-priceEpsCurrentYear	78.17931
+previousClose	316.43
+priceEpsCurrentYear	65.094666
 priceHint	2
-priceToBook	18.738083
-priceToSalesTrailing12Months	31.782505
+priceToBook	12.664391
+priceToSalesTrailing12Months	26.463158
 profitMargins	0.28986
 quickRatio	2.51
 quoteSourceName	Nasdaq Real Time Price
@@ -137,16 +137,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.43182
 region	US
-regularMarketChange	14.78
-regularMarketChangePercent	4.89972
-regularMarketDayHigh	321.5
-regularMarketDayLow	277.59
-regularMarketDayRange	277.59 - 321.5
-regularMarketOpen	282.95
-regularMarketPreviousClose	301.65
-regularMarketPrice	316.43
-regularMarketTime	1780603201
-regularMarketVolume	85668645
+regularMarketChange	-52.96
+regularMarketChangePercent	-16.7367
+regularMarketDayHigh	300.7243
+regularMarketDayLow	261.39
+regularMarketDayRange	261.39 - 300.7243
+regularMarketOpen	299.425
+regularMarketPreviousClose	316.43
+regularMarketPrice	263.47
+regularMarketTime	1780689600
+regularMarketVolume	88753188
 returnOnAssets	0.03808
 returnOnEquity	0.16028
 revenueGrowth	0.276
@@ -176,15 +176,15 @@ totalDebt	5277199872
 totalRevenue	8717100032
 tradeable	False
 trailingAnnualDividendRate	0.24
-trailingAnnualDividendYield	0.00079562404
+trailingAnnualDividendYield	0.0007584616
 trailingEps	2.9
-trailingPE	109.113785
-trailingPegRatio	1.6434
+trailingPE	90.85172
+trailingPegRatio	1.489
 triggerable	True
 twoHundredDayAverage	101.33605
-twoHundredDayAverageChange	215.09393
-twoHundredDayAverageChangePercent	2.1225805
+twoHundredDayAverageChange	162.13394
+twoHundredDayAverageChangePercent	1.5999631
 typeDisp	Equity
-volume	85668645
+volume	88753188
 website	https://www.marvell.com
 zip	19801
