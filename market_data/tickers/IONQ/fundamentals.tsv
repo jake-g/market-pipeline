@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.8012109
-SandP52WeekChange	0.27449715
+52WeekChange	0.8611566
+SandP52WeekChange	0.27181315
 address1	4505 Campus Drive
 allTimeHigh	84.64
 allTimeLow	3.04
-ask	66.16
-askSize	200
+ask	64.72
+askSize	100
 auditRisk	1
 averageAnalystRating	1.4 - Strong Buy
-averageDailyVolume10Day	33651380
-averageDailyVolume3Month	29679939
-averageVolume	29679939
-averageVolume10days	33651380
+averageDailyVolume10Day	34489070
+averageDailyVolume3Month	29412696
+averageVolume	29412696
+averageVolume10days	34489070
 beta	3.052
-bid	67.52
+bid	64.6
 bidSize	200
 boardRisk	7
 bookValue	13.334
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	68.23
+currentPrice	65.66
 currentRatio	14.052
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	73.6452
-dayLow	67.51
+dayHigh	69.4641
+dayLow	64.18
 debtToEquity	0.61
 displayName	IonQ
 earningsCallTimestampEnd	1778099400
@@ -40,9 +40,9 @@ earningsTimestampEnd	1785960000
 earningsTimestampStart	1785960000
 ebitda	-662371008
 ebitdaMargins	0.0
-enterpriseToEbitda	-35.447
-enterpriseToRevenue	125.477
-enterpriseValue	23478915072
+enterpriseToEbitda	-33.998
+enterpriseToRevenue	120.35
+enterpriseValue	22519611392
 epsCurrentYear	-1.19849
 epsForward	-1.04241
 epsTrailingTwelveMonths	0.39
@@ -52,32 +52,32 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	45.2946
-fiftyDayAverageChange	22.935402
-fiftyDayAverageChangePercent	0.5063606
-fiftyTwoWeekChangePercent	80.121086
+fiftyDayAverage	45.997
+fiftyDayAverageChange	19.663002
+fiftyDayAverageChangePercent	0.42748442
+fiftyTwoWeekChangePercent	86.11566
 fiftyTwoWeekHigh	84.64
-fiftyTwoWeekHighChange	-16.409996
-fiftyTwoWeekHighChangePercent	-0.19387992
+fiftyTwoWeekHighChange	-18.979996
+fiftyTwoWeekHighChangePercent	-0.2242438
 fiftyTwoWeekLow	25.89
-fiftyTwoWeekLowChange	42.340004
-fiftyTwoWeekLowChangePercent	1.6353806
+fiftyTwoWeekLowChange	39.770004
+fiftyTwoWeekLowChangePercent	1.5361146
 fiftyTwoWeekRange	25.89 - 84.64
 financialCurrency	USD
 firstTradeDateMilliseconds	1609770600000
 floatShares	370548810
 forwardEps	-1.04241
-forwardPE	-65.454094
+forwardPE	-62.988655
 freeCashflow	-91360376
 fullExchangeName	NYSE
 fullTimeEmployees	1132
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1780272000
+governanceEpochDate	1780531200
 grossMargins	0.36110002
 grossProfits	67569000
 hasPrePostMarketData	True
 heldPercentInsiders	0.00748
-heldPercentInstitutions	0.55811
+heldPercentInstitutions	0.55803
 impliedSharesOutstanding	373269948
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -88,7 +88,7 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	IonQ, Inc. develops quantum computing systems in the United States, Switzerland, and Internationally. It sells access to quantum computers of various qubit capacities. The company also makes access to its quantum computers through cloud platforms, such as Amazon Web Services (AWS), Braket, Microsoft's Azure Quantum, and Google's Cloud Marketplace, as well as through its cloud service. The company engages in quantum-safe communications and quantum detection systems. It provides contracts associated with the design, development, construction, and sale of specialized quantum computing hardware systems; maintenance and support services; and consulting services related to co-developing algorithms on quantum computing systems. The company has a collaboration agreement with University of Chicago. The company was founded in 2015 and is headquartered in College Park, Maryland.
 longName	IonQ, Inc.
 market	us_market
-marketCap	25468209152
+marketCap	24508905472
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_531207172
@@ -97,21 +97,21 @@ netIncomeToCommon	308505984
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	25860141997
 numberOfAnalystOpinions	13
-open	70.325
+open	67.05
 operatingCashflow	-401185984
 operatingMargins	-4.01755
 overallRisk	9
 payoutRatio	0.0
 phone	301 298 7997
-postMarketChange	-2.6900024
-postMarketChangePercent	-3.9425507
-postMarketPrice	65.54
-postMarketTime	1780531198
-previousClose	71.4
-priceEpsCurrentYear	-56.929974
+postMarketChange	-1.0250015
+postMarketChangePercent	-1.5610744
+postMarketPrice	64.635
+postMarketTime	1780617594
+previousClose	68.23
+priceEpsCurrentYear	-54.785606
 priceHint	2
-priceToBook	5.1169944
-priceToSalesTrailing12Months	136.10774
+priceToBook	4.9242544
+priceToSalesTrailing12Months	130.98102
 profitMargins	1.7488099
 quickRatio	13.123
 quoteSourceName	Nasdaq Real Time Price
@@ -119,16 +119,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.38462
 region	US
-regularMarketChange	-3.17
-regularMarketChangePercent	-4.43977
-regularMarketDayHigh	73.6452
-regularMarketDayLow	67.51
-regularMarketDayRange	67.51 - 73.6452
-regularMarketOpen	70.325
-regularMarketPreviousClose	71.4
-regularMarketPrice	68.23
-regularMarketTime	1780516802
-regularMarketVolume	30279552
+regularMarketChange	-2.57
+regularMarketChangePercent	-3.76667
+regularMarketDayHigh	69.4641
+regularMarketDayLow	64.18
+regularMarketDayRange	64.18 - 69.4641
+regularMarketOpen	67.05
+regularMarketPreviousClose	68.23
+regularMarketPrice	65.66
+regularMarketTime	1780603202
+regularMarketVolume	37908319
 returnOnAssets	-0.12831001
 returnOnEquity	0.11286
 revenueGrowth	7.547
@@ -148,7 +148,7 @@ shortRatio	1.89
 sourceInterval	15
 state	MD
 symbol	IONQ
-syntheticPEG	-0.08672862594408375
+syntheticPEG	-0.08346184576652976
 targetHighPrice	100.0
 targetLowPrice	44.78
 targetMeanPrice	67.63692
@@ -161,13 +161,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.39
-trailingPE	174.94873
+trailingPE	168.359
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	48.1328
-twoHundredDayAverageChange	20.097202
-twoHundredDayAverageChangePercent	0.41753653
+twoHundredDayAverage	48.2728
+twoHundredDayAverageChange	17.387203
+twoHundredDayAverageChangePercent	0.36018634
 typeDisp	Equity
-volume	30279552
+volume	37908319
 website	https://www.ionq.com
 zip	20740

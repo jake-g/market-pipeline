@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.98082495
-SandP52WeekChange	0.27449715
+52WeekChange	0.9715649
+SandP52WeekChange	0.27181315
 address1	6900 E Layton Avenue
 address2	Suite 700
 allTimeHigh	134.88
 allTimeLow	7.366667
-ask	108.23
-askSize	300
+ask	108.32
+askSize	100
 auditRisk	5
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	7691250
-averageDailyVolume3Month	9006000
-averageVolume	9006000
-averageVolume10days	7691250
+averageDailyVolume10Day	7362950
+averageDailyVolume3Month	8980193
+averageVolume	8980193
+averageVolume10days	7362950
 beta	0.448
-bid	107.11
-bidSize	200
+bid	107.77
+bidSize	600
 boardRisk	2
 bookValue	32.55
 city	Denver
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	107.47
+currentPrice	108.33
 currentRatio	2.443
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	108.89
-dayLow	106.6
+dayHigh	110.34
+dayLow	107.74
 debtToEquity	15.762
-discount_to_intrinsic_value	75.9
+discount_to_intrinsic_value	75.49
 displayName	Newmont
 dividendDate	1782086400
 dividendRate	1.04
-dividendYield	0.95
+dividendYield	0.97
 earningsCallTimestampEnd	1776979800
 earningsCallTimestampStart	1776979800
 earningsGrowth	0.786
@@ -47,10 +47,10 @@ earningsTimestampEnd	1784836800
 earningsTimestampStart	1784836800
 ebitda	16339000320
 ebitdaMargins	0.65445
-enterpriseToEbitda	6.966
-enterpriseToRevenue	4.559
-enterpriseValue	113822023680
-epsCurrentYear	10.39679
+enterpriseToEbitda	6.89
+enterpriseToRevenue	4.509
+enterpriseValue	112572989440
+epsCurrentYear	10.36276
 epsForward	11.3813
 epsTrailingTwelveMonths	7.71
 eps_normalized_growth	0.33358093443240944
@@ -62,29 +62,29 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	303 837 5837
-fiftyDayAverage	111.2942
-fiftyDayAverageChange	-3.8241959
-fiftyDayAverageChangePercent	-0.034361143
-fiftyTwoWeekChangePercent	98.0825
+fiftyDayAverage	111.4808
+fiftyDayAverageChange	-3.150795
+fiftyDayAverageChangePercent	-0.028263118
+fiftyTwoWeekChangePercent	97.15649
 fiftyTwoWeekHigh	134.88
-fiftyTwoWeekHighChange	-27.410004
-fiftyTwoWeekHighChangePercent	-0.2032177
+fiftyTwoWeekHighChange	-26.550003
+fiftyTwoWeekHighChangePercent	-0.19684166
 fiftyTwoWeekLow	52.08
-fiftyTwoWeekLowChange	55.39
-fiftyTwoWeekLowChangePercent	1.0635561
+fiftyTwoWeekLowChange	56.25
+fiftyTwoWeekLowChangePercent	1.0800691
 fiftyTwoWeekRange	52.08 - 134.88
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	3.15
 floatShares	1065129419
 forwardEps	11.3813
-forwardPE	9.442682
+forwardPE	9.518245
 freeCashflow	9804874752
 fullExchangeName	NYSE
 fullTimeEmployees	17500
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1780272000
-graham_intrinsic_value	445.97
+governanceEpochDate	1780531200
+graham_intrinsic_value	441.99
 grossMargins	0.67356
 grossProfits	16816000000
 hasPrePostMarketData	True
@@ -105,7 +105,7 @@ lastSplitFactor	5:4
 longBusinessSummary	Newmont Corporation operates as a gold producer. It also explores for copper, silver, lead, zinc, and other metals. It has operations and/or assets in the United States, Papua New Guinea, Australia, Ghana, Suriname, Argentina, Dominican Republic, Chile, Peru, Ecuador, Mexico, and Canada. The company was founded in 1916 and is headquartered in Denver, Colorado.
 longName	Newmont Corporation
 market	us_market
-marketCap	114729893888
+marketCap	115647995904
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_291795
@@ -114,22 +114,22 @@ netIncomeToCommon	8456000000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	116897027658
 numberOfAnalystOpinions	21
-open	107.99
+open	109.23
 operatingCashflow	12088000512
 operatingMargins	0.61379004
 overallRisk	2
 payoutRatio	0.131
 pegRatio	2.78
 phone	303 863 7414
-postMarketChange	0.58000183
-postMarketChangePercent	0.5396872
-postMarketPrice	108.05
-postMarketTime	1780531081
-previousClose	109.5
-priceEpsCurrentYear	10.336844
+postMarketChange	-0.33000183
+postMarketChangePercent	-0.30462644
+postMarketPrice	108.0
+postMarketTime	1780617597
+previousClose	107.47
+priceEpsCurrentYear	10.453779
 priceHint	2
-priceToBook	3.3016899
-priceToSalesTrailing12Months	4.5954456
+priceToBook	3.3281107
+priceToSalesTrailing12Months	4.6322193
 profitMargins	0.3387
 quickRatio	1.89
 quoteSourceName	Nasdaq Real Time Price
@@ -137,16 +137,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.63636
 region	US
-regularMarketChange	-2.03
-regularMarketChangePercent	-1.85388
-regularMarketDayHigh	108.89
-regularMarketDayLow	106.6
-regularMarketDayRange	106.6 - 108.89
-regularMarketOpen	107.99
-regularMarketPreviousClose	109.5
-regularMarketPrice	107.47
-regularMarketTime	1780516802
-regularMarketVolume	5909539
+regularMarketChange	0.860001
+regularMarketChangePercent	0.800224
+regularMarketDayHigh	110.34
+regularMarketDayLow	107.74
+regularMarketDayRange	107.74 - 110.34
+regularMarketOpen	109.23
+regularMarketPreviousClose	107.47
+regularMarketPrice	108.33
+regularMarketTime	1780603202
+regularMarketVolume	6321941
 returnOnAssets	0.14887
 returnOnEquity	0.25832
 revenueGrowth	0.458
@@ -168,7 +168,7 @@ state	CO
 symbol	NEM
 targetHighPrice	175.0
 targetLowPrice	72.0
-targetMeanPrice	142.81714
+targetMeanPrice	142.69333
 targetMedianPrice	145.0
 totalCash	8778999808
 totalCashPerShare	8.223
@@ -176,15 +176,15 @@ totalDebt	5532000256
 totalRevenue	24966000640
 tradeable	False
 trailingAnnualDividendRate	1.02
-trailingAnnualDividendYield	0.009315068
+trailingAnnualDividendYield	0.009491021
 trailingEps	7.71
-trailingPE	13.93904
+trailingPE	14.050584
 trailingPegRatio	2.7807
 triggerable	True
-twoHundredDayAverage	100.623
-twoHundredDayAverageChange	6.847
-twoHundredDayAverageChangePercent	0.06804607
+twoHundredDayAverage	100.8137
+twoHundredDayAverageChange	7.516304
+twoHundredDayAverageChangePercent	0.07455637
 typeDisp	Equity
-volume	5909539
+volume	6321941
 website	https://www.newmont.com
 zip	80237

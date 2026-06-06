@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.23785162 |
+| Value | str | 0.20253956 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 18945000000.0 |
 | Reconciled Cost Of Revenue | float64 | 87463000000.0 |
 | EBITDA | float64 | 59579000000.0 |
-| ... (239 more) | | |
+| ... (145 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-04 |
+| Date | str | 2026-06-05 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.15 |
-| Headline | str | Target hijacks Amazon to keep winning shoppers ... |
-| Summary | str | For the past year, many big retailers have been... |
-| URL | str | https://www.thestreet.com/retail/target-aligns-... |
+| Sentiment | float64 | 0.65 |
+| Headline | str | Best Media Spend Strategies for Amazon Prime Day |
+| Summary | str | Measured's latest report looks at what is most ... |
+| URL | str | https://wwd.com/sourcing-journal/industry-news/... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.44 |
 | CPI | float64 | 332.407 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 3.98 |
-| US10Y | float64 | 4.45 |
+| US02Y | float64 | 4.08 |
+| US10Y | float64 | 4.49 |

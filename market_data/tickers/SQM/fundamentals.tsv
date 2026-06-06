@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	1.524672
-SandP52WeekChange	0.27449715
+52WeekChange	1.4328172
+SandP52WeekChange	0.27181315
 address1	El Trovador 4285
 address2	6th Floor Las Condes
 allTimeHigh	115.76
 allTimeLow	1.54333
-ask	81.29
-askSize	300
+ask	81.8
+askSize	100
 averageAnalystRating	2.4 - Buy
-averageDailyVolume10Day	1234740
-averageDailyVolume3Month	1262546
-averageVolume	1262546
-averageVolume10days	1234740
-beta	1.028
-bid	78.78
-bidSize	100
+averageDailyVolume10Day	1315970
+averageDailyVolume3Month	1277469
+averageVolume	1277469
+averageVolume10days	1315970
+beta	0.971
+bid	77.97
+bidSize	200
 bookValue	20.488
 city	Santiago
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Ricardo  Ramos Rodríguez', 'title': 'General Manager', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gerardo  Illanes G.', 'title': 'CFO & VP of Finance', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Nelson  Torres', 'title': 'Vice President of Operations, Mine & Leaching, SQM, Iodine and Plant Nutrition', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Irina  Axenova', 'title': 'Head of Investor Relations', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gonzalo  Aguirre T.', 'title': 'VP of Legal & General Counsel', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Ana Maria Munoz', 'title': 'Risk, Compliance & Internal Audit Manager', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Trinidad  Reyes', 'title': 'Director of Development', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Rodrigo  Jasen', 'title': 'Vice President People & Culture', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Carlos  Diaz Ortiz', 'title': 'General Manager of Nova Andino Lithium', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Pablo Andres Altimiras Ceardi', 'title': 'General Manager of Iodine - Plant Nutrition Division', 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,18 +22,18 @@ corporateActions	[]
 country	Chile
 cryptoTradeable	False
 currency	USD
-currentPrice	78.58
+currentPrice	77.69
 currentRatio	2.759
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	80.61
-dayLow	78.47
+dayHigh	79.145
+dayLow	77.02
 debtToEquity	63.386
-discount_to_intrinsic_value	52.5
+discount_to_intrinsic_value	52.62
 displayName	Sociedad Química y Minera de Chile
 dividendDate	1779926400
 dividendRate	1.03
-dividendYield	1.27
+dividendYield	1.31
 earningsCallTimestampEnd	1779897600
 earningsCallTimestampStart	1779897600
 earningsGrowth	1.652
@@ -43,10 +43,10 @@ earningsTimestampEnd	1787083200
 earningsTimestampStart	1787083200
 ebitda	1966237056
 ebitdaMargins	0.37101
-enterpriseToEbitda	13.302
-enterpriseToRevenue	4.935
-enterpriseValue	26154678272
-epsCurrentYear	5.87175
+enterpriseToEbitda	13.173
+enterpriseToRevenue	4.887
+enterpriseValue	25900460032
+epsCurrentYear	6.19405
 epsForward	5.80788
 epsTrailingTwelveMonths	2.86
 eps_normalized_growth	1.5190134484986295
@@ -57,33 +57,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	85.5592
-fiftyDayAverageChange	-6.9791946
-fiftyDayAverageChangePercent	-0.081571534
-fiftyTwoWeekChangePercent	152.46721
+fiftyDayAverage	85.623
+fiftyDayAverageChange	-7.9329987
+fiftyDayAverageChangePercent	-0.092650324
+fiftyTwoWeekChangePercent	143.28172
 fiftyTwoWeekHigh	98.0
-fiftyTwoWeekHighChange	-19.419998
-fiftyTwoWeekHighChangePercent	-0.19816324
-fiftyTwoWeekLow	31.39
-fiftyTwoWeekLowChange	47.190002
-fiftyTwoWeekLowChangePercent	1.5033451
-fiftyTwoWeekRange	31.39 - 98.0
+fiftyTwoWeekHighChange	-20.309998
+fiftyTwoWeekHighChangePercent	-0.20724487
+fiftyTwoWeekLow	31.9
+fiftyTwoWeekLowChange	45.79
+fiftyTwoWeekLowChangePercent	1.4354233
+fiftyTwoWeekRange	31.9 - 98.0
 financialCurrency	USD
 firstTradeDateMilliseconds	748618200000
 fiveYearAvgDividendYield	5.28
 floatShares	104334922
 forwardEps	5.80788
-forwardPE	13.529895
+forwardPE	13.376655
 freeCashflow	1714752512
 fullExchangeName	NYSE
 fullTimeEmployees	7773
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	165.43
+graham_intrinsic_value	163.96
 grossMargins	0.34465
 grossProfits	1826535040
 hasPrePostMarketData	True
 heldPercentInsiders	0.0
-heldPercentInstitutions	0.34198
+heldPercentInstitutions	0.34183997
 impliedSharesOutstanding	285637808
 industry	Specialty Chemicals
 industryDisp	Specialty Chemicals
@@ -99,47 +99,47 @@ lastSplitFactor	1027:1000
 longBusinessSummary	Sociedad Química y Minera de Chile S.A. produces and sells specialty plant nutrients, and iodine and its derivatives in Chile, Latin America, the Caribbean, Europe, North America, Asia, and internationally. It offers potassium nitrate, sodium nitrate, specialty blends, and other specialty fertilizers under the Ultrasol, Qrop, Speedfol, Allganic, Ultrasoline, Prop, and Prohydric brands. The company also provides iodine and its derivatives for use in medical, agricultural, industrial, and human and animal nutrition products comprising x-ray contrast media, biocides, antiseptics and disinfectants, pharmaceutical intermediates, polarizing films for LCD and LED screens, chemicals, organic compounds, and pigments, as well as added to edible salt to prevent iodine deficiency disorders. In addition, it produces lithium carbonate and lithium hydroxide which are used in the production of cathode material for, secondary batteries; lithium chloride; and basic lithium chemicals and lithium derivatives used in lubricating greases for heat-resistant glass, chips for the ceramic and glazing industry, and air conditioning chemicals, as well as other pharmaceutical syntheses and metal alloys. Further, the company produces potassium sulfate; and potassium chloride which are used to nourish various crops. Additionally, it produces and markets industrial chemicals, such as sodium nitrate mainly used in the production of glass and explosives, metal processing and recycling, and production of insulating materials and adhesives; potassium nitrate used as a raw material to produce frits and special ty glass, as well as in the enamel, metal treatment, and pyrotechnic sectors; solar salts used as a thermal storage medium in solar power generation plants; and potassium chloride as an additive in oil drilling and food processing sectors, as well as sells third-party fertilizers. Sociedad Química y Minera de Chile S.A. was founded in 1926 and is headquartered in Santiago, Chile.
 longName	Sociedad Química y Minera de Chile S.A.
 market	us_market
-marketCap	22445420544
+marketCap	22191202304
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_393339
 mostRecentQuarter	1774915200
 netIncomeToCommon	815331968
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	23827905943
+nonDilutedMarketCap	22445418952
 numberOfAnalystOpinions	18
-open	80.19
+open	77.73
 operatingCashflow	1961095936
 operatingMargins	0.41094002
 payoutRatio	0.0
-pegRatio	0.39
+pegRatio	0.36
 phone	56 22 425 2000
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	78.58
-postMarketTime	1780530672
-previousClose	80.84
-priceEpsCurrentYear	13.382723
+postMarketChange	-0.69000244
+postMarketChangePercent	-0.8881483
+postMarketPrice	77.0
+postMarketTime	1780616601
+previousClose	78.58
+priceEpsCurrentYear	12.542683
 priceHint	2
-priceToBook	3.8354158
-priceToSalesTrailing12Months	4.2352233
+priceToBook	3.7919757
+priceToSalesTrailing12Months	4.187255
 profitMargins	0.15384
 quickRatio	1.932
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	2.38889
+recommendationMean	2.44444
 region	US
-regularMarketChange	-2.25999
-regularMarketChangePercent	-2.79564
-regularMarketDayHigh	80.61
-regularMarketDayLow	78.47
-regularMarketDayRange	78.47 - 80.61
-regularMarketOpen	80.19
-regularMarketPreviousClose	80.84
-regularMarketPrice	78.58
-regularMarketTime	1780516802
-regularMarketVolume	1549767
+regularMarketChange	-0.889999
+regularMarketChangePercent	-1.1326
+regularMarketDayHigh	79.145
+regularMarketDayLow	77.02
+regularMarketDayRange	77.02 - 79.145
+regularMarketOpen	77.73
+regularMarketPreviousClose	78.58
+regularMarketPrice	77.69
+regularMarketTime	1780603202
+regularMarketVolume	778270
 returnOnAssets	0.072
 returnOnEquity	0.13402
 revenueGrowth	0.698
@@ -158,7 +158,7 @@ sourceInterval	15
 symbol	SQM
 targetHighPrice	110.0
 targetLowPrice	40.0
-targetMeanPrice	81.275
+targetMeanPrice	81.60833
 targetMedianPrice	82.0
 totalCash	3862801920
 totalCashPerShare	13.523
@@ -168,12 +168,12 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.86
-trailingPE	27.475527
-trailingPegRatio	0.3762
+trailingPE	27.164337
+trailingPegRatio	0.3544
 triggerable	True
-twoHundredDayAverage	66.55475
-twoHundredDayAverageChange	12.025253
-twoHundredDayAverageChangePercent	0.18068212
+twoHundredDayAverage	66.72225
+twoHundredDayAverageChange	10.967751
+twoHundredDayAverageChangePercent	0.16437921
 typeDisp	Equity
-volume	1549767
+volume	778270
 website	https://www.sqm.com

@@ -14,23 +14,23 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	4.503
-dayLow	4.475
+dayHigh	4.479
+dayLow	4.4490004
 esgPopulated	False
 exchange	CGI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
 fiftyDayAverage	4.37796
-fiftyDayAverageChange	0.11303997
-fiftyDayAverageChangePercent	0.025820237
+fiftyDayAverageChange	0.09904003
+fiftyDayAverageChangePercent	0.022622414
 fiftyTwoWeekChangePercent	29.821074
 fiftyTwoWeekHigh	4.997
-fiftyTwoWeekHighChange	-0.50600004
-fiftyTwoWeekHighChangePercent	-0.10126076
+fiftyTwoWeekHighChange	-0.52
+fiftyTwoWeekHighChangePercent	-0.10406243
 fiftyTwoWeekLow	3.345
-fiftyTwoWeekLowChange	1.1460001
-fiftyTwoWeekLowChangePercent	0.34260094
+fiftyTwoWeekLowChange	1.1320002
+fiftyTwoWeekLowChangePercent	0.3384156
 fiftyTwoWeekRange	3.345 - 4.997
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
@@ -42,20 +42,20 @@ market	usir_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	4.4849997
-previousClose	4.455
+open	4.457
+previousClose	4.491
 priceHint	4
 quoteType	INDEX
 region	US
-regularMarketChange	0.03600025
-regularMarketChangePercent	0.80808645
-regularMarketDayHigh	4.503
-regularMarketDayLow	4.475
-regularMarketDayRange	4.475 - 4.503
-regularMarketOpen	4.4849997
-regularMarketPreviousClose	4.455
-regularMarketPrice	4.491
-regularMarketTime	1780513193
+regularMarketChange	-0.013999939
+regularMarketChangePercent	-0.31173322
+regularMarketDayHigh	4.479
+regularMarketDayLow	4.4490004
+regularMarketDayRange	4.4490004 - 4.479
+regularMarketOpen	4.457
+regularMarketPreviousClose	4.491
+regularMarketPrice	4.477
+regularMarketTime	1780599594
 regularMarketVolume	0
 shortName	CBOE Interest Rate 10 Year T No
 sourceInterval	15
@@ -64,7 +64,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	4.307575
-twoHundredDayAverageChange	0.18342495
-twoHundredDayAverageChangePercent	0.04258195
+twoHundredDayAverageChange	0.16942501
+twoHundredDayAverageChangePercent	0.039331876
 typeDisp	Index
 volume	0
