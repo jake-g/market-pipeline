@@ -1,23 +1,23 @@
 Metric	Value
-52WeekChange	0.61491776
-SandP52WeekChange	0.27181315
+52WeekChange	0.40872443
+SandP52WeekChange	0.22635591
 address1	206 East 9th Street
 address2	Suite 1400
 allTimeHigh	785.66
 allTimeLow	31.95
-ask	676.37
+ask	623.77
 askSize	1
 auditRisk	10
-averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	3622500
-averageDailyVolume3Month	3492638
-averageVolume	3492638
-averageVolume10days	3622500
+averageAnalystRating	1.7 - Buy
+averageDailyVolume10Day	4258380
+averageDailyVolume3Month	3520666
+averageVolume	3520666
+averageVolume10days	4258380
 beta	1.244
-bid	670.77
+bid	645.42
 bidSize	1
 boardRisk	9
-bookValue	17.478
+bookValue	18.205
 city	Austin
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. George R. Kurtz', 'age': 54, 'title': 'Co-Founder, President, CEO & Director', 'yearBorn': 1971, 'fiscalYear': 2026, 'totalPay': 5454792, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Sentonas', 'age': 51, 'title': 'President', 'yearBorn': 1974, 'fiscalYear': 2026, 'totalPay': 1858750, 'exercisedValue': 0, 'unexercisedValue': 3588463}, {'maxAge': 1, 'name': 'Mr. Burt W. Podbere CPA', 'age': 59, 'title': 'Chief Financial Officer', 'yearBorn': 1966, 'fiscalYear': 2026, 'totalPay': 1487452, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dmitri  Alperovitch', 'age': 44, 'title': 'Co-Founder', 'yearBorn': 1981, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Anurag  Saha', 'age': 45, 'title': 'Chief Accounting Officer', 'yearBorn': 1980, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Elia  Zaitsev', 'title': 'Chief Technology Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Justin  Acquaro', 'title': 'Chief Information Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Andy  Nowinski', 'title': 'Vice President of Investor Relations & Strategic Finance', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Cathleen Garrigan Anderson J.D.', 'title': 'Chief Legal Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brad  Burns', 'title': 'Chief Communications Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1798675200
@@ -26,12 +26,12 @@ corporateActions	[{'header': 'Stock split', 'message': 'CRWD announces 4 for 1 s
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	671.02
+currentPrice	644.93
 currentRatio	1.531
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	706.22
-dayLow	670.1
+dayHigh	664.87
+dayLow	617.75
 debtToEquity	17.568
 displayName	CrowdStrike
 earningsCallTimestampEnd	1780520400
@@ -41,11 +41,11 @@ earningsTimestampEnd	1788292800
 earningsTimestampStart	1788292800
 ebitda	59319000
 ebitdaMargins	0.01164
-enterpriseToEbitda	2817.446
-enterpriseToRevenue	32.808
-enterpriseValue	167128088576
-epsCurrentYear	4.92628
-epsForward	6.24503
+enterpriseToEbitda	2764.962
+enterpriseToRevenue	32.196
+enterpriseValue	164014751744
+epsCurrentYear	4.92878
+epsForward	6.24983
 epsTrailingTwelveMonths	-0.13
 esgPopulated	False
 exchange	NMS
@@ -53,22 +53,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	503.4778
-fiftyDayAverageChange	167.5422
-fiftyDayAverageChangePercent	0.33276978
-fiftyTwoWeekChangePercent	61.491776
+fiftyDayAverage	521.0264
+fiftyDayAverageChange	123.903564
+fiftyDayAverageChangePercent	0.23780668
+fiftyTwoWeekChangePercent	40.872444
 fiftyTwoWeekHigh	785.66
-fiftyTwoWeekHighChange	-114.63995
-fiftyTwoWeekHighChangePercent	-0.14591548
+fiftyTwoWeekHighChange	-140.72998
+fiftyTwoWeekHighChangePercent	-0.17912327
 fiftyTwoWeekLow	342.72
-fiftyTwoWeekLowChange	328.30002
-fiftyTwoWeekLowChangePercent	0.9579249
+fiftyTwoWeekLowChange	302.21
+fiftyTwoWeekLowChangePercent	0.8817985
 fiftyTwoWeekRange	342.72 - 785.66
 financialCurrency	USD
 firstTradeDateMilliseconds	1560346200000
-floatShares	249952105
-forwardEps	6.24503
-forwardPE	107.44865
+floatShares	249957197
+forwardEps	6.24983
+forwardPE	103.19161
 freeCashflow	1926365056
 fullExchangeName	NasdaqGS
 fullTimeEmployees	11157
@@ -77,8 +77,8 @@ governanceEpochDate	1780531200
 grossMargins	0.75136
 grossProfits	3827581952
 hasPrePostMarketData	True
-heldPercentInsiders	0.0154
-heldPercentInstitutions	0.74716
+heldPercentInsiders	0.01538
+heldPercentInstitutions	0.74759
 impliedSharesOutstanding	254564820
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -89,48 +89,48 @@ lastFiscalYearEnd	1769817600
 longBusinessSummary	CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software as a service (SaaS) subscription-based model. The company offers corporate endpoint and cloud workload security, managed security, security and vulnerability management, IT operations management, identity protection, threat intelligence, data protection, SaaS security posture management, and AI powered workflow automation, and securing generative AI workload services, as well as security orchestration, automation, and response; and security information and event management, and log management services. It primarily sells subscriptions to its Falcon platform and cloud modules. The company has a strategic alliance with Cognizant Technology Solutions Corporation to help enterprises secure artificial intelligence across its lifecycle, from the AI agents and models to the foundational infrastructure that supports the entire AI ecosystem. The company was incorporated in 2011 and is headquartered in Austin, Texas.
 longName	CrowdStrike Holdings, Inc.
 market	us_market
-marketCap	170818093056
-marketState	CLOSED
+marketCap	164176478208
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_420347413
 mostRecentQuarter	1777507200
 netIncomeToCommon	-30464000
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	190294048464
+nonDilutedMarketCap	170818085516
 numberOfAnalystOpinions	51
-open	696.74
+open	658.79
 operatingCashflow	1819179008
 operatingMargins	-0.022079999
 overallRisk	10
 payoutRatio	0.0
-pegRatio	5.93
+pegRatio	5.36
 phone	888 512 8906
-postMarketChange	-6.032837
-postMarketChangePercent	-0.8990547
-postMarketPrice	664.9872
-postMarketTime	1780703987
-previousClose	719.09
-priceEpsCurrentYear	136.21231
+postMarketChange	-2.369995
+postMarketChangePercent	-0.367481
+postMarketPrice	642.56
+postMarketTime	1781047309
+previousClose	658.79
+priceEpsCurrentYear	130.84982
 priceHint	2
-priceToBook	38.392265
-priceToSalesTrailing12Months	33.53188
+priceToBook	35.425983
+priceToSalesTrailing12Months	32.22812
 profitMargins	-0.00598
 quickRatio	1.333
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.62963
+recommendationMean	1.66667
 region	US
-regularMarketChange	-48.07
-regularMarketChangePercent	-6.68484
-regularMarketDayHigh	706.22
-regularMarketDayLow	670.1
-regularMarketDayRange	670.1 - 706.22
-regularMarketOpen	696.74
-regularMarketPreviousClose	719.09
-regularMarketPrice	671.02
-regularMarketTime	1780689600
-regularMarketVolume	5208772
+regularMarketChange	-13.859985
+regularMarketChangePercent	-2.103855
+regularMarketDayHigh	664.87
+regularMarketDayLow	617.75
+regularMarketDayRange	617.75 - 664.87
+regularMarketOpen	658.79
+regularMarketPreviousClose	658.79
+regularMarketPrice	644.93
+regularMarketTime	1781035201
+regularMarketVolume	3733831
 returnOnAssets	-0.0100300005
 returnOnEquity	-0.0024899999
 revenueGrowth	0.256
@@ -152,7 +152,7 @@ state	TX
 symbol	CRWD
 targetHighPrice	850.0
 targetLowPrice	413.0
-targetMeanPrice	707.469
+targetMeanPrice	712.371
 targetMedianPrice	750.0
 totalCash	4552800768
 totalCashPerShare	17.885
@@ -162,12 +162,12 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	-0.13
-trailingPegRatio	5.9306
+trailingPegRatio	5.461
 triggerable	True
-twoHundredDayAverage	475.3103
-twoHundredDayAverageChange	195.70972
-twoHundredDayAverageChangePercent	0.41175148
+twoHundredDayAverage	479.23425
+twoHundredDayAverageChange	165.69574
+twoHundredDayAverageChangePercent	0.34575105
 typeDisp	Equity
-volume	5208772
+volume	3733831
 website	https://www.crowdstrike.com
 zip	78701

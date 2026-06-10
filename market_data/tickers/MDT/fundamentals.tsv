@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	-0.10402298
-SandP52WeekChange	0.27181315
+52WeekChange	-0.0826512
+SandP52WeekChange	0.22635591
 address1	Building Two
 address2	Parkmore Business Park West
 allTimeHigh	135.89
 allTimeLow	0.129883
-ask	0.0
-askSize	400
+ask	82.39
+askSize	200
 auditRisk	8
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	12737670
-averageDailyVolume3Month	9607260
-averageVolume	9607260
-averageVolume10days	12737670
+averageDailyVolume10Day	14685070
+averageDailyVolume3Month	9847746
+averageVolume	9847746
+averageVolume10days	14685070
 beta	0.597
-bid	0.0
-bidSize	400
+bid	81.5
+bidSize	200
 boardRisk	7
 bookValue	38.169
 city	Galway
@@ -26,18 +26,18 @@ corporateActions	[]
 country	Ireland
 cryptoTradeable	False
 currency	USD
-currentPrice	81.67
+currentPrice	81.98
 currentRatio	2.535
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	82.68
-dayLow	81.11
+dayHigh	82.3399
+dayLow	80.6
 debtToEquity	57.06
-discount_to_intrinsic_value	-133.86
+discount_to_intrinsic_value	50.54
 displayName	Medtronic
-dividendDate	1776384000
+dividendDate	1784246400
 dividendRate	2.88
-dividendYield	3.53
+dividendYield	3.57
 earningsCallTimestampEnd	1779278400
 earningsCallTimestampStart	1779278400
 earningsGrowth	0.171
@@ -47,13 +47,13 @@ earningsTimestampEnd	1787056200
 earningsTimestampStart	1787056200
 ebitda	10081000448
 ebitdaMargins	0.27722
-enterpriseToEbitda	12.375
-enterpriseToRevenue	3.431
-enterpriseValue	124753887232
-epsCurrentYear	5.94776
-epsForward	6.41606
+enterpriseToEbitda	12.415
+enterpriseToRevenue	3.442
+enterpriseValue	125151887360
+epsCurrentYear	5.94778
+epsForward	6.41016
 epsTrailingTwelveMonths	3.73
-eps_normalized_growth	0.005270356917218555
+eps_normalized_growth	0.18775891995319616
 esgPopulated	False
 exDividendDate	1782432000
 exchange	NYQ
@@ -62,34 +62,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	353 1 438 1798
-fiftyDayAverage	81.5262
-fiftyDayAverageChange	0.14379883
-fiftyDayAverageChangePercent	0.0017638358
-fiftyTwoWeekChangePercent	-10.402298
+fiftyDayAverage	81.1692
+fiftyDayAverageChange	0.8108063
+fiftyDayAverageChangePercent	0.009989088
+fiftyTwoWeekChangePercent	-8.26512
 fiftyTwoWeekHigh	106.33
-fiftyTwoWeekHighChange	-24.660004
-fiftyTwoWeekHighChangePercent	-0.23191953
+fiftyTwoWeekHighChange	-24.349998
+fiftyTwoWeekHighChangePercent	-0.22900403
 fiftyTwoWeekLow	73.31
-fiftyTwoWeekLowChange	8.360001
-fiftyTwoWeekLowChangePercent	0.1140363
+fiftyTwoWeekLowChange	8.670006
+fiftyTwoWeekLowChangePercent	0.11826499
 fiftyTwoWeekRange	73.31 - 106.33
 financialCurrency	USD
 firstTradeDateMilliseconds	105197400000
 fiveYearAvgDividendYield	3.0
 floatShares	1281317194
-forwardEps	6.41606
-forwardPE	12.728995
+forwardEps	6.41016
+forwardPE	12.789073
 freeCashflow	4073125120
 fullExchangeName	NYSE
 fullTimeEmployees	95000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1780531200
-graham_intrinsic_value	34.92
+graham_intrinsic_value	165.75
 grossMargins	0.65383005
 grossProfits	23776000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0031
-heldPercentInstitutions	0.89387
+heldPercentInstitutions	0.89404
 impliedSharesOutstanding	1283884964
 industry	Medical Devices
 industryDisp	Medical Devices
@@ -104,8 +104,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Medtronic plc develops, manufactures, and sells device-based medical therapies to healthcare systems, physicians, clinicians, and patients in the United States, Ireland, and internationally. The Cardiovascular Portfolio segment offers implantable cardiac pacemakers, cardioverter defibrillators, and cardiac resynchronization therapy devices; cardiac ablation products; insertable cardiac monitor systems; TYRX products; and remote monitoring and patient-centered software. It also provides aortic valves, surgical valve replacement and repair products, endovascular stent grafts and accessories, and transcatheter pulmonary valves, and percutaneous coronary intervention products, percutaneous angioplasty balloons, and other products. The Neuroscience Portfolio segment offers medical devices and implants, biologic solutions, spinal cord stimulation and brain modulation systems, implantable drug infusion systems, and interventional products, as well as nerve ablation system under the Accurian name. The segment offers its products for spinal surgeons, neurosurgeons, neurologists, pain management specialists, anesthesiologists, orthopedic surgeons, urologists, urogynecologists, and interventional radiologists, as well as ear, nose, and throat specialists, and energy surgical instruments. The Medical Surgical Portfolio segment offers surgical stapling devices, vessel sealing instruments, wound closure and electrosurgery products, AI-powered surgical video and analytics platform, robotic-assisted surgery products, hernia mechanical devices, mesh implants, gynecology products, gastrointestinal and hepatologic diagnostics and therapies, and therapies to treat diseases and conditions, and patient monitoring and airway management products. The Diabetes Operating Unit segment provides insulin pumps and consumables, continuous glucose monitoring systems and sensors, and InPen, a smart insulin pen. Medtronic plc was founded in 1949 and is headquartered in Galway, Ireland.
 longName	Medtronic plc
 market	us_market
-marketCap	104854880256
-marketState	CLOSED
+marketCap	105252888576
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_31348
 mostRecentQuarter	1776988800
@@ -113,39 +113,39 @@ netIncomeToCommon	4800999936
 nextFiscalYearEnd	1808524800
 nonDilutedMarketCap	104854885009
 numberOfAnalystOpinions	26
-open	82.1
+open	80.76
 operatingCashflow	7329999872
 operatingMargins	0.21301001
 overallRisk	7
 payoutRatio	0.7614
-pegRatio	1.61
+pegRatio	1.59
 phone	353 1 438 1700
-postMarketChange	-0.2587967
-postMarketChangePercent	-0.31688097
-postMarketPrice	81.4112
-postMarketTime	1780703984
-previousClose	81.93
-priceEpsCurrentYear	13.731219
+postMarketChange	0.11999512
+postMarketChangePercent	0.1463712
+postMarketPrice	82.1
+postMarketTime	1781047475
+previousClose	80.69
+priceEpsCurrentYear	13.783294
 priceHint	2
-priceToBook	2.1396945
-priceToSalesTrailing12Months	2.8834803
+priceToBook	2.1478164
+priceToSalesTrailing12Months	2.8944254
 profitMargins	0.13203
 quickRatio	1.553
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.9
 region	US
-regularMarketChange	-0.260002
-regularMarketChangePercent	-0.317347
-regularMarketDayHigh	82.68
-regularMarketDayLow	81.11
-regularMarketDayRange	81.11 - 82.68
-regularMarketOpen	82.1
-regularMarketPreviousClose	81.93
-regularMarketPrice	81.67
-regularMarketTime	1780689602
-regularMarketVolume	15280947
+regularMarketChange	1.29
+regularMarketChangePercent	1.59871
+regularMarketDayHigh	82.3399
+regularMarketDayLow	80.6
+regularMarketDayRange	80.6 - 82.3399
+regularMarketOpen	80.76
+regularMarketPreviousClose	80.69
+regularMarketPrice	81.98
+regularMarketTime	1781035202
+regularMarketVolume	7557051
 returnOnAssets	0.04567
 returnOnEquity	0.09929
 revenueGrowth	0.099
@@ -166,23 +166,23 @@ sourceInterval	15
 symbol	MDT
 targetHighPrice	121.0
 targetLowPrice	78.0
-targetMeanPrice	99.34615
-targetMedianPrice	101.5
+targetMeanPrice	98.57692
+targetMedianPrice	100.5
 totalCash	8383000064
 totalCashPerShare	6.529
 totalDebt	28071000064
 totalRevenue	36364001280
 tradeable	False
 trailingAnnualDividendRate	2.84
-trailingAnnualDividendYield	0.034663737
+trailingAnnualDividendYield	0.035196427
 trailingEps	3.73
-trailingPE	21.895441
+trailingPE	21.978554
 trailingPegRatio	1.6108
 triggerable	True
-twoHundredDayAverage	92.5537
-twoHundredDayAverageChange	-10.883705
-twoHundredDayAverageChangePercent	-0.11759341
+twoHundredDayAverage	92.3955
+twoHundredDayAverageChange	-10.415497
+twoHundredDayAverageChangePercent	-0.112727314
 typeDisp	Equity
-volume	15280947
+volume	7557051
 website	https://www.medtronic.com
 zip	H91 4K49

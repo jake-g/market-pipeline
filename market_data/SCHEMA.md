@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.20253956 |
+| Value | str | 0.12687838 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -25,7 +25,7 @@ This report documents the file structures and column data types used in `market_
 | Earnings Date | str | 2026-07-30 16:00:00-04:00 |
 | EPS Estimate | float64 | 1.82 |
 | Reported EPS | float64 | 2.78 |
-| Surprise(%) | float64 | 68.18 |
+| Surprise(%) | float64 | 69.02 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-06 |
+| Date | str | 2026-06-09 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.483 |
-| Headline | str | The "Magnificent Seven's" Capex Spending Spree ... |
-| Summary | str | Major hyperscalers in the U.S. are going to spe... |
-| URL | str | https://www.fool.com/investing/2026/06/06/the-m... |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Is Amazon.com (AMZN) One of the Best NASDAQ Sto... |
+| Summary | str | Amazon.com, Inc. (NASDAQ:AMZN) is one of the be... |
+| URL | str | https://finance.yahoo.com/markets/stocks/articl... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -81,7 +81,7 @@ This report documents the file structures and column data types used in `market_
 | WAREHOUSE_PPI | float64 | 179.064 |
 | MFG_CONST | float64 | 185725.0 |
 | TECH_PULSE | float64 | 94.5093 |
-| CHINA_IMPORTS | float64 | 20859.034 |
+| CHINA_IMPORTS | float64 | 19789.1639 |
 | TARIFFS | float64 | 346.15 |
 | GDP | float64 | 31819.464 |
 | UNRATE | float64 | 4.3 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.44 |
 | CPI | float64 | 332.407 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.08 |
-| US10Y | float64 | 4.49 |
+| US02Y | float64 | 4.15 |
+| US10Y | float64 | 4.56 |

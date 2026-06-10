@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	58.55
 allTimeLow	9.77
-ask	56.67
-askSize	300
-averageDailyVolume10Day	1428260
-averageDailyVolume3Month	1641973
-averageVolume	1641973
-averageVolume10days	1428260
+ask	57.2
+askSize	400
+averageDailyVolume10Day	1469770
+averageDailyVolume3Month	1602630
+averageVolume	1602630
+averageVolume10days	1469770
 beta3Year	1.34
-bid	56.15
-bidSize	800
+bid	56.82
+bidSize	300
 category	Infrastructure
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	57.565
-dayLow	56.4
+dayHigh	57.6628
+dayLow	55.71
 dividendYield	0.78
 epsTrailingTwelveMonths	1.8773754
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	54.7865
-fiftyDayAverageChange	1.8935013
-fiftyDayAverageChangePercent	0.03456146
-fiftyTwoWeekChangePercent	35.72613
+fiftyDayAverage	55.1534
+fiftyDayAverageChange	2.0165977
+fiftyDayAverageChangePercent	0.036563434
+fiftyTwoWeekChangePercent	32.403934
 fiftyTwoWeekHigh	58.55
-fiftyTwoWeekHighChange	-1.8699989
-fiftyTwoWeekHighChangePercent	-0.031938497
+fiftyTwoWeekHighChange	-1.3800011
+fiftyTwoWeekHighChangePercent	-0.023569617
 fiftyTwoWeekLow	41.65
-fiftyTwoWeekLowChange	15.029999
-fiftyTwoWeekLowChangePercent	0.3608643
+fiftyTwoWeekLowChange	15.519997
+fiftyTwoWeekLowChangePercent	0.37262896
 fiftyTwoWeekRange	41.65 - 58.55
 firstTradeDateMilliseconds	1488983400000
-fiveYearAverageReturn	0.17135291
+fiveYearAverageReturn	0.17029819
 fullExchangeName	Cboe US
 fundFamily	Global X Funds
 fundInceptionDate	1488758400
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index. The underlying index is designed to measure the performance of U.S. listed companies that provide exposure to domestic infrastructure development, including companies involved in construction and engineering; production of infrastructure raw materials, composites and products; industrial transportation; and producers/distributors of heavy construction equipment.
 longName	Global X U.S. Infrastructure Development ETF
 market	us_market
-marketState	CLOSED
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_415556335
-navPrice	56.67
+navPrice	56.5
 netAssets	13540407300.0
 netExpenseRatio	0.47
-open	57.36
+open	56.99
 phone	+1 8884938631
-postMarketChange	-0.27999878
-postMarketChangePercent	-0.49399924
-postMarketPrice	56.4
-postMarketTime	1780703988
-previousClose	57.61
+postMarketChange	0.11880112
+postMarketChangePercent	0.20780325
+postMarketPrice	57.2888
+postMarketTime	1781047574
+previousClose	56.51
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.93
-regularMarketChangePercent	-1.6143
-regularMarketDayHigh	57.565
-regularMarketDayLow	56.4
-regularMarketDayRange	56.4 - 57.565
-regularMarketOpen	57.36
-regularMarketPreviousClose	57.61
-regularMarketPrice	56.68
-regularMarketTime	1780689600
-regularMarketVolume	1554204
+regularMarketChange	0.66
+regularMarketChangePercent	1.16793
+regularMarketDayHigh	57.6628
+regularMarketDayLow	55.71
+regularMarketDayRange	55.71 - 57.6628
+regularMarketOpen	56.99
+regularMarketPreviousClose	56.51
+regularMarketPrice	57.17
+regularMarketTime	1781035200
+regularMarketVolume	1481034
 shortName	Global X U.S. Infrastructure De
 sourceInterval	15
 symbol	PAVE
-threeYearAverageReturn	0.26620582
+threeYearAverageReturn	0.2503596
 totalAssets	13540407296
 tradeable	False
-trailingPE	30.191086
+trailingPE	30.452087
 trailingPegRatio	None
 trailingThreeMonthNavReturns	2.21456
 trailingThreeMonthReturns	2.21456
 triggerable	True
-twoHundredDayAverage	50.641926
-twoHundredDayAverageChange	6.0380745
-twoHundredDayAverageChangePercent	0.11923075
+twoHundredDayAverage	50.804325
+twoHundredDayAverageChange	6.365673
+twoHundredDayAverageChangePercent	0.12529786
 typeDisp	ETF
-volume	1554204
+volume	1481034
 yield	0.0078
 ytdReturn	17.87733

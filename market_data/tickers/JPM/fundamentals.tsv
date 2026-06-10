@@ -1,40 +1,40 @@
 Metric	Value
-52WeekChange	0.14850163
-SandP52WeekChange	0.27181315
+52WeekChange	0.15826511
+SandP52WeekChange	0.22635591
 address1	270 Park Avenue
 allTimeHigh	337.25
 allTimeLow	3.208333
-ask	0.0
-askSize	80
+ask	312.67
+askSize	40
 auditRisk	6
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	8963060
-averageDailyVolume3Month	9277961
-averageVolume	9277961
-averageVolume10days	8963060
+averageDailyVolume10Day	9273500
+averageDailyVolume3Month	9084463
+averageVolume	9084463
+averageVolume10days	9273500
 beta	1.0
-bid	0.0
-bidSize	240
+bid	312.01
+bidSize	160
 boardRisk	6
 bookValue	128.379
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. James  Dimon', 'age': 69, 'title': 'Chairman & CEO', 'yearBorn': 1956, 'fiscalYear': 2025, 'totalPay': 8087852, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeremy  Barnum', 'age': 52, 'title': 'Executive VP & CFO', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 8400000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Mary Callahan Erdoes', 'age': 58, 'title': 'Chief Executive Officer of Asset & Wealth Management and Executive VP', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 13000000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel Eduardo Pinto', 'age': 62, 'title': 'Vice Chairman', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 6616871, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Douglas B. Petno', 'age': 59, 'title': 'Co-Chief Executive Officer of the Commercial & Investment Bank', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 11631825, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Troy Larry Rohrbaugh', 'age': 55, 'title': 'Co- CEO of Commercial & Investment Bank', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 11608676, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Todd Anthony Combs M.B.A.', 'age': 54, 'title': 'Head Strategic Investment Group of Security & Resiliency Initiative', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 147717, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Eugene  Davy', 'title': 'Co-Founder & Head of Investment Banking of EMEA', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jennifer A. Piepszak', 'age': 54, 'title': 'Chief Operating Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 7855000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Elena A. Korablina', 'age': 51, 'title': 'MD, Firmwide Controller & Principal Accounting Officer', 'yearBorn': 1974, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	4
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'JPM announced a cash dividend of $1.50 with an ex-date of Jul. 6, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1783310400000, 'amount': '1.50'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	312.37
+currentPrice	312.7
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	315.0
-dayLow	309.6
-discount_to_intrinsic_value	37.8
+dayHigh	316.4
+dayLow	309.01
+discount_to_intrinsic_value	36.7
 displayName	JPMorgan Chase &
 dividendDate	1785456000
 dividendRate	6.0
-dividendYield	1.92
+dividendYield	1.93
 earningsCallTimestampEnd	1784032200
 earningsCallTimestampStart	1784032200
 earningsGrowth	0.172
@@ -44,11 +44,11 @@ earningsTimestampEnd	1784032200
 earningsTimestampStart	1784032200
 ebitdaMargins	0.0
 enterpriseToEbitda	-
-enterpriseToRevenue	3.433
-enterpriseValue	595902988288
+enterpriseToRevenue	3.414
+enterpriseValue	592526770176
 epsCurrentYear	22.30846
 epsForward	23.55174
-epsTrailingTwelveMonths	20.9
+epsTrailingTwelveMonths	20.88
 eps_normalized_growth	0.0801052415060981
 esgPopulated	False
 exDividendDate	1783296000
@@ -57,33 +57,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	303.4928
-fiftyDayAverageChange	8.877197
-fiftyDayAverageChangePercent	0.029250108
-fiftyTwoWeekChangePercent	14.850163
+fiftyDayAverage	304.5906
+fiftyDayAverageChange	8.1094055
+fiftyDayAverageChangePercent	0.026623951
+fiftyTwoWeekChangePercent	15.826511
 fiftyTwoWeekHigh	337.25
-fiftyTwoWeekHighChange	-24.880005
-fiftyTwoWeekHighChangePercent	-0.07377318
-fiftyTwoWeekLow	260.31
-fiftyTwoWeekLowChange	52.059998
-fiftyTwoWeekLowChangePercent	0.19999231
-fiftyTwoWeekRange	260.31 - 337.25
+fiftyTwoWeekHighChange	-24.549988
+fiftyTwoWeekHighChangePercent	-0.07279462
+fiftyTwoWeekLow	262.71
+fiftyTwoWeekLowChange	49.99002
+fiftyTwoWeekLowChangePercent	0.19028595
+fiftyTwoWeekRange	262.71 - 337.25
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	2.39
 floatShares	2665256417
 forwardEps	23.55174
-forwardPE	13.263139
+forwardPE	13.277151
 fullExchangeName	NYSE
 fullTimeEmployees	320079
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1780531200
-graham_intrinsic_value	502.22
+graham_intrinsic_value	494.03
 grossMargins	0.0
 grossProfits	173559005184
 hasPrePostMarketData	True
 heldPercentInsiders	0.0038299998
-heldPercentInstitutions	0.7564
+heldPercentInstitutions	0.75641
 impliedSharesOutstanding	2679511418
 industry	Banks - Diversified
 industryDisp	Banks - Diversified
@@ -99,8 +99,8 @@ lastSplitFactor	3:2
 longBusinessSummary	JPMorgan Chase & Co. operates as a bank and financial holding company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia Pacific, Latin America, and the Caribbean. It operates in three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, and cash management; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit cards, payment solutions, travel services, merchant offers, lifestyle benefits, auto loans, and leases to consumers and small businesses through bank branches, ATMs, and digital and telephone banking. It also provides investment banking, market-making, financing, custody, and securities products and services; corporate strategy and structure advisory, equity and debt market capital-raising, and loan origination and syndication services; cash and derivative instruments, risk management solutions, prime brokerage, clearing, and research; and fund services, liquidity and trading services, and data solutions products for large corporations, financial institutions, merchants, start-ups, small and midsized companies, local governments, municipalities, nonprofits, and commercial real estate clients. In addition, the company offers multi-asset investment management solutions in equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; retirement products and services, estate planning, lending, deposits, and investment management products to high-net-worth clients; and financial transaction processing. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York.
 longName	JPMorgan Chase & Co.
 market	us_market
-marketCap	836998922240
-marketState	CLOSED
+marketCap	837883199488
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_658776
 mostRecentQuarter	1774915200
@@ -108,38 +108,38 @@ netIncomeToCommon	57512001536
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	836998981640
 numberOfAnalystOpinions	21
-open	314.29
+open	313.51
 operatingCashflow	-107704000512
 operatingMargins	0.43741
 overallRisk	3
 payoutRatio	0.2824
 pegRatio	1.65
 phone	212 270 6000
-postMarketChange	-1.269989
-postMarketChangePercent	-0.40656564
-postMarketPrice	311.1
-postMarketTime	1780703999
-previousClose	310.89
-priceEpsCurrentYear	14.002311
+postMarketChange	-1.5
+postMarketChangePercent	-0.47969297
+postMarketPrice	311.2
+postMarketTime	1781047332
+previousClose	311.11
+priceEpsCurrentYear	14.017104
 priceHint	2
-priceToBook	2.433186
-priceToSalesTrailing12Months	4.8225613
+priceToBook	2.4357567
+priceToSalesTrailing12Months	4.8276563
 profitMargins	0.33936
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.16667
 region	US
-regularMarketChange	1.47998
-regularMarketChangePercent	0.476046
-regularMarketDayHigh	315.0
-regularMarketDayLow	309.6
-regularMarketDayRange	309.6 - 315.0
-regularMarketOpen	314.29
-regularMarketPreviousClose	310.89
-regularMarketPrice	312.37
-regularMarketTime	1780689603
-regularMarketVolume	8845777
+regularMarketChange	1.59003
+regularMarketChangePercent	0.511082
+regularMarketDayHigh	316.4
+regularMarketDayLow	309.01
+regularMarketDayRange	309.01 - 316.4
+regularMarketOpen	313.51
+regularMarketPreviousClose	311.11
+regularMarketPrice	312.7
+regularMarketTime	1781035202
+regularMarketVolume	5991260
 returnOnAssets	0.01272
 returnOnEquity	0.16465001
 revenueGrowth	0.127
@@ -169,15 +169,15 @@ totalDebt	1321104965632
 totalRevenue	173559005184
 tradeable	False
 trailingAnnualDividendRate	5.9
-trailingAnnualDividendYield	0.018977772
-trailingEps	20.9
-trailingPE	14.945933
+trailingAnnualDividendYield	0.018964354
+trailingEps	20.88
+trailingPE	14.976055
 trailingPegRatio	1.6582
 triggerable	True
-twoHundredDayAverage	305.88635
-twoHundredDayAverageChange	6.4836426
-twoHundredDayAverageChangePercent	0.021196246
+twoHundredDayAverage	306.18604
+twoHundredDayAverageChange	6.513977
+twoHundredDayAverageChangePercent	0.021274572
 typeDisp	Equity
-volume	8845777
+volume	5991260
 website	https://www.jpmorganchase.com
 zip	10017

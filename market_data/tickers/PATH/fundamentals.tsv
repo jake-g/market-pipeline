@@ -1,23 +1,23 @@
 Metric	Value
-52WeekChange	-0.119909525
-SandP52WeekChange	0.27181315
+52WeekChange	-0.1550681
+SandP52WeekChange	0.22635591
 address1	One Vanderbilt Avenue
 address2	60th Floor
 allTimeHigh	90.0
 allTimeLow	9.2
-ask	0.0
-askSize	5400
+ask	10.74
+askSize	8300
 auditRisk	5
 averageAnalystRating	2.8 - Hold
-averageDailyVolume10Day	51468760
-averageDailyVolume3Month	34369066
-averageVolume	34369066
-averageVolume10days	51468760
+averageDailyVolume10Day	52316370
+averageDailyVolume3Month	34290352
+averageVolume	34290352
+averageVolume10days	52316370
 beta	0.968
-bid	0.0
-bidSize	3100
+bid	10.76
+bidSize	24100
 boardRisk	8
-bookValue	3.635
+bookValue	3.656
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Daniel Solomon Dines', 'age': 53, 'title': 'Co-Founder, CEO, & Executive Chairman of the Board', 'yearBorn': 1972, 'fiscalYear': 2026, 'totalPay': 1347430, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ashim  Gupta', 'age': 46, 'title': 'CFO & COO', 'yearBorn': 1979, 'fiscalYear': 2026, 'totalPay': 1153805, 'exercisedValue': 2407421, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brad C. Brubaker J.D.', 'age': 61, 'title': 'General Counsel, Chief Legal Officer & Secretary', 'yearBorn': 1964, 'fiscalYear': 2026, 'totalPay': 804417, 'exercisedValue': 0, 'unexercisedValue': 2872030}, {'maxAge': 1, 'name': 'Hitesh  Ramani', 'title': 'Deputy CFO & Chief Accounting Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Raghavendra  Malpani', 'age': 47, 'title': 'Chief Product & Technology Officer', 'yearBorn': 1978, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Allise  Furlani', 'title': 'Senior Director of Investor Relations', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Atalla', 'title': 'Chief Marketing Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Agi  Garaba', 'title': 'Chief People Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Andreea  Baciu', 'title': 'Chief Culture Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brandon  Deer', 'title': 'Chief Strategy Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1798675200
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	11.24
+currentPrice	10.75
 currentRatio	2.307
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	11.94
-dayLow	11.045
+dayHigh	11.2397
+dayLow	10.3
 debtToEquity	4.362
 displayName	UiPath
 earningsCallTimestampEnd	1780002000
@@ -43,9 +43,9 @@ earningsTimestampEnd	1779998400
 earningsTimestampStart	1779998400
 ebitda	123626000
 ebitdaMargins	0.073920004
-enterpriseToEbitda	37.204
-enterpriseToRevenue	2.75
-enterpriseValue	4599430656
+enterpriseToEbitda	36.911
+enterpriseToRevenue	2.729
+enterpriseValue	4563162624
 epsCurrentYear	0.78515
 epsForward	0.90702
 epsTrailingTwelveMonths	0.6
@@ -55,22 +55,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	10.7278
-fiftyDayAverageChange	0.5121994
-fiftyDayAverageChangePercent	0.047745053
-fiftyTwoWeekChangePercent	-11.9909525
+fiftyDayAverage	10.7486
+fiftyDayAverageChange	0.0013999939
+fiftyDayAverageChangePercent	0.00013024895
+fiftyTwoWeekChangePercent	-15.50681
 fiftyTwoWeekHigh	19.84
-fiftyTwoWeekHighChange	-8.6
-fiftyTwoWeekHighChangePercent	-0.43346775
+fiftyTwoWeekHighChange	-9.09
+fiftyTwoWeekHighChangePercent	-0.45816532
 fiftyTwoWeekLow	9.2
-fiftyTwoWeekLowChange	2.04
-fiftyTwoWeekLowChangePercent	0.22173913
+fiftyTwoWeekLowChange	1.5500002
+fiftyTwoWeekLowChangePercent	0.16847828
 fiftyTwoWeekRange	9.2 - 19.84
 financialCurrency	USD
 firstTradeDateMilliseconds	1619011800000
 floatShares	410195815
 forwardEps	0.90702
-forwardPE	12.39223
+forwardPE	11.851999
 freeCashflow	511553632
 fullExchangeName	NYSE
 fullTimeEmployees	3981
@@ -80,7 +80,7 @@ grossMargins	0.8305
 grossProfits	1388871936
 hasPrePostMarketData	True
 heldPercentInsiders	0.095410004
-heldPercentInstitutions	0.82288
+heldPercentInstitutions	0.82346
 impliedSharesOutstanding	518120266
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -92,33 +92,33 @@ lastFiscalYearEnd	1769817600
 longBusinessSummary	UiPath, Inc. provides an automation platform that offers a range of robotic process automation (RPA) solutions primarily in the United States, Romania, the United Kingdom, the Netherlands, and internationally. It offers the UiPath platform, an integrated enterprise software platform that enables AI agents, robots, people, and models to work together in coordinated workflows. The company's UiPath platform includes the UiPath Maestro process orchestration and process intelligence; UiPath agent builder; RPA and API automation; UiPath intelligent xtraction and processing; UiPath test cloud for testing and quality assurance; UiPath packaged and prebuilt agentic solutions; and centralized governance capabilities that apply across automations, AI agents, and manual tasks. It serves the financial services, healthcare, manufacturing, retail, and public sectors. The company was founded in 2005 and is headquartered in New York, New York.
 longName	UiPath, Inc.
 market	us_market
-marketCap	5823671808
-marketState	CLOSED
+marketCap	5569792512
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_343303132
 mostRecentQuarter	1777507200
-nameChangeDate	2026-06-06
+nameChangeDate	2026-06-09
 netIncomeToCommon	327409984
 nextFiscalYearEnd	1801353600
 nonDilutedMarketCap	5823671789
 numberOfAnalystOpinions	16
-open	11.64
+open	11.0
 operatingCashflow	384134016
 operatingMargins	0.07274
 overallRisk	10
 payoutRatio	0.0
 pegRatio	0.4
 phone	844 432 0455
-postMarketChange	-0.12679958
-postMarketChangePercent	-1.1281102
-postMarketPrice	11.1132
-postMarketTime	1780703993
+postMarketChange	-0.08829975
+postMarketChangePercent	-0.821393
+postMarketPrice	10.6617
+postMarketTime	1781047435
 prevName	UiPath Inc.
-previousClose	11.67
-priceEpsCurrentYear	14.315736
+previousClose	11.17
+priceEpsCurrentYear	13.691651
 priceHint	2
-priceToBook	3.0921595
-priceToSalesTrailing12Months	3.4823701
+priceToBook	2.940372
+priceToSalesTrailing12Months	3.3305583
 profitMargins	0.19578
 quickRatio	2.065
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.8
 region	US
-regularMarketChange	-0.43
-regularMarketChangePercent	-3.68466
-regularMarketDayHigh	11.94
-regularMarketDayLow	11.045
-regularMarketDayRange	11.045 - 11.94
-regularMarketOpen	11.64
-regularMarketPreviousClose	11.67
-regularMarketPrice	11.24
-regularMarketTime	1780689602
-regularMarketVolume	34496212
+regularMarketChange	-0.42
+regularMarketChangePercent	-3.76007
+regularMarketDayHigh	11.2397
+regularMarketDayLow	10.3
+regularMarketDayRange	10.3 - 11.2397
+regularMarketOpen	11.0
+regularMarketPreviousClose	11.17
+regularMarketPrice	10.75
+regularMarketTime	1781035202
+regularMarketVolume	51792788
 returnOnAssets	0.02365
 returnOnEquity	0.18181999
 revenueGrowth	0.173
@@ -167,13 +167,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.6
-trailingPE	18.733332
-trailingPegRatio	0.4194
+trailingPE	17.916666
+trailingPegRatio	0.404
 triggerable	True
-twoHundredDayAverage	13.01945
-twoHundredDayAverageChange	-1.7794504
-twoHundredDayAverageChangePercent	-0.13667631
+twoHundredDayAverage	13.02425
+twoHundredDayAverageChange	-2.27425
+twoHundredDayAverageChangePercent	-0.17461658
 typeDisp	Equity
-volume	34496212
+volume	51792788
 website	https://www.uipath.com
 zip	10017

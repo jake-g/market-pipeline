@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.2633294
-SandP52WeekChange	0.27181315
+52WeekChange	0.22204626
+SandP52WeekChange	0.22635591
 address1	85 New Hampshire Avenue
 address2	Suite 150
 allTimeHigh	134.09
 allTimeLow	2.510212
-ask	0.0
-askSize	300
+ask	127.5
+askSize	100
 auditRisk	1
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	1314690
-averageDailyVolume3Month	1502261
-averageVolume	1502261
-averageVolume10days	1314690
+averageDailyVolume10Day	1429080
+averageDailyVolume3Month	1513334
+averageVolume	1513334
+averageVolume10days	1429080
 beta	1.218
-bid	0.0
-bidSize	200
+bid	120.8
+bidSize	400
 boardRisk	3
 bookValue	-4.084
 city	Portsmouth
@@ -26,16 +26,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	124.66
+currentPrice	126.14
 currentRatio	0.769
 customPriceAlertConfidence	HIGH
 dateShortInterest	1778803200
-dayHigh	129.3204
-dayLow	124.18
-discount_to_intrinsic_value	-136.36
+dayHigh	126.16
+dayLow	122.39
+discount_to_intrinsic_value	-145.57
 dividendDate	1783036800
 dividendRate	3.46
-dividendYield	2.77
+dividendYield	2.8
 earningsCallTimestampEnd	1777552200
 earningsCallTimestampStart	1777552200
 earningsGrowth	8.6
@@ -45,12 +45,12 @@ earningsTimestampEnd	1777552200
 earningsTimestampStart	1777552200
 ebitda	2449746944
 ebitdaMargins	0.33811
-enterpriseToEbitda	23.225
-enterpriseToRevenue	7.853
-enterpriseValue	56895705088
+enterpriseToEbitda	23.084
+enterpriseToRevenue	7.805
+enterpriseValue	56550576128
 epsCurrentYear	2.43322
 epsForward	2.67371
-epsTrailingTwelveMonths	0.92
+epsTrailingTwelveMonths	0.91
 eps_normalized_growth	14.513534970082569
 esgPopulated	False
 exDividendDate	1781481600
@@ -59,34 +59,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	117.9406
-fiftyDayAverageChange	6.719406
-fiftyDayAverageChangePercent	0.0569728
-fiftyTwoWeekChangePercent	26.33294
+fiftyDayAverage	119.4798
+fiftyDayAverageChange	6.660202
+fiftyDayAverageChangePercent	0.055743333
+fiftyTwoWeekChangePercent	22.204626
 fiftyTwoWeekHigh	134.09
-fiftyTwoWeekHighChange	-9.429993
-fiftyTwoWeekHighChangePercent	-0.07032585
+fiftyTwoWeekHighChange	-7.949997
+fiftyTwoWeekHighChangePercent	-0.059288517
 fiftyTwoWeekLow	77.77
-fiftyTwoWeekLowChange	46.890007
-fiftyTwoWeekLowChangePercent	0.60293186
+fiftyTwoWeekLowChange	48.370003
+fiftyTwoWeekLowChangePercent	0.62196225
 fiftyTwoWeekRange	77.77 - 134.09
 financialCurrency	USD
 firstTradeDateMilliseconds	823185000000
 fiveYearAvgDividendYield	3.91
 floatShares	294689271
 forwardEps	2.67371
-forwardPE	46.62435
+forwardPE	47.17789
 freeCashflow	-499464512
 fullExchangeName	NYSE
 fullTimeEmployees	29400
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1780531200
-graham_intrinsic_value	52.74
+graham_intrinsic_value	51.37
 grossMargins	0.55018
 grossProfits	3986277888
 hasPrePostMarketData	True
-heldPercentInsiders	0.00903
-heldPercentInstitutions	0.88052005
+heldPercentInsiders	0.00898
+heldPercentInstitutions	0.88064003
 impliedSharesOutstanding	297524681
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -101,8 +101,8 @@ lastSplitFactor	1082:1000
 longBusinessSummary	Iron Mountain Incorporated is a global leader in information management services, and is trusted by more than 240,000 customers in 61 countries. It also includes approximately 95% of the Fortune 1000, to help unlock value and intelligence from their assets through services that transcend the physical and digital worlds. Their broad range of solutions address their information management, digital transformation, information security, data center and asset lifecycle management (ALM) needs. Their longstanding commitment to safety, security, sustainability and innovation in support of our customers underpins everything we do. We currently serve customers across an array of market verticals commercial, legal, financial, healthcare, technology, life sciences, energy, business services, entertainment and government organizations. They are listed on the New York Stock Exchange (the NYSE) and are a constituent of the Standard & Poor's 500 Index, the Morgan Stanley Capital International (MSCI) REIT index and the FTSE EPRA Nareit Global Real Estate Index. As of December 31, 2025, we were number 567 on the Fortune 1000. We have been organized and have operated as a REIT beginning with our taxable year ended December 31, 2014. The firm was founded and incorporated in 1951 and is based in Portsmouth, United States.
 longName	Iron Mountain Incorporated
 market	us_market
-marketCap	37089427456
-marketState	CLOSED
+marketCap	37529763840
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_30292
 mostRecentQuarter	1774915200
@@ -110,22 +110,22 @@ netIncomeToCommon	272304000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	37089426733
 numberOfAnalystOpinions	11
-open	129.04
+open	125.27
 operatingCashflow	1481250048
 operatingMargins	0.20955999
 overallRisk	2
 payoutRatio	3.5848
 pegRatio	2.7
 phone	617 535 4766
-postMarketChange	0.33999634
-postMarketChangePercent	0.2727389
-postMarketPrice	125.0
-postMarketTime	1780703034
-previousClose	130.25
-priceEpsCurrentYear	51.232525
+postMarketChange	-1.2600021
+postMarketChangePercent	-0.99889183
+postMarketPrice	124.88
+postMarketTime	1781045494
+previousClose	123.5
+priceEpsCurrentYear	51.84077
 priceHint	2
-priceToBook	-30.523996
-priceToSalesTrailing12Months	5.1190615
+priceToBook	-30.886385
+priceToSalesTrailing12Months	5.1798363
 profitMargins	0.03758
 quickRatio	0.63
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.72727
 region	US
-regularMarketChange	-5.59
-regularMarketChangePercent	-4.29174
-regularMarketDayHigh	129.3204
-regularMarketDayLow	124.18
-regularMarketDayRange	124.18 - 129.3204
-regularMarketOpen	129.04
-regularMarketPreviousClose	130.25
-regularMarketPrice	124.66
-regularMarketTime	1780689602
-regularMarketVolume	1706323
+regularMarketChange	2.64
+regularMarketChangePercent	2.13765
+regularMarketDayHigh	126.16
+regularMarketDayLow	122.39
+regularMarketDayRange	122.39 - 126.16
+regularMarketOpen	125.27
+regularMarketPreviousClose	123.5
+regularMarketPrice	126.14
+regularMarketTime	1781035202
+regularMarketVolume	997936
 returnOnAssets	0.04557
 returnOnEquity	2.251
 revenueGrowth	0.216
@@ -172,15 +172,15 @@ totalDebt	19716626432
 totalRevenue	7245357056
 tradeable	False
 trailingAnnualDividendRate	3.298
-trailingAnnualDividendYield	0.025320537
-trailingEps	0.92
-trailingPE	135.5
+trailingAnnualDividendYield	0.026704455
+trailingEps	0.91
+trailingPE	138.61539
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	101.6497
-twoHundredDayAverageChange	23.010307
-twoHundredDayAverageChangePercent	0.22636868
+twoHundredDayAverage	102.1738
+twoHundredDayAverageChange	23.966202
+twoHundredDayAverageChangePercent	0.2345631
 typeDisp	Equity
-volume	1706323
+volume	997936
 website	https://www.ironmountain.com
 zip	03801
