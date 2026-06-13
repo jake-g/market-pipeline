@@ -81,13 +81,13 @@ SECTORS = {
         "NVDA", "AMD", "INTC", "TSM", "ASML", "MU", "MPWR", "AVGO", "SMH",
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
-        "STM", "TTDKY", "TTMI", "SOXX", "XSD"
+        "STM", "TTDKY", "TTMI", "SOXX", "XSD", "MUZ"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
         "CRM", "ADBE", "CSCO", "NOW", "RDDT", "IONQ", "PANW", "CRWD", "NET",
         "DELL", "HPE", "SMCI", "TTD", "VGT", "APP", "MNDY", "DDOG", "FTNT", "ZS",
-        "NBIS"
+        "NBIS", "CRWV"
     ],
     "Auto & Robot": [
         "TSLA", "TM", "F", "ACHR", "JOBY", "RIVN", "UBER", "SYM", "PATH",
@@ -100,11 +100,11 @@ SECTORS = {
         "NLR", "ENPH", "FLNC", "KULR"
     ],
     "Aerospace & Defense": [
-        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT", "RKLB"
+        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT", "RKLB", "SPCX"
     ],
     "Crypto & Minerals": [
         "BTC-USD", "ETH-USD", "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM",
-        "GOLD", "PAAS", "FCX", "SCCO", "VALE", "RIO", "BHP", "BMNR", "BITF",
+        "GOLD", "PAAS", "FCX", "SCCO", "VALE", "RIO", "BHP", "BMNR",
         "HUT", "CAT", "IBIT", "GLDM", "SOL-USD", "ALB", "SQM", "CF", "MEOH"
     ],
     "Data Center & Infra": [

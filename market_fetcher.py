@@ -190,7 +190,7 @@ SKIP_EARNINGS: List[str] = [
     "BDRY", "COPX", "XLU",
 
     # ADRs / Foreign Listings (Irregular Financials)
-    "ASML", "BHP", "BITF", "GOLD", "HUT", "NEM", "RIO", "TSM",
+    "ASML", "BHP", "GOLD", "HUT", "NEM", "RIO", "TSM",
 
     # Corporate Exclusions (Missing/Empty Financials)
     "AWX", "BAH", "BB", "NUE", "STRL", "VSAT"
@@ -2215,6 +2215,9 @@ def main():
                       type=int,
                       default=config.DEFAULT_NEWS_LIMIT,
                       help="Max news items per ticker")
+  parser.add_argument("--tickers",
+                      type=str,
+                      help="Comma-separated list of specific tickers to fetch")
   parser.add_argument(
       "--insider-limit",
       type=int,
@@ -2223,13 +2226,21 @@ def main():
   args = parser.parse_args()
 
   # Apply Limits
-  if args.limit_tickers:
+  if args.tickers:
+    sorted_tickers = [
+        t.strip().upper() for t in args.tickers.split(",") if t.strip()
+    ]
+    print(f"🎯 FETCHING ONLY SPECIFIC TICKERS: {sorted_tickers}")
+    # Skip macro updates when targeted list is requested
+    config.NEWS_TOPICS = []
+  elif args.limit_tickers:
     print(f"⚠️ LIMITING TICKERS: {args.limit_tickers} (Top alphabetically)")
     sorted_tickers = sorted_tickers[:args.limit_tickers]
 
   # Pipeline
   # 1. Macro
-  fetcher.update_macro()
+  if not args.tickers:
+    fetcher.update_macro()
 
   # 2. Prices
   fetcher.update_prices(sorted_tickers, start_date=config.DEFAULT_START_DATE)
