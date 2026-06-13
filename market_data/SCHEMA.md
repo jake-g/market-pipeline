@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.12687838 |
+| Value | str | 0.13866103 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-09 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Is Amazon.com (AMZN) One of the Best NASDAQ Sto... |
-| Summary | str | Amazon.com, Inc. (NASDAQ:AMZN) is one of the be... |
-| URL | str | https://finance.yahoo.com/markets/stocks/articl... |
+| Date | str | 2026-06-13 |
+| Source | str | Google |
+| Sentiment | float64 | 0.3 |
+| Headline | str | Shop Amazon’s Ultimate Summer Sale Early With t... |
+| Summary | str | Meta Platforms, Inc. (NASDAQ:META) was among th... |
+| URL | str | https://news.google.com/rss/articles/CBMimwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -75,10 +75,10 @@ This report documents the file structures and column data types used in `market_
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 430.372 |
-| AIR_PPI | float64 | 194.099 |
-| TRUCK_PPI | float64 | 210.086 |
-| WAREHOUSE_PPI | float64 | 179.064 |
+| FREIGHT_PPI | float64 | 466.381 |
+| AIR_PPI | float64 | 198.479 |
+| TRUCK_PPI | float64 | 216.119 |
+| WAREHOUSE_PPI | float64 | 169.441 |
 | MFG_CONST | float64 | 185725.0 |
 | TECH_PULSE | float64 | 94.5093 |
 | CHINA_IMPORTS | float64 | 19789.1639 |
@@ -87,7 +87,7 @@ This report documents the file structures and column data types used in `market_
 | UNRATE | float64 | 4.3 |
 | HOUSING_STARTS | float64 | 1465.0 |
 | RECESSION_PROB | float64 | 0.44 |
-| CPI | float64 | 332.407 |
+| CPI | float64 | 333.979 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.15 |
-| US10Y | float64 | 4.56 |
+| US02Y | float64 | 4.05 |
+| US10Y | float64 | 4.45 |

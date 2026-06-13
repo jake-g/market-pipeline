@@ -18,7 +18,7 @@ The trading session of **June 2, 2026**, represents a pivotal "Architectural Inf
 - **Key Catalyst:** Broad market indices, specifically the **Nasdaq Composite** and **Russell 2000**, reached new heights as President Trump signaled that U.S.-led ceasefire negotiations with Iran are "proceeding nicely" [12, 13].
 - **Why Today:** Easing Middle East tensions have allowed for a "rotation of relief," moving capital out of defensive nuclear energy proxies like **Constellation Energy (CEG)** and back into growth-oriented tech and small-cap "undiscovered gems" [13-15].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 We anticipate a "Photonics Supercycle" to dominate hardware alpha for the remainder of Q2. As inter-rack optics move from a secondary component to a primary scaling requirement, companies like **COHR** and **GLW** will likely see continued institutional accumulation. However, the market remains vulnerable to a "liquidity siphon" ahead of the June 12 **SpaceX (SPCX)** IPO, which could temporarily drain capital from legacy mega-cap tech as investors rebalance for the year’s largest offering [16].
 
 ## Quantitative Market Action & Specific Equities

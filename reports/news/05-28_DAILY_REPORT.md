@@ -13,7 +13,7 @@ Sentiment on May 28 was significantly buoyed by the **"Hormuz Hope" narrative**,
 ### M&A Resurgence and the "Stock-Picker’s" Regime
 As the "easy money" of the speculative training phase fades, 2026 has transitioned into a **disciplined stock-picker's market** focused on corporate execution and tangible productivity gains [9, 10]. A primary catalyst for today’s optimism is the forecast of record-breaking global M&A activity for the remainder of 2026, driven by rising corporate deals and private equity exits as financial conditions ease [11]. Investors are shifting focus to "HALO" stocks (Hard Assets, Low Obsolescence) and mid-cap industrial winners that were previously overlooked during the mega-cap tech dominance of 2025 [12-14].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 We anticipate the current rally will maintain momentum as major indices digest the "Peace Dividend" and broader market leadership continues to expand beyond the "Magnificent Seven" [15, 16]. However, the 2026 market remains a "theatre of extraordinary resilience" where volatility is the cost of admission; any fracture in the fragile Middle East truce or a "valuation hangover" in the semiconductor complex could trigger a sharp 10–15% technical consolidation as indices normalize from these record peaks [4, 5, 17].
 
 ## Quantitative Market Action & Specific Equities

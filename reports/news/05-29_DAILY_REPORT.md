@@ -13,7 +13,7 @@ Today marks a significant pivot in the narrative surrounding enterprise software
 ### The "Peace Dividend" and Record-Breaking Market Breadth
 U.S. equity markets achieved a historic milestone today, with all major indices—the Dow, S&P 500, Nasdaq, and Russell 2000—hitting fresh all-time highs [7, 8]. The **Dow Jones Industrial Average notably closed above 51,000**, buoyed by growing optimism surrounding a potential U.S.-Iran peace deal [8]. This macro de-risking is providing a stable floor for the market, allowing investors to rotate out of "war-inflated" energy hedges and back into high-growth technology and global M&A plays [8-10].
 
-**Expert Forward Projection:** 
+**Expert Forward Projection:**
 Near-term alpha will likely rotate away from pure-play semiconductor manufacturers toward server integrators and "undersold" enterprise software [2, 5, 8]. As the "Peace Dividend" stabilizes the macro environment, expect a surge in global M&A activity to act as the next major catalyst for late Q2 2026 [10].
 
 ## Quantitative Market Action & Specific Equities

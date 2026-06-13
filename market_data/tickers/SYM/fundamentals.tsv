@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.57031524
-SandP52WeekChange	0.22635591
+52WeekChange	0.5312835
+SandP52WeekChange	0.23713183
 address1	200 Research Drive
 allTimeHigh	87.88
 allTimeLow	8.75
 ask	50.0
 askSize	1
 averageAnalystRating	2.3 - Buy
-averageDailyVolume10Day	3383190
-averageDailyVolume3Month	1841119
-averageVolume	1841119
-averageVolume10days	3383190
+averageDailyVolume10Day	2599000
+averageDailyVolume3Month	1879320
+averageVolume	1879320
+averageVolume10days	2599000
 beta	1.927
-bid	32.29
-bidSize	1
-bookValue	5.387
+bid	30.84
+bidSize	2
+bookValue	5.402
 city	Wilmington
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Richard B. Cohen', 'age': 72, 'title': 'Chairman of the Board, President & CEO', 'yearBorn': 1953, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Izilda P. Martins', 'age': 54, 'title': 'CFO & Treasurer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 907127, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. James  Kuffner', 'age': 54, 'title': 'Chief Technology Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 2285583, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Dunn', 'age': 51, 'title': 'Chief Customer officer', 'yearBorn': 1974, 'fiscalYear': 2025, 'totalPay': 965627, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Walter  Odisho', 'age': 61, 'title': 'Chief Manufacturing & Supply Chain Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 790157, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Charles Lowell Anderson', 'title': 'Vice President of Investor Relations & Corporate Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Corey C. DuFresne', 'age': 53, 'title': 'Chief Legal Officer & Secretary', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 847722, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Miriam  Ort', 'age': 43, 'title': 'Chief Human Resources Officer', 'yearBorn': 1982, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William  Boyd III', 'age': 58, 'title': 'Chief Strategy Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 760492, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Pete  Opalacz', 'title': 'Senior Vice President of Customer Operations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -22,12 +22,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	42.52
+currentPrice	41.63
 currentRatio	1.446
 customPriceAlertConfidence	HIGH
-dateShortInterest	1778803200
-dayHigh	45.34
-dayLow	40.6999
+dateShortInterest	1780012800
+dayHigh	43.265
+dayLow	41.56
 debtToEquity	2.717
 displayName	Symbotic
 earningsCallTimestampEnd	1778101200
@@ -37,10 +37,10 @@ earningsTimestampEnd	1785182400
 earningsTimestampStart	1785182400
 ebitda	22643000
 ebitdaMargins	0.009
-enterpriseToEbitda	176.632
-enterpriseToRevenue	1.589
-enterpriseValue	3999470080
-epsCurrentYear	0.51627
+enterpriseToEbitda	168.204
+enterpriseToRevenue	1.513
+enterpriseValue	3808647168
+epsCurrentYear	0.51363
 epsForward	0.71829
 epsTrailingTwelveMonths	-0.08
 esgPopulated	False
@@ -49,22 +49,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	53.8169
-fiftyDayAverageChange	-11.296898
-fiftyDayAverageChangePercent	-0.20991358
-fiftyTwoWeekChangePercent	57.031525
+fiftyDayAverage	53.3281
+fiftyDayAverageChange	-11.698097
+fiftyDayAverageChangePercent	-0.21936086
+fiftyTwoWeekChangePercent	53.12835
 fiftyTwoWeekHigh	87.88
-fiftyTwoWeekHighChange	-45.359997
-fiftyTwoWeekHighChangePercent	-0.5161584
+fiftyTwoWeekHighChange	-46.249996
+fiftyTwoWeekHighChangePercent	-0.5262858
 fiftyTwoWeekLow	27.26
-fiftyTwoWeekLowChange	15.26
-fiftyTwoWeekLowChangePercent	0.55979455
+fiftyTwoWeekLowChange	14.370001
+fiftyTwoWeekLowChangePercent	0.52714604
 fiftyTwoWeekRange	27.26 - 87.88
 financialCurrency	USD
 firstTradeDateMilliseconds	1615300200000
 floatShares	111452149
 forwardEps	0.71829
-forwardPE	59.196148
+forwardPE	57.957096
 freeCashflow	331211488
 fullExchangeName	NasdaqGM
 fullTimeEmployees	2000
@@ -73,7 +73,7 @@ grossMargins	0.2041
 grossProfits	513719008
 hasPrePostMarketData	True
 heldPercentInsiders	0.13846
-heldPercentInstitutions	0.73829
+heldPercentInstitutions	0.73843
 impliedSharesOutstanding	603633815
 industry	Specialty Industrial Machinery
 industryDisp	Specialty Industrial Machinery
@@ -84,47 +84,47 @@ lastFiscalYearEnd	1758931200
 longBusinessSummary	Symbotic Inc., an automation technology company, develops technologies to enhance operating efficiencies in modern warehouses. The company automates the processing of pallets, cases, and individual items in warehouses. Its systems enhance operations at the front end of the supply chain. The company is headquartered in Wilmington, Massachusetts.
 longName	Symbotic Inc.
 market	us_market
-marketCap	25666508800
+marketCap	25129275392
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_247089947
 mostRecentQuarter	1774656000
 netIncomeToCommon	-7387000
 nextFiscalYearEnd	1790467200
-nonDilutedMarketCap	6031282635
-numberOfAnalystOpinions	17
-open	44.88
+nonDilutedMarketCap	5448636053
+numberOfAnalystOpinions	16
+open	43.09
 operatingCashflow	845217984
 operatingMargins	0.010880001
 payoutRatio	0.0
 pegRatio	2.88
 phone	978 284 2800
-postMarketChange	0.02999878
-postMarketChangePercent	0.07055216
-postMarketPrice	42.55
-postMarketTime	1781047567
-previousClose	44.33
-priceEpsCurrentYear	82.36001
+postMarketChange	0.19400024
+postMarketChangePercent	0.46601066
+postMarketPrice	41.824
+postMarketTime	1781307822
+previousClose	42.83
+priceEpsCurrentYear	81.05057
 priceHint	2
-priceToBook	7.893076
-priceToSalesTrailing12Months	10.197088
+priceToBook	7.706405
+priceToSalesTrailing12Months	9.98365
 profitMargins	-0.0029300002
 quickRatio	1.284
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	2.3
+recommendationMean	2.26316
 region	US
-regularMarketChange	-1.8100014
-regularMarketChangePercent	-4.0830164
-regularMarketDayHigh	45.34
-regularMarketDayLow	40.6999
-regularMarketDayRange	40.6999 - 45.34
-regularMarketOpen	44.88
-regularMarketPreviousClose	44.33
-regularMarketPrice	42.52
-regularMarketTime	1781035200
-regularMarketVolume	2944137
+regularMarketChange	-1.2000008
+regularMarketChangePercent	-2.8017762
+regularMarketDayHigh	43.265
+regularMarketDayLow	41.56
+regularMarketDayRange	41.56 - 43.265
+regularMarketOpen	43.09
+regularMarketPreviousClose	42.83
+regularMarketPrice	41.63
+regularMarketTime	1781294400
+regularMarketVolume	1688849
 returnOnAssets	-0.00648
 returnOnEquity	-0.05732
 revenueGrowth	0.231
@@ -133,19 +133,19 @@ sector	Industrials
 sectorDisp	Industrials
 sectorKey	industrials
 sharesOutstanding	127215411
-sharesPercentSharesOut	0.114300005
-sharesShort	14534360
-sharesShortPreviousMonthDate	1776211200
-sharesShortPriorMonth	14165417
+sharesPercentSharesOut	0.1162
+sharesShort	14782498
+sharesShortPreviousMonthDate	1777507200
+sharesShortPriorMonth	14432305
 shortName	Symbotic Inc.
-shortPercentOfFloat	0.2746
-shortRatio	8.18
+shortPercentOfFloat	0.2793
+shortRatio	6.0
 sourceInterval	15
 state	MA
 symbol	SYM
 targetHighPrice	84.0
 targetLowPrice	44.0
-targetMeanPrice	64.86941
+targetMeanPrice	65.67375
 targetMedianPrice	70.0
 totalCash	2009435008
 totalCashPerShare	15.796
@@ -155,12 +155,12 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	-0.08
-trailingPegRatio	3.0987
+trailingPegRatio	2.8771
 triggerable	True
-twoHundredDayAverage	58.263626
-twoHundredDayAverageChange	-15.743626
-twoHundredDayAverageChangePercent	-0.27021363
+twoHundredDayAverage	58.217224
+twoHundredDayAverageChange	-16.587223
+twoHundredDayAverageChangePercent	-0.2849195
 typeDisp	Equity
-volume	2944137
+volume	1688849
 website	https://www.symbotic.com
 zip	01887
