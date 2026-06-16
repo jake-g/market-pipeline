@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.13866103 |
+| Value | str | 0.10388708 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-13 |
+| Date | str | 2026-06-15 |
 | Source | str | Google |
-| Sentiment | float64 | 0.3 |
-| Headline | str | Shop Amazon’s Ultimate Summer Sale Early With t... |
-| Summary | str | Meta Platforms, Inc. (NASDAQ:META) was among th... |
-| URL | str | https://news.google.com/rss/articles/CBMimwFBVV... |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Best TV deal: Save $220 on Amazon Fire TV 55-in... |
+| Summary | str | The stock market was overlooking Anthropic’s la... |
+| URL | str | https://news.google.com/rss/articles/CBMiakFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -80,7 +80,7 @@ This report documents the file structures and column data types used in `market_
 | TRUCK_PPI | float64 | 216.119 |
 | WAREHOUSE_PPI | float64 | 169.441 |
 | MFG_CONST | float64 | 185725.0 |
-| TECH_PULSE | float64 | 94.5093 |
+| TECH_PULSE | float64 | 94.0431 |
 | CHINA_IMPORTS | float64 | 19789.1639 |
 | TARIFFS | float64 | 346.15 |
 | GDP | float64 | 31819.464 |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.44 |
 | CPI | float64 | 333.979 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.05 |
-| US10Y | float64 | 4.45 |
+| US02Y | float64 | 4.09 |
+| US10Y | float64 | 4.48 |

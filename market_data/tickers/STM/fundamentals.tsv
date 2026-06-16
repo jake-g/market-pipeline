@@ -1,39 +1,39 @@
 Metric	Value
-52WeekChange	1.6771762
-SandP52WeekChange	0.23713183
+52WeekChange	1.6062036
+SandP52WeekChange	0.23177934
 address1	WTC Schiphol Airport
 address2	Schiphol Boulevard 265
 allTimeHigh	81.42
 allTimeLow	3.604167
-ask	77.43
-askSize	1000
+ask	79.33
+askSize	1300
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	16129860
-averageDailyVolume3Month	11682131
-averageVolume	11682131
-averageVolume10days	16129860
+averageDailyVolume10Day	16379690
+averageDailyVolume3Month	11742595
+averageVolume	11742595
+averageVolume10days	16379690
 beta	1.565
-bid	77.36
+bid	79.27
 bidSize	200
 bookValue	19.991
 city	Schiphol
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Jean-Marc  Chery', 'age': 65, 'title': 'Chairman of the Managing Board, President & CEO', 'yearBorn': 1960, 'fiscalYear': 2025, 'totalPay': 3333413, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Lorenzo  Grandi', 'age': 64, 'title': 'President & CFO', 'yearBorn': 1961, 'fiscalYear': 2025, 'totalPay': 2807825, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bertrand  Stoltz', 'age': 55, 'title': 'Executive Vice President of Corporate Finance & Asia Public Affairs', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Fabio  Gualandris', 'age': 66, 'title': 'President of Quality, Manufacturing & Technology', 'yearBorn': 1959, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Celine  Berthier', 'title': 'Group VP & Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Philippe  Dereeper', 'title': 'Chief Ethics & Compliance Officer and Executive Secretary', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Steven  Rose J.D.', 'age': 63, 'title': 'President of Legal Counsel & Public Affairs', 'yearBorn': 1962, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Claudia  Levo', 'age': 60, 'title': 'Executive VP of Integrated Marketing & Communications', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jerome  Roux', 'age': 60, 'title': 'President of Sales & Marketing', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jerome  Ramel', 'age': 52, 'title': 'Executive VP of Corporate Development & Integrated External Communication', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
-corporateActions	[{'header': 'Dividend', 'message': 'STM announced a cash dividend of $0.09 with an ex-date of Jun. 23, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1782187200000, 'amount': '0.09'}}]
+corporateActions	[]
 country	Netherlands
 cryptoTradeable	False
 currency	USD
-currentPrice	77.3
+currentPrice	78.95
 currentRatio	3.313
 customPriceAlertConfidence	HIGH
 dateShortInterest	1780012800
-dayHigh	78.755
-dayLow	76.311
+dayHigh	80.43
+dayLow	78.64
 debtToEquity	15.316
 displayName	STMicroelectronics
 dividendDate	1805760000
 dividendRate	0.36
-dividendYield	0.46
+dividendYield	0.47
 earningsCallTimestampEnd	1776929400
 earningsCallTimestampStart	1776929400
 earningsGrowth	-0.333
@@ -56,23 +56,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	56.5178
-fiftyDayAverageChange	20.782204
-fiftyDayAverageChangePercent	0.36771077
-fiftyTwoWeekChangePercent	167.71762
+fiftyDayAverage	57.3734
+fiftyDayAverageChange	21.576595
+fiftyDayAverageChangePercent	0.37607315
+fiftyTwoWeekChangePercent	160.62036
 fiftyTwoWeekHigh	81.42
-fiftyTwoWeekHighChange	-4.119995
-fiftyTwoWeekHighChangePercent	-0.050601758
+fiftyTwoWeekHighChange	-2.4700012
+fiftyTwoWeekHighChangePercent	-0.030336542
 fiftyTwoWeekLow	21.11
-fiftyTwoWeekLowChange	56.190002
-fiftyTwoWeekLowChangePercent	2.6617718
+fiftyTwoWeekLowChange	57.839996
+fiftyTwoWeekLowChangePercent	2.7399335
 fiftyTwoWeekRange	21.11 - 81.42
 financialCurrency	USD
 firstTradeDateMilliseconds	786897000000
 fiveYearAvgDividendYield	0.81
 floatShares	637692012
 forwardEps	2.45794
-forwardPE	31.4491
+forwardPE	32.12039
 freeCashflow	-360500000
 fullExchangeName	NYSE
 fullTimeEmployees	48000
@@ -81,7 +81,7 @@ grossMargins	0.33955002
 grossProfits	4203000064
 hasPrePostMarketData	True
 heldPercentInsiders	0.0
-heldPercentInstitutions	0.123780005
+heldPercentInstitutions	0.12377
 impliedSharesOutstanding	888794130
 industry	Semiconductors
 industryDisp	Semiconductors
@@ -96,30 +96,30 @@ lastSplitFactor	3:1
 longBusinessSummary	STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Analog products, MEMS and Sensors Group (AM&S); Power and Discrete products (P&D); Embedded Processing (EMP); and RF Products (D&RF) segments. It offers industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); power management solutions; custom analog ICs, wireless charging solutions; galvanic isolated gate and LED drivers; converters, transistors, intelligent power switches, clocks and timers, comparators, and current-sense amplifiers; micro-electro-mechanical systems (MEMS) sensors, including accelerometers, gyroscopes, magnetic sensors, pressure, temperature, presence detection, biosensors, machine learning, and edge AI processing smart sensors, as well as thermal and piezoelectric actuators; and optical sensing solutions. The company also provides silicon MOSFETs, SiC MOSFETs, IGBTs, thyristors, rectifiers, and power modules and bipolar transistors; microcontrollers, and automotive microcontrollers and secured; radio frequency (RF) communications and ASICs; car infotainment products; ultra-wide band and radar systems; and Connected Security Products; and automotive driver assistance systems. It serves automotive, industrial, personal electronics and communications equipment, and computers and peripherals markets. STMicroelectronics N.V. was incorporated in 1987 and is headquartered in Schiphol, the Netherlands.
 longName	STMicroelectronics N.V.
 market	us_market
-marketCap	68703789056
+marketCap	70170296320
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_138644
 mostRecentQuarter	1774656000
 netIncomeToCommon	147000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	66486372233
+nonDilutedMarketCap	69702202343
 numberOfAnalystOpinions	14
-open	76.495
+open	80.12
 operatingCashflow	2112000000
 operatingMargins	0.036510002
 payoutRatio	2.25
 pegRatio	0.56
 phone	31 20 654 3210
-postMarketChange	0.29999542
-postMarketChangePercent	0.38809237
-postMarketPrice	77.6
-postMarketTime	1781307842
-previousClose	78.12
-priceEpsCurrentYear	60.72891
+postMarketChange	-0.099998474
+postMarketChangePercent	-0.12666051
+postMarketPrice	78.85
+postMarketTime	1781562232
+previousClose	77.3
+priceEpsCurrentYear	62.02519
 priceHint	2
-priceToBook	3.8667402
-priceToSalesTrailing12Months	5.5504756
+priceToBook	3.9492772
+priceToSalesTrailing12Months	5.6689525
 profitMargins	0.011879999
 quickRatio	2.223
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +127,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.0
 region	US
-regularMarketChange	-0.82
-regularMarketChangePercent	-1.04967
-regularMarketDayHigh	78.755
-regularMarketDayLow	76.311
-regularMarketDayRange	76.311 - 78.755
-regularMarketOpen	76.495
-regularMarketPreviousClose	78.12
-regularMarketPrice	77.3
-regularMarketTime	1781294402
-regularMarketVolume	11303936
+regularMarketChange	1.64999
+regularMarketChangePercent	2.13453
+regularMarketDayHigh	80.43
+regularMarketDayLow	78.64
+regularMarketDayRange	78.64 - 80.43
+regularMarketOpen	80.12
+regularMarketPreviousClose	77.3
+regularMarketPrice	78.95
+regularMarketTime	1781553602
+regularMarketVolume	10153375
 returnOnAssets	0.01523
 returnOnEquity	0.00908
 revenueGrowth	0.23
@@ -164,15 +164,15 @@ totalDebt	2783000064
 totalRevenue	12378000384
 tradeable	False
 trailingAnnualDividendRate	0.36
-trailingAnnualDividendYield	0.004608295
+trailingAnnualDividendYield	0.00465718
 trailingEps	0.16
-trailingPE	483.12503
-trailingPegRatio	0.5623
+trailingPE	493.4375
+trailingPegRatio	0.5564
 triggerable	True
-twoHundredDayAverage	35.29005
-twoHundredDayAverageChange	42.009953
-twoHundredDayAverageChangePercent	1.1904192
+twoHundredDayAverage	35.54095
+twoHundredDayAverageChange	43.409046
+twoHundredDayAverageChangePercent	1.2213811
 typeDisp	Equity
-volume	11303936
+volume	10153375
 website	https://www.st.com/content/st_com/en.html
 zip	1118 BH

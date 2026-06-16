@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.017397761
-SandP52WeekChange	0.23713183
+52WeekChange	0.021751165
+SandP52WeekChange	0.23177934
 address1	1000 Lowes Boulevard
 allTimeHigh	293.06
 allTimeLow	0.328125
-ask	221.2
-askSize	400
+ask	221.0
+askSize	200
 auditRisk	4
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	3084310
-averageDailyVolume3Month	2793150
-averageVolume	2793150
-averageVolume10days	3084310
+averageDailyVolume10Day	2965410
+averageDailyVolume3Month	2788060
+averageVolume	2788060
+averageVolume10days	2965410
 beta	0.857
-bid	220.31
-bidSize	300
+bid	220.43
+bidSize	100
 boardRisk	5
 bookValue	-16.524
 city	Mooresville
@@ -25,13 +25,13 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	220.78
+currentPrice	220.19
 currentRatio	1.093
 customPriceAlertConfidence	HIGH
 dateShortInterest	1780012800
-dayHigh	223.56
-dayLow	219.28
-discount_to_intrinsic_value	-122.06
+dayHigh	226.2
+dayLow	220.02
+discount_to_intrinsic_value	-122.96
 displayName	Lowe's Companies
 dividendDate	1785888000
 dividendRate	5.0
@@ -59,34 +59,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	228.8338
-fiftyDayAverageChange	-8.0538025
-fiftyDayAverageChangePercent	-0.035194986
-fiftyTwoWeekChangePercent	1.7397761
+fiftyDayAverage	228.5298
+fiftyDayAverageChange	-8.339798
+fiftyDayAverageChangePercent	-0.036493264
+fiftyTwoWeekChangePercent	2.1751165
 fiftyTwoWeekHigh	293.06
-fiftyTwoWeekHighChange	-72.28
-fiftyTwoWeekHighChangePercent	-0.24663891
+fiftyTwoWeekHighChange	-72.869995
+fiftyTwoWeekHighChangePercent	-0.24865215
 fiftyTwoWeekLow	203.4
-fiftyTwoWeekLowChange	17.380005
-fiftyTwoWeekLowChangePercent	0.08544742
+fiftyTwoWeekLowChange	16.790009
+fiftyTwoWeekLowChangePercent	0.08254675
 fiftyTwoWeekRange	203.4 - 293.06
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	1.79
 floatShares	559456664
 forwardEps	13.4778
-forwardPE	16.381012
+forwardPE	16.337236
 freeCashflow	4816124928
 fullExchangeName	NYSE
 fullTimeEmployees	167000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1780531200
-graham_intrinsic_value	99.43
+graham_intrinsic_value	98.76
 grossMargins	0.33293
 grossProfits	29442000896
 hasPrePostMarketData	True
 heldPercentInsiders	0.00107
-heldPercentInstitutions	0.81251
+heldPercentInstitutions	0.8125
 impliedSharesOutstanding	561000000
 industry	Home Improvement Retail
 industryDisp	Home Improvement Retail
@@ -102,31 +102,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Lowe's Companies, Inc., together with its subsidiaries, operates as a home improvement retailer in the United States and Canada. It provides a line of products for construction, maintenance, repair, remodeling, and decorating. The company also offers home improvement products, such as appliances, seasonal and outdoor living, lumber, lawn and garden, kitchens and bath, hardware, building materials, millwork, paint, rough plumbing, tools, electrical, flooring, and décor. In addition, it provides installation services through independent contractors in various product categories; and extended protection plans and repair services. Further, the company provides design, distribution, and installation services for interior surface finishes to home builders and property managers. It sells its national brand-name merchandise and private brand products to professional customers, individual homeowners, and renters. The company serves its products through Lowes.com website, mobile applications, retail home improvement stores and outlet stores, and its branches. Lowe's Companies, Inc. was founded in 1921 and is based in Mooresville, North Carolina.
 longName	Lowe's Companies, Inc.
 market	us_market
-marketCap	123857575936
+marketCap	123526594560
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_180871
 mostRecentQuarter	1777593600
 netIncomeToCommon	6623000064
 nextFiscalYearEnd	1801267200
-nonDilutedMarketCap	123944291413
+nonDilutedMarketCap	123792900511
 numberOfAnalystOpinions	33
-open	222.77
+open	225.0
 operatingCashflow	9834999808
 operatingMargins	0.11067
 overallRisk	3
 payoutRatio	0.4057
-pegRatio	1.41
+pegRatio	1.44
 phone	704 758 1000
-postMarketChange	0.020004272
-postMarketChangePercent	0.0090607265
-postMarketPrice	220.8
-postMarketTime	1781306151
-previousClose	221.05
-priceEpsCurrentYear	17.666386
+postMarketChange	0.55999756
+postMarketChangePercent	0.2543247
+postMarketPrice	220.75
+postMarketTime	1781561504
+previousClose	220.78
+priceEpsCurrentYear	17.619175
 priceHint	2
-priceToBook	-13.361172
-priceToSalesTrailing12Months	1.4005651
+priceToBook	-13.325466
+priceToSalesTrailing12Months	1.3968225
 profitMargins	0.075100005
 quickRatio	0.096
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.8
 region	US
-regularMarketChange	-0.270004
-regularMarketChangePercent	-0.122146
-regularMarketDayHigh	223.56
-regularMarketDayLow	219.28
-regularMarketDayRange	219.28 - 223.56
-regularMarketOpen	222.77
-regularMarketPreviousClose	221.05
-regularMarketPrice	220.78
-regularMarketTime	1781294497
-regularMarketVolume	1840875
+regularMarketChange	-0.589996
+regularMarketChangePercent	-0.267233
+regularMarketDayHigh	226.2
+regularMarketDayLow	220.02
+regularMarketDayRange	220.02 - 226.2
+regularMarketOpen	225.0
+regularMarketPreviousClose	220.78
+regularMarketPrice	220.19
+regularMarketTime	1781553798
+regularMarketVolume	2242186
 returnOnAssets	0.12792
 revenueGrowth	0.103
 revenuePerShare	158.2
@@ -172,15 +172,15 @@ totalDebt	42555998208
 totalRevenue	88433999872
 tradeable	False
 trailingAnnualDividendRate	4.8
-trailingAnnualDividendYield	0.021714544
+trailingAnnualDividendYield	0.021741102
 trailingEps	11.83
-trailingPE	18.662722
-trailingPegRatio	1.4438
+trailingPE	18.612848
+trailingPegRatio	1.442
 triggerable	True
-twoHundredDayAverage	246.4774
-twoHundredDayAverageChange	-25.697403
-twoHundredDayAverageChangePercent	-0.10425866
+twoHundredDayAverage	246.28966
+twoHundredDayAverageChange	-26.099655
+twoHundredDayAverageChangePercent	-0.10597138
 typeDisp	Equity
-volume	1840875
+volume	2242186
 website	https://corporate.lowes.com
 zip	28117

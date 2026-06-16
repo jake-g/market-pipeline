@@ -1,40 +1,40 @@
 Metric	Value
-52WeekChange	-0.064539075
-SandP52WeekChange	0.23713183
+52WeekChange	-0.0690909
+SandP52WeekChange	0.23177934
 address1	8020 Katy Freeway
 allTimeHigh	209.87
 allTimeLow	1.0
-ask	92.86
-askSize	400
+ask	88.47
+askSize	100
 auditRisk	2
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	4525290
-averageDailyVolume3Month	3403909
-averageVolume	3403909
-averageVolume10days	4525290
+averageDailyVolume10Day	4430730
+averageDailyVolume3Month	3438336
+averageVolume	3438336
+averageVolume10days	4430730
 beta	0.948
-bid	91.06
-bidSize	100
+bid	88.45
+bidSize	1300
 boardRisk	1
 bookValue	-4.404
 city	Houston
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Christian H. Hillabrant', 'age': 59, 'title': 'CEO, President & Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 2007765, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sunit S. Patel C.F.A.', 'age': 63, 'title': 'Executive VP & CFO', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 1407317, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Edward B. Adams Jr.', 'age': 56, 'title': 'Executive VP & General Counsel', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1250099, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Catherine  Piche', 'age': 53, 'title': 'Executive VP & COO of Towers', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 1360250, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert Sean Collins', 'age': 58, 'title': 'Principal Accounting Officer, Vice President & Controller', 'yearBorn': 1967, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Hamilton  West', 'title': 'VP of Corporate Finance and Treasurer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Lennon', 'title': 'Senior VP & Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Fiona  McKone', 'title': 'Vice President of Communications & Marketing', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Timothy P. Grace', 'age': 61, 'title': 'Executive VP & Chief Human Resources Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kris  Hinson', 'title': 'Executive VP & Chief Commercial Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	9
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'CCI announced a cash dividend of $1.062 with an ex-date of Jun. 15, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1781496000000, 'amount': '1.062'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	92.16
+currentPrice	88.74
 currentRatio	0.267
 customPriceAlertConfidence	HIGH
 dateShortInterest	1780012800
-dayHigh	93.65
-dayLow	91.87
-discount_to_intrinsic_value	-362.68
+dayHigh	91.4
+dayLow	87.99
+discount_to_intrinsic_value	-348.52
 dividendDate	1782777600
 dividendRate	4.25
-dividendYield	4.62
+dividendYield	4.61
 earningsCallTimestampEnd	1776889800
 earningsCallTimestampStart	1776889800
 earningsTimestamp	1776888000
@@ -57,34 +57,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	713 570 3100
-fiftyDayAverage	88.859
-fiftyDayAverageChange	3.3010025
-fiftyDayAverageChangePercent	0.03714877
-fiftyTwoWeekChangePercent	-6.4539075
+fiftyDayAverage	89.0856
+fiftyDayAverageChange	-0.34560394
+fiftyDayAverageChangePercent	-0.003879459
+fiftyTwoWeekChangePercent	-6.90909
 fiftyTwoWeekHigh	115.76
-fiftyTwoWeekHighChange	-23.599998
-fiftyTwoWeekHighChangePercent	-0.20387006
+fiftyTwoWeekHighChange	-27.020004
+fiftyTwoWeekHighChangePercent	-0.233414
 fiftyTwoWeekLow	75.96
-fiftyTwoWeekLowChange	16.200005
-fiftyTwoWeekLowChangePercent	0.2132702
+fiftyTwoWeekLowChange	12.779999
+fiftyTwoWeekLowChangePercent	0.16824643
 fiftyTwoWeekRange	75.96 - 115.76
 financialCurrency	USD
 firstTradeDateMilliseconds	903447000000
 fiveYearAvgDividendYield	4.92
 floatShares	435504882
 forwardEps	2.96135
-forwardPE	31.120943
+forwardPE	29.966063
 freeCashflow	1202875008
 fullExchangeName	NYSE
 fullTimeEmployees	1500
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1780531200
-graham_intrinsic_value	19.92
+graham_intrinsic_value	19.79
 grossMargins	0.73819
 grossProfits	3110000128
 hasPrePostMarketData	True
 heldPercentInsiders	0.00096000003
-heldPercentInstitutions	1.00469
+heldPercentInstitutions	1.00468
 impliedSharesOutstanding	436451983
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -97,50 +97,50 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Crown Castle Inc. owns, operates and leases approximately 40,000 cell towers and approximately 90,000 route miles of fiber. It primarily supports small cells and fiber solutions across every major U.S. market. This nationwide portfolio of communications infrastructure connects cities and communities to essential data, technology and wireless service  bringing information, ideas and innovations to the people and businesses that need them. Crown Castle Inc. was incorporated in 1994 and is based in Houston, United States.
 longName	Crown Castle Inc.
 market	us_market
-marketCap	40223416320
+marketCap	38730747904
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_27198
 mostRecentQuarter	1774915200
-nameChangeDate	2026-06-12
+nameChangeDate	2026-06-15
 netIncomeToCommon	1039000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	40171040515
+nonDilutedMarketCap	40223414753
 numberOfAnalystOpinions	19
-open	92.5
+open	91.0
 operatingCashflow	2924999936
 operatingMargins	0.47722998
 overallRisk	5
 payoutRatio	1.7932
-pegRatio	1.52
+pegRatio	1.5
 phone	713 570 3000
-postMarketChange	-0.060005188
-postMarketChangePercent	-0.0651098
-postMarketPrice	92.1
-postMarketTime	1781307406
+postMarketChange	0.13000488
+postMarketChangePercent	0.14650089
+postMarketPrice	88.87
+postMarketTime	1781559861
 prevName	Crown Castle International Corp. (REIT)
-previousClose	92.04
-priceEpsCurrentYear	38.41329
+previousClose	91.0975
+priceEpsCurrentYear	36.987793
 priceHint	2
-priceToBook	-20.926432
-priceToSalesTrailing12Months	9.547452
+priceToBook	-20.149864
+priceToSalesTrailing12Months	9.193151
 profitMargins	0.25136
 quickRatio	0.09
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.19048
 region	US
-regularMarketChange	0.120003
-regularMarketChangePercent	0.130381
-regularMarketDayHigh	93.65
-regularMarketDayLow	91.87
-regularMarketDayRange	91.87 - 93.65
-regularMarketOpen	92.5
-regularMarketPreviousClose	92.04
-regularMarketPrice	92.16
-regularMarketTime	1781294402
-regularMarketVolume	2577369
+regularMarketChange	-2.35751
+regularMarketChangePercent	-2.58789
+regularMarketDayHigh	91.4
+regularMarketDayLow	87.99
+regularMarketDayRange	87.99 - 91.4
+regularMarketOpen	91.0
+regularMarketPreviousClose	91.0975
+regularMarketPrice	88.74
+regularMarketTime	1781553602
+regularMarketVolume	5003322
 returnOnAssets	0.04048
 returnOnEquity	-2.067
 revenueGrowth	-0.048
@@ -170,15 +170,15 @@ totalDebt	29878999040
 totalRevenue	4212999936
 tradeable	False
 trailingAnnualDividendRate	4.25
-trailingAnnualDividendYield	0.046175577
+trailingAnnualDividendYield	0.046653308
 trailingEps	2.37
-trailingPE	38.886078
-trailingPegRatio	1.5015
+trailingPE	37.44304
+trailingPegRatio	1.5035
 triggerable	True
-twoHundredDayAverage	89.85475
-twoHundredDayAverageChange	2.305252
-twoHundredDayAverageChangePercent	0.025655316
+twoHundredDayAverage	89.8086
+twoHundredDayAverageChange	-1.0686035
+twoHundredDayAverageChangePercent	-0.011898677
 typeDisp	Equity
-volume	2577369
+volume	5003322
 website	https://www.crowncastle.com
 zip	77024-1908
