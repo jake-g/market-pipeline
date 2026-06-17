@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	21.98
 allTimeLow	12.26
-ask	18.67
-askSize	5000
-averageDailyVolume10Day	777690
-averageDailyVolume3Month	876950
-averageVolume	876950
-averageVolume10days	777690
+ask	18.57
+askSize	1300
+averageDailyVolume10Day	755520
+averageDailyVolume3Month	874261
+averageVolume	874261
+averageVolume10days	755520
 beta3Year	0.94
-bid	18.65
+bid	18.56
 bidSize	2700
 category	Preferred Stock
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	18.7
-dayLow	18.605
+dayHigh	18.73
+dayLow	18.52
 dividendYield	6.28
 esgPopulated	False
 exchange	PCX
@@ -25,19 +25,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	18.4356
-fiftyDayAverageChange	0.24440002
-fiftyDayAverageChangePercent	0.013256961
-fiftyTwoWeekChangePercent	9.430599
+fiftyDayAverage	18.457
+fiftyDayAverageChange	0.072999954
+fiftyDayAverageChangePercent	0.0039551365
+fiftyTwoWeekChangePercent	11.190474
 fiftyTwoWeekHigh	19.07
-fiftyTwoWeekHighChange	-0.3899994
-fiftyTwoWeekHighChangePercent	-0.020450938
+fiftyTwoWeekHighChange	-0.539999
+fiftyTwoWeekHighChangePercent	-0.028316677
 fiftyTwoWeekLow	16.75
-fiftyTwoWeekLowChange	1.9300003
-fiftyTwoWeekLowChangePercent	0.1152239
+fiftyTwoWeekLowChange	1.7800007
+fiftyTwoWeekLowChangePercent	0.1062687
 fiftyTwoWeekRange	16.75 - 19.07
 firstTradeDateMilliseconds	1342704600000
-fiveYearAverageReturn	0.0402075
+fiveYearAverageReturn	0.0432795
 fullExchangeName	NYSEArca
 fundFamily	VanEck
 fundInceptionDate	1342396800
@@ -48,37 +48,37 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund normally invests at least 80% of its total assets in securities that comprise the fund's benchmark index. The index is comprised of U.S. exchange-listed hybrid debt, preferred stock and convertible preferred stock issued by non-financial corporations. The fund is non-diversified.
 longName	VanEck Preferred Securities ex Financials ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_214279555
-navPrice	18.44
+navPrice	18.65
 netAssets	2513427710.0
 netExpenseRatio	0.4
-open	18.63
+open	18.73
 phone	888-658-8287
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	18.68
-postMarketTime	1781557500
-previousClose	18.45
+postMarketChange	0.03999901
+postMarketChangePercent	0.2158608
+postMarketPrice	18.57
+postMarketTime	1781654126
+previousClose	18.68
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.23
-regularMarketChangePercent	1.24661
-regularMarketDayHigh	18.7
-regularMarketDayLow	18.605
-regularMarketDayRange	18.605 - 18.7
-regularMarketOpen	18.63
-regularMarketPreviousClose	18.45
-regularMarketPrice	18.68
-regularMarketTime	1781553600
-regularMarketVolume	927083
+regularMarketChange	-0.15
+regularMarketChangePercent	-0.802996
+regularMarketDayHigh	18.73
+regularMarketDayLow	18.52
+regularMarketDayRange	18.52 - 18.73
+regularMarketOpen	18.73
+regularMarketPreviousClose	18.68
+regularMarketPrice	18.53
+regularMarketTime	1781640000
+regularMarketVolume	1277497
 shortName	VanEck Preferred Securities ex 
 sourceInterval	15
 symbol	PFXF
-threeYearAverageReturn	0.097329
+threeYearAverageReturn	0.101236
 totalAssets	2513427712
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -87,10 +87,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	4.54045
 trailingThreeMonthReturns	4.54045
 triggerable	True
-twoHundredDayAverage	18.033
-twoHundredDayAverageChange	0.64699936
-twoHundredDayAverageChangePercent	0.03587863
+twoHundredDayAverage	18.03705
+twoHundredDayAverageChange	0.49295044
+twoHundredDayAverageChangePercent	0.02732988
 typeDisp	ETF
-volume	927083
+volume	1277497
 yield	0.062800005
 ytdReturn	8.56548

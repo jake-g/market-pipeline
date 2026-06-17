@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.5253067
-SandP52WeekChange	0.23177934
+52WeekChange	0.90069497
+SandP52WeekChange	0.26268482
 address1	4300 E Camelback Road
 address2	Suite 220
 allTimeHigh	320.95
 allTimeLow	11.43
-ask	284.55
+ask	278.0
 askSize	1
 auditRisk	5
 averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	2764150
-averageDailyVolume3Month	2450831
-averageVolume	2450831
-averageVolume10days	2764150
+averageDailyVolume10Day	2632980
+averageDailyVolume3Month	2466822
+averageVolume	2466822
+averageVolume10days	2632980
 beta	1.692
-bid	258.4
+bid	253.84
 bidSize	1
 boardRisk	9
 bookValue	91.934
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	273.51
+currentPrice	264.36
 currentRatio	2.557
 customPriceAlertConfidence	HIGH
 dateShortInterest	1780012800
-dayHigh	275.94
-dayLow	264.04
+dayHigh	279.0
+dayLow	263.63
 debtToEquity	5.943
-discount_to_intrinsic_value	69.25
+discount_to_intrinsic_value	70.28
 displayName	First Solar
 earningsCallTimestampEnd	1777581000
 earningsCallTimestampStart	1777581000
@@ -44,9 +44,9 @@ earningsTimestampEnd	1785441600
 earningsTimestampStart	1785441600
 ebitda	2272688896
 ebitdaMargins	0.41939
-enterpriseToEbitda	11.829
-enterpriseToRevenue	4.961
-enterpriseValue	26883919872
+enterpriseToEbitda	12.122
+enterpriseToRevenue	5.084
+enterpriseValue	27550132224
 epsCurrentYear	17.40957
 epsForward	23.42849
 epsTrailingTwelveMonths	15.48
@@ -58,22 +58,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	602 414 9400
-fiftyDayAverage	231.355
-fiftyDayAverageChange	42.155014
-fiftyDayAverageChangePercent	0.18220922
-fiftyTwoWeekChangePercent	52.53067
+fiftyDayAverage	232.9188
+fiftyDayAverageChange	31.441193
+fiftyDayAverageChangePercent	0.13498779
+fiftyTwoWeekChangePercent	90.069496
 fiftyTwoWeekHigh	320.95
-fiftyTwoWeekHighChange	-47.440002
-fiftyTwoWeekHighChangePercent	-0.14781119
+fiftyTwoWeekHighChange	-56.590027
+fiftyTwoWeekHighChangePercent	-0.17632037
 fiftyTwoWeekLow	135.5
-fiftyTwoWeekLowChange	138.01001
-fiftyTwoWeekLowChangePercent	1.018524
+fiftyTwoWeekLowChange	128.85999
+fiftyTwoWeekLowChangePercent	0.9509962
 fiftyTwoWeekRange	135.5 - 320.95
 financialCurrency	USD
 firstTradeDateMilliseconds	1163773800000
 floatShares	101613273
 forwardEps	23.42849
-forwardPE	11.674249
+forwardPE	11.283697
 freeCashflow	1147664768
 fullExchangeName	NasdaqGS
 fullTimeEmployees	7900
@@ -84,7 +84,7 @@ grossMargins	0.41743
 grossProfits	2262066944
 hasPrePostMarketData	True
 heldPercentInsiders	0.053990003
-heldPercentInstitutions	0.94184
+heldPercentInstitutions	0.94197
 impliedSharesOutstanding	107453363
 industry	Solar
 industryDisp	Solar
@@ -96,31 +96,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. The company manufactures and sells PV solar modules with thin film semiconductor technology that provides conventional crystalline silicon PV solar modules. It also designs, manufactures, and sells cadmium telluride solar modules that convert sunlight into electricity. The company serves system developers, independent power producers, utilities, commercial and industrial companies, large corporate energy buyers, and other system owners and operators. The company was formerly known as First Solar Holdings, Inc. and changed its name to First Solar, Inc. in 2006. First Solar, Inc. was founded in 1999 and is headquartered in Phoenix, Arizona.
 longName	First Solar, Inc.
 market	us_market
-marketCap	29389570048
-marketState	POST
+marketCap	28406368256
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_4593731
 mostRecentQuarter	1774915200
 netIncomeToCommon	1665313024
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	28723358463
+nonDilutedMarketCap	29389569314
 numberOfAnalystOpinions	26
-open	272.67
+open	270.46
 operatingCashflow	2450221056
 operatingMargins	0.33067
 overallRisk	9
 payoutRatio	0.0
 pegRatio	0.7
 phone	602 414 9300
-postMarketChange	-0.010009766
-postMarketChangePercent	-0.0036597438
-postMarketPrice	273.5
-postMarketTime	1781560967
-previousClose	267.31
-priceEpsCurrentYear	15.710325
+postMarketChange	-1.1599731
+postMarketChangePercent	-0.43878543
+postMarketPrice	263.2
+postMarketTime	1781653477
+previousClose	273.51
+priceEpsCurrentYear	15.184751
 priceHint	2
-priceToBook	2.9750693
-priceToSalesTrailing12Months	5.4233828
+priceToBook	2.875541
+priceToSalesTrailing12Months	5.241948
 profitMargins	0.30731001
 quickRatio	1.911
 quoteSourceName	Nasdaq Real Time Price
@@ -128,16 +128,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.11765
 region	US
-regularMarketChange	6.200012
-regularMarketChangePercent	2.319409
-regularMarketDayHigh	275.94
-regularMarketDayLow	264.04
-regularMarketDayRange	264.04 - 275.94
-regularMarketOpen	272.67
-regularMarketPreviousClose	267.31
-regularMarketPrice	273.51
-regularMarketTime	1781553601
-regularMarketVolume	1989566
+regularMarketChange	-9.15002
+regularMarketChangePercent	-3.34541
+regularMarketDayHigh	279.0
+regularMarketDayLow	263.63
+regularMarketDayRange	263.63 - 279.0
+regularMarketOpen	270.46
+regularMarketPreviousClose	273.51
+regularMarketPrice	264.36
+regularMarketTime	1781640001
+regularMarketVolume	1835817
 returnOnAssets	0.08447
 returnOnEquity	0.18436001
 revenueGrowth	0.236
@@ -169,13 +169,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	15.48
-trailingPE	17.668606
-trailingPegRatio	0.7007
+trailingPE	17.077518
+trailingPegRatio	0.717
 triggerable	True
-twoHundredDayAverage	231.94444
-twoHundredDayAverageChange	41.565567
-twoHundredDayAverageChangePercent	0.17920484
+twoHundredDayAverage	232.35585
+twoHundredDayAverageChange	32.004135
+twoHundredDayAverageChangePercent	0.13773759
 typeDisp	Equity
-volume	1989566
+volume	1835817
 website	https://www.firstsolar.com
 zip	85018

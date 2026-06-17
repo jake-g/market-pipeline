@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.10388708 |
+| Value | str | 0.14523792 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -25,7 +25,7 @@ This report documents the file structures and column data types used in `market_
 | Earnings Date | str | 2026-07-30 16:00:00-04:00 |
 | EPS Estimate | float64 | 1.82 |
 | Reported EPS | float64 | 2.78 |
-| Surprise(%) | float64 | 69.02 |
+| Surprise(%) | float64 | 68.18 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-15 |
+| Date | str | 2026-06-17 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Best TV deal: Save $220 on Amazon Fire TV 55-in... |
-| Summary | str | The stock market was overlooking Anthropic’s la... |
-| URL | str | https://news.google.com/rss/articles/CBMiakFVX3... |
+| Sentiment | float64 | 0.75 |
+| Headline | str | Amazon vs. Alphabet: Which Magnificent Stock Is... |
+| Summary | str | Front Row Group, a full-service agency speciali... |
+| URL | str | https://news.google.com/rss/articles/CBMiowFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

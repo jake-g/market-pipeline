@@ -2,22 +2,22 @@ Metric	Value
 allTimeHigh	26.22
 allTimeLow	16.21
 ask	19.0
-askSize	15600
-averageDailyVolume10Day	579230
-averageDailyVolume3Month	636536
-averageVolume	636536
-averageVolume10days	579230
+askSize	3700
+averageDailyVolume10Day	607820
+averageDailyVolume3Month	640255
+averageVolume	640255
+averageVolume10days	607820
 beta3Year	1.06
-bid	18.6
-bidSize	4200
+bid	18.92
+bidSize	2100
 category	Preferred Stock
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	18.95
-dayLow	18.85
+dayHigh	18.951
+dayLow	18.89
 dividendYield	6.33
 esgPopulated	False
 exchange	PCX
@@ -25,19 +25,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	18.8864
-fiftyDayAverageChange	0.043600082
-fiftyDayAverageChangePercent	0.0023085438
-fiftyTwoWeekChangePercent	1.4008641
+fiftyDayAverage	18.8966
+fiftyDayAverageChange	0.04339981
+fiftyDayAverageChangePercent	0.0022966994
+fiftyTwoWeekChangePercent	1.993537
 fiftyTwoWeekHigh	19.89
-fiftyTwoWeekHighChange	-0.9599991
-fiftyTwoWeekHighChangePercent	-0.048265416
+fiftyTwoWeekHighChange	-0.94999886
+fiftyTwoWeekHighChangePercent	-0.04776264
 fiftyTwoWeekLow	18.215
-fiftyTwoWeekLowChange	0.71500015
-fiftyTwoWeekLowChangePercent	0.03925337
+fiftyTwoWeekLowChange	0.7250004
+fiftyTwoWeekLowChangePercent	0.03980238
 fiftyTwoWeekRange	18.215 - 19.89
 firstTradeDateMilliseconds	1505395800000
-fiveYearAverageReturn	-0.0024404
+fiveYearAverageReturn	-0.0016626001
 fullExchangeName	NYSEArca
 fundFamily	Global X Funds
 fundInceptionDate	1505088000
@@ -48,47 +48,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of its underlying index. It also invests at least 80% of its total assets in preferred securities that are domiciled in, principally traded in or whose revenues are primarily from the U.S. The underlying index is designed to track the broad-based performance of the U.S. preferred securities market.
 longName	Global X U.S. Preferred ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_528855653
-navPrice	18.8
+navPrice	18.93
 netAssets	2171583490.0
 netExpenseRatio	0.23
-open	18.85
+open	18.9
 phone	+1 8884938631
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	18.93
-postMarketTime	1781557500
-previousClose	18.82
+postMarketChange	-0.05960083
+postMarketChangePercent	-0.3146823
+postMarketPrice	18.8804
+postMarketTime	1781643900
+previousClose	18.93
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.110001
-regularMarketChangePercent	0.584488
-regularMarketDayHigh	18.95
-regularMarketDayLow	18.85
-regularMarketDayRange	18.85 - 18.95
-regularMarketOpen	18.85
-regularMarketPreviousClose	18.82
-regularMarketPrice	18.93
-regularMarketTime	1781553600
-regularMarketVolume	726120
+regularMarketChange	0.0100002
+regularMarketChangePercent	0.0528274
+regularMarketDayHigh	18.951
+regularMarketDayLow	18.89
+regularMarketDayRange	18.89 - 18.951
+regularMarketOpen	18.9
+regularMarketPreviousClose	18.93
+regularMarketPrice	18.94
+regularMarketTime	1781640000
+regularMarketVolume	432961
 shortName	Global X U.S. Preferred ETF
 sourceInterval	15
 symbol	PFFD
-threeYearAverageReturn	0.055934902
+threeYearAverageReturn	0.0594509
 totalAssets	2171583488
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	0.2285
 trailingThreeMonthReturns	0.2285
 triggerable	True
-twoHundredDayAverage	19.11635
-twoHundredDayAverageChange	-0.18634987
-twoHundredDayAverageChangePercent	-0.0097481925
+twoHundredDayAverage	19.1137
+twoHundredDayAverageChange	-0.17370033
+twoHundredDayAverageChangePercent	-0.0090877395
 typeDisp	ETF
-volume	726120
+volume	432961
 yield	0.0633
 ytdReturn	2.23644

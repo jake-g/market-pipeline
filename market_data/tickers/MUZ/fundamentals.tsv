@@ -1,39 +1,39 @@
 Metric	Value
 allTimeHigh	23.92
-allTimeLow	16.75
-ask	13.99
-askSize	1700
-averageDailyVolume10Day	728025
-averageDailyVolume3Month	728025
-averageVolume	728025
-averageVolume10days	728025
-bid	13.92
-bidSize	4400
+allTimeLow	13.62
+ask	15.12
+askSize	5200
+averageDailyVolume10Day	756200
+averageDailyVolume3Month	756200
+averageVolume	756200
+averageVolume10days	756200
+bid	15.11
+bidSize	3200
 category	Trading--Inverse Equity
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	15.1449
-dayLow	13.64
+dayHigh	15.65
+dayLow	13.3891
 esgPopulated	False
 exchange	PCX
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	19.5925
-fiftyDayAverageChange	-5.6625004
-fiftyDayAverageChangePercent	-0.28901365
-fiftyTwoWeekChangePercent	-14.663464
+fiftyDayAverage	18.46
+fiftyDayAverageChange	-2.999999
+fiftyDayAverageChangePercent	-0.1625135
+fiftyTwoWeekChangePercent	-33.028847
 fiftyTwoWeekHigh	23.92
-fiftyTwoWeekHighChange	-9.99
-fiftyTwoWeekHighChangePercent	-0.41764212
-fiftyTwoWeekLow	13.64
-fiftyTwoWeekLowChange	0.28999996
-fiftyTwoWeekLowChangePercent	0.021260994
-fiftyTwoWeekRange	13.64 - 23.92
+fiftyTwoWeekHighChange	-8.46
+fiftyTwoWeekHighChangePercent	-0.35367894
+fiftyTwoWeekLow	13.3891
+fiftyTwoWeekLowChange	2.0709
+fiftyTwoWeekLowChangePercent	0.15467058
+fiftyTwoWeekRange	13.3891 - 23.92
 firstTradeDateMilliseconds	1781011800000
 fullExchangeName	NYSEArca
 fundFamily	Defiance ETFs LLC
@@ -45,39 +45,39 @@ legalType	Exchange Traded Fund
 longBusinessSummary	Fund is an actively managed exchange traded fund that attempts to achieve 2 times the inverse (-200%) of the daily percentage change in the price of the Underlying Security by employing derivatives, namely swap agreements and/or listed options contracts. It is non-diversified.
 longName	Defiance Daily Target 2X Short MU ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_1967452949
-navPrice	17.7762
+navPrice	13.9223
 netExpenseRatio	1.31
-open	15.0
-postMarketChange	0.06949997
-postMarketChangePercent	0.49892294
-postMarketPrice	13.9995
-postMarketTime	1781561417
-previousClose	17.75
+open	13.66
+postMarketChange	-0.17000008
+postMarketChangePercent	-1.0996124
+postMarketPrice	15.29
+postMarketTime	1781654281
+previousClose	13.93
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-3.82
-regularMarketChangePercent	-21.5211
-regularMarketDayHigh	15.1449
-regularMarketDayLow	13.64
-regularMarketDayRange	13.64 - 15.1449
-regularMarketOpen	15.0
-regularMarketPreviousClose	17.75
-regularMarketPrice	13.93
-regularMarketTime	1781553600
-regularMarketVolume	861798
+regularMarketChange	1.53
+regularMarketChangePercent	10.9835
+regularMarketDayHigh	15.65
+regularMarketDayLow	13.3891
+regularMarketDayRange	13.3891 - 15.65
+regularMarketOpen	13.66
+regularMarketPreviousClose	13.93
+regularMarketPrice	15.46
+regularMarketTime	1781640000
+regularMarketVolume	1238659
 shortName	Defiance Daily Target 2X Short 
 sourceInterval	15
 symbol	MUZ
 tradeable	False
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	19.5925
-twoHundredDayAverageChange	-5.6625004
-twoHundredDayAverageChangePercent	-0.28901365
+twoHundredDayAverage	18.46
+twoHundredDayAverageChange	-2.999999
+twoHundredDayAverageChangePercent	-0.1625135
 typeDisp	ETF
-volume	861798
+volume	1238659
