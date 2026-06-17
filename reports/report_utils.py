@@ -29,6 +29,19 @@ from market_fetcher import MarketFetcher
 logger = logging.getLogger(__name__)
 
 # ==========================================
+# STRING & FORMATTING UTILITIES
+# ==========================================
+
+
+def clean_md(text: str) -> str:
+  """Sanitizes markdown strings to prevent whitespace and EOF check failures."""
+  if not text:
+    return "\n"
+  lines = [l.rstrip() for l in text.splitlines()]
+  return "\n".join(lines).rstrip("\r\n") + "\n"
+
+
+# ==========================================
 # QUANTITATIVE & TECHNICAL METRICS
 # ==========================================
 
@@ -1748,7 +1761,7 @@ def build_standard_portfolio_report(script_dir: str,
 
   out_path = os.path.join(script_dir, "REPORT.md")
   with open(out_path, "w", encoding="utf-8") as f:
-    f.write(report_md)
+    f.write(clean_md(report_md))
 
   # --- AI PORTFOLIO ENHANCEMENT ---
   # Only trigger if not explicitly disabled

@@ -9,12 +9,18 @@ echo "📅 Start Time: $(date)"
 
 
 # Environment Setup
-source ./run_env_setup.sh
+make setup
+
+# Quick pre-flight Auth checks (Yahoo Finance & NotebookLM)
+make test-auth
+
+# Running Unit Tests (Fail-Fast before ingestion)
+make test-unit
 
 # Market Fetcher (Daily/Current)
 t0=$(date +%s)
 echo "📉 Running Market Fetcher (All Tickers)..."
-# ETA Note: Based on the 2/25/2026 run, the full market fetcher (prices, fundamentals, financials, and rss news) takes approximately 10 minutes.
+# Market fetcher takes approximately 1.5 hours (Prices ~1m, Fundamentals ~10m, Financials ~30m, News ~60m).
 python3 market_fetcher.py 2>&1 | tee logs/run_market_fetcher_full.log
 t1=$(date +%s)
 echo "✅ Market Fetcher finished in $((t1-t0))s."
@@ -27,8 +33,7 @@ ts1=$(date +%s)
 echo "✅ Shipping Fetcher finished in $((ts1-ts0))s."
 
 # Update Portfolios
-echo "📈 Running Portfolio Pipeline..."
-./portfolios/run_portfolio_pipeline.sh
+make portfolio
 
 # NotebookLM Summarization Tasks
 echo "🗄️ Syncing Daily Aggregate News to NotebookLM Archive (Market Feed)..."
@@ -62,6 +67,7 @@ python3 reports/notebooklm_report.py --mode report_upload 2>&1 | tee logs/sync_n
 echo "🌐 Generating static index.json for dashboard..."
 python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 
+# Running Code Formatting & Validation at the end to clean up generated files
 echo "🧹 Running Code Formatting & Validation..."
 make format
 

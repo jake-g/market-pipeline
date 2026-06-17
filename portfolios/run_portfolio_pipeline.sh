@@ -16,12 +16,11 @@ mkdir -p "$LOG_DIR"
 # Ensure Environment is securely configured
 source ./run_env_setup.sh
 
-echo "Running Unit Tests"
-python3 -m unittest portfolios.test_portfolio_pipeline
+# echo "Running Unit Tests"
+# python3 -m unittest portfolios.test_portfolio_pipeline
 
-
-echo "Running Code Formatting via run_format.sh"
-make format || true
+# echo "Running Code Formatting via run_format.sh"
+# make format || true
 
 
 echo "Fetching Yahoo Portfolios"

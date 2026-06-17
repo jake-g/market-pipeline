@@ -180,7 +180,7 @@ SKIP_EARNINGS: List[str] = [
     # Sector & Thematic ETFs
     "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
     "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH", "CIBR", "PPH",
-    "SOXX", "XSD",
+    "SOXX", "XSD", "MUZ", "SPCX",
 
 
     # Fixed Income & Preferred

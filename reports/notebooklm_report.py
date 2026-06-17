@@ -15,6 +15,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from market_fetcher import MarketFetcher
 from reports.notebooklm_client import MarketNewsClient
+from reports.report_utils import clean_md
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -848,15 +849,17 @@ async def generate_report(market_data_dir: str,
                 f"{original_content}\n\n---\n\n# AI Tactical Summary\n"
                 f"> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n"
                 f"{report_content}")
-            f.write(new_content)
+            f.write(clean_md(new_content))
         else:
           # Write the generated report content directly
+          raw_content = (
+              f"# Market Intelligence Report\n*(Generated via NotebookLM "
+              f"Integration on {datetime.now().strftime('%Y-%m-%d')})*\n"
+              f"> **[View Primary Active Reports Archive directly in "
+              f"NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n"
+              + report_content)
           with open(output_path, "w") as f:
-            f.write(
-                f"# Market Intelligence Report\n*(Generated via NotebookLM Integration on {datetime.now().strftime('%Y-%m-%d')})*\n"
-                "> **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**\n\n"
-            )
-            f.write(report_content)
+            f.write(clean_md(raw_content))
 
         # Automatically compile the Markdown into a PDF with embedded charts
         from reports.report_utils import render_markdown_to_pdf

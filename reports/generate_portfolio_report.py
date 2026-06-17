@@ -23,6 +23,7 @@ if PROJECT_ROOT not in sys.path:
 import config
 from portfolios.yahoo_portfolio_fetcher import load_env_file
 from reports.report_utils import build_decision_tree
+from reports.report_utils import clean_md
 from reports.report_utils import generate_screening_scatter
 from reports.report_utils import get_intrinsic_value_metrics
 
@@ -384,8 +385,9 @@ def generate_report():
   # Write output
   reports_dir = os.path.join(PROJECT_ROOT, "reports")
   report_path = os.path.join(reports_dir, "PORTFOLIO_REPORT.md")
+  raw_md = "\n".join(report_lines)
   with open(report_path, "w") as f:
-    f.write("\n".join(report_lines))
+    f.write(clean_md(raw_md))
 
   logger.info(
       f"Successfully generated comprehensive Active/Global Markdown report: {report_path}"
