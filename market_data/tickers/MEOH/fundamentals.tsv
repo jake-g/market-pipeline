@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.5530094
-SandP52WeekChange	0.26268482
+52WeekChange	0.47869205
+SandP52WeekChange	0.24334764
 address1	1800 Waterfront Centre
 address2	200 Burrard Street
 allTimeHigh	83.23
 allTimeLow	1.625
-ask	63.86
+ask	60.32
 askSize	1
 auditRisk	3
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	843110
-averageDailyVolume3Month	1399396
-averageVolume	1399396
-averageVolume10days	843110
+averageDailyVolume10Day	851180
+averageDailyVolume3Month	1348214
+averageVolume	1348214
+averageVolume10days	851180
 beta	0.84
-bid	47.33
+bid	45.58
 bidSize	1
 boardRisk	3
 bookValue	31.122
@@ -22,16 +22,16 @@ city	Vancouver
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Richard W. Sumner', 'age': 50, 'title': 'President, CEO & Director', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 2385133, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dean  Richardson', 'title': 'Senior VP of Finance & CFO', 'fiscalYear': 2025, 'totalPay': 1009956, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kevin M. Maloney', 'title': 'Senior Vice President of Corporate Development', 'fiscalYear': 2025, 'totalPay': 860953, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Karine  Delbarre', 'title': 'Senior Vice President of Global Marketing & Logistics', 'fiscalYear': 2025, 'totalPay': 1157357, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gustavo  Parra', 'title': 'Senior Vice President of Manufacturing', 'fiscalYear': 2025, 'totalPay': 1729400, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert B. Winslow C.F.A.', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kevin  Price', 'title': 'Senior VP, General Counsel & Corporate Secretary', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Greg  Mackie', 'title': 'VP of Human Resources', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bradley W. Boyd', 'title': 'Senior Vice President of Corporate Resources', 'fiscalYear': 2025, 'totalPay': 804876, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Allard', 'title': 'Senior Vice President of Low Carbon Solutions', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	8
-corporateActions	[{'header': 'Dividend', 'message': 'MEOH announced a cash dividend of $0.185 with an ex-date of Jun. 16, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1781582400000, 'amount': '0.185'}}]
+corporateActions	[]
 country	Canada
 cryptoTradeable	False
 currency	USD
-currentPrice	55.85
+currentPrice	53.18
 currentRatio	1.957
 customPriceAlertConfidence	HIGH
 dateShortInterest	1780012800
-dayHigh	55.98
-dayLow	54.56
+dayHigh	55.0
+dayLow	52.01
 debtToEquity	127.802
 displayName	Methanex
 dividendDate	1782777600
@@ -44,9 +44,9 @@ earningsTimestampEnd	1785268800
 earningsTimestampStart	1785268800
 ebitda	690185024
 ebitdaMargins	0.18823999
-enterpriseToEbitda	11.145
-enterpriseToRevenue	2.098
-enterpriseValue	7692263936
+enterpriseToEbitda	11.142
+enterpriseToRevenue	2.097
+enterpriseValue	7689943040
 epsCurrentYear	9.22709
 epsForward	5.31081
 epsTrailingTwelveMonths	-0.73
@@ -58,23 +58,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	604 661 2676
-fiftyDayAverage	60.542
-fiftyDayAverageChange	-4.6920013
-fiftyDayAverageChangePercent	-0.07749994
-fiftyTwoWeekChangePercent	55.300938
+fiftyDayAverage	60.2552
+fiftyDayAverageChange	-7.075199
+fiftyDayAverageChangePercent	-0.117420554
+fiftyTwoWeekChangePercent	47.869205
 fiftyTwoWeekHigh	66.75
-fiftyTwoWeekHighChange	-10.900002
-fiftyTwoWeekHighChangePercent	-0.16329591
+fiftyTwoWeekHighChange	-13.57
+fiftyTwoWeekHighChangePercent	-0.20329587
 fiftyTwoWeekLow	32.0
-fiftyTwoWeekLowChange	23.849998
-fiftyTwoWeekLowChangePercent	0.74531245
+fiftyTwoWeekLowChange	21.18
+fiftyTwoWeekLowChangePercent	0.661875
 fiftyTwoWeekRange	32.0 - 66.75
 financialCurrency	USD
 firstTradeDateMilliseconds	706282200000
 fiveYearAvgDividendYield	1.45
 floatShares	74230237
 forwardEps	5.31081
-forwardPE	10.516286
+forwardPE	10.013538
 freeCashflow	445665760
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1649
@@ -92,22 +92,22 @@ industryKey	chemicals
 irWebsite	http://www.methanex.com/investor/index.php
 isEarningsDateEstimate	False
 language	en-US
-lastDividendDate	1773705600
+lastDividendDate	1781568000
 lastDividendValue	0.185
 lastFiscalYearEnd	1767139200
 longBusinessSummary	Methanex Corporation engages in the production and sale of methanol and ammonia in Asia Pacific, North America, Europe, and South America. It also owns and leases in-region storage and terminal facilities. The company serves chemical and petrochemical producers. Methanex Corporation was incorporated in 1968 and is headquartered in Vancouver, Canada.
 longName	Methanex Corporation
 market	us_market
-marketCap	4320794112
+marketCap	4114231552
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_331298
 mostRecentQuarter	1774915200
 netIncomeToCommon	-45031000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	4364333371
+nonDilutedMarketCap	4303366644
 numberOfAnalystOpinions	9
-open	55.1
+open	55.0
 operatingCashflow	832430976
 operatingMargins	0.08561
 overallRisk	6
@@ -116,13 +116,13 @@ pegRatio	0.2
 phone	604 661 2600
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	55.85
-postMarketTime	1781646203
-previousClose	56.25
-priceEpsCurrentYear	6.0528293
+postMarketPrice	53.18
+postMarketTime	1781818070
+previousClose	55.17
+priceEpsCurrentYear	5.763464
 priceHint	2
-priceToBook	1.7945504
-priceToSalesTrailing12Months	1.1784623
+priceToBook	1.7087591
+priceToSalesTrailing12Months	1.122124
 profitMargins	-0.01228
 quickRatio	1.157
 quoteSourceName	Nasdaq Real Time Price
@@ -130,16 +130,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.0
 region	US
-regularMarketChange	-0.40000153
-regularMarketChangePercent	-0.7111138
-regularMarketDayHigh	55.98
-regularMarketDayLow	54.56
-regularMarketDayRange	54.56 - 55.98
-regularMarketOpen	55.1
-regularMarketPreviousClose	56.25
-regularMarketPrice	55.85
-regularMarketTime	1781640001
-regularMarketVolume	661081
+regularMarketChange	-1.99
+regularMarketChangePercent	-3.60703
+regularMarketDayHigh	55.0
+regularMarketDayLow	52.01
+regularMarketDayRange	52.01 - 55.0
+regularMarketOpen	55.0
+regularMarketPreviousClose	55.17
+regularMarketPrice	53.18
+regularMarketTime	1781812801
+regularMarketVolume	1694572
 returnOnAssets	0.033150002
 returnOnEquity	0.00625
 revenueGrowth	0.086
@@ -168,14 +168,14 @@ totalDebt	3453582080
 totalRevenue	3666468096
 tradeable	False
 trailingAnnualDividendRate	0.74
-trailingAnnualDividendYield	0.013155555
+trailingAnnualDividendYield	0.013413087
 trailingEps	-0.73
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	47.4051
-twoHundredDayAverageChange	8.444897
-twoHundredDayAverageChangePercent	0.1781432
+twoHundredDayAverage	47.60405
+twoHundredDayAverageChange	5.5759506
+twoHundredDayAverageChangePercent	0.11713185
 typeDisp	Equity
-volume	661081
+volume	1694572
 website	https://www.methanex.com
 zip	V6C 3M1

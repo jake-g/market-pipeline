@@ -17,13 +17,13 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.14523792 |
+| Value | str | 0.13262439 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
 | Earnings Date | str | 2026-07-30 16:00:00-04:00 |
-| EPS Estimate | float64 | 1.82 |
+| EPS Estimate | float64 | 1.81 |
 | Reported EPS | float64 | 2.78 |
 | Surprise(%) | float64 | 68.18 |
 
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-17 |
+| Date | str | 2026-06-19 |
 | Source | str | Google |
-| Sentiment | float64 | 0.75 |
-| Headline | str | Amazon vs. Alphabet: Which Magnificent Stock Is... |
-| Summary | str | Front Row Group, a full-service agency speciali... |
-| URL | str | https://news.google.com/rss/articles/CBMiowFBVV... |
+| Sentiment | float64 | 0.2 |
+| Headline | str | Don’t Wait: These 100+ Early Amazon Prime Day T... |
+| Summary | str | The cloud giant's homegrown AI chips have remai... |
+| URL | str | https://news.google.com/rss/articles/CBMilAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -85,9 +85,9 @@ This report documents the file structures and column data types used in `market_
 | TARIFFS | float64 | 346.15 |
 | GDP | float64 | 31819.464 |
 | UNRATE | float64 | 4.3 |
-| HOUSING_STARTS | float64 | 1465.0 |
+| HOUSING_STARTS | float64 | 1177.0 |
 | RECESSION_PROB | float64 | 0.44 |
 | CPI | float64 | 333.979 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.09 |
-| US10Y | float64 | 4.48 |
+| US02Y | float64 | 4.2 |
+| US10Y | float64 | 4.49 |

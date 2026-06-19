@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	1.3548076
-SandP52WeekChange	0.26268482
+52WeekChange	1.2222223
+SandP52WeekChange	0.24334764
 address1	Nihonbashi Takashimaya Mitsui Building
 address2	2-5-1, Nihonbashi Chuo-ku
 allTimeHigh	26.73
 allTimeLow	0.816667
-ask	23.74
-askSize	200
+ask	24.34
+askSize	500
 averageAnalystRating	1.0 - Strong Buy
-averageDailyVolume10Day	183240
-averageDailyVolume3Month	253322
-averageVolume	253322
-averageVolume10days	183240
+averageDailyVolume10Day	157980
+averageDailyVolume3Month	252938
+averageVolume	252938
+averageVolume10days	157980
 beta	0.711
-bid	23.73
-bidSize	100
+bid	24.31
+bidSize	707
 bookValue	7.190321
 city	Tokyo
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Noboru  Saito', 'age': 59, 'title': 'President, CEO, GM of Humidifier Countermeasures HQ & Representative Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 1310610, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Tetsuji  Yamanishi', 'title': 'CFO, Senior Executive VP & Representative Director', 'fiscalYear': 2025, 'totalPay': 805089, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Shigeki  Sato', 'age': 61, 'title': 'Executive VP & CEO of Electronic Components Business Company', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 680269, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Shuichi  Hashiyama', 'age': 59, 'title': 'CTO, GM of Technology & Intellectual Property HQ, Corporate Officer & Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Masao  Omagari', 'title': 'General Manager of IR/SR Group', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ikuo  Fukuchi', 'title': 'Corporate Officer, Global Chief Compliance Officer and GM of Legal & Compliance HQ', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Pocsatko', 'title': 'Senior VP and GM of Corporate Marketing & Incubation HQ', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Andreas  Keller', 'title': 'Senior VP, GM of Human Resources HQ and Chief People & Sustainability Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kim Guan  Ong', 'title': 'Corporate Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Takao  Tsutsui', 'title': 'Corporate Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -23,17 +23,17 @@ corporateActions	[]
 country	Japan
 cryptoTradeable	False
 currency	USD
-currentPrice	23.74
+currentPrice	23.8
 currentRatio	1.559
 customPriceAlertConfidence	LOW
 dateShortInterest	1239753600
-dayHigh	23.99
-dayLow	23.67
+dayHigh	24.4
+dayLow	24.25
 debtToEquity	27.954
-discount_to_intrinsic_value	35.44
+discount_to_intrinsic_value	35.13
 dividendDate	1639008000
 dividendRate	0.21
-dividendYield	0.86
+dividendYield	0.89
 earningsCallTimestampEnd	1777365000
 earningsCallTimestampStart	1777365000
 earningsGrowth	1.299
@@ -43,9 +43,9 @@ earningsTimestampEnd	1785501000
 earningsTimestampStart	1785501000
 ebitda	476606005248
 ebitdaMargins	0.19028
-enterpriseToEbitda	-0.344
-enterpriseToRevenue	-0.065
-enterpriseValue	-164008198144
+enterpriseToEbitda	-0.347
+enterpriseToRevenue	-0.066
+enterpriseValue	-165431820288
 epsForward	0.77
 epsTrailingTwelveMonths	0.64
 eps_normalized_growth	5.130631287071923
@@ -56,28 +56,28 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	19.2144
-fiftyDayAverageChange	4.5256004
-fiftyDayAverageChangePercent	0.23553172
-fiftyTwoWeekChangePercent	135.48076
+fiftyDayAverage	19.6454
+fiftyDayAverageChange	4.1546
+fiftyDayAverageChangePercent	0.21147954
+fiftyTwoWeekChangePercent	122.22223
 fiftyTwoWeekHigh	26.73
-fiftyTwoWeekHighChange	-2.9899998
-fiftyTwoWeekHighChangePercent	-0.11185933
-fiftyTwoWeekLow	10.14
-fiftyTwoWeekLowChange	13.599999
-fiftyTwoWeekLowChangePercent	1.3412228
-fiftyTwoWeekRange	10.14 - 26.73
+fiftyTwoWeekHighChange	-2.9300003
+fiftyTwoWeekHighChangePercent	-0.10961468
+fiftyTwoWeekLow	10.3
+fiftyTwoWeekLowChange	13.499999
+fiftyTwoWeekLowChangePercent	1.3106794
+fiftyTwoWeekRange	10.3 - 26.73
 financialCurrency	JPY
 firstTradeDateMilliseconds	386519400000
 fiveYearAvgDividendYield	1.65
 floatShares	1897793476
 forwardEps	0.77
-forwardPE	30.83117
+forwardPE	30.90909
 freeCashflow	35036000256
 fullExchangeName	OTC Markets OTCPK
 fullTimeEmployees	106545
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	36.77
+graham_intrinsic_value	36.69
 grossMargins	0.31276
 grossProfits	783403974656
 hasPrePostMarketData	False
@@ -98,42 +98,42 @@ lastSplitFactor	5:1
 longBusinessSummary	TDK Corporation, together with its subsidiaries, engages in the manufacture and sale of electronic components in Japan, Europe, China, Asia, the Americas, and internationally. The company operates through Passive Components, Sensor Application Products, Magnetic Application Products, Energy Application Products, and Others segments. The Passive Components segment offers ceramic capacitors, aluminum electrolytic capacitors, film capacitors, high-frequency components, piezoelectric material products, and circuit protection components, as well as inductive devices, including ferrite cores, coils, and transformers. The Sensor Application Products segment provides temperature and pressure, magnetic, and MEMS sensors. The Magnetic Application Products segment offers hard disk drives heads, HDD suspension assemblies, and magnets. The Energy Application Products segment provides energy devices comprising rechargeable batteries and power supplies. The Other segment offers mechatronics production equipment and camera module micro actuators for smartphones and other products. It also engages in the provision of insurance and real estate agency services; research and development of semiconductor products; and development, manufacture, and sale of rechargeable battery cells. Its products are used in information and communication technology, automotive, micromobility, industrial and energy, consumer electronics/home appliances, and medical and healthcare applications. The company was formerly known as Tokyo Denki Kagaku Kogyo K.K. and changed its name to TDK Corporation in 1983. TDK Corporation was founded in 1935 and is headquartered in Tokyo, Japan.
 longName	TDK Corporation
 market	us_market
-marketCap	45061857280
+marketCap	45175746560
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_315963
 mostRecentQuarter	1774915200
 netIncomeToCommon	195663003648
 nextFiscalYearEnd	1806451200
-nonDilutedMarketCap	46346758479
+nonDilutedMarketCap	45315844765
 numberOfAnalystOpinions	1
-open	23.86
+open	24.27
 operatingCashflow	507672002560
 operatingMargins	0.06449
 payoutRatio	0.1478
-pegRatio	1.93
+pegRatio	2.06
 phone	81 3 6778 1000
-previousClose	24.5
+previousClose	23.74
 priceHint	2
-priceToBook	3.3016605
-priceToSalesTrailing12Months	0.017990058
+priceToBook	3.3100052
+priceToSalesTrailing12Months	0.018035525
 profitMargins	0.07811
 quickRatio	1.034
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
-recommendationKey	strong_buy
+recommendationKey	none
 recommendationMean	1.0
 region	US
-regularMarketChange	-0.7600002
-regularMarketChangePercent	-3.1020417
-regularMarketDayHigh	23.99
-regularMarketDayLow	23.67
-regularMarketDayRange	23.67 - 23.99
-regularMarketOpen	23.86
-regularMarketPreviousClose	24.5
-regularMarketPrice	23.74
-regularMarketTime	1781639991
-regularMarketVolume	40584
+regularMarketChange	0.059999466
+regularMarketChangePercent	0.25273573
+regularMarketDayHigh	24.4
+regularMarketDayLow	24.25
+regularMarketDayRange	24.25 - 24.4
+regularMarketOpen	24.27
+regularMarketPreviousClose	23.74
+regularMarketPrice	23.8
+regularMarketTime	1781726400
+regularMarketVolume	31854
 returnOnAssets	0.0428
 returnOnEquity	0.09922
 revenueGrowth	0.21
@@ -160,15 +160,15 @@ totalDebt	615969980416
 totalRevenue	2504819998720
 tradeable	False
 trailingAnnualDividendRate	36.0
-trailingAnnualDividendYield	1.4693878
+trailingAnnualDividendYield	1.516428
 trailingEps	0.64
-trailingPE	37.09375
-trailingPegRatio	2.1245
+trailingPE	37.1875
+trailingPegRatio	2.0646
 triggerable	False
-twoHundredDayAverage	15.72235
-twoHundredDayAverageChange	8.01765
-twoHundredDayAverageChangePercent	0.50995237
+twoHundredDayAverage	15.8291
+twoHundredDayAverageChange	7.9708996
+twoHundredDayAverageChangePercent	0.5035599
 typeDisp	Equity
-volume	40584
+volume	31854
 website	https://www.tdk.com/en/index.html
 zip	103-6128
