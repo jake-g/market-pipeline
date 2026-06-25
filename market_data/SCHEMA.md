@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.13262439 |
+| Value | str | 0.09811783 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-19 |
+| Date | str | 2026-06-25 |
 | Source | str | Google |
-| Sentiment | float64 | 0.2 |
-| Headline | str | Don’t Wait: These 100+ Early Amazon Prime Day T... |
-| Summary | str | The cloud giant's homegrown AI chips have remai... |
-| URL | str | https://news.google.com/rss/articles/CBMilAFBVV... |
+| Sentiment | float64 | 1.0 |
+| Headline | str | The 43 best deals on kitchen essentials during ... |
+| Summary | str | Walmart-backed Flipkart has crossed 1,000 micro... |
+| URL | str | https://news.google.com/rss/articles/CBMikgFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -89,5 +89,5 @@ This report documents the file structures and column data types used in `market_
 | RECESSION_PROB | float64 | 0.44 |
 | CPI | float64 | 333.979 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.2 |
-| US10Y | float64 | 4.49 |
+| US02Y | float64 | 4.16 |
+| US10Y | float64 | 4.5 |
