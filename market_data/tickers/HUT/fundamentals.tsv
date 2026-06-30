@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	5.93639
-SandP52WeekChange	0.22662401
+52WeekChange	5.358602
+SandP52WeekChange	0.19911206
 address1	1101 Brickell Avenue
 address2	Suite N-1500
 allTimeHigh	140.8
 allTimeLow	1.845
-ask	151.84
-askSize	1
+ask	143.97
+askSize	2
 auditRisk	9
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	3796580
-averageDailyVolume3Month	4776981
-averageVolume	4776981
-averageVolume10days	3796580
+averageDailyVolume10Day	4615880
+averageDailyVolume3Month	4815280
+averageVolume	4815280
+averageVolume10days	4615880
 beta	6.044
-bid	88.93
+bid	105.0
 bidSize	1
 boardRisk	3
 bookValue	12.26
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	120.51
+currentPrice	118.27
 currentRatio	0.858
 customPriceAlertConfidence	HIGH
-dateShortInterest	1780012800
-dayHigh	124.25
-dayLow	111.11
+dateShortInterest	1781481600
+dayHigh	126.4585
+dayLow	111.25
 debtToEquity	25.022
 discount_to_intrinsic_value	55.19
 displayName	Hut 8
@@ -45,12 +45,12 @@ earningsTimestampEnd	1786019400
 earningsTimestampStart	1786019400
 ebitda	-417116000
 ebitdaMargins	-1.46707
-enterpriseToEbitda	-33.904
-enterpriseToRevenue	49.74
-enterpriseValue	14141948928
+enterpriseToEbitda	-33.264
+enterpriseToRevenue	48.801
+enterpriseValue	13875100672
 epsCurrentYear	0.59
 epsForward	-1.8575
-epsTrailingTwelveMonths	-2.82
+epsTrailingTwelveMonths	-2.71
 eps_normalized_growth	97.13308780376735
 esgPopulated	False
 exchange	NMS
@@ -58,22 +58,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	99.5419
-fiftyDayAverageChange	20.968102
-fiftyDayAverageChangePercent	0.21064599
-fiftyTwoWeekChangePercent	593.639
+fiftyDayAverage	104.4616
+fiftyDayAverageChange	13.808395
+fiftyDayAverageChangePercent	0.13218632
+fiftyTwoWeekChangePercent	535.8602
 fiftyTwoWeekHigh	140.8
-fiftyTwoWeekHighChange	-20.29
-fiftyTwoWeekHighChangePercent	-0.14410512
-fiftyTwoWeekLow	17.03
-fiftyTwoWeekLowChange	103.48
-fiftyTwoWeekLowChangePercent	6.076336
-fiftyTwoWeekRange	17.03 - 140.8
+fiftyTwoWeekHighChange	-22.530006
+fiftyTwoWeekHighChangePercent	-0.16001424
+fiftyTwoWeekLow	17.87
+fiftyTwoWeekLowChange	100.399994
+fiftyTwoWeekLowChangePercent	5.6183543
+fiftyTwoWeekRange	17.87 - 140.8
 financialCurrency	USD
 firstTradeDateMilliseconds	1520519400000
 floatShares	86843839
 forwardEps	-1.8575
-forwardPE	-64.877525
+forwardPE	-63.6716
 freeCashflow	-300598368
 fullExchangeName	NasdaqGS
 fullTimeEmployees	248
@@ -83,8 +83,8 @@ graham_intrinsic_value	122.33
 grossMargins	0.59671
 grossProfits	169656992
 hasPrePostMarketData	True
-heldPercentInsiders	0.09340999
-heldPercentInstitutions	0.80469
+heldPercentInsiders	0.08545999
+heldPercentInstitutions	0.73627
 impliedSharesOutstanding	112594112
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -98,30 +98,30 @@ lastSplitFactor	1:5
 longBusinessSummary	Hut 8 Corp., together with its subsidiaries, operates as an energy infrastructure platform that integrates power, digital infrastructure, and compute at scale to fuel energy-intensive use cases in the United States and Canada. It operates through Power, Digital Infrastructure, Compute, and Other segments. The company offers managed services for energy infrastructure development, such as site design, procurement, and construction management; software automation, process design, personnel hiring, and team training; utilities contracts, hosting operations, and customer management; energy portfolio optimization and strategic initiatives; and finance, accounting, and safety services. It also engages in the operation of compute infrastructure; and provision, hosting, monitoring, troubleshooting, repair, maintenance, and sale of mining equipment. In addition, the company offers Bitcoin mining; data center and cloud infrastructure services, including colocation services; and ASIC compute, traditional cloud, and AI cloud services. Hut 8 Corp. was founded in 2020 and is based in Miami, Florida.
 longName	Hut 8 Corp.
 market	us_market
-marketCap	13568716800
+marketCap	13316505600
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_1681582210
 mostRecentQuarter	1774915200
 netIncomeToCommon	-311396992
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	13622761610
+nonDilutedMarketCap	13851327658
 numberOfAnalystOpinions	17
-open	113.07
+open	125.26
 operatingCashflow	-132599000
 operatingMargins	-5.21523
 overallRisk	6
 payoutRatio	0.0
 phone	305 224 6427
-postMarketChange	0.48999786
-postMarketChangePercent	0.4066035
-postMarketPrice	121.0
-postMarketTime	1782259196
-previousClose	121.04
-priceEpsCurrentYear	204.25426
+postMarketChange	0.73000336
+postMarketChangePercent	0.6172346
+postMarketPrice	119.0
+postMarketTime	1782777360
+previousClose	123.02
+priceEpsCurrentYear	200.45763
 priceHint	2
-priceToBook	9.829527
-priceToSalesTrailing12Months	47.7234
+priceToBook	9.646818
+priceToSalesTrailing12Months	46.83633
 profitMargins	-1.09774
 quickRatio	0.662
 quoteSourceName	Nasdaq Real Time Price
@@ -129,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.29412
 region	US
-regularMarketChange	-0.529999
-regularMarketChangePercent	-0.437871
-regularMarketDayHigh	124.25
-regularMarketDayLow	111.11
-regularMarketDayRange	111.11 - 124.25
-regularMarketOpen	113.07
-regularMarketPreviousClose	121.04
-regularMarketPrice	120.51
-regularMarketTime	1782244801
-regularMarketVolume	3378429
+regularMarketChange	-4.75
+regularMarketChangePercent	-3.86116
+regularMarketDayHigh	126.4585
+regularMarketDayLow	111.25
+regularMarketDayRange	111.25 - 126.4585
+regularMarketOpen	125.26
+regularMarketPreviousClose	123.02
+regularMarketPrice	118.27
+regularMarketTime	1782763201
+regularMarketVolume	3874445
 returnOnAssets	-0.16219
 returnOnEquity	-0.27396
 revenueGrowth	2.255
@@ -148,17 +148,17 @@ sectorDisp	Financial Services
 sectorKey	financial-services
 shareHolderRightsRisk	2
 sharesOutstanding	112594112
-sharesPercentSharesOut	0.1424
-sharesShort	16028815
-sharesShortPreviousMonthDate	1777507200
-sharesShortPriorMonth	17179224
+sharesPercentSharesOut	0.1183
+sharesShort	13324971
+sharesShortPreviousMonthDate	1778803200
+sharesShortPriorMonth	15638390
 shortName	Hut 8 Corp.
-shortPercentOfFloat	0.157
-shortRatio	3.05
+shortPercentOfFloat	0.1305
+shortRatio	3.18
 sourceInterval	15
 state	FL
 symbol	HUT
-syntheticPEG	-0.010800680062595725
+syntheticPEG	-0.010599920090564027
 targetHighPrice	226.0
 targetLowPrice	70.0
 targetMeanPrice	126.94118
@@ -170,14 +170,14 @@ totalRevenue	284320000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-2.82
+trailingEps	-2.71
 trailingPE	28.552084
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	60.25265
-twoHundredDayAverageChange	60.25735
-twoHundredDayAverageChangePercent	1.000078
+twoHundredDayAverage	62.54695
+twoHundredDayAverageChange	55.723045
+twoHundredDayAverageChangePercent	0.8908995
 typeDisp	Equity
-volume	3378429
+volume	3874445
 website	https://www.hut8.com
 zip	33131

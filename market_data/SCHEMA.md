@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.09811783 |
+| Value | str | 0.09458041 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-06-25 |
-| Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | The 43 best deals on kitchen essentials during ... |
-| Summary | str | Walmart-backed Flipkart has crossed 1,000 micro... |
-| URL | str | https://news.google.com/rss/articles/CBMikgFBVV... |
+| Date | str | 2026-06-30 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.467 |
+| Headline | str | Not Even Musk Has The Answer To AI’s Power Shor... |
+| Summary | str | Tech giants are struggling to secure the power ... |
+| URL | str | https://finance.yahoo.com/energy/articles/not-e... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -83,11 +83,11 @@ This report documents the file structures and column data types used in `market_
 | TECH_PULSE | float64 | 94.0431 |
 | CHINA_IMPORTS | float64 | 19789.1639 |
 | TARIFFS | float64 | 346.15 |
-| GDP | float64 | 31819.464 |
+| GDP | float64 | 31865.721 |
 | UNRATE | float64 | 4.3 |
 | HOUSING_STARTS | float64 | 1177.0 |
 | RECESSION_PROB | float64 | 0.44 |
 | CPI | float64 | 333.979 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.16 |
-| US10Y | float64 | 4.5 |
+| US02Y | float64 | 4.07 |
+| US10Y | float64 | 4.38 |
