@@ -295,6 +295,13 @@ def verify_yahoo_auth(cookie: str,
     if r.status_code in (401, 403):
       logger.error("Yahoo Auth Failed - HTTP %d. Credentials likely stale.",
                    r.status_code)
+      logger.error("To update credentials:")
+      logger.error("  1. Visit: https://finance.yahoo.com/portfolio/")
+      logger.error("  2. Open DevTools (Network tab) and filter for:")
+      logger.error("     'portfolio'")
+      logger.error("  3. Right-click the 'portfolio' request -> Copy")
+      logger.error("     -> Copy as cURL")
+      logger.error("  4. Run 'make yahoo-creds' to update them.")
       return False
     if r.status_code == 200:
       logger.info("✅ Yahoo Auth Test Passed (HTTP 200)")
@@ -406,14 +413,49 @@ def main():
       pass
 
   if args.check_auth:
-    if not cookie or not crumb:
-      logger.error("Yahoo Finance credentials missing in .env")
-      sys.exit(1)
-    if verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers):
+    has_creds = cookie and crumb
+    authed = False
+    if has_creds:
+      authed = verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers)
+
+    if authed:
       logger.info("✅ Yahoo Finance Auth Valid")
       sys.exit(0)
+
+    if not has_creds:
+      logger.error("Yahoo Finance credentials missing in .env")
+      logger.error("To configure credentials:")
     else:
       logger.error("❌ Yahoo Finance Auth Expired or Invalid")
+      logger.error("To update credentials:")
+
+    logger.error("  1. Visit: https://finance.yahoo.com/portfolio/")
+    logger.error("  2. Open DevTools (Network tab) and filter for:")
+    logger.error("     'portfolio'")
+    logger.error("  3. Right-click the 'portfolio' request -> Copy")
+    logger.error("     -> Copy as cURL")
+    logger.error("  4. Run 'make yahoo-creds' to update them.")
+
+    if sys.stdin.isatty():
+      logger.info("\n🔄 Interactive session detected. Starting update flow...")
+      prompt_for_curl_and_save_env(env_path)
+      cookie = os.environ.get("YF_COOKIE")
+      crumb = os.environ.get("YF_CRUMB")
+      headers_str = os.environ.get("YF_HEADERS")
+      custom_headers = None
+      if headers_str:
+        try:
+          custom_headers = json.loads(headers_str)
+        except Exception:
+          pass
+      if (cookie and crumb and
+          verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers)):
+        logger.info("✅ Yahoo Finance Auth Valid after update")
+        sys.exit(0)
+      else:
+        logger.error("❌ Yahoo Finance Auth still invalid after update.")
+        sys.exit(1)
+    else:
       sys.exit(1)
   json_cache_path = os.path.join(os.path.dirname(__file__), "portfolio.json")
 
