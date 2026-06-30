@@ -5,6 +5,14 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.7.0] - 2026-06-29
+### Pipeline Optimization & Interactive Auth
+- **Yahoo Finance Auth**: Added interactive TTY credential recovery flow (`prompt_for_curl_and_save_env`) to recover stale sessions inline without exiting the pipeline.
+- **AlphaVantage Caching**: Implemented a **30-day** cache expiry for slow-changing AlphaVantage data (Overview and Financials), keeping Yahoo Finance data on a 24-hour cycle. This preserves the rich dataset while eliminating 40+ minutes of daily API overhead.
+- **Parallel RSS News**: Refactored news fetching to use a `ThreadPoolExecutor` with 8 workers, staggered random delays to prevent IP bans, and a cache pre-check, reducing news ingestion time from 1.5 hours to under 2 minutes.
+- **Pipeline Timing**: Added stage-level timers and logging to `run_fetch.sh`, `market_fetcher.py`, and `shipping_fetcher.py` for precise runtime tracking.
+- **Bug Fixes**: Resolved a pylint `redefined-outer-name` warning in `shipping_fetcher.py`.
+
 ## [v1.6.0] - 2026-03-17
 ### Shipping Data Enhancements & Global Logistics Tracking
 - **Shipping & Tariff APIs**: Added dedicated shipping fetch code (`shipping_fetcher.py`) to pull tariff and maritime chokepoint metrics (`chokepoint_metrics.tsv`, `tariffs.tsv`, `shipping_macro.tsv`).

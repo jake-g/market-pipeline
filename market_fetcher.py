@@ -1,10 +1,13 @@
 """Market Fetcher Library"""
+from concurrent.futures import as_completed
+from concurrent.futures import ThreadPoolExecutor
 import datetime
 from difflib import SequenceMatcher
 import hashlib
 import logging
 import os
 from pathlib import Path
+import random
 import re
 import shutil
 import time
@@ -377,6 +380,9 @@ class MarketFetcher:
     content = self._load_cache(cache_key, expiry_seconds=actual_expiry)
     if content:
       return content
+
+    # Add a small random jitter to stagger requests and avoid IP bans
+    time.sleep(random.uniform(0.2, 0.8))
 
     try:
       # Use a proper User-Agent
@@ -927,148 +933,152 @@ class MarketFetcher:
 
     return total_added
 
+  def _update_single_ticker_news(self, ticker: str, feeds: Dict[str, str],
+                                 limit: int, cutoff: datetime.datetime,
+                                 include_alphavantage: bool) -> None:
+    """Updates news log for a single ticker (TSV)."""
+    ticker_path = self.get_ticker_path(ticker)
+    seen_links: Set[str] = set()
+    tsv_file = ticker_path / NEWS_FILENAME
+
+    if tsv_file.exists():
+      try:
+        existing_df = pd.read_csv(tsv_file, sep='\t')
+        if 'URL' in existing_df.columns:
+          seen_links = set(existing_df['URL'].astype(str))
+      except Exception as e:
+        self.logger.warning(f"Error reading existing news for {ticker}: {e}")
+
+    cached_fresh = []
+
+    for src_name, url_template in feeds.items():
+      try:
+        safe_term = urllib.parse.quote(ticker)
+        url = url_template.format(term=safe_term)
+
+        raw_content = self._fetch_rss_content(url, src_name, ticker)
+        if not raw_content:
+          continue
+
+        feed = feedparser.parse(raw_content)
+
+        for entry in feed.entries[:limit]:
+          pub_dt = datetime.datetime.now()
+          if hasattr(entry, 'published_parsed') and entry.published_parsed:
+            pub_dt = datetime.datetime(*entry.published_parsed[:6])
+
+          if pub_dt < cutoff:
+            continue
+
+          summary_text = getattr(entry, 'summary', '').replace('\n',
+                                                               ' ').strip()
+          if src_name == "Google":
+            summary_text = ""
+          else:
+            summary_text = re.sub(r'<[^>]+>', '', summary_text).strip()[:500]
+
+          text_for_sentiment = entry.title + " " + summary_text
+          sentiment_score = self.get_sentiment_score(text_for_sentiment)
+
+          cached_fresh.append({
+              'date': pub_dt,
+              'date_str': pub_dt.strftime('%Y-%m-%d'),
+              'source': src_name,
+              'title': entry.title.replace('\n', ' ').strip(),
+              'link': entry.link,
+              'sentiment': sentiment_score,
+              'summary': summary_text,
+          })
+
+      except Exception as e:
+        self.logger.warning(
+            f"Error processing feed {src_name} for {ticker}: {e}")
+        continue
+
+    if include_alphavantage and self._av_keys:
+      av_items = self._fetch_alphavantage_news(ticker, limit)
+      if av_items:
+        cached_fresh.extend(av_items)
+
+    new_unique = []
+    for item in cached_fresh:
+      link = item.get('link') or item.get('URL')
+      if link is not None and link not in seen_links:
+        seen_links.add(str(link))
+        new_unique.append(item)
+
+    if not new_unique:
+      return
+
+    try:
+      new_unique.sort(key=lambda x: x.get('date', datetime.datetime.min),
+                      reverse=True)
+    except Exception as e:
+      self.logger.warning(f"Error sorting news items for {ticker}: {e}")
+
+    for item in new_unique:
+      if 'sentiment' not in item:
+        text_for_score = str(item.get('title', ''))
+        if item.get('summary'):
+          text_for_score += " " + str(item.get('summary'))
+        item['sentiment'] = self.get_sentiment_score(text_for_score)
+      if 'summary' not in item:
+        item['summary'] = ''
+
+    self._save_news_tsv(ticker, new_unique)
+
+  def _is_ticker_news_cached(self, ticker: str, feeds: Dict[str, str]) -> bool:
+    """Checks if the news feeds for a ticker are already cached and fresh."""
+    for src_name, url_template in feeds.items():
+      safe_term = urllib.parse.quote(ticker)
+      url = url_template.format(term=safe_term)
+      url_hash = hashlib.md5(url.encode()).hexdigest()
+      cache_key = f"rss_raw_{src_name}_{ticker}_{url_hash}"
+      path = self._get_cache_path(cache_key)
+      if not path.exists():
+        return False
+      timestamp = path.stat().st_mtime
+      if time.time() - timestamp >= config.CACHE_EXPIRY_NEWS:
+        return False
+    return True
+
   def update_news(self,
                   tickers: List[str],
                   feeds: Optional[Dict[str, str]] = None,
                   limit: int = config.DEFAULT_NEWS_LIMIT,
                   days_back: int = config.DEFAULT_NEWS_DAYS,
                   include_alphavantage: bool = False) -> None:
-    """Updates news log (TSV, Newest on Top)"""
+    """Updates news log (TSV, Newest on Top) in parallel."""
     self.logger.info(f"Updating news for {len(tickers)} tickers...")
     if feeds is None:
       feeds = DEFAULT_NEWS_FEEDS
 
-    for ticker in tqdm(tickers, desc="RSS News"):
-      ticker_path = self.get_ticker_path(ticker)
+    cutoff = datetime.datetime.now() - datetime.timedelta(days=days_back)
 
-      # Scrape Benzinga explicitly (Disabled by default / Stubbed)
-      bz_items: List[Dict[str, Any]] = []
+    def _process_ticker(ticker):
+      self._update_single_ticker_news(ticker, feeds, limit, cutoff,
+                                      include_alphavantage)
 
-      # Read all existing entries
-      seen_links: Set[str] = set()
-      tsv_file = ticker_path / NEWS_FILENAME
+    # Separate cached vs uncached tickers to avoid thread/network overhead
+    cached_tickers = [
+        t for t in tickers if self._is_ticker_news_cached(t, feeds)
+    ]
+    uncached_tickers = [t for t in tickers if t not in cached_tickers]
 
-      if tsv_file.exists():
-        try:
-          existing_df = pd.read_csv(tsv_file, sep='\t')
-          if 'URL' in existing_df.columns:
-            seen_links = set(existing_df['URL'].astype(str))
-        except Exception as e:
-          self.logger.warning(f"Error reading existing news for {ticker}: {e}")
+    if cached_tickers:
+      for t in tqdm(cached_tickers, desc="RSS News (Cached)"):
+        _process_ticker(t)
 
-      # Fetch New
-      cached_fresh = []
-
-      cutoff = datetime.datetime.now() - datetime.timedelta(days=days_back)
-
-      for src_name, url_template in feeds.items():
-        try:
-          safe_term = urllib.parse.quote(ticker)
-          url = url_template.format(term=safe_term)
-
-          # Fetch Raw (Cached)
-          raw_content = self._fetch_rss_content(url, src_name, ticker)
-          if not raw_content:
-            continue
-
-          # Parse with feedparser (it handles raw strings too)
-          feed = feedparser.parse(raw_content)
-
-          for entry in feed.entries[:limit]:
-            pub_dt = datetime.datetime.now()
-            if hasattr(entry, 'published_parsed') and entry.published_parsed:
-              pub_dt = datetime.datetime(*entry.published_parsed[:6])
-
-            if pub_dt < cutoff:
-              continue
-
-            # Robust field extraction
-            content = getattr(entry, 'summary', '') or getattr(
-                entry, 'description', '')
-
-            # Cleaning
-            summary_text = getattr(entry, 'summary', '').replace('\n',
-                                                                 ' ').strip()
-
-            if src_name == "Google":
-              summary_text = ""
-            else:
-              summary_text = re.sub(r'<[^>]+>', '', summary_text).strip()[:500]
-
-            # Calculate Sentiment
-            # Combine title + summary for coverage
-            text_for_sentiment = entry.title + " " + summary_text
-            sentiment_score = self.get_sentiment_score(text_for_sentiment)
-
-            # Optional: Extract full content (often in 'content' or 'summary_detail')
-            # full_content = ""
-            # if hasattr(entry, 'content'):
-            #     # entry.content is a list of dicts, e.g. [{'type': 'text/html', 'value': '...'}]
-            #     full_content = "\n".join([c.get('value', '') for c in entry.content])
-
-            # Optional: Extract Author (RSS feeds rarely provide this structured)
-            # author = getattr(entry, 'author', '')
-
-            # Optional: Extract Tags (RSS feeds rarely provide this structured)
-            # tags = [t.term for t in getattr(entry, 'tags', [])]
-
-            cached_fresh.append({
-                'date': pub_dt,
-                'date_str': pub_dt.strftime('%Y-%m-%d'),
-                'source': src_name,
-                'title': entry.title.replace('\n', ' ').strip(),
-                'link': entry.link,
-                'sentiment': sentiment_score,
-                'summary': summary_text,
-                # 'author': author,
-                # 'tags': ",".join(tags),
-                # 'content': full_content, # Too large/noisy for effective TSV storage
-            })
-
-        except Exception as e:
-          self.logger.warning(
-              f"Error processing feed {src_name} for {ticker}: {e}")
-          continue
-
-      # Optional: Fetch AlphaVantage
-      if include_alphavantage and self._av_keys:
-        av_items = self._fetch_alphavantage_news(ticker, limit)
-        if av_items:
-          cached_fresh.extend(av_items)
-
-      # Merge New Unique
-      new_unique = []
-      for item in cached_fresh:
-        # Legacy/New key mapping if needed
-        link = item.get('link') or item.get('URL')
-        if link is not None and link not in seen_links:
-          seen_links.add(str(link))
-          new_unique.append(item)
-
-      if not new_unique:
-        continue
-
-      # Sort everything by Date Descending
-      # Handle mixed types for sorting if mostly datetime objects
-      try:
-        new_unique.sort(key=lambda x: x.get('date', datetime.datetime.min),
-                        reverse=True)
-      except Exception as e:
-        self.logger.warning(f"Error sorting news items for {ticker}: {e}")
-
-      # Save to TSV
-      # Ensure sentiment and summary exist and keys match standard
-      for item in new_unique:
-        if 'sentiment' not in item:
-          # Use Title + Summary for score
-          text_for_score = str(item.get('title', ''))
-          if item.get('summary'):
-            text_for_score += " " + str(item.get('summary'))
-          item['sentiment'] = self.get_sentiment_score(text_for_score)
-        if 'summary' not in item:
-          item['summary'] = ''
-
-      self._save_news_tsv(ticker, new_unique)
+    if uncached_tickers:
+      # Safe concurrent worker limit to prevent IP bans/throttling
+      with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {
+            executor.submit(_process_ticker, t): t for t in uncached_tickers
+        }
+        for _ in tqdm(as_completed(futures),
+                      total=len(futures),
+                      desc="RSS News (Fetching)"):
+          pass
 
     # Finally, update daily sentiment aggregation
     self.update_daily_sentiment(tickers)
@@ -1218,9 +1228,9 @@ class MarketFetcher:
 
           cache_key = f"av_{func}_{ticker}"
           data = self._load_cache(
-              cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+              cache_key, expiry_seconds=config.CACHE_EXPIRY_AV_FINANCIALS)
 
-          if not data:
+          if data is None:
             # Simple retry/fetch logic
             max_retries = len(self._av_keys) if self._av_keys else 1
             if max_retries > 5:
@@ -1405,6 +1415,9 @@ class MarketFetcher:
     if df.empty or len(df) < 2:
       return df
 
+    # Reset index to ensure unique integer index for dropping
+    df = df.reset_index(drop=True)
+
     # Helper to calculate quality score
     def calc_quality(row):
       score = 0
@@ -1576,7 +1589,7 @@ class MarketFetcher:
 
             cache_key = f"av_overview_{ticker}"
             overview = self._load_cache(
-                cache_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
+                cache_key, expiry_seconds=config.CACHE_EXPIRY_AV_OVERVIEW)
 
             if overview is None:
               for _ in range(max_retries):

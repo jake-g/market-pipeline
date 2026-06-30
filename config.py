@@ -140,14 +140,28 @@ SECTORS = {
 }
 # yapf: enable
 
-# Cache
+# Cache Directory
 CACHE_DIR = ".cache"
+
+# Price and portfolio data
 CACHE_EXPIRY_PRICES = 3600  # 1 hour
+CACHE_YAHOO_PORTFOLIO_HOURS = 1  # 1 hour
+
+# News RSS feeds
 CACHE_EXPIRY_NEWS = 14400  # 4 hours
-CACHE_EXPIRY_HISTORICAL_NEWS = 31536000 * 4  # 4 years
+
+# Daily/weekly datasets (Yahoo, AIS, SEC, FRED)
 CACHE_EXPIRY_FUNDAMENTALS = 86400  # 24 hours
+CACHE_EXPIRY_SHIPPING = 86400  # 24 hours
 CACHE_EXPIRY_INSIDER = 86400 * 2  # 48 hours
 CACHE_EXPIRY_MACRO = 86400 * 2  # 48 hours
-CACHE_EXPIRY_SHIPPING = 86400  # 24 hours
-CACHE_YAHOO_PORTFOLIO_HOURS = 1  # Yahoo Portfolios
-MAX_PORTFOLIO_AGE_DAYS = 3  # Max age for analysis triggering failures
+
+# Slow-changing corporate filings (30 days to avoid AlphaVantage rate limits)
+CACHE_EXPIRY_AV_OVERVIEW = 2592000  # 30 days
+CACHE_EXPIRY_AV_FINANCIALS = 2592000  # 30 days
+
+# Long-term archives
+CACHE_EXPIRY_HISTORICAL_NEWS = 31536000 * 4  # 4 years
+
+# Max age before triggering pipeline failures
+MAX_PORTFOLIO_AGE_DAYS = 3
