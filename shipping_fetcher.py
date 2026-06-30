@@ -763,8 +763,20 @@ if __name__ == "__main__":
                       help="Fetch deep history")
   args = parser.parse_args()
 
+  fetcher_start_time = time.time()
+
+  t0 = time.time()
   shipping_fetcher = ShippingFetcher()
   shipping_fetcher.generate_daily_shipping_report()
+  print(
+      f"⏱️  [Shipping] Daily shipping report generated in {int(time.time() - t0)}s"
+  )
 
+  t0 = time.time()
   tariff_fetcher = TariffFetcher()
   tariff_fetcher.generate_tariff_report(backfill=args.backfill)
+  print(f"⏱️  [Shipping] Tariff report generated in {int(time.time() - t0)}s")
+
+  print(
+      f"🏁 Total Shipping Fetcher execution time: {int(time.time() - fetcher_start_time)}s"
+  )

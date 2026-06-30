@@ -2238,23 +2238,35 @@ def main():
     sorted_tickers = sorted_tickers[:args.limit_tickers]
 
   # Pipeline
+  start_time = time.time()
+
   # 1. Macro
   if not args.tickers:
+    t0 = time.time()
     fetcher.update_macro()
+    print(f"⏱️  [Stage 1/7] Macro updated in {int(time.time() - t0)}s")
 
   # 2. Prices
+  t0 = time.time()
   fetcher.update_prices(sorted_tickers, start_date=config.DEFAULT_START_DATE)
+  print(f"⏱️  [Stage 2/7] Prices updated in {int(time.time() - t0)}s")
 
   # 3. Fundamentals & Earnings
+  t0 = time.time()
   fetcher.update_fundamentals(sorted_tickers,
                               include_alphavantage=config.ENABLE_ALPHA_VANTAGE)
+  print(f"⏱️  [Stage 3/7] Fundamentals updated in {int(time.time() - t0)}s")
 
   # 4. Financials (Row-Based)
+  t0 = time.time()
   fetcher.update_financials(sorted_tickers,
                             include_alphavantage=config.ENABLE_ALPHA_VANTAGE)
+  print(f"⏱️  [Stage 4/7] Financials updated in {int(time.time() - t0)}s")
 
   # 5. Insider Trading (SEC)
+  t0 = time.time()
   fetcher.update_insider_trading(sorted_tickers, limit=args.insider_limit)
+  print(f"⏱️  [Stage 5/7] Insider Trading updated in {int(time.time() - t0)}s")
 
   # 6. News & Sentiment (Optional Topic Limits)
   if args.limit_topics:
@@ -2269,17 +2281,24 @@ def main():
 
   all_news_targets = sorted_tickers + config.NEWS_TOPICS
 
+  t0 = time.time()
   fetcher.update_news(all_news_targets,
                       limit=args.news_limit,
                       days_back=args.news_days,
                       include_alphavantage=config.ENABLE_ALPHA_VANTAGE)
+  print(f"⏱️  [Stage 6/7] News & Sentiment updated in {int(time.time() - t0)}s")
 
   print("\n✅ All updates complete.")
   print(f"📁 Database: {os.path.abspath(fetcher.data_dir)}")
 
   # 7. Schema & Stats Report
+  t0 = time.time()
   fetcher.generate_data_schema()
   fetcher.generate_data_stats()
+  print(f"⏱️  [Stage 7/7] Schema & Stats generated in {int(time.time() - t0)}s")
+  print(
+      f"🏁 Total Market Fetcher execution time: {int(time.time() - start_time)}s"
+  )
 
 
 if __name__ == "__main__":

@@ -4,44 +4,55 @@ set -e
 # Ensure logs directory exists
 mkdir -p logs
 
-start_time=$(date +%s)
+pipeline_start=$(date +%s)
 echo "📅 Start Time: $(date)"
 
-
 # Environment Setup
+t_start=$(date +%s)
 make setup
+echo "⏱️  [Pipeline] Setup completed in $(($(date +%s)-t_start))s."
 
-# Quick pre-flight Auth checks (Yahoo Finance & NotebookLM)
+# Pre-flight Auth checks
+t_start=$(date +%s)
 make test-auth
+echo "⏱️  [Pipeline] Auth checks completed in $(($(date +%s)-t_start))s."
 
-# Running Unit Tests (Fail-Fast before ingestion)
+# Running Unit Tests
+t_start=$(date +%s)
 make test-unit
+echo "⏱️  [Pipeline] Unit tests completed in $(($(date +%s)-t_start))s."
 
-# Market Fetcher (Daily/Current)
-t0=$(date +%s)
+# Market Fetcher
+t_start=$(date +%s)
 echo "📉 Running Market Fetcher (All Tickers)..."
-# Market fetcher takes approximately 1.5 hours (Prices ~1m, Fundamentals ~10m, Financials ~30m, News ~60m).
 python3 market_fetcher.py 2>&1 | tee logs/run_market_fetcher_full.log
-t1=$(date +%s)
-echo "✅ Market Fetcher finished in $((t1-t0))s."
+echo "⏱️  [Pipeline] Market Fetcher completed in $(($(date +%s)-t_start))s."
 
-# Shipping & Logistics Metrics (Bottenecks, Ais, Congestion)
-ts0=$(date +%s)
+# Shipping & Logistics Fetcher
+t_start=$(date +%s)
 echo "🚢 Running Shipping & Logistics Fetcher..."
 python3 shipping_fetcher.py 2>&1 | tee logs/run_shipping_fetcher.log
-ts1=$(date +%s)
-echo "✅ Shipping Fetcher finished in $((ts1-ts0))s."
+echo "⏱️  [Pipeline] Shipping Fetcher completed in $(($(date +%s)-t_start))s."
 
 # Update Portfolios
+t_start=$(date +%s)
 make portfolio
+echo "⏱️  [Pipeline] Portfolio Pipeline completed in $(($(date +%s)-t_start))s."
 
-# NotebookLM Summarization Tasks
+# NotebookLM News Sync
+t_start=$(date +%s)
 echo "🗄️ Syncing Daily Aggregate News to NotebookLM Archive (Market Feed)..."
 python3 reports/notebooklm_report.py --mode feed_upload 2>&1 | tee logs/sync_notebooklm_archive.log
+echo "⏱️  [Pipeline] NotebookLM News Sync completed in $(($(date +%s)-t_start))s."
 
+# 8. Periodic Reports
+t_start=$(date +%s)
 echo "🗂️ Generating Periodic Reports (Daily + Missing Weekly/Monthly)..."
 python3 reports/generate_periodic_reports.py 2>&1 | tee logs/generate_periodic_reports.log
+echo "⏱️  [Pipeline] Periodic Reports generation completed in $(($(date +%s)-t_start))s."
 
+# NotebookLM Reports Sync
+t_start=$(date +%s)
 echo "☁️ Syncing all rendered PDF reports to NotebookLM..."
 python3 reports/notebooklm_report.py --mode report_upload 2>&1 | tee logs/sync_notebooklm_reports.log
 
@@ -64,15 +75,19 @@ python3 reports/notebooklm_report.py --mode report_upload 2>&1 | tee logs/sync_n
 # echo "👉 Upload this file when prompted by the Colab notebook."
 
 # Generate static index for GitHub Pages
+t_start=$(date +%s)
 echo "🌐 Generating static index.json for dashboard..."
 python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
+echo "⏱️  [Pipeline] Dashboard Build completed in $(($(date +%s)-t_start))s."
 
-# Running Code Formatting & Validation at the end to clean up generated files
+# 11. Running Code Formatting & Validation at the end to clean up generated files
+t_start=$(date +%s)
 echo "🧹 Running Code Formatting & Validation..."
 make format
+echo "⏱️  [Pipeline] Formatting & Validation completed in $(($(date +%s)-t_start))s."
 
 end_time=$(date +%s)
-total_time=$((end_time-start_time))
+total_time=$((end_time-pipeline_start))
 
 echo "🎉 Full Pipeline Complete."
 echo "⏱️ Total Time: ${total_time}s"
