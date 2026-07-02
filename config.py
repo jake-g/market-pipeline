@@ -81,7 +81,7 @@ SECTORS = {
         "NVDA", "AMD", "INTC", "TSM", "ASML", "MU", "MPWR", "AVGO", "SMH",
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
-        "STM", "TTDKY", "TTMI", "SOXX", "XSD", "MUZ"
+        "STM", "TTDKY", "TTMI", "SOXX", "XSD", "SMHX", "MUZ"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
@@ -97,7 +97,7 @@ SECTORS = {
         "XOM", "CVX", "CCJ", "NEE", "XLE", "FSLR", "SHEL", "TTE", "BP", "COP",
         "EOG", "SLB", "HAL", "URA", "D", "ES", "VST", "CEG", "CNP", "SO",
         "GE", "GEV", "ETN", "PWR", "LIN", "WM", "VDE", "FENY", "VPU", "FUTY",
-        "NLR", "ENPH", "FLNC", "KULR"
+        "NLR", "ENPH", "FLNC", "KULR", "NXT"
     ],
     "Aerospace & Defense": [
         "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT", "RKLB", "SPCX"
@@ -117,7 +117,7 @@ SECTORS = {
     ],
     "Bio & MedTech": [
         "NVO", "LLY", "ISRG", "VRTX", "REGN", "SYK", "VHT", "AMGN", "ABBV",
-        "PFE", "MRK", "JNJ", "BSX", "MDT", "TMO", "MRNA", "PPH"
+        "PFE", "MRK", "JNJ", "BSX", "MDT", "TMO", "MRNA", "PPH", "OZEM"
     ],
     "Water & Desalination": [
         "AWK", "XYL", "CWCO", "AWX", "DD",
@@ -129,7 +129,7 @@ SECTORS = {
     "Broad Market & Intl ETFs": [
         "VOO", "VTI", "VTSAX", "SCHG", "VUG", "VIGAX", "SCHV", "VTV",
         "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM",
-        "VAW", "VXUS"
+        "VAW", "VXUS", "EWY"
     ],
     "Mutual Funds": [
         "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"
