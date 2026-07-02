@@ -420,15 +420,37 @@ class ShippingFetcher:
     today_str = datetime.date.today().strftime("%Y-%m-%d")
     self.logger.info("Gathering AIS data for %d chokepoints...",
                      len(chokepoints))
+
+    # Read existing metrics to carry forward last known valid data if live AIS stream is silent
+    last_known_metrics = {}
+    if self.shipping_out_file.exists():
+      try:
+        ex_df = pd.read_csv(self.shipping_out_file, sep='\t')
+        valid_ex = ex_df[ex_df['Vessel_Count'] > 0]
+        for p_name in chokepoints:
+          p_rows = valid_ex[valid_ex['Chokepoint_Name'] == p_name]
+          if not p_rows.empty:
+            last_known_metrics[p_name] = p_rows.iloc[0]
+      except Exception:
+        pass
+
     for point_name, params in tqdm(chokepoints.items(), desc="Shipping Data"):
       vessel_data = self.fetch_chokepoint_vessels(point_name, params)
-      if vessel_data:
-        vessel_count = len(vessel_data.get("data", []))
-      else:
-        vessel_count = 0
+      vessels = vessel_data.get("data", []) if vessel_data else []
+      vessel_count = len(vessels)
 
-      congestion = self.calculate_congestion_index(
-          vessel_data if vessel_data else {}, params['baseline'])
+      if vessel_count > 0:
+        congestion = self.calculate_congestion_index(vessel_data or {},
+                                                     params['baseline'])
+      elif point_name in last_known_metrics:
+        # Fallback to previous day's valid vessel count & congestion metric
+        prev_row = last_known_metrics[point_name]
+        vessel_count = int(prev_row['Vessel_Count'])
+        congestion = float(prev_row['Congestion_Index'])
+      else:
+        # Fallback to default historical baseline
+        vessel_count = int(params['baseline'])
+        congestion = 1.0
 
       rows.append({
           "Date": today_str,
