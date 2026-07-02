@@ -20,7 +20,7 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
   - **OHLCV Prices**: Daily history (Default: 2018+).
   - **News**: Recent aggregate (Yahoo, Google, Seeking Alpha) and historical backfill (FNSPID, 2010-2020).
   - **Fundamentals**: Key metrics (P/E, Market Cap) and Quarterly Financials.
-  - **Macro**: FRED Economic indicators (Inflation, PPI, US10Y).
+  - **Macroeconomic Indicators**: 52 FRED Economic & Geopolitical indicators (Currencies, Energy, R&D, Demographics, Food, Spreads, US/EU/Global Economic Policy Uncertainty, St. Louis & Kansas City Financial Stress Indices, Chicago Fed Activity).
   - **Insider Trading**: SEC Form 4 extraction via `sec-edgar-downloader`.
   - **Shipping & Global Logistics**: Maritime chokepoint congestion and macro tariff policies via AISStream and FRED.
   - **ML Sentiment**: AlphaVantage Sentiment scoring and Hybrid TextBlob fallbacks.

@@ -125,17 +125,77 @@ FRED_SERIES: Dict[str, str] = {
     "CHINA_IMPORTS": "IMPCH",  # US Imports from China
     "TARIFFS": "B235RC1Q027SBEA",  # US Customs Duties
 
-    # Growth & Labor
+    # Foreign Exchange & Global Currencies
+    "USD_INDEX": "DTWEXBGS",  # U.S. Dollar Broad Index
+    "USD_CNY": "DEXCHUS",  # Chinese Yuan to USD Rate
+    "USD_EUR": "DEXUSEU",  # USD to Euro Rate
+    "USD_JPY": "DEXJPUS",  # Japanese Yen to USD Rate
+
+    # Agriculture, Food Inflation & Commodities
+    "FOOD_CPI": "CPIUFDNS",  # CPI for Food & Groceries
+    "CORN_PRICE": "PMAIZMTUSDM",  # Global Corn & Grain Price
+    "WHEAT_PRICE": "PWHEAMTUSDM",  # Global Wheat Price
+    "SUGAR_PRICE": "PSUGAISAUSDM",  # Global Sugar Price
+
+    # Energy Transition & Power Grid Output
+    "WTI_CRUDE": "DCOILWTICO",  # Crude Oil Spot Price (WTI)
+    "NAT_GAS_PRICE":
+        "PNGASUSUSDM",  # US Natural Gas Spot Price (Data Centers/Power)
+    "COPPER_PRICE": "PCOPPUSDM",  # Global Copper Price (Grid & Semi Infra)
+    "ELECTRIC_POWER_INDEX":
+        "IPG22112S",  # Electric Power Generation & Grid Output Index
+
+    # Science, Technology & R&D Innovation
+    "RD_INVESTMENT": "Y006RC1Q027SBEA",  # Gross Domestic Investment in R&D
+
+    # Demographics, Health & Population Trends
+    "US_BIRTH_RATE": "SPDYNCBRTINUSA",  # Crude Birth Rate (per 1,000 people)
+    "LIFE_EXPECTANCY": "SPDYNLE00INUSA",  # Life Expectancy at Birth (Years)
+    "US_POPULATION": "POP",  # Total U.S. Population (Thousands)
+
+    # Prosperity, Wealth & Household Financial Health
+    "DISPOSABLE_INCOME": "DSPIC96",  # Real Disposable Personal Income
+    "HOUSEHOLD_NET_WORTH": "TNWBSHNO",  # U.S. Household & Nonprofit Net Worth
+    "CREDIT_CARD_DELINQUENCY":
+        "DRCLACBS",  # Credit Card Loan Delinquency Rate (%)
+
+    # Growth, Labor & Consumer Sentiment
     "GDP": "GDP",  # Gross Domestic Product
+    "REAL_GDP": "GDPC1",  # Real Gross Domestic Product (Inflation-Adjusted)
     "UNRATE": "UNRATE",  # Unemployment Rate
     "HOUSING_STARTS": "HOUST",  # Housing Starts
     "RECESSION_PROB": "RECPROUSM156N",  # Smoothed Recession Probability
+    "UMICH_SENTIMENT": "UMCSENT",  # U. Michigan Consumer Sentiment (From 1952)
+    "SAVINGS_RATE": "PSAVERT",  # Personal Saving Rate % (From 1959)
 
-    # Inflation & Rates
+    # Liquidity, Money Supply & Federal Reserve
+    "M2_MONEY": "M2SL",  # M2 Money Supply (From 1959)
+    "M2_VELOCITY": "M2V",  # Velocity of M2 Money Stock (From 1959)
+    "FED_ASSETS": "WALCL",  # Fed Total Assets / Balance Sheet (QE/QT)
+
+    # Inflation, Rates & Long-Term Credit Spreads
     "CPI": "CPIAUCSL",  # Consumer Price Index (All Items)
     "FEDFUNDS": "FEDFUNDS",  # Federal Funds Effective Rate
     "US02Y": "DGS2",  # 2-Year Treasury Yield
     "US10Y": "DGS10",  # 10-Year Treasury Yield
+    "US30Y": "DGS30",  # 30-Year Treasury Yield
+    "HY_SPREAD": "BAMLH0A0HYM2",  # High Yield Credit Market Stress Spread
+    "CORP_SPREAD": "BAMLC0A0CM",  # Corporate Investment Grade Credit Spread
+    "BAA_SPREAD": "BAA10Y",  # Moody's Baa Corporate Spread over 10Y (From 1986)
+    "AAA_SPREAD": "AAA10Y",  # Moody's Aaa Corporate Spread over 10Y (From 1983)
+
+    # Political Chaos, Geopolitical Risk & Systemic Stress Indices
+    "US_POLICY_UNCERTAINTY":
+        "USEPUINDXD",  # Daily US Economic Policy & Political Uncertainty
+    "EUROPE_POLICY_UNCERTAINTY":
+        "EUEPUINDXM",  # European Policy Uncertainty Index
+    "GLOBAL_POLICY_UNCERTAINTY":
+        "GEPUCURRENT",  # Global Policy & Trade Chaos Index
+    "ST_LOUIS_FIN_STRESS":
+        "STLFSI4",  # St. Louis Fed Financial Market Stress Index
+    "KANSAS_CITY_FIN_STRESS": "KCFSI",  # Kansas City Financial Stress Index
+    "CHICAGO_FED_ACTIVITY":
+        "CFNAI",  # Chicago Fed Coincident Prosperity/Activity Index
 }
 
 
@@ -1887,7 +1947,8 @@ class MarketFetcher:
           combined_fred = combined_fred.join(series, how='outer')
 
     if not combined_fred.empty:
-      combined_fred = combined_fred.sort_index().round(4)
+      # Forward fill missing lower-frequency data across daily dates
+      combined_fred = combined_fred.sort_index().ffill().round(4)
       combined_fred.to_csv(macro_file, sep='\t')
       self.logger.info("FRED data updated.")
 
