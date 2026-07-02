@@ -34,6 +34,12 @@ echo "🚢 Running Shipping & Logistics Fetcher..."
 python3 shipping_fetcher.py 2>&1 | tee logs/run_shipping_fetcher.log
 echo "⏱️  [Pipeline] Shipping Fetcher completed in $(($(date +%s)-t_start))s."
 
+# Generate Macro & Shipping Reports
+t_start=$(date +%s)
+echo "🌍 Generating Macro & Shipping Reports..."
+python3 reports/generate_macro_reports.py 2>&1 | tee logs/generate_macro_reports.log
+echo "⏱️  [Pipeline] Macro & Shipping Reports completed in $(($(date +%s)-t_start))s."
+
 # Update Portfolios
 t_start=$(date +%s)
 make portfolio
@@ -95,4 +101,6 @@ echo "⏱️ Total Time: ${total_time}s"
 echo "💾 Committing newly generated market data..."
 git add market_data/
 git add reports/news/*.md || true
+git add -f reports/news/rendered/*.png || true
+git add reports/rendered/*.png || true
 git commit -m "Auto-update market data: $(date)" || echo "No new market data to commit."

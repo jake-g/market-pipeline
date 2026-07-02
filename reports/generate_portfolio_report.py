@@ -26,6 +26,7 @@ from reports.report_utils import build_decision_tree
 from reports.report_utils import clean_md
 from reports.report_utils import generate_screening_scatter
 from reports.report_utils import get_intrinsic_value_metrics
+from reports.report_utils import render_markdown_to_pdf
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -284,6 +285,35 @@ def generate_report():
           f"\n![Decision Tree](../portfolios/plots/active_value_decision_tree.png)"
       )
 
+    # --- ANOMALY & ALERT ENGINE ---
+    report_lines.append("\n\n### 🚨 Active Portfolio Alerts & Anomalies\n")
+    alerts = []
+
+    # 1. Extreme Daily Moves
+    huge_moves = active_agg_df[active_agg_df['Day_Change_Pct'].abs() >= 10]
+    for _, row in huge_moves.iterrows():
+      direction = "📈 SPIKED" if row['Day_Change_Pct'] > 0 else "📉 CRASHED"
+      alerts.append(
+          f"- **{row['Ticker']}** ({row['Sector']}): {direction} {row['Day_Change_Pct']}% today (${row['Day_Change_Net']:,.2f})"
+      )
+
+    # 2. Intrinsic Value Deviations
+    if 'Discount_to_Intrinsic_Value_Pct' in active_agg_df.columns:
+      overvalued = active_agg_df[
+          active_agg_df['Discount_to_Intrinsic_Value_Pct'] < -40]
+      for _, row in overvalued.iterrows():
+        alerts.append(
+            f"- **{row['Ticker']}**: Severely overvalued ({row['Discount_to_Intrinsic_Value_Pct']:.1f}% intrinsic value discount)"
+        )
+
+    if not alerts:
+      alerts.append(
+          "- *No extreme daily moves (>10%) or deep intrinsic value deviations detected.*"
+      )
+
+    report_lines.extend([a + "\n" for a in alerts])
+    # ------------------------------
+
     report_lines.append("\n\n### Top Performance Extremes (Active)\n")
     report_lines.append(
         "*Top 3 overextended positions (gainers) and top 3 value traps / drawdowns (losers) from active tracking.*\n"
@@ -392,6 +422,13 @@ def generate_report():
   logger.info(
       f"Successfully generated comprehensive Active/Global Markdown report: {report_path}"
   )
+
+  # Render PDF for NotebookLM Sync
+  try:
+    logger.info(f"Rendering PDF for PORTFOLIO_REPORT.md...")
+    render_markdown_to_pdf(report_path)
+  except Exception as e:
+    logger.error(f"Failed to render PDF for PORTFOLIO_REPORT.md: {e}")
 
   # --- AI PORTFOLIO ENHANCEMENT ---
   if os.environ.get("DISABLE_NOTEBOOKLM_UPLOAD", "0") != "1":
