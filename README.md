@@ -68,7 +68,7 @@ Run the full daily update pipeline:
 ```bash
 make fetch
 ```
-*(This runs the production-ready `./run_fetch.sh` script under the hood).*
+*(This runs the production-ready `make fetch` pipeline under the hood).*
 
 ### 4. Running the Dashboard
 **Local Server (Recommended for Development):**
@@ -108,7 +108,7 @@ We orchestrate `notebooklm-py` to automatically upload market news and generated
    *(Complete Google login, wait for NotebookLM to load, then press ENTER in the terminal).*
 
 **Features:**
-*   **Daily Market Feed Aggregation (`reports/notebooklm_report.py --mode feed_upload`)**: Hooked into `run_fetch.sh`. Idempotently aggregates the top news URLs and prices into a daily plain-text sync inside the "Market Feed" project, serving as the persistent memory bank.
+*   **Daily Market Feed Aggregation (`reports/notebooklm_report.py --mode feed_upload`)**: Hooked into `make fetch`. Idempotently aggregates the top news URLs and prices into a daily plain-text sync inside the "Market Feed" project, serving as the persistent memory bank.
 *   **Report Synthesis (`--mode [daily/weekly/monthly/yearly]`)**: Synthesizes the raw data inside the Market Feed project into highly actionable, table-driven Markdown reports. The engine automatically injects recent historical reports into the prompt context to ensure longitudinal awareness across timeframes.
 *   **Batch Render (`--mode report_upload`)**: Smart-syncs all finalized PDFs from `reports/rendered/` to the "Market Reports" project, actively deduplicating overlapping files to keep the cloud workspace pristine.
 *   **Portfolio Enhancements**: RAG overlay automatically synthesizes a tactical preamble for new active portfolios before rendering the final PDF.
@@ -154,7 +154,7 @@ The primary human-readable visualization UI providing fast, interactive analytic
 
 | Command | Purpose |
 |---|---|
-| **`make fetch`** or **`./run_fetch.sh`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
+| **`make fetch`** | **Production**: Fetches daily data for all `config.py` tickers + macro. Generates static `index.json`. |
 | `market_fetcher.py` | Core CLI for fetching specific combinations (e.g. `--limit-tickers`, `--news-days`). |
 | **`make server`** | **Local UI**: Starts a lightweight HTTP server and statically serves the dashboard into your browser. |
 | `backfill/topic_news.py` | Massively parallel historical topic extraction from Google News (2018-2025). |
@@ -265,7 +265,7 @@ Code style is strictly replicated across environments via:
 
 ### Static Hosting (GitHub Pages)
 The dashboard operates entirely serverless:
-1. `./run_fetch.sh` ends by calling `market_dashboard_server.py --build` to generate `market_data/index.json`.
+1. `make fetch` ends by calling `market_dashboard_server.py --build` to generate `market_data/index.json`.
 2. GitHub Pages natively serves `index.html` from the `main` branch.
 3. The dashboard JS dynamically fetches `market_data/index.json` on load.
 

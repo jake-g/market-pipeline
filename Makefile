@@ -1,7 +1,7 @@
 # Makefile for market-pipeline
 # Handles setup, testing, formatting, serving, and other utility tasks.
 
-.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch portfolio portfolio-offline yahoo-creds deploy-preview reports-historical notebooklm-auth clean
+.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch market-fetch shipping-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth clean
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
 
@@ -16,13 +16,20 @@ help:
 	@echo "  make test-unit          - Run fast unit test suites (fail-fast pre-flight)"
 	@echo "  make test               - Run all tests and generate static dashboard index"
 	@echo "  make test-auth          - Verify Yahoo Finance and NotebookLM authentication status"
-	@echo "  make server             - Launch the dashboard server in foreground (local mode)"
-	@echo "  make server-bg          - Launch the dashboard server in background"
-	@echo "  make server-stop        - Stop the background dashboard server"
+	@echo "  make fetch              - Run full daily market data pipeline & commit updates"
+	@echo "  make market-fetch       - Run market fetcher stage (Prices, Financials, News)"
+	@echo "  make shipping-fetch     - Run shipping & maritime chokepoint fetcher stage"
+	@echo "  make reports-macro      - Generate macro economic indicator & shipping reports"
+	@echo "  make portfolio          - Run portfolio synthesis pipeline (LIVE mode)"
+	@echo "  make portfolio-offline  - Run portfolio synthesis pipeline (OFFLINE mode)"
+	@echo "  make sync-news          - Upload daily market feed news archive to NotebookLM"
+	@echo "  make reports-periodic   - Generate missing daily/weekly/monthly AI summary reports"
+	@echo "  make sync-reports       - Upload all rendered PDF reports to NotebookLM"
+	@echo "  make dashboard-build    - Generate static index.json for GitHub Pages dashboard"
+	@echo "  make server             - Launch dashboard server in foreground (local mode)"
+	@echo "  make server-bg          - Launch dashboard server in background"
+	@echo "  make server-stop        - Stop background dashboard server"
 	@echo "  make server-status      - Check background dashboard server status"
-	@echo "  make fetch              - Run the daily/full market data pipeline (run_fetch.sh)"
-	@echo "  make portfolio          - Run the portfolio pipeline in LIVE fetch mode"
-	@echo "  make portfolio-offline  - Run the portfolio pipeline in OFFLINE cache mode"
 	@echo "  make yahoo-creds        - Interactive flow to update Yahoo Finance credentials"
 	@echo "  make deploy-preview     - Create and push a temporary preview branch to GitHub"
 	@echo "  make reports-historical - Generate historical weekly, monthly, and yearly reports"
@@ -115,8 +122,70 @@ server-status:
 
 # Run daily fetch pipeline
 fetch:
-	@echo "🚀 Starting Full Market Data Pipeline..."
-	@./run_fetch.sh
+	@echo "📅 Start Time: $$(date)"
+	@mkdir -p logs
+	@t_total_start=$$(date +%s); \
+	$(MAKE) setup; \
+	$(MAKE) test-auth; \
+	$(MAKE) test-unit; \
+	$(MAKE) market-fetch; \
+	$(MAKE) shipping-fetch; \
+	$(MAKE) reports-macro; \
+	$(MAKE) portfolio; \
+	$(MAKE) sync-news; \
+	$(MAKE) reports-periodic; \
+	$(MAKE) sync-reports; \
+	$(MAKE) dashboard-build; \
+	$(MAKE) format; \
+	echo "🎉 Full Pipeline Complete."; \
+	echo "⏱️ Total Time: $$(($$(date +%s)-t_total_start))s."; \
+	echo "💾 Committing newly generated market data..."; \
+	git add market_data/; \
+	git add reports/news/*.md || true; \
+	git add reports/news/rendered/ || true; \
+	git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit."
+
+market-fetch: setup
+	@echo "📉 Running Market Fetcher (All Tickers)..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 market_fetcher.py 2>&1 | tee logs/run_market_fetcher_full.log; \
+	echo "⏱️  [Pipeline] Market Fetcher completed in $$(($$(date +%s)-t_start))s."
+
+shipping-fetch: setup
+	@echo "🚢 Running Shipping & Logistics Fetcher..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 shipping_fetcher.py 2>&1 | tee logs/run_shipping_fetcher.log; \
+	echo "⏱️  [Pipeline] Shipping Fetcher completed in $$(($$(date +%s)-t_start))s."
+
+reports-macro: setup
+	@echo "🌍 Generating Macro & Shipping Reports..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 reports/generate_macro_reports.py 2>&1 | tee logs/generate_macro_reports.log; \
+	echo "⏱️  [Pipeline] Macro & Shipping Reports completed in $$(($$(date +%s)-t_start))s."
+
+sync-news: setup
+	@echo "🗄️ Syncing Daily Aggregate News to NotebookLM Archive (Market Feed)..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 reports/notebooklm_report.py --mode feed_upload 2>&1 | tee logs/sync_notebooklm_archive.log; \
+	echo "⏱️  [Pipeline] NotebookLM News Sync completed in $$(($$(date +%s)-t_start))s."
+
+reports-periodic: setup
+	@echo "🗂️ Generating Periodic Reports (Daily + Missing Weekly/Monthly)..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 reports/generate_periodic_reports.py 2>&1 | tee logs/generate_periodic_reports.log; \
+	echo "⏱️  [Pipeline] Periodic Reports generation completed in $$(($$(date +%s)-t_start))s."
+
+sync-reports: setup
+	@echo "☁️ Syncing all rendered PDF reports to NotebookLM..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 reports/notebooklm_report.py --mode report_upload 2>&1 | tee logs/sync_notebooklm_reports.log; \
+	echo "⏱️  [Pipeline] NotebookLM Reports Sync completed in $$(($$(date +%s)-t_start))s."
+
+dashboard-build: setup
+	@echo "🌐 Generating static index.json for dashboard..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log; \
+	echo "⏱️  [Pipeline] Dashboard Build completed in $$(($$(date +%s)-t_start))s."
 
 # Run portfolio pipeline (LIVE mode)
 portfolio:

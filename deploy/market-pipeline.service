@@ -1,0 +1,11 @@
+[Unit]
+Description=Market Pipeline Daily Fetch
+After=network-online.target
+
+[Service]
+User=root
+Group=dietpi
+Type=oneshot
+WorkingDirectory=/root/market-pipeline
+# Initialize virtual environment, run tests, and execute fetch if tests pass
+ExecStart=/bin/bash -c "make fetch"
