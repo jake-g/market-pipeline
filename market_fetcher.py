@@ -58,6 +58,58 @@ TICKER_ALIASES: Dict[str, str] = {
     "FB": "META",
 }
 
+# Search terms for short or dictionary-word tickers to prevent non-financial noise (e.g. pet cat news for CAT)
+TICKER_SEARCH_TERMS: Dict[str, str] = {
+    "ON": "ON Semiconductor stock",
+    "MS": "Morgan Stanley stock",
+    "V": "Visa stock",
+    "BP": "BP stock",
+    "HD": "Home Depot stock",
+    "GE": "General Electric stock",
+    "CP": "Canadian Pacific stock",
+    "GS": "Goldman Sachs stock",
+    "KO": "Coca-Cola stock",
+    "MU": "Micron Technology stock",
+    "PG": "Procter & Gamble stock",
+    "TM": "Toyota stock",
+    "ZS": "Zscaler stock",
+    "BX": "Blackstone stock",
+    "GD": "General Dynamics stock",
+    "CF": "CF Industries stock",
+    "COP": "ConocoPhillips stock",
+    "CAT": "Caterpillar stock",
+    "COST": "Costco stock",
+    "PAVE": "PAVE ETF stock",
+    "AMT": "American Tower stock",
+    "SO": "Southern Company stock",
+    "BA": "Boeing stock",
+    "COIN": "Coinbase stock",
+    "MA": "Mastercard stock",
+    "DE": "Deere stock",
+    "GOLD": "Barrick Gold stock",
+    "ITA": "ITA ETF stock",
+    "UPS": "UPS stock",
+    "VALE": "Vale stock",
+    "ES": "Eversource Energy stock",
+    "DD": "DuPont stock",
+    "F": "Ford stock",
+    "O": "Realty Income stock",
+    "A": "Agilent stock",
+    "NOW": "ServiceNow stock",
+    "BE": "Bloom Energy stock",
+    "FAST": "Fastenal stock",
+    "KEYS": "Keysight stock",
+    "PLUG": "Plug Power stock",
+    "NET": "Cloudflare stock",
+    "PAAS": "Pan American Silver stock",
+    "APP": "AppLovin stock",
+    "ALL": "Allstate stock",
+    "LOW": "Lowe's stock",
+    "WM": "Waste Management stock",
+    "D": "Dominion Energy stock",
+    "HAL": "Halliburton stock"
+}
+
 # FRED Economic Data Series
 # Maps friendly names to FRED Series IDs.
 FRED_SERIES: Dict[str, str] = {
@@ -183,7 +235,7 @@ SKIP_EARNINGS: List[str] = [
     # Sector & Thematic ETFs
     "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
     "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH", "CIBR", "PPH",
-    "SOXX", "XSD", "MUZ", "SPCX",
+    "SOXX", "XSD", "MUZ", "SPCX", "OZEM", "SMHX", "EWY",
 
 
     # Fixed Income & Preferred
@@ -953,7 +1005,11 @@ class MarketFetcher:
 
     for src_name, url_template in feeds.items():
       try:
-        safe_term = urllib.parse.quote(ticker)
+        query_term = ticker
+        if src_name == "Google" and ticker in TICKER_SEARCH_TERMS:
+          query_term = TICKER_SEARCH_TERMS[ticker]
+
+        safe_term = urllib.parse.quote(query_term)
         url = url_template.format(term=safe_term)
 
         raw_content = self._fetch_rss_content(url, src_name, ticker)
@@ -976,6 +1032,21 @@ class MarketFetcher:
             summary_text = ""
           else:
             summary_text = re.sub(r'<[^>]+>', '', summary_text).strip()[:500]
+
+          # Noise filter for short/ambiguous tickers
+          if ticker in TICKER_SEARCH_TERMS:
+            text_lower = (entry.title + " " + summary_text).lower()
+            fin_kw = [
+                'stock', 'shares', 'earnings', 'dividend', 'revenue',
+                'quarterly', 'investor', 'nyse', 'nasdaq', 'sec', 'market',
+                'valuation', 'profit', 'rating', 'buy', 'sell', 'hold', 'etf',
+                'portfolio', 'caterpillar', 'ford', 'realty', 'agilent',
+                'servicenow', 'bloom', 'fastenal', 'keysight', 'plug',
+                'cloudflare', 'allstate', 'lowe', 'waste management',
+                'dominion', 'halliburton', 'applovin'
+            ]
+            if not any(kw in text_lower for kw in fin_kw):
+              continue
 
           text_for_sentiment = entry.title + " " + summary_text
           sentiment_score = self.get_sentiment_score(text_for_sentiment)
@@ -1030,7 +1101,11 @@ class MarketFetcher:
   def _is_ticker_news_cached(self, ticker: str, feeds: Dict[str, str]) -> bool:
     """Checks if the news feeds for a ticker are already cached and fresh."""
     for src_name, url_template in feeds.items():
-      safe_term = urllib.parse.quote(ticker)
+      query_term = ticker
+      if src_name == "Google" and ticker in TICKER_SEARCH_TERMS:
+        query_term = TICKER_SEARCH_TERMS[ticker]
+
+      safe_term = urllib.parse.quote(query_term)
       url = url_template.format(term=safe_term)
       url_hash = hashlib.md5(url.encode()).hexdigest()
       cache_key = f"rss_raw_{src_name}_{ticker}_{url_hash}"
