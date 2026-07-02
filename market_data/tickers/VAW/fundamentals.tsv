@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	245.26
 allTimeLow	34.94
-ask	239.46
-askSize	500
-averageDailyVolume10Day	53630
-averageDailyVolume3Month	62900
-averageVolume	62900
-averageVolume10days	53630
+ask	231.38
+askSize	100
+averageDailyVolume10Day	63530
+averageDailyVolume3Month	61344
+averageVolume	61344
+averageVolume10days	63530
 beta3Year	0.96
-bid	222.48
+bid	231.23
 bidSize	100
 category	Natural Resources
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	230.8422
-dayLow	225.95
+dayHigh	232.635
+dayLow	230.295
 dividendYield	1.37
 epsTrailingTwelveMonths	9.369531
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	231.969
-fiftyDayAverageChange	-4.1589966
-fiftyDayAverageChangePercent	-0.017929105
-fiftyTwoWeekChangePercent	16.927576
+fiftyDayAverage	231.6456
+fiftyDayAverageChange	0.98939514
+fiftyDayAverageChangePercent	0.004271159
+fiftyTwoWeekChangePercent	12.901318
 fiftyTwoWeekHigh	245.26
-fiftyTwoWeekHighChange	-17.449997
-fiftyTwoWeekHighChangePercent	-0.07114898
+fiftyTwoWeekHighChange	-12.625
+fiftyTwoWeekHighChangePercent	-0.051475987
 fiftyTwoWeekLow	190.29
-fiftyTwoWeekLowChange	37.520004
-fiftyTwoWeekLowChangePercent	0.19717276
+fiftyTwoWeekLowChange	42.345
+fiftyTwoWeekLowChangePercent	0.22252879
 fiftyTwoWeekRange	190.29 - 245.26
 firstTradeDateMilliseconds	1075473000000
-fiveYearAverageReturn	0.070029706
+fiveYearAverageReturn	0.0651008
 fullExchangeName	NYSEArca
 fundFamily	Vanguard
 fundInceptionDate	1075075200
@@ -49,47 +49,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the materials sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard Materials Index Fund ETF Shares
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22939102
-navPrice	232.13
+navPrice	228.68
 netAssets	4523570200.0
 netExpenseRatio	0.09
-open	230.9
+open	230.58
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	227.81
-postMarketTime	1782771723
-previousClose	232.13
+postMarketPrice	232.635
+postMarketTime	1783022687
+previousClose	228.58
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-4.32001
-regularMarketChangePercent	-1.86103
-regularMarketDayHigh	230.8422
-regularMarketDayLow	225.95
-regularMarketDayRange	225.95 - 230.8422
-regularMarketOpen	230.9
-regularMarketPreviousClose	232.13
-regularMarketPrice	227.81
-regularMarketTime	1782763200
-regularMarketVolume	41426
+regularMarketChange	4.0549927
+regularMarketChangePercent	1.7739928
+regularMarketDayHigh	232.635
+regularMarketDayLow	230.295
+regularMarketDayRange	230.295 - 232.635
+regularMarketOpen	230.58
+regularMarketPreviousClose	228.58
+regularMarketPrice	232.635
+regularMarketTime	1783022371
+regularMarketVolume	60601
 shortName	Vanguard Materials ETF
 sourceInterval	15
 symbol	VAW
-threeYearAverageReturn	0.1140166
+threeYearAverageReturn	0.096765496
 totalAssets	4523570176
 tradeable	False
-trailingPE	24.313917
+trailingPE	24.828884
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-4.34962
 trailingThreeMonthReturns	-4.34962
 triggerable	True
-twoHundredDayAverage	219.4597
-twoHundredDayAverageChange	8.350296
-twoHundredDayAverageChangePercent	0.038049337
+twoHundredDayAverage	219.655
+twoHundredDayAverageChange	12.979996
+twoHundredDayAverageChangePercent	0.05909265
 typeDisp	ETF
-volume	41426
+volume	60601
 yield	0.0137
 ytdReturn	12.51332

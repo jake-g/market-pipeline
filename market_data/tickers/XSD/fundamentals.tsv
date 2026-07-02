@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	658.14
 allTimeLow	9.905
-ask	595.04
-askSize	80
-averageDailyVolume10Day	138630
-averageDailyVolume3Month	124688
-averageVolume	124688
-averageVolume10days	138630
+ask	549.63
+askSize	40
+averageDailyVolume10Day	148760
+averageDailyVolume3Month	130413
+averageVolume	130413
+averageVolume10days	148760
 beta3Year	2.66
-bid	582.0
-bidSize	40
+bid	548.61
+bidSize	160
 bookValue	170.658
 category	Technology
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	592.64
-dayLow	553.25
+dayHigh	603.93
+dayLow	545.17
 dividendYield	0.13
 epsTrailingTwelveMonths	14.369892
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	556.8688
-fiftyDayAverageChange	35.77124
-fiftyDayAverageChangePercent	0.06423639
-fiftyTwoWeekChangePercent	131.03972
+fiftyDayAverage	564.4972
+fiftyDayAverageChange	-8.407166
+fiftyDayAverageChangePercent	-0.014893193
+fiftyTwoWeekChangePercent	124.84438
 fiftyTwoWeekHigh	658.14
-fiftyTwoWeekHighChange	-65.5
-fiftyTwoWeekHighChangePercent	-0.099522896
-fiftyTwoWeekLow	251.32
-fiftyTwoWeekLowChange	341.32
-fiftyTwoWeekLowChangePercent	1.3581091
-fiftyTwoWeekRange	251.32 - 658.14
+fiftyTwoWeekHighChange	-102.04999
+fiftyTwoWeekHighChangePercent	-0.15505818
+fiftyTwoWeekLow	254.82
+fiftyTwoWeekLowChange	301.27002
+fiftyTwoWeekLowChangePercent	1.1822855
+fiftyTwoWeekRange	254.82 - 658.14
 financialCurrency	USD
 firstTradeDateMilliseconds	1139236200000
-fiveYearAverageReturn	0.2546006
+fiveYearAverageReturn	0.2610523
 fullExchangeName	NYSEArca
 fundFamily	State Street Investment Management
 fundInceptionDate	1138665600
@@ -51,51 +51,51 @@ legalType	Exchange Traded Fund
 longBusinessSummary	In seeking to track the performance of the S&P Semiconductor Select Industry Index (the "index"), the fund employs a sampling strategy. It generally invests substantially all, but at least 80%, of its total assets in the securities comprising the index. The index represents the semiconductors segment of the S&P Total Market Index ("S&P TMI").
 longName	State Street SPDR S&P Semiconductor ETF
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_26752143
-navPrice	571.9291
+navPrice	595.44556
 netAssets	3338012420.0
 netExpenseRatio	0.35
-open	575.45
-postMarketChange	-0.94000244
-postMarketChangePercent	-0.15861271
-postMarketPrice	591.7
-postMarketTime	1782777348
-previousClose	571.91
+open	597.79
+postMarketChange	-0.22003174
+postMarketChangePercent	-0.039567646
+postMarketPrice	555.87
+postMarketTime	1783022686
+previousClose	596.04
 priceHint	2
-priceToBook	3.4726763
-quoteSourceName	Delayed Quote
+priceToBook	3.2585053
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	20.73
-regularMarketChangePercent	3.6247
-regularMarketDayHigh	592.64
-regularMarketDayLow	553.25
-regularMarketDayRange	553.25 - 592.64
-regularMarketOpen	575.45
-regularMarketPreviousClose	571.91
-regularMarketPrice	592.64
-regularMarketTime	1782763200
-regularMarketVolume	89169
+regularMarketChange	-39.94995
+regularMarketChangePercent	-6.7025623
+regularMarketDayHigh	603.93
+regularMarketDayLow	545.17
+regularMarketDayRange	545.17 - 603.93
+regularMarketOpen	597.79
+regularMarketPreviousClose	596.04
+regularMarketPrice	556.09
+regularMarketTime	1783022399
+regularMarketVolume	141897
 sharesOutstanding	3450000
 shortName	State Street SPDR S&P Semicondu
 sourceInterval	15
 symbol	XSD
-threeYearAverageReturn	0.4027597
+threeYearAverageReturn	0.3948951
 totalAssets	3338012416
 tradeable	False
 trailingAnnualDividendRate	0.44
-trailingAnnualDividendYield	0.00076935184
-trailingPE	41.241787
+trailingAnnualDividendYield	0.0007382055
+trailingPE	38.698273
 trailingPegRatio	None
 trailingThreeMonthNavReturns	74.46404
 trailingThreeMonthReturns	74.46404
 triggerable	True
-twoHundredDayAverage	392.1926
-twoHundredDayAverageChange	200.44742
-twoHundredDayAverageChangePercent	0.51109433
+twoHundredDayAverage	395.2993
+twoHundredDayAverageChange	160.79074
+twoHundredDayAverageChangePercent	0.40675697
 typeDisp	ETF
-volume	89169
+volume	141897
 yield	0.0013
 ytdReturn	90.61032
