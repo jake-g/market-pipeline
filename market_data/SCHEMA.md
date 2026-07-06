@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.08186746 |
+| Value | str | 0.08591759 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-02 |
+| Date | str | 2026-07-06 |
 | Source | str | Google |
-| Sentiment | float64 | 0.75 |
-| Headline | str | Amazon (AMZN) Successfully Launches 29 Satellit... |
-| Summary | str | First American Bank increased its stake in Amaz... |
-| URL | str | https://news.google.com/rss/articles/CBMitgFBVV... |
+| Sentiment | float64 | 0.7 |
+| Headline | str | AMZN Fairly Valued by DCF at $199 - GuruFocus |
+| Summary | str | The "Magnificent Seven" stocks haven't done ver... |
+| URL | str | https://news.google.com/rss/articles/CBMie0FVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -111,19 +111,19 @@ This report documents the file structures and column data types used in `market_
 | SAVINGS_RATE | float64 | 3.0 |
 | M2_MONEY | float64 | 23052.3 |
 | M2_VELOCITY | float64 | 1.411 |
-| FED_ASSETS | float64 | 6735645.0 |
+| FED_ASSETS | float64 | 6724564.0 |
 | CPI | float64 | 333.979 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.14 |
-| US10Y | float64 | 4.44 |
+| US02Y | float64 | 4.17 |
+| US10Y | float64 | 4.48 |
 | US30Y | float64 | 4.97 |
 | HY_SPREAD | float64 | 2.74 |
-| CORP_SPREAD | float64 | 0.76 |
-| BAA_SPREAD | float64 | 1.53 |
-| AAA_SPREAD | float64 | 1.11 |
-| US_POLICY_UNCERTAINTY | float64 | 163.74 |
+| CORP_SPREAD | float64 | 0.75 |
+| BAA_SPREAD | float64 | 1.54 |
+| AAA_SPREAD | float64 | 1.12 |
+| US_POLICY_UNCERTAINTY | float64 | 252.36 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 353.0482 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 371.0954 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.6445 |
-| KANSAS_CITY_FIN_STRESS | float64 | -0.8844 |
+| KANSAS_CITY_FIN_STRESS | float64 | -0.7631 |
 | CHICAGO_FED_ACTIVITY | float64 | -0.1 |

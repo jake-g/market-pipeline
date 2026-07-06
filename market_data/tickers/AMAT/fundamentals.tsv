@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	2.407014
-SandP52WeekChange	0.19172049
+52WeekChange	2.1609182
+SandP52WeekChange	0.20116603
 address1	3050 Bowers Avenue
 address2	P.O. Box 58039
 allTimeHigh	739.67
 allTimeLow	0.076389
-ask	604.01
-askSize	1
+ask	596.06
+askSize	2
 auditRisk	2
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	15261020
-averageDailyVolume3Month	8750226
-averageVolume	8750226
-averageVolume10days	15261020
-beta	1.672
-bid	591.52
+averageDailyVolume10Day	15668410
+averageDailyVolume3Month	8957011
+averageVolume	8957011
+averageVolume10days	15668410
+beta	1.567
+bid	595.31
 bidSize	1
 boardRisk	2
 bookValue	30.114
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	603.04
+currentPrice	596.43
 currentRatio	2.508
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	656.998
-dayLow	581.98
+dayHigh	629.0
+dayLow	591.68
 debtToEquity	30.399
-discount_to_intrinsic_value	1.96
+discount_to_intrinsic_value	2.16
 displayName	Applied Materials
 dividendDate	1788998400
 dividendRate	2.12
-dividendYield	0.33
+dividendYield	0.35
 earningsCallTimestampEnd	1778790600
 earningsCallTimestampStart	1778790600
 earningsGrowth	0.335
@@ -47,9 +47,9 @@ earningsTimestampEnd	1786651200
 earningsTimestampStart	1786651200
 ebitda	9274999808
 ebitdaMargins	0.31956
-enterpriseToEbitda	55.614
-enterpriseToRevenue	17.772
-enterpriseValue	515823140864
+enterpriseToEbitda	51.517
+enterpriseToRevenue	16.463
+enterpriseValue	477816291328
 epsCurrentYear	12.23922
 epsForward	16.40414
 epsTrailingTwelveMonths	10.61
@@ -61,34 +61,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	486.0114
-fiftyDayAverageChange	117.028564
-fiftyDayAverageChangePercent	0.24079385
-fiftyTwoWeekChangePercent	240.70139
+fiftyDayAverage	490.1856
+fiftyDayAverageChange	106.244385
+fiftyDayAverageChangePercent	0.21674317
+fiftyTwoWeekChangePercent	216.09183
 fiftyTwoWeekHigh	739.67
-fiftyTwoWeekHighChange	-136.63
-fiftyTwoWeekHighChangePercent	-0.18471752
+fiftyTwoWeekHighChange	-143.23999
+fiftyTwoWeekHighChangePercent	-0.19365391
 fiftyTwoWeekLow	154.47
-fiftyTwoWeekLowChange	448.56998
-fiftyTwoWeekLowChangePercent	2.9039295
+fiftyTwoWeekLowChange	441.96
+fiftyTwoWeekLowChangePercent	2.861138
 fiftyTwoWeekRange	154.47 - 739.67
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	0.79
-floatShares	790696257
+floatShares	790775653
 forwardEps	16.40414
-forwardPE	36.761448
+forwardPE	36.3585
 freeCashflow	3040375040
 fullExchangeName	NasdaqGS
 fullTimeEmployees	36400
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1782864000
-graham_intrinsic_value	615.09
+graham_intrinsic_value	609.6
 grossMargins	0.48956
 grossProfits	14209000448
 hasPrePostMarketData	True
 heldPercentInsiders	0.0030500002
-heldPercentInstitutions	0.85087997
+heldPercentInstitutions	0.85109
 impliedSharesOutstanding	793959430
 industry	Semiconductor Equipment & Materials
 industryDisp	Semiconductor Equipment & Materials
@@ -104,31 +104,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and 200 millimeter and other equipment and factory automation software for semiconductor and other products. It serves manufacturers of semiconductor wafers and chips, and other electronic devices. Applied Materials, Inc. was incorporated in 1967 and is headquartered in Santa Clara, California.
 longName	Applied Materials, Inc.
 market	us_market
-marketCap	478789271552
-marketState	POST
+marketCap	473541214208
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_251230
 mostRecentQuarter	1777161600
 netIncomeToCommon	8508000256
 nextFiscalYearEnd	1792972800
-nonDilutedMarketCap	516796132581
+nonDilutedMarketCap	478789294667
 numberOfAnalystOpinions	35
-open	656.695
+open	627.755
 operatingCashflow	7992999936
 operatingMargins	0.31896
 overallRisk	1
 payoutRatio	0.1731
-pegRatio	1.64
+pegRatio	1.52
 phone	408 727 5555
 postMarketChange	3.8900146
 postMarketChangePercent	0.64506745
 postMarketPrice	606.93
 postMarketTime	1783022588
-previousClose	650.91
-priceEpsCurrentYear	49.271114
+previousClose	603.04
+priceEpsCurrentYear	48.73105
 priceHint	2
-priceToBook	20.025236
-priceToSalesTrailing12Months	16.496323
+priceToBook	19.805738
+priceToSalesTrailing12Months	16.315504
 profitMargins	0.29314
 quickRatio	1.624
 quoteSourceName	Nasdaq Real Time Price
@@ -136,16 +136,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.48718
 region	US
-regularMarketChange	-47.869995
-regularMarketChangePercent	-7.354319
-regularMarketDayHigh	656.998
-regularMarketDayLow	581.98
-regularMarketDayRange	581.98 - 656.998
-regularMarketOpen	656.695
-regularMarketPreviousClose	650.91
-regularMarketPrice	603.04
-regularMarketTime	1783022400
-regularMarketVolume	14929944
+regularMarketChange	-6.6099854
+regularMarketChangePercent	-1.0961106
+regularMarketDayHigh	629.0
+regularMarketDayLow	591.68
+regularMarketDayRange	591.68 - 629.0
+regularMarketOpen	627.755
+regularMarketPreviousClose	603.04
+regularMarketPrice	596.43
+regularMarketTime	1783363274
+regularMarketVolume	5030492
 returnOnAssets	0.14858
 returnOnEquity	0.39692003
 revenueGrowth	0.114
@@ -175,15 +175,15 @@ totalDebt	7267999744
 totalRevenue	29024000000
 tradeable	False
 trailingAnnualDividendRate	1.91
-trailingAnnualDividendYield	0.0029343534
+trailingAnnualDividendYield	0.0031672858
 trailingEps	10.61
-trailingPE	56.836945
-trailingPegRatio	1.6444
+trailingPE	56.21395
+trailingPegRatio	1.5235
 triggerable	True
-twoHundredDayAverage	337.18854
-twoHundredDayAverageChange	265.85144
-twoHundredDayAverageChangePercent	0.7884356
+twoHundredDayAverage	339.3491
+twoHundredDayAverageChange	257.0809
+twoHundredDayAverageChangePercent	0.7575706
 typeDisp	Equity
-volume	14929944
+volume	5030492
 website	https://www.appliedmaterials.com
 zip	95052-8039

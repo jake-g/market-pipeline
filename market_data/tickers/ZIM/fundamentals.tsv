@@ -1,35 +1,35 @@
 Metric	Value
-52WeekChange	0.6008884
-SandP52WeekChange	0.19172049
+52WeekChange	0.6102015
+SandP52WeekChange	0.20116603
 address1	9 Andrei Sakharov Street
 address2	PO Box 15067 Matam
 allTimeHigh	91.23
 allTimeLow	6.39
-ask	25.45
-askSize	100
+ask	23.92
+askSize	200
 averageAnalystRating	3.0 - Hold
-averageDailyVolume10Day	1011510
-averageDailyVolume3Month	1246734
-averageVolume	1246734
-averageVolume10days	1011510
-beta	1.141
-bid	25.44
-bidSize	300
+averageDailyVolume10Day	987760
+averageDailyVolume3Month	1237347
+averageVolume	1237347
+averageVolume10days	987760
+beta	1.12
+bid	23.9
+bidSize	200
 bookValue	33.378
 city	Haifa
-companyOfficers	[]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Xavier  Destriau', 'age': 52, 'title': 'Executive VP & CFO', 'yearBorn': 1973, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David Alteras Arbel', 'age': 64, 'title': 'Executive VP & COO', 'yearBorn': 1961, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eyal  Ben-Amram', 'age': 62, 'title': 'Executive VP & Chief Information Officer', 'yearBorn': 1963, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Elana  Holzman', 'title': 'Head of Investor Relations', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Noam  Nativ', 'age': 54, 'title': 'Executive VP, General Counsel & Company Secretary', 'yearBorn': 1971, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Yair  Teitelbaum', 'title': 'Executive Vice President of Global Sales', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Arik  Elimelech', 'age': 55, 'title': 'Executive Vice President of HR & Organization', 'yearBorn': 1970, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Saar  Dotan', 'age': 54, 'title': 'Executive Vice President of Countries & Business Development', 'yearBorn': 1971, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nissim  Yochai', 'age': 66, 'title': 'Executive Vice President of ZIM USA President & Latin America BU', 'yearBorn': 1959, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Assaf  Tiran', 'age': 49, 'title': 'Executive Vice President of Cross Suez & Atlantic BU', 'yearBorn': 1976, 'exercisedValue': 0, 'unexercisedValue': 0}]
 corporateActions	[]
 country	Israel
 cryptoTradeable	False
 currency	USD
-currentPrice	25.59
+currentPrice	23.74
 currentRatio	1.188
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	25.79
-dayLow	25.3001
+dayHigh	24.45
+dayLow	23.285
 debtToEquity	143.108
-discount_to_intrinsic_value	-270.48
+discount_to_intrinsic_value	-246.8
 displayName	ZIM Integrated Shipping Services
 dividendDate	1774483200
 dividendRate	1.99
@@ -43,9 +43,9 @@ earningsTimestampEnd	1787229000
 earningsTimestampStart	1787229000
 ebitda	470400000
 ebitdaMargins	0.07474
-enterpriseToEbitda	14.659
-enterpriseToRevenue	1.096
-enterpriseValue	6895610880
+enterpriseToEbitda	14.746
+enterpriseToRevenue	1.102
+enterpriseValue	6936587776
 epsCurrentYear	7.89
 epsForward	-2.2398
 epsTrailingTwelveMonths	0.82
@@ -57,27 +57,27 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	25.6172
-fiftyDayAverageChange	-0.027200699
-fiftyDayAverageChangePercent	-0.0010618139
-fiftyTwoWeekChangePercent	60.088837
+fiftyDayAverage	25.6038
+fiftyDayAverageChange	-1.8638
+fiftyDayAverageChangePercent	-0.072793886
+fiftyTwoWeekChangePercent	61.02015
 fiftyTwoWeekHigh	29.97
-fiftyTwoWeekHighChange	-4.379999
-fiftyTwoWeekHighChangePercent	-0.14614612
+fiftyTwoWeekHighChange	-6.2299995
+fiftyTwoWeekHighChangePercent	-0.20787454
 fiftyTwoWeekLow	12.33
-fiftyTwoWeekLowChange	13.26
-fiftyTwoWeekLowChangePercent	1.0754259
+fiftyTwoWeekLowChange	11.41
+fiftyTwoWeekLowChangePercent	0.92538524
 fiftyTwoWeekRange	12.33 - 29.97
 financialCurrency	USD
 firstTradeDateMilliseconds	1611844200000
 floatShares	114861260
 forwardEps	-2.2398
-forwardPE	-11.425127
+forwardPE	-10.59916
 freeCashflow	637699968
 fullExchangeName	NYSE
 fullTimeEmployees	4714
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	6.91
+graham_intrinsic_value	6.85
 grossMargins	0.31207
 grossProfits	1964199936
 hasPrePostMarketData	True
@@ -96,16 +96,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	ZIM Integrated Shipping Services Ltd., together with its subsidiaries, provides container shipping and related services in Israel and internationally. The company offers door-to-door and port-to-port transportation services for various types of customers, including end-users, consolidators, and freight forwarders. It also provides ZIMonitor, a reefer cargo tracking service, a device attached to the engine of the reefer, and allows customers to track and monitor, cargo, such as pharmaceuticals, food and delicate electronics. As of December 31, 2025, it operated a fleet of 128 vessels, such as 115 container vessels and 13 vehicle transport vessels, as well as a network of 56 weekly lines. ZIM Integrated Shipping Services Ltd. was incorporated in 1945 and is headquartered in Haifa, Israel.
 longName	ZIM Integrated Shipping Services Ltd.
 market	us_market
-marketCap	3084098304
-marketState	POST
+marketCap	2861136896
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_13461755
 mostRecentQuarter	1774915200
 netIncomeToCommon	97900000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	3040711173
+nonDilutedMarketCap	3081687859
 numberOfAnalystOpinions	4
-open	25.63
+open	23.95
 operatingCashflow	1707500032
 operatingMargins	-0.00981
 payoutRatio	2.4268
@@ -114,11 +114,11 @@ postMarketChange	-0.020000458
 postMarketChangePercent	-0.07815732
 postMarketPrice	25.57
 postMarketTime	1783022684
-previousClose	25.23
-priceEpsCurrentYear	3.243346
+previousClose	25.57
+priceEpsCurrentYear	3.008872
 priceHint	2
-priceToBook	0.76667273
-priceToSalesTrailing12Months	0.4899983
+priceToBook	0.71124697
+priceToSalesTrailing12Months	0.45457444
 profitMargins	0.01555
 quickRatio	1.092
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.0
 region	US
-regularMarketChange	0.3600006
-regularMarketChangePercent	1.4268752
-regularMarketDayHigh	25.79
-regularMarketDayLow	25.3001
-regularMarketDayRange	25.3001 - 25.79
-regularMarketOpen	25.63
-regularMarketPreviousClose	25.23
-regularMarketPrice	25.59
-regularMarketTime	1783022399
-regularMarketVolume	685286
+regularMarketChange	-1.8299999
+regularMarketChangePercent	-7.1568246
+regularMarketDayHigh	24.45
+regularMarketDayLow	23.285
+regularMarketDayRange	23.285 - 24.45
+regularMarketOpen	23.95
+regularMarketPreviousClose	25.57
+regularMarketPrice	23.74
+regularMarketTime	1783363400
+regularMarketVolume	3893247
 returnOnAssets	0.02104
 returnOnEquity	0.02544
 revenueGrowth	-0.304
@@ -153,7 +153,7 @@ shortPercentOfFloat	0.025
 shortRatio	2.73
 sourceInterval	15
 symbol	ZIM
-syntheticPEG	0.12258719957081544
+syntheticPEG	0.11372489270386266
 targetHighPrice	35.0
 targetLowPrice	16.5
 targetMeanPrice	24.95
@@ -164,15 +164,15 @@ totalDebt	5478300160
 totalRevenue	6294099968
 tradeable	False
 trailingAnnualDividendRate	1.25
-trailingAnnualDividendYield	0.049544193
+trailingAnnualDividendYield	0.048885413
 trailingEps	0.82
-trailingPE	31.207317
+trailingPE	28.95122
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	21.95055
-twoHundredDayAverageChange	3.63945
-twoHundredDayAverageChangePercent	0.16580223
+twoHundredDayAverage	22.0053
+twoHundredDayAverageChange	1.7346992
+twoHundredDayAverageChangePercent	0.07883097
 typeDisp	Equity
-volume	685286
+volume	3893247
 website	https://www.zim.com
 zip	3190500

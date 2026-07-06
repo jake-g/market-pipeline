@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.31446064
-SandP52WeekChange	0.19172049
+52WeekChange	0.4611765
+SandP52WeekChange	0.20116603
 address1	14600 Myford Road
 allTimeHigh	179.47
 allTimeLow	8.26
-ask	19.2
+ask	20.0
 askSize	1
 auditRisk	6
 averageAnalystRating	2.6 - Hold
-averageDailyVolume10Day	30705540
-averageDailyVolume3Month	29707544
-averageVolume	29707544
-averageVolume10days	30705540
-beta	1.624
-bid	18.22
-bidSize	1
+averageDailyVolume10Day	35116790
+averageDailyVolume3Month	30617280
+averageVolume	30617280
+averageVolume10days	35116790
+beta	1.602
+bid	18.2
+bidSize	2
 boardRisk	9
 bookValue	3.494
 city	Irvine
@@ -25,26 +25,26 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	18.63
+currentPrice	19.605
 currentRatio	2.101
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	19.79
-dayLow	17.81
+dayHigh	19.9101
+dayLow	18.39
 debtToEquity	118.153
 displayName	Rivian Automotive
-earningsCallTimestampEnd	1785445200
-earningsCallTimestampStart	1785445200
+earningsCallTimestampEnd	1785441600
+earningsCallTimestampStart	1785441600
 earningsTimestamp	1785441600
 earningsTimestampEnd	1785441600
 earningsTimestampStart	1785441600
 ebitda	-3032999936
 ebitdaMargins	-0.54866004
-enterpriseToEbitda	-7.281
-enterpriseToRevenue	3.995
-enterpriseValue	22082977792
-epsCurrentYear	-2.42264
-epsForward	-1.89023
+enterpriseToEbitda	-7.883
+enterpriseToRevenue	4.325
+enterpriseValue	23910584320
+epsCurrentYear	-2.41842
+epsForward	-1.89483
 epsTrailingTwelveMonths	-2.92
 esgPopulated	False
 exchange	NMS
@@ -52,22 +52,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	15.574
-fiftyDayAverageChange	3.0559988
-fiftyDayAverageChangePercent	0.19622439
-fiftyTwoWeekChangePercent	31.446064
+fiftyDayAverage	15.6036
+fiftyDayAverageChange	4.0014
+fiftyDayAverageChangePercent	0.25644082
+fiftyTwoWeekChangePercent	46.117653
 fiftyTwoWeekHigh	22.69
-fiftyTwoWeekHighChange	-4.0600014
-fiftyTwoWeekHighChangePercent	-0.1789335
+fiftyTwoWeekHighChange	-3.085001
+fiftyTwoWeekHighChangePercent	-0.13596302
 fiftyTwoWeekLow	11.57
-fiftyTwoWeekLowChange	7.0599995
-fiftyTwoWeekLowChangePercent	0.61019874
+fiftyTwoWeekLowChange	8.035
+fiftyTwoWeekLowChangePercent	0.69446844
 fiftyTwoWeekRange	11.57 - 22.69
 financialCurrency	USD
 firstTradeDateMilliseconds	1636554600000
-floatShares	784383202
-forwardEps	-1.89023
-forwardPE	-9.855944
+floatShares	784395806
+forwardEps	-1.89483
+forwardPE	-10.346575
 freeCashflow	-1302749952
 fullExchangeName	NasdaqGS
 fullTimeEmployees	15232
@@ -77,7 +77,7 @@ grossMargins	0.01031
 grossProfits	57000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.37564
-heldPercentInstitutions	0.41936
+heldPercentInstitutions	0.41933
 impliedSharesOutstanding	1342866407
 industry	Auto Manufacturers
 industryDisp	Auto Manufacturers
@@ -89,16 +89,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Rivian Automotive, Inc., together with its subsidiaries, develops, manufactures, and sells category-defining electric vehicles. It operates through two segments, Automotive, and Software and Services. The company offers consumer vehicles, including a two-row, five-passenger pickup truck under the R1T brand; and a three-row, seven-passenger sport utility vehicle under the R1S name. It also provides software and services, such as vehicle electrical architecture and software development, as well as Autonomy+, remarketing, vehicle repair and maintenance services, software subscriptions, vehicle accessories, financing, insurance, and other services. In addition, the company designs, develops, and manufactures the Rivian Adventure Network Direct Current fast chargers; and FleetOS, a proprietary, end-to-end centralized fleet management subscription platform. Further, it offers Rivian Commercial Van platform for Electric Delivery Van with collaboration with Amazon.com, Inc. Rivian Automotive, Inc. was founded in 2009 and is based in Irvine, California.
 longName	Rivian Automotive, Inc.
 market	us_market
-marketCap	25017600000
-marketState	POST
+marketCap	26326896640
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_144746614
 mostRecentQuarter	1774915200
 netIncomeToCommon	-3516999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	23070444872
+nonDilutedMarketCap	25017601162
 numberOfAnalystOpinions	26
-open	17.998
+open	18.55
 operatingCashflow	-1294000000
 operatingMargins	-0.63794
 overallRisk	10
@@ -108,11 +108,11 @@ postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	18.63
 postMarketTime	1783022695
-previousClose	17.18
-priceEpsCurrentYear	-7.6899576
+previousClose	18.63
+priceEpsCurrentYear	-8.106532
 priceHint	2
-priceToBook	5.3319974
-priceToSalesTrailing12Months	4.525615
+priceToBook	5.6110473
+priceToSalesTrailing12Months	4.762463
 profitMargins	-0.63622004
 quickRatio	1.542
 quoteSourceName	Nasdaq Real Time Price
@@ -120,16 +120,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.57692
 region	US
-regularMarketChange	1.4499989
-regularMarketChangePercent	8.44004
-regularMarketDayHigh	19.79
-regularMarketDayLow	17.81
-regularMarketDayRange	17.81 - 19.79
-regularMarketOpen	17.998
-regularMarketPreviousClose	17.18
-regularMarketPrice	18.63
-regularMarketTime	1783022400
-regularMarketVolume	77076963
+regularMarketChange	0.9750004
+regularMarketChangePercent	5.2334967
+regularMarketDayHigh	19.9101
+regularMarketDayLow	18.39
+regularMarketDayRange	18.39 - 19.9101
+regularMarketOpen	18.55
+regularMarketPreviousClose	18.63
+regularMarketPrice	19.605
+regularMarketTime	1783363373
+regularMarketVolume	25641612
 returnOnAssets	-0.16018999
 returnOnEquity	-0.65691
 revenueGrowth	0.114
@@ -149,10 +149,10 @@ shortRatio	4.43
 sourceInterval	15
 state	CA
 symbol	RIVN
-syntheticPEG	-0.8645564912280701
+syntheticPEG	-0.907594298245614
 targetHighPrice	25.0
-targetLowPrice	9.0
-targetMeanPrice	18.19231
+targetLowPrice	12.0
+targetMeanPrice	18.5
 targetMedianPrice	18.0
 totalCash	4830000128
 totalCashPerShare	3.832
@@ -164,10 +164,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-2.92
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	15.7707
-twoHundredDayAverageChange	2.8592987
-twoHundredDayAverageChangePercent	0.18130448
+twoHundredDayAverage	15.79585
+twoHundredDayAverageChange	3.8091497
+twoHundredDayAverageChangePercent	0.24114877
 typeDisp	Equity
-volume	77076963
+volume	25641612
 website	https://www.rivian.com
 zip	92606

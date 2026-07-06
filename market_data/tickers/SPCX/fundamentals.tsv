@@ -1,39 +1,40 @@
 Metric	Value
-52WeekChange	-0.02118671
-SandP52WeekChange	0.19172049
+52WeekChange	0.0065237284
+SandP52WeekChange	0.20116603
 address1	1 Rocket Road
 allTimeHigh	225.64
 allTimeLow	147.11
-ask	167.0
-askSize	1
+ask	166.0
+askSize	5
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	133664810
-averageDailyVolume3Month	177500853
-averageVolume	177500853
-averageVolume10days	133664810
-bid	147.75
+averageDailyVolume10Day	119647080
+averageDailyVolume3Month	169218092
+averageVolume	169218092
+averageVolume10days	119647080
+bid	155.1
 bidSize	1
 bookValue	5.956
 city	Starbase
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael  Sagan', 'title': 'Senior Director of Legal', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Manjunath  K.', 'title': 'Principal of infosec & policy and Head of Law Enforcement and Nodal Operations - Starlink India', 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Bret W. Johnsen', 'age': 56, 'title': 'CFO & Secretary', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 825000, 'exercisedValue': 41906656, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Sagan', 'title': 'Senior Director of Legal', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Timothy R. Hughes', 'title': 'Senior VP of Global Business & Government Affairs', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard J. Lee', 'title': 'Treasurer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+compensationAsOfEpochDate	1767139200
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	162.0
+currentPrice	156.435
 currentRatio	1.217
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	162.16
-dayLow	155.88
+dayHigh	167.895
+dayLow	155.17
 debtToEquity	73.597
 displayName	Space Exploration
 ebitda	3950000128
 ebitdaMargins	0.20465
-enterpriseToEbitda	234.773
-enterpriseToRevenue	48.047
-enterpriseValue	927354126336
-epsCurrentYear	-0.26667
+enterpriseToEbitda	241.32
+enterpriseToRevenue	49.387
+enterpriseValue	953212076032
+epsCurrentYear	-0.42
 epsForward	0.19667
 epsTrailingTwelveMonths	-0.68
 esgPopulated	False
@@ -42,22 +43,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	169.67154
-fiftyDayAverageChange	-7.6715393
-fiftyDayAverageChangePercent	-0.04521406
-fiftyTwoWeekChangePercent	-2.118671
+fiftyDayAverage	169.12357
+fiftyDayAverageChange	-12.688568
+fiftyDayAverageChangePercent	-0.07502543
+fiftyTwoWeekChangePercent	0.65237284
 fiftyTwoWeekHigh	225.64
-fiftyTwoWeekHighChange	-63.64
-fiftyTwoWeekHighChangePercent	-0.28204218
+fiftyTwoWeekHighChange	-69.205
+fiftyTwoWeekHighChangePercent	-0.3067054
 fiftyTwoWeekLow	147.11
-fiftyTwoWeekLowChange	14.889999
-fiftyTwoWeekLowChangePercent	0.10121677
+fiftyTwoWeekLowChange	9.324997
+fiftyTwoWeekLowChangePercent	0.06338792
 fiftyTwoWeekRange	147.11 - 225.64
 financialCurrency	USD
 firstTradeDateMilliseconds	1781271000000
 floatShares	281190750
 forwardEps	0.19667
-forwardPE	823.71484
+forwardPE	795.4187
 fullExchangeName	NasdaqGS
 fullTimeEmployees	22000
 gmtOffSetMilliseconds	-14400000
@@ -65,7 +66,7 @@ grossMargins	0.48826
 grossProfits	9424000000
 hasPrePostMarketData	True
 heldPercentInsiders	0.18744
-heldPercentInstitutions	0.0
+heldPercentInstitutions	0.00126
 impliedSharesOutstanding	13174187298
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -76,17 +77,17 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. The company's Connectivity segment operates a high-speed, low-latency broadband network powered by various Starlink satellites in low-earth orbit, delivering connectivity to various consumer, enterprise, and government customers through its Starlink offering. Its Space segment designs, manufactures, and launches reusable rockets to provide access to space. It offers launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. The company was founded in 2002 and is based in Starbase, Texas.
 longName	Space Exploration Technologies Corp.
 market	us_market
-marketCap	2134218244096
-marketState	POST
+marketCap	2060903907328
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_7702894
 mostRecentQuarter	1774915200
 netIncomeToCommon	-9356000256
 newListingDate	2026-06-12
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	2075461466926
-numberOfAnalystOpinions	6
-open	159.725
+nonDilutedMarketCap	2134218342276
+numberOfAnalystOpinions	7
+open	165.95
 operatingCashflow	7104999936
 operatingMargins	-0.41627997
 payoutRatio	0.0
@@ -95,11 +96,11 @@ postMarketChange	-0.9799957
 postMarketChangePercent	-0.60493565
 postMarketPrice	161.02
 postMarketTime	1783022706
-previousClose	157.54
-priceEpsCurrentYear	-607.49243
+previousClose	162.0
+priceEpsCurrentYear	-372.4643
 priceHint	2
-priceToBook	27.199463
-priceToSalesTrailing12Months	110.57553
+priceToBook	26.265112
+priceToSalesTrailing12Months	106.77706
 profitMargins	-0.44998002
 quickRatio	1.088
 quoteSourceName	Nasdaq Real Time Price
@@ -107,16 +108,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.0
 region	US
-regularMarketChange	4.4600067
-regularMarketChangePercent	2.8310313
-regularMarketDayHigh	162.16
-regularMarketDayLow	155.88
-regularMarketDayRange	155.88 - 162.16
-regularMarketOpen	159.725
-regularMarketPreviousClose	157.54
-regularMarketPrice	162.0
-regularMarketTime	1783022400
-regularMarketVolume	55798289
+regularMarketChange	-5.5650024
+regularMarketChangePercent	-3.4351866
+regularMarketDayHigh	167.895
+regularMarketDayLow	155.17
+regularMarketDayRange	155.17 - 167.895
+regularMarketOpen	165.95
+regularMarketPreviousClose	162.0
+regularMarketPrice	156.435
+regularMarketTime	1783363386
+regularMarketVolume	53052480
 revenueGrowth	0.154
 revenuePerShare	6.075
 sector	Industrials
@@ -131,11 +132,11 @@ shortRatio	0.06
 sourceInterval	15
 state	TX
 symbol	SPCX
-syntheticPEG	53.48797662337662
+syntheticPEG	51.65056493506493
 targetHighPrice	310.0
 targetLowPrice	62.0
-targetMeanPrice	188.16667
-targetMedianPrice	182.5
+targetMeanPrice	188.57143
+targetMedianPrice	190.0
 totalCash	23675000832
 totalCashPerShare	4.083
 totalDebt	30602999808
@@ -146,10 +147,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.68
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	169.67154
-twoHundredDayAverageChange	-7.6715393
-twoHundredDayAverageChangePercent	-0.04521406
+twoHundredDayAverage	169.12357
+twoHundredDayAverageChange	-12.688568
+twoHundredDayAverageChangePercent	-0.07502543
 typeDisp	Equity
-volume	55798289
+volume	53052480
 website	https://www.spacex.com
 zip	78521

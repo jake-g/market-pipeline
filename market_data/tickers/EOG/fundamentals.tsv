@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.044173717
-SandP52WeekChange	0.19172049
+52WeekChange	0.09338689
+SandP52WeekChange	0.20116603
 address1	1111 Bagby Street
 address2	Sky Lobby 2
 allTimeHigh	151.87
 allTimeLow	2.03125
-ask	130.89
-askSize	100
+ask	129.62
+askSize	200
 auditRisk	9
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	5247280
-averageDailyVolume3Month	3938949
-averageVolume	3938949
-averageVolume10days	5247280
-beta	0.256
-bid	130.88
-bidSize	100
+averageDailyVolume10Day	4910420
+averageDailyVolume3Month	3942506
+averageVolume	3942506
+averageVolume10days	4910420
+beta	0.261
+bid	129.56
+bidSize	400
 boardRisk	5
 bookValue	57.788
 city	Houston
@@ -26,18 +26,18 @@ corporateActions	[{'header': 'Dividend', 'message': 'EOG announced a cash divide
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	130.7999
+currentPrice	129.57
 currentRatio	1.716
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	131.03
-dayLow	129.48
+dayHigh	130.59
+dayLow	129.44
 debtToEquity	26.873
-discount_to_intrinsic_value	-16.69
+discount_to_intrinsic_value	-16.63
 displayName	EOG Resources
 dividendDate	1785456000
 dividendRate	4.08
-dividendYield	3.09
+dividendYield	3.12
 earningsCallTimestampEnd	1785960000
 earningsCallTimestampStart	1785960000
 earningsGrowth	0.396
@@ -47,11 +47,11 @@ earningsTimestampEnd	1785873600
 earningsTimestampStart	1785873600
 ebitda	12586000384
 ebitdaMargins	0.53398
-enterpriseToEbitda	5.796
-enterpriseToRevenue	3.095
-enterpriseValue	72947703808
-epsCurrentYear	16.98838
-epsForward	14.93965
+enterpriseToEbitda	5.889
+enterpriseToRevenue	3.144
+enterpriseValue	74114162688
+epsCurrentYear	16.99725
+epsForward	14.92465
 epsTrailingTwelveMonths	10.17
 eps_normalized_growth	0.013110668131003367
 esgPopulated	False
@@ -62,34 +62,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	713 651 6995
-fiftyDayAverage	135.95
-fiftyDayAverageChange	-5.1501007
-fiftyDayAverageChangePercent	-0.037882317
-fiftyTwoWeekChangePercent	4.4173717
+fiftyDayAverage	135.917
+fiftyDayAverageChange	-6.347
+fiftyDayAverageChangePercent	-0.046697617
+fiftyTwoWeekChangePercent	9.338689
 fiftyTwoWeekHigh	151.87
-fiftyTwoWeekHighChange	-21.070099
-fiftyTwoWeekHighChangePercent	-0.13873774
+fiftyTwoWeekHighChange	-22.299988
+fiftyTwoWeekHighChangePercent	-0.14683603
 fiftyTwoWeekLow	101.59
-fiftyTwoWeekLowChange	29.2099
-fiftyTwoWeekLowChangePercent	0.28752732
+fiftyTwoWeekLowChange	27.980011
+fiftyTwoWeekLowChangePercent	0.27542093
 fiftyTwoWeekRange	101.59 - 151.87
 financialCurrency	USD
 firstTradeDateMilliseconds	623511000000
 fiveYearAvgDividendYield	2.65
 floatShares	530865530
-forwardEps	14.93965
-forwardPE	8.7552185
+forwardEps	14.92465
+forwardPE	8.681611
 freeCashflow	2864250112
 fullExchangeName	NYSE
 fullTimeEmployees	3400
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1782864000
-graham_intrinsic_value	112.09
+graham_intrinsic_value	111.09
 grossMargins	0.61994
 grossProfits	14611999744
 hasPrePostMarketData	True
 heldPercentInsiders	0.0028400002
-heldPercentInstitutions	0.97644997
+heldPercentInstitutions	0.97641
 impliedSharesOutstanding	532628530
 industry	Oil & Gas E&P
 industryDisp	Oil & Gas E&P
@@ -104,16 +104,16 @@ lastSplitFactor	2:1
 longBusinessSummary	EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in producing basins in the United States, the Republic of Trinidad and Tobago, and internationally. The company also offers crude oil and condensate, and gathering, processing and marketing. The company was formerly known as Enron Oil & Gas Company. EOG Resources, Inc. was incorporated in 1985 and is headquartered in Houston, Texas.
 longName	EOG Resources, Inc.
 market	us_market
-marketCap	69667758080
-marketState	POST
+marketCap	69012684800
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_269660
 mostRecentQuarter	1774915200
 netIncomeToCommon	5496999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	68490702672
+nonDilutedMarketCap	69657159153
 numberOfAnalystOpinions	27
-open	129.48
+open	129.78
 operatingCashflow	10721000448
 operatingMargins	0.37877998
 overallRisk	3
@@ -124,11 +124,11 @@ postMarketChange	-0.019897461
 postMarketChangePercent	-0.015212138
 postMarketPrice	130.78
 postMarketTime	1783022585
-previousClose	128.59
-priceEpsCurrentYear	7.699374
+previousClose	130.78
+priceEpsCurrentYear	7.622998
 priceHint	2
-priceToBook	2.263444
-priceToSalesTrailing12Months	2.955781
+priceToBook	2.2421613
+priceToSalesTrailing12Months	2.9279883
 profitMargins	0.23322001
 quickRatio	1.425
 quoteSourceName	Nasdaq Real Time Price
@@ -136,16 +136,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.16667
 region	US
-regularMarketChange	2.2099
-regularMarketChangePercent	1.7185628
-regularMarketDayHigh	131.03
-regularMarketDayLow	129.48
-regularMarketDayRange	129.48 - 131.03
-regularMarketOpen	129.48
-regularMarketPreviousClose	128.59
-regularMarketPrice	130.7999
-regularMarketTime	1783022399
-regularMarketVolume	2143097
+regularMarketChange	-1.2099915
+regularMarketChangePercent	-0.92521137
+regularMarketDayHigh	130.59
+regularMarketDayLow	129.44
+regularMarketDayRange	129.44 - 130.59
+regularMarketOpen	129.78
+regularMarketPreviousClose	130.78
+regularMarketPrice	129.57
+regularMarketTime	1783363291
+regularMarketVolume	989845
 returnOnAssets	0.08968
 returnOnEquity	0.18195
 revenueGrowth	0.156
@@ -167,7 +167,7 @@ state	TX
 symbol	EOG
 targetHighPrice	196.0
 targetLowPrice	129.0
-targetMeanPrice	158.55556
+targetMeanPrice	158.2963
 targetMedianPrice	157.0
 totalCash	3848999936
 totalCashPerShare	7.226
@@ -175,15 +175,15 @@ totalDebt	8305999872
 totalRevenue	23569999872
 tradeable	False
 trailingAnnualDividendRate	4.035
-trailingAnnualDividendYield	0.031378802
+trailingAnnualDividendYield	0.03085334
 trailingEps	10.17
-trailingPE	12.861346
-trailingPegRatio	1.0298
+trailingPE	12.740414
+trailingPegRatio	1.0443
 triggerable	True
-twoHundredDayAverage	121.26165
-twoHundredDayAverageChange	9.538246
-twoHundredDayAverageChangePercent	0.07865839
+twoHundredDayAverage	121.32785
+twoHundredDayAverageChange	8.242157
+twoHundredDayAverageChangePercent	0.06793293
 typeDisp	Equity
-volume	2143097
+volume	989845
 website	https://www.eogresources.com
 zip	77002
