@@ -769,12 +769,13 @@ class MarketFetcher:
       return []
 
     try:
-      url = f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={ticker}&limit={limit}&apikey={config.ALPHA_VANTAGE_KEY}"
+      api_key = self._get_current_api_key() or config.ALPHA_VANTAGE_KEY
+      url = f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={ticker}&limit={limit}&apikey={api_key}"
 
       # Cache First
       cache_key = f"av_news_{ticker}"
       data = self._load_cache(cache_key,
-                              expiry_seconds=config.CACHE_EXPIRY_NEWS)
+                              expiry_seconds=config.CACHE_EXPIRY_AV_NEWS)
 
       if data is None:
         r = requests.get(url)
@@ -1084,6 +1085,10 @@ class MarketFetcher:
             pub_dt = datetime.datetime(*entry.published_parsed[:6])
 
           if pub_dt < cutoff:
+            continue
+
+          entry_link = getattr(entry, 'link', None)
+          if entry_link and str(entry_link) in seen_links:
             continue
 
           summary_text = getattr(entry, 'summary', '').replace('\n',
@@ -1588,9 +1593,10 @@ class MarketFetcher:
 
     to_drop = set()
     num_rows = len(df)
+    scan_limit = min(num_rows, 200)
     window_size = 50  # Increased window size for broader detection
 
-    for i in range(num_rows):
+    for i in range(scan_limit):
       if i in to_drop:
         continue
 

@@ -149,6 +149,7 @@ CACHE_YAHOO_PORTFOLIO_HOURS = 1  # 1 hour
 
 # News RSS feeds
 CACHE_EXPIRY_NEWS = 14400  # 4 hours
+CACHE_EXPIRY_AV_NEWS = 86400 * 14  # 14 days
 
 # Daily/weekly datasets (Yahoo, AIS, SEC, FRED)
 CACHE_EXPIRY_FUNDAMENTALS = 86400  # 24 hours
