@@ -46,11 +46,11 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Date | str | 2026-07-06 |
-| Source | str | Google |
-| Sentiment | float64 | 0.7 |
-| Headline | str | AMZN Fairly Valued by DCF at $199 - GuruFocus |
-| Summary | str | The "Magnificent Seven" stocks haven't done ver... |
-| URL | str | https://news.google.com/rss/articles/CBMie0FVX3... |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.9 |
+| Headline | str | 2 Brilliant Stocks to Buy and Hold for 10 Years |
+| Summary | str | You don't have to trade Alphabet and Amazon to ... |
+| URL | str | https://www.fool.com/investing/2026/07/06/2-bri... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
