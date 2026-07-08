@@ -1,5 +1,5 @@
 # Macro Economic Indicators Report
-**Generated:** 2026-07-06 16:59:17
+**Generated:** 2026-07-07 17:23:28
 
 ## 📊 Overview
 This report provides a high-level summary of the 52 macroeconomic indicators tracked in the pipeline.
@@ -40,12 +40,12 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | COPPER_PRICE              |  13483.8         | 0.00%          | 14.36%         |           2.71 | 2026-12-01 |
 | M2_MONEY                  |  23052.3         | 0.00%          | 3.13%          |           2.48 | 2026-12-01 |
 | TRUCK_PPI                 |    216.12        | 0.00%          | 19.35%         |           2.15 | 2026-12-01 |
-| UMICH_SENTIMENT           |     44.8         | 0.00%          | -15.31%        |          -2.11 | 2026-12-01 |
+| UMICH_SENTIMENT           |     44.8         | 0.00%          | -15.31%        |          -2.12 | 2026-12-01 |
 | HOUSING_STARTS            |   1177           | 0.00%          | -14.59%        |          -1.84 | 2026-12-01 |
 | TARIFFS                   |    346.15        | 0.00%          | -4.99%         |           1.82 | 2026-12-01 |
 | RD_INVESTMENT             |    909.51        | 0.00%          | 3.18%          |           1.77 | 2026-12-01 |
-| CPI                       |    333.98        | 0.00%          | 2.44%          |           1.63 | 2026-12-01 |
-| CHINA_IMPORTS             |  19789.2         | 0.00%          | -6.24%         |          -1.62 | 2026-12-01 |
+| CPI                       |    333.98        | 0.00%          | 2.44%          |           1.64 | 2026-12-01 |
+| CHINA_IMPORTS             |  19789.2         | 0.00%          | -6.24%         |          -1.61 | 2026-12-01 |
 | FREIGHT_PPI               |    466.38        | 0.00%          | 12.30%         |           1.55 | 2026-12-01 |
 | HOUSEHOLD_NET_WORTH       |      1.8298e+08  | 0.00%          | 0.06%          |           1.52 | 2026-12-01 |
 | GDP                       |  31865.7         | 0.00%          | 1.41%          |           1.47 | 2026-12-01 |
@@ -56,9 +56,9 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | FOOD_CPI                  |    349.03        | 0.00%          | 1.52%          |           1.36 | 2026-12-01 |
 | SAVINGS_RATE              |      3           | 0.00%          | -16.67%        |          -1.34 | 2026-12-01 |
 | WAREHOUSE_PPI             |    169.44        | 0.00%          | 2.77%          |           1.17 | 2026-12-01 |
-| FED_ASSETS                |      6.72456e+06 | 0.00%          | 2.63%          |          -1.13 | 2026-12-01 |
+| FED_ASSETS                |      6.72456e+06 | 0.00%          | 2.63%          |          -1.12 | 2026-12-01 |
 | CORP_SPREAD               |      0.75        | 0.00%          | -8.54%         |          -1.11 | 2026-12-01 |
-| BAA_SPREAD                |      1.54        | 0.00%          | -13.48%        |          -1.1  | 2026-12-01 |
+| BAA_SPREAD                |      1.54        | 0.00%          | -13.48%        |          -1.09 | 2026-12-01 |
 | KANSAS_CITY_FIN_STRESS    |     -0.76        | 0.00%          | -7.83%         |          -1.04 | 2026-12-01 |
 | US30Y                     |      4.97        | 0.00%          | 4.85%          |           1.03 | 2026-12-01 |
 | ELECTRIC_POWER_INDEX      |    114.05        | 0.00%          | -3.77%         |           1.03 | 2026-12-01 |

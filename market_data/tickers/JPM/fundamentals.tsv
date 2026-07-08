@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.14556289
-SandP52WeekChange	0.20116603
+52WeekChange	0.19428527
+SandP52WeekChange	0.21073103
 address1	270 Park Avenue
 allTimeHigh	343.45
 allTimeLow	3.208333
-ask	337.32
-askSize	240
+ask	339.0
+askSize	80
 auditRisk	6
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	11315310
-averageDailyVolume3Month	8991627
-averageVolume	8991627
-averageVolume10days	11315310
+averageDailyVolume10Day	10171200
+averageDailyVolume3Month	9005083
+averageVolume	9005083
+averageVolume10days	10171200
 beta	0.982
-bid	337.21
-bidSize	200
+bid	339.08
+bidSize	120
 boardRisk	6
 bookValue	128.379
 city	New York
@@ -25,16 +25,16 @@ corporateActions	[{'header': 'Dividend', 'message': 'JPM announced a cash divide
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	337.19
+currentPrice	339.22
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	339.715
-dayLow	334.11
-discount_to_intrinsic_value	33.01
+dayHigh	341.4
+dayLow	337.09
+discount_to_intrinsic_value	32.61
 displayName	JPMorgan Chase &
 dividendDate	1785456000
 dividendRate	6.0
-dividendYield	1.79
+dividendYield	1.78
 earningsCallTimestampEnd	1784032200
 earningsCallTimestampStart	1784032200
 earningsGrowth	0.172
@@ -44,10 +44,10 @@ earningsTimestampEnd	1784032200
 earningsTimestampStart	1784032200
 ebitdaMargins	0.0
 enterpriseToEbitda	-
-enterpriseToRevenue	3.775
-enterpriseValue	655120203776
-epsCurrentYear	22.55861
-epsForward	23.76918
+enterpriseToRevenue	3.825
+enterpriseValue	663828627456
+epsCurrentYear	22.65674
+epsForward	23.87942
 epsTrailingTwelveMonths	20.9
 eps_normalized_growth	0.0801052415060981
 esgPopulated	False
@@ -57,23 +57,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	312.6114
-fiftyDayAverageChange	24.578613
-fiftyDayAverageChangePercent	0.07862354
-fiftyTwoWeekChangePercent	14.556289
+fiftyDayAverage	313.1054
+fiftyDayAverageChange	26.114594
+fiftyDayAverageChangePercent	0.083405115
+fiftyTwoWeekChangePercent	19.428528
 fiftyTwoWeekHigh	343.45
-fiftyTwoWeekHighChange	-6.26001
-fiftyTwoWeekHighChangePercent	-0.018226843
+fiftyTwoWeekHighChange	-4.230011
+fiftyTwoWeekHighChangePercent	-0.012316234
 fiftyTwoWeekLow	279.1
-fiftyTwoWeekLowChange	58.089996
-fiftyTwoWeekLowChangePercent	0.20813327
+fiftyTwoWeekLowChange	60.119995
+fiftyTwoWeekLowChangePercent	0.21540664
 fiftyTwoWeekRange	279.1 - 343.45
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	2.39
 floatShares	2665256417
-forwardEps	23.76918
-forwardPE	14.186017
+forwardEps	23.87942
+forwardPE	14.205538
 fullExchangeName	NYSE
 fullTimeEmployees	320079
 gmtOffSetMilliseconds	-14400000
@@ -83,7 +83,7 @@ grossMargins	0.0
 grossProfits	173559005184
 hasPrePostMarketData	True
 heldPercentInsiders	0.0038
-heldPercentInstitutions	0.75566
+heldPercentInstitutions	0.75568
 impliedSharesOutstanding	2679511418
 industry	Banks - Diversified
 industryDisp	Banks - Diversified
@@ -91,7 +91,7 @@ industryKey	banks-diversified
 irWebsite	http://investor.shareholder.com/jpmorganchase/
 isEarningsDateEstimate	False
 language	en-US
-lastDividendDate	1775433600
+lastDividendDate	1783296000
 lastDividendValue	1.5
 lastFiscalYearEnd	1767139200
 lastSplitDate	960768000
@@ -99,8 +99,8 @@ lastSplitFactor	3:2
 longBusinessSummary	JPMorgan Chase & Co. operates as a bank and financial holding company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia Pacific, Latin America, and the Caribbean. It operates in three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, and cash management; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit cards, payment solutions, travel services, merchant offers, lifestyle benefits, auto loans, and leases to consumers and small businesses through bank branches, ATMs, and digital and telephone banking. It also provides investment banking, market-making, financing, custody, and securities products and services; corporate strategy and structure advisory, equity and debt market capital-raising, and loan origination and syndication services; cash and derivative instruments, risk management solutions, prime brokerage, clearing, and research; and fund services, liquidity and trading services, and data solutions products for large corporations, financial institutions, merchants, start-ups, small and midsized companies, local governments, municipalities, nonprofits, and commercial real estate clients. In addition, the company offers multi-asset investment management solutions in equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; retirement products and services, estate planning, lending, deposits, and investment management products to high-net-worth clients; and financial transaction processing. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York.
 longName	JPMorgan Chase & Co.
 market	us_market
-marketCap	903504396288
-marketState	REGULAR
+marketCap	908943818752
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_658776
 mostRecentQuarter	1774915200
@@ -108,38 +108,38 @@ netIncomeToCommon	57512001536
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	896216183978
 numberOfAnalystOpinions	21
-open	335.0
+open	340.975
 operatingCashflow	-107704000512
 operatingMargins	0.43741
 overallRisk	3
 payoutRatio	0.2824
-pegRatio	1.77
+pegRatio	1.79
 phone	212 270 6000
-postMarketChange	0.11999512
-postMarketChangePercent	0.035889074
-postMarketPrice	334.47
-postMarketTime	1783022651
-previousClose	332.97
-priceEpsCurrentYear	14.947286
+postMarketChange	-0.7200012
+postMarketChangePercent	-0.21225199
+postMarketPrice	338.5
+postMarketTime	1783468673
+previousClose	337.72
+priceEpsCurrentYear	14.972145
 priceHint	2
-priceToBook	2.62652
-priceToSalesTrailing12Months	5.2057476
+priceToBook	2.6423326
+priceToSalesTrailing12Months	5.237088
 profitMargins	0.33936
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.16667
 region	US
-regularMarketChange	4.220001
-regularMarketChangePercent	1.2673818
-regularMarketDayHigh	339.715
-regularMarketDayLow	334.11
-regularMarketDayRange	334.11 - 339.715
-regularMarketOpen	335.0
-regularMarketPreviousClose	332.97
-regularMarketPrice	337.19
-regularMarketTime	1783363338
-regularMarketVolume	2904795
+regularMarketChange	1.5
+regularMarketChangePercent	0.444155
+regularMarketDayHigh	341.4
+regularMarketDayLow	337.09
+regularMarketDayRange	337.09 - 341.4
+regularMarketOpen	340.975
+regularMarketPreviousClose	337.72
+regularMarketPrice	339.22
+regularMarketTime	1783454403
+regularMarketVolume	6792111
 returnOnAssets	0.01272
 returnOnEquity	0.16465001
 revenueGrowth	0.127
@@ -159,9 +159,9 @@ shortRatio	3.44
 sourceInterval	15
 state	NY
 symbol	JPM
-targetHighPrice	391.0
+targetHighPrice	411.0
 targetLowPrice	295.0
-targetMeanPrice	344.7143
+targetMeanPrice	352.42856
 targetMedianPrice	345.0
 totalCash	1582246002688
 totalCashPerShare	590.498
@@ -169,15 +169,15 @@ totalDebt	1321104965632
 totalRevenue	173559005184
 tradeable	False
 trailingAnnualDividendRate	5.9
-trailingAnnualDividendYield	0.017719314
+trailingAnnualDividendYield	0.017470093
 trailingEps	20.9
-trailingPE	16.133493
+trailingPE	16.230623
 trailingPegRatio	1.7686
 triggerable	True
-twoHundredDayAverage	308.48975
-twoHundredDayAverageChange	28.700256
-twoHundredDayAverageChangePercent	0.093034714
+twoHundredDayAverage	308.6324
+twoHundredDayAverageChange	30.587616
+twoHundredDayAverageChangePercent	0.09910695
 typeDisp	Equity
-volume	2904795
+volume	6792111
 website	https://www.jpmorganchase.com
 zip	10017

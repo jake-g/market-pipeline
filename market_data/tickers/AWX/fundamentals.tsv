@@ -1,18 +1,18 @@
 Metric	Value
-52WeekChange	0.037037015
-SandP52WeekChange	0.20116603
+52WeekChange	0.032653093
+SandP52WeekChange	0.21073103
 address1	One American Way
 allTimeHigh	20.2
 allTimeLow	0.92
-ask	2.58
-askSize	400
-averageDailyVolume10Day	5280
-averageDailyVolume3Month	7283
-averageVolume	7283
-averageVolume10days	5280
+ask	2.57
+askSize	200
+averageDailyVolume10Day	3860
+averageDailyVolume3Month	7224
+averageVolume	7224
+averageVolume10days	3860
 beta	0.62
-bid	2.55
-bidSize	100
+bid	2.49
+bidSize	600
 bookValue	9.519
 city	Warren
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Ronald E. Klingle', 'age': 77, 'title': 'Chairman & CEO', 'yearBorn': 1948, 'fiscalYear': 2025, 'totalPay': 255000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael J. Havalo', 'age': 40, 'title': 'CFO, Treasurer, Secretary & Director', 'yearBorn': 1985, 'fiscalYear': 2025, 'totalPay': 207303, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kenneth J. McMahon', 'age': 72, 'title': 'CEO & President of American Waste Management Services Inc', 'yearBorn': 1953, 'fiscalYear': 2025, 'totalPay': 480669, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Clifford P. Davis', 'age': 62, 'title': 'Chief Technology Officer', 'yearBorn': 1963, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Frances R. Klingle', 'age': 78, 'title': 'Chief Administrative Officer', 'yearBorn': 1947, 'fiscalYear': 2025, 'totalPay': 105000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Christine M. Bell', 'age': 56, 'title': 'President of Avalon Golf & Country Club The Grand Resort and Director', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Marjorie J. Patterson', 'title': 'Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -26,7 +26,7 @@ currentRatio	0.96
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
 dayHigh	2.56
-dayLow	2.53
+dayLow	2.56
 debtToEquity	97.278
 discount_to_intrinsic_value	-12.21
 displayName	Avalon
@@ -36,9 +36,9 @@ earningsTimestampEnd	1754942400
 earningsTimestampStart	1754510400
 ebitda	6202000
 ebitdaMargins	0.07285
-enterpriseToEbitda	6.563
-enterpriseToRevenue	0.478
-enterpriseValue	40701568
+enterpriseToEbitda	6.588
+enterpriseToRevenue	0.48
+enterpriseValue	40857544
 epsTrailingTwelveMonths	0.14
 eps_normalized_growth	0.0994661900599283
 esgPopulated	False
@@ -48,10 +48,10 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	330 856 8480
-fiftyDayAverage	2.5172
-fiftyDayAverageChange	0.04279995
-fiftyDayAverageChangePercent	0.017003
-fiftyTwoWeekChangePercent	3.7037015
+fiftyDayAverage	2.5178
+fiftyDayAverageChange	0.04219985
+fiftyDayAverageChangePercent	0.016760604
+fiftyTwoWeekChangePercent	3.2653093
 fiftyTwoWeekHigh	5.43
 fiftyTwoWeekHighChange	-2.87
 fiftyTwoWeekHighChangePercent	-0.52854514
@@ -84,24 +84,24 @@ longBusinessSummary	Avalon Holdings Corporation provides waste management servic
 longName	Avalon Holdings Corporation
 market	us_market
 marketCap	9982546
-marketState	REGULAR
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_385420
 mostRecentQuarter	1774915200
 netIncomeToCommon	585000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	9826565
-open	2.54
+open	2.56
 operatingCashflow	3507000
 operatingMargins	-0.04168
 payoutRatio	0.0
 pegRatio	4.39
 phone	330 856 8800
-postMarketChange	-0.01999998
-postMarketChangePercent	-0.79365003
-postMarketPrice	2.5
-postMarketTime	1783022462
-previousClose	2.52
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	2.56
+postMarketTime	1783454665
+previousClose	2.53
 priceHint	4
 priceToBook	0.2689358
 priceToSalesTrailing12Months	0.11725549
@@ -111,16 +111,16 @@ quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	none
 region	US
-regularMarketChange	0.03999996
-regularMarketChangePercent	1.5873001
+regularMarketChange	0.03
+regularMarketChangePercent	1.18577
 regularMarketDayHigh	2.56
-regularMarketDayLow	2.53
-regularMarketDayRange	2.53 - 2.56
-regularMarketOpen	2.54
-regularMarketPreviousClose	2.52
+regularMarketDayLow	2.56
+regularMarketDayRange	2.56 - 2.56
+regularMarketOpen	2.56
+regularMarketPreviousClose	2.53
 regularMarketPrice	2.56
-regularMarketTime	1783361346
-regularMarketVolume	919
+regularMarketTime	1783452865
+regularMarketVolume	793
 returnOnAssets	0.01741
 returnOnEquity	0.0086199995
 revenueGrowth	0.099
@@ -150,10 +150,10 @@ trailingEps	0.14
 trailingPE	18.285713
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	2.6254
-twoHundredDayAverageChange	-0.06540012
-twoHundredDayAverageChangePercent	-0.024910536
+twoHundredDayAverage	2.62555
+twoHundredDayAverageChange	-0.06555009
+twoHundredDayAverageChangePercent	-0.02496623
 typeDisp	Equity
-volume	919
+volume	793
 website	https://www.avalonholdings.com
 zip	44484-5555

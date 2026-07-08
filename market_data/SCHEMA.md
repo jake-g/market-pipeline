@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.08591759 |
+| Value | str | 0.11305618 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-06 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.9 |
-| Headline | str | 2 Brilliant Stocks to Buy and Hold for 10 Years |
-| Summary | str | You don't have to trade Alphabet and Amazon to ... |
-| URL | str | https://www.fool.com/investing/2026/07/06/2-bri... |
+| Date | str | 2026-07-07 |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Best Fire Stick deal: Save $15 on Amazon Fire T... |
+| Summary | str | Yahoo Finance's Dan Howley joins Josh Lipton to... |
+| URL | str | https://news.google.com/rss/articles/CBMiYEFVX3... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
