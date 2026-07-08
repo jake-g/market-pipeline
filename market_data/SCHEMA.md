@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-07 |
+| Date | str | 2026-07-08 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Best Fire Stick deal: Save $15 on Amazon Fire T... |
-| Summary | str | Yahoo Finance's Dan Howley joins Josh Lipton to... |
-| URL | str | https://news.google.com/rss/articles/CBMiYEFVX3... |
+| Sentiment | float64 | 0.6 |
+| Headline | str | Amazon.com vs. Shopify: Comparing Revenue Trend... |
+| Summary | str | Corning Incorporated (NYSE:GLW) is one of the B... |
+| URL | str | https://news.google.com/rss/articles/CBMizgFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -81,17 +81,17 @@ This report documents the file structures and column data types used in `market_
 | WAREHOUSE_PPI | float64 | 169.441 |
 | MFG_CONST | float64 | 174764.0 |
 | TECH_PULSE | float64 | 94.0431 |
-| CHINA_IMPORTS | float64 | 19789.1639 |
+| CHINA_IMPORTS | float64 | 23507.8161 |
 | TARIFFS | float64 | 346.15 |
-| USD_INDEX | float64 | 120.8866 |
-| USD_CNY | float64 | 6.798 |
-| USD_EUR | float64 | 1.1403 |
-| USD_JPY | float64 | 161.67 |
+| USD_INDEX | float64 | 120.6902 |
+| USD_CNY | float64 | 6.7886 |
+| USD_EUR | float64 | 1.1448 |
+| USD_JPY | float64 | 160.9 |
 | FOOD_CPI | float64 | 349.032 |
 | CORN_PRICE | float64 | 215.6206 |
 | WHEAT_PRICE | float64 | 220.8846 |
 | SUGAR_PRICE | float64 | 14.8692 |
-| WTI_CRUDE | float64 | 71.87 |
+| WTI_CRUDE | float64 | 69.6 |
 | NAT_GAS_PRICE | float64 | 2.8977 |
 | COPPER_PRICE | float64 | 13483.7515 |
 | ELECTRIC_POWER_INDEX | float64 | 114.0543 |
@@ -114,16 +114,16 @@ This report documents the file structures and column data types used in `market_
 | FED_ASSETS | float64 | 6724564.0 |
 | CPI | float64 | 333.979 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.17 |
-| US10Y | float64 | 4.48 |
-| US30Y | float64 | 4.97 |
-| HY_SPREAD | float64 | 2.74 |
-| CORP_SPREAD | float64 | 0.75 |
-| BAA_SPREAD | float64 | 1.54 |
+| US02Y | float64 | 4.19 |
+| US10Y | float64 | 4.55 |
+| US30Y | float64 | 5.05 |
+| HY_SPREAD | float64 | 2.67 |
+| CORP_SPREAD | float64 | 0.76 |
+| BAA_SPREAD | float64 | 1.55 |
 | AAA_SPREAD | float64 | 1.12 |
-| US_POLICY_UNCERTAINTY | float64 | 252.36 |
+| US_POLICY_UNCERTAINTY | float64 | 181.76 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 353.0482 |
-| GLOBAL_POLICY_UNCERTAINTY | float64 | 371.0954 |
-| ST_LOUIS_FIN_STRESS | float64 | -0.6445 |
+| GLOBAL_POLICY_UNCERTAINTY | float64 | 278.2301 |
+| ST_LOUIS_FIN_STRESS | float64 | -0.7246 |
 | KANSAS_CITY_FIN_STRESS | float64 | -0.7631 |
 | CHICAGO_FED_ACTIVITY | float64 | -0.1 |
