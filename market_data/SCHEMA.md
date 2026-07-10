@@ -17,13 +17,13 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.11305618 |
+| Value | str | 0.09610367 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
 | Earnings Date | str | 2026-07-30 16:00:00-04:00 |
-| EPS Estimate | float64 | 1.81 |
+| EPS Estimate | float64 | 1.82 |
 | Reported EPS | float64 | 2.78 |
 | Surprise(%) | float64 | 68.18 |
 
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-08 |
-| Source | str | Google |
-| Sentiment | float64 | 0.6 |
-| Headline | str | Amazon.com vs. Shopify: Comparing Revenue Trend... |
-| Summary | str | Corning Incorporated (NYSE:GLW) is one of the B... |
-| URL | str | https://news.google.com/rss/articles/CBMizgFBVV... |
+| Date | str | 2026-07-10 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.025 |
+| Headline | str | Small Cap ETFs Are Beating the S 500 as the Mag... |
+| Summary | str | A rough year for most of the megacaps has opene... |
+| URL | str | http://www.etf.com/sections/features/small-cap-... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

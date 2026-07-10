@@ -1,5 +1,5 @@
 # Macro Economic Indicators Report
-**Generated:** 2026-07-08 16:45:27
+**Generated:** 2026-07-09 18:27:32
 
 ## 📊 Overview
 This report provides a high-level summary of the 52 macroeconomic indicators tracked in the pipeline.
@@ -26,8 +26,8 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 ### 🧊 Top Inverse Correlations
 - **WTI_CRUDE** & **DISPOSABLE_INCOME**: `-0.59`
 - **UNRATE** & **TECH_PULSE**: `-0.52`
-- **ST_LOUIS_FIN_STRESS** & **DISPOSABLE_INCOME**: `-0.45`
-- **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.45`
+- **ST_LOUIS_FIN_STRESS** & **DISPOSABLE_INCOME**: `-0.46`
+- **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.44`
 - **US10Y** & **CHICAGO_FED_ACTIVITY**: `-0.44`
 
 
@@ -42,11 +42,11 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | TRUCK_PPI                 |    216.12        | 0.00%          | 19.35%         |           2.15 | 2026-12-01 |
 | UMICH_SENTIMENT           |     44.8         | 0.00%          | -15.31%        |          -2.11 | 2026-12-01 |
 | HOUSING_STARTS            |   1177           | 0.00%          | -14.59%        |          -1.83 | 2026-12-01 |
-| TARIFFS                   |    346.15        | 0.00%          | -4.99%         |           1.82 | 2026-12-01 |
+| TARIFFS                   |    346.15        | 0.00%          | -4.99%         |           1.81 | 2026-12-01 |
 | RD_INVESTMENT             |    909.51        | 0.00%          | 3.18%          |           1.77 | 2026-12-01 |
 | CPI                       |    333.98        | 0.00%          | 2.44%          |           1.63 | 2026-12-01 |
 | FREIGHT_PPI               |    466.38        | 0.00%          | 12.30%         |           1.55 | 2026-12-01 |
-| HOUSEHOLD_NET_WORTH       |      1.8298e+08  | 0.00%          | 0.06%          |           1.52 | 2026-12-01 |
+| HOUSEHOLD_NET_WORTH       |      1.8298e+08  | 0.00%          | 0.06%          |           1.51 | 2026-12-01 |
 | GDP                       |  31865.7         | 0.00%          | 1.41%          |           1.46 | 2026-12-01 |
 | US_POPULATION             | 343290           | 0.02%          | 0.24%          |           1.46 | 2026-12-01 |
 | REAL_GDP                  |  24180.4         | 0.00%          | 0.52%          |           1.42 | 2026-12-01 |
@@ -67,7 +67,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | M2_VELOCITY               |      1.41        | 0.00%          | 0.07%          |           0.94 | 2026-12-01 |
 | US10Y                     |      4.55        | 0.00%          | 11.25%         |           0.91 | 2026-12-01 |
 | USD_EUR                   |      1.14        | 0.00%          | -1.51%         |           0.82 | 2026-12-01 |
-| US_BIRTH_RATE             |     10.6         | 0.00%          | 0.00%          |          -0.8  | 2026-12-01 |
+| US_BIRTH_RATE             |     10.6         | 0.00%          | 0.00%          |          -0.79 | 2026-12-01 |
 | LIFE_EXPECTANCY           |     78.89        | 0.00%          | 0.00%          |           0.76 | 2026-12-01 |
 | ST_LOUIS_FIN_STRESS       |     -0.72        | 0.00%          | -84.75%        |          -0.73 | 2026-12-01 |
 | WTI_CRUDE                 |     69.6         | 0.00%          | 17.03%         |          -0.68 | 2026-12-01 |

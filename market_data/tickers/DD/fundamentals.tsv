@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.5089276
-SandP52WeekChange	0.21073103
+52WeekChange	0.4333303
+SandP52WeekChange	0.19142711
 address1	Building 730
 address2	974 Centre Road
 allTimeHigh	157.98
 allTimeLow	7.79126
-ask	138.98
-askSize	200
+ask	0.0
+askSize	500
 auditRisk	8
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	1717446
-averageDailyVolume3Month	1287558
-averageVolume	1287558
-averageVolume10days	1717446
+averageDailyVolume10Day	1711420
+averageDailyVolume3Month	1298728
+averageVolume	1298728
+averageVolume10days	1711420
 beta	1.083
-bid	138.86
-bidSize	300
+bid	0.0
+bidSize	200
 boardRisk	7
 bookValue	102.766
 city	Wilmington
@@ -26,16 +26,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	139.61
+currentPrice	134.79
 currentRatio	2.683
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	140.92
-dayLow	137.76
+dayHigh	138.5999
+dayLow	134.5125
 debtToEquity	22.594
 dividendDate	1789430400
 dividendRate	2.4
-dividendYield	1.7
+dividendYield	1.75
 earningsCallTimestampEnd	1777982400
 earningsCallTimestampStart	1777982400
 earningsTimestamp	1777984200
@@ -43,11 +43,11 @@ earningsTimestampEnd	1785846600
 earningsTimestampStart	1785846600
 ebitda	1552999936
 ebitdaMargins	0.22448999
-enterpriseToEbitda	14.025
-enterpriseToRevenue	3.148
-enterpriseValue	21781180416
-epsCurrentYear	7.16162
-epsForward	7.89361
+enterpriseToEbitda	13.601
+enterpriseToRevenue	3.053
+enterpriseValue	21122580480
+epsCurrentYear	6.87971
+epsForward	7.5874
 epsTrailingTwelveMonths	1.14
 esgPopulated	False
 exDividendDate	1788134400
@@ -56,23 +56,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	142.5092
-fiftyDayAverageChange	-2.8992004
-fiftyDayAverageChangePercent	-0.020343952
-fiftyTwoWeekChangePercent	50.892757
+fiftyDayAverage	142.4788
+fiftyDayAverageChange	-7.6888123
+fiftyDayAverageChangePercent	-0.053964604
+fiftyTwoWeekChangePercent	43.33303
 fiftyTwoWeekHigh	157.98
-fiftyTwoWeekHighChange	-18.369995
-fiftyTwoWeekHighChangePercent	-0.11628051
+fiftyTwoWeekHighChange	-23.190002
+fiftyTwoWeekHighChangePercent	-0.14679076
 fiftyTwoWeekLow	86.58578
-fiftyTwoWeekLowChange	53.024223
-fiftyTwoWeekLowChangePercent	0.6123895
+fiftyTwoWeekLowChange	48.204216
+fiftyTwoWeekLowChangePercent	0.5567221
 fiftyTwoWeekRange	86.58578 - 157.98
 financialCurrency	USD
 firstTradeDateMilliseconds	76253400000
 fiveYearAvgDividendYield	2.06
 floatShares	136066551
-forwardEps	7.89361
-forwardPE	17.686459
+forwardEps	7.5874
+forwardPE	17.764978
 freeCashflow	-124750000
 fullExchangeName	NYSE
 fullTimeEmployees	15000
@@ -82,7 +82,7 @@ grossMargins	0.35009998
 grossProfits	2422000128
 hasPrePostMarketData	True
 heldPercentInsiders	0.0019
-heldPercentInstitutions	0.78766
+heldPercentInstitutions	0.78302
 impliedSharesOutstanding	135019401
 industry	Specialty Chemicals
 industryDisp	Specialty Chemicals
@@ -97,16 +97,16 @@ lastSplitFactor	1:3
 longBusinessSummary	DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through two segments, Healthcare & Water Technologies and Diversified Industrials. The company offers specialty components for medical devices, packaging and garments, and protective suits under the brand TYVEK; provides water filtration and separation solutions, including elements, modules, and systems serving primarily industrial wastewater and energy markets, municipal and desalination applications, and life sciences and specialty sectors. It also offers AMBERLITE ion exchange resins, FILMTEC reverse osmosis and nanofiltration elements, and INGE and ITEGRATEC ultrafiltration modules. In addition, the company offers engineered products and integrated solutions for the non-residential, residential, and repair-and-remodel construction markets, includes TYVEK house wrap, STYROFOAM insulation, and CORIAN solid surface. Further, it engages in the design and production of engineered components, systems, and process solutions used in OEM and operational applications, such as automotive, aerospace, printing, and packaging. Additionally, the company offers Vespel shapes and parts, MOLYKOTE specialty lubricants, BETAFORCE and BETASEAL structural adhesives, and Cyrel flexographic printing plates. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware.
 longName	DuPont de Nemours, Inc.
 market	us_market
-marketCap	18850060288
+marketCap	18199265280
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_768440
 mostRecentQuarter	1774915200
 netIncomeToCommon	132000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	18890564393
+nonDilutedMarketCap	18493607354
 numberOfAnalystOpinions	16
-open	140.21
+open	138.14
 operatingCashflow	1214000000
 operatingMargins	0.13801
 overallRisk	5
@@ -115,13 +115,13 @@ pegRatio	1.72
 phone	302 295 5783
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	139.61
-postMarketTime	1783467231
-previousClose	141.05
-priceEpsCurrentYear	19.494192
+postMarketPrice	134.79
+postMarketTime	1783634603
+previousClose	136.97
+priceEpsCurrentYear	19.592394
 priceHint	2
-priceToBook	1.3585232
-priceToSalesTrailing12Months	2.7247846
+priceToBook	1.3116205
+priceToSalesTrailing12Months	2.6307118
 profitMargins	-0.00419
 quickRatio	1.076
 quoteSourceName	Delayed Quote
@@ -129,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.52941
 region	US
-regularMarketChange	-1.44
-regularMarketChangePercent	-1.02092
-regularMarketDayHigh	140.92
-regularMarketDayLow	137.76
-regularMarketDayRange	137.76 - 140.92
-regularMarketOpen	140.21
-regularMarketPreviousClose	141.05
-regularMarketPrice	139.61
-regularMarketTime	1783454470
-regularMarketVolume	959844
+regularMarketChange	-2.18001
+regularMarketChangePercent	-1.5916
+regularMarketDayHigh	138.5999
+regularMarketDayLow	134.5125
+regularMarketDayRange	134.5125 - 138.5999
+regularMarketOpen	138.14
+regularMarketPreviousClose	136.97
+regularMarketPrice	134.79
+regularMarketTime	1783627203
+regularMarketVolume	1376467
 returnOnAssets	0.01983
 returnOnEquity	0.00896
 revenueGrowth	0.043
@@ -160,23 +160,23 @@ state	DE
 symbol	DD
 targetHighPrice	192.00192
 targetLowPrice	153.0
-targetMeanPrice	170.68816
-targetMedianPrice	170.50085
+targetMeanPrice	170.68803
+targetMedianPrice	170.5
 totalCash	710000000
 totalCashPerShare	5.196
 totalDebt	3216999936
 totalRevenue	6918000128
 tradeable	False
 trailingAnnualDividendRate	3.66
-trailingAnnualDividendYield	0.025948245
+trailingAnnualDividendYield	0.02672118
 trailingEps	1.14
-trailingPE	122.46491
+trailingPE	118.23684
 trailingPegRatio	1.7173
 triggerable	True
-twoHundredDayAverage	129.02335
-twoHundredDayAverageChange	10.586655
-twoHundredDayAverageChangePercent	0.08205224
+twoHundredDayAverage	129.43419
+twoHundredDayAverageChange	5.3558044
+twoHundredDayAverageChangePercent	0.04137859
 typeDisp	Equity
-volume	959844
+volume	1376467
 website	https://www.dupont.com
 zip	19805

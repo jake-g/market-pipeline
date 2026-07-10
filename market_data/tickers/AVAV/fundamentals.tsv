@@ -1,23 +1,23 @@
 Metric	Value
-52WeekChange	-0.25405997
-SandP52WeekChange	0.21073103
+52WeekChange	-0.33585888
+SandP52WeekChange	0.19142711
 address1	241 18th Street South
 address2	Suite 650
 allTimeHigh	417.86
 allTimeLow	16.98
-ask	176.56
+ask	160.3
 askSize	2
 auditRisk	10
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	3258930
-averageDailyVolume3Month	1545100
-averageVolume	1545100
-averageVolume10days	3258930
+averageDailyVolume10Day	3380710
+averageDailyVolume3Month	1575626
+averageVolume	1575626
+averageVolume10days	3380710
 beta	1.395
-bid	151.58
-bidSize	2
+bid	147.76
+bidSize	1
 boardRisk	5
-bookValue	85.937
+bookValue	87.271
 city	Arlington
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Wahid  Nawabi', 'age': 56, 'title': 'Chairman of the Board, President & CEO', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1910595, 'exercisedValue': 7311599, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Melissa Ann Brown J.D.', 'age': 47, 'title': 'Executive VP, Chief Legal & Compliance Officer and Corporate Secretary', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 885352, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kevin Patrick McDonnell', 'age': 63, 'title': 'Advisor', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 957344, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Trace E. Stevenson', 'age': 51, 'title': 'President of Autonomous Systems', 'yearBorn': 1974, 'fiscalYear': 2025, 'totalPay': 749398, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sean T. Woodward', 'title': 'Executive VP & CFO', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Robert F. Smith Ph.D.', 'age': 52, 'title': 'Executive VP & COO', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Scott  Bowman', 'title': 'CTO & Senior VP of Global Engineering', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Aniket  Majumder', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Denise  Pacioni', 'title': 'Director of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jonah  Teeter-Balin', 'title': 'Senior Director of Corporate Development & Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	162.53
+currentPrice	148.4
 currentRatio	4.304
 customPriceAlertConfidence	HIGH
 dateShortInterest	1781481600
-dayHigh	177.1
-dayLow	162.4
+dayHigh	153.51
+dayLow	146.13
 debtToEquity	18.971
 displayName	AeroVironment
 earningsCallTimestampEnd	1782765000
@@ -41,34 +41,34 @@ earningsTimestampEnd	1788379200
 earningsTimestampStart	1788379200
 ebitda	194632992
 ebitdaMargins	0.09846
-enterpriseToEbitda	43.144
-enterpriseToRevenue	4.248
-enterpriseValue	8397172224
-epsCurrentYear	3.32154
-epsForward	4.62282
-epsTrailingTwelveMonths	-5.39
+enterpriseToEbitda	39.483
+enterpriseToRevenue	3.887
+enterpriseValue	7684744704
+epsCurrentYear	3.32567
+epsForward	4.57095
+epsTrailingTwelveMonths	-5.4
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	175.0138
-fiftyDayAverageChange	-12.483795
-fiftyDayAverageChangePercent	-0.07133035
-fiftyTwoWeekChangePercent	-25.405996
+fiftyDayAverage	173.4562
+fiftyDayAverageChange	-25.056213
+fiftyDayAverageChangePercent	-0.14445268
+fiftyTwoWeekChangePercent	-33.585888
 fiftyTwoWeekHigh	417.86
-fiftyTwoWeekHighChange	-255.32999
-fiftyTwoWeekHighChangePercent	-0.61104196
+fiftyTwoWeekHighChange	-269.46
+fiftyTwoWeekHighChangePercent	-0.6448571
 fiftyTwoWeekLow	135.2
-fiftyTwoWeekLowChange	27.330002
-fiftyTwoWeekLowChangePercent	0.202145
+fiftyTwoWeekLowChange	13.199997
+fiftyTwoWeekLowChangePercent	0.097633116
 fiftyTwoWeekRange	135.2 - 417.86
 financialCurrency	USD
 firstTradeDateMilliseconds	1169562600000
-floatShares	37913442
-forwardEps	4.62282
-forwardPE	35.158195
+floatShares	37895795
+forwardEps	4.57095
+forwardPE	32.465897
 freeCashflow	-251387504
 fullExchangeName	NasdaqGS
 fullTimeEmployees	3991
@@ -77,8 +77,8 @@ governanceEpochDate	1782864000
 grossMargins	0.25325
 grossProfits	500641984
 hasPrePostMarketData	True
-heldPercentInsiders	0.0076599997
-heldPercentInstitutions	0.89124
+heldPercentInsiders	0.00902
+heldPercentInstitutions	0.89324
 impliedSharesOutstanding	50608030
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -89,31 +89,31 @@ lastFiscalYearEnd	1777507200
 longBusinessSummary	AeroVironment, Inc. designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services for government agencies and businesses in the United States and internationally. It operates in two segments, Autonomous Systems; and Space, Cyber and Directed Energy. The company provides uncrewed aircraft systems (UAS), which include small and medium UAS, and kinesis command and control software; and counter-UAS and precision strike, a loitering munitions solution that deliver actionable intelligence and precision firepower modern warfighters, including precision strike, radio frequency and kinetic C-UAS, and electronic warfare systems. It also offers autonomy, AI, and platform technologies; unmanned maritime; uncrewed ground systems; and high-altitude pseudo-satellites. The company provides digital beamforming technology, a multi-band/beam software defined antenna tile that allows simultaneous communication with multiple satellites; laser communications, a data transmission systems for space operations; space-qualified hardware for line of sight stabilization and control electronics in low, medium, and geostationary earth orbit, as well as cislunar orbits; phased array antenna technology to supports hypersonic telemetry and tracking, and other missile testing; and directed energy solution. It also offers cyber solution for national security and defense operations; and HaloCortex OSINT, an AI-powered OSINT analysis platform to provide insights and solve department of defense and commercial challenges. AeroVironment, Inc. was incorporated in 1971 and is headquartered in Arlington, Virginia.
 longName	AeroVironment, Inc.
 market	us_market
-marketCap	8225323520
+marketCap	7510231552
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_1674636
 mostRecentQuarter	1777507200
 netIncomeToCommon	-265122000
 nextFiscalYearEnd	1809043200
-nonDilutedMarketCap	9660566846
+nonDilutedMarketCap	7984934973
 numberOfAnalystOpinions	18
-open	175.0
+open	152.0001
 operatingCashflow	-78404000
 operatingMargins	0.02812
 overallRisk	4
 payoutRatio	0.0
 pegRatio	1.57
 phone	703 418 2828
-postMarketChange	1.2700043
-postMarketChangePercent	0.78139687
-postMarketPrice	163.8
-postMarketTime	1783468798
-previousClose	176.84
-priceEpsCurrentYear	48.93212
+postMarketChange	0.1000061
+postMarketChangePercent	0.06738956
+postMarketPrice	148.5
+postMarketTime	1783641483
+previousClose	157.78
+priceEpsCurrentYear	44.622585
 priceHint	2
-priceToBook	1.8912692
-priceToSalesTrailing12Months	4.160834
+priceToBook	1.7004502
+priceToSalesTrailing12Months	3.7990997
 profitMargins	-0.13411
 quickRatio	3.472
 quoteSourceName	Nasdaq Real Time Price
@@ -121,16 +121,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.6
 region	US
-regularMarketChange	-14.31
-regularMarketChangePercent	-8.09206
-regularMarketDayHigh	177.1
-regularMarketDayLow	162.4
-regularMarketDayRange	162.4 - 177.1
-regularMarketOpen	175.0
-regularMarketPreviousClose	176.84
-regularMarketPrice	162.53
-regularMarketTime	1783454401
-regularMarketVolume	2214089
+regularMarketChange	-9.38
+regularMarketChangePercent	-5.94499
+regularMarketDayHigh	153.51
+regularMarketDayLow	146.13
+regularMarketDayRange	146.13 - 153.51
+regularMarketOpen	152.0001
+regularMarketPreviousClose	157.78
+regularMarketPrice	148.4
+regularMarketTime	1783627200
+regularMarketVolume	2286747
 returnOnAssets	-0.01287
 returnOnEquity	-0.10029
 revenueGrowth	1.333
@@ -152,7 +152,7 @@ state	VA
 symbol	AVAV
 targetHighPrice	450.0
 targetLowPrice	166.0
-targetMeanPrice	258.6061
+targetMeanPrice	254.27278
 targetMedianPrice	232.5
 totalCash	632297024
 totalCashPerShare	12.541
@@ -161,13 +161,13 @@ totalRevenue	1976845056
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-5.39
+trailingEps	-5.4
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	253.88235
-twoHundredDayAverageChange	-91.352356
-twoHundredDayAverageChangePercent	-0.35982162
+twoHundredDayAverage	252.7064
+twoHundredDayAverageChange	-104.30641
+twoHundredDayAverageChangePercent	-0.41275728
 typeDisp	Equity
-volume	2214089
+volume	2286747
 website	https://www.avinc.com
 zip	22202
