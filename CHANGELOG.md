@@ -5,7 +5,7 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
-## [v1.8.1] - 2026-07-06
+## [v1.8.1] - 2026-07-11
 ### RSS News Caching Optimization & Warm Pipeline Speedup
 - **Stage 6 Cached News Speedup**:
   - Implemented an early check for entry URL links in `seen_links` before performing regex cleanups, noise filtering, and TextBlob sentiment calculations.
