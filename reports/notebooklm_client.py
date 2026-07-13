@@ -21,7 +21,7 @@ class MarketNewsClient:
     self.notebook_name = f"TEST {project_name}" if test_mode else project_name
 
   async def __aenter__(self):
-    self.client = await NotebookLMClient.from_storage()
+    self.client = await NotebookLMClient.from_storage(timeout=180.0)
     await self.client.__aenter__()
     return self
 

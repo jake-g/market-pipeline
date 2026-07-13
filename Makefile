@@ -125,24 +125,24 @@ fetch:
 	@echo "📅 Start Time: $$(date)"
 	@mkdir -p logs
 	@t_total_start=$$(date +%s); \
-	$(MAKE) setup; \
-	$(MAKE) test-auth; \
-	$(MAKE) test-unit; \
-	$(MAKE) market-fetch; \
-	$(MAKE) shipping-fetch; \
-	$(MAKE) reports-macro; \
-	$(MAKE) portfolio; \
-	$(MAKE) sync-news; \
-	$(MAKE) reports-periodic; \
-	$(MAKE) sync-reports; \
-	$(MAKE) dashboard-build; \
-	$(MAKE) format; \
-	echo "🎉 Full Pipeline Complete."; \
-	echo "⏱️ Total Time: $$(($$(date +%s)-t_total_start))s."; \
-	echo "💾 Committing newly generated market data..."; \
-	git add market_data/; \
-	git add reports/news/*.md || true; \
-	git add reports/news/rendered/ || true; \
+	$(MAKE) setup && \
+	$(MAKE) test-auth && \
+	$(MAKE) test-unit && \
+	$(MAKE) market-fetch && \
+	$(MAKE) shipping-fetch && \
+	$(MAKE) reports-macro && \
+	$(MAKE) portfolio && \
+	$(MAKE) sync-news && \
+	$(MAKE) reports-periodic && \
+	$(MAKE) sync-reports && \
+	$(MAKE) dashboard-build && \
+	$(MAKE) format && \
+	echo "🎉 Full Pipeline Complete." && \
+	echo "⏱️ Total Time: $$(($$(date +%s)-t_total_start))s." && \
+	echo "💾 Committing newly generated market data..." && \
+	git add market_data/ && \
+	git add reports/news/*.md || true && \
+	git add reports/news/rendered/ || true && \
 	git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit."
 
 market-fetch: setup

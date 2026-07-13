@@ -504,61 +504,69 @@ async def generate_report(market_data_dir: str,
           with open(dir_path, 'r') as f:
             await db.upload_news_text(
                 f.read(), title=f"Raw {mode.capitalize()} Data Tables")
-      elif mode == 'feed_upload':
+      elif mode in ['feed_upload', 'daily']:
         target_date_obj = pd.to_datetime(start_date_str).tz_localize(
             None) if start_date_str else datetime.now()
         feed_title = f"{target_date_obj.strftime('%Y-%m-%d')} Daily Market Feed"
 
-        # Deduplication check
+        # Check if the feed already exists in the notebook
+        feed_exists = False
         if db.client and hasattr(db.client, 'sources'):
           logger.info("Checking if '%s' is already in Market Feed...",
                       feed_title)
           existing_sources = await db.client.sources.list(db.notebook_id)
           for src in existing_sources:
             if getattr(src, 'title', '') == feed_title:
-              logger.info("Source '%s' already exists. Skipping.", feed_title)
-              return
+              logger.info("Source '%s' already exists.", feed_title)
+              feed_exists = True
+              break
 
-        from reports.report_utils import build_daily_news_digest
-        text_blob, combined_df = build_daily_news_digest(
-            market_data_dir,
-            target_date=target_date_obj,
-            backfill_news=backfill_news)
+        if not feed_exists:
+          from reports.report_utils import build_daily_news_digest
+          text_blob, combined_df = build_daily_news_digest(
+              market_data_dir,
+              target_date=target_date_obj,
+              backfill_news=backfill_news)
 
-        if not text_blob or combined_df.empty:
-          logger.warning(
-              f"No recent news found for {target_date_obj.strftime('%Y-%m-%d')}. Aborting."
-          )
-          return
-
-        urls_to_fetch = []
-        if 'URL' in combined_df.columns:
-          # Sort to get the most relevant
-          if 'Sentiment' in combined_df.columns:
-            top_df = combined_df.sort_values(by='Sentiment', ascending=False)
+          if not text_blob or combined_df.empty:
+            logger.warning(
+                f"No recent news found for {target_date_obj.strftime('%Y-%m-%d')}."
+            )
           else:
-            top_df = combined_df
+            urls_to_fetch = []
+            if 'URL' in combined_df.columns:
+              # Sort to get the most relevant
+              if 'Sentiment' in combined_df.columns:
+                top_df = combined_df.sort_values(by='Sentiment',
+                                                 ascending=False)
+              else:
+                top_df = combined_df
 
-          urls_to_fetch = [
-              str(row.get('URL', '')).strip()
-              for _, row in top_df.iterrows()
-              if str(row.get('URL', '')).strip().startswith('http')
-          ][:15]
+              urls_to_fetch = [
+                  str(row.get('URL', '')).strip()
+                  for _, row in top_df.iterrows()
+                  if str(row.get('URL', '')).strip().startswith('http')
+              ][:15]
 
-        # Deep Fetch
-        logger.info(f"Scraping deep context for {len(urls_to_fetch)} URLs...")
-        for idx, url in enumerate(urls_to_fetch):
-          text = await MarketFetcher.fetch_article_text(url, max_paragraphs=30)
-          if text and len(text) > 100:
-            full_texts.append(f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
+            # Deep Fetch
+            logger.info(
+                f"Scraping deep context for {len(urls_to_fetch)} URLs...")
+            for idx, url in enumerate(urls_to_fetch):
+              text = await MarketFetcher.fetch_article_text(url,
+                                                            max_paragraphs=30)
+              if text and len(text) > 100:
+                full_texts.append(
+                    f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
 
-        final_market_feed_doc = f"# {feed_title}\n\n{text_blob}\n\n"
-        if full_texts:
-          final_market_feed_doc += "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
-              full_texts)
-        await db.upload_news_text(final_market_feed_doc, title=feed_title)
-        logger.info("✅ Uploaded single aggregated file: %s", feed_title)
-        return
+            final_market_feed_doc = f"# {feed_title}\n\n{text_blob}\n\n"
+            if full_texts:
+              final_market_feed_doc += "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
+                  full_texts)
+            await db.upload_news_text(final_market_feed_doc, title=feed_title)
+            logger.info("✅ Uploaded single aggregated file: %s", feed_title)
+
+        if mode == 'feed_upload':
+          return
 
       elif mode in ['weekly', 'monthly', 'yearly', 'yearly_prospective']:
         # Ensure strings are not None for type checker
