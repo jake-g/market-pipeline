@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.09610367 |
+| Value | str | 0.09259999 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-10 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.025 |
-| Headline | str | Small Cap ETFs Are Beating the S 500 as the Mag... |
-| Summary | str | A rough year for most of the megacaps has opene... |
-| URL | str | http://www.etf.com/sections/features/small-cap-... |
+| Date | str | 2026-07-14 |
+| Source | str | Google |
+| Sentiment | float64 | 0.7 |
+| Headline | str | Amazon Is Spending 200M In AI This Year: Is tha... |
+| Summary | str | Microsoft Corporation (NASDAQ:MSFT) is one of t... |
+| URL | str | https://news.google.com/rss/articles/CBMitgFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -83,17 +83,17 @@ This report documents the file structures and column data types used in `market_
 | TECH_PULSE | float64 | 94.0431 |
 | CHINA_IMPORTS | float64 | 23507.8161 |
 | TARIFFS | float64 | 346.15 |
-| USD_INDEX | float64 | 120.6902 |
-| USD_CNY | float64 | 6.7886 |
-| USD_EUR | float64 | 1.1448 |
-| USD_JPY | float64 | 160.9 |
-| FOOD_CPI | float64 | 349.032 |
-| CORN_PRICE | float64 | 215.6206 |
-| WHEAT_PRICE | float64 | 220.8846 |
-| SUGAR_PRICE | float64 | 14.8692 |
+| USD_INDEX | float64 | 120.5046 |
+| USD_CNY | float64 | 6.7766 |
+| USD_EUR | float64 | 1.1438 |
+| USD_JPY | float64 | 161.31 |
+| FOOD_CPI | float64 | 349.731 |
+| CORN_PRICE | float64 | 195.7819 |
+| WHEAT_PRICE | float64 | 199.6483 |
+| SUGAR_PRICE | float64 | 13.9077 |
 | WTI_CRUDE | float64 | 69.6 |
-| NAT_GAS_PRICE | float64 | 2.8977 |
-| COPPER_PRICE | float64 | 13483.7515 |
+| NAT_GAS_PRICE | float64 | 3.2059 |
+| COPPER_PRICE | float64 | 13552.0409 |
 | ELECTRIC_POWER_INDEX | float64 | 114.0543 |
 | RD_INVESTMENT | float64 | 909.507 |
 | US_BIRTH_RATE | float64 | 10.6 |
@@ -111,17 +111,17 @@ This report documents the file structures and column data types used in `market_
 | SAVINGS_RATE | float64 | 3.0 |
 | M2_MONEY | float64 | 23052.3 |
 | M2_VELOCITY | float64 | 1.411 |
-| FED_ASSETS | float64 | 6724564.0 |
-| CPI | float64 | 333.979 |
+| FED_ASSETS | float64 | 6735609.0 |
+| CPI | float64 | 332.568 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.19 |
-| US10Y | float64 | 4.55 |
-| US30Y | float64 | 5.05 |
-| HY_SPREAD | float64 | 2.67 |
-| CORP_SPREAD | float64 | 0.76 |
-| BAA_SPREAD | float64 | 1.55 |
-| AAA_SPREAD | float64 | 1.12 |
-| US_POLICY_UNCERTAINTY | float64 | 181.76 |
+| US02Y | float64 | 4.26 |
+| US10Y | float64 | 4.62 |
+| US30Y | float64 | 5.1 |
+| HY_SPREAD | float64 | 2.69 |
+| CORP_SPREAD | float64 | 0.78 |
+| BAA_SPREAD | float64 | 1.56 |
+| AAA_SPREAD | float64 | 1.14 |
+| US_POLICY_UNCERTAINTY | float64 | 234.73 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 353.0482 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 278.2301 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.7246 |

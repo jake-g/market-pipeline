@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.24121785
-SandP52WeekChange	0.19142711
+52WeekChange	0.2892741
+SandP52WeekChange	0.20365608
 address1	Bank of America Corporate Center
 address2	100 North Tryon Street
 allTimeHigh	60.83
 allTimeLow	0.828125
-ask	0.0
-askSize	4100
+ask	60.75
+askSize	900
 auditRisk	8
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	34144040
-averageDailyVolume3Month	36057700
-averageVolume	36057700
-averageVolume10days	34144040
+averageDailyVolume10Day	30755790
+averageDailyVolume3Month	35823409
+averageVolume	35823409
+averageVolume10days	30755790
 beta	1.175
-bid	59.2
-bidSize	2400
+bid	60.75
+bidSize	800
 boardRisk	5
 bookValue	38.664
 city	Charlotte
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	59.25
+currentPrice	60.62
 customPriceAlertConfidence	HIGH
-dateShortInterest	1781481600
-dayHigh	59.43
-dayLow	58.41
-discount_to_intrinsic_value	71.75
+dateShortInterest	1782777600
+dayHigh	61.21
+dayLow	58.67
+discount_to_intrinsic_value	70.65
 displayName	Bank of America
 dividendDate	1782432000
 dividendRate	1.12
-dividendYield	1.92
-earningsCallTimestampEnd	1784116800
-earningsCallTimestampStart	1784116800
+dividendYield	1.88
+earningsCallTimestampEnd	1784032200
+earningsCallTimestampStart	1784032200
 earningsGrowth	0.244
 earningsQuarterlyGrowth	0.166
 earningsTimestamp	1784032200
@@ -45,10 +45,10 @@ earningsTimestampEnd	1784032200
 earningsTimestampStart	1784032200
 ebitdaMargins	0.0
 enterpriseToEbitda	-
-enterpriseToRevenue	3.596
-enterpriseValue	394085007360
-epsCurrentYear	4.51209
-epsForward	5.11848
+enterpriseToRevenue	3.612
+enterpriseValue	395859132416
+epsCurrentYear	4.51959
+epsForward	5.119
 epsTrailingTwelveMonths	4.03
 eps_normalized_growth	0.2265870588673824
 esgPopulated	False
@@ -58,33 +58,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	54.058
-fiftyDayAverageChange	5.1920013
-fiftyDayAverageChangePercent	0.09604502
-fiftyTwoWeekChangePercent	24.121784
-fiftyTwoWeekHigh	60.83
-fiftyTwoWeekHighChange	-1.5800018
-fiftyTwoWeekHighChangePercent	-0.025974056
+fiftyDayAverage	54.463
+fiftyDayAverageChange	6.1569977
+fiftyDayAverageChangePercent	0.11304918
+fiftyTwoWeekChangePercent	28.92741
+fiftyTwoWeekHigh	61.21
+fiftyTwoWeekHighChange	-0.59000015
+fiftyTwoWeekHighChangePercent	-0.00963895
 fiftyTwoWeekLow	44.75
-fiftyTwoWeekLowChange	14.5
-fiftyTwoWeekLowChangePercent	0.32402235
-fiftyTwoWeekRange	44.75 - 60.83
+fiftyTwoWeekLowChange	15.869999
+fiftyTwoWeekLowChangePercent	0.35463685
+fiftyTwoWeekRange	44.75 - 61.21
 financialCurrency	USD
 firstTradeDateMilliseconds	99153000000
 fiveYearAvgDividendYield	2.35
 floatShares	7069126845
-forwardEps	5.11848
-forwardPE	11.575702
+forwardEps	5.119
+forwardPE	11.842156
 fullExchangeName	NYSE
 fullTimeEmployees	212000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1782864000
-graham_intrinsic_value	209.73
+graham_intrinsic_value	206.56
 grossMargins	0.0
 grossProfits	109590003712
 hasPrePostMarketData	True
 heldPercentInsiders	0.0734
-heldPercentInstitutions	0.70585996
+heldPercentInstitutions	0.70571
 impliedSharesOutstanding	7096590651
 industry	Banks - Diversified
 industryDisp	Banks - Diversified
@@ -92,7 +92,7 @@ industryKey	banks-diversified
 irWebsite	http://investor.bankofamerica.com/phoenix.zhtml?c=71595&p=irol-sec
 isEarningsDateEstimate	False
 language	en-US
-lastDividendDate	1772755200
+lastDividendDate	1780617600
 lastDividendValue	0.28
 lastFiscalYearEnd	1767139200
 lastSplitDate	1093824000
@@ -100,47 +100,47 @@ lastSplitFactor	2:1
 longBusinessSummary	Bank of America Corporation, through its subsidiaries, provides various financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. It operates through four segments: Consumer Banking, Global Wealth & Investment Management (GWIM), Global Banking, and Global Markets. The Consumer Banking segment offers traditional and money market savings accounts, certificates of deposit and IRAs, checking accounts, and investment accounts and products; credit and debit cards; residential mortgages and home equity loans; and direct and indirect loans. The GWIM segment provides investment management, brokerage, banking, and trust and retirement products and services; wealth management solutions; and customized solutions, including specialty asset management services. The Global Banking segment offers lending products and services, including commercial loans, leases, commitment facilities, trade finance, and commercial real estate and asset-based lending; treasury solutions, and underwriting and advisory services. The Global Markets segment provides market-making, financing, securities clearing, settlement, and custody services; securities and derivative products; and risk management products using interest rate, equity, credit, currency and commodity derivatives, foreign exchange, fixed-income, and mortgage-related products. Bank of America Corporation was founded in 1784 and is based in Charlotte, North Carolina.
 longName	Bank of America Corporation
 market	us_market
-marketCap	420473012224
-marketState	POSTPOST
+marketCap	430195343360
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_19049
 mostRecentQuarter	1774915200
 netIncomeToCommon	30256001024
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	413731234953
+nonDilutedMarketCap	422247143734
 numberOfAnalystOpinions	21
-open	58.45
+open	59.0
 operatingCashflow	56567001088
 operatingMargins	0.35956
 overallRisk	3
 payoutRatio	0.273
-pegRatio	1.07
+pegRatio	1.06
 phone	(704) 386-5681
-postMarketChange	-0.099998474
-postMarketChangePercent	-0.1687738
-postMarketPrice	59.15
-postMarketTime	1783641574
-previousClose	58.3
-priceEpsCurrentYear	13.131387
+postMarketChange	0.020000458
+postMarketChangePercent	0.032993168
+postMarketPrice	60.64
+postMarketTime	1784066646
+previousClose	59.5
+priceEpsCurrentYear	13.412721
 priceHint	2
-priceToBook	1.5324333
-priceToSalesTrailing12Months	3.8367825
+priceToBook	1.5678667
+priceToSalesTrailing12Months	3.925498
 profitMargins	0.28956
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.5
 region	US
-regularMarketChange	0.950001
-regularMarketChangePercent	1.6295
-regularMarketDayHigh	59.43
-regularMarketDayLow	58.41
-regularMarketDayRange	58.41 - 59.43
-regularMarketOpen	58.45
-regularMarketPreviousClose	58.3
-regularMarketPrice	59.25
-regularMarketTime	1783627203
-regularMarketVolume	15805787
+regularMarketChange	1.12
+regularMarketChangePercent	1.88235
+regularMarketDayHigh	61.21
+regularMarketDayLow	58.67
+regularMarketDayRange	58.67 - 61.21
+regularMarketOpen	59.0
+regularMarketPreviousClose	59.5
+regularMarketPrice	60.62
+regularMarketTime	1784059203
+regularMarketVolume	49159846
 returnOnAssets	0.00927
 returnOnEquity	0.10644
 revenueGrowth	0.081
@@ -151,9 +151,9 @@ sectorKey	financial-services
 shareHolderRightsRisk	2
 sharesOutstanding	7096590651
 sharesPercentSharesOut	0.0
-sharesShort	9091
-sharesShortPreviousMonthDate	1778803200
-sharesShortPriorMonth	3100
+sharesShort	5995
+sharesShortPreviousMonthDate	1780012800
+sharesShortPriorMonth	2704
 shortName	Bank of America Corporation
 shortPercentOfFloat	0.0
 shortRatio	0.0
@@ -162,23 +162,23 @@ state	NC
 symbol	BAC
 targetHighPrice	71.0
 targetLowPrice	58.0
-targetMeanPrice	65.30952
-targetMedianPrice	65.0
+targetMeanPrice	65.78571
+targetMedianPrice	66.0
 totalCash	851284983808
 totalCashPerShare	119.957
 totalDebt	799901024256
 totalRevenue	109590003712
 tradeable	False
 trailingAnnualDividendRate	1.1
-trailingAnnualDividendYield	0.018867925
+trailingAnnualDividendYield	0.018487396
 trailingEps	4.03
-trailingPE	14.702232
-trailingPegRatio	1.0374
+trailingPE	15.042183
+trailingPegRatio	1.0588
 triggerable	True
-twoHundredDayAverage	52.69475
-twoHundredDayAverageChange	6.5552483
-twoHundredDayAverageChangePercent	0.1244004
+twoHundredDayAverage	52.8075
+twoHundredDayAverageChange	7.8125
+twoHundredDayAverageChangePercent	0.147943
 typeDisp	Equity
-volume	15805787
+volume	49159846
 website	https://www.bankofamerica.com
 zip	28255
