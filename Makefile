@@ -136,14 +136,14 @@ fetch:
 	$(MAKE) reports-periodic && \
 	$(MAKE) sync-reports && \
 	$(MAKE) dashboard-build && \
-	$(MAKE) format && \
+	($(MAKE) format || true) && \
 	echo "🎉 Full Pipeline Complete." && \
 	echo "⏱️ Total Time: $$(($$(date +%s)-t_total_start))s." && \
 	echo "💾 Committing newly generated market data..." && \
-	git add market_data/ && \
-	git add reports/news/*.md || true && \
-	git add reports/news/rendered/ || true && \
-	git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit."
+	(git add market_data/ || true) && \
+	(git add reports/news/*.md || true) && \
+	(git add reports/news/rendered/ || true) && \
+	(git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit.")
 
 market-fetch: setup
 	@echo "📉 Running Market Fetcher (All Tickers)..."
