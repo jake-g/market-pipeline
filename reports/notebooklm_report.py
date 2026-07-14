@@ -342,20 +342,33 @@ async def upload_directory_to_notebooklm(dir_path: str,
         else:
           seen_titles.add(title)
 
-    # 2. Recursively find and upload new PDF files
-    logger.info("Syncing local reports to NotebookLM...")
+    # 2. Find all PDF files and sort by modification time (newest first)
+    logger.info("Scanning local reports...")
+    pdf_files = []
     for root, _, files in os.walk(dir_path):
       for file in files:
         if file.endswith('.pdf'):
-          # NotebookLM source titles from files perfectly match the basename
-          if file in seen_titles:
-            logger.info("Skipping already uploaded file: %s", file)
-            continue
-
           file_path = os.path.join(root, file)
-          await db.upload_file(file_path)
-          logger.info("Successfully uploaded %s", file_path)
-          seen_titles.add(file)
+          mtime = os.path.getmtime(file_path)
+          pdf_files.append((file_path, file, mtime))
+
+    # Sort descending by mtime (newest first)
+    pdf_files.sort(key=lambda x: x[2], reverse=True)
+
+    # Limit to latest 35 files to prevent thrashing under the 40 source limit
+    limit = 35
+    latest_pdfs = pdf_files[:limit]
+    logger.info("Syncing latest %d reports to NotebookLM...", len(latest_pdfs))
+
+    for file_path, file, _ in latest_pdfs:
+      # NotebookLM source titles from files perfectly match the basename
+      if file in seen_titles:
+        logger.info("Skipping already uploaded file: %s", file)
+        continue
+
+      await db.upload_file(file_path)
+      logger.info("Successfully uploaded %s", file_path)
+      seen_titles.add(file)
 
 
 # pylint: disable=too-many-return-statements
