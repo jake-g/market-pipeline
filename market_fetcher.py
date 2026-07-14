@@ -60,54 +60,168 @@ TICKER_ALIASES: Dict[str, str] = {
 
 # Search terms for short or dictionary-word tickers to prevent non-financial noise (e.g. pet cat news for CAT)
 TICKER_SEARCH_TERMS: Dict[str, str] = {
-    "ON": "ON Semiconductor stock",
-    "MS": "Morgan Stanley stock",
-    "V": "Visa stock",
-    "BP": "BP stock",
-    "HD": "Home Depot stock",
-    "GE": "General Electric stock",
-    "CP": "Canadian Pacific stock",
-    "GS": "Goldman Sachs stock",
-    "KO": "Coca-Cola stock",
-    "MU": "Micron Technology stock",
-    "PG": "Procter & Gamble stock",
-    "TM": "Toyota stock",
-    "ZS": "Zscaler stock",
-    "BX": "Blackstone stock",
-    "GD": "General Dynamics stock",
-    "CF": "CF Industries stock",
-    "COP": "ConocoPhillips stock",
-    "CAT": "Caterpillar stock",
-    "COST": "Costco stock",
-    "PAVE": "PAVE ETF stock",
-    "AMT": "American Tower stock",
-    "SO": "Southern Company stock",
-    "BA": "Boeing stock",
-    "COIN": "Coinbase stock",
-    "MA": "Mastercard stock",
-    "DE": "Deere stock",
-    "GOLD": "Barrick Gold stock",
-    "ITA": "ITA ETF stock",
-    "UPS": "UPS stock",
-    "VALE": "Vale stock",
-    "ES": "Eversource Energy stock",
-    "DD": "DuPont stock",
-    "F": "Ford stock",
-    "O": "Realty Income stock",
-    "A": "Agilent stock",
-    "NOW": "ServiceNow stock",
-    "BE": "Bloom Energy stock",
-    "FAST": "Fastenal stock",
-    "KEYS": "Keysight stock",
-    "PLUG": "Plug Power stock",
-    "NET": "Cloudflare stock",
-    "PAAS": "Pan American Silver stock",
-    "APP": "AppLovin stock",
-    "ALL": "Allstate stock",
-    "LOW": "Lowe's stock",
-    "WM": "Waste Management stock",
-    "D": "Dominion Energy stock",
-    "HAL": "Halliburton stock"
+    "ON":
+        "ON Semiconductor stock",
+    "MS":
+        "Morgan Stanley stock",
+    "V":
+        "Visa stock",
+    "BP":
+        "BP stock",
+    "HD":
+        "Home Depot stock",
+    "GE":
+        "General Electric stock",
+    "CP":
+        "Canadian Pacific stock",
+    "GS":
+        "Goldman Sachs stock",
+    "KO":
+        "Coca-Cola stock",
+    "MU":
+        "Micron Technology stock",
+    "PG":
+        "Procter & Gamble stock",
+    "TM":
+        "Toyota stock",
+    "ZS":
+        "Zscaler stock",
+    "BX":
+        "Blackstone stock",
+    "GD":
+        "General Dynamics stock",
+    "CF":
+        "CF Industries stock",
+    "COP":
+        "ConocoPhillips stock",
+    "CAT":
+        "Caterpillar stock",
+    "COST":
+        "Costco stock",
+    "PAVE":
+        "PAVE ETF stock",
+    "AMT":
+        "American Tower stock",
+    "SO":
+        "Southern Company stock",
+    "BA":
+        "Boeing stock",
+    "COIN":
+        "Coinbase stock",
+    "MA":
+        "Mastercard stock",
+    "DE":
+        "Deere stock",
+    "GOLD":
+        "Barrick Gold stock",
+    "ITA":
+        "ITA ETF stock",
+    "UPS":
+        "UPS stock",
+    "VALE":
+        "Vale stock",
+    "ES":
+        "Eversource Energy stock",
+    "DD":
+        "DuPont stock",
+    "F":
+        "Ford stock",
+    "O":
+        "Realty Income stock",
+    "A":
+        "Agilent stock",
+    "NOW":
+        "ServiceNow stock",
+    "BE":
+        "Bloom Energy stock",
+    "FAST":
+        "Fastenal stock",
+    "KEYS":
+        "Keysight stock",
+    "PLUG":
+        "Plug Power stock",
+    "NET":
+        "Cloudflare stock",
+    "PAAS":
+        "Pan American Silver stock",
+    "APP":
+        "AppLovin stock",
+    "ALL":
+        "Allstate stock",
+    "LOW":
+        "Lowe's stock",
+    "WM":
+        "Waste Management stock",
+    "D":
+        "Dominion Energy stock",
+    "HAL":
+        "Halliburton stock",
+
+    # News Topic Search Overrides to prevent generic noise in Google News
+    "AI":
+        '"AI market" OR "Artificial Intelligence industry"',
+    "Energy":
+        '"Energy sector" OR "Power generation" OR "Electricity grid"',
+    "Oil":
+        '"Crude oil" OR "Oil prices" OR "Oil market"',
+    "Shipping":
+        '"Ocean freight shipping" OR "Maritime logistics" OR "Container rates"',
+    "Logistics":
+        '"Supply chain logistics" OR "Freight logistics"',
+    "War":
+        '"Military conflict geopolitics" OR "War economy"',
+    "Technology":
+        '"Tech industry" OR "Big Tech news" OR "Technology stocks"',
+    "Iran":
+        '"Iran geopolitics" OR "Iran sanctions" OR "Iran oil"',
+    "Russia":
+        '"Russia geopolitics" OR "Russia sanctions" OR "Russia Ukraine War"',
+    "Ukraine":
+        '"Ukraine war" OR "Ukraine conflict"',
+    "China":
+        '"China geopolitics" OR "China economy" OR "China trade"',
+    "Taiwan":
+        '"Taiwan geopolitics" OR "Taiwan Strait" OR "Taiwan Semiconductor"',
+    "United States":
+        '"US economy" OR "US macro" OR "United States policy"',
+    "Canada":
+        '"Canada economy" OR "Canada trade"',
+    "Mexico":
+        '"Mexico economy" OR "Mexico nearshoring"',
+    "Israel":
+        '"Israel conflict" OR "Israel geopolitics"',
+    "Middle East":
+        '"Middle East conflict" OR "Middle East geopolitics"',
+    "India":
+        '"India economy" OR "India growth" OR "India markets"',
+    "Pakistan":
+        '"Pakistan economy" OR "Pakistan geopolitics"',
+    "Venezuela":
+        '"Venezuela oil" OR "Venezuela sanctions"',
+    "Drones":
+        '"Military drones" OR "Defense drone technology"',
+    "Hormuz":
+        '"Strait of Hormuz shipping" OR "Hormuz geopolitics"',
+    "OPEC":
+        '"OPEC oil policy" OR "OPEC+ production"',
+    "Uranium":
+        '"Uranium prices" OR "Uranium mining"',
+    "Natural Gas":
+        '"Natural gas prices" OR "LNG exports"',
+    "Lithium":
+        '"Lithium battery" OR "Lithium prices" OR "Lithium mining"',
+    "Rare Earths":
+        '"Rare earth metals" OR "Rare earth supply chain"',
+    "GDP":
+        '"GDP growth" OR "GDP economy"',
+    "Recession":
+        '"Recession risk" OR "Economic recession"',
+    "Inflation":
+        '"CPI inflation" OR "Inflation rates"',
+    "Interest Rates":
+        '"Fed interest rates" OR "Central bank rates"',
+    "Tariffs":
+        '"Customs tariffs" OR "Trade tariffs"'
 }
 
 # FRED Economic Data Series
@@ -299,7 +413,7 @@ SKIP_EARNINGS: List[str] = [
 
 
     # Fixed Income & Preferred
-    "PFFD", "PFXF", "FAGOX", "FASPX",
+    "PFFD", "PFXF", "FAGOX", "FASPX", "VBIL", "VUSB",
 
     # Industry-Specific or Foreign Alternatives
     "BDRY", "COPX", "XLU",

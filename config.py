@@ -43,20 +43,22 @@ NEWS_TOPICS =[
     "GPU", "Generative AI", "AI Regulation", "Technology", "Big Tech", "Sovereign AI",
     "Hyperscalers", "Circular Deals", "AI Agents", "Custom Silicon", "Cybersecurity",
     "Quantum Computing", "Physical AI", "Inference Infrastructure", "Edge AI",
-    "Multimodal AI",
+    "Multimodal AI", "Reasoning Models", "High Bandwidth Memory", "HBM Shortage",
+    "Silicon Photonics", "AI Data Licensing",
 
     # Energy, Grid & Commodities
     "Energy", "Oil", "OPEC", "Nuclear Energy", "Uranium", "Natural Gas",
     "Power Grid", "Renewable Energy", "Commodities", "Electricity Demand",
     "AI Energy Demand", "Small Modular Reactors", "Copper Demand",
     "Battery Storage", "Grid Modernization", "Desalination", "Water Security",
-    "Lithium", "Rare Earths", "Power Grid Constraints",
+    "Lithium", "Rare Earths", "Power Grid Constraints", "Geothermal Energy",
+    "Nuclear PPAs",
 
     # Supply Chain, Chips & Shipping
     "Supply Chain", "Shipping", "Logistics", "Freight", "Container Rates",
     "Semiconductor Fabs", "Chip Shortage", "Memory Shortage", "EDA Software",
     "Advanced Packaging", "Taiwan-China Chip Geopolitics", "Foundry Business",
-    "Nearshoring", "Friendshoring",
+    "Nearshoring", "Friendshoring", "Glass Substrates",
 
     # Countries & Regions
     "Iran", "Russia", "Ukraine", "Venezuela", "Pakistan", "China", "Taiwan",
@@ -135,7 +137,7 @@ SECTORS = {
         "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"
     ],
     "Fixed Income & Preferred": [
-        "PFFD", "PFXF", "FAGOX", "FASPX"
+        "PFFD", "PFXF", "FAGOX", "FASPX", "VBIL", "VUSB"
     ]
 }
 # yapf: enable
