@@ -1,5 +1,5 @@
 # Macro Economic Indicators Report
-**Generated:** 2026-07-14 15:18:58
+**Generated:** 2026-07-15 11:42:02
 
 ## 📊 Overview
 This report provides a high-level summary of the 52 macroeconomic indicators tracked in the pipeline.
@@ -51,7 +51,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | GDP                       |  31865.7         | 0.00%          | 1.41%          |           1.46 | 2026-12-01 |
 | US_POPULATION             | 343290           | 0.02%          | 0.24%          |           1.45 | 2026-12-01 |
 | REAL_GDP                  |  24180.4         | 0.00%          | 0.52%          |           1.42 | 2026-12-01 |
-| FOOD_CPI                  |    349.73        | 0.00%          | 1.73%          |           1.38 | 2026-12-01 |
+| FOOD_CPI                  |    349.73        | 0.00%          | 1.73%          |           1.39 | 2026-12-01 |
 | SAVINGS_RATE              |      3           | 0.00%          | -16.67%        |          -1.35 | 2026-12-01 |
 | USD_JPY                   |    161.31        | 0.00%          | 3.88%          |           1.34 | 2026-12-01 |
 | CHINA_IMPORTS             |  23507.8         | 0.00%          | 11.38%         |          -1.25 | 2026-12-01 |
@@ -61,7 +61,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | FED_ASSETS                |      6.73561e+06 | 0.00%          | 2.80%          |          -1.1  | 2026-12-01 |
 | KANSAS_CITY_FIN_STRESS    |     -0.76        | 0.00%          | -7.83%         |          -1.03 | 2026-12-01 |
 | ELECTRIC_POWER_INDEX      |    114.05        | 0.00%          | -3.77%         |           1.02 | 2026-12-01 |
-| BAA_SPREAD                |      1.56        | 0.00%          | -12.36%        |          -1.01 | 2026-12-01 |
+| BAA_SPREAD                |      1.56        | 0.00%          | -12.36%        |          -1    | 2026-12-01 |
 | US10Y                     |      4.62        | 0.00%          | 12.96%         |           0.97 | 2026-12-01 |
 | DISPOSABLE_INCOME         |  17983.8         | 0.00%          | -0.19%         |           0.97 | 2026-12-01 |
 | M2_VELOCITY               |      1.41        | 0.00%          | 0.07%          |           0.94 | 2026-12-01 |
@@ -69,7 +69,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | CORN_PRICE                |    195.78        | 0.00%          | -4.64%         |          -0.84 | 2026-12-01 |
 | USD_EUR                   |      1.14        | 0.00%          | -1.59%         |           0.81 | 2026-12-01 |
 | US_BIRTH_RATE             |     10.6         | 0.00%          | 0.00%          |          -0.79 | 2026-12-01 |
-| AAA_SPREAD                |      1.14        | 0.00%          | -2.56%         |           0.77 | 2026-12-01 |
+| AAA_SPREAD                |      1.14        | 0.00%          | -2.56%         |           0.78 | 2026-12-01 |
 | LIFE_EXPECTANCY           |     78.89        | 0.00%          | 0.00%          |           0.76 | 2026-12-01 |
 | ST_LOUIS_FIN_STRESS       |     -0.72        | 0.00%          | -84.75%        |          -0.73 | 2026-12-01 |
 | WTI_CRUDE                 |     69.6         | 0.00%          | 17.03%         |          -0.68 | 2026-12-01 |
@@ -80,7 +80,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | US02Y                     |      4.26        | 0.00%          | 20.34%         |           0.51 | 2026-12-01 |
 | TECH_PULSE                |     94.04        | 0.00%          | 4.57%          |           0.37 | 2026-12-01 |
 | NAT_GAS_PRICE             |      3.21        | 0.00%          | -27.65%        |          -0.37 | 2026-12-01 |
-| MFG_CONST                 | 174764           | 0.00%          | -3.87%         |          -0.18 | 2026-12-01 |
+| MFG_CONST                 | 174764           | 0.00%          | -3.87%         |          -0.19 | 2026-12-01 |
 | US_POLICY_UNCERTAINTY     |    234.73        | 0.00%          | -8.98%         |           0.18 | 2026-12-01 |
 | GLOBAL_POLICY_UNCERTAINTY |    278.23        | 0.00%          | -16.34%        |           0.06 | 2026-12-01 |
 | CHICAGO_FED_ACTIVITY      |     -0.1         | 0.00%          | -66.67%        |          -0.06 | 2026-12-01 |

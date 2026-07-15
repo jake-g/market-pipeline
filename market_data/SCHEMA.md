@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-14 |
+| Date | str | 2026-07-15 |
 | Source | str | Google |
-| Sentiment | float64 | 0.7 |
-| Headline | str | Amazon Is Spending 200M In AI This Year: Is tha... |
-| Summary | str | Microsoft Corporation (NASDAQ:MSFT) is one of t... |
-| URL | str | https://news.google.com/rss/articles/CBMitgFBVV... |
+| Sentiment | float64 | 1.0 |
+| Headline | str | 5 Of The Best Sennheiser Headphones On Amazon, ... |
+| Summary | str | Secure network could strengthen allied intellig... |
+| URL | str | https://news.google.com/rss/articles/CBMilwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
