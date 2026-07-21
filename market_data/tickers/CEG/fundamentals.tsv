@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.19000596
-SandP52WeekChange	0.20365608
+52WeekChange	-0.20230341
+SandP52WeekChange	0.17967165
 address1	1310 Point Street
 allTimeHigh	412.7
 allTimeLow	38.0
-ask	278.75
+ask	254.11
 askSize	1
 auditRisk	4
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	3838970
-averageDailyVolume3Month	3678463
-averageVolume	3678463
-averageVolume10days	3838970
+averageDailyVolume10Day	2667870
+averageDailyVolume3Month	3674832
+averageVolume	3674832
+averageVolume10days	2667870
 beta	1.121
-bid	257.39
-bidSize	1
+bid	240.85
+bidSize	2
 boardRisk	5
 bookValue	92.403
 city	Baltimore
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	256.43
+currentPrice	262.475
 currentRatio	1.363
 customPriceAlertConfidence	HIGH
 dateShortInterest	1782777600
-dayHigh	266.0
-dayLow	255.18
+dayHigh	264.45
+dayLow	255.72
 debtToEquity	66.428
-discount_to_intrinsic_value	60.01
+discount_to_intrinsic_value	59.69
 displayName	Constellation Energy
 dividendDate	1780617600
 dividendRate	1.71
-dividendYield	0.66
+dividendYield	0.67
 earningsCallTimestampEnd	1786046400
 earningsCallTimestampStart	1786046400
 earningsGrowth	10.91
@@ -46,11 +46,11 @@ earningsTimestampEnd	1786019400
 earningsTimestampStart	1786019400
 ebitda	7957000192
 ebitdaMargins	0.26641
-enterpriseToEbitda	14.449
-enterpriseToRevenue	3.849
-enterpriseValue	114970722304
+enterpriseToEbitda	14.264
+enterpriseToRevenue	3.8
+enterpriseValue	113500684288
 epsCurrentYear	11.71543
-epsForward	13.58303
+epsForward	13.58398
 epsTrailingTwelveMonths	11.51
 eps_normalized_growth	4.537545727447435
 esgPopulated	False
@@ -60,33 +60,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	272.4026
-fiftyDayAverageChange	-15.972595
-fiftyDayAverageChangePercent	-0.05863599
-fiftyTwoWeekChangePercent	-19.000595
+fiftyDayAverage	266.1455
+fiftyDayAverageChange	-3.6705017
+fiftyDayAverageChangePercent	-0.013791335
+fiftyTwoWeekChangePercent	-20.230341
 fiftyTwoWeekHigh	412.7
-fiftyTwoWeekHighChange	-156.27002
-fiftyTwoWeekHighChangePercent	-0.3786528
+fiftyTwoWeekHighChange	-150.225
+fiftyTwoWeekHighChangePercent	-0.36400533
 fiftyTwoWeekLow	228.63
-fiftyTwoWeekLowChange	27.799988
-fiftyTwoWeekLowChangePercent	0.12159379
+fiftyTwoWeekLowChange	33.845
+fiftyTwoWeekLowChangePercent	0.14803395
 fiftyTwoWeekRange	228.63 - 412.7
 financialCurrency	USD
 firstTradeDateMilliseconds	1642602600000
 floatShares	337745216
-forwardEps	13.58303
-forwardPE	18.878704
+forwardEps	13.58398
+forwardPE	19.322393
 freeCashflow	-4478875136
 fullExchangeName	NasdaqGS
 fullTimeEmployees	15291
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1782864000
-graham_intrinsic_value	641.27
+graham_intrinsic_value	651.14
 grossMargins	0.23263
 grossProfits	6947999744
 hasPrePostMarketData	True
 heldPercentInsiders	0.0032300001
-heldPercentInstitutions	0.83265
+heldPercentInstitutions	0.84529
 impliedSharesOutstanding	357102017
 industry	Utilities - Independent Power Producers
 industryDisp	Utilities - Independent Power Producers
@@ -99,17 +99,17 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Constellation Energy Corporation produces and sells energy products and services in the United States. The company operates through five segments: Mid-Atlantic, Midwest, New York, ERCOT, and Other Power Regions. It offers electricity, natural gas, energy-related products, and sustainable solutions. The company has approximately 31,676 megawatts of generating capacity consisting of nuclear, wind, solar, natural gas, and hydroelectric assets. It serves distribution utilities, municipalities, cooperatives, and commercial, industrial, public sector, and residential customers. The company was incorporated in 2021 and is headquartered in Baltimore, Maryland.
 longName	Constellation Energy Corporation
 market	us_market
-marketCap	91571666944
-marketState	POST
+marketCap	93730357248
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_3136719
 mostRecentQuarter	1774915200
-nameChangeDate	2026-07-14
+nameChangeDate	2026-07-21
 netIncomeToCommon	3791000064
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	91978766518
+nonDilutedMarketCap	90525361309
 numberOfAnalystOpinions	21
-open	261.998
+open	255.72
 operatingCashflow	4554999808
 operatingMargins	0.21858
 overallRisk	6
@@ -121,11 +121,11 @@ postMarketChangePercent	1.0061293
 postMarketPrice	259.01
 postMarketTime	1784066621
 prevName	Exelon Generation Company, LLC
-previousClose	257.57
-priceEpsCurrentYear	21.888227
+previousClose	253.5
+priceEpsCurrentYear	22.404215
 priceHint	2
-priceToBook	2.7751262
-priceToSalesTrailing12Months	3.0659814
+priceToBook	2.8405464
+priceToSalesTrailing12Months	3.1382582
 profitMargins	0.12693
 quickRatio	0.478
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.52174
 region	US
-regularMarketChange	-1.1400146
-regularMarketChangePercent	-0.4426038
-regularMarketDayHigh	266.0
-regularMarketDayLow	255.18
-regularMarketDayRange	255.18 - 266.0
-regularMarketOpen	261.998
-regularMarketPreviousClose	257.57
-regularMarketPrice	256.43
-regularMarketTime	1784059201
-regularMarketVolume	3080167
+regularMarketChange	8.975006
+regularMarketChangePercent	3.5404363
+regularMarketDayHigh	264.45
+regularMarketDayLow	255.72
+regularMarketDayRange	255.72 - 264.45
+regularMarketOpen	255.72
+regularMarketPreviousClose	253.5
+regularMarketPrice	262.475
+regularMarketTime	1784660777
+regularMarketVolume	1514233
 returnOnAssets	0.04196
 returnOnEquity	0.16104999
 revenueGrowth	0.638
@@ -172,15 +172,15 @@ totalDebt	22466000896
 totalRevenue	29866999808
 tradeable	False
 trailingAnnualDividendRate	1.59
-trailingAnnualDividendYield	0.006173079
+trailingAnnualDividendYield	0.0062721893
 trailingEps	11.51
-trailingPE	22.278887
+trailingPE	22.804083
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	314.4165
-twoHundredDayAverageChange	-57.98651
-twoHundredDayAverageChangePercent	-0.18442579
+twoHundredDayAverage	312.47726
+twoHundredDayAverageChange	-50.00226
+twoHundredDayAverageChangePercent	-0.16001886
 typeDisp	Equity
-volume	3080167
+volume	1514233
 website	https://www.constellationenergy.com
 zip	21231-3380
