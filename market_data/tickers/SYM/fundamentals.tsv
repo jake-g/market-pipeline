@@ -1,18 +1,18 @@
 Metric	Value
-52WeekChange	-0.17348176
-SandP52WeekChange	0.17967165
+52WeekChange	-0.20747042
+SandP52WeekChange	0.18089426
 address1	200 Research Drive
 allTimeHigh	87.88
 allTimeLow	8.75
-ask	53.05
+ask	53.88
 askSize	2
 averageAnalystRating	2.3 - Buy
-averageDailyVolume10Day	1474880
-averageDailyVolume3Month	2143865
-averageVolume	2143865
-averageVolume10days	1474880
+averageDailyVolume10Day	1410730
+averageDailyVolume3Month	2145445
+averageVolume	2145445
+averageVolume10days	1410730
 beta	1.933
-bid	30.34
+bid	30.4
 bidSize	2
 bookValue	5.402
 city	Wilmington
@@ -22,12 +22,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	42.5999
+currentPrice	42.45
 currentRatio	1.446
 customPriceAlertConfidence	HIGH
 dateShortInterest	1782777600
-dayHigh	42.917
-dayLow	41.11
+dayHigh	42.76
+dayLow	41.93
 debtToEquity	2.717
 displayName	Symbotic
 earningsCallTimestampEnd	1785960000
@@ -37,9 +37,9 @@ earningsTimestampEnd	1785960000
 earningsTimestampStart	1785960000
 ebitda	22643000
 ebitdaMargins	0.009
-enterpriseToEbitda	156.968
-enterpriseToRevenue	1.412
-enterpriseValue	3554216192
+enterpriseToEbitda	168.373
+enterpriseToRevenue	1.515
+enterpriseValue	3812463616
 epsCurrentYear	0.51496
 epsForward	0.7214
 epsTrailingTwelveMonths	-0.08
@@ -49,22 +49,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	45.2879
-fiftyDayAverageChange	-2.6879997
-fiftyDayAverageChangePercent	-0.059353597
-fiftyTwoWeekChangePercent	-17.348177
+fiftyDayAverage	45.0165
+fiftyDayAverageChange	-2.5664978
+fiftyDayAverageChangePercent	-0.057012383
+fiftyTwoWeekChangePercent	-20.747042
 fiftyTwoWeekHigh	87.88
-fiftyTwoWeekHighChange	-45.280098
-fiftyTwoWeekHighChangePercent	-0.5152492
+fiftyTwoWeekHighChange	-45.429996
+fiftyTwoWeekHighChangePercent	-0.5169549
 fiftyTwoWeekLow	38.185
-fiftyTwoWeekLowChange	4.414898
-fiftyTwoWeekLowChangePercent	0.11561864
+fiftyTwoWeekLowChange	4.2649994
+fiftyTwoWeekLowChangePercent	0.111693054
 fiftyTwoWeekRange	38.185 - 87.88
 financialCurrency	USD
 firstTradeDateMilliseconds	1615300200000
 floatShares	111459782
 forwardEps	0.7214
-forwardPE	59.0517
+forwardPE	58.843914
 freeCashflow	331211488
 fullExchangeName	NasdaqGM
 fullTimeEmployees	2000
@@ -73,7 +73,7 @@ grossMargins	0.2041
 grossProfits	513719008
 hasPrePostMarketData	True
 heldPercentInsiders	0.13842
-heldPercentInstitutions	0.74232
+heldPercentInstitutions	0.74234
 impliedSharesOutstanding	603633815
 industry	Specialty Industrial Machinery
 industryDisp	Specialty Industrial Machinery
@@ -84,16 +84,16 @@ lastFiscalYearEnd	1758931200
 longBusinessSummary	Symbotic Inc., an automation technology company, develops technologies to enhance operating efficiencies in modern warehouses. The company automates the processing of pallets, cases, and individual items in warehouses. Its systems enhance operations at the front end of the supply chain. The company is headquartered in Wilmington, Massachusetts.
 longName	Symbotic Inc.
 market	us_market
-marketCap	25714739200
+marketCap	25624254464
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_247089947
 mostRecentQuarter	1774656000
 netIncomeToCommon	-7387000
 nextFiscalYearEnd	1790467200
-nonDilutedMarketCap	5194205231
+nonDilutedMarketCap	5452452515
 numberOfAnalystOpinions	16
-open	41.605
+open	42.61
 operatingCashflow	845217984
 operatingMargins	0.010880001
 payoutRatio	0.0
@@ -103,11 +103,11 @@ postMarketChange	0.20000076
 postMarketChangePercent	0.45808697
 postMarketPrice	43.86
 postMarketTime	1784066628
-previousClose	40.83
-priceEpsCurrentYear	82.72468
+previousClose	42.86
+priceEpsCurrentYear	82.43359
 priceHint	2
-priceToBook	7.8859496
-priceToSalesTrailing12Months	10.216249
+priceToBook	7.858201
+priceToSalesTrailing12Months	10.180301
 profitMargins	-0.0029300002
 quickRatio	1.284
 quoteSourceName	Nasdaq Real Time Price
@@ -115,16 +115,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.26316
 region	US
-regularMarketChange	1.7698975
-regularMarketChangePercent	4.3347964
-regularMarketDayHigh	42.917
-regularMarketDayLow	41.11
-regularMarketDayRange	41.11 - 42.917
-regularMarketOpen	41.605
-regularMarketPreviousClose	40.83
-regularMarketPrice	42.5999
-regularMarketTime	1784660890
-regularMarketVolume	624328
+regularMarketChange	-0.40999985
+regularMarketChangePercent	-0.9566025
+regularMarketDayHigh	42.76
+regularMarketDayLow	41.93
+regularMarketDayRange	41.93 - 42.76
+regularMarketOpen	42.61
+regularMarketPreviousClose	42.86
+regularMarketPrice	42.45
+regularMarketTime	1784749334
+regularMarketVolume	576991
 returnOnAssets	-0.00648
 returnOnEquity	-0.05732
 revenueGrowth	0.231
@@ -157,10 +157,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.08
 trailingPegRatio	2.8771
 triggerable	True
-twoHundredDayAverage	57.16545
-twoHundredDayAverageChange	-14.565552
-twoHundredDayAverageChangePercent	-0.25479642
+twoHundredDayAverage	57.08925
+twoHundredDayAverageChange	-14.639248
+twoHundredDayAverageChangePercent	-0.2564274
 typeDisp	Equity
-volume	624328
+volume	576991
 website	https://www.symbotic.com
 zip	01887

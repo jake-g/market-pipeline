@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.11169493
-SandP52WeekChange	0.17967165
+52WeekChange	0.10064793
+SandP52WeekChange	0.18089426
 address1	300 Cadwell Drive
 allTimeHigh	99.42
 allTimeLow	5.5
-ask	73.16
-askSize	200
+ask	74.29
+askSize	100
 auditRisk	7
 averageAnalystRating	2.8 - Hold
-averageDailyVolume10Day	1941590
-averageDailyVolume3Month	2568804
-averageVolume	2568804
-averageVolume10days	1941590
+averageDailyVolume10Day	1919450
+averageDailyVolume3Month	2576163
+averageVolume	2576163
+averageVolume10days	1919450
 beta	0.714
-bid	73.11
+bid	74.26
 bidSize	200
 boardRisk	6
 bookValue	43.968
@@ -25,17 +25,17 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	73.135
+currentPrice	74.115
 currentRatio	0.651
 customPriceAlertConfidence	HIGH
 dateShortInterest	1782777600
-dayHigh	74.13
-dayLow	72.71
+dayHigh	74.683
+dayLow	73.5
 debtToEquity	181.822
-discount_to_intrinsic_value	51.82
+discount_to_intrinsic_value	51.17
 dividendDate	1782777600
 dividendRate	3.15
-dividendYield	4.25
+dividendYield	4.31
 earningsCallTimestampEnd	1785528000
 earningsCallTimestampStart	1785528000
 earningsGrowth	0.074
@@ -45,10 +45,10 @@ earningsTimestampEnd	1785441600
 earningsTimestampStart	1785441600
 ebitda	4898722816
 ebitdaMargins	0.35159
-enterpriseToEbitda	11.855
-enterpriseToRevenue	4.168
-enterpriseValue	58073804800
-epsCurrentYear	4.65188
+enterpriseToEbitda	11.778
+enterpriseToRevenue	4.141
+enterpriseValue	57697726464
+epsCurrentYear	4.65375
 epsForward	4.90219
 epsTrailingTwelveMonths	4.67
 eps_normalized_growth	0.1255541910646254
@@ -59,23 +59,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	70.598
-fiftyDayAverageChange	2.5370026
-fiftyDayAverageChangePercent	0.035935897
-fiftyTwoWeekChangePercent	11.169493
+fiftyDayAverage	70.7182
+fiftyDayAverageChange	3.3967972
+fiftyDayAverageChangePercent	0.048032857
+fiftyTwoWeekChangePercent	10.064793
 fiftyTwoWeekHigh	76.41
-fiftyTwoWeekHighChange	-3.2750015
-fiftyTwoWeekHighChangePercent	-0.0428609
+fiftyTwoWeekHighChange	-2.2950058
+fiftyTwoWeekHighChangePercent	-0.03003541
 fiftyTwoWeekLow	61.53
-fiftyTwoWeekLowChange	11.605003
-fiftyTwoWeekLowChangePercent	0.18860725
+fiftyTwoWeekLowChange	12.584999
+fiftyTwoWeekLowChangePercent	0.20453437
 fiftyTwoWeekRange	61.53 - 76.41
 financialCurrency	USD
 firstTradeDateMilliseconds	99153000000
 fiveYearAvgDividendYield	3.86
 floatShares	375530948
 forwardEps	4.90219
-forwardPE	14.918842
+forwardPE	15.118752
 freeCashflow	587291392
 fullExchangeName	NYSE
 fullTimeEmployees	10731
@@ -86,7 +86,7 @@ grossMargins	0.5349
 grossProfits	7452936192
 hasPrePostMarketData	True
 heldPercentInsiders	0.00169
-heldPercentInstitutions	0.87191004
+heldPercentInstitutions	0.87148005
 impliedSharesOutstanding	376080025
 industry	Utilities - Regulated Electric
 industryDisp	Utilities - Regulated Electric
@@ -100,31 +100,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Eversource Energy, a public utility holding company, engages in the energy delivery business. The company operates through Electric Distribution, Electric Transmission, Natural Gas Distribution, and Water Distribution segments. It is involved in the transmission and distribution of electricity; solar power facilities; and distribution of natural gas. The company also operates regulated water utilities that provides water services to residential, commercial, industrial, municipal and fire protection, and other customers in Connecticut, Massachusetts, and New Hampshire. The company was formerly known as Northeast Utilities and changed its name to Eversource Energy in April 2015. Eversource Energy was incorporated in 1927 and is headquartered in Springfield, Massachusetts.
 longName	Eversource Energy
 market	us_market
-marketCap	27504613376
+marketCap	27873171456
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_292525
 mostRecentQuarter	1774915200
 netIncomeToCommon	1748424960
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	27848725851
+nonDilutedMarketCap	27472645826
 numberOfAnalystOpinions	12
-open	73.46
+open	73.68
 operatingCashflow	4397302784
 operatingMargins	0.24872999
 overallRisk	5
 payoutRatio	0.65199995
-pegRatio	3.15
+pegRatio	3.09
 phone	800 286 5000
 postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	74.64
 postMarketTime	1784065970
-previousClose	74.05
-priceEpsCurrentYear	15.7216015
+previousClose	73.05
+priceEpsCurrentYear	15.925866
 priceHint	2
-priceToBook	1.6633689
-priceToSalesTrailing12Months	1.9740269
+priceToBook	1.6856577
+priceToSalesTrailing12Months	2.0004785
 profitMargins	0.12549
 quickRatio	0.313
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.75
 region	US
-regularMarketChange	-0.9150009
-regularMarketChangePercent	-1.2356528
-regularMarketDayHigh	74.13
-regularMarketDayLow	72.71
-regularMarketDayRange	72.71 - 74.13
-regularMarketOpen	73.46
-regularMarketPreviousClose	74.05
-regularMarketPrice	73.135
-regularMarketTime	1784660789
-regularMarketVolume	939582
+regularMarketChange	1.0649948
+regularMarketChangePercent	1.4578984
+regularMarketDayHigh	74.683
+regularMarketDayLow	73.5
+regularMarketDayRange	73.5 - 74.683
+regularMarketOpen	73.68
+regularMarketPreviousClose	73.05
+regularMarketPrice	74.115
+regularMarketTime	1784749247
+regularMarketVolume	746411
 returnOnAssets	0.03292
 returnOnEquity	0.10912
 revenueGrowth	0.094
@@ -162,8 +162,8 @@ sourceInterval	15
 state	MA
 symbol	ES
 targetHighPrice	85.0
-targetLowPrice	54.0
-targetMeanPrice	73.25
+targetLowPrice	52.0
+targetMeanPrice	73.08333
 targetMedianPrice	75.0
 totalCash	270184000
 totalCashPerShare	0.718
@@ -171,15 +171,15 @@ totalDebt	30339694592
 totalRevenue	13933251584
 tradeable	False
 trailingAnnualDividendRate	3.045
-trailingAnnualDividendYield	0.041120864
+trailingAnnualDividendYield	0.04168378
 trailingEps	4.67
-trailingPE	15.6606
-trailingPegRatio	3.1292
+trailingPE	15.870449
+trailingPegRatio	3.0869
 triggerable	True
-twoHundredDayAverage	70.31165
-twoHundredDayAverageChange	2.823349
-twoHundredDayAverageChangePercent	0.04015478
+twoHundredDayAverage	70.3189
+twoHundredDayAverageChange	3.7960968
+twoHundredDayAverageChangePercent	0.053984016
 typeDisp	Equity
-volume	939582
+volume	746411
 website	https://www.eversource.com
 zip	01104

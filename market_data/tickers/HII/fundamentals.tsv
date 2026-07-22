@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.06331706
-SandP52WeekChange	0.17967165
+52WeekChange	0.012050033
+SandP52WeekChange	0.18089426
 address1	4101 Washington Avenue
 allTimeHigh	460.0
 allTimeLow	22.62
-ask	269.6
-askSize	40
+ask	275.77
+askSize	80
 auditRisk	8
 averageAnalystRating	2.3 - Buy
-averageDailyVolume10Day	402470
-averageDailyVolume3Month	532344
-averageVolume	532344
-averageVolume10days	402470
+averageDailyVolume10Day	406920
+averageDailyVolume3Month	530000
+averageVolume	530000
+averageVolume10days	406920
 beta	0.248
-bid	268.91
-bidSize	80
+bid	275.21
+bidSize	40
 boardRisk	4
 bookValue	130.708
 city	Newport News
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	268.625
+currentPrice	275.76
 currentRatio	1.191
 customPriceAlertConfidence	HIGH
 dateShortInterest	1782777600
-dayHigh	271.36
-dayLow	263.62
+dayHigh	277.93
+dayLow	272.6052
 debtToEquity	56.946
-discount_to_intrinsic_value	-45.78
+discount_to_intrinsic_value	-49.56
 displayName	Huntington Ingalls Industries
 dividendDate	1781222400
 dividendRate	5.52
-dividendYield	2.04
+dividendYield	2.05
 earningsCallTimestampEnd	1785441600
 earningsCallTimestampStart	1785441600
 earningsGrowth	0.0
@@ -46,12 +46,12 @@ earningsTimestampEnd	1785414600
 earningsTimestampStart	1785414600
 ebitda	1134000000
 ebitdaMargins	0.08826
-enterpriseToEbitda	11.777
-enterpriseToRevenue	1.039
-enterpriseValue	13355664384
+enterpriseToEbitda	11.733
+enterpriseToRevenue	1.036
+enterpriseValue	13305227264
 epsCurrentYear	17.35275
 epsForward	20.17334
-epsTrailingTwelveMonths	15.39
+epsTrailingTwelveMonths	15.4
 eps_normalized_growth	0.019405769955785912
 esgPopulated	False
 exDividendDate	1780012800
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	298.2562
-fiftyDayAverageChange	-29.631195
-fiftyDayAverageChangePercent	-0.09934813
-fiftyTwoWeekChangePercent	6.331706
+fiftyDayAverage	297.337
+fiftyDayAverageChange	-21.576996
+fiftyDayAverageChangePercent	-0.07256748
+fiftyTwoWeekChangePercent	1.2050033
 fiftyTwoWeekHigh	460.0
-fiftyTwoWeekHighChange	-191.375
-fiftyTwoWeekHighChangePercent	-0.4160326
-fiftyTwoWeekLow	250.91
-fiftyTwoWeekLowChange	17.714996
-fiftyTwoWeekLowChangePercent	0.07060299
-fiftyTwoWeekRange	250.91 - 460.0
+fiftyTwoWeekHighChange	-184.23999
+fiftyTwoWeekHighChangePercent	-0.40052173
+fiftyTwoWeekLow	256.45
+fiftyTwoWeekLowChange	19.309998
+fiftyTwoWeekLowChangePercent	0.07529732
+fiftyTwoWeekRange	256.45 - 460.0
 financialCurrency	USD
 firstTradeDateMilliseconds	1300800600000
 fiveYearAvgDividendYield	2.12
 floatShares	39070277
 forwardEps	20.17334
-forwardPE	13.315842
+forwardPE	13.669527
 freeCashflow	634124992
 fullExchangeName	NYSE
 fullTimeEmployees	44000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1782864000
-graham_intrinsic_value	184.26
+graham_intrinsic_value	184.38
 grossMargins	0.12445
 grossProfits	1599000064
 hasPrePostMarketData	True
 heldPercentInsiders	0.00509
-heldPercentInstitutions	0.92486
+heldPercentInstitutions	0.92460996
 impliedSharesOutstanding	39404029
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -100,16 +100,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Huntington Ingalls Industries, Inc. designs, builds, overhauls, and repairs military ships in the United States. It operates through three segments: Ingalls, Newport News, and Mission Technologies. The company is involved in the design and construction of non-nuclear ships comprising amphibious assault ships, surface combatants, and national security cutters for the U.S. Navy and U.S. Coast Guard. It also provides nuclear-powered ships, such as aircraft carriers and submarines, as well as refueling and overhaul, and inactivation services of nuclear-powered aircraft carriers. In addition, the company offers naval nuclear support services, including fleet services comprising design, construction, maintenance, and disposal activities for in-service the U.S. Navy nuclear ships; and maintenance services on nuclear reactor prototypes. Further, the company provides C5ISR systems and operations; application of artificial intelligence and machine learning to battlefield decisions; defensive and offensive cyberspace strategies and electronic warfare; uncrewed autonomous systems; live, virtual, and constructive solutions; platform modernization; and critical nuclear operations. Huntington Ingalls Industries, Inc. was founded in 1886 and is headquartered in Newport News, Virginia.
 longName	Huntington Ingalls Industries, Inc.
 market	us_market
-marketCap	10584906752
+marketCap	10866055168
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_363263
 mostRecentQuarter	1774915200
 netIncomeToCommon	605000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	10640663991
+nonDilutedMarketCap	10590226834
 numberOfAnalystOpinions	11
-open	267.7
+open	273.0
 operatingCashflow	1200999936
 operatingMargins	0.065510005
 overallRisk	3
@@ -120,11 +120,11 @@ postMarketChange	0.093688965
 postMarketChangePercent	0.033460345
 postMarketPrice	280.0937
 postMarketTime	1784066452
-previousClose	270.04
-priceEpsCurrentYear	15.480254
+previousClose	268.76
+priceEpsCurrentYear	15.891429
 priceHint	2
-priceToBook	2.0551536
-priceToSalesTrailing12Months	0.8237922
+priceToBook	2.109741
+priceToSalesTrailing12Months	0.8456732
 profitMargins	0.04709
 quickRatio	1.069
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.25
 region	US
-regularMarketChange	-1.4150085
-regularMarketChangePercent	-0.5239996
-regularMarketDayHigh	271.36
-regularMarketDayLow	263.62
-regularMarketDayRange	263.62 - 271.36
-regularMarketOpen	267.7
-regularMarketPreviousClose	270.04
-regularMarketPrice	268.625
-regularMarketTime	1784660816
-regularMarketVolume	195625
+regularMarketChange	7.0
+regularMarketChangePercent	2.6055236
+regularMarketDayHigh	277.93
+regularMarketDayLow	272.6052
+regularMarketDayRange	272.6052 - 277.93
+regularMarketOpen	273.0
+regularMarketPreviousClose	268.76
+regularMarketPrice	275.76
+regularMarketTime	1784749264
+regularMarketVolume	206709
 returnOnAssets	0.040999997
 returnOnEquity	0.12198
 revenueGrowth	0.134
@@ -171,15 +171,15 @@ totalDebt	2931000064
 totalRevenue	12849000448
 tradeable	False
 trailingAnnualDividendRate	5.46
-trailingAnnualDividendYield	0.020219225
-trailingEps	15.39
-trailingPE	17.454515
-trailingPegRatio	0.9868
+trailingAnnualDividendYield	0.020315522
+trailingEps	15.4
+trailingPE	17.906494
+trailingPegRatio	0.9822
 triggerable	True
-twoHundredDayAverage	346.9057
-twoHundredDayAverageChange	-78.2807
-twoHundredDayAverageChangePercent	-0.22565413
+twoHundredDayAverage	346.81946
+twoHundredDayAverageChange	-71.05945
+twoHundredDayAverageChangePercent	-0.20488888
 typeDisp	Equity
-volume	195625
+volume	206709
 website	https://www.hii.com
 zip	23607

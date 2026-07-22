@@ -1,5 +1,5 @@
 # Macro Economic Indicators Report
-**Generated:** 2026-07-21 12:19:51
+**Generated:** 2026-07-22 12:51:13
 
 ## 📊 Overview
 This report provides a high-level summary of the 52 macroeconomic indicators tracked in the pipeline.
@@ -19,8 +19,8 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 ### 🔥 Top Positive Correlations
 - **CPI** & **REAL_GDP**: `0.97`
 - **REAL_GDP** & **DISPOSABLE_INCOME**: `0.94`
-- **US10Y** & **CPI**: `0.87`
 - **CPI** & **DISPOSABLE_INCOME**: `0.87`
+- **US10Y** & **CPI**: `0.87`
 - **FEDFUNDS** & **US10Y**: `0.87`
 
 ### 🧊 Top Inverse Correlations
@@ -52,7 +52,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | REAL_GDP                  |  24180.4         | 0.00%          | 0.52%          |           1.41 | 2026-12-01 |
 | FOOD_CPI                  |    349.73        | 0.00%          | 1.73%          |           1.38 | 2026-12-01 |
 | FREIGHT_PPI               |    459.38        | 0.00%          | 10.61%         |           1.36 | 2026-12-01 |
-| SAVINGS_RATE              |      3           | 0.00%          | -16.67%        |          -1.35 | 2026-12-01 |
+| SAVINGS_RATE              |      3           | 0.00%          | -16.67%        |          -1.36 | 2026-12-01 |
 | ELECTRIC_POWER_INDEX      |    115.4         | 0.00%          | -2.63%         |           1.34 | 2026-12-01 |
 | CHINA_IMPORTS             |  23507.8         | 0.00%          | 11.38%         |          -1.24 | 2026-12-01 |
 | ST_LOUIS_FIN_STRESS       |     -0.88        | 0.00%          | -125.81%       |          -1.2  | 2026-12-01 |
@@ -62,7 +62,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | KANSAS_CITY_FIN_STRESS    |     -0.76        | 0.00%          | -7.83%         |          -1.03 | 2026-12-01 |
 | US_POLICY_UNCERTAINTY     |    367.08        | 0.00%          | 42.35%         |           1.03 | 2026-12-01 |
 | WAREHOUSE_PPI             |    166.21        | 0.00%          | 0.80%          |           0.97 | 2026-12-01 |
-| DISPOSABLE_INCOME         |  17983.8         | 0.00%          | -0.19%         |           0.97 | 2026-12-01 |
+| DISPOSABLE_INCOME         |  17983.8         | 0.00%          | -0.19%         |           0.96 | 2026-12-01 |
 | AAA_SPREAD                |      1.17        | 0.00%          | 0.00%          |           0.95 | 2026-12-01 |
 | M2_VELOCITY               |      1.41        | 0.00%          | 0.07%          |           0.93 | 2026-12-01 |
 | CORP_SPREAD               |      0.78        | 0.00%          | -4.88%         |          -0.9  | 2026-12-01 |

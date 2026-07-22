@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.09900212 |
+| Value | str | 0.08436632 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-21 |
-| Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | Amazon vs. Microsoft: Which AI Cloud Titan Is t... |
-| Summary | str | Oppenheimer Unveils Top Buy and Sell Stocks Acr... |
-| URL | str | https://news.google.com/rss/articles/CBMilwFBVV... |
+| Date | str | 2026-07-22 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.8 |
+| Headline | str | Gene Munster Sees GOOGL Q2 Cloud Revenue Jump O... |
+| Summary | str | Google is doing a great job of converting AI Ov... |
+| URL | str | https://stocktwits.com/news-articles/markets/eq... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

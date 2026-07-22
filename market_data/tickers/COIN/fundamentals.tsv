@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	-0.60332805
-SandP52WeekChange	0.17967165
+52WeekChange	-0.5579548
+SandP52WeekChange	0.18089426
 address1	One Madison Avenue
 address2	Suite 2400
 allTimeHigh	444.65
 allTimeLow	31.55
-ask	179.0
-askSize	1
+ask	180.71
+askSize	2
 auditRisk	10
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	5940390
-averageDailyVolume3Month	8638424
-averageVolume	8638424
-averageVolume10days	5940390
+averageDailyVolume10Day	6820470
+averageDailyVolume3Month	8664218
+averageVolume	8664218
+averageVolume10days	6820470
 beta	3.351
-bid	173.0
-bidSize	2
+bid	167.5
+bidSize	1
 boardRisk	10
 bookValue	51.177
 city	New York
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	176.2999
+currentPrice	166.62
 currentRatio	2.141
 customPriceAlertConfidence	HIGH
 dateShortInterest	1782777600
-dayHigh	181.49
-dayLow	167.86
+dayHigh	174.958
+dayLow	166.07
 debtToEquity	59.081
 discount_to_intrinsic_value	-413.62
 displayName	Coinbase Global
@@ -42,11 +42,11 @@ earningsTimestampEnd	1785441600
 earningsTimestampStart	1785441600
 ebitda	1002446976
 ebitdaMargins	0.15946999
-enterpriseToEbitda	39.696
-enterpriseToRevenue	6.331
-enterpriseValue	39793430528
-epsCurrentYear	1.21652
-epsForward	4.7455
+enterpriseToEbitda	43.749
+enterpriseToRevenue	6.977
+enterpriseValue	43855994880
+epsCurrentYear	1.40748
+epsForward	4.77789
 epsTrailingTwelveMonths	2.73
 eps_normalized_growth	-0.1247628031454382
 esgPopulated	False
@@ -55,22 +55,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	171.225
-fiftyDayAverageChange	5.07489
-fiftyDayAverageChangePercent	0.02963872
-fiftyTwoWeekChangePercent	-60.332806
-fiftyTwoWeekHigh	420.98
-fiftyTwoWeekHighChange	-244.68011
-fiftyTwoWeekHighChangePercent	-0.5812155
+fiftyDayAverage	170.8828
+fiftyDayAverageChange	-4.262802
+fiftyDayAverageChangePercent	-0.024945766
+fiftyTwoWeekChangePercent	-55.79548
+fiftyTwoWeekHigh	405.31
+fiftyTwoWeekHighChange	-238.69
+fiftyTwoWeekHighChangePercent	-0.58890724
 fiftyTwoWeekLow	139.18
-fiftyTwoWeekLowChange	37.119904
-fiftyTwoWeekLowChangePercent	0.26670432
-fiftyTwoWeekRange	139.18 - 420.98
+fiftyTwoWeekLowChange	27.440002
+fiftyTwoWeekLowChangePercent	0.19715479
+fiftyTwoWeekRange	139.18 - 405.31
 financialCurrency	USD
 firstTradeDateMilliseconds	1618407000000
 floatShares	219344261
-forwardEps	4.7455
-forwardPE	37.150963
+forwardEps	4.77789
+forwardPE	34.87313
 freeCashflow	2407562752
 fullExchangeName	NasdaqGS
 fullTimeEmployees	4951
@@ -81,7 +81,7 @@ grossMargins	0.85475
 grossProfits	5372901888
 hasPrePostMarketData	True
 heldPercentInsiders	0.01337
-heldPercentInstitutions	0.68728995
+heldPercentInstitutions	0.6885
 impliedSharesOutstanding	263460766
 industry	Financial Data & Stock Exchanges
 industryDisp	Financial Data & Stock Exchanges
@@ -93,31 +93,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally. It provides the primary financial account in the crypto economy for consumers; a brokerage platform with a pool of liquidity across the crypto marketplace for institutions; and a suite of products granting access to build onchain for developers. The company was founded in 2012 and is based in New York, New York.
 longName	Coinbase Global, Inc.
 market	us_market
-marketCap	46448107520
+marketCap	43897831424
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_377154867
 mostRecentQuarter	1774915200
 netIncomeToCommon	800601984
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	42267010689
-numberOfAnalystOpinions	30
-open	168.0
+nonDilutedMarketCap	46329575700
+numberOfAnalystOpinions	31
+open	172.03
 operatingCashflow	1756433024
 operatingMargins	-0.07097
 overallRisk	10
 payoutRatio	0.0
-pegRatio	1.51
+pegRatio	1.69
 phone	888 908 7930
 postMarketChange	0.2886963
 postMarketChangePercent	0.1787593
 postMarketPrice	161.7887
 postMarketTime	1784066665
-previousClose	160.43
-priceEpsCurrentYear	144.9215
+previousClose	175.85
+priceEpsCurrentYear	118.38178
 priceHint	2
-priceToBook	3.444905
-priceToSalesTrailing12Months	7.3891773
+priceToBook	3.2557595
+priceToSalesTrailing12Months	6.9834676
 profitMargins	0.12736
 quickRatio	1.176
 quoteSourceName	Nasdaq Real Time Price
@@ -125,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.94118
 region	US
-regularMarketChange	15.869904
-regularMarketChangePercent	9.8933325
-regularMarketDayHigh	181.49
-regularMarketDayLow	167.86
-regularMarketDayRange	167.86 - 181.49
-regularMarketOpen	168.0
-regularMarketPreviousClose	160.43
-regularMarketPrice	176.2999
-regularMarketTime	1784660789
-regularMarketVolume	9886688
+regularMarketChange	-9.230011
+regularMarketChangePercent	-5.2487974
+regularMarketDayHigh	174.958
+regularMarketDayLow	166.07
+regularMarketDayRange	166.07 - 174.958
+regularMarketOpen	172.03
+regularMarketPreviousClose	175.85
+regularMarketPrice	166.62
+regularMarketTime	1784749221
+regularMarketVolume	5282074
 returnOnAssets	0.01926
 returnOnEquity	0.06686
 revenueGrowth	-0.308
@@ -156,8 +156,8 @@ state	NY
 symbol	COIN
 targetHighPrice	400.0
 targetLowPrice	99.0
-targetMeanPrice	222.03568
-targetMedianPrice	211.5
+targetMeanPrice	221.71194
+targetMedianPrice	220.0
 totalCash	10438001664
 totalCashPerShare	39.619
 totalDebt	7964423168
@@ -166,13 +166,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.73
-trailingPE	64.57871
-trailingPegRatio	1.5392
+trailingPE	61.032967
+trailingPegRatio	1.6871
 triggerable	True
-twoHundredDayAverage	221.84074
-twoHundredDayAverageChange	-45.540848
-twoHundredDayAverageChangePercent	-0.20528622
+twoHundredDayAverage	220.98915
+twoHundredDayAverageChange	-54.369156
+twoHundredDayAverageChangePercent	-0.24602635
 typeDisp	Equity
-volume	9886688
+volume	5282074
 website	https://www.coinbase.com
 zip	10010
