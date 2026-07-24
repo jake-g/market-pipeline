@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	60.43
 allTimeLow	9.77
-ask	56.53
-askSize	1600
-averageDailyVolume10Day	2580140
-averageDailyVolume3Month	1908449
-averageVolume	1908449
-averageVolume10days	2580140
+ask	57.8
+askSize	800
+averageDailyVolume10Day	2195030
+averageDailyVolume3Month	1901275
+averageVolume	1901275
+averageVolume10days	2195030
 beta3Year	1.24
-bid	56.52
-bidSize	200
+bid	57.11
+bidSize	500
 category	Infrastructure
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	56.795
-dayLow	56.05
+dayHigh	57.8
+dayLow	56.65
 dividendYield	0.73
 epsTrailingTwelveMonths	1.8500096
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	56.8702
-fiftyDayAverageChange	-0.30020142
-fiftyDayAverageChangePercent	-0.005278712
-fiftyTwoWeekChangePercent	21.77682
+fiftyDayAverage	56.8664
+fiftyDayAverageChange	0.64359665
+fiftyDayAverageChangePercent	0.011317696
+fiftyTwoWeekChangePercent	22.776567
 fiftyTwoWeekHigh	60.43
-fiftyTwoWeekHighChange	-3.8600006
-fiftyTwoWeekHighChangePercent	-0.06387557
+fiftyTwoWeekHighChange	-2.920002
+fiftyTwoWeekHighChangePercent	-0.0483204
 fiftyTwoWeekLow	44.28
-fiftyTwoWeekLowChange	12.290001
-fiftyTwoWeekLowChangePercent	0.27755198
+fiftyTwoWeekLowChange	13.23
+fiftyTwoWeekLowChangePercent	0.29878047
 fiftyTwoWeekRange	44.28 - 60.43
 firstTradeDateMilliseconds	1488983400000
-fiveYearAverageReturn	0.1771975
+fiveYearAverageReturn	0.18033779
 fullExchangeName	Cboe US
 fundFamily	Global X Funds
 fundInceptionDate	1488758400
@@ -49,48 +49,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index. The underlying index is designed to measure the performance of U.S. listed companies that provide exposure to domestic infrastructure development, including companies involved in construction and engineering; production of infrastructure raw materials, composites and products; industrial transportation; and producers/distributors of heavy construction equipment.
 longName	Global X U.S. Infrastructure Development ETF
 market	us_market
-marketState	REGULAR
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_415556335
-navPrice	56.2
+navPrice	56.6
 netAssets	14567146500.0
 netExpenseRatio	0.47
-open	56.1
+open	56.785
 phone	+1 8884938631
-postMarketChange	-0.11000061
-postMarketChangePercent	-0.1939704
-postMarketPrice	56.6
-postMarketTime	1784064897
-previousClose	56.2
+postMarketChange	-0.27419662
+postMarketChangePercent	-0.4767808
+postMarketPrice	57.2358
+postMarketTime	1784850256
+previousClose	56.6
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.36999893
-regularMarketChangePercent	0.6583611
-regularMarketDayHigh	56.795
-regularMarketDayLow	56.05
-regularMarketDayRange	56.05 - 56.795
-regularMarketOpen	56.1
-regularMarketPreviousClose	56.2
-regularMarketPrice	56.57
-regularMarketTime	1784749293
-regularMarketVolume	741612
+regularMarketChange	0.91
+regularMarketChangePercent	1.60777
+regularMarketDayHigh	57.8
+regularMarketDayLow	56.65
+regularMarketDayRange	56.65 - 57.8
+regularMarketOpen	56.785
+regularMarketPreviousClose	56.6
+regularMarketPrice	57.51
+regularMarketTime	1784836800
+regularMarketVolume	1771383
 shortName	Global X U.S. Infrastructure De
 sourceInterval	15
 symbol	PAVE
-threeYearAverageReturn	0.21668988
+threeYearAverageReturn	0.2195697
 totalAssets	14567146496
 tradeable	False
-trailingPE	30.57822
+trailingPE	31.086325
 trailingPegRatio	None
 trailingThreeMonthNavReturns	16.08569
 trailingThreeMonthReturns	16.08569
 triggerable	True
-twoHundredDayAverage	52.359825
-twoHundredDayAverageChange	4.2101746
-twoHundredDayAverageChangePercent	0.08040849
+twoHundredDayAverage	52.403526
+twoHundredDayAverageChange	5.106472
+twoHundredDayAverageChangePercent	0.0974452
 typeDisp	ETF
-volume	741612
+volume	1771383
 yield	0.0073
 ytdReturn	23.47318

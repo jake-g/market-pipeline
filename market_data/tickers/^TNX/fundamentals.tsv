@@ -1,5 +1,5 @@
 Metric	Value
-52WeekChange	5.4694653
+52WeekChange	5.6488156
 allTimeHigh	15.84
 allTimeLow	0.398
 ask	0.0
@@ -14,24 +14,24 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	4.6610003
-dayLow	4.632
+dayHigh	4.7139997
+dayLow	4.693
 esgPopulated	False
 exchange	CGI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
-fiftyDayAverage	4.50318
-fiftyDayAverageChange	0.15382004
-fiftyDayAverageChangePercent	0.034158092
-fiftyTwoWeekChangePercent	5.4694653
-fiftyTwoWeekHigh	4.687
-fiftyTwoWeekHighChange	-0.029999733
-fiftyTwoWeekHighChangePercent	-0.006400626
+fiftyDayAverage	4.50904
+fiftyDayAverageChange	0.19396019
+fiftyDayAverageChangePercent	0.043015853
+fiftyTwoWeekChangePercent	5.6488156
+fiftyTwoWeekHigh	4.7139997
+fiftyTwoWeekHighChange	-0.01099968
+fiftyTwoWeekHighChangePercent	-0.0023334068
 fiftyTwoWeekLow	3.947
-fiftyTwoWeekLowChange	0.71000004
-fiftyTwoWeekLowChangePercent	0.17988347
-fiftyTwoWeekRange	3.947 - 4.687
+fiftyTwoWeekLowChange	0.75600004
+fiftyTwoWeekLowChangePercent	0.19153789
+fiftyTwoWeekRange	3.947 - 4.7139997
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
 gmtOffSetMilliseconds	-18000000
@@ -42,20 +42,20 @@ market	usir_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	4.6400003
-previousClose	4.628
+open	4.6990004
+previousClose	4.657
 priceHint	4
 quoteType	INDEX
 region	US
-regularMarketChange	0.029000282
-regularMarketChangePercent	0.6266267
-regularMarketDayHigh	4.6610003
-regularMarketDayLow	4.632
-regularMarketDayRange	4.632 - 4.6610003
-regularMarketOpen	4.6400003
-regularMarketPreviousClose	4.628
-regularMarketPrice	4.657
-regularMarketTime	1784746794
+regularMarketChange	0.046000004
+regularMarketChangePercent	0.9877604
+regularMarketDayHigh	4.7139997
+regularMarketDayLow	4.693
+regularMarketDayRange	4.693 - 4.7139997
+regularMarketOpen	4.6990004
+regularMarketPreviousClose	4.657
+regularMarketPrice	4.703
+regularMarketTime	1784833195
 regularMarketVolume	0
 shortName	CBOE Interest Rate 10 Year T No
 sourceInterval	15
@@ -63,8 +63,8 @@ symbol	^TNX
 tradeable	False
 trailingPegRatio	None
 triggerable	False
-twoHundredDayAverage	4.25699
-twoHundredDayAverageChange	0.4000101
-twoHundredDayAverageChangePercent	0.09396548
+twoHundredDayAverage	4.259835
+twoHundredDayAverageChange	0.4431653
+twoHundredDayAverageChangePercent	0.10403345
 typeDisp	Index
 volume	0

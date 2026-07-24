@@ -1,5 +1,5 @@
 # Global Shipping & Logistics Report
-**Generated:** 2026-07-22 12:51:14
+**Generated:** 2026-07-23 17:34:22
 
 ## 🚢 Overview
 This report monitors global maritime chokepoints and shipping macroeconomic indicators to track supply chain bottlenecks, freight costs, and logistical disruptions.
@@ -7,7 +7,7 @@ This report monitors global maritime chokepoints and shipping macroeconomic indi
 ## 📈 Congestion Trends
 ![Congestion Timeline](rendered/shipping_timeline.png)
 
-## 📍 Latest Chokepoint Status (As of 2026-07-22)
+## 📍 Latest Chokepoint Status (As of 2026-07-23)
 | Chokepoint    |   Vessel Count |   Congestion Index |
 |---------------|----------------|--------------------|
 | Hormuz        |             80 |               1    |

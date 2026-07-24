@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.08436632 |
+| Value | str | 0.054342628 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -25,7 +25,7 @@ This report documents the file structures and column data types used in `market_
 | Earnings Date | str | 2026-07-30 16:00:00-04:00 |
 | EPS Estimate | float64 | 1.82 |
 | Reported EPS | float64 | 2.78 |
-| Surprise(%) | float64 | 68.18 |
+| Surprise(%) | float64 | 69.02 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-07-22 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.8 |
-| Headline | str | Gene Munster Sees GOOGL Q2 Cloud Revenue Jump O... |
-| Summary | str | Google is doing a great job of converting AI Ov... |
-| URL | str | https://stocktwits.com/news-articles/markets/eq... |
+| Date | str | 2026-07-23 |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Amazon’s best 4K streaming sticks are up to 40 ... |
+| Summary | str | AT&amp;T (T) delivered strong, cost-efficient w... |
+| URL | str | https://news.google.com/rss/articles/CBMinAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -91,7 +91,7 @@ This report documents the file structures and column data types used in `market_
 | CORN_PRICE | float64 | 195.7819 |
 | WHEAT_PRICE | float64 | 199.6483 |
 | SUGAR_PRICE | float64 | 13.9077 |
-| WTI_CRUDE | float64 | 79.2 |
+| WTI_CRUDE | float64 | 84.38 |
 | NAT_GAS_PRICE | float64 | 3.2059 |
 | COPPER_PRICE | float64 | 13552.0409 |
 | ELECTRIC_POWER_INDEX | float64 | 115.4043 |
@@ -111,19 +111,19 @@ This report documents the file structures and column data types used in `market_
 | SAVINGS_RATE | float64 | 3.0 |
 | M2_MONEY | float64 | 23052.3 |
 | M2_VELOCITY | float64 | 1.411 |
-| FED_ASSETS | float64 | 6743028.0 |
+| FED_ASSETS | float64 | 6747378.0 |
 | CPI | float64 | 332.568 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.18 |
-| US10Y | float64 | 4.55 |
-| US30Y | float64 | 5.06 |
-| HY_SPREAD | float64 | 2.69 |
+| US02Y | float64 | 4.31 |
+| US10Y | float64 | 4.67 |
+| US30Y | float64 | 5.15 |
+| HY_SPREAD | float64 | 2.68 |
 | CORP_SPREAD | float64 | 0.78 |
-| BAA_SPREAD | float64 | 1.59 |
-| AAA_SPREAD | float64 | 1.17 |
-| US_POLICY_UNCERTAINTY | float64 | 367.08 |
+| BAA_SPREAD | float64 | 1.58 |
+| AAA_SPREAD | float64 | 1.16 |
+| US_POLICY_UNCERTAINTY | float64 | 117.91 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 353.0482 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 278.2301 |
-| ST_LOUIS_FIN_STRESS | float64 | -0.882 |
+| ST_LOUIS_FIN_STRESS | float64 | -0.7011 |
 | KANSAS_CITY_FIN_STRESS | float64 | -0.7631 |
-| CHICAGO_FED_ACTIVITY | float64 | -0.1 |
+| CHICAGO_FED_ACTIVITY | float64 | -0.02 |
