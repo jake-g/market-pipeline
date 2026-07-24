@@ -1,5 +1,5 @@
 # Macro Economic Indicators Report
-**Generated:** 2026-07-23 17:34:20
+**Generated:** 2026-07-24 15:58:35
 
 ## 📊 Overview
 This report provides a high-level summary of the 52 macroeconomic indicators tracked in the pipeline.
@@ -27,7 +27,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 - **WTI_CRUDE** & **DISPOSABLE_INCOME**: `-0.59`
 - **UNRATE** & **TECH_PULSE**: `-0.48`
 - **ST_LOUIS_FIN_STRESS** & **DISPOSABLE_INCOME**: `-0.46`
-- **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.43`
+- **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.42`
 - **UNRATE** & **WTI_CRUDE**: `-0.42`
 
 
@@ -73,10 +73,10 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | LIFE_EXPECTANCY           |     78.89        | 0.00%          | 0.00%          |           0.75 | 2026-12-01 |
 | WHEAT_PRICE               |    199.65        | 0.00%          | 20.54%         |          -0.66 | 2026-12-01 |
 | ST_LOUIS_FIN_STRESS       |     -0.7         | 0.00%          | -79.77%        |          -0.66 | 2026-12-01 |
-| USD_CNY                   |      6.78        | 0.00%          | -4.18%         |          -0.65 | 2026-12-01 |
+| USD_CNY                   |      6.78        | 0.00%          | -4.18%         |          -0.66 | 2026-12-01 |
 | CREDIT_CARD_DELINQUENCY   |      2.64        | 0.00%          | 0.76%          |           0.62 | 2026-12-01 |
 | US_POLICY_UNCERTAINTY     |    117.91        | 0.00%          | -54.28%        |          -0.58 | 2026-12-01 |
-| UNRATE                    |      4.2         | 0.00%          | -4.55%         |           0.56 | 2026-12-01 |
+| UNRATE                    |      4.2         | 0.00%          | -4.55%         |           0.57 | 2026-12-01 |
 | US02Y                     |      4.31        | 0.00%          | 21.75%         |           0.54 | 2026-12-01 |
 | WTI_CRUDE                 |     84.38        | 0.00%          | 41.89%         |           0.42 | 2026-12-01 |
 | NAT_GAS_PRICE             |      3.21        | 0.00%          | -27.65%        |          -0.37 | 2026-12-01 |
@@ -86,5 +86,5 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | EUROPE_POLICY_UNCERTAINTY |    353.05        | 0.00%          | -0.07%         |          -0.07 | 2026-12-01 |
 | USD_INDEX                 |    120.53        | 0.00%          | -0.38%         |          -0.06 | 2026-12-01 |
 | GLOBAL_POLICY_UNCERTAINTY |    278.23        | 0.00%          | -16.34%        |           0.06 | 2026-12-01 |
-| RECESSION_PROB            |      0.54        | 0.00%          | 350.00%        |           0.05 | 2026-12-01 |
-| FEDFUNDS                  |      3.63        | 0.00%          | -2.42%         |           0    | 2026-12-01 |
+| RECESSION_PROB            |      0.54        | 0.00%          | 350.00%        |           0.04 | 2026-12-01 |
+| FEDFUNDS                  |      3.63        | 0.00%          | -2.42%         |          -0    | 2026-12-01 |
