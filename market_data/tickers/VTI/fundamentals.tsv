@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	374.7
 allTimeLow	29.76
-ask	365.25
-askSize	440
-averageDailyVolume10Day	3125810
-averageDailyVolume3Month	3361706
-averageVolume	3361706
-averageVolume10days	3125810
+ask	367.6
+askSize	320
+averageDailyVolume10Day	2894760
+averageDailyVolume3Month	3377585
+averageVolume	3377585
+averageVolume10days	2894760
 beta3Year	1.03
-bid	364.69
-bidSize	160
+bid	367.11
+bidSize	280
 bookValue	139.506
 category	Large Blend
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	366.76
-dayLow	363.1
+dayHigh	369.3376
+dayLow	363.95
 dividendYield	1.05
 epsTrailingTwelveMonths	14.039031
 esgPopulated	False
@@ -27,20 +27,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	367.6236
-fiftyDayAverageChange	-2.9335938
-fiftyDayAverageChangePercent	-0.007979884
-fiftyTwoWeekChangePercent	18.113995
+fiftyDayAverage	367.698
+fiftyDayAverageChange	0.5119934
+fiftyDayAverageChangePercent	0.0013924291
+fiftyTwoWeekChangePercent	19.797861
 fiftyTwoWeekHigh	374.7
-fiftyTwoWeekHighChange	-10.01001
-fiftyTwoWeekHighChangePercent	-0.026714731
+fiftyTwoWeekHighChange	-6.4900208
+fiftyTwoWeekHighChangePercent	-0.017320577
 fiftyTwoWeekLow	304.4
-fiftyTwoWeekLowChange	60.29001
-fiftyTwoWeekLowChangePercent	0.1980618
+fiftyTwoWeekLowChange	63.809998
+fiftyTwoWeekLowChangePercent	0.20962548
 fiftyTwoWeekRange	304.4 - 374.7
 financialCurrency	USD
 firstTradeDateMilliseconds	992611800000
-fiveYearAverageReturn	0.1193417
+fiveYearAverageReturn	0.11629599
 fullExchangeName	NYSEArca
 fundFamily	Vanguard
 fundInceptionDate	990662400
@@ -49,55 +49,55 @@ hasPrePostMarketData	True
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the CRSP U.S. Total Market Index (the “Target Index”), which represents 100% of the investable U.S. stock market, as determined by the index provider. Under normal circumstances, the fund invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the target index.
-longName	Vanguard Total Stock Market Index Fund ETF Shares
+longName	Vanguard Morningstar Total Stock Market ETF
 market	us_market
 marketCap	727108485120
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_6184536
-navPrice	368.83
+navPrice	366.14
 netAssets	2297940410000.0
 netExpenseRatio	0.03
-open	365.13
+open	367.8
 phone	800-523-1036
-postMarketChange	0.55999756
-postMarketChangePercent	0.15355441
-postMarketPrice	365.25
-postMarketTime	1784851177
-previousClose	368.87
+postMarketChange	-0.7999878
+postMarketChangePercent	-0.21726401
+postMarketPrice	367.41
+postMarketTime	1785542391
+previousClose	366.27
 priceHint	2
-priceToBook	2.614153
-quoteSourceName	Nasdaq Real Time Price
+priceToBook	2.6393847
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-4.17999
-regularMarketChangePercent	-1.13319
-regularMarketDayHigh	366.76
-regularMarketDayLow	363.1
-regularMarketDayRange	363.1 - 366.76
-regularMarketOpen	365.13
-regularMarketPreviousClose	368.87
-regularMarketPrice	364.69
-regularMarketTime	1784836800
-regularMarketVolume	3215778
+regularMarketChange	1.94
+regularMarketChangePercent	0.529665
+regularMarketDayHigh	369.3376
+regularMarketDayLow	363.95
+regularMarketDayRange	363.95 - 369.3376
+regularMarketOpen	367.8
+regularMarketPreviousClose	366.27
+regularMarketPrice	368.21
+regularMarketTime	1785528000
+regularMarketVolume	3187209
 sharesOutstanding	743262976
 shortName	Vanguard Total Stock Market ETF
 sourceInterval	15
 symbol	VTI
-threeYearAverageReturn	0.1938327
+threeYearAverageReturn	0.18727751
 totalAssets	2297940410368
 tradeable	False
 trailingAnnualDividendRate	2.802
-trailingAnnualDividendYield	0.0075961724
-trailingPE	25.976864
+trailingAnnualDividendYield	0.0076500946
+trailingPE	26.227592
 trailingPegRatio	None
 trailingThreeMonthNavReturns	15.65842
 trailingThreeMonthReturns	15.65842
 triggerable	True
-twoHundredDayAverage	344.06985
-twoHundredDayAverageChange	20.620148
-twoHundredDayAverageChangePercent	0.05993012
+twoHundredDayAverage	345.13126
+twoHundredDayAverageChange	23.078735
+twoHundredDayAverageChangePercent	0.066869445
 typeDisp	ETF
-volume	3215778
+volume	3187209
 yield	0.0105
 ytdReturn	11.07125

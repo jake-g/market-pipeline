@@ -1,5 +1,5 @@
 # Global Shipping & Logistics Report
-**Generated:** 2026-07-24 15:58:36
+**Generated:** 2026-07-31 18:55:46
 
 ## 🚢 Overview
 This report monitors global maritime chokepoints and shipping macroeconomic indicators to track supply chain bottlenecks, freight costs, and logistical disruptions.
@@ -7,7 +7,7 @@ This report monitors global maritime chokepoints and shipping macroeconomic indi
 ## 📈 Congestion Trends
 ![Congestion Timeline](rendered/shipping_timeline.png)
 
-## 📍 Latest Chokepoint Status (As of 2026-07-24)
+## 📍 Latest Chokepoint Status (As of 2026-07-31)
 | Chokepoint    |   Vessel Count |   Congestion Index |
 |---------------|----------------|--------------------|
 | Hormuz        |             80 |               1    |
@@ -16,7 +16,7 @@ This report monitors global maritime chokepoints and shipping macroeconomic indi
 | Taiwan_Strait |              1 |               0.01 |
 
 ## 🌍 Shipping Macro Metrics
-| Metric                              |   Latest Value | YoY Change     | Date       |
-|-------------------------------------|----------------|----------------|------------|
-| Ocean Freight PPI (PCU483111483111) |         459.38 | (+13.49% YoY)  | 2026-06-01 |
-| US Customs Duties (B235RC1Q027SBEA) |         346.15 | (+256.98% YoY) | 2026-01-01 |
+| Metric                              |   Latest Value | YoY Change    | Date       |
+|-------------------------------------|----------------|---------------|------------|
+| Ocean Freight PPI (PCU483111483111) |         459.38 | (+13.49% YoY) | 2026-06-01 |
+| US Customs Duties (B235RC1Q027SBEA) |         326.32 | (+21.91% YoY) | 2026-04-01 |

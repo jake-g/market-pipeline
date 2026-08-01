@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	109.74
 allTimeLow	23.472
-ask	80.11
-askSize	200
-averageDailyVolume10Day	2794560
-averageDailyVolume3Month	3868508
-averageVolume	3868508
-averageVolume10days	2794560
+ask	80.1
+askSize	500
+averageDailyVolume10Day	3198150
+averageDailyVolume3Month	3754690
+averageVolume	3754690
+averageVolume10days	3198150
 beta3Year	0.41
-bid	80.03
-bidSize	600
+bid	80.0
+bidSize	1800
 category	Commodities Focused
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	80.43
-dayLow	79.9099
+dayHigh	80.225
+dayLow	79.54
 dividendYield	0.0
 esgPopulated	False
 exchange	PCX
@@ -25,19 +25,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	84.6366
-fiftyDayAverageChange	-4.526596
-fiftyDayAverageChangePercent	-0.053482726
-fiftyTwoWeekChangePercent	22.511995
+fiftyDayAverage	83.2374
+fiftyDayAverageChange	-3.0973969
+fiftyDayAverageChangePercent	-0.0372116
+fiftyTwoWeekChangePercent	22.374355
 fiftyTwoWeekHigh	109.74
-fiftyTwoWeekHighChange	-29.629997
-fiftyTwoWeekHighChangePercent	-0.2700018
-fiftyTwoWeekLow	64.71
-fiftyTwoWeekLowChange	15.400002
-fiftyTwoWeekLowChangePercent	0.23798488
-fiftyTwoWeekRange	64.71 - 109.74
+fiftyTwoWeekHighChange	-29.599998
+fiftyTwoWeekHighChangePercent	-0.26972845
+fiftyTwoWeekLow	65.635
+fiftyTwoWeekLowChange	14.504997
+fiftyTwoWeekLowChangePercent	0.22099485
+fiftyTwoWeekRange	65.635 - 109.74
 firstTradeDateMilliseconds	1530019800000
-fiveYearAverageReturn	0.1784821
+fiveYearAverageReturn	0.17651331
 fullExchangeName	NYSEArca
 fundFamily	State Street Investment Management
 fundInceptionDate	1529884800
@@ -51,44 +51,44 @@ market	us_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_572249206
-navPrice	82.20148
+navPrice	81.32822
 netAssets	27261255700.0
 netExpenseRatio	0.1
-open	80.25
+open	79.97
 phone	(212) 317-3800
-postMarketChange	0.19000244
-postMarketChangePercent	0.23717692
-postMarketPrice	80.3
-postMarketTime	1784851173
-previousClose	81.74
+postMarketChange	0.09000397
+postMarketChangePercent	0.11230842
+postMarketPrice	80.23
+postMarketTime	1785542175
+previousClose	81.33
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-1.63
-regularMarketChangePercent	-1.99412
-regularMarketDayHigh	80.43
-regularMarketDayLow	79.9099
-regularMarketDayRange	79.9099 - 80.43
-regularMarketOpen	80.25
-regularMarketPreviousClose	81.74
-regularMarketPrice	80.11
-regularMarketTime	1784836800
-regularMarketVolume	2387978
+regularMarketChange	-1.19
+regularMarketChangePercent	-1.46318
+regularMarketDayHigh	80.225
+regularMarketDayLow	79.54
+regularMarketDayRange	79.54 - 80.225
+regularMarketOpen	79.97
+regularMarketPreviousClose	81.33
+regularMarketPrice	80.14
+regularMarketTime	1785528000
+regularMarketVolume	3978325
 shortName	SPDR Gold MiniShares Trust
 sourceInterval	15
 symbol	GLDM
-threeYearAverageReturn	0.2802921
+threeYearAverageReturn	0.2789145
 totalAssets	27261255680
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-12.65798
 trailingThreeMonthReturns	-12.65798
 triggerable	True
-twoHundredDayAverage	88.675
-twoHundredDayAverageChange	-8.565002
-twoHundredDayAverageChangePercent	-0.09658869
+twoHundredDayAverage	88.72405
+twoHundredDayAverageChange	-8.584053
+twoHundredDayAverageChangePercent	-0.09675001
 typeDisp	ETF
-volume	2387978
+volume	3978325
 yield	0.0
 ytdReturn	-6.58984
