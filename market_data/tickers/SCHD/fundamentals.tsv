@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	83.86
 allTimeLow	8.083333
-ask	33.5
-askSize	42500
-averageDailyVolume10Day	23284270
-averageDailyVolume3Month	21093750
-averageVolume	21093750
-averageVolume10days	23284270
+ask	33.85
+askSize	100100
+averageDailyVolume10Day	23636890
+averageDailyVolume3Month	21155104
+averageVolume	21155104
+averageVolume10days	23636890
 beta3Year	0.58
-bid	33.48
-bidSize	117000
+bid	33.86
+bidSize	25300
 category	Large Value
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	33.535
-dayLow	33.09
+dayHigh	33.875
+dayLow	33.26
 dividendYield	3.3
 epsTrailingTwelveMonths	1.7339029
 esgPopulated	False
@@ -26,19 +26,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	32.4842
-fiftyDayAverageChange	0.9858017
-fiftyDayAverageChangePercent	0.030347114
-fiftyTwoWeekChangePercent	26.648975
+fiftyDayAverage	32.5116
+fiftyDayAverageChange	1.338398
+fiftyDayAverageChangePercent	0.041166782
+fiftyTwoWeekChangePercent	25.168287
 fiftyTwoWeekHigh	34.24
-fiftyTwoWeekHighChange	-0.77000046
-fiftyTwoWeekHighChangePercent	-0.02248833
-fiftyTwoWeekLow	26.21
-fiftyTwoWeekLowChange	7.260002
-fiftyTwoWeekLowChangePercent	0.2769936
-fiftyTwoWeekRange	26.21 - 34.24
+fiftyTwoWeekHighChange	-0.3900032
+fiftyTwoWeekHighChangePercent	-0.01139028
+fiftyTwoWeekLow	26.32
+fiftyTwoWeekLowChange	7.529999
+fiftyTwoWeekLowChangePercent	0.2860942
+fiftyTwoWeekRange	26.32 - 34.24
 firstTradeDateMilliseconds	1319117400000
-fiveYearAverageReturn	0.095075995
+fiveYearAverageReturn	0.0954691
 fullExchangeName	NYSEArca
 fundFamily	Schwab ETFs
 fundInceptionDate	1319068800
@@ -49,50 +49,50 @@ legalType	Exchange Traded Fund
 longBusinessSummary	To pursue its goal, the fund generally invests in stocks that are included in the index. The index is designed to measure the performance of high dividend yielding stocks issued by U.S. companies that have a record of consistently paying dividends, selected for fundamental strength relative to their peers, based on financial ratios. The fund will invest at least 90% of its net assets in these stocks.
 longName	Schwab U.S. Dividend Equity ETF
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_141947998
-navPrice	33.38
+navPrice	33.45
 netAssets	95734071000.0
 netExpenseRatio	0.06
-open	33.32
+open	33.46
 phone	1-800-435-4000
-postMarketChange	0.04699707
-postMarketChangePercent	0.1404155
-postMarketPrice	33.517
-postMarketTime	1785542395
-previousClose	33.41
+postMarketChange	0.018100739
+postMarketChangePercent	0.05347338
+postMarketPrice	33.8681
+postMarketTime	1785883680
+previousClose	33.56
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0600014
-regularMarketChangePercent	0.179591
-regularMarketDayHigh	33.535
-regularMarketDayLow	33.09
-regularMarketDayRange	33.09 - 33.535
-regularMarketOpen	33.32
-regularMarketPreviousClose	33.41
-regularMarketPrice	33.47
-regularMarketTime	1785528000
-regularMarketVolume	25609504
+regularMarketChange	0.289997
+regularMarketChangePercent	0.864115
+regularMarketDayHigh	33.875
+regularMarketDayLow	33.26
+regularMarketDayRange	33.26 - 33.875
+regularMarketOpen	33.46
+regularMarketPreviousClose	33.56
+regularMarketPrice	33.85
+regularMarketTime	1785873600
+regularMarketVolume	26854900
 shortName	Schwab US Dividend Equity ETF
 sourceInterval	15
 symbol	SCHD
-threeYearAverageReturn	0.1396331
+threeYearAverageReturn	0.14016409
 totalAssets	95734071296
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	19.303272
+trailingPE	19.52243
 trailingPegRatio	None
 trailingThreeMonthNavReturns	4.21422
 trailingThreeMonthReturns	4.21422
 triggerable	True
-twoHundredDayAverage	30.1405
-twoHundredDayAverageChange	3.329502
-twoHundredDayAverageChangePercent	0.110466056
+twoHundredDayAverage	30.1747
+twoHundredDayAverageChange	3.6752987
+twoHundredDayAverageChangePercent	0.12180067
 typeDisp	ETF
-volume	25609504
+volume	26854900
 yield	0.033
 ytdReturn	17.46157

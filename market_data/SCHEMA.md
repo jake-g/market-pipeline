@@ -17,15 +17,15 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.09662402 |
+| Value | str | 0.27054965 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
 |---|---|---|
 | Earnings Date | str | 2026-10-29 16:00:00-04:00 |
-| EPS Estimate | float64 | 1.91 |
+| EPS Estimate | float64 | 1.95 |
 | Reported EPS | float64 | 5.75 |
-| Surprise(%) | float64 | 214.23 |
+| Surprise(%) | float64 | 215.02 |
 
 ### `financials_quarterly.tsv` - Quarterly Financials
 | Column | Type | Example |
@@ -40,17 +40,17 @@ This report documents the file structures and column data types used in `market_
 | Reconciled Depreciation | float64 | 18945000000.0 |
 | Reconciled Cost Of Revenue | float64 | 87463000000.0 |
 | EBITDA | float64 | 59579000000.0 |
-| ... (145 more) | | |
+| ... (233 more) | | |
 
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-08-01 |
-| Source | str | Yahoo |
-| Sentiment | float64 | 0.187 |
-| Headline | str | AMZN Sued Over Alleged ‘Greenwashing’ Of Seafoo... |
-| Summary | str | Plaintiffs reportedly say that labels such as “... |
-| URL | str | https://stocktwits.com/news-articles/markets/eq... |
+| Date | str | 2026-08-04 |
+| Source | str | Google |
+| Sentiment | float64 | 1.0 |
+| Headline | str | Best ETFs for AI Investors as Amazon Joins the ... |
+| Summary | str | Wayfair (W) shares surged Tuesday after the com... |
+| URL | str | https://news.google.com/rss/articles/CBMipgFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |
@@ -79,14 +79,14 @@ This report documents the file structures and column data types used in `market_
 | AIR_PPI | float64 | 202.358 |
 | TRUCK_PPI | float64 | 204.622 |
 | WAREHOUSE_PPI | float64 | 166.206 |
-| MFG_CONST | float64 | 174764.0 |
+| MFG_CONST | float64 | 172674.0 |
 | TECH_PULSE | float64 | 95.7495 |
-| CHINA_IMPORTS | float64 | 23507.8161 |
+| CHINA_IMPORTS | float64 | 25149.9615 |
 | TARIFFS | float64 | 326.324 |
-| USD_INDEX | float64 | 120.7105 |
-| USD_CNY | float64 | 6.7719 |
-| USD_EUR | float64 | 1.1385 |
-| USD_JPY | float64 | 163.71 |
+| USD_INDEX | float64 | 119.7034 |
+| USD_CNY | float64 | 6.7509 |
+| USD_EUR | float64 | 1.1519 |
+| USD_JPY | float64 | 159.16 |
 | FOOD_CPI | float64 | 349.731 |
 | CORN_PRICE | float64 | 195.7819 |
 | WHEAT_PRICE | float64 | 199.6483 |
@@ -106,7 +106,7 @@ This report documents the file structures and column data types used in `market_
 | REAL_GDP | float64 | 24270.599 |
 | UNRATE | float64 | 4.2 |
 | HOUSING_STARTS | float64 | 1427.0 |
-| RECESSION_PROB | float64 | 0.54 |
+| RECESSION_PROB | float64 | 0.6 |
 | UMICH_SENTIMENT | float64 | 49.5 |
 | SAVINGS_RATE | float64 | 2.7 |
 | M2_MONEY | float64 | 23155.2 |
@@ -114,14 +114,14 @@ This report documents the file structures and column data types used in `market_
 | FED_ASSETS | float64 | 6738190.0 |
 | CPI | float64 | 332.568 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.23 |
-| US10Y | float64 | 4.68 |
-| US30Y | float64 | 5.21 |
-| HY_SPREAD | float64 | 2.84 |
-| CORP_SPREAD | float64 | 0.8 |
-| BAA_SPREAD | float64 | 1.64 |
-| AAA_SPREAD | float64 | 1.23 |
-| US_POLICY_UNCERTAINTY | float64 | 310.2 |
+| US02Y | float64 | 4.25 |
+| US10Y | float64 | 4.7 |
+| US30Y | float64 | 5.23 |
+| HY_SPREAD | float64 | 2.78 |
+| CORP_SPREAD | float64 | 0.78 |
+| BAA_SPREAD | float64 | 1.61 |
+| AAA_SPREAD | float64 | 1.18 |
+| US_POLICY_UNCERTAINTY | float64 | 213.26 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 353.0482 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 278.2301 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.8263 |

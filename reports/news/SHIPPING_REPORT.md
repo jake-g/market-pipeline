@@ -1,5 +1,5 @@
 # Global Shipping & Logistics Report
-**Generated:** 2026-07-31 18:55:46
+**Generated:** 2026-08-04 16:03:59
 
 ## 🚢 Overview
 This report monitors global maritime chokepoints and shipping macroeconomic indicators to track supply chain bottlenecks, freight costs, and logistical disruptions.
@@ -7,13 +7,13 @@ This report monitors global maritime chokepoints and shipping macroeconomic indi
 ## 📈 Congestion Trends
 ![Congestion Timeline](rendered/shipping_timeline.png)
 
-## 📍 Latest Chokepoint Status (As of 2026-07-31)
+## 📍 Latest Chokepoint Status (As of 2026-08-04)
 | Chokepoint    |   Vessel Count |   Congestion Index |
 |---------------|----------------|--------------------|
 | Hormuz        |             80 |               1    |
 | Malacca       |            200 |               1    |
 | Panama_Canal  |              1 |               0.03 |
-| Taiwan_Strait |              1 |               0.01 |
+| Taiwan_Strait |             15 |               0.1  |
 
 ## 🌍 Shipping Macro Metrics
 | Metric                              |   Latest Value | YoY Change    | Date       |
