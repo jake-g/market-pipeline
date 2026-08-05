@@ -4,6 +4,9 @@
 .PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch market-fetch shipping-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth clean
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
+export PYTHONSAFEPATH := 1
+export PYTHONPATH := .
+
 
 # Default target
 help:
@@ -136,14 +139,21 @@ fetch:
 	$(MAKE) reports-periodic && \
 	$(MAKE) sync-reports && \
 	$(MAKE) dashboard-build && \
+	echo "🖌️  Pass 1: Auto-formatting code and applying pre-commit fixes..." && \
 	($(MAKE) format || true) && \
+	echo "🖌️  Pass 2: Strict verification of code formatting and pre-commit checks..." && \
+	$(MAKE) format && \
+	echo "🧪 Running unit tests post-fetch..." && \
+	$(MAKE) test-unit && \
 	echo "🎉 Full Pipeline Complete." && \
 	echo "⏱️ Total Time: $$(($$(date +%s)-t_total_start))s." && \
 	echo "💾 Committing newly generated market data..." && \
 	(git add market_data/ || true) && \
 	(git add reports/news/*.md || true) && \
-	(git add reports/news/rendered/ || true) && \
+	(git add index.json || true) && \
+
 	(git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit.")
+
 
 market-fetch: setup
 	@echo "📉 Running Market Fetcher (All Tickers)..."

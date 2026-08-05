@@ -30,5 +30,7 @@ jobs:
       - name: 🧪 Run Formatting, Linting, Typing, and Tests
         env:
           CI: "true"
+          PYTHONSAFEPATH: "1"
+          PYTHONPATH: "."
         run: |
           make test
