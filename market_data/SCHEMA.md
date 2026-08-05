@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.27054965 |
+| Value | str | 0.2775854 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,12 +45,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-08-04 |
+| Date | str | 2026-08-05 |
 | Source | str | Google |
-| Sentiment | float64 | 1.0 |
-| Headline | str | Best ETFs for AI Investors as Amazon Joins the ... |
-| Summary | str | Wayfair (W) shares surged Tuesday after the com... |
-| URL | str | https://news.google.com/rss/articles/CBMipgFBVV... |
+| Sentiment | float64 | 0.75 |
+| Headline | str | Andy Jassy Just Delivered Incredible News for A... |
+| Summary | str | (Bloomberg) -- Jeff Bezos unloaded almost $350 ... |
+| URL | str | https://news.google.com/rss/articles/CBMilwFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
 | Column | Type | Example |

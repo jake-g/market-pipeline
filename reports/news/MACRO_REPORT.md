@@ -1,5 +1,5 @@
 # Macro Economic Indicators Report
-**Generated:** 2026-08-04 16:03:58
+**Generated:** 2026-08-05 16:31:36
 
 ## 📊 Overview
 This report provides a high-level summary of the 52 macroeconomic indicators tracked in the pipeline.
@@ -28,7 +28,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 - **ST_LOUIS_FIN_STRESS** & **DISPOSABLE_INCOME**: `-0.47`
 - **UNRATE** & **TECH_PULSE**: `-0.45`
 - **UNRATE** & **WTI_CRUDE**: `-0.43`
-- **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.41`
+- **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.42`
 
 
 ![Correlation Matrix](rendered/macro_correlation.png)
@@ -54,7 +54,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | FREIGHT_PPI               |    459.38        | 0.00%          | 10.61%         |           1.35 | 2026-12-01 |
 | ELECTRIC_POWER_INDEX      |    115.4         | 0.00%          | -2.63%         |           1.32 | 2026-12-01 |
 | US30Y                     |      5.23        | 0.00%          | 10.34%         |           1.28 | 2026-12-01 |
-| USD_JPY                   |    159.16        | 0.00%          | 2.50%          |           1.17 | 2026-12-01 |
+| USD_JPY                   |    159.16        | 0.00%          | 2.50%          |           1.18 | 2026-12-01 |
 | FED_ASSETS                |      6.73819e+06 | 0.00%          | 2.84%          |          -1.08 | 2026-12-01 |
 | CHINA_IMPORTS             |  25150           | 0.00%          | 19.16%         |          -1.06 | 2026-12-01 |
 | DISPOSABLE_INCOME         |  18056.1         | 0.00%          | 0.21%          |           1.05 | 2026-12-01 |
@@ -74,8 +74,8 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | USD_CNY                   |      6.75        | 0.00%          | -4.54%         |          -0.75 | 2026-12-01 |
 | LIFE_EXPECTANCY           |     78.89        | 0.00%          | 0.00%          |           0.74 | 2026-12-01 |
 | WHEAT_PRICE               |    199.65        | 0.00%          | 20.54%         |          -0.66 | 2026-12-01 |
-| CREDIT_CARD_DELINQUENCY   |      2.64        | 0.00%          | 0.76%          |           0.61 | 2026-12-01 |
 | UNRATE                    |      4.2         | 0.00%          | -4.55%         |           0.61 | 2026-12-01 |
+| CREDIT_CARD_DELINQUENCY   |      2.64        | 0.00%          | 0.76%          |           0.61 | 2026-12-01 |
 | US02Y                     |      4.25        | 0.00%          | 20.06%         |           0.49 | 2026-12-01 |
 | WTI_CRUDE                 |     84.25        | 0.00%          | 41.67%         |           0.4  | 2026-12-01 |
 | NAT_GAS_PRICE             |      3.21        | 0.00%          | -27.65%        |          -0.36 | 2026-12-01 |
@@ -83,7 +83,7 @@ The table is sorted by **5-Year Z-Score** to highlight the most statistically ex
 | RECESSION_PROB            |      0.6         | 0.00%          | 114.29%        |           0.28 | 2026-12-01 |
 | MFG_CONST                 | 172674           | 0.00%          | -5.02%         |          -0.25 | 2026-12-01 |
 | CHICAGO_FED_ACTIVITY      |     -0.02        | 0.00%          | 66.67%         |           0.21 | 2026-12-01 |
-| EUROPE_POLICY_UNCERTAINTY |    353.05        | 0.00%          | -0.07%         |          -0.07 | 2026-12-01 |
+| EUROPE_POLICY_UNCERTAINTY |    353.05        | 0.00%          | -0.07%         |          -0.08 | 2026-12-01 |
 | HOUSING_STARTS            |   1427           | 0.00%          | 3.56%          |          -0.07 | 2026-12-01 |
 | GLOBAL_POLICY_UNCERTAINTY |    278.23        | 0.00%          | -16.34%        |           0.05 | 2026-12-01 |
 | US_POLICY_UNCERTAINTY     |    213.26        | 0.00%          | -17.30%        |           0.03 | 2026-12-01 |

@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	26.54
 allTimeLow	10.83
-ask	24.38
-askSize	28700
-averageDailyVolume10Day	5488370
-averageDailyVolume3Month	5927891
-averageVolume	5927891
-averageVolume10days	5488370
+ask	24.21
+askSize	51900
+averageDailyVolume10Day	5713040
+averageDailyVolume3Month	5969752
+averageVolume	5969752
+averageVolume10days	5713040
 beta3Year	0.98
-bid	24.18
-bidSize	56500
+bid	24.2
+bidSize	45500
 category	Real Estate
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	24.255
-dayLow	23.85
+dayHigh	24.2924
+dayLow	23.985
 dividendYield	2.79
 epsTrailingTwelveMonths	0.7864128
 esgPopulated	False
@@ -26,10 +26,10 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	23.9542
-fiftyDayAverageChange	0.25579834
-fiftyDayAverageChangePercent	0.010678642
-fiftyTwoWeekChangePercent	14.853358
+fiftyDayAverage	23.9676
+fiftyDayAverageChange	0.24239922
+fiftyDayAverageChangePercent	0.010113621
+fiftyTwoWeekChangePercent	15.721774
 fiftyTwoWeekHigh	25.03
 fiftyTwoWeekHighChange	-0.8200016
 fiftyTwoWeekHighChangePercent	-0.03276075
@@ -38,7 +38,7 @@ fiftyTwoWeekLowChange	3.58
 fiftyTwoWeekLowChangePercent	0.1735337
 fiftyTwoWeekRange	20.63 - 25.03
 firstTradeDateMilliseconds	1294929000000
-fiveYearAverageReturn	0.032883
+fiveYearAverageReturn	0.0329248
 fullExchangeName	NYSEArca
 fundFamily	Schwab ETFs
 fundInceptionDate	1294876800
@@ -55,31 +55,31 @@ messageBoardId	finmb_118204473
 navPrice	24.28
 netAssets	11128644600.0
 netExpenseRatio	0.07
-open	24.04
+open	24.24
 phone	1-800-435-4000
-postMarketChange	-0.099998474
-postMarketChangePercent	-0.41304618
-postMarketPrice	24.11
-postMarketTime	1785882627
-previousClose	24.29
+postMarketChange	-0.14759827
+postMarketChangePercent	-0.6096583
+postMarketPrice	24.0624
+postMarketTime	1785971981
+previousClose	24.21
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.0800018
-regularMarketChangePercent	-0.329361
-regularMarketDayHigh	24.255
-regularMarketDayLow	23.85
-regularMarketDayRange	23.85 - 24.255
-regularMarketOpen	24.04
-regularMarketPreviousClose	24.29
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
+regularMarketDayHigh	24.2924
+regularMarketDayLow	23.985
+regularMarketDayRange	23.985 - 24.2924
+regularMarketOpen	24.24
+regularMarketPreviousClose	24.21
 regularMarketPrice	24.21
-regularMarketTime	1785873600
-regularMarketVolume	7099204
+regularMarketTime	1785960000
+regularMarketVolume	5897448
 shortName	Schwab U.S. REIT ETF
 sourceInterval	15
 symbol	SCHH
-threeYearAverageReturn	0.1021544
+threeYearAverageReturn	0.1094091
 totalAssets	11128644608
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -89,10 +89,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	11.0162
 trailingThreeMonthReturns	11.0162
 triggerable	True
-twoHundredDayAverage	22.4142
-twoHundredDayAverageChange	1.7957993
-twoHundredDayAverageChangePercent	0.08011882
+twoHundredDayAverage	22.4298
+twoHundredDayAverageChange	1.780199
+twoHundredDayAverageChangePercent	0.079367585
 typeDisp	ETF
-volume	7099204
+volume	5897448
 yield	0.0279
 ytdReturn	14.87622

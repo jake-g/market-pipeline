@@ -1,22 +1,22 @@
 Metric	Value
-52WeekChange	0.008065581
-SandP52WeekChange	0.18899727
+52WeekChange	0.006783128
+SandP52WeekChange	0.19786096
 address1	1 Tesla Road
 allTimeHigh	498.83
 allTimeLow	0.998667
-ask	322.17
-askSize	4
+ask	326.23
+askSize	3
 auditRisk	4
 averageAnalystRating	2.4 - Buy
-averageDailyVolume10Day	47438230
-averageDailyVolume3Month	47121662
-averageVolume	47121662
-averageVolume10days	47438230
+averageDailyVolume10Day	47877260
+averageDailyVolume3Month	46966108
+averageVolume	46966108
+averageVolume10days	47877260
 beta	1.827
-bid	322.08
-bidSize	1
+bid	322.04
+bidSize	2
 boardRisk	10
-bookValue	21.897
+bookValue	21.995
 city	Austin
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Elon R. Musk', 'age': 54, 'title': 'Co-Founder, Technoking of Tesla, CEO & Director', 'yearBorn': 1971, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 129602732032}, {'maxAge': 1, 'name': 'Mr. Vaibhav  Taneja', 'age': 47, 'title': 'Chief Financial Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 403000, 'exercisedValue': 15033838, 'unexercisedValue': 417696224}, {'maxAge': 1, 'name': 'Mr. Xiaotong  Zhu', 'age': 45, 'title': 'Senior Vice President of APAC & Global Vehicle Manufacturing', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 376322, 'exercisedValue': 4548562, 'unexercisedValue': 808327104}, {'maxAge': 1, 'name': 'Travis  Axelrod', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brandon  Ehrhart', 'title': 'General Counsel & Corporate Secretary', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Franz  von Holzhausen', 'title': 'Chief Designer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Roxanne  Inskip-Kaye', 'title': 'Head of Operations - Electric Vehicle Business', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John  Walker', 'age': 62, 'title': 'Vice President of Sales - North America', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 121550, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rodney D. Westmoreland Jr.', 'title': 'Director of Construction Management', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Lars  Moravy', 'title': 'Vice President of Vehicle Engineering', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	327.35
+currentPrice	321.55
 currentRatio	1.941
 customPriceAlertConfidence	HIGH
 dateShortInterest	1784073600
-dayHigh	329.57
-dayLow	320.7901
+dayHigh	327.14
+dayLow	320.28
 debtToEquity	18.373
-discount_to_intrinsic_value	-3639.78
+discount_to_intrinsic_value	-3641.55
 displayName	Tesla
 earningsCallTimestampEnd	1784755800
 earningsCallTimestampStart	1784755800
@@ -48,7 +48,7 @@ enterpriseToRevenue	12.018
 enterpriseValue	1245287284736
 epsCurrentYear	1.79031
 epsForward	2.21923
-epsTrailingTwelveMonths	1.1
+epsTrailingTwelveMonths	1.08
 eps_normalized_growth	-0.3731115700889498
 esgPopulated	False
 exchange	NMS
@@ -56,28 +56,28 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	390.7606
-fiftyDayAverageChange	-63.410583
-fiftyDayAverageChangePercent	-0.16227476
-fiftyTwoWeekChangePercent	0.80655813
+fiftyDayAverage	388.857
+fiftyDayAverageChange	-67.30701
+fiftyDayAverageChangePercent	-0.17308936
+fiftyTwoWeekChangePercent	0.6783128
 fiftyTwoWeekHigh	498.83
-fiftyTwoWeekHighChange	-171.47998
-fiftyTwoWeekHighChangePercent	-0.34376436
+fiftyTwoWeekHighChange	-177.28
+fiftyTwoWeekHighChangePercent	-0.35539162
 fiftyTwoWeekLow	297.38
-fiftyTwoWeekLowChange	29.970001
-fiftyTwoWeekLowChangePercent	0.10078015
+fiftyTwoWeekLowChange	24.169983
+fiftyTwoWeekLowChangePercent	0.081276424
 fiftyTwoWeekRange	297.38 - 498.83
 financialCurrency	USD
 firstTradeDateMilliseconds	1277818200000
 floatShares	2819226425
 forwardEps	2.21923
-forwardPE	147.50612
+forwardPE	144.8926
 freeCashflow	4835999744
 fullExchangeName	NasdaqGS
 fullTimeEmployees	134785
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	8.75
+graham_intrinsic_value	8.59
 grossMargins	0.18852
 grossProfits	19534000128
 hasPrePostMarketData	True
@@ -95,7 +95,7 @@ lastSplitFactor	3:1
 longBusinessSummary	Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.
 longName	Tesla, Inc.
 market	us_market
-marketCap	1292884377600
+marketCap	1269976924160
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_27444752
@@ -104,22 +104,22 @@ netIncomeToCommon	3806000128
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	1229138644486
 numberOfAnalystOpinions	40
-open	324.03
+open	323.65
 operatingCashflow	18684999680
 operatingMargins	0.014099999
 overallRisk	10
 payoutRatio	0.0
-pegRatio	4.56
+pegRatio	4.72
 phone	512 516 8177
-postMarketChange	-2.309021
-postMarketChangePercent	-0.7053676
-postMarketPrice	325.041
-postMarketTime	1785883694
-previousClose	322.08
-priceEpsCurrentYear	182.84543
+postMarketChange	0.8800049
+postMarketChangePercent	0.27367592
+postMarketPrice	322.43
+postMarketTime	1785972043
+previousClose	327.35
+priceEpsCurrentYear	179.60576
 priceHint	2
-priceToBook	14.949537
-priceToSalesTrailing12Months	12.47729
+priceToBook	14.61923
+priceToSalesTrailing12Months	12.256216
 profitMargins	0.03671
 quickRatio	1.347
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +127,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.3617
 region	US
-regularMarketChange	5.2700195
-regularMarketChangePercent	1.6362456
-regularMarketDayHigh	329.57
-regularMarketDayLow	320.7901
-regularMarketDayRange	320.7901 - 329.57
-regularMarketOpen	324.03
-regularMarketPreviousClose	322.08
-regularMarketPrice	327.35
-regularMarketTime	1785873601
-regularMarketVolume	32958176
+regularMarketChange	-5.8000183
+regularMarketChangePercent	-1.7718096
+regularMarketDayHigh	327.14
+regularMarketDayLow	320.28
+regularMarketDayRange	320.28 - 327.14
+regularMarketOpen	323.65
+regularMarketPreviousClose	327.35
+regularMarketPrice	321.55
+regularMarketTime	1785960000
+regularMarketVolume	27506311
 returnOnAssets	0.019299999
 returnOnEquity	0.046669997
 revenueGrowth	0.255
@@ -167,14 +167,14 @@ totalRevenue	103619002368
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	1.1
-trailingPE	297.5909
+trailingEps	1.08
+trailingPE	297.73145
 trailingPegRatio	4.5599
 triggerable	True
-twoHundredDayAverage	411.5997
-twoHundredDayAverageChange	-84.249695
-twoHundredDayAverageChangePercent	-0.20468843
+twoHundredDayAverage	411.0639
+twoHundredDayAverageChange	-89.513916
+twoHundredDayAverageChangePercent	-0.21776156
 typeDisp	Equity
-volume	32958176
+volume	27506311
 website	https://www.tesla.com
 zip	78725

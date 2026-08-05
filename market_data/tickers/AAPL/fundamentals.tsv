@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.5223241
-SandP52WeekChange	0.18899727
+52WeekChange	0.42283702
+SandP52WeekChange	0.19786096
 address1	One Apple Park Way
 allTimeHigh	344.57
 allTimeLow	0.049107
@@ -8,10 +8,10 @@ ask	305.98
 askSize	4
 auditRisk	2
 averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	58654020
-averageDailyVolume3Month	56631477
-averageVolume	56631477
-averageVolume10days	58654020
+averageDailyVolume10Day	60811030
+averageDailyVolume3Month	57053221
+averageVolume	57053221
+averageVolume10days	60811030
 beta	1.086
 bid	302.88
 bidSize	30
@@ -25,18 +25,18 @@ corporateActions	[{'header': 'Dividend', 'message': 'AAPL announced a cash divid
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	309.38
+currentPrice	311.0
 currentRatio	1.003
 customPriceAlertConfidence	HIGH
 dateShortInterest	1784073600
-dayHigh	310.42
-dayLow	301.32
+dayHigh	311.7082
+dayLow	305.67
 debtToEquity	78.445
-discount_to_intrinsic_value	35.14
+discount_to_intrinsic_value	34.88
 displayName	Apple
 dividendDate	1786579200
 dividendRate	1.08
-dividendYield	0.35
+dividendYield	0.36
 earningsCallTimestampEnd	1785441600
 earningsCallTimestampStart	1785441600
 earningsGrowth	0.287
@@ -51,7 +51,7 @@ enterpriseToRevenue	9.533
 enterpriseValue	4450110930944
 epsCurrentYear	8.80768
 epsForward	9.51307
-epsTrailingTwelveMonths	8.71
+epsTrailingTwelveMonths	8.72
 eps_normalized_growth	0.2721811749141858
 esgPopulated	False
 exDividendDate	1786320000
@@ -60,34 +60,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	309.4994
-fiftyDayAverageChange	-0.119384766
-fiftyDayAverageChangePercent	-0.00038573507
-fiftyTwoWeekChangePercent	52.232407
+fiftyDayAverage	309.5228
+fiftyDayAverageChange	1.4772034
+fiftyDayAverageChangePercent	0.0047725188
+fiftyTwoWeekChangePercent	42.283703
 fiftyTwoWeekHigh	344.57
-fiftyTwoWeekHighChange	-35.190002
-fiftyTwoWeekHighChangePercent	-0.10212729
-fiftyTwoWeekLow	202.16
-fiftyTwoWeekLowChange	107.22
-fiftyTwoWeekLowChangePercent	0.53037196
-fiftyTwoWeekRange	202.16 - 344.57
+fiftyTwoWeekHighChange	-33.570007
+fiftyTwoWeekHighChangePercent	-0.097425796
+fiftyTwoWeekLow	205.59
+fiftyTwoWeekLowChange	105.41
+fiftyTwoWeekLowChangePercent	0.5127195
+fiftyTwoWeekRange	205.59 - 344.57
 financialCurrency	USD
 firstTradeDateMilliseconds	345479400000
 fiveYearAvgDividendYield	0.5
 floatShares	14569223952
 forwardEps	9.51307
-forwardPE	32.521572
+forwardPE	32.691864
 freeCashflow	107721875456
 fullExchangeName	NasdaqGS
 fullTimeEmployees	150000
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	477.01
+graham_intrinsic_value	477.56
 grossMargins	0.48653
 grossProfits	227123003392
 hasPrePostMarketData	True
-heldPercentInsiders	0.01637
-heldPercentInstitutions	0.65734
+heldPercentInsiders	0.01647
+heldPercentInstitutions	0.65948
 impliedSharesOutstanding	14594180000
 industry	Consumer Electronics
 industryDisp	Consumer Electronics
@@ -103,7 +103,7 @@ lastSplitFactor	4:1
 longBusinessSummary	Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.
 longName	Apple Inc.
 market	us_market
-marketCap	4515147284480
+marketCap	4538790051840
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_24937
@@ -112,22 +112,22 @@ netIncomeToCommon	128929996800
 nextFiscalYearEnd	1790467200
 nonDilutedMarketCap	4537071141960
 numberOfAnalystOpinions	41
-open	302.725
+open	309.36
 operatingCashflow	146723995648
 operatingMargins	0.32623002
 overallRisk	1
 payoutRatio	0.1204
 pegRatio	2.46
 phone	(408) 996-1010
-postMarketChange	1.1199951
-postMarketChangePercent	0.36201277
-postMarketPrice	310.5
-postMarketTime	1785883537
-previousClose	303.42
-priceEpsCurrentYear	35.126163
+postMarketChange	1.5
+postMarketChangePercent	0.48231512
+postMarketPrice	312.5
+postMarketTime	1785971846
+previousClose	309.38
+priceEpsCurrentYear	35.310093
 priceHint	2
-priceToBook	42.035324
-priceToSalesTrailing12Months	9.672075
+priceToBook	42.255432
+priceToSalesTrailing12Months	9.722722
 profitMargins	0.27618998
 quickRatio	0.812
 quoteSourceName	Nasdaq Real Time Price
@@ -135,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.06522
 region	US
-regularMarketChange	5.9599915
-regularMarketChangePercent	1.9642711
-regularMarketDayHigh	310.42
-regularMarketDayLow	301.32
-regularMarketDayRange	301.32 - 310.42
-regularMarketOpen	302.725
-regularMarketPreviousClose	303.42
-regularMarketPrice	309.38
-regularMarketTime	1785873601
-regularMarketVolume	67778746
+regularMarketChange	1.6199951
+regularMarketChangePercent	0.52362627
+regularMarketDayHigh	311.7082
+regularMarketDayLow	305.67
+regularMarketDayRange	305.67 - 311.7082
+regularMarketOpen	309.36
+regularMarketPreviousClose	309.38
+regularMarketPrice	311.0
+regularMarketTime	1785960001
+regularMarketVolume	44330978
 returnOnAssets	0.27082002
 returnOnEquity	1.4875101
 revenueGrowth	0.164
@@ -174,15 +174,15 @@ totalDebt	84343996416
 totalRevenue	466822987776
 tradeable	False
 trailingAnnualDividendRate	1.05
-trailingAnnualDividendYield	0.0034605495
-trailingEps	8.71
-trailingPE	35.520092
+trailingAnnualDividendYield	0.0033938843
+trailingEps	8.72
+trailingPE	35.66514
 trailingPegRatio	2.4573
 triggerable	True
-twoHundredDayAverage	277.9605
-twoHundredDayAverageChange	31.419495
-twoHundredDayAverageChangePercent	0.11303582
+twoHundredDayAverage	278.23874
+twoHundredDayAverageChange	32.76126
+twoHundredDayAverageChangePercent	0.117745146
 typeDisp	Equity
-volume	67778746
+volume	44254454
 website	https://www.apple.com
 zip	95014
