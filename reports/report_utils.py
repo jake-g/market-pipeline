@@ -622,9 +622,12 @@ def generate_eps_surprise_scatter(df: pd.DataFrame, output_path: str):
   plt.close()
 
 
-def generate_rsi_dist200_scatter(df: pd.DataFrame, output_path: str):
-  """
-  Plot RSI vs Distance to 200MA.
+def generate_rsi_dist200_scatter(
+    df: pd.DataFrame,
+    output_path: str,
+    title: str = "Technical Extension: RSI vs Distance to 200MA"):
+  """Plot RSI vs Distance to 200MA.
+
   Identifies overextended vs oversold conditions for rotation timing.
   """
   if df.empty or 'RSI' not in df or 'Dist_to_200MA' not in df:
@@ -636,6 +639,7 @@ def generate_rsi_dist200_scatter(df: pd.DataFrame, output_path: str):
     return
 
   logger.info("Generating RSI vs 200MA Scatter plot...")
+  setup_plot_aesthetics()
   fig, ax = plt.subplots(figsize=(10, 8))
 
   sizes = np.log1p(plot_df['Current_Value'].fillna(1000)) * 20
@@ -678,9 +682,7 @@ def generate_rsi_dist200_scatter(df: pd.DataFrame, output_path: str):
   cbar = plt.colorbar(scatter)
   cbar.set_label('RSI')
 
-  plt.title('Technical Extension: RSI vs Distance to 200MA',
-            fontweight='bold',
-            fontsize=14)
+  plt.title(title, fontweight='bold', fontsize=14)
   plt.xlabel('RSI (Momentum)', fontweight='bold')
   plt.ylabel('Distance to 200MA (%) (Trend Extension)', fontweight='bold')
 
@@ -688,6 +690,52 @@ def generate_rsi_dist200_scatter(df: pd.DataFrame, output_path: str):
   plt.savefig(output_path, bbox_inches='tight', dpi=300)
   plt.close()
   logger.info(f"Generated RSI Scatter at {output_path}")
+
+
+def generate_semiconductor_moat_watch_plot(
+    df_stocks: pd.DataFrame,
+    output_path: str,
+    target_tickers: Optional[List[str]] = None):
+  """Plots PnL % vs 200MA Extension for Semiconductor moat leaders with white background styling."""
+  setup_plot_aesthetics()
+  target_tickers = target_tickers or ['NVDA', 'TSM', 'AMD', 'AVGO']
+  semi_df = df_stocks[df_stocks['Ticker'].isin(target_tickers)].copy()
+  if semi_df.empty:
+    return
+
+  fig, ax = plt.subplots(figsize=(10, 6))
+  x = np.arange(len(semi_df))
+  width = 0.35
+
+  ax.bar(x - width / 2,
+         semi_df['Unrealized_PnL_Pct'],
+         width,
+         label='Unrealized PnL %',
+         color='#27ae60',
+         edgecolor='black',
+         alpha=0.85)
+  ax.bar(x + width / 2,
+         semi_df['Dist_to_200MA'],
+         width,
+         label='Dist 200MA %',
+         color='#e74c3c',
+         edgecolor='black',
+         alpha=0.85)
+
+  ax.set_xticks(x)
+  ax.set_xticklabels(semi_df['Ticker'], fontweight='bold', fontsize=11)
+  ax.set_title('Semiconductor Moat Leaders: PnL % vs 200MA Extension',
+               fontsize=14,
+               fontweight='bold')
+  ax.set_ylabel('Percentage (%)', fontweight='bold')
+  ax.axhline(0, color='black', linewidth=0.8, linestyle='--')
+  ax.legend(frameon=True, facecolor='white', edgecolor='gray')
+  ax.grid(True, alpha=0.3)
+
+  plt.tight_layout()
+  plt.savefig(output_path, bbox_inches='tight', dpi=300)
+  plt.close()
+  logger.info(f"Generated Semiconductor Moat Watch Plot at {output_path}")
 
 
 def analyze_earnings_movement(ticker: str,
