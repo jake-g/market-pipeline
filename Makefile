@@ -5,7 +5,7 @@
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
 export PYTHONSAFEPATH := 1
-export PYTHONPATH := .
+export PYTHONPATH := $(CURDIR)
 
 
 # Default target
@@ -68,7 +68,7 @@ test: format
 	@venv/bin/python3 -m unittest backfill/legacy_data_test.py
 	@echo "📝 Running NotebookLM Client Tests..."
 	@venv/bin/python3 reports/notebooklm_client.py 2>&1 | tee logs/test_notebooklm_client.log
-	@PYTHONPATH=. venv/bin/python3 -m unittest reports/notebooklm_client_test.py
+	@PYTHONPATH=$(CURDIR) venv/bin/python3 -m unittest reports/notebooklm_client_test.py
 	@echo "🌐 Generating static index.json for dashboard..."
 	@venv/bin/python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 	@echo "🖌️  Running final formatting verification..."
@@ -150,8 +150,7 @@ fetch:
 	echo "💾 Committing newly generated market data..." && \
 	(git add market_data/ || true) && \
 	(git add reports/news/*.md || true) && \
-	(git add index.json || true) && \
-
+	(git add market_data/index.json || true) && \
 	(git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit.")
 
 

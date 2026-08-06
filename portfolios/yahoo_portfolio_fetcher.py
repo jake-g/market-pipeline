@@ -513,6 +513,8 @@ def fetch_yahoo_portfolios(cookie: str,
 
 def main():
   """Main entry point for the script."""
+  portfolios_base_dir = os.environ.get(
+      "PORTFOLIOS_DATA_DIR") or os.path.dirname(__file__)
   parser = argparse.ArgumentParser(description="Fetch Yahoo Finance Portfolios")
   parser.add_argument(
       "--dump",
@@ -602,7 +604,7 @@ def main():
         sys.exit(1)
     else:
       sys.exit(1)
-  json_cache_path = os.path.join(os.path.dirname(__file__), "portfolio.json")
+  json_cache_path = os.path.join(portfolios_base_dir, "portfolio.json")
 
   # Auto-inject the cached file if it's less than 1 hour old and we aren't forcing an update
   if not args.local_json and not args.force and not args.dump:
@@ -736,7 +738,7 @@ def main():
         ignored_prefixes = [p.lower() for p in IGNORED_PORTFOLIO_PREFIXES]
 
         # Ensure tsvs dir exists
-        out_dir = os.path.join(os.path.dirname(__file__), "tsvs")
+        out_dir = os.path.join(portfolios_base_dir, "tsvs")
         os.makedirs(out_dir, exist_ok=True)
 
         for p in portfolios:
@@ -898,8 +900,7 @@ def main():
           meta_df = pd.DataFrame(meta_report_rows)
           meta_df = meta_df.sort_values(by="Total_Value",
                                         ascending=False).round(2)
-          meta_path = os.path.join(os.path.dirname(__file__),
-                                   "portfolio_summary.tsv")
+          meta_path = os.path.join(portfolios_base_dir, "portfolio_summary.tsv")
           meta_df.to_csv(meta_path, sep="\t", index=False)
           logger.info("Saved Meta Report to %s", meta_path)
 

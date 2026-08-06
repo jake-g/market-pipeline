@@ -31,6 +31,6 @@ jobs:
         env:
           CI: "true"
           PYTHONSAFEPATH: "1"
-          PYTHONPATH: "."
+          PYTHONPATH: "${{ github.workspace }}"
         run: |
           make test
