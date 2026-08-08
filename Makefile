@@ -151,7 +151,10 @@ fetch:
 	(git add market_data/ || true) && \
 	(git add reports/news/*.md || true) && \
 	(git add market_data/index.json || true) && \
-	(git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit.")
+	(git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit.") && \
+	(git push origin main || echo "No public changes to push or push failed.") && \
+	echo "💾 Syncing private reports and data to Gitea..." && \
+	$(MAKE) private-push
 
 
 market-fetch: setup
@@ -234,6 +237,22 @@ notebooklm-auth:
 	@echo "✅ Environment unlocked."
 	@echo "🔐 Spawning NotebookLM login flow..."
 	@venv/bin/notebooklm login
+
+# Private Git Repository Management
+PRIVATE_GIT := git --git-dir=.private_git --work-tree=.
+
+private-status:
+	@$(PRIVATE_GIT) status
+
+private-add:
+	@$(PRIVATE_GIT) add .
+	@$(PRIVATE_GIT) add -f reports/ portfolios/ 2>/dev/null || true
+
+private-commit: private-add
+	@$(PRIVATE_GIT) commit -m "update private market data and reports" || true
+
+private-push: private-commit
+	@$(PRIVATE_GIT) push -u origin main
 
 # Clean project caches and log files
 clean:

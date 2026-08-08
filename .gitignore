@@ -11,6 +11,7 @@ venv/
 .cache/
 __pycache__/
 .mypy_cache/
+.private_git/
 
 # Project Specific
 old/
@@ -21,3 +22,10 @@ scratch/
 notebooks/
 deploy/
 TODO*.md
+
+# Reports & Personal Portfolio Data
+reports/
+portfolios/portfolio.json
+portfolios/portfolio_summary.tsv
+portfolios/tsvs/*.tsv
+!portfolios/tsvs/example_*.tsv
