@@ -2,7 +2,7 @@ Metric	Value
 address1	Boston, MA 02109
 address2	82 Devonshire Street
 address3	Fidelity Advisor Series I
-allTimeHigh	60.09
+allTimeHigh	60.66
 allTimeLow	9.1
 annualHoldingsTurnover	0.57
 annualReportExpenseRatio	0.0121
@@ -10,7 +10,7 @@ averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
 averageVolume10days	0
-beta3Year	1.05
+beta3Year	1.03
 bookValue	48.741
 companyOfficers	[]
 corporateActions	[]
@@ -18,7 +18,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.304
-dividendYield	0.49
+dividendYield	0.48
 epsTrailingTwelveMonths	17.592
 esgPopulated	False
 exchange	NAS
@@ -26,17 +26,17 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	57.4024
-fiftyDayAverageChange	2.9976006
-fiftyDayAverageChangePercent	0.05222082
-fiftyTwoWeekChangePercent	31.057798
-fiftyTwoWeekHigh	60.09
-fiftyTwoWeekHighChange	0.31000137
-fiftyTwoWeekHighChangePercent	0.005158951
-fiftyTwoWeekLow	45.46
-fiftyTwoWeekLowChange	14.940002
-fiftyTwoWeekLowChangePercent	0.3286406
-fiftyTwoWeekRange	45.46 - 60.09
+fiftyDayAverage	57.976
+fiftyDayAverageChange	1.8139992
+fiftyDayAverageChangePercent	0.031288795
+fiftyTwoWeekChangePercent	25.582863
+fiftyTwoWeekHigh	60.66
+fiftyTwoWeekHighChange	-0.86999893
+fiftyTwoWeekHighChangePercent	-0.014342218
+fiftyTwoWeekLow	46.11
+fiftyTwoWeekLowChange	13.68
+fiftyTwoWeekLowChangePercent	0.29668185
+fiftyTwoWeekRange	46.11 - 60.66
 financialCurrency	USD
 firstTradeDateMilliseconds	441642600000
 fullExchangeName	Nasdaq
@@ -50,39 +50,39 @@ longBusinessSummary	The fund normally invests primarily in common stocks. It inv
 longName	Fidelity Advisor Value Strategies Fund
 market	us_market
 marketCap	1391523456
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_28114349
 morningStarOverallRating	4
 morningStarRiskRating	5
-netAssets	2331865600.0
+netAssets	2553305600.0
 netExpenseRatio	1.21
-previousClose	60.66
+previousClose	59.71
 priceHint	2
-priceToBook	1.2392031
+priceToBook	1.226688
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-0.26
-regularMarketChangePercent	-0.42861855
-regularMarketPreviousClose	60.66
-regularMarketPrice	60.4
-regularMarketTime	1785970412
+regularMarketChange	0.08
+regularMarketChangePercent	0.1339809
+regularMarketPreviousClose	59.71
+regularMarketPrice	59.79
+regularMarketTime	1786493316
 sharesOutstanding	25941900
 shortName	Fidelity Advisor Value Strategi
 sourceInterval	15
 symbol	FASPX
-totalAssets	2331865600
+totalAssets	2553305600
 tradeable	False
 trailingAnnualDividendRate	0.29
-trailingAnnualDividendYield	0.004780745
-trailingPE	3.4333792
+trailingAnnualDividendYield	0.0048568076
+trailingPE	3.3987043
 trailingPegRatio	None
-trailingThreeMonthReturns	18.09291
+trailingThreeMonthReturns	8.56829
 triggerable	False
-twoHundredDayAverage	52.23255
-twoHundredDayAverageChange	8.16745
-twoHundredDayAverageChangePercent	0.15636705
+twoHundredDayAverage	52.57135
+twoHundredDayAverageChange	7.218651
+twoHundredDayAverageChangePercent	0.1373115
 typeDisp	Fund
-yield	0.0049
-ytdReturn	25.45455
+yield	0.0047999998
+ytdReturn	28.35498
