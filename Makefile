@@ -150,6 +150,7 @@ fetch:
 	echo "💾 Committing newly generated market data..." && \
 	(git add market_data/ || true) && \
 	(git add reports/news/*.md || true) && \
+	(git add -f reports/news/rendered/*.png || true) && \
 	(git add market_data/index.json || true) && \
 	(git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit.") && \
 	(git push origin main || echo "No public changes to push or push failed.") && \

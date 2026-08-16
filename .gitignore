@@ -24,7 +24,10 @@ deploy/
 TODO*.md
 
 # Reports & Personal Portfolio Data
-reports/
+reports/*
+!reports/news/
+!reports/news/rendered/
+!reports/news/rendered/*.png
 portfolios/portfolio.json
 portfolios/portfolio_summary.tsv
 portfolios/tsvs/*.tsv
