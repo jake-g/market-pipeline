@@ -561,13 +561,18 @@ async def generate_report(market_data_dir: str,
                   if str(row.get('URL', '')).strip().startswith('http')
               ][:15]
 
-            # Deep Fetch
+            # Deep Fetch (Concurrent)
             logger.info(
-                f"Scraping deep context for {len(urls_to_fetch)} URLs...")
-            for idx, url in enumerate(urls_to_fetch):
-              text = await MarketFetcher.fetch_article_text(url,
-                                                            max_paragraphs=30)
-              if text and len(text) > 100:
+                f"Scraping deep context for {len(urls_to_fetch)} URLs concurrently..."
+            )
+            tasks = [
+                MarketFetcher.fetch_article_text(url, max_paragraphs=30)
+                for url in urls_to_fetch
+            ]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+            for idx, text in enumerate(results):
+              if isinstance(text, str) and text and len(text) > 100:
                 full_texts.append(
                     f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
 

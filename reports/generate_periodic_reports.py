@@ -32,6 +32,32 @@ def is_report_missing(filename: str) -> bool:
   return not (os.path.exists(pdf_path) and os.path.exists(md_path))
 
 
+def _run_report_with_retry(mode: str,
+                           start_date_str: str,
+                           end_date_str: Optional[str] = None):
+  """Executes generate_report with 1 retry on exception/SystemExit."""
+  for attempt in range(1, 3):
+    try:
+      asyncio.run(
+          generate_report(market_data_dir=config.MARKET_DATA_DIR,
+                          mode=mode,
+                          start_date_str=start_date_str,
+                          end_date_str=end_date_str,
+                          backfill_news=False))
+      return
+    except (Exception, SystemExit) as e:
+      if attempt < 2:
+        logger.warning(
+            f"Attempt {attempt} for {mode} report ({start_date_str}) failed: {e}. Retrying in 5s..."
+        )
+        import time
+        time.sleep(5)
+      else:
+        logger.error(
+            f"Failed {mode} report ({start_date_str}) after {attempt} attempts: {e}"
+        )
+
+
 def generate_yearly_reports(start_year: int = 2024,
                             end_year: int = 2025,
                             dry_run: bool = False):
@@ -45,12 +71,7 @@ def generate_yearly_reports(start_year: int = 2024,
     if is_report_missing(filename):
       logger.info(f"Missing Yearly Report found: {filename}")
       if not dry_run:
-        asyncio.run(
-            generate_report(market_data_dir=config.MARKET_DATA_DIR,
-                            mode="yearly",
-                            start_date_str=start_date_str,
-                            end_date_str=end_date_str,
-                            backfill_news=False))
+        _run_report_with_retry("yearly", start_date_str, end_date_str)
     else:
       logger.debug(f"Yearly report present: {filename}")
 
@@ -65,12 +86,7 @@ def generate_prospective_reports(target_year: int = 2026,
   if is_report_missing(filename):
     logger.info(f"Missing Prospective Report found: {filename}")
     if not dry_run:
-      asyncio.run(
-          generate_report(market_data_dir=config.MARKET_DATA_DIR,
-                          mode="yearly_prospective",
-                          start_date_str=start_date_str,
-                          end_date_str=end_date_str,
-                          backfill_news=False))
+      _run_report_with_retry("yearly_prospective", start_date_str, end_date_str)
   else:
     logger.debug(f"Prospective report present: {filename}")
 
@@ -91,12 +107,8 @@ def generate_monthly_reports(start_year: int = 2025, dry_run: bool = False):
       logger.info(f"Missing Monthly Report found: {filename}")
 
       if not dry_run:
-        asyncio.run(
-            generate_report(market_data_dir=config.MARKET_DATA_DIR,
-                            mode="monthly",
-                            start_date_str=current.strftime("%Y-%m-%d"),
-                            end_date_str=last_day_of_month.strftime("%Y-%m-%d"),
-                            backfill_news=False))
+        _run_report_with_retry("monthly", current.strftime("%Y-%m-%d"),
+                               last_day_of_month.strftime("%Y-%m-%d"))
     else:
       logger.debug(f"Monthly report present: {filename}")
 
@@ -136,12 +148,8 @@ def generate_weekly_reports(start_year: int = 2026,
       logger.info(f"Missing Weekly Report found: {filename}")
 
       if not dry_run:
-        asyncio.run(
-            generate_report(market_data_dir=config.MARKET_DATA_DIR,
-                            mode="weekly",
-                            start_date_str=current_date.strftime("%Y-%m-%d"),
-                            end_date_str=week_end.strftime("%Y-%m-%d"),
-                            backfill_news=False))
+        _run_report_with_retry("weekly", current_date.strftime("%Y-%m-%d"),
+                               week_end.strftime("%Y-%m-%d"))
     else:
       logger.debug(f"Weekly report present: {filename}")
 
@@ -168,11 +176,7 @@ def generate_daily_reports(start_date: str = "2026-03-06",
       if is_report_missing(filename):
         logger.info(f"Missing Daily Report found: {filename}")
         if not dry_run:
-          asyncio.run(
-              generate_report(market_data_dir=config.MARKET_DATA_DIR,
-                              mode="daily",
-                              start_date_str=current_date.strftime("%Y-%m-%d"),
-                              backfill_news=False))
+          _run_report_with_retry("daily", current_date.strftime("%Y-%m-%d"))
       else:
         logger.debug(f"Daily report present: {filename}")
 
