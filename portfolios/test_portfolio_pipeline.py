@@ -77,6 +77,29 @@ class TestPortfolioPipeline(unittest.TestCase):
     # The target files list should explicitly NOT contain our examples
     self.assertTrue(active_path not in target_files)
 
+  def test_03_parse_curl_command_valid(self):
+    """Test parsing cURL command with cookie, crumb, and userId."""
+    curl_str = (
+        "curl 'https://query2.finance.yahoo.com/v7/finance/desktop/portfolio"
+        "?crumb=abc123crumb&userId=user123' "
+        "-H 'Cookie: A1=test_cookie_val; A3=test_val2' "
+        "-H 'User-Agent: Mozilla/5.0'")
+    res = yahoo_portfolio_fetcher.parse_curl_command(curl_str)
+    self.assertEqual(res["crumb"], "abc123crumb")
+    self.assertEqual(res["user_id"], "user123")
+    self.assertEqual(res["cookie"], "A1=test_cookie_val; A3=test_val2")
+
+  def test_04_parse_curl_command_no_cookie(self):
+    """Test parsing cURL without cookie does not misinterpret User-Agent."""
+    curl_str = (
+        "curl 'https://query2.finance.yahoo.com/v7/finance/desktop/portfolio"
+        "?crumb=0HbnO0IZtE7&userId=' "
+        "-H 'User-Agent: Mozilla/5.0' "
+        "-H 'DNT: 1'")
+    res = yahoo_portfolio_fetcher.parse_curl_command(curl_str)
+    self.assertEqual(res["crumb"], "0HbnO0IZtE7")
+    self.assertEqual(res["cookie"], "")
+
 
 if __name__ == '__main__':
   unittest.main()

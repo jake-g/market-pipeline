@@ -70,12 +70,16 @@ def parse_curl_command(curl_text: str) -> dict:
         url = url_match.group(1)
 
     if not cookie:
-      # Try regex for cookie
+      # Try regex specifically for cookie header (-H "cookie: ...") or cookie flag (-b "...")
       cookie_match = re.search(
-          r'(?:-H|-b|--header|--cookie)\s+[\'"]?(?:[Cc]ookie\s*:\s*)?([^\'"]+)[\'"]?',
-          curl_text)
+          r'(?:-H|--header)\s+[\'"]?[Cc]ookie\s*:\s*([^\'"]+)[\'"]?|(?:-b|--cookie)\s+[\'"]?([^\'"]+)[\'"]?',
+          curl_text,
+          re.IGNORECASE,
+      )
       if cookie_match:
-        cookie = cookie_match.group(1)
+        matched = cookie_match.group(1) or cookie_match.group(2)
+        if matched:
+          cookie = matched.strip()
 
     if not url:
       logger.error("Could not find a URL in the cURL command.")
@@ -281,8 +285,12 @@ def browser_capture_yahoo_creds(env_path: str) -> bool:
 
 
 def update_yahoo_credentials(env_path: str) -> None:
-  """Updates Yahoo Finance credentials using personal Google Chrome profile (zero verification required)."""
+  """Updates Yahoo Finance credentials."""
   logger.info("\n🚨 Yahoo Finance credentials expired or missing!")
+  logger.info("Attempting automated browser credential capture...")
+  if browser_capture_yahoo_creds(env_path):
+    return
+
   logger.info(
       "Opening personal Google Chrome browser (already logged in with %s)...",
       os.environ.get("YF_LOGIN_EMAIL", "jakehgarrison@gmail.com"),
@@ -312,27 +320,44 @@ def prompt_for_curl_and_save_env(env_path: str):
   logger.info("\nChecking clipboard for 'Copy as cURL' command...")
 
   curl_text = ""
-  if shutil.which('pbpaste'):
+  if shutil.which("pbpaste"):
     logger.info("Waiting for cURL command in clipboard...")
     logger.info("Press Ctrl+C to abort at any time.")
     start_wait = time.time()
     last_heartbeat = 0
+    last_cookie_warn = ""
     try:
       while True:
         try:
-          result = subprocess.run(['pbpaste'],
-                                  capture_output=True,
-                                  text=True,
-                                  timeout=2,
-                                  check=True)
+          result = subprocess.run(
+              ["pbpaste"],
+              capture_output=True,
+              text=True,
+              timeout=2,
+              check=True,
+          )
           clipboard_content = result.stdout.strip()
-          if (clipboard_content.startswith('curl') and
-              'portfolio' in clipboard_content and
-              ('query1.finance.yahoo.com' in clipboard_content or
-               'query2.finance.yahoo.com' in clipboard_content)):
-            logger.info("✅ Found cURL command in clipboard! Processing...")
-            curl_text = clipboard_content
-            break
+          if (clipboard_content.startswith("curl") and
+              ("portfolio" in clipboard_content or
+               "crumb=" in clipboard_content) and
+              ("query1.finance.yahoo.com" in clipboard_content or
+               "query2.finance.yahoo.com" in clipboard_content)):
+            parsed = parse_curl_command(clipboard_content)
+            if parsed.get("cookie") and parsed.get("crumb"):
+              logger.info(
+                  "✅ Found valid cURL with Cookie & Crumb in clipboard!")
+              curl_text = clipboard_content
+              break
+            if not parsed.get("cookie") and parsed.get("crumb"):
+              if last_cookie_warn != clipboard_content:
+                logger.warning(
+                    "⚠️ Found cURL in clipboard with crumb '%s' but MISSING"
+                    " Cookie header!\n   In Chrome DevTools, make sure to copy"
+                    " an authenticated GET request with cookies (e.g. status"
+                    " 200).",
+                    parsed.get("crumb"),
+                )
+                last_cookie_warn = clipboard_content
         except Exception:
           pass
 
@@ -362,26 +387,50 @@ def prompt_for_curl_and_save_env(env_path: str):
     sys.exit(1)
 
   credentials = parse_curl_command(curl_text)
-  if not credentials or not credentials['cookie'] or not credentials['crumb']:
-    logger.error("Could not extract cookie or crumb from the provided cURL.")
+  cookie = credentials.get("cookie", "")
+  crumb = credentials.get("crumb")
+
+  if not cookie:
+    existing_cookie = os.environ.get("YF_COOKIE", "")
+    if existing_cookie and not existing_cookie.lower().startswith(
+        "user-agent:"):
+      logger.info(
+          "No Cookie header in cURL. Retaining existing YF_COOKIE from environment."
+      )
+      cookie = existing_cookie
+
+  if not cookie or not crumb:
+    if not cookie:
+      logger.error(
+          "❌ Could not extract 'Cookie' header from the provided cURL command.")
+      logger.error(
+          "In Chrome DevTools, ensure you right-click an authenticated GET request:\n"
+          "  1. Go to https://finance.yahoo.com/portfolios\n"
+          "  2. Open DevTools (Network tab) and filter for 'portfolio' or 'getcrumb'\n"
+          "  3. Right-click the 'portfolio' request -> Copy -> Copy as cURL (bash)\n"
+          "  4. Verify the copied text contains '-H \"cookie: ...\"' or '-H \"Cookie: ...\"'"
+      )
+    if not crumb:
+      logger.error(
+          "❌ Could not extract 'crumb' parameter from the provided cURL command."
+      )
     sys.exit(1)
 
-  user_id = credentials.get('user_id')
+  user_id = credentials.get("user_id")
   if not user_id:
-    existing_user_id = os.environ.get('YF_USER_ID')
+    existing_user_id = os.environ.get("YF_USER_ID")
     if existing_user_id:
       logger.info("No User ID in cURL. Retaining existing YF_USER_ID.")
       user_id = existing_user_id
     else:
       logger.warning(
-          "No User ID extracted. Please manually add YF_USER_ID to .env or you may face fetch errors."
-      )
+          "No User ID extracted. Please manually add YF_USER_ID to .env.")
       user_id = ""
 
   save_credentials_to_env(
       env_path,
-      credentials["cookie"],
-      credentials["crumb"],
+      cookie,
+      crumb,
       user_id,
       credentials.get("headers"),
   )
