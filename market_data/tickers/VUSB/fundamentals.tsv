@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	51.26
 allTimeLow	48.08
-ask	49.75
-askSize	20100
-averageDailyVolume10Day	3261530
-averageDailyVolume3Month	1894734
-averageVolume	1894734
-averageVolume10days	3261530
+ask	49.79
+askSize	70600
+averageDailyVolume10Day	3182510
+averageDailyVolume3Month	1898924
+averageVolume	1898924
+averageVolume10days	3182510
 beta3Year	0.1
-bid	49.67
-bidSize	20100
+bid	49.72
+bidSize	6500
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	49.68
-dayLow	49.67
+dayHigh	49.73
+dayLow	49.72
 dividendYield	4.35
 esgPopulated	False
 exchange	BTS
@@ -25,19 +25,19 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	49.6852
-fiftyDayAverageChange	-0.0102005005
-fiftyDayAverageChangePercent	-0.0002053026
-fiftyTwoWeekChangePercent	-0.29104948
+fiftyDayAverage	49.6876
+fiftyDayAverageChange	0.03240204
+fiftyDayAverageChangePercent	0.0006521152
+fiftyTwoWeekChangePercent	-0.26078224
 fiftyTwoWeekHigh	50.03
-fiftyTwoWeekHighChange	-0.35499954
-fiftyTwoWeekHighChangePercent	-0.0070957337
+fiftyTwoWeekHighChange	-0.30999756
+fiftyTwoWeekHighChangePercent	-0.0061962334
 fiftyTwoWeekLow	49.595
-fiftyTwoWeekLowChange	0.07999802
-fiftyTwoWeekLowChangePercent	0.0016130258
+fiftyTwoWeekLowChange	0.125
+fiftyTwoWeekLowChangePercent	0.0025204152
 fiftyTwoWeekRange	49.595 - 50.03
 firstTradeDateMilliseconds	1617802200000
-fiveYearAverageReturn	0.035684
+fiveYearAverageReturn	0.035872098
 fullExchangeName	Cboe US
 fundFamily	Vanguard
 fundInceptionDate	1617667200
@@ -48,37 +48,37 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an active management approach, investing in a diversified portfolio of high-quality and, to a lesser extent, medium-quality bonds. It is expected to maintain a dollar-weighted average maturity of 0 to 2 years. Under normal circumstances, the fund will invest at least 80% of its assets in fixed income securities.
 longName	Vanguard Ultra-Short Bond ETF
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_702253379
-navPrice	49.64
+navPrice	49.7
 netAssets	9326250000.0
 netExpenseRatio	0.1
-open	49.67
+open	49.72
 phone	800-523-1036
-postMarketChange	-0.005001068
-postMarketChangePercent	-0.010067576
-postMarketPrice	49.67
-postMarketTime	1786491249
-previousClose	49.66
+postMarketChange	0.02999878
+postMarketChangePercent	0.060335435
+postMarketPrice	49.75
+postMarketTime	1786750446
+previousClose	49.715
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0149994
-regularMarketChangePercent	0.0302042
-regularMarketDayHigh	49.68
-regularMarketDayLow	49.67
-regularMarketDayRange	49.67 - 49.68
-regularMarketOpen	49.67
-regularMarketPreviousClose	49.66
-regularMarketPrice	49.675
-regularMarketTime	1786478400
-regularMarketVolume	1794384
+regularMarketChange	0.00500107
+regularMarketChangePercent	0.0100595
+regularMarketDayHigh	49.73
+regularMarketDayLow	49.72
+regularMarketDayRange	49.72 - 49.73
+regularMarketOpen	49.72
+regularMarketPreviousClose	49.715
+regularMarketPrice	49.72
+regularMarketTime	1786737600
+regularMarketVolume	1135715
 shortName	Vanguard Ultra-Short Bond ETF
 sourceInterval	15
 symbol	VUSB
-threeYearAverageReturn	0.0525834
+threeYearAverageReturn	0.0533647
 totalAssets	9326249984
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -87,10 +87,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.93023
 trailingThreeMonthReturns	0.93023
 triggerable	True
-twoHundredDayAverage	49.7936
-twoHundredDayAverageChange	-0.11859894
-twoHundredDayAverageChangePercent	-0.002381811
+twoHundredDayAverage	49.789555
+twoHundredDayAverageChange	-0.069553375
+twoHundredDayAverageChangePercent	-0.0013969471
 typeDisp	ETF
-volume	1794384
+volume	1135715
 yield	0.0435
 ytdReturn	1.97978

@@ -3,10 +3,10 @@ allTimeHigh	34.79
 allTimeLow	19.17
 ask	30.34
 askSize	1
-averageDailyVolume10Day	1300400
-averageDailyVolume3Month	1411350
-averageVolume	1411350
-averageVolume10days	1300400
+averageDailyVolume10Day	928040
+averageDailyVolume3Month	1375845
+averageVolume	1375845
+averageVolume10days	928040
 beta3Year	0.0
 bid	30.22
 bidSize	1
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	30.4801
-dayLow	30.02
+dayHigh	31.1399
+dayLow	30.6
 dividendYield	0.01
 epsTrailingTwelveMonths	0.83971786
 esgPopulated	False
@@ -26,16 +26,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	31.0804
-fiftyDayAverageChange	-0.8704014
-fiftyDayAverageChangePercent	-0.028004833
-fiftyTwoWeekChangePercent	43.81206
+fiftyDayAverage	30.8664
+fiftyDayAverageChange	0.06360054
+fiftyDayAverageChangePercent	0.0020605105
+fiftyTwoWeekChangePercent	51.729214
 fiftyTwoWeekHigh	34.79
-fiftyTwoWeekHighChange	-4.580002
-fiftyTwoWeekHighChangePercent	-0.13164708
+fiftyTwoWeekHighChange	-3.8600006
+fiftyTwoWeekHighChangePercent	-0.11095144
 fiftyTwoWeekLow	19.17
-fiftyTwoWeekLowChange	11.039999
-fiftyTwoWeekLowChangePercent	0.5758998
+fiftyTwoWeekLowChange	11.76
+fiftyTwoWeekLowChangePercent	0.6134585
 fiftyTwoWeekRange	19.17 - 34.79
 firstTradeDateMilliseconds	1753450200000
 fullExchangeName	NasdaqGM
@@ -49,32 +49,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index is a thematic index tracking the performance of U.S. exchange-listed companies contributing to critical electrical grid, artificial intelligence (“AI”) and data infrastructure through decentralized energy technologies, electrical utilities and related components and construction, data center operations, and AI-related computing hardware. Under normal circumstances, at least 80% of the fund’s net assets will be invested in securities of AI & Power Infrastructure Companies. The fund is non-diversified.
 longName	Defiance AI & Power Infrastructure ETF
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_1913357773
-navPrice	29.6769
+navPrice	30.9212
 netAssets	888241600.0
 netExpenseRatio	0.69
-open	30.04
-postMarketChange	0.11000061
-postMarketChangePercent	0.3641199
-postMarketPrice	30.32
-postMarketTime	1786492019
-previousClose	29.69
+open	30.71
+postMarketChange	-0.35000038
+postMarketChangePercent	-1.1315887
+postMarketPrice	30.58
+postMarketTime	1786751942
+previousClose	30.68
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.519999
-regularMarketChangePercent	1.75143
-regularMarketDayHigh	30.4801
-regularMarketDayLow	30.02
-regularMarketDayRange	30.02 - 30.4801
-regularMarketOpen	30.04
-regularMarketPreviousClose	29.69
-regularMarketPrice	30.21
-regularMarketTime	1786478401
-regularMarketVolume	571997
+regularMarketChange	0.25
+regularMarketChangePercent	0.814863
+regularMarketDayHigh	31.1399
+regularMarketDayLow	30.6
+regularMarketDayRange	30.6 - 31.1399
+regularMarketOpen	30.71
+regularMarketPreviousClose	30.68
+regularMarketPrice	30.93
+regularMarketTime	1786737601
+regularMarketVolume	840499
 shortName	Defiance AI & Power Infrastruct
 sourceInterval	15
 symbol	AIPO
@@ -82,15 +82,15 @@ totalAssets	888241600
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	35.976368
+trailingPE	36.8338
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-8.50596
 trailingThreeMonthReturns	-8.50596
 triggerable	True
-twoHundredDayAverage	27.16205
-twoHundredDayAverageChange	3.0479488
-twoHundredDayAverageChangePercent	0.11221351
+twoHundredDayAverage	27.29355
+twoHundredDayAverageChange	3.6364498
+twoHundredDayAverageChangePercent	0.13323477
 typeDisp	ETF
-volume	571997
+volume	840499
 yield	0.0001
 ytdReturn	29.49644

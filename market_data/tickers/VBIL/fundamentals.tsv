@@ -3,10 +3,10 @@ allTimeHigh	75.73
 allTimeLow	75.01
 ask	75.52
 askSize	104
-averageDailyVolume10Day	2373560
-averageDailyVolume3Month	2539378
-averageVolume	2539378
-averageVolume10days	2373560
+averageDailyVolume10Day	2794560
+averageDailyVolume3Month	2545900
+averageVolume	2545900
+averageVolume10days	2794560
 beta3Year	0.0
 bid	75.51
 bidSize	3
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	75.56
-dayLow	75.56
+dayHigh	75.61
+dayLow	75.6
 dividendYield	3.6
 esgPopulated	False
 exchange	NGM
@@ -25,16 +25,16 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	75.5828
-fiftyDayAverageChange	-0.012802124
-fiftyDayAverageChangePercent	-0.00016937879
-fiftyTwoWeekChangePercent	0.12589693
+fiftyDayAverage	75.5882
+fiftyDayAverageChange	0.02179718
+fiftyDayAverageChangePercent	0.00028836748
+fiftyTwoWeekChangePercent	0.13906956
 fiftyTwoWeekHigh	75.73
-fiftyTwoWeekHighChange	-0.16000366
-fiftyTwoWeekHighChangePercent	-0.0021128173
+fiftyTwoWeekHighChange	-0.12000275
+fiftyTwoWeekHighChangePercent	-0.001584613
 fiftyTwoWeekLow	75.31
-fiftyTwoWeekLowChange	0.26000214
-fiftyTwoWeekLowChangePercent	0.0034524251
+fiftyTwoWeekLowChange	0.30000305
+fiftyTwoWeekLowChangePercent	0.0039835754
 fiftyTwoWeekRange	75.31 - 75.73
 firstTradeDateMilliseconds	1739370600000
 fullExchangeName	NasdaqGM
@@ -48,33 +48,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index includes U.S. treasury bills that have maturities of 3 months or less. Under normal circumstances, the fund will generally invest all, but at least 80% of its assets, plus the amount of any borrowings for investment purposes, in the bonds that make up the Target Index.
 longName	Vanguard 0-3 Month Treasury Bill ETF
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_1905582167
-navPrice	75.55
+navPrice	75.6
 netAssets	10091583500.0
 netExpenseRatio	0.06
-open	75.56
+open	75.6
 phone	800-523-1036
-postMarketChange	-0.010002136
-postMarketChangePercent	-0.013235591
-postMarketPrice	75.56
-postMarketTime	1786491965
-previousClose	75.55
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	75.61
+postMarketTime	1786751618
+previousClose	75.59
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0199966
-regularMarketChangePercent	0.0264681
-regularMarketDayHigh	75.57
-regularMarketDayLow	75.56
-regularMarketDayRange	75.56 - 75.57
-regularMarketOpen	75.56
-regularMarketPreviousClose	75.55
-regularMarketPrice	75.57
-regularMarketTime	1786478400
-regularMarketVolume	1885009
+regularMarketChange	0.0200043
+regularMarketChangePercent	0.0264642
+regularMarketDayHigh	75.61
+regularMarketDayLow	75.6
+regularMarketDayRange	75.6 - 75.61
+regularMarketOpen	75.6
+regularMarketPreviousClose	75.59
+regularMarketPrice	75.61
+regularMarketTime	1786737600
+regularMarketVolume	1570527
 shortName	Vanguard 0-3 Month Treasury Bil
 sourceInterval	15
 symbol	VBIL
@@ -86,10 +86,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.94013
 trailingThreeMonthReturns	0.94013
 triggerable	True
-twoHundredDayAverage	75.540924
-twoHundredDayAverageChange	0.029075623
-twoHundredDayAverageChangePercent	0.00038489894
+twoHundredDayAverage	75.54122
+twoHundredDayAverageChange	0.06877899
+twoHundredDayAverageChangePercent	0.0009104829
 typeDisp	ETF
-volume	1885009
+volume	1570527
 yield	0.036
 ytdReturn	2.1197

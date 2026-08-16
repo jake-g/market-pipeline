@@ -1,22 +1,22 @@
 Metric	Value
-52WeekChange	-0.38627452
-SandP52WeekChange	0.19895875
+52WeekChange	-0.32791877
+SandP52WeekChange	0.2072537
 address1	190 West Tasman Drive
 allTimeHigh	18.6
 allTimeLow	1.62
-ask	6.78
-askSize	13700
+ask	6.67
+askSize	18500
 auditRisk	4
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	38294140
-averageDailyVolume3Month	43273752
-averageVolume	43273752
-averageVolume10days	38294140
+averageDailyVolume10Day	52025380
+averageDailyVolume3Month	44342112
+averageVolume	44342112
+averageVolume10days	52025380
 beta	3.213
-bid	6.78
-bidSize	7700
+bid	6.64
+bidSize	68800
 boardRisk	8
-bookValue	2.421
+bookValue	2.458
 city	San Jose
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Adam D. Goldstein', 'age': 45, 'title': 'Founder, CEO & Chairman', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1500000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Priya  Gupta', 'age': 42, 'title': 'Acting CFO, Acting Principal Financial Officer & VP of Finance', 'yearBorn': 1983, 'fiscalYear': 2025, 'totalPay': 619677, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Thomas Paul Muniz', 'age': 40, 'title': 'Chief Technology Officer', 'yearBorn': 1985, 'fiscalYear': 2025, 'totalPay': 1064475, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eric  Lentell', 'age': 45, 'title': 'Chief Legal & Strategy Officer', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 825000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Harsh  Rungta', 'age': 42, 'title': 'Senior VP of Finance & Chief Accounting Officer', 'yearBorn': 1983, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kate  Kiewel', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Miles  Rogers', 'title': 'Senior VP & Head of Marketing', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Geoff  Bower', 'title': 'Chief Engineer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eric  Wright', 'title': 'Head of Certification', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Julien  Montousse', 'title': 'Head of Design', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	6.79
+currentPrice	6.62
 currentRatio	10.213
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	7.07
-dayLow	6.13
+dayHigh	7.29
+dayLow	6.49
 debtToEquity	6.557
 displayName	Archer Aviation
 earningsCallTimestampEnd	1786395600
@@ -38,37 +38,37 @@ earningsCallTimestampStart	1786395600
 earningsTimestamp	1786392000
 earningsTimestampEnd	1793908800
 earningsTimestampStart	1793908800
-ebitda	-914099968
+ebitda	-905800000
 ebitdaMargins	0.0
-enterpriseToEbitda	-4.262
-enterpriseToRevenue	564.644
-enterpriseValue	3896043008
+enterpriseToEbitda	-4.069
+enterpriseToRevenue	534.182
+enterpriseValue	3685857536
 epsCurrentYear	-0.95795
 epsForward	-0.80734
-epsTrailingTwelveMonths	-1.1
+epsTrailingTwelveMonths	-1.08
 esgPopulated	False
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	5.2296
-fiftyDayAverageChange	1.5604
-fiftyDayAverageChangePercent	0.29837847
-fiftyTwoWeekChangePercent	-38.627453
+fiftyDayAverage	5.2246
+fiftyDayAverageChange	1.3954
+fiftyDayAverageChangePercent	0.26708266
+fiftyTwoWeekChangePercent	-32.791878
 fiftyTwoWeekHigh	14.62
-fiftyTwoWeekHighChange	-7.83
-fiftyTwoWeekHighChangePercent	-0.5355677
+fiftyTwoWeekHighChange	-8.0
+fiftyTwoWeekHighChangePercent	-0.5471956
 fiftyTwoWeekLow	4.3
-fiftyTwoWeekLowChange	2.4899998
-fiftyTwoWeekLowChangePercent	0.5790697
+fiftyTwoWeekLowChange	2.3199997
+fiftyTwoWeekLowChangePercent	0.5395348
 fiftyTwoWeekRange	4.3 - 14.62
 financialCurrency	USD
 firstTradeDateMilliseconds	1608301800000
-floatShares	656432575
+floatShares	652995583
 forwardEps	-0.80734
-forwardPE	-8.410335
-freeCashflow	-462537504
+forwardPE	-8.199767
+freeCashflow	-376437504
 fullExchangeName	NYSE
 fullTimeEmployees	1160
 gmtOffSetMilliseconds	-14400000
@@ -76,8 +76,8 @@ governanceEpochDate	1785542400
 grossMargins	0.14493
 grossProfits	1000000
 hasPrePostMarketData	True
-heldPercentInsiders	0.14939
-heldPercentInstitutions	0.49869
+heldPercentInsiders	0.14736
+heldPercentInstitutions	0.50104
 impliedSharesOutstanding	770026800
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -88,48 +88,48 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Archer Aviation Inc., together with its subsidiaries, designs and develops aircraft and related technologies and services for commercial and defense sectors in the United States and internationally. The company offers electric vertical takeoff and landing (eVTOL) aircraft for urban air taxi operations. Archer Aviation Inc. is based in San Jose, California.
 longName	Archer Aviation Inc.
 market	us_market
-marketCap	5228482048
-marketState	POSTPOST
+marketCap	5097577472
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_681233855
 mostRecentQuarter	1782777600
 netIncomeToCommon	-799699968
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	4775534142
+nonDilutedMarketCap	5097577416
 numberOfAnalystOpinions	9
-open	6.23
+open	6.92
 operatingCashflow	-540400000
-operatingMargins	-55.84
+operatingMargins	-55.14
 overallRisk	9
 payoutRatio	0.0
 phone	650 272 3233
-postMarketChange	-0.009999752
-postMarketChangePercent	-0.14727175
-postMarketPrice	6.78
-postMarketTime	1786492775
-previousClose	6.26
-priceEpsCurrentYear	-7.0880527
+postMarketChange	0.035000324
+postMarketChangePercent	0.52870584
+postMarketPrice	6.655
+postMarketTime	1786751986
+previousClose	6.97
+priceEpsCurrentYear	-6.91059
 priceHint	2
-priceToBook	2.8046262
-priceToSalesTrailing12Months	757.75104
+priceToBook	2.6932466
+priceToSalesTrailing12Months	738.77936
 profitMargins	0.0
 quickRatio	9.675
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.88889
 region	US
-regularMarketChange	0.53
-regularMarketChangePercent	8.46645
-regularMarketDayHigh	7.07
-regularMarketDayLow	6.13
-regularMarketDayRange	6.13 - 7.07
-regularMarketOpen	6.23
-regularMarketPreviousClose	6.26
-regularMarketPrice	6.79
-regularMarketTime	1786478402
-regularMarketVolume	87198792
-returnOnAssets	-0.28314
+regularMarketChange	-0.35
+regularMarketChangePercent	-5.02152
+regularMarketDayHigh	7.29
+regularMarketDayLow	6.49
+regularMarketDayRange	6.49 - 7.29
+regularMarketOpen	6.92
+regularMarketPreviousClose	6.97
+regularMarketPrice	6.62
+regularMarketTime	1786737602
+regularMarketVolume	41517910
+returnOnAssets	-0.28133
 returnOnEquity	-0.44471002
 revenuePerShare	0.009
 sector	Industrials
@@ -152,19 +152,19 @@ targetLowPrice	4.5
 targetMeanPrice	10.61111
 targetMedianPrice	11.0
 totalCash	1560600064
-totalCashPerShare	1.996
+totalCashPerShare	2.027
 totalDebt	125600000
 totalRevenue	6900000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-1.1
+trailingEps	-1.08
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	6.78635
-twoHundredDayAverageChange	0.0036501884
-twoHundredDayAverageChangePercent	0.00053787214
+twoHundredDayAverage	6.6977
+twoHundredDayAverageChange	-0.07770014
+twoHundredDayAverageChangePercent	-0.011601018
 typeDisp	Equity
-volume	87198792
+volume	41517302
 website	https://www.archer.com
 zip	95134

@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	126198.07
 allTimeLow	171.51
-averageDailyVolume10Day	19138942160
-averageDailyVolume3Month	28385124157
-averageVolume	28385124157
-averageVolume10days	19138942160
+averageDailyVolume10Day	18163190495
+averageDailyVolume3Month	27535629826
+averageVolume	27535629826
+averageVolume10days	18163190495
 blockNumber	771565
 blockReward	6.25
 blockRewardReduction	50%
-circulatingSupply	20068960
+circulatingSupply	20071060
 coinImageUrl	https://s2.coinmarketcap.com/static/img/coins/64x64/1.png
 coinMarketCapLink	https://coinmarketcap.com/currencies/bitcoin
 companyOfficers	[]
@@ -18,23 +18,23 @@ currency	USD
 customPriceAlertConfidence	HIGH
 dayHigh	65713.91
 dayLow	64182.797
-description	Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 20,068,775. The last known price of Bitcoin is 63,883.87929953 USD and is down -1.31 over the last 24 hours. It is currently trading on 12694 active market(s) with $21,979,930,688.93 traded over the last 24 hours. More information can be found at https://bitcoin.org/.
+description	Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 20,070,950. The last known price of Bitcoin is 62,939.77636859 USD and is down -0.04 over the last 24 hours. It is currently trading on 12695 active market(s) with $8,502,906,823.54 traded over the last 24 hours. More information can be found at https://bitcoin.org/.
 esgPopulated	False
 exchange	CCC
 exchangeDataDelayedBy	0
 exchangeTimezoneName	UTC
 exchangeTimezoneShortName	UTC
 executiveTeam	[]
-fiftyDayAverage	63330.875
-fiftyDayAverageChange	401.54688
-fiftyDayAverageChangePercent	0.00634046
-fiftyTwoWeekChangePercent	-48.185112
+fiftyDayAverage	63510.938
+fiftyDayAverageChange	-442.6289
+fiftyDayAverageChangePercent	-0.0069693336
+fiftyTwoWeekChangePercent	-46.340847
 fiftyTwoWeekHigh	126198.07
-fiftyTwoWeekHighChange	-62465.65
-fiftyTwoWeekHighChangePercent	-0.49498102
+fiftyTwoWeekHighChange	-63129.76
+fiftyTwoWeekHighChangePercent	-0.5002435
 fiftyTwoWeekLow	57747.766
-fiftyTwoWeekLowChange	5984.6562
-fiftyTwoWeekLowChangePercent	0.103634425
+fiftyTwoWeekLowChange	5320.543
+fiftyTwoWeekLowChangePercent	0.09213418
 fiftyTwoWeekRange	57747.766 - 126198.07
 firstTradeDateMilliseconds	1410912000000
 fromCurrency	BTC
@@ -47,7 +47,7 @@ lastMarket	Coinbase
 logoUrl	https://s2.coinmarketcap.com/static/img/coins/64x64/1.png
 longName	Bitcoin USD
 market	ccc_market
-marketCap	1277980049408
+marketCap	1265876729856
 marketState	REGULAR
 maxAge	86400
 maxSupply	21000000
@@ -60,32 +60,32 @@ priceHint	2
 quoteSourceName	CoinMarketCap
 quoteType	CRYPTOCURRENCY
 region	US
-regularMarketChange	-342.28906
-regularMarketChangePercent	-0.53420305
-regularMarketDayHigh	63827.645
-regularMarketDayLow	63503.82
-regularMarketDayRange	63503.82 - 63827.645
-regularMarketOpen	63547.047
-regularMarketPreviousClose	63547.047
-regularMarketPrice	63732.42
-regularMarketTime	1786503670
-regularMarketVolume	21135273984
+regularMarketChange	44.25
+regularMarketChangePercent	0.070211284
+regularMarketDayHigh	63085.9
+regularMarketDayLow	62901.246
+regularMarketDayRange	62901.246 - 63085.9
+regularMarketOpen	63024.637
+regularMarketPreviousClose	63024.637
+regularMarketPrice	63068.31
+regularMarketTime	1786896473
+regularMarketVolume	8255481856
 shortName	Bitcoin USD
 sourceInterval	15
 startDate	1278979200
 symbol	BTC-USD
 toCurrency	USD=X
-totalSupply	20068960
+totalSupply	20071060
 tradeable	False
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	70002.19
-twoHundredDayAverageChange	-6269.7656
-twoHundredDayAverageChangePercent	-0.089565285
+twoHundredDayAverage	69371.19
+twoHundredDayAverageChange	-6302.879
+twoHundredDayAverageChangePercent	-0.090857305
 typeDisp	Cryptocurrency
 volume	25416081408
-volume24Hr	21135273984
+volume24Hr	8255481856
 volume24HrMarketCapPercent	0.019739863
-volumeAllCurrencies	21135273984
+volumeAllCurrencies	8255481856
 website	https://bitcoin.org/
 whitepaper	https://bitcoin.org/bitcoin.pdf

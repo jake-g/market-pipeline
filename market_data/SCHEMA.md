@@ -17,7 +17,7 @@ This report documents the file structures and column data types used in `market_
 | Column | Type | Example |
 |---|---|---|
 | Metric | str | 52WeekChange |
-| Value | str | 0.21245992 |
+| Value | str | 0.13460624 |
 
 ### `earnings.tsv` - Earnings Dates & Estimates
 | Column | Type | Example |
@@ -45,11 +45,11 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-08-12 |
+| Date | str | 2026-08-16 |
 | Source | str | Google |
 | Sentiment | float64 | 0.75 |
 | Headline | str | Amazon’s Best Back-to-School Deals Are Here: Sa... |
-| Summary | str | For years, Amazon led the market by offering fr... |
+| Summary | str | Analysts have been nudging up price targets for... |
 | URL | str | https://news.google.com/rss/articles/CBMigAFBVV... |
 
 ### `insider_trading.tsv` - Insider Trading Data
@@ -75,10 +75,10 @@ This report documents the file structures and column data types used in `market_
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 459.375 |
-| AIR_PPI | float64 | 202.358 |
-| TRUCK_PPI | float64 | 204.622 |
-| WAREHOUSE_PPI | float64 | 166.206 |
+| FREIGHT_PPI | float64 | 526.89 |
+| AIR_PPI | float64 | 178.234 |
+| TRUCK_PPI | float64 | 195.575 |
+| WAREHOUSE_PPI | float64 | 167.902 |
 | MFG_CONST | float64 | 172674.0 |
 | TECH_PULSE | float64 | 95.7495 |
 | CHINA_IMPORTS | float64 | 25149.9615 |
@@ -87,11 +87,11 @@ This report documents the file structures and column data types used in `market_
 | USD_CNY | float64 | 6.7474 |
 | USD_EUR | float64 | 1.1559 |
 | USD_JPY | float64 | 157.54 |
-| FOOD_CPI | float64 | 349.731 |
+| FOOD_CPI | float64 | 350.164 |
 | CORN_PRICE | float64 | 195.7819 |
 | WHEAT_PRICE | float64 | 199.6483 |
 | SUGAR_PRICE | float64 | 13.9077 |
-| WTI_CRUDE | float64 | 81.96 |
+| WTI_CRUDE | float64 | 84.77 |
 | NAT_GAS_PRICE | float64 | 3.2059 |
 | COPPER_PRICE | float64 | 13552.0409 |
 | ELECTRIC_POWER_INDEX | float64 | 115.4043 |
@@ -111,19 +111,19 @@ This report documents the file structures and column data types used in `market_
 | SAVINGS_RATE | float64 | 2.7 |
 | M2_MONEY | float64 | 23155.2 |
 | M2_VELOCITY | float64 | 1.412 |
-| FED_ASSETS | float64 | 6748567.0 |
-| CPI | float64 | 332.568 |
+| FED_ASSETS | float64 | 6759955.0 |
+| CPI | float64 | 332.813 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.25 |
-| US10Y | float64 | 4.72 |
-| US30Y | float64 | 5.25 |
-| HY_SPREAD | float64 | 2.7 |
-| CORP_SPREAD | float64 | 0.78 |
-| BAA_SPREAD | float64 | 1.62 |
-| AAA_SPREAD | float64 | 1.18 |
-| US_POLICY_UNCERTAINTY | float64 | 253.38 |
+| US02Y | float64 | 4.15 |
+| US10Y | float64 | 4.63 |
+| US30Y | float64 | 5.21 |
+| HY_SPREAD | float64 | 2.71 |
+| CORP_SPREAD | float64 | 0.79 |
+| BAA_SPREAD | float64 | 1.67 |
+| AAA_SPREAD | float64 | 1.22 |
+| US_POLICY_UNCERTAINTY | float64 | 219.75 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 338.8092 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
-| ST_LOUIS_FIN_STRESS | float64 | -0.5063 |
+| ST_LOUIS_FIN_STRESS | float64 | -0.7709 |
 | KANSAS_CITY_FIN_STRESS | float64 | -0.8483 |
 | CHICAGO_FED_ACTIVITY | float64 | -0.02 |
