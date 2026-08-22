@@ -1,23 +1,23 @@
 Metric	Value
-52WeekChange	0.9792361
-SandP52WeekChange	0.2072537
+52WeekChange	0.83533263
+SandP52WeekChange	0.19179821
 address1	620 8th Avenue
 address2	45th Floor
 allTimeHigh	292.72
 allTimeLow	27.55
-ask	270.83
+ask	247.52
 askSize	1
 auditRisk	7
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	6653450
-averageDailyVolume3Month	5317262
-averageVolume	5317262
-averageVolume10days	6653450
+averageDailyVolume10Day	4523540
+averageDailyVolume3Month	5168766
+averageVolume	5168766
+averageVolume10days	4523540
 beta	1.509
-bid	244.82
+bid	220.47
 bidSize	1
 boardRisk	10
-bookValue	11.208
+bookValue	12.166
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Olivier  Pomel', 'age': 48, 'title': 'Co-Founder, CEO & Director', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 1223534, 'exercisedValue': 166803520, 'unexercisedValue': 301150912}, {'maxAge': 1, 'name': 'Mr. Alexis  Le-Quoc', 'age': 50, 'title': 'Co-Founder, CTO & Director', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 1225774, 'exercisedValue': 203275696, 'unexercisedValue': 51665624}, {'maxAge': 1, 'name': 'Mr. David M. Obstler', 'age': 65, 'title': 'Chief Financial Officer', 'yearBorn': 1960, 'fiscalYear': 2025, 'totalPay': 1227294, 'exercisedValue': 13666125, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Adam  Blitzer', 'age': 44, 'title': 'Chief Operating Officer', 'yearBorn': 1981, 'fiscalYear': 2025, 'totalPay': 1225534, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sean Michael Walters', 'age': 53, 'title': 'Chief Revenue Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 856991, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kerry S. Acocella J.D.', 'age': 44, 'title': 'General Counsel & Secretary', 'yearBorn': 1981, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sara  Varni', 'title': 'Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David C. Galloreese', 'age': 45, 'title': 'Chief People Officer', 'yearBorn': 1980, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Emilio  Escobar', 'title': 'Chief Information Security Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Yanbing  Li Ph.D.', 'age': 54, 'title': 'Chief Product Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 893916, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	255.46
+currentPrice	235.62
 currentRatio	3.205
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	257.96
-dayLow	248.39
+dayHigh	236.31
+dayLow	228.81
 debtToEquity	29.259
-discount_to_intrinsic_value	-801.0
+discount_to_intrinsic_value	-776.15
 displayName	Datadog
 earningsCallTimestampEnd	1786017600
 earningsCallTimestampStart	1786017600
@@ -44,12 +44,12 @@ earningsTimestampEnd	1793881800
 earningsTimestampStart	1793881800
 ebitda	82897000
 ebitdaMargins	0.0209
-enterpriseToEbitda	1061.82
-enterpriseToRevenue	22.19
-enterpriseValue	88021671936
+enterpriseToEbitda	975.881
+enterpriseToRevenue	20.394
+enterpriseValue	80897622016
 epsCurrentYear	2.52724
-epsForward	2.96837
-epsTrailingTwelveMonths	0.51
+epsForward	2.96847
+epsTrailingTwelveMonths	0.49
 eps_normalized_growth	8.153584298663684
 esgPopulated	False
 exchange	NMS
@@ -57,33 +57,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	248.8088
-fiftyDayAverageChange	6.6511993
-fiftyDayAverageChangePercent	0.02673217
-fiftyTwoWeekChangePercent	97.923615
+fiftyDayAverage	249.4218
+fiftyDayAverageChange	-13.801804
+fiftyDayAverageChangePercent	-0.055335194
+fiftyTwoWeekChangePercent	83.533264
 fiftyTwoWeekHigh	292.72
-fiftyTwoWeekHighChange	-37.259995
-fiftyTwoWeekHighChangePercent	-0.12728886
+fiftyTwoWeekHighChange	-57.100006
+fiftyTwoWeekHighChangePercent	-0.19506697
 fiftyTwoWeekLow	98.01
-fiftyTwoWeekLowChange	157.45001
-fiftyTwoWeekLowChangePercent	1.6064688
+fiftyTwoWeekLowChange	137.60999
+fiftyTwoWeekLowChangePercent	1.4040402
 fiftyTwoWeekRange	98.01 - 292.72
 financialCurrency	USD
 firstTradeDateMilliseconds	1568899800000
-floatShares	332991814
-forwardEps	2.96837
-forwardPE	86.06071
+floatShares	333016950
+forwardEps	2.96847
+forwardPE	79.37422
 freeCashflow	1051412352
 fullExchangeName	NasdaqGS
 fullTimeEmployees	8100
+fulldayPrice	235.0204
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	28.35
+graham_intrinsic_value	26.89
 grossMargins	0.79536
 grossProfits	3154957056
 hasPrePostMarketData	True
-heldPercentInsiders	0.00637
-heldPercentInstitutions	0.9286
+heldPercentInsiders	0.00619
+heldPercentInstitutions	0.92804
 impliedSharesOutstanding	359075024
 industry	Software - Application
 industryDisp	Software - Application
@@ -94,31 +95,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally. The company's products comprise infrastructure and application performance monitoring, log management, observability pipelines, synthetics, real user monitoring, product analytics, continuous profiler, database monitoring, data observability, LLM observability, error tracking, network monitoring, incident response, workflow automation and App builder, event management, bits AI SRE, cloud cost management, cloud security, code security, cloud SIEM, threat management, sensitive data scanner, and CI visibility. Datadog, Inc. was incorporated in 2010 and is headquartered in New York, New York.
 longName	Datadog, Inc.
 market	us_market
-marketCap	91729305600
+marketCap	84605255680
 marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_134521275
 mostRecentQuarter	1782777600
 netIncomeToCommon	177584000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	91729305630
+nonDilutedMarketCap	84605257154
 numberOfAnalystOpinions	46
-open	252.62
+open	235.15
 operatingCashflow	1229033984
 operatingMargins	0.00666
 overallRisk	10
 payoutRatio	0.0
-pegRatio	1.57
+pegRatio	1.44
 phone	866 329 4466
-postMarketChange	-0.21000671
-postMarketChangePercent	-0.08220728
-postMarketPrice	255.25
-postMarketTime	1786751997
-previousClose	252.24
-priceEpsCurrentYear	101.0826
+postMarketChange	-0.5995941
+postMarketChangePercent	-0.25447506
+postMarketPrice	235.0204
+postMarketTime	1787356724
+previousClose	232.55
+priceEpsCurrentYear	93.23214
 priceHint	2
-priceToBook	22.792648
-priceToSalesTrailing12Months	23.124695
+priceToBook	19.367088
+priceToSalesTrailing12Months	21.328741
 profitMargins	0.044770002
 quickRatio	3.1
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +127,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.5
 region	US
-regularMarketChange	3.22
-regularMarketChangePercent	1.27656
-regularMarketDayHigh	257.96
-regularMarketDayLow	248.39
-regularMarketDayRange	248.39 - 257.96
-regularMarketOpen	252.62
-regularMarketPreviousClose	252.24
-regularMarketPrice	255.46
-regularMarketTime	1786737601
-regularMarketVolume	4366268
+regularMarketChange	3.06999
+regularMarketChangePercent	1.32014
+regularMarketDayHigh	236.31
+regularMarketDayLow	228.81
+regularMarketDayRange	228.81 - 236.31
+regularMarketOpen	235.15
+regularMarketPreviousClose	232.55
+regularMarketPrice	235.62
+regularMarketTime	1787342401
+regularMarketVolume	2721237
 returnOnAssets	0.0018000001
 returnOnEquity	0.04696
 revenueGrowth	0.356
@@ -166,14 +167,14 @@ totalRevenue	3966725120
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	0.51
-trailingPE	500.90198
-trailingPegRatio	1.5655
+trailingEps	0.49
+trailingPE	480.85712
+trailingPegRatio	1.4439
 triggerable	True
-twoHundredDayAverage	172.27028
-twoHundredDayAverageChange	83.18973
-twoHundredDayAverageChangePercent	0.48290238
+twoHundredDayAverage	174.26918
+twoHundredDayAverageChange	61.350815
+twoHundredDayAverageChangePercent	0.35204628
 typeDisp	Equity
-volume	4366268
+volume	2721237
 website	https://www.datadoghq.com
 zip	10018

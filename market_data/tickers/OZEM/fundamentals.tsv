@@ -3,10 +3,10 @@ allTimeHigh	37.15
 allTimeLow	20.01
 ask	41.71
 askSize	2
-averageDailyVolume10Day	21100
-averageDailyVolume3Month	23482
-averageVolume	23482
-averageVolume10days	21100
+averageDailyVolume10Day	19250
+averageDailyVolume3Month	23491
+averageVolume	23491
+averageVolume10days	19250
 beta3Year	0.0
 bid	23.33
 bidSize	2
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	33.32
-dayLow	32.91
+dayHigh	34.11
+dayLow	33.7665
 dividendYield	1.29
 epsTrailingTwelveMonths	2.2666068
 esgPopulated	False
@@ -26,19 +26,20 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	32.16094
-fiftyDayAverageChange	0.87156296
-fiftyDayAverageChangePercent	0.027100047
-fiftyTwoWeekChangePercent	28.683292
+fiftyDayAverage	32.49612
+fiftyDayAverageChange	1.3119812
+fiftyDayAverageChangePercent	0.04037347
+fiftyTwoWeekChangePercent	33.14954
 fiftyTwoWeekHigh	37.15
-fiftyTwoWeekHighChange	-4.1175003
-fiftyTwoWeekHighChangePercent	-0.11083446
-fiftyTwoWeekLow	25.02
-fiftyTwoWeekLowChange	8.012501
-fiftyTwoWeekLowChangePercent	0.32024384
-fiftyTwoWeekRange	25.02 - 37.15
+fiftyTwoWeekHighChange	-3.3418999
+fiftyTwoWeekHighChangePercent	-0.089956924
+fiftyTwoWeekLow	25.244
+fiftyTwoWeekLowChange	8.564102
+fiftyTwoWeekLowChangePercent	0.33925298
+fiftyTwoWeekRange	25.244 - 37.15
 firstTradeDateMilliseconds	1716298200000
 fullExchangeName	NasdaqGM
+fulldayPrice	33.99
 fundFamily	Roundhill Investments
 fundInceptionDate	1716163200
 gmtOffSetMilliseconds	-14400000
@@ -52,29 +53,29 @@ market	us_market
 marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_1876551011
-navPrice	32.9987
+navPrice	33.7224
 netAssets	61379960.0
 netExpenseRatio	0.59
-open	33.32
-postMarketChange	-0.04050064
-postMarketChangePercent	-0.12260846
-postMarketPrice	32.992
-postMarketTime	1786750450
-previousClose	33.4697
+open	33.93
+postMarketChange	0.18190002
+postMarketChangePercent	0.53803676
+postMarketPrice	33.99
+postMarketTime	1787356700
+previousClose	33.755
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.43719864
-regularMarketChangePercent	-1.3062521
-regularMarketDayHigh	33.32
-regularMarketDayLow	32.91
-regularMarketDayRange	32.91 - 33.32
-regularMarketOpen	33.32
-regularMarketPreviousClose	33.4697
-regularMarketPrice	33.0325
-regularMarketTime	1786737600
-regularMarketVolume	15180
+regularMarketChange	0.053100586
+regularMarketChangePercent	0.15731175
+regularMarketDayHigh	34.11
+regularMarketDayLow	33.7665
+regularMarketDayRange	33.7665 - 34.11
+regularMarketOpen	33.93
+regularMarketPreviousClose	33.755
+regularMarketPrice	33.8081
+regularMarketTime	1787342400
+regularMarketVolume	15278
 shortName	Roundhill GLP-1 & Weight Loss E
 sourceInterval	15
 symbol	OZEM
@@ -82,15 +83,15 @@ totalAssets	61379960
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	14.573547
+trailingPE	14.915733
 trailingPegRatio	None
 trailingThreeMonthNavReturns	2.60091
 trailingThreeMonthReturns	2.60091
 triggerable	True
-twoHundredDayAverage	32.564957
-twoHundredDayAverageChange	0.46754456
-twoHundredDayAverageChangePercent	0.014357291
+twoHundredDayAverage	32.69804
+twoHundredDayAverageChange	1.1100616
+twoHundredDayAverageChangePercent	0.033948876
 typeDisp	ETF
-volume	15180
+volume	15278
 yield	0.0128999995
 ytdReturn	-6.73386

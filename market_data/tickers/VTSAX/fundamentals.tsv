@@ -5,7 +5,7 @@ address3	Vanguard Index Funds
 allTimeHigh	187.05
 allTimeLow	16.43
 annualHoldingsTurnover	0.03
-annualReportExpenseRatio	0.0178
+annualReportExpenseRatio	0.0004
 averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
@@ -19,35 +19,36 @@ currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.9845
 dividendYield	1.05
-epsTrailingTwelveMonths	6.8342276
+epsTrailingTwelveMonths	7.254652
 esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	180.1422
-fiftyDayAverageChange	6.687805
-fiftyDayAverageChangePercent	0.037125144
-fiftyTwoWeekChangePercent	21.247328
+fiftyDayAverage	180.8488
+fiftyDayAverageChange	3.2911987
+fiftyDayAverageChangePercent	0.01819862
+fiftyTwoWeekChangePercent	19.470573
 fiftyTwoWeekHigh	187.05
-fiftyTwoWeekHighChange	-0.22000122
-fiftyTwoWeekHighChangePercent	-0.0011761626
+fiftyTwoWeekHighChange	-2.9100037
+fiftyTwoWeekHighChangePercent	-0.015557357
 fiftyTwoWeekLow	151.72
-fiftyTwoWeekLowChange	35.11
-fiftyTwoWeekLowChangePercent	0.23141313
+fiftyTwoWeekLowChange	32.42
+fiftyTwoWeekLowChangePercent	0.21368308
 fiftyTwoWeekRange	151.72 - 187.05
 financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
 fullExchangeName	Nasdaq
-fundInceptionDate	990662400
+fulldayPrice	184.14
+fundInceptionDate	1466985600
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	59.0
 lastDividendValue	0.9845
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the CRSP U.S. Total Market Index (the “Target Index”), which represents 100% of the investable U.S. stock market, as determined by the index provider. Under normal circumstances, the fund invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the target index.
-longName	Vanguard Morn Total Stk Mkt Idx Admiral
+longName	Vanguard MStar Total Stk Mkt Idx Admiral
 market	us_market
 marketCap	1445106810880
 marketState	CLOSED
@@ -56,19 +57,19 @@ messageBoardId	finmb_2011952823
 morningStarOverallRating	3
 morningStarRiskRating	4
 netAssets	2289978570000.0
-netExpenseRatio	1.78
+netExpenseRatio	0.04
 phone	800-523-1036
-previousClose	187.05
+previousClose	183.24
 priceHint	2
-priceToBook	1.3392256
+priceToBook	1.3199433
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-0.22
-regularMarketChangePercent	-0.11761561
-regularMarketPreviousClose	187.05
-regularMarketPrice	186.83
-regularMarketTime	1786752518
+regularMarketChange	0.9
+regularMarketChangePercent	0.49115914
+regularMarketPreviousClose	183.24
+regularMarketPrice	184.14
+regularMarketTime	1787357320
 sharesOutstanding	8468250112
 shortName	Vanguard Total Stock Market Ind
 sourceInterval	15
@@ -76,14 +77,14 @@ symbol	VTSAX
 totalAssets	2289978572800
 tradeable	False
 trailingAnnualDividendRate	2.802
-trailingAnnualDividendYield	0.014979952
-trailingPE	27.337399
+trailingAnnualDividendYield	0.015291421
+trailingPE	25.382334
 trailingPegRatio	None
 trailingThreeMonthReturns	4.2755
 triggerable	False
-twoHundredDayAverage	169.3357
-twoHundredDayAverageChange	17.494308
-twoHundredDayAverageChangePercent	0.103311405
+twoHundredDayAverage	169.85864
+twoHundredDayAverageChange	14.281357
+twoHundredDayAverageChangePercent	0.084077895
 typeDisp	Fund
 yield	0.0105
 ytdReturn	10.50125

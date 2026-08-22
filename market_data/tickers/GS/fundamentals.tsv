@@ -1,22 +1,22 @@
 Metric	Value
-52WeekChange	0.42199302
-SandP52WeekChange	0.2072537
+52WeekChange	0.40673268
+SandP52WeekChange	0.19179821
 address1	200 West Street
 allTimeHigh	1153.99
 allTimeLow	47.41
-ask	1038.5
-askSize	40
+ask	1039.25
+askSize	80
 auditRisk	6
 averageAnalystRating	2.6 - Hold
-averageDailyVolume10Day	1756480
-averageDailyVolume3Month	2149343
-averageVolume	2149343
-averageVolume10days	1756480
+averageDailyVolume10Day	1900480
+averageDailyVolume3Month	2146900
+averageVolume	2146900
+averageVolume10days	1900480
 beta	1.288
-bid	1034.0
-bidSize	80
+bid	1039.0
+bidSize	40
 boardRisk	9
-bookValue	366.451
+bookValue	362.049
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. David M. Solomon', 'age': 63, 'title': 'Chairman & CEO', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 13603719, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John E. Waldron', 'age': 55, 'title': 'President, COO & Director', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 16957886, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Denis P. Coleman III', 'age': 50, 'title': 'Chief Financial Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 11829259, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John F. W. Rogers', 'age': 68, 'title': 'Executive VP, Lead Director & Secretary to the Board of Directors', 'yearBorn': 1957, 'fiscalYear': 2025, 'totalPay': 8431660, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. J. D. Gardner', 'title': 'Director', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sheara J. Fredman', 'age': 49, 'title': 'Controller & Chief Accounting Officer', 'yearBorn': 1976, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Francois-Xavier  De Mallmann', 'title': 'Chair of Goldman Sachs EMEA & Chair of Investment Banking.', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Marco  Argenti', 'title': 'Partner & Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael J. Richman J.D.', 'title': 'Chief Compliance Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Bosworth', 'title': 'Acting General Counsel', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,14 +25,14 @@ corporateActions	[{'header': 'Dividend', 'message': 'GS announced a cash dividen
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	1039.42
+currentPrice	1039.28
 currentRatio	1.563
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	1043.74
-dayLow	1029.59
+dayHigh	1043.66
+dayLow	1008.854
 debtToEquity	725.381
-discount_to_intrinsic_value	71.13
+discount_to_intrinsic_value	70.75
 displayName	The Goldman Sachs
 dividendDate	1790640000
 dividendRate	20.0
@@ -46,10 +46,10 @@ earningsTimestampEnd	1791894600
 earningsTimestampStart	1791894600
 ebitdaMargins	0.0
 enterpriseToRevenue	1.026
-enterpriseValue	69343322112
+enterpriseValue	69300936704
 epsCurrentYear	70.72416
 epsForward	74.03244
-epsTrailingTwelveMonths	64.76
+epsTrailingTwelveMonths	64.75
 eps_normalized_growth	0.9502325013073663
 esgPopulated	False
 exDividendDate	1788220800
@@ -58,33 +58,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	1054.4788
-fiftyDayAverageChange	-15.058716
-fiftyDayAverageChangePercent	-0.01428072
-fiftyTwoWeekChangePercent	42.199303
+fiftyDayAverage	1053.3802
+fiftyDayAverageChange	-14.10022
+fiftyDayAverageChangePercent	-0.013385688
+fiftyTwoWeekChangePercent	40.673267
 fiftyTwoWeekHigh	1153.99
-fiftyTwoWeekHighChange	-114.56995
-fiftyTwoWeekHighChangePercent	-0.09928158
-fiftyTwoWeekLow	705.55
-fiftyTwoWeekLowChange	333.87006
-fiftyTwoWeekLowChangePercent	0.4732054
-fiftyTwoWeekRange	705.55 - 1153.99
+fiftyTwoWeekHighChange	-114.70996
+fiftyTwoWeekHighChangePercent	-0.099402905
+fiftyTwoWeekLow	721.16
+fiftyTwoWeekLowChange	318.12006
+fiftyTwoWeekLowChangePercent	0.44112274
+fiftyTwoWeekRange	721.16 - 1153.99
 financialCurrency	USD
 firstTradeDateMilliseconds	925824600000
 fiveYearAvgDividendYield	2.2
 floatShares	301084965
 forwardEps	74.03244
-forwardPE	14.040062
+forwardPE	14.038171
 fullExchangeName	NYSE
 fullTimeEmployees	46200
+fulldayPrice	1039.21
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	3600.26
+graham_intrinsic_value	3553.66
 grossMargins	0.82075995
 grossProfits	55459000320
 hasPrePostMarketData	True
 heldPercentInsiders	0.0055199997
-heldPercentInstitutions	0.76171
+heldPercentInstitutions	0.75934
 impliedSharesOutstanding	291171408
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -97,31 +98,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	The Goldman Sachs Group, Inc., a financial institution, provides a range of financial services for corporations, financial institutions, governments, and individuals in the Americas, Europe, the Middle East, Africa, and Asia. It operates through three segments: Global Banking & Markets, Asset & Wealth Management, and Platform Solutions. The Global Banking & Markets segment provides financial advisory services, including strategic advisory assignments related to mergers and acquisitions, divestitures, corporate defense activities, restructurings, and spin-offs; equity and debt underwriting of public offerings and private placements; relationship lending and acquisition financing; secured lending through structured credit and asset-backed lending, such as warehouse, residential and commercial mortgage, corporate, consumer, auto, and student loans; financing through securities purchased under agreements to resell; and commodity financing through structured transactions. This segment also offers client execution activities for cash and derivative instruments; credit and interest rate products; and provision of mortgages, currencies, commodities, and equities related products. Its Asset & Wealth Management segment manages assets across various classes, including equity, fixed income, hedge funds, credit funds, private equity, real estate, currencies, commodities, and asset allocation strategies; and provides customized investment advisory solutions, wealth advisory services, personalized financial planning, and private banking services, as well as invests in corporate equity, credit, real estate, and infrastructure assets. The Platform Solutions segment offers credit cards; and transaction banking and other services, such as deposit-taking, payment solutions, and other cash management services for corporate and institutional clients. The Goldman Sachs Group, Inc. was founded in 1869 and is headquartered in New York, New York.
 longName	The Goldman Sachs Group, Inc.
 market	us_market
-marketCap	302649376768
+marketCap	302608613376
 marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_398625
 mostRecentQuarter	1782777600
 netIncomeToCommon	19982000128
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	302649384903
+nonDilutedMarketCap	302608620906
 numberOfAnalystOpinions	20
-open	1040.91
+open	1015.99
 operatingCashflow	-39359000576
 operatingMargins	0.42176998
 overallRisk	10
 payoutRatio	0.2625
-pegRatio	1.48
+pegRatio	1.45
 phone	212 902 1000
-postMarketChange	-2.920044
-postMarketChangePercent	-0.28093013
-postMarketPrice	1036.5
-postMarketTime	1786751990
-previousClose	1042.63
-priceEpsCurrentYear	14.696817
+postMarketChange	-0.07006836
+postMarketChangePercent	-0.0067420094
+postMarketPrice	1039.21
+postMarketTime	1787356800
+previousClose	1001.95
+priceEpsCurrentYear	14.694838
 priceHint	2
-priceToBook	2.8364503
-priceToSalesTrailing12Months	4.4790497
+priceToBook	2.8705506
+priceToSalesTrailing12Months	4.4784465
 profitMargins	0.31039
 quickRatio	1.407
 quoteSourceName	Delayed Quote
@@ -129,16 +130,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.6
 region	US
-regularMarketChange	-3.20996
-regularMarketChangePercent	-0.307872
-regularMarketDayHigh	1043.74
-regularMarketDayLow	1029.59
-regularMarketDayRange	1029.59 - 1043.74
-regularMarketOpen	1040.91
-regularMarketPreviousClose	1042.63
-regularMarketPrice	1039.42
-regularMarketTime	1786737602
-regularMarketVolume	1588474
+regularMarketChange	37.33
+regularMarketChangePercent	3.72574
+regularMarketDayHigh	1043.66
+regularMarketDayLow	1008.854
+regularMarketDayRange	1008.854 - 1043.66
+regularMarketOpen	1015.99
+regularMarketPreviousClose	1001.95
+regularMarketPrice	1039.28
+regularMarketTime	1787342403
+regularMarketVolume	2536160
 returnOnAssets	0.010720001
 returnOnEquity	0.16902
 revenueGrowth	0.425
@@ -168,15 +169,15 @@ totalDebt	897484980224
 totalRevenue	67569999872
 tradeable	False
 trailingAnnualDividendRate	17.0
-trailingAnnualDividendYield	0.016304921
-trailingEps	64.76
-trailingPE	16.05034
-trailingPegRatio	1.475
+trailingAnnualDividendYield	0.016966915
+trailingEps	64.75
+trailingPE	16.050657
+trailingPegRatio	1.4748
 triggerable	True
-twoHundredDayAverage	930.2905
-twoHundredDayAverageChange	109.12952
-twoHundredDayAverageChangePercent	0.11730692
+twoHundredDayAverage	936.3628
+twoHundredDayAverageChange	102.91724
+twoHundredDayAverageChangePercent	0.10991171
 typeDisp	Equity
-volume	1588474
+volume	2536160
 website	https://www.goldmansachs.com
 zip	10282

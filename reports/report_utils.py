@@ -1092,20 +1092,21 @@ def format_recent_news_markdown(
     topics: Dict[str, str],
     market_data_dir: str,
     tickers: Optional[List[str]] = None,
-    max_items: int = 5,
+    max_items: int = 15,
+    max_per_source: int = 2,
     target_date: Optional[datetime.datetime] = None) -> str:
+  """Takes a dict of {topic_dir_name: Display Label} and/or a list of tickers,
+
+  aggregates, deduplicates via fuzzy matching, enforces per-source caps,
+  and returns a formatted Markdown string.
   """
-    Takes a dict of {topic_dir_name: Display Label} and/or a list of tickers,
-    aggregates, deduplicates via fuzzy matching, and returns a formatted Markdown string.
-    Prioritizes detailed summaries if available (like from Alpha Vantage).
-    """
   all_news = []
   tickers = tickers or []
 
   for topic, label in topics.items():
-    df = get_recent_news(topic.lower(), market_data_dir, end_date=target_date)
+    df = get_recent_news(topic, market_data_dir, end_date=target_date)
     if df.empty:
-      df = get_recent_news(topic, market_data_dir, end_date=target_date)
+      df = get_recent_news(topic.lower(), market_data_dir, end_date=target_date)
     if not df.empty:
       df['Source_Label'] = label
       if target_date:
@@ -1133,19 +1134,24 @@ def format_recent_news_markdown(
 
   news_items: List[str] = []
   seen_headlines: List[str] = []
+  source_counts: Dict[str, int] = {}
 
   for _, row in combined_df.iterrows():
     if not pd.notna(row['Date']) or not pd.notna(row['Headline']):
       continue
 
     headline = str(row['Headline']).strip()
+    label = str(row.get('Source_Label', 'News'))
+
+    if source_counts.get(label, 0) >= max_per_source:
+      continue
 
     # Check similarity
     if any(_is_similar(headline, seen) for seen in seen_headlines):
       continue
 
     seen_headlines.append(headline)
-    label = row.get('Source_Label', 'News')
+    source_counts[label] = source_counts.get(label, 0) + 1
 
     summary_text = ""
     if 'Summary' in row and pd.notna(row['Summary']) and len(
@@ -1177,7 +1183,7 @@ def format_recent_news_markdown(
       break
 
   if news_items:
-    return "\n".join(news_items) + "\\n\\n"
+    return "\n".join(news_items) + "\n\n"
   return ""
 
 

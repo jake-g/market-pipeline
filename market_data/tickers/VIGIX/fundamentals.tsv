@@ -19,27 +19,28 @@ currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.5309
 dividendYield	0.4
-epsTrailingTwelveMonths	7.86352
+epsTrailingTwelveMonths	8.623098
 esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	266.091
-fiftyDayAverageChange	9.898987
-fiftyDayAverageChangePercent	0.03720151
-fiftyTwoWeekChangePercent	16.030443
+fiftyDayAverage	266.6452
+fiftyDayAverageChange	3.5548096
+fiftyDayAverageChangePercent	0.013331609
+fiftyTwoWeekChangePercent	14.724863
 fiftyTwoWeekHigh	278.83
-fiftyTwoWeekHighChange	-2.8399963
-fiftyTwoWeekHighChangePercent	-0.010185405
+fiftyTwoWeekHighChange	-8.629974
+fiftyTwoWeekHighChangePercent	-0.030950667
 fiftyTwoWeekLow	216.18
-fiftyTwoWeekLowChange	59.809998
-fiftyTwoWeekLowChangePercent	0.2766676
+fiftyTwoWeekLowChange	54.02002
+fiftyTwoWeekLowChangePercent	0.24988446
 fiftyTwoWeekRange	216.18 - 278.83
 financialCurrency	USD
 firstTradeDateMilliseconds	895152600000
 fullExchangeName	Nasdaq
+fulldayPrice	270.2
 fundInceptionDate	1075075200
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
@@ -47,7 +48,7 @@ language	en-US
 lastCapGain	49.0
 lastDividendValue	0.5309
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the target index, a broadly diversified index made up of the growth stocks of large U.S. companies, as determined by the index provider. Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the target index.
-longName	Vanguard Morn Growth Index Institutional
+longName	Vanguard MStar Growth Indx Institutional
 market	us_market
 marketCap	210211520512
 marketState	CLOSED
@@ -58,17 +59,17 @@ morningStarRiskRating	3
 netAssets	371990364000.0
 netExpenseRatio	0.03
 phone	800-523-1036
-previousClose	277.13
+previousClose	269.11002
 priceHint	2
-priceToBook	1.279218
+priceToBook	1.2523813
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-1.14
-regularMarketChangePercent	-0.41135928
-regularMarketPreviousClose	277.13
-regularMarketPrice	275.99
-regularMarketTime	1786752518
+regularMarketChange	1.09
+regularMarketChangePercent	0.4050388
+regularMarketPreviousClose	269.11002
+regularMarketPrice	270.2
+regularMarketTime	1787357320
 sharesOutstanding	822456000
 shortName	Vanguard Index Trust - Growth I
 sourceInterval	15
@@ -76,14 +77,14 @@ symbol	VIGIX
 totalAssets	371990364160
 tradeable	False
 trailingAnnualDividendRate	1.54
-trailingAnnualDividendYield	0.0055569587
-trailingPE	35.09751
+trailingAnnualDividendYield	0.0057225665
+trailingPE	31.334446
 trailingPegRatio	None
 trailingThreeMonthReturns	2.5548
 triggerable	False
-twoHundredDayAverage	253.2296
-twoHundredDayAverageChange	22.760391
-twoHundredDayAverageChangePercent	0.08988045
+twoHundredDayAverage	253.5702
+twoHundredDayAverageChange	16.629807
+twoHundredDayAverageChangePercent	0.065582655
 typeDisp	Fund
 yield	0.004
 ytdReturn	5.00909

@@ -1,22 +1,22 @@
 Metric	Value
-52WeekChange	-0.1312691
-SandP52WeekChange	0.2072537
+52WeekChange	-0.15498072
+SandP52WeekChange	0.19179821
 address1	980 Rock Avenue
 allTimeHigh	122.9
 allTimeLow	0.363
-ask	39.91
-askSize	1
+ask	39.66
+askSize	2
 auditRisk	10
 averageAnalystRating	2.8 - Hold
-averageDailyVolume10Day	67730190
-averageDailyVolume3Month	58247087
-averageVolume	58247087
-averageVolume10days	67730190
+averageDailyVolume10Day	73323370
+averageDailyVolume3Month	59465874
+averageVolume	59465874
+averageVolume10days	73323370
 beta	1.967
-bid	38.0
+bid	34.26
 bidSize	2
 boardRisk	10
-bookValue	12.597
+bookValue	16.713
 city	San Jose
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Charles  Liang', 'age': 67, 'title': 'Founder, Chairman of the Board, President & CEO', 'yearBorn': 1958, 'fiscalYear': 2025, 'totalPay': 442, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Chiu-Chu  Liu Liang', 'age': 63, 'title': 'Co-Founder, Senior VP & Director', 'yearBorn': 1962, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David E. Weigand', 'age': 66, 'title': 'CFO, Company Secretary & Senior VP', 'yearBorn': 1959, 'fiscalYear': 2025, 'totalPay': 795016, 'exercisedValue': 0, 'unexercisedValue': 7947062}, {'maxAge': 1, 'name': 'Mr. Kenneth  Cheung', 'title': 'Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Yitai  Hu', 'title': 'SVP of Corporate Development & General Counsel', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. DeAnna  Luna', 'title': 'Acting Chief Compliance Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Shin-Chun  Hsu', 'age': 76, 'title': 'Sr. Chief Executive of Strategic Business', 'yearBorn': 1949, 'fiscalYear': 2025, 'totalPay': 306101, 'exercisedValue': 0, 'unexercisedValue': 825535}, {'maxAge': 1, 'name': 'Mr. Vik  Malyala', 'title': 'Chief Business Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael Thomas Staiger', 'title': 'Senior Vice President of Corporate Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jin  Xiao', 'age': 61, 'title': 'Senior Corporate Vice President of Engineering', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	39.84
+currentPrice	37.24
 currentRatio	3.872
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	40.6
-dayLow	38.73
+dayHigh	37.67
+dayLow	36.42
 debtToEquity	64.308
-discount_to_intrinsic_value	62.28
+discount_to_intrinsic_value	79.19
 displayName	Super Micro Computer
 earningsCallTimestampEnd	1786482000
 earningsCallTimestampStart	1786482000
@@ -43,12 +43,12 @@ earningsTimestampEnd	1793736000
 earningsTimestampStart	1793736000
 ebitda	2824158976
 ebitdaMargins	0.0723
-enterpriseToEbitda	10.785
-enterpriseToRevenue	0.78
-enterpriseValue	30457643008
+enterpriseToEbitda	10.22
+enterpriseToRevenue	0.739
+enterpriseValue	28862584832
 epsCurrentYear	4.3382
 epsForward	5.32592
-epsTrailingTwelveMonths	1.9
+epsTrailingTwelveMonths	3.26
 eps_normalized_growth	1.3398818369962706
 esgPopulated	False
 exchange	NMS
@@ -57,33 +57,34 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	408 503 8008
-fiftyDayAverage	30.812
-fiftyDayAverageChange	9.028
-fiftyDayAverageChangePercent	0.29300272
-fiftyTwoWeekChangePercent	-13.126909
+fiftyDayAverage	30.4834
+fiftyDayAverageChange	6.7566013
+fiftyDayAverageChangePercent	0.22164854
+fiftyTwoWeekChangePercent	-15.498072
 fiftyTwoWeekHigh	58.78
-fiftyTwoWeekHighChange	-18.939999
-fiftyTwoWeekHighChangePercent	-0.32221842
+fiftyTwoWeekHighChange	-21.539997
+fiftyTwoWeekHighChangePercent	-0.36645114
 fiftyTwoWeekLow	19.48
-fiftyTwoWeekLowChange	20.36
-fiftyTwoWeekLowChangePercent	1.0451746
+fiftyTwoWeekLowChange	17.760002
+fiftyTwoWeekLowChangePercent	0.9117044
 fiftyTwoWeekRange	19.48 - 58.78
 financialCurrency	USD
 firstTradeDateMilliseconds	1175175000000
-floatShares	519160835
+floatShares	519081082
 forwardEps	5.32592
-forwardPE	7.4803977
+forwardPE	6.9922194
 freeCashflow	-8231267840
 fullExchangeName	NasdaqGS
 fullTimeEmployees	6238
+fulldayPrice	37.23
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	105.63
+graham_intrinsic_value	178.92
 grossMargins	0.108219996
 grossProfits	4227250944
 hasPrePostMarketData	True
-heldPercentInsiders	0.12877
-heldPercentInstitutions	0.70475996
+heldPercentInsiders	0.12878999
+heldPercentInstitutions	0.70522004
 impliedSharesOutstanding	646873027
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -97,31 +98,31 @@ lastSplitFactor	10:1
 longBusinessSummary	Super Micro Computer, Inc., together with its subsidiaries, develops and sells server and storage solutions based on modular and open-standard architecture in the United States, Asia, Europe, and internationally. The company provides liquid and air-cooled AI servers for training and inferencing with integrated graphics processing units (GPUs) or PCIe based architectures; SuperBlade, MicroBlade, FlexTwin, GrandTwin, and BigTwin blade and multi-node systems; SuperStorage systems; Hyper, CloudDC, and WIO and rackmount systems; embedded (5G/IoT/Edge) systems; and MicroCloud server systems. It also offers workstations and networking devices; and modular server subsystems and accessories, including server boards, chassis, power supplies, and other accessories. In addition, the company provides remote system management solutions, such as Server Management suite comprising Supermicro Server Manager, Supermicro Power Management software, Supermicro Update Manager, SuperCloud Composer, and SuperDoctor 5. Further, the company identifies service requirements; creates and executes project plans; conducts verification testing; offers training; and provides technical documentation. Additionally, it offers rack level services from design to deployment for full rack and cluster level deployments of AI and HPC datacenters; help desk services and on-site product support; and warranties, maintenance, and technical support services. The company serves enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing markets through direct and indirect sales force, distributors, value-added resellers, system integrators, and original equipment manufacturers. Super Micro Computer, Inc. was incorporated in 1993 and is headquartered in San Jose, California.
 longName	Super Micro Computer, Inc.
 market	us_market
-marketCap	25771421696
+marketCap	24089552896
 marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_6479558
 mostRecentQuarter	1782777600
 netIncomeToCommon	2195842048
 nextFiscalYearEnd	1814313600
-nonDilutedMarketCap	25771421395
+nonDilutedMarketCap	24089551525
 numberOfAnalystOpinions	16
-open	39.14
+open	37.15
 operatingCashflow	-6809886208
 operatingMargins	0.13382
 overallRisk	10
 payoutRatio	0.0
 pegRatio	0.91
 phone	408 503 8000
-postMarketChange	0.060001373
-postMarketChangePercent	0.15060586
-postMarketPrice	39.9
-postMarketTime	1786751995
-previousClose	39.16
-priceEpsCurrentYear	9.183532
+postMarketChange	-0.010002136
+postMarketChangePercent	-0.026858581
+postMarketPrice	37.23
+postMarketTime	1787356799
+previousClose	36.5
+priceEpsCurrentYear	8.584206
 priceHint	2
-priceToBook	3.1626577
-priceToSalesTrailing12Months	0.6597387
+priceToBook	2.2282057
+priceToSalesTrailing12Months	0.6166835
 profitMargins	0.0571
 quickRatio	1.906
 quoteSourceName	Nasdaq Real Time Price
@@ -129,16 +130,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.84211
 region	US
-regularMarketChange	0.68
-regularMarketChangePercent	1.73647
-regularMarketDayHigh	40.6
-regularMarketDayLow	38.73
-regularMarketDayRange	38.73 - 40.6
-regularMarketOpen	39.14
-regularMarketPreviousClose	39.16
-regularMarketPrice	39.84
-regularMarketTime	1786737600
-regularMarketVolume	61388358
+regularMarketChange	0.740002
+regularMarketChangePercent	2.0274
+regularMarketDayHigh	37.67
+regularMarketDayLow	36.42
+regularMarketDayRange	36.42 - 37.67
+regularMarketOpen	37.15
+regularMarketPreviousClose	36.5
+regularMarketPrice	37.24
+regularMarketTime	1787342400
+regularMarketVolume	36214766
 returnOnAssets	0.07877
 returnOnEquity	0.21465999
 revenueGrowth	0.932
@@ -169,14 +170,14 @@ totalRevenue	39063072768
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	1.9
-trailingPE	20.968422
+trailingEps	3.26
+trailingPE	11.423313
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	31.8141
-twoHundredDayAverageChange	8.0259
-twoHundredDayAverageChangePercent	0.25227493
+twoHundredDayAverage	31.4535
+twoHundredDayAverageChange	5.786501
+twoHundredDayAverageChangePercent	0.18397002
 typeDisp	Equity
-volume	61388358
+volume	36214766
 website	https://www.supermicro.com
 zip	95131

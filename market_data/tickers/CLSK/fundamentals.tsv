@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.22865856
-SandP52WeekChange	0.2072537
+52WeekChange	0.26772487
+SandP52WeekChange	0.19179821
 address1	10624 S. Eastern Ave.
 address2	Suite A -638
 allTimeHigh	150.1
 allTimeLow	0.97
-ask	13.8
+ask	12.04
 askSize	1
 auditRisk	9
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	20824800
-averageDailyVolume3Month	23073853
-averageVolume	23073853
-averageVolume10days	20824800
+averageDailyVolume10Day	21503140
+averageDailyVolume3Month	22661872
+averageVolume	22661872
+averageVolume10days	21503140
 beta	3.886
-bid	12.08
+bid	10.0
 bidSize	1
 boardRisk	9
 bookValue	2.965
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	12.09
+currentPrice	11.98
 currentRatio	5.912
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	12.2
-dayLow	11.27
+dayHigh	13.34
+dayLow	11.725
 debtToEquity	234.725
 displayName	CleanSpark
 dividendDate	1576022400
@@ -42,9 +42,9 @@ earningsTimestampEnd	1786046400
 earningsTimestampStart	1786046400
 ebitda	-845747968
 ebitdaMargins	-1.2451301
-enterpriseToEbitda	-5.544
-enterpriseToRevenue	6.904
-enterpriseValue	4689213440
+enterpriseToEbitda	-5.511
+enterpriseToRevenue	6.862
+enterpriseValue	4660963328
 epsCurrentYear	-1.21
 epsForward	-1.41667
 epsTrailingTwelveMonths	-3.78
@@ -54,32 +54,33 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	14.388
-fiftyDayAverageChange	-2.2979994
-fiftyDayAverageChangePercent	-0.1597164
-fiftyTwoWeekChangePercent	22.865856
+fiftyDayAverage	14.0004
+fiftyDayAverageChange	-2.0204
+fiftyDayAverageChangePercent	-0.14431018
+fiftyTwoWeekChangePercent	26.772488
 fiftyTwoWeekHigh	23.61
-fiftyTwoWeekHighChange	-11.52
-fiftyTwoWeekHighChangePercent	-0.48792884
+fiftyTwoWeekHighChange	-11.630001
+fiftyTwoWeekHighChangePercent	-0.49258792
 fiftyTwoWeekLow	8.0
-fiftyTwoWeekLowChange	4.09
-fiftyTwoWeekLowChangePercent	0.51125
+fiftyTwoWeekLowChange	3.9799995
+fiftyTwoWeekLowChangePercent	0.49749994
 fiftyTwoWeekRange	8.0 - 23.61
 financialCurrency	USD
 firstTradeDateMilliseconds	1479306600000
-floatShares	247913225
+floatShares	247902952
 forwardEps	-1.41667
-forwardPE	-8.534098
+forwardPE	-8.45645
 freeCashflow	48898124
 fullExchangeName	NasdaqCM
 fullTimeEmployees	309
+fulldayPrice	12.0193
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
 grossMargins	0.46993
 grossProfits	319195008
 hasPrePostMarketData	True
-heldPercentInsiders	0.03499
-heldPercentInstitutions	0.99787
+heldPercentInsiders	0.03505
+heldPercentInstitutions	1.00605
 impliedSharesOutstanding	256817073
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -92,31 +93,31 @@ lastSplitFactor	1:10
 longBusinessSummary	CleanSpark, Inc. operates as a bitcoin mining company in the Americas. The company owns, leases, and operates data centers and power assets. Its infrastructure supports Bitcoin, a digital commodity. The company was formerly known as Stratean Inc. and changed its name to CleanSpark, Inc. in November 2016. CleanSpark, Inc. was incorporated in 1987 and is headquartered in Henderson, Nevada.
 longName	CleanSpark, Inc.
 market	us_market
-marketCap	3104918528
+marketCap	3076668416
 marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_50979342
 mostRecentQuarter	1782777600
 netIncomeToCommon	-1028217024
 nextFiscalYearEnd	1790726400
-nonDilutedMarketCap	3102350241
+nonDilutedMarketCap	3076668534
 numberOfAnalystOpinions	13
-open	11.315
+open	13.11
 operatingCashflow	-528705984
 operatingMargins	-1.65191
 overallRisk	10
 payoutRatio	0.0
 pegRatio	0.0
 phone	702 989 7692
-postMarketChange	-0.010000229
-postMarketChangePercent	-0.08271488
-postMarketPrice	12.08
-postMarketTime	1786751977
-previousClose	11.52
-priceEpsCurrentYear	-9.991735
+postMarketChange	0.03930092
+postMarketChangePercent	0.32805443
+postMarketPrice	12.0193
+postMarketTime	1787356793
+previousClose	12.6
+priceEpsCurrentYear	-9.9008255
 priceHint	2
-priceToBook	4.077572
-priceToSalesTrailing12Months	4.571125
+priceToBook	4.040472
+priceToSalesTrailing12Months	4.529535
 profitMargins	-1.46901
 quickRatio	1.339
 quoteSourceName	Nasdaq Real Time Price
@@ -124,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.30769
 region	US
-regularMarketChange	0.57
-regularMarketChangePercent	4.94791
-regularMarketDayHigh	12.2
-regularMarketDayLow	11.27
-regularMarketDayRange	11.27 - 12.2
-regularMarketOpen	11.315
-regularMarketPreviousClose	11.52
-regularMarketPrice	12.09
-regularMarketTime	1786737601
-regularMarketVolume	19668283
+regularMarketChange	-0.620001
+regularMarketChangePercent	-4.92064
+regularMarketDayHigh	13.34
+regularMarketDayLow	11.725
+regularMarketDayRange	11.725 - 13.34
+regularMarketOpen	13.11
+regularMarketPreviousClose	12.6
+regularMarketPrice	11.98
+regularMarketTime	1787342401
+regularMarketVolume	28020902
 returnOnAssets	-0.27724
 returnOnEquity	-0.68622
 revenueGrowth	-0.305
@@ -153,7 +154,7 @@ shortRatio	3.18
 sourceInterval	15
 state	NV
 symbol	CLSK
-syntheticPEG	0.2798064918032787
+syntheticPEG	0.2772606557377049
 targetHighPrice	27.0
 targetLowPrice	21.0
 targetMeanPrice	23.80769
@@ -168,10 +169,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-3.78
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	12.77415
-twoHundredDayAverageChange	-0.68414974
-twoHundredDayAverageChangePercent	-0.05355736
+twoHundredDayAverage	12.6213
+twoHundredDayAverageChange	-0.6413002
+twoHundredDayAverageChangePercent	-0.050810948
 typeDisp	Equity
-volume	19668283
+volume	28020902
 website	https://www.cleanspark.com
 zip	89052

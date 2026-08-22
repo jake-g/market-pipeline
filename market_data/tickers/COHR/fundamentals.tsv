@@ -1,22 +1,22 @@
 Metric	Value
-52WeekChange	2.6007295
-SandP52WeekChange	0.2072537
+52WeekChange	2.199116
+SandP52WeekChange	0.19179821
 address1	375 Saxonburg Boulevard
 allTimeHigh	440.0
 allTimeLow	0.101563
-ask	327.9
-askSize	160
+ask	289.36
+askSize	80
 auditRisk	5
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	8819910
-averageDailyVolume3Month	6005472
-averageVolume	6005472
-averageVolume10days	8819910
+averageDailyVolume10Day	8729200
+averageDailyVolume3Month	6185158
+averageVolume	6185158
+averageVolume10days	8729200
 beta	2.107
-bid	326.35
+bid	288.95
 bidSize	120
 boardRisk	4
-bookValue	54.601
+bookValue	55.7
 city	Saxonburg
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. James Robert Anderson', 'age': 53, 'title': 'CEO, President & Employee Director', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 3722935, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Julie Sheridan Eng', 'age': 58, 'title': 'Executive VP of Optical Components & CTO', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1221775, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Giovanni  Barbarossa Ph.D.', 'age': 65, 'title': 'Special Advisor to the Chief Executive Officer', 'yearBorn': 1960, 'fiscalYear': 2025, 'totalPay': 1632288, 'exercisedValue': 0, 'unexercisedValue': 2913882}, {'maxAge': 1, 'name': 'Mr. Paul Jonas Silverstein J.D.', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Cristina  Rodriguez', 'title': 'Executive Vice President of Communications', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Sanjai  Parthasarathi', 'title': 'Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Grace G. Lee', 'age': 57, 'title': 'Chief People Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Beck  Mason', 'title': 'Executive Vice President of Semiconductor Devices', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Lee  Xu', 'title': 'Executive Vice President of Datacenter', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Christopher  Dorman O.B.E.', 'title': 'Executive Vice President of Industrial', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	325.83
+currentPrice	289.52
 currentRatio	2.427
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	346.17
-dayLow	317.2701
+dayHigh	303.99
+dayLow	283.405
 debtToEquity	31.612
 displayName	Coherent
 earningsCallTimestampEnd	1786564800
@@ -42,11 +42,11 @@ earningsTimestampEnd	1793822400
 earningsTimestampStart	1793822400
 ebitda	1423416960
 ebitdaMargins	0.19996999
-enterpriseToEbitda	46.16
-enterpriseToRevenue	9.231
-enterpriseValue	65705373696
-epsCurrentYear	9.25528
-epsForward	13.93898
+enterpriseToEbitda	41.165
+enterpriseToRevenue	8.232
+enterpriseValue	58594705408
+epsCurrentYear	9.40614
+epsForward	13.94894
 epsTrailingTwelveMonths	4.11
 esgPopulated	False
 exchange	NYQ
@@ -54,33 +54,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	337.3112
-fiftyDayAverageChange	-11.481201
-fiftyDayAverageChangePercent	-0.034037415
-fiftyTwoWeekChangePercent	260.07294
+fiftyDayAverage	329.574
+fiftyDayAverageChange	-40.054016
+fiftyDayAverageChangePercent	-0.12153269
+fiftyTwoWeekChangePercent	219.9116
 fiftyTwoWeekHigh	440.0
-fiftyTwoWeekHighChange	-114.17001
-fiftyTwoWeekHighChangePercent	-0.25947732
-fiftyTwoWeekLow	84.35
-fiftyTwoWeekLowChange	241.47998
-fiftyTwoWeekLowChangePercent	2.8628333
-fiftyTwoWeekRange	84.35 - 440.0
+fiftyTwoWeekHighChange	-150.48001
+fiftyTwoWeekHighChangePercent	-0.34200004
+fiftyTwoWeekLow	85.94
+fiftyTwoWeekLowChange	203.57999
+fiftyTwoWeekLowChangePercent	2.3688617
+fiftyTwoWeekRange	85.94 - 440.0
 financialCurrency	USD
 firstTradeDateMilliseconds	560179800000
-floatShares	195090042
-forwardEps	13.93898
-forwardPE	23.375454
+floatShares	195093958
+forwardEps	13.94894
+forwardPE	20.755697
 freeCashflow	-649981632
 fullExchangeName	NYSE
 fullTimeEmployees	51478
+fulldayPrice	289.2
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
 grossMargins	0.37495998
 grossProfits	2669040128
 hasPrePostMarketData	True
-heldPercentInsiders	0.04445
-heldPercentInstitutions	0.8808
-impliedSharesOutstanding	195639321
+heldPercentInsiders	0.04439
+heldPercentInstitutions	0.87488
+impliedSharesOutstanding	195832246
 industry	Scientific & Technical Instruments
 industryDisp	Scientific & Technical Instruments
 industryKey	scientific-technical-instruments
@@ -90,36 +91,36 @@ language	en-US
 lastFiscalYearEnd	1782777600
 lastSplitDate	1309132800
 lastSplitFactor	2:1
-longBusinessSummary	Coherent Corp. develops, manufactures, and markets engineered materials, optoelectronic components and devices, and laser systems for the use in the industrial, communications, electronics, and instrumentation markets worldwide. It operates through three segments: Networking, Materials, and Lasers. The Networking segment offers transceivers, systems, subsystems, modules, components, optics, and semiconductor devices for datacenter and communications applications. The Materials segment provides engineered materials, laser optics, thermoelectric components, and advanced ceramic and metal-matrix composite materials and products; and vertical-cavity surface-emitting laser, edge-emitting laser, pump lasers, high-power lasers for materials processing, and integrated circuit. The Laser segment offers excimer lasers, solid-state lasers, CO2 lasers, and laser systems for various industrial applications, including semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research; and laser systems and subsystems. It markets its products and services through direct sales force, representatives, and distributors. The company was formerly known as II-VI Incorporated and changed its name to Coherent Corp. in September 2022. Coherent Corp. was incorporated in 1971 and is headquartered in Saxonburg, Pennsylvania.
+longBusinessSummary	Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passive optical components, optical line systems, and multi-rail platform. The company's Datacenter and Communications segment offers transceivers, co-packaged optics, and optical circuit switches, as well as other systems, such as subsystems, modules, and semiconductor devices for datacenter and communications applications; and VCSELS, EELS, pump lasers, and other components, optics, and ICs for datacenter and communication applications. Its Industrial segment offers excimer lasers, solid-state lasers, and CO2 lasers; laser systems for various industrial applications, including semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research; and laser systems and subsystems comprising high-power lasers for materials processing. This segment also provides engineered materials, laser optics, thermoelectric components, and advanced ceramic and metal-matrix composite materials and products. It markets its products and services through a direct sales force, representatives, and distributors. The company was formerly known as II-VI Incorporated and changed its name to Coherent Corp. in September 2022. Coherent Corp. was incorporated in 1971 and is headquartered in Saxonburg, Pennsylvania.
 longName	Coherent Corp.
 market	us_market
-marketCap	63745159168
+marketCap	56697348096
 marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_309779
 mostRecentQuarter	1782777600
-nameChangeDate	2026-08-16
+nameChangeDate	2026-08-22
 netIncomeToCommon	769896000
 nextFiscalYearEnd	1814313600
-nonDilutedMarketCap	63745159961
+nonDilutedMarketCap	56697351861
 numberOfAnalystOpinions	21
-open	328.58
+open	296.98
 operatingCashflow	79514000
 operatingMargins	0.118269995
 overallRisk	9
 payoutRatio	0.0
 pegRatio	0.92
 phone	724 352 4455
-postMarketChange	1.3200073
-postMarketChangePercent	0.4051215
-postMarketPrice	327.15
-postMarketTime	1786752000
+postMarketChange	-0.3199768
+postMarketChangePercent	-0.11051977
+postMarketPrice	289.2
+postMarketTime	1787356790
 prevName	II-VI Incorporated
-previousClose	327.23
-priceEpsCurrentYear	35.20477
+previousClose	290.03
+priceEpsCurrentYear	30.779892
 priceHint	2
-priceToBook	5.9674726
-priceToSalesTrailing12Months	8.95526
+priceToBook	5.1978455
+priceToSalesTrailing12Months	7.9651456
 profitMargins	0.11309
 quickRatio	1.168
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +128,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.63636
 region	US
-regularMarketChange	-1.40002
-regularMarketChangePercent	-0.427841
-regularMarketDayHigh	346.17
-regularMarketDayLow	317.2701
-regularMarketDayRange	317.2701 - 346.17
-regularMarketOpen	328.58
-regularMarketPreviousClose	327.23
-regularMarketPrice	325.83
-regularMarketTime	1786737602
-regularMarketVolume	8718490
+regularMarketChange	-0.51000977
+regularMarketChangePercent	-0.17584725
+regularMarketDayHigh	303.99
+regularMarketDayLow	283.405
+regularMarketDayRange	283.405 - 303.99
+regularMarketOpen	296.98
+regularMarketPreviousClose	290.03
+regularMarketPrice	289.52
+regularMarketTime	1787342403
+regularMarketVolume	5870401
 returnOnAssets	0.03393
 returnOnEquity	0.07981
 revenueGrowth	0.337
@@ -145,7 +146,7 @@ sector	Technology
 sectorDisp	Technology
 sectorKey	technology
 shareHolderRightsRisk	9
-sharesOutstanding	195639321
+sharesOutstanding	195832246
 sharesPercentSharesOut	0.0462
 sharesShort	9047021
 sharesShortPreviousMonthDate	1782777600
@@ -156,9 +157,9 @@ shortRatio	1.92
 sourceInterval	15
 state	PA
 symbol	COHR
-targetHighPrice	480.0
+targetHighPrice	500.0
 targetLowPrice	280.0
-targetMeanPrice	410.76
+targetMeanPrice	416.09348
 targetMedianPrice	420.0
 totalCash	1990018048
 totalCashPerShare	10.162
@@ -168,13 +169,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	4.11
-trailingPE	79.27737
+trailingPE	70.44282
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	265.55466
-twoHundredDayAverageChange	60.27533
-twoHundredDayAverageChangePercent	0.226979
+twoHundredDayAverage	269.83316
+twoHundredDayAverageChange	19.686829
+twoHundredDayAverageChangePercent	0.07295927
 typeDisp	Equity
-volume	8718490
+volume	5870401
 website	https://www.coherent.com
 zip	16056
