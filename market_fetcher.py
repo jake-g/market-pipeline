@@ -2446,6 +2446,14 @@ class MarketFetcher:
       f.write("\n".join(report))
     self.logger.info(f"Created {schema_file}")
 
+  def backup_reports(self) -> None:
+    """Creates a compressed ZIP archive of all reports into reports/backups/."""
+    try:
+      from reports.backup_reports import backup_all_reports
+      backup_all_reports()
+    except Exception as exc:
+      self.logger.warning("Failed to backup reports: %s", exc)
+
 
 def main():
   logging.basicConfig(
@@ -2564,7 +2572,13 @@ def main():
   t0 = time.time()
   fetcher.generate_data_schema()
   fetcher.generate_data_stats()
-  print(f"⏱️  [Stage 7/7] Schema & Stats generated in {int(time.time() - t0)}s")
+  print(f"⏱️  [Stage 7/8] Schema & Stats generated in {int(time.time() - t0)}s")
+
+  # 8. Report Backup Archive
+  t0 = time.time()
+  fetcher.backup_reports()
+  print(f"⏱️  [Stage 8/8] Reports Backup archived in {int(time.time() - t0)}s")
+
   print(
       f"🏁 Total Market Fetcher execution time: {int(time.time() - start_time)}s"
   )

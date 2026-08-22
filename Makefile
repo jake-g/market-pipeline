@@ -1,7 +1,7 @@
 # Makefile for market-pipeline
 # Handles setup, testing, formatting, serving, and other utility tasks.
 
-.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch market-fetch shipping-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth clean
+.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch market-fetch shipping-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth backup-reports clean
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
 export PYTHONSAFEPATH := 1
@@ -138,6 +138,7 @@ fetch:
 	$(MAKE) sync-news && \
 	$(MAKE) reports-periodic && \
 	$(MAKE) sync-reports && \
+	$(MAKE) backup-reports && \
 	$(MAKE) dashboard-build && \
 	echo "🖌️  Pass 1: Auto-formatting code and applying pre-commit fixes..." && \
 	($(MAKE) format || true) && \
@@ -199,6 +200,13 @@ dashboard-build: setup
 	@t_start=$$(date +%s); \
 	venv/bin/python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log; \
 	echo "⏱️  [Pipeline] Dashboard Build completed in $$(($$(date +%s)-t_start))s."
+
+# Backup all market intelligence reports to a protected ZIP archive
+backup-reports: setup
+	@echo "📦 Creating ZIP backup of all reports..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 reports/backup_reports.py 2>&1 | tee logs/backup_reports.log; \
+	echo "⏱️  [Pipeline] Reports Backup completed in $$(($$(date +%s)-t_start))s."
 
 # Run portfolio pipeline (LIVE mode)
 portfolio:
