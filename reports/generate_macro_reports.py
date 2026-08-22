@@ -201,18 +201,36 @@ def generate_macro_report() -> None:
     plt.savefig(corr_img_path, dpi=300)
     plt.close()
 
-    c_real = corr_df.unstack().dropna()
-    c_real = c_real[c_real < 0.999].drop_duplicates()
+    corr_unstacked = corr_df.unstack().dropna()
+    c_pairs = []
+    for pair_idx, corr_val in corr_unstacked.items():
+      if isinstance(pair_idx, tuple) and len(pair_idx) == 2:
+        try:
+          val_f = float(str(corr_val))
+          if val_f < 0.999:
+            c_pairs.append((str(pair_idx[0]), str(pair_idx[1]), val_f))
+        except (ValueError, TypeError):
+          pass
 
-    top_pos = c_real.nlargest(5)
-    top_neg = c_real.nsmallest(5)
+    # Deduplicate unordered pairs
+    seen_pairs = set()
+    dedup_pairs = []
+    for i1, i2, v in c_pairs:
+      canon = tuple(sorted([i1, i2]))
+      if canon not in seen_pairs:
+        seen_pairs.add(canon)
+        dedup_pairs.append((i1, i2, v))
+
+    dedup_pairs.sort(key=lambda x: x[2], reverse=True)
+    top_pos = dedup_pairs[:5]
+    top_neg = sorted(dedup_pairs, key=lambda x: x[2])[:5]
 
     corr_text = "### Top Positive Correlations\n"
-    for (i1, i2), val in top_pos.items():
+    for i1, i2, val in top_pos:
       corr_text += f"- **{i1}** & **{i2}**: `{val:.2f}`\n"
 
     corr_text += "\n### Top Inverse Correlations\n"
-    for (i1, i2), val in top_neg.items():
+    for i1, i2, val in top_neg:
       corr_text += f"- **{i1}** & **{i2}**: `{val:.2f}`\n"
   else:
     corr_text = "*Not enough data for correlation analysis.*"
@@ -299,7 +317,7 @@ def generate_macro_report() -> None:
                                       ascending=False).drop(columns=["_sort_z"])
 
   summary_md = tabulate(summary_df.values,
-                        headers=summary_df.columns,
+                        headers=list(summary_df.columns),
                         tablefmt="github")
 
   report_md = f"""# Macroeconomic Indicators
@@ -376,11 +394,11 @@ def generate_shipping_report() -> None:
   ax_bar.set_xlabel("Congestion (0.0 = Normal, 1.0 = Bottleneck)")
   ax_bar.grid(True, alpha=0.3)
 
-  for bar, vessels in zip(bars, latest_df["Vessel_Count"]):
-    width = bar.get_width()
+  for bar_patch, vessels in zip(bars, latest_df["Vessel_Count"]):
+    width = bar_patch.get_width()
     ax_bar.text(
         width + 0.02,
-        bar.get_y() + bar.get_height() / 2,
+        bar_patch.get_y() + bar_patch.get_height() / 2,
         f"{width:.2f} ({int(vessels)} vessels)",
         va="center",
         fontweight="bold",
@@ -468,7 +486,7 @@ def generate_shipping_report() -> None:
           macro_items, columns=["Metric", "Latest", "YoY Chg", "Date"])
       sm_summary_md = tabulate(
           sm_summary_df.values,
-          headers=sm_summary_df.columns,
+          headers=list(sm_summary_df.columns),
           tablefmt="github",
       )
 

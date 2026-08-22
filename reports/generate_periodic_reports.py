@@ -26,10 +26,30 @@ RENDERED_DIR = os.path.join(REPORTS_DIR, "rendered")
 
 
 def is_report_missing(filename: str) -> bool:
-  """Checks if the corresponding .pdf or .md file is missing from the reports structure."""
+  """Checks if the report already exists as a rendered PDF or markdown.
+
+  If the markdown exists but PDF is missing, it compiles the PDF locally
+  without making external NotebookLM API calls.
+  """
   pdf_path = os.path.join(RENDERED_DIR, filename.replace('.md', '.pdf'))
-  md_path = os.path.join(NEWS_DIR, filename)  # New location in reports/news/
-  return not (os.path.exists(pdf_path) and os.path.exists(md_path))
+  md_path = os.path.join(NEWS_DIR, filename)
+  md_path_root = os.path.join(REPORTS_DIR, filename)
+
+  if os.path.exists(pdf_path):
+    return False
+
+  for path in [md_path, md_path_root]:
+    if os.path.exists(path):
+      try:
+        from reports.report_utils import render_markdown_to_pdf
+        render_markdown_to_pdf(path)
+        logger.info(f"Rendered existing markdown locally: {path}")
+        return False
+      except Exception as e:
+        logger.warning(f"Could not render existing markdown {path}: {e}")
+        return False
+
+  return True
 
 
 def _run_report_with_retry(mode: str,
