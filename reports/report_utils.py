@@ -51,6 +51,41 @@ def clean_md(text: str) -> str:
 # ==========================================
 
 
+def compute_sector_summary(df: pd.DataFrame,
+                           sector_col: str = 'Sector') -> pd.DataFrame:
+  """Computes aggregate statistics per sector.
+
+  Args:
+    df: DataFrame with columns including 'Sector', 'RSI',
+        'Dist_to_200MA', 'Forward_PE', 'Sharpe_1Y',
+        'Volatility_20D'.
+    sector_col: Column name for sector grouping.
+
+  Returns:
+    DataFrame with sector-level mean/median metrics.
+  """
+  metric_cols = [
+      'RSI',
+      'Dist_to_200MA',
+      'Forward_PE',
+      'Sharpe_1Y',
+      'Volatility_20D',
+  ]
+  if df.empty or sector_col not in df.columns:
+    logger.warning("Cannot compute sector summary: missing data.")
+    return pd.DataFrame()
+  available = [c for c in metric_cols if c in df.columns]
+  if not available:
+    logger.warning("No metric columns found for sector summary.")
+    return pd.DataFrame()
+  summary = df.groupby(sector_col).agg(**{
+      f"Mean_{col}": pd.NamedAgg(column=col, aggfunc='mean') for col in available
+  })
+  summary['Ticker_Count'] = df.groupby(sector_col).size()
+  summary = summary.round(2)
+  return summary.sort_values('Ticker_Count', ascending=False)
+
+
 def compute_rsi(data: pd.Series, window: int = 14) -> pd.Series:
   """Calculates the Relative Strength Index (RSI) for a given pandas Series."""
   delta = data.diff()
@@ -321,6 +356,70 @@ def get_intrinsic_value_metrics(ticker: str,
 # ==========================================
 
 
+def generate_sector_risk_return_plot(
+    df: pd.DataFrame,
+    output_path: str,
+    sector_col: str = 'Sector',
+    title: str = 'Sector Risk-Return Profile') -> None:
+  """Plots sector-level Sharpe ratio vs volatility scatter.
+
+  Args:
+    df: DataFrame with Sector, Sharpe_1Y, Volatility_20D columns.
+    output_path: Path to save the plot.
+    sector_col: Column name for sector grouping.
+    title: Plot title.
+  """
+  required = {sector_col, 'Sharpe_1Y', 'Volatility_20D'}
+  if df.empty or not required.issubset(df.columns):
+    logger.warning("Missing columns for sector risk-return plot.")
+    return
+  plot_df = df.dropna(subset=['Sharpe_1Y', 'Volatility_20D']).copy()
+  if plot_df.empty:
+    return
+  sector_stats = plot_df.groupby(sector_col).agg(
+      mean_sharpe=('Sharpe_1Y', 'mean'),
+      mean_vol=('Volatility_20D', 'mean'),
+  ).reset_index()
+  if sector_stats.empty:
+    return
+
+  setup_plot_aesthetics()
+  os.makedirs(os.path.dirname(output_path), exist_ok=True)
+  fig, ax = plt.subplots(figsize=(10, 8))
+  palette = sns.color_palette('husl', n_colors=len(sector_stats))
+
+  for i, row in sector_stats.iterrows():
+    ax.scatter(row['mean_vol'],
+               row['mean_sharpe'],
+               color=palette[i],
+               s=120,
+               edgecolor='black',
+               zorder=3)
+    ax.annotate(row[sector_col], (row['mean_vol'], row['mean_sharpe']),
+                textcoords='offset points',
+                xytext=(8, 4),
+                fontsize=9,
+                fontweight='bold')
+
+  # Quadrant lines at mean-of-means.
+  vol_mean = sector_stats['mean_vol'].mean()
+  sharpe_mean = sector_stats['mean_sharpe'].mean()
+  ax.axhline(sharpe_mean,
+             color='gray',
+             linestyle='--',
+             linewidth=0.8,
+             alpha=0.6)
+  ax.axvline(vol_mean, color='gray', linestyle='--', linewidth=0.8, alpha=0.6)
+
+  ax.set_xlabel('Mean 20-Day Volatility (%)', fontsize=12)
+  ax.set_ylabel('Mean 1Y Sharpe Ratio', fontsize=12)
+  ax.set_title(title, fontweight='bold', fontsize=14)
+  plt.tight_layout()
+  plt.savefig(output_path, dpi=300)
+  plt.close()
+  logger.info("Saved sector risk-return plot to %s", output_path)
+
+
 def generate_screening_scatter(df: pd.DataFrame, output_path: str):
   """Generates the EPS Surprise vs. Intrinsic Value Discount scatter plot."""
   if df.empty or 'Discount_to_Intrinsic_Value_Pct' not in df or 'Last_EPS_Surprise_Pct' not in df:
@@ -553,6 +652,104 @@ def build_decision_tree(df: pd.DataFrame, out_path: str):
 # ==========================================
 # DATA PIPELINE INTEGRATION (I/O)
 # ==========================================
+
+
+def load_macro_snapshot(market_data_dir: str) -> Dict[str, Any]:
+  """Loads the latest macro economic indicators.
+
+  Reads economic_indicators.tsv and returns a dict of the most
+  recent non-NaN value for key indicators: FEDFUNDS, US10Y, US02Y,
+  CPI, UNRATE, HY_SPREAD, WTI_CRUDE, USD_INDEX, RECESSION_PROB,
+  UMICH_SENTIMENT, US_POLICY_UNCERTAINTY, GDP, M2_MONEY.
+
+  Args:
+    market_data_dir: Path to the market_data directory.
+
+  Returns:
+    Dict mapping indicator names to their latest values.
+  """
+  indicators = [
+      'FEDFUNDS',
+      'US10Y',
+      'US02Y',
+      'CPI',
+      'UNRATE',
+      'HY_SPREAD',
+      'WTI_CRUDE',
+      'USD_INDEX',
+      'RECESSION_PROB',
+      'UMICH_SENTIMENT',
+      'US_POLICY_UNCERTAINTY',
+      'GDP',
+      'M2_MONEY',
+  ]
+  tsv_path = os.path.join(market_data_dir, 'macro', 'economic_indicators.tsv')
+  if not os.path.exists(tsv_path):
+    logger.warning("Macro indicators file not found: %s", tsv_path)
+    return {}
+  try:
+    df = pd.read_csv(tsv_path, sep='\t', index_col='DATE', parse_dates=True)
+  except (pd.errors.ParserError, ValueError) as e:
+    logger.error("Failed to parse macro indicators: %s", e)
+    return {}
+  snapshot: Dict[str, Any] = {}
+  for col in indicators:
+    if col not in df.columns:
+      logger.debug("Indicator %s not in macro data.", col)
+      continue
+    series = pd.to_numeric(df[col], errors='coerce').dropna()
+    if series.empty:
+      continue
+    snapshot[col] = float(series.iloc[-1])
+  return snapshot
+
+
+def get_news_sentiment_summary(ticker: str,
+                               market_data_dir: str,
+                               days: int = 30) -> Dict[str, Any]:
+  """Computes aggregate news sentiment for a ticker.
+
+  Args:
+    ticker: Stock ticker symbol.
+    market_data_dir: Path to market_data directory.
+    days: Number of days of recent news to analyze.
+
+  Returns:
+    Dict with avg_sentiment, positive_count, negative_count,
+    neutral_count, and total_articles.
+  """
+  news_path = os.path.join(market_data_dir, 'tickers', ticker, 'news.tsv')
+  if not os.path.exists(news_path):
+    logger.warning("News file not found for %s: %s", ticker, news_path)
+    return {}
+  try:
+    df = pd.read_csv(news_path, sep='\t', parse_dates=['Date'])
+  except (pd.errors.ParserError, ValueError) as e:
+    logger.error("Failed to parse news for %s: %s", ticker, e)
+    return {}
+  if df.empty or 'Sentiment' not in df.columns:
+    return {}
+  cutoff = pd.Timestamp.now() - pd.Timedelta(days=days)
+  recent = df[df['Date'] >= cutoff].copy()
+  if recent.empty:
+    return {
+        'avg_sentiment': 0.0,
+        'positive_count': 0,
+        'negative_count': 0,
+        'neutral_count': 0,
+        'total_articles': 0,
+    }
+  sentiments = pd.to_numeric(recent['Sentiment'], errors='coerce').dropna()
+  positive = int((sentiments > 0.1).sum())
+  negative = int((sentiments < -0.1).sum())
+  neutral = int(len(sentiments) - positive - negative)
+  return {
+      'avg_sentiment': round(float(sentiments.mean()), 4),
+      'positive_count': positive,
+      'negative_count': negative,
+      'neutral_count': neutral,
+      'total_articles': len(sentiments),
+  }
 
 
 def generate_eps_surprise_scatter(df: pd.DataFrame, output_path: str):
@@ -1322,6 +1519,43 @@ def format_num(x, is_pct=False, is_signed=False, prefix="", default_nan="NaN"):
   if abs(x_val - round(x_val)) < 1e-6:
     return f"{prefix}{sign}{int(round(x_val))}{suffix}"
   return f"{prefix}{sign}{x_val:.2f}{suffix}"
+
+
+def format_macro_summary_md(macro: Dict[str, Any]) -> str:
+  """Formats macro snapshot dict into a markdown table.
+
+  Args:
+    macro: Dict from load_macro_snapshot().
+
+  Returns:
+    Formatted markdown string with a macro summary table.
+  """
+  if not macro:
+    return "No macro data available.\n"
+  display_names = {
+      'FEDFUNDS': 'Fed Funds Rate (%)',
+      'US10Y': '10Y Treasury (%)',
+      'US02Y': '2Y Treasury (%)',
+      'CPI': 'CPI Index',
+      'UNRATE': 'Unemployment Rate (%)',
+      'HY_SPREAD': 'HY Spread (bps)',
+      'WTI_CRUDE': 'WTI Crude ($/bbl)',
+      'USD_INDEX': 'USD Index',
+      'RECESSION_PROB': 'Recession Probability (%)',
+      'UMICH_SENTIMENT': 'UMich Sentiment',
+      'US_POLICY_UNCERTAINTY': 'Policy Uncertainty',
+      'GDP': 'GDP ($B)',
+      'M2_MONEY': 'M2 Money Supply ($B)',
+  }
+  lines = ['| Indicator | Value |', '|---|---|']
+  for key, value in macro.items():
+    label = display_names.get(key, key)
+    if isinstance(value, float):
+      formatted = f"{value:,.2f}"
+    else:
+      formatted = str(value)
+    lines.append(f"| {label} | {formatted} |")
+  return '\n'.join(lines) + '\n'
 
 
 # ==========================================

@@ -10,8 +10,8 @@ import logging
 import os
 import shutil
 import sys
-import zipfile
 from typing import List, Tuple
+import zipfile
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")

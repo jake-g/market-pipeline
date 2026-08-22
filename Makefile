@@ -56,12 +56,12 @@ format: setup
 # Run fast unit tests (fail-fast pre-flight)
 test-unit: setup
 	@echo "🧪 Running Fast Unit Tests..."
-	@venv/bin/python3 -m unittest market_fetcher_test.py portfolios.test_portfolio_pipeline
+	@venv/bin/python3 -m unittest market_fetcher_test.py portfolios.test_portfolio_pipeline reports.report_utils_test
 
 # Run tests
 test: format
 	@echo "🧪 Running Unit & Integration Tests..."
-	@venv/bin/python3 -m unittest market_fetcher_test.py
+	@venv/bin/python3 -m unittest market_fetcher_test.py reports.report_utils_test
 	@echo "📉 Running Market Fetcher Integration Test (Test Mode)..."
 	@venv/bin/python3 market_fetcher.py --limit-tickers 3 --limit-topics 2 --news-days 3 --news-limit 3 2>&1 | tee logs/run_market_fetcher_test.log
 	@echo "🧠 Running LSTM Backfill Integration Test..."
@@ -69,6 +69,7 @@ test: format
 	@echo "📝 Running NotebookLM Client Tests..."
 	@venv/bin/python3 reports/notebooklm_client.py 2>&1 | tee logs/test_notebooklm_client.log
 	@PYTHONPATH=$(CURDIR) venv/bin/python3 -m unittest reports/notebooklm_client_test.py
+	@PYTHONPATH=$(CURDIR) venv/bin/python3 -m unittest reports/report_utils_test.py
 	@echo "🌐 Generating static index.json for dashboard..."
 	@venv/bin/python3 market_dashboard_server.py --build 2>&1 | tee logs/generate_index.log
 	@echo "🖌️  Running final formatting verification..."
