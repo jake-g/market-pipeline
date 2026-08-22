@@ -25,6 +25,8 @@ TODO*.md
 
 # Reports & Personal Portfolio Data
 reports/*
+!reports/*.py
+!reports/*.sh
 !reports/news/
 !reports/news/rendered/
 !reports/news/rendered/*.png

@@ -83,13 +83,17 @@ SECTORS = {
         "NVDA", "AMD", "INTC", "TSM", "ASML", "MU", "MPWR", "AVGO", "SMH",
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
-        "STM", "TTDKY", "TTMI", "SOXX", "XSD", "SMHX", "MUZ"
+        "STM", "TTDKY", "TTMI", "SOXX", "XSD", "SMHX", "MUZ", "ALAB", "LITE",
+        "FN"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
         "CRM", "ADBE", "CSCO", "NOW", "RDDT", "IONQ", "PANW", "CRWD", "NET",
         "DELL", "HPE", "SMCI", "TTD", "VGT", "APP", "MNDY", "DDOG", "FTNT", "ZS",
-        "NBIS", "CRWV"
+        "NBIS", "CRWV", "MDB"
+    ],
+    "China & Intl AI": [
+        "BABA", "BIDU", "TCEHY", "PDD", "JD", "GDS", "VNET", "KWEB", "FXI"
     ],
     "Auto & Robot": [
         "TSLA", "TM", "F", "ACHR", "JOBY", "RIVN", "UBER", "SYM", "PATH",
@@ -99,7 +103,7 @@ SECTORS = {
         "XOM", "CVX", "CCJ", "NEE", "XLE", "FSLR", "SHEL", "TTE", "BP", "COP",
         "EOG", "SLB", "HAL", "URA", "D", "ES", "VST", "CEG", "CNP", "SO",
         "GE", "GEV", "ETN", "PWR", "LIN", "WM", "VDE", "FENY", "VPU", "FUTY",
-        "NLR", "ENPH", "FLNC", "KULR", "NXT"
+        "NLR", "ENPH", "FLNC", "KULR", "NXT", "TLN", "OKLO", "SMR"
     ],
     "Aerospace & Defense": [
         "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT", "RKLB", "SPCX"
@@ -111,7 +115,7 @@ SECTORS = {
     ],
     "Data Center & Infra": [
         "EQIX", "DLR", "AMT", "CCI", "VRT", "ANET", "IRM", "BX", "SCHH",
-        "MOD", "CORZ", "IREN", "WULF", "GLW"
+        "MOD", "CORZ", "IREN", "WULF", "GLW", "APLD", "CIFR"
     ],
     "Shipping & Logistics": [
         "ZIM", "FDX", "UPS", "MATX", "GSL", "DAC", "SBLK", "BDRY", "AMKBY",

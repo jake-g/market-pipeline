@@ -28,6 +28,11 @@ from market_fetcher import MarketFetcher
 
 logger = logging.getLogger(__name__)
 
+# Silence verbose third-party PDF rendering and font engine logs
+logging.getLogger("weasyprint").setLevel(logging.WARNING)
+logging.getLogger("weasyprint.progress").setLevel(logging.WARNING)
+logging.getLogger("fontTools").setLevel(logging.WARNING)
+
 # ==========================================
 # STRING & FORMATTING UTILITIES
 # ==========================================
