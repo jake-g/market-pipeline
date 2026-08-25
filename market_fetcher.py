@@ -409,7 +409,7 @@ SKIP_EARNINGS: List[str] = [
     # Sector & Thematic ETFs
     "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
     "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH", "CIBR", "PPH",
-    "SOXX", "XSD", "MUZ", "SPCX", "OZEM", "SMHX", "EWY",
+    "SOXX", "XSD", "MUZ", "SPCX", "OZEM", "SMHX", "EWY", "FXI", "KWEB",
 
 
     # Fixed Income & Preferred
@@ -430,7 +430,7 @@ SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     "AMKBY", # OTC/Foreign often lacks CIK mapping
     "PAVE", "ITA", "SMH", "URA", "XLE", "CIBR", "VIG", "VIS", "VYM", # Sector ETFs
     # Foreign / ADRs (No Form 4)
-    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TTE", "TTDKY", "ZIM",
+    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TCEHY", "TTE", "TTDKY", "ZIM",
     # Specific Corporate Exclusions (Missing/404 on SEC Edgar or no CIK mapping)
     # Note: Even with CIK overrides, some of these may fail depending on SEC database availability
     "ALB", "AMGN", "AWK", "BSX", "CORZ", "CWCO", "DD", "ESLT", "FLNC", "FRO",
