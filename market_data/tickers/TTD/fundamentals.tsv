@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.74832916
-SandP52WeekChange	0.19179821
+52WeekChange	-0.7458828
+SandP52WeekChange	0.1835649
 address1	42 North Chestnut Street
 allTimeHigh	141.53
 allTimeLow	2.2
@@ -8,10 +8,10 @@ ask	20.12
 askSize	1
 auditRisk	10
 averageAnalystRating	3.1 - Hold
-averageDailyVolume10Day	25016460
-averageDailyVolume3Month	22683966
-averageVolume	22683966
-averageVolume10days	25016460
+averageDailyVolume10Day	20751960
+averageDailyVolume3Month	22558052
+averageVolume	22558052
+averageVolume10days	20751960
 beta	1.037
 bid	17.68
 bidSize	2
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	13.18
+currentPrice	13.25
 currentRatio	1.724
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	13.37
-dayLow	13.14
+dayHigh	13.39
+dayLow	13.0801
 debtToEquity	16.863
-discount_to_intrinsic_value	-96.76
+discount_to_intrinsic_value	-98.23
 displayName	The Trade Desk
 earningsCallTimestampEnd	1786050000
 earningsCallTimestampStart	1786050000
@@ -43,9 +43,9 @@ earningsTimestampEnd	1793908800
 earningsTimestampStart	1793908800
 ebitda	697982016
 ebitdaMargins	0.23343
-enterpriseToEbitda	7.367
-enterpriseToRevenue	1.72
-enterpriseValue	5141797888
+enterpriseToEbitda	7.427
+enterpriseToRevenue	1.734
+enterpriseValue	5184087040
 epsCurrentYear	1.16099
 epsForward	0.99533
 epsTrailingTwelveMonths	0.84
@@ -56,34 +56,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	17.4976
-fiftyDayAverageChange	-4.3176003
-fiftyDayAverageChangePercent	-0.24675384
-fiftyTwoWeekChangePercent	-74.83292
+fiftyDayAverage	17.385
+fiftyDayAverageChange	-4.135
+fiftyDayAverageChangePercent	-0.23784873
+fiftyTwoWeekChangePercent	-74.58828
 fiftyTwoWeekHigh	56.39
-fiftyTwoWeekHighChange	-43.21
-fiftyTwoWeekHighChangePercent	-0.7662706
+fiftyTwoWeekHighChange	-43.14
+fiftyTwoWeekHighChangePercent	-0.76502925
 fiftyTwoWeekLow	12.83
-fiftyTwoWeekLowChange	0.35000038
-fiftyTwoWeekLowChangePercent	0.027279843
+fiftyTwoWeekLowChange	0.42000008
+fiftyTwoWeekLowChangePercent	0.03273578
 fiftyTwoWeekRange	12.83 - 56.39
 financialCurrency	USD
 firstTradeDateMilliseconds	1474464600000
 floatShares	417831565
 forwardEps	0.99533
-forwardPE	13.24184
+forwardPE	13.312168
 freeCashflow	582992768
 fullExchangeName	NasdaqGM
 fullTimeEmployees	3843
-fulldayPrice	13.21
+fulldayChange	-0.07000065
+fulldayChangePercent	-0.5275105
+fulldayPrice	13.2
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	6.7
+graham_intrinsic_value	6.68
 grossMargins	0.76872003
 grossProfits	2298586880
 hasPrePostMarketData	True
 heldPercentInsiders	0.022869999
-heldPercentInstitutions	0.89624
+heldPercentInstitutions	0.8958
 impliedSharesOutstanding	469880194
 industry	Advertising Agencies
 industryDisp	Advertising Agencies
@@ -96,31 +98,31 @@ lastSplitFactor	10:1
 longBusinessSummary	The Trade Desk, Inc. operates as a technology company in the United States and internationally. The company creates, manages, and optimizes digital advertising campaigns across ad formats, channels and devices, including CTV and other video, display, audio, and native, on a multitude of devices, such televisions, streaming devices, mobile devices, computers and digital-out-of-home devices. It provides data and other value-added services. It serves advertising agencies, advertisers, and other service providers for agencies or advertisers. The Trade Desk, Inc. was incorporated in 2009 and is headquartered in Ventura, California.
 longName	The Trade Desk, Inc.
 market	us_market
-marketCap	6193020928
-marketState	CLOSED
+marketCap	6225912320
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_99942756
 mostRecentQuarter	1782777600
 netIncomeToCommon	406888000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	6193020956
+nonDilutedMarketCap	6235310173
 numberOfAnalystOpinions	30
-open	13.33
+open	13.0801
 operatingCashflow	1081673984
 operatingMargins	0.14205
 overallRisk	10
 payoutRatio	0.0
 pegRatio	1.12
 phone	805 585 3434
-postMarketChange	0.029999733
-postMarketChangePercent	0.22761557
-postMarketPrice	13.21
-postMarketTime	1787356792
-previousClose	13.32
-priceEpsCurrentYear	11.352381
+postMarketChange	-0.05000019
+postMarketChangePercent	-0.37735993
+postMarketPrice	13.2
+postMarketTime	1787697337
+previousClose	13.27
+priceEpsCurrentYear	11.412674
 priceHint	2
-priceToBook	2.5302362
-priceToSalesTrailing12Months	2.0711489
+priceToBook	2.5436745
+priceToSalesTrailing12Months	2.0821488
 profitMargins	0.13608
 quickRatio	1.677
 quoteSourceName	Nasdaq Real Time Price
@@ -128,16 +130,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.11111
 region	US
-regularMarketChange	-0.139999
-regularMarketChangePercent	-1.05105
-regularMarketDayHigh	13.37
-regularMarketDayLow	13.14
-regularMarketDayRange	13.14 - 13.37
-regularMarketOpen	13.33
-regularMarketPreviousClose	13.32
-regularMarketPrice	13.18
-regularMarketTime	1787342400
-regularMarketVolume	12322451
+regularMarketChange	-0.020000458
+regularMarketChangePercent	-0.15071934
+regularMarketDayHigh	13.39
+regularMarketDayLow	13.0801
+regularMarketDayRange	13.0801 - 13.39
+regularMarketOpen	13.0801
+regularMarketPreviousClose	13.27
+regularMarketPrice	13.25
+regularMarketTime	1787688000
+regularMarketVolume	11008115
 returnOnAssets	0.06252
 returnOnEquity	0.15441
 revenueGrowth	0.03
@@ -169,13 +171,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.84
-trailingPE	15.690477
-trailingPegRatio	1.1188
+trailingPE	15.77381
+trailingPegRatio	1.1264
 triggerable	True
-twoHundredDayAverage	26.542175
-twoHundredDayAverageChange	-13.362175
-twoHundredDayAverageChangePercent	-0.5034318
+twoHundredDayAverage	26.372326
+twoHundredDayAverageChange	-13.122326
+twoHundredDayAverageChangePercent	-0.4975794
 typeDisp	Equity
-volume	12322451
+volume	11008115
 website	https://www.thetradedesk.com
 zip	93001

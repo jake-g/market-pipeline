@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.49322283
-SandP52WeekChange	0.19179821
+52WeekChange	0.46092033
+SandP52WeekChange	0.1835649
 address1	3855 Ambrosia Street
 address2	Suite 301
 allTimeHigh	79.5
 allTimeLow	0.511
-ask	40.0
-askSize	5
+ask	22.5
+askSize	1
 auditRisk	7
 averageAnalystRating	1.4 - Strong Buy
-averageDailyVolume10Day	27971510
-averageDailyVolume3Month	18865475
-averageVolume	18865475
-averageVolume10days	27971510
+averageDailyVolume10Day	27420150
+averageDailyVolume3Month	18810139
+averageVolume	18810139
+averageVolume10days	27420150
 beta	3.853
-bid	18.0
-bidSize	2
+bid	20.5
+bidSize	3
 boardRisk	6
 bookValue	5.8
 city	Castle Rock
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	19.83
+currentPrice	21.3
 currentRatio	1.585
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	22.2
-dayLow	19.56
+dayHigh	21.6
+dayLow	19.57
 debtToEquity	40.034
 displayName	Riot Platforms
 dividendDate	1508284800
@@ -42,9 +42,9 @@ earningsTimestampEnd	1793304000
 earningsTimestampStart	1793304000
 ebitda	-898936000
 ebitdaMargins	-1.33272
-enterpriseToEbitda	-8.73
-enterpriseToRevenue	11.635
-enterpriseValue	7847796736
+enterpriseToEbitda	-8.801
+enterpriseToRevenue	11.729
+enterpriseValue	7911590912
 epsCurrentYear	-1.42712
 epsForward	-0.93509
 epsTrailingTwelveMonths	-3.84
@@ -55,33 +55,35 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	22.579
-fiftyDayAverageChange	-2.7490005
-fiftyDayAverageChangePercent	-0.12175032
-fiftyTwoWeekChangePercent	49.322285
+fiftyDayAverage	22.4562
+fiftyDayAverageChange	-1.1562004
+fiftyDayAverageChangePercent	-0.051486913
+fiftyTwoWeekChangePercent	46.092033
 fiftyTwoWeekHigh	30.32
-fiftyTwoWeekHighChange	-10.49
-fiftyTwoWeekHighChangePercent	-0.34597626
+fiftyTwoWeekHighChange	-9.02
+fiftyTwoWeekHighChangePercent	-0.29749343
 fiftyTwoWeekLow	11.5
-fiftyTwoWeekLowChange	8.33
-fiftyTwoWeekLowChangePercent	0.72434783
+fiftyTwoWeekLowChange	9.799999
+fiftyTwoWeekLowChangePercent	0.85217386
 fiftyTwoWeekRange	11.5 - 30.32
 financialCurrency	USD
 firstTradeDateMilliseconds	1459431000000
 floatShares	349140913
 forwardEps	-0.93509
-forwardPE	-21.206514
+forwardPE	-22.778555
 freeCashflow	-718855744
 fullExchangeName	NasdaqCM
 fullTimeEmployees	816
-fulldayPrice	19.92
+fulldayChange	1.2999992
+fulldayChangePercent	6.499996
+fulldayPrice	21.3
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
 grossMargins	0.28257
 grossProfits	190596992
 hasPrePostMarketData	True
 heldPercentInsiders	0.06843
-heldPercentInstitutions	0.87552
+heldPercentInstitutions	0.87407994
 impliedSharesOutstanding	375258935
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -94,32 +96,32 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Riot Platforms, Inc., together with its subsidiaries, operates as a Bitcoin mining company in the United States. It operates in two segments, Bitcoin Mining and Engineering. The company offers comprehensive and critical infrastructure for bitcoin mining and data center services at its facilities. The company also designs and manufactures power distribution equipment and engineered-to-order electrical products; and electricity distribution product design, manufacturing, and installation services for large-scale industrial and governmental customers, as well as data center, power generation, utility, water, industrial, and alternative energy markets. The company was founded in 2000 and is based in Castle Rock, Colorado.
 longName	Riot Platforms, Inc.
 market	us_market
-marketCap	7441384960
-marketState	CLOSED
+marketCap	7993015296
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_1532998
 mostRecentQuarter	1782777600
-nameChangeDate	2026-08-22
+nameChangeDate	2026-08-25
 netIncomeToCommon	-1323915008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	7441384681
+nonDilutedMarketCap	7505178700
 numberOfAnalystOpinions	21
-open	21.65
+open	19.86
 operatingCashflow	-492329984
 operatingMargins	-1.22334
 overallRisk	5
 payoutRatio	0.0
 phone	303 794 2000
-postMarketChange	0.09000015
-postMarketChangePercent	0.45385855
-postMarketPrice	19.92
-postMarketTime	1787356799
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	21.3
+postMarketTime	1787697065
 prevName	Riot Blockchain, Inc.
-previousClose	20.98
-priceEpsCurrentYear	-13.895118
+previousClose	20.0
+priceEpsCurrentYear	-14.925163
 priceHint	2
-priceToBook	3.4189653
-priceToSalesTrailing12Months	11.032217
+priceToBook	3.6724136
+priceToSalesTrailing12Months	11.850037
 profitMargins	-1.96277
 quickRatio	1.166
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.42857
 region	US
-regularMarketChange	-1.15
-regularMarketChangePercent	-5.48141
-regularMarketDayHigh	22.2
-regularMarketDayLow	19.56
-regularMarketDayRange	19.56 - 22.2
-regularMarketOpen	21.65
-regularMarketPreviousClose	20.98
-regularMarketPrice	19.83
-regularMarketTime	1787342400
-regularMarketVolume	27244096
+regularMarketChange	1.2999992
+regularMarketChangePercent	6.499996
+regularMarketDayHigh	21.6
+regularMarketDayLow	19.57
+regularMarketDayRange	19.57 - 21.6
+regularMarketOpen	19.86
+regularMarketPreviousClose	20.0
+regularMarketPrice	21.3
+regularMarketTime	1787688000
+regularMarketVolume	16544257
 returnOnAssets	-0.21197
 returnOnEquity	-0.48243
 revenueGrowth	0.139
@@ -156,7 +158,7 @@ shortRatio	2.9
 sourceInterval	15
 state	CO
 symbol	RIOT
-syntheticPEG	-1.5256484892086328
+syntheticPEG	-1.6387449640287768
 targetHighPrice	45.0
 targetLowPrice	22.0
 targetMeanPrice	32.40286
@@ -172,10 +174,10 @@ trailingEps	-3.84
 trailingPE	27.258846
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	18.471926
-twoHundredDayAverageChange	1.3580742
-twoHundredDayAverageChangePercent	0.07352099
+twoHundredDayAverage	18.47555
+twoHundredDayAverageChange	2.8244495
+twoHundredDayAverageChangePercent	0.15287499
 typeDisp	Equity
-volume	27244096
+volume	16544257
 website	https://www.riotplatforms.com
 zip	80109

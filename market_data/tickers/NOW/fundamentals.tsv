@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.2699502
-SandP52WeekChange	0.19179821
+52WeekChange	-0.25953555
+SandP52WeekChange	0.1835649
 address1	2225 Lawson Lane
 allTimeHigh	239.618
 allTimeLow	4.524
-ask	128.15
-askSize	300
+ask	125.15
+askSize	200
 auditRisk	2
 averageAnalystRating	1.4 - Strong Buy
-averageDailyVolume10Day	17094520
-averageDailyVolume3Month	25500420
-averageVolume	25500420
-averageVolume10days	17094520
+averageDailyVolume10Day	16271430
+averageDailyVolume3Month	25238274
+averageVolume	25238274
+averageVolume10days	16271430
 beta	0.93
-bid	127.7
-bidSize	500
+bid	125.15
+bidSize	700
 boardRisk	9
 bookValue	12.106
 city	Santa Clara
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	128.48
+currentPrice	127.0
 currentRatio	0.701
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	131.165
-dayLow	127.47
+dayHigh	129.8035
+dayLow	125.3
 debtToEquity	67.538
-discount_to_intrinsic_value	-900.72
+discount_to_intrinsic_value	-897.49
 displayName	ServiceNow
 earningsCallTimestampEnd	1784754000
 earningsCallTimestampStart	1784754000
@@ -43,12 +43,12 @@ earningsTimestampEnd	1793217600
 earningsTimestampStart	1793217600
 ebitda	2896999936
 ebitdaMargins	0.19665001
-enterpriseToEbitda	47.159
-enterpriseToRevenue	9.274
-enterpriseValue	136619589632
+enterpriseToEbitda	47.006
+enterpriseToRevenue	9.243
+enterpriseValue	136175026176
 epsCurrentYear	4.06673
 epsForward	5.00551
-epsTrailingTwelveMonths	1.61
+epsTrailingTwelveMonths	1.6
 eps_normalized_growth	-0.2041505742125188
 esgPopulated	False
 exchange	NYQ
@@ -56,34 +56,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	108.9208
-fiftyDayAverageChange	19.559196
-fiftyDayAverageChangePercent	0.17957264
-fiftyTwoWeekChangePercent	-26.995022
+fiftyDayAverage	109.4202
+fiftyDayAverageChange	17.579803
+fiftyDayAverageChangePercent	0.16066325
+fiftyTwoWeekChangePercent	-25.953556
 fiftyTwoWeekHigh	194.726
-fiftyTwoWeekHighChange	-66.246
-fiftyTwoWeekHighChangePercent	-0.3402011
+fiftyTwoWeekHighChange	-67.726
+fiftyTwoWeekHighChangePercent	-0.3478015
 fiftyTwoWeekLow	81.24
-fiftyTwoWeekLowChange	47.239998
-fiftyTwoWeekLowChangePercent	0.58148694
+fiftyTwoWeekLowChange	45.760002
+fiftyTwoWeekLowChangePercent	0.5632694
 fiftyTwoWeekRange	81.24 - 194.726
 financialCurrency	USD
 firstTradeDateMilliseconds	1340976600000
 floatShares	1031287684
 forwardEps	5.00551
-forwardPE	25.667713
+forwardPE	25.372042
 freeCashflow	5149374976
 fullExchangeName	NYSE
 fullTimeEmployees	29187
-fulldayPrice	127.8
+fulldayChange	-2.255005
+fulldayChangePercent	-1.7610346
+fulldayPrice	125.795
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	12.84
+graham_intrinsic_value	12.73
 grossMargins	0.74768996
 grossProfits	11015000064
 hasPrePostMarketData	True
 heldPercentInsiders	0.00176
-heldPercentInstitutions	0.85102
+heldPercentInstitutions	0.85085
 impliedSharesOutstanding	1033862000
 industry	Software - Application
 industryDisp	Software - Application
@@ -93,51 +95,51 @@ language	en-US
 lastFiscalYearEnd	1767139200
 lastSplitDate	1766016000
 lastSplitFactor	5:1
-longBusinessSummary	ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; field service management applications; and sales and order management services. It also offers human resources delivery; legal and contract operations; workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. In addition, the company provides RaptorDB, a database built to manage workloads at scale; ServiceNow Impact that provides customers with software tools, guided plans, and AI-driven recommendations; customer support; and workflow data fabric. It serves government, financial services, healthcare and life science, manufacturing, Public Sector, retail, technology, and Telecom sectors through service providers and resale partners. The company has a strategic collaboration with Cohesity, Inc. to develop, operate, and safeguard autonomous AI agents and data with enterprise-grade reliability; and with ServiceNow to Advance Ai-Powered Solution for Mission-Critical Infrastructure Monitoring. The company was formerly known as Service-now.com and changed its name to ServiceNow, Inc. in May 2012. ServiceNow, Inc. has a strategic alliance with Accenture for integrated risk management and third-party risk management solutions. ServiceNow, Inc. was founded in 2004 and is headquartered in Santa Clara, California.
+longBusinessSummary	ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; field service management applications; and sales and order management services. It also offers human resources delivery; legal and contract operations; workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. In addition, the company provides RaptorDB, a database built to manage workloads at scale; ServiceNow Impact that provides customers with software tools, guided plans, and AI-driven recommendations; customer support; and workflow data fabric. It serves government, financial services, healthcare and life science, manufacturing, Public Sector, retail, technology, and Telecom sectors through service providers and resale partners. The company has a strategic collaboration with Cohesity, Inc. to develop, operate, and safeguard autonomous AI agents and data with enterprise-grade reliability; and with ServiceNow to Advance Ai-Powered Solution for Mission-Critical Infrastructure Monitoring. The company was formerly known as Service-now.com and changed its name to ServiceNow, Inc. in May 2012. ServiceNow, Inc. has a strategic alliance with Accenture for integrated risk management and third-party risk management solutions, and with Tech Mahindra to validate and deliver production-ready, industry-specific enterprise AI and automation solutions at scale. ServiceNow, Inc. was founded in 2004 and is headquartered in Santa Clara, California.
 longName	ServiceNow, Inc.
 market	us_market
-marketCap	132830584832
-marketState	CLOSED
+marketCap	131300474880
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22967487
 mostRecentQuarter	1782777600
 netIncomeToCommon	1670000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	132830589760
+nonDilutedMarketCap	132386029100
 numberOfAnalystOpinions	46
-open	130.29
+open	125.955
 operatingCashflow	5308000256
 operatingMargins	0.04063
 overallRisk	5
 payoutRatio	0.0
 pegRatio	1.15
 phone	408 501 8550
-postMarketChange	-0.6799927
-postMarketChangePercent	-0.52925956
-postMarketPrice	127.8
-postMarketTime	1787356796
-previousClose	129.75
-priceEpsCurrentYear	31.592949
+postMarketChange	-1.2050018
+postMarketChangePercent	-0.94882035
+postMarketPrice	125.795
+postMarketTime	1787697236
+previousClose	128.05
+priceEpsCurrentYear	31.229021
 priceHint	2
-priceToBook	10.612919
-priceToSalesTrailing12Months	9.016466
+priceToBook	10.490665
+priceToSalesTrailing12Months	8.912603
 profitMargins	0.11336
 quickRatio	0.565
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.42857
 region	US
-regularMarketChange	-1.27
-regularMarketChangePercent	-0.978809
-regularMarketDayHigh	131.165
-regularMarketDayLow	127.47
-regularMarketDayRange	127.47 - 131.165
-regularMarketOpen	130.29
-regularMarketPreviousClose	129.75
-regularMarketPrice	128.48
-regularMarketTime	1787342403
-regularMarketVolume	10343314
+regularMarketChange	-1.05
+regularMarketChangePercent	-0.819995
+regularMarketDayHigh	129.8035
+regularMarketDayLow	125.3
+regularMarketDayRange	125.3 - 129.8035
+regularMarketOpen	125.955
+regularMarketPreviousClose	128.05
+regularMarketPrice	127.0
+regularMarketTime	1787688003
+regularMarketVolume	12253929
 returnOnAssets	0.04249
 returnOnEquity	0.14244
 revenueGrowth	0.24
@@ -168,14 +170,14 @@ totalRevenue	14732000256
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	1.61
-trailingPE	79.80124
-trailingPegRatio	1.1472
+trailingEps	1.6
+trailingPE	79.375
+trailingPegRatio	1.1433
 triggerable	True
-twoHundredDayAverage	120.30568
-twoHundredDayAverageChange	8.174316
-twoHundredDayAverageChangePercent	0.067946225
+twoHundredDayAverage	120.05836
+twoHundredDayAverageChange	6.9416428
+twoHundredDayAverageChangePercent	0.057818905
 typeDisp	Equity
-volume	10343314
+volume	12253929
 website	https://www.servicenow.com
 zip	95054

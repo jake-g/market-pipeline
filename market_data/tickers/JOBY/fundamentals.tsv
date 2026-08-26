@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.47342658
-SandP52WeekChange	0.19179821
+52WeekChange	-0.5118805
+SandP52WeekChange	0.1835649
 address1	333 Encinal Street
 allTimeHigh	20.95
 allTimeLow	3.15
-ask	7.58
-askSize	9900
+ask	7.22
+askSize	12900
 auditRisk	7
 averageAnalystRating	3.0 - Hold
-averageDailyVolume10Day	29444630
-averageDailyVolume3Month	40475188
-averageVolume	40475188
-averageVolume10days	29444630
+averageDailyVolume10Day	27782760
+averageDailyVolume3Month	40208271
+averageVolume	40208271
+averageVolume10days	27782760
 beta	2.698
-bid	7.57
-bidSize	8600
+bid	7.2
+bidSize	14000
 boardRisk	7
 bookValue	1.791
 city	Santa Cruz
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	7.53
+currentPrice	7.22
 currentRatio	17.975
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	7.775
-dayLow	7.52
+dayHigh	7.32
+dayLow	7.145
 debtToEquity	42.322
 displayName	Joby Aviation
 earningsCallTimestampEnd	1785963600
@@ -40,9 +40,9 @@ earningsTimestampEnd	1793822400
 earningsTimestampStart	1793822400
 ebitda	-838780032
 ebitdaMargins	0.0
-enterpriseToEbitda	-7.072
-enterpriseToRevenue	51.008
-enterpriseValue	5931992576
+enterpriseToEbitda	-6.671
+enterpriseToRevenue	48.116
+enterpriseValue	5595690496
 epsCurrentYear	-0.99
 epsForward	-0.645
 epsTrailingTwelveMonths	-0.98
@@ -52,26 +52,28 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	8.185
-fiftyDayAverageChange	-0.6550002
-fiftyDayAverageChangePercent	-0.08002446
-fiftyTwoWeekChangePercent	-47.34266
+fiftyDayAverage	8.1416
+fiftyDayAverageChange	-0.92159986
+fiftyDayAverageChangePercent	-0.11319641
+fiftyTwoWeekChangePercent	-51.188053
 fiftyTwoWeekHigh	19.98
-fiftyTwoWeekHighChange	-12.449999
-fiftyTwoWeekHighChangePercent	-0.6231231
+fiftyTwoWeekHighChange	-12.76
+fiftyTwoWeekHighChangePercent	-0.6386387
 fiftyTwoWeekLow	6.63
-fiftyTwoWeekLowChange	0.9000001
-fiftyTwoWeekLowChangePercent	0.13574661
+fiftyTwoWeekLowChange	0.5899997
+fiftyTwoWeekLowChangePercent	0.08898939
 fiftyTwoWeekRange	6.63 - 19.98
 financialCurrency	USD
 firstTradeDateMilliseconds	1604932200000
 floatShares	669013960
 forwardEps	-0.645
-forwardPE	-11.674419
+forwardPE	-11.193798
 freeCashflow	-436446240
 fullExchangeName	NYSE
 fullTimeEmployees	2559
-fulldayPrice	7.57
+fulldayChange	0.03919983
+fulldayChangePercent	0.5451993
+fulldayPrice	7.2292
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
 grossMargins	0.34289002
@@ -89,47 +91,47 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Joby Aviation, Inc., an air mobility company, engages in research, develop, test, manufacture, and sale of electric vertical takeoff and landing aircraft in the United States, Japan, Europe, and internationally. The company offers facilitation of passenger transportation via helicopter or fixed wing aircraft. It is also involved in the provision of government flight services, customer demonstration, and engineering services; and exhibition activities. Joby Aviation, Inc. was founded in 2009 and is headquartered in Santa Cruz, California.
 longName	Joby Aviation, Inc.
 market	us_market
-marketCap	7448105472
-marketState	CLOSED
+marketCap	7141476864
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_551384045
 mostRecentQuarter	1782777600
 netIncomeToCommon	-878155008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	7448105504
+nonDilutedMarketCap	7111803264
 numberOfAnalystOpinions	9
-open	7.7
+open	7.32
 operatingCashflow	-609942016
 operatingMargins	-6.75181
 overallRisk	8
 payoutRatio	0.0
 phone	831 201 6700
-postMarketChange	0.03999996
-postMarketChangePercent	0.531208
-postMarketPrice	7.57
-postMarketTime	1787356800
-previousClose	7.58
-priceEpsCurrentYear	-7.606061
+postMarketChange	0.009200096
+postMarketChangePercent	0.12742516
+postMarketPrice	7.2292
+postMarketTime	1787697329
+previousClose	7.19
+priceEpsCurrentYear	-7.292929
 priceHint	2
-priceToBook	4.2043552
-priceToSalesTrailing12Months	64.04493
+priceToBook	4.031267
+priceToSalesTrailing12Months	61.408287
 profitMargins	0.0
 quickRatio	17.665
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.0
 region	US
-regularMarketChange	-0.0499997
-regularMarketChangePercent	-0.659627
-regularMarketDayHigh	7.775
-regularMarketDayLow	7.52
-regularMarketDayRange	7.52 - 7.775
-regularMarketOpen	7.7
-regularMarketPreviousClose	7.58
-regularMarketPrice	7.53
-regularMarketTime	1787342402
-regularMarketVolume	28561776
+regularMarketChange	0.0299997
+regularMarketChangePercent	0.417242
+regularMarketDayHigh	7.32
+regularMarketDayLow	7.14
+regularMarketDayRange	7.14 - 7.32
+regularMarketOpen	7.32
+regularMarketPreviousClose	7.19
+regularMarketPrice	7.22
+regularMarketTime	1787688002
+regularMarketVolume	21926039
 returnOnAssets	-0.27508
 returnOnEquity	-0.65902
 revenueGrowth	2574.933
@@ -149,7 +151,7 @@ shortRatio	2.19
 sourceInterval	15
 state	CA
 symbol	JOBY
-syntheticPEG	-4.533872920188603e-05
+syntheticPEG	-4.3472191315269175e-05
 targetHighPrice	18.0
 targetLowPrice	6.0
 targetMeanPrice	10.67556
@@ -164,10 +166,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.98
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	10.7565
-twoHundredDayAverageChange	-3.2265
-twoHundredDayAverageChangePercent	-0.29995817
+twoHundredDayAverage	10.71865
+twoHundredDayAverageChange	-3.49865
+twoHundredDayAverageChangePercent	-0.32640773
 typeDisp	Equity
-volume	28561776
+volume	21926039
 website	https://www.jobyaviation.com
 zip	95060

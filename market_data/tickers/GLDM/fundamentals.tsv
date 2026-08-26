@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	109.74
 allTimeLow	23.472
-ask	91.32
-askSize	900
-averageDailyVolume10Day	4709670
-averageDailyVolume3Month	4155380
-averageVolume	4155380
-averageVolume10days	4709670
+ask	92.36
+askSize	6600
+averageDailyVolume10Day	4847600
+averageDailyVolume3Month	4184796
+averageVolume	4184796
+averageVolume10days	4847600
 beta3Year	0.36
-bid	91.3
-bidSize	1700
+bid	92.24
+bidSize	2300
 category	Commodities Focused
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	91.625
-dayLow	90.47
+dayHigh	92.35
+dayLow	91.09
 dividendYield	0.0
 esgPopulated	False
 exchange	PCX
@@ -25,21 +25,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	82.5942
-fiftyDayAverageChange	8.7258
-fiftyDayAverageChangePercent	0.10564664
-fiftyTwoWeekChangePercent	37.03481
+fiftyDayAverage	82.77
+fiftyDayAverageChange	9.580002
+fiftyDayAverageChangePercent	0.115742445
+fiftyTwoWeekChangePercent	37.09774
 fiftyTwoWeekHigh	109.74
-fiftyTwoWeekHighChange	-18.419998
-fiftyTwoWeekHighChangePercent	-0.16785127
-fiftyTwoWeekLow	66.6
-fiftyTwoWeekLowChange	24.720001
-fiftyTwoWeekLowChangePercent	0.3711712
-fiftyTwoWeekRange	66.6 - 109.74
+fiftyTwoWeekHighChange	-17.39
+fiftyTwoWeekHighChangePercent	-0.15846546
+fiftyTwoWeekLow	66.73
+fiftyTwoWeekLowChange	25.619995
+fiftyTwoWeekLowChangePercent	0.38393518
+fiftyTwoWeekRange	66.73 - 109.74
 firstTradeDateMilliseconds	1530019800000
-fiveYearAverageReturn	0.2036609
+fiveYearAverageReturn	0.208274
 fullExchangeName	NYSEArca
-fulldayPrice	91.29
+fulldayChange	0.3153
+fulldayChangePercent	0.3426429
+fulldayPrice	92.3353
 fundFamily	State Street Investment Management
 fundInceptionDate	1529884800
 gmtOffSetMilliseconds	-14400000
@@ -49,47 +51,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The Shares are designed for investors who want a cost-effective and convenient way to invest in gold. Advantages of investing in the Shares include ease and flexibility of investment and expenses.
 longName	SPDR Gold MiniShares
 market	us_market
-marketState	CLOSED
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_572249206
-navPrice	88.68093
+navPrice	90.64215
 netAssets	27366232100.0
 netExpenseRatio	0.1
-open	90.66
+open	91.17
 phone	(212) 317-3800
-postMarketChange	-0.02999878
-postMarketChangePercent	-0.032850176
-postMarketPrice	91.29
-postMarketTime	1787356791
-previousClose	89.59
+postMarketChange	-0.014701843
+postMarketChangePercent	-0.0159197
+postMarketPrice	92.3353
+postMarketTime	1787697281
+previousClose	92.02
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	1.73
-regularMarketChangePercent	1.93102
-regularMarketDayHigh	91.625
-regularMarketDayLow	90.47
-regularMarketDayRange	90.47 - 91.625
-regularMarketOpen	90.66
-regularMarketPreviousClose	89.59
-regularMarketPrice	91.32
-regularMarketTime	1787342400
-regularMarketVolume	6146169
+regularMarketChange	0.330002
+regularMarketChangePercent	0.35862
+regularMarketDayHigh	92.35
+regularMarketDayLow	91.09
+regularMarketDayRange	91.09 - 92.35
+regularMarketOpen	91.17
+regularMarketPreviousClose	92.02
+regularMarketPrice	92.35
+regularMarketTime	1787688000
+regularMarketVolume	9624317
 shortName	SPDR Gold MiniShares Trust
 sourceInterval	15
 symbol	GLDM
-threeYearAverageReturn	0.33694857
+threeYearAverageReturn	0.3444244
 totalAssets	27366232064
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-12.70317
 trailingThreeMonthReturns	-12.70317
 triggerable	True
-twoHundredDayAverage	89.077
-twoHundredDayAverageChange	2.2429962
-twoHundredDayAverageChangePercent	0.025180418
+twoHundredDayAverage	89.1473
+twoHundredDayAverageChange	3.2026978
+twoHundredDayAverageChangePercent	0.03592591
 typeDisp	ETF
-volume	6146169
+volume	9624317
 yield	0.0
 ytdReturn	-6.58497

@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	1.0918651
-SandP52WeekChange	0.19179821
+52WeekChange	1.044477
+SandP52WeekChange	0.1835649
 address1	One Technology Drive
 allTimeHigh	307.37
 allTimeLow	0.060417
@@ -8,10 +8,10 @@ ask	212.48
 askSize	2
 auditRisk	3
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	9521670
-averageDailyVolume3Month	12901848
-averageVolume	12901848
-averageVolume10days	9521670
+averageDailyVolume10Day	9476600
+averageDailyVolume3Month	12853685
+averageVolume	12853685
+averageVolume10days	9476600
 beta	1.458
 bid	208.96
 bidSize	2
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	183.99
+currentPrice	183.34
 currentRatio	2.876
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	189.77
-dayLow	182.11
+dayHigh	186.13
+dayLow	180.72
 debtToEquity	96.88
-discount_to_intrinsic_value	-42.52
+discount_to_intrinsic_value	-41.94
 displayName	KLA
 dividendDate	1788220800
 dividendRate	0.92
-dividendYield	0.5
+dividendYield	0.51
 earningsCallTimestampEnd	1785272400
 earningsCallTimestampStart	1785272400
 earningsGrowth	0.138
@@ -46,12 +46,12 @@ earningsTimestampEnd	1793217600
 earningsTimestampStart	1793217600
 ebitda	6054757888
 ebitdaMargins	0.44588003
-enterpriseToEbitda	39.909
-enterpriseToRevenue	17.795
-enterpriseValue	241640849408
+enterpriseToEbitda	39.387
+enterpriseToRevenue	17.562
+enterpriseValue	238478999552
 epsCurrentYear	5.4493
-epsForward	6.60384
-epsTrailingTwelveMonths	3.66
+epsForward	6.67484
+epsTrailingTwelveMonths	3.67
 eps_normalized_growth	0.14548097393244763
 esgPopulated	False
 exDividendDate	1786924800
@@ -61,35 +61,37 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	408 875 4875
-fiftyDayAverage	220.07088
-fiftyDayAverageChange	-36.08087
-fiftyDayAverageChangePercent	-0.16395114
-fiftyTwoWeekChangePercent	109.18651
+fiftyDayAverage	218.879
+fiftyDayAverageChange	-35.539
+fiftyDayAverageChangePercent	-0.16236825
+fiftyTwoWeekChangePercent	104.4477
 fiftyTwoWeekHigh	307.37
-fiftyTwoWeekHighChange	-123.37999
-fiftyTwoWeekHighChangePercent	-0.40140545
+fiftyTwoWeekHighChange	-124.03
+fiftyTwoWeekHighChangePercent	-0.4035202
 fiftyTwoWeekLow	83.224
-fiftyTwoWeekLowChange	100.76601
-fiftyTwoWeekLowChangePercent	1.2107806
+fiftyTwoWeekLowChange	100.116
+fiftyTwoWeekLowChangePercent	1.2029703
 fiftyTwoWeekRange	83.224 - 307.37
 financialCurrency	USD
 firstTradeDateMilliseconds	339859800000
 fiveYearAvgDividendYield	0.92
 floatShares	1303411071
-forwardEps	6.60384
-forwardPE	27.861065
+forwardEps	6.67484
+forwardPE	27.467325
 freeCashflow	2624587520
 fullExchangeName	NasdaqGS
 fullTimeEmployees	17000
-fulldayPrice	184.8
+fulldayChange	2.4299927
+fulldayChangePercent	1.3383228
+fulldayPrice	184.0
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	129.09
+graham_intrinsic_value	129.17
 grossMargins	0.61301
 grossProfits	8324416000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0012899999
-heldPercentInstitutions	0.93816
+heldPercentInstitutions	0.93811995
 impliedSharesOutstanding	1306546783
 industry	Semiconductor Equipment & Materials
 industryDisp	Semiconductor Equipment & Materials
@@ -105,31 +107,31 @@ lastSplitFactor	10:1
 longBusinessSummary	KLA Corporation, together with its subsidiaries, designs, manufactures, and markets process control, process-enabling, and yield management solutions for the semiconductor and related electronics industries worldwide. The company operates through three segments: Semiconductor Process Control; Specialty Semiconductor Process; and PCB and Component Inspection. It offers inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers; metrology systems to measure pattern dimensions, film thickness, film stress, layer-to-layer alignment, pattern placement, surface topography, and electro-optical properties for wafers; chemical process control equipment; wired and wireless sensor wafers and reticles; wafer defect inspection, review, and metrology systems; reticle inspection and metrology systems; wafer inspection and metrology systems; and semiconductor software solutions that provide run-time process control, defect excursion identification, process corrections, and defect classification to accelerate yield learning rates and reduce production risk. The company also provides etch, plasma dicing, deposition, and other wafer processing technologies and solutions for the semiconductor and microelectronics industry. In addition, it offers direct imaging, inspection, optical shaping, inkjet and additive printing, and computer-aided manufacturing and engineering solutions for the PCB market and inspection and metrology systems for quality control and yield improvement in advanced and traditional semiconductor packaging markets. The company was formerly known as KLA-Tencor Corporation and changed its name to KLA Corporation in July 2019. KLA Corporation was incorporated in 1975 and is headquartered in Milpitas, California.
 longName	KLA Corporation
 market	us_market
-marketCap	240391553024
-marketState	CLOSED
+marketCap	239542288384
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_282225
 mostRecentQuarter	1782777600
 netIncomeToCommon	4830771200
 nextFiscalYearEnd	1814313600
-nonDilutedMarketCap	240391542604
+nonDilutedMarketCap	237229699389
 numberOfAnalystOpinions	27
-open	189.435
+open	184.58
 operatingCashflow	4143078912
 operatingMargins	0.42486
 overallRisk	5
 payoutRatio	0.2186
 pegRatio	1.76
 phone	408 875 3000
-postMarketChange	0.80999756
-postMarketChangePercent	0.44023997
-postMarketPrice	184.8
-postMarketTime	1787356773
-previousClose	185.86
-priceEpsCurrentYear	33.763973
+postMarketChange	0.66000366
+postMarketChangePercent	0.35998893
+postMarketPrice	184.0
+postMarketTime	1787697248
+previousClose	181.57
+priceEpsCurrentYear	33.644688
 priceHint	2
-priceToBook	37.87361
-priceToSalesTrailing12Months	17.702564
+priceToBook	37.73981
+priceToSalesTrailing12Months	17.640024
 profitMargins	0.35574
 quickRatio	1.841
 quoteSourceName	Nasdaq Real Time Price
@@ -137,16 +139,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.86207
 region	US
-regularMarketChange	-1.87
-regularMarketChangePercent	-1.00613
-regularMarketDayHigh	189.77
-regularMarketDayLow	182.11
-regularMarketDayRange	182.11 - 189.77
-regularMarketOpen	189.435
-regularMarketPreviousClose	185.86
-regularMarketPrice	183.99
-regularMarketTime	1787342401
-regularMarketVolume	6644818
+regularMarketChange	1.769989
+regularMarketChangePercent	0.97482455
+regularMarketDayHigh	186.13
+regularMarketDayLow	180.72
+regularMarketDayRange	180.72 - 186.13
+regularMarketOpen	184.58
+regularMarketPreviousClose	181.57
+regularMarketPrice	183.34
+regularMarketTime	1787688001
+regularMarketVolume	8895081
 returnOnAssets	0.20799999
 returnOnEquity	0.87496
 revenueGrowth	0.152
@@ -176,15 +178,15 @@ totalDebt	6151712768
 totalRevenue	13579475968
 tradeable	False
 trailingAnnualDividendRate	0.8
-trailingAnnualDividendYield	0.004304315
-trailingEps	3.66
-trailingPE	50.270493
-trailingPegRatio	1.7592
+trailingAnnualDividendYield	0.004406014
+trailingEps	3.67
+trailingPE	49.9564
+trailingPegRatio	1.7361
 triggerable	True
-twoHundredDayAverage	168.5192
-twoHundredDayAverageChange	15.47081
-twoHundredDayAverageChangePercent	0.09180444
+twoHundredDayAverage	168.8303
+twoHundredDayAverageChange	14.509689
+twoHundredDayAverageChangePercent	0.08594245
 typeDisp	Equity
-volume	6644818
+volume	8895081
 website	https://www.kla.com
 zip	95035

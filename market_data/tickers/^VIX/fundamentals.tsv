@@ -1,5 +1,5 @@
 Metric	Value
-52WeekChange	2.2988558
+52WeekChange	8.413136
 allTimeHigh	89.53
 allTimeLow	8.56
 ask	0.0
@@ -14,50 +14,50 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	15.88
-dayLow	15.08
+dayHigh	16.3
+dayLow	15.13
 esgPopulated	False
 exchange	CXI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
-fiftyDayAverage	16.762
-fiftyDayAverageChange	-1.631999
-fiftyDayAverageChangePercent	-0.09736303
-fiftyTwoWeekChangePercent	2.2988558
+fiftyDayAverage	16.6902
+fiftyDayAverageChange	-1.240201
+fiftyDayAverageChangePercent	-0.074307136
+fiftyTwoWeekChangePercent	8.413136
 fiftyTwoWeekHigh	35.3
-fiftyTwoWeekHighChange	-20.169998
-fiftyTwoWeekHighChangePercent	-0.57138807
+fiftyTwoWeekHighChange	-19.849998
+fiftyTwoWeekHighChangePercent	-0.5623229
 fiftyTwoWeekLow	13.38
-fiftyTwoWeekLowChange	1.75
-fiftyTwoWeekLowChangePercent	0.13079223
+fiftyTwoWeekLowChange	2.0699997
+fiftyTwoWeekLowChangePercent	0.15470849
 fiftyTwoWeekRange	13.38 - 35.3
 firstTradeDateMilliseconds	631267200000
 fullExchangeName	Cboe Indices
-fulldayPrice	15.13
+fulldayPrice	15.45
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	False
 language	en-US
 longName	CBOE Volatility Index
 market	cboe_market
-marketState	CLOSED
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXVIX
-open	15.82
-previousClose	16.01
+open	15.71
+previousClose	15.13
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	-0.8800001
-regularMarketChangePercent	-5.4965653
-regularMarketDayHigh	15.88
-regularMarketDayLow	15.08
-regularMarketDayRange	15.08 - 15.88
-regularMarketOpen	15.82
-regularMarketPreviousClose	16.01
-regularMarketPrice	15.13
-regularMarketTime	1787343301
+regularMarketChange	-0.40000057
+regularMarketChangePercent	-2.5236628
+regularMarketDayHigh	16.3
+regularMarketDayLow	15.13
+regularMarketDayRange	15.13 - 16.3
+regularMarketOpen	15.71
+regularMarketPreviousClose	15.13
+regularMarketPrice	15.45
+regularMarketTime	1787688901
 regularMarketVolume	0
 shortName	CBOE Volatility Index
 sourceInterval	15
@@ -65,8 +65,8 @@ symbol	^VIX
 tradeable	False
 trailingPegRatio	None
 triggerable	False
-twoHundredDayAverage	18.478
-twoHundredDayAverageChange	-3.3480005
-twoHundredDayAverageChangePercent	-0.18118846
+twoHundredDayAverage	18.4672
+twoHundredDayAverageChange	-3.0171995
+twoHundredDayAverageChangePercent	-0.16338155
 typeDisp	Index
 volume	0

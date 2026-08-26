@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	-0.1672982
-SandP52WeekChange	0.19179821
+52WeekChange	-0.14008194
+SandP52WeekChange	0.1835649
 address1	222 Berkeley Street
 address2	11th Floor
 allTimeHigh	303.72
 allTimeLow	0.6
-ask	176.51
-askSize	200
+ask	179.06
+askSize	100
 auditRisk	1
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	1802560
-averageDailyVolume3Month	3120961
-averageVolume	3120961
-averageVolume10days	1802560
+averageDailyVolume10Day	1782100
+averageDailyVolume3Month	3096763
+averageVolume	3096763
+averageVolume10days	1782100
 beta	0.894
-bid	175.31
-bidSize	200
+bid	178.71
+bidSize	300
 boardRisk	3
 bookValue	7.983
 city	Boston
@@ -26,17 +26,17 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	175.8
+currentPrice	178.57
 currentRatio	0.352
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	178.02
-dayLow	174.415
+dayHigh	178.985
+dayLow	177.145
 debtToEquity	438.721
-discount_to_intrinsic_value	56.0
+discount_to_intrinsic_value	55.21
 dividendDate	1783900800
 dividendRate	6.98
-dividendYield	3.97
+dividendYield	3.91
 earningsCallTimestampEnd	1785241800
 earningsCallTimestampStart	1785241800
 earningsGrowth	1.385
@@ -46,9 +46,9 @@ earningsTimestampEnd	1793104200
 earningsTimestampStart	1793104200
 ebitda	7044400128
 ebitdaMargins	0.64382005
-enterpriseToEbitda	18.691
-enterpriseToRevenue	12.034
-enterpriseValue	131665977344
+enterpriseToEbitda	18.862
+enterpriseToRevenue	12.144
+enterpriseValue	132872814592
 epsCurrentYear	6.98352
 epsForward	7.01004
 epsTrailingTwelveMonths	7.28
@@ -61,30 +61,32 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	617 375 7575
-fiftyDayAverage	171.9472
-fiftyDayAverageChange	3.8527985
-fiftyDayAverageChangePercent	0.022406869
-fiftyTwoWeekChangePercent	-16.72982
-fiftyTwoWeekHigh	211.92
-fiftyTwoWeekHighChange	-36.119995
-fiftyTwoWeekHighChangePercent	-0.17044166
+fiftyDayAverage	171.7288
+fiftyDayAverageChange	6.841202
+fiftyDayAverageChangePercent	0.03983724
+fiftyTwoWeekChangePercent	-14.008194
+fiftyTwoWeekHigh	209.1
+fiftyTwoWeekHighChange	-30.529999
+fiftyTwoWeekHighChangePercent	-0.14600669
 fiftyTwoWeekLow	160.06
-fiftyTwoWeekLowChange	15.7400055
-fiftyTwoWeekLowChangePercent	0.09833816
-fiftyTwoWeekRange	160.06 - 211.92
+fiftyTwoWeekLowChange	18.51001
+fiftyTwoWeekLowChangePercent	0.115644194
+fiftyTwoWeekRange	160.06 - 209.1
 financialCurrency	USD
 firstTradeDateMilliseconds	888589800000
 fiveYearAvgDividendYield	2.93
 floatShares	464454997
 forwardEps	7.01004
-forwardPE	25.078318
+forwardPE	25.473465
 freeCashflow	2920012544
 fullExchangeName	NYSE
 fullTimeEmployees	4866
-fulldayPrice	175.88
+fulldayChange	0.18000793
+fulldayChangePercent	0.10090696
+fulldayPrice	179.06
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	399.55
+graham_intrinsic_value	398.7
 grossMargins	0.73774004
 grossProfits	8072000000
 hasPrePostMarketData	True
@@ -103,50 +105,50 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	American Tower Corporation one of the largest global REITs, is a leading independent owner, operator and developer of multitenant communications real estate with a portfolio of over 148,000 communications sites and a highly interconnected footprint of U.S. data center facilities. American Tower Corporation was incorporated in 1995 in Delaware and is based in Massachusetts, Boston.
 longName	American Tower Corporation
 market	us_market
-marketCap	81915781120
-marketState	CLOSED
+marketCap	83206488064
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_24766
 mostRecentQuarter	1782777600
-nameChangeDate	2026-08-22
+nameChangeDate	2026-08-25
 netIncomeToCommon	3400999936
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	81915776438
+nonDilutedMarketCap	83122612962
 numberOfAnalystOpinions	23
-open	175.96
+open	177.845
 operatingCashflow	5774900224
 operatingMargins	0.45411
 overallRisk	1
 payoutRatio	0.9601
 pegRatio	1.64
 phone	617 375 7500
-postMarketChange	0.08000183
-postMarketChangePercent	0.045507297
-postMarketPrice	175.88
-postMarketTime	1787356126
+postMarketChange	0.48999023
+postMarketChangePercent	0.27439672
+postMarketPrice	179.06
+postMarketTime	1787696267
 prevName	American Tower Corporation (REIT)
-previousClose	175.72
-priceEpsCurrentYear	25.173552
+previousClose	178.39
+priceEpsCurrentYear	25.5702
 priceHint	2
-priceToBook	22.021797
-priceToSalesTrailing12Months	7.4867043
+priceToBook	22.368786
+priceToSalesTrailing12Months	7.604669
 profitMargins	0.31083
 quickRatio	0.299
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.52
 region	US
-regularMarketChange	0.0800018
-regularMarketChangePercent	0.045528
-regularMarketDayHigh	178.02
-regularMarketDayLow	174.415
-regularMarketDayRange	174.415 - 178.02
-regularMarketOpen	175.96
-regularMarketPreviousClose	175.72
-regularMarketPrice	175.8
-regularMarketTime	1787342403
-regularMarketVolume	1746004
+regularMarketChange	0.180008
+regularMarketChangePercent	0.100907
+regularMarketDayHigh	178.985
+regularMarketDayLow	177.145
+regularMarketDayRange	177.145 - 178.985
+regularMarketOpen	177.845
+regularMarketPreviousClose	178.39
+regularMarketPrice	178.57
+regularMarketTime	1787688003
+regularMarketVolume	1400632
 returnOnAssets	0.04893
 returnOnEquity	0.33914003
 revenueGrowth	0.047
@@ -176,15 +178,15 @@ totalDebt	44979900416
 totalRevenue	10941500416
 tradeable	False
 trailingAnnualDividendRate	6.98
-trailingAnnualDividendYield	0.039722286
+trailingAnnualDividendYield	0.039127752
 trailingEps	7.28
-trailingPE	24.148352
-trailingPegRatio	1.6423
+trailingPE	24.528847
+trailingPegRatio	1.6665
 triggerable	True
-twoHundredDayAverage	177.8845
-twoHundredDayAverageChange	-2.0845032
-twoHundredDayAverageChangePercent	-0.0117182955
+twoHundredDayAverage	177.8747
+twoHundredDayAverageChange	0.6953125
+twoHundredDayAverageChangePercent	0.0039090016
 typeDisp	Equity
-volume	1746004
+volume	1400632
 website	https://www.americantower.com
 zip	02116

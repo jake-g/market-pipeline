@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	-0.2688312
-SandP52WeekChange	0.19179821
+52WeekChange	-0.2941919
+SandP52WeekChange	0.1835649
 address1	1010 South Federal Highway
 address2	Suite 2700
 allTimeHigh	155.68
 allTimeLow	0.35
-ask	12.0
+ask	12.5
 askSize	1
 auditRisk	9
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	53976280
-averageDailyVolume3Month	46059175
-averageVolume	46059175
-averageVolume10days	53976280
+averageDailyVolume10Day	55911320
+averageDailyVolume3Month	46306576
+averageVolume	46306576
+averageVolume10days	55911320
 beta	5.36
-bid	10.9
-bidSize	1
+bid	8.59
+bidSize	2
 boardRisk	7
 bookValue	4.348
 city	Hallandale Beach
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	11.26
+currentPrice	11.83
 currentRatio	0.891
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	12.465
-dayLow	11.02
+dayHigh	12.15
+dayLow	10.93
 debtToEquity	140.159
 displayName	MARA
 dividendDate	1554681600
@@ -42,9 +42,9 @@ earningsTimestampEnd	1793822400
 earningsTimestampStart	1793822400
 ebitda	-1878727936
 ebitdaMargins	-2.3360898
-enterpriseToEbitda	-3.456
-enterpriseToRevenue	8.074
-enterpriseValue	6493261312
+enterpriseToEbitda	-3.44
+enterpriseToRevenue	8.036
+enterpriseValue	6462356992
 epsCurrentYear	-4.98
 epsForward	-1.15
 epsTrailingTwelveMonths	-9.39
@@ -54,33 +54,35 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	12.0642
-fiftyDayAverageChange	-0.8042002
-fiftyDayAverageChangePercent	-0.06666005
-fiftyTwoWeekChangePercent	-26.88312
+fiftyDayAverage	12.0156
+fiftyDayAverageChange	-0.18560028
+fiftyDayAverageChangePercent	-0.015446609
+fiftyTwoWeekChangePercent	-29.41919
 fiftyTwoWeekHigh	23.45
-fiftyTwoWeekHighChange	-12.190001
-fiftyTwoWeekHighChangePercent	-0.51982945
+fiftyTwoWeekHighChange	-11.620001
+fiftyTwoWeekHighChangePercent	-0.4955224
 fiftyTwoWeekLow	6.66
-fiftyTwoWeekLowChange	4.6000004
-fiftyTwoWeekLowChangePercent	0.69069076
+fiftyTwoWeekLowChange	5.17
+fiftyTwoWeekLowChangePercent	0.7762763
 fiftyTwoWeekRange	6.66 - 23.45
 financialCurrency	USD
 firstTradeDateMilliseconds	1336138200000
-floatShares	378260409
+floatShares	378268135
 forwardEps	-1.15
-forwardPE	-9.791305
+forwardPE	-10.286957
 freeCashflow	-1168091392
 fullExchangeName	NasdaqCM
 fullTimeEmployees	266
-fulldayPrice	11.3399
+fulldayChange	0.6416998
+fulldayChangePercent	5.739712
+fulldayPrice	11.8217
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
 grossMargins	0.40122002
 grossProfits	322672000
 hasPrePostMarketData	True
-heldPercentInsiders	0.00839
-heldPercentInstitutions	0.7594
+heldPercentInsiders	0.00837
+heldPercentInstitutions	0.75787
 impliedSharesOutstanding	386299297
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -93,33 +95,33 @@ lastSplitFactor	1:4
 longBusinessSummary	MARA Holdings, Inc. operates as an energy and digital infrastructure company in North America, the Middle East, Europe, and Latin America. The company leverages Bitcoin Mining and Artificial Intelligence compute to monetize excess energy and underutilized power, optimize power management across operations and support AI inference applications. The company was formerly known as Marathon Digital Holdings, Inc. and changed its name to MARA Holdings, Inc. in August 2024. MARA Holdings, Inc. was incorporated in 2010 and is based in Hallandale Beach, Florida.
 longName	MARA Holdings, Inc.
 market	us_market
-marketCap	4349730304
-marketState	CLOSED
+marketCap	4569920512
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_158387416
 mostRecentQuarter	1782777600
-nameChangeDate	2026-08-22
+nameChangeDate	2026-08-25
 netIncomeToCommon	-3455820032
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	4349730084
+nonDilutedMarketCap	4318826140
 numberOfAnalystOpinions	11
-open	11.715
+open	11.062
 operatingCashflow	-895051008
 operatingMargins	-2.65211
 overallRisk	8
 payoutRatio	0.0
 pegRatio	0.1
 phone	800 804 1690
-postMarketChange	0.07989979
-postMarketChangePercent	0.7095896
-postMarketPrice	11.3399
-postMarketTime	1787356793
+postMarketChange	-0.008299828
+postMarketChangePercent	-0.07015915
+postMarketPrice	11.8217
+postMarketTime	1787697306
 prevName	Marathon Patent Group, Inc.
-previousClose	11.15
-priceEpsCurrentYear	-2.2610443
+previousClose	11.18
+priceEpsCurrentYear	-2.3755019
 priceHint	2
-priceToBook	2.5896964
-priceToSalesTrailing12Months	5.408639
+priceToBook	2.720791
+priceToSalesTrailing12Months	5.6824327
 profitMargins	0.0
 quickRatio	0.758
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.15385
 region	US
-regularMarketChange	0.110001
-regularMarketChangePercent	0.986553
-regularMarketDayHigh	12.465
-regularMarketDayLow	11.02
-regularMarketDayRange	11.02 - 12.465
-regularMarketOpen	11.715
-regularMarketPreviousClose	11.15
-regularMarketPrice	11.26
-regularMarketTime	1787342401
-regularMarketVolume	101106921
+regularMarketChange	0.6499996
+regularMarketChangePercent	5.81395
+regularMarketDayHigh	12.15
+regularMarketDayLow	10.93
+regularMarketDayRange	10.93 - 12.15
+regularMarketOpen	11.062
+regularMarketPreviousClose	11.18
+regularMarketPrice	11.83
+regularMarketTime	1787688001
+regularMarketVolume	48320502
 returnOnAssets	-0.26298
 returnOnEquity	-1.0557
 revenueGrowth	-0.267
@@ -171,10 +173,10 @@ trailingEps	-9.39
 trailingPE	3.6128404
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	11.0959
-twoHundredDayAverageChange	0.16410065
-twoHundredDayAverageChangePercent	0.014789306
+twoHundredDayAverage	11.0687
+twoHundredDayAverageChange	0.7613001
+twoHundredDayAverageChangePercent	0.06877954
 typeDisp	Equity
-volume	101106921
+volume	48320502
 website	https://www.mara.com
 zip	33009

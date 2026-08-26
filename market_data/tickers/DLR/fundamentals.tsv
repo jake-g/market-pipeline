@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.14928257
-SandP52WeekChange	0.19179821
+52WeekChange	0.12285614
+SandP52WeekChange	0.1835649
 address1	601 West 2nd Street
 address2	Floor 32
 allTimeHigh	208.14
 allTimeLow	12.0
-ask	190.91
-askSize	100
+ask	192.46
+askSize	300
 auditRisk	2
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	1817790
-averageDailyVolume3Month	2973848
-averageVolume	2973848
-averageVolume10days	1817790
+averageDailyVolume10Day	1831660
+averageDailyVolume3Month	2954260
+averageVolume	2954260
+averageVolume10days	1831660
 beta	1.042
-bid	190.49
+bid	192.2
 bidSize	200
 boardRisk	2
 bookValue	72.168
@@ -26,18 +26,18 @@ corporateActions	[{'header': 'Dividend', 'message': 'DLR announced a cash divide
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	190.62
+currentPrice	192.32
 currentRatio	0.89
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	196.48
-dayLow	190.505
+dayHigh	193.17
+dayLow	189.69
 debtToEquity	67.944
-discount_to_intrinsic_value	-1060.39
+discount_to_intrinsic_value	-1073.23
 displayName	Digital Realty Trust
 dividendDate	1790726400
 dividendRate	4.88
-dividendYield	2.56
+dividendYield	2.59
 earningsCallTimestampEnd	1784840400
 earningsCallTimestampStart	1784840400
 earningsGrowth	-0.587
@@ -47,9 +47,9 @@ earningsTimestampEnd	1792699200
 earningsTimestampStart	1792699200
 ebitda	3210312960
 ebitdaMargins	0.47511002
-enterpriseToEbitda	28.517
-enterpriseToRevenue	13.548
-enterpriseValue	91547213824
+enterpriseToEbitda	28.278
+enterpriseToRevenue	13.435
+enterpriseValue	90781237248
 epsCurrentYear	3.35176
 epsForward	2.8913
 epsTrailingTwelveMonths	2.06
@@ -62,35 +62,37 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	415 738 6501
-fiftyDayAverage	187.0114
-fiftyDayAverageChange	3.6085968
-fiftyDayAverageChangePercent	0.019296132
-fiftyTwoWeekChangePercent	14.928257
+fiftyDayAverage	187.1256
+fiftyDayAverageChange	5.194412
+fiftyDayAverageChangePercent	0.027758962
+fiftyTwoWeekChangePercent	12.285614
 fiftyTwoWeekHigh	208.14
-fiftyTwoWeekHighChange	-17.520004
-fiftyTwoWeekHighChangePercent	-0.084174134
+fiftyTwoWeekHighChange	-15.819992
+fiftyTwoWeekHighChangePercent	-0.076006494
 fiftyTwoWeekLow	146.23
-fiftyTwoWeekLowChange	44.39
-fiftyTwoWeekLowChangePercent	0.30356288
+fiftyTwoWeekLowChange	46.09001
+fiftyTwoWeekLowChangePercent	0.3151885
 fiftyTwoWeekRange	146.23 - 208.14
 financialCurrency	USD
 firstTradeDateMilliseconds	1099056600000
 fiveYearAvgDividendYield	3.39
-floatShares	350339150
+floatShares	350390955
 forwardEps	2.8913
-forwardPE	65.92882
+forwardPE	66.51679
 freeCashflow	3768482048
 fullExchangeName	NYSE
 fullTimeEmployees	4282
-fulldayPrice	190.62
+fulldayChange	4.169998
+fulldayChangePercent	2.211614
+fulldayPrice	192.72
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	16.43
+graham_intrinsic_value	16.39
 grossMargins	0.56994
 grossProfits	3851121920
 hasPrePostMarketData	True
 heldPercentInsiders	0.00014
-heldPercentInstitutions	1.0498201
+heldPercentInstitutions	1.04999
 impliedSharesOutstanding	376701176
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
@@ -104,48 +106,48 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Digital Realty Trust, Inc. is a real estate investment firm specializing in Core strategies. It primarily targets investments in data center properties, including colocation facilities, powered base buildings, and data center suites. The firm focuses its real estate investments globally across six continents, targeting markets in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific region. Digital Realty Trust, Inc. was founded in 2004 and is based in Austin, Texas.
 longName	Digital Realty Trust, Inc.
 market	us_market
-marketCap	71806779392
-marketState	CLOSED
+marketCap	72447172608
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_11041860
 mostRecentQuarter	1782777600
 netIncomeToCommon	758297984
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	70536295869
+nonDilutedMarketCap	69770320984
 numberOfAnalystOpinions	31
-open	195.53
+open	189.32
 operatingCashflow	2967041024
 operatingMargins	0.25882
 overallRisk	7
 payoutRatio	2.3805
 pegRatio	13.8
 phone	737 281 0101
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	190.62
-postMarketTime	1787356620
-previousClose	194.3
-priceEpsCurrentYear	56.871613
+postMarketChange	0.3999939
+postMarketChangePercent	0.20798351
+postMarketPrice	192.72
+postMarketTime	1787697271
+previousClose	188.55
+priceEpsCurrentYear	57.378815
 priceHint	2
-priceToBook	2.641337
-priceToSalesTrailing12Months	10.626965
+priceToBook	2.6648932
+priceToSalesTrailing12Months	10.721739
 profitMargins	0.11825
 quickRatio	0.889
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.45455
 region	US
-regularMarketChange	-3.68001
-regularMarketChangePercent	-1.89398
-regularMarketDayHigh	196.48
-regularMarketDayLow	190.505
-regularMarketDayRange	190.505 - 196.48
-regularMarketOpen	195.53
-regularMarketPreviousClose	194.3
-regularMarketPrice	190.62
-regularMarketTime	1787342403
-regularMarketVolume	981893
+regularMarketChange	3.77
+regularMarketChangePercent	1.99947
+regularMarketDayHigh	193.17
+regularMarketDayLow	189.69
+regularMarketDayRange	189.69 - 193.17
+regularMarketOpen	189.32
+regularMarketPreviousClose	188.55
+regularMarketPrice	192.32
+regularMarketTime	1787688003
+regularMarketVolume	1907170
 returnOnAssets	0.01476
 returnOnEquity	0.02912
 revenueGrowth	0.299
@@ -175,15 +177,15 @@ totalDebt	20074991616
 totalRevenue	6757036032
 tradeable	False
 trailingAnnualDividendRate	4.88
-trailingAnnualDividendYield	0.025115801
+trailingAnnualDividendYield	0.02588173
 trailingEps	2.06
-trailingPE	92.53398
-trailingPegRatio	13.7988
+trailingPE	93.35923
+trailingPegRatio	13.6489
 triggerable	True
-twoHundredDayAverage	177.71214
-twoHundredDayAverageChange	12.907852
-twoHundredDayAverageChangePercent	0.07263348
+twoHundredDayAverage	177.81355
+twoHundredDayAverageChange	14.506454
+twoHundredDayAverageChangePercent	0.08158239
 typeDisp	Equity
-volume	981893
+volume	1907170
 website	https://www.digitalrealty.com
 zip	78701

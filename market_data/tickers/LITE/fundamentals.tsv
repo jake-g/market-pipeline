@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	6.022444
-SandP52WeekChange	0.19179821
+52WeekChange	5.661611
+SandP52WeekChange	0.1835649
 address1	1001 Ridder Park Drive
 allTimeHigh	1085.68
 allTimeLow	13.97
@@ -8,10 +8,10 @@ ask	871.13
 askSize	1
 auditRisk	4
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	5654440
-averageDailyVolume3Month	5275764
-averageVolume	5275764
-averageVolume10days	5654440
+averageDailyVolume10Day	5429790
+averageDailyVolume3Month	5254061
+averageVolume	5254061
+averageVolume10days	5429790
 beta	1.513
 bid	825.37
 bidSize	1
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	866.71
+currentPrice	885.565
 currentRatio	1.678
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	922.7387
-dayLow	855.0101
+dayHigh	887.36
+dayLow	841.1
 debtToEquity	35.987
 displayName	Lumentum
 earningsCallTimestampEnd	1786482000
@@ -40,12 +40,12 @@ earningsTimestampEnd	1793908800
 earningsTimestampStart	1793908800
 ebitda	800700032
 ebitdaMargins	0.26566
-enterpriseToEbitda	95.762
-enterpriseToRevenue	25.44
-enterpriseValue	76676685824
+enterpriseToEbitda	91.669
+enterpriseToRevenue	24.353
+enterpriseValue	73399050240
 epsCurrentYear	8.22662
 epsForward	33.01317
-epsTrailingTwelveMonths	-93.0
+epsTrailingTwelveMonths	-92.98
 eps_normalized_growth	0.910093179509853
 esgPopulated	False
 exchange	NMS
@@ -53,33 +53,35 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	814.4134
-fiftyDayAverageChange	52.29663
-fiftyDayAverageChangePercent	0.064213865
-fiftyTwoWeekChangePercent	602.2444
+fiftyDayAverage	813.225
+fiftyDayAverageChange	72.34003
+fiftyDayAverageChangePercent	0.08895451
+fiftyTwoWeekChangePercent	566.16113
 fiftyTwoWeekHigh	1085.68
-fiftyTwoWeekHighChange	-218.97003
-fiftyTwoWeekHighChangePercent	-0.20168929
-fiftyTwoWeekLow	119.25
-fiftyTwoWeekLowChange	747.46
-fiftyTwoWeekLowChangePercent	6.2680087
-fiftyTwoWeekRange	119.25 - 1085.68
+fiftyTwoWeekHighChange	-200.11505
+fiftyTwoWeekHighChangePercent	-0.18432231
+fiftyTwoWeekLow	123.5
+fiftyTwoWeekLowChange	762.065
+fiftyTwoWeekLowChangePercent	6.170567
+fiftyTwoWeekRange	123.5 - 1085.68
 financialCurrency	USD
 firstTradeDateMilliseconds	1437658200000
-floatShares	89023662
+floatShares	89053263
 forwardEps	33.01317
-forwardPE	26.253464
+forwardPE	26.824598
 freeCashflow	224700000
 fullExchangeName	NasdaqGS
 fullTimeEmployees	13757
-fulldayPrice	867.0
+fulldayChange	53.080017
+fulldayChangePercent	6.3938737
+fulldayPrice	883.25
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
 grossMargins	0.44244
 grossProfits	1333500032
 hasPrePostMarketData	True
-heldPercentInsiders	0.0046
-heldPercentInstitutions	0.94067
+heldPercentInsiders	0.0046200003
+heldPercentInstitutions	0.94092005
 impliedSharesOutstanding	89700000
 industry	Communication Equipment
 industryDisp	Communication Equipment
@@ -90,31 +92,31 @@ lastFiscalYearEnd	1782518400
 longBusinessSummary	Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It offers component products, including semiconductor laser chips, laser sub-assemblies, line subsystems, and wavelength management systems. The company also offers system products, such as optical modules, optical circuit switches, and industrial lasers, including short-pulse solid-state lasers and kilowatt-class fiber lasers. Its products and solutions are used in cloud, artificial intelligence and machine learning (AI/ML), telecommunications, consumer, and industrial end-market applications. The company was incorporated in 2015 and is headquartered in San Jose, California.
 longName	Lumentum Holdings Inc.
 market	us_market
-marketCap	77743890432
-marketState	CLOSED
+marketCap	79435177984
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_272054403
 mostRecentQuarter	1782518400
 netIncomeToCommon	-6935099904
 nextFiscalYearEnd	1814054400
-nonDilutedMarketCap	77743887000
+nonDilutedMarketCap	74466249000
 numberOfAnalystOpinions	24
-open	898.51
+open	858.1
 operatingCashflow	751400000
 operatingMargins	0.27954
 overallRisk	9
 payoutRatio	0.0
 pegRatio	0.63
 phone	408 546 5483
-postMarketChange	0.28997803
-postMarketChangePercent	0.033457328
-postMarketPrice	867.0
-postMarketTime	1787356785
-previousClose	879.28
-priceEpsCurrentYear	105.35433
+postMarketChange	-2.3150024
+postMarketChangePercent	-0.2614153
+postMarketPrice	883.25
+postMarketTime	1787697299
+previousClose	830.17
+priceEpsCurrentYear	107.64628
 priceHint	2
-priceToBook	16.535849
-priceToSalesTrailing12Months	25.794256
+priceToBook	16.89558
+priceToSalesTrailing12Months	26.3554
 profitMargins	-2.3009598
 quickRatio	1.318
 quoteSourceName	Nasdaq Real Time Price
@@ -122,16 +124,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.54167
 region	US
-regularMarketChange	-12.57
-regularMarketChangePercent	-1.42958
-regularMarketDayHigh	922.7387
-regularMarketDayLow	855.0101
-regularMarketDayRange	855.0101 - 922.7387
-regularMarketOpen	898.51
-regularMarketPreviousClose	879.28
-regularMarketPrice	866.71
-regularMarketTime	1787342401
-regularMarketVolume	3658217
+regularMarketChange	55.39502
+regularMarketChangePercent	6.6727324
+regularMarketDayHigh	887.36
+regularMarketDayLow	841.1
+regularMarketDayRange	841.1 - 887.36
+regularMarketOpen	858.1
+regularMarketPreviousClose	830.17
+regularMarketPrice	885.565
+regularMarketTime	1787688001
+regularMarketVolume	3223752
 returnOnAssets	0.05815
 returnOnEquity	-2.40027
 revenueGrowth	1.093
@@ -162,13 +164,13 @@ totalRevenue	3014000128
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-93.0
+trailingEps	-92.98
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	652.61957
-twoHundredDayAverageChange	214.09045
-twoHundredDayAverageChangePercent	0.32804787
+twoHundredDayAverage	655.8286
+twoHundredDayAverageChange	229.73639
+twoHundredDayAverageChangePercent	0.35029942
 typeDisp	Equity
-volume	3658217
+volume	3223752
 website	https://www.lumentum.com
 zip	95131

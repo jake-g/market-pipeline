@@ -1,43 +1,43 @@
 Metric	Value
-52WeekChange	0.014232993
-SandP52WeekChange	0.19179821
+52WeekChange	0.007810831
+SandP52WeekChange	0.1835649
 address1	Building Two
 address2	Parkmore Business Park West
 allTimeHigh	135.89
 allTimeLow	0.129883
-ask	93.33
-askSize	900
+ask	91.43
+askSize	100
 auditRisk	8
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	7001730
-averageDailyVolume3Month	9096262
-averageVolume	9096262
-averageVolume10days	7001730
+averageDailyVolume10Day	6945590
+averageDailyVolume3Month	9047288
+averageVolume	9047288
+averageVolume10days	6945590
 beta	0.566
-bid	93.28
-bidSize	400
+bid	91.19
+bidSize	500
 boardRisk	7
 bookValue	38.638
 city	Galway
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Geoffrey Straub Martha', 'age': 55, 'title': 'Chairman of the Board & CEO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4092494, 'exercisedValue': 460404, 'unexercisedValue': 245414}, {'maxAge': 1, 'name': 'Mr. Thierry  Pieton', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4216777, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dave  Moeller', 'title': 'Senior VP & President of the Peripheral Vascular Health Operating Unit', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sally  Saba M.D.', 'title': 'Chief Inclusion & Diversity Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Kweli P. Thompson M.D.', 'age': 57, 'title': 'Executive VP & President of Neuroscience Portfolio', 'yearBorn': 1968, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Linnea  Burman', 'title': "Senior VP and President of Medtronic's Neurovascular business", 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert  Kowal', 'title': 'VP & GM of Cardiac Pacing Therapies', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alan  Cheng', 'title': 'Chief Medical Officer of Cardiac Rhythm Management', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Austin L. Chiang M.D., M.P.H.', 'title': 'Chief Medical Officer Gastrointestinal Business', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert Adam Hopkins', 'age': 57, 'title': 'Senior VP & Head of Global Strategy', 'yearBorn': 1968, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Geoffrey Straub Martha', 'age': 55, 'title': 'Chairman of the Board & CEO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4092494, 'exercisedValue': 460404, 'unexercisedValue': 245414}, {'maxAge': 1, 'name': 'Mr. Thierry  Pieton', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4216777, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dave  Moeller', 'title': 'Senior VP & President of the Peripheral Vascular Health Operating Unit', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sally  Saba M.D.', 'title': 'Chief Inclusion & Diversity Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Kweli P. Thompson M.D.', 'age': 57, 'title': 'Executive VP & President of Neuroscience Portfolio', 'yearBorn': 1968, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert  Kowal', 'title': 'VP & GM of Cardiac Pacing Therapies', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alan  Cheng', 'title': 'Chief Medical Officer of Cardiac Rhythm Management', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Austin L. Chiang M.D., M.P.H.', 'title': 'Chief Medical Officer Gastrointestinal Business', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert Adam Hopkins', 'age': 57, 'title': 'Senior VP & Head of Global Strategy', 'yearBorn': 1968, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Harry  Kiil', 'age': 50, 'title': 'Executive VP & President of Cardiovascular Portfolio', 'yearBorn': 1975, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1798675200
 compensationRisk	6
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'MDT announced a cash dividend of $0.72 with an ex-date of Sep. 25, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1790308800000, 'amount': '0.72'}}]
 country	Ireland
 cryptoTradeable	False
 currency	USD
-currentPrice	93.35
+currentPrice	91.14
 currentRatio	2.126
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	93.55
-dayLow	91.73
+dayHigh	92.82
+dayLow	91.11
 debtToEquity	58.214
-discount_to_intrinsic_value	42.69
+discount_to_intrinsic_value	43.32
 displayName	Medtronic
-dividendDate	1784246400
+dividendDate	1792108800
 dividendRate	2.88
-dividendYield	3.09
+dividendYield	3.1
 earningsCallTimestampEnd	1788292800
 earningsCallTimestampStart	1788292800
 earningsGrowth	0.183
@@ -47,12 +47,12 @@ earningsTimestampEnd	1788265800
 earningsTimestampStart	1788265800
 ebitda	10103000064
 ebitdaMargins	0.27783
-enterpriseToEbitda	13.86
-enterpriseToRevenue	3.851
-enterpriseValue	140030214144
+enterpriseToEbitda	13.803
+enterpriseToRevenue	3.835
+enterpriseValue	139454201856
 epsCurrentYear	5.94885
-epsForward	6.41042
-epsTrailingTwelveMonths	3.77
+epsForward	6.40455
+epsTrailingTwelveMonths	3.73
 eps_normalized_growth	0.18775891995319616
 esgPopulated	False
 exDividendDate	1790294400
@@ -62,35 +62,37 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	353 1 438 1798
-fiftyDayAverage	84.3532
-fiftyDayAverageChange	8.996796
-fiftyDayAverageChangePercent	0.106656246
-fiftyTwoWeekChangePercent	1.4232993
+fiftyDayAverage	84.6046
+fiftyDayAverageChange	6.5354004
+fiftyDayAverageChangePercent	0.0772464
+fiftyTwoWeekChangePercent	0.7810831
 fiftyTwoWeekHigh	106.33
-fiftyTwoWeekHighChange	-12.980003
-fiftyTwoWeekHighChangePercent	-0.12207282
+fiftyTwoWeekHighChange	-15.190002
+fiftyTwoWeekHighChangePercent	-0.14285716
 fiftyTwoWeekLow	73.31
-fiftyTwoWeekLowChange	20.04
-fiftyTwoWeekLowChangePercent	0.27335972
+fiftyTwoWeekLowChange	17.830002
+fiftyTwoWeekLowChangePercent	0.24321379
 fiftyTwoWeekRange	73.31 - 106.33
 financialCurrency	USD
 firstTradeDateMilliseconds	105197400000
 fiveYearAvgDividendYield	3.06
 floatShares	1277497900
-forwardEps	6.41042
-forwardPE	14.562228
+forwardEps	6.40455
+forwardPE	14.230508
 freeCashflow	4625375232
 fullExchangeName	NYSE
 fullTimeEmployees	95000
-fulldayPrice	92.7
+fulldayChange	-1.7600021
+fulldayChangePercent	-1.8945125
+fulldayPrice	91.14
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	162.88
+graham_intrinsic_value	160.81
 grossMargins	0.65309
 grossProfits	23748999168
 hasPrePostMarketData	True
 heldPercentInsiders	0.0039399997
-heldPercentInstitutions	0.88795996
+heldPercentInstitutions	0.88568
 impliedSharesOutstanding	1279980861
 industry	Medical Devices
 industryDisp	Medical Devices
@@ -105,31 +107,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Medtronic plc develops, manufactures, and sells device-based medical therapies to healthcare systems, physicians, clinicians, and patients in the United States, Ireland, and internationally. It operates through three segments: The Cardiovascular Portfolio, Neuroscience Portfolio, and Medical Surgical Portfolio. The Cardiovascular Portfolio segment offers implantable cardiac pacemakers, cardioverter defibrillators, and cardiac resynchronization therapy devices; cardiac ablation products; insertable cardiac monitor systems; TYRX products; and remote monitoring and patient-centered software. It also provides aortic valves, surgical valve replacement and repair products, endovascular stent grafts and accessories, and transcatheter pulmonary valves, left atrial appendage exclusion systems, extracorporeal membrane oxygenation (ECMO) systems and percutaneous coronary intervention products, percutaneous angioplasty balloons, and endovenous products. The Neuroscience Portfolio segment offers medical devices and implants, biologic solutions, spinal cord stimulation and brain modulation systems, implantable drug infusion systems, and interventional products, as well as nerve ablation system under the Accurian name. This segment offers its products for spinal surgeons, neurosurgeons, neurologists, pain management specialists, anesthesiologists, orthopedic surgeons, urologists, urogynecologists, and interventional radiologists, as well as ear, nose, and throat specialists, and energy surgical instruments. The Medical Surgical Portfolio segment offers surgical stapling devices, vessel sealing instruments, wound closure and electrosurgery products, AI-powered surgical video and analytics platform, robotic-assisted surgery products, hernia mechanical devices, mesh implants, gynecology products, gastrointestinal and hepatologic diagnostics and therapies, and therapies to treat diseases and conditions, and patient monitoring and airway management products, as well as insulin pumps and consumables, continuous glucose monitoring systems, and sensors. Medtronic plc was founded in 1949 and is headquartered in Galway, Ireland.
 longName	Medtronic plc
 market	us_market
-marketCap	119486201856
-marketState	CLOSED
+marketCap	116657446912
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_31348
 mostRecentQuarter	1776988800
 netIncomeToCommon	4800999936
 nextFiscalYearEnd	1808524800
-nonDilutedMarketCap	119486213374
+nonDilutedMarketCap	118910221986
 numberOfAnalystOpinions	25
-open	92.57
+open	92.275
 operatingCashflow	7329999872
 operatingMargins	0.22045
 overallRisk	7
 payoutRatio	0.7614
-pegRatio	1.86
+pegRatio	1.84
 phone	353 1 438 1700
-postMarketChange	-0.6500015
-postMarketChangePercent	-0.6963059
-postMarketPrice	92.7
-postMarketTime	1787356776
-previousClose	92.3
-priceEpsCurrentYear	15.692108
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	91.14
+postMarketTime	1787697021
+previousClose	92.9
+priceEpsCurrentYear	15.320608
 priceHint	2
-priceToBook	2.4160151
-priceToSalesTrailing12Months	3.2858377
+priceToBook	2.3588178
+priceToSalesTrailing12Months	3.2080476
 profitMargins	0.13203
 quickRatio	1.361
 quoteSourceName	Nasdaq Real Time Price
@@ -137,16 +139,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.7931
 region	US
-regularMarketChange	1.05
-regularMarketChangePercent	1.13759
-regularMarketDayHigh	93.55
-regularMarketDayLow	91.73
-regularMarketDayRange	91.73 - 93.55
-regularMarketOpen	92.57
-regularMarketPreviousClose	92.3
-regularMarketPrice	93.35
-regularMarketTime	1787342402
-regularMarketVolume	7494004
+regularMarketChange	-1.76
+regularMarketChangePercent	-1.89451
+regularMarketDayHigh	92.82
+regularMarketDayLow	91.11
+regularMarketDayRange	91.11 - 92.82
+regularMarketOpen	92.275
+regularMarketPreviousClose	92.9
+regularMarketPrice	91.14
+regularMarketTime	1787688002
+regularMarketVolume	6797703
 returnOnAssets	0.04917
 returnOnEquity	0.098409995
 revenueGrowth	0.099
@@ -175,15 +177,15 @@ totalDebt	29148999680
 totalRevenue	36364001280
 tradeable	False
 trailingAnnualDividendRate	2.84
-trailingAnnualDividendYield	0.030769229
-trailingEps	3.77
-trailingPE	24.761272
-trailingPegRatio	1.8427
+trailingAnnualDividendYield	0.030570505
+trailingEps	3.73
+trailingPE	24.434317
+trailingPegRatio	1.8338
 triggerable	True
-twoHundredDayAverage	89.79945
-twoHundredDayAverageChange	3.5505447
-twoHundredDayAverageChangePercent	0.0395386
+twoHundredDayAverage	89.81185
+twoHundredDayAverageChange	1.3281479
+twoHundredDayAverageChangePercent	0.014788114
 typeDisp	Equity
-volume	7494004
+volume	6797703
 website	https://www.medtronic.com
 zip	H91 4K49

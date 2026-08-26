@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	126198.07
 allTimeLow	171.51
-averageDailyVolume10Day	29765541176
-averageDailyVolume3Month	28144326862
-averageVolume	28144326862
-averageVolume10days	29765541176
+averageDailyVolume10Day	36433844762
+averageDailyVolume3Month	28786504782
+averageVolume	28786504782
+averageVolume10days	36433844762
 blockNumber	771565
 blockReward	6.25
 blockRewardReduction	50%
-circulatingSupply	20071518
+circulatingSupply	20075162
 coinImageUrl	https://s2.coinmarketcap.com/static/img/coins/64x64/1.png
 coinMarketCapLink	https://coinmarketcap.com/currencies/bitcoin
 companyOfficers	[]
@@ -18,28 +18,28 @@ currency	USD
 customPriceAlertConfidence	HIGH
 dayHigh	65713.91
 dayLow	64182.797
-description	Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 20,071,518. The last known price of Bitcoin is 76,986.68458154 USD and is up 0.15 over the last 24 hours. It is currently trading on 12700 active market(s) with $53,463,262,403.04 traded over the last 24 hours. More information can be found at https://bitcoin.org/.
+description	Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 20,075,012. The last known price of Bitcoin is 79,103.59887762 USD and is down -0.68 over the last 24 hours. It is currently trading on 12715 active market(s) with $55,218,820,594.46 traded over the last 24 hours. More information can be found at https://bitcoin.org/.
 esgPopulated	False
 exchange	CCC
 exchangeDataDelayedBy	0
 exchangeTimezoneName	UTC
 exchangeTimezoneShortName	UTC
 executiveTeam	[]
-fiftyDayAverage	64570.555
-fiftyDayAverageChange	12712.453
-fiftyDayAverageChangePercent	0.19687694
-fiftyTwoWeekChangePercent	-32.103455
+fiftyDayAverage	65463.01
+fiftyDayAverageChange	13374.418
+fiftyDayAverageChangePercent	0.20430496
+fiftyTwoWeekChangePercent	-29.371553
 fiftyTwoWeekHigh	126198.07
-fiftyTwoWeekHighChange	-48915.062
-fiftyTwoWeekHighChangePercent	-0.38760546
+fiftyTwoWeekHighChange	-47360.64
+fiftyTwoWeekHighChangePercent	-0.37528816
 fiftyTwoWeekLow	57747.766
-fiftyTwoWeekLowChange	19535.242
-fiftyTwoWeekLowChangePercent	0.33828568
+fiftyTwoWeekLowChange	21089.664
+fiftyTwoWeekLowChangePercent	0.3652031
 fiftyTwoWeekRange	57747.766 - 126198.07
 firstTradeDateMilliseconds	1410912000000
 fromCurrency	BTC
 fullExchangeName	CCC
-fulldayPrice	77283.01
+fulldayPrice	78837.43
 fullyDilutedValue	1342445343750
 gmtOffSetMilliseconds	0
 hasPrePostMarketData	False
@@ -48,7 +48,7 @@ lastMarket	Coinbase
 logoUrl	https://s2.coinmarketcap.com/static/img/coins/64x64/1.png
 longName	Bitcoin USD
 market	ccc_market
-marketCap	1551348924416
+marketCap	1579819597824
 marketState	REGULAR
 maxAge	86400
 maxSupply	21000000
@@ -61,32 +61,32 @@ priceHint	2
 quoteSourceName	CoinMarketCap
 quoteType	CRYPTOCURRENCY
 region	US
-regularMarketChange	279.08594
-regularMarketChangePercent	0.3624308
-regularMarketDayHigh	78767.34
-regularMarketDayLow	76628.17
-regularMarketDayRange	76628.17 - 78767.34
-regularMarketOpen	78326.97
-regularMarketPreviousClose	78326.97
-regularMarketPrice	77283.01
-regularMarketTime	1787427005
-regularMarketVolume	47005470720
+regularMarketChange	102.82031
+regularMarketChangePercent	0.13059099
+regularMarketDayHigh	81023.414
+regularMarketDayLow	77978.53
+regularMarketDayRange	77978.53 - 81023.414
+regularMarketOpen	78982.266
+regularMarketPreviousClose	78982.266
+regularMarketPrice	78837.43
+regularMarketTime	1787697339
+regularMarketVolume	46536552448
 shortName	Bitcoin USD
 sourceInterval	15
 startDate	1278979200
 symbol	BTC-USD
 toCurrency	USD=X
-totalSupply	20071518
+totalSupply	20075162
 tradeable	False
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	68973.59
-twoHundredDayAverageChange	8309.414
-twoHundredDayAverageChangePercent	0.120472394
+twoHundredDayAverage	69085.83
+twoHundredDayAverageChange	9751.602
+twoHundredDayAverageChangePercent	0.14115198
 typeDisp	Cryptocurrency
 volume	25416081408
-volume24Hr	47005470720
+volume24Hr	46536552448
 volume24HrMarketCapPercent	0.019739863
-volumeAllCurrencies	47005470720
+volumeAllCurrencies	46536552448
 website	https://bitcoin.org/
 whitepaper	https://bitcoin.org/bitcoin.pdf

@@ -2,22 +2,22 @@ Metric	Value
 allTimeHigh	83.86
 allTimeLow	8.083333
 ask	35.13
-askSize	20900
-averageDailyVolume10Day	21866540
-averageDailyVolume3Month	21778664
-averageVolume	21778664
-averageVolume10days	21866540
+askSize	31300
+averageDailyVolume10Day	21870470
+averageDailyVolume3Month	21816900
+averageVolume	21816900
+averageVolume10days	21870470
 beta3Year	0.56
-bid	35.15
-bidSize	34000
+bid	35.12
+bidSize	51000
 category	Large Value
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	35.21
-dayLow	34.91
+dayHigh	35.15
+dayLow	34.94
 dividendYield	3.13
 epsTrailingTwelveMonths	1.7320725
 esgPopulated	False
@@ -26,10 +26,10 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	33.0686
-fiftyDayAverageChange	2.041401
-fiftyDayAverageChangePercent	0.061732307
-fiftyTwoWeekChangePercent	26.431406
+fiftyDayAverage	33.1222
+fiftyDayAverageChange	1.9878006
+fiftyDayAverageChangePercent	0.060014147
+fiftyTwoWeekChangePercent	26.882887
 fiftyTwoWeekHigh	35.31
 fiftyTwoWeekHighChange	-0.20000076
 fiftyTwoWeekHighChangePercent	-0.005664139
@@ -38,9 +38,11 @@ fiftyTwoWeekLowChange	8.790001
 fiftyTwoWeekLowChangePercent	0.3339666
 fiftyTwoWeekRange	26.32 - 35.31
 firstTradeDateMilliseconds	1319117400000
-fiveYearAverageReturn	0.1018949
+fiveYearAverageReturn	0.1036608
 fullExchangeName	NYSEArca
-fulldayPrice	35.2096
+fulldayChange	-0.0902977
+fulldayChangePercent	-0.2564547
+fulldayPrice	35.1197
 fundFamily	Schwab ETFs
 fundInceptionDate	1319068800
 gmtOffSetMilliseconds	-14400000
@@ -50,37 +52,37 @@ legalType	Exchange Traded Fund
 longBusinessSummary	To pursue its goal, the fund generally invests in stocks that are included in the index. The index is designed to measure the performance of high dividend yielding stocks issued by U.S. companies that have a record of consistently paying dividends, selected for fundamental strength relative to their peers, based on financial ratios. The fund will invest at least 90% of its net assets in these stocks.
 longName	Schwab U.S. Dividend Equity ETF
 market	us_market
-marketState	CLOSED
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_141947998
-navPrice	34.82
+navPrice	35.1
 netAssets	104163942000.0
 netExpenseRatio	0.06
-open	34.935
+open	35.109
 phone	1-800-435-4000
-postMarketChange	0.09959793
-postMarketChangePercent	0.28367397
-postMarketPrice	35.2096
-postMarketTime	1787356785
-previousClose	34.83
+postMarketChange	0.009700775
+postMarketChangePercent	0.027629664
+postMarketPrice	35.1197
+postMarketTime	1787697325
+previousClose	35.21
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.279999
-regularMarketChangePercent	0.803901
-regularMarketDayHigh	35.21
-regularMarketDayLow	34.91
-regularMarketDayRange	34.91 - 35.21
-regularMarketOpen	34.935
-regularMarketPreviousClose	34.83
+regularMarketChange	-0.0999985
+regularMarketChangePercent	-0.284006
+regularMarketDayHigh	35.15
+regularMarketDayLow	34.94
+regularMarketDayRange	34.94 - 35.15
+regularMarketOpen	35.109
+regularMarketPreviousClose	35.21
 regularMarketPrice	35.11
-regularMarketTime	1787342400
-regularMarketVolume	19176246
+regularMarketTime	1787688000
+regularMarketVolume	26544904
 shortName	Schwab US Dividend Equity ETF
 sourceInterval	15
 symbol	SCHD
-threeYearAverageReturn	0.1662943
+threeYearAverageReturn	0.1696233
 totalAssets	104163942400
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -90,10 +92,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	5.16642
 trailingThreeMonthReturns	5.16642
 triggerable	True
-twoHundredDayAverage	30.73105
-twoHundredDayAverageChange	4.37895
-twoHundredDayAverageChangePercent	0.1424927
+twoHundredDayAverage	30.7749
+twoHundredDayAverageChange	4.3351
+twoHundredDayAverageChangePercent	0.1408648
 typeDisp	ETF
-volume	19176246
+volume	26544904
 yield	0.0313
 ytdReturn	23.90695

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.075416565
-SandP52WeekChange	0.19179821
+52WeekChange	0.08670223
+SandP52WeekChange	0.1835649
 address1	11995 El Camino Real
 allTimeHigh	82.28682
 allTimeLow	7.388566
-ask	62.85
+ask	62.92
 askSize	400
 auditRisk	5
 averageAnalystRating	2.5 - Buy
-averageDailyVolume10Day	5808470
-averageDailyVolume3Month	5921180
-averageVolume	5921180
-averageVolume10days	5808470
+averageDailyVolume10Day	5596300
+averageDailyVolume3Month	5889003
+averageVolume	5889003
+averageVolume10days	5596300
 beta	0.72
-bid	62.6
-bidSize	1000
+bid	62.83
+bidSize	400
 boardRisk	1
 bookValue	41.798
 city	San Diego
@@ -25,18 +25,18 @@ corporateActions	[{'header': 'Dividend', 'message': 'O announced a cash dividend
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	62.6
+currentPrice	62.83
 currentRatio	1.528
 customPriceAlertConfidence	HIGH
 dateShortInterest	1785456000
-dayHigh	63.4
-dayLow	62.5
+dayHigh	63.1
+dayLow	62.63
 debtToEquity	74.722
-discount_to_intrinsic_value	16.74
+discount_to_intrinsic_value	16.26
 displayName	Realty Income
 dividendDate	1789430400
 dividendRate	3.25
-dividendYield	5.19
+dividendYield	5.15
 earningsCallTimestampEnd	1785963600
 earningsCallTimestampStart	1785963600
 earningsGrowth	0.692
@@ -46,9 +46,9 @@ earningsTimestampEnd	1793649600
 earningsTimestampStart	1793649600
 ebitda	5357639168
 ebitdaMargins	0.8833
-enterpriseToEbitda	17.243
-enterpriseToRevenue	15.231
-enterpriseValue	92381609984
+enterpriseToEbitda	17.344
+enterpriseToRevenue	15.32
+enterpriseValue	92920954880
 epsCurrentYear	1.68613
 epsForward	1.58522
 epsTrailingTwelveMonths	1.37
@@ -61,35 +61,37 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	(858) 481-4860
-fiftyDayAverage	63.1834
-fiftyDayAverageChange	-0.5834007
-fiftyDayAverageChangePercent	-0.00923345
-fiftyTwoWeekChangePercent	7.5416565
+fiftyDayAverage	63.2086
+fiftyDayAverageChange	-0.37859726
+fiftyDayAverageChangePercent	-0.005989648
+fiftyTwoWeekChangePercent	8.670223
 fiftyTwoWeekHigh	67.94
-fiftyTwoWeekHighChange	-5.340004
-fiftyTwoWeekHighChangePercent	-0.07859882
+fiftyTwoWeekHighChange	-5.1100006
+fiftyTwoWeekHighChangePercent	-0.07521343
 fiftyTwoWeekLow	55.86
-fiftyTwoWeekLowChange	6.739998
-fiftyTwoWeekLowChangePercent	0.12065875
+fiftyTwoWeekLowChange	6.970001
+fiftyTwoWeekLowChangePercent	0.124776244
 fiftyTwoWeekRange	55.86 - 67.94
 financialCurrency	USD
 firstTradeDateMilliseconds	782487000000
 fiveYearAvgDividendYield	5.07
 floatShares	944060656
 forwardEps	1.58522
-forwardPE	39.489788
+forwardPE	39.63488
 freeCashflow	1582081920
 fullExchangeName	NYSE
 fullTimeEmployees	544
-fulldayPrice	62.74
+fulldayChange	-0.25169754
+fulldayChangePercent	-0.39844474
+fulldayPrice	62.9183
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1785542400
-graham_intrinsic_value	75.19
+graham_intrinsic_value	75.03
 grossMargins	0.9268
 grossProfits	5621530112
 hasPrePostMarketData	True
 heldPercentInsiders	0.00124
-heldPercentInstitutions	0.81701
+heldPercentInstitutions	0.81702006
 impliedSharesOutstanding	946218033
 industry	REIT - Retail
 industryDisp	REIT - Retail
@@ -102,51 +104,51 @@ lastDividendValue	0.271
 lastFiscalYearEnd	1767139200
 lastSplitDate	1636934400
 lastSplitFactor	1032:1000
-longBusinessSummary	Realty Income Corporation, an S&P 500 company, is real estate partner to the world's leading companies. They serve their clients as a full-service real estate capital provider. As of March 31, 2026, they have a portfolio of over 15,500 properties in all 50 U.S. states, the U.K., and eight other countries in Europe. They are known as (The Monthly Dividend Company) and have a mission to invest in people and places to deliver dependable monthly dividends that increase over time. Since founding, they have declared 673 consecutive monthly dividends and are a member of the S&P 500 Dividend Aristocrats index for having increased dividend for over 31 consecutive years. The firm was founded and incorporated in 1969 in Maryland and is based in San Diego, California.
+longBusinessSummary	Realty Income Corporation, an S&P 500 company, is real estate partner to the world's leading companies. Founded in 1969, we serve our clients as a full-service real estate capital provider. As of June 30, 2026, we have a portfolio of over 15,500 properties in all 50 U.S. states, the U.K., and eight other countries in Europe. We are known as "The Monthly Dividend Company" and have a mission to invest in people and places to deliver dependable monthly dividends that increase over time. Since our founding, we have declared 674 consecutive monthly dividends and are a member of the S&P 500 Dividend Aristocrats index for having increased our dividend for over 31 consecutive years. Realty Income Corporation was founded in 1969 and was incorporated in Maryland.
 longName	Realty Income Corporation
 market	us_market
-marketCap	59233247232
-marketState	CLOSED
+marketCap	59450880000
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_339305
 mostRecentQuarter	1782777600
 netIncomeToCommon	1267576960
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	59233248865
+nonDilutedMarketCap	59772593144
 numberOfAnalystOpinions	20
-open	63.28
+open	62.95
 operatingCashflow	4166153984
 operatingMargins	0.46965998
 overallRisk	4
 payoutRatio	2.3641999
 pegRatio	2.97
 phone	(858) 284-5000
-postMarketChange	0.1400032
-postMarketChangePercent	0.2236473
-postMarketPrice	62.74
-postMarketTime	1787356695
+postMarketChange	0.0882988
+postMarketChangePercent	0.14053604
+postMarketPrice	62.9183
+postMarketTime	1787697255
 previousClose	63.17
-priceEpsCurrentYear	37.126434
+priceEpsCurrentYear	37.262844
 priceHint	2
-priceToBook	1.4976792
-priceToSalesTrailing12Months	9.765586
+priceToBook	1.503182
+priceToSalesTrailing12Months	9.801466
 profitMargins	0.20898001
 quickRatio	0.741
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.5
 region	US
-regularMarketChange	-0.57
-regularMarketChangePercent	-0.902327
-regularMarketDayHigh	63.4
-regularMarketDayLow	62.5
-regularMarketDayRange	62.5 - 63.4
-regularMarketOpen	63.28
+regularMarketChange	-0.339996
+regularMarketChangePercent	-0.538224
+regularMarketDayHigh	63.1
+regularMarketDayLow	62.63
+regularMarketDayRange	62.63 - 63.1
+regularMarketOpen	62.95
 regularMarketPreviousClose	63.17
-regularMarketPrice	62.6
-regularMarketTime	1787342402
-regularMarketVolume	4093490
+regularMarketPrice	62.83
+regularMarketTime	1787688002
+regularMarketVolume	4368734
 returnOnAssets	0.02359
 returnOnEquity	0.03225
 revenueGrowth	0.096
@@ -178,13 +180,13 @@ tradeable	False
 trailingAnnualDividendRate	3.235
 trailingAnnualDividendYield	0.051211018
 trailingEps	1.37
-trailingPE	45.693428
-trailingPegRatio	2.9694
+trailingPE	45.861317
+trailingPegRatio	2.9964
 triggerable	True
-twoHundredDayAverage	61.59235
-twoHundredDayAverageChange	1.0076485
-twoHundredDayAverageChangePercent	0.01635996
+twoHundredDayAverage	61.6275
+twoHundredDayAverageChange	1.2025032
+twoHundredDayAverageChangePercent	0.019512445
 typeDisp	Equity
-volume	4093490
+volume	4368734
 website	https://www.realtyincome.com
 zip	92130

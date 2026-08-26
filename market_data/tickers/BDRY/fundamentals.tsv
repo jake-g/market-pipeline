@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	42.22
 allTimeLow	3.75
-ask	15.0
-askSize	4800
-averageDailyVolume10Day	31320
-averageDailyVolume3Month	50046
-averageVolume	50046
-averageVolume10days	31320
+ask	15.07
+askSize	200
+averageDailyVolume10Day	23450
+averageDailyVolume3Month	49688
+averageVolume	49688
+averageVolume10days	23450
 beta3Year	2.65
-bid	14.77
-bidSize	2400
+bid	14.94
+bidSize	100
 category	Miscellaneous Sector
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	14.8
-dayLow	14.402
+dayHigh	15.15
+dayLow	14.7
 dividendYield	0.0
 epsTrailingTwelveMonths	1.63724
 esgPopulated	False
@@ -26,21 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	12.87558
-fiftyDayAverageChange	1.8744202
-fiftyDayAverageChangePercent	0.14557947
-fiftyTwoWeekChangePercent	73.52941
-fiftyTwoWeekHigh	14.8
-fiftyTwoWeekHighChange	-0.05000019
-fiftyTwoWeekHighChangePercent	-0.0033783913
+fiftyDayAverage	12.91898
+fiftyDayAverageChange	2.14602
+fiftyDayAverageChangePercent	0.16611373
+fiftyTwoWeekChangePercent	70.81396
+fiftyTwoWeekHigh	15.15
+fiftyTwoWeekHighChange	-0.08500004
+fiftyTwoWeekHighChangePercent	-0.005610564
 fiftyTwoWeekLow	7.41
-fiftyTwoWeekLowChange	7.34
-fiftyTwoWeekLowChangePercent	0.9905533
-fiftyTwoWeekRange	7.41 - 14.8
+fiftyTwoWeekLowChange	7.6549997
+fiftyTwoWeekLowChangePercent	1.0330634
+fiftyTwoWeekRange	7.41 - 15.15
 firstTradeDateMilliseconds	1521725400000
-fiveYearAverageReturn	-0.1389465
+fiveYearAverageReturn	-0.13225509
 fullExchangeName	NYSEArca
-fulldayPrice	14.75
+fulldayChange	0.375
+fulldayChangePercent	2.552757
+fulldayPrice	15.07
 fundFamily	Amplify ETFs
 fundInceptionDate	1521590400
 gmtOffSetMilliseconds	-14400000
@@ -50,50 +52,50 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund seeks to achieve its investment objective by investing substantially all of its assets in the Freight Futures currently constituting the Benchmark Portfolio. The Benchmark Portfolio includes a combination of Capesize, Panamax and Supramax Freight Futures.
 longName	Breakwave Dry Bulk Shipping ETF
 market	us_market
-marketState	CLOSED
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_539579359
-navPrice	14.2723
+navPrice	14.6782
 netAssets	29691608.0
 netExpenseRatio	3.5
-open	14.402
+open	14.73
 phone	(908) 897-0510
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	14.75
-postMarketTime	1787355006
-previousClose	14.19
+postMarketChange	0.0050001144
+postMarketChangePercent	0.033190273
+postMarketPrice	15.07
+postMarketTime	1787696576
+previousClose	14.69
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.56
-regularMarketChangePercent	3.94644
-regularMarketDayHigh	14.8
-regularMarketDayLow	14.402
-regularMarketDayRange	14.402 - 14.8
-regularMarketOpen	14.402
-regularMarketPreviousClose	14.19
-regularMarketPrice	14.75
-regularMarketTime	1787342400
-regularMarketVolume	45871
+regularMarketChange	0.375
+regularMarketChangePercent	2.55276
+regularMarketDayHigh	15.15
+regularMarketDayLow	14.7
+regularMarketDayRange	14.7 - 15.15
+regularMarketOpen	14.73
+regularMarketPreviousClose	14.69
+regularMarketPrice	15.065
+regularMarketTime	1787687969
+regularMarketVolume	74945
 shortName	Breakwave Dry Bulk Shipping ETF
 sourceInterval	15
 symbol	BDRY
-threeYearAverageReturn	0.3859633
+threeYearAverageReturn	0.42568877
 totalAssets	29691608
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	9.009064
+trailingPE	9.201461
 trailingPegRatio	None
 trailingThreeMonthNavReturns	16.69607
 trailingThreeMonthReturns	16.69607
 triggerable	True
-twoHundredDayAverage	11.126495
-twoHundredDayAverageChange	3.6235046
-twoHundredDayAverageChangePercent	0.32566452
+twoHundredDayAverage	11.159045
+twoHundredDayAverageChange	3.9059544
+twoHundredDayAverageChangePercent	0.35002586
 typeDisp	ETF
-volume	45871
+volume	74945
 yield	0.0
 ytdReturn	54.36235
