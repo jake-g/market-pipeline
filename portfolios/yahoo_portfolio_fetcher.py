@@ -1,10 +1,12 @@
 """Fetches portfolio data from Yahoo Finance."""
 
 import argparse
+import base64
 import json
 import logging
 import os
 import re
+import select
 import shlex
 import shutil
 import subprocess
@@ -111,6 +113,23 @@ def parse_curl_command(curl_text: str) -> dict:
     crumb = query_params.get('crumb', [None])[0]
     user_id = query_params.get('userId', [None])[0]
 
+    if not user_id and cookie:
+      try:
+        for part in cookie.split(";"):
+          if "OTH=" in part and "d=" in part:
+            d_match = re.search(r"d=([^&;]+)", part)
+            if d_match:
+              jwt_payload = d_match.group(1).split(".")[1]
+              padded = jwt_payload + "=" * (-len(jwt_payload) % 4)
+              data_str = base64.b64decode(padded).decode("utf-8",
+                                                         errors="ignore")
+              guid_match = re.search(r'"guid"\s*:\s*"([A-Za-z0-9]+)"', data_str)
+              if guid_match:
+                user_id = guid_match.group(1)
+                break
+      except Exception:
+        pass
+
     return {
         "cookie": cookie,
         "crumb": crumb,
@@ -160,280 +179,103 @@ def save_credentials_to_env(
     raise SystemExit(1) from e
 
 
-def browser_capture_yahoo_creds(env_path: str) -> bool:
-  """Automated browser capture of Yahoo Finance credentials using Playwright."""
-  try:
-    from playwright.sync_api import sync_playwright
-  except ImportError:
-    logger.warning("Playwright not installed.")
-    return False
-
-  profile_dir = Path.home() / ".yahoo_finance" / "browser_profile"
-  profile_dir.mkdir(parents=True, exist_ok=True, mode=0o700)
-
-  logger.info("\n🔐 Spawning browser login flow for Yahoo Finance...")
-  logger.info("Opening browser to: https://finance.yahoo.com/portfolios")
-  logger.info("Using persistent profile: %s", profile_dir)
-  login_email = os.environ.get("YF_LOGIN_EMAIL", "jakehgarrison@gmail.com")
-  logger.info("\nInstructions:")
-  logger.info("1. Log in to Yahoo Finance with account (%s) if signed out.",
-              login_email)
-  logger.info("2. View your Portfolios page.")
-  logger.info(
-      "3. Credentials will be automatically captured when portfolio data loads.\n"
-  )
-
-  captured: Dict[str, str] = {}
-  captured_headers: Optional[dict] = None
-
-  try:
-    with sync_playwright() as p:
-      context = p.chromium.launch_persistent_context(
-          user_data_dir=str(profile_dir),
-          headless=False,
-          args=[
-              "--disable-blink-features=AutomationControlled",
-              "--password-store=basic",
-          ],
-          ignore_default_args=["--enable-automation"],
-      )
-      page = context.pages[0] if context.pages else context.new_page()
-
-      def handle_request(request):
-        nonlocal captured_headers
-        url = request.url
-        if ("query1.finance.yahoo.com" in url or "query2.finance.yahoo.com"
-            in url) and ("portfolio" in url or "crumb" in url):
-          parsed_url = urlparse(url)
-          query_params = parse_qs(parsed_url.query)
-          crumb = query_params.get("crumb", [None])[0]
-          user_id = query_params.get("userId", [None])[0]
-          req_headers = request.headers
-          cookie = req_headers.get("cookie") or req_headers.get("Cookie")
-
-          if cookie and crumb:
-            captured["cookie"] = cookie
-            captured["crumb"] = crumb
-            if user_id:
-              captured["user_id"] = user_id
-            captured_headers = dict(req_headers)
-
-      login_url = (
-          "https://login.yahoo.com/?done=https%3A%2F%2Ffinance.yahoo.com%2Fportfolios&src=finance"
-      )
-      page.on("request", handle_request)
-      logger.info("Opening browser directly to Yahoo Sign-In: %s", login_url)
-      page.goto(login_url)
-      try:
-        page.bring_to_front()
-      except Exception:
-        pass
-
-      start_wait = time.time()
-      last_log = 0
-      while time.time() - start_wait < 300:
-        if captured.get("cookie") and captured.get("crumb"):
-          logger.info(
-              "✅ Automatically captured Yahoo Finance request from browser!")
-          break
-        elapsed = int(time.time() - start_wait)
-        if elapsed - last_log >= 15:
-          logger.info(
-              "... waiting for Yahoo Finance login/portfolio data in browser (%ds)...",
-              elapsed,
-          )
-          last_log = elapsed
-        time.sleep(0.5)
-
-      # Fallback check using context session cookies
-      if not captured.get("cookie") or not captured.get("crumb"):
-        try:
-          cookies = context.cookies("https://finance.yahoo.com")
-          if cookies:
-            cookie_hdr = "; ".join(f"{c['name']}={c['value']}" for c in cookies)
-            resp = page.request.get(
-                "https://query1.finance.yahoo.com/v1/test/getcrumb")
-            if resp.status == 200:
-              crumb_val = resp.text().strip()
-              if crumb_val and "{" not in crumb_val:
-                captured["cookie"] = cookie_hdr
-                captured["crumb"] = crumb_val
-                logger.info(
-                    "✅ Captured Yahoo Finance crumb from API using browser session!"
-                )
-        except Exception as e:
-          logger.debug("Page context crumb check: %s", e)
-
-      context.close()
-
-  except Exception as e:
-    logger.warning("Playwright browser capture encountered an error: %s", e)
-    return False
-
-  if not captured.get("cookie") or not captured.get("crumb"):
-    return False
-
-  user_id = captured.get("user_id") or os.environ.get("YF_USER_ID", "")
-  save_credentials_to_env(
-      env_path,
-      captured["cookie"],
-      captured["crumb"],
-      user_id,
-      captured_headers,
-  )
-  return True
+CURL_AUTH_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              "yahoo_auth_curl.txt")
 
 
-def update_yahoo_credentials(env_path: str) -> None:
-  """Updates Yahoo Finance credentials."""
-  logger.info("\n🚨 Yahoo Finance credentials expired or missing!")
-  logger.info("Attempting automated browser credential capture...")
-  if browser_capture_yahoo_creds(env_path):
-    return
-
-  logger.info(
-      "Opening personal Google Chrome browser (already logged in with %s)...",
-      os.environ.get("YF_LOGIN_EMAIL", "jakehgarrison@gmail.com"),
-  )
-  prompt_for_curl_and_save_env(env_path)
-
-
-def prompt_for_curl_and_save_env(env_path: str):
-  """Prompts user to paste cURL, parses it, and saves to .env."""
-  logger.info(
-      "📋 MANUAL ACTION REQUIRED: Open Chrome -> Yahoo Portfolios -> Network Tab -> "
-      "Right-click the 'portfolio' request -> Copy as cURL")
-
-  chrome_url = "https://finance.yahoo.com/portfolios"
-  logger.info("Opening Google Chrome with DevTools to: %s", chrome_url)
-  try:
-    # pylint: disable=consider-using-with
-    subprocess.Popen([
-        "open", "-a", "Google Chrome", "--args",
-        "--auto-open-devtools-for-tabs", chrome_url
-    ])
-  except Exception as e:
-    logger.warning("Failed to open Google Chrome automatically: %s", e)
-    import webbrowser
-    webbrowser.open(chrome_url)
-
-  logger.info("\nChecking clipboard for 'Copy as cURL' command...")
-
-  curl_text = ""
-  if shutil.which("pbpaste"):
-    logger.info("Waiting for cURL command in clipboard...")
-    logger.info("Press Ctrl+C to abort at any time.")
-    start_wait = time.time()
-    last_heartbeat = 0
-    last_cookie_warn = ""
+def clear_curl_auth_file() -> None:
+  """Clears the cURL auth file when credentials expire."""
+  if os.path.exists(CURL_AUTH_FILE):
     try:
-      while True:
-        try:
-          result = subprocess.run(
-              ["pbpaste"],
-              capture_output=True,
-              text=True,
-              timeout=2,
-              check=True,
-          )
-          clipboard_content = result.stdout.strip()
-          if (clipboard_content.startswith("curl") and
-              ("portfolio" in clipboard_content or
-               "crumb=" in clipboard_content) and
-              ("query1.finance.yahoo.com" in clipboard_content or
-               "query2.finance.yahoo.com" in clipboard_content)):
-            parsed = parse_curl_command(clipboard_content)
-            if parsed.get("cookie") and parsed.get("crumb"):
-              logger.info(
-                  "✅ Found valid cURL with Cookie & Crumb in clipboard!")
-              curl_text = clipboard_content
-              break
-            if not parsed.get("cookie") and parsed.get("crumb"):
-              if last_cookie_warn != clipboard_content:
-                logger.warning(
-                    "⚠️ Found cURL in clipboard with crumb '%s' but MISSING"
-                    " Cookie header!\n   In Chrome DevTools, make sure to copy"
-                    " an authenticated GET request with cookies (e.g. status"
-                    " 200).",
-                    parsed.get("crumb"),
-                )
-                last_cookie_warn = clipboard_content
-        except Exception:
-          pass
+      with open(CURL_AUTH_FILE, "w", encoding="utf-8") as f:
+        f.truncate(0)
+    except Exception as e:
+      logger.debug("Failed to clear %s: %s", CURL_AUTH_FILE, e)
 
-        elapsed = int(time.time() - start_wait)
-        if elapsed - last_heartbeat >= 5:
-          logger.info("... still waiting for cURL in clipboard (%ds)...",
-                      elapsed)
-          last_heartbeat = elapsed
 
-        time.sleep(1.0)
-    except KeyboardInterrupt:
-      logger.info("\nAborted by user.")
-      sys.exit(1)
+def load_and_save_curl_from_file(env_path: str) -> bool:
+  """Reads portfolios/yahoo_auth_curl.txt, parses cURL, and saves to .env."""
+  if not os.path.exists(CURL_AUTH_FILE):
+    return False
+
+  try:
+    with open(CURL_AUTH_FILE, "r", encoding="utf-8") as f:
+      curl_text = f.read().strip()
+  except Exception as e:
+    logger.error("Failed to read %s: %s", CURL_AUTH_FILE, e)
+    return False
 
   if not curl_text:
-    logger.info("No pbpaste clipboard support, falling back to manual entry.")
-    logger.info("Paste the 'Copy as cURL' text below.")
-    logger.info("Press Ctrl+D (EOF) when finished (or Ctrl+C to abort):")
-    try:
-      curl_text = sys.stdin.read()
-    except KeyboardInterrupt:
-      logger.info("\nAborted by user.")
-      sys.exit(1)
-
-  if not curl_text.strip():
-    logger.error("No input provided.")
-    sys.exit(1)
+    return False
 
   credentials = parse_curl_command(curl_text)
   cookie = credentials.get("cookie", "")
   crumb = credentials.get("crumb")
 
-  if not cookie:
-    existing_cookie = os.environ.get("YF_COOKIE", "")
-    if existing_cookie and not existing_cookie.lower().startswith(
-        "user-agent:"):
-      logger.info(
-          "No Cookie header in cURL. Retaining existing YF_COOKIE from environment."
-      )
-      cookie = existing_cookie
-
   if not cookie or not crumb:
-    if not cookie:
-      logger.error(
-          "❌ Could not extract 'Cookie' header from the provided cURL command.")
-      logger.error(
-          "In Chrome DevTools, ensure you right-click an authenticated GET request:\n"
-          "  1. Go to https://finance.yahoo.com/portfolios\n"
-          "  2. Open DevTools (Network tab) and filter for 'portfolio' or 'getcrumb'\n"
-          "  3. Right-click the 'portfolio' request -> Copy -> Copy as cURL (bash)\n"
-          "  4. Verify the copied text contains '-H \"cookie: ...\"' or '-H \"Cookie: ...\"'"
-      )
-    if not crumb:
-      logger.error(
-          "❌ Could not extract 'crumb' parameter from the provided cURL command."
-      )
-    sys.exit(1)
+    logger.error("❌ Could not extract Cookie and Crumb from %s.",
+                 CURL_AUTH_FILE)
+    return False
 
-  user_id = credentials.get("user_id")
-  if not user_id:
-    existing_user_id = os.environ.get("YF_USER_ID")
-    if existing_user_id:
-      logger.info("No User ID in cURL. Retaining existing YF_USER_ID.")
-      user_id = existing_user_id
-    else:
-      logger.warning(
-          "No User ID extracted. Please manually add YF_USER_ID to .env.")
-      user_id = ""
+  user_id = credentials.get("user_id") or os.environ.get("YF_USER_ID", "")
+  headers = credentials.get("headers")
 
-  save_credentials_to_env(
-      env_path,
-      cookie,
-      crumb,
-      user_id,
-      credentials.get("headers"),
-  )
+  if not verify_yahoo_auth(cookie, crumb, custom_headers=headers):
+    logger.error("❌ Yahoo Auth verification failed. Clearing %s.",
+                 CURL_AUTH_FILE)
+    clear_curl_auth_file()
+    return False
+
+  save_credentials_to_env(env_path, cookie, crumb, user_id, headers)
+  logger.info("✅ Yahoo Finance Auth successfully updated from %s!",
+              CURL_AUTH_FILE)
+  return True
+
+
+def update_yahoo_credentials(env_path: str) -> bool:
+  """Updates Yahoo Finance credentials using portfolios/yahoo_auth_curl.txt."""
+  # 1. Check if user already pasted valid cURL into the file
+  if load_and_save_curl_from_file(env_path):
+    return True
+
+  # Ensure the file exists so the user can easily paste into it
+  if not os.path.exists(CURL_AUTH_FILE):
+    try:
+      with open(CURL_AUTH_FILE, "w", encoding="utf-8") as f:
+        pass
+    except Exception:
+      pass
+
+  # 2. If interactive, prompt user to paste into file or directly into terminal
+  if sys.stdin.isatty():
+    print("\n" + "=" * 72)
+    print("🔐 Yahoo Finance Auth Expired or Missing")
+    print("=" * 72)
+    print("1. In browser DevTools Network tab, filter for 'portfolio'")
+    print("2. Right-click the portfolio request -> Copy -> Copy as cURL")
+    print(f"3. Paste into: {CURL_AUTH_FILE}")
+    print("=" * 72)
+    try:
+      entry = input(
+          "Press Enter once saved to file (or paste cURL directly here): "
+      ).strip()
+      if entry.startswith("curl"):
+        lines = [entry]
+        while select.select([sys.stdin], [], [], 0.05)[0]:
+          line = sys.stdin.readline()
+          if not line:
+            break
+          lines.append(line)
+        full_curl = "".join(lines).strip()
+        with open(CURL_AUTH_FILE, "w", encoding="utf-8") as f:
+          f.write(full_curl)
+      return load_and_save_curl_from_file(env_path)
+    except (KeyboardInterrupt, EOFError):
+      logger.info("\nAborted by user.")
+      return False
+
+  logger.error("Paste your 'Copy as cURL' into %s and rerun.", CURL_AUTH_FILE)
+  return False
 
 
 def load_env_file(filepath: str):
@@ -487,14 +329,14 @@ def verify_yahoo_auth(cookie: str,
                      allow_redirects=False,
                      impersonate="chrome")
     if r.status_code in (401, 403):
+      clear_curl_auth_file()
       logger.error("Yahoo Auth Failed - HTTP %d. Credentials likely stale.",
                    r.status_code)
       logger.error("To update credentials:")
-      logger.error("  1. Visit: https://finance.yahoo.com/portfolio/")
-      logger.error("  2. Open DevTools (Network tab) and filter for:")
-      logger.error("     'portfolio'")
-      logger.error("  3. Right-click the 'portfolio' request -> Copy")
-      logger.error("     -> Copy as cURL")
+      logger.error(
+          "  1. In browser DevTools (Network tab), filter for: 'portfolio'")
+      logger.error("  2. Right-click the 'portfolio' request -> Copy as cURL")
+      logger.error("  3. Paste into: %s", CURL_AUTH_FILE)
       logger.error("  4. Run 'make yahoo-creds' to update them.")
       return False
     if r.status_code == 200:
@@ -589,12 +431,28 @@ def main():
   parser.add_argument("--check-auth",
                       action="store_true",
                       help="Verify Yahoo Finance credentials and exit.")
+  parser.add_argument(
+      "--curl",
+      type=str,
+      help="Directly pass a cURL command string to parse and save credentials.",
+  )
   args = parser.parse_args()
 
   logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
   env_path = os.path.join(os.path.dirname(__file__), ".env")
   load_env_file(env_path)
+
+  if args.curl:
+    with open(CURL_AUTH_FILE, "w", encoding="utf-8") as f:
+      f.write(args.curl)
+    if load_and_save_curl_from_file(env_path):
+      if args.check_auth or args.update_creds:
+        sys.exit(0)
+      load_env_file(env_path)
+    else:
+      logger.error("Failed to apply credentials passed via --curl.")
+      sys.exit(1)
 
   cookie = os.environ.get("YF_COOKIE")
   crumb = os.environ.get("YF_CRUMB")
@@ -625,27 +483,17 @@ def main():
       logger.error("❌ Yahoo Finance Auth Expired or Invalid")
       logger.error("To update credentials:")
 
-    logger.error("  1. Visit: https://finance.yahoo.com/portfolio/")
-    logger.error("  2. Open DevTools (Network tab) and filter for:")
-    logger.error("     'portfolio'")
-    logger.error("  3. Right-click the 'portfolio' request -> Copy")
-    logger.error("     -> Copy as cURL")
+    logger.error(
+        "  1. In browser DevTools (Network tab), filter for: 'portfolio'")
+    logger.error("  2. Right-click the 'portfolio' request -> Copy as cURL")
+    logger.error("  3. Paste into: %s", CURL_AUTH_FILE)
     logger.error("  4. Run 'make yahoo-creds' to update them.")
+    clear_curl_auth_file()
 
     if sys.stdin.isatty():
       logger.info("\n🔄 Interactive session detected. Starting update flow...")
-      update_yahoo_credentials(env_path)
-      cookie = os.environ.get("YF_COOKIE")
-      crumb = os.environ.get("YF_CRUMB")
-      headers_str = os.environ.get("YF_HEADERS")
-      custom_headers = None
-      if headers_str:
-        try:
-          custom_headers = json.loads(headers_str)
-        except Exception:
-          pass
-      if (cookie and crumb and
-          verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers)):
+      success = update_yahoo_credentials(env_path)
+      if success:
         logger.info("✅ Yahoo Finance Auth Valid after update")
         sys.exit(0)
       else:
@@ -684,8 +532,12 @@ def main():
 
       if needs_update:
         logger.info("Prompting for new credentials...")
-        update_yahoo_credentials(env_path)
+        success = update_yahoo_credentials(env_path)
+        if not success:
+          logger.error("Failed to update credentials. Exiting.")
+          sys.exit(1)
         # Reload env vars
+        load_env_file(env_path)
         cookie = os.environ.get("YF_COOKIE")
         crumb = os.environ.get("YF_CRUMB")
         user_id = os.environ.get("YF_USER_ID", "")
@@ -693,7 +545,7 @@ def main():
         if headers_str:
           try:
             custom_headers = json.loads(headers_str)
-          except:
+          except Exception:
             pass
 
         if not cookie or not crumb:

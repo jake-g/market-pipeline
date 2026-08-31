@@ -10,4 +10,4 @@ pushd "$PROJECT_ROOT" > /dev/null
 source ./run_env_setup.sh
 popd > /dev/null
 
-python "$(dirname "$0")/yahoo_portfolio_fetcher.py" --update-creds --dump
+python "$(dirname "$0")/yahoo_portfolio_fetcher.py" --update-creds --dump "$@"

@@ -222,7 +222,7 @@ portfolio-offline:
 # Update Yahoo Finance credentials
 yahoo-creds:
 	@echo "🔐 Launching Yahoo Finance credentials update..."
-	@./portfolios/update_yahoo_creds.sh
+	@./portfolios/update_yahoo_creds.sh $(ARGS)
 
 # Deploy temporary preview branch
 deploy-preview:

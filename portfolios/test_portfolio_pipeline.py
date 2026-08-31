@@ -1,10 +1,13 @@
 # pylint: disable=duplicate-code
+import base64
+import json
 import os
 import shutil
 import sys
 import tempfile
 import unittest
 from unittest.mock import MagicMock
+from unittest.mock import mock_open
 from unittest.mock import patch
 
 import pandas as pd
@@ -28,7 +31,7 @@ class TestPortfolioPipeline(unittest.TestCase):
     shutil.rmtree(self.temp_dir)
 
   @patch("portfolios.yahoo_portfolio_fetcher.logger")
-  def test_01_fetcher_with_local_json(self, mock_logger):
+  def test_fetcher_with_local_json(self, mock_logger):
     """Test the fetcher gracefully reads a local json and builds the expected files."""
     # Run fetcher on the mock file with PORTFOLIOS_DATA_DIR set to temp_dir
     with patch.dict(
@@ -55,7 +58,7 @@ class TestPortfolioPipeline(unittest.TestCase):
     self.assertTrue("CASH" in df['Ticker'].values)
 
   @patch("portfolios.portfolio_processor.logger")
-  def test_02_processor_ignores_examples(self, mock_logger):
+  def test_processor_ignores_examples(self, mock_logger):
     """Test the processor ignores files with example in the title."""
     active_path = os.path.join(self.temp_dir, "tsvs",
                                "example_active_account.tsv")
@@ -77,7 +80,7 @@ class TestPortfolioPipeline(unittest.TestCase):
     # The target files list should explicitly NOT contain our examples
     self.assertTrue(active_path not in target_files)
 
-  def test_03_parse_curl_command_valid(self):
+  def test_parse_curl_command_valid(self):
     """Test parsing cURL command with cookie, crumb, and userId."""
     curl_str = (
         "curl 'https://query2.finance.yahoo.com/v7/finance/desktop/portfolio"
@@ -89,7 +92,7 @@ class TestPortfolioPipeline(unittest.TestCase):
     self.assertEqual(res["user_id"], "user123")
     self.assertEqual(res["cookie"], "A1=test_cookie_val; A3=test_val2")
 
-  def test_04_parse_curl_command_no_cookie(self):
+  def test_parse_curl_command_no_cookie(self):
     """Test parsing cURL without cookie does not misinterpret User-Agent."""
     curl_str = (
         "curl 'https://query2.finance.yahoo.com/v7/finance/desktop/portfolio"
@@ -99,6 +102,71 @@ class TestPortfolioPipeline(unittest.TestCase):
     res = yahoo_portfolio_fetcher.parse_curl_command(curl_str)
     self.assertEqual(res["crumb"], "0HbnO0IZtE7")
     self.assertEqual(res["cookie"], "")
+
+  def test_parse_curl_extract_guid(self):
+    """Test extracting user_id from OTH cookie JWT payload."""
+    payload = json.dumps({"cu": {"guid": "GUID12345"}}).encode("utf-8")
+    b64 = base64.b64encode(payload).decode("utf-8")
+    oth_token = f"v=2&s=0&d=header.{b64}.sig"
+    curl_str = (
+        "curl 'https://query1.finance.yahoo.com/v7/finance/desktop/portfolio"
+        "?crumb=testcrumb' "
+        f"-b 'OTH={oth_token}; test=1'")
+    res = yahoo_portfolio_fetcher.parse_curl_command(curl_str)
+    self.assertEqual(res["crumb"], "testcrumb")
+    self.assertEqual(res["user_id"], "GUID12345")
+
+  @patch("portfolios.yahoo_portfolio_fetcher.logger")
+  @patch("portfolios.yahoo_portfolio_fetcher.verify_yahoo_auth")
+  @patch("portfolios.yahoo_portfolio_fetcher.save_credentials_to_env")
+  def test_load_and_save_curl_from_file(self, mock_save, mock_verify,
+                                        mock_logger):
+    """Test load_and_save_curl_from_file reads auth file and saves credentials."""
+    mock_verify.return_value = True
+    test_auth_file = os.path.join(self.temp_dir, "yahoo_auth_curl.txt")
+    with open(test_auth_file, "w", encoding="utf-8") as f:
+      f.write(
+          "curl 'https://query1.finance.yahoo.com/v7/finance/desktop/portfolio"
+          "?crumb=mycrumb&userId=u123' -H 'Cookie: A1=val'")
+
+    with patch("portfolios.yahoo_portfolio_fetcher.CURL_AUTH_FILE",
+               test_auth_file):
+      success = yahoo_portfolio_fetcher.load_and_save_curl_from_file(
+          os.path.join(self.temp_dir, ".env"))
+      self.assertTrue(success)
+      mock_save.assert_called_once()
+
+  def test_clear_curl_auth_file(self):
+    """Test clear_curl_auth_file truncates the auth file."""
+    test_auth_file = os.path.join(self.temp_dir, "yahoo_auth_curl.txt")
+    with open(test_auth_file, "w", encoding="utf-8") as f:
+      f.write("curl something")
+
+    with patch("portfolios.yahoo_portfolio_fetcher.CURL_AUTH_FILE",
+               test_auth_file):
+      yahoo_portfolio_fetcher.clear_curl_auth_file()
+      with open(test_auth_file, "r", encoding="utf-8") as f:
+        self.assertEqual(f.read(), "")
+
+  @patch("portfolios.yahoo_portfolio_fetcher.logger")
+  @patch("portfolios.yahoo_portfolio_fetcher.verify_yahoo_auth")
+  def test_load_and_save_curl_invalid_clears_file(self, mock_verify,
+                                                  mock_logger):
+    """Test that failed auth check clears the cURL auth file and returns False."""
+    mock_verify.return_value = False
+    test_auth_file = os.path.join(self.temp_dir, "yahoo_auth_curl.txt")
+    with open(test_auth_file, "w", encoding="utf-8") as f:
+      f.write(
+          "curl 'https://query1.finance.yahoo.com/v7/finance/desktop/portfolio"
+          "?crumb=stale_crumb&userId=u123' -H 'Cookie: A1=stale'")
+
+    with patch("portfolios.yahoo_portfolio_fetcher.CURL_AUTH_FILE",
+               test_auth_file):
+      success = yahoo_portfolio_fetcher.load_and_save_curl_from_file(
+          os.path.join(self.temp_dir, ".env"))
+      self.assertFalse(success)
+      with open(test_auth_file, "r", encoding="utf-8") as f:
+        self.assertEqual(f.read(), "")
 
 
 if __name__ == '__main__':
