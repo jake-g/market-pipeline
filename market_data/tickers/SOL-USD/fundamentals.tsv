@@ -1,11 +1,11 @@
 Metric	Value
 allTimeHigh	294.33496
 allTimeLow	0.505194
-averageDailyVolume10Day	3967001157
-averageDailyVolume3Month	2480931672
-averageVolume	2480931672
-averageVolume10days	3967001157
-circulatingSupply	583375680
+averageDailyVolume10Day	5861165737
+averageDailyVolume3Month	2590945352
+averageVolume	2590945352
+averageVolume10days	5861165737
+circulatingSupply	585206976
 coinImageUrl	https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png
 coinMarketCapLink	https://coinmarketcap.com/currencies/solana
 companyOfficers	[]
@@ -15,28 +15,30 @@ currency	USD
 customPriceAlertConfidence	HIGH
 dayHigh	76.262665
 dayLow	74.36283
-description	Solana (SOL) is a cryptocurrency launched in 2020. Solana has a current supply of 632,859,849.9212544 with 583,375,989.60428155 in circulation. The last known price of Solana is 98.0725615 USD and is up 1.71 over the last 24 hours. It is currently trading on 1163 active market(s) with $7,610,955,292.91 traded over the last 24 hours. More information can be found at https://solana.com.
+description	Solana (SOL) is a cryptocurrency launched in 2020. Solana has a current supply of 633,079,066.7102164 with 584,161,526.60317099 in circulation. The last known price of Solana is 104.64778195 USD and is down -1.54 over the last 24 hours. It is currently trading on 1166 active market(s) with $3,785,586,721.60 traded over the last 24 hours. More information can be found at https://solana.com.
 esgPopulated	False
 exchange	CCC
 exchangeDataDelayedBy	0
 exchangeTimezoneName	UTC
 exchangeTimezoneShortName	UTC
 executiveTeam	[]
-fiftyDayAverage	77.73663
-fiftyDayAverageChange	19.713364
-fiftyDayAverageChangePercent	0.2535917
-fiftyTwoWeekChangePercent	-49.68907
+fiftyDayAverage	79.61083
+fiftyDayAverageChange	23.53917
+fiftyDayAverageChangePercent	0.29567796
+fiftyTwoWeekChangePercent	-47.17273
 fiftyTwoWeekHigh	253.2099
-fiftyTwoWeekHighChange	-155.7599
-fiftyTwoWeekHighChangePercent	-0.61514145
+fiftyTwoWeekHighChange	-150.0599
+fiftyTwoWeekHighChangePercent	-0.5926305
 fiftyTwoWeekLow	60.41472
-fiftyTwoWeekLowChange	37.03528
-fiftyTwoWeekLowChangePercent	0.6130175
+fiftyTwoWeekLowChange	42.735283
+fiftyTwoWeekLowChangePercent	0.7073654
 fiftyTwoWeekRange	60.41472 - 253.2099
 firstTradeDateMilliseconds	1586476800000
 fromCurrency	SOL
 fullExchangeName	CCC
-fulldayPrice	97.45
+fulldayChange	1.0100021
+fulldayChangePercent	0.98884094
+fulldayPrice	103.15
 fullyDilutedValue	46677881722
 gmtOffSetMilliseconds	0
 hasPrePostMarketData	False
@@ -45,7 +47,7 @@ lastMarket	Coinbase
 logoUrl	https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png
 longName	Solana USD
 market	ccc_market
-marketCap	56873361408
+marketCap	60285509632
 marketState	REGULAR
 maxAge	86400
 maxSupply	0
@@ -57,33 +59,33 @@ priceHint	2
 quoteSourceName	CoinMarketCap
 quoteType	CRYPTOCURRENCY
 region	US
-regularMarketChange	0.009994507
-regularMarketChangePercent	0.010257088
-regularMarketDayHigh	102.33919
-regularMarketDayLow	96.08155
-regularMarketDayRange	96.08155 - 102.33919
-regularMarketOpen	98.64347
-regularMarketPreviousClose	98.64347
-regularMarketPrice	97.45
-regularMarketTime	1787697491
-regularMarketVolume	6801858560
+regularMarketChange	1.0100021
+regularMarketChangePercent	0.98884094
+regularMarketDayHigh	104.7233
+regularMarketDayLow	101.0349
+regularMarketDayRange	101.0349 - 104.7233
+regularMarketOpen	101.87418
+regularMarketPreviousClose	101.87418
+regularMarketPrice	103.15
+regularMarketTime	1788221152
+regularMarketVolume	3040067072
 shortName	Solana USD
 sourceInterval	15
 startDate	1586476800
 symbol	SOL-USD
 toCurrency	USD=X
-totalSupply	632859520
+totalSupply	633267776
 tradeable	False
 trailingPegRatio	None
 triggerable	True
 twitter	https://twitter.com/solana
-twoHundredDayAverage	81.25027
-twoHundredDayAverageChange	16.19973
-twoHundredDayAverageChangePercent	0.19938064
+twoHundredDayAverage	81.56655
+twoHundredDayAverageChange	21.58345
+twoHundredDayAverageChangePercent	0.26461154
 typeDisp	Cryptocurrency
 volume	1577364736
-volume24Hr	6801858560
+volume24Hr	3040067072
 volume24HrMarketCapPercent	0.036378443
-volumeAllCurrencies	6801858560
+volumeAllCurrencies	3040067072
 website	https://solana.com
 whitepaper	https://solana.com/solana-whitepaper.pdf

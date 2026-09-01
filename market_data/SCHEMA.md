@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-08-24 |
+| Date | str | 2026-08-31 |
 | Source | str | Google |
-| Sentiment | float64 | 0.5 |
-| Headline | str | FXI.P - | Stock Price & Latest News - Reuters |
+| Sentiment | float64 | 0.04 |
+| Headline | str | FXI: Operating losses narrowed and net sales ro... |
 | Summary | str | Korea's country ETF booked triple-digit gains w... |
-| URL | str | https://news.google.com/rss/articles/CBMifkFVX3... |
+| URL | str | https://news.google.com/rss/articles/CBMiiAJBVV... |
 
 ## 2. Topic Files (Example: `Memory Shortage`)
 ### `news.tsv` - Topic News
@@ -52,47 +52,47 @@ This report documents the file structures and column data types used in `market_
 | TECH_PULSE | float64 | 96.3106 |
 | CHINA_IMPORTS | float64 | 25149.9615 |
 | TARIFFS | float64 | 326.324 |
-| USD_INDEX | float64 | 118.0628 |
-| USD_CNY | float64 | 6.721 |
-| USD_EUR | float64 | 1.1684 |
-| USD_JPY | float64 | 158.91 |
+| USD_INDEX | float64 | 118.7479 |
+| USD_CNY | float64 | 6.726 |
+| USD_EUR | float64 | 1.1598 |
+| USD_JPY | float64 | 159.97 |
 | FOOD_CPI | float64 | 350.164 |
 | CORN_PRICE | float64 | 213.1902 |
 | WHEAT_PRICE | float64 | 228.7388 |
 | SUGAR_PRICE | float64 | 14.8123 |
-| WTI_CRUDE | float64 | 86.48 |
+| WTI_CRUDE | float64 | 83.9 |
 | NAT_GAS_PRICE | float64 | 2.9632 |
 | COPPER_PRICE | float64 | 13542.8209 |
 | ELECTRIC_POWER_INDEX | float64 | 116.4486 |
-| RD_INVESTMENT | float64 | 937.772 |
+| RD_INVESTMENT | float64 | 936.0 |
 | US_BIRTH_RATE | float64 | 10.6 |
 | LIFE_EXPECTANCY | float64 | 78.8902 |
 | US_POPULATION | float64 | 343289.575 |
-| DISPOSABLE_INCOME | float64 | 18056.1 |
+| DISPOSABLE_INCOME | float64 | 18122.5 |
 | HOUSEHOLD_NET_WORTH | float64 | 182979889.0 |
 | CREDIT_CARD_DELINQUENCY | float64 | 2.62 |
-| GDP | float64 | 32475.21 |
-| REAL_GDP | float64 | 24270.599 |
+| GDP | float64 | 32486.066 |
+| REAL_GDP | float64 | 24269.613 |
 | UNRATE | float64 | 4.1 |
 | HOUSING_STARTS | float64 | 1239.0 |
 | RECESSION_PROB | float64 | 0.6 |
-| UMICH_SENTIMENT | float64 | 49.5 |
-| SAVINGS_RATE | float64 | 2.7 |
+| UMICH_SENTIMENT | float64 | 55.2 |
+| SAVINGS_RATE | float64 | 3.0 |
 | M2_MONEY | float64 | 23218.0 |
-| M2_VELOCITY | float64 | 1.412 |
-| FED_ASSETS | float64 | 6745699.0 |
+| M2_VELOCITY | float64 | 1.415 |
+| FED_ASSETS | float64 | 6730912.0 |
 | CPI | float64 | 332.813 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.24 |
-| US10Y | float64 | 4.7 |
-| US30Y | float64 | 5.23 |
-| HY_SPREAD | float64 | 2.69 |
-| CORP_SPREAD | float64 | 0.81 |
-| BAA_SPREAD | float64 | 1.63 |
-| AAA_SPREAD | float64 | 1.19 |
-| US_POLICY_UNCERTAINTY | float64 | 234.02 |
+| US02Y | float64 | 4.34 |
+| US10Y | float64 | 4.73 |
+| US30Y | float64 | 5.22 |
+| HY_SPREAD | float64 | 2.6 |
+| CORP_SPREAD | float64 | 0.79 |
+| BAA_SPREAD | float64 | 1.54 |
+| AAA_SPREAD | float64 | 1.13 |
+| US_POLICY_UNCERTAINTY | float64 | 311.48 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 338.8092 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
-| ST_LOUIS_FIN_STRESS | float64 | -0.8285 |
+| ST_LOUIS_FIN_STRESS | float64 | -0.8107 |
 | KANSAS_CITY_FIN_STRESS | float64 | -0.8483 |
 | CHICAGO_FED_ACTIVITY | float64 | -0.08 |
