@@ -50,7 +50,7 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | SUGAR_PRICE               |     14.81        | +0.00%   | -0.82%   |        -1.34 | 2026-12-01 |
 | US30Y                     |      5.22        | +0.00%   | +10.13%  |         1.25 | 2026-12-01 |
 | HY_SPREAD                 |      2.6         | +0.00%   | -11.56%  |        -1.25 | 2026-12-01 |
-| KANSAS_CITY_FIN_STRESS    |     -0.85        | +0.00%   | -20.14%  |        -1.23 | 2026-12-01 |
+| KANSAS_CITY_FIN_STRESS    |     -0.85        | +0.00%   | -20.14%  |        -1.24 | 2026-12-01 |
 | USD_JPY                   |    159.97        | +0.00%   | +3.02%   |         1.22 | 2026-12-01 |
 | USD_EUR                   |      1.16        | +0.00%   | -0.22%   |         1.15 | 2026-12-01 |
 | DISPOSABLE_INCOME         |  18122.5         | +0.00%   | +0.58%   |         1.11 | 2026-12-01 |
@@ -62,7 +62,7 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | ST_LOUIS_FIN_STRESS       |     -0.81        | +0.00%   | -109.54% |        -0.99 | 2026-12-01 |
 | M2_VELOCITY               |      1.42        | +0.00%   | +0.43%   |         0.94 | 2026-12-01 |
 | UMICH_SENTIMENT           |     55.2         | +0.00%   | +4.35%   |        -0.9  | 2026-12-01 |
-| TECH_PULSE                |     96.31        | +0.00%   | +7.09%   |         0.89 | 2026-12-01 |
+| TECH_PULSE                |     96.31        | +0.00%   | +7.09%   |         0.9  | 2026-12-01 |
 | USD_CNY                   |      6.73        | +0.00%   | -4.89%   |        -0.86 | 2026-12-01 |
 | CORP_SPREAD               |      0.79        | +0.00%   | -3.66%   |        -0.79 | 2026-12-01 |
 | US_BIRTH_RATE             |     10.6         | +0.00%   | +0.00%   |        -0.75 | 2026-12-01 |
@@ -80,7 +80,7 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | WTI_CRUDE                 |     83.9         | +0.00%   | +41.08%  |         0.36 | 2026-12-01 |
 | GLOBAL_POLICY_UNCERTAINTY |    241.69        | +0.00%   | -27.29%  |        -0.35 | 2026-12-01 |
 | RECESSION_PROB            |      0.6         | +0.00%   | +114.29% |         0.33 | 2026-12-01 |
-| MFG_CONST                 | 172674           | +0.00%   | -5.02%   |        -0.28 | 2026-12-01 |
+| MFG_CONST                 | 172674           | +0.00%   | -5.02%   |        -0.29 | 2026-12-01 |
 | WHEAT_PRICE               |    228.74        | +0.00%   | +38.11%  |        -0.26 | 2026-12-01 |
 | EUROPE_POLICY_UNCERTAINTY |    338.81        | +0.00%   | -4.10%   |        -0.23 | 2026-12-01 |
 | FEDFUNDS                  |      3.63        | +0.00%   | -2.42%   |        -0.04 | 2026-12-01 |
