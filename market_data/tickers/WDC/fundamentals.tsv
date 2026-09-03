@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	4.6092052
-SandP52WeekChange	0.20204377
+52WeekChange	3.9607692
+SandP52WeekChange	0.17909956
 address1	5601 Great Oaks Parkway
 allTimeHigh	799.87
 allTimeLow	0.519652
@@ -8,31 +8,31 @@ ask	459.84
 askSize	1
 auditRisk	10
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	6503770
-averageDailyVolume3Month	8516395
-averageVolume	8516395
-averageVolume10days	6503770
+averageDailyVolume10Day	5470620
+averageDailyVolume3Month	8457336
+averageVolume	8457336
+averageVolume10days	5470620
 beta	2.217
-bid	459.52
-bidSize	4
+bid	420.0
+bidSize	1
 boardRisk	3
 bookValue	20.915
 city	San Jose
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Tiang Yew  Tan', 'age': 55, 'title': 'CEO & Director', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3046443, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kris A.  Sennesael', 'age': 56, 'title': 'Executive VP & CFO', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 2216810, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Tiang Yew  Tan', 'age': 55, 'title': 'CEO & Director', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3046443, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kris A.  Sennesael', 'age': 56, 'title': 'Executive VP & CFO', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 2216810, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Vidyadhara K. Gubbi', 'age': 61, 'title': 'Executive VP & Chief of Global Operations', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1546279, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Cynthia Lock Tregillis', 'age': 55, 'title': 'Executive VP, Chief Legal Officer & Secretary', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1315829, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ahmed M. Shihab', 'age': 53, 'title': 'Executive VP & Chief Product Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 767946, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. C. Wesley M. Scott', 'age': 78, 'title': 'Chief Investment Officer', 'yearBorn': 1947, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brad D. Feller', 'age': 51, 'title': 'Senior VP & Chief Accounting Officer', 'yearBorn': 1974, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sesh  Tirumala', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Ambrish  Srivastava Ph.D.', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brian Scott Davis', 'age': 62, 'title': 'Executive VP and Chief Sales & Marketing Officer', 'yearBorn': 1963, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	3
 corporateActions	[{'header': 'Dividend', 'message': 'WDC announced a cash dividend of $0.15 with an ex-date of Sep. 8, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1788840000000, 'amount': '0.15'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	450.55
+currentPrice	441.57
 currentRatio	1.329
 customPriceAlertConfidence	HIGH
 dateShortInterest	1786665600
-dayHigh	459.45
-dayLow	444.52
+dayHigh	449.469
+dayLow	420.9
 debtToEquity	13.436
-discount_to_intrinsic_value	69.24
+discount_to_intrinsic_value	69.49
 displayName	Western Digital
 dividendDate	1789603200
 dividendRate	0.6
@@ -46,12 +46,12 @@ earningsTimestampEnd	1793908800
 earningsTimestampStart	1793908800
 ebitda	5001999872
 ebitdaMargins	0.38717997
-enterpriseToEbitda	33.039
-enterpriseToRevenue	12.792
-enterpriseValue	165262540800
+enterpriseToEbitda	32.279
+enterpriseToRevenue	12.498
+enterpriseValue	161458831360
 epsCurrentYear	20.09143
 epsForward	31.74953
-epsTrailingTwelveMonths	26.92
+epsTrailingTwelveMonths	26.93
 eps_normalized_growth	10.455357011775089
 esgPopulated	False
 exDividendDate	1788825600
@@ -60,37 +60,37 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	531.177
-fiftyDayAverageChange	-80.627014
-fiftyDayAverageChangePercent	-0.15178935
-fiftyTwoWeekChangePercent	460.92053
+fiftyDayAverage	515.1828
+fiftyDayAverageChange	-73.61279
+fiftyDayAverageChangePercent	-0.14288674
+fiftyTwoWeekChangePercent	396.0769
 fiftyTwoWeekHigh	799.87
-fiftyTwoWeekHighChange	-349.32
-fiftyTwoWeekHighChangePercent	-0.43672097
-fiftyTwoWeekLow	77.9
-fiftyTwoWeekLowChange	372.65
-fiftyTwoWeekLowChangePercent	4.7836967
-fiftyTwoWeekRange	77.9 - 799.87
+fiftyTwoWeekHighChange	-358.3
+fiftyTwoWeekHighChangePercent	-0.44794777
+fiftyTwoWeekLow	85.92
+fiftyTwoWeekLowChange	355.65002
+fiftyTwoWeekLowChangePercent	4.139316
+fiftyTwoWeekRange	85.92 - 799.87
 financialCurrency	USD
 firstTradeDateMilliseconds	278692200000
 fiveYearAvgDividendYield	3.23
-floatShares	358038790
+floatShares	358013552
 forwardEps	31.74953
-forwardPE	14.190761
+forwardPE	13.907923
 freeCashflow	2268750080
 fullExchangeName	NasdaqGS
 fullTimeEmployees	40000
-fulldayChange	-9.76001
-fulldayChangePercent	-2.124281
-fulldayPrice	450.776
+fulldayChange	-7.3299866
+fulldayChangePercent	-1.6328775
+fulldayPrice	439.21
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1785542400
-graham_intrinsic_value	1464.95
+governanceEpochDate	1788220800
+graham_intrinsic_value	1447.14
 grossMargins	0.48851
 grossProfits	6311000064
 hasPrePostMarketData	True
 heldPercentInsiders	0.00541
-heldPercentInstitutions	0.92006
+heldPercentInstitutions	0.91910005
 impliedSharesOutstanding	360540944
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -106,48 +106,48 @@ lastSplitFactor	1323:1000
 longBusinessSummary	Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.
 longName	Western Digital Corporation
 market	us_market
-marketCap	162441707520
-marketState	POSTPOST
+marketCap	159204065280
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_314057
 mostRecentQuarter	1783036800
 netIncomeToCommon	9285999616
 nextFiscalYearEnd	1814572800
-nonDilutedMarketCap	166569916128
+nonDilutedMarketCap	162402062815
 numberOfAnalystOpinions	24
-open	458.34
+open	442.91
 operatingCashflow	3928999936
 operatingMargins	0.43608
 overallRisk	4
 payoutRatio	0.0186
-pegRatio	0.88
+pegRatio	0.86
 phone	408 717 6000
-postMarketChange	0.22601318
-postMarketChangePercent	0.050163843
-postMarketPrice	450.776
-postMarketTime	1788220784
-previousClose	459.45
-priceEpsCurrentYear	22.424982
+postMarketChange	-2.3600159
+postMarketChangePercent	-0.5344602
+postMarketPrice	439.21
+postMarketTime	1788474169
+previousClose	448.9
+priceEpsCurrentYear	21.978027
 priceHint	2
-priceToBook	21.541954
-priceToSalesTrailing12Months	12.573861
+priceToBook	21.112598
+priceToSalesTrailing12Months	12.32325
 profitMargins	0.72947
 quickRatio	0.85
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.53846
 region	US
-regularMarketChange	-8.90002
-regularMarketChangePercent	-1.9371
-regularMarketDayHigh	459.45
-regularMarketDayLow	444.52
-regularMarketDayRange	444.52 - 459.45
-regularMarketOpen	458.34
-regularMarketPreviousClose	459.45
-regularMarketPrice	450.55
-regularMarketTime	1788206400
-regularMarketVolume	5837229
+regularMarketChange	-7.3299866
+regularMarketChangePercent	-1.6328775
+regularMarketDayHigh	449.469
+regularMarketDayLow	420.9
+regularMarketDayRange	420.9 - 449.469
+regularMarketOpen	442.91
+regularMarketPreviousClose	448.9
+regularMarketPrice	441.57
+regularMarketTime	1788465600
+regularMarketVolume	5511792
 returnOnAssets	0.20758
 returnOnEquity	1.30853
 revenueGrowth	0.438
@@ -177,15 +177,15 @@ totalDebt	1191000064
 totalRevenue	12919000064
 tradeable	False
 trailingAnnualDividendRate	0.5
-trailingAnnualDividendYield	0.0010882576
-trailingEps	26.92
-trailingPE	16.736626
-trailingPegRatio	0.8796
+trailingAnnualDividendYield	0.0011138339
+trailingEps	26.93
+trailingPE	16.396955
+trailingPegRatio	0.8576
 triggerable	True
-twoHundredDayAverage	365.5877
-twoHundredDayAverageChange	84.96228
-twoHundredDayAverageChangePercent	0.23239917
+twoHundredDayAverage	369.87085
+twoHundredDayAverageChange	71.69916
+twoHundredDayAverageChangePercent	0.19384918
 typeDisp	Equity
-volume	5837229
+volume	5511792
 website	https://www.westerndigital.com
 zip	95119

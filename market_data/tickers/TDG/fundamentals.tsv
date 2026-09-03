@@ -1,22 +1,22 @@
 Metric	Value
-52WeekChange	-0.09112716
-SandP52WeekChange	0.20204377
+52WeekChange	-0.09990561
+SandP52WeekChange	0.17909956
 address1	1350 Euclid Avenue
 address2	Suite 1600
 allTimeHigh	1623.83
 allTimeLow	21.42
-ask	1166.76
-askSize	30
+ask	1160.31
+askSize	20
 auditRisk	7
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	343910
-averageDailyVolume3Month	395585
-averageVolume	395585
-averageVolume10days	343910
+averageDailyVolume10Day	379170
+averageDailyVolume3Month	393041
+averageVolume	393041
+averageVolume10days	379170
 beta	0.906
-bid	1172.0
-bidSize	10
-boardRisk	9
+bid	1146.5
+bidSize	20
+boardRisk	8
 bookValue	-167.974
 city	Cleveland
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael J. Lisman', 'age': 41, 'title': 'CEO, President & Director', 'yearBorn': 1984, 'fiscalYear': 2025, 'totalPay': 28530024, 'exercisedValue': 0, 'unexercisedValue': 135383744}, {'maxAge': 1, 'name': 'Ms. Sarah Louise Wynne', 'age': 52, 'title': 'Chief Financial Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 11399291, 'exercisedValue': 4457965, 'unexercisedValue': 33381436}, {'maxAge': 1, 'name': 'Mr. Joel B. Reiss', 'age': 55, 'title': 'Co-Chief Operating Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 31053671, 'exercisedValue': 40545216, 'unexercisedValue': 127567960}, {'maxAge': 1, 'name': 'Mr. Patrick Joseph Murphy', 'age': 52, 'title': 'Co-Chief Operating Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 13843634, 'exercisedValue': 3266663, 'unexercisedValue': 49532668}, {'maxAge': 1, 'name': 'Mary  Hartman', 'title': 'Director of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Armani  Vadiee', 'age': 44, 'title': 'General Counsel, Chief Compliance Officer & Secretary', 'yearBorn': 1981, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kevin  McHenry', 'title': 'Executive Vice President', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Paula  Wheeler', 'title': 'Executive Vice President', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason  Marlin', 'title': 'Executive Vice President', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alex  Feil', 'title': 'Executive Vice President', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -26,13 +26,13 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	1171.74
+currentPrice	1157.83
 currentRatio	3.019
 customPriceAlertConfidence	HIGH
 dateShortInterest	1786665600
-dayHigh	1185.23
-dayLow	1161.2505
-discount_to_intrinsic_value	7.09
+dayHigh	1161.4769
+dayLow	1144.52
+discount_to_intrinsic_value	7.12
 dividendDate	1757635200
 dividendRate	0.0
 earningsCallTimestampEnd	1785855600
@@ -44,12 +44,12 @@ earningsTimestampEnd	1793881800
 earningsTimestampStart	1793881800
 ebitda	5095000064
 ebitdaMargins	0.50918996
-enterpriseToEbitda	18.911
-enterpriseToRevenue	9.629
-enterpriseValue	96351297536
+enterpriseToEbitda	18.561
+enterpriseToRevenue	9.451
+enterpriseValue	94570291200
 epsCurrentYear	41.18984
-epsForward	48.40013
-epsTrailingTwelveMonths	32.97
+epsForward	48.41013
+epsTrailingTwelveMonths	33.0
 eps_normalized_growth	0.16310840872931176
 esgPopulated	False
 exDividendDate	1756771200
@@ -58,36 +58,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	1257.4803
-fiftyDayAverageChange	-85.74036
-fiftyDayAverageChangePercent	-0.06818425
-fiftyTwoWeekChangePercent	-9.112716
+fiftyDayAverage	1248.6676
+fiftyDayAverageChange	-90.83765
+fiftyDayAverageChangePercent	-0.07274766
+fiftyTwoWeekChangePercent	-9.990561
 fiftyTwoWeekHigh	1463.03
-fiftyTwoWeekHighChange	-291.29004
-fiftyTwoWeekHighChangePercent	-0.19910052
+fiftyTwoWeekHighChange	-305.20007
+fiftyTwoWeekHighChangePercent	-0.20860821
 fiftyTwoWeekLow	1123.61
-fiftyTwoWeekLowChange	48.130005
-fiftyTwoWeekLowChangePercent	0.042835154
+fiftyTwoWeekLowChange	34.21997
+fiftyTwoWeekLowChangePercent	0.03045538
 fiftyTwoWeekRange	1123.61 - 1463.03
 financialCurrency	USD
 firstTradeDateMilliseconds	1142433000000
 floatShares	54993509
-forwardEps	48.40013
-forwardPE	24.209438
+forwardEps	48.41013
+forwardPE	23.9171
 freeCashflow	1457374976
 fullExchangeName	NYSE
 fullTimeEmployees	16500
-fulldayChange	-14.23
-fulldayChangePercent	-1.19986
-fulldayPrice	1170.0
+fulldayChange	4.079956
+fulldayChangePercent	0.35362566
+fulldayPrice	1158.01
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1785542400
-graham_intrinsic_value	1261.19
+governanceEpochDate	1788220800
+graham_intrinsic_value	1246.53
 grossMargins	0.59824
 grossProfits	5985999872
 hasPrePostMarketData	True
 heldPercentInsiders	0.00409
-heldPercentInstitutions	0.97253996
+heldPercentInstitutions	0.97242
 impliedSharesOutstanding	55933583
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -100,31 +100,31 @@ lastFiscalYearEnd	1759190400
 longBusinessSummary	TransDigm Group Incorporated designs, produces, and supplies aircraft components in the United States and internationally. The Power & Control segment offers mechanical/electro-mechanical actuators and controls, ignition systems and engine technology, specialized pumps and valves, power conditioning devices, specialized AC/DC electric motors and generators, batteries and chargers, databus and power controls, sensor products, switches and relay panels, hoists, winches and lifting devices, cargo loading and handling systems, delivery systems, and electronic components. Its Airframe segment provides engineered latching and locking devices, engineered rods, engineered connectors and elastomer sealing solutions, cockpit security components and systems, cockpit displays, lavatory components, seat belts and safety restraints, engineered and customized interior surfaces and related components, thermal protection and insulation products, lighting and control technology, parachutes, specialized flight, wind tunnel and jet engine testing services and equipment, and testing and instrumentation solutions, as well as engineered audio, radio, and antenna systems. The Non-Aviation segment offers seat belts and safety restraints; mechanical/electromechanical actuators and controls; hydraulic/electromechanical actuators and fuel valves; refueling systems; and turbine controls. It serves engine and power system and subsystem suppliers, airlines, third party maintenance suppliers, military buying agencies, and repair depots; airframe manufacturers, cabin system and subsystem suppliers, airlines, and third party maintenance suppliers; and off-road vehicle and subsystem suppliers, child restraint system suppliers, and satellite and space system suppliers, as well as manufacturers of heavy equipment. The company was formerly known as TD Holding Corporation and changed its name to TransDigm Group Incorporated in 2006. The company was founded in 1993 and is headquartered in Cleveland, Ohio.
 longName	TransDigm Group Incorporated
 market	us_market
-marketCap	65539616768
-marketState	POSTPOST
+marketCap	64761577472
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22800180
 mostRecentQuarter	1782518400
 netIncomeToCommon	1911000064
 nextFiscalYearEnd	1790726400
-nonDilutedMarketCap	65584491382
+nonDilutedMarketCap	63886396534
 numberOfAnalystOpinions	19
-open	1180.0
+open	1157.89
 operatingCashflow	2198000128
 operatingMargins	0.46005002
 overallRisk	9
 payoutRatio	0.0
 pegRatio	3.05
 phone	216 706 2960
-postMarketChange	-1.7399902
-postMarketChangePercent	-0.14849627
-postMarketPrice	1170.0
-postMarketTime	1788220288
-previousClose	1185.97
-priceEpsCurrentYear	28.447308
+postMarketChange	0.18005371
+postMarketChangePercent	0.015550964
+postMarketPrice	1158.01
+postMarketTime	1788473199
+previousClose	1153.75
+priceEpsCurrentYear	28.109602
 priceHint	2
-priceToBook	-6.9757223
-priceToSalesTrailing12Months	6.550032
+priceToBook	-6.892912
+priceToSalesTrailing12Months	6.472275
 profitMargins	0.21277
 quickRatio	1.919
 quoteSourceName	Delayed Quote
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.95455
 region	US
-regularMarketChange	-14.23
-regularMarketChangePercent	-1.19986
-regularMarketDayHigh	1185.23
-regularMarketDayLow	1161.2505
-regularMarketDayRange	1161.2505 - 1185.23
-regularMarketOpen	1180.0
-regularMarketPreviousClose	1185.97
-regularMarketPrice	1171.74
-regularMarketTime	1788206403
-regularMarketVolume	496971
+regularMarketChange	4.07996
+regularMarketChangePercent	0.353626
+regularMarketDayHigh	1161.4769
+regularMarketDayLow	1144.52
+regularMarketDayRange	1144.52 - 1161.4769
+regularMarketOpen	1157.89
+regularMarketPreviousClose	1153.75
+regularMarketPrice	1157.83
+regularMarketTime	1788465603
+regularMarketVolume	274581
 returnOnAssets	0.11817
 returnOnEquity	0.0
 revenueGrowth	0.225
@@ -172,14 +172,14 @@ totalRevenue	10005999616
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	32.97
-trailingPE	35.53958
+trailingEps	33.0
+trailingPE	35.085754
 trailingPegRatio	3.0456
 triggerable	True
-twoHundredDayAverage	1273.3663
-twoHundredDayAverageChange	-101.62634
-twoHundredDayAverageChangePercent	-0.0798092
+twoHundredDayAverage	1271.1375
+twoHundredDayAverageChange	-113.307495
+twoHundredDayAverageChangePercent	-0.089138664
 typeDisp	Equity
-volume	496971
+volume	274581
 website	https://www.transdigm.com
 zip	44115
