@@ -16,7 +16,7 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 ### Top Positive Correlations
 - **CPI** & **REAL_GDP**: `0.97`
 - **REAL_GDP** & **DISPOSABLE_INCOME**: `0.95`
-- **CPI** & **DISPOSABLE_INCOME**: `0.90`
+- **CPI** & **DISPOSABLE_INCOME**: `0.91`
 - **US10Y** & **CPI**: `0.86`
 - **FEDFUNDS** & **US10Y**: `0.85`
 
@@ -25,7 +25,7 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 - **ST_LOUIS_FIN_STRESS** & **DISPOSABLE_INCOME**: `-0.49`
 - **REAL_GDP** & **WTI_CRUDE**: `-0.43`
 - **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.43`
-- **FEDFUNDS** & **WTI_CRUDE**: `-0.42`
+- **FEDFUNDS** & **WTI_CRUDE**: `-0.43`
 
 
 ![Correlation Matrix](rendered/macro_correlation.png)
@@ -54,8 +54,8 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | USD_EUR                   |      1.16       | +0.00%   | -0.22%   |         1.15 | 2026-12-01 |
 | US10Y                     |      4.79       | +0.00%   | +17.11%  |         1.14 | 2026-12-01 |
 | ST_LOUIS_FIN_STRESS       |     -0.85       | +0.00%   | -120.25% |        -1.11 | 2026-12-01 |
-| DISPOSABLE_INCOME         |  18122.5        | +0.00%   | +0.58%   |         1.11 | 2026-12-01 |
 | HY_SPREAD                 |      2.66       | +0.00%   | -9.52%   |        -1.11 | 2026-12-01 |
+| DISPOSABLE_INCOME         |  18122.5        | +0.00%   | +0.58%   |         1.11 | 2026-12-01 |
 | FED_ASSETS                |      6.7372e+06 | +0.00%   | +2.82%   |        -1.04 | 2026-12-01 |
 | WAREHOUSE_PPI             |    167.9        | +0.00%   | +1.83%   |         1.04 | 2026-12-01 |
 | M2_VELOCITY               |      1.42       | +0.00%   | +0.43%   |         0.94 | 2026-12-01 |
@@ -66,8 +66,8 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | USD_CNY                   |      6.73       | +0.00%   | -4.89%   |        -0.86 | 2026-12-01 |
 | AAA_SPREAD                |      1.15       | +0.00%   | -1.71%   |         0.86 | 2026-12-01 |
 | CHINA_IMPORTS             |  27070.7        | +0.00%   | +28.26%  |        -0.84 | 2026-12-01 |
-| US_BIRTH_RATE             |     10.6        | +0.00%   | +0.00%   |        -0.75 | 2026-12-01 |
-| TRUCK_PPI                 |    195.58       | +0.00%   | +8.01%   |         0.74 | 2026-12-01 |
+| US_BIRTH_RATE             |     10.6        | +0.00%   | +0.00%   |        -0.74 | 2026-12-01 |
+| TRUCK_PPI                 |    195.58       | +0.00%   | +8.01%   |         0.73 | 2026-12-01 |
 | LIFE_EXPECTANCY           |     78.89       | +0.00%   | +0.00%   |         0.73 | 2026-12-01 |
 | CORP_SPREAD               |      0.81       | +0.00%   | -1.22%   |        -0.65 | 2026-12-01 |
 | USD_INDEX                 |    118.75       | +0.00%   | -1.85%   |        -0.63 | 2026-12-01 |
