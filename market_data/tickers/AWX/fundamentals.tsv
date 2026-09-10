@@ -1,17 +1,17 @@
 Metric	Value
-52WeekChange	0.052419305
-SandP52WeekChange	0.17909956
+52WeekChange	0.07630527
+SandP52WeekChange	0.17475092
 address1	One American Way
 allTimeHigh	20.2
 allTimeLow	0.92
-ask	2.76
-askSize	4700
-averageDailyVolume10Day	10390
-averageDailyVolume3Month	45126
-averageVolume	45126
-averageVolume10days	10390
-beta	0.624
-bid	2.59
+ask	2.68
+askSize	100
+averageDailyVolume10Day	11000
+averageDailyVolume3Month	45703
+averageVolume	45703
+averageVolume10days	11000
+beta	0.626
+bid	2.62
 bidSize	400
 bookValue	9.746
 city	Warren
@@ -21,12 +21,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	2.5953
+currentPrice	2.62
 currentRatio	1.021
 customPriceAlertConfidence	HIGH
 dateShortInterest	1786665600
-dayHigh	2.62
-dayLow	2.5953
+dayHigh	2.65
+dayLow	2.61
 debtToEquity	94.041
 discount_to_intrinsic_value	-12.21
 displayName	Avalon
@@ -36,9 +36,9 @@ earningsTimestampEnd	1754942400
 earningsTimestampStart	1754510400
 ebitda	6771000
 ebitdaMargins	0.07893
-enterpriseToEbitda	5.637
-enterpriseToRevenue	0.445
-enterpriseValue	38166516
+enterpriseToEbitda	5.677
+enterpriseToRevenue	0.448
+enterpriseValue	38439476
 epsTrailingTwelveMonths	0.3
 eps_normalized_growth	0.0994661900599283
 esgPopulated	False
@@ -48,16 +48,16 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	330 856 8480
-fiftyDayAverage	2.6136
-fiftyDayAverageChange	-0.018300056
-fiftyDayAverageChangePercent	-0.007001858
-fiftyTwoWeekChangePercent	5.2419305
+fiftyDayAverage	2.6224
+fiftyDayAverageChange	-0.0024001598
+fiftyDayAverageChangePercent	-0.0009152531
+fiftyTwoWeekChangePercent	7.630527
 fiftyTwoWeekHigh	5.43
-fiftyTwoWeekHighChange	-2.8346999
-fiftyTwoWeekHighChangePercent	-0.5220442
+fiftyTwoWeekHighChange	-2.81
+fiftyTwoWeekHighChangePercent	-0.5174954
 fiftyTwoWeekLow	2.4
-fiftyTwoWeekLowChange	0.19529986
-fiftyTwoWeekLowChangePercent	0.08137494
+fiftyTwoWeekLowChange	0.21999979
+fiftyTwoWeekLowChangePercent	0.09166658
 fiftyTwoWeekRange	2.4 - 5.43
 financialCurrency	USD
 firstTradeDateMilliseconds	898608600000
@@ -66,9 +66,9 @@ forwardPE	36.23
 freeCashflow	1112250
 fullExchangeName	NYSE American
 fullTimeEmployees	799
-fulldayChange	-0.0146999
-fulldayChangePercent	-0.563216
-fulldayPrice	2.5953
+fulldayChange	-0.0600002
+fulldayChangePercent	-2.23881
+fulldayPrice	2.62
 gmtOffSetMilliseconds	-14400000
 graham_intrinsic_value	2.31
 grossMargins	0.20465
@@ -86,14 +86,14 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Avalon Holdings Corporation provides waste management services to industrial, commercial, municipal, and governmental customers in the United States. It operates through Waste Management Services, and Golf and Related Operations segments. The Waste Management Services segment offers hazardous and nonhazardous waste disposal brokerage and management services; captive landfill management services; and turnkey services, including daily operations, facilities management, and management reporting. This segment also engages in the saltwater injection well operations. The Golf and Related Operations segment is involved in the operation and management of golf courses and related clubhouses and facilities; and a hotel and its associated resort amenities, as well as an athletic centers. The company's golf and country club facilities offer swimming pools, fitness centers, tennis courts, dining and banquet, conference facilities, salon, and spa services. It also owns and operates hotel under the brand of The Grand Resort. Avalon Holdings Corporation was incorporated in 1998 and is headquartered in Warren, Ohio.
 longName	Avalon Holdings Corporation
 market	us_market
-marketCap	10120196
+marketCap	10216511
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_385420
 mostRecentQuarter	1782777600
 netIncomeToCommon	1195000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	10372486
+nonDilutedMarketCap	10450474
 open	2.61
 operatingCashflow	3484000
 operatingMargins	0.06498
@@ -104,26 +104,26 @@ postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	2.5953
 postMarketTime	1788472430
-previousClose	2.61
+previousClose	2.68
 priceHint	4
-priceToBook	0.26629385
-priceToSalesTrailing12Months	0.11797575
+priceToBook	0.2688282
+priceToSalesTrailing12Months	0.119098544
 profitMargins	0.01393
 quickRatio	0.881
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	none
 region	US
-regularMarketChange	-0.0146999
-regularMarketChangePercent	-0.563216
-regularMarketDayHigh	2.62
-regularMarketDayLow	2.5953
-regularMarketDayRange	2.5953 - 2.62
+regularMarketChange	-0.0600002
+regularMarketChangePercent	-2.23881
+regularMarketDayHigh	2.65
+regularMarketDayLow	2.61
+regularMarketDayRange	2.61 - 2.65
 regularMarketOpen	2.61
-regularMarketPreviousClose	2.61
-regularMarketPrice	2.5953
-regularMarketTime	1788465248
-regularMarketVolume	4400
+regularMarketPreviousClose	2.68
+regularMarketPrice	2.62
+regularMarketTime	1788984000
+regularMarketVolume	2322
 returnOnAssets	0.02169
 returnOnEquity	0.025090002
 revenueGrowth	0.032
@@ -150,13 +150,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.3
-trailingPE	8.650999
+trailingPE	8.733333
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	2.60755
-twoHundredDayAverageChange	-0.012249947
-twoHundredDayAverageChangePercent	-0.004697876
+twoHundredDayAverage	2.6039
+twoHundredDayAverageChange	0.01609993
+twoHundredDayAverageChangePercent	0.0061830063
 typeDisp	Equity
-volume	4400
+volume	2322
 website	https://www.avalonholdings.com
 zip	44484-5555

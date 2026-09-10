@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	-0.22633535
-SandP52WeekChange	0.17909956
+52WeekChange	-0.24085861
+SandP52WeekChange	0.17475092
 address1	2455 Paces Ferry Road
 allTimeHigh	439.37
 allTimeLow	0.029995
-ask	318.8
-askSize	40
+ask	311.26
+askSize	120
 auditRisk	5
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	3493840
-averageDailyVolume3Month	4246085
-averageVolume	4246085
-averageVolume10days	3493840
-beta	0.959
-bid	317.55
+averageDailyVolume10Day	3548370
+averageDailyVolume3Month	4210254
+averageVolume	4210254
+averageVolume10days	3548370
+beta	0.955
+bid	310.55
 bidSize	120
 boardRisk	5
 bookValue	16.65
@@ -21,22 +21,22 @@ city	Atlanta
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Edward P. Decker', 'age': 62, 'title': 'Chairman, President & CEO (Leave of Absence)', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 4208959, 'exercisedValue': 8786562, 'unexercisedValue': 15562045}, {'maxAge': 1, 'name': 'Mr. Richard V. McPhail', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1970303, 'exercisedValue': 921219, 'unexercisedValue': 7780825}, {'maxAge': 1, 'name': 'Ms. Ann-Marie  Campbell', 'age': 59, 'title': 'Senior Executive Vice President', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 2384292, 'exercisedValue': 0, 'unexercisedValue': 3953679}, {'maxAge': 1, 'name': 'Mr. Jordan  Broggi', 'age': 41, 'title': 'Executive Vice President of Interconnected Retail', 'yearBorn': 1984, 'fiscalYear': 2025, 'totalPay': 1482008, 'exercisedValue': 0, 'unexercisedValue': 527919}, {'maxAge': 1, 'name': 'Mr. William D. Bastek', 'age': 58, 'title': 'Executive Vice President of Merchandising', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1593452, 'exercisedValue': 1694351, 'unexercisedValue': 3078592}, {'maxAge': 1, 'name': 'Mr. Haydn  Chilcott', 'title': 'Senior Vice President of Operations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kimberly R. Scardino', 'age': 54, 'title': 'SVP of Finance, Chief Accounting Officer & Controller', 'yearBorn': 1971, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Franziska  Bell', 'title': 'Executive VP & CTO', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Angie  Brown', 'age': 49, 'title': 'Executive VP & Chief Information Officer', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 85000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Isabel  Janci', 'title': 'VP of Investor Relations & Treasurer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
-corporateActions	[{'header': 'Dividend', 'message': 'HD announced a cash dividend of $2.33 with an ex-date of Sep. 3, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1788408000000, 'amount': '2.33'}}]
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	318.07
+currentPrice	310.45
 currentRatio	1.078
 customPriceAlertConfidence	HIGH
 dateShortInterest	1786665600
-dayHigh	320.44
-dayLow	315.21
+dayHigh	313.385
+dayLow	309.84
 debtToEquity	380.261
-discount_to_intrinsic_value	-184.87
+discount_to_intrinsic_value	-178.63
 displayName	The Home Depot
 dividendDate	1789603200
 dividendRate	9.32
-dividendYield	2.93
+dividendYield	2.97
 earningsCallTimestampEnd	1763474400
 earningsCallTimestampStart	1763474400
 earningsGrowth	0.046
@@ -46,13 +46,13 @@ earningsTimestampEnd	1794918600
 earningsTimestampStart	1794918600
 ebitda	24647999488
 ebitdaMargins	0.14569001
-enterpriseToEbitda	15.372
-enterpriseToRevenue	2.24
-enterpriseValue	378877116416
+enterpriseToEbitda	15.177
+enterpriseToRevenue	2.211
+enterpriseValue	374078242816
 epsCurrentYear	15.02198
-epsForward	16.03774
+epsForward	16.0248
 epsTrailingTwelveMonths	14.3
-eps_normalized_growth	-0.23229150300381318
+eps_normalized_growth	-0.00278957555784054
 esgPopulated	False
 exDividendDate	1788393600
 exchange	NYQ
@@ -60,37 +60,37 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	340.0956
-fiftyDayAverageChange	-22.025604
-fiftyDayAverageChangePercent	-0.06476298
-fiftyTwoWeekChangePercent	-22.633535
+fiftyDayAverage	338.4176
+fiftyDayAverageChange	-27.96759
+fiftyDayAverageChangePercent	-0.08264224
+fiftyTwoWeekChangePercent	-24.085861
 fiftyTwoWeekHigh	426.75
-fiftyTwoWeekHighChange	-108.67999
-fiftyTwoWeekHighChangePercent	-0.25466898
+fiftyTwoWeekHighChange	-116.29999
+fiftyTwoWeekHighChangePercent	-0.27252486
 fiftyTwoWeekLow	289.1
-fiftyTwoWeekLowChange	28.970001
-fiftyTwoWeekLowChangePercent	0.100207545
+fiftyTwoWeekLowChange	21.350006
+fiftyTwoWeekLowChangePercent	0.0738499
 fiftyTwoWeekRange	289.1 - 426.75
 financialCurrency	USD
 firstTradeDateMilliseconds	370013400000
 fiveYearAvgDividendYield	2.37
 floatShares	995983577
-forwardEps	16.03774
-forwardPE	19.832594
+forwardEps	16.0248
+forwardPE	19.373098
 freeCashflow	10762625024
 fullExchangeName	NYSE
 fullTimeEmployees	470000
-fulldayChange	1.89001
-fulldayChangePercent	0.597765
-fulldayPrice	318.01
+fulldayChange	-3.25
+fulldayChangePercent	-1.0360217
+fulldayPrice	310.6523
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
-graham_intrinsic_value	111.65
+graham_intrinsic_value	111.42
 grossMargins	0.32801
 grossProfits	55492001792
 hasPrePostMarketData	True
 heldPercentInsiders	0.00068999996
-heldPercentInstitutions	0.76834
+heldPercentInstitutions	0.76932997
 impliedSharesOutstanding	997689626
 industry	Home Improvement Retail
 industryDisp	Home Improvement Retail
@@ -98,7 +98,7 @@ industryKey	home-improvement-retail
 irWebsite	http://phx.corporate-ir.net/phoenix.zhtml?c=63646&p=irol-irhome
 isEarningsDateEstimate	False
 language	en-US
-lastDividendDate	1780531200
+lastDividendDate	1788393600
 lastDividendValue	2.33
 lastFiscalYearEnd	1769904000
 lastSplitDate	946598400
@@ -106,48 +106,48 @@ lastSplitFactor	3:2
 longBusinessSummary	The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and décor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, baths, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, windows, and window coverings. In addition, it provides tool and equipment rental services. The company serves consumers, such as do-it-yourself homeowners and do-it-for-me customers; and professional renovators/remodelers, general contractors, homebuilders, maintenance professionals, handymen, property managers, building service contractors and specialty tradespeople, such as electricians, landscapers, insulation installers, plumbers, painters, pool contractors, roofers, and wallboard and ceiling installers. It sells its products through websites and its mobile applications, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; constructionresourcesusa.com or design-oriented surfaces, appliances, and architectural specialty products; thecompanystore.com, an online site for textiles and décor products; hdsupply.com for maintenance, repair, and operations products and related services; and srsdistribution.com, heritagelandscapesupplygroup.com, heritagepoolsupplygroup.com, and gms.com for roofing and building materials, landscape, and pool products; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia.
 longName	The Home Depot, Inc.
 market	us_market
-marketCap	317335142400
+marketCap	309732737024
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_278679
 mostRecentQuarter	1785628800
 netIncomeToCommon	14227000320
 nextFiscalYearEnd	1801440000
-nonDilutedMarketCap	319031211706
+nonDilutedMarketCap	312975235676
 numberOfAnalystOpinions	32
-open	318.21
+open	310.47
 operatingCashflow	18779000832
 operatingMargins	0.12858
 overallRisk	2
 payoutRatio	0.648
-pegRatio	1.78
+pegRatio	1.79
 phone	770 433 8211
-postMarketChange	-0.05999756
-postMarketChangePercent	-0.018863004
-postMarketPrice	318.01
-postMarketTime	1788473200
-previousClose	316.18
-priceEpsCurrentYear	21.173641
+postMarketChange	0.20230103
+postMarketChangePercent	0.0651638
+postMarketPrice	310.6523
+postMarketTime	1788994356
+previousClose	313.7
+priceEpsCurrentYear	20.666384
 priceHint	2
-priceToBook	19.103304
-priceToSalesTrailing12Months	1.8757693
+priceToBook	18.645647
+priceToSalesTrailing12Months	1.8308314
 profitMargins	0.0841
 quickRatio	0.259
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.94444
 region	US
-regularMarketChange	1.89001
-regularMarketChangePercent	0.597765
-regularMarketDayHigh	320.44
-regularMarketDayLow	315.21
-regularMarketDayRange	315.21 - 320.44
-regularMarketOpen	318.21
-regularMarketPreviousClose	316.18
-regularMarketPrice	318.07
-regularMarketTime	1788465603
-regularMarketVolume	3377447
+regularMarketChange	-3.25
+regularMarketChangePercent	-1.03602
+regularMarketDayHigh	313.385
+regularMarketDayLow	309.84
+regularMarketDayRange	309.84 - 313.385
+regularMarketOpen	310.47
+regularMarketPreviousClose	313.7
+regularMarketPrice	310.45
+regularMarketTime	1788984003
+regularMarketVolume	3357754
 returnOnAssets	0.121379994
 returnOnEquity	1.0429599
 revenueGrowth	0.057
@@ -177,15 +177,15 @@ totalDebt	63188000768
 totalRevenue	169176006656
 tradeable	False
 trailingAnnualDividendRate	4.63
-trailingAnnualDividendYield	0.014643558
+trailingAnnualDividendYield	0.014759324
 trailingEps	14.3
-trailingPE	22.242657
-trailingPegRatio	1.7839
+trailingPE	21.709791
+trailingPegRatio	1.7501
 triggerable	True
-twoHundredDayAverage	344.31085
-twoHundredDayAverageChange	-26.240845
-twoHundredDayAverageChangePercent	-0.07621266
+twoHundredDayAverage	343.7906
+twoHundredDayAverageChange	-33.340576
+twoHundredDayAverageChangePercent	-0.09697931
 typeDisp	Equity
-volume	3377447
+volume	3357754
 website	https://www.homedepot.com
 zip	30339

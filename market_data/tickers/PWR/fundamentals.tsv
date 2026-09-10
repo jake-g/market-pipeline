@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.6240262
-SandP52WeekChange	0.17909956
+52WeekChange	0.6378758
+SandP52WeekChange	0.17475092
 address1	2727 North Loop West
 allTimeHigh	788.75
 allTimeLow	1.75
-ask	620.77
-askSize	80
+ask	628.52
+askSize	40
 auditRisk	7
-averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	1148330
-averageDailyVolume3Month	1234304
-averageVolume	1234304
-averageVolume10days	1148330
-beta	1.219
-bid	620.12
+averageAnalystRating	1.5 - Buy
+averageDailyVolume10Day	984600
+averageDailyVolume3Month	1225387
+averageVolume	1225387
+averageVolume10days	984600
+beta	1.2
+bid	627.69
 bidSize	80
 boardRisk	1
 bookValue	64.136
@@ -21,18 +21,18 @@ city	Houston
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Earl C. Austin Jr.', 'age': 55, 'title': 'President, CEO & Director', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 4649339, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jayshree S. Desai', 'age': 53, 'title': 'Chief Financial Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 2170108, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Donald C. Wayne J.D.', 'age': 58, 'title': 'Executive VP & General Counsel', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1469649, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gerald A. Ducey Jr.', 'age': 49, 'title': 'President of Strategic Operations', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 1773368, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Karl W. Studer', 'age': 43, 'title': 'President of Electric Power', 'yearBorn': 1982, 'fiscalYear': 2025, 'totalPay': 2310666, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul M. Nobel', 'age': 57, 'title': 'Senior VP & Chief Accounting Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kip A. Rupp C.F.A.', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Mary  Sizemore', 'title': 'Senior Vice President of Human Resources', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Scot  Fluharty', 'title': 'President of Underground Utilities & Industrial', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew C. Compher CHST, CUSP, OHST', 'title': 'Senior Vice President of Operational Performance', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'PWR announced a cash dividend of $0.11 with an ex-date of Oct. 1, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1790827200000, 'amount': '0.11'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	620.06
+currentPrice	626.98
 currentRatio	1.098
 customPriceAlertConfidence	HIGH
 dateShortInterest	1786665600
-dayHigh	626.95
-dayLow	601.2172
+dayHigh	649.0
+dayLow	626.89
 debtToEquity	67.78
-discount_to_intrinsic_value	-32.17
+discount_to_intrinsic_value	-33.62
 displayName	Quanta Services
 dividendDate	1791504000
 dividendRate	0.44
@@ -46,51 +46,51 @@ earningsTimestampEnd	1793277000
 earningsTimestampStart	1793277000
 ebitda	3045004032
 ebitdaMargins	0.092539996
-enterpriseToEbitda	32.193
-enterpriseToRevenue	2.979
-enterpriseValue	98027446272
-epsCurrentYear	16.72777
-epsForward	19.6413
-epsTrailingTwelveMonths	8.73
+enterpriseToEbitda	33.589
+enterpriseToRevenue	3.108
+enterpriseValue	102277652480
+epsCurrentYear	16.72706
+epsForward	19.59971
+epsTrailingTwelveMonths	8.75
 eps_normalized_growth	0.4341336131809057
 esgPopulated	False
-exDividendDate	1782864000
+exDividendDate	1790812800
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	655.6958
-fiftyDayAverageChange	-35.635803
-fiftyDayAverageChangePercent	-0.054348074
-fiftyTwoWeekChangePercent	62.40262
+fiftyDayAverage	651.1994
+fiftyDayAverageChange	-24.219421
+fiftyDayAverageChangePercent	-0.03719202
+fiftyTwoWeekChangePercent	63.78758
 fiftyTwoWeekHigh	788.75
-fiftyTwoWeekHighChange	-168.69
-fiftyTwoWeekHighChangePercent	-0.21387005
-fiftyTwoWeekLow	363.01
-fiftyTwoWeekLowChange	257.05
-fiftyTwoWeekLowChangePercent	0.7081072
-fiftyTwoWeekRange	363.01 - 788.75
+fiftyTwoWeekHighChange	-161.77002
+fiftyTwoWeekHighChangePercent	-0.20509669
+fiftyTwoWeekLow	373.4
+fiftyTwoWeekLowChange	253.57999
+fiftyTwoWeekLowChangePercent	0.6791108
+fiftyTwoWeekRange	373.4 - 788.75
 financialCurrency	USD
 firstTradeDateMilliseconds	887293800000
 fiveYearAvgDividendYield	0.15
 floatShares	148973765
-forwardEps	19.6413
-forwardPE	31.569193
+forwardEps	19.59971
+forwardPE	31.989246
 freeCashflow	1955491328
 fullExchangeName	NYSE
 fullTimeEmployees	69500
-fulldayChange	9.279968
-fulldayChangePercent	1.5193634
-fulldayPrice	620.75
+fulldayChange	-12.07
+fulldayChangePercent	-1.88874
+fulldayPrice	626.98
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
-graham_intrinsic_value	469.12
+graham_intrinsic_value	469.22
 grossMargins	0.15456
 grossProfits	5085977088
 hasPrePostMarketData	True
 heldPercentInsiders	0.0066799996
-heldPercentInstitutions	0.94205004
+heldPercentInstitutions	0.94251996
 impliedSharesOutstanding	150343393
 industry	Engineering & Construction
 industryDisp	Engineering & Construction
@@ -105,48 +105,48 @@ lastSplitFactor	3:2
 longBusinessSummary	Quanta Services, Inc. offers infrastructure solutions for the electric and gas utility, power generation, load center, manufacturing, communications, pipeline, and energy industries. The company's Electric Infrastructure Solutions segment engages in the design, procurement, construction, upgrade, repair, and maintenance of electric power transmission and distribution infrastructure and substation facilities; installation, maintenance, and upgrade of electric power infrastructure projects; installation of smart grid technologies on electric power networks; and design, installation, maintenance, and repair of commercial and industrial wirings. This segment offers aviation; emergency aerial firefighting services; emergency restoration; and other engineering and technical services; design and construction solutions to wireline and wireless communications, cable multi-system operators, technology companies, and other customers; engineering, procurement, new construction, and repair and maintenance services for renewable generation facilities; and training for electric workers, as well as training for the gas distribution and communications industries. Its Underground Utility and Infrastructure Solutions segment is involved in the transportation, distribution, storage, development, and processing of natural gas, oil, and other products, as well as owns and operates large load centers. This segment also engages in the design, engineering, procurement, construction, upgrade, and repair and maintenance services for natural gas systems; pipeline protection, integrity testing, rehabilitation, and replacement services; and catalyst replacement, high-pressure and critical-path turnaround, instrumentation and electrical, piping, fabrication, and storage tank services. The company was formerly known as Fabal Construction, Inc. and changed its name to Quanta Services, Inc. in November 1997. The company was incorporated in 1997 and is headquartered in Houston, Texas.
 longName	Quanta Services, Inc.
 market	us_market
-marketCap	93221920768
+marketCap	94262296576
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_33509
 mostRecentQuarter	1782777600
 netIncomeToCommon	1326876032
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	91918447046
-numberOfAnalystOpinions	28
-open	611.5
+nonDilutedMarketCap	96076945296
+numberOfAnalystOpinions	29
+open	639.97
 operatingCashflow	3178248960
 operatingMargins	0.07217
 overallRisk	1
 payoutRatio	0.049200002
-pegRatio	1.38
+pegRatio	1.41
 phone	713 629 7600
-postMarketChange	0.69000244
-postMarketChangePercent	0.11127995
-postMarketPrice	620.75
-postMarketTime	1788473096
-previousClose	610.78
-priceEpsCurrentYear	37.067703
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	626.98
+postMarketTime	1788985760
+previousClose	639.05
+priceEpsCurrentYear	37.482975
 priceHint	2
-priceToBook	9.667893
-priceToSalesTrailing12Months	2.8330505
+priceToBook	9.775788
+priceToSalesTrailing12Months	2.864668
 profitMargins	0.04032
 quickRatio	0.979
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
-recommendationKey	strong_buy
-recommendationMean	1.5
+recommendationKey	buy
+recommendationMean	1.51613
 region	US
-regularMarketChange	9.27997
-regularMarketChangePercent	1.51936
-regularMarketDayHigh	626.95
-regularMarketDayLow	601.2172
-regularMarketDayRange	601.2172 - 626.95
-regularMarketOpen	611.5
-regularMarketPreviousClose	610.78
-regularMarketPrice	620.06
-regularMarketTime	1788465602
-regularMarketVolume	870771
+regularMarketChange	-12.07
+regularMarketChangePercent	-1.88874
+regularMarketDayHigh	649.0
+regularMarketDayLow	626.89
+regularMarketDayRange	626.89 - 649.0
+regularMarketOpen	639.97
+regularMarketPreviousClose	639.05
+regularMarketPrice	626.98
+regularMarketTime	1788984002
+regularMarketVolume	530084
 returnOnAssets	0.052259997
 returnOnEquity	0.15337
 revenueGrowth	0.411
@@ -168,7 +168,7 @@ state	TX
 symbol	PWR
 targetHighPrice	976.0
 targetLowPrice	410.0
-targetMeanPrice	770.0421
+targetMeanPrice	768.69586
 targetMedianPrice	800.0
 totalCash	506431008
 totalCashPerShare	3.368
@@ -176,15 +176,15 @@ totalDebt	6603134976
 totalRevenue	32905140224
 tradeable	False
 trailingAnnualDividendRate	0.43
-trailingAnnualDividendYield	0.0007040178
-trailingEps	8.73
-trailingPE	71.02635
-trailingPegRatio	1.3812
+trailingAnnualDividendYield	0.0006728738
+trailingEps	8.75
+trailingPE	71.654854
+trailingPegRatio	1.4437
 triggerable	True
-twoHundredDayAverage	585.91864
-twoHundredDayAverageChange	34.141357
-twoHundredDayAverageChangePercent	0.05826979
+twoHundredDayAverage	588.85895
+twoHundredDayAverageChange	38.121033
+twoHundredDayAverageChangePercent	0.06473712
 typeDisp	Equity
-volume	870771
+volume	530084
 website	https://www.quantaservices.com
 zip	77008

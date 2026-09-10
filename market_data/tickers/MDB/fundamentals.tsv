@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.16565752
-SandP52WeekChange	0.17909956
+52WeekChange	0.063099146
+SandP52WeekChange	0.17475092
 address1	1633 Broadway
 address2	38th Floor
 allTimeHigh	590.0
@@ -8,16 +8,16 @@ allTimeLow	24.62
 ask	320.38
 askSize	1
 auditRisk	1
-averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	2150580
-averageDailyVolume3Month	1627038
-averageVolume	1627038
-averageVolume10days	2150580
+averageAnalystRating	1.6 - Buy
+averageDailyVolume10Day	2509410
+averageDailyVolume3Month	1656377
+averageVolume	1656377
+averageVolume10days	2509410
 beta	1.585
 bid	327.69
 bidSize	1
 boardRisk	6
-bookValue	36.458
+bookValue	36.957
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Chirantan Jitendra Desai', 'age': 54, 'title': 'President, CEO & Director', 'yearBorn': 1971, 'fiscalYear': 2026, 'totalPay': 228716, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dwight A. Merriman', 'age': 56, 'title': 'Co-Founder & Director', 'yearBorn': 1969, 'fiscalYear': 2026, 'totalPay': 44000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael J. Berry', 'age': 62, 'title': 'CFO & Principal Financial Officer', 'yearBorn': 1963, 'fiscalYear': 2026, 'totalPay': 590147, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kong  Phan', 'age': 42, 'title': 'Chief Accounting Officer & Principal Accounting Officer', 'yearBorn': 1983, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jim  Scharf', 'title': 'Chief Technology Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Deepa  Gopinath', 'title': 'Chief Information Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jess Ian Lubert', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Andrew  Stephens', 'title': 'Chief Legal Officer, General Counsel & Corporate Secretary', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. May  Petry', 'title': 'Chief Marketing Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Harsha  Jalihal', 'title': 'Chief People Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1798675200
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	384.45
+currentPrice	358.38
 currentRatio	4.866
 customPriceAlertConfidence	HIGH
 dateShortInterest	1786665600
-dayHigh	391.125
-dayLow	375.51
+dayHigh	365.49
+dayLow	354.3772
 debtToEquity	1.846
 displayName	MongoDB
 earningsCallTimestampEnd	1788296400
@@ -41,11 +41,11 @@ earningsTimestampEnd	1796155200
 earningsTimestampStart	1796155200
 ebitda	13854000
 ebitdaMargins	0.0049799997
-enterpriseToEbitda	2012.748
-enterpriseToRevenue	10.02
-enterpriseValue	27884609536
-epsCurrentYear	6.51428
-epsForward	7.76018
+enterpriseToEbitda	1899.943
+enterpriseToRevenue	9.459
+enterpriseValue	26321815552
+epsCurrentYear	6.54728
+epsForward	7.78343
 epsTrailingTwelveMonths	0.71
 esgPopulated	False
 exchange	NGM
@@ -53,35 +53,35 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	370.3122
-fiftyDayAverageChange	14.137817
-fiftyDayAverageChangePercent	0.038178105
-fiftyTwoWeekChangePercent	16.565752
+fiftyDayAverage	374.285
+fiftyDayAverageChange	-15.904999
+fiftyDayAverageChangePercent	-0.042494353
+fiftyTwoWeekChangePercent	6.3099146
 fiftyTwoWeekHigh	473.1
-fiftyTwoWeekHighChange	-88.649994
-fiftyTwoWeekHighChangePercent	-0.18738109
+fiftyTwoWeekHighChange	-114.72
+fiftyTwoWeekHighChangePercent	-0.24248573
 fiftyTwoWeekLow	215.68
-fiftyTwoWeekLowChange	168.77002
-fiftyTwoWeekLowChangePercent	0.782502
+fiftyTwoWeekLowChange	142.70001
+fiftyTwoWeekLowChangePercent	0.6616284
 fiftyTwoWeekRange	215.68 - 473.1
 financialCurrency	USD
 firstTradeDateMilliseconds	1508419800000
-floatShares	78448987
-forwardEps	7.76018
-forwardPE	49.541378
+floatShares	78452209
+forwardEps	7.78343
+forwardPE	46.04397
 freeCashflow	561356224
 fullExchangeName	NasdaqGM
 fullTimeEmployees	5783
-fulldayChange	9.050018
-fulldayChangePercent	2.4107668
-fulldayPrice	384.01
+fulldayChange	2.380005
+fulldayChangePercent	0.6685407
+fulldayPrice	357.93
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
 grossMargins	0.72688
 grossProfits	2022732032
 hasPrePostMarketData	True
 heldPercentInsiders	0.02637
-heldPercentInstitutions	0.96772003
+heldPercentInstitutions	0.96783996
 impliedSharesOutstanding	80556341
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -92,48 +92,48 @@ lastFiscalYearEnd	1769817600
 longBusinessSummary	MongoDB, Inc., together with its subsidiaries, provides general purpose database platform worldwide. The company offers MongoDB Atlas, a hosted multi-cloud database-as-a-service solution; MongoDB Enterprise Advanced, a commercial database server for enterprise customers to run in the cloud, on-premises, or in a hybrid environment; and Community Server, a free-to-download version of its database, which includes the functionality that developers need to get started with MongoDB. It offers professional services comprising consulting and training. The company was formerly known as 10gen, Inc. and changed its name to MongoDB, Inc. in August 2013. MongoDB, Inc. was incorporated in 2007 and is headquartered in New York, New York.
 longName	MongoDB, Inc.
 market	us_market
-marketCap	30969886720
+marketCap	28869783552
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_46952162
 mostRecentQuarter	1785456000
 netIncomeToCommon	58897000
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	34924347022
+nonDilutedMarketCap	28678057396
 numberOfAnalystOpinions	37
-open	378.76
+open	359.97
 operatingCashflow	666622976
 operatingMargins	0.0368
 overallRisk	5
 payoutRatio	0.0
 pegRatio	1.67
 phone	646 727 4092
-postMarketChange	-0.44000244
-postMarketChangePercent	-0.114449844
-postMarketPrice	384.01
-postMarketTime	1788474107
-previousClose	375.4
-priceEpsCurrentYear	59.016502
+postMarketChange	-0.4500122
+postMarketChangePercent	-0.12556845
+postMarketPrice	357.93
+postMarketTime	1788995903
+previousClose	356.0
+priceEpsCurrentYear	54.737236
 priceHint	2
-priceToBook	10.545011
-priceToSalesTrailing12Months	11.129158
+priceToBook	9.697216
+priceToSalesTrailing12Months	10.374477
 profitMargins	0.02116
 quickRatio	4.467
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.65854
+recommendationMean	1.63415
 region	US
-regularMarketChange	9.050018
-regularMarketChangePercent	2.4107668
-regularMarketDayHigh	391.125
-regularMarketDayLow	375.51
-regularMarketDayRange	375.51 - 391.125
-regularMarketOpen	378.76
-regularMarketPreviousClose	375.4
-regularMarketPrice	384.45
-regularMarketTime	1788465601
-regularMarketVolume	2664049
+regularMarketChange	2.380005
+regularMarketChangePercent	0.6685407
+regularMarketDayHigh	365.49
+regularMarketDayLow	354.3772
+regularMarketDayRange	354.3772 - 365.49
+regularMarketOpen	359.97
+regularMarketPreviousClose	356.0
+regularMarketPrice	358.38
+regularMarketTime	1788984001
+regularMarketVolume	2374118
 returnOnAssets	-0.0022200001
 returnOnEquity	0.01989
 revenueGrowth	0.305
@@ -153,9 +153,9 @@ shortRatio	1.91
 sourceInterval	15
 state	NY
 symbol	MDB
-targetHighPrice	560.0
+targetHighPrice	565.0
 targetLowPrice	272.64
-targetMeanPrice	453.90918
+targetMeanPrice	454.72
 targetMedianPrice	465.0
 totalCash	2411254016
 totalCashPerShare	29.933
@@ -165,13 +165,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.71
-trailingPE	541.4789
+trailingPE	504.7606
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	342.1432
-twoHundredDayAverageChange	42.306824
-twoHundredDayAverageChangePercent	0.12365239
+twoHundredDayAverage	342.5388
+twoHundredDayAverageChange	15.841217
+twoHundredDayAverageChangePercent	0.04624649
 typeDisp	Equity
-volume	2664049
+volume	2374118
 website	https://www.mongodb.com
 zip	10019

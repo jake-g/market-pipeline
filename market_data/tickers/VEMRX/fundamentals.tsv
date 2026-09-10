@@ -2,7 +2,7 @@ Metric	Value
 address1	Valley Forge PA 19482
 address2	PO Box 2600
 address3	Vanguard International Equity Index Fund
-allTimeHigh	128.64
+allTimeHigh	128.75
 allTimeLow	60.0
 annualHoldingsTurnover	0.06
 annualReportExpenseRatio	0.0005
@@ -10,7 +10,7 @@ averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
 averageVolume10days	0
-beta3Year	0.77
+beta3Year	0.75
 bookValue	48.146
 companyOfficers	[]
 corporateActions	[]
@@ -18,7 +18,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
 dividendRate	0.1524
-dividendYield	2.37
+dividendYield	2.29
 epsTrailingTwelveMonths	7.4562054
 esgPopulated	False
 exchange	NAS
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	124.6916
-fiftyDayAverageChange	3.3784103
-fiftyDayAverageChangePercent	0.02709413
-fiftyTwoWeekChangePercent	18.172539
-fiftyTwoWeekHigh	128.64
-fiftyTwoWeekHighChange	-0.56999207
-fiftyTwoWeekHighChangePercent	-0.0044309087
-fiftyTwoWeekLow	107.8
-fiftyTwoWeekLowChange	20.270004
-fiftyTwoWeekLowChangePercent	0.18803343
-fiftyTwoWeekRange	107.8 - 128.64
+fiftyDayAverage	125.0034
+fiftyDayAverageChange	2.9766006
+fiftyDayAverageChangePercent	0.023812156
+fiftyTwoWeekChangePercent	15.928328
+fiftyTwoWeekHigh	128.75
+fiftyTwoWeekHighChange	-0.76999664
+fiftyTwoWeekHighChangePercent	-0.0059805564
+fiftyTwoWeekLow	110.02
+fiftyTwoWeekLowChange	17.960007
+fiftyTwoWeekLowChangePercent	0.16324311
+fiftyTwoWeekRange	110.02 - 128.75
 financialCurrency	USD
 firstTradeDateMilliseconds	1292250600000
 fullExchangeName	Nasdaq
-fulldayChange	0.68
-fulldayChangePercent	0.5337938
-fulldayPrice	128.07
+fulldayChange	-0.77
+fulldayChangePercent	-0.5980582
+fulldayPrice	127.98
 fundInceptionDate	1109894400
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
@@ -58,34 +58,34 @@ maxAge	86400
 messageBoardId	finmb_20936186
 morningStarOverallRating	3
 morningStarRiskRating	2
-netAssets	162032337000.0
+netAssets	168359133000.0
 netExpenseRatio	0.05
-previousClose	127.39001
+previousClose	128.75
 priceHint	2
-priceToBook	2.6600342
+priceToBook	2.6581647
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	0.68
-regularMarketChangePercent	0.5337938
-regularMarketPreviousClose	127.39001
-regularMarketPrice	128.07
-regularMarketTime	1788471704
+regularMarketChange	-0.77
+regularMarketChangePercent	-0.5980582
+regularMarketPreviousClose	128.75
+regularMarketPrice	127.98
+regularMarketTime	1788994451
 sharesOutstanding	2132679936
 shortName	Vanguard Emerging Markets Stock
 sourceInterval	15
 symbol	VEMRX
-totalAssets	162032336896
+totalAssets	168359133184
 tradeable	False
 trailingAnnualDividendRate	1.122
-trailingAnnualDividendYield	0.008807598
-trailingPE	17.176298
+trailingAnnualDividendYield	0.008714563
+trailingPE	17.164227
 trailingPegRatio	None
-trailingThreeMonthReturns	0.09508
+trailingThreeMonthReturns	1.43538
 triggerable	False
-twoHundredDayAverage	120.26995
-twoHundredDayAverageChange	7.8000565
-twoHundredDayAverageChangePercent	0.06485458
+twoHundredDayAverage	120.4891
+twoHundredDayAverageChange	7.490906
+twoHundredDayAverageChangePercent	0.06217082
 typeDisp	Fund
-yield	0.023699999
-ytdReturn	9.19705
+yield	0.0229
+ytdReturn	12.8618
