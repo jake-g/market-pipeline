@@ -84,7 +84,7 @@ SECTORS = {
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
         "STM", "TTDKY", "TTMI", "SOXX", "XSD", "SMHX", "MUZ", "ALAB", "LITE",
-        "FN"
+        "FN", "DRAM", "QTUM"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
@@ -103,15 +103,17 @@ SECTORS = {
         "XOM", "CVX", "CCJ", "NEE", "XLE", "FSLR", "SHEL", "TTE", "BP", "COP",
         "EOG", "SLB", "HAL", "URA", "D", "ES", "VST", "CEG", "CNP", "SO",
         "GE", "GEV", "ETN", "PWR", "LIN", "WM", "VDE", "FENY", "VPU", "FUTY",
-        "NLR", "ENPH", "FLNC", "KULR", "NXT", "TLN", "OKLO", "SMR"
+        "NLR", "ENPH", "FLNC", "KULR", "NXT", "TLN", "OKLO", "SMR", "URNM"
     ],
     "Aerospace & Defense": [
-        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS", "KTOS", "AVAV", "ESLT", "VSAT", "RKLB", "SPCX"
+        "LMT", "RTX", "ITA", "NOC", "GD", "BA", "TDG", "HII", "AXON", "LDOS",
+        "KTOS", "AVAV", "ESLT", "VSAT", "RKLB", "SPCX", "NASA"
     ],
     "Crypto & Minerals": [
         "BTC-USD", "ETH-USD", "COIN", "MARA", "RIOT", "MSTR", "CLSK", "NEM",
         "GOLD", "PAAS", "FCX", "SCCO", "VALE", "RIO", "BHP", "BMNR",
-        "HUT", "CAT", "IBIT", "GLDM", "SOL-USD", "ALB", "SQM", "CF", "MEOH"
+        "HUT", "CAT", "IBIT", "GLDM", "SOL-USD", "ALB", "SQM", "CF", "MEOH",
+        "COPX", "LIT"
     ],
     "Data Center & Infra": [
         "EQIX", "DLR", "AMT", "CCI", "VRT", "ANET", "IRM", "BX", "SCHH",
@@ -126,16 +128,16 @@ SECTORS = {
         "PFE", "MRK", "JNJ", "BSX", "MDT", "TMO", "MRNA", "PPH", "OZEM"
     ],
     "Water & Desalination": [
-        "AWK", "XYL", "CWCO", "AWX", "DD",
+        "AWK", "XYL", "CWCO", "AWX", "DD", "FIW"
     ],
     "Consumer & Finance": [
         "CMG", "WMT", "COST", "DE", "BLK", "V", "MA", "JPM", "VDC", "HD",
-        "LOW", "PG", "KO", "GS", "MS", "BAC", "O", "PLD", "DIS"
+        "LOW", "PG", "KO", "GS", "MS", "BAC", "O", "PLD", "DIS", "HOOD"
     ],
     "Broad Market & Intl ETFs": [
         "VOO", "VTI", "VTSAX", "SCHG", "VUG", "VIGAX", "SCHV", "VTV",
         "SCHD", "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM",
-        "VAW", "VXUS", "EWY"
+        "VAW", "VXUS", "EWY", "SCHB"
     ],
     "Mutual Funds": [
         "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"

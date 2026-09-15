@@ -156,6 +156,24 @@ TICKER_SEARCH_TERMS: Dict[str, str] = {
         "Dominion Energy stock",
     "HAL":
         "Halliburton stock",
+    "NASA":
+        '"Tema Space Innovators ETF" OR "NASA ETF stock"',
+    "LIT":
+        '"Global X Lithium ETF" OR "LIT ETF stock"',
+    "DRAM":
+        '"Roundhill Memory ETF" OR "DRAM ETF stock"',
+    "HOOD":
+        '"Robinhood Markets stock" OR "Robinhood stock"',
+    "URNM":
+        '"Sprott Uranium Miners ETF" OR "URNM ETF stock"',
+    "COPX":
+        '"Global X Copper Miners ETF" OR "COPX ETF stock"',
+    "FIW":
+        '"First Trust Water ETF" OR "FIW ETF stock"',
+    "QTUM":
+        '"Defiance Quantum ETF" OR "QTUM ETF stock"',
+    "SCHB":
+        '"Schwab US Broad Market ETF" OR "SCHB ETF stock"',
 
     # News Topic Search Overrides to prevent generic noise in Google News
     "AI":

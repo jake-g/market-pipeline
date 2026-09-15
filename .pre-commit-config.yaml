@@ -1,4 +1,4 @@
-exclude: '^(market_data/|logs/)'
+exclude: '^(market_data/|logs/|reports/backups/)'
 
 repos:
   - repo: https://github.com/google/yapf
