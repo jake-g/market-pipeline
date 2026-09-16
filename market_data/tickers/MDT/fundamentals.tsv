@@ -1,43 +1,43 @@
 Metric	Value
-52WeekChange	0.0007582903
-SandP52WeekChange	0.17475092
+52WeekChange	-0.004140556
+SandP52WeekChange	0.15336108
 address1	Building Two
 address2	Parkmore Business Park West
 allTimeHigh	135.89
 allTimeLow	0.129883
-ask	92.5
-askSize	100
+ask	94.61
+askSize	800
 auditRisk	8
-averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	9232990
-averageDailyVolume3Month	8155358
-averageVolume	8155358
-averageVolume10days	9232990
+averageAnalystRating	1.8 - Buy
+averageDailyVolume10Day	9276390
+averageDailyVolume3Month	8121743
+averageVolume	8121743
+averageVolume10days	9276390
 beta	0.574
-bid	91.5
-bidSize	600
+bid	93.64
+bidSize	500
 boardRisk	7
 bookValue	39.242
 city	Galway
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Geoffrey Straub Martha', 'age': 55, 'title': 'Chairman of the Board & CEO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4092494, 'exercisedValue': 460404, 'unexercisedValue': 245414}, {'maxAge': 1, 'name': 'Mr. Thierry  Pieton', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4216777, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Quinn', 'age': 56, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2026, 'totalPay': 2487488, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brett A. Wall', 'age': 59, 'title': 'Executive Officer', 'yearBorn': 1966, 'fiscalYear': 2026, 'totalPay': 2004569, 'exercisedValue': 0, 'unexercisedValue': 88196}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Geoffrey Straub Martha', 'age': 55, 'title': 'Chairman of the Board & CEO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4092494, 'exercisedValue': 460404, 'unexercisedValue': 245414}, {'maxAge': 1, 'name': 'Mr. Thierry  Pieton', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 4216777, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Quinn', 'age': 56, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2026, 'totalPay': 2487488, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael  Marinaro', 'age': 54, 'title': 'Executive VP and President of Medical Surgical Portfolio & Americas', 'yearBorn': 1971, 'fiscalYear': 2026, 'totalPay': 1915981, 'exercisedValue': 35449, 'unexercisedValue': 84361}, {'maxAge': 1, 'name': 'Mr. Rogerio  Branco', 'title': 'SVP & Chief Operations and Supply Chain Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Denise L. Blomquist', 'title': 'VP, Global Controller & Chief Accounting Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Laura  Mauri M.D., M.Sc.', 'age': 55, 'title': 'Senior VP and Chief Scientific & Medical Officer', 'yearBorn': 1970, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Ingrid  Goldberg', 'title': 'Vice President & Head of Investor Relations', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew R. Walter', 'age': 46, 'title': 'Senior Vice President of Human Resources, IT and Global Communications & Corporate Marketing', 'yearBorn': 1979, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alex  Gu', 'title': 'Senior VP & President of Greater China Region', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1798675200
 compensationRisk	6
 corporateActions	[{'header': 'Dividend', 'message': 'MDT announced a cash dividend of $0.72 with an ex-date of Sep. 25, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1790308800000, 'amount': '0.72'}}]
 country	Ireland
 cryptoTradeable	False
 currency	USD
-currentPrice	91.89
+currentPrice	93.75
 currentRatio	2.067
 customPriceAlertConfidence	HIGH
-dateShortInterest	1786665600
-dayHigh	93.39
-dayLow	91.75
+dateShortInterest	1788134400
+dayHigh	94.7
+dayLow	92.73
 debtToEquity	55.365
-discount_to_intrinsic_value	57.79
+discount_to_intrinsic_value	55.41
 displayName	Medtronic
 dividendDate	1792108800
 dividendRate	2.88
-dividendYield	3.12
+dividendYield	3.07
 earningsCallTimestampEnd	1788263100
 earningsCallTimestampStart	1788263100
 earningsGrowth	0.407
@@ -47,11 +47,11 @@ earningsTimestampEnd	1794918600
 earningsTimestampStart	1794918600
 ebitda	10407999488
 ebitdaMargins	0.27724
-enterpriseToEbitda	13.272
-enterpriseToRevenue	3.679
-enterpriseValue	138131554304
-epsCurrentYear	5.97209
-epsForward	6.39948
+enterpriseToEbitda	13.445
+enterpriseToRevenue	3.727
+enterpriseValue	139935137792
+epsCurrentYear	5.97401
+epsForward	6.40626
 epsTrailingTwelveMonths	4.06
 eps_normalized_growth	0.27269822910711294
 esgPopulated	False
@@ -62,37 +62,37 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	353 1 438 1798
-fiftyDayAverage	86.9642
-fiftyDayAverageChange	4.9257965
-fiftyDayAverageChangePercent	0.056641657
-fiftyTwoWeekChangePercent	0.07582903
+fiftyDayAverage	87.8986
+fiftyDayAverageChange	5.8514023
+fiftyDayAverageChangePercent	0.06656992
+fiftyTwoWeekChangePercent	-0.4140556
 fiftyTwoWeekHigh	106.33
-fiftyTwoWeekHighChange	-14.440002
-fiftyTwoWeekHighChangePercent	-0.13580365
+fiftyTwoWeekHighChange	-12.580002
+fiftyTwoWeekHighChangePercent	-0.118310936
 fiftyTwoWeekLow	73.31
-fiftyTwoWeekLowChange	18.580002
-fiftyTwoWeekLowChangePercent	0.2534443
+fiftyTwoWeekLowChange	20.440002
+fiftyTwoWeekLowChangePercent	0.27881604
 fiftyTwoWeekRange	73.31 - 106.33
 financialCurrency	USD
 firstTradeDateMilliseconds	105197400000
 fiveYearAvgDividendYield	3.08
 floatShares	1276617988
-forwardEps	6.39948
-forwardPE	14.358979
+forwardEps	6.40626
+forwardPE	14.634124
 freeCashflow	5412499968
 fullExchangeName	NYSE
 fullTimeEmployees	95000
-fulldayChange	-0.5
-fulldayChangePercent	-0.54118407
-fulldayPrice	91.89
+fulldayChange	-0.05000305
+fulldayChangePercent	-0.05330815
+fulldayPrice	93.75
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
-graham_intrinsic_value	217.72
+graham_intrinsic_value	210.27
 grossMargins	0.65271
 grossProfits	24504000512
 hasPrePostMarketData	True
 heldPercentInsiders	0.0039399997
-heldPercentInstitutions	0.88765
+heldPercentInstitutions	0.88661003
 impliedSharesOutstanding	1279137890
 industry	Medical Devices
 industryDisp	Medical Devices
@@ -107,16 +107,16 @@ lastSplitFactor	2:1
 longBusinessSummary	Medtronic plc develops, manufactures, and sells device-based medical therapies to healthcare systems, physicians, clinicians, and patients in the United States, Ireland, and internationally. It operates through three segments: The Cardiovascular Portfolio, Neuroscience Portfolio, and Medical Surgical Portfolio. The Cardiovascular Portfolio segment offers implantable cardiac pacemakers, cardioverter defibrillators, and cardiac resynchronization therapy devices; cardiac ablation products; insertable cardiac monitor systems; TYRX products; and remote monitoring and patient-centered software. It also provides aortic valves, surgical valve replacement and repair products, endovascular stent grafts and accessories, and transcatheter pulmonary valves, left atrial appendage exclusion systems, extracorporeal membrane oxygenation (ECMO) systems and percutaneous coronary intervention products, percutaneous angioplasty balloons, and endovenous products. The Neuroscience Portfolio segment offers medical devices and implants, biologic solutions, spinal cord stimulation and brain modulation systems, implantable drug infusion systems, and interventional products, as well as nerve ablation system under the Accurian name. This segment offers its products for spinal surgeons, neurosurgeons, neurologists, pain management specialists, anesthesiologists, orthopedic surgeons, urologists, urogynecologists, and interventional radiologists, as well as ear, nose, and throat specialists, and energy surgical instruments. The Medical Surgical Portfolio segment offers surgical stapling devices, vessel sealing instruments, wound closure and electrosurgery products, AI-powered surgical video and analytics platform, robotic-assisted surgery products, hernia mechanical devices, mesh implants, gynecology products, gastrointestinal and hepatologic diagnostics and therapies, and therapies to treat diseases and conditions, and patient monitoring and airway management products, as well as insulin pumps and consumables, continuous glucose monitoring systems, and sensors. Medtronic plc was founded in 1949 and is headquartered in Galway, Ireland.
 longName	Medtronic plc
 market	us_market
-marketCap	117539979264
+marketCap	119919181824
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_31348
 mostRecentQuarter	1785456000
 netIncomeToCommon	5231000064
 nextFiscalYearEnd	1808524800
-nonDilutedMarketCap	118179549657
-numberOfAnalystOpinions	25
-open	92.39
+nonDilutedMarketCap	119983134082
+numberOfAnalystOpinions	24
+open	93.69
 operatingCashflow	8034999808
 operatingMargins	0.19332
 overallRisk	7
@@ -125,30 +125,30 @@ pegRatio	1.69
 phone	353 1 438 1700
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	91.89
-postMarketTime	1788990946
-previousClose	92.39
-priceEpsCurrentYear	15.386574
+postMarketPrice	93.75
+postMarketTime	1789513408
+previousClose	93.8
+priceEpsCurrentYear	15.692977
 priceHint	2
-priceToBook	2.3416238
-priceToSalesTrailing12Months	3.130893
+priceToBook	2.3890219
+priceToSalesTrailing12Months	3.1942673
 profitMargins	0.13934
 quickRatio	1.286
 quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.72414
+recommendationMean	1.75
 region	US
-regularMarketChange	-0.5
-regularMarketChangePercent	-0.541184
-regularMarketDayHigh	93.39
-regularMarketDayLow	91.75
-regularMarketDayRange	91.75 - 93.39
-regularMarketOpen	92.39
-regularMarketPreviousClose	92.39
-regularMarketPrice	91.89
-regularMarketTime	1788984002
-regularMarketVolume	7726033
+regularMarketChange	-0.0500031
+regularMarketChangePercent	-0.0533082
+regularMarketDayHigh	94.7
+regularMarketDayLow	92.73
+regularMarketDayRange	92.73 - 94.7
+regularMarketOpen	93.69
+regularMarketPreviousClose	93.8
+regularMarketPrice	93.75
+regularMarketTime	1789502402
+regularMarketVolume	7146652
 returnOnAssets	0.05118
 returnOnEquity	0.106479995
 revenueGrowth	0.137
@@ -158,18 +158,18 @@ sectorDisp	Healthcare
 sectorKey	healthcare
 shareHolderRightsRisk	6
 sharesOutstanding	1279137890
-sharesPercentSharesOut	0.0112
-sharesShort	14350429
-sharesShortPreviousMonthDate	1784073600
-sharesShortPriorMonth	19025990
+sharesPercentSharesOut	0.0095
+sharesShort	12134511
+sharesShortPreviousMonthDate	1785456000
+sharesShortPriorMonth	18120230
 shortName	Medtronic plc.
-shortPercentOfFloat	0.0112
-shortRatio	1.99
+shortPercentOfFloat	0.0095
+shortRatio	1.74
 sourceInterval	15
 symbol	MDT
 targetHighPrice	121.0
 targetLowPrice	85.0
-targetMeanPrice	104.76
+targetMeanPrice	104.83333
 targetMedianPrice	106.0
 totalCash	8819000320
 totalCashPerShare	6.894
@@ -177,15 +177,15 @@ totalDebt	28152999936
 totalRevenue	37541998592
 tradeable	False
 trailingAnnualDividendRate	2.85
-trailingAnnualDividendYield	0.030847494
+trailingAnnualDividendYield	0.030383794
 trailingEps	4.06
-trailingPE	22.633005
-trailingPegRatio	1.6613
+trailingPE	23.091133
+trailingPegRatio	1.6852
 triggerable	True
-twoHundredDayAverage	89.6782
-twoHundredDayAverageChange	2.2117996
-twoHundredDayAverageChangePercent	0.024663739
+twoHundredDayAverage	89.4991
+twoHundredDayAverageChange	4.2509003
+twoHundredDayAverageChangePercent	0.04749657
 typeDisp	Equity
-volume	7726033
+volume	7146652
 website	https://www.medtronic.com
 zip	H91 4K49

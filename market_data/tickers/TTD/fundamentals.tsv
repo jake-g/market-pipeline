@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.6961422
-SandP52WeekChange	0.17475092
+52WeekChange	-0.6665553
+SandP52WeekChange	0.15336108
 address1	42 North Chestnut Street
 allTimeHigh	141.53
 allTimeLow	2.2
@@ -8,15 +8,15 @@ ask	20.12
 askSize	1
 auditRisk	10
 averageAnalystRating	3.1 - Hold
-averageDailyVolume10Day	18934840
-averageDailyVolume3Month	21996156
-averageVolume	21996156
-averageVolume10days	18934840
+averageDailyVolume10Day	18858690
+averageDailyVolume3Month	21380629
+averageVolume	21380629
+averageVolume10days	18858690
 beta	1.005
 bid	17.68
 bidSize	2
 boardRisk	10
-bookValue	5.209
+bookValue	5.482
 city	Ventura
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Jeffrey Terry Green', 'age': 48, 'title': 'Co-Founder, CEO, President & Chairman', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 4251248, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Vivek  Kundra', 'age': 49, 'title': 'Chief Operating Officer', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 1573056, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jay R. Grant', 'age': 57, 'title': 'Chief Legal Officer & Secretary', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1260723, 'exercisedValue': 784001, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nathan  Olmstead', 'age': 53, 'title': 'Chief Financial Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Tahnil  Davis', 'age': 54, 'title': 'Chief Accounting Officer & Executive VP', 'yearBorn': 1971, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Chris  Toth', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sarah  Gavin', 'title': 'Executive VP & Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Terry  Kane', 'title': 'Managing Director of Middle East & Africa', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Will  Platt-Higgins', 'title': 'Executive Vice President of Business Development for North America', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Anna  Sayre', 'title': 'Senior Vice President of Global Brand Marketing', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	13.88
+currentPrice	15.0
 currentRatio	1.724
 customPriceAlertConfidence	HIGH
-dateShortInterest	1786665600
-dayHigh	14.085
-dayLow	13.7101
+dateShortInterest	1788134400
+dayHigh	15.305
+dayLow	14.5101
 debtToEquity	16.863
-discount_to_intrinsic_value	-112.07
+discount_to_intrinsic_value	-137.3
 displayName	The Trade Desk
 earningsCallTimestampEnd	1786050000
 earningsCallTimestampStart	1786050000
@@ -43,11 +43,11 @@ earningsTimestampEnd	1793908800
 earningsTimestampStart	1793908800
 ebitda	697982016
 ebitdaMargins	0.23343
-enterpriseToEbitda	7.932
-enterpriseToRevenue	1.852
-enterpriseValue	5536497152
-epsCurrentYear	1.16099
-epsForward	1.00583
+enterpriseToEbitda	8.572
+enterpriseToRevenue	2.001
+enterpriseValue	5982883328
+epsCurrentYear	1.15591
+epsForward	0.99541
 epsTrailingTwelveMonths	0.84
 eps_normalized_growth	-0.4729692895774037
 esgPopulated	False
@@ -56,36 +56,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	16.4916
-fiftyDayAverageChange	-2.6116
-fiftyDayAverageChangePercent	-0.15835941
-fiftyTwoWeekChangePercent	-69.61422
+fiftyDayAverage	16.1352
+fiftyDayAverageChange	-1.1352005
+fiftyDayAverageChangePercent	-0.07035553
+fiftyTwoWeekChangePercent	-66.655525
 fiftyTwoWeekHigh	56.39
-fiftyTwoWeekHighChange	-42.51
-fiftyTwoWeekHighChangePercent	-0.753857
+fiftyTwoWeekHighChange	-41.39
+fiftyTwoWeekHighChangePercent	-0.7339954
 fiftyTwoWeekLow	12.83
-fiftyTwoWeekLowChange	1.0500002
-fiftyTwoWeekLowChangePercent	0.08183946
+fiftyTwoWeekLowChange	2.17
+fiftyTwoWeekLowChangePercent	0.16913484
 fiftyTwoWeekRange	12.83 - 56.39
 financialCurrency	USD
 firstTradeDateMilliseconds	1474464600000
 floatShares	417831565
-forwardEps	1.00583
-forwardPE	13.799548
+forwardEps	0.99541
+forwardPE	15.069167
 freeCashflow	582992768
 fullExchangeName	NasdaqGM
 fullTimeEmployees	3843
-fulldayChange	-0.09000015
-fulldayChangePercent	-0.64194113
-fulldayPrice	13.93
+fulldayChange	0.009999275
+fulldayChangePercent	0.06679542
+fulldayPrice	14.98
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
-graham_intrinsic_value	6.54
+graham_intrinsic_value	6.32
 grossMargins	0.76872003
 grossProfits	2298586880
 hasPrePostMarketData	True
 heldPercentInsiders	0.02293
-heldPercentInstitutions	0.89782
+heldPercentInstitutions	0.89696
 impliedSharesOutstanding	469880194
 industry	Advertising Agencies
 industryDisp	Advertising Agencies
@@ -98,31 +98,31 @@ lastSplitFactor	10:1
 longBusinessSummary	The Trade Desk, Inc. operates as a technology company in the United States and internationally. The company creates, manages, and optimizes digital advertising campaigns across ad formats, channels and devices, including CTV and other video, display, audio, and native, on a multitude of devices, such televisions, streaming devices, mobile devices, computers and digital-out-of-home devices. It provides data and other value-added services. It serves advertising agencies, advertisers, and other service providers for agencies or advertisers. The Trade Desk, Inc. was incorporated in 2009 and is headquartered in Ventura, California.
 longName	The Trade Desk, Inc.
 market	us_market
-marketCap	6521936896
+marketCap	7048202752
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_99942756
 mostRecentQuarter	1782777600
 netIncomeToCommon	406888000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	6587720319
+nonDilutedMarketCap	7034106504
 numberOfAnalystOpinions	30
-open	14.01
+open	14.73
 operatingCashflow	1081673984
 operatingMargins	0.14205
 overallRisk	10
 payoutRatio	0.0
-pegRatio	1.06
+pegRatio	1.08
 phone	805 585 3434
-postMarketChange	0.05000019
-postMarketChangePercent	0.3602319
-postMarketPrice	13.93
-postMarketTime	1788996048
-previousClose	14.02
-priceEpsCurrentYear	11.955314
+postMarketChange	-0.020000458
+postMarketChangePercent	-0.13333638
+postMarketPrice	14.98
+postMarketTime	1789514469
+previousClose	14.97
+priceEpsCurrentYear	12.9767885
 priceHint	2
-priceToBook	2.664619
-priceToSalesTrailing12Months	2.181149
+priceToBook	2.7362278
+priceToSalesTrailing12Months	2.3571496
 profitMargins	0.13608
 quickRatio	1.677
 quoteSourceName	Nasdaq Real Time Price
@@ -130,16 +130,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.11111
 region	US
-regularMarketChange	-0.14000034
-regularMarketChangePercent	-0.99857587
-regularMarketDayHigh	14.085
-regularMarketDayLow	13.7101
-regularMarketDayRange	13.7101 - 14.085
-regularMarketOpen	14.01
-regularMarketPreviousClose	14.02
-regularMarketPrice	13.88
-regularMarketTime	1788984000
-regularMarketVolume	15387775
+regularMarketChange	0.029999733
+regularMarketChangePercent	0.20039901
+regularMarketDayHigh	15.305
+regularMarketDayLow	14.5101
+regularMarketDayRange	14.5101 - 15.305
+regularMarketOpen	14.73
+regularMarketPreviousClose	14.97
+regularMarketPrice	15.0
+regularMarketTime	1789502400
+regularMarketVolume	19045133
 returnOnAssets	0.06252
 returnOnEquity	0.15441
 revenueGrowth	0.03
@@ -149,19 +149,19 @@ sectorDisp	Communication Services
 sectorKey	communication-services
 shareHolderRightsRisk	10
 sharesOutstanding	426771565
-sharesPercentSharesOut	0.17799999
-sharesShort	83623628
-sharesShortPreviousMonthDate	1784073600
-sharesShortPriorMonth	73633275
+sharesPercentSharesOut	0.1865
+sharesShort	87651673
+sharesShortPreviousMonthDate	1785456000
+sharesShortPriorMonth	75368761
 shortName	The Trade Desk, Inc.
-shortPercentOfFloat	0.2301
-shortRatio	3.08
+shortPercentOfFloat	0.24120001
+shortRatio	3.0
 sourceInterval	15
 state	CA
 symbol	TTD
 targetHighPrice	21.0
 targetLowPrice	9.0
-targetMeanPrice	13.53333
+targetMeanPrice	13.56667
 targetMedianPrice	13.5
 totalCash	1485332992
 totalCashPerShare	3.161
@@ -171,13 +171,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.84
-trailingPE	16.52381
-trailingPegRatio	1.0296
+trailingPE	17.857143
+trailingPegRatio	1.0752
 triggerable	True
-twoHundredDayAverage	24.899975
-twoHundredDayAverageChange	-11.019975
-twoHundredDayAverageChangePercent	-0.4425697
+twoHundredDayAverage	24.399525
+twoHundredDayAverageChange	-9.399525
+twoHundredDayAverageChangePercent	-0.38523394
 typeDisp	Equity
-volume	15387775
+volume	19045133
 website	https://www.thetradedesk.com
 zip	93001

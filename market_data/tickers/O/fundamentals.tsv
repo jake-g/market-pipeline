@@ -1,42 +1,42 @@
 Metric	Value
-52WeekChange	0.026408792
-SandP52WeekChange	0.17475092
+52WeekChange	-0.011837304
+SandP52WeekChange	0.15336108
 address1	11995 El Camino Real
 allTimeHigh	82.28682
 allTimeLow	7.388566
-ask	60.25
-askSize	400
+ask	58.8
+askSize	1000
 auditRisk	5
 averageAnalystRating	2.5 - Buy
-averageDailyVolume10Day	4999600
-averageDailyVolume3Month	5568916
-averageVolume	5568916
-averageVolume10days	4999600
+averageDailyVolume10Day	6045650
+averageDailyVolume3Month	5638917
+averageVolume	5638917
+averageVolume10days	6045650
 beta	0.712
-bid	60.22
-bidSize	700
+bid	58.69
+bidSize	1100
 boardRisk	1
 bookValue	41.798
 city	San Diego
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Sumit  Roy', 'age': 55, 'title': 'President, CEO & Director', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 7102435, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jonathan  Pong C.F.A., CPA', 'title': 'Executive VP, CFO & Treasurer', 'fiscalYear': 2025, 'totalPay': 1870772, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark E. Hagan J.D.', 'age': 57, 'title': 'Executive VP & Chief Investment Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 2417504, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Bushore', 'age': 56, 'title': 'Executive VP, Chief Legal Officer, General Counsel & Secretary', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1834677, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Sumit  Roy', 'age': 55, 'title': 'President, CEO & Director', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 7102435, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jonathan  Pong C.F.A., CPA', 'title': 'Executive VP, CFO & Treasurer', 'fiscalYear': 2025, 'totalPay': 1870772, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark E. Hagan J.D.', 'age': 57, 'title': 'Executive VP & Chief Investment Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 2417504, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Neil M. Abraham', 'age': 53, 'title': 'President of Realty Income International, Executive VP & Chief Strategy Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 2450679, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gregory J. Whyte', 'age': 64, 'title': 'Executive VP & COO', 'yearBorn': 1961, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Neale W. Redington CPA', 'age': 58, 'title': 'Senior VP & Chief Accounting Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alexander John Waters', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Andrea  Behr', 'title': 'Director of Corporate Communications', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Shannon  Kehle', 'age': 51, 'title': 'Executive VP & Chief People Officer', 'yearBorn': 1974, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ross  Edwards', 'title': 'Senior Vice President of Asset Management', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'O announced a cash dividend of $0.271 with an ex-date of Sep. 30, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1790740800000, 'amount': '0.271'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	60.11
+currentPrice	58.71
 currentRatio	1.528
 customPriceAlertConfidence	HIGH
-dateShortInterest	1786665600
-dayHigh	61.31
-dayLow	60.05
+dateShortInterest	1788134400
+dayHigh	59.41
+dayLow	58.5232
 debtToEquity	74.722
-discount_to_intrinsic_value	18.18
+discount_to_intrinsic_value	17.26
 displayName	Realty Income
-dividendDate	1789430400
-dividendRate	3.25
-dividendYield	5.33
+dividendDate	1792022400
+dividendRate	3.26
+dividendYield	5.5
 earningsCallTimestampEnd	1785963600
 earningsCallTimestampStart	1785963600
 earningsGrowth	0.692
@@ -46,52 +46,52 @@ earningsTimestampEnd	1793649600
 earningsTimestampStart	1793649600
 ebitda	5357639168
 ebitdaMargins	0.8833
-enterpriseToEbitda	16.964
-enterpriseToRevenue	14.984
-enterpriseValue	90886586368
-epsCurrentYear	1.66613
-epsForward	1.55856
+enterpriseToEbitda	16.655
+enterpriseToRevenue	14.711
+enterpriseValue	89230704640
+epsCurrentYear	1.62228
+epsForward	1.55302
 epsTrailingTwelveMonths	1.37
 eps_normalized_growth	0.480476754644787
 esgPopulated	False
-exDividendDate	1788134400
+exDividendDate	1790726400
 exchange	NYQ
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	(858) 481-4860
-fiftyDayAverage	63.207
-fiftyDayAverageChange	-3.0970001
-fiftyDayAverageChangePercent	-0.048997737
-fiftyTwoWeekChangePercent	2.6408792
+fiftyDayAverage	62.9628
+fiftyDayAverageChange	-4.2528
+fiftyDayAverageChangePercent	-0.06754465
+fiftyTwoWeekChangePercent	-1.1837304
 fiftyTwoWeekHigh	67.94
-fiftyTwoWeekHighChange	-7.830002
-fiftyTwoWeekHighChangePercent	-0.11524877
+fiftyTwoWeekHighChange	-9.230003
+fiftyTwoWeekHighChangePercent	-0.13585521
 fiftyTwoWeekLow	55.86
-fiftyTwoWeekLowChange	4.25
-fiftyTwoWeekLowChangePercent	0.076083064
+fiftyTwoWeekLowChange	2.8499985
+fiftyTwoWeekLowChangePercent	0.05102038
 fiftyTwoWeekRange	55.86 - 67.94
 financialCurrency	USD
 firstTradeDateMilliseconds	782487000000
 fiveYearAvgDividendYield	5.1
 floatShares	944060656
-forwardEps	1.55856
-forwardPE	38.567654
+forwardEps	1.55302
+forwardPE	37.80376
 freeCashflow	1582081920
 fullExchangeName	NYSE
 fullTimeEmployees	544
-fulldayChange	-0.77000046
-fulldayChangePercent	-1.2618821
-fulldayPrice	60.25
+fulldayChange	-0.5600014
+fulldayChangePercent	-0.944831
+fulldayPrice	58.75
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
-graham_intrinsic_value	73.47
+graham_intrinsic_value	70.95
 grossMargins	0.9268
 grossProfits	5621530112
 hasPrePostMarketData	True
 heldPercentInsiders	0.00124
-heldPercentInstitutions	0.8181
+heldPercentInstitutions	0.8172
 impliedSharesOutstanding	946218033
 industry	REIT - Retail
 industryDisp	REIT - Retail
@@ -107,31 +107,31 @@ lastSplitFactor	1032:1000
 longBusinessSummary	Realty Income Corporation, an S&P 500 company, is real estate partner to the world's leading companies. Founded in 1969, we serve our clients as a full-service real estate capital provider. As of June 30, 2026, we have a portfolio of over 15,500 properties in all 50 U.S. states, the U.K., and eight other countries in Europe. We are known as "The Monthly Dividend Company" and have a mission to invest in people and places to deliver dependable monthly dividends that increase over time. Since our founding, we have declared 674 consecutive monthly dividends and are a member of the S&P 500 Dividend Aristocrats index for having increased our dividend for over 31 consecutive years. Realty Income Corporation was founded in 1969 and was incorporated in Maryland.
 longName	Realty Income Corporation
 market	us_market
-marketCap	56877166592
+marketCap	55552458752
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_339305
 mostRecentQuarter	1782777600
 netIncomeToCommon	1267576960
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	57738224373
+nonDilutedMarketCap	56082342815
 numberOfAnalystOpinions	20
-open	61.155
+open	59.38
 operatingCashflow	4166153984
 operatingMargins	0.46965998
 overallRisk	4
 payoutRatio	2.3641999
-pegRatio	3.09
+pegRatio	2.99
 phone	(858) 284-5000
-postMarketChange	0.13999939
-postMarketChangePercent	0.23290531
-postMarketPrice	60.25
-postMarketTime	1788996010
-previousClose	61.02
-priceEpsCurrentYear	36.077618
+postMarketChange	0.040000916
+postMarketChangePercent	0.068133056
+postMarketPrice	58.75
+postMarketTime	1789513391
+previousClose	59.27
+priceEpsCurrentYear	36.189808
 priceHint	2
-priceToBook	1.4381071
-priceToSalesTrailing12Months	9.377147
+priceToBook	1.4046127
+priceToSalesTrailing12Months	9.158747
 profitMargins	0.20898001
 quickRatio	0.741
 quoteSourceName	Nasdaq Real Time Price
@@ -139,16 +139,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.5
 region	US
-regularMarketChange	-0.91
-regularMarketChangePercent	-1.49131
-regularMarketDayHigh	61.31
-regularMarketDayLow	60.05
-regularMarketDayRange	60.05 - 61.31
-regularMarketOpen	61.155
-regularMarketPreviousClose	61.02
-regularMarketPrice	60.11
-regularMarketTime	1788984002
-regularMarketVolume	6342465
+regularMarketChange	-0.560001
+regularMarketChangePercent	-0.944831
+regularMarketDayHigh	59.41
+regularMarketDayLow	58.5232
+regularMarketDayRange	58.5232 - 59.41
+regularMarketOpen	59.38
+regularMarketPreviousClose	59.27
+regularMarketPrice	58.71
+regularMarketTime	1789502402
+regularMarketVolume	6843723
 returnOnAssets	0.02359
 returnOnEquity	0.03225
 revenueGrowth	0.096
@@ -158,13 +158,13 @@ sectorDisp	Real Estate
 sectorKey	real-estate
 shareHolderRightsRisk	8
 sharesOutstanding	946218033
-sharesPercentSharesOut	0.0399
-sharesShort	37785390
-sharesShortPreviousMonthDate	1784073600
-sharesShortPriorMonth	40024135
+sharesPercentSharesOut	0.0433
+sharesShort	41002872
+sharesShortPreviousMonthDate	1785456000
+sharesShortPriorMonth	45281460
 shortName	Realty Income Corporation
-shortPercentOfFloat	0.0454
-shortRatio	7.24
+shortPercentOfFloat	0.0493
+shortRatio	7.53
 sourceInterval	15
 state	CA
 symbol	O
@@ -178,15 +178,15 @@ totalDebt	31333789696
 totalRevenue	6065508864
 tradeable	False
 trailingAnnualDividendRate	3.235
-trailingAnnualDividendYield	0.053015403
+trailingAnnualDividendYield	0.05458073
 trailingEps	1.37
-trailingPE	43.87591
-trailingPegRatio	3.0781
+trailingPE	42.854015
+trailingPegRatio	2.9898
 triggerable	True
-twoHundredDayAverage	61.875
-twoHundredDayAverageChange	-1.7649994
-twoHundredDayAverageChangePercent	-0.028525243
+twoHundredDayAverage	61.9364
+twoHundredDayAverageChange	-3.2264023
+twoHundredDayAverageChangePercent	-0.052092183
 typeDisp	Equity
-volume	6342465
+volume	6843723
 website	https://www.realtyincome.com
 zip	92130

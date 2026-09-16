@@ -1,7 +1,7 @@
 Metric	Value
 allTimeHigh	1.0
 allTimeLow	1.0
-averageMaturity	23
+averageMaturity	22
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
@@ -33,7 +33,7 @@ market	us_market
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_60274409
-netAssets	376563.88
+netAssets	1.0
 priceHint	4
 quoteSourceName	Delayed Quote
 quoteType	MONEYMARKET
@@ -43,7 +43,7 @@ regularMarketTime	1570657386
 shortName	Vanguard Money Market Reserves 
 sourceInterval	15
 symbol	VMFXX
-totalAssets	376563859456
+totalAssets	1000000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingPegRatio	None
@@ -52,4 +52,4 @@ twoHundredDayAverage	1.0
 twoHundredDayAverageChange	0.0
 twoHundredDayAverageChangePercent	0.0
 typeDisp	MoneyMarket
-yield	0.036966
+yield	0.036915

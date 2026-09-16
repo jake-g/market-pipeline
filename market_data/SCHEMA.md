@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-09-09 |
+| Date | str | 2026-09-15 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | (FXI) and the Role of Price-Sensitive Allocatio... |
+| Headline | str | China hits back at AI slowdown push, calls it ‘... |
 | Summary | str | China's corporate profits surged in Q2, but wea... |
-| URL | str | https://news.google.com/rss/articles/CBMixgFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMinAFBVV... |
 
 ## 2. Topic Files (Example: `Memory Shortage`)
 ### `news.tsv` - Topic News
@@ -44,23 +44,23 @@ This report documents the file structures and column data types used in `market_
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
-| FREIGHT_PPI | float64 | 526.89 |
-| AIR_PPI | float64 | 178.234 |
-| TRUCK_PPI | float64 | 195.575 |
-| WAREHOUSE_PPI | float64 | 167.902 |
+| FREIGHT_PPI | float64 | 518.617 |
+| AIR_PPI | float64 | 187.374 |
+| TRUCK_PPI | float64 | 207.644 |
+| WAREHOUSE_PPI | float64 | 168.967 |
 | MFG_CONST | float64 | 169795.0 |
 | TECH_PULSE | float64 | 96.3106 |
 | CHINA_IMPORTS | float64 | 27070.6514 |
 | TARIFFS | float64 | 326.324 |
-| USD_INDEX | float64 | 118.0732 |
-| USD_CNY | float64 | 6.7108 |
-| USD_EUR | float64 | 1.1618 |
-| USD_JPY | float64 | 156.11 |
-| FOOD_CPI | float64 | 350.164 |
+| USD_INDEX | float64 | 118.2126 |
+| USD_CNY | float64 | 6.708 |
+| USD_EUR | float64 | 1.1604 |
+| USD_JPY | float64 | 153.71 |
+| FOOD_CPI | float64 | 350.418 |
 | CORN_PRICE | float64 | 213.1902 |
 | WHEAT_PRICE | float64 | 228.7388 |
 | SUGAR_PRICE | float64 | 14.8123 |
-| WTI_CRUDE | float64 | 91.48 |
+| WTI_CRUDE | float64 | 97.26 |
 | NAT_GAS_PRICE | float64 | 2.9632 |
 | COPPER_PRICE | float64 | 13542.8209 |
 | ELECTRIC_POWER_INDEX | float64 | 116.4486 |
@@ -69,7 +69,7 @@ This report documents the file structures and column data types used in `market_
 | LIFE_EXPECTANCY | float64 | 78.8902 |
 | US_POPULATION | float64 | 343289.575 |
 | DISPOSABLE_INCOME | float64 | 18122.5 |
-| HOUSEHOLD_NET_WORTH | float64 | 182979889.0 |
+| HOUSEHOLD_NET_WORTH | float64 | 195870496.0 |
 | CREDIT_CARD_DELINQUENCY | float64 | 2.62 |
 | GDP | float64 | 32486.066 |
 | REAL_GDP | float64 | 24269.613 |
@@ -80,17 +80,17 @@ This report documents the file structures and column data types used in `market_
 | SAVINGS_RATE | float64 | 3.0 |
 | M2_MONEY | float64 | 23218.0 |
 | M2_VELOCITY | float64 | 1.415 |
-| FED_ASSETS | float64 | 6737204.0 |
-| CPI | float64 | 332.813 |
+| FED_ASSETS | float64 | 6740619.0 |
+| CPI | float64 | 334.131 |
 | FEDFUNDS | float64 | 3.63 |
-| US02Y | float64 | 4.39 |
-| US10Y | float64 | 4.8 |
-| US30Y | float64 | 5.25 |
-| HY_SPREAD | float64 | 2.67 |
-| CORP_SPREAD | float64 | 0.81 |
-| BAA_SPREAD | float64 | 1.57 |
-| AAA_SPREAD | float64 | 1.13 |
-| US_POLICY_UNCERTAINTY | float64 | 263.53 |
+| US02Y | float64 | 4.65 |
+| US10Y | float64 | 4.97 |
+| US30Y | float64 | 5.34 |
+| HY_SPREAD | float64 | 2.71 |
+| CORP_SPREAD | float64 | 0.8 |
+| BAA_SPREAD | float64 | 1.47 |
+| AAA_SPREAD | float64 | 1.04 |
+| US_POLICY_UNCERTAINTY | float64 | 215.48 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 325.6696 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.7884 |

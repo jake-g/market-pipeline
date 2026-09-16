@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.42889106
-SandP52WeekChange	0.17475092
+52WeekChange	0.4311639
+SandP52WeekChange	0.15336108
 address1	9 Irodou Attikou Street
 address2	Kifisia
 allTimeHigh	64.4
 allTimeLow	2.61
-ask	46.93
-askSize	300
+ask	45.92
+askSize	200
 averageAnalystRating	1.0 - Strong Buy
-averageDailyVolume10Day	297800
-averageDailyVolume3Month	314051
-averageVolume	314051
-averageVolume10days	297800
+averageDailyVolume10Day	259240
+averageDailyVolume3Month	312258
+averageVolume	312258
+averageVolume10days	259240
 beta	0.851
-bid	44.58
-bidSize	300
+bid	44.39
+bidSize	100
 bookValue	54.022
 city	Athens
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Georgios Giouroukos Youroukos', 'age': 60, 'title': 'Executive Chairman', 'yearBorn': 1965, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Thomas A. Lister', 'age': 55, 'title': 'Chief Executive Officer', 'yearBorn': 1970, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Anastasios  Psaropoulos', 'age': 55, 'title': 'CFO & Treasurer', 'yearBorn': 1970, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. George  Giannopoulos', 'age': 42, 'title': 'Chief Compliance Officer', 'yearBorn': 1983, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Maria  Danezi', 'title': 'Company Secretary', 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,18 +22,18 @@ corporateActions	[]
 country	Greece
 cryptoTradeable	False
 currency	USD
-currentPrice	45.02
+currentPrice	45.63
 currentRatio	2.127
 customPriceAlertConfidence	HIGH
-dateShortInterest	1786665600
-dayHigh	45.11
-dayLow	44.2757
+dateShortInterest	1788134400
+dayHigh	45.95
+dayLow	45.2423
 debtToEquity	34.508
-discount_to_intrinsic_value	43.63
+discount_to_intrinsic_value	40.84
 displayName	Global Ship Lease
 dividendDate	1788393600
 dividendRate	2.5
-dividendYield	5.59
+dividendYield	5.47
 earningsCallTimestampEnd	1786026600
 earningsCallTimestampStart	1786026600
 earningsGrowth	-0.053
@@ -43,9 +43,9 @@ earningsTimestampEnd	1794227400
 earningsTimestampStart	1794227400
 ebitda	458039008
 ebitdaMargins	0.60208
-enterpriseToEbitda	3.844
-enterpriseToRevenue	2.315
-enterpriseValue	1760905216
+enterpriseToEbitda	3.925
+enterpriseToRevenue	2.363
+enterpriseValue	1798021760
 epsCurrentYear	9.88667
 epsForward	8.86333
 epsTrailingTwelveMonths	10.25
@@ -57,36 +57,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	42.383
-fiftyDayAverageChange	2.637001
-fiftyDayAverageChangePercent	0.062218368
-fiftyTwoWeekChangePercent	42.889107
+fiftyDayAverage	43.0008
+fiftyDayAverageChange	2.6292
+fiftyDayAverageChangePercent	0.061143048
+fiftyTwoWeekChangePercent	43.11639
 fiftyTwoWeekHigh	46.5
-fiftyTwoWeekHighChange	-1.4799995
-fiftyTwoWeekHighChangePercent	-0.03182795
+fiftyTwoWeekHighChange	-0.86999893
+fiftyTwoWeekHighChangePercent	-0.018709654
 fiftyTwoWeekLow	27.28
-fiftyTwoWeekLowChange	17.74
-fiftyTwoWeekLowChangePercent	0.65029323
+fiftyTwoWeekLowChange	18.35
+fiftyTwoWeekLowChangePercent	0.672654
 fiftyTwoWeekRange	27.28 - 46.5
 financialCurrency	USD
 firstTradeDateMilliseconds	1218807000000
 fiveYearAvgDividendYield	6.42
 floatShares	31894602
 forwardEps	8.86333
-forwardPE	5.0793552
+forwardPE	5.148178
 freeCashflow	129334872
 fullExchangeName	NYSE
 fullTimeEmployees	7
-fulldayChange	0.31000137
-fulldayChangePercent	0.69336027
-fulldayPrice	45.02
+fulldayChange	-0.11000061
+fulldayChangePercent	-0.24049105
+fulldayPrice	45.63
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	79.86
+graham_intrinsic_value	77.13
 grossMargins	0.68027
 grossProfits	517521984
 hasPrePostMarketData	True
 heldPercentInsiders	0.110010006
-heldPercentInstitutions	0.47717
+heldPercentInstitutions	0.47709998
 impliedSharesOutstanding	36035434
 industry	Marine Shipping
 industryDisp	Marine Shipping
@@ -101,16 +101,16 @@ lastSplitFactor	1:8
 longBusinessSummary	Global Ship Lease, Inc., together with its subsidiaries, engages in owning and chartering out containerships under fixed-rate charters to container liner companies worldwide. As of March 12, 2026, it owned 71 mid-sized and smaller containerships, ranging from 2,207 to 11,040 (TEU), with an aggregate capacity of 423,003 TEU. Global Ship Lease, Inc. was founded in 2007 and is based in Athens, Greece.
 longName	Global Ship Lease, Inc.
 market	us_market
-marketCap	1622315136
+marketCap	1644296832
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_27194602
 mostRecentQuarter	1782777600
 netIncomeToCommon	373592992
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	1611144254
+nonDilutedMarketCap	1648260751
 numberOfAnalystOpinions	3
-open	44.71
+open	45.79
 operatingCashflow	512871008
 operatingMargins	0.48821998
 payoutRatio	0.2341
@@ -118,30 +118,30 @@ pegRatio	0.87
 phone	30 210 62 33 670
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	45.02
-postMarketTime	1788990554
-previousClose	44.71
-priceEpsCurrentYear	4.553606
+postMarketPrice	45.63
+postMarketTime	1789502422
+previousClose	45.74
+priceEpsCurrentYear	4.6153054
 priceHint	2
-priceToBook	0.8333642
-priceToSalesTrailing12Months	2.1324928
+priceToBook	0.84465593
+priceToSalesTrailing12Months	2.161387
 profitMargins	0.50361
 quickRatio	1.827
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	none
 recommendationMean	1.0
 region	US
-regularMarketChange	0.310001
-regularMarketChangePercent	0.69336
-regularMarketDayHigh	45.11
-regularMarketDayLow	44.2757
-regularMarketDayRange	44.2757 - 45.11
-regularMarketOpen	44.71
-regularMarketPreviousClose	44.71
-regularMarketPrice	45.02
-regularMarketTime	1788984002
-regularMarketVolume	277673
+regularMarketChange	-0.110001
+regularMarketChangePercent	-0.240491
+regularMarketDayHigh	45.95
+regularMarketDayLow	45.2423
+regularMarketDayRange	45.2423 - 45.95
+regularMarketOpen	45.79
+regularMarketPreviousClose	45.74
+regularMarketPrice	45.63
+regularMarketTime	1789502402
+regularMarketVolume	216509
 returnOnAssets	0.08404
 returnOnEquity	0.21346001
 revenueGrowth	0.02
@@ -150,13 +150,13 @@ sector	Industrials
 sectorDisp	Industrials
 sectorKey	industrials
 sharesOutstanding	36035434
-sharesPercentSharesOut	0.0179
-sharesShort	646253
-sharesShortPreviousMonthDate	1784073600
-sharesShortPriorMonth	685078
+sharesPercentSharesOut	0.0212
+sharesShort	764101
+sharesShortPreviousMonthDate	1785456000
+sharesShortPriorMonth	734524
 shortName	Global Ship Lease Inc New
-shortPercentOfFloat	0.0197
-shortRatio	1.81
+shortPercentOfFloat	0.0233
+shortRatio	2.02
 sourceInterval	15
 symbol	GSL
 targetHighPrice	52.0
@@ -169,15 +169,15 @@ totalDebt	671763968
 totalRevenue	760760000
 tradeable	False
 trailingAnnualDividendRate	2.5
-trailingAnnualDividendYield	0.055915903
+trailingAnnualDividendYield	0.054656755
 trailingEps	10.25
-trailingPE	4.392195
+trailingPE	4.4517074
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	38.8518
-twoHundredDayAverageChange	6.1682014
-twoHundredDayAverageChangePercent	0.1587623
+twoHundredDayAverage	39.0795
+twoHundredDayAverageChange	6.550503
+twoHundredDayAverageChangePercent	0.16761993
 typeDisp	Equity
-volume	277673
+volume	216509
 website	https://www.globalshiplease.com
 zip	14561
