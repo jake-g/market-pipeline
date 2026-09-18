@@ -30,20 +30,20 @@ hasPrePostMarketData	False
 language	en-US
 longName	Vanguard Money Market Reserves - Vanguard Federal Money Market Fund
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_60274409
-netAssets	1.0
+netAssets	375624.25
 priceHint	4
 quoteSourceName	Delayed Quote
 quoteType	MONEYMARKET
 region	US
 regularMarketPrice	1.0
-regularMarketTime	1570657386
+regularMarketTime	1789689840
 shortName	Vanguard Money Market Reserves 
 sourceInterval	15
 symbol	VMFXX
-totalAssets	1000000
+totalAssets	375624237056
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingPegRatio	None
@@ -52,4 +52,4 @@ twoHundredDayAverage	1.0
 twoHundredDayAverageChange	0.0
 twoHundredDayAverageChangePercent	0.0
 typeDisp	MoneyMarket
-yield	0.036915
+yield	0.037054

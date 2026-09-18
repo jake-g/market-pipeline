@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	116.3
 allTimeLow	10.92
-ask	105.57
+ask	105.78
 askSize	300
-averageDailyVolume10Day	93010
-averageDailyVolume3Month	50024
-averageVolume	50024
-averageVolume10days	93010
+averageDailyVolume10Day	40580
+averageDailyVolume3Month	49819
+averageVolume	49819
+averageVolume10days	40580
 beta3Year	0.98
-bid	104.65
+bid	104.73
 bidSize	100
 category	Natural Resources
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	105.96
-dayLow	105.1711
+dayHigh	106.3513
+dayLow	105.35
 dividendYield	0.71
 epsTrailingTwelveMonths	4.467577
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	109.3254
-fiftyDayAverageChange	-3.7954025
-fiftyDayAverageChangePercent	-0.034716565
-fiftyTwoWeekChangePercent	-5.7333946
+fiftyDayAverage	109.1966
+fiftyDayAverageChange	-3.5866013
+fiftyDayAverageChangePercent	-0.032845356
+fiftyTwoWeekChangePercent	-6.393546
 fiftyTwoWeekHigh	116.3
-fiftyTwoWeekHighChange	-10.770004
-fiftyTwoWeekHighChangePercent	-0.09260537
+fiftyTwoWeekHighChange	-10.690002
+fiftyTwoWeekHighChangePercent	-0.09191747
 fiftyTwoWeekLow	98.52
-fiftyTwoWeekLowChange	7.010002
-fiftyTwoWeekLowChangePercent	0.07115309
+fiftyTwoWeekLowChange	7.090004
+fiftyTwoWeekLowChangePercent	0.07196513
 fiftyTwoWeekRange	98.52 - 116.3
 firstTradeDateMilliseconds	1178890200000
-fiveYearAverageReturn	0.042578902
+fiveYearAverageReturn	0.0430397
 fullExchangeName	NYSEArca
-fulldayChange	-0.190002
-fulldayChangePercent	-0.179722
-fulldayPrice	105.53
+fulldayChange	0.0500031
+fulldayChangePercent	0.0473693
+fulldayPrice	105.61
 fundFamily	First Trust
 fundInceptionDate	1178582400
 gmtOffSetMilliseconds	-14400000
@@ -52,44 +52,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund will normally invest at least 90% of its net assets (including investment borrowings) in the securities that comprise the index. The index is designed to track the performance of small, mid and large capitalization companies that derive a substantial portion of their revenues from the potable water and wastewater industry, according to Clean Edge.
 longName	First Trust Water ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_34335512
-navPrice	105.67
+navPrice	105.6
 netAssets	1878429820.0
 netExpenseRatio	0.5
-open	105.75
+open	106.57
 phone	630-241-4141
-previousClose	105.72
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	105.61
+postMarketTime	1789687804
+previousClose	105.56
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.190002
-regularMarketChangePercent	-0.179722
-regularMarketDayHigh	105.96
-regularMarketDayLow	105.1711
-regularMarketDayRange	105.1711 - 105.96
-regularMarketOpen	105.75
-regularMarketPreviousClose	105.72
-regularMarketPrice	105.53
-regularMarketTime	1789502400
-regularMarketVolume	42136
+regularMarketChange	0.0500031
+regularMarketChangePercent	0.0473693
+regularMarketDayHigh	106.3513
+regularMarketDayLow	105.35
+regularMarketDayRange	105.35 - 106.3513
+regularMarketOpen	106.57
+regularMarketPreviousClose	105.56
+regularMarketPrice	105.61
+regularMarketTime	1789675200
+regularMarketVolume	31744
 shortName	First Trust Water ETF
 sourceInterval	15
 symbol	FIW
-threeYearAverageReturn	0.0765234
+threeYearAverageReturn	0.0793577
 totalAssets	1878429824
 tradeable	False
-trailingPE	23.621305
+trailingPE	23.639212
 trailingPegRatio	None
 trailingThreeMonthNavReturns	5.78386
 trailingThreeMonthReturns	5.78386
 triggerable	True
-twoHundredDayAverage	108.67355
-twoHundredDayAverageChange	-3.1435547
-twoHundredDayAverageChangePercent	-0.028926585
+twoHundredDayAverage	108.60725
+twoHundredDayAverageChange	-2.9972458
+twoHundredDayAverageChangePercent	-0.027597107
 typeDisp	ETF
-volume	42136
+volume	31744
 yield	0.0070999996
 ytdReturn	1.18101

@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.42712867
-SandP52WeekChange	0.15336108
+52WeekChange	0.5045146
+SandP52WeekChange	0.13869953
 address1	Advanced Technology Center
 address2	P.O. Box 539
 allTimeHigh	1016.06
@@ -8,10 +8,10 @@ allTimeLow	3.5
 ask	717.98
 askSize	2
 averageAnalystRating	2.7 - Hold
-averageDailyVolume10Day	71050
-averageDailyVolume3Month	83859
-averageVolume	83859
-averageVolume10days	71050
+averageDailyVolume10Day	66900
+averageDailyVolume3Month	82733
+averageVolume	82733
+averageVolume10days	66900
 beta	-0.296
 bid	844.57
 bidSize	1
@@ -23,18 +23,18 @@ corporateActions	[{'header': 'Dividend', 'message': 'ESLT announced a cash divid
 country	Israel
 cryptoTradeable	False
 currency	USD
-currentPrice	731.75
+currentPrice	748.56
 currentRatio	1.395
 customPriceAlertConfidence	HIGH
 dateShortInterest	1788134400
-dayHigh	736.75
-dayLow	722.91
+dayHigh	753.42
+dayLow	744.22
 debtToEquity	19.325
-discount_to_intrinsic_value	-6.39
+discount_to_intrinsic_value	-8.17
 displayName	Elbit Systems
 dividendDate	1792972800
 dividendRate	4.0
-dividendYield	0.55
+dividendYield	0.54
 earningsCallTimestampEnd	1786453200
 earningsCallTimestampStart	1786453200
 earningsGrowth	0.342
@@ -44,12 +44,12 @@ earningsTimestampEnd	1795523400
 earningsTimestampStart	1795523400
 ebitda	983289984
 ebitdaMargins	0.115059994
-enterpriseToEbitda	34.69
-enterpriseToRevenue	3.991
-enterpriseValue	34110672896
+enterpriseToEbitda	35.49
+enterpriseToRevenue	4.083
+enterpriseValue	34896809984
 epsCurrentYear	16.2662
 epsForward	18.36218
-epsTrailingTwelveMonths	13.28
+epsTrailingTwelveMonths	13.47
 eps_normalized_growth	0.36346912004361287
 esgPopulated	False
 exDividendDate	1791849600
@@ -59,37 +59,37 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	972 4 831 6659
-fiftyDayAverage	765.529
-fiftyDayAverageChange	-33.77899
-fiftyDayAverageChangePercent	-0.04412503
-fiftyTwoWeekChangePercent	42.712868
+fiftyDayAverage	763.1484
+fiftyDayAverageChange	-14.588379
+fiftyDayAverageChangePercent	-0.019116046
+fiftyTwoWeekChangePercent	50.451458
 fiftyTwoWeekHigh	1016.06
-fiftyTwoWeekHighChange	-284.31
-fiftyTwoWeekHighChangePercent	-0.27981615
+fiftyTwoWeekHighChange	-267.5
+fiftyTwoWeekHighChangePercent	-0.26327187
 fiftyTwoWeekLow	453.0
-fiftyTwoWeekLowChange	278.75
-fiftyTwoWeekLowChangePercent	0.61534214
+fiftyTwoWeekLowChange	295.56
+fiftyTwoWeekLowChangePercent	0.6524503
 fiftyTwoWeekRange	453.0 - 1016.06
 financialCurrency	USD
 firstTradeDateMilliseconds	849105000000
 fiveYearAvgDividendYield	0.87
 floatShares	27380090
 forwardEps	18.36218
-forwardPE	39.850933
+forwardPE	40.7664
 freeCashflow	-38483000
 fullExchangeName	NasdaqGS
 fullTimeEmployees	21000
-fulldayChange	6.840027
-fulldayChangePercent	0.9435692
-fulldayPrice	731.75
+fulldayChange	10.4
+fulldayChangePercent	1.40891
+fulldayPrice	748.56
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	687.78
+graham_intrinsic_value	692.05
 grossMargins	0.25030002
 grossProfits	2139099008
 hasPrePostMarketData	True
-heldPercentInsiders	0.41224998
+heldPercentInsiders	0.41224
 heldPercentInstitutions	0.23014
-impliedSharesOutstanding	46861192
+impliedSharesOutstanding	46862592
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
 industryKey	aerospace-defense
@@ -101,16 +101,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Elbit Systems Ltd., together with its subsidiaries, develops and supplies defense and homeland security arenas products and services in Israel, North America, Europe, the Asia-Pacific, Latin America, and internationally. The company operates through five segments: Aerospace; C4I and Cyber; Intelligence, Surveillance, Target Acquisition and Reconnaissance and Electronic Warfare; Land; and Elbit Systems of America. It offers airborne platforms, unmanned aerial solutions, precision guided munition sensors, aerostructures, training and simulator systems, flight academy solutions, and commercial aviation systems; and command, control, communications, computer, intelligence, surveillance and reconnaissance systems, as well as data links and radio communication systems and equipment, cyber intelligence solutions, and autonomous and homeland security solutions. The company also provides various electro-optic laser solutions and countermeasure systems and products, naval combat management and sonar systems, and electronic warfare, signal Intelligence, and radar systems; indirect fire, turrets and weapons, ammunition and munition, and active protection systems; and products, system solutions, and support services to defense, homeland security, law enforcement, commercial aviation, and medical instrumentation markets. It serves various governments and companies. The company was incorporated in 1966 and is based in Haifa, Israel.
 longName	Elbit Systems Ltd.
 market	us_market
-marketCap	34290677760
-marketState	POST
+marketCap	35079462912
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_645738
 mostRecentQuarter	1782777600
 netIncomeToCommon	635979008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	33890418575
+nonDilutedMarketCap	34479683447
 numberOfAnalystOpinions	6
-open	726.58
+open	749.8
 operatingCashflow	992190016
 operatingMargins	0.09567001
 payoutRatio	0.2634
@@ -118,13 +118,13 @@ pegRatio	8.79
 phone	972 77 294 0000
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	731.75
-postMarketTime	1789503300
-previousClose	724.91
-priceEpsCurrentYear	44.985924
+postMarketPrice	748.56
+postMarketTime	1789687805
+previousClose	738.16
+priceEpsCurrentYear	46.019356
 priceHint	2
-priceToBook	7.7604675
-priceToSalesTrailing12Months	4.0124493
+priceToBook	7.9387436
+priceToSalesTrailing12Months	4.1047473
 profitMargins	0.07442
 quickRatio	0.886
 quoteSourceName	Delayed Quote
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.66667
 region	US
-regularMarketChange	6.840027
-regularMarketChangePercent	0.9435692
-regularMarketDayHigh	736.75
-regularMarketDayLow	722.91
-regularMarketDayRange	722.91 - 736.75
-regularMarketOpen	726.58
-regularMarketPreviousClose	724.91
-regularMarketPrice	731.75
-regularMarketTime	1789502401
-regularMarketVolume	54928
+regularMarketChange	10.4
+regularMarketChangePercent	1.40891
+regularMarketDayHigh	753.42
+regularMarketDayLow	744.22
+regularMarketDayRange	744.22 - 753.42
+regularMarketOpen	749.8
+regularMarketPreviousClose	738.16
+regularMarketPrice	748.56
+regularMarketTime	1789675201
+regularMarketVolume	63124
 returnOnAssets	0.0387
 returnOnEquity	0.15237
 revenueGrowth	0.159
@@ -149,7 +149,7 @@ revenuePerShare	183.806
 sector	Industrials
 sectorDisp	Industrials
 sectorKey	industrials
-sharesOutstanding	46861192
+sharesOutstanding	46862592
 sharesPercentSharesOut	0.0045
 sharesShort	213064
 sharesShortPreviousMonthDate	1785456000
@@ -169,15 +169,15 @@ totalDebt	852236992
 totalRevenue	8546071040
 tradeable	False
 trailingAnnualDividendRate	3.75
-trailingAnnualDividendYield	0.0051730564
-trailingEps	13.28
-trailingPE	55.101658
+trailingAnnualDividendYield	0.0050802
+trailingEps	13.47
+trailingPE	55.57238
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	756.9415
-twoHundredDayAverageChange	-25.191528
-twoHundredDayAverageChangePercent	-0.033280678
+twoHundredDayAverage	759.6119
+twoHundredDayAverageChange	-11.05188
+twoHundredDayAverageChangePercent	-0.014549377
 typeDisp	Equity
-volume	54928
+volume	63124
 website	https://www.elbitsystems.com
 zip	3100401
