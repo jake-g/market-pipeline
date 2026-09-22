@@ -1,45 +1,45 @@
 Metric	Value
 allTimeHigh	42.68
 allTimeLow	20.46
-ask	24.25
-askSize	400
-averageDailyVolume10Day	1312680
-averageDailyVolume3Month	2019438
-averageVolume	2019438
-averageVolume10days	1312680
+ask	24.8
+askSize	300
+averageDailyVolume10Day	1664320
+averageDailyVolume3Month	1919530
+averageVolume	1919530
+averageVolume10days	1664320
 beta3Year	0.0
-bid	24.15
-bidSize	500
+bid	24.72
+bidSize	700
 category	Large Blend
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	24.3405
-dayLow	23.75
+dayHigh	24.935
+dayLow	24.2101
 esgPopulated	False
 exchange	PCX
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	23.9646
-fiftyDayAverageChange	0.18540001
-fiftyDayAverageChangePercent	0.007736412
-fiftyTwoWeekChangePercent	-7.8633842
+fiftyDayAverage	23.8604
+fiftyDayAverageChange	0.88960075
+fiftyDayAverageChangePercent	0.037283566
+fiftyTwoWeekChangePercent	-4.9245415
 fiftyTwoWeekHigh	42.68
-fiftyTwoWeekHighChange	-18.53
-fiftyTwoWeekHighChangePercent	-0.43416122
+fiftyTwoWeekHighChange	-17.93
+fiftyTwoWeekHighChangePercent	-0.4201031
 fiftyTwoWeekLow	20.46
-fiftyTwoWeekLowChange	3.6900005
-fiftyTwoWeekLowChangePercent	0.18035194
+fiftyTwoWeekLowChange	4.290001
+fiftyTwoWeekLowChangePercent	0.20967747
 fiftyTwoWeekRange	20.46 - 42.68
 firstTradeDateMilliseconds	1774963800000
 fullExchangeName	NYSEArca
-fulldayChange	0.949999
-fulldayChangePercent	4.09482
-fulldayPrice	24.19
+fulldayChange	0.80999947
+fulldayChangePercent	3.3834562
+fulldayPrice	24.83
 fundFamily	Tema ETFs
 fundInceptionDate	1774828800
 gmtOffSetMilliseconds	-14400000
@@ -49,32 +49,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	Under normal circumstances, the fund seeks to achieve its investment objective by investing at least 80% of its net assets, which include borrowings for investment purposes, in domestic and foreign, common and preferred stocks of publicly listed companies that are engaged in “space-related business”. It is non-diversified.
 longName	Tema Space Innovators ETF
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_1985020536
 navPrice	23.1533
 netAssets	1068308610.0
 netExpenseRatio	0.75
-open	23.75
-postMarketChange	0.040000916
-postMarketChangePercent	0.16563526
-postMarketPrice	24.19
-postMarketTime	1789689347
-previousClose	23.2
+open	24.2
+postMarketChange	0.07999992
+postMarketChangePercent	0.32323202
+postMarketPrice	24.83
+postMarketTime	1790032759
+previousClose	23.94
 priceHint	2
-quoteSourceName	Delayed Quote
-quoteType	ETF
+quoteSourceName	Nasdaq Real Time Price
+quoteType	EQUITY
 region	US
-regularMarketChange	0.949999
-regularMarketChangePercent	4.09482
-regularMarketDayHigh	24.3405
-regularMarketDayLow	23.75
-regularMarketDayRange	23.75 - 24.3405
-regularMarketOpen	23.75
-regularMarketPreviousClose	23.2
-regularMarketPrice	24.15
-regularMarketTime	1789675200
-regularMarketVolume	2565140
+regularMarketChange	0.809999
+regularMarketChangePercent	3.38346
+regularMarketDayHigh	24.935
+regularMarketDayLow	24.2101
+regularMarketDayRange	24.2101 - 24.935
+regularMarketOpen	24.2
+regularMarketPreviousClose	23.94
+regularMarketPrice	24.75
+regularMarketTime	1790020800
+regularMarketVolume	1502474
 shortName	Tema Space Innovators ETF
 sourceInterval	15
 symbol	NASA
@@ -86,8 +86,8 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-42.08941
 trailingThreeMonthReturns	-42.08941
 triggerable	True
-twoHundredDayAverage	28.366154
-twoHundredDayAverageChange	-4.216154
-twoHundredDayAverageChangePercent	-0.14863327
-typeDisp	ETF
-volume	2565140
+twoHundredDayAverage	28.29353
+twoHundredDayAverageChange	-3.5435295
+twoHundredDayAverageChangePercent	-0.1252417
+typeDisp	Equity
+volume	1502474

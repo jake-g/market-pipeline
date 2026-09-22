@@ -1,41 +1,41 @@
 Metric	Value
-52WeekChange	-0.27458233
-SandP52WeekChange	0.13869953
+52WeekChange	-0.2607627
+SandP52WeekChange	0.14293182
 address1	1000 Lowes Boulevard
 allTimeHigh	293.06
 allTimeLow	0.328125
-ask	194.61
+ask	0.0
 askSize	100
 auditRisk	4
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	2914630
-averageDailyVolume3Month	3061600
-averageVolume	3061600
-averageVolume10days	2914630
+averageDailyVolume10Day	3118170
+averageDailyVolume3Month	3035330
+averageVolume	3035330
+averageVolume10days	3118170
 beta	0.846
-bid	194.0
-bidSize	300
+bid	0.0
+bidSize	100
 boardRisk	5
 bookValue	-13.257
 city	Mooresville
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Marvin R. Ellison', 'age': 60, 'title': 'President, CEO & Chairman', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 4838527, 'exercisedValue': 0, 'unexercisedValue': 74083552}, {'maxAge': 1, 'name': 'Mr. Brandon J. Sink CPA', 'age': 49, 'title': 'Executive VP & CFO', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 1814175, 'exercisedValue': 516176, 'unexercisedValue': 2449951}, {'maxAge': 1, 'name': 'Ms. Seemantini  Godbole', 'age': 55, 'title': 'Executive VP and Chief Information & AI Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1801639, 'exercisedValue': 0, 'unexercisedValue': 2518895}, {'maxAge': 1, 'name': 'Mr. William P. Boltz', 'age': 62, 'title': 'Executive Vice President of Merchandising', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 1935156, 'exercisedValue': 0, 'unexercisedValue': 2963136}, {'maxAge': 1, 'name': 'Mr. Joseph Michael McFarland III', 'age': 55, 'title': 'Executive Vice President of Pro & Home Services', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1849858, 'exercisedValue': 6945033, 'unexercisedValue': 15674549}, {'maxAge': 1, 'name': 'Mr. Dan Clayton Griggs Jr.', 'age': 47, 'title': 'Senior VP of Tax & Chief Accounting Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Shelly  Hubbard', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Juliette Williams Pryor J.D.', 'age': 60, 'title': 'Executive VP, Chief Legal Officer & Corporate Secretary', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 4257676, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Luis A. Avila Esq.', 'title': 'Senior VP of Corporate Governance & Chief Compliance Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jennifer E. Wilson', 'title': 'Executive VP & Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	5
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'LOW announced a cash dividend of $1.25 with an ex-date of Oct. 21, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1792555200000, 'amount': '1.25'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	194.19
+currentPrice	190.98
 currentRatio	1.105
 customPriceAlertConfidence	HIGH
 dateShortInterest	1788134400
-dayHigh	199.35
-dayLow	193.93
-discount_to_intrinsic_value	-106.6
+dayHigh	193.09
+dayLow	188.22
+discount_to_intrinsic_value	-102.84
 displayName	Lowe's Companies
 dividendDate	1793750400
 dividendRate	5.0
-dividendYield	2.58
+dividendYield	2.6
 earningsCallTimestampEnd	1747832400
 earningsCallTimestampStart	1747832400
 earningsGrowth	0.0
@@ -45,12 +45,12 @@ earningsTimestampEnd	1795005000
 earningsTimestampStart	1795005000
 ebitda	12728999936
 ebitdaMargins	0.14076
-enterpriseToEbitda	11.612
-enterpriseToRevenue	1.634
-enterpriseValue	147810074624
+enterpriseToEbitda	11.471
+enterpriseToRevenue	1.615
+enterpriseValue	146009096192
 epsCurrentYear	12.31517
 epsForward	13.02812
-epsTrailingTwelveMonths	11.82
+epsTrailingTwelveMonths	11.84
 eps_normalized_growth	0.002772012077944419
 esgPopulated	False
 exDividendDate	1792540800
@@ -59,37 +59,37 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	209.7952
-fiftyDayAverageChange	-15.605194
-fiftyDayAverageChangePercent	-0.07438299
-fiftyTwoWeekChangePercent	-27.458233
+fiftyDayAverage	209.0118
+fiftyDayAverageChange	-18.0318
+fiftyDayAverageChangePercent	-0.08627168
+fiftyTwoWeekChangePercent	-26.07627
 fiftyTwoWeekHigh	293.06
-fiftyTwoWeekHighChange	-98.869995
-fiftyTwoWeekHighChangePercent	-0.33737117
-fiftyTwoWeekLow	193.35
-fiftyTwoWeekLowChange	0.83999634
-fiftyTwoWeekLowChangePercent	0.004344434
-fiftyTwoWeekRange	193.35 - 293.06
+fiftyTwoWeekHighChange	-102.08
+fiftyTwoWeekHighChangePercent	-0.3483246
+fiftyTwoWeekLow	188.22
+fiftyTwoWeekLowChange	2.7599945
+fiftyTwoWeekLowChangePercent	0.014663662
+fiftyTwoWeekRange	188.22 - 293.06
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	1.79
-floatShares	559802869
+floatShares	559797258
 forwardEps	13.02812
-forwardPE	14.905451
+forwardPE	14.6590605
 freeCashflow	4615374848
 fullExchangeName	NYSE
 fullTimeEmployees	300000
-fulldayChange	0.0899963
-fulldayChangePercent	0.046366
-fulldayPrice	194.25
+fulldayChange	-1.5100098
+fulldayChangePercent	-0.7844614
+fulldayPrice	190.98
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
-graham_intrinsic_value	93.99
+graham_intrinsic_value	94.15
 grossMargins	0.32994
 grossProfits	29837000704
 hasPrePostMarketData	True
-heldPercentInsiders	0.0010800001
-heldPercentInstitutions	0.81347
+heldPercentInsiders	0.0010899999
+heldPercentInstitutions	0.81348
 impliedSharesOutstanding	561054019
 industry	Home Improvement Retail
 industryDisp	Home Improvement Retail
@@ -105,31 +105,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Lowe's Companies, Inc., together with its subsidiaries, operates as a home improvement retailer in the United States and Canada. It provides a line of products for construction, maintenance, repair, remodeling, and decorating. The company also offers home improvement products, such as appliances, seasonal and outdoor living, lumber, lawn and garden, kitchens and bath, hardware, building materials, millwork, paint, rough plumbing, tools, electrical, flooring, and décor. In addition, it provides installation services through independent contractors in various product categories; and extended protection plans and repair services. Further, the company provides design, distribution, and installation services for interior surface finishes to home builders and property managers. It sells its national brand-name merchandise and private brand products to professional customers, individual homeowners, and renters. The company serves its products through Lowes.com website, mobile applications, retail home improvement stores and outlet stores, and its branches. Lowe's Companies, Inc. was founded in 1921 and is based in Mooresville, North Carolina.
 longName	Lowe's Companies, Inc.
 market	us_market
-marketCap	108951076864
-marketState	POSTPOST
+marketCap	107150090240
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_180871
 mostRecentQuarter	1785456000
 netIncomeToCommon	6624999936
 nextFiscalYearEnd	1801267200
-nonDilutedMarketCap	108900585087
+nonDilutedMarketCap	107997288117
 numberOfAnalystOpinions	33
-open	198.61
+open	192.54
 operatingCashflow	9262999552
 operatingMargins	0.13365
 overallRisk	3
 payoutRatio	0.41
-pegRatio	1.31
+pegRatio	2.28
 phone	704 758 1000
-postMarketChange	0.05999756
-postMarketChangePercent	0.030896317
-postMarketPrice	194.25
-postMarketTime	1789689011
-previousClose	194.1
-priceEpsCurrentYear	15.768357
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	190.98
+postMarketTime	1790027752
+previousClose	192.49
+priceEpsCurrentYear	15.507703
 priceHint	2
-priceToBook	-14.64811
-priceToSalesTrailing12Months	1.2047846
+priceToBook	-14.405974
+priceToSalesTrailing12Months	1.1848693
 profitMargins	0.073460005
 quickRatio	0.209
 quoteSourceName	Delayed Quote
@@ -137,16 +137,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.8
 region	US
-regularMarketChange	0.0899963
-regularMarketChangePercent	0.046366
-regularMarketDayHigh	199.35
-regularMarketDayLow	193.93
-regularMarketDayRange	193.93 - 199.35
-regularMarketOpen	198.61
-regularMarketPreviousClose	194.1
-regularMarketPrice	194.19
-regularMarketTime	1789675483
-regularMarketVolume	2338170
+regularMarketChange	-1.51001
+regularMarketChangePercent	-0.784461
+regularMarketDayHigh	193.09
+regularMarketDayLow	188.22
+regularMarketDayRange	188.22 - 193.09
+regularMarketOpen	192.54
+regularMarketPreviousClose	192.49
+regularMarketPrice	190.98
+regularMarketTime	1790021058
+regularMarketVolume	3495924
 returnOnAssets	0.12519
 revenueGrowth	0.083
 revenuePerShare	161.775
@@ -175,15 +175,15 @@ totalDebt	42031001600
 totalRevenue	90431995904
 tradeable	False
 trailingAnnualDividendRate	4.85
-trailingAnnualDividendYield	0.024987118
-trailingEps	11.82
-trailingPE	16.428934
-trailingPegRatio	1.3117
+trailingAnnualDividendYield	0.025196113
+trailingEps	11.84
+trailingPE	16.130068
+trailingPegRatio	2.2789
 triggerable	True
-twoHundredDayAverage	235.03654
-twoHundredDayAverageChange	-40.846542
-twoHundredDayAverageChangePercent	-0.17378804
+twoHundredDayAverage	234.5256
+twoHundredDayAverageChange	-43.54561
+twoHundredDayAverageChangePercent	-0.18567528
 typeDisp	Equity
-volume	2338170
+volume	3495924
 website	https://corporate.lowes.com
 zip	28117

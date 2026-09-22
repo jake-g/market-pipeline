@@ -2162,7 +2162,7 @@ class MarketFetcher:
             if not df.empty and 'Date' in df.columns:
               dates = pd.to_datetime(df['Date'])
               price_range = f"{dates.min().date()} to {dates.max().date()}"
-              nan_count = df.isna().sum().sum()
+              nan_count = int(df.isna().sum().sum())
           except:
             price_range = "Error"
         else:
