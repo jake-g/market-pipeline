@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.061522365
-SandP52WeekChange	0.14293182
+52WeekChange	0.07296586
+SandP52WeekChange	0.16641033
 address1	2121 - 11th Street West
 allTimeHigh	135.24
 allTimeLow	1.697917
@@ -8,29 +8,29 @@ ask	0.0
 askSize	200
 auditRisk	2
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	2820820
-averageDailyVolume3Month	3212403
-averageVolume	3212403
-averageVolume10days	2820820
+averageDailyVolume10Day	2971040
+averageDailyVolume3Month	3219098
+averageVolume	3219098
+averageVolume10days	2971040
 beta	1.012
 bid	0.0
 bidSize	300
 boardRisk	1
 bookValue	11.698455
 city	Saskatoon
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Timothy S. Gitzel', 'age': 62, 'title': 'CEO & Director', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 2782341, 'exercisedValue': 6802854, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Grant E. Isaac Ph.D.', 'title': 'President & COO', 'fiscalYear': 2025, 'totalPay': 1905625, 'exercisedValue': 1931210, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Heidi  Shockey', 'title': 'Senior VP & CFO', 'fiscalYear': 2025, 'totalPay': 783352, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Rachelle  Girard', 'title': 'Senior VP & Chief Corporate Officer', 'fiscalYear': 2025, 'totalPay': 679509, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. C. Scott Bishop P. Eng.', 'title': 'Director of Technical Services', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Cory  Kos', 'title': 'Vice-President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ronald Liam Mooney', 'title': 'Senior VP & Chief Legal Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Lisa Lorene Aitken', 'title': 'Senior VP & Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dominic  Kieran', 'title': 'Global Managing Director for Cameco UK Ltd', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Leah  Hipperson', 'title': 'Manager of Treasury & Insurance', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Timothy S. Gitzel', 'age': 62, 'title': 'CEO & Director', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 2774709, 'exercisedValue': 6784193, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Grant E. Isaac Ph.D.', 'title': 'President & COO', 'fiscalYear': 2025, 'totalPay': 1900398, 'exercisedValue': 1925912, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Heidi  Shockey', 'title': 'Senior VP & CFO', 'fiscalYear': 2025, 'totalPay': 781203, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Rachelle  Girard', 'title': 'Senior VP & Chief Corporate Officer', 'fiscalYear': 2025, 'totalPay': 677645, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. C. Scott Bishop P. Eng.', 'title': 'Director of Technical Services', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Cory  Kos', 'title': 'Vice-President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ronald Liam Mooney', 'title': 'Senior VP & Chief Legal Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Lisa Lorene Aitken', 'title': 'Senior VP & Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dominic  Kieran', 'title': 'Global Managing Director for Cameco UK Ltd', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Leah  Hipperson', 'title': 'Manager of Treasury & Insurance', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
 corporateActions	[]
 country	Canada
 cryptoTradeable	False
 currency	USD
-currentPrice	93.23
+currentPrice	94.59
 currentRatio	3.061
 customPriceAlertConfidence	HIGH
 dateShortInterest	1788134400
-dayHigh	94.6382
-dayLow	91.645
+dayHigh	95.36
+dayLow	92.25
 debtToEquity	17.131
 discount_to_intrinsic_value	-81.3
 displayName	Cameco
@@ -46,9 +46,9 @@ earningsTimestampEnd	1793363400
 earningsTimestampStart	1793363400
 ebitda	798452992
 ebitdaMargins	0.2298
-enterpriseToEbitda	50.991
-enterpriseToRevenue	11.718
-enterpriseValue	40714186752
+enterpriseToEbitda	51.733
+enterpriseToRevenue	11.888
+enterpriseValue	41306513408
 epsCurrentYear	1.471
 epsForward	1.8589023
 epsTrailingTwelveMonths	0.58
@@ -61,28 +61,28 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	306 956 6201
-fiftyDayAverage	94.792
-fiftyDayAverageChange	-1.5619965
-fiftyDayAverageChangePercent	-0.016478147
-fiftyTwoWeekChangePercent	6.1522365
+fiftyDayAverage	94.7368
+fiftyDayAverageChange	-0.14680481
+fiftyDayAverageChangePercent	-0.001549607
+fiftyTwoWeekChangePercent	7.296586
 fiftyTwoWeekHigh	135.24
-fiftyTwoWeekHighChange	-42.010002
-fiftyTwoWeekHighChangePercent	-0.31063294
+fiftyTwoWeekHighChange	-40.65001
+fiftyTwoWeekHighChangePercent	-0.3005768
 fiftyTwoWeekLow	77.7
-fiftyTwoWeekLowChange	15.530006
-fiftyTwoWeekLowChangePercent	0.19987139
+fiftyTwoWeekLowChange	16.89
+fiftyTwoWeekLowChangePercent	0.21737452
 fiftyTwoWeekRange	77.7 - 135.24
 financialCurrency	CAD
 firstTradeDateMilliseconds	826813800000
 fiveYearAvgDividendYield	0.22
 floatShares	434478989
 forwardEps	1.8589023
-forwardPE	50.153255
+forwardPE	50.884865
 freeCashflow	49994624
 fullExchangeName	NYSE
-fulldayChange	1.61
-fulldayChangePercent	1.75726
-fulldayPrice	93.7694
+fulldayChange	1.35999
+fulldayChangePercent	1.45875
+fulldayPrice	94.3427
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
 graham_intrinsic_value	60.06
@@ -90,7 +90,7 @@ grossMargins	0.35112998
 grossProfits	1220044032
 hasPrePostMarketData	True
 heldPercentInsiders	0.0014200001
-heldPercentInstitutions	0.69715
+heldPercentInstitutions	0.69719005
 impliedSharesOutstanding	435532979
 industry	Uranium
 industryDisp	Uranium
@@ -106,48 +106,48 @@ lastSplitFactor	2:1
 longBusinessSummary	Cameco Corporation provides uranium for the generation of electricity in the Americas, Europe, and Asia. It operates in three segments: Uranium, Fuel Services, and Westinghouse. The Uranium segment engages in the exploration for, mining, milling, purchase, and sale of uranium concentrate. Its Fuel Services segment is involved in the refining, conversion, and fabrication of uranium concentrate, as well as purchase and sale of conversion services. The Westinghouse segment operates as a nuclear reactor technology original equipment manufacturer and a provider of products and services to commercial utilities and government agencies. It also provides outage and maintenance, engineering support, instrumentation and controls equipment, and plant modification services, as well as components and parts to nuclear reactors. The company sells its uranium and fuel products and services to nuclear utilities. Cameco Corporation was incorporated in 1987 and is headquartered in Saskatoon, Canada.
 longName	Cameco Corporation
 market	us_market
-marketCap	40604741632
-marketState	POST
+marketCap	41197064192
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_379153
 mostRecentQuarter	1782777600
 netIncomeToCommon	354894016
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	39874936200
+nonDilutedMarketCap	40763696753
 numberOfAnalystOpinions	11
-open	93.3
+open	93.97
 operatingCashflow	941798016
 operatingMargins	0.09111
 overallRisk	1
 payoutRatio	0.2963
 pegRatio	1.92
 phone	306 956 6200
-postMarketChange	0.5393982
-postMarketChangePercent	0.57856715
-postMarketPrice	93.7694
-postMarketTime	1790031829
-previousClose	91.62
-priceEpsCurrentYear	63.37866
+postMarketChange	-0.2472992
+postMarketChangePercent	-0.2614433
+postMarketPrice	94.3427
+postMarketTime	1790118938
+previousClose	93.23
+priceEpsCurrentYear	64.30319
 priceHint	2
-priceToBook	7.969429
-priceToSalesTrailing12Months	11.6860895
+priceToBook	8.085683
+priceToSalesTrailing12Months	11.85656
 profitMargins	0.102139995
 quickRatio	1.875
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.57143
 region	US
-regularMarketChange	1.61
-regularMarketChangePercent	1.75726
-regularMarketDayHigh	94.6382
-regularMarketDayLow	91.645
-regularMarketDayRange	91.645 - 94.6382
-regularMarketOpen	93.3
-regularMarketPreviousClose	91.62
-regularMarketPrice	93.23
-regularMarketTime	1790020802
-regularMarketVolume	3027270
+regularMarketChange	1.35999
+regularMarketChangePercent	1.45875
+regularMarketDayHigh	95.36
+regularMarketDayLow	92.25
+regularMarketDayRange	92.25 - 95.36
+regularMarketOpen	93.97
+regularMarketPreviousClose	93.23
+regularMarketPrice	94.59
+regularMarketTime	1790107202
+regularMarketVolume	3099259
 returnOnAssets	0.02982
 returnOnEquity	0.051149998
 revenueGrowth	-0.072
@@ -166,25 +166,25 @@ shortRatio	2.87
 sourceInterval	15
 state	SK
 symbol	CCJ
-targetHighPrice	171.71373
-targetLowPrice	84.40774
-targetMeanPrice	128.408
-targetMedianPrice	132.86562
+targetHighPrice	171.28773
+targetLowPrice	84.19833
+targetMeanPrice	128.08945
+targetMedianPrice	132.536
 totalCash	1112717952
 totalCashPerShare	2.555
 totalDebt	1222128000
 totalRevenue	3474621952
 tradeable	False
 trailingAnnualDividendRate	0.24
-trailingAnnualDividendYield	0.0026195152
+trailingAnnualDividendYield	0.0025742785
 trailingEps	0.58
-trailingPE	160.7414
+trailingPE	163.08621
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	105.81775
-twoHundredDayAverageChange	-12.587746
-twoHundredDayAverageChangePercent	-0.11895685
+twoHundredDayAverage	105.84275
+twoHundredDayAverageChange	-11.252754
+twoHundredDayAverageChangePercent	-0.10631578
 typeDisp	Equity
-volume	3027270
+volume	3099259
 website	https://www.cameco.com
 zip	S7M 1J3

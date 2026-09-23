@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.07375717
-SandP52WeekChange	0.14293182
+52WeekChange	-0.088134885
+SandP52WeekChange	0.16641033
 address1	30 Ivan Allen Jr. Boulevard, NW
 allTimeHigh	100.84
 allTimeLow	3.35995
@@ -8,10 +8,10 @@ ask	0.0
 askSize	200
 auditRisk	5
 averageAnalystRating	2.7 - Hold
-averageDailyVolume10Day	6484730
-averageDailyVolume3Month	5651974
-averageVolume	5651974
-averageVolume10days	6484730
+averageDailyVolume10Day	6549010
+averageDailyVolume3Month	5661125
+averageVolume	5661125
+averageVolume10days	6549010
 beta	0.316
 bid	0.0
 bidSize	100
@@ -25,17 +25,17 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	85.46
+currentPrice	85.15
 currentRatio	0.787
 customPriceAlertConfidence	HIGH
 dateShortInterest	1788134400
-dayHigh	86.15
-dayLow	85.18
+dayHigh	85.9391
+dayLow	84.97
 debtToEquity	182.058
-discount_to_intrinsic_value	22.42
+discount_to_intrinsic_value	22.7
 dividendDate	1788825600
 dividendRate	3.04
-dividendYield	3.55
+dividendYield	3.56
 earningsCallTimestampEnd	1785430800
 earningsCallTimestampStart	1785430800
 earningsGrowth	0.304
@@ -59,29 +59,29 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	91.709
-fiftyDayAverageChange	-6.2490005
-fiftyDayAverageChangePercent	-0.06813945
-fiftyTwoWeekChangePercent	-7.375717
+fiftyDayAverage	91.506
+fiftyDayAverageChange	-6.355995
+fiftyDayAverageChangePercent	-0.06945988
+fiftyTwoWeekChangePercent	-8.813488
 fiftyTwoWeekHigh	100.84
-fiftyTwoWeekHighChange	-15.379997
-fiftyTwoWeekHighChangePercent	-0.15251882
+fiftyTwoWeekHighChange	-15.689995
+fiftyTwoWeekHighChangePercent	-0.15559298
 fiftyTwoWeekLow	83.8
-fiftyTwoWeekLowChange	1.659996
-fiftyTwoWeekLowChangePercent	0.01980902
+fiftyTwoWeekLowChange	1.3499985
+fiftyTwoWeekLowChangePercent	0.016109766
 fiftyTwoWeekRange	83.8 - 100.84
 financialCurrency	USD
 firstTradeDateMilliseconds	378657000000
 fiveYearAvgDividendYield	3.6
 floatShares	1147648109
 forwardEps	4.92405
-forwardPE	17.355633
+forwardPE	17.292677
 freeCashflow	-3913374976
 fullExchangeName	NYSE
 fullTimeEmployees	29502
-fulldayChange	-0.0599976
-fulldayChangePercent	-0.0701562
-fulldayPrice	85.87
+fulldayChange	-0.309998
+fulldayChangePercent	-0.36274
+fulldayPrice	85.15
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1788220800
 graham_intrinsic_value	110.15
@@ -89,7 +89,7 @@ grossMargins	0.48289
 grossProfits	14572999680
 hasPrePostMarketData	True
 heldPercentInsiders	0.00096000003
-heldPercentInstitutions	0.74232
+heldPercentInstitutions	0.74233
 impliedSharesOutstanding	1150362966
 industry	Utilities - Regulated Electric
 industryDisp	Utilities - Regulated Electric
@@ -105,48 +105,48 @@ lastSplitFactor	10000:6109
 longBusinessSummary	The Southern Company, through its subsidiaries, engages in the sale of electricity. The company offers electric service to retail customers and wholesale customers; and energy-related products and services to natural gas choice markets. It also develops, constructs, acquires, owns, operates, and manages power generation assets, as well as battery energy storage projects; sells electricity at market-based rates in the wholesale market; and deploys microgrids for commercial, industrial, governmental, and utility customers. In addition, the company is involved in the distribution of natural gas in Illinois, Georgia, Virginia, and Tennessee; distributes energy and resilience solutions; and invests in telecommunications. The Southern Company was incorporated in 1945 and is headquartered in Atlanta, Georgia.
 longName	The Southern Company
 market	us_market
-marketCap	98310021120
-marketState	POST
+marketCap	97953415168
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_120623
 mostRecentQuarter	1782777600
 netIncomeToCommon	4657999872
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	98379040852
+nonDilutedMarketCap	98310019074
 numberOfAnalystOpinions	19
-open	85.52
+open	85.24
 operatingCashflow	10650999808
 operatingMargins	0.29612
 overallRisk	1
 payoutRatio	0.71809995
 pegRatio	2.02
 phone	404 506 5000
-postMarketChange	0.41000366
-postMarketChangePercent	0.47976092
-postMarketPrice	85.87
-postMarketTime	1790030924
-previousClose	85.52
-priceEpsCurrentYear	18.622347
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	85.15
+postMarketTime	1790110406
+previousClose	85.46
+priceEpsCurrentYear	18.554796
 priceHint	2
-priceToBook	2.4844468
-priceToSalesTrailing12Months	3.2575638
+priceToBook	2.4754348
+priceToSalesTrailing12Months	3.2457476
 profitMargins	0.15435
 quickRatio	0.441
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.65217
 region	US
-regularMarketChange	-0.0599976
-regularMarketChangePercent	-0.0701562
-regularMarketDayHigh	86.15
-regularMarketDayLow	85.18
-regularMarketDayRange	85.18 - 86.15
-regularMarketOpen	85.52
-regularMarketPreviousClose	85.52
-regularMarketPrice	85.46
-regularMarketTime	1790020802
-regularMarketVolume	6973007
+regularMarketChange	-0.309998
+regularMarketChangePercent	-0.36274
+regularMarketDayHigh	85.9391
+regularMarketDayLow	84.97
+regularMarketDayRange	84.97 - 85.9391
+regularMarketOpen	85.24
+regularMarketPreviousClose	85.46
+regularMarketPrice	85.15
+regularMarketTime	1790107202
+regularMarketVolume	4349564
 returnOnAssets	0.03271
 returnOnEquity	0.114829995
 revenueGrowth	0.001
@@ -176,15 +176,15 @@ totalDebt	77086998528
 totalRevenue	30179000320
 tradeable	False
 trailingAnnualDividendRate	2.98
-trailingAnnualDividendYield	0.03484565
+trailingAnnualDividendYield	0.034870114
 trailingEps	4.15
-trailingPE	20.59277
-trailingPegRatio	2.0212
+trailingPE	20.518072
+trailingPegRatio	2.0198
 triggerable	True
-twoHundredDayAverage	92.2916
-twoHundredDayAverageChange	-6.831604
-twoHundredDayAverageChangePercent	-0.07402194
+twoHundredDayAverage	92.2737
+twoHundredDayAverageChange	-7.1236954
+twoHundredDayAverageChangePercent	-0.0772018
 typeDisp	Equity
-volume	6973007
+volume	4349564
 website	https://www.southerncompany.com
 zip	30308

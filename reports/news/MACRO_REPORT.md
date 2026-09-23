@@ -23,7 +23,7 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 ### Top Inverse Correlations
 - **WTI_CRUDE** & **DISPOSABLE_INCOME**: `-0.56`
 - **ST_LOUIS_FIN_STRESS** & **DISPOSABLE_INCOME**: `-0.51`
-- **FEDFUNDS** & **WTI_CRUDE**: `-0.44`
+- **FEDFUNDS** & **WTI_CRUDE**: `-0.45`
 - **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.44`
 - **REAL_GDP** & **ST_LOUIS_FIN_STRESS**: `-0.43`
 
@@ -49,8 +49,8 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | REAL_GDP                  |  24269.6         | +0.00%   | +0.89%   |         1.41 | 2026-12-01 |
 | US10Y                     |      5.01        | +0.00%   | +22.49%  |         1.39 | 2026-12-01 |
 | FOOD_CPI                  |    350.42        | +0.00%   | +1.93%   |         1.38 | 2026-12-01 |
-| US_POPULATION             | 343290           | +0.02%   | +0.24%   |         1.37 | 2026-12-01 |
 | US30Y                     |      5.34        | +0.00%   | +12.66%  |         1.37 | 2026-12-01 |
+| US_POPULATION             | 343290           | +0.02%   | +0.24%   |         1.37 | 2026-12-01 |
 | AIR_PPI                   |    187.37        | +0.00%   | +5.31%   |         1.36 | 2026-12-01 |
 | SAVINGS_RATE              |      3           | +0.00%   | -16.67%  |        -1.34 | 2026-12-01 |
 | SUGAR_PRICE               |     14.81        | +0.00%   | -0.82%   |        -1.32 | 2026-12-01 |
@@ -82,6 +82,6 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | WHEAT_PRICE               |    228.74        | +0.00%   | +38.11%  |        -0.26 | 2026-12-01 |
 | AAA_SPREAD                |      0.97        | +0.00%   | -17.09%  |        -0.18 | 2026-12-01 |
 | CHICAGO_FED_ACTIVITY      |     -0.04        | +0.00%   | +33.33%  |         0.12 | 2026-12-01 |
-| RECESSION_PROB            |      0.76        | +0.00%   | +35.71%  |        -0.09 | 2026-12-01 |
+| RECESSION_PROB            |      0.76        | +0.00%   | +35.71%  |        -0.08 | 2026-12-01 |
 | FEDFUNDS                  |      3.63        | +0.00%   | -2.42%   |        -0.07 | 2026-12-01 |
 | US_POLICY_UNCERTAINTY     |    202.77        | +0.00%   | -21.37%  |        -0.06 | 2026-12-01 |

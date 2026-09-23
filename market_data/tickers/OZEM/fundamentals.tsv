@@ -3,10 +3,10 @@ allTimeHigh	37.15
 allTimeLow	20.01
 ask	41.71
 askSize	2
-averageDailyVolume10Day	21650
-averageDailyVolume3Month	21463
-averageVolume	21463
-averageVolume10days	21650
+averageDailyVolume10Day	20720
+averageDailyVolume3Month	21234
+averageVolume	21234
+averageVolume10days	20720
 beta3Year	0.0
 bid	23.33
 bidSize	2
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	31.5
-dayLow	31.26
+dayHigh	32.22
+dayLow	31.62
 dividendYield	1.24
 epsTrailingTwelveMonths	1.8511631
 esgPopulated	False
@@ -26,22 +26,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	32.73212
-fiftyDayAverageChange	-1.2463207
-fiftyDayAverageChangePercent	-0.038076382
-fiftyTwoWeekChangePercent	13.378012
+fiftyDayAverage	32.69944
+fiftyDayAverageChange	-0.5404396
+fiftyDayAverageChangePercent	-0.016527489
+fiftyTwoWeekChangePercent	15.668047
 fiftyTwoWeekHigh	37.15
-fiftyTwoWeekHighChange	-5.6642017
-fiftyTwoWeekHighChangePercent	-0.15246841
+fiftyTwoWeekHighChange	-4.991001
+fiftyTwoWeekHighChangePercent	-0.13434726
 fiftyTwoWeekLow	26.34
-fiftyTwoWeekLowChange	5.1457996
-fiftyTwoWeekLowChangePercent	0.19536066
+fiftyTwoWeekLowChange	5.8190002
+fiftyTwoWeekLowChangePercent	0.22091876
 fiftyTwoWeekRange	26.34 - 37.15
 firstTradeDateMilliseconds	1716298200000
 fullExchangeName	NasdaqGM
-fulldayChange	0.18580055
-fulldayChangePercent	0.593612
-fulldayPrice	31.4858
+fulldayChange	0.8389
+fulldayChangePercent	2.67847
+fulldayPrice	32.08
 fundFamily	Roundhill Investments
 fundInceptionDate	1716163200
 gmtOffSetMilliseconds	-14400000
@@ -52,32 +52,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund's manager will invest at least 80% of its net assets (plus any borrowings for investment purposes) in the equity securities of GLP-1 & Weight Loss Companies or any derivative instruments (such as swap agreements or forward contracts) that utilize one or more GLP-1 & Weight Loss Companies as the reference asset. The fund is non-diversified.
 longName	Roundhill Glp-1 & Weight Loss ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_1876551011
-navPrice	31.325
+navPrice	31.406
 netAssets	63573852.0
 netExpenseRatio	0.59
-open	31.4
-postMarketChange	0.165699
-postMarketChangePercent	0.52905005
-postMarketPrice	31.4858
-postMarketTime	1790021408
-previousClose	31.3
+open	31.62
+postMarketChange	-0.078998566
+postMarketChangePercent	-0.24564995
+postMarketPrice	32.08
+postMarketTime	1790119801
+previousClose	31.3201
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.18580055
-regularMarketChangePercent	0.593612
-regularMarketDayHigh	31.5
-regularMarketDayLow	31.26
-regularMarketDayRange	31.26 - 31.5
-regularMarketOpen	31.4
-regularMarketPreviousClose	31.3
-regularMarketPrice	31.4858
-regularMarketTime	1790020800
-regularMarketVolume	9000
+regularMarketChange	0.8388996
+regularMarketChangePercent	2.6784704
+regularMarketDayHigh	32.22
+regularMarketDayLow	31.62
+regularMarketDayRange	31.62 - 32.22
+regularMarketOpen	31.62
+regularMarketPreviousClose	31.3201
+regularMarketPrice	32.159
+regularMarketTime	1790107200
+regularMarketVolume	10196
 shortName	Roundhill GLP-1 & Weight Loss E
 sourceInterval	15
 symbol	OZEM
@@ -85,15 +85,15 @@ totalAssets	63573852
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	17.008657
+trailingPE	17.37232
 trailingPegRatio	None
 trailingThreeMonthNavReturns	3.77518
 trailingThreeMonthReturns	3.77518
 triggerable	True
-twoHundredDayAverage	32.787395
-twoHundredDayAverageChange	-1.3015957
-twoHundredDayAverageChangePercent	-0.03969805
+twoHundredDayAverage	32.78435
+twoHundredDayAverageChange	-0.62535095
+twoHundredDayAverageChangePercent	-0.019074678
 typeDisp	ETF
-volume	9000
+volume	10196
 yield	0.0124
 ytdReturn	-3.40036

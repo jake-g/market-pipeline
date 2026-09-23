@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.623142
-SandP52WeekChange	0.14293182
+52WeekChange	0.6155001
+SandP52WeekChange	0.16641033
 address1	171 Collins Street
 address2	Level 18
 allTimeHigh	98.71
@@ -8,10 +8,10 @@ allTimeLow	1.132095
 ask	0.0
 askSize	100
 averageAnalystRating	3.0 - Hold
-averageDailyVolume10Day	2232680
-averageDailyVolume3Month	2550969
-averageVolume	2550969
-averageVolume10days	2232680
+averageDailyVolume10Day	2221130
+averageDailyVolume3Month	2519150
+averageVolume	2519150
+averageVolume10days	2221130
 beta	0.85
 bid	0.0
 bidSize	200
@@ -23,16 +23,16 @@ corporateActions	[]
 country	Australia
 cryptoTradeable	False
 currency	USD
-currentPrice	86.09
+currentPrice	87.83
 currentRatio	1.885
 customPriceAlertConfidence	HIGH
 dateShortInterest	1788134400
-dayHigh	87.385
-dayLow	85.45
+dayHigh	88.31
+dayLow	86.34
 debtToEquity	50.473
 dividendDate	1790121600
 dividendRate	3.96
-dividendYield	4.59
+dividendYield	4.6
 earningsCallTimestampEnd	1787005800
 earningsCallTimestampStart	1787005800
 earningsGrowth	-0.09
@@ -47,7 +47,7 @@ enterpriseToRevenue	3.981
 enterpriseValue	233939615744
 epsCurrentYear	4.33259
 epsForward	4.68344
-epsTrailingTwelveMonths	3.86
+epsTrailingTwelveMonths	3.87
 esgPopulated	False
 exDividendDate	1788480000
 exchange	NYQ
@@ -56,29 +56,29 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	61 3 9609 3015
-fiftyDayAverage	88.1462
-fiftyDayAverageChange	-2.0562057
-fiftyDayAverageChangePercent	-0.023327218
-fiftyTwoWeekChangePercent	62.3142
+fiftyDayAverage	88.2344
+fiftyDayAverageChange	-0.40439606
+fiftyDayAverageChangePercent	-0.004583202
+fiftyTwoWeekChangePercent	61.55001
 fiftyTwoWeekHigh	98.71
-fiftyTwoWeekHighChange	-12.620003
-fiftyTwoWeekHighChangePercent	-0.12784928
+fiftyTwoWeekHighChange	-10.879997
+fiftyTwoWeekHighChangePercent	-0.11022183
 fiftyTwoWeekLow	52.18
-fiftyTwoWeekLowChange	33.909996
-fiftyTwoWeekLowChangePercent	0.64986575
+fiftyTwoWeekLowChange	35.65
+fiftyTwoWeekLowChangePercent	0.683212
 fiftyTwoWeekRange	52.18 - 98.71
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	7.02
 floatShares	2478230563
 forwardEps	4.68344
-forwardPE	18.381786
+forwardPE	18.75331
 freeCashflow	9592375296
 fullExchangeName	NYSE
 fullTimeEmployees	38833
-fulldayChange	-0.18
-fulldayChangePercent	-0.208648
-fulldayPrice	86.15
+fulldayChange	2.8600006
+fulldayChangePercent	3.3221054
+fulldayPrice	87.95
 gmtOffSetMilliseconds	-14400000
 grossMargins	0.85920995
 grossProfits	50487001088
@@ -99,32 +99,32 @@ lastSplitFactor	1121:1000
 longBusinessSummary	BHP Group Limited operates as a resources company in Australia, Europe, China, Japan, India, South Korea, rest of Asia, North America, and South America. The company operates through three segments: Copper, Iron Ore, and Coal. It explores for copper, iron, steelmaking coal, energy coal, nickel, potash, cobalt, sulphide, ammonium sulphate, silver, gold, molybdenum, uranium, and zinc deposits. The company is also involved in the services, marketing, trading, and finance businesses; potash, nickel, and copper development; mining, smelting, refining of nickel; and provision of towing, freight, administrative, and marketing support and other services. BHP Group Limited was founded in 1851 and is headquartered in Melbourne, Australia.
 longName	BHP Group Limited
 market	us_market
-marketCap	218795737088
-marketState	POST
+marketCap	223217909760
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_256654
 mostRecentQuarter	1782777600
-nameChangeDate	2026-09-21
+nameChangeDate	2026-09-22
 netIncomeToCommon	9832999936
 nextFiscalYearEnd	1814313600
-nonDilutedMarketCap	220794831527
+nonDilutedMarketCap	220003683144
 numberOfAnalystOpinions	6
-open	87.26
+open	86.6
 operatingCashflow	21777999872
 operatingMargins	0.4334
 payoutRatio	0.6884
 pegRatio	5.95
 phone	61 3 9609 3333
-postMarketChange	0.060005188
-postMarketChangePercent	0.06970053
-postMarketPrice	86.15
-postMarketTime	1790022150
+postMarketChange	0.11999512
+postMarketChangePercent	0.13662201
+postMarketPrice	87.95
+postMarketTime	1790121359
 prevName	BHP Group
-previousClose	86.27
-priceEpsCurrentYear	19.87033
+previousClose	86.09
+priceEpsCurrentYear	20.271938
 priceHint	2
-priceToBook	4.2941937
-priceToSalesTrailing12Months	3.723549
+priceToBook	4.3809857
+priceToSalesTrailing12Months	3.7988071
 profitMargins	0.16734
 quickRatio	1.434
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.0
 region	US
-regularMarketChange	-0.18
-regularMarketChangePercent	-0.208648
-regularMarketDayHigh	87.385
-regularMarketDayLow	85.45
-regularMarketDayRange	85.45 - 87.385
-regularMarketOpen	87.26
-regularMarketPreviousClose	86.27
-regularMarketPrice	86.09
-regularMarketTime	1790020802
-regularMarketVolume	1666052
+regularMarketChange	1.74001
+regularMarketChangePercent	2.02115
+regularMarketDayHigh	88.31
+regularMarketDayLow	86.34
+regularMarketDayRange	86.34 - 88.31
+regularMarketOpen	86.6
+regularMarketPreviousClose	86.09
+regularMarketPrice	87.83
+regularMarketTime	1790107202
+regularMarketVolume	2575479
 returnOnAssets	0.13434
 returnOnEquity	0.24002
 revenueGrowth	0.183
@@ -170,15 +170,15 @@ totalDebt	28426999808
 totalRevenue	58759999488
 tradeable	False
 trailingAnnualDividendRate	1.72
-trailingAnnualDividendYield	0.019937407
-trailingEps	3.86
-trailingPE	22.303108
+trailingAnnualDividendYield	0.019979093
+trailingEps	3.87
+trailingPE	22.695091
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	78.0192
-twoHundredDayAverageChange	8.070793
-twoHundredDayAverageChangePercent	0.10344624
+twoHundredDayAverage	78.1683
+twoHundredDayAverageChange	9.661705
+twoHundredDayAverageChangePercent	0.123601325
 typeDisp	Equity
-volume	1666052
+volume	2575479
 website	https://www.bhp.com
 zip	3000

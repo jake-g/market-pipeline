@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	716.39
 allTimeLow	98.24
-ask	712.8
-askSize	80
-averageDailyVolume10Day	9315030
-averageDailyVolume3Month	7305095
-averageVolume	7305095
-averageVolume10days	9315030
+ask	712.72
+askSize	840
+averageDailyVolume10Day	9518190
+averageDailyVolume3Month	7233206
+averageVolume	7233206
+averageVolume10days	9518190
 beta3Year	1.0
-bid	712.97
+bid	712.82
 bidSize	120
 bookValue	390.854
 category	Large Blend
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	714.075
-dayLow	705.96
+dayHigh	714.2899
+dayLow	711.98
 dividendYield	1.04
 epsTrailingTwelveMonths	28.429424
 esgPopulated	False
@@ -27,10 +27,10 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	698.3802
-fiftyDayAverageChange	14.399841
-fiftyDayAverageChangePercent	0.020618914
-fiftyTwoWeekChangePercent	14.155113
+fiftyDayAverage	698.7586
+fiftyDayAverageChange	14.021423
+fiftyDayAverageChangePercent	0.02006619
+fiftyTwoWeekChangePercent	16.554928
 fiftyTwoWeekHigh	716.39
 fiftyTwoWeekHighChange	-3.6099854
 fiftyTwoWeekHighChangePercent	-0.005039134
@@ -40,11 +40,11 @@ fiftyTwoWeekLowChangePercent	0.23220275
 fiftyTwoWeekRange	578.46 - 716.39
 financialCurrency	USD
 firstTradeDateMilliseconds	1284039000000
-fiveYearAverageReturn	0.13094969
+fiveYearAverageReturn	0.1384382
 fullExchangeName	NYSEArca
-fulldayChange	11.319946
-fulldayChangePercent	1.6130334
-fulldayPrice	713.1
+fulldayChange	0.10998535
+fulldayChangePercent	0.015430476
+fulldayPrice	713.0
 fundFamily	Vanguard
 fundInceptionDate	1283817600
 gmtOffSetMilliseconds	-14400000
@@ -54,51 +54,51 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the Standard & Poor's 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard S&P 500 ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_28117396
-navPrice	702.22
+navPrice	712.76
 netAssets	1756880440000.0
 netExpenseRatio	0.03
-open	706.19
+open	713.28
 phone	800-523-1036
-postMarketChange	0.3199463
-postMarketChangePercent	0.0448871
-postMarketPrice	713.1
-postMarketTime	1790032851
-previousClose	701.78
+postMarketChange	0.2199707
+postMarketChangePercent	0.030860951
+postMarketPrice	713.0
+postMarketTime	1790121545
+previousClose	712.78
 priceHint	2
 priceToBook	1.8236477
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	11.0
-regularMarketChangePercent	1.56744
-regularMarketDayHigh	714.075
-regularMarketDayLow	705.96
-regularMarketDayRange	705.96 - 714.075
-regularMarketOpen	706.19
-regularMarketPreviousClose	701.78
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
+regularMarketDayHigh	714.2899
+regularMarketDayLow	711.98
+regularMarketDayRange	711.98 - 714.2899
+regularMarketOpen	713.28
+regularMarketPreviousClose	712.78
 regularMarketPrice	712.78
-regularMarketTime	1790020800
-regularMarketVolume	8821073
+regularMarketTime	1790107200
+regularMarketVolume	20709896
 shortName	Vanguard S&P 500 ETF
 sourceInterval	15
 symbol	VOO
-threeYearAverageReturn	0.21279699
+threeYearAverageReturn	0.2305031
 totalAssets	1756880437248
 tradeable	False
 trailingAnnualDividendRate	5.437
-trailingAnnualDividendYield	0.0077474415
+trailingAnnualDividendYield	0.007627879
 trailingPE	25.071913
 trailingPegRatio	None
 trailingThreeMonthNavReturns	1.67318
 trailingThreeMonthReturns	1.67318
 triggerable	True
-twoHundredDayAverage	658.6444
-twoHundredDayAverageChange	54.13562
-twoHundredDayAverageChangePercent	0.08219248
+twoHundredDayAverage	659.0754
+twoHundredDayAverageChange	53.70465
+twoHundredDayAverageChangePercent	0.08148484
 typeDisp	ETF
-volume	8821073
+volume	20709896
 yield	0.0104
 ytdReturn	13.11347
