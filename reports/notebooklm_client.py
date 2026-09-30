@@ -3,21 +3,9 @@ import logging
 import os
 from typing import List, Optional
 
-from notebooklm import _streaming_post
 from notebooklm import NotebookLMClient
 
 logger = logging.getLogger(__name__)
-
-# notebooklm caps buffered RPC responses at 50 MB. Streamed chat.ask answers
-# against large notebooks (~95 sources) regularly exceed that, failing
-# periodic reports with RPCResponseTooLargeError. The cap is a keyword-only
-# default bound at definition time, so patch __kwdefaults__ directly.
-_MAX_RPC_RESPONSE_BYTES = 200 * 1024 * 1024
-_kwdefaults = _streaming_post.stream_post_with_size_cap.__kwdefaults__
-if _kwdefaults is not None and "max_bytes" in _kwdefaults:
-  _kwdefaults["max_bytes"] = _MAX_RPC_RESPONSE_BYTES
-else:
-  logger.warning("Could not raise notebooklm RPC size cap; API changed.")
 
 NOTEBOOK_NAME = "Market News DB"
 
