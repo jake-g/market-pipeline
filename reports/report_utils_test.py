@@ -6,6 +6,7 @@ import os
 import shutil
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import numpy as np
 import pandas as pd
@@ -51,7 +52,8 @@ class TestComputeSectorSummary(unittest.TestCase):
     self.assertEqual(result.loc["A", "Ticker_Count"], 3)
     self.assertEqual(result.loc["B", "Ticker_Count"], 1)
 
-  def test_empty_dataframe(self):
+  @patch("reports.report_utils.logger.warning")
+  def test_empty_dataframe(self, mock_warn):
     """Verify graceful handling of empty input."""
     df = pd.DataFrame(columns=[
         "Sector", "RSI", "Dist_to_200MA", "Forward_PE", "Sharpe_1Y",
@@ -59,6 +61,7 @@ class TestComputeSectorSummary(unittest.TestCase):
     ])
     result = compute_sector_summary(df)
     self.assertTrue(result.empty)
+    mock_warn.assert_called()
 
   def test_nan_handling(self):
     """Verify NaN values are excluded from means."""
@@ -116,12 +119,14 @@ class TestLoadMacroSnapshot(unittest.TestCase):
     self.assertAlmostEqual(result["US10Y"], 4.5)
     self.assertAlmostEqual(result["CPI"], 320.0)
 
-  def test_missing_file_returns_empty(self):
+  @patch("reports.report_utils.logger.warning")
+  def test_missing_file_returns_empty(self, mock_warn):
     """Verify graceful handling when file doesn't exist."""
     empty_dir = tempfile.mkdtemp()
     result = load_macro_snapshot(empty_dir)
     self.assertEqual(result, {})
     shutil.rmtree(empty_dir)
+    mock_warn.assert_called()
 
   def test_all_nan_column(self):
     """Verify columns with all NaN are excluded."""
@@ -171,10 +176,12 @@ class TestGetNewsSentimentSummary(unittest.TestCase):
     self.assertEqual(result["neutral_count"], 1)
     self.assertAlmostEqual(result["avg_sentiment"], 0.16, places=2)
 
-  def test_missing_ticker_returns_empty(self):
+  @patch("reports.report_utils.logger.warning")
+  def test_missing_ticker_returns_empty(self, mock_warn):
     """Verify missing ticker returns empty dict."""
     result = get_news_sentiment_summary("ZZZZ", self.test_dir, days=30)
     self.assertEqual(result, {})
+    mock_warn.assert_called()
 
   def test_date_filtering(self):
     """Verify only recent articles are included."""
@@ -246,12 +253,14 @@ class TestGenerateSectorRiskReturnPlot(unittest.TestCase):
     self.assertTrue(os.path.exists(out_path))
     self.assertGreater(os.path.getsize(out_path), 0)
 
-  def test_empty_dataframe_no_crash(self):
+  @patch("reports.report_utils.logger.warning")
+  def test_empty_dataframe_no_crash(self, mock_warn):
     """Verify empty DataFrame doesn't crash."""
     df = pd.DataFrame(columns=["Sector", "Sharpe_1Y", "Volatility_20D"])
     out_path = os.path.join(self.test_dir, "empty.png")
     # Should not raise an exception
     generate_sector_risk_return_plot(df, out_path)
+    mock_warn.assert_called()
 
 
 if __name__ == "__main__":

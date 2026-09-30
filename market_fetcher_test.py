@@ -810,12 +810,13 @@ class TestShippingFetcher(unittest.TestCase):
   def test_fetch_chokepoint_vessels_missing_key_mock(self):
     """Ensure pipelines don't collapse when the key is entirely missing, falling back to mock data."""
     config.AISSTREAM_API_KEY = None
-    res = self.fetcher.fetch_chokepoint_vessels("Panama", {
-        "min_lat": 8.5,
-        "max_lat": 9.5,
-        "min_lon": -80.0,
-        "max_lon": -79.0
-    })
+    with patch.object(self.fetcher.logger, "warning"):
+      res = self.fetcher.fetch_chokepoint_vessels("Panama", {
+          "min_lat": 8.5,
+          "max_lat": 9.5,
+          "min_lon": -80.0,
+          "max_lon": -79.0
+      })
 
     self.assertIsNotNone(res)
     # Panama mock is only 1 entry out of the 3 in _stream_ais_data mock!
@@ -854,7 +855,8 @@ class TestShippingFetcher(unittest.TestCase):
   def test_generate_daily_shipping_report(self):
     """Verify full loop generates TSV and formats Dataframe properly."""
     config.AISSTREAM_API_KEY = None  # Safely force the mock data returns
-    self.fetcher.generate_daily_shipping_report()
+    with patch.object(self.fetcher.logger, "warning"):
+      self.fetcher.generate_daily_shipping_report()
 
     tsv_file = self.test_dir / "shipping" / "chokepoint_metrics.tsv"
     self.assertTrue(tsv_file.exists())
@@ -905,9 +907,11 @@ class TestTariffFetcher(unittest.TestCase):
     self.assertEqual(res[0]["value"], 100.5)
 
   @patch("shipping_fetcher.requests.get")
-  def test_fetch_fred_series_missing_key(self, mock_get):
+  @patch("market_fetcher.fetch_fred_series", return_value=None)
+  def test_fetch_fred_series_missing_key(self, mock_client_fetch, mock_get):
     config.FRED_API_KEY = None
-    res = self.fetcher.fetch_fred_series("TEST_ID")
+    with patch.object(self.fetcher.logger, "warning"):
+      res = self.fetcher.fetch_fred_series("TEST_ID")
     self.assertEqual(res, [])
     mock_get.assert_not_called()
 
