@@ -17,6 +17,7 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
+displayName	Fidelity Advisor Value Strats M
 dividendRate	0.304
 dividendYield	0.48
 epsTrailingTwelveMonths	17.592
@@ -26,23 +27,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	58.9644
-fiftyDayAverageChange	-3.4743996
-fiftyDayAverageChangePercent	-0.05892368
-fiftyTwoWeekChangePercent	15.300202
+fiftyDayAverage	58.7036
+fiftyDayAverageChange	-2.753601
+fiftyDayAverageChangePercent	-0.04690685
+fiftyTwoWeekChangePercent	13.065636
 fiftyTwoWeekHigh	60.71
-fiftyTwoWeekHighChange	-5.2199974
-fiftyTwoWeekHighChangePercent	-0.0859825
+fiftyTwoWeekHighChange	-4.7599983
+fiftyTwoWeekHighChangePercent	-0.07840551
 fiftyTwoWeekLow	46.11
-fiftyTwoWeekLowChange	9.380001
-fiftyTwoWeekLowChangePercent	0.20342661
+fiftyTwoWeekLowChange	9.84
+fiftyTwoWeekLowChangePercent	0.21340273
 fiftyTwoWeekRange	46.11 - 60.71
 financialCurrency	USD
 firstTradeDateMilliseconds	441642600000
 fullExchangeName	Nasdaq
-fulldayChange	-0.2
-fulldayChangePercent	-0.3591309
-fulldayPrice	55.49
+fulldayChange	0.48
+fulldayChangePercent	0.8653326
+fulldayPrice	55.95
 fundInceptionDate	1210291200
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
@@ -53,24 +54,24 @@ longBusinessSummary	The fund normally invests primarily in common stocks. It inv
 longName	Fidelity Advisor Value Strategies M
 market	us_market
 marketCap	1391523456
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_28114349
 morningStarOverallRating	4
 morningStarRiskRating	5
 netAssets	2624636930.0
 netExpenseRatio	1.21
-previousClose	55.690002
+previousClose	55.47
 priceHint	2
-priceToBook	1.1384666
+priceToBook	1.1479043
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-0.2
-regularMarketChangePercent	-0.3591309
-regularMarketPreviousClose	55.690002
-regularMarketPrice	55.49
-regularMarketTime	1790722403
+regularMarketChange	0.48
+regularMarketChangePercent	0.8653326
+regularMarketPreviousClose	55.47
+regularMarketPrice	55.95
+regularMarketTime	1791240793
 sharesOutstanding	25941900
 shortName	Fidelity Advisor Value Strategi
 sourceInterval	15
@@ -78,14 +79,14 @@ symbol	FASPX
 totalAssets	2624636928
 tradeable	False
 trailingAnnualDividendRate	0.29
-trailingAnnualDividendYield	0.0052073975
-trailingPE	3.154275
+trailingAnnualDividendYield	0.005228051
+trailingPE	3.180423
 trailingPegRatio	None
 trailingThreeMonthReturns	6.77233
 triggerable	False
-twoHundredDayAverage	54.22845
-twoHundredDayAverageChange	1.2615509
-twoHundredDayAverageChangePercent	0.023263635
+twoHundredDayAverage	54.31245
+twoHundredDayAverageChange	1.6375504
+twoHundredDayAverageChangePercent	0.030150551
 typeDisp	Fund
 yield	0.0047999998
 ytdReturn	28.31169

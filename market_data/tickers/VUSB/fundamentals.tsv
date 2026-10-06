@@ -1,23 +1,24 @@
 Metric	Value
 allTimeHigh	51.26
 allTimeLow	48.08
-ask	49.54
-askSize	8700
-averageDailyVolume10Day	2575400
-averageDailyVolume3Month	2062528
-averageVolume	2062528
-averageVolume10days	2575400
+ask	49.42
+askSize	8500
+averageDailyVolume10Day	2469430
+averageDailyVolume3Month	2059634
+averageVolume	2059634
+averageVolume10days	2469430
 beta3Year	0.1
-bid	49.53
-bidSize	6600
+bid	49.41
+bidSize	18600
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	49.55
-dayLow	49.5
+dayHigh	49.43
+dayLow	49.4
+displayName	Vanguard Ultra-Short Bond ETF
 dividendYield	4.31
 esgPopulated	False
 exchange	BTS
@@ -25,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	49.6502
-fiftyDayAverageChange	-0.10020065
-fiftyDayAverageChangePercent	-0.002018132
-fiftyTwoWeekChangePercent	-0.9700954
+fiftyDayAverage	49.6336
+fiftyDayAverageChange	-0.21360016
+fiftyDayAverageChangePercent	-0.0043035396
+fiftyTwoWeekChangePercent	-0.87261796
 fiftyTwoWeekHigh	50.03
-fiftyTwoWeekHighChange	-0.47999954
-fiftyTwoWeekHighChangePercent	-0.009594235
-fiftyTwoWeekLow	49.5
+fiftyTwoWeekHighChange	-0.6100006
+fiftyTwoWeekHighChangePercent	-0.012192697
+fiftyTwoWeekLow	49.37
 fiftyTwoWeekLowChange	0.049999237
-fiftyTwoWeekLowChangePercent	0.0010100856
-fiftyTwoWeekRange	49.5 - 50.03
+fiftyTwoWeekLowChangePercent	0.0010127453
+fiftyTwoWeekRange	49.37 - 50.03
 firstTradeDateMilliseconds	1617802200000
-fiveYearAverageReturn	0.03565
+fiveYearAverageReturn	0.0358638
 fullExchangeName	Cboe US
-fulldayChange	0.0400009
-fulldayChangePercent	0.0807936
-fulldayPrice	49.5205
+fulldayChange	-0.0009994507
+fulldayChangePercent	-0.0020225653
+fulldayPrice	49.42
 fundFamily	Vanguard
 fundInceptionDate	1617667200
 gmtOffSetMilliseconds	-14400000
@@ -51,37 +52,37 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an active management approach, investing in a diversified portfolio of high-quality and, to a lesser extent, medium-quality bonds. It is expected to maintain a dollar-weighted average maturity of 0 to 2 years. Under normal circumstances, the fund will invest at least 80% of its assets in fixed income securities.
 longName	Vanguard Ultra-Short Bond ETF
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_702253379
-navPrice	49.51
+navPrice	49.39
 netAssets	10191725600.0
 netExpenseRatio	0.1
-open	49.51
+open	49.41
 phone	800-523-1036
-postMarketChange	-0.029499054
-postMarketChangePercent	-0.059533913
-postMarketPrice	49.5205
-postMarketTime	1790720344
-previousClose	49.51
+postMarketChange	-0.005996704
+postMarketChangePercent	-0.012134165
+postMarketPrice	49.414
+postMarketTime	1791241100
+previousClose	49.415
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0400009
-regularMarketChangePercent	0.0807936
-regularMarketDayHigh	49.55
-regularMarketDayLow	49.5
-regularMarketDayRange	49.5 - 49.55
-regularMarketOpen	49.51
-regularMarketPreviousClose	49.51
-regularMarketPrice	49.55
-regularMarketTime	1790712000
-regularMarketVolume	1659217
+regularMarketChange	0.00499725
+regularMarketChangePercent	0.0101128
+regularMarketDayHigh	49.43
+regularMarketDayLow	49.4
+regularMarketDayRange	49.4 - 49.43
+regularMarketOpen	49.41
+regularMarketPreviousClose	49.415
+regularMarketPrice	49.42
+regularMarketTime	1791230400
+regularMarketVolume	2086233
 shortName	Vanguard Ultra-Short Bond ETF
 sourceInterval	15
 symbol	VUSB
-threeYearAverageReturn	0.0510086
+threeYearAverageReturn	0.051788703
 totalAssets	10191725568
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -90,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.90802
 trailingThreeMonthReturns	0.90802
 triggerable	True
-twoHundredDayAverage	49.75218
-twoHundredDayAverageChange	-0.20217896
-twoHundredDayAverageChangePercent	-0.004063721
+twoHundredDayAverage	49.744434
+twoHundredDayAverageChange	-0.3244362
+twoHundredDayAverageChangePercent	-0.00652206
 typeDisp	ETF
-volume	1659217
+volume	2086233
 yield	0.0431
 ytdReturn	2.33945

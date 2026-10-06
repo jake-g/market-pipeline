@@ -1,18 +1,18 @@
 Metric	Value
-52WeekChange	-0.40812945
-SandP52WeekChange	0.14879811
+52WeekChange	-0.42716777
+SandP52WeekChange	0.1457566
 address1	17800 North 85th Street
 allTimeHigh	885.92
 allTimeLow	0.275
-ask	419.99
+ask	424.83
 askSize	1
 auditRisk	10
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	1324370
-averageDailyVolume3Month	968426
-averageVolume	968426
-averageVolume10days	1324370
-beta	1.399
+averageDailyVolume10Day	941090
+averageDailyVolume3Month	942609
+averageVolume	942609
+averageVolume10days	941090
+beta	1.439
 bid	454.63
 bidSize	2
 boardRisk	4
@@ -20,20 +20,21 @@ bookValue	45.233
 city	Scottsdale
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Patrick W. Smith', 'age': 54, 'title': 'Founder, CEO & Director', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 40001, 'exercisedValue': 0, 'unexercisedValue': 11289135}, {'maxAge': 1, 'name': 'Mr. Joshua M. Isner', 'age': 39, 'title': 'President', 'yearBorn': 1986, 'fiscalYear': 2025, 'totalPay': 728341, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Brittany  Bagley', 'age': 42, 'title': 'COO & CFO', 'yearBorn': 1983, 'fiscalYear': 2025, 'totalPay': 1295272, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey C. Kunins', 'age': 50, 'title': 'Chief Product Officer & CTO', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 864211, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Cameron  Brooks', 'age': 55, 'title': 'Chief Revenue Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1311381, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jennifer H. Mak', 'age': 50, 'title': 'Chief Accounting Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Erik Taylor Lapinski', 'title': 'Senior Director of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Isaiah  Fields', 'age': 48, 'title': 'Corporate Secretary & Chief Legal Officer', 'yearBorn': 1977, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Abigail  Stock B.A.', 'title': 'Executive Vice President of Marketing & Communications', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Elizabeth  Coughlin', 'age': 39, 'title': 'Chief Human Officer', 'yearBorn': 1986, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
-compensationRisk	9
+compensationRisk	10
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	419.58
+currentPrice	411.81
 currentRatio	2.149
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	427.7575
-dayLow	415.37
+dayHigh	417.98
+dayLow	408.0
 debtToEquity	50.363
-discount_to_intrinsic_value	-252.96
+discount_to_intrinsic_value	-250.51
 displayName	Axon Enterprise
+dividendYield	0.0
 earningsCallTimestampEnd	1785963600
 earningsCallTimestampStart	1785963600
 earningsGrowth	-0.182
@@ -43,12 +44,12 @@ earningsTimestampEnd	1793736000
 earningsTimestampStart	1793736000
 ebitda	165106000
 ebitdaMargins	0.05129
-enterpriseToEbitda	213.461
-enterpriseToRevenue	10.948
-enterpriseValue	35243667456
+enterpriseToEbitda	209.638
+enterpriseToRevenue	10.752
+enterpriseValue	34612453376
 epsCurrentYear	7.65309
 epsForward	10.54387
-epsTrailingTwelveMonths	2.42
+epsTrailingTwelveMonths	2.41
 eps_normalized_growth	3.2208231037452357
 esgPopulated	False
 exchange	NMS
@@ -56,36 +57,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	536.6776
-fiftyDayAverageChange	-117.097626
-fiftyDayAverageChangePercent	-0.21818988
-fiftyTwoWeekChangePercent	-40.812946
+fiftyDayAverage	529.79
+fiftyDayAverageChange	-117.97998
+fiftyDayAverageChangePercent	-0.22269198
+fiftyTwoWeekChangePercent	-42.716778
 fiftyTwoWeekHigh	764.02
-fiftyTwoWeekHighChange	-344.44003
-fiftyTwoWeekHighChangePercent	-0.45082593
+fiftyTwoWeekHighChange	-352.21002
+fiftyTwoWeekHighChangePercent	-0.4609958
 fiftyTwoWeekLow	339.01
-fiftyTwoWeekLowChange	80.56998
-fiftyTwoWeekLowChangePercent	0.23766252
+fiftyTwoWeekLowChange	72.79999
+fiftyTwoWeekLowChangePercent	0.21474288
 fiftyTwoWeekRange	339.01 - 764.02
 financialCurrency	USD
 firstTradeDateMilliseconds	992957400000
-floatShares	77318522
+floatShares	77308774
 forwardEps	10.54387
-forwardPE	39.793736
+forwardPE	39.056816
 freeCashflow	222160000
 fullExchangeName	NasdaqGS
 fullTimeEmployees	5100
-fulldayChange	-5.1700134
-fulldayChangePercent	-1.2171897
-fulldayPrice	419.75
+fulldayChange	-1.5400085
+fulldayChangePercent	-0.37256768
+fulldayPrice	411.81
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1788220800
-graham_intrinsic_value	118.88
+governanceEpochDate	1790812800
+graham_intrinsic_value	117.49
 grossMargins	0.59525
 grossProfits	1916168960
 hasPrePostMarketData	True
 heldPercentInsiders	0.04513
-heldPercentInstitutions	0.91225
+heldPercentInstitutions	0.91172
 impliedSharesOutstanding	81237415
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
@@ -99,7 +100,7 @@ lastSplitFactor	2:1
 longBusinessSummary	Axon Enterprise, Inc. provides public safety technology solutions in the United States and internationally. The company operates in two segments, Software and Services, and Connected Devices. The Software and Services segment develops, manufactures, and sells cloud-based software-as-a-service solutions to capture, store, manage, share, and analyze video and other digital evidence. This segment also offers Axon Evidence, Draft One, Axon Records, Axon Standards, Axon Fusus, Axon Assistant, and others. The Connected Devices segment engages in the development, manufacture, and sale of integrated hardware solutions, such as conducted energy devices under the TASER brand, body cameras, fixed and in-car cameras, drone and counter-drone technologies, accessories, extended warranties, and related hardware products, as well as virtual reality training hardware. The company serves first responders across international, federal, state, and local governments, international governmental entities, commercial enterprises, and consumers through direct sales, distribution partners, and third-party resellers. The company was formerly known as TASER International, Inc. and changed its name to Axon Enterprise, Inc. in April 2017. Axon Enterprise, Inc. was incorporated in 1993 and is headquartered in Scottsdale, Arizona.
 longName	Axon Enterprise, Inc.
 market	us_market
-marketCap	34085593088
+marketCap	33454381056
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_885779
@@ -108,22 +109,22 @@ netIncomeToCommon	199298000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	37313969457
 numberOfAnalystOpinions	19
-open	424.59
+open	412.005
 operatingCashflow	265808992
 operatingMargins	0.0517
 overallRisk	9
 payoutRatio	0.0
-pegRatio	1.95
+pegRatio	1.5
 phone	480 991 0797
-postMarketChange	0.17001343
-postMarketChangePercent	0.040519908
-postMarketPrice	419.75
-postMarketTime	1790726347
-previousClose	424.75
-priceEpsCurrentYear	54.824913
+postMarketChange	1.1700134
+postMarketChangePercent	0.28411487
+postMarketPrice	412.98
+postMarketTime	1791243815
+previousClose	413.35
+priceEpsCurrentYear	53.80964
 priceHint	2
-priceToBook	9.27597
-priceToSalesTrailing12Months	10.5885515
+priceToBook	9.104194
+priceToSalesTrailing12Months	10.3924675
 profitMargins	0.06191
 quickRatio	1.582
 quoteSourceName	Delayed Quote
@@ -131,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.66667
 region	US
-regularMarketChange	-5.1700134
-regularMarketChangePercent	-1.2171897
-regularMarketDayHigh	427.7575
-regularMarketDayLow	415.37
-regularMarketDayRange	415.37 - 427.7575
-regularMarketOpen	424.59
-regularMarketPreviousClose	424.75
-regularMarketPrice	419.58
-regularMarketTime	1790712001
-regularMarketVolume	957514
+regularMarketChange	-1.5400085
+regularMarketChangePercent	-0.37256768
+regularMarketDayHigh	417.98
+regularMarketDayLow	408.0
+regularMarketDayRange	408.0 - 417.98
+regularMarketOpen	412.005
+regularMarketPreviousClose	413.35
+regularMarketPrice	411.81
+regularMarketTime	1791230401
+regularMarketVolume	1053306
 returnOnAssets	0.00509
 returnOnEquity	0.06221
 revenueGrowth	0.353
@@ -171,14 +172,14 @@ totalRevenue	3219098880
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	2.42
-trailingPE	173.38016
+trailingEps	2.41
+trailingPE	170.87552
 trailingPegRatio	2.1074
 triggerable	True
-twoHundredDayAverage	499.90094
-twoHundredDayAverageChange	-80.32095
-twoHundredDayAverageChangePercent	-0.16067374
+twoHundredDayAverage	496.9618
+twoHundredDayAverageChange	-85.151794
+twoHundredDayAverageChangePercent	-0.17134476
 typeDisp	Equity
-volume	957514
+volume	1053306
 website	https://www.axon.com
 zip	85255

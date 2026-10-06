@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.12849396
-SandP52WeekChange	0.14879811
+52WeekChange	-0.20010984
+SandP52WeekChange	0.1457566
 address1	980 Rock Avenue
 allTimeHigh	122.9
 allTimeLow	0.363
-ask	41.8
-askSize	1
+ask	46.91
+askSize	2
 auditRisk	10
 averageAnalystRating	2.8 - Hold
-averageDailyVolume10Day	40168400
-averageDailyVolume3Month	45694733
-averageVolume	45694733
-averageVolume10days	40168400
-beta	1.996
-bid	40.4
-bidSize	5
+averageDailyVolume10Day	36118310
+averageDailyVolume3Month	44624054
+averageVolume	44624054
+averageVolume10days	36118310
+beta	2.009
+bid	39.94
+bidSize	2
 boardRisk	10
 bookValue	15.609
 city	San Jose
@@ -25,15 +25,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	41.02
+currentPrice	43.19
 currentRatio	3.872
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	42.69
-dayLow	40.86
+dayHigh	44.049
+dayLow	42.802
 debtToEquity	63.951
-discount_to_intrinsic_value	74.38
+discount_to_intrinsic_value	72.82
 displayName	Super Micro Computer
+dividendYield	0.0
 earningsCallTimestampEnd	1786482000
 earningsCallTimestampStart	1786482000
 earningsGrowth	4.347
@@ -43,9 +44,9 @@ earningsTimestampEnd	1793736000
 earningsTimestampStart	1793736000
 ebitda	2824158976
 ebitdaMargins	0.0723
-enterpriseToEbitda	11.646
-enterpriseToRevenue	0.842
-enterpriseValue	32890445824
+enterpriseToEbitda	12.149
+enterpriseToRevenue	0.878
+enterpriseValue	34309490688
 epsCurrentYear	4.33765
 epsForward	5.32592
 epsTrailingTwelveMonths	3.26
@@ -57,36 +58,36 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	408 503 8008
-fiftyDayAverage	35.384
-fiftyDayAverageChange	5.6360016
-fiftyDayAverageChangePercent	0.15928108
-fiftyTwoWeekChangePercent	-12.849397
+fiftyDayAverage	36.5162
+fiftyDayAverageChange	6.6737976
+fiftyDayAverageChangePercent	0.18276265
+fiftyTwoWeekChangePercent	-20.010984
 fiftyTwoWeekHigh	58.78
-fiftyTwoWeekHighChange	-17.759998
-fiftyTwoWeekHighChangePercent	-0.30214357
+fiftyTwoWeekHighChange	-15.59
+fiftyTwoWeekHighChangePercent	-0.26522627
 fiftyTwoWeekLow	19.48
-fiftyTwoWeekLowChange	21.54
-fiftyTwoWeekLowChangePercent	1.1057496
+fiftyTwoWeekLowChange	23.71
+fiftyTwoWeekLowChangePercent	1.2171458
 fiftyTwoWeekRange	19.48 - 58.78
 financialCurrency	USD
 firstTradeDateMilliseconds	1175175000000
 floatShares	557625648
 forwardEps	5.32592
-forwardPE	7.701956
+forwardPE	8.109397
 freeCashflow	-8248783872
 fullExchangeName	NasdaqGS
 fullTimeEmployees	7000
-fulldayChange	-0.5399971
-fulldayChangePercent	-1.2924775
-fulldayPrice	41.24
+fulldayChange	-0.34999847
+fulldayChangePercent	-0.8010952
+fulldayPrice	43.19
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1788220800
-graham_intrinsic_value	160.14
+governanceEpochDate	1790812800
+graham_intrinsic_value	158.92
 grossMargins	0.108219996
 grossProfits	4227250944
 hasPrePostMarketData	True
-heldPercentInsiders	0.12696
-heldPercentInstitutions	0.69566
+heldPercentInsiders	0.12675
+heldPercentInstitutions	0.6958
 impliedSharesOutstanding	646873027
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -100,8 +101,8 @@ lastSplitFactor	10:1
 longBusinessSummary	Super Micro Computer, Inc., together with its subsidiaries, develops and sells server and storage solutions based on modular and open-standard architecture in the United States, Asia, Europe, and internationally. The company offers liquid and air-cooled AI servers for training and inferencing with integrated graphics processing units (GPUs) or PCIe based architectures; SuperBlade, MicroBlade, FlexTwin, GrandTwin, and BigTwin blade and multi-node systems; SuperStorage systems; Hyper, CloudDC, and WIO and rackmount systems; embedded (5G/IoT/Edge) systems; and MicroCloud server systems. It also provides workstations and networking devices; and modular server subsystems and accessories, including server boards, chassis, power supplies, and other accessories. In addition, the company offers remote system management solutions, such as Server Management suite comprising Supermicro Server Manager, Supermicro Power Management software, Supermicro Update Manager, SuperCloud Composer, SuperCloud Director, and SuperDoctor 5. Further, the company identifies service requirements; creates and executes project plans; conducts verification testing; offers training; and provides technical documentation. Additionally, it provides rack level services from design to deployment for full rack and cluster level deployments of AI and HPC datacenters; help desk services and on-site product support; and warranties, maintenance, and technical support services. The company serves enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing markets through direct and indirect sales force, distributors, value-added resellers, system integrators, and original equipment manufacturers. Super Micro Computer, Inc. was incorporated in 1993 and is headquartered in San Jose, California.
 longName	Super Micro Computer, Inc.
 market	us_market
-marketCap	26534731776
-marketState	POSTPOST
+marketCap	27938445312
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_6479558
 mostRecentQuarter	1782777600
@@ -109,39 +110,39 @@ netIncomeToCommon	2195842048
 nextFiscalYearEnd	1814313600
 nonDilutedMarketCap	27224645512
 numberOfAnalystOpinions	16
-open	42.52
+open	43.57
 operatingCashflow	-6809886208
 operatingMargins	0.13382
 overallRisk	10
 payoutRatio	0.0
 pegRatio	0.91
 phone	408 503 8000
-postMarketChange	0.22000122
-postMarketChangePercent	0.5363267
-postMarketPrice	41.24
-postMarketTime	1790726362
-previousClose	41.78
-priceEpsCurrentYear	9.456734
+postMarketChange	0.15000153
+postMarketChangePercent	0.34730616
+postMarketPrice	43.34
+postMarketTime	1791244302
+previousClose	43.69
+priceEpsCurrentYear	9.957005
 priceHint	2
-priceToBook	2.627971
-priceToSalesTrailing12Months	0.67927915
+priceToBook	2.7669933
+priceToSalesTrailing12Months	0.7152137
 profitMargins	0.0571
 quickRatio	1.928
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	none
 recommendationMean	2.84211
 region	US
-regularMarketChange	-0.759998
-regularMarketChangePercent	-1.81905
-regularMarketDayHigh	42.69
-regularMarketDayLow	40.86
-regularMarketDayRange	40.86 - 42.69
-regularMarketOpen	42.52
-regularMarketPreviousClose	41.78
-regularMarketPrice	41.02
-regularMarketTime	1790712000
-regularMarketVolume	25091240
+regularMarketChange	-0.5
+regularMarketChangePercent	-1.14443
+regularMarketDayHigh	44.049
+regularMarketDayLow	42.802
+regularMarketDayRange	42.802 - 44.049
+regularMarketOpen	43.57
+regularMarketPreviousClose	43.69
+regularMarketPrice	43.19
+regularMarketTime	1791230400
+regularMarketVolume	22032582
 returnOnAssets	0.07877
 returnOnEquity	0.21465999
 revenueGrowth	0.932
@@ -173,13 +174,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	3.26
-trailingPE	12.582822
+trailingPE	13.248466
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	31.8277
-twoHundredDayAverageChange	9.192301
-twoHundredDayAverageChangePercent	0.28881449
+twoHundredDayAverage	32.0031
+twoHundredDayAverageChange	11.186897
+twoHundredDayAverageChangePercent	0.34955665
 typeDisp	Equity
-volume	25091240
+volume	22032582
 website	https://www.supermicro.com
 zip	95131

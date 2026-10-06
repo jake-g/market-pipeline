@@ -1,35 +1,39 @@
 Metric	Value
-52WeekChange	-0.37837046
-SandP52WeekChange	0.14879811
+52WeekChange	-0.3304445
+SandP52WeekChange	0.1457566
 address1	290 West Mount Pleasant Avenue
 address2	Suite 4100
 allTimeHigh	187.0
 allTimeLow	33.515
-ask	92.7
+ask	95.13
 askSize	2
-averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	35537420
-averageDailyVolume3Month	28553085
-averageVolume	28553085
-averageVolume10days	35537420
-bid	79.73
+auditRisk	9
+averageAnalystRating	1.8 - Buy
+averageDailyVolume10Day	26757500
+averageDailyVolume3Month	27800075
+averageVolume	27800075
+averageVolume10days	26757500
+bid	82.09
 bidSize	2
+boardRisk	8
 bookValue	9.118
 city	Livingston
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael N. Intrator', 'age': 55, 'title': 'Co-founder, President, CEO & Chairman', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 3454004, 'exercisedValue': 0, 'unexercisedValue': 145339984}, {'maxAge': 1, 'name': 'Mr. Brannin  McBee', 'age': 39, 'title': 'Co-Founder & Chief Development Officer', 'yearBorn': 1986, 'fiscalYear': 2025, 'totalPay': 1191453, 'exercisedValue': 0, 'unexercisedValue': 52438800}, {'maxAge': 1, 'name': 'Mr. Brian M. Venturo', 'age': 40, 'title': 'Co-Founder, Chief Strategy Officer & Director', 'yearBorn': 1985, 'fiscalYear': 2025, 'totalPay': 2804837, 'exercisedValue': 0, 'unexercisedValue': 281276992}, {'maxAge': 1, 'name': 'Mr. Nitin  Agrawal', 'age': 45, 'title': 'CFO & Treasurer', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1013150, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ernie  Rogers', 'age': 50, 'title': 'Chief Architect of Strategic Financing', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jon  Jones', 'age': 51, 'title': 'Chief Revenue Officer', 'yearBorn': 1974, 'fiscalYear': 2025, 'totalPay': 948678, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Peter  Salanki', 'age': 38, 'title': 'Co-founder & CTO', 'yearBorn': 1987, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sachin  Jain', 'age': 47, 'title': 'Chief Operating Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey R. Baker', 'age': 56, 'title': 'Chief Accounting Officer', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sandhya  Venugopal', 'age': 43, 'title': 'Chief Information Officer', 'yearBorn': 1982, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
+compensationRisk	6
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	85.93
+currentPrice	87.39
 currentRatio	0.455
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	90.47
-dayLow	85.141
+dayHigh	90.85
+dayLow	87.09
 debtToEquity	1027.329
 displayName	CoreWeave
+dividendYield	0.0
 earningsCallTimestampEnd	1786482000
 earningsCallTimestampStart	1786482000
 earningsTimestamp	1786478400
@@ -37,46 +41,47 @@ earningsTimestampEnd	1794427200
 earningsTimestampStart	1794427200
 ebitda	3788999936
 ebitdaMargins	0.49921
-enterpriseToEbitda	24.668
-enterpriseToRevenue	12.315
-enterpriseValue	93467541504
-epsCurrentYear	-3.95063
-epsForward	-1.82233
-epsTrailingTwelveMonths	-3.55
+enterpriseToEbitda	24.879
+enterpriseToRevenue	12.42
+enterpriseValue	94267269120
+epsCurrentYear	-3.94355
+epsForward	-1.80844
+epsTrailingTwelveMonths	-3.69
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	86.0
-fiftyDayAverageChange	-0.069999695
-fiftyDayAverageChangePercent	-0.0008139499
-fiftyTwoWeekChangePercent	-37.837048
+fiftyDayAverage	86.6972
+fiftyDayAverageChange	0.6928024
+fiftyDayAverageChangePercent	0.007991059
+fiftyTwoWeekChangePercent	-33.044453
 fiftyTwoWeekHigh	153.2
-fiftyTwoWeekHighChange	-67.27
-fiftyTwoWeekHighChangePercent	-0.4390992
+fiftyTwoWeekHighChange	-65.81
+fiftyTwoWeekHighChangePercent	-0.42956918
 fiftyTwoWeekLow	60.55
-fiftyTwoWeekLowChange	25.380001
-fiftyTwoWeekLowChangePercent	0.41915774
+fiftyTwoWeekLowChange	26.84
+fiftyTwoWeekLowChangePercent	0.44327003
 fiftyTwoWeekRange	60.55 - 153.2
 financialCurrency	USD
 firstTradeDateMilliseconds	1743168600000
-floatShares	328296647
-forwardEps	-1.82233
-forwardPE	-47.15392
+floatShares	328434531
+forwardEps	-1.80844
+forwardPE	-48.323418
 freeCashflow	-9088615424
 fullExchangeName	NasdaqGS
 fullTimeEmployees	2189
-fulldayChange	1.1285019
-fulldayChangePercent	1.3265568
-fulldayPrice	86.1985
+fulldayChange	-1.8199997
+fulldayChangePercent	-2.0307963
+fulldayPrice	87.39
 gmtOffSetMilliseconds	-14400000
+governanceEpochDate	1790812800
 grossMargins	0.67418
 grossProfits	5117000192
 hasPrePostMarketData	True
 heldPercentInsiders	0.18712999
-heldPercentInstitutions	0.76737
+heldPercentInstitutions	0.76862997
 impliedSharesOutstanding	551536602
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -88,7 +93,7 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such as Local Object Transport Accelerator; infrastructure control solutions, including CoreWeave Kubernetes service; mission control services, including node, rack, and fleet lifecycle management; model and agent development tools comprising Weights & Biases, an AI developer platform; and runtime acceleration. In addition, the company offers graphics processing unit compute, CPU compute, networking services, managed services, and virtual and bare metal servers. Its services also include visual effects rendering, machine learning, pixel streaming, and batch processing. The company was formerly known as Atlantic Crypto Corporation and changed its name to CoreWeave, Inc. in December 2019. CoreWeave, Inc. was incorporated in 2017 and is based in Livingston, New Jersey.
 longName	CoreWeave, Inc.
 market	us_market
-marketCap	47393538048
+marketCap	48198782976
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_605989324
@@ -97,37 +102,38 @@ netIncomeToCommon	-1928000000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	47928530713
 numberOfAnalystOpinions	38
-open	86.27
+open	90.735
 operatingCashflow	6911000064
 operatingMargins	-0.01903
+overallRisk	9
 payoutRatio	0.0
 phone	973 270 9737
-postMarketChange	0.26850128
-postMarketChangePercent	0.31246513
-postMarketPrice	86.1985
-postMarketTime	1790726385
-previousClose	85.07
-priceEpsCurrentYear	-21.750961
+postMarketChange	0.37999725
+postMarketChangePercent	0.43482924
+postMarketPrice	87.77
+postMarketTime	1791243944
+previousClose	89.62
+priceEpsCurrentYear	-22.160236
 priceHint	2
-priceToBook	9.424216
-priceToSalesTrailing12Months	6.244208
+priceToBook	9.584338
+priceToSalesTrailing12Months	6.350301
 profitMargins	-0.25402
 quickRatio	0.386
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.85366
+recommendationMean	1.83333
 region	US
-regularMarketChange	0.8600006
-regularMarketChangePercent	1.0109329
-regularMarketDayHigh	90.47
-regularMarketDayLow	85.141
-regularMarketDayRange	85.141 - 90.47
-regularMarketOpen	86.27
-regularMarketPreviousClose	85.07
-regularMarketPrice	85.93
-regularMarketTime	1790712001
-regularMarketVolume	25811878
+regularMarketChange	-2.2300034
+regularMarketChangePercent	-2.4882874
+regularMarketDayHigh	90.85
+regularMarketDayLow	87.09
+regularMarketDayRange	87.09 - 90.85
+regularMarketOpen	90.735
+regularMarketPreviousClose	89.62
+regularMarketPrice	87.39
+regularMarketTime	1791230401
+regularMarketVolume	18071829
 returnOnAssets	-0.00244
 returnOnEquity	-0.43596
 revenueGrowth	1.125
@@ -135,6 +141,7 @@ revenuePerShare	14.568
 sector	Technology
 sectorDisp	Technology
 sectorKey	technology
+shareHolderRightsRisk	10
 sharesOutstanding	458871690
 sharesPercentSharesOut	0.0996
 sharesShort	54939326
@@ -146,7 +153,7 @@ shortRatio	2.47
 sourceInterval	15
 state	NJ
 symbol	CRWV
-syntheticPEG	-0.41914595555555556
+syntheticPEG	-0.4295414933333333
 targetHighPrice	317.0
 targetLowPrice	39.0
 targetMeanPrice	141.57895
@@ -158,13 +165,13 @@ totalRevenue	7590000128
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-3.55
+trailingEps	-3.69
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	92.155174
-twoHundredDayAverageChange	-6.225174
-twoHundredDayAverageChangePercent	-0.067550994
+twoHundredDayAverage	92.27898
+twoHundredDayAverageChange	-4.888977
+twoHundredDayAverageChangePercent	-0.0529804
 typeDisp	Equity
-volume	25811878
+volume	18071829
 website	https://www.coreweave.com
 zip	07039

@@ -2,7 +2,7 @@ Metric	Value
 address1	Valley Forge, PA 19482
 address2	PO Box 2600
 address3	Vanguard Index Funds
-allTimeHigh	281.4
+allTimeHigh	281.55
 allTimeLow	16.74
 annualHoldingsTurnover	0.12
 annualReportExpenseRatio	0.0005
@@ -17,7 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
-dividendRate	0.508
+displayName	Vanguard MStar Gr Index Admiral
+dividendRate	0.7751
 dividendYield	0.37
 epsTrailingTwelveMonths	9.064347
 esgPopulated	False
@@ -26,34 +27,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	270.7914
-fiftyDayAverageChange	6.9685974
-fiftyDayAverageChangePercent	0.02573419
-fiftyTwoWeekChangePercent	12.545037
-fiftyTwoWeekHigh	281.4
-fiftyTwoWeekHighChange	-3.6399841
-fiftyTwoWeekHighChangePercent	-0.012935267
+fiftyDayAverage	272.0554
+fiftyDayAverageChange	12.0946045
+fiftyDayAverageChangePercent	0.044456404
+fiftyTwoWeekChangePercent	12.786924
+fiftyTwoWeekHigh	281.55
+fiftyTwoWeekHighChange	2.600006
+fiftyTwoWeekHighChangePercent	0.0092346165
 fiftyTwoWeekLow	216.17
-fiftyTwoWeekLowChange	61.59001
-fiftyTwoWeekLowChangePercent	0.2849147
-fiftyTwoWeekRange	216.17 - 281.4
+fiftyTwoWeekLowChange	67.979996
+fiftyTwoWeekLowChangePercent	0.3144747
+fiftyTwoWeekRange	216.17 - 281.55
 financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
 fullExchangeName	Nasdaq
-fulldayChange	-0.26
-fulldayChangePercent	-0.09351844
-fulldayPrice	277.76
+fulldayChange	2.6
+fulldayChangePercent	0.9234594
+fulldayPrice	284.15
 fundInceptionDate	1075075200
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	49.0
-lastDividendValue	0.508
+lastDividendValue	0.7751
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the target index, a broadly diversified index made up of the growth stocks of large U.S. companies, as determined by the index provider. Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the target index.
 longName	Vanguard MStar Growth Index Admiral
 market	us_market
 marketCap	210203312128
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22939698
 morningStarOverallRating	4
@@ -61,17 +62,17 @@ morningStarRiskRating	3
 netAssets	384533856000.0
 netExpenseRatio	0.05
 phone	800-523-1036
-previousClose	278.02002
+previousClose	281.55
 priceHint	2
-priceToBook	1.2874221
+priceToBook	1.3170397
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-0.26
-regularMarketChangePercent	-0.09351844
-regularMarketPreviousClose	278.02002
-regularMarketPrice	277.76
-regularMarketTime	1790722417
+regularMarketChange	2.6
+regularMarketChangePercent	0.9234594
+regularMarketPreviousClose	281.55
+regularMarketPrice	284.15
+regularMarketTime	1791240809
 sharesOutstanding	822456000
 shortName	Vanguard Growth Index Fd Admira
 sourceInterval	15
@@ -79,14 +80,14 @@ symbol	VIGAX
 totalAssets	384533856256
 tradeable	False
 trailingAnnualDividendRate	1.54
-trailingAnnualDividendYield	0.0055391695
-trailingPE	30.643135
+trailingAnnualDividendYield	0.0054697213
+trailingPE	31.348093
 trailingPegRatio	None
 trailingThreeMonthReturns	-1.39542
 triggerable	False
-twoHundredDayAverage	256.43076
-twoHundredDayAverageChange	21.329254
-twoHundredDayAverageChangePercent	0.08317744
+twoHundredDayAverage	256.9801
+twoHundredDayAverageChange	27.169891
+twoHundredDayAverageChangePercent	0.105727606
 typeDisp	Fund
 yield	0.0037
 ytdReturn	8.75016

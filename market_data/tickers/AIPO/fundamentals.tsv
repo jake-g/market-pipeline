@@ -3,10 +3,10 @@ allTimeHigh	34.79
 allTimeLow	19.17
 ask	30.34
 askSize	1
-averageDailyVolume10Day	947500
-averageDailyVolume3Month	1171115
-averageVolume	1171115
-averageVolume10days	947500
+averageDailyVolume10Day	982670
+averageDailyVolume3Month	1142485
+averageVolume	1142485
+averageVolume10days	982670
 beta3Year	0.0
 bid	30.22
 bidSize	1
@@ -16,8 +16,9 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	28.8325
-dayLow	28.45
+dayHigh	29.11
+dayLow	28.585
+displayName	Defiance AI & Power Infra ETF
 dividendYield	0.01
 epsTrailingTwelveMonths	0.85856694
 esgPopulated	False
@@ -26,22 +27,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	29.0581
-fiftyDayAverageChange	-0.5081005
-fiftyDayAverageChangePercent	-0.017485676
-fiftyTwoWeekChangePercent	24.651659
+fiftyDayAverage	28.9311
+fiftyDayAverageChange	0.048898697
+fiftyDayAverageChangePercent	0.0016901776
+fiftyTwoWeekChangePercent	21.917225
 fiftyTwoWeekHigh	34.79
-fiftyTwoWeekHighChange	-6.2400017
-fiftyTwoWeekHighChangePercent	-0.17936192
+fiftyTwoWeekHighChange	-5.8100014
+fiftyTwoWeekHighChangePercent	-0.16700205
 fiftyTwoWeekLow	20.653
-fiftyTwoWeekLowChange	7.8969994
-fiftyTwoWeekLowChangePercent	0.38236573
+fiftyTwoWeekLowChange	8.327
+fiftyTwoWeekLowChangePercent	0.40318596
 fiftyTwoWeekRange	20.653 - 34.79
 firstTradeDateMilliseconds	1753450200000
 fullExchangeName	NasdaqGM
-fulldayChange	0.6399994
-fulldayChangePercent	2.271112
-fulldayPrice	28.82
+fulldayChange	0.12999916
+fulldayChangePercent	0.4502915
+fulldayPrice	28.98
 fundFamily	Defiance ETFs LLC
 fundInceptionDate	1753315200
 gmtOffSetMilliseconds	-14400000
@@ -55,29 +56,29 @@ market	us_market
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_1913357773
-navPrice	28.1676
+navPrice	28.8711
 netAssets	902248000.0
 netExpenseRatio	0.69
-open	28.58
-postMarketChange	0.27000046
-postMarketChangePercent	0.9457109
-postMarketPrice	28.82
-postMarketTime	1790726230
-previousClose	28.18
+open	28.99
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	28.98
+postMarketTime	1791243103
+previousClose	28.87
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.36999893
-regularMarketChangePercent	1.3129841
-regularMarketDayHigh	28.8325
-regularMarketDayLow	28.45
-regularMarketDayRange	28.45 - 28.8325
-regularMarketOpen	28.58
-regularMarketPreviousClose	28.18
-regularMarketPrice	28.55
-regularMarketTime	1790712001
-regularMarketVolume	1115154
+regularMarketChange	0.1099987
+regularMarketChangePercent	0.38101384
+regularMarketDayHigh	29.11
+regularMarketDayLow	28.585
+regularMarketDayRange	28.585 - 29.11
+regularMarketOpen	28.99
+regularMarketPreviousClose	28.87
+regularMarketPrice	28.98
+regularMarketTime	1791230401
+regularMarketVolume	1734131
 shortName	Defiance AI & Power Infrastruct
 sourceInterval	15
 symbol	AIPO
@@ -85,15 +86,15 @@ totalAssets	902248000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	33.253086
+trailingPE	33.75392
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-14.96786
 trailingThreeMonthReturns	-14.96786
 triggerable	True
-twoHundredDayAverage	28.075874
-twoHundredDayAverageChange	0.4741249
-twoHundredDayAverageChangePercent	0.016887272
+twoHundredDayAverage	28.178375
+twoHundredDayAverageChange	0.8016243
+twoHundredDayAverageChangePercent	0.02844821
 typeDisp	ETF
-volume	1115154
+volume	1734131
 yield	0.0001
 ytdReturn	26.35034

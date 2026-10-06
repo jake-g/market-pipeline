@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.12833714
-SandP52WeekChange	0.14879811
+52WeekChange	0.07388592
+SandP52WeekChange	0.1457566
 address1	55 Glenlake Parkway, N.E.
 allTimeHigh	233.72
 allTimeLow	37.99
-ask	0.0
-askSize	100
+ask	93.59
+askSize	400
 auditRisk	6
 averageAnalystRating	2.2 - Buy
-averageDailyVolume10Day	5773220
-averageDailyVolume3Month	4825315
-averageVolume	4825315
-averageVolume10days	5773220
-beta	1.038
-bid	0.0
+averageDailyVolume10Day	5391960
+averageDailyVolume3Month	4854176
+averageVolume	4854176
+averageVolume10days	5391960
+beta	1.046
+bid	93.19
 bidSize	300
 boardRisk	8
 bookValue	17.705
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	93.93
+currentPrice	93.14
 currentRatio	1.179
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	94.5399
-dayLow	93.33
+dayHigh	93.64
+dayLow	91.56
 debtToEquity	189.9
-discount_to_intrinsic_value	-144.61
+discount_to_intrinsic_value	-144.41
 displayName	United Parcel Service
 dividendDate	1788393600
 dividendRate	6.56
-dividendYield	6.96
+dividendYield	7.05
 earningsCallTimestampEnd	1793131200
 earningsCallTimestampStart	1793131200
 earningsGrowth	-0.53
@@ -46,11 +46,11 @@ earningsTimestampEnd	1793104200
 earningsTimestampStart	1793104200
 ebitda	12083999744
 ebitdaMargins	0.13437
-enterpriseToEbitda	8.604
-enterpriseToRevenue	1.156
-enterpriseValue	103965917184
-epsCurrentYear	7.20456
-epsForward	8.06955
+enterpriseToEbitda	8.548
+enterpriseToRevenue	1.149
+enterpriseValue	103293796352
+epsCurrentYear	7.20285
+epsForward	8.06361
 epsTrailingTwelveMonths	5.38
 eps_normalized_growth	-0.5374778768208872
 esgPopulated	False
@@ -60,37 +60,37 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	103.646
-fiftyDayAverageChange	-9.716003
-fiftyDayAverageChangePercent	-0.09374219
-fiftyTwoWeekChangePercent	12.8337145
+fiftyDayAverage	101.943
+fiftyDayAverageChange	-8.803001
+fiftyDayAverageChangePercent	-0.08635219
+fiftyTwoWeekChangePercent	7.388592
 fiftyTwoWeekHigh	122.41
-fiftyTwoWeekHighChange	-28.480003
-fiftyTwoWeekHighChangePercent	-0.23266076
+fiftyTwoWeekHighChange	-29.270004
+fiftyTwoWeekHighChangePercent	-0.23911448
 fiftyTwoWeekLow	82.0
-fiftyTwoWeekLowChange	11.93
-fiftyTwoWeekLowChangePercent	0.14548782
+fiftyTwoWeekLowChange	11.139999
+fiftyTwoWeekLowChangePercent	0.13585365
 fiftyTwoWeekRange	82.0 - 122.41
 financialCurrency	USD
 firstTradeDateMilliseconds	942244200000
-fiveYearAvgDividendYield	4.34
+fiveYearAvgDividendYield	3.95
 floatShares	748466589
-forwardEps	8.06955
-forwardPE	11.640055
+forwardEps	8.06361
+forwardPE	11.550657
 freeCashflow	5593999872
 fullExchangeName	NYSE
 fullTimeEmployees	460000
-fulldayChange	-0.32
-fulldayChangePercent	-0.339522
-fulldayPrice	94.25
+fulldayChange	0.19000244
+fulldayChangePercent	0.20425978
+fulldayPrice	93.14
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1788220800
-graham_intrinsic_value	38.4
+governanceEpochDate	1790812800
+graham_intrinsic_value	38.11
 grossMargins	0.22413
 grossProfits	20156000256
 hasPrePostMarketData	True
 heldPercentInsiders	0.00017000001
-heldPercentInstitutions	0.73376
+heldPercentInstitutions	0.73377
 impliedSharesOutstanding	850781582
 industry	Integrated Freight & Logistics
 industryDisp	Integrated Freight & Logistics
@@ -104,8 +104,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	United Parcel Service, Inc., a package delivery and logistics provider, offers transportation and delivery services. It operates through two segments, U.S. Domestic Package and International Package. The U.S. Domestic Package segment offers time-definite delivery services for express letters, documents, packages and palletized freight through air and ground services. The International Package segment provides small package operations in Europe, the Middle East and Africa, Canada and Latin America, and Asia. The company offers a range of guaranteed day- and time-definite international transportation services; day-definite services; cross-border ground package delivery; contract-only, e-commerce solutions for non-urgent, and cross-border shipments; and international service for urgent and palletized shipments. It also provides international air and ocean freight forwarding, contract logistics, customs brokerage and insurance, mail services, healthcare logistics, distribution, and post-sales services. United Parcel Service, Inc. was founded in 1907 and is headquartered in Atlanta, Georgia.
 longName	United Parcel Service, Inc.
 market	us_market
-marketCap	79913910272
-marketState	POSTPOST
+marketCap	79241797632
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_238570
 mostRecentQuarter	1782777600
@@ -113,22 +113,22 @@ netIncomeToCommon	4569999872
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	81521891187
 numberOfAnalystOpinions	26
-open	94.2
+open	93.329
 operatingCashflow	8867000320
 operatingMargins	0.09052
 overallRisk	9
 payoutRatio	1.2193
-pegRatio	1.34
+pegRatio	1.32
 phone	404 828 6000
-postMarketChange	0.3199997
-postMarketChangePercent	0.3406789
-postMarketPrice	94.25
-postMarketTime	1790721782
-previousClose	94.25
-priceEpsCurrentYear	13.037577
+postMarketChange	0.069999695
+postMarketChangePercent	0.075155355
+postMarketPrice	93.21
+postMarketTime	1791242679
+previousClose	93.02
+priceEpsCurrentYear	12.930993
 priceHint	2
-priceToBook	5.305281
-priceToSalesTrailing12Months	0.8886235
+priceToBook	5.2606606
+priceToSalesTrailing12Months	0.88114977
 profitMargins	0.050819997
 quickRatio	1.052
 quoteSourceName	Nasdaq Real Time Price
@@ -136,16 +136,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.17241
 region	US
-regularMarketChange	-0.32
-regularMarketChangePercent	-0.339522
-regularMarketDayHigh	94.5399
-regularMarketDayLow	93.33
-regularMarketDayRange	93.33 - 94.5399
-regularMarketOpen	94.2
-regularMarketPreviousClose	94.25
-regularMarketPrice	93.93
-regularMarketTime	1790712243
-regularMarketVolume	4250296
+regularMarketChange	0.120003
+regularMarketChangePercent	0.129007
+regularMarketDayHigh	93.64
+regularMarketDayLow	91.56
+regularMarketDayRange	91.56 - 93.64
+regularMarketOpen	93.329
+regularMarketPreviousClose	93.02
+regularMarketPrice	93.14
+regularMarketTime	1791230491
+regularMarketVolume	4789723
 returnOnAssets	0.07278
 returnOnEquity	0.29602
 revenueGrowth	0.076
@@ -167,7 +167,7 @@ state	GA
 symbol	UPS
 targetHighPrice	135.0
 targetLowPrice	76.0
-targetMeanPrice	115.80769
+targetMeanPrice	115.23077
 targetMedianPrice	117.5
 totalCash	4653000192
 totalCashPerShare	5.469
@@ -175,15 +175,15 @@ totalDebt	28672999424
 totalRevenue	89929998336
 tradeable	False
 trailingAnnualDividendRate	6.56
-trailingAnnualDividendYield	0.069602124
+trailingAnnualDividendYield	0.07052247
 trailingEps	5.38
-trailingPE	17.459108
+trailingPE	17.312267
 trailingPegRatio	1.3619
 triggerable	True
-twoHundredDayAverage	105.12965
-twoHundredDayAverageChange	-11.199646
-twoHundredDayAverageChangePercent	-0.106531754
+twoHundredDayAverage	104.9955
+twoHundredDayAverageChange	-11.855499
+twoHundredDayAverageChangePercent	-0.11291436
 typeDisp	Equity
-volume	4250296
+volume	4789723
 website	https://www.ups.com
 zip	30328

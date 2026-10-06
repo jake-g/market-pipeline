@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.12434864
-SandP52WeekChange	0.14879811
+52WeekChange	0.2522347
+SandP52WeekChange	0.1457566
 address1	190 Elgin Avenue
 allTimeHigh	748.89
 allTimeLow	9.25
-ask	0.0
-askSize	40
+ask	455.33
+askSize	80
 auditRisk	1
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	795160
-averageDailyVolume3Month	863352
-averageVolume	863352
-averageVolume10days	795160
-beta	1.208
-bid	0.0
-bidSize	200
+averageDailyVolume10Day	725180
+averageDailyVolume3Month	863668
+averageVolume	863668
+averageVolume10days	725180
+beta	1.223
+bid	451.5
+bidSize	120
 boardRisk	5
 bookValue	68.488
 city	George Town
@@ -25,14 +25,15 @@ corporateActions	[]
 country	Cayman Islands
 cryptoTradeable	False
 currency	USD
-currentPrice	424.12
+currentPrice	453.84
 currentRatio	2.253
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	424.62
-dayLow	411.43
+dayHigh	468.0
+dayLow	450.0533
 debtToEquity	0.164
-discount_to_intrinsic_value	33.79
+discount_to_intrinsic_value	28.66
+dividendYield	0.0
 earningsCallTimestampEnd	1787000400
 earningsCallTimestampStart	1787000400
 earningsGrowth	0.581
@@ -42,12 +43,12 @@ earningsTimestampEnd	1793649600
 earningsTimestampStart	1793649600
 ebitda	530727008
 ebitdaMargins	0.114350006
-enterpriseToEbitda	26.995
-enterpriseToRevenue	3.087
-enterpriseValue	14327240704
+enterpriseToEbitda	29.002
+enterpriseToRevenue	3.317
+enterpriseValue	15392252928
 epsCurrentYear	18.19723
 epsForward	21.78772
-epsTrailingTwelveMonths	13.04
+epsTrailingTwelveMonths	13.05
 eps_normalized_growth	0.6140763464089889
 esgPopulated	False
 exchange	NYQ
@@ -55,36 +56,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	453.762
-fiftyDayAverageChange	-29.641998
-fiftyDayAverageChangePercent	-0.06532499
-fiftyTwoWeekChangePercent	12.434864
+fiftyDayAverage	447.9722
+fiftyDayAverageChange	5.867798
+fiftyDayAverageChangePercent	0.013098576
+fiftyTwoWeekChangePercent	25.223469
 fiftyTwoWeekHigh	748.89
-fiftyTwoWeekHighChange	-324.77002
-fiftyTwoWeekHighChangePercent	-0.43366852
-fiftyTwoWeekLow	355.5
-fiftyTwoWeekLowChange	68.619995
-fiftyTwoWeekLowChangePercent	0.19302389
-fiftyTwoWeekRange	355.5 - 748.89
+fiftyTwoWeekHighChange	-295.05002
+fiftyTwoWeekHighChangePercent	-0.39398313
+fiftyTwoWeekLow	358.28
+fiftyTwoWeekLowChange	95.56
+fiftyTwoWeekLowChangePercent	0.26671878
+fiftyTwoWeekRange	358.28 - 748.89
 financialCurrency	USD
 firstTradeDateMilliseconds	1277472600000
 floatShares	35717684
 forwardEps	21.78772
-forwardPE	19.466011
+forwardPE	20.830082
 freeCashflow	-57873500
 fullExchangeName	NYSE
 fullTimeEmployees	21521
-fulldayChange	14.16
-fulldayChangePercent	3.454
-fulldayPrice	424.22
+fulldayChange	-8.730011
+fulldayChangePercent	-1.8827257
+fulldayPrice	453.84
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1788220800
-graham_intrinsic_value	640.55
+governanceEpochDate	1790812800
+graham_intrinsic_value	636.19
 grossMargins	0.11991
 grossProfits	556510976
 hasPrePostMarketData	True
-heldPercentInsiders	0.00352
-heldPercentInstitutions	1.0434201
+heldPercentInsiders	0.00261
+heldPercentInstitutions	1.04167
 impliedSharesOutstanding	35834864
 industry	Electronic Components
 industryDisp	Electronic Components
@@ -96,8 +97,8 @@ lastFiscalYearEnd	1782432000
 longBusinessSummary	Fabrinet provides optical packaging and precision optical, electro-mechanical, and electronic manufacturing services in North America, the Asia-Pacific, Europe, and internationally. The company offers a range of advanced optical and electro-mechanical capabilities in the manufacturing process, including process design and engineering, supply chain management, manufacturing, printed circuit board assembly, packaging, integration, final assembly, and testing. Its products include switching products, including reconfigurable optical add-drop multiplexers, optical amplifiers, modulators, and other optical components and modules that enable network managers to route voice, video, and data communications traffic through fiber optic cables at various wavelengths, speeds, and over various distances. The company's products also comprise transceivers, tunable lasers, and transponders; and active optical cables, which provide high-speed interconnect capabilities for data centers and computing clusters, as well as Infiniband, Ethernet, fiber channel, and optical backplane connectivity. In addition, it provides solid state, diode-pumped, gas, and fiber lasers used in semiconductor processing, biotechnology and medical device, metrology, and material processing industries; and differential pressure, micro-gyro, fuel, and other sensors used in automobiles, as well as non-contact temperature measurement sensors for the medical industry. Further, the company designs and fabricates application-specific crystals, lenses, prisms, mirrors, laser components, and substrates; and other custom and standard borosilicate, clear fused quartz, and synthetic fused silica glass products. It serves original equipment manufacturers of optical communication components, modules and sub-systems, industrial lasers, automotive components, medical devices, and sensors. The company was incorporated in 1999 and is based in George Town, the Cayman Islands.
 longName	Fabrinet
 market	us_market
-marketCap	15198282752
-marketState	POSTPOST
+marketCap	16263294976
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_3352516
 mostRecentQuarter	1782432000
@@ -105,39 +106,39 @@ netIncomeToCommon	473027008
 nextFiscalYearEnd	1813968000
 nonDilutedMarketCap	14364405234
 numberOfAnalystOpinions	9
-open	418.15
+open	466.0
 operatingCashflow	256724992
 operatingMargins	0.10231
 overallRisk	5
 payoutRatio	0.0
 pegRatio	1.19
 phone	66 2 524 9600
-postMarketChange	0.1000061
-postMarketChangePercent	0.023579672
-postMarketPrice	424.22
-postMarketTime	1790723937
-previousClose	409.96
-priceEpsCurrentYear	23.306845
+postMarketChange	1.1199951
+postMarketChangePercent	0.24678193
+postMarketPrice	454.96
+postMarketTime	1791243854
+previousClose	463.69
+priceEpsCurrentYear	24.94006
 priceHint	2
-priceToBook	6.192618
-priceToSalesTrailing12Months	3.2747176
+priceToBook	6.6265626
+priceToSalesTrailing12Months	3.5041919
 profitMargins	0.10192
 quickRatio	1.35
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.77778
 region	US
-regularMarketChange	14.16
-regularMarketChangePercent	3.454
-regularMarketDayHigh	424.62
-regularMarketDayLow	411.43
-regularMarketDayRange	411.43 - 424.62
-regularMarketOpen	418.15
-regularMarketPreviousClose	409.96
-regularMarketPrice	424.12
-regularMarketTime	1790712003
-regularMarketVolume	748715
+regularMarketChange	-9.85001
+regularMarketChangePercent	-2.12427
+regularMarketDayHigh	468.0
+regularMarketDayLow	450.0533
+regularMarketDayRange	450.0533 - 468.0
+regularMarketOpen	466.0
+regularMarketPreviousClose	463.69
+regularMarketPrice	453.84
+regularMarketTime	1791230402
+regularMarketVolume	674683
 returnOnAssets	0.085880004
 returnOnEquity	0.21326
 revenueGrowth	0.446
@@ -167,14 +168,14 @@ totalRevenue	4641097216
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	13.04
-trailingPE	32.52454
+trailingEps	13.05
+trailingPE	34.77701
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	532.9496
-twoHundredDayAverageChange	-108.82959
-twoHundredDayAverageChangePercent	-0.20420241
+twoHundredDayAverage	531.8386
+twoHundredDayAverageChange	-77.99863
+twoHundredDayAverageChangePercent	-0.14665845
 typeDisp	Equity
-volume	748715
+volume	674683
 website	https://www.fabrinet.com
 zip	KY1-9008

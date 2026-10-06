@@ -17,7 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
-dividendRate	0.9845
+displayName	Vanguard MStar Total Stk Mkt
+dividendRate	1.445
 dividendYield	1.02
 epsTrailingTwelveMonths	7.578356
 esgPopulated	False
@@ -26,34 +27,34 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	182.9624
-fiftyDayAverageChange	-0.31240845
-fiftyDayAverageChangePercent	-0.0017075008
-fiftyTwoWeekChangePercent	14.515519
+fiftyDayAverage	183.2866
+fiftyDayAverageChange	1.9133911
+fiftyDayAverageChangePercent	0.010439339
+fiftyTwoWeekChangePercent	14.123559
 fiftyTwoWeekHigh	187.05
-fiftyTwoWeekHighChange	-4.400009
-fiftyTwoWeekHighChangePercent	-0.02352317
+fiftyTwoWeekHighChange	-1.8500061
+fiftyTwoWeekHighChangePercent	-0.009890436
 fiftyTwoWeekLow	151.72
-fiftyTwoWeekLowChange	30.929993
-fiftyTwoWeekLowChangePercent	0.20386232
+fiftyTwoWeekLowChange	33.479996
+fiftyTwoWeekLowChangePercent	0.22066963
 fiftyTwoWeekRange	151.72 - 187.05
 financialCurrency	USD
 firstTradeDateMilliseconds	974125800000
 fullExchangeName	Nasdaq
-fulldayChange	-0.3
-fulldayChangePercent	-0.16397923
-fulldayPrice	182.65
+fulldayChange	1.21
+fulldayChangePercent	0.6576445
+fulldayPrice	185.2
 fundInceptionDate	990662400
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	59.0
-lastDividendValue	0.9845
+lastDividendValue	1.445
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the CRSP U.S. Total Market Index (the “Target Index”), which represents 100% of the investable U.S. stock market, as determined by the index provider. Under normal circumstances, the fund invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the target index.
 longName	Vanguard MStar Total Stk Mkt Idx Admiral
 market	us_market
 marketCap	1445106810880
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_2011952823
 morningStarOverallRating	3
@@ -61,17 +62,17 @@ morningStarRiskRating	4
 netAssets	2343736710000.0
 netExpenseRatio	0.04
 phone	800-523-1036
-previousClose	182.95
+previousClose	183.98999
 priceHint	2
-priceToBook	1.3092626
+priceToBook	1.3275415
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-0.3
-regularMarketChangePercent	-0.16397923
-regularMarketPreviousClose	182.95
-regularMarketPrice	182.65
-regularMarketTime	1790722418
+regularMarketChange	1.21
+regularMarketChangePercent	0.6576445
+regularMarketPreviousClose	183.98999
+regularMarketPrice	185.2
+regularMarketTime	1791240809
 sharesOutstanding	8468250112
 shortName	Vanguard Total Stock Market Ind
 sourceInterval	15
@@ -79,14 +80,14 @@ symbol	VTSAX
 totalAssets	2343736705024
 tradeable	False
 trailingAnnualDividendRate	2.802
-trailingAnnualDividendYield	0.01531566
-trailingPE	24.101534
+trailingAnnualDividendYield	0.015229089
+trailingPE	24.438019
 trailingPegRatio	None
 trailingThreeMonthReturns	1.80074
 triggerable	False
-twoHundredDayAverage	172.6228
-twoHundredDayAverageChange	10.027191
-twoHundredDayAverageChangePercent	0.058087293
+twoHundredDayAverage	172.9946
+twoHundredDayAverageChange	12.205399
+twoHundredDayAverageChangePercent	0.07055364
 typeDisp	Fund
 yield	0.010199999
 ytdReturn	13.44162

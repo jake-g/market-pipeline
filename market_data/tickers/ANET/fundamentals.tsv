@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.40635514
-SandP52WeekChange	0.14879811
+52WeekChange	0.38695657
+SandP52WeekChange	0.1457566
 address1	5453 Great America Parkway
 allTimeHigh	214.89
 allTimeLow	3.281563
-ask	0.0
-askSize	200
+ask	207.5
+askSize	100
 auditRisk	1
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	5220210
-averageDailyVolume3Month	6725439
-averageVolume	6725439
-averageVolume10days	5220210
-beta	1.617
-bid	0.0
-bidSize	200
+averageDailyVolume10Day	4265290
+averageDailyVolume3Month	6441779
+averageVolume	6441779
+averageVolume10days	4265290
+beta	1.605
+bid	207.82
+bidSize	100
 boardRisk	10
 bookValue	11.733
 city	Santa Clara
@@ -25,15 +25,16 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	202.86
+currentPrice	206.9
 currentRatio	2.957
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	207.1
-dayLow	201.35
+dayHigh	208.9
+dayLow	204.5121
 debtToEquity	0.732
-discount_to_intrinsic_value	-31.1
+discount_to_intrinsic_value	-33.88
 displayName	Arista Networks
+dividendYield	0.0
 earningsCallTimestampEnd	1785875400
 earningsCallTimestampStart	1785875400
 earningsGrowth	0.357
@@ -43,12 +44,12 @@ earningsTimestampEnd	1793736000
 earningsTimestampStart	1793736000
 ebitda	4639600128
 ebitdaMargins	0.44015998
-enterpriseToEbitda	52.269
-enterpriseToRevenue	23.007
-enterpriseValue	242508726272
-epsCurrentYear	4.11217
-epsForward	5.18742
-epsTrailingTwelveMonths	3.15
+enterpriseToEbitda	53.49
+enterpriseToRevenue	23.544
+enterpriseValue	248171626496
+epsCurrentYear	4.1121
+epsForward	5.20199
+epsTrailingTwelveMonths	3.17
 eps_normalized_growth	0.36521405247092287
 esgPopulated	False
 exchange	NYQ
@@ -57,36 +58,36 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
 fax	408 538 8920
-fiftyDayAverage	190.9592
-fiftyDayAverageChange	11.900803
-fiftyDayAverageChangePercent	0.06232118
-fiftyTwoWeekChangePercent	40.635513
+fiftyDayAverage	193.4168
+fiftyDayAverageChange	13.4832
+fiftyDayAverageChangePercent	0.0697106
+fiftyTwoWeekChangePercent	38.695656
 fiftyTwoWeekHigh	214.89
-fiftyTwoWeekHighChange	-12.029999
-fiftyTwoWeekHighChangePercent	-0.055982124
+fiftyTwoWeekHighChange	-7.9900055
+fiftyTwoWeekHighChangePercent	-0.03718184
 fiftyTwoWeekLow	114.52
-fiftyTwoWeekLowChange	88.340004
-fiftyTwoWeekLowChangePercent	0.7713937
+fiftyTwoWeekLowChange	92.38
+fiftyTwoWeekLowChangePercent	0.8066713
 fiftyTwoWeekRange	114.52 - 214.89
 financialCurrency	USD
 firstTradeDateMilliseconds	1402061400000
-floatShares	1049792948
-forwardEps	5.18742
-forwardPE	39.106148
+floatShares	1049856009
+forwardEps	5.20199
+forwardPE	39.77324
 freeCashflow	3891512576
 fullExchangeName	NYSE
 fullTimeEmployees	5115
-fulldayChange	-2.0599976
-fulldayChangePercent	-1.0052692
-fulldayPrice	203.25
+fulldayChange	0.11999512
+fulldayChangePercent	0.057870805
+fulldayPrice	206.9
 gmtOffSetMilliseconds	-14400000
-governanceEpochDate	1788220800
-graham_intrinsic_value	154.73
+governanceEpochDate	1790812800
+graham_intrinsic_value	154.54
 grossMargins	0.63004
 grossProfits	6641099776
 hasPrePostMarketData	True
 heldPercentInsiders	0.17247
-heldPercentInstitutions	0.73341006
+heldPercentInstitutions	0.73326
 impliedSharesOutstanding	1261224648
 industry	Computer Hardware
 industryDisp	Computer Hardware
@@ -99,7 +100,7 @@ lastSplitFactor	4:1
 longBusinessSummary	Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyond standard warranty, bug fixes, patches, and upgrade services. The company serves a range of industries comprising internet companies, cloud service providers, financial services organizations, government agencies, media and entertainment, healthcare, oil and gas, education, manufacturing, industrial, and others. It markets and sells its products through distributors, system integrators, value-added resellers, and original equipment manufacturer partners, as well as through its direct sales force. Arista Networks, Inc. was formerly known as Arastra, Inc. and changed its name to Arista Networks, Inc. in October 2008. The company was incorporated in 2004 and is headquartered in Santa Clara, California.
 longName	Arista Networks, Inc.
 market	us_market
-marketCap	255852036096
+marketCap	260947378176
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_33348547
@@ -107,40 +108,40 @@ mostRecentQuarter	1782777600
 netIncomeToCommon	4044600064
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	256621379128
-numberOfAnalystOpinions	28
-open	207.1
+numberOfAnalystOpinions	29
+open	207.76
 operatingCashflow	5306599936
 operatingMargins	0.45393002
 overallRisk	10
 payoutRatio	0.0
-pegRatio	1.53
+pegRatio	1.55
 phone	408 547 5500
-postMarketChange	0.3899994
-postMarketChangePercent	0.1922505
-postMarketPrice	203.25
-postMarketTime	1790725867
-previousClose	204.92
-priceEpsCurrentYear	49.331615
+postMarketChange	0.5700073
+postMarketChangePercent	0.27549896
+postMarketPrice	207.47
+postMarketTime	1791242087
+previousClose	207.35
+priceEpsCurrentYear	50.314922
 priceHint	2
-priceToBook	17.289696
-priceToSalesTrailing12Months	24.272545
+priceToBook	17.634024
+priceToSalesTrailing12Months	24.755938
 profitMargins	0.38371
 quickRatio	2.289
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	strong_buy
-recommendationMean	1.29032
+recommendationMean	1.28125
 region	US
-regularMarketChange	-2.06
-regularMarketChangePercent	-1.00527
-regularMarketDayHigh	207.1
-regularMarketDayLow	201.35
-regularMarketDayRange	201.35 - 207.1
-regularMarketOpen	207.1
-regularMarketPreviousClose	204.92
-regularMarketPrice	202.86
-regularMarketTime	1790712003
-regularMarketVolume	4534727
+regularMarketChange	-0.450012
+regularMarketChangePercent	-0.21703
+regularMarketDayHigh	208.91
+regularMarketDayLow	204.5121
+regularMarketDayRange	204.5121 - 208.91
+regularMarketOpen	207.76
+regularMarketPreviousClose	207.35
+regularMarketPrice	206.9
+regularMarketTime	1791230403
+regularMarketVolume	3493550
 returnOnAssets	0.14119
 returnOnEquity	0.31476
 revenueGrowth	0.377
@@ -162,8 +163,8 @@ state	CA
 symbol	ANET
 targetHighPrice	289.0
 targetLowPrice	190.0
-targetMeanPrice	241.92892
-targetMedianPrice	246.5
+targetMeanPrice	242.20724
+targetMedianPrice	248.0
 totalCash	13343299584
 totalCashPerShare	10.58
 totalDebt	0
@@ -171,14 +172,14 @@ totalRevenue	10540800000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	3.15
-trailingPE	64.4
+trailingEps	3.17
+trailingPE	65.268135
 trailingPegRatio	1.5225
 triggerable	True
-twoHundredDayAverage	157.4135
-twoHundredDayAverageChange	45.446503
-twoHundredDayAverageChangePercent	0.2887078
+twoHundredDayAverage	158.91795
+twoHundredDayAverageChange	47.98204
+twoHundredDayAverageChangePercent	0.30192965
 typeDisp	Equity
-volume	4534727
+volume	3493550
 website	https://www.arista.com
 zip	95054

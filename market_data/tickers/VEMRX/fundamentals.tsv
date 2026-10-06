@@ -17,6 +17,7 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	NONE
+displayName	Vanguard Emerging Mkts Stock
 dividendRate	0.3947
 dividendYield	2.29
 epsTrailingTwelveMonths	7.9938912
@@ -26,23 +27,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	125.6754
-fiftyDayAverageChange	-0.42539978
-fiftyDayAverageChangePercent	-0.003384909
-fiftyTwoWeekChangePercent	10.724354
+fiftyDayAverage	125.8586
+fiftyDayAverageChange	1.9514008
+fiftyDayAverageChangePercent	0.015504708
+fiftyTwoWeekChangePercent	8.591723
 fiftyTwoWeekHigh	128.75
-fiftyTwoWeekHighChange	-3.5
-fiftyTwoWeekHighChangePercent	-0.027184466
+fiftyTwoWeekHighChange	-0.94000244
+fiftyTwoWeekHighChangePercent	-0.0073009897
 fiftyTwoWeekLow	110.02
-fiftyTwoWeekLowChange	15.230003
-fiftyTwoWeekLowChangePercent	0.13842942
+fiftyTwoWeekLowChange	17.79
+fiftyTwoWeekLowChangePercent	0.16169788
 fiftyTwoWeekRange	110.02 - 128.75
 financialCurrency	USD
 firstTradeDateMilliseconds	1292250600000
 fullExchangeName	Nasdaq
-fulldayChange	-0.4
-fulldayChangePercent	-0.31834462
-fulldayPrice	125.25
+fulldayChange	2.43
+fulldayChangePercent	1.9381082
+fulldayPrice	127.81
 fundInceptionDate	961632000
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	False
@@ -53,24 +54,24 @@ longBusinessSummary	The index measures the investment return of stocks issued by
 longName	Vanguard Emerging Mkts Stock Idx InsPlus
 market	us_market
 marketCap	260826759168
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_20936186
 morningStarOverallRating	3
 morningStarRiskRating	2
 netAssets	168359133000.0
 netExpenseRatio	0.05
-previousClose	125.65
+previousClose	125.38
 priceHint	2
-priceToBook	2.6014621
+priceToBook	2.6546338
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-0.4
-regularMarketChangePercent	-0.31834462
-regularMarketPreviousClose	125.65
-regularMarketPrice	125.25
-regularMarketTime	1790722417
+regularMarketChange	2.43
+regularMarketChangePercent	1.9381082
+regularMarketPreviousClose	125.38
+regularMarketPrice	127.81
+regularMarketTime	1791240809
 sharesOutstanding	2132679936
 shortName	Vanguard Emerging Markets Stock
 sourceInterval	15
@@ -78,14 +79,14 @@ symbol	VEMRX
 totalAssets	168359133184
 tradeable	False
 trailingAnnualDividendRate	1.122
-trailingAnnualDividendYield	0.008929566
-trailingPE	15.668214
+trailingAnnualDividendYield	0.0089487955
+trailingPE	15.988459
 trailingPegRatio	None
 trailingThreeMonthReturns	1.43538
 triggerable	False
-twoHundredDayAverage	121.4256
-twoHundredDayAverageChange	3.8244019
-twoHundredDayAverageChangePercent	0.031495847
+twoHundredDayAverage	121.6513
+twoHundredDayAverageChange	6.158699
+twoHundredDayAverageChangePercent	0.05062584
 typeDisp	Fund
 yield	0.0229
 ytdReturn	12.8618
