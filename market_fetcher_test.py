@@ -442,6 +442,20 @@ class TestMarketFetcherExtraction(unittest.TestCase):
       self.assertIn("discount_to_intrinsic_value", content)
 
   @patch("market_fetcher.yf.Ticker")
+  def test_update_fundamentals_skips_etf_earnings(self, mock_ticker_cls):
+    """Verify ETFs and SKIP_EARNINGS tickers do not call get_earnings_dates."""
+    mock_ticker = mock_ticker_cls.return_value
+    mock_ticker.info = {"quoteType": "ETF", "previousClose": 25.0}
+
+    self.fetcher.update_fundamentals(["DRAM"])
+
+    mock_ticker.get_earnings_dates.assert_not_called()
+    self.assertTrue(
+        (self.test_dir / "tickers" / "DRAM" / "fundamentals.tsv").exists())
+    self.assertFalse(
+        (self.test_dir / "tickers" / "DRAM" / "earnings.tsv").exists())
+
+  @patch("market_fetcher.yf.Ticker")
   def test_update_financials(self, mock_ticker_cls):
     # Setup
     mock_ticker = mock_ticker_cls.return_value

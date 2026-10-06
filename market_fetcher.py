@@ -418,7 +418,7 @@ SKIP_EARNINGS: List[str] = [
     # Core Vanguard/Broad ETFs
     "VTI", "VOO", "SPY", "VTSAX", "VUG", "VTV", "VEA", "VWO", "VIGAX",
     "SCHD", "SCHG", "SCHV", "VGT", "QQQ", "DIA", "IWM", "EFA", "EEM",
-    "URTH", "TLT", "AIPO", "VIG", "VYM", "VIS", "VAW", "VXUS",
+    "URTH", "TLT", "AIPO", "VIG", "VYM", "VIS", "VAW", "VXUS", "SCHB",
 
 
     # Vanguard Mutual Funds (Institutional/Admiral Shares - No Form 4)
@@ -428,6 +428,7 @@ SKIP_EARNINGS: List[str] = [
     "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
     "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH", "CIBR", "PPH",
     "SOXX", "XSD", "MUZ", "SPCX", "OZEM", "SMHX", "EWY", "FXI", "KWEB",
+    "DRAM", "FIW", "LIT", "NASA", "QTUM", "URNM",
 
 
     # Fixed Income & Preferred
@@ -448,10 +449,10 @@ SKIP_INSIDER: List[str] = SKIP_EARNINGS + [
     "AMKBY", # OTC/Foreign often lacks CIK mapping
     "PAVE", "ITA", "SMH", "URA", "XLE", "CIBR", "VIG", "VIS", "VYM", # Sector ETFs
     # Foreign / ADRs (No Form 4)
-    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "PAAS", "SHEL", "TCEHY", "TTE", "TTDKY", "ZIM",
+    "ARM", "BMNR", "BP", "CCJ", "CNI", "CP", "GDS", "JD", "MEOH", "PAAS", "SHEL", "TCEHY", "TTE", "TTDKY", "ZIM",
     # Specific Corporate Exclusions (Missing/404 on SEC Edgar or no CIK mapping)
     # Note: Even with CIK overrides, some of these may fail depending on SEC database availability
-    "ALB", "AMGN", "AWK", "BSX", "CORZ", "CWCO", "DD", "ESLT", "FLNC", "FRO",
+    "ALB", "AMGN", "AWK", "BSX", "CF", "CORZ", "CWCO", "DD", "ESLT", "FLNC", "FRO",
     "LDOS", "LLY", "LMT", "MA", "MATX", "MNDY", "O", "PFE", "PLD", "SMCI", "SO",
     "SQM", "UPS", "V", "VRT", "XYL"
 ]
@@ -1422,13 +1423,9 @@ class MarketFetcher:
     )
 
     for ticker in tqdm(tickers, desc="Financials"):
-      if ticker in config.SECTORS.get(
-          "Macro Indices",
-          []) or ticker in config.NEWS_TOPICS or ticker in SKIP_EARNINGS:
+      if ticker in config.SECTORS.get("Macro Indices",
+                                      []) or ticker in config.NEWS_TOPICS:
         continue
-
-      ticker_path = self.get_ticker_path(ticker)
-      fin_file = ticker_path / FINANCIALS_FILENAME
 
       if ticker in SKIP_EARNINGS:
         for attr in [
@@ -1441,6 +1438,9 @@ class MarketFetcher:
               expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
             self._save_cache(cache_key, pd.DataFrame())
         continue
+
+      ticker_path = self.get_ticker_path(ticker)
+      fin_file = ticker_path / FINANCIALS_FILENAME
 
       combined_frames = []
 
@@ -1946,16 +1946,23 @@ class MarketFetcher:
               earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS)
 
           if fin_data is None:
-            if yf_ticker is None:
-              yf_ticker = yf.Ticker(ticker)
-            try:
-              fin_data = yf_ticker.quarterly_financials
-              if fin_data is None:
-                fin_data = pd.DataFrame()
-              self._save_cache(earn_key, fin_data)
-            except Exception:
+            if ticker in SKIP_EARNINGS or info.get("quoteType") in {
+                "ETF", "MUTUALFUND", "INDEX", "FUTURE", "CRYPTOCURRENCY",
+                "MONEYMARKET"
+            }:
               self._save_cache(earn_key, pd.DataFrame())
               fin_data = pd.DataFrame()
+            else:
+              if yf_ticker is None:
+                yf_ticker = yf.Ticker(ticker)
+              try:
+                fin_data = yf_ticker.quarterly_financials
+                if fin_data is None:
+                  fin_data = pd.DataFrame()
+                self._save_cache(earn_key, fin_data)
+              except Exception:
+                self._save_cache(earn_key, pd.DataFrame())
+                fin_data = pd.DataFrame()
 
           if fin_data is not None and not fin_data.empty:
             # Basic EPS or Diluted EPS
@@ -2025,7 +2032,10 @@ class MarketFetcher:
 
       # 2. Earnings & 3. Financials
       earn_key = f"earn_{ticker}"
-      if ticker in SKIP_EARNINGS:
+      if ticker in SKIP_EARNINGS or (info and info.get("quoteType") in {
+          "ETF", "MUTUALFUND", "INDEX", "FUTURE", "CRYPTOCURRENCY",
+          "MONEYMARKET"
+      }):
         # Prevent skip logic from bypassing cache writes
         if self._load_cache(
             earn_key, expiry_seconds=config.CACHE_EXPIRY_FUNDAMENTALS) is None:
