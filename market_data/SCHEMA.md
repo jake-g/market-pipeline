@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-10-05 |
+| Date | str | 2026-10-06 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | FXI Jul 2027 44.000 call (FXI270716C00044000) i... |
+| Headline | str | FXI Oct 2026 20.000 call (FXI261009C00020000) S... |
 | Summary | str | International ETFs are outperforming the S&amp;... |
-| URL | str | https://news.google.com/rss/articles/CBMibEFVX3... |
+| URL | str | https://news.google.com/rss/articles/CBMiZEFVX3... |
 
 ## 2. Topic Files (Example: `Memory Shortage`)
 ### `news.tsv` - Topic News

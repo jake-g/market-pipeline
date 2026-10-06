@@ -24,8 +24,8 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 - **ST_LOUIS_FIN_STRESS** & **DISPOSABLE_INCOME**: `-0.52`
 - **WTI_CRUDE** & **DISPOSABLE_INCOME**: `-0.51`
 - **FEDFUNDS** & **WTI_CRUDE**: `-0.46`
+- **REAL_GDP** & **ST_LOUIS_FIN_STRESS**: `-0.44`
 - **FEDFUNDS** & **CHICAGO_FED_ACTIVITY**: `-0.43`
-- **REAL_GDP** & **ST_LOUIS_FIN_STRESS**: `-0.43`
 
 
 ![Correlation Matrix](rendered/macro_correlation.png)
@@ -34,15 +34,15 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | Indicator                 |           Latest | 1M Chg   | 1Y Chg   |   5Y Z-Score | Date       |
 |---------------------------|------------------|----------|----------|--------------|------------|
 | FREIGHT_PPI               |    518.62        | +0.00%   | +24.88%  |         2.46 | 2026-12-01 |
-| M2_MONEY                  |  23342.8         | +0.00%   | +4.42%   |         2.41 | 2026-12-01 |
+| M2_MONEY                  |  23342.8         | +0.00%   | +4.42%   |         2.4  | 2026-12-01 |
 | COPPER_PRICE              |  13542.8         | +0.00%   | +14.86%  |         2.24 | 2026-12-01 |
 | ELECTRIC_POWER_INDEX      |    118.75        | +0.00%   | +0.19%   |         1.97 | 2026-12-01 |
 | HOUSEHOLD_NET_WORTH       |      1.9587e+08  | +0.00%   | +7.46%   |         1.91 | 2026-12-01 |
 | RD_INVESTMENT             |    950.52        | +0.00%   | +5.67%   |         1.78 | 2026-12-01 |
 | US10Y                     |      5.28        | +0.00%   | +29.10%  |         1.7  | 2026-12-01 |
-| US30Y                     |      5.63        | +0.00%   | +18.78%  |         1.68 | 2026-12-01 |
-| TRUCK_PPI                 |    207.64        | +0.00%   | +14.67%  |         1.57 | 2026-12-01 |
+| US30Y                     |      5.63        | +0.00%   | +18.78%  |         1.69 | 2026-12-01 |
 | CPI                       |    334.13        | +0.00%   | +2.48%   |         1.57 | 2026-12-01 |
+| TRUCK_PPI                 |    207.64        | +0.00%   | +14.67%  |         1.57 | 2026-12-01 |
 | GDP                       |  32563           | +0.00%   | +3.50%   |         1.55 | 2026-12-01 |
 | KANSAS_CITY_FIN_STRESS    |     -0.95        | +0.00%   | -34.25%  |        -1.44 | 2026-12-01 |
 | REAL_GDP                  |  24408           | +0.00%   | +1.17%   |         1.44 | 2026-12-01 |
@@ -81,7 +81,7 @@ This report monitors 52 core macroeconomic indicators from the Federal Reserve E
 | WHEAT_PRICE               |    228.74        | +0.00%   | +38.11%  |        -0.25 | 2026-12-01 |
 | CHICAGO_FED_ACTIVITY      |     -0.04        | +0.00%   | +33.33%  |         0.13 | 2026-12-01 |
 | USD_INDEX                 |    121.38        | +0.00%   | +0.33%   |         0.12 | 2026-12-01 |
-| EUROPE_POLICY_UNCERTAINTY |    358.52        | +0.00%   | +1.48%   |        -0.08 | 2026-12-01 |
+| EUROPE_POLICY_UNCERTAINTY |    358.52        | +0.00%   | +1.48%   |        -0.09 | 2026-12-01 |
 | FEDFUNDS                  |      3.75        | +0.00%   | +0.81%   |        -0.02 | 2026-12-01 |
 | HY_SPREAD                 |      3.1         | +0.00%   | +5.44%   |        -0.01 | 2026-12-01 |
 | AAA_SPREAD                |      1           | +0.00%   | -14.53%  |         0    | 2026-12-01 |
