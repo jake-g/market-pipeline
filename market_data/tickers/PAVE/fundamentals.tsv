@@ -1,25 +1,25 @@
 Metric	Value
 allTimeHigh	60.43
 allTimeLow	9.77
-ask	54.13
-askSize	400
-averageDailyVolume10Day	1561320
-averageDailyVolume3Month	1696815
-averageVolume	1696815
-averageVolume10days	1561320
-beta3Year	1.28
-bid	54.12
-bidSize	100
+ask	53.7
+askSize	800
+averageDailyVolume10Day	1568410
+averageDailyVolume3Month	1693367
+averageVolume	1693367
+averageVolume10days	1568410
+beta3Year	1.29
+bid	53.33
+bidSize	1500
 category	Infrastructure
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	54.5601
-dayLow	53.34
+dayHigh	54.1
+dayLow	52.92
 displayName	Global X U.S. Infra Dev ETF
-dividendYield	0.79
+dividendYield	0.82
 epsTrailingTwelveMonths	1.944585
 esgPopulated	False
 exchange	BTS
@@ -27,23 +27,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	55.4792
-fiftyDayAverageChange	-1.3691978
-fiftyDayAverageChangePercent	-0.024679482
-fiftyTwoWeekChangePercent	12.320196
+fiftyDayAverage	55.351
+fiftyDayAverageChange	-2.0610008
+fiftyDayAverageChangePercent	-0.037235115
+fiftyTwoWeekChangePercent	13.217318
 fiftyTwoWeekHigh	60.43
-fiftyTwoWeekHighChange	-6.3199997
-fiftyTwoWeekHighChangePercent	-0.10458381
+fiftyTwoWeekHighChange	-7.1399994
+fiftyTwoWeekHighChangePercent	-0.11815322
 fiftyTwoWeekLow	45.44
-fiftyTwoWeekLowChange	8.670002
-fiftyTwoWeekLowChangePercent	0.1908011
+fiftyTwoWeekLowChange	7.8500023
+fiftyTwoWeekLowChangePercent	0.17275533
 fiftyTwoWeekRange	45.44 - 60.43
 firstTradeDateMilliseconds	1488983400000
-fiveYearAverageReturn	0.16677089
+fiveYearAverageReturn	0.16668329
 fullExchangeName	Cboe US
-fulldayChange	0.11999893
-fulldayChangePercent	0.22271517
-fulldayPrice	54.11
+fulldayChange	-1.3600006
+fulldayChangePercent	-2.4885647
+fulldayPrice	53.29
 fundFamily	Global X Funds
 fundInceptionDate	1488758400
 gmtOffSetMilliseconds	-14400000
@@ -53,48 +53,48 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index. The underlying index is designed to measure the performance of U.S. listed companies that provide exposure to domestic infrastructure development, including companies involved in construction and engineering; production of infrastructure raw materials, composites and products; industrial transportation; and producers/distributors of heavy construction equipment.
 longName	Global X U.S. Infrastructure Development ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_415556335
-navPrice	53.87
-netAssets	13504796700.0
+navPrice	54.11
+netAssets	13355843600.0
 netExpenseRatio	0.47
-open	53.83
+open	54.11
 phone	+1 8884938631
 postMarketChange	-0.11000061
 postMarketChangePercent	-0.20329072
 postMarketPrice	54.0
 postMarketTime	1791237393
-previousClose	53.88
+previousClose	54.65
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.23
-regularMarketChangePercent	0.426874
-regularMarketDayHigh	54.5601
-regularMarketDayLow	53.34
-regularMarketDayRange	53.34 - 54.5601
-regularMarketOpen	53.83
-regularMarketPreviousClose	53.88
-regularMarketPrice	54.11
-regularMarketTime	1791230400
-regularMarketVolume	1497637
+regularMarketChange	-1.36
+regularMarketChangePercent	-2.48856
+regularMarketDayHigh	54.1
+regularMarketDayLow	52.92
+regularMarketDayRange	52.92 - 54.1
+regularMarketOpen	54.11
+regularMarketPreviousClose	54.65
+regularMarketPrice	53.29
+regularMarketTime	1791403200
+regularMarketVolume	1718605
 shortName	Global X U.S. Infrastructure De
 sourceInterval	15
 symbol	PAVE
-threeYearAverageReturn	0.22495581
-totalAssets	13504796672
+threeYearAverageReturn	0.2283396
+totalAssets	13355843584
 tradeable	False
-trailingPE	27.825989
+trailingPE	27.404306
 trailingPegRatio	None
-trailingThreeMonthNavReturns	-2.7068
-trailingThreeMonthReturns	-2.7068
+trailingThreeMonthNavReturns	-10.95448
+trailingThreeMonthReturns	-10.95448
 triggerable	True
-twoHundredDayAverage	54.366627
-twoHundredDayAverageChange	-0.25662613
-twoHundredDayAverageChangePercent	-0.004720288
+twoHundredDayAverage	54.427223
+twoHundredDayAverageChange	-1.1372223
+twoHundredDayAverageChangePercent	-0.020894365
 typeDisp	ETF
-volume	1497637
-yield	0.007900001
-ytdReturn	14.68662
+volume	1718605
+yield	0.0082
+ytdReturn	9.94733

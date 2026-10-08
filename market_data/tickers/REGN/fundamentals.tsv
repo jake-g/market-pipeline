@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.2557218
-SandP52WeekChange	0.1457566
+52WeekChange	0.31011248
+SandP52WeekChange	0.157722
 address1	777 Old Saw Mill River Road
 allTimeHigh	1211.2
 allTimeLow	3.0
@@ -8,10 +8,10 @@ ask	856.0
 askSize	1
 auditRisk	8
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	770360
-averageDailyVolume3Month	746598
-averageVolume	746598
-averageVolume10days	770360
+averageDailyVolume10Day	770880
+averageDailyVolume3Month	741548
+averageVolume	741548
+averageVolume10days	770880
 beta	0.153
 bid	729.49
 bidSize	1
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	726.47
+currentPrice	742.12
 currentRatio	3.335
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	736.42
-dayLow	722.02
+dayHigh	753.68
+dayLow	734.18
 debtToEquity	8.535
-discount_to_intrinsic_value	-153.61
+discount_to_intrinsic_value	-158.58
 displayName	Regeneron Pharmaceuticals
 dividendDate	1788134400
 dividendRate	3.76
@@ -46,11 +46,11 @@ earningsTimestampEnd	1793363400
 earningsTimestampStart	1793363400
 ebitda	4702400000
 ebitdaMargins	0.3027
-enterpriseToEbitda	14.312
-enterpriseToRevenue	4.332
-enterpriseValue	67300585472
-epsCurrentYear	54.76607
-epsForward	61.30939
+enterpriseToEbitda	14.562
+enterpriseToRevenue	4.408
+enterpriseValue	68476874752
+epsCurrentYear	55.65958
+epsForward	61.58771
 epsTrailingTwelveMonths	40.44
 eps_normalized_growth	-0.27295118840583343
 esgPopulated	False
@@ -60,36 +60,36 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	784.8642
-fiftyDayAverageChange	-58.394226
-fiftyDayAverageChangePercent	-0.07440042
-fiftyTwoWeekChangePercent	25.572182
+fiftyDayAverage	787.7044
+fiftyDayAverageChange	-45.58441
+fiftyDayAverageChangePercent	-0.057869945
+fiftyTwoWeekChangePercent	31.011248
 fiftyTwoWeekHigh	859.34
-fiftyTwoWeekHighChange	-132.87006
-fiftyTwoWeekHighChangePercent	-0.15461873
+fiftyTwoWeekHighChange	-117.22003
+fiftyTwoWeekHighChangePercent	-0.13640705
 fiftyTwoWeekLow	541.0
-fiftyTwoWeekLowChange	185.46997
-fiftyTwoWeekLowChangePercent	0.34282804
+fiftyTwoWeekLowChange	201.12
+fiftyTwoWeekLowChangePercent	0.371756
 fiftyTwoWeekRange	541.0 - 859.34
 financialCurrency	USD
 firstTradeDateMilliseconds	670602600000
 floatShares	95849804
-forwardEps	61.30939
-forwardPE	11.849245
+forwardEps	61.58771
+forwardPE	12.049807
 freeCashflow	3065299968
 fullExchangeName	NasdaqGS
 fullTimeEmployees	15410
-fulldayChange	-8.7300415
-fulldayChangePercent	-1.1874375
-fulldayPrice	726.47
+fulldayChange	3.4000244
+fulldayChangePercent	0.4602589
+fulldayPrice	742.12
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1790812800
-graham_intrinsic_value	286.45
+graham_intrinsic_value	286.99
 grossMargins	0.44458
 grossProfits	6906399744
 hasPrePostMarketData	True
 heldPercentInsiders	0.02085
-heldPercentInstitutions	0.93544
+heldPercentInstitutions	0.93564004
 impliedSharesOutstanding	102954988
 industry	Biotechnology
 industryDisp	Biotechnology
@@ -103,8 +103,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Regeneron Pharmaceuticals, Inc. discovers, invents, develops, manufactures, and commercializes medicines to treat various diseases worldwide. The company develops product candidates to treat eye, allergic and inflammatory, cardiovascular, metabolic, neurological, infectious, and rare diseases; and cancer, hematologic conditions. It also offers EYLEA injections for wet age-related macular degeneration and diabetic macular edema; myopic choroidal neovascularization; diabetic retinopathy; neovascular glaucoma; retinopathy of prematurity; Dupixent injection to treat atopic dermatitis and asthma; Libtayo injection for metastatic or locally advanced cutaneous squamous cell carcinoma; Praluent injection to treat heterozygous familial hypercholesterolemia (HoFH); and Kevzara solution for rheumatoid arthritis. It has license and collaboration agreement with Bayer for the development and commercialization of EYLEA 8 mg and EYLEA; Alnylam Pharmaceuticals, Inc. to discover, develop, and commercialize RNAi therapeutics for diseases by addressing therapeutic disease targets expressed in the eye and central nervous system; Intellia Therapeutics, Inc. to advance CRISPR/Cas9 gene-editing technology for in vivo therapeutic development for therapies focused on neurological and muscular diseases; Hansoh Pharmaceuticals Group Company Limited to acquire development and commercial rights for HS-20094, a dual GLP-1/GIP receptor; and Tessera Therapeutics, Inc. develops and commercializes TSRA-196, an investigational gene editing therapy for Alpha-1 antitrypsin deficiency. Additionally, the company has a strategic collaboration with Telix Pharmaceuticals Limited to develop and commercialize radiopharmaceutical therapies. It also has a strategic collaboration with CytomX Therapeutics, Inc. to create conditionally-activated bispecific cancer therapies. The company was incorporated in 1988 and is based in Tarrytown, New York.
 longName	Regeneron Pharmaceuticals, Inc.
 market	us_market
-marketCap	74793713664
-marketState	POST
+marketCap	76404957184
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_33715
 mostRecentQuarter	1782777600
@@ -112,39 +112,39 @@ netIncomeToCommon	4328699904
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	82551368477
 numberOfAnalystOpinions	26
-open	734.365
+open	738.05
 operatingCashflow	4681299968
 operatingMargins	0.33106
 overallRisk	10
 payoutRatio	0.09
-pegRatio	1.25
+pegRatio	1.24
 phone	914 847 7000
-postMarketChange	11.530029
-postMarketChangePercent	1.5871309
-postMarketPrice	738.0
-postMarketTime	1791244284
-previousClose	735.2
-priceEpsCurrentYear	13.264964
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	742.12
+postMarketTime	1791404767
+previousClose	738.72
+priceEpsCurrentYear	13.333194
 priceHint	2
-priceToBook	2.2981484
-priceToSalesTrailing12Months	4.8146224
+priceToBook	2.3476565
+priceToSalesTrailing12Months	4.9183416
 profitMargins	0.27865
 quickRatio	2.633
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.85185
 region	US
-regularMarketChange	-8.73004
-regularMarketChangePercent	-1.18744
-regularMarketDayHigh	736.42
-regularMarketDayLow	722.02
-regularMarketDayRange	722.02 - 736.42
-regularMarketOpen	734.365
-regularMarketPreviousClose	735.2
-regularMarketPrice	726.47
-regularMarketTime	1791230400
-regularMarketVolume	694688
+regularMarketChange	3.40002
+regularMarketChangePercent	0.460259
+regularMarketDayHigh	753.68
+regularMarketDayLow	734.18
+regularMarketDayRange	734.18 - 753.68
+regularMarketOpen	738.05
+regularMarketPreviousClose	738.72
+regularMarketPrice	742.12
+regularMarketTime	1791403200
+regularMarketVolume	626381
 returnOnAssets	0.06526
 returnOnEquity	0.14043
 revenueGrowth	0.167
@@ -166,7 +166,7 @@ state	NY
 symbol	REGN
 targetHighPrice	1030.0
 targetLowPrice	730.0
-targetMeanPrice	853.1923
+targetMeanPrice	855.11536
 targetMedianPrice	857.0
 totalCash	7994599936
 totalCashPerShare	80.062
@@ -174,15 +174,15 @@ totalDebt	2706599936
 totalRevenue	15534699520
 tradeable	False
 trailingAnnualDividendRate	3.64
-trailingAnnualDividendYield	0.0049510337
+trailingAnnualDividendYield	0.0049274424
 trailingEps	40.44
-trailingPE	17.964144
+trailingPE	18.351137
 trailingPegRatio	1.3196
 triggerable	True
-twoHundredDayAverage	736.0438
-twoHundredDayAverageChange	-9.573853
-twoHundredDayAverageChangePercent	-0.013007177
+twoHundredDayAverage	735.889
+twoHundredDayAverageChange	6.231018
+twoHundredDayAverageChangePercent	0.008467334
 typeDisp	Equity
-volume	694688
+volume	626381
 website	https://www.regeneron.com
 zip	10591-6707

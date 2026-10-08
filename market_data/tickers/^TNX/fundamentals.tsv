@@ -1,5 +1,5 @@
 Metric	Value
-52WeekChange	26.789999
+52WeekChange	27.609587
 allTimeHigh	15.84
 allTimeLow	0.398
 ask	0.0
@@ -14,30 +14,30 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	5.349
-dayLow	5.264
+dayHigh	5.364
+dayLow	5.269
 displayName	CBOE Interest Rate 10 Year T
 esgPopulated	False
 exchange	CGI
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CDT
-fiftyDayAverage	4.83182
-fiftyDayAverageChange	0.47917986
-fiftyDayAverageChangePercent	0.09917171
-fiftyTwoWeekChangePercent	26.789999
-fiftyTwoWeekHigh	5.349
-fiftyTwoWeekHighChange	-0.038000107
-fiftyTwoWeekHighChangePercent	-0.0071041514
+fiftyDayAverage	4.85702
+fiftyDayAverageChange	0.41998005
+fiftyDayAverageChangePercent	0.08646867
+fiftyTwoWeekChangePercent	27.609587
+fiftyTwoWeekHigh	5.364
+fiftyTwoWeekHighChange	-0.08699989
+fiftyTwoWeekHighChangePercent	-0.01621922
 fiftyTwoWeekLow	3.947
-fiftyTwoWeekLowChange	1.3639998
-fiftyTwoWeekLowChangePercent	0.34557888
-fiftyTwoWeekRange	3.947 - 5.349
+fiftyTwoWeekLowChange	1.3299999
+fiftyTwoWeekLowChangePercent	0.33696476
+fiftyTwoWeekRange	3.947 - 5.364
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
-fulldayChange	0.03399992
-fulldayChangePercent	0.644304
-fulldayPrice	5.311
+fulldayChange	0.007999897
+fulldayChangePercent	0.15182951
+fulldayPrice	5.277
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	False
 language	en-US
@@ -46,20 +46,20 @@ market	usir_market
 marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	5.273
-previousClose	5.277
+open	5.341
+previousClose	5.269
 priceHint	2
 quoteType	INDEX
 region	US
-regularMarketChange	0.03399992
-regularMarketChangePercent	0.644304
-regularMarketDayHigh	5.349
-regularMarketDayLow	5.264
-regularMarketDayRange	5.264 - 5.349
-regularMarketOpen	5.273
-regularMarketPreviousClose	5.277
-regularMarketPrice	5.311
-regularMarketTime	1791226791
+regularMarketChange	0.007999897
+regularMarketChangePercent	0.15182951
+regularMarketDayHigh	5.364
+regularMarketDayLow	5.269
+regularMarketDayRange	5.269 - 5.364
+regularMarketOpen	5.341
+regularMarketPreviousClose	5.269
+regularMarketPrice	5.277
+regularMarketTime	1791399594
 regularMarketVolume	0
 shortName	10-Year Bond
 sourceInterval	15
@@ -67,8 +67,8 @@ symbol	^TNX
 tradeable	False
 trailingPegRatio	None
 triggerable	False
-twoHundredDayAverage	4.45035
-twoHundredDayAverageChange	0.86065006
-twoHundredDayAverageChangePercent	0.19338931
+twoHundredDayAverage	4.46175
+twoHundredDayAverageChange	0.8152499
+twoHundredDayAverageChangePercent	0.18271977
 typeDisp	Index
 volume	0

@@ -3,10 +3,10 @@ allTimeHigh	71.82
 allTimeLow	22.02
 ask	36.73
 askSize	30
-averageDailyVolume10Day	42159750
-averageDailyVolume3Month	46219823
-averageVolume	46219823
-averageVolume10days	42159750
+averageDailyVolume10Day	36654970
+averageDailyVolume3Month	45931873
+averageVolume	45931873
+averageVolume10days	36654970
 beta3Year	0.0
 bid	36.71
 bidSize	31
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	49.12
-dayLow	48.1001
+dayHigh	47.3485
+dayLow	46.8
 displayName	iShares Bitcoin Trust
 dividendYield	0.0
 esgPopulated	False
@@ -26,22 +26,22 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	41.965
-fiftyDayAverageChange	6.595001
-fiftyDayAverageChangePercent	0.1571548
-fiftyTwoWeekChangePercent	-33.04811
-fiftyTwoWeekHigh	71.82
-fiftyTwoWeekHighChange	-23.259998
-fiftyTwoWeekHighChangePercent	-0.3238652
+fiftyDayAverage	42.4436
+fiftyDayAverageChange	4.7663994
+fiftyDayAverageChangePercent	0.112299606
+fiftyTwoWeekChangePercent	-30.787897
+fiftyTwoWeekHigh	70.59
+fiftyTwoWeekHighChange	-23.379997
+fiftyTwoWeekHighChangePercent	-0.33120838
 fiftyTwoWeekLow	32.84
-fiftyTwoWeekLowChange	15.720001
-fiftyTwoWeekLowChangePercent	0.47868457
-fiftyTwoWeekRange	32.84 - 71.82
+fiftyTwoWeekLowChange	14.369999
+fiftyTwoWeekLowChangePercent	0.4375761
+fiftyTwoWeekRange	32.84 - 70.59
 firstTradeDateMilliseconds	1704983400000
 fullExchangeName	NasdaqGM
-fulldayChange	0.8500023
-fulldayChangePercent	1.7808554
-fulldayPrice	48.56
+fulldayChange	-1.3700027
+fulldayChangePercent	-2.8253303
+fulldayPrice	47.21
 fundFamily	iShares
 fundInceptionDate	1704412800
 gmtOffSetMilliseconds	-14400000
@@ -52,47 +52,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The shares are intended to constitute a simple means of making an investment similar to an investment in bitcoin rather than by acquiring, holding and trading bitcoin directly on a peer-to-peer or other basis or via a digital asset exchange. The fund is non-diversified.
 longName	iShares Bitcoin Trust ETF
 market	us_market
-marketState	POST
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_1843774300
-navPrice	47.63716
-netAssets	61435101000.0
+navPrice	48.50915
+netAssets	67060466000.0
 netExpenseRatio	0.25
-open	48.732
-postMarketChange	-0.022201538
-postMarketChangePercent	-0.045719806
-postMarketPrice	48.5378
-postMarketTime	1791244078
-previousClose	47.73
+open	47.132
+postMarketChange	-0.09000015
+postMarketChangePercent	-0.1906379
+postMarketPrice	47.12
+postMarketTime	1791417593
+previousClose	48.49
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.83000183
-regularMarketChangePercent	1.7389522
-regularMarketDayHigh	49.12
-regularMarketDayLow	48.1001
-regularMarketDayRange	48.1001 - 49.12
-regularMarketOpen	48.732
-regularMarketPreviousClose	47.73
-regularMarketPrice	48.56
-regularMarketTime	1791230401
-regularMarketVolume	35357849
+regularMarketChange	-1.28
+regularMarketChangePercent	-2.63972
+regularMarketDayHigh	47.3485
+regularMarketDayLow	46.8
+regularMarketDayRange	46.8 - 47.3485
+regularMarketOpen	47.132
+regularMarketPreviousClose	48.49
+regularMarketPrice	47.21
+regularMarketTime	1791403201
+regularMarketVolume	46059179
 shortName	iShares Bitcoin Trust ETF
 sourceInterval	15
 symbol	IBIT
-totalAssets	61435101184
+totalAssets	67060465664
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingPegRatio	None
-trailingThreeMonthNavReturns	7.64048
-trailingThreeMonthReturns	7.64048
+trailingThreeMonthNavReturns	42.77516
+trailingThreeMonthReturns	42.77516
 triggerable	True
-twoHundredDayAverage	41.918724
-twoHundredDayAverageChange	6.6412773
-twoHundredDayAverageChangePercent	0.15843225
+twoHundredDayAverage	41.911877
+twoHundredDayAverageChange	5.2981224
+twoHundredDayAverageChangePercent	0.126411
 typeDisp	ETF
-volume	35357849
+volume	46059179
 yield	0.0
-ytdReturn	-9.61558
+ytdReturn	-4.30143

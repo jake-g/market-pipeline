@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.06082046
-SandP52WeekChange	0.1457566
+52WeekChange	-0.055005014
+SandP52WeekChange	0.157722
 address1	800 Capitol Street
 address2	Suite 3000
 allTimeHigh	248.13
 allTimeLow	1.375
-ask	207.2
-askSize	100
+ask	209.89
+askSize	200
 auditRisk	1
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	2141640
-averageDailyVolume3Month	2032471
-averageVolume	2032471
-averageVolume10days	2141640
+averageDailyVolume10Day	2229480
+averageDailyVolume3Month	2050993
+averageVolume	2050993
+averageVolume10days	2229480
 beta	0.43
-bid	204.0
+bid	209.76
 bidSize	200
 boardRisk	1
 bookValue	24.815
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	206.66
+currentPrice	208.94
 currentRatio	0.907
 customPriceAlertConfidence	HIGH
 dateShortInterest	1789430400
-dayHigh	207.135
-dayLow	202.54
+dayHigh	211.08
+dayLow	208.625
 debtToEquity	235.301
-discount_to_intrinsic_value	8.25
+discount_to_intrinsic_value	7.41
 displayName	Waste Management
 dividendDate	1790294400
 dividendRate	3.78
-dividendYield	1.85
+dividendYield	1.82
 earningsCallTimestampEnd	1793217600
 earningsCallTimestampStart	1793217600
 earningsGrowth	0.083
@@ -47,11 +47,11 @@ earningsTimestampEnd	1793131200
 earningsTimestampStart	1793131200
 ebitda	7774000128
 ebitdaMargins	0.30288
-enterpriseToEbitda	13.559
-enterpriseToRevenue	4.107
-enterpriseValue	105405136896
+enterpriseToEbitda	13.621
+enterpriseToRevenue	4.126
+enterpriseValue	105892790272
 epsCurrentYear	8.14421
-epsForward	9.10852
+epsForward	9.1096
 epsTrailingTwelveMonths	7.06
 eps_normalized_growth	0.14892468839470752
 esgPopulated	False
@@ -61,37 +61,37 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	219.8302
-fiftyDayAverageChange	-13.170197
-fiftyDayAverageChangePercent	-0.05991077
-fiftyTwoWeekChangePercent	-6.082046
+fiftyDayAverage	218.588
+fiftyDayAverageChange	-9.647995
+fiftyDayAverageChangePercent	-0.04413781
+fiftyTwoWeekChangePercent	-5.5005016
 fiftyTwoWeekHigh	248.13
-fiftyTwoWeekHighChange	-41.47
-fiftyTwoWeekHighChangePercent	-0.16713014
+fiftyTwoWeekHighChange	-39.190002
+fiftyTwoWeekHighChangePercent	-0.1579414
 fiftyTwoWeekLow	194.11
-fiftyTwoWeekLowChange	12.550003
-fiftyTwoWeekLowChangePercent	0.064654075
+fiftyTwoWeekLowChange	14.830002
+fiftyTwoWeekLowChangePercent	0.07639999
 fiftyTwoWeekRange	194.11 - 248.13
 financialCurrency	USD
 firstTradeDateMilliseconds	582989400000
 fiveYearAvgDividendYield	1.49
 floatShares	398528030
-forwardEps	9.10852
-forwardPE	22.688648
+forwardEps	9.1096
+forwardPE	22.936243
 freeCashflow	2348375040
 fullExchangeName	NYSE
 fullTimeEmployees	60500
-fulldayChange	2.550003
-fulldayChangePercent	1.2472502
-fulldayPrice	206.66
+fulldayChange	1.4763947
+fulldayChangePercent	0.71021485
+fulldayPrice	208.94
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1790812800
-graham_intrinsic_value	225.24
+graham_intrinsic_value	225.67
 grossMargins	0.40601003
 grossProfits	10421000192
 hasPrePostMarketData	True
-heldPercentInsiders	0.0025499999
-heldPercentInstitutions	0.85791
+heldPercentInsiders	0.00253
+heldPercentInstitutions	0.85772
 impliedSharesOutstanding	399715184
 industry	Waste Management
 industryDisp	Waste Management
@@ -105,8 +105,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Waste Management, Inc., through its subsidiaries, provides environmental solutions to residential, commercial, industrial, and municipal customers in the United States, Canada, Western Europe, and internationally. It offers collection services, including picking up and transporting waste and recyclable materials from where it was generated to a transfer station, recovery facility, or disposal site; owns and operates transfer stations; and owns, develops, and operates landfill gas-to-energy facilities that produce renewable electricity and renewable natural gas. It also operates materials processing and commodities recycling services, including cardboard, paper, glass, metals, plastics, construction and demolition materials, and other recycling commodities are recovered for resale or redirected for other purposes; markets and resells recycling commodities; recycling brokerage services, such as managing the marketing of recyclable materials for third parties; and other strategic business solutions. In addition, the company collects recyclable food and yard waste, as well as markets and sells mulch, compost, soil amendments, and renewable energy; offers remediation and construction, and industrial waste services; and manages and markets fly ash. Further, it provides Regulated Waste and Compliance Services (RWCS), which offers compliance programs, as well as collection, processing, and disposal of regulated and specialized waste, including medical, pharmaceutical, and hazardous waste; and Secure Information Destruction (SID) services that include the collection of personal and confidential information for secure destruction and recycling of sorted office paper. The company was formerly known as USA Waste Services, Inc. and changed its name to Waste Management, Inc. in 1998. Waste Management, Inc. was founded in 1968 and is based in Houston, Texas.
 longName	Waste Management, Inc.
 market	us_market
-marketCap	82605146112
-marketState	POST
+marketCap	83516497920
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_190694
 mostRecentQuarter	1782777600
@@ -114,22 +114,22 @@ netIncomeToCommon	2852999936
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	83092792449
 numberOfAnalystOpinions	25
-open	204.51
+open	209.0
 operatingCashflow	6517000192
 operatingMargins	0.18986
 overallRisk	1
 payoutRatio	0.5014
-pegRatio	1.87
+pegRatio	1.89
 phone	713 512 6200
-postMarketChange	0.33999634
-postMarketChangePercent	0.16451967
-postMarketPrice	207.0
-postMarketTime	1791242113
-previousClose	204.45
-priceEpsCurrentYear	25.375084
+postMarketChange	0.4163971
+postMarketChangePercent	0.19929028
+postMarketPrice	209.3564
+postMarketTime	1791410663
+previousClose	207.88
+priceEpsCurrentYear	25.655037
 priceHint	2
-priceToBook	8.328028
-priceToSalesTrailing12Months	3.2183404
+priceToBook	8.419908
+priceToSalesTrailing12Months	3.2538471
 profitMargins	0.11115
 quickRatio	0.801
 quoteSourceName	Nasdaq Real Time Price
@@ -137,16 +137,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.75
 region	US
-regularMarketChange	2.21001
-regularMarketChangePercent	1.08095
-regularMarketDayHigh	207.135
-regularMarketDayLow	202.54
-regularMarketDayRange	202.54 - 207.135
-regularMarketOpen	204.51
-regularMarketPreviousClose	204.45
-regularMarketPrice	206.66
-regularMarketTime	1791230403
-regularMarketVolume	2558975
+regularMarketChange	1.06
+regularMarketChangePercent	0.509908
+regularMarketDayHigh	211.08
+regularMarketDayLow	208.625
+regularMarketDayRange	208.625 - 211.08
+regularMarketOpen	209.0
+regularMarketPreviousClose	207.88
+regularMarketPrice	208.94
+regularMarketTime	1791403202
+regularMarketVolume	2257928
 returnOnAssets	0.06566
 returnOnEquity	0.29841
 revenueGrowth	0.04
@@ -176,15 +176,15 @@ totalDebt	23356000256
 totalRevenue	25667000320
 tradeable	False
 trailingAnnualDividendRate	3.54
-trailingAnnualDividendYield	0.017314747
+trailingAnnualDividendYield	0.017029054
 trailingEps	7.06
-trailingPE	29.271955
+trailingPE	29.594902
 trailingPegRatio	1.9016
 triggerable	True
-twoHundredDayAverage	224.83905
-twoHundredDayAverageChange	-18.179047
-twoHundredDayAverageChangePercent	-0.0808536
+twoHundredDayAverage	224.7184
+twoHundredDayAverageChange	-15.778397
+twoHundredDayAverageChangePercent	-0.070214085
 typeDisp	Equity
-volume	2558975
+volume	2257928
 website	https://www.wm.com
 zip	77002
