@@ -5,6 +5,27 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.11.2] - 2026-10-12
+### Performance, Real Maritime Transit (IMF PortWatch) & Pipeline Hardening
+- **Parallel price fetching** (`market_fetcher.py`):
+  - `update_prices` refactored with `concurrent.futures.ThreadPoolExecutor(max_workers=8)` across tickers. Start-date detection and file I/O remain isolated per ticker, dramatically reducing serial Yahoo Finance price pull latency.
+- **Pipeline split** (`Makefile`):
+  - Added `make fetch-data` for fast core pipeline execution (market data, shipping, macro reports, portfolio, dashboard build in ~3 minutes without uploading to NotebookLM or burning Studio quota).
+  - Added `make sync-notebooklm` for isolated NotebookLM feed, periodic report synthesis, and PDF uploads.
+  - Added `make sync` alias for `make fetch`.
+- **IMF PortWatch real maritime transit data** (`shipping_fetcher.py`):
+  - Replaced synthetic AIS mock data (which previously generated static 80/1.0 rows) with real daily transit calls from IMF PortWatch open ArcGIS feature service (`Daily_Chokepoints_Data`).
+  - Tracks live transit volume and congestion indices for the Strait of Hormuz, Malacca Strait, Suez Canal, Bab el-Mandeb, Panama Canal, and Taiwan Strait.
+  - Updated `SHIPPING_REPORT.md` overview, citations, and status table to reflect authentic transit volume.
+- **Stale FRED commodity series cleanup** (`reports/generate_macro_reports.py`):
+  - Excluded lagged IMF/BBD commodity and global uncertainty series (`CORN_PRICE`, `WHEAT_PRICE`, `SUGAR_PRICE`, `NAT_GAS_PRICE`, `COPPER_PRICE`, `GLOBAL_POLICY_UNCERTAINTY`) from the active high-frequency regime dashboard and panel plots.
+  - Regime dashboard panel 4 updated to focus on live daily energy and FX series (`WTI_CRUDE`, `USD_INDEX`, `USD_CNY`, `USD_EUR`), eliminating false 100+ day staleness warnings (`⏳`).
+- **Data-integrity & report bug fixes**:
+  - **Bug #9**: In `market_fetcher.update_daily_sentiment`, prioritized `daily_stats.combine_first(existing)` so intra-day news updates refresh today's sentiment and volume instead of leaving them frozen. Test: `test_update_news_sentiment_overwrites_existing_date`.
+  - **Bug #10**: In `market_fetcher.generate_data_stats`, dynamically detected the macro date column (`DATE` vs `observation_date`), excluded it from indicator listings, and resolved `?` date ranges. Test: `test_generate_data_stats_macro_date_range_not_question_marks`.
+  - **Bug #11**: In `reports/report_utils.build_ticker_context_markdown`, replaced literal `\n` escapes with real newlines, read `Discount_to_Intrinsic_Value_Pct`, and formatted percentages. Test: `test_context_markdown_contains_real_newlines_and_discount`.
+  - **Bug #12**: In `reports/generate_portfolio_report.py` and `reports/report_utils.py`, invoked `render_markdown_to_pdf` directly in Python rather than spawning a no-op subshell; added `--render` CLI entrypoint in `report_utils.py`. Test: `test_cli_renders_pdf`.
+
 ## [v1.11.1] - 2026-10-12
 ### NotebookLM Synthesis & Sync Overhaul (stub reports, 5-minute asks, prune order)
 - **Root causes found**: (1) `chat.ask()` on a "write a report" prompt now triggers NotebookLM's agentic Studio-report generation — it either answers with a one-line *"published to your Studio panel"* confirmation or streams >256 MB and aborts; **21 saved reports since May were such stubs** (all of October). (2) `delete_conversation()` does not reset the notebook's *current* conversation, so every ask replayed a 200+-turn thread (~5 min each). (3) Source pruning sorted by `str(created_at)` (usually `None`) and **deleted the newest feeds first** — seen live pruning `2026-10-09 Daily Market Feed` seconds before asking for the weekly synthesis.

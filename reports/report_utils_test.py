@@ -4,6 +4,8 @@ import datetime
 import logging
 import os
 import shutil
+import subprocess
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -11,11 +13,13 @@ from unittest.mock import patch
 import numpy as np
 import pandas as pd
 
+from reports.report_utils import build_ticker_context_markdown
 from reports.report_utils import compute_sector_summary
 from reports.report_utils import format_macro_summary_md
 from reports.report_utils import generate_sector_risk_return_plot
 from reports.report_utils import get_news_sentiment_summary
 from reports.report_utils import load_macro_snapshot
+from reports.report_utils import render_markdown_to_pdf
 
 
 class TestComputeSectorSummary(unittest.TestCase):
@@ -261,6 +265,74 @@ class TestGenerateSectorRiskReturnPlot(unittest.TestCase):
     # Should not raise an exception
     generate_sector_risk_return_plot(df, out_path)
     mock_warn.assert_called()
+
+
+class TestBuildTickerContextMarkdown(unittest.TestCase):
+  """Tests for build_ticker_context_markdown()."""
+
+  def setUp(self):
+    self.test_dir = tempfile.mkdtemp()
+    self.tickers_dir = os.path.join(self.test_dir, "tickers")
+    os.makedirs(self.tickers_dir, exist_ok=True)
+
+  def tearDown(self):
+    shutil.rmtree(self.test_dir)
+
+  def test_empty_tickers_returns_empty_string(self):
+    self.assertEqual(build_ticker_context_markdown([], self.test_dir), "")
+
+  def test_context_markdown_contains_real_newlines_and_discount(self):
+    t_dir = os.path.join(self.tickers_dir, "NVDA")
+    os.makedirs(t_dir, exist_ok=True)
+    # Write fundamentals with graham discount
+    fund_path = os.path.join(t_dir, "fundamentals.tsv")
+    with open(fund_path, "w") as f:
+      f.write("Metric\tValue\n")
+      f.write("graham_intrinsic_value\t150.0\n")
+      f.write("discount_to_intrinsic_value\t25.5\n")
+
+    # Write recent news
+    news_path = os.path.join(t_dir, "news.tsv")
+    with open(news_path, "w") as f:
+      f.write("Date\tHeadline\n")
+      f.write("2026-10-12\tNvidia announces new architecture\n")
+
+    result = build_ticker_context_markdown(["NVDA"], self.test_dir)
+    # Must NOT contain literal backslash-n
+    self.assertNotIn("\\n", result)
+    # Must contain real newlines and expected text
+    self.assertIn("### Detailed Portfolio Context", result)
+    self.assertIn("- **NVDA**: Intrinsic Discount: 25.5%", result)
+    self.assertIn("Nvidia announces new architecture", result)
+
+
+class TestRenderMarkdownCli(unittest.TestCase):
+  """Tests for report_utils --render CLI."""
+
+  def setUp(self):
+    self.test_dir = tempfile.mkdtemp()
+
+  def tearDown(self):
+    shutil.rmtree(self.test_dir)
+
+  def test_cli_renders_pdf(self):
+    md_file = os.path.join(self.test_dir, "test.md")
+    pdf_file = os.path.join(self.test_dir, "test.pdf")
+    with open(md_file, "w") as f:
+      f.write("# Sample Header\n\nSample content for PDF test.\n")
+
+    repo_root = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), ".."))
+    script_path = os.path.join(repo_root, "reports", "report_utils.py")
+    proc = subprocess.run([
+        sys.executable, script_path, "--render", md_file, "--output", pdf_file
+    ],
+                          capture_output=True,
+                          text=True,
+                          check=False)
+    self.assertEqual(proc.returncode, 0, f"CLI failed: {proc.stderr}")
+    self.assertTrue(os.path.exists(pdf_file))
+    self.assertGreater(os.path.getsize(pdf_file), 0)
 
 
 if __name__ == "__main__":

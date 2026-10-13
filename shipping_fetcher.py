@@ -5,7 +5,7 @@ import logging
 import os
 from pathlib import Path
 import time
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import joblib
 import pandas as pd
@@ -14,6 +14,16 @@ from tqdm import tqdm
 import websockets
 
 import config
+
+# IMF PortWatch mapping: API portname -> (Chokepoint_Name, Baseline transits/day)
+PORTWATCH_CHOKEPOINTS: Dict[str, Tuple[str, float]] = {
+    "Strait of Hormuz": ("Hormuz", 60.0),
+    "Taiwan Strait": ("Taiwan_Strait", 220.0),
+    "Panama Canal": ("Panama_Canal", 36.0),
+    "Malacca Strait": ("Malacca", 220.0),
+    "Suez Canal": ("Suez_Canal", 70.0),
+    "Bab el-Mandeb Strait": ("Bab_el_Mandeb", 70.0),
+}
 
 
 class ShippingFetcher:
@@ -423,14 +433,24 @@ class ShippingFetcher:
 
     # Read existing metrics to carry forward last known valid data if live AIS stream is silent
     last_known_metrics = {}
+    try:
+      pw_df = self.fetch_portwatch_metrics(days=7)
+      if pw_df is not None and not pw_df.empty:
+        latest_date = pw_df["Date"].max()
+        for _, r in pw_df[pw_df["Date"] == latest_date].iterrows():
+          last_known_metrics[r["Chokepoint_Name"]] = r
+    except Exception:
+      pass
+
     if self.shipping_out_file.exists():
       try:
         ex_df = pd.read_csv(self.shipping_out_file, sep='\t')
         valid_ex = ex_df[ex_df['Vessel_Count'] > 0]
         for p_name in chokepoints:
-          p_rows = valid_ex[valid_ex['Chokepoint_Name'] == p_name]
-          if not p_rows.empty:
-            last_known_metrics[p_name] = p_rows.iloc[0]
+          if p_name not in last_known_metrics:
+            p_rows = valid_ex[valid_ex['Chokepoint_Name'] == p_name]
+            if not p_rows.empty:
+              last_known_metrics[p_name] = p_rows.iloc[0]
       except Exception:
         pass
 
@@ -461,9 +481,75 @@ class ShippingFetcher:
 
     return pd.DataFrame(rows)
 
+  def fetch_portwatch_metrics(
+      self, days: int = 90) -> Optional[pd.DataFrame]:
+    """Fetches real daily maritime chokepoint transit counts from IMF PortWatch."""
+    today = datetime.date.today()
+    start_date = (today - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+    cache_key = f"portwatch_daily_{today.strftime('%Y%m%d')}"
+    cached = self._load_cache(cache_key, expiry_seconds=3600 * 6)
+    if cached is not None and isinstance(cached,
+                                         pd.DataFrame) and not cached.empty:
+      return cached
+
+    url = (
+        "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/"
+        "Daily_Chokepoints_Data/FeatureServer/0/query")
+    where = f"date >= '{start_date}'"
+    params: Dict[str, str] = {
+        "where": where,
+        "outFields": "date,portname,portid,n_total,capacity",
+        "orderByFields": "date DESC",
+        "resultRecordCount": "1000",
+        "f": "json",
+    }
+    try:
+      resp = requests.get(url,
+                          params=params,
+                          timeout=10,
+                          headers={"User-Agent": "Mozilla/5.0"})
+      if resp.status_code == 200:
+        data = resp.json()
+        features = data.get("features", [])
+        if features:
+          rows = [f["attributes"] for f in features if "attributes" in f]
+          df = pd.DataFrame(rows)
+          if not df.empty and "portname" in df.columns:
+            df = df[df["portname"].isin(PORTWATCH_CHOKEPOINTS)].copy()
+            df["Chokepoint_Name"] = df["portname"].apply(
+                lambda p: PORTWATCH_CHOKEPOINTS[p][0])
+            df["Baseline"] = df["portname"].apply(
+                lambda p: PORTWATCH_CHOKEPOINTS[p][1])
+            df["Date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
+            df["Vessel_Count"] = df["n_total"].fillna(0).astype(int)
+            df["Congestion_Index"] = (
+                df["Vessel_Count"] / df["Baseline"]).round(2)
+            out_df = df[[
+                "Date", "Chokepoint_Name", "Vessel_Count", "Congestion_Index"
+            ]].sort_values(
+                ["Date", "Chokepoint_Name"], ascending=[False, True])
+            self._save_cache(cache_key, out_df)
+            self.logger.info(
+                "Fetched %d real chokepoint transit records from IMF PortWatch.",
+                len(out_df))
+            return out_df
+    except Exception as e:
+      self.logger.warning("IMF PortWatch query failed, using fallback: %s", e)
+    return None
+
   def generate_daily_shipping_report(self) -> None:
     '''Aggregates metrics and outputs the TSV for NotebookLM.'''
-    df = self.gather_daily_metrics()
+    pw_df = self.fetch_portwatch_metrics(days=90)
+    if pw_df is not None and not pw_df.empty:
+      df = pw_df.copy()
+      today_str = datetime.date.today().strftime("%Y-%m-%d")
+      latest_pw_date = df["Date"].max()
+      if latest_pw_date < today_str:
+        today_rows = df[df["Date"] == latest_pw_date].copy()
+        today_rows["Date"] = today_str
+        df = pd.concat([today_rows, df], ignore_index=True)
+    else:
+      df = self.gather_daily_metrics()
 
     if df.empty:
       self.logger.warning(

@@ -1,7 +1,7 @@
 # Makefile for market-pipeline
 # Handles setup, testing, formatting, serving, and other utility tasks.
 
-.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch market-fetch shipping-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth backup-reports clean
+.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch fetch-data sync-notebooklm sync market-fetch shipping-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth backup-reports clean
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
 export PYTHONSAFEPATH := 1
@@ -20,6 +20,9 @@ help:
 	@echo "  make test               - Run all tests and generate static dashboard index"
 	@echo "  make test-auth          - Verify Yahoo Finance and NotebookLM authentication status"
 	@echo "  make fetch              - Run full daily market data pipeline & commit updates"
+	@echo "  make sync               - Alias for make fetch"
+	@echo "  make fetch-data         - Run fast data pipeline only (no NotebookLM upload, ~3m)"
+	@echo "  make sync-notebooklm    - Run NotebookLM pipeline (news feed, periodic reports, PDFs)"
 	@echo "  make market-fetch       - Run market fetcher stage (Prices, Financials, News)"
 	@echo "  make shipping-fetch     - Run shipping & maritime chokepoint fetcher stage"
 	@echo "  make reports-macro      - Generate macro economic indicator & shipping reports"
@@ -132,15 +135,8 @@ fetch:
 	$(MAKE) setup && \
 	$(MAKE) test-auth && \
 	$(MAKE) test-unit && \
-	$(MAKE) market-fetch && \
-	$(MAKE) shipping-fetch && \
-	$(MAKE) reports-macro && \
-	$(MAKE) portfolio && \
-	$(MAKE) sync-news && \
-	$(MAKE) reports-periodic && \
-	$(MAKE) sync-reports && \
-	$(MAKE) backup-reports && \
-	$(MAKE) dashboard-build && \
+	$(MAKE) fetch-data && \
+	$(MAKE) sync-notebooklm && \
 	echo "🖌️  Pass 1: Auto-formatting code and applying pre-commit fixes..." && \
 	($(MAKE) format || true) && \
 	echo "🖌️  Pass 2: Strict verification of code formatting and pre-commit checks..." && \
@@ -151,6 +147,7 @@ fetch:
 	echo "⏱️ Total Time: $$(($$(date +%s)-t_total_start))s." && \
 	echo "💾 Committing newly generated market data..." && \
 	(git add market_data/ || true) && \
+	(git add -u reports/news/ || true) && \
 	(git add reports/news/*.md || true) && \
 	(git add -f reports/news/rendered/*.png || true) && \
 	(git add market_data/index.json || true) && \
@@ -158,6 +155,30 @@ fetch:
 	(git push origin main || echo "No public changes to push or push failed.") && \
 	echo "💾 Syncing private reports and data to Gitea..." && \
 	$(MAKE) private-push
+
+# Alias for make fetch
+sync: fetch
+
+# Fast data-only fetch (market + shipping + macro + portfolio + backup + dashboard, ~3m)
+fetch-data: setup
+	@echo "📊 Running Data Fetch Pipeline (market + shipping + macro + portfolio + dashboard)..."
+	@t_data_start=$$(date +%s); \
+	$(MAKE) market-fetch && \
+	$(MAKE) shipping-fetch && \
+	$(MAKE) reports-macro && \
+	$(MAKE) portfolio && \
+	$(MAKE) backup-reports && \
+	$(MAKE) dashboard-build && \
+	echo "⏱️  [Pipeline] Data Fetch Pipeline completed in $$(($$(date +%s)-t_data_start))s."
+
+# NotebookLM synchronization pipeline (news feed + periodic reports + report upload)
+sync-notebooklm: setup
+	@echo "☁️  Running NotebookLM Synchronization Pipeline..."
+	@t_nlm_start=$$(date +%s); \
+	$(MAKE) sync-news && \
+	$(MAKE) reports-periodic && \
+	$(MAKE) sync-reports && \
+	echo "⏱️  [Pipeline] NotebookLM Sync completed in $$(($$(date +%s)-t_nlm_start))s."
 
 
 market-fetch: setup

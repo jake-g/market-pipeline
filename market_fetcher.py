@@ -659,111 +659,130 @@ class MarketFetcher:
     path.mkdir(parents=True, exist_ok=True)
     return path
 
+  def _update_single_ticker_prices(
+      self,
+      ticker: str,
+      start_date: str = config.DEFAULT_START_DATE) -> None:
+    """Updates price history for a single ticker (TSV)."""
+    ticker_path = self.get_ticker_path(ticker)
+    prices_file = ticker_path / PRICES_FILENAME
+
+    current_start = start_date
+    existing_df = pd.DataFrame()
+    fetch_needed = True
+
+    if prices_file.exists():
+      try:
+        existing_df = pd.read_csv(prices_file,
+                                  sep='\t',
+                                  index_col=0,
+                                  parse_dates=True)
+        if not existing_df.empty:
+          # Partial intraday rows arrive with an empty Close (Yahoo lags
+          # Adj Close). Drop them so they are re-fetched, not frozen.
+          if 'Close' in existing_df.columns:
+            existing_df = existing_df.dropna(subset=['Close'])
+        if not existing_df.empty:
+          existing_min = existing_df.index.min()
+          existing_max = existing_df.index.max()
+
+          # Check if we need to backfill older data
+          req_start_dt = pd.to_datetime(start_date)
+
+          if existing_min > req_start_dt:
+            self.logger.debug(
+                f"{ticker}: Existing data starts {existing_min.date()}, requested {req_start_dt.date()}. Refetching full history."
+            )
+            current_start = start_date
+          elif existing_max >= (pd.Timestamp.now().normalize() -
+                                pd.Timedelta(days=1)):
+            fetch_needed = False
+          else:
+            current_start = (existing_max +
+                             datetime.timedelta(days=1)).strftime('%Y-%m-%d')
+
+      except Exception as e:
+        self.logger.error(f"Error reading {ticker} prices: {e}")
+
+    if not fetch_needed:
+      return
+
+    cache_key = f"prices_{ticker}_{current_start}"
+    new_data = self._load_cache(cache_key,
+                                expiry_seconds=config.CACHE_EXPIRY_PRICES)
+
+    if new_data is None:
+      try:
+        df = yf.download(ticker,
+                         start=current_start,
+                         progress=False,
+                         auto_adjust=False,
+                         threads=False)
+
+        if df.empty:
+          self._save_cache(cache_key, pd.DataFrame())
+          return
+
+        if isinstance(df.columns, pd.MultiIndex):
+          df.columns = df.columns.droplevel(1)
+
+        if 'Adj Close' in df.columns:
+          # Adj Close is NaN for the current session until Yahoo
+          # finalises it; fall back to the raw close for that row.
+          df['Close'] = df['Adj Close'].fillna(df['Close'])
+
+        cols = ['Open', 'High', 'Low', 'Close', 'Volume']
+        cols = [c for c in cols if c in df.columns]
+        new_data = df[cols].dropna(subset=['Close'])
+        self._save_cache(cache_key, new_data)
+
+      except Exception as e:
+        self.logger.error(f"Failed to fetch {ticker}: {e}")
+        return
+
+    if new_data is not None and not new_data.empty:
+      if 'Close' in new_data.columns:
+        new_data = new_data.dropna(subset=['Close'])
+      new_data = new_data.round(2)
+      if not existing_df.empty:
+        combined = pd.concat([existing_df, new_data])
+        combined = combined[~combined.index.duplicated(keep='last')]
+        combined.sort_index(inplace=True)
+      else:
+        combined = new_data
+
+      combined.to_csv(prices_file, sep='\t')
+
   def update_prices(self,
                     tickers: List[str],
-                    start_date: str = config.DEFAULT_START_DATE) -> None:
-    """Updates price history for tickers (TSV). Uses Yahoo Finance by default."""
+                    start_date: str = config.DEFAULT_START_DATE,
+                    max_workers: int = 8) -> None:
+    """Updates price history for tickers (TSV) concurrently via ThreadPool."""
     self.logger.info(
-        f"Updating prices for {len(tickers)} tickers (Start: {start_date})...")
+        f"Updating prices for {len(tickers)} tickers (Start: {start_date}, Workers: {max_workers})..."
+    )
+    if not tickers:
+      return
 
-    for ticker in tqdm(tickers, desc="Prices"):
-      ticker_path = self.get_ticker_path(ticker)
-      prices_file = ticker_path / PRICES_FILENAME
+    workers = min(max_workers, len(tickers))
+    if workers <= 1:
+      for ticker in tqdm(tickers, desc="Prices"):
+        self._update_single_ticker_prices(ticker, start_date)
+      return
 
-      current_start = start_date
-      existing_df = pd.DataFrame()
-      fetch_needed = True
-
-      if prices_file.exists():
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+      futures = {
+          executor.submit(self._update_single_ticker_prices, t, start_date): t
+          for t in tickers
+      }
+      for future in tqdm(as_completed(futures),
+                         total=len(tickers),
+                         desc="Prices"):
         try:
-          existing_df = pd.read_csv(prices_file,
-                                    sep='\t',
-                                    index_col=0,
-                                    parse_dates=True)
-          if not existing_df.empty:
-            # Partial intraday rows arrive with an empty Close (Yahoo lags
-            # Adj Close). Drop them so they are re-fetched, not frozen.
-            if 'Close' in existing_df.columns:
-              existing_df = existing_df.dropna(subset=['Close'])
-          if not existing_df.empty:
-            existing_min = existing_df.index.min()
-            existing_max = existing_df.index.max()
-
-            # Check if we need to backfill older data
-            req_start_dt = pd.to_datetime(start_date)
-
-            if existing_min > req_start_dt:
-              self.logger.debug(
-                  f"{ticker}: Existing data starts {existing_min.date()}, requested {req_start_dt.date()}. Refetching full history."
-              )
-              current_start = start_date
-            elif existing_max >= (pd.Timestamp.now().normalize() -
-                                  pd.Timedelta(days=1)):
-              fetch_needed = False
-            else:
-              current_start = (existing_max +
-                               datetime.timedelta(days=1)).strftime('%Y-%m-%d')
-
+          future.result()
         except Exception as e:
-          self.logger.error(f"Error reading {ticker} prices: {e}")
-
-      if not fetch_needed:
-        continue
-
-      # Optional: Alpha Vantage Implementation
-      # if config.ALPHA_VANTAGE_KEY:
-      #   url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={ticker}&outputsize=full&apikey={config.ALPHA_VANTAGE_KEY}&datatype=csv"
-      #   try:
-      #     av_df = pd.read_csv(url)
-      #   except Exception as e:
-      #     self.logger.warning(f"AlphaVantage fetch failed: {e}")
-
-      cache_key = f"prices_{ticker}_{current_start}"
-      new_data = self._load_cache(cache_key,
-                                  expiry_seconds=config.CACHE_EXPIRY_PRICES)
-
-      if new_data is None:
-        try:
-          df = yf.download(ticker,
-                           start=current_start,
-                           progress=False,
-                           auto_adjust=False,
-                           threads=False)
-
-          if df.empty:
-            self._save_cache(cache_key, pd.DataFrame())
-            continue
-
-          if isinstance(df.columns, pd.MultiIndex):
-            df.columns = df.columns.droplevel(1)
-
-          if 'Adj Close' in df.columns:
-            # Adj Close is NaN for the current session until Yahoo
-            # finalises it; fall back to the raw close for that row.
-            df['Close'] = df['Adj Close'].fillna(df['Close'])
-
-          cols = ['Open', 'High', 'Low', 'Close', 'Volume']
-          cols = [c for c in cols if c in df.columns]
-          new_data = df[cols].dropna(subset=['Close'])
-          self._save_cache(cache_key, new_data)
-
-        except Exception as e:
-          self.logger.error(f"Failed to fetch {ticker}: {e}")
-          continue
-
-      if new_data is not None and not new_data.empty:
-        if 'Close' in new_data.columns:
-          new_data = new_data.dropna(subset=['Close'])
-        new_data = new_data.round(2)
-        if not existing_df.empty:
-          combined = pd.concat([existing_df, new_data])
-          combined = combined[~combined.index.duplicated(keep='last')]
-          combined.sort_index(inplace=True)
-        else:
-          combined = new_data
-
-        combined.to_csv(prices_file, sep='\t')
-        # self.logger.info(f"Updated {ticker} (+{len(new_data)} rows)")
+          t = futures[future]
+          self.logger.error(f"Unhandled error fetching prices for {t}: {e}")
 
   def _extract_xml(self, filepath: Path) -> Optional[str]:
     """Extracts XML content from a full submission text file."""
@@ -1402,9 +1421,11 @@ class MarketFetcher:
                                  sep='\t',
                                  index_col='Date',
                                  parse_dates=True)
-          # Update existing with new values (overwrite overlaps)
-          # Modified to prioritize EXISTING data to prevent overwriting verified/recent data during backfills
-          final_df = existing.combine_first(daily_stats)
+          # Update existing with new values (overwrite overlaps).
+          # Prioritize daily_stats over existing so intraday news updates
+          # refresh today's sentiment and volume, while historical dates
+          # absent from current news.tsv are preserved from existing.
+          final_df = daily_stats.combine_first(existing)
         else:
           final_df = daily_stats
 
@@ -2290,8 +2311,17 @@ class MarketFetcher:
             f"| Indicator | Valid Rows | Start Date | End Date | Status |")
         report.append(f"|---|---|---|---|---|")
 
+        # Determine date column name (DATE, Date, observation_date, or first column)
+        date_col = None
+        for candidate in ("DATE", "Date", "observation_date"):
+          if candidate in df_macro.columns:
+            date_col = candidate
+            break
+        if date_col is None and len(df_macro.columns) > 0:
+          date_col = df_macro.columns[0]
+
         for col in df_macro.columns:
-          if col == "observation_date":
+          if col == date_col:
             continue
           valid = df_macro[col].dropna()
           count = len(valid)
@@ -2308,13 +2338,13 @@ class MarketFetcher:
           else:
             status = "Sparse"
 
-          if 'observation_date' in df_macro.columns:
-            dates = df_macro.loc[valid.index, 'observation_date']
-            start = dates.min()
-            end = dates.max()
+          if date_col is not None and count > 0:
+            dates = df_macro.loc[valid.index, date_col].astype(str)
+            start = str(dates.min())
+            end = str(dates.max())
           else:
-            start = "?"
-            end = "?"
+            start = "N/A"
+            end = "N/A"
 
           report.append(f"| {col} | {count} | {start} | {end} | {status} |")
 

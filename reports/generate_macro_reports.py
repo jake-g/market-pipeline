@@ -76,14 +76,11 @@ MACRO_GROUPS: Dict[str, List[str]] = {
         "ST_LOUIS_FIN_STRESS", "KANSAS_CITY_FIN_STRESS", "FED_ASSETS"
     ],
     "Commodities & FX": [
-        "WTI_CRUDE", "NAT_GAS_PRICE", "COPPER_PRICE", "CORN_PRICE",
-        "WHEAT_PRICE", "SUGAR_PRICE", "USD_INDEX", "USD_CNY", "USD_EUR",
-        "USD_JPY"
+        "WTI_CRUDE", "USD_INDEX", "USD_CNY", "USD_EUR", "USD_JPY"
     ],
     "Policy & Trade": [
-        "US_POLICY_UNCERTAINTY", "GLOBAL_POLICY_UNCERTAINTY",
-        "EUROPE_POLICY_UNCERTAINTY", "TARIFFS", "CHINA_IMPORTS", "TECH_PULSE",
-        "RD_INVESTMENT"
+        "US_POLICY_UNCERTAINTY", "EUROPE_POLICY_UNCERTAINTY", "TARIFFS",
+        "CHINA_IMPORTS", "TECH_PULSE", "RD_INVESTMENT"
     ],
     "Logistics & Power": [
         "FREIGHT_PPI", "TRUCK_PPI", "AIR_PPI", "WAREHOUSE_PPI",
@@ -223,7 +220,13 @@ def build_indicator_rows(obs: pd.DataFrame) -> Tuple[pd.DataFrame, List[str]]:
   alerts: List[str] = []
   five_y = now - pd.DateOffset(years=5)
 
+  active_indicators = {
+      ind for group in MACRO_GROUPS.values() for ind in group
+  }
+
   for col in obs.columns:
+    if col not in active_indicators:
+      continue
     s = obs[col].dropna()
     if s.empty:
       continue
@@ -398,9 +401,9 @@ def plot_regime_panels(daily: pd.DataFrame, obs: pd.DataFrame, years: int,
   else:
     ax_credit.legend(loc="upper left", fontsize=8)
 
-  # 4. Commodities & dollar (rebased to 100 at window start)
-  for col, c in (("WTI_CRUDE", "#264653"), ("NAT_GAS_PRICE", "#2A9D8F"),
-                 ("COPPER_PRICE", "#E76F51"), ("USD_INDEX", "#8D99AE")):
+  # 4. Energy & FX (rebased to 100 at window start)
+  for col, c in (("WTI_CRUDE", "#264653"), ("USD_INDEX", "#8D99AE"),
+                 ("USD_CNY", "#E76F51"), ("USD_EUR", "#2A9D8F")):
     if col in d:
       s = d[col].dropna()
       if not s.empty and s.iloc[0] != 0:
@@ -411,7 +414,7 @@ def plot_regime_panels(daily: pd.DataFrame, obs: pd.DataFrame, years: int,
                       linewidth=1.6)
   ax_cmdty.axhline(100, color="black", linewidth=0.6)
   ax_cmdty.set_ylabel("rebased = 100")
-  ax_cmdty.set_title("Commodities & dollar (rebased)", fontweight="bold")
+  ax_cmdty.set_title("Energy & FX (rebased)", fontweight="bold")
   ax_cmdty.legend(loc="upper left", fontsize=8)
 
   for ax in axes.flat:
@@ -780,10 +783,10 @@ def generate_shipping_report() -> None:
   report_md = f"""# Maritime Shipping Report
 
 ## Overview
-This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Strait, Panama Canal, Taiwan Strait) and macroeconomic freight indicators to track supply chain bottlenecks, tanker availability, and logistical disruptions.
+This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Strait, Suez Canal, Bab el-Mandeb, Panama Canal, Taiwan Strait) and macroeconomic freight indicators to track supply chain bottlenecks, tanker availability, and logistical disruptions.
 
-> [!WARNING]
-> Chokepoint counts come from a ~20-second AISStream sample and fall back to a static baseline (index 1.0) when the sample is empty, so most rows are placeholders. Treat this section as a plumbing demo until a real source (IMF PortWatch daily transits, NY Fed GSCPI, Freightos FBX) is wired in.
+> [!NOTE]
+> Chokepoint transit counts and congestion indices are sourced from IMF PortWatch daily transit calls data (covering Hormuz, Malacca, Suez, Bab el-Mandeb, Panama, and Taiwan Strait). Baseline indices reflect normalized pre-disruption transit volume (1.0 = normal baseline).
 
 ## Congestion Trends
 ![Congestion Timeline](rendered/shipping_timeline.png)

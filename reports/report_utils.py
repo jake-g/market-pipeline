@@ -1195,24 +1195,27 @@ def build_ticker_context_markdown(tickers: List[str],
   if not tickers:
     return ""
 
-  context = "### Detailed Portfolio Context (News & Intrinsic Value)\\n"
+  context = "### Detailed Portfolio Context (News & Intrinsic Value)\n"
   for t in tickers:
     # Fetch Intrinsic Value
     metrics = get_intrinsic_value_metrics(
         t, os.path.join(market_data_dir, "tickers"))
     if metrics:
-      discount = metrics.get('Graham_Discount_Pct', 'N/A')
-      context += f"- **{t}**: Intrinsic Discount: {discount}%\\n"
+      discount = metrics.get('Discount_to_Intrinsic_Value_Pct')
+      if discount is not None and pd.notna(discount):
+        context += f"- **{t}**: Intrinsic Discount: {discount:.1f}%\n"
+      else:
+        context += f"- **{t}**: Intrinsic Discount: N/A\n"
 
     # Fetch Ticker News
     news_df = get_recent_ticker_news(t, market_data_dir, limit=3)
     if not news_df.empty:
-      context += f"  - Recent News for {t}:\\n"
+      context += f"  - Recent News for {t}:\n"
       for _, r in news_df.iterrows():
         headline = r.get('Headline', '')[:100]
         if headline:
-          context += f"    - {headline}...\\n"
-  return context + "\\n"
+          context += f"    - {headline}...\n"
+  return context + "\n"
 
 
 def generate_portfolio_markdown_table(df: pd.DataFrame) -> str:
@@ -2069,8 +2072,7 @@ def build_standard_portfolio_report(script_dir: str,
       os.system(notebooklm_cmd)
 
       logger.info(f"Re-rendering Enhanced Markdown to PDF: {out_path}...")
-      render_cmd = f"python3 '{report_utils_path}' --render '{out_path}'"
-      os.system(render_cmd)
+      render_markdown_to_pdf(out_path)
     except Exception as e:
       logger.error(
           f"Failed to generate AI tactical overlay for {script_dir}: {e}")
@@ -2351,3 +2353,16 @@ def generate_price_volume_capitulation_plot(ticker: str, tickers_dir: str,
     logger.info("Saved price/volume plot to %s", output_path)
   except Exception as e:
     logger.warning("Failed to generate price/volume plot for %s: %s", ticker, e)
+
+
+if __name__ == "__main__":
+  import argparse
+  parser = argparse.ArgumentParser(description="Report utilities CLI")
+  parser.add_argument(
+      "--render", type=str, help="Render a markdown file to PDF")
+  parser.add_argument(
+      "--output", type=str, default=None, help="Optional output PDF path")
+  args = parser.parse_args()
+  if args.render:
+    pdf_out = render_markdown_to_pdf(args.render, output_path=args.output)
+    print(f"Rendered PDF: {pdf_out}")

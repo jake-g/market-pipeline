@@ -576,6 +576,61 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     df = pd.read_csv(macro_file, sep='\t', index_col=0, parse_dates=True)
     self.assertLessEqual(df.index.max(), pd.Timestamp.today().normalize())
 
+  def test_update_news_sentiment_overwrites_existing_date(self):
+    """Intraday news updates must overwrite existing sentiment/volume."""
+    sent_file = self.ticker_dir / "news_sentiment.tsv"
+    existing = pd.DataFrame({
+        "Date": ["2026-10-01", "2026-10-12"],
+        "Sentiment_Daily": [0.5000, 0.1000],
+        "News_Volume": [2, 1]
+    })
+    existing.to_csv(sent_file, sep='\t', index=False)
+
+    news_file = self.ticker_dir / "news.tsv"
+    new_news = pd.DataFrame({
+        "Date": ["2026-10-12", "2026-10-12"],
+        "Sentiment": [0.8000, 1.0000],
+        "Title": ["Story 1", "Story 2"]
+    })
+    new_news.to_csv(news_file, sep='\t', index=False)
+
+    self.fetcher.update_daily_sentiment([self.ticker])
+
+    res = pd.read_csv(sent_file, sep='\t', index_col='Date')
+    # 2026-10-12 should be updated to mean 0.9000 and count 2
+    self.assertAlmostEqual(res.loc["2026-10-12", "Sentiment_Daily"],
+                           0.9000,
+                           places=3)
+    self.assertEqual(int(res.loc["2026-10-12", "News_Volume"]), 2)
+    # Historical date preserved
+    self.assertAlmostEqual(res.loc["2026-10-01", "Sentiment_Daily"],
+                           0.5000,
+                           places=3)
+    self.assertEqual(int(res.loc["2026-10-01", "News_Volume"]), 2)
+
+  def test_generate_data_stats_macro_date_range_not_question_marks(self):
+    """STATS.md macro section must report real date ranges, not '?'."""
+    macro_dir = self.test_dir / "macro"
+    macro_dir.mkdir(parents=True, exist_ok=True)
+    macro_file = macro_dir / "economic_indicators.tsv"
+    df = pd.DataFrame({
+        "DATE": ["2024-01-01", "2024-02-01", "2024-03-01"],
+        "CPI": [308.5, 310.2, 312.1]
+    })
+    df.to_csv(macro_file, sep='\t', index=False)
+
+    self.fetcher.generate_data_stats()
+
+    stats_file = self.test_dir / "STATS.md"
+    self.assertTrue(stats_file.exists())
+    content = stats_file.read_text()
+    self.assertIn("## 4. Macro Data", content)
+    # DATE should not be listed as an indicator
+    self.assertNotIn("| DATE |", content)
+    # CPI should have real start and end dates
+    self.assertIn("| CPI | 3 | 2024-01-01 | 2024-03-01 |", content)
+    self.assertNotIn("| CPI | 3 | ? | ? |", content)
+
   @patch("market_fetcher.requests.get")
   def test_alphavantage_sentiment_missing_date(self, mock_get):
     # Mock Response with one valid and one invalid date

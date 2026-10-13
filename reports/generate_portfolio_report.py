@@ -453,8 +453,7 @@ def generate_report():
       os.system(notebooklm_cmd)
 
       logger.info(f"Re-rendering Enhanced Markdown to PDF: {report_path}...")
-      render_cmd = f"'{sys.executable}' '{report_utils_script}' --render '{report_path}'"
-      os.system(render_cmd)
+      render_markdown_to_pdf(report_path)
     except Exception as e:
       logger.error(f"Failed to generate global AI tactical overlay: {e}")
 
