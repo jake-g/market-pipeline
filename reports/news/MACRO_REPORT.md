@@ -10,31 +10,23 @@ spreads and ratios.*
 
 ## Alerts
 - ⚠️ **FREIGHT_PPI** at 518.62 is +2.7σ from its 5-year mean (97th percentile).
-- ⏳ **CORN_PRICE** stale: last observation 2026-07-01 (103d; typical cadence 31d).
-- ⏳ **WHEAT_PRICE** stale: last observation 2026-07-01 (103d; typical cadence 31d).
-- ⏳ **SUGAR_PRICE** stale: last observation 2026-07-01 (103d; typical cadence 31d).
-- ⏳ **NAT_GAS_PRICE** stale: last observation 2026-07-01 (103d; typical cadence 31d).
-- ⚠️ **COPPER_PRICE** at 13,542.82 is +2.5σ from its 5-year mean (96th percentile).
-- ⏳ **COPPER_PRICE** stale: last observation 2026-07-01 (103d; typical cadence 31d).
 - ⚠️ **ELECTRIC_POWER_INDEX** at 118.75 is +2.0σ from its 5-year mean (98th percentile).
 - 🚨 **RD_INVESTMENT**: latest move +23.42 is 2.8σ of its 5Y move distribution (now 950.52, 2026-04-01).
 - 🚨 **HOUSEHOLD_NET_WORTH**: latest move +12803400.00 is 3.0σ of its 5Y move distribution (now 195,870,496.00, 2026-04-01).
 - ⚠️ **HOUSEHOLD_NET_WORTH** at 195,870,496.00 is +2.1σ from its 5-year mean (94th percentile).
 - 🚨 **GDP**: latest move +656.76 is 5.7σ of its 5Y move distribution (now 32,563.03, 2026-04-01).
-- ⚠️ **M2_MONEY** at 23,342.80 is +2.5σ from its 5-year mean (98th percentile).
-- ⏳ **GLOBAL_POLICY_UNCERTAINTY** stale: last observation 2026-07-01 (103d; typical cadence 31d).
 
 ## Most Extreme vs 5-Year History
 | Indicator            |         Latest |   5Y Z |   pct | Δ3M     | 3M   |
 |----------------------|----------------|--------|-------|---------|------|
 | FREIGHT_PPI          |   518.62       |    2.7 |    97 | +9.2%   | ↑    |
-| M2_MONEY             | 23342.8        |    2.5 |    98 | +1.4%   | ↑    |
-| COPPER_PRICE         | 13542.8        |    2.5 |    96 | +5.1%   | ↑    |
 | HOUSEHOLD_NET_WORTH  |     1.9587e+08 |    2.1 |    94 | +7.0%   | ↑    |
 | ELECTRIC_POWER_INDEX |   118.75       |    2   |    98 | +2.5%   | ↑    |
 | RD_INVESTMENT        |   950.52       |    2   |    94 | +2.5%   | ↑    |
 | GDP                  | 32563          |    1.7 |    94 | +2.1%   | ↑    |
 | US30Y                |     5.6        |    1.7 |    99 | +0.54pp | →    |
+| US10Y                |     5.22       |    1.6 |    99 | +0.66pp | ↑    |
+| TRUCK_PPI            |   207.64       |    1.6 |    91 | +2.0%   | ↑    |
 
 ## Regime Dashboard (5-Year)
 ![Regime 5Y](rendered/macro_regime_5yr.png)
@@ -112,29 +104,23 @@ right rebases commodities and the dollar to 100 at the window start.
 | FED_ASSETS             |  6.74756e+06 | +0.2%   | +0.3%   | +2.4%   |   -1   |       30 | →    | 2026-10-07 |
 
 ### Commodities & FX
-| Indicator        |   Latest | Δ1M    | Δ3M    | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
-|------------------|----------|--------|--------|--------|--------|----------|------|------------|
-| WTI_CRUDE        |    96.24 | +3.8%  | +38.3% | +54.0% |    1.2 |       87 | ↑    | 2026-10-06 |
-| NAT_GAS_PRICE ⏳ |     2.96 | -7.6%  | +10.5% | -10.5% |   -0.5 |       39 | ↑    | 2026-07-01 |
-| COPPER_PRICE ⏳  | 13542.8  | -0.1%  | +5.1%  | +38.6% |    2.5 |       96 | ↑    | 2026-07-01 |
-| CORN_PRICE ⏳    |   213.19 | +8.9%  | -0.6%  | +10.8% |   -0.5 |       47 | ↓    | 2026-07-01 |
-| WHEAT_PRICE ⏳   |   228.74 | +14.6% | +12.9% | +38.4% |   -0.2 |       56 | ↑    | 2026-07-01 |
-| SUGAR_PRICE ⏳   |    14.81 | +6.5%  | +5.1%  | -9.5%  |   -1.3 |       12 | ↑    | 2026-07-01 |
-| USD_INDEX        |   121.38 | +2.4%  | +0.6%  | +0.8%  |    0.1 |       62 | →    | 2026-10-02 |
-| USD_CNY          |     6.7  | -0.2%  | -1.3%  | -5.8%  |   -1   |       14 | →    | 2026-10-01 |
-| USD_EUR          |     1.13 | -2.9%  | -1.7%  | -3.7%  |    0.5 |       64 | →    | 2026-10-02 |
-| USD_JPY          |   157.81 | -0.6%  | -1.9%  | +7.1%  |    1.1 |       88 | →    | 2026-10-02 |
+| Indicator   |   Latest | Δ1M   | Δ3M    | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
+|-------------|----------|-------|--------|--------|--------|----------|------|------------|
+| WTI_CRUDE   |    96.24 | +3.8% | +38.3% | +54.0% |    1.2 |       87 | ↑    | 2026-10-06 |
+| USD_INDEX   |   121.38 | +2.4% | +0.6%  | +0.8%  |    0.1 |       62 | →    | 2026-10-02 |
+| USD_CNY     |     6.7  | -0.2% | -1.3%  | -5.8%  |   -1   |       14 | →    | 2026-10-01 |
+| USD_EUR     |     1.13 | -2.9% | -1.7%  | -3.7%  |    0.5 |       64 | →    | 2026-10-02 |
+| USD_JPY     |   157.81 | -0.6% | -1.9%  | +7.1%  |    1.1 |       88 | →    | 2026-10-02 |
 
 ### Policy & Trade
-| Indicator                    |   Latest | Δ1M    | Δ3M    | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
-|------------------------------|----------|--------|--------|--------|--------|----------|------|------------|
-| US_POLICY_UNCERTAINTY        |   242.69 | -50.0% | -8.8%  | +5.3%  |    0.2 |       68 | →    | 2026-10-11 |
-| GLOBAL_POLICY_UNCERTAINTY ⏳ |   241.69 | -14.5% | -29.4% | -39.8% |   -0.4 |       44 | ↓    | 2026-07-01 |
-| EUROPE_POLICY_UNCERTAINTY    |   358.52 | +2.2%  | -9.4%  | -23.9% |   -0.1 |       54 | ↓    | 2026-09-01 |
-| TARIFFS                      |   306.4  | -6.1%  | -6.1%  | +13.2% |    1.4 |       78 | ↓    | 2026-04-01 |
-| CHINA_IMPORTS                | 27133.8  | +0.2%  | +15.4% | +6.9%  |   -0.8 |       28 | ↑    | 2026-08-01 |
-| TECH_PULSE                   |    96.05 | -0.8%  | +0.1%  | +2.1%  |    0.8 |       76 | →    | 2026-08-01 |
-| RD_INVESTMENT                |   950.52 | +2.5%  | +2.5%  | +12.2% |    2   |       94 | ↑    | 2026-04-01 |
+| Indicator                 |   Latest | Δ1M    | Δ3M    | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
+|---------------------------|----------|--------|--------|--------|--------|----------|------|------------|
+| US_POLICY_UNCERTAINTY     |   242.69 | -50.0% | -8.8%  | +5.3%  |    0.2 |       68 | →    | 2026-10-11 |
+| EUROPE_POLICY_UNCERTAINTY |   358.52 | +2.2%  | -9.4%  | -23.9% |   -0.1 |       54 | ↓    | 2026-09-01 |
+| TARIFFS                   |   306.4  | -6.1%  | -6.1%  | +13.2% |    1.4 |       78 | ↓    | 2026-04-01 |
+| CHINA_IMPORTS             | 27133.8  | +0.2%  | +15.4% | +6.9%  |   -0.8 |       28 | ↑    | 2026-08-01 |
+| TECH_PULSE                |    96.05 | -0.8%  | +0.1%  | +2.1%  |    0.8 |       76 | →    | 2026-08-01 |
+| RD_INVESTMENT             |   950.52 | +2.5%  | +2.5%  | +12.2% |    2   |       94 | ↑    | 2026-04-01 |
 
 ### Logistics & Power
 | Indicator            |    Latest | Δ1M   | Δ3M   | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
@@ -155,10 +141,3 @@ right rebases commodities and the dollar to 100 at the window start.
 | LIFE_EXPECTANCY |     78.89 | +0.6%   | +0.6%   | +0.6%   | —      | —        | ↑    | 2024-01-01 |
 
 </details>
-
-### Other
-| Indicator   |   Latest | Δ1M   | Δ3M   | Δ1Y   |   5Y Z |   5Y pct | 3M   | As of      |
-|-------------|----------|-------|-------|-------|--------|----------|------|------------|
-| FOOD_CPI    |   350.42 | +0.1% | +0.4% | +2.7% |    1.4 |       98 | →    | 2026-08-01 |
-| M2_MONEY    | 23342.8  | +0.5% | +1.4% | +5.7% |    2.5 |       98 | ↑    | 2026-08-01 |
-| CPI         |   334.13 | +0.4% | +0.0% | +3.4% |    1.6 |       98 | →    | 2026-08-01 |

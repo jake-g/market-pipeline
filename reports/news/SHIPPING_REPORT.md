@@ -1,10 +1,10 @@
 # Maritime Shipping Report
 
 ## Overview
-This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Strait, Panama Canal, Taiwan Strait) and macroeconomic freight indicators to track supply chain bottlenecks, tanker availability, and logistical disruptions.
+This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Strait, Suez Canal, Bab el-Mandeb, Panama Canal, Taiwan Strait) and macroeconomic freight indicators to track supply chain bottlenecks, tanker availability, and logistical disruptions.
 
-> [!WARNING]
-> Chokepoint counts come from a ~20-second AISStream sample and fall back to a static baseline (index 1.0) when the sample is empty, so most rows are placeholders. Treat this section as a plumbing demo until a real source (IMF PortWatch daily transits, NY Fed GSCPI, Freightos FBX) is wired in.
+> [!NOTE]
+> Chokepoint transit counts and congestion indices are sourced from IMF PortWatch daily transit calls data (covering Hormuz, Malacca, Suez, Bab el-Mandeb, Panama, and Taiwan Strait). Baseline indices reflect normalized pre-disruption transit volume (1.0 = normal baseline).
 
 ## Congestion Trends
 ![Congestion Timeline](rendered/shipping_timeline.png)
@@ -12,10 +12,12 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 ## Chokepoint Status
 | Chokepoint    |   Vessels |   Congestion Index |
 |---------------|-----------|--------------------|
-| Malacca       |         2 |               0.01 |
-| Taiwan_Strait |         1 |               0.01 |
-| Panama_Canal  |         1 |               0.03 |
-| Hormuz        |        80 |               1    |
+| Hormuz        |         4 |               0.07 |
+| Bab_el_Mandeb |        34 |               0.49 |
+| Suez_Canal    |        46 |               0.66 |
+| Panama_Canal  |        29 |               0.81 |
+| Malacca       |       209 |               0.95 |
+| Taiwan_Strait |       233 |               1.06 |
 
 ## Shipping Macro Metrics
 | Metric                              |   Latest | YoY Chg       | Date       |
