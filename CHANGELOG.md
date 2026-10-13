@@ -5,7 +5,7 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
-## [v1.8.2] - 2026-10-12
+## [v1.11.0] - 2026-10-12
 ### Data-Integrity Fixes (Prices & Portfolio Pipeline)
 - **Price rows with empty `Close` no longer persist** (`market_fetcher.update_prices`):
   - Yahoo returns a `NaN` `Adj Close` for the current session; `Close = Adj Close` therefore wrote an empty Close for **273 tickers** on every same-day run, and the incremental check (`existing_max >= yesterday`) then never re-fetched the row (4 tickers carried permanent April gaps).
@@ -15,6 +15,35 @@
   - `generate_portfolio_report.py` compared raw `.env` names (`Vanguard : INDIVIDUAL -8479`) against TSV stems (`vanguard__individual_8479`) → the **Active Trading Portfolios section was always empty** and the NotebookLM overlay was fed inactive accounts.
   - The fetcher used three different normalisations → active-account **CASH never reached `_combined_active_portfolio.tsv`**; two portfolios sharing a display name (`Wealthfront : BROKERAGE_CASH`) overwrote each other's TSV (now suffixed with the portfolio id).
   - Stale-file check in the report now hard-fails only for active accounts; `_combined_portfolio.tsv` is read from `portfolios/tsvs/`. Test: `test_safe_portfolio_name_matches_tsv_basename`.
+
+## [v1.10.1] - 2026-10-05
+### Yahoo Auth Refactor, Ticker Expansion & Test Hygiene
+- **Yahoo Finance auth process rewritten** (`yahoo_portfolio_fetcher.py`, −400 lines net): simplified credential capture/refresh flow, `update_yahoo_creds.sh` aligned, and 76 lines of new tests in `test_portfolio_pipeline.py`.
+- **Ticker & news expansion**: additional tickers in `config.py`; `backfill/historical_news.py` extended; `market_fetcher.py` learns the new symbols.
+- **SKIP_EARNINGS fix**: newly added ETFs (DRAM, FIW, LIT, NASA, QTUM, SCHB, URNM) were not in `SKIP_EARNINGS`, causing needless earnings lookups; regression test added.
+- **NotebookLM 0.7.x shim removed**: dropped the `_streaming_post` monkeypatch from `notebooklm_client.py` now that notebooklm-py ≥ 0.8.3 is required (fixes CI `ImportError`). Backfilled daily reports for 09-18, 09-23, 09-24, 09-25.
+- **Quiet tests**: expected-warning paths in `market_fetcher_test.py` / `report_utils_test.py` now patch the logger and assert it was called instead of spamming `make test-unit` output; `test_fetch_fred_series_missing_key` no longer hits the live FRED API.
+
+## [v1.10.0] - 2026-08-25
+### Macro/Shipping Report Overhaul, Report Backups & `report_utils` Expansion
+- **`generate_macro_reports.py` rewritten** (+458/−): shipping chokepoint panels, FRED tariff/freight series, Z-score and correlation views; follow-up polish to macro + periodic report code.
+- **`report_utils.py` +234 lines / `report_utils_test.py` +258 lines**: new plotting and analysis helpers with the first dedicated unit-test module for report utilities; `make test-unit` now includes it.
+- **Report backups**: `reports/backup_reports.py` + `make backup-reports` zips all intelligence reports after each fetch; previously git-ignored reports restored.
+- **Periodic reports**: scraping performance optimised and retry resilience added in `generate_periodic_reports.py` / `notebooklm_report.py`; missing July–August daily/weekly/monthly reports generated.
+- **Open-models strategy report** (`reports/08-22_strategy_open_models/analysis_open_models.py`, ~1.2k lines) and expanded AI ticker/topic config.
+- Yahoo auth touch-up (+101 lines) with new tests.
+
+## [v1.9.0] - 2026-08-08
+### Automated Yahoo Credentials, CI Hardening & New Plots
+- **Playwright-based Yahoo Finance credential capture** (`yahoo_portfolio_fetcher.py`, +221 lines): credentials are captured automatically instead of pasting `Copy as cURL`.
+- **Semiconductor moat-watch plot** and dynamic titles for RSI scatter plots in `report_utils.py`.
+- **CI / Python 3.13**: `PYTHONSAFEPATH` import-security fixes, absolute `PYTHONPATH` in the Makefile, sandboxed portfolio tests, hardened `make fetch` target, `.gitignore` and build-script clean-up.
+
+## [v1.8.2] - 2026-07-14
+### NotebookLM Fixes & Topic-Based News
+- **NotebookLM**: auth check flow fixed (`--mode check_auth`, Makefile `test-auth`); PDF upload to the Market Reports notebook fixed.
+- **Topic-based news feeds** added to `market_fetcher.py` (+212 lines) alongside new tickers in `config.py`; missing periodic reports regenerated.
+- `make format` allowed to fail on the first (auto-fix) pass of `make fetch`.
 
 ## [v1.8.1] - 2026-07-11
 ### RSS News Caching Optimization & Warm Pipeline Speedup
