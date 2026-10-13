@@ -4,17 +4,22 @@ import asyncio
 from datetime import datetime
 from datetime import timedelta
 import glob
+import hashlib
+import json
 import logging
 import os
+import re
 import sys
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 
 import pandas as pd
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from market_fetcher import MarketFetcher
+from reports.notebooklm_client import looks_like_studio_stub
 from reports.notebooklm_client import MarketNewsClient
+from reports.notebooklm_client import NotebookLMQuotaError
 from reports.report_utils import clean_md
 
 logging.basicConfig(level=logging.INFO)
@@ -22,37 +27,64 @@ logger = logging.getLogger(__name__)
 
 # --- NOTEBOOKLM PROMPT CONSTANTS ---
 
-PROMPT_DAILY = """You are a sophisticated hedge fund analyst powered by NotebookLM. Write a highly actionable, detailed, and data-driven daily market intelligence report for {date}.
+# Shared tail for every synthesis prompt. The first rule exists because
+# NotebookLM's chat now sometimes "publishes" a Studio report and answers
+# with a one-paragraph confirmation instead of the text.
+OUTPUT_RULES = """
+OUTPUT RULES (non-negotiable):
+1. Return the COMPLETE report as markdown text in this chat reply. Do NOT create a Studio report, note, document or file, and do NOT reply with a summary of what you created.
+2. Every number must come from the uploaded sources. Performance cells MUST show the exact percentage from the "Quantitative Price Action Summary" (e.g. "+4.7%"), never words like "Strong Rebound". If a ticker's number is not in the summary, say "n/a".
+3. Cite inline with [n] and end with a numbered "## References" appendix mapping every [n] to the exact Source Headline and URL from the uploaded text. No uncited claims about events.
+4. Be dense: short declarative sentences, bullets over prose, no filler, no restating the prompt, no disclaimers.
+5. If the uploaded data for the period is thin, say so in one line and shorten the report rather than padding it with generic commentary.
+"""
 
-PRIORITIZE content from the source titled "{date} Daily Market Feed" as the absolute foundation for this report. Today's qualitative news feeds and quantitative price changes are the most important elements. Use historical context (previous reports) ONLY for continuity and tracking continuous narrative trends, DO NOT summarize them or let them drown out today's data.
+WATCHLIST_HINT = (
+    "Priority tickers when choosing what to cover (these are held "
+    "or tracked): NVDA, TSM, AMD, AVGO, MRVL, MU, ANET, COHR, "
+    "WDC, SMH, SOXX, IONQ, CRWV, IREN, AAPL, AMZN, GOOG, TSLA, "
+    "PANW, HOOD, NLR, CCJ, NVT, VST, CEG, IBIT, BMNR, RKLB, STM, "
+    "ENTG, MRK, plus SPY/QQQ/SOXX as benchmarks.")
 
-STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
+PROMPT_DAILY = """You are a buy-side analyst writing the daily market intelligence note for {date}.
+
+DATA PRIORITY: the source titled "{date} Daily Market Feed" and "{date} Daily Market Feed - Quantitative Price Action Summary" are the foundation. Use "Historical Context" only to note how a theme evolved; never summarise prior reports.
+
+""" + WATCHLIST_HINT + """
+
+STRUCTURE (use these exact headers):
+## Regime Dashboard
+One compact markdown table: SPY, QQQ, SOXX 1-day % (from the summary); the single most important macro print or event of the day; and a one-word risk posture (Risk-On / Neutral / Risk-Off) with a 1-sentence justification.
+
 ## Top AI Thematic Insights
-Write a highly structured, authoritative executive summary grouping exactly the major themes and catalysts present in TODAY'S data. Integrate context from previous reports *only* to explain the evolution of these themes. Explain the *why* behind today's moves. Include a brief, sharp **Expert Forward Projection** analyzing where these trends are likely headed in the near term. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Provide 3-4 distinct paragraphs/bullet blocks of intense insight.
+3-4 themes max. For each: "### <Theme> (<tickers>)" then 2-3 bullets: what happened (with numbers), why it matters, what it changes going forward. Prefer themes that touch the priority tickers. Finish with "### Expert Forward Projection": 3 bullets, each a falsifiable near-term expectation with the trigger to watch.
 
 ## Quantitative Market Action & Specific Equities
-Explicitly correlate the top stock winners/losers from TODAY'S Price Action Summary with the exact qualitative news events driving them. Focus on the 1-day change. Quantify your points and elaborate on the specific details of the catalyst (e.g., earnings beats with actual numbers, product launches, guidance revisions).
-You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining today's move.
+Two markdown tables, "Top Winners" and "Top Losers", from TODAY'S summary: columns Ticker | 1-Day % | Catalyst (with citation). 5-8 rows each. Exact percentages only.
 
-CRITICAL FORMATTING RULES:
-1. Be concise but highly insightful. Focus tightly on today's developments. Avoid generic fluff.
-2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+## Watchlist Check
+A table for every priority ticker that appears in today's feed or summary: Ticker | 1-Day % | One-line read (continuation / reversal / news-driven / no news). Omit tickers with no data rather than guessing.
+""" + OUTPUT_RULES
 
-PROMPT_WEEKLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly actionable, detailed, and data-driven weekly synthesis report for the week of {start_date} to {end_date}.
+PROMPT_WEEKLY = """You are a macro strategist writing the weekly synthesis for {start_date} to {end_date}.
 
-FOCUS with a "zoomed out" perspective. Emphasize high-level thematic shifts, sector momentum pivots, and aggregate weekly performance over single-day noise. Rely on continuous context to show the evolution of trends.
+DATA PRIORITY: the "{start_date} to {end_date} Market Synthesis" source and its "Quantitative Price Action Summary" are the foundation; the uploaded daily reports for the week provide the day-by-day arc. Zoom out: thematic shifts, sector rotation and weekly aggregates, not single-day noise.
 
-STRUCTURE THE REPORT EXACTLY AS FOLLOWS:
+""" + WATCHLIST_HINT + """
+
+STRUCTURE (use these exact headers):
+## Week in One Table
+Markdown table: SPY, QQQ, SOXX weekly % (from the summary) | best and worst sector/theme of the week with % | the macro event that mattered most | risk posture for next week (Risk-On / Neutral / Risk-Off).
+
 ## Top AI Thematic Insights
-Write a highly structured, deep-dive executive summary grouping exactly the major macroeconomic themes, tech sector momentum pivots, and geopolitical risks that defined this week. Synthesize the primary narrative arc of the week. Contextualize using context from preceding uploaded reports to show the evolution of topics. Provide robust, detailed analysis on *why* these trends matter. Include a dedicated **Expert Forward Projection** section forecasting what these catalysts mean for the weeks ahead. Use clean markdown (### headers for major themes and - bullet points for supporting evidence). Aim for thorough, high-conviction insights.
+3-5 themes. "### <Theme> (<tickers>)" then bullets: the weekly narrative arc (Mon→Fri where visible), the numbers, and what it changes. Explicitly flag any theme that REVERSED versus the prior week's report. Finish with "### Expert Forward Projection": 3-4 falsifiable expectations for the coming 1-3 weeks, each with the data point or event that would confirm or refute it.
 
 ## Quantitative Market Action & Specific Equities
-Extract and rigorously analyze the top quantitative winners and losers provided in the Price Action Summary for the week and explain their performance strictly using the uploaded qualitative news. Rely heavily on the numbers, cite the companies directly, and provide the specific narrative behind their aggregate week move (e.g., earnings beats or guidance).
-You MUST format this section using clean Markdown Tables (one for Top Winners, one for Top Losers) with columns for Ticker, Performance, and Detailed News Catalyst explaining the move.
+Two markdown tables, "Top Winners" and "Top Losers", from the WEEKLY summary: Ticker | Week % | Catalyst (with citation). 6-10 rows each. Exact percentages only.
 
-CRITICAL FORMATTING RULES:
-1. Be sharp and institutional, but provide rich detail and zoomed-out context. Avoid generic fluff.
-2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+## Watchlist Check
+Table for every priority ticker with a weekly number: Ticker | Week % | vs SPY (pct-pts) | Read (leading / lagging / event-driven). Then 3 bullets: "What I would do differently going into next week" framed as trims, adds and cash, no options or leverage.
+""" + OUTPUT_RULES
 
 PROMPT_MONTHLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, insightful, and data-driven monthly synthesis report for {month_year}.
 
@@ -68,7 +100,7 @@ You MUST format this section using clean Markdown Tables (one for Top Winners, o
 
 CRITICAL FORMATTING RULES:
 1. Provide deep, institutional-grade insights. Be highly actionable but do not sacrifice detail for brevity. Avoid generic fluff. Use terse bullet points and numerical tables for structure, but write thick paragraphs for analysis.
-2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+2. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown.""" + OUTPUT_RULES
 
 PROMPT_YEARLY = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, data-driven yearly synthesis report for {year}.
 
@@ -87,7 +119,7 @@ You MUST format this section using clean Markdown Tables (one for Top Winners, o
 CRITICAL FORMATTING RULES:
 1. Be extremely actionable and data-driven. Avoid fluff and wordiness. Use terse bullet points and numerical tables.
 2. Highlight major defining moments of the year and provide concrete, numerical evidence when available.
-3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown.""" + OUTPUT_RULES
 
 PROMPT_YEARLY_PROSPECTIVE = """You are a macroeconomic analyst powered by NotebookLM. Write a highly detailed, data-driven prospective synthesis report for {year}.
 
@@ -106,7 +138,7 @@ You MUST format this section cleanly, focusing on actionable insights.
 CRITICAL FORMATTING RULES:
 1. Be extremely actionable and data-driven. Avoid fluff and wordiness. Use terse bullet points.
 2. Highlight major anticipated moments of the year and provide concrete, numerical evidence when available.
-3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+3. You MUST include a numbered '## References' appendix at the very end of your response. Map every single inline citation (e.g., [1], [2]) to the exact Source URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown.""" + OUTPUT_RULES
 
 PROMPT_PORTFOLIO = """You are an elite portfolio manager powered by NotebookLM. Review the provided tabular text data representing my exact stock holdings, their recent performance metrics, and the latest news context to answer a basic question based on the portfolio report.
 
@@ -125,7 +157,7 @@ CRITICAL INSTRUCTIONS:
 3. 🚫 DO NOT suggest Options, Puts, Calls, or Margin trading.
 4. ⚖️ Suggest trades to either deploy known liquid reserve or sell to raise more liquidity.
 5. 🧭 Explicitly call back to the provided decision trees. Agree or contradict the main report's branches based on your analysis.
-6. Keep the output extremely concise and format it using valid Markdown headers. Include a numbered '## References' appendix mapping inline citations (e.g., [1]) to the exact Source Headline and URL provided."""
+6. Keep the output extremely concise and format it using valid Markdown headers. Include a numbered '## References' appendix mapping inline citations (e.g., [1]) to the exact Source Headline and URL provided.""" + OUTPUT_RULES
 
 PROMPT_EARNINGS = """You are an elite equity research analyst powered by NotebookLM. Review the provided tabular data, historical price action, Implied Volatility (IV) crush metrics, and the latest news context for this specific earnings event.
 
@@ -135,7 +167,7 @@ CRITICAL INSTRUCTIONS:
 1. MAX 50 words per paragraph. NO FLUFF. Use numbers and terse bullet points.
 2. Provide predictive scenarios based strictly on the provided quantitative data (historical gap fades, post-earnings drift) and support them with qualitative catalysts from the news.
 3. Contrast this ticker's earnings narrative with broader macroeconomic or sector-wide trends mentioned in the news to provide deeper, zoomed-out insights. Focus heavily on price trends and historical data. Do NOT mention random portfolio allocation or other tickers unless directly used to contrast the primary ticker's performance or ecosystem.
-4. You MUST include a numbered '## References' appendix at the very end. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown."""
+4. You MUST include a numbered '## References' appendix at the very end. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown.""" + OUTPUT_RULES
 
 
 def build_price_analysis_blob(market_data_dir: str,
@@ -306,69 +338,118 @@ async def list_notebooklm_sources(target_project: str):
     logger.error(f"Error checking project {target_project}: {e}")
 
 
+def _sha256(path: str) -> str:
+  h = hashlib.sha256()
+  with open(path, "rb") as f:
+    for chunk in iter(lambda: f.read(1 << 20), b""):
+      h.update(chunk)
+  return h.hexdigest()
+
+
+def _manifest_path(project_name: str) -> str:
+  safe = re.sub(r"[^a-z0-9]+", "_", project_name.lower()).strip("_")
+  return os.path.join(
+      os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "logs",
+      f".notebooklm_manifest_{safe}.json")
+
+
 async def upload_directory_to_notebooklm(dir_path: str,
-                                         project_name: str = "Market Reports"):
+                                         project_name: str = "Market Reports",
+                                         limit: int = 35):
+  """Syncs rendered PDFs to a NotebookLM project, uploading only deltas.
+
+  A sha256 manifest (``logs/.notebooklm_manifest_<project>.json``) records
+  what was last uploaded. Unchanged files are skipped with no RPCs; files
+  whose content changed (e.g. a regenerated report) replace the existing
+  source of the same title; duplicate titles are collapsed; pruning runs
+  once before the batch instead of before every upload.
+
+  Args:
+    dir_path (str): Directory containing PDFs (searched recursively).
+    project_name (str): Target NotebookLM notebook title.
+    limit (int): Newest-N PDFs (by mtime) considered for sync.
   """
-    Uploads all relevant files from a generated report directory to NotebookLM.
-    This creates an automated archive we can chat with later, with smart deduplication.
-    """
   if not os.path.exists(dir_path):
     logger.error("Directory not found: %s", dir_path)
+    return
+
+  manifest_file = _manifest_path(project_name)
+  manifest: Dict[str, str] = {}
+  if os.path.exists(manifest_file):
+    try:
+      with open(manifest_file, "r", encoding="utf-8") as f:
+        manifest = json.load(f)
+    except (OSError, ValueError):
+      manifest = {}
+
+  # Candidate files: newest N PDFs, skipping quarantined stubs.
+  pdf_files = []
+  for root, _, files in os.walk(dir_path):
+    for file in files:
+      if file.endswith(".pdf"):
+        path = os.path.join(root, file)
+        pdf_files.append((path, file, os.path.getmtime(path)))
+  pdf_files.sort(key=lambda x: x[2], reverse=True)
+  latest = pdf_files[:limit]
+
+  to_upload = [(p, f) for p, f, _ in latest if manifest.get(f) != _sha256(p)]
+  if not to_upload:
+    logger.info("sync-reports: all %d recent PDFs unchanged; nothing to do.",
+                len(latest))
     return
 
   logger.info("Connecting to NotebookLM '%s' project...", project_name)
   async with MarketNewsClient(project_name=project_name) as db:
     await db.connect()
+    if not (db.client and hasattr(db.client, "sources")):
+      logger.error("NotebookLM sources API unavailable.")
+      return
 
-    seen_titles = set()
+    existing = await db.client.sources.list(db.notebook_id)
+    by_title: Dict[str, List[Any]] = {}
+    for src in existing:
+      title = getattr(src, "title", "")
+      if title:
+        by_title.setdefault(title, []).append(src)
 
-    # 1. Fetch current sources and deduplicate any existing stragglers in-place
-    if db.client and hasattr(db.client, 'sources'):
-      logger.info("Fetching and deduplicating existing sources in '%s'...",
-                  project_name)
-      existing_sources = await db.client.sources.list(db.notebook_id)
-      for src in existing_sources:
-        title = getattr(src, 'title', '')
-        if not title:
-          continue
-
-        if title in seen_titles:
-          logger.info("Deleting duplicate existing source: %s (ID: %s)", title,
-                      src.id)
+    # 1. Collapse duplicate titles (keep one).
+    dup_ids = [s.id for srcs in by_title.values() for s in srcs[1:]]
+    # 2. Changed files replace their existing source.
+    replace_ids = [by_title[f][0].id for _, f in to_upload if f in by_title]
+    stale_ids = list(dict.fromkeys(dup_ids + replace_ids))
+    if stale_ids:
+      logger.info("Deleting %d stale/duplicate sources before upload",
+                  len(stale_ids))
+      try:
+        await db.client.sources.delete_many(db.notebook_id, stale_ids)
+      except Exception as e:  # pylint: disable=broad-except
+        logger.warning("delete_many failed (%s); falling back", e)
+        for sid in stale_ids:
           try:
-            await db.client.sources.delete(db.notebook_id, src.id)
-          except Exception as e:
-            logger.error("Failed to delete duplicate source %s: %s", title, e)
-        else:
-          seen_titles.add(title)
+            await db.client.sources.delete(db.notebook_id, sid)
+          except Exception:  # pylint: disable=broad-except
+            pass
 
-    # 2. Find all PDF files and sort by modification time (newest first)
-    logger.info("Scanning local reports...")
-    pdf_files = []
-    for root, _, files in os.walk(dir_path):
-      for file in files:
-        if file.endswith('.pdf'):
-          file_path = os.path.join(root, file)
-          mtime = os.path.getmtime(file_path)
-          pdf_files.append((file_path, file, mtime))
+    # 3. Prune once, leaving headroom for the whole batch.
+    await db._prune_sources_if_needed(  # pylint: disable=protected-access
+        threshold=max(10, 95 - len(to_upload)))
 
-    # Sort descending by mtime (newest first)
-    pdf_files.sort(key=lambda x: x[2], reverse=True)
+    # 4. Upload deltas (library caps concurrency at 4).
+    sem = asyncio.Semaphore(4)
 
-    # Limit to latest 35 files to prevent thrashing under the 40 source limit
-    limit = 35
-    latest_pdfs = pdf_files[:limit]
-    logger.info("Syncing latest %d reports to NotebookLM...", len(latest_pdfs))
+    async def _one(path: str, name: str) -> None:
+      async with sem:
+        await db.upload_file(path, prune=False)
+        manifest[name] = _sha256(path)
+        logger.info("Uploaded %s", name)
 
-    for file_path, file, _ in latest_pdfs:
-      # NotebookLM source titles from files perfectly match the basename
-      if file in seen_titles:
-        logger.info("Skipping already uploaded file: %s", file)
-        continue
+    await asyncio.gather(*(_one(p, f) for p, f in to_upload))
 
-      await db.upload_file(file_path)
-      logger.info("Successfully uploaded %s", file_path)
-      seen_titles.add(file)
+  os.makedirs(os.path.dirname(manifest_file), exist_ok=True)
+  with open(manifest_file, "w", encoding="utf-8") as f:
+    json.dump(manifest, f, indent=1, sort_keys=True)
+  logger.info("sync-reports: uploaded %d, manifest -> %s", len(to_upload),
+              manifest_file)
 
 
 # pylint: disable=too-many-return-statements
@@ -808,7 +889,6 @@ async def generate_report(market_data_dir: str,
               for report_file in os.listdir(scan_dir):
                 if report_file.endswith(
                     ".md") and report_file != "PORTFOLIO_REPORT.md":
-                  import re
                   filepath = os.path.join(scan_dir, report_file)
                   if os.path.isfile(filepath):
                     match = re.match(r"(\d{2}-\d{2})_", report_file)
@@ -842,13 +922,44 @@ async def generate_report(market_data_dir: str,
 
             for filepath, report_file in recent_reports:
               with open(filepath, 'r') as f:
-                historical_context += f"\n\n--- Content from {report_file} ---\n\n{f.read()}"
+                body = f.read()
+              if looks_like_studio_stub(body):
+                logger.warning("Skipping stub report in context: %s",
+                               report_file)
+                continue
+              historical_context += (
+                  f"\n\n--- Content from {report_file} ---\n\n{body}")
 
             if historical_context:
               await db.upload_news_text(historical_context, title=history_title)
 
-        logger.info(f"Requesting LLM Synthesis for {mode}...")
-        report_content = await db.ask_question(prompt)
+        # Scope retrieval to this period's sources (+ a few recent feeds for
+        # continuity). Querying all ~95 sources through a 200-turn
+        # conversation took ~5 min per report and produced Studio stubs.
+        scoped_ids: List[str] = []
+        required_markers: Optional[List[str]] = None
+        if mode in [
+            'daily', 'weekly', 'monthly', 'yearly', 'yearly_prospective'
+        ]:
+          wanted_titles = [
+              feed_title, f"{feed_title} - Quantitative Price Action Summary",
+              "Historical Context: Recent Periodic Reports"
+          ]
+          scoped_ids = await db.find_source_ids(wanted_titles)
+          if mode in ['daily', 'weekly']:
+            for sid in await db.recent_feed_source_ids(days=5):
+              if sid not in scoped_ids:
+                scoped_ids.append(sid)
+          required_markers = ["## References"]
+          if mode in ['daily', 'weekly']:
+            required_markers.append("## Top AI Thematic Insights")
+
+        logger.info("Requesting LLM Synthesis for %s (%d scoped sources)...",
+                    mode, len(scoped_ids))
+        report_content = await db.synthesize_report(
+            prompt,
+            source_ids=scoped_ids or None,
+            required_markers=required_markers)
 
         if mode in ['portfolio', 'earnings'] and dir_path:
           output_path: str = dir_path
@@ -910,6 +1021,8 @@ async def generate_report(market_data_dir: str,
           logger.warning(f"Could not save sync state: {e}")
         logger.info("✅ Feed sync complete.")
 
+  except NotebookLMQuotaError:
+    raise
   except Exception as e:
     logger.error(f"Failed to run via NotebookLM: {e}")
 

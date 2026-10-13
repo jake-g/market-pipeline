@@ -13,7 +13,9 @@ import pandas as pd
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
+from reports.notebooklm_client import looks_like_studio_stub
 from reports.notebooklm_client import MarketNewsClient
+from reports.notebooklm_client import NotebookLMQuotaError
 from reports.notebooklm_report import generate_report
 from reports.report_utils import get_recent_news
 
@@ -25,31 +27,46 @@ NEWS_DIR = os.path.join(REPORTS_DIR, "news")
 RENDERED_DIR = os.path.join(REPORTS_DIR, "rendered")
 
 
-def is_report_missing(filename: str) -> bool:
-  """Checks if the report already exists as a rendered PDF or markdown.
+def _quarantine_stub(md_path: str, pdf_path: str) -> None:
+  """Renames a stub report (and its PDF) aside so it gets regenerated."""
+  for path in (md_path, pdf_path):
+    if os.path.exists(path):
+      os.replace(path, path + ".stub")
+      logger.warning("Quarantined stub report: %s.stub", path)
 
-  If the markdown exists but PDF is missing, it compiles the PDF locally
-  without making external NotebookLM API calls.
+
+def is_report_missing(filename: str) -> bool:
+  """Checks if a valid report exists as rendered PDF or markdown.
+
+  A markdown file that is a NotebookLM "published to Studio" confirmation
+  (or otherwise lacks report headers) counts as missing: it is moved to
+  ``<name>.stub`` together with its PDF so the next run regenerates it.
+  If valid markdown exists but the PDF is missing, the PDF is rendered
+  locally without any NotebookLM calls.
   """
   pdf_path = os.path.join(RENDERED_DIR, filename.replace('.md', '.pdf'))
   md_path = os.path.join(NEWS_DIR, filename)
   md_path_root = os.path.join(REPORTS_DIR, filename)
 
-  if os.path.exists(pdf_path):
-    return False
-
   for path in [md_path, md_path_root]:
-    if os.path.exists(path):
+    if not os.path.exists(path):
+      continue
+    with open(path, 'r', encoding='utf-8') as f:
+      body = f.read()
+    if looks_like_studio_stub(body):
+      _quarantine_stub(path, pdf_path)
+      return True
+    if not os.path.exists(pdf_path):
       try:
         from reports.report_utils import render_markdown_to_pdf
         render_markdown_to_pdf(path)
         logger.info(f"Rendered existing markdown locally: {path}")
-        return False
       except Exception as e:
         logger.warning(f"Could not render existing markdown {path}: {e}")
-        return False
+    return False
 
-  return True
+  # No markdown: a lone PDF is accepted (legacy reports).
+  return not os.path.exists(pdf_path)
 
 
 def _run_report_with_retry(mode: str,
@@ -65,6 +82,12 @@ def _run_report_with_retry(mode: str,
                           end_date_str=end_date_str,
                           backfill_news=False))
       return
+    except NotebookLMQuotaError as e:
+      logger.error(
+          "NotebookLM generation quota hit while producing %s (%s): %s. "
+          "Stopping this sweep; remaining reports will be picked up by the "
+          "next run.", mode, start_date_str, e)
+      raise
     except (Exception, SystemExit) as e:
       if attempt < 2:
         logger.warning(
@@ -232,6 +255,12 @@ def main():
   parser.add_argument("--only-prospective",
                       action="store_true",
                       help="Only generate prospective reports.")
+  parser.add_argument(
+      "--daily-start",
+      type=str,
+      default=None,
+      help="YYYY-MM-DD from which to check/regenerate daily reports "
+      "(default: 45 days ago; pass 2026-03-06 for a full sweep).")
   args = parser.parse_args()
 
   logger.info("==========================================")
@@ -242,7 +271,9 @@ def main():
                  args.only_prospective)
 
   if run_all or args.only_daily:
-    generate_daily_reports(start_date="2026-03-06", dry_run=args.dry_run)
+    daily_start = args.daily_start or (datetime.date.today() -
+                                       datetime.timedelta(days=45)).isoformat()
+    generate_daily_reports(start_date=daily_start, dry_run=args.dry_run)
 
   if run_all or args.only_weekly:
     parts = args.weekly_start_month.split('-')
@@ -262,5 +293,12 @@ def main():
   logger.info("\n✅ Periodic report generation sweep complete.")
 
 
+def _main_guarded() -> None:
+  try:
+    main()
+  except NotebookLMQuotaError:
+    logger.warning("⏸️ Sweep paused on NotebookLM quota; rerun later.")
+
+
 if __name__ == "__main__":
-  main()
+  _main_guarded()
