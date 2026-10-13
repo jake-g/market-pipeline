@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-10-06 |
+| Date | str | 2026-10-12 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | FXI Oct 2026 20.000 call (FXI261009C00020000) S... |
+| Headline | str | FXI Mar 2027 33.000 put (FXI270331P00033000) st... |
 | Summary | str | International ETFs are outperforming the S&amp;... |
-| URL | str | https://news.google.com/rss/articles/CBMiZEFVX3... |
+| URL | str | https://news.google.com/rss/articles/CBMib0FVX3... |
 
 ## 2. Topic Files (Example: `Memory Shortage`)
 ### `news.tsv` - Topic News
@@ -80,17 +80,17 @@ This report documents the file structures and column data types used in `market_
 | SAVINGS_RATE | float64 | 4.1 |
 | M2_MONEY | float64 | 23342.8 |
 | M2_VELOCITY | float64 | 1.418 |
-| FED_ASSETS | float64 | 6743031.0 |
+| FED_ASSETS | float64 | 6747560.0 |
 | CPI | float64 | 334.131 |
 | FEDFUNDS | float64 | 3.75 |
-| US02Y | float64 | 4.79 |
-| US10Y | float64 | 5.27 |
-| US30Y | float64 | 5.64 |
-| HY_SPREAD | float64 | 3.03 |
-| CORP_SPREAD | float64 | 0.83 |
-| BAA_SPREAD | float64 | 1.46 |
-| AAA_SPREAD | float64 | 0.99 |
-| US_POLICY_UNCERTAINTY | float64 | 984.78 |
+| US02Y | float64 | 4.75 |
+| US10Y | float64 | 5.22 |
+| US30Y | float64 | 5.6 |
+| HY_SPREAD | float64 | 3.15 |
+| CORP_SPREAD | float64 | 0.82 |
+| BAA_SPREAD | float64 | 1.48 |
+| AAA_SPREAD | float64 | 1.03 |
+| US_POLICY_UNCERTAINTY | float64 | 242.69 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 358.5228 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.4681 |

@@ -3,6 +3,9 @@
 ## Overview
 This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Strait, Panama Canal, Taiwan Strait) and macroeconomic freight indicators to track supply chain bottlenecks, tanker availability, and logistical disruptions.
 
+> [!WARNING]
+> Chokepoint counts come from a ~20-second AISStream sample and fall back to a static baseline (index 1.0) when the sample is empty, so most rows are placeholders. Treat this section as a plumbing demo until a real source (IMF PortWatch daily transits, NY Fed GSCPI, Freightos FBX) is wired in.
+
 ## Congestion Trends
 ![Congestion Timeline](rendered/shipping_timeline.png)
 
