@@ -5,6 +5,17 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.8.2] - 2026-10-12
+### Data-Integrity Fixes (Prices & Portfolio Pipeline)
+- **Price rows with empty `Close` no longer persist** (`market_fetcher.update_prices`):
+  - Yahoo returns a `NaN` `Adj Close` for the current session; `Close = Adj Close` therefore wrote an empty Close for **273 tickers** on every same-day run, and the incremental check (`existing_max >= yesterday`) then never re-fetched the row (4 tickers carried permanent April gaps).
+  - Fix: fall back to the raw `Close` when `Adj Close` is `NaN`, drop NaN-close rows before saving, and ignore them when computing `existing_max` so the next run re-downloads from the last *valid* close. Tests: `test_update_prices_nan_adj_close_falls_back_to_close`, `test_update_prices_refetches_row_with_empty_close`.
+- **Portfolio technical enrichment was silently disabled** (`portfolio_processor.py`): `DATA_DIR` resolved to `<repo>/../market_data`, so no RSI/MA/Graham columns were ever appended to portfolio TSVs. Fixed to use `PROJECT_ROOT`; warns if the tickers dir is missing. Test: `test_processor_tickers_dir_is_inside_project`.
+- **Active-account matching unified** via `yahoo_portfolio_fetcher.safe_portfolio_name()`:
+  - `generate_portfolio_report.py` compared raw `.env` names (`Vanguard : INDIVIDUAL -8479`) against TSV stems (`vanguard__individual_8479`) → the **Active Trading Portfolios section was always empty** and the NotebookLM overlay was fed inactive accounts.
+  - The fetcher used three different normalisations → active-account **CASH never reached `_combined_active_portfolio.tsv`**; two portfolios sharing a display name (`Wealthfront : BROKERAGE_CASH`) overwrote each other's TSV (now suffixed with the portfolio id).
+  - Stale-file check in the report now hard-fails only for active accounts; `_combined_portfolio.tsv` is read from `portfolios/tsvs/`. Test: `test_safe_portfolio_name_matches_tsv_basename`.
+
 ## [v1.8.1] - 2026-07-11
 ### RSS News Caching Optimization & Warm Pipeline Speedup
 - **Stage 6 Cached News Speedup**:

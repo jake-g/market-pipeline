@@ -30,6 +30,31 @@ class TestPortfolioPipeline(unittest.TestCase):
   def tearDown(self):
     shutil.rmtree(self.temp_dir)
 
+  def test_safe_portfolio_name_matches_tsv_basename(self):
+    """Raw .env names must normalise to the TSV filename stem."""
+    cases = {
+        "Vanguard : INDIVIDUAL -8479":
+            "vanguard__individual_8479",
+        "Charles Schwab : HEALTH_SAVINGS_ACCOUNT_HSA -451":
+            "charles_schwab__health_savings_account_hsa_451",
+        "Coinbase: Crypto":
+            "coinbase_crypto",
+        "example_active_account":
+            "example_active_account",
+    }
+    for raw, expected in cases.items():
+      got = yahoo_portfolio_fetcher.safe_portfolio_name(raw)
+      self.assertEqual(got, expected)
+      # Idempotent: applying to an already-safe name is a no-op.
+      self.assertEqual(yahoo_portfolio_fetcher.safe_portfolio_name(got), got)
+
+  def test_processor_tickers_dir_is_inside_project(self):
+    """DATA_DIR must resolve to <repo>/market_data (was <repo>/../market_data)."""
+    repo_root = os.path.abspath(os.path.join(self.test_dir, ".."))
+    self.assertEqual(portfolio_processor.DATA_DIR,
+                     os.path.join(repo_root, "market_data"))
+    self.assertTrue(os.path.isdir(portfolio_processor.TICKERS_DIR))
+
   @patch("portfolios.yahoo_portfolio_fetcher.logger")
   def test_fetcher_with_local_json(self, mock_logger):
     """Test the fetcher gracefully reads a local json and builds the expected files."""

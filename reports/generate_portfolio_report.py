@@ -22,6 +22,7 @@ if PROJECT_ROOT not in sys.path:
   sys.path.insert(0, PROJECT_ROOT)
 import config
 from portfolios.yahoo_portfolio_fetcher import load_env_file
+from portfolios.yahoo_portfolio_fetcher import safe_portfolio_name
 from reports.report_utils import build_decision_tree
 from reports.report_utils import clean_md
 from reports.report_utils import generate_screening_scatter
@@ -39,8 +40,10 @@ load_env_file(env_path)
 
 env_active = os.environ.get("ACTIVE_TRADING_PORTFOLIOS", "")
 if env_active:
+  # Normalise to the TSV basename form (e.g. 'vanguard__individual_8479')
+  # so membership tests against filenames actually match.
   ACTIVE_TRADING_PORTFOLIOS = [
-      p.strip() for p in env_active.split(",") if p.strip()
+      safe_portfolio_name(p) for p in env_active.split(",") if p.strip()
   ]
 else:
   logger.warning(
@@ -168,19 +171,26 @@ def generate_report():
   active_files = []
   inactive_files = []
   for f in all_tsv_files:
-    # Age check
+    base = os.path.basename(f).replace(".tsv", "")
+    is_active = base in ACTIVE_TRADING_PORTFOLIOS
+    # Age check: hard-fail only for active accounts (they drive the AI
+    # overlay); inactive accounts are informational.
     age_days = (time.time() - os.path.getmtime(f)) / 86400
     if age_days > config.MAX_PORTFOLIO_AGE_DAYS:
-      logger.error(
-          f"Portfolio file {f} is stale: {age_days:.1f} days old (Max is {config.MAX_PORTFOLIO_AGE_DAYS} days)."
-      )
-      raise ValueError(f"Stale portfolio data: {f} exceeds max age limit.")
+      msg = (f"Portfolio file {f} is stale: {age_days:.1f} days old "
+             f"(Max is {config.MAX_PORTFOLIO_AGE_DAYS} days).")
+      if is_active:
+        logger.error(msg)
+        raise ValueError(f"Stale portfolio data: {f} exceeds max age limit.")
+      logger.warning(msg)
 
-    base = os.path.basename(f).replace(".tsv", "")
-    if base in ACTIVE_TRADING_PORTFOLIOS:
+    if is_active:
       active_files.append(f)
     else:
       inactive_files.append(f)
+  if ACTIVE_TRADING_PORTFOLIOS and not active_files:
+    logger.error("None of ACTIVE_TRADING_PORTFOLIOS matched a TSV: %s",
+                 ACTIVE_TRADING_PORTFOLIOS)
 
   # Compile Combined Active DataFrame
   combined_active_rows = []
@@ -382,7 +392,8 @@ def generate_report():
     report_lines.append(f"- **Total Positions:** {total_positions}\n\n")
 
   # Load Combined All Portfolios
-  combined_path = os.path.join(PORTFOLIOS_DIR, "_combined_portfolio.tsv")
+  combined_path = os.path.join(PORTFOLIOS_DIR, "tsvs",
+                               "_combined_portfolio.tsv")
   combined_df = pd.DataFrame()
   if os.path.exists(combined_path):
     combined_df = pd.read_csv(combined_path, sep='\t')

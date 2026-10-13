@@ -18,10 +18,11 @@ from reports.report_utils import enrich_portfolio_df
 
 logger = logging.getLogger(__name__)
 
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
-
-DATA_DIR = os.path.join(project_root, "market_data")
+DATA_DIR = os.path.join(PROJECT_ROOT, "market_data")
 TICKERS_DIR = os.path.join(DATA_DIR, "tickers")
+if not os.path.isdir(TICKERS_DIR):
+  logger.warning("Tickers dir missing (%s); technical enrichment disabled.",
+                 TICKERS_DIR)
 
 
 def process_portfolio(tsv_path: str) -> pd.DataFrame:

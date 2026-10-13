@@ -35,6 +35,23 @@ logger = logging.getLogger(__name__)
 IGNORED_PORTFOLIO_PREFIXES = ["wealthfront", "vanguard : employee_retirement"]
 
 
+def safe_portfolio_name(name: str) -> str:
+  """Canonical filesystem-safe portfolio name.
+
+  Used for TSV filenames AND for matching ACTIVE_TRADING_PORTFOLIOS, so the
+  same function must be applied on both sides. Example:
+  'Vanguard : INDIVIDUAL -8479' -> 'vanguard__individual_8479'.
+
+  Args:
+    name (str): Raw portfolio display name from Yahoo or .env.
+
+  Returns:
+    str: Lower-case name with non-alphanumerics collapsed to underscores.
+  """
+  safe = "".join(c for c in name if c.isalnum() or c in (" ", "_")).strip()
+  return safe.replace(" ", "_").lower().rstrip("_")
+
+
 def parse_curl_command(curl_text: str) -> dict:
   """Extracts cookie, crumb, and userId from a cURL command."""
   try:
@@ -625,14 +642,13 @@ def main():
         meta_report_rows = []
         combined_positions = {}
         combined_active_positions = {}
+        seen_safe_names: set = set()
 
-        # Parse Active config from env to build combined active matrix
+        # Parse Active config from env; normalise with the SAME helper used
+        # for TSV filenames so matching is exact.
         env_active = os.environ.get("ACTIVE_TRADING_PORTFOLIOS", "")
-        # Normalize list entries to match sanitized safe_name (single underscore, lowercase) using regex
         active_list = [
-            re.sub(r'[^a-zA-Z0-9]+', '_', p).strip('_').lower()
-            for p in env_active.split(",")
-            if p.strip()
+            safe_portfolio_name(p) for p in env_active.split(",") if p.strip()
         ] if env_active else []
 
         # Get ignored portfolio prefixes
@@ -656,6 +672,16 @@ def main():
 
           logger.info("Portfolio: %s (ID: %s) - %d positions", name, pf_id,
                       len(positions))
+
+          safe_name = safe_portfolio_name(name)
+          if safe_name in seen_safe_names:
+            # Two Yahoo portfolios can share a display name; keep both.
+            suffix = re.sub(r"[^a-z0-9]", "", str(pf_id).lower())[-6:]
+            safe_name = f"{safe_name}_{suffix}"
+            logger.warning("Duplicate portfolio name '%s'; saving as %s", name,
+                           safe_name)
+          seen_safe_names.add(safe_name)
+          is_active = safe_name in active_list
 
           # Check if this portfolio should be ignored for combining
           should_ignore = False
@@ -709,11 +735,7 @@ def main():
                 combined_positions[sym]["Day_Change_Net"] += pos.get(
                     "dailyGain", 0)
 
-                # Safe name generation for active check (robust regex normalization)
-                safe_name = re.sub(r'[^a-zA-Z0-9]+', '_',
-                                   name).strip('_').lower()
-
-                if safe_name in active_list:
+                if is_active:
                   if sym not in combined_active_positions:
                     combined_active_positions[sym] = {
                         "Quantity": 0.0,
@@ -755,11 +777,7 @@ def main():
                 combined_positions["CASH"]["Quantity"] += cash
                 combined_positions["CASH"]["Current_Value"] += cash
 
-                safe_name = "".join(
-                    c for c in name if c.isalnum() or c in (" ", "_")).strip()
-                safe_name = safe_name.replace(" ", "_").lower().rstrip("_")
-
-                if safe_name in active_list:
+                if is_active:
                   if "CASH" not in combined_active_positions:
                     combined_active_positions["CASH"] = {
                         "Quantity": 0.0,
@@ -784,13 +802,6 @@ def main():
                 "Daily_Gain_Net": p.get("dailyGain", 0),
                 "Daily_Gain_Pct": p.get("dailyPercentGain", 0)
             })
-
-            safe_name = "".join(
-                c for c in name if c.isalnum() or c in (" ", "_")).strip()
-            safe_name = safe_name.replace(" ", "_").lower()
-
-            # Remove trailing underscores if any
-            safe_name = safe_name.rstrip("_")
 
             output_file = os.path.join(out_dir, f"{safe_name}.tsv")
             df.to_csv(output_file, sep="\t", index=False)
