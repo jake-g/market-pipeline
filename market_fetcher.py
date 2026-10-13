@@ -681,6 +681,11 @@ class MarketFetcher:
                                     index_col=0,
                                     parse_dates=True)
           if not existing_df.empty:
+            # Partial intraday rows arrive with an empty Close (Yahoo lags
+            # Adj Close). Drop them so they are re-fetched, not frozen.
+            if 'Close' in existing_df.columns:
+              existing_df = existing_df.dropna(subset=['Close'])
+          if not existing_df.empty:
             existing_min = existing_df.index.min()
             existing_max = existing_df.index.max()
 
@@ -733,11 +738,13 @@ class MarketFetcher:
             df.columns = df.columns.droplevel(1)
 
           if 'Adj Close' in df.columns:
-            df['Close'] = df['Adj Close']
+            # Adj Close is NaN for the current session until Yahoo
+            # finalises it; fall back to the raw close for that row.
+            df['Close'] = df['Adj Close'].fillna(df['Close'])
 
           cols = ['Open', 'High', 'Low', 'Close', 'Volume']
           cols = [c for c in cols if c in df.columns]
-          new_data = df[cols]
+          new_data = df[cols].dropna(subset=['Close'])
           self._save_cache(cache_key, new_data)
 
         except Exception as e:
@@ -745,6 +752,8 @@ class MarketFetcher:
           continue
 
       if new_data is not None and not new_data.empty:
+        if 'Close' in new_data.columns:
+          new_data = new_data.dropna(subset=['Close'])
         new_data = new_data.round(2)
         if not existing_df.empty:
           combined = pd.concat([existing_df, new_data])

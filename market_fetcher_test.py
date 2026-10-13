@@ -394,6 +394,66 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     self.assertIn('Close', df.columns)
     self.assertEqual(df.index[0], '2024-01-01')
 
+  @patch("market_fetcher.yf.download")
+  def test_update_prices_nan_adj_close_falls_back_to_close(self, mock_download):
+    """Yahoo returns NaN 'Adj Close' for the live session; keep raw Close."""
+    mock_download.return_value = pd.DataFrame(
+        {
+            'Open': [150.0, 151.0],
+            'High': [155.0, 156.0],
+            'Low': [149.0, 150.0],
+            'Close': [152.0, 153.0],
+            'Adj Close': [151.5, float('nan')],
+            'Volume': [1000, 900]
+        },
+        index=pd.to_datetime(['2024-01-01', '2024-01-02']))
+
+    self.fetcher.update_prices([self.ticker])
+
+    df = pd.read_csv(self.ticker_dir / "prices.tsv", sep='\t', index_col=0)
+    self.assertEqual(len(df), 2)
+    self.assertFalse(df['Close'].isna().any())
+    self.assertAlmostEqual(df.loc['2024-01-01', 'Close'], 151.5)
+    self.assertAlmostEqual(df.loc['2024-01-02', 'Close'], 153.0)
+
+  @patch("market_fetcher.yf.download")
+  def test_update_prices_refetches_row_with_empty_close(self, mock_download):
+    """A persisted partial row (empty Close) must be re-fetched, not frozen."""
+    today = pd.Timestamp.now().normalize()
+    stale_day = today - pd.Timedelta(days=1)
+    good_day = today - pd.Timedelta(days=4)
+    prices_file = self.ticker_dir / "prices.tsv"
+    pd.DataFrame(
+        {
+            'Open': [100.0, 101.0],
+            'High': [101.0, 102.0],
+            'Low': [99.0, 100.0],
+            'Close': [100.5, float('nan')],
+            'Volume': [10, 20]
+        },
+        index=pd.DatetimeIndex([good_day, stale_day],
+                               name='Date')).to_csv(prices_file, sep='\t')
+    mock_download.return_value = pd.DataFrame(
+        {
+            'Open': [101.0],
+            'High': [102.0],
+            'Low': [100.0],
+            'Close': [101.5],
+            'Adj Close': [101.5],
+            'Volume': [20]
+        },
+        index=pd.DatetimeIndex([stale_day]))
+
+    # start_date == first existing row so we hit the incremental branch.
+    self.fetcher.update_prices([self.ticker],
+                               start_date=good_day.strftime('%Y-%m-%d'))
+
+    # Without the fix, existing_max == yesterday => no download at all.
+    mock_download.assert_called_once()
+    df = pd.read_csv(prices_file, sep='\t', index_col=0, parse_dates=True)
+    self.assertFalse(df['Close'].isna().any())
+    self.assertAlmostEqual(df.loc[stale_day, 'Close'], 101.5)
+
   @patch("market_fetcher.yf.Ticker")
   def test_update_fundamentals(self, mock_ticker_cls):
     # Setup
