@@ -5,6 +5,21 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.11.1] - 2026-10-12
+### NotebookLM Synthesis & Sync Overhaul (stub reports, 5-minute asks, prune order)
+- **Root causes found**: (1) `chat.ask()` on a "write a report" prompt now triggers NotebookLM's agentic Studio-report generation — it either answers with a one-line *"published to your Studio panel"* confirmation or streams >256 MB and aborts; **21 saved reports since May were such stubs** (all of October). (2) `delete_conversation()` does not reset the notebook's *current* conversation, so every ask replayed a 200+-turn thread (~5 min each). (3) Source pruning sorted by `str(created_at)` (usually `None`) and **deleted the newest feeds first** — seen live pruning `2026-10-09 Daily Market Feed` seconds before asking for the weekly synthesis.
+- **`notebooklm_client.py`**:
+  - `synthesize_report()` — artifact-first: `artifacts.generate_report(CUSTOM, custom_prompt, source_ids)` → poll → `download_report()` → delete artifact (deterministic, ~3 min, 18 KB / 35 table rows for 09-30). Falls back to chat.
+  - `ask_question()` — client-generated `conversation_id` (uuid4) for a genuinely fresh thread (14 s probe vs 5 min), `source_ids` scoping, stub validation via `looks_like_studio_stub()`, recovery from a Studio artifact, one inline-only retry.
+  - Prune by `title_date()` (YYYY-MM-DD, MM-DD_, MM_MONTHLY) then `created_at`; `upload_file(prune=False)` for batch callers; `find_source_ids()` / `recent_feed_source_ids()` helpers.
+- **`notebooklm_report.py`**:
+  - Daily/weekly prompts rewritten: Regime Dashboard, **exact-% tables only** (no "Strong Rebound"), *Watchlist Check* for held/tracked names, falsifiable Forward Projection, shared `OUTPUT_RULES` (inline markdown only, cite everything) appended to every prompt incl. monthly/yearly/portfolio/earnings.
+  - Synthesis scoped to the period's feed + quant summary + historical context + last 5 feeds; stub reports excluded from "Historical Context".
+  - `sync-reports` is manifest-driven (`logs/.notebooklm_manifest_<project>.json`, sha256): unchanged PDFs skipped with zero RPCs, changed PDFs replace the stale source of the same title, duplicates collapsed, pruning once before the batch, 4-way parallel uploads.
+- **`generate_periodic_reports.py`**: stub reports are detected, quarantined to `*.stub` (md + pdf) and regenerated; `--daily-start` flag, default window now 45 days (full sweep is opt-in).
+- Tests: `test_prune_uses_title_date_when_created_at_missing`, `test_detects_stub_and_accepts_report`, `test_title_date`, `test_ask_question_recovers_from_studio_artifact`, `test_synthesize_report_prefers_artifact_api`.
+- `notebooklm-py` upgraded 0.8.3 → 0.8.5.
+
 ## [v1.11.0] - 2026-10-12
 ### Data-Integrity Fixes (Prices & Portfolio Pipeline)
 - **Price rows with empty `Close` no longer persist** (`market_fetcher.update_prices`):

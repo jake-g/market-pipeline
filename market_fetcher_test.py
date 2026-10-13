@@ -563,6 +563,19 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     df = pd.read_csv(macro_file, sep='\t', index_col=0)
     self.assertIn("CPI", df.columns)
 
+  def test_update_macro_drops_future_projection_rows(self):
+    """FRED projections (e.g. POP) must not create future rows for all."""
+    future = (pd.Timestamp.today().normalize() +
+              pd.Timedelta(days=60)).strftime('%Y-%m-%d')
+    mock_df = pd.DataFrame({"POPTHM": [340000.0, 341000.0]},
+                           index=pd.to_datetime(['2024-01-01', future]))
+    with patch("market_fetcher.pd.read_csv", return_value=mock_df):
+      with patch("market_fetcher.FRED_SERIES", {"US_POPULATION": "POPTHM"}):
+        self.fetcher.update_macro()
+    macro_file = self.test_dir / "macro" / "economic_indicators.tsv"
+    df = pd.read_csv(macro_file, sep='\t', index_col=0, parse_dates=True)
+    self.assertLessEqual(df.index.max(), pd.Timestamp.today().normalize())
+
   @patch("market_fetcher.requests.get")
   def test_alphavantage_sentiment_missing_date(self, mock_get):
     # Mock Response with one valid and one invalid date

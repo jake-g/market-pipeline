@@ -2104,8 +2104,14 @@ class MarketFetcher:
           combined_fred = combined_fred.join(series, how='outer')
 
     if not combined_fred.empty:
+      # Some FRED series (e.g. population) include projections dated in
+      # the future; drop those rows BEFORE forward-filling, otherwise every
+      # indicator inherits phantom future observations.
+      combined_fred = combined_fred.sort_index()
+      combined_fred = combined_fred[combined_fred.index <=
+                                    pd.Timestamp.today().normalize()]
       # Forward fill missing lower-frequency data across daily dates
-      combined_fred = combined_fred.sort_index().ffill().round(4)
+      combined_fred = combined_fred.ffill().round(4)
       combined_fred.to_csv(macro_file, sep='\t')
       self.logger.info("FRED data updated.")
 
