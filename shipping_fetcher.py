@@ -481,8 +481,7 @@ class ShippingFetcher:
 
     return pd.DataFrame(rows)
 
-  def fetch_portwatch_metrics(
-      self, days: int = 90) -> Optional[pd.DataFrame]:
+  def fetch_portwatch_metrics(self, days: int = 90) -> Optional[pd.DataFrame]:
     """Fetches real daily maritime chokepoint transit counts from IMF PortWatch."""
     today = datetime.date.today()
     start_date = (today - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
@@ -492,9 +491,8 @@ class ShippingFetcher:
                                          pd.DataFrame) and not cached.empty:
       return cached
 
-    url = (
-        "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/"
-        "Daily_Chokepoints_Data/FeatureServer/0/query")
+    url = ("https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/"
+           "Daily_Chokepoints_Data/FeatureServer/0/query")
     where = f"date >= '{start_date}'"
     params: Dict[str, str] = {
         "where": where,
@@ -522,12 +520,11 @@ class ShippingFetcher:
                 lambda p: PORTWATCH_CHOKEPOINTS[p][1])
             df["Date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
             df["Vessel_Count"] = df["n_total"].fillna(0).astype(int)
-            df["Congestion_Index"] = (
-                df["Vessel_Count"] / df["Baseline"]).round(2)
+            df["Congestion_Index"] = (df["Vessel_Count"] /
+                                      df["Baseline"]).round(2)
             out_df = df[[
                 "Date", "Chokepoint_Name", "Vessel_Count", "Congestion_Index"
-            ]].sort_values(
-                ["Date", "Chokepoint_Name"], ascending=[False, True])
+            ]].sort_values(["Date", "Chokepoint_Name"], ascending=[False, True])
             self._save_cache(cache_key, out_df)
             self.logger.info(
                 "Fetched %d real chokepoint transit records from IMF PortWatch.",

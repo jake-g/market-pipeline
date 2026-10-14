@@ -220,9 +220,7 @@ def build_indicator_rows(obs: pd.DataFrame) -> Tuple[pd.DataFrame, List[str]]:
   alerts: List[str] = []
   five_y = now - pd.DateOffset(years=5)
 
-  active_indicators = {
-      ind for group in MACRO_GROUPS.values() for ind in group
-  }
+  active_indicators = {ind for group in MACRO_GROUPS.values() for ind in group}
 
   for col in obs.columns:
     if col not in active_indicators:
