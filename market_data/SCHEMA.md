@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-10-12 |
+| Date | str | 2026-10-13 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | FXI Mar 2027 33.000 put (FXI270331P00033000) st... |
+| Headline | str | FXI Dec 2026 26.000 call (FXI261218C00026000) i... |
 | Summary | str | International ETFs are outperforming the S&amp;... |
-| URL | str | https://news.google.com/rss/articles/CBMib0FVX3... |
+| URL | str | https://news.google.com/rss/articles/CBMibEFVX3... |
 
 ## 2. Topic Files (Example: `Memory Shortage`)
 ### `news.tsv` - Topic News
@@ -67,7 +67,7 @@ This report documents the file structures and column data types used in `market_
 | RD_INVESTMENT | float64 | 950.518 |
 | US_BIRTH_RATE | float64 | 10.6 |
 | LIFE_EXPECTANCY | float64 | 78.8902 |
-| US_POPULATION | float64 | 343289.575 |
+| US_POPULATION | float64 | 343149.507 |
 | DISPOSABLE_INCOME | float64 | 18410.5 |
 | HOUSEHOLD_NET_WORTH | float64 | 195870496.0 |
 | CREDIT_CARD_DELINQUENCY | float64 | 2.62 |
