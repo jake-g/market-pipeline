@@ -174,6 +174,66 @@ TICKER_SEARCH_TERMS: Dict[str, str] = {
         '"Defiance Quantum ETF" OR "QTUM ETF stock"',
     "SCHB":
         '"Schwab US Broad Market ETF" OR "SCHB ETF stock"',
+    "FLRN":
+        '"SPDR Bloomberg Investment Grade Floating Rate ETF" OR "FLRN ETF"',
+    "FLTR":
+        '"VanEck IG Floating Rate ETF" OR "FLTR ETF"',
+    "GBIL":
+        '"Goldman Sachs Access Treasury 0-1 Year ETF" OR "GBIL ETF"',
+    "HYLB":
+        '"Xtrackers USD High Yield Corporate Bond ETF" OR "HYLB ETF"',
+    "SCHO":
+        '"Schwab Short-Term U.S. Treasury ETF" OR "SCHO ETF"',
+    "SHV":
+        '"iShares Short Treasury Bond ETF" OR "SHV ETF"',
+    "SHY":
+        '"iShares 1-3 Year Treasury Bond ETF" OR "SHY ETF"',
+    "SHYG":
+        '"iShares 0-5 Year High Yield Corporate Bond ETF" OR "SHYG ETF"',
+    "SJNK":
+        '"SPDR Bloomberg Short Term High Yield Bond ETF" OR "SJNK ETF"',
+    "USHY":
+        '"iShares Broad USD High Yield Corporate Bond ETF" OR "USHY ETF"',
+    "VCSH":
+        '"Vanguard Short-Term Corporate Bond ETF" OR "VCSH ETF"',
+    "VGLT":
+        '"Vanguard Long-Term Treasury ETF" OR "VGLT ETF"',
+    "SGOV":
+        '"iShares 0-3 Month Treasury Bond ETF" OR "SGOV ETF"',
+    "VGSH":
+        '"Vanguard Short-Term Treasury ETF" OR "VGSH ETF"',
+    "VGIT":
+        '"Vanguard Intermediate-Term Treasury ETF" OR "VGIT ETF"',
+    "IEF":
+        '"iShares 7-10 Year Treasury Bond ETF" OR "IEF ETF"',
+    "BND":
+        '"Vanguard Total Bond Market ETF" OR "BND ETF"',
+    "BNDX":
+        '"Vanguard Total International Bond ETF" OR "BNDX ETF"',
+    "LQD":
+        '"iShares iBoxx Investment Grade Corporate Bond ETF" OR "LQD ETF"',
+    "HYG":
+        '"iShares iBoxx High Yield Corporate Bond ETF" OR "HYG ETF"',
+    "TIP":
+        '"iShares TIPS Bond ETF" OR "TIP ETF"',
+    "GRID":
+        '"First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund" OR "GRID ETF"',
+    "SHLD":
+        '"Global X Defense Tech ETF" OR "SHLD ETF"',
+    "BOTZ":
+        '"Global X Robotics & Artificial Intelligence ETF" OR "BOTZ ETF"',
+    "IGV":
+        '"iShares Expanded Tech-Software Sector ETF" OR "IGV ETF"',
+    "UFO":
+        '"Procure Space ETF" OR "UFO ETF"',
+    "SRVR":
+        '"Pacer Data & Infrastructure Real Estate ETF" OR "SRVR ETF"',
+    "XBI":
+        '"SPDR S&P Biotech ETF" OR "XBI ETF"',
+    "ICLN":
+        '"iShares Global Clean Energy ETF" OR "ICLN ETF"',
+    "SLV":
+        '"iShares Silver Trust" OR "SLV ETF"',
 
     # News Topic Search Overrides to prevent generic noise in Google News
     "AI":
@@ -316,6 +376,18 @@ FRED_SERIES: Dict[str, str] = {
     "BAA_SPREAD": "BAA10Y",  # Moody's Baa Corporate Spread over 10Y (From 1986)
     "AAA_SPREAD": "AAA10Y",  # Moody's Aaa Corporate Spread over 10Y (From 1983)
 
+    # Bond Market Deep-Dive (full curve, real yields, term premium, carry)
+    "FEDFUNDS_UPPER": "DFEDTARU",  # Fed Funds Target Upper Limit (daily)
+    "SOFR": "SOFR",  # Secured Overnight Financing Rate (floating-rate coupons)
+    "US03M": "DGS3MO",  # 3-Month T-Bill Yield (cash / SHV / GBIL proxy)
+    "US01Y": "DGS1",  # 1-Year Treasury Yield
+    "US05Y": "DGS5",  # 5-Year Treasury Yield (belly of the curve)
+    "US10Y_REAL": "DFII10",  # 10-Year TIPS Real Yield
+    "BREAKEVEN_10Y": "T10YIE",  # 10-Year Breakeven Inflation
+    "TERM_PREMIUM_10Y": "THREEFYTP10",  # Kim-Wright 10Y Term Premium
+    "HY_YIELD": "BAMLH0A0HYM2EY",  # ICE BofA US High Yield Effective Yield
+    "CORP_YIELD": "BAMLC0A0CMEY",  # ICE BofA US Corporate (IG) Effective Yield
+
     # Political Chaos, Geopolitical Risk & Systemic Stress Indices
     "US_POLICY_UNCERTAINTY":
         "USEPUINDXD",  # Daily US Economic Policy & Political Uncertainty
@@ -433,6 +505,14 @@ SKIP_EARNINGS: List[str] = [
 
     # Fixed Income & Preferred
     "PFFD", "PFXF", "FAGOX", "FASPX", "VBIL", "VUSB",
+
+    # Bonds & Rates (Wealthfront bond ETFs + duration/credit benchmarks)
+    "FLRN", "FLTR", "GBIL", "HYLB", "SCHO", "SHV", "SHY", "SHYG", "SJNK",
+    "USHY", "VCSH", "VGLT", "SGOV", "VGSH", "VGIT", "IEF", "BND", "BNDX",
+    "LQD", "HYG", "TIP",
+
+    # Thematic ETFs (sector-ETF report additions)
+    "GRID", "SHLD", "BOTZ", "IGV", "UFO", "SRVR", "XBI", "ICLN", "SLV",
 
     # Industry-Specific or Foreign Alternatives
     "BDRY", "COPX", "XLU",
@@ -659,10 +739,10 @@ class MarketFetcher:
     path.mkdir(parents=True, exist_ok=True)
     return path
 
-  def _update_single_ticker_prices(
-      self,
-      ticker: str,
-      start_date: str = config.DEFAULT_START_DATE) -> None:
+  def _update_single_ticker_prices(self,
+                                   ticker: str,
+                                   start_date: str = config.DEFAULT_START_DATE
+                                  ) -> None:
     """Updates price history for a single ticker (TSV)."""
     ticker_path = self.get_ticker_path(ticker)
     prices_file = ticker_path / PRICES_FILENAME
@@ -1118,13 +1198,16 @@ class MarketFetcher:
   def fetch_historical_topic_news(self,
                                   start_date: datetime.date,
                                   end_date: datetime.date,
-                                  thorough: bool = False) -> int:
+                                  thorough: bool = False,
+                                  targets: Optional[List[str]] = None) -> int:
     """
-    Fetches historical news for all topics defined in config.NEWS_TOPICS using Google News RSS.
-    Chunks the requests into intervals (90 days if thorough, 365 days default) to bypass the 100-result limit.
+    Fetches historical news for topics or tickers using Google News RSS.
+    Chunks the requests into intervals (90 days if thorough, 365 days default)
+    to bypass the 100-result limit.
     """
     total_added = 0
-    topics = getattr(config, 'NEWS_TOPICS', [])
+    topics = targets if targets is not None else getattr(
+        config, 'NEWS_TOPICS', [])
     if not topics:
       self.logger.warning("No NEWS_TOPICS defined in config.")
       return 0
@@ -1145,7 +1228,8 @@ class MarketFetcher:
         start_str = current_start.strftime("%Y-%m-%d")
         end_str = current_end.strftime("%Y-%m-%d")
 
-        safe_topic = urllib.parse.quote(topic)
+        query_term = TICKER_SEARCH_TERMS.get(topic, topic)
+        safe_topic = urllib.parse.quote(query_term)
         url = f"https://news.google.com/rss/search?q={safe_topic}+after:{start_str}+before:{end_str}&hl=en-US&gl=US&ceid=US:en"
 
         # Calculate dynamic cache expiry:
@@ -1175,20 +1259,16 @@ class MarketFetcher:
                 title_text = parts[0]
                 source_text = parts[1]
 
+              clean_title = title_text.strip().replace("\t",
+                                                       " ").replace("\n", " ")
               items.append({
-                  "date":
-                      dt,
-                  "date_str":
-                      dt.strftime('%Y-%m-%d %H:%M:%S'),
-                  "source":
-                      source_text.strip(),
-                  "title":
-                      title_text.strip().replace("\t", " ").replace("\n", " "),
-                  "link":
-                      entry.link,
-                  "summary":
-                      getattr(entry, "summary",
-                              "").replace("\t", " ").replace("\n", " ")
+                  "date": dt,
+                  "date_str": dt.strftime('%Y-%m-%d'),
+                  "source": source_text.strip(),
+                  "title": clean_title,
+                  "link": entry.link,
+                  "sentiment": self.get_sentiment_score(clean_title),
+                  "summary": ""
               })
             except Exception as e:
               self.logger.warning(
@@ -1205,6 +1285,7 @@ class MarketFetcher:
 
       self.logger.info(f"  + {topic_added} items for {topic}")
 
+    self.update_daily_sentiment(topics)
     return total_added
 
   def _update_single_ticker_news(self, ticker: str, feeds: Dict[str, str],
@@ -1266,10 +1347,11 @@ class MarketFetcher:
                 'stock', 'shares', 'earnings', 'dividend', 'revenue',
                 'quarterly', 'investor', 'nyse', 'nasdaq', 'sec', 'market',
                 'valuation', 'profit', 'rating', 'buy', 'sell', 'hold', 'etf',
-                'portfolio', 'caterpillar', 'ford', 'realty', 'agilent',
-                'servicenow', 'bloom', 'fastenal', 'keysight', 'plug',
-                'cloudflare', 'allstate', 'lowe', 'waste management',
-                'dominion', 'halliburton', 'applovin'
+                'portfolio', 'bond', 'treasury', 'yield', 'vanguard', 'ishares',
+                'spdr', 'tips', 'fixed income', 'credit', 'caterpillar', 'ford',
+                'realty', 'agilent', 'servicenow', 'bloom', 'fastenal',
+                'keysight', 'plug', 'cloudflare', 'allstate', 'lowe',
+                'waste management', 'dominion', 'halliburton', 'applovin'
             ]
             if not any(kw in text_lower for kw in fin_kw):
               continue
@@ -2133,8 +2215,12 @@ class MarketFetcher:
                                     pd.Timestamp.today().normalize()]
       # Forward fill missing lower-frequency data across daily dates
       combined_fred = combined_fred.ffill().round(4)
-      combined_fred.to_csv(macro_file, sep='\t')
-      self.logger.info("FRED data updated.")
+      # Atomic write: downstream report generators may be reading the
+      # file concurrently (make fetch runs them in the same pipeline).
+      tmp_file = macro_file.with_suffix(".tsv.tmp")
+      combined_fred.to_csv(tmp_file, sep='\t')
+      os.replace(tmp_file, macro_file)
+      self.logger.info("FRED data updated (%d series).", combined_fred.shape[1])
 
   def generate_data_stats(self) -> None:
     """Generates a markdown report of data health."""
