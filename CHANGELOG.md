@@ -5,6 +5,20 @@
 
 > **Note**: Newest on top. These versions map directly to the  `git tag` releases on the GitHub repository.
 
+## [v1.11.3] - 2026-10-13
+### Yahoo Finance Auth Hardening & Terminal Paste Resilience
+- **Auth verification file-safety** (`portfolios/yahoo_portfolio_fetcher.py`):
+  - Removed destructive `clear_curl_auth_file()` calls from `verify_yahoo_auth` and `--check-auth`. Stale `.env` credentials no longer truncate newly pasted cURL data in `portfolios/yahoo_auth_curl.txt`.
+- **Auto-ingestion on auth check** (`portfolios/yahoo_portfolio_fetcher.py`):
+  - When `--check-auth` detects expired `.env` credentials, it automatically checks `yahoo_auth_curl.txt`, updates `.env`, and verifies without prompting.
+- **Resilient browser cURL parsing** (`portfolios/yahoo_portfolio_fetcher.py`):
+  - Added support for modern Chrome `--url` and `-b` syntax, Windows continuations (`^`), trailing backslash spaces, and dual `user_id` GUID extraction (`OTH=` JWT and `T=` cookie).
+  - Added regex fallback to preserve complete cookie string if `shlex` encounters mismatched quotes.
+- **Interactive terminal paste buffer** (`portfolios/yahoo_portfolio_fetcher.py`):
+  - Expanded buffer timeout from 50ms to 400ms and stripped terminal bracketed-paste escape codes.
+- **Tests** (`portfolios/test_portfolio_pipeline.py`):
+  - Added test cases covering Chrome format, Windows/whitespace continuations, and verification file-safety.
+
 ## [v1.11.2] - 2026-10-12
 ### Performance, Real Maritime Transit (IMF PortWatch) & Pipeline Hardening
 - **Parallel price fetching** (`market_fetcher.py`):

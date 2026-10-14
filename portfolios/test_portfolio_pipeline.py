@@ -193,6 +193,48 @@ class TestPortfolioPipeline(unittest.TestCase):
       with open(test_auth_file, "r", encoding="utf-8") as f:
         self.assertEqual(f.read(), "")
 
+  def test_parse_curl_command_chrome_format(self):
+    """Test parse_curl_command handles Chrome --url and -b format."""
+    curl_str = (
+        "curl --url 'https://query1.finance.yahoo.com/v7/finance/desktop/"
+        "portfolio?crumb=DFx4cz5YIuM' \\\n"
+        "  -H 'accept: */*' \\\n"
+        "  -b 'A1=cookie_val; T=BZwEuser123' \\\n"
+        "  -H 'user-agent: Chrome/154.0'")
+    res = yahoo_portfolio_fetcher.parse_curl_command(curl_str)
+    self.assertEqual(res["crumb"], "DFx4cz5YIuM")
+    self.assertIn("A1=cookie_val", res["cookie"])
+    self.assertEqual(res["user_id"], "user123")
+    self.assertEqual(res["headers"]["accept"], "*/*")
+
+  def test_parse_curl_command_windows_and_trailing_spaces(self):
+    """Test parse_curl_command handles Windows continuations and spaces."""
+    curl_str = ("curl ^\r\n"
+                "  --url \"https://query1.finance.yahoo.com/v7/finance/desktop/"
+                "portfolio?crumb=mycrumb\" ^\r\n"
+                "  -b \"OTH=v=2; crumb_cookie=123\"")
+    res = yahoo_portfolio_fetcher.parse_curl_command(curl_str)
+    self.assertEqual(res["crumb"], "mycrumb")
+    self.assertIn("crumb_cookie=123", res["cookie"])
+
+  @patch("portfolios.yahoo_portfolio_fetcher.requests.get")
+  def test_verify_auth_failure_does_not_clear_file(self, mock_get):
+    """Test that verify_yahoo_auth 401 does NOT wipe CURL_AUTH_FILE."""
+    mock_resp = unittest.mock.MagicMock()
+    mock_resp.status_code = 401
+    mock_get.return_value = mock_resp
+
+    test_auth_file = os.path.join(self.temp_dir, "yahoo_auth_curl.txt")
+    with open(test_auth_file, "w", encoding="utf-8") as f:
+      f.write("curl pending_new_credentials")
+
+    with patch("portfolios.yahoo_portfolio_fetcher.CURL_AUTH_FILE",
+               test_auth_file):
+      result = yahoo_portfolio_fetcher.verify_yahoo_auth("stale_c", "stale_k")
+      self.assertFalse(result)
+      with open(test_auth_file, "r", encoding="utf-8") as f:
+        self.assertEqual(f.read(), "curl pending_new_credentials")
+
 
 if __name__ == '__main__':
   unittest.main()

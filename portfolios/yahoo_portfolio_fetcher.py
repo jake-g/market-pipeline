@@ -56,42 +56,52 @@ def parse_curl_command(curl_text: str) -> dict:
   """Extracts cookie, crumb, and userId from a cURL command."""
   try:
     # First, handle line continuations if the string was copy/pasted
-    curl_text = curl_text.replace('\\\n', ' ')
+    curl_text = re.sub(r'[\^\\/]?\s*[\r\n]+', ' ', curl_text).strip()
 
-    # Try shlex split, but if it fails due to mismatched quotes, just extract manually
+    # Try shlex split, but if it fails due to mismatched quotes, fallback
     try:
       parts = shlex.split(curl_text)
     except ValueError:
-      parts = curl_text.split()
+      parts = []
 
     url = ""
     cookie = ""
+    headers = {}
 
     for i, part in enumerate(parts):
-      if part.startswith('http'):
+      if part in ('--url',) and i + 1 < len(parts):
+        url = parts[i + 1]
+      elif part.startswith('http'):
         url = part
       elif part in ('-H', '--header') and i + 1 < len(parts):
         header = parts[i + 1]
         if ':' in header:
           key, val = header.split(":", 1)
-          key = key.strip()
-          val = val.strip()
-          if key.lower() == 'cookie':
-            cookie = val
+          headers[key.strip()] = val.strip()
+          if key.strip().lower() == 'cookie':
+            cookie = val.strip()
       elif part in ('-b', '--cookie') and i + 1 < len(parts):
         cookie = parts[i + 1]
+      elif part.startswith('-b') and len(part) > 2:
+        cookie = part[2:].strip()
+      elif part.startswith('--cookie='):
+        cookie = part.split('=', 1)[1].strip()
 
-    # If parsing failed, fallback to simple string matching
+    # If parsing failed to get URL, fallback to regex
     if not url:
-      # Just find the first thing starting with http
       url_match = re.search(r'(https?://[^\s\'"]+)', curl_text)
       if url_match:
         url = url_match.group(1)
 
+    if not url:
+      logger.error("Could not find a URL in the cURL command.")
+      return {}
+
+    # If cookie wasn't found or was truncated, extract via regex
     if not cookie:
-      # Try regex specifically for cookie header (-H "cookie: ...") or cookie flag (-b "...")
       cookie_match = re.search(
-          r'(?:-H|--header)\s+[\'"]?[Cc]ookie\s*:\s*([^\'"]+)[\'"]?|(?:-b|--cookie)\s+[\'"]?([^\'"]+)[\'"]?',
+          r'(?:-b|--cookie)\s+(?:=)?\s*[\'"]([^\'"]+)[\'"]|'
+          r'(?:-H|--header)\s+[\'"][Cc]ookie:\s*([^\'"]+)[\'"]',
           curl_text,
           re.IGNORECASE,
       )
@@ -100,18 +110,12 @@ def parse_curl_command(curl_text: str) -> dict:
         if matched:
           cookie = matched.strip()
 
-    if not url:
-      logger.error("Could not find a URL in the cURL command.")
-      return {}
-
-    # Extract ALL headers
-    headers = {}
-    for i, part in enumerate(parts):
-      if part in ('-H', '--header') and i + 1 < len(parts):
-        header = parts[i + 1]
-        if ':' in header:
-          key, val = header.split(":", 1)
-          headers[key.strip()] = val.strip()
+    # Fallback to extract headers via regex if shlex failed
+    if not headers:
+      for m in re.finditer(
+          r'(?:-H|--header)\s+[\'"]([^:\'"\r\n]+)\s*:\s*([^\'"\r\n]+)[\'"]',
+          curl_text):
+        headers[m.group(1).strip()] = m.group(2).strip()
 
     # If cookie wasn't in -b, check headers
     if not cookie and 'cookie' in (k.lower() for k in headers):
@@ -130,6 +134,12 @@ def parse_curl_command(curl_text: str) -> dict:
     crumb = query_params.get('crumb', [None])[0]
     user_id = query_params.get('userId', [None])[0]
 
+    # Crumb fallback: check if crumb is in the raw curl text
+    if not crumb:
+      crumb_match = re.search(r'crumb=([A-Za-z0-9_.~%+-]+)', curl_text)
+      if crumb_match:
+        crumb = crumb_match.group(1)
+
     if not user_id and cookie:
       try:
         for part in cookie.split(";"):
@@ -144,6 +154,11 @@ def parse_curl_command(curl_text: str) -> dict:
               if guid_match:
                 user_id = guid_match.group(1)
                 break
+          if "T=" in part and "BZwE" in part:
+            t_match = re.search(r"BZwE([A-Za-z0-9]+)", part)
+            if t_match:
+              user_id = t_match.group(1)
+              break
       except Exception:
         pass
 
@@ -276,14 +291,15 @@ def update_yahoo_credentials(env_path: str) -> bool:
       entry = input(
           "Press Enter once saved to file (or paste cURL directly here): "
       ).strip()
-      if entry.startswith("curl"):
+      if entry.startswith("curl") or "portfolio" in entry:
         lines = [entry]
-        while select.select([sys.stdin], [], [], 0.05)[0]:
+        while select.select([sys.stdin], [], [], 0.4)[0]:
           line = sys.stdin.readline()
           if not line:
             break
           lines.append(line)
         full_curl = "".join(lines).strip()
+        full_curl = re.sub(r'\x1b\[20[01]~', '', full_curl)
         with open(CURL_AUTH_FILE, "w", encoding="utf-8") as f:
           f.write(full_curl)
       return load_and_save_curl_from_file(env_path)
@@ -346,7 +362,6 @@ def verify_yahoo_auth(cookie: str,
                      allow_redirects=False,
                      impersonate="chrome")
     if r.status_code in (401, 403):
-      clear_curl_auth_file()
       logger.error("Yahoo Auth Failed - HTTP %d. Credentials likely stale.",
                    r.status_code)
       logger.error("To update credentials:")
@@ -489,6 +504,24 @@ def main():
     if has_creds:
       authed = verify_yahoo_auth(cookie, crumb, custom_headers=custom_headers)
 
+    if not authed:
+      if os.path.exists(CURL_AUTH_FILE) and os.path.getsize(CURL_AUTH_FILE) > 0:
+        logger.info("Found credentials in %s; attempting auto-update...",
+                    CURL_AUTH_FILE)
+        if load_and_save_curl_from_file(env_path):
+          load_env_file(env_path)
+          cookie = os.environ.get("YF_COOKIE")
+          crumb = os.environ.get("YF_CRUMB")
+          headers_str = os.environ.get("YF_HEADERS")
+          if headers_str:
+            try:
+              custom_headers = json.loads(headers_str)
+            except Exception:
+              pass
+          if cookie and crumb and verify_yahoo_auth(
+              cookie, crumb, custom_headers=custom_headers):
+            authed = True
+
     if authed:
       logger.info("✅ Yahoo Finance Auth Valid")
       sys.exit(0)
@@ -505,7 +538,6 @@ def main():
     logger.error("  2. Right-click the 'portfolio' request -> Copy as cURL")
     logger.error("  3. Paste into: %s", CURL_AUTH_FILE)
     logger.error("  4. Run 'make yahoo-creds' to update them.")
-    clear_curl_auth_file()
 
     if sys.stdin.isatty():
       logger.info("\n🔄 Interactive session detected. Starting update flow...")
