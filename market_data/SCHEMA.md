@@ -22,23 +22,23 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-10-13 |
+| Date | str | 2026-10-14 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | FXI Dec 2026 26.000 call (FXI261218C00026000) i... |
-| Summary | str | International ETFs are outperforming the S&amp;... |
-| URL | str | https://news.google.com/rss/articles/CBMibEFVX3... |
+| Headline | str | China resumes U.S. soybean buying with 8-10 car... |
+| Summary | str | Markets have been rising globally, with the exc... |
+| URL | str | https://news.google.com/rss/articles/CBMiugFBVV... |
 
-## 2. Topic Files (Example: `Memory Shortage`)
+## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2025-12-02 |
-| Source | str | Google |
-| Sentiment | float64 | 0.0 |
-| Headline | str | The AI frenzy is driving a memory chip supply c... |
+| Date | str | 2024-01-17 |
+| Source | str | JLL |
+| Sentiment | float64 | 0.2 |
+| Headline | str | Getting data centers ready for the AI boom |
 | Summary | float64 | nan |
-| URL | str | https://news.google.com/rss/articles/CBMioAFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMigwFBVV... |
 
 ## 2. Macro Files
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
@@ -90,6 +90,16 @@ This report documents the file structures and column data types used in `market_
 | CORP_SPREAD | float64 | 0.82 |
 | BAA_SPREAD | float64 | 1.48 |
 | AAA_SPREAD | float64 | 1.03 |
+| FEDFUNDS_UPPER | float64 | 4.0 |
+| SOFR | float64 | 3.87 |
+| US03M | float64 | 4.25 |
+| US01Y | float64 | 4.47 |
+| US05Y | float64 | 5.02 |
+| US10Y_REAL | float64 | 2.91 |
+| BREAKEVEN_10Y | float64 | 2.33 |
+| TERM_PREMIUM_10Y | float64 | 1.0729 |
+| HY_YIELD | float64 | 8.09 |
+| CORP_YIELD | float64 | 5.96 |
 | US_POLICY_UNCERTAINTY | float64 | 242.69 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 358.5228 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |

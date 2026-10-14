@@ -1,6 +1,6 @@
 # Macroeconomic Regime Report
 
-*Generated 2026-10-13. All statistics are computed on
+*Generated 2026-10-14. All statistics are computed on
 native FRED observations (not the forward-filled daily grid); Δ columns are
 percentage changes for levels and percentage-point (pp) changes for rates,
 spreads and ratios.*
