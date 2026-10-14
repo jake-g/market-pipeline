@@ -1,8 +1,9 @@
 # Manually allow reportsd to be pushed to git
 !02-25_earnings_NVDA_trade*
+!03-02_example_intrinsic_value_report*
 !03-10_earnings_ORCL_analysis*
-!intrinsic_value_analysis*
 !08-22_strategy_open_models*
+!09-14_strategy_sector_based_etfs*
 
 # Explicitly track market intelligence reports
 !*_REPORT.md

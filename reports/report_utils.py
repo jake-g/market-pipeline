@@ -2845,6 +2845,431 @@ def household_allocation(tsv_paths: Dict[str, str]) -> pd.DataFrame:
   return out
 
 
+# ==========================================
+# PORTFOLIO CONSTRUCTION & CROSS-ASSET DIAGNOSTICS
+# ==========================================
+# Return-based tools for comparing a universe of funds: correlation
+# clustering (no scipy needed), factor regressions ("how much of this ETF is
+# just the market?"), diversification math, capture ratios, macro
+# sensitivities, random-portfolio frontiers and fixed-weight backtests.
+
+
+def load_close_matrix(tickers: Sequence[str],
+                      tickers_dir: str,
+                      start: Optional[Any] = None,
+                      end: Optional[Any] = None) -> pd.DataFrame:
+  """Loads a Date x Ticker matrix of (dividend-adjusted) closes.
+
+  Args:
+    tickers (Sequence[str]): Tickers with ``prices.tsv`` under tickers_dir.
+    tickers_dir (str): ``market_data/tickers``.
+    start (Optional[Any]): Inclusive start date.
+    end (Optional[Any]): Inclusive end date.
+
+  Returns:
+    pd.DataFrame: Sorted DatetimeIndex, one float column per ticker found.
+  """
+  data: Dict[str, pd.Series] = {}
+  for t in tickers:
+    path = os.path.join(tickers_dir, t, "prices.tsv")
+    if not os.path.exists(path):
+      logger.warning("Price history missing for %s", t)
+      continue
+    df = pd.read_csv(path, sep="\t")
+    if "Date" not in df.columns or "Close" not in df.columns:
+      continue
+    df["Date"] = pd.to_datetime(df["Date"])
+    df = df.sort_values("Date").drop_duplicates("Date").set_index("Date")
+    data[t] = pd.to_numeric(df["Close"], errors="coerce")
+  out = pd.DataFrame(data).sort_index()
+  if start is not None:
+    out = out.loc[pd.Timestamp(start):]
+  if end is not None:
+    out = out.loc[:pd.Timestamp(end)]
+  return out
+
+
+def periodic_returns(prices: pd.DataFrame, freq: str = "W-FRI") -> pd.DataFrame:
+  """Simple returns at a lower frequency (last price per period).
+
+  Args:
+    prices (pd.DataFrame): Daily closes.
+    freq (str): Pandas offset alias (``W-FRI``, ``ME`` …); ``D`` keeps daily.
+
+  Returns:
+    pd.DataFrame: Period returns with the first NaN row dropped.
+  """
+  px = prices if freq == "D" else prices.resample(freq).last()
+  return px.pct_change().iloc[1:]
+
+
+def perf_stats(prices: pd.Series,
+               periods_per_year: int = 252,
+               rf: float = 0.04) -> Dict[str, float]:
+  """CAGR / vol / Sharpe / max drawdown / Calmar for a price or NAV series.
+
+  Args:
+    prices (pd.Series): Price or NAV series (DatetimeIndex).
+    periods_per_year (int): 252 daily, 52 weekly, 12 monthly.
+    rf (float): Annual risk-free rate used in the Sharpe ratio.
+
+  Returns:
+    Dict[str, float]: ``cagr, vol, sharpe, max_dd, calmar, total_return``
+    (all in percent except sharpe/calmar).
+  """
+  s = prices.dropna()
+  if len(s) < 2:
+    return {
+        k: float("nan")
+        for k in ("cagr", "vol", "sharpe", "max_dd", "calmar", "total_return")
+    }
+  rets = s.pct_change().dropna()
+  years = len(rets) / periods_per_year
+  total = float(s.iloc[-1] / s.iloc[0] - 1)
+  cagr = (1 + total)**(1 / years) - 1 if years > 0 else float("nan")
+  vol = float(rets.std() * np.sqrt(periods_per_year))
+  sharpe = (cagr - rf) / vol if vol > 0 else float("nan")
+  dd = float((s / s.cummax() - 1).min())
+  calmar = cagr / abs(dd) if dd < 0 else float("nan")
+  return {
+      "cagr": cagr * 100,
+      "vol": vol * 100,
+      "sharpe": sharpe,
+      "max_dd": dd * 100,
+      "calmar": calmar,
+      "total_return": total * 100,
+  }
+
+
+def cluster_order(corr: pd.DataFrame) -> List[str]:
+  """Orders labels by average-linkage hierarchical clustering (pure numpy).
+
+  Distance = 1 − correlation. Clusters are merged greedily and the leaf
+  order of the final tree is returned, which puts correlated assets next to
+  each other in a heatmap.
+
+  Args:
+    corr (pd.DataFrame): Square correlation matrix.
+
+  Returns:
+    List[str]: Column labels in dendrogram leaf order.
+  """
+  labels = list(corr.columns)
+  n = len(labels)
+  if n <= 2:
+    return labels
+  dist = 1.0 - corr.values.astype(float)
+  clusters: List[List[int]] = [[i] for i in range(n)]
+  while len(clusters) > 1:
+    best, pair = np.inf, (0, 1)
+    for a, ca in enumerate(clusters):
+      for b in range(a + 1, len(clusters)):
+        d = dist[np.ix_(ca, clusters[b])].mean()
+        if d < best:
+          best, pair = d, (a, b)
+    a, b = pair
+    merged = clusters[a] + clusters[b]
+    clusters = [c for i, c in enumerate(clusters) if i not in pair] + [merged]
+  return [labels[i] for i in clusters[0]]
+
+
+def factor_regression(returns: pd.DataFrame,
+                      factors: pd.DataFrame,
+                      periods_per_year: int = 52) -> pd.DataFrame:
+  """OLS of each asset on a set of factor returns.
+
+  Args:
+    returns (pd.DataFrame): Asset returns (same frequency as factors).
+    factors (pd.DataFrame): Factor returns (e.g. market, growth−value,
+      semis−market). Aligned on the index.
+    periods_per_year (int): For annualising alpha.
+
+  Returns:
+    pd.DataFrame: One row per asset with ``beta_<factor>`` columns,
+    ``alpha_ann_%``, ``r2`` and ``unique_var_%`` (= 100·(1−R²), the share of
+    variance the factors do *not* explain).
+  """
+  rows = []
+  for col in returns.columns:
+    df = pd.concat([returns[col], factors], axis=1).dropna()
+    if len(df) < 20:
+      continue
+    y = df.iloc[:, 0].to_numpy(dtype=float)
+    x = np.column_stack(
+        [np.ones(len(df)), df.iloc[:, 1:].to_numpy(dtype=float)])
+    coef, _, _, _ = np.linalg.lstsq(x, y, rcond=None)
+    fitted = x @ coef
+    ss_res = float(((y - fitted)**2).sum())
+    ss_tot = float(((y - y.mean())**2).sum())
+    r2 = 1 - ss_res / ss_tot if ss_tot > 0 else float("nan")
+    row: Dict[str, Any] = {"Ticker": col}
+    for name, b in zip(factors.columns, coef[1:]):
+      row[f"beta_{name}"] = round(float(b), 3)
+    row["alpha_ann_%"] = round(float(coef[0]) * periods_per_year * 100, 2)
+    row["r2"] = round(r2, 3)
+    row["unique_var_%"] = round((1 - r2) * 100, 1)
+    row["n"] = len(df)
+    rows.append(row)
+  return pd.DataFrame(rows).set_index("Ticker")
+
+
+def effective_number_of_bets(weights: pd.Series, cov: pd.DataFrame) -> float:
+  """Meucci effective number of bets from principal-portfolio risk shares.
+
+  Computed on the covariance of the *held* assets only, so a single-asset
+  portfolio scores exactly 1 regardless of the surrounding universe.
+
+  Args:
+    weights (pd.Series): Portfolio weights indexed like ``cov``.
+    cov (pd.DataFrame): Covariance matrix of asset returns.
+
+  Returns:
+    float: Between 1 (one bet) and N (N independent equal bets).
+  """
+  w_full = weights.reindex(cov.index).fillna(0).astype(float)
+  held = w_full[w_full.abs() > 1e-12].index
+  if len(held) == 0:
+    return float("nan")
+  sub = cov.loc[held, held].values
+  w = w_full[held].values
+  eigval, eigvec = np.linalg.eigh(sub)
+  eigval = np.clip(eigval, 0, None)
+  pw = eigvec.T @ w
+  contrib = (pw**2) * eigval
+  total = contrib.sum()
+  if total <= 0:
+    return float("nan")
+  p = contrib / total
+  p = p[p > 0]
+  return float(np.exp(-(p * np.log(p)).sum()))
+
+
+def diversification_ratio(weights: pd.Series, cov: pd.DataFrame) -> float:
+  """Weighted average vol divided by portfolio vol (1 = no diversification)."""
+  w = weights.reindex(cov.index).fillna(0).values.astype(float)
+  vols = np.sqrt(np.diag(cov.values))
+  port_vol = float(np.sqrt(w @ cov.values @ w))
+  return float((w * vols).sum() / port_vol) if port_vol > 0 else float("nan")
+
+
+def marginal_diversification(returns: pd.DataFrame,
+                             core: str,
+                             weight: float = 0.10,
+                             periods_per_year: int = 52) -> pd.DataFrame:
+  """Effect of carving ``weight`` of a core holding into each other asset.
+
+  Args:
+    returns (pd.DataFrame): Periodic returns incl. the core column.
+    core (str): Core ticker (e.g. ``VTI``).
+    weight (float): Share moved from core into the satellite.
+    periods_per_year (int): For annualising.
+
+  Returns:
+    pd.DataFrame: Per satellite: ``corr_core, beta_core, d_vol_pp,
+    d_return_pp, d_sharpe`` (changes vs. 100% core) and ``d_max_dd_pp``.
+  """
+  core_r = returns[core].dropna()
+  base_nav = (1 + core_r).cumprod()
+  base = perf_stats(base_nav, periods_per_year)
+  rows = []
+  for col in returns.columns:
+    if col == core:
+      continue
+    df = pd.concat([core_r, returns[col]], axis=1).dropna()
+    if len(df) < 26:
+      continue
+    blend = (1 - weight) * df.iloc[:, 0] + weight * df.iloc[:, 1]
+    b_nav = (1 + blend).cumprod()
+    c_nav = (1 + df.iloc[:, 0]).cumprod()
+    bs, cs = perf_stats(b_nav,
+                        periods_per_year), perf_stats(c_nav, periods_per_year)
+    cov = np.cov(df.iloc[:, 1], df.iloc[:, 0])
+    beta = cov[0, 1] / cov[1, 1] if cov[1, 1] > 0 else float("nan")
+    rows.append({
+        "Ticker": col,
+        "corr_core": round(float(df.corr().to_numpy()[0, 1]), 3),
+        "beta_core": round(float(beta), 2),
+        "d_vol_pp": round(bs["vol"] - cs["vol"], 2),
+        "d_return_pp": round(bs["cagr"] - cs["cagr"], 2),
+        "d_sharpe": round(bs["sharpe"] - cs["sharpe"], 3),
+        "d_max_dd_pp": round(bs["max_dd"] - cs["max_dd"], 2),
+        "n": len(df),
+    })
+  out = pd.DataFrame(rows).set_index("Ticker")
+  out.attrs["core_stats"] = base
+  return out
+
+
+def capture_ratios(returns: pd.DataFrame, bench: str) -> pd.DataFrame:
+  """Up / down capture of each asset vs. a benchmark (periodic returns).
+
+  Args:
+    returns (pd.DataFrame): Periodic returns including ``bench``.
+    bench (str): Benchmark column.
+
+  Returns:
+    pd.DataFrame: ``up_capture, down_capture, capture_spread`` (%), and
+    ``hit_rate_down`` (% of benchmark-down periods the asset was positive).
+  """
+  b = returns[bench]
+  up, down = b > 0, b < 0
+  rows = []
+  for col in returns.columns:
+    if col == bench:
+      continue
+    a = returns[col]
+    m = a.notna() & b.notna()
+    if m.sum() < 20:
+      continue
+    uc = a[m & up].mean() / b[m & up].mean() * 100 if (m & up).any() else np.nan
+    dc = a[m & down].mean() / b[m & down].mean() * 100 if (m & down).any() \
+        else np.nan
+    rows.append({
+        "Ticker": col,
+        "up_capture": round(float(uc), 1),
+        "down_capture": round(float(dc), 1),
+        "capture_spread": round(float(uc - dc), 1),
+        "hit_rate_down": round(float((a[m & down] > 0).mean() * 100), 0),
+    })
+  return pd.DataFrame(rows).set_index("Ticker")
+
+
+def macro_sensitivities(returns: pd.DataFrame,
+                        macro: pd.DataFrame,
+                        spec: Dict[str, Tuple[str, str]],
+                        freq: str = "ME") -> pd.DataFrame:
+  """Correlation of asset returns with macro-driver changes.
+
+  Args:
+    returns (pd.DataFrame): Periodic asset returns sampled at ``freq``.
+    macro (pd.DataFrame): Daily macro frame (see :func:`load_macro_frame`).
+    spec (Dict[str, Tuple[str, str]]): label -> (macro column, mode) where
+      mode is ``"diff"`` (level change, for rates/spreads) or ``"pct"``
+      (percent change, for prices/indices).
+    freq (str): Resample alias matching ``returns`` (``ME``, ``W-FRI`` …).
+
+  Returns:
+    pd.DataFrame: Rows = assets, columns = driver labels, values = Pearson
+    correlation of the asset's periodic return with the driver's change.
+  """
+  freq_px = macro.resample(freq).last()
+  drivers = {}
+  for label, (col, mode) in spec.items():
+    if col not in macro.columns:
+      continue
+    s = freq_px[col]
+    drivers[label] = s.diff() if mode == "diff" else s.pct_change()
+  d = pd.DataFrame(drivers)
+  out = {}
+  for col in returns.columns:
+    r = returns[col]
+    row = {}
+    for label in d.columns:
+      j = pd.concat([r, d[label]], axis=1, join="inner").dropna()
+      row[label] = round(float(j.corr().to_numpy()[0, 1]), 2) \
+          if len(j) > 12 else np.nan
+    out[col] = row
+  return pd.DataFrame(out).T
+
+
+def backtest_fixed_weights(prices: pd.DataFrame,
+                           weights: Dict[str, float],
+                           rebalance: str = "ME",
+                           start: Optional[Any] = None) -> pd.Series:
+  """NAV of a fixed-weight portfolio rebalanced at period ends.
+
+  Args:
+    prices (pd.DataFrame): Daily closes (columns ⊇ weights).
+    weights (Dict[str, float]): Ticker -> weight (normalised internally).
+    rebalance (str): Pandas offset alias for rebalance frequency.
+    start (Optional[Any]): Start date (default: first date where all
+      weighted tickers have data).
+
+  Returns:
+    pd.Series: NAV starting at 100.
+  """
+  cols = [c for c in weights if c in prices.columns]
+  px = prices[cols].dropna()
+  if start is not None:
+    px = px.loc[pd.Timestamp(start):]
+  w = np.array([weights[c] for c in cols], dtype=float)
+  w = w / w.sum()
+  rets = px.pct_change().fillna(0.0)
+  periods = rets.groupby(pd.Grouper(freq=rebalance))
+  nav_vals: List[float] = []
+  nav = 100.0
+  for _, grp in periods:
+    if grp.empty:
+      continue
+    growth = (1 + grp).cumprod()
+    port = (growth * w).sum(axis=1)  # within-period drift from start weights
+    nav_vals.extend((nav * port).tolist())
+    nav = nav * float(port.iloc[-1])
+  return pd.Series(nav_vals, index=rets.index[:len(nav_vals)], name="NAV")
+
+
+def random_portfolio_cloud(returns: pd.DataFrame,
+                           n: int = 4000,
+                           periods_per_year: int = 52,
+                           seed: int = 7,
+                           max_weight: float = 0.4) -> pd.DataFrame:
+  """Long-only random portfolios for a return/vol frontier scatter.
+
+  Args:
+    returns (pd.DataFrame): Periodic returns (NaNs dropped row-wise).
+    n (int): Number of portfolios.
+    periods_per_year (int): For annualising.
+    seed (int): RNG seed.
+    max_weight (float): Rejection cap on any single weight.
+
+  Returns:
+    pd.DataFrame: ``vol, ret, sharpe, enb`` plus one weight column per asset.
+  """
+  r = returns.dropna()
+  mu = r.mean().to_numpy(dtype=float) * periods_per_year
+  cov = r.cov() * periods_per_year
+  rng = np.random.default_rng(seed)
+  rows: List[Dict[str, Any]] = []
+  k = r.shape[1]
+  while len(rows) < n:
+    w = rng.dirichlet(np.ones(k) * 0.6)
+    if w.max() > max_weight:
+      continue
+    vol = float(np.sqrt(w @ cov.values @ w))
+    ret = float(w @ mu)
+    rows.append({
+        "vol": vol * 100,
+        "ret": ret * 100,
+        "sharpe": (ret - 0.04) / vol if vol > 0 else np.nan,
+        "enb": effective_number_of_bets(pd.Series(w, index=r.columns), cov),
+        **{
+            f"w_{c}": wi for c, wi in zip(r.columns, w)
+        },
+    })
+  return pd.DataFrame(rows)
+
+
+def portfolio_point(returns: pd.DataFrame,
+                    weights: Dict[str, float],
+                    periods_per_year: int = 52) -> Dict[str, float]:
+  """Annualised return / vol / Sharpe / ENB of a fixed-weight portfolio."""
+  cols = [c for c in weights if c in returns.columns]
+  r = returns[cols].dropna()
+  w = pd.Series([weights[c] for c in cols], index=cols, dtype=float)
+  w = w / w.sum()
+  mu = r.mean() * periods_per_year
+  cov = r.cov() * periods_per_year
+  vol = float(np.sqrt(w.values @ cov.values @ w.values))
+  ret = float((w * mu).sum())
+  return {
+      "ret": ret * 100,
+      "vol": vol * 100,
+      "sharpe": (ret - 0.04) / vol if vol > 0 else float("nan"),
+      "enb": effective_number_of_bets(w, cov),
+      "div_ratio": diversification_ratio(w, cov),
+  }
+
+
 if __name__ == "__main__":
   import argparse
   parser = argparse.ArgumentParser(description="Report utilities CLI")

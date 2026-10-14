@@ -14,17 +14,27 @@ import numpy as np
 import pandas as pd
 
 from reports.report_utils import after_tax_yield
+from reports.report_utils import backtest_fixed_weights
 from reports.report_utils import build_ticker_context_markdown
+from reports.report_utils import capture_ratios
 from reports.report_utils import classify_holding
+from reports.report_utils import cluster_order
 from reports.report_utils import compute_sector_summary
 from reports.report_utils import conditional_base_rates
 from reports.report_utils import curve_snapshot
+from reports.report_utils import effective_number_of_bets
+from reports.report_utils import factor_regression
 from reports.report_utils import format_macro_summary_md
 from reports.report_utils import generate_sector_risk_return_plot
 from reports.report_utils import get_news_sentiment_summary
 from reports.report_utils import hike_pricing
 from reports.report_utils import load_macro_snapshot
 from reports.report_utils import macro_asof
+from reports.report_utils import marginal_diversification
+from reports.report_utils import perf_stats
+from reports.report_utils import periodic_returns
+from reports.report_utils import portfolio_point
+from reports.report_utils import random_portfolio_cloud
 from reports.report_utils import rate_shock_grid
 from reports.report_utils import rate_shock_return
 from reports.report_utils import rates_change_table
@@ -481,6 +491,88 @@ class TestRatesMarketStructure(unittest.TestCase):
         classify_holding("Inst Tot Bd Mkt Ix Tr", "Inst Tot Bd Mkt Ix Tr"),
         "Bond")
     self.assertEqual(classify_holding("NVDA"), "Equity")
+
+
+# ==========================================
+# PORTFOLIO CONSTRUCTION & CROSS-ASSET DIAGNOSTICS
+# ==========================================
+
+
+def _price_panel(n: int = 400, seed: int = 1) -> pd.DataFrame:
+  """Daily prices: MKT, a clone of MKT, a levered MKT and an independent asset."""
+  rng = np.random.default_rng(seed)
+  idx = pd.bdate_range("2023-01-02", periods=n)
+  mkt = rng.normal(0.0004, 0.01, n)
+  indep = rng.normal(0.0003, 0.012, n)
+  rets = pd.DataFrame(
+      {
+          "MKT": mkt,
+          "CLONE": mkt + rng.normal(0, 0.0005, n),
+          "LEVER": 1.6 * mkt + rng.normal(0, 0.004, n),
+          "INDEP": indep,
+      },
+      index=idx)
+  return 100 * (1 + rets).cumprod()
+
+
+class TestPortfolioDiagnostics(unittest.TestCase):
+  """Tests for clustering, factor regression, ENB, capture and backtests."""
+
+  def setUp(self):
+    self.px = _price_panel()
+    self.weekly = periodic_returns(self.px, "W-FRI")
+
+  def test_perf_stats_flat_series(self):
+    s = pd.Series(100.0, index=pd.bdate_range("2024-01-01", periods=300))
+    st = perf_stats(s)
+    self.assertAlmostEqual(st["cagr"], 0.0)
+    self.assertAlmostEqual(st["max_dd"], 0.0)
+
+  def test_cluster_order_groups_clone_with_market(self):
+    order = cluster_order(self.weekly.corr())
+    self.assertEqual(set(order), set(self.weekly.columns))
+    self.assertEqual(abs(order.index("MKT") - order.index("CLONE")), 1)
+
+  def test_factor_regression_r2(self):
+    fr = factor_regression(self.weekly[["CLONE", "INDEP"]],
+                           self.weekly[["MKT"]])
+    self.assertGreater(fr.loc["CLONE", "r2"], 0.95)
+    self.assertLess(fr.loc["INDEP", "r2"], 0.2)
+    self.assertAlmostEqual(fr.loc["CLONE", "beta_MKT"], 1.0, delta=0.1)
+
+  def test_effective_bets_bounds(self):
+    cov = self.weekly.cov()
+    one = effective_number_of_bets(pd.Series({"MKT": 1.0}), cov)
+    self.assertAlmostEqual(one, 1.0, places=3)
+    mixed = effective_number_of_bets(pd.Series({"MKT": 0.5, "INDEP": 0.5}), cov)
+    self.assertGreater(mixed, 1.5)
+    self.assertLessEqual(mixed, 2.01)
+
+  def test_marginal_diversification_independent_asset_cuts_vol(self):
+    md = marginal_diversification(self.weekly, "MKT", weight=0.2)
+    self.assertLess(md.loc["INDEP", "d_vol_pp"], 0)
+    self.assertGreater(md.loc["LEVER", "d_vol_pp"], 0)
+
+  def test_capture_ratios_levered(self):
+    cp = capture_ratios(self.weekly, "MKT")
+    self.assertGreater(cp.loc["LEVER", "up_capture"], 130)
+    self.assertGreater(cp.loc["LEVER", "down_capture"], 130)
+
+  def test_backtest_single_asset_tracks_price(self):
+    nav = backtest_fixed_weights(self.px, {"MKT": 1.0}, "ME")
+    ratio = nav.iloc[-1] / 100
+    expected = self.px["MKT"].iloc[-1] / self.px["MKT"].iloc[0]
+    self.assertAlmostEqual(ratio, expected, places=6)
+
+  def test_random_cloud_and_point(self):
+    cloud = random_portfolio_cloud(self.weekly, n=50, seed=3)
+    self.assertEqual(len(cloud), 50)
+    self.assertTrue(
+        (cloud[[c for c in cloud.columns if c.startswith("w_")]].sum(axis=1) -
+         1).abs().max() < 1e-9)
+    pt = portfolio_point(self.weekly, {"MKT": 50, "INDEP": 50})
+    self.assertIn("enb", pt)
+    self.assertGreater(pt["enb"], 1.5)
 
 
 if __name__ == "__main__":
