@@ -277,7 +277,10 @@ private-status:
 
 private-add:
 	@$(PRIVATE_GIT) add .
-	@$(PRIVATE_GIT) add -f reports/ portfolios/ 2>/dev/null || true
+	@$(PRIVATE_GIT) add -f -- reports/ portfolios/ \
+		':!reports/backups/**' ':!reports/rendered/**' \
+		':!**/*.pdf' ':!**/*.zip' ':!**/*.stub' \
+		':!**/__pycache__/**' ':!**/*.pyc' 2>/dev/null || true
 
 private-commit: private-add
 	@$(PRIVATE_GIT) commit -m "update private market data and reports" || true
