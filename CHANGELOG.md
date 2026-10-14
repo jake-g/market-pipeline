@@ -7,6 +7,10 @@
 
 ## [v1.11.3] - 2026-10-13
 ### Yahoo Finance Auth Hardening & Terminal Paste Resilience
+- **Bonds & Rates addendum** (same day):
+  - `config.SECTORS["Bonds & Rates"]` (Wealthfront bond ETFs + SGOV/VGSH/VGIT/IEF/BND/BNDX/LQD/HYG/TIP, backfilled to 2018) and ten FRED series (`FEDFUNDS_UPPER`, `SOFR`, `US03M`, `US01Y`, `US05Y`, `US10Y_REAL`, `BREAKEVEN_10Y`, `TERM_PREMIUM_10Y`, `HY_YIELD`, `CORP_YIELD`); `update_macro` now writes the TSV atomically.
+  - `reports/report_utils.py`: generic rates helpers (curve snapshots, hike pricing, carry/duration/convexity shocks, synthetic constant-maturity Treasury history for starting-yield base rates, stock-vs-bond valuation, after-tax yield, household allocation) with tests.
+  - `reports/generate_bond_reports.py`: bond-account report generator behind `reports/10-13_portfolio_bond_yields` (private).
 - **Auth verification file-safety** (`portfolios/yahoo_portfolio_fetcher.py`):
   - Removed destructive `clear_curl_auth_file()` calls from `verify_yahoo_auth` and `--check-auth`. Stale `.env` credentials no longer truncate newly pasted cURL data in `portfolios/yahoo_auth_curl.txt`.
 - **Auto-ingestion on auth check** (`portfolios/yahoo_portfolio_fetcher.py`):

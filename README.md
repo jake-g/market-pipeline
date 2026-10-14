@@ -204,6 +204,7 @@ The pipeline computes several advanced metrics natively during fetching and repo
 - **Discount to Intrinsic Value**: Ranks tickers by how undervalued they are compared to their Graham Value.
 - **Technical Indicators**: Calculates dynamic RSI, MACD, MA Crossovers, and Distance to 200MA.
 - **Options IV Crush Risk**: Analyzes historical post-earnings volatility contraction.
+- **Rates & Fixed Income**: Treasury-curve snapshots, 10Y decomposition (TIPS real yield, breakeven, term premium), hikes-priced read of the front end, carry/duration/convexity shock math, a synthetic constant-maturity Treasury total-return history (1962+) for starting-yield base rates, stock-vs-bond valuation and after-tax yield helpers.
 
 ### Generalized Utilities
 - `reports/report_utils.py`: A shared module containing core mathematical functions (RSI, MACD), plotting aesthetics, and automatic `privacy_mode` redaction overlays used by downstream scripts.

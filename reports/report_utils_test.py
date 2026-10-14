@@ -13,13 +13,25 @@ from unittest.mock import patch
 import numpy as np
 import pandas as pd
 
+from reports.report_utils import after_tax_yield
 from reports.report_utils import build_ticker_context_markdown
+from reports.report_utils import classify_holding
 from reports.report_utils import compute_sector_summary
+from reports.report_utils import conditional_base_rates
+from reports.report_utils import curve_snapshot
 from reports.report_utils import format_macro_summary_md
 from reports.report_utils import generate_sector_risk_return_plot
 from reports.report_utils import get_news_sentiment_summary
+from reports.report_utils import hike_pricing
 from reports.report_utils import load_macro_snapshot
+from reports.report_utils import macro_asof
+from reports.report_utils import rate_shock_grid
+from reports.report_utils import rate_shock_return
+from reports.report_utils import rates_change_table
 from reports.report_utils import render_markdown_to_pdf
+from reports.report_utils import starting_yield_table
+from reports.report_utils import stock_bond_valuation
+from reports.report_utils import synthetic_bond_total_return
 
 
 class TestComputeSectorSummary(unittest.TestCase):
@@ -321,8 +333,7 @@ class TestRenderMarkdownCli(unittest.TestCase):
     with open(md_file, "w") as f:
       f.write("# Sample Header\n\nSample content for PDF test.\n")
 
-    repo_root = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), ".."))
+    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     script_path = os.path.join(repo_root, "reports", "report_utils.py")
     proc = subprocess.run([
         sys.executable, script_path, "--render", md_file, "--output", pdf_file
@@ -333,6 +344,143 @@ class TestRenderMarkdownCli(unittest.TestCase):
     self.assertEqual(proc.returncode, 0, f"CLI failed: {proc.stderr}")
     self.assertTrue(os.path.exists(pdf_file))
     self.assertGreater(os.path.getsize(pdf_file), 0)
+
+
+# ==========================================
+# MACRO ACCESS, RATES MATH & CROSS-ASSET HELPERS
+# ==========================================
+
+
+def _macro_frame() -> pd.DataFrame:
+  """Small daily macro frame mimicking economic_indicators.tsv."""
+  idx = pd.date_range("2026-01-01", periods=5, freq="D")
+  return pd.DataFrame(
+      {
+          "FEDFUNDS_UPPER": [3.75, 3.75, 4.0, 4.0, 4.0],
+          "FEDFUNDS": [3.63] * 5,
+          "SOFR": [3.6, 3.6, 3.87, 3.87, 3.87],
+          "US03M": [3.7, 3.8, 4.0, 4.2, 4.25],
+          "US01Y": [3.8, 3.9, 4.2, 4.4, 4.47],
+          "US02Y": [3.8, 4.0, 4.4, 4.7, 4.75],
+          "US05Y": [3.9, 4.2, 4.7, 5.0, 5.02],
+          "US10Y": [4.3, 4.6, 5.0, 5.2, 5.22],
+          "US30Y": [4.9, 5.1, 5.4, 5.6, 5.6],
+          "US10Y_REAL": [1.9, 2.2, 2.6, 2.9, 2.91],
+          "BREAKEVEN_10Y": [2.4, 2.4, 2.4, 2.3, 2.33],
+          "TERM_PREMIUM_10Y": [0.6, 0.7, 0.9, 1.0, 1.07],
+          "HY_SPREAD": [2.9, 2.8, 2.7, 3.1, 3.15],
+          "HY_YIELD": [6.9, 7.0, 7.4, 8.0, 8.09],
+          "CORP_YIELD": [5.0, 5.2, 5.6, 5.9, 5.96],
+      },
+      index=idx)
+
+
+class TestSyntheticBondTotalReturn(unittest.TestCase):
+  """Tests for the constant-maturity synthetic bond index."""
+
+  def test_flat_yields_return_the_coupon(self):
+    """With unchanged yields the par bond earns exactly its yield."""
+    idx = pd.date_range("2000-01-01", periods=13, freq="MS")
+    tr = synthetic_bond_total_return(pd.Series(6.0, index=idx), 10)
+    annual = tr.iloc[-1] / tr.iloc[0] - 1
+    self.assertAlmostEqual(annual, (1 + 0.06 / 12)**12 - 1, places=6)
+
+  def test_rising_yields_lose_money_short_term(self):
+    idx = pd.date_range("2000-01-01", periods=2, freq="MS")
+    tr = synthetic_bond_total_return(pd.Series([4.0, 5.0], index=idx), 10)
+    self.assertLess(tr.iloc[-1], 100.0)
+
+  def test_longer_maturity_more_sensitive(self):
+    idx = pd.date_range("2000-01-01", periods=2, freq="MS")
+    y = pd.Series([4.0, 5.0], index=idx)
+    self.assertLess(
+        synthetic_bond_total_return(y, 30).iloc[-1],
+        synthetic_bond_total_return(y, 2).iloc[-1])
+
+  def test_starting_yield_table_and_base_rates(self):
+    idx = pd.date_range("1990-01-01", periods=240, freq="MS")
+    rng = np.random.default_rng(0)
+    y = pd.Series(5 + rng.normal(0, 0.1, len(idx)).cumsum() * 0.1, index=idx)
+    table = starting_yield_table(y,
+                                 10,
+                                 horizons=(1, 5),
+                                 cash_rate_pct=pd.Series(3.0, index=idx))
+    self.assertIn("Fwd_5Y", table.columns)
+    self.assertIn("Excess_1Y", table.columns)
+    rates = conditional_base_rates(table,
+                                   table["Start_Yield"] > 0,
+                                   horizons=(1, 5))
+    self.assertEqual(list(rates.index), ["1Y", "5Y"])
+    self.assertGreater(rates.loc["1Y", "N_months"], 200)
+
+
+class TestRateShockMath(unittest.TestCase):
+  """Tests for carry / duration / convexity approximations."""
+
+  def test_zero_shock_is_carry(self):
+    self.assertAlmostEqual(rate_shock_return(5.0, 7.0, 0), 5.0)
+
+  def test_positive_shock_hurts_duration(self):
+    self.assertLess(rate_shock_return(5.0, 7.0, 100),
+                    rate_shock_return(5.0, 0.3, 100))
+
+  def test_convexity_makes_rally_bigger_than_selloff(self):
+    up = rate_shock_return(5.0, 7.0, 100) - 5.0
+    down = rate_shock_return(5.0, 7.0, -100) - 5.0
+    self.assertGreater(down, -up)
+
+  def test_rate_shock_grid_shape(self):
+    grid = rate_shock_grid({"A": (5.0, 1.0), "B": (5.0, 7.0)}, [-100, 0, 100])
+    self.assertEqual(grid.shape, (2, 3))
+    self.assertAlmostEqual(grid.loc["A", "+0bp"], 5.0)
+
+
+class TestRatesMarketStructure(unittest.TestCase):
+  """Tests for curve / hike-pricing / valuation / tax helpers."""
+
+  def test_curve_snapshot_uses_asof(self):
+    snap = curve_snapshot(_macro_frame(), {
+        "Start": "2026-01-01",
+        "Now": "2026-01-10"
+    })
+    self.assertEqual(list(snap.index), ["3M", "1Y", "2Y", "5Y", "10Y", "30Y"])
+    self.assertAlmostEqual(snap.loc["10Y", "Now"], 5.22)
+    self.assertAlmostEqual(snap.loc["10Y", "Start"], 4.3)
+
+  def test_hike_pricing(self):
+    hp = hike_pricing(macro_asof(_macro_frame(), "2026-01-05"))
+    self.assertAlmostEqual(hp["policy_mid"], 3.875)
+    self.assertAlmostEqual(hp["hikes_priced_2y"], 3.5)
+
+  def test_rates_change_table(self):
+    tab = rates_change_table(_macro_frame(), "2026-01-01", "2026-01-05")
+    self.assertAlmostEqual(tab.loc["US10Y", "Change_bp"], 92.0)
+    self.assertAlmostEqual(tab.loc["BREAKEVEN_10Y", "Change_bp"], -7.0)
+
+  def test_stock_bond_valuation(self):
+    v = stock_bond_valuation(25.0,
+                             macro_asof(_macro_frame(), "2026-01-05"),
+                             dividend_yield_pct=1.0)
+    self.assertAlmostEqual(v["earnings_yield"], 4.0)
+    self.assertAlmostEqual(v["fed_model_gap"], 4.0 - 5.22)
+    self.assertAlmostEqual(v["erp_vs_real"], 4.0 - 2.91)
+
+  def test_after_tax_yield(self):
+    self.assertAlmostEqual(after_tax_yield(5.0, 0.37, 0.0, 0.0, 0.038),
+                           5.0 * (1 - 0.408))
+    self.assertAlmostEqual(
+        after_tax_yield(5.0, 0.37, 0.10, state_exempt_share=1.0, niit=0),
+        5.0 * 0.63)
+
+  def test_classify_holding(self):
+    self.assertEqual(classify_holding("GOOG"), "Employer Stock")
+    self.assertEqual(classify_holding("BTC-USD"), "Crypto")
+    self.assertEqual(classify_holding("VMFXX"), "Cash")
+    self.assertEqual(classify_holding("SJNK"), "Bond")
+    self.assertEqual(
+        classify_holding("Inst Tot Bd Mkt Ix Tr", "Inst Tot Bd Mkt Ix Tr"),
+        "Bond")
+    self.assertEqual(classify_holding("NVDA"), "Equity")
 
 
 if __name__ == "__main__":

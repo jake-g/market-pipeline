@@ -5,7 +5,7 @@ import logging
 import os
 import re
 import sys
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 from graphviz import Digraph
 import markdown  # type: ignore
@@ -2355,13 +2355,506 @@ def generate_price_volume_capitulation_plot(ticker: str, tickers_dir: str,
     logger.warning("Failed to generate price/volume plot for %s: %s", ticker, e)
 
 
+# ==========================================
+# MACRO ACCESS, RATES MATH & CROSS-ASSET HELPERS
+# ==========================================
+# Generic building blocks shared by macro, portfolio and fixed-income
+# reports. Anything specific to a bond *portfolio* (ETF durations, yield
+# proxies, scenario definitions) lives in reports/generate_bond_reports.py.
+
+MACRO_FILENAME = "economic_indicators.tsv"
+
+# Macro column -> tenor (years) for Treasury-curve snapshots.
+DEFAULT_CURVE_TENORS: Dict[str, float] = {
+    "US03M": 0.25,
+    "US01Y": 1.0,
+    "US02Y": 2.0,
+    "US05Y": 5.0,
+    "US10Y": 10.0,
+    "US30Y": 30.0,
+}
+
+# Fund labels (401k trusts, mutual funds) that are bonds without a ticker.
+DEFAULT_BOND_NAME_HINTS: Tuple[str, ...] = ("Tot Bd", "Bond", "Bd Mkt", "VTIFX",
+                                            "VBTLX", "VBTIX")
+
+
+def load_macro_frame(market_data_dir: str) -> pd.DataFrame:
+  """Loads the forward-filled daily macro frame indexed by date.
+
+  Args:
+    market_data_dir (str): Path to ``market_data``.
+
+  Returns:
+    pd.DataFrame: Daily numeric frame (DatetimeIndex) of FRED series.
+
+  Raises:
+    FileNotFoundError: If the macro TSV does not exist.
+  """
+  path = os.path.join(market_data_dir, "macro", MACRO_FILENAME)
+  if not os.path.exists(path):
+    raise FileNotFoundError(f"Macro file missing: {path}")
+  df = pd.read_csv(path, sep="\t")
+  date_col = "DATE" if "DATE" in df.columns else df.columns[0]
+  df[date_col] = pd.to_datetime(df[date_col])
+  df = df.set_index(date_col).sort_index()
+  return df.apply(pd.to_numeric, errors="coerce")
+
+
+def macro_asof(macro: pd.DataFrame, when: Any) -> pd.Series:
+  """Returns the last available macro row on or before ``when``.
+
+  Args:
+    macro (pd.DataFrame): Output of :func:`load_macro_frame`.
+    when (Any): Anything ``pd.Timestamp`` accepts.
+
+  Returns:
+    pd.Series: Row of indicator values.
+
+  Raises:
+    ValueError: If no observation exists on or before ``when``.
+  """
+  ts = pd.Timestamp(when)
+  sub = macro.loc[:ts]
+  if sub.empty:
+    raise ValueError(f"No macro data on or before {ts.date()}")
+  return sub.iloc[-1]
+
+
+def curve_snapshot(macro: pd.DataFrame,
+                   dates: Dict[str, Any],
+                   tenors: Optional[Dict[str, float]] = None) -> pd.DataFrame:
+  """Builds a Treasury-curve table (tenor rows x snapshot-date columns).
+
+  Args:
+    macro (pd.DataFrame): Output of :func:`load_macro_frame`.
+    dates (Dict[str, Any]): Label -> date mapping (e.g. {"Today": ...}).
+    tenors (Optional[Dict[str, float]]): Macro column -> years; defaults
+      to :data:`DEFAULT_CURVE_TENORS`.
+
+  Returns:
+    pd.DataFrame: Index = tenor label (``3M`` .. ``30Y``), one column per
+    label plus ``Years`` (tenor in years).
+  """
+  rows = []
+  for col, years in (tenors or DEFAULT_CURVE_TENORS).items():
+    if col not in macro.columns:
+      continue
+    row: Dict[str, Any] = {
+        "Tenor": col.replace("US", "").lstrip("0"),
+        "Years": years
+    }
+    for label, when in dates.items():
+      row[label] = float(macro_asof(macro, when)[col])
+    rows.append(row)
+  return pd.DataFrame(rows).set_index("Tenor")
+
+
+def rates_change_table(macro: pd.DataFrame,
+                       start: Any,
+                       end: Any,
+                       columns: Optional[Sequence[str]] = None) -> pd.DataFrame:
+  """Tabulates start / end / change (bp) for rate-like macro series.
+
+  Args:
+    macro (pd.DataFrame): Output of :func:`load_macro_frame`.
+    start (Any): Start date.
+    end (Any): End date.
+    columns (Optional[Sequence[str]]): Series to include; defaults to the
+      policy rate, Treasury curve, real yield, breakeven, term premium and
+      credit series.
+
+  Returns:
+    pd.DataFrame: Index = series, columns ``Start, End, Change_bp``.
+  """
+  a, b = macro_asof(macro, start), macro_asof(macro, end)
+  cols = columns or [
+      "FEDFUNDS_UPPER", "US03M", "US02Y", "US05Y", "US10Y", "US30Y",
+      "US10Y_REAL", "BREAKEVEN_10Y", "TERM_PREMIUM_10Y", "HY_SPREAD",
+      "HY_YIELD", "CORP_YIELD"
+  ]
+  rows = []
+  for c in cols:
+    if c in macro.columns:
+      rows.append({
+          "Series": c,
+          "Start": round(float(a[c]), 2),
+          "End": round(float(b[c]), 2),
+          "Change_bp": round((float(b[c]) - float(a[c])) * 100, 0),
+      })
+  return pd.DataFrame(rows).set_index("Series")
+
+
+def hike_pricing(macro_row: pd.Series) -> Dict[str, float]:
+  """Reads how many 25bp moves the front end is pricing vs. the Fed.
+
+  Conventional rough read: the 1Y/2Y yield ≈ where the market expects the
+  policy rate to settle, so (yield − policy mid) / 25bp ≈ moves priced.
+  Ignores term premium, so treat as an upper bound.
+
+  Args:
+    macro_row (pd.Series): A macro row (see :func:`macro_asof`).
+
+  Returns:
+    Dict[str, float]: ``policy_mid, spread_3m_bp, spread_1y_bp,
+    spread_2y_bp, hikes_priced_1y, hikes_priced_2y``.
+  """
+  upper = float(macro_row.get("FEDFUNDS_UPPER", np.nan))
+  if np.isnan(upper):
+    mid = float(macro_row.get("FEDFUNDS", np.nan))
+  else:
+    mid = upper - 0.125
+  s3 = (float(macro_row["US03M"]) - mid) * 100
+  s1 = (float(macro_row["US01Y"]) - mid) * 100
+  s2 = (float(macro_row["US02Y"]) - mid) * 100
+  return {
+      "policy_mid": mid,
+      "spread_3m_bp": s3,
+      "spread_1y_bp": s1,
+      "spread_2y_bp": s2,
+      "hikes_priced_1y": max(s1, 0) / 25,
+      "hikes_priced_2y": max(s2, 0) / 25,
+  }
+
+
+def read_fundamental_metric(tickers_dir: str, ticker: str,
+                            key: str) -> Optional[float]:
+  """Reads one numeric metric from a ticker's fundamentals.tsv.
+
+  Args:
+    tickers_dir (str): ``market_data/tickers``.
+    ticker (str): Ticker symbol.
+    key (str): Metric name (e.g. ``yield``, ``netExpenseRatio``).
+
+  Returns:
+    Optional[float]: Value or None when missing / non-numeric.
+  """
+  path = os.path.join(tickers_dir, ticker, "fundamentals.tsv")
+  if not os.path.exists(path):
+    return None
+  try:
+    df = pd.read_csv(path, sep="\t")
+    hit = df.loc[df["Metric"] == key, "Value"]
+    if hit.empty:
+      return None
+    return float(hit.iloc[0])
+  except (ValueError, TypeError, KeyError, pd.errors.ParserError) as e:
+    logger.debug("fundamentals read failed for %s/%s: %s", ticker, key, e)
+    return None
+
+
+def rate_shock_return(yield_pct: float,
+                      duration: float,
+                      shock_bp: float,
+                      convexity: Optional[float] = None,
+                      spread_shock_bp: float = 0.0,
+                      spread_duration: Optional[float] = None,
+                      horizon_years: float = 1.0,
+                      default_loss_pct: float = 0.0) -> float:
+  """Approximates a bond's total return under an instantaneous shock.
+
+  TR ≈ carry − D·Δy + ½·C·Δy² − D_s·Δs − default losses; the shock is
+  applied immediately and carry accrues for ``horizon_years``.
+
+  Args:
+    yield_pct (float): Starting yield (percent).
+    duration (float): Effective (rate) duration in years.
+    shock_bp (float): Parallel yield shock in basis points (+ = up).
+    convexity (Optional[float]): Convexity; defaults to ~1.1·D².
+    spread_shock_bp (float): Credit-spread shock in bp (+ = wider).
+    spread_duration (Optional[float]): Spread duration (default duration).
+    horizon_years (float): Carry horizon.
+    default_loss_pct (float): Realised credit losses over the horizon.
+
+  Returns:
+    float: Approximate total return in percent.
+  """
+  dy = shock_bp / 10000.0
+  ds = spread_shock_bp / 10000.0
+  conv = convexity if convexity is not None else max(duration, 0.0)**2 * 1.1
+  sd = spread_duration if spread_duration is not None else duration
+  price = -duration * dy + 0.5 * conv * dy * dy - sd * ds
+  carry = yield_pct / 100.0 * horizon_years
+  return (price + carry) * 100.0 - default_loss_pct
+
+
+def rate_shock_grid(instruments: Dict[str, Tuple[float, float]],
+                    shocks_bp: Sequence[int]) -> pd.DataFrame:
+  """12M total-return grid for (yield, duration) instruments vs shocks.
+
+  Args:
+    instruments (Dict[str, Tuple[float, float]]): name -> (yield %,
+      duration yrs).
+    shocks_bp (Sequence[int]): Parallel shocks in bp.
+
+  Returns:
+    pd.DataFrame: Index = instrument, columns = ``{shock:+d}bp``.
+  """
+  data = {}
+  for name, (y, d) in instruments.items():
+    data[name] = {
+        f"{s:+d}bp": round(rate_shock_return(y, d, s), 2) for s in shocks_bp
+    }
+  return pd.DataFrame(data).T
+
+
+def synthetic_bond_total_return(yields_pct: pd.Series,
+                                maturity_years: float,
+                                periods_per_year: int = 12) -> pd.Series:
+  """Rebuilds a constant-maturity par-bond total-return index from yields.
+
+  Each period the investor holds a par bond, earns the coupon
+  (yield/periods), marks it to the new yield with one period less to
+  maturity, then rolls into a fresh par bond (Swinkels 2019 approach), so
+  long histories can be studied without a paid bond index.
+
+  Args:
+    yields_pct (pd.Series): Periodic yields in percent (DatetimeIndex).
+    maturity_years (float): Bond maturity in years.
+    periods_per_year (int): 12 for monthly data.
+
+  Returns:
+    pd.Series: Total-return index starting at 100.
+  """
+  y = (yields_pct.astype(float) / 100.0).dropna()
+  if len(y) < 2:
+    return pd.Series(dtype=float)
+  n_total = int(round(maturity_years * periods_per_year))
+  idx = [100.0]
+  values = y.values
+  for i in range(1, len(values)):
+    c = values[i - 1] / periods_per_year  # coupon set at purchase
+    ynew = values[i] / periods_per_year  # new periodic yield
+    n = n_total - 1  # one period elapsed
+    if ynew <= 0:
+      price = 1.0 + c * n
+    else:
+      price = c * (1 - (1 + ynew)**(-n)) / ynew + (1 + ynew)**(-n)
+    idx.append(idx[-1] * (price + c))
+  return pd.Series(idx, index=y.index, name=f"TR_{maturity_years:g}Y")
+
+
+def cash_total_return(short_rate_pct: pd.Series,
+                      periods_per_year: int = 12) -> pd.Series:
+  """Total-return index from rolling a short rate (T-bill / fed funds)."""
+  r = (short_rate_pct.astype(float) / 100.0).dropna()
+  growth = (1.0 + r.shift(1).fillna(0) / periods_per_year).cumprod()
+  return (growth * 100.0).rename("TR_cash")
+
+
+def forward_annualized_return(tr_index: pd.Series,
+                              horizon_years: float,
+                              periods_per_year: int = 12) -> pd.Series:
+  """Forward-looking annualised return (%) of any TR index over a horizon."""
+  n = int(round(horizon_years * periods_per_year))
+  fwd = tr_index.shift(-n) / tr_index
+  return (fwd**(1.0 / horizon_years) - 1.0) * 100.0
+
+
+def starting_yield_table(
+    yields_pct: pd.Series,
+    maturity_years: float,
+    horizons: Iterable[float] = (1, 3, 5, 10),
+    cash_rate_pct: Optional[pd.Series] = None) -> pd.DataFrame:
+  """Builds the "starting yield vs. subsequent return" dataset.
+
+  Args:
+    yields_pct (pd.Series): Monthly constant-maturity yields (%).
+    maturity_years (float): Bond maturity in years.
+    horizons (Iterable[float]): Forward horizons in years.
+    cash_rate_pct (Optional[pd.Series]): Monthly short rate (%) used to
+      add forward cash and excess-return columns.
+
+  Returns:
+    pd.DataFrame: Index = month; ``Start_Yield`` plus ``Fwd_{h}Y`` (and
+    ``Cash_{h}Y`` / ``Excess_{h}Y`` when a cash rate is given).
+  """
+  tr = synthetic_bond_total_return(yields_pct, maturity_years)
+  out = pd.DataFrame({"Start_Yield": yields_pct.reindex(tr.index)})
+  cash = None
+  if cash_rate_pct is not None:
+    cash = cash_total_return(cash_rate_pct.reindex(tr.index).ffill())
+  for h in horizons:
+    out[f"Fwd_{h:g}Y"] = forward_annualized_return(tr, h)
+    if cash is not None:
+      out[f"Cash_{h:g}Y"] = forward_annualized_return(cash, h)
+      out[f"Excess_{h:g}Y"] = out[f"Fwd_{h:g}Y"] - out[f"Cash_{h:g}Y"]
+  return out
+
+
+def conditional_base_rates(
+    table: pd.DataFrame,
+    mask: pd.Series,
+    horizons: Iterable[float] = (1, 3, 5, 10)) -> pd.DataFrame:
+  """Summarises forward returns for months where ``mask`` is True.
+
+  Args:
+    table (pd.DataFrame): Output of :func:`starting_yield_table` (or any
+      frame with ``Fwd_{h}Y`` / optional ``Cash_{h}Y`` / ``Excess_{h}Y``).
+    mask (pd.Series): Boolean selector aligned to ``table.index``.
+    horizons (Iterable[float]): Horizons present in ``table``.
+
+  Returns:
+    pd.DataFrame: Per horizon: ``N_months, Median_%, P10_%, P90_%`` and,
+    when cash columns exist, ``Cash_Median_%, Excess_Median_%,
+    Beat_Cash_%``.
+  """
+  rows = []
+  sel = table[mask.reindex(table.index).fillna(False).astype(bool)]
+  for h in horizons:
+    col = f"Fwd_{h:g}Y"
+    s = sel[col].dropna()
+    row: Dict[str, Any] = {
+        "Horizon": f"{h:g}Y",
+        "N_months": int(len(s)),
+        "Median_%": round(float(s.median()), 2) if len(s) else np.nan,
+        "P10_%": round(float(s.quantile(0.1)), 2) if len(s) else np.nan,
+        "P90_%": round(float(s.quantile(0.9)), 2) if len(s) else np.nan,
+    }
+    ccol, ecol = f"Cash_{h:g}Y", f"Excess_{h:g}Y"
+    if ccol in sel.columns:
+      e = sel[ecol].dropna()
+      c = sel[ccol].dropna()
+      row["Cash_Median_%"] = round(float(c.median()), 2) if len(c) else np.nan
+      row["Excess_Median_%"] = round(float(e.median()), 2) if len(e) else np.nan
+      row["Beat_Cash_%"] = round(float(
+          (e > 0).mean() * 100), 0) if len(e) else np.nan
+    rows.append(row)
+  return pd.DataFrame(rows).set_index("Horizon")
+
+
+def stock_bond_valuation(trailing_pe: float,
+                         macro_row: pd.Series,
+                         dividend_yield_pct: float = 0.0) -> Dict[str, float]:
+  """Compares an equity index earnings yield with Treasury yields.
+
+  Args:
+    trailing_pe (float): Index trailing P/E.
+    macro_row (pd.Series): A macro row with ``US10Y`` / ``US10Y_REAL``.
+    dividend_yield_pct (float): Index dividend yield (%).
+
+  Returns:
+    Dict[str, float]: ``earnings_yield, us10y, us10y_real, fed_model_gap``
+    (E/P − nominal 10Y), ``erp_vs_real`` (E/P − real 10Y),
+    ``dividend_vs_tbill`` (dividend yield − 3M bill).
+  """
+  ep = 100.0 / trailing_pe
+  us10 = float(macro_row["US10Y"])
+  real = float(macro_row.get("US10Y_REAL", np.nan))
+  bill = float(macro_row.get("US03M", np.nan))
+  return {
+      "earnings_yield": ep,
+      "us10y": us10,
+      "us10y_real": real,
+      "fed_model_gap": ep - us10,
+      "erp_vs_real": ep - real,
+      "dividend_vs_tbill": dividend_yield_pct - bill,
+  }
+
+
+def after_tax_yield(yield_pct: float,
+                    federal_rate: float,
+                    state_rate: float = 0.0,
+                    state_exempt_share: float = 0.0,
+                    niit: float = 0.038) -> float:
+  """After-tax yield for interest income.
+
+  Args:
+    yield_pct (float): Pre-tax yield (%).
+    federal_rate (float): Marginal federal ordinary rate (0-1).
+    state_rate (float): Marginal state rate (0-1).
+    state_exempt_share (float): Share of income that is Treasury interest
+      (state-tax exempt), 0-1.
+    niit (float): Net investment income tax (0.038 above thresholds).
+
+  Returns:
+    float: After-tax yield in percent.
+  """
+  state_eff = state_rate * (1.0 - state_exempt_share)
+  return yield_pct * (1.0 - federal_rate - niit - state_eff)
+
+
+def classify_holding(
+    ticker: str,
+    name: str = "",
+    bond_tickers: Optional[Iterable[str]] = None,
+    bond_name_hints: Iterable[str] = DEFAULT_BOND_NAME_HINTS,
+    employer_tickers: Iterable[str] = ("GOOG", "GOOGL")
+) -> str:
+  """Maps a holding to ``Employer Stock / Equity / Bond / Cash / Crypto``.
+
+  Args:
+    ticker (str): Ticker or fund label.
+    name (str): Optional descriptive name.
+    bond_tickers (Optional[Iterable[str]]): Tickers to treat as bonds;
+      defaults to the ``Bonds & Rates`` and ``Fixed Income & Preferred``
+      sectors in ``config.SECTORS``.
+    bond_name_hints (Iterable[str]): Substrings marking bond funds.
+    employer_tickers (Iterable[str]): Concentrated employer stock.
+
+  Returns:
+    str: Asset class label.
+  """
+  t = (ticker or "").upper()
+  label = f"{t} {name or ''}".lower()
+  if bond_tickers is None:
+    bond_tickers = set(config.SECTORS.get("Bonds & Rates", [])) | set(
+        config.SECTORS.get("Fixed Income & Preferred", []))
+  cash_tickers = set(config.SECTORS.get("Cash & Money Market", [])) | set(
+      getattr(config, "CASH_LIKE_TICKERS", ()))
+  if t in employer_tickers:
+    return "Employer Stock"
+  if t.endswith("-USD") or t in ("BTC", "ETH", "SOL"):
+    return "Crypto"
+  # "CASH" is a broker placeholder row, not a fetchable ticker.
+  if t == "CASH" or t in cash_tickers or "maturing" in label:
+    return "Cash"
+  if t in bond_tickers:
+    return "Bond"
+  if any(h.lower() in label for h in bond_name_hints):
+    return "Bond"
+  return "Equity"
+
+
+def household_allocation(tsv_paths: Dict[str, str]) -> pd.DataFrame:
+  """Aggregates several broker TSVs into an asset-class allocation.
+
+  Args:
+    tsv_paths (Dict[str, str]): Account label -> TSV path.
+
+  Returns:
+    pd.DataFrame: Index = account label, columns = asset classes (values
+    in currency) plus ``Total``.
+  """
+  rows: List[Dict[str, Any]] = []
+  for label, path in tsv_paths.items():
+    if not os.path.exists(path):
+      logger.warning("Missing account TSV: %s", path)
+      continue
+    df = pd.read_csv(path, sep="\t")
+    if "Current_Value" not in df.columns:
+      continue
+    df = df[df["Current_Value"].fillna(0) > 0]
+    row: Dict[str, Any] = {"Account": label}
+    for _, h in df.iterrows():
+      cls = classify_holding(str(h.get("Ticker", "")), str(h.get("Name", "")))
+      row[cls] = row.get(cls, 0.0) + float(h["Current_Value"])
+    rows.append(row)
+  out = pd.DataFrame(rows).set_index("Account").fillna(0.0)
+  out["Total"] = out.sum(axis=1)
+  return out
+
+
 if __name__ == "__main__":
   import argparse
   parser = argparse.ArgumentParser(description="Report utilities CLI")
-  parser.add_argument(
-      "--render", type=str, help="Render a markdown file to PDF")
-  parser.add_argument(
-      "--output", type=str, default=None, help="Optional output PDF path")
+  parser.add_argument("--render",
+                      type=str,
+                      help="Render a markdown file to PDF")
+  parser.add_argument("--output",
+                      type=str,
+                      default=None,
+                      help="Optional output PDF path")
   args = parser.parse_args()
   if args.render:
     pdf_out = render_markdown_to_pdf(args.render, output_path=args.output)
