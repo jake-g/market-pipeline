@@ -191,17 +191,19 @@ def build_price_analysis_blob(market_data_dir: str,
       df = pd.read_csv(prices_file, sep='\t')
       if 'Date' not in df.columns or 'Close' not in df.columns:
         continue
-      df['ParsedDate'] = pd.to_datetime(df['Date'],
-                                        utc=True).dt.tz_localize(None)
+      df['ParsedDate'] = (pd.to_datetime(
+          df['Date'], utc=True).dt.tz_localize(None).dt.normalize())
 
       # Sort first to maintain chronological order in master list
-      df = df.sort_values('ParsedDate')
+      df = df.sort_values('ParsedDate').reset_index(drop=True)
 
       mask = pd.Series(True, index=df.index)
       if start_date:
-        mask = mask & (df['ParsedDate'] >= start_date)
+        start_norm = pd.Timestamp(start_date).tz_localize(None).normalize()
+        mask = mask & (df['ParsedDate'] >= start_norm)
       if end_date:
-        mask = mask & (df['ParsedDate'] <= end_date)
+        end_norm = pd.Timestamp(end_date).tz_localize(None).normalize()
+        mask = mask & (df['ParsedDate'] <= end_norm)
 
       df_range = df[mask]
 
@@ -781,7 +783,7 @@ async def generate_report(market_data_dir: str,
           if mode == 'daily':
             # For daily, we want 1-day return (comparison to previous close)
             if te is None:
-              te = datetime.now()
+              te = ts if ts is not None else datetime.now()
             ts = te  # Single day; build_price_analysis_blob looks back 1 row
 
           quant_summary = build_price_analysis_blob(market_data_dir, ts, te)
@@ -960,6 +962,10 @@ async def generate_report(market_data_dir: str,
             prompt,
             source_ids=scoped_ids or None,
             required_markers=required_markers)
+        if not report_content or len(report_content.strip()) < 200:
+          raise RuntimeError(
+              f"Empty or stub synthesis returned for {mode} "
+              f"({report_filename}); refusing to write empty report file.")
 
         if mode in ['portfolio', 'earnings'] and dir_path:
           output_path: str = dir_path

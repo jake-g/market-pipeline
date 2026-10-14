@@ -83,7 +83,9 @@ def looks_like_studio_stub(
   if len(text) < MIN_REPORT_CHARS and _STUDIO_STUB_RE.search(text):
     return True
   if required_markers:
-    return not all(m.lower() in text.lower() for m in required_markers)
+    return not all(
+        m.lstrip("# ").strip().lower() in text.lower()
+        for m in required_markers)
   return False
 
 
