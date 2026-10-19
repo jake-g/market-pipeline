@@ -3,10 +3,10 @@ allTimeHigh	70.86
 allTimeLow	56.07
 ask	58.46
 askSize	9
-averageDailyVolume10Day	6283150
-averageDailyVolume3Month	5037879
-averageVolume	5037879
-averageVolume10days	6283150
+averageDailyVolume10Day	5935960
+averageDailyVolume3Month	5236276
+averageVolume	5236276
+averageVolume10days	5935960
 beta3Year	0.8
 bid	58.44
 bidSize	59
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	56.79
-dayLow	56.7
+dayHigh	57.1076
+dayLow	56.9536
 displayName	Intm-Term Trsy Idx Fd ETF
 dividendDate	1496793600
 dividendYield	4.03
@@ -27,25 +27,25 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	57.6554
-fiftyDayAverageChange	-0.91539764
-fiftyDayAverageChangePercent	-0.01587705
-fiftyTwoWeekChangePercent	-5.9535685
+fiftyDayAverage	57.5412
+fiftyDayAverageChange	-0.5461998
+fiftyDayAverageChangePercent	-0.009492326
+fiftyTwoWeekChangePercent	-5.5234013
 fiftyTwoWeekHigh	60.76
-fiftyTwoWeekHighChange	-4.0199966
-fiftyTwoWeekHighChangePercent	-0.06616189
+fiftyTwoWeekHighChange	-3.7649994
+fiftyTwoWeekHighChangePercent	-0.0619651
 fiftyTwoWeekLow	56.35
-fiftyTwoWeekLowChange	0.3900032
-fiftyTwoWeekLowChangePercent	0.0069210865
+fiftyTwoWeekLowChange	0.64500046
+fiftyTwoWeekLowChangePercent	0.011446326
 fiftyTwoWeekRange	56.35 - 60.76
 firstTradeDateMilliseconds	1258986600000
-fiveYearAverageReturn	-0.0028711
+fiveYearAverageReturn	-0.0010715
 fullExchangeName	NasdaqGM
-fulldayChange	0.035499573
-fulldayChangePercent	0.06259844
-fulldayPrice	56.74
+fulldayChange	-0.15000153
+fulldayChangePercent	-0.26256174
+fulldayPrice	56.98
 fundFamily	Vanguard
-fundInceptionDate	1268956800
+fundInceptionDate	1258588800
 gmtOffSetMilliseconds	-14400000
 hasPrePostMarketData	True
 language	en-US
@@ -53,36 +53,36 @@ legalType	Exchange Traded Fund
 longBusinessSummary	Under normal circumstances, the fund invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the bonds that make up the Bloomberg U.S. Treasury 3-10 Year Index. The fund invests by sampling the Target Index, meaning that it holds a range of securities that, in the aggregate, approximates the full Target Index in terms of key risk factors and other characteristics.
 longName	Vanguard Intermediate-Term Treasury Index Fund ETF Shares
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_81834765
-navPrice	56.68
+navPrice	57.11
 netAssets	47829746000.0
 netExpenseRatio	0.03
-open	56.78
-postMarketChange	0.0054969788
-postMarketChangePercent	0.009688013
-postMarketPrice	56.7455
-postMarketTime	1791927679
-previousClose	56.71
+open	57.0634
+postMarketChange	-0.01499939
+postMarketChangePercent	-0.026317028
+postMarketPrice	56.98
+postMarketTime	1792443224
+previousClose	57.13
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0300026
-regularMarketChangePercent	0.0529053
-regularMarketDayHigh	56.79
-regularMarketDayLow	56.7
-regularMarketDayRange	56.7 - 56.79
-regularMarketOpen	56.78
-regularMarketPreviousClose	56.71
-regularMarketPrice	56.74
-regularMarketTime	1791921600
-regularMarketVolume	5091229
+regularMarketChange	-0.13500214
+regularMarketChangePercent	-0.2363069
+regularMarketDayHigh	57.1076
+regularMarketDayLow	56.9536
+regularMarketDayRange	56.9536 - 57.1076
+regularMarketOpen	57.0634
+regularMarketPreviousClose	57.13
+regularMarketPrice	56.995
+regularMarketTime	1792440001
+regularMarketVolume	6604297
 shortName	Vanguard Intermediate-Term Trea
 sourceInterval	15
 symbol	VGIT
-threeYearAverageReturn	0.0373497
+threeYearAverageReturn	0.040026397
 totalAssets	47829745664
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-2.90953
 trailingThreeMonthReturns	-2.90953
 triggerable	True
-twoHundredDayAverage	58.93975
-twoHundredDayAverageChange	-2.199749
-twoHundredDayAverageChangePercent	-0.037321992
+twoHundredDayAverage	58.8782
+twoHundredDayAverageChange	-1.8832016
+twoHundredDayAverageChangePercent	-0.0319847
 typeDisp	ETF
-volume	5091229
+volume	6604297
 yield	0.0403
 ytdReturn	-2.95576

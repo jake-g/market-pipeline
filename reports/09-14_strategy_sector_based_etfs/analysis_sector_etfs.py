@@ -1160,6 +1160,7 @@ def main() -> None:
   # --- original plots -----------------------------------------------------
   def p(n: str) -> str:
     return os.path.join(PLOTS_DIR, n)
+
   _timeline(prices, [
       "SMH", "SOXX", "CIBR", "COPX", "GLDM", "FIW", "LIT", "PPH", "GRID",
       "BOTZ", "IGV", "XBI", "ICLN", "SLV", "VUG", "VTI", "VTV"

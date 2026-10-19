@@ -22,5 +22,5 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 ## Shipping Macro Metrics
 | Metric                              |   Latest | YoY Chg       | Date       |
 |-------------------------------------|----------|---------------|------------|
-| Ocean Freight PPI (PCU483111483111) |   518.62 | (+32.02% YoY) | 2026-08-01 |
-| US Customs Duties (B235RC1Q027SBEA) |   306.4  | (+13.23% YoY) | 2026-04-01 |
+| Ocean Freight PPI (PCU483111483111) |    534.8 | (+36.79% YoY) | 2026-09-01 |
+| US Customs Duties (B235RC1Q027SBEA) |    306.4 | (+13.23% YoY) | 2026-04-01 |

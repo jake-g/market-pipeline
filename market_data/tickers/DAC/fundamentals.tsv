@@ -1,38 +1,38 @@
 Metric	Value
-52WeekChange	0.97286284
-SandP52WeekChange	0.17502642
+52WeekChange	0.8357706
+SandP52WeekChange	0.13723719
 address1	14 Akti Kondyli
 allTimeHigh	563.64
 allTimeLow	2.5
-ask	168.0
-askSize	100
+ask	161.0
+askSize	200
 averageAnalystRating	1.0 - Strong Buy
-averageDailyVolume10Day	204830
-averageDailyVolume3Month	136980
-averageVolume	136980
-averageVolume10days	204830
+averageDailyVolume10Day	210310
+averageDailyVolume3Month	139529
+averageVolume	139529
+averageVolume10days	210310
 beta	0.865
-bid	164.95
+bid	155.92
 bidSize	300
 bookValue	222.858
 city	Piraeus
 companyOfficers	[{'maxAge': 1, 'name': 'Dr. John  Coustas Ph.D.', 'age': 69, 'title': 'Chairman, President & CEO', 'yearBorn': 1956, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Evangelos  Chatzis', 'age': 52, 'title': 'VP, CFO, Treasurer & Secretary', 'yearBorn': 1973, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dimitris  Vastarouchas', 'age': 57, 'title': 'VP & COO', 'yearBorn': 1968, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Filippos  Prokopakis', 'age': 42, 'title': 'Chief Commercial Officer', 'yearBorn': 1983, 'exercisedValue': 0, 'unexercisedValue': 0}]
-corporateActions	[{'header': 'Dividend', 'message': 'DAC announced a cash dividend of $5.00 with an ex-date of Oct. 13, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1791864000000, 'amount': '5.00'}}]
+corporateActions	[]
 country	Greece
 cryptoTradeable	False
 currency	USD
-currentPrice	164.93
+currentPrice	156.48
 currentRatio	9.3
 customPriceAlertConfidence	HIGH
 dateShortInterest	1790726400
-dayHigh	165.835
-dayLow	161.89
+dayHigh	160.4
+dayLow	155.001
 debtToEquity	29.844
-discount_to_intrinsic_value	88.68
+discount_to_intrinsic_value	89.53
 displayName	Danaos
 dividendDate	1792627200
 dividendRate	4.0
-dividendYield	2.36
+dividendYield	2.53
 earningsCallTimestampEnd	1785848400
 earningsCallTimestampStart	1785848400
 earningsGrowth	0.169
@@ -42,9 +42,9 @@ earningsTimestampEnd	1794859200
 earningsTimestampStart	1794859200
 ebitda	675017984
 ebitdaMargins	0.63979
-enterpriseToEbitda	4.417
-enterpriseToRevenue	2.826
-enterpriseValue	2981590272
+enterpriseToEbitda	4.235
+enterpriseToRevenue	2.709
+enterpriseValue	2858534144
 epsCurrentYear	27.6
 epsForward	24.5
 epsTrailingTwelveMonths	29.55
@@ -56,36 +56,36 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	153.035
-fiftyDayAverageChange	11.894989
-fiftyDayAverageChangePercent	0.07772724
-fiftyTwoWeekChangePercent	97.286285
+fiftyDayAverage	154.6592
+fiftyDayAverageChange	1.8208008
+fiftyDayAverageChangePercent	0.011772987
+fiftyTwoWeekChangePercent	83.57706
 fiftyTwoWeekHigh	172.76
-fiftyTwoWeekHighChange	-7.830002
-fiftyTwoWeekHighChangePercent	-0.045323003
-fiftyTwoWeekLow	84.05
-fiftyTwoWeekLowChange	80.87999
-fiftyTwoWeekLowChangePercent	0.9622842
-fiftyTwoWeekRange	84.05 - 172.76
+fiftyTwoWeekHighChange	-16.279999
+fiftyTwoWeekHighChangePercent	-0.09423477
+fiftyTwoWeekLow	85.31
+fiftyTwoWeekLowChange	71.17
+fiftyTwoWeekLowChangePercent	0.8342516
+fiftyTwoWeekRange	85.31 - 172.76
 financialCurrency	USD
 firstTradeDateMilliseconds	1161005400000
-fiveYearAvgDividendYield	3.42
+fiveYearAvgDividendYield	3.43
 floatShares	8409320
 forwardEps	24.5
-forwardPE	6.7318363
+forwardPE	6.3869386
 freeCashflow	4495375
 fullExchangeName	NYSE
 fullTimeEmployees	4
-fulldayChange	1.5399933
-fulldayChangePercent	0.94252604
-fulldayPrice	164.93
+fulldayChange	-1.5200043
+fulldayChangePercent	-0.96099406
+fulldayPrice	156.65
 gmtOffSetMilliseconds	-14400000
-graham_intrinsic_value	1457.12
+graham_intrinsic_value	1494.34
 grossMargins	0.70769995
 grossProfits	746662976
 hasPrePostMarketData	True
 heldPercentInsiders	0.53790003
-heldPercentInstitutions	0.22017
+heldPercentInstitutions	0.22017999
 impliedSharesOutstanding	18203567
 industry	Marine Shipping
 industryDisp	Marine Shipping
@@ -101,8 +101,8 @@ lastSplitFactor	1:14
 longBusinessSummary	Danaos Corporation, through its subsidiaries, owns and operates containerships and drybulk vessels in Australia, Europe, and the United States. It operates in two segments, Container Vessels and Drybulk Vessels. The company provides seaborne transportation services by operating vessels in the containership and drybulk sectors of the shipping industry. As of December 31, 2025, it had a fleet of 75 containerships aggregating 477,230 TEUs; 27 container vessels under construction containerships aggregating 173,314 TEUs; 10 Capesize bulk carriers aggregating 1,755,000 DWT; and 2 dry bulk vessels under construction aggregating 422,000 DWT. The company was formerly known as Danaos Holdings Limited and changed its name to Danaos Corporation in October 2005. Danaos Corporation was founded in 1963 and is based in Piraeus, Greece.
 longName	Danaos Corporation
 market	us_market
-marketCap	3002314240
-marketState	POSTPOST
+marketCap	2848494336
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_28245722
 mostRecentQuarter	1782777600
@@ -110,38 +110,38 @@ netIncomeToCommon	540798976
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	2810994816
 numberOfAnalystOpinions	2
-open	163.6
+open	158.65
 operatingCashflow	715609984
 operatingMargins	0.48375
 payoutRatio	0.1201
 pegRatio	0.12
 phone	30 2 10 419 6480
-postMarketChange	0.020004272
-postMarketChangePercent	0.012128947
-postMarketPrice	164.95
-postMarketTime	1791935972
-previousClose	163.39
-priceEpsCurrentYear	5.975724
+postMarketChange	0.16999817
+postMarketChangePercent	0.10863891
+postMarketPrice	156.65
+postMarketTime	1792440353
+previousClose	158.17
+priceEpsCurrentYear	5.669565
 priceHint	2
-priceToBook	0.7400676
-priceToSalesTrailing12Months	2.8456256
+priceToBook	0.7021511
+priceToSalesTrailing12Months	2.6998334
 profitMargins	0.51258
 quickRatio	8.662
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	none
 recommendationMean	1.0
 region	US
-regularMarketChange	1.53999
-regularMarketChangePercent	0.942526
-regularMarketDayHigh	165.835
-regularMarketDayLow	161.89
-regularMarketDayRange	161.89 - 165.835
-regularMarketOpen	163.6
-regularMarketPreviousClose	163.39
-regularMarketPrice	164.93
-regularMarketTime	1791921602
-regularMarketVolume	245282
+regularMarketChange	-1.69
+regularMarketChangePercent	-1.06847
+regularMarketDayHigh	160.4
+regularMarketDayLow	155.001
+regularMarketDayRange	155.001 - 160.4
+regularMarketOpen	158.65
+regularMarketPreviousClose	158.17
+regularMarketPrice	156.48
+regularMarketTime	1792440003
+regularMarketVolume	101715
 returnOnAssets	0.06392
 returnOnEquity	0.14140001
 revenueGrowth	0.047
@@ -169,15 +169,15 @@ totalDebt	1210720000
 totalRevenue	1055062976
 tradeable	False
 trailingAnnualDividendRate	3.6
-trailingAnnualDividendYield	0.022033172
+trailingAnnualDividendYield	0.02276032
 trailingEps	29.55
-trailingPE	5.5813875
+trailingPE	5.2954316
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	126.36765
-twoHundredDayAverageChange	38.56234
-twoHundredDayAverageChangePercent	0.3051599
+twoHundredDayAverage	127.69445
+twoHundredDayAverageChange	28.785545
+twoHundredDayAverageChangePercent	0.22542518
 typeDisp	Equity
-volume	245282
+volume	101715
 website	https://www.danaos.com
 zip	18545

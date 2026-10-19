@@ -234,6 +234,12 @@ TICKER_SEARCH_TERMS: Dict[str, str] = {
         '"iShares Global Clean Energy ETF" OR "ICLN ETF"',
     "SLV":
         '"iShares Silver Trust" OR "SLV ETF"',
+    "CLS":
+        '"Celestica stock" OR "CLS stock"',
+    "EUV":
+        '"Corgi Lithography & Semiconductor Photonics ETF" OR "EUV ETF"',
+    "CHAT":
+        '"Roundhill Generative AI & Technology ETF" OR "CHAT ETF"',
 
     # News Topic Search Overrides to prevent generic noise in Google News
     "AI":
@@ -500,7 +506,7 @@ SKIP_EARNINGS: List[str] = [
     "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
     "VDE", "FENY", "VPU", "FUTY", "VHT", "VDC", "SCHH", "CIBR", "PPH",
     "SOXX", "XSD", "MUZ", "SPCX", "OZEM", "SMHX", "EWY", "FXI", "KWEB",
-    "DRAM", "FIW", "LIT", "NASA", "QTUM", "URNM",
+    "DRAM", "FIW", "LIT", "NASA", "QTUM", "URNM", "EUV", "CHAT",
 
 
     # Fixed Income & Preferred

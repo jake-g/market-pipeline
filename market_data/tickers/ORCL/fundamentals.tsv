@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.5474936
-SandP52WeekChange	0.17502642
+52WeekChange	-0.5373764
+SandP52WeekChange	0.13723719
 address1	2300 Oracle Way
 allTimeHigh	345.72
 allTimeLow	0.040123
-ask	143.3
-askSize	200
+ask	129.58
+askSize	100
 auditRisk	1
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	27222590
-averageDailyVolume3Month	30784934
-averageVolume	30784934
-averageVolume10days	27222590
+averageDailyVolume10Day	28954420
+averageDailyVolume3Month	30350789
+averageVolume	30350789
+averageVolume10days	28954420
 beta	1.77
-bid	143.25
-bidSize	300
+bid	129.61
+bidSize	200
 boardRisk	10
 bookValue	20.442
 city	Austin
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	143.2
+currentPrice	129.59
 currentRatio	1.171
 customPriceAlertConfidence	HIGH
 dateShortInterest	1790726400
-dayHigh	144.1776
-dayLow	135.5633
+dayHigh	131.4
+dayLow	129.12
 debtToEquity	251.716
-discount_to_intrinsic_value	45.64
+discount_to_intrinsic_value	52.03
 displayName	Oracle
 dividendDate	1792713600
 dividendRate	2.0
-dividendYield	1.46
+dividendYield	1.56
 earningsCallTimestampEnd	1789074000
 earningsCallTimestampStart	1789074000
 earningsGrowth	0.545
@@ -46,11 +46,11 @@ earningsTimestampEnd	1797278400
 earningsTimestampStart	1797278400
 ebitda	34432999424
 ebitdaMargins	0.47973
-enterpriseToEbitda	16.567
-enterpriseToRevenue	7.948
-enterpriseValue	570442973184
+enterpriseToEbitda	15.252
+enterpriseToRevenue	7.317
+enterpriseValue	525177651200
 epsCurrentYear	8.14059
-epsForward	10.99899
+epsForward	10.99155
 epsTrailingTwelveMonths	6.38
 eps_normalized_growth	0.20243171534703874
 esgPopulated	False
@@ -60,37 +60,37 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	145.8974
-fiftyDayAverageChange	-2.697403
-fiftyDayAverageChangePercent	-0.018488355
-fiftyTwoWeekChangePercent	-54.74936
-fiftyTwoWeekHigh	322.54
-fiftyTwoWeekHighChange	-179.34001
-fiftyTwoWeekHighChangePercent	-0.5560241
+fiftyDayAverage	145.1174
+fiftyDayAverageChange	-15.527405
+fiftyDayAverageChangePercent	-0.10699892
+fiftyTwoWeekChangePercent	-53.73764
+fiftyTwoWeekHigh	289.24
+fiftyTwoWeekHighChange	-159.65
+fiftyTwoWeekHighChangePercent	-0.55196375
 fiftyTwoWeekLow	114.5
-fiftyTwoWeekLowChange	28.699997
-fiftyTwoWeekLowChangePercent	0.250655
-fiftyTwoWeekRange	114.5 - 322.54
+fiftyTwoWeekLowChange	15.089996
+fiftyTwoWeekLowChangePercent	0.13179035
+fiftyTwoWeekRange	114.5 - 289.24
 financialCurrency	USD
 firstTradeDateMilliseconds	511021800000
-fiveYearAvgDividendYield	1.19
-floatShares	1859234792
-forwardEps	10.99899
-forwardPE	13.019377
+fiveYearAvgDividendYield	1.2
+floatShares	1859265029
+forwardEps	10.99155
+forwardPE	11.789965
 freeCashflow	-45853626368
 fullExchangeName	NYSE
 fullTimeEmployees	141000
-fulldayChange	5.8399963
-fulldayChangePercent	4.2506704
-fulldayPrice	143.2
+fulldayChange	1.6699982
+fulldayChangePercent	1.302346
+fulldayPrice	129.9
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1790812800
-graham_intrinsic_value	263.44
+graham_intrinsic_value	270.17
 grossMargins	0.63957
 grossProfits	45906001920
 hasPrePostMarketData	True
 heldPercentInsiders	0.38395
-heldPercentInstitutions	0.43437
+heldPercentInstitutions	0.43411
 impliedSharesOutstanding	3031501149
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -106,8 +106,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.
 longName	Oracle Corporation
 market	us_market
-marketCap	434110955520
-marketState	POSTPOST
+marketCap	392852209664
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22247
 mostRecentQuarter	1788134400
@@ -115,22 +115,22 @@ netIncomeToCommon	18736001024
 nextFiscalYearEnd	1811721600
 nonDilutedMarketCap	437111276160
 numberOfAnalystOpinions	41
-open	135.91
+open	130.66
 operatingCashflow	46940000256
 operatingMargins	0.35632
 overallRisk	9
 payoutRatio	0.31350002
-pegRatio	0.77
+pegRatio	0.72
 phone	(737) 867-1000
-postMarketChange	-0.09989929
-postMarketChangePercent	-0.06976207
-postMarketPrice	143.1001
-postMarketTime	1791935998
-previousClose	137.39
-priceEpsCurrentYear	17.590862
+postMarketChange	0.30999756
+postMarketChangePercent	0.2392141
+postMarketPrice	129.9
+postMarketTime	1792448011
+previousClose	128.23
+priceEpsCurrentYear	15.918994
 priceHint	2
-priceToBook	7.0051856
-priceToSalesTrailing12Months	6.0481353
+priceToBook	6.3393993
+priceToSalesTrailing12Months	5.4733086
 profitMargins	0.2636
 quickRatio	1.02
 quoteSourceName	Nasdaq Real Time Price
@@ -138,16 +138,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.5814
 region	US
-regularMarketChange	5.81
-regularMarketChangePercent	4.22884
-regularMarketDayHigh	144.1776
-regularMarketDayLow	135.5633
-regularMarketDayRange	135.5633 - 144.1776
-regularMarketOpen	135.91
-regularMarketPreviousClose	137.39
-regularMarketPrice	143.2
-regularMarketTime	1791921880
-regularMarketVolume	26301920
+regularMarketChange	1.36
+regularMarketChangePercent	1.06059
+regularMarketDayHigh	131.4
+regularMarketDayLow	129.12
+regularMarketDayRange	129.12 - 131.4
+regularMarketOpen	130.66
+regularMarketPreviousClose	128.23
+regularMarketPrice	129.59
+regularMarketTime	1792440245
+regularMarketVolume	23540613
 returnOnAssets	0.06357
 returnOnEquity	0.41192
 revenueGrowth	0.296
@@ -162,14 +162,14 @@ sharesShort	48486262
 sharesShortPreviousMonthDate	1788134400
 sharesShortPriorMonth	44597874
 shortName	Oracle Corporation
-shortPercentOfFloat	0.025899999
+shortPercentOfFloat	0.025999999
 shortRatio	1.42
 sourceInterval	15
 state	TX
 symbol	ORCL
 targetHighPrice	400.0
 targetLowPrice	110.0
-targetMeanPrice	237.97415
+targetMeanPrice	237.3644
 targetMedianPrice	240.0
 totalCash	37077000192
 totalCashPerShare	12.262
@@ -177,15 +177,15 @@ totalDebt	169142992896
 totalRevenue	71776002048
 tradeable	False
 trailingAnnualDividendRate	2.0
-trailingAnnualDividendYield	0.0145571
+trailingAnnualDividendYield	0.015596975
 trailingEps	6.38
-trailingPE	22.44514
+trailingPE	20.31191
 trailingPegRatio	0.8072
 triggerable	True
-twoHundredDayAverage	161.4508
-twoHundredDayAverageChange	-18.250809
-twoHundredDayAverageChangePercent	-0.11304254
+twoHundredDayAverage	160.1927
+twoHundredDayAverageChange	-30.602707
+twoHundredDayAverageChangePercent	-0.19103684
 typeDisp	Equity
-volume	26301920
+volume	23540613
 website	https://www.oracle.com
 zip	78741

@@ -92,13 +92,13 @@ SECTORS = {
         "LRCX", "AMAT", "ENTG", "WDC", "NVT", "COHR", "ARM", "QCOM", "TXN",
         "ON", "ADI", "KLAC", "CDNS", "SNPS", "APH", "SOXQ", "MRVL", "SWKS",
         "STM", "TTDKY", "TTMI", "SOXX", "XSD", "SMHX", "MUZ", "ALAB", "LITE",
-        "FN", "DRAM", "QTUM"
+        "FN", "DRAM", "QTUM", "CLS", "EUV"
     ],
     "AI & Big Tech": [
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
         "CRM", "ADBE", "CSCO", "NOW", "RDDT", "IONQ", "PANW", "CRWD", "NET",
         "DELL", "HPE", "SMCI", "TTD", "VGT", "APP", "MNDY", "DDOG", "FTNT",
-        "ZS", "NBIS", "CRWV", "MDB"
+        "ZS", "NBIS", "CRWV", "MDB", "CHAT"
     ],
     "China & Intl AI": [
         "BABA", "BIDU", "TCEHY", "PDD", "JD", "GDS", "VNET", "KWEB", "FXI"

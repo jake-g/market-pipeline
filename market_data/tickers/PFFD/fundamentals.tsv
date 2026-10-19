@@ -2,22 +2,22 @@ Metric	Value
 allTimeHigh	26.22
 allTimeLow	16.21
 ask	17.5
-askSize	2400
-averageDailyVolume10Day	1425960
-averageDailyVolume3Month	904877
-averageVolume	904877
-averageVolume10days	1425960
+askSize	5200
+averageDailyVolume10Day	2172990
+averageDailyVolume3Month	1075600
+averageVolume	1075600
+averageVolume10days	2172990
 beta3Year	1.11
-bid	17.3
-bidSize	4400
+bid	17.19
+bidSize	2200
 category	Preferred Stock
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	17.48
-dayLow	17.31
+dayHigh	17.33
+dayLow	17.18
 dividendYield	6.82
 esgPopulated	False
 exchange	PCX
@@ -25,23 +25,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	18.1384
-fiftyDayAverageChange	-0.6683998
-fiftyDayAverageChangePercent	-0.03684999
-fiftyTwoWeekChangePercent	-10.699588
+fiftyDayAverage	18.0362
+fiftyDayAverageChange	-0.85619926
+fiftyDayAverageChangePercent	-0.04747116
+fiftyTwoWeekChangePercent	-11.5285635
 fiftyTwoWeekHigh	19.65
-fiftyTwoWeekHighChange	-2.1800003
-fiftyTwoWeekHighChangePercent	-0.11094149
-fiftyTwoWeekLow	17.31
-fiftyTwoWeekLowChange	0.15999985
-fiftyTwoWeekLowChangePercent	0.009243203
-fiftyTwoWeekRange	17.31 - 19.65
+fiftyTwoWeekHighChange	-2.4699993
+fiftyTwoWeekHighChangePercent	-0.12569971
+fiftyTwoWeekLow	17.17
+fiftyTwoWeekLowChange	0.010000229
+fiftyTwoWeekLowChangePercent	0.0005824245
+fiftyTwoWeekRange	17.17 - 19.65
 firstTradeDateMilliseconds	1505395800000
-fiveYearAverageReturn	-0.015155899
+fiveYearAverageReturn	-0.018775001
 fullExchangeName	NYSEArca
-fulldayChange	0.09499931
-fulldayChangePercent	0.5472311
-fulldayPrice	17.47
+fulldayChange	-0.005001068
+fulldayChangePercent	-0.029092891
+fulldayPrice	17.18
 fundFamily	Global X Funds
 fundInceptionDate	1505088000
 gmtOffSetMilliseconds	-14400000
@@ -51,47 +51,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of its underlying index. It also invests at least 80% of its total assets in preferred securities that are domiciled in, principally traded in or whose revenues are primarily from the U.S. The underlying index is designed to track the broad-based performance of the U.S. preferred securities market.
 longName	Global X U.S. Preferred ETF
 market	us_market
-marketState	POSTPOST
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_528855653
-navPrice	17.36
+navPrice	17.25
 netAssets	2113870980.0
 netExpenseRatio	0.23
-open	17.37
+open	17.25
 phone	+1 8884938631
 postMarketChange	-0.010000229
 postMarketChangePercent	-0.057242297
 postMarketPrice	17.46
 postMarketTime	1791934204
-previousClose	17.36
+previousClose	17.19
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.109999
-regularMarketChangePercent	0.633633
-regularMarketDayHigh	17.48
-regularMarketDayLow	17.31
-regularMarketDayRange	17.31 - 17.48
-regularMarketOpen	17.37
-regularMarketPreviousClose	17.36
-regularMarketPrice	17.47
-regularMarketTime	1791921600
-regularMarketVolume	1295376
+regularMarketChange	-0.0100002
+regularMarketChangePercent	-0.0581747
+regularMarketDayHigh	17.33
+regularMarketDayLow	17.18
+regularMarketDayRange	17.18 - 17.33
+regularMarketOpen	17.25
+regularMarketPreviousClose	17.19
+regularMarketPrice	17.18
+regularMarketTime	1792440000
+regularMarketVolume	1155584
 shortName	Global X U.S. Preferred ETF
 sourceInterval	15
 symbol	PFFD
-threeYearAverageReturn	0.053038
+threeYearAverageReturn	0.050955
 totalAssets	2113870976
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-4.13977
 trailingThreeMonthReturns	-4.13977
 triggerable	True
-twoHundredDayAverage	18.7296
-twoHundredDayAverageChange	-1.2596016
-twoHundredDayAverageChangePercent	-0.06725192
+twoHundredDayAverage	18.69505
+twoHundredDayAverageChange	-1.515049
+twoHundredDayAverageChangePercent	-0.081040114
 typeDisp	ETF
-volume	1295376
+volume	1155584
 yield	0.0682
 ytdReturn	-3.13987
