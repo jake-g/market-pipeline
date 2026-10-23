@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.3908186
-SandP52WeekChange	0.13723719
+52WeekChange	0.41471732
+SandP52WeekChange	0.15118182
 address1	101 Townsend Street
 allTimeHigh	370.35
 allTimeLow	14.5
-ask	301.0
-askSize	500
+ask	305.0
+askSize	200
 auditRisk	1
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	2898600
-averageDailyVolume3Month	3344203
-averageVolume	3344203
-averageVolume10days	2898600
+averageDailyVolume10Day	2989200
+averageDailyVolume3Month	3338057
+averageVolume	3338057
+averageVolume10days	2989200
 beta	1.645
-bid	299.45
-bidSize	300
+bid	300.0
+bidSize	200
 boardRisk	8
 bookValue	4.552
 city	San Francisco
@@ -25,27 +25,27 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	297.58
+currentPrice	303.61
 currentRatio	1.818
 customPriceAlertConfidence	HIGH
 dateShortInterest	1790726400
-dayHigh	306.68
-dayLow	296.3
+dayHigh	324.33
+dayLow	302.86
 debtToEquity	217.858
 displayName	Cloudflare
 dividendYield	0.0
-earningsCallTimestampEnd	1793908800
-earningsCallTimestampStart	1793908800
+earningsCallTimestampEnd	1793916000
+earningsCallTimestampStart	1793916000
 earningsTimestamp	1793908800
 earningsTimestampEnd	1793908800
 earningsTimestampStart	1793908800
 ebitda	-3610000
 ebitdaMargins	-0.0014399999
-enterpriseToEbitda	-29050.686
-enterpriseToRevenue	41.743
-enterpriseValue	104872968192
+enterpriseToEbitda	-29771.72
+enterpriseToRevenue	42.779
+enterpriseValue	107475910656
 epsCurrentYear	1.26316
-epsForward	1.67614
+epsForward	1.67826
 epsTrailingTwelveMonths	-0.58
 esgPopulated	False
 exchange	NYQ
@@ -53,35 +53,35 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	319.9216
-fiftyDayAverageChange	-22.341614
-fiftyDayAverageChangePercent	-0.06983465
-fiftyTwoWeekChangePercent	39.08186
+fiftyDayAverage	319.4948
+fiftyDayAverageChange	-15.884827
+fiftyDayAverageChangePercent	-0.049718574
+fiftyTwoWeekChangePercent	41.471733
 fiftyTwoWeekHigh	370.35
-fiftyTwoWeekHighChange	-72.77002
-fiftyTwoWeekHighChangePercent	-0.19648986
+fiftyTwoWeekHighChange	-66.74002
+fiftyTwoWeekHighChangePercent	-0.18020797
 fiftyTwoWeekLow	158.83
-fiftyTwoWeekLowChange	138.74998
-fiftyTwoWeekLowChangePercent	0.8735754
+fiftyTwoWeekLowChange	144.77998
+fiftyTwoWeekLowChangePercent	0.9115405
 fiftyTwoWeekRange	158.83 - 370.35
 financialCurrency	USD
 firstTradeDateMilliseconds	1568381400000
 floatShares	320457500
-forwardEps	1.67614
-forwardPE	177.53886
+forwardEps	1.67826
+forwardPE	180.90761
 freeCashflow	691946368
 fullExchangeName	NYSE
 fullTimeEmployees	5156
-fulldayChange	0.7000122
-fulldayChangePercent	0.23625118
-fulldayPrice	297.0
+fulldayChange	-7.2199097
+fulldayChangePercent	-2.350078
+fulldayPrice	303.61
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1790812800
 grossMargins	0.72577006
 grossProfits	1823376000
 hasPrePostMarketData	True
-heldPercentInsiders	0.00616
-heldPercentInstitutions	0.90261
+heldPercentInsiders	0.0061500003
+heldPercentInstitutions	0.90230006
 impliedSharesOutstanding	356079715
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -92,8 +92,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Cloudflare, Inc. operates as a cloud services provider that delivers a range of services to businesses worldwide. The company provides a cloud-based security solution to secure a range of combination of platforms, including public and private cloud, on-premises, software-as-a-service applications, and Internet of things (IoT) devices; and application security products comprising web application firewall, bot management, distributed denial of service mitigation, API security, SSL/TLS encryption, client-side security, and security center products. It also offers application performance solutions, such as content delivery, load balancing, DNS, smart shield, video stream delivery, web optimization, cloudfare waiting room, and cloudfare data localization suite; SASE platform that combines network services and Zero Trust and workplace security products that provides a cloud-based network and security-as-a-service; network services, including magic WAN, magic transit, magic firewall, cloudflare network interconnect, and spectrum. In addition, the company provides zero trust security services which include cloudflare zero trust network access, secure web gateway, and one client; and remote browser isolation, cloud access security broker, cloud email security, digital experience monitoring, and data loss prevention products. Further, it provides developer-based solutions comprising workers AI, vectorize, AI gateway, cloudflare workers, cloudflare pages, R2 object storage, workers KV, durable objects, D1, hyperdrive, queues, cloudfare stream, cloudfare images, and cloudflare realtime; and consumer offerings, such as 1.1.1.1 DNS and with WARPm and cloudfare registrar that offers secure registration and management of domain names. The company serves customers in technology, healthcare, financial services, consumer and retail, industrial, and non-profit industries, as well as government. The company was incorporated in 2009 and is headquartered in San Francisco, California.
 longName	Cloudflare, Inc.
 market	us_market
-marketCap	105962192896
-marketState	POST
+marketCap	108109357056
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_81851700
 mostRecentQuarter	1782777600
@@ -101,22 +101,22 @@ netIncomeToCommon	-206275008
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	125457565985
 numberOfAnalystOpinions	31
-open	305.0
+open	314.5
 operatingCashflow	633427968
 operatingMargins	-0.07603
 overallRisk	10
 payoutRatio	0.0
 pegRatio	2.38
 phone	888 993 5273
-postMarketChange	-0.5799866
-postMarketChangePercent	-0.19490106
-postMarketPrice	297.0
-postMarketTime	1792443718
-previousClose	296.3
-priceEpsCurrentYear	235.58377
+postMarketChange	-3.6098938
+postMarketChangePercent	-1.1889905
+postMarketPrice	300.0001
+postMarketTime	1792713530
+previousClose	307.22
+priceEpsCurrentYear	240.35751
 priceHint	2
-priceToBook	65.37346
-priceToSalesTrailing12Months	42.176525
+priceToBook	66.69815
+priceToSalesTrailing12Months	43.03117
 profitMargins	-0.082100004
 quickRatio	1.755
 quoteSourceName	Nasdaq Real Time Price
@@ -124,16 +124,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.94118
 region	US
-regularMarketChange	1.28
-regularMarketChangePercent	0.431994
-regularMarketDayHigh	306.68
-regularMarketDayLow	296.3
-regularMarketDayRange	296.3 - 306.68
-regularMarketOpen	305.0
-regularMarketPreviousClose	296.3
-regularMarketPrice	297.58
-regularMarketTime	1792440224
-regularMarketVolume	3049499
+regularMarketChange	-3.61002
+regularMarketChangePercent	-1.17506
+regularMarketDayHigh	324.33
+regularMarketDayLow	302.86
+regularMarketDayRange	302.86 - 324.33
+regularMarketOpen	314.5
+regularMarketPreviousClose	307.22
+regularMarketPrice	303.61
+regularMarketTime	1792699438
+regularMarketVolume	4800745
 returnOnAssets	-0.02037
 returnOnEquity	-0.14425999
 revenueGrowth	0.359
@@ -167,10 +167,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.58
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	242.24506
-twoHundredDayAverageChange	55.33493
-twoHundredDayAverageChangePercent	0.22842543
+twoHundredDayAverage	243.77335
+twoHundredDayAverageChange	59.83664
+twoHundredDayAverageChangePercent	0.24546014
 typeDisp	Equity
-volume	3049499
+volume	4800745
 website	https://www.cloudflare.com
 zip	94107

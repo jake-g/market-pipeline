@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.18520492
-SandP52WeekChange	0.13723719
+52WeekChange	-0.102413
+SandP52WeekChange	0.15118182
 address1	47281 Bayside Parkway
 allTimeHigh	339.92
 allTimeLow	0.65
@@ -8,10 +8,10 @@ ask	41.49
 askSize	1
 auditRisk	3
 averageAnalystRating	2.3 - Buy
-averageDailyVolume10Day	5027380
-averageDailyVolume3Month	4621170
-averageVolume	4621170
-averageVolume10days	5027380
+averageDailyVolume10Day	5053060
+averageDailyVolume3Month	4640131
+averageVolume	4640131
+averageVolume10days	5053060
 beta	1.633
 bid	37.24
 bidSize	1
@@ -25,18 +25,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	30.63
+currentPrice	31.35
 currentRatio	3.451
 customPriceAlertConfidence	HIGH
 dateShortInterest	1790726400
-dayHigh	30.935
-dayLow	29.785
+dayHigh	32.03
+dayLow	30.8601
 debtToEquity	51.899
-discount_to_intrinsic_value	-316.86
+discount_to_intrinsic_value	-338.79
 displayName	Enphase Energy
 dividendYield	0.0
-earningsCallTimestampEnd	1793131200
-earningsCallTimestampStart	1793131200
+earningsCallTimestampEnd	1793133000
+earningsCallTimestampStart	1793133000
 earningsGrowth	-0.035
 earningsQuarterlyGrowth	-0.026
 earningsTimestamp	1793131200
@@ -44,12 +44,12 @@ earningsTimestampEnd	1793131200
 earningsTimestampStart	1793131200
 ebitda	191792000
 ebitdaMargins	0.14437
-enterpriseToEbitda	19.406
-enterpriseToRevenue	2.802
-enterpriseValue	3721926144
+enterpriseToEbitda	19.902
+enterpriseToRevenue	2.873
+enterpriseValue	3817070336
 epsCurrentYear	1.98603
-epsForward	2.15339
-epsTrailingTwelveMonths	1.0
+epsForward	2.13157
+epsTrailingTwelveMonths	0.98
 eps_normalized_growth	-0.2257747859016297
 esgPopulated	False
 exchange	NGM
@@ -57,36 +57,36 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	35.7608
-fiftyDayAverageChange	-5.1308002
-fiftyDayAverageChangePercent	-0.14347555
-fiftyTwoWeekChangePercent	-18.520493
+fiftyDayAverage	35.156
+fiftyDayAverageChange	-3.8059978
+fiftyDayAverageChangePercent	-0.10826027
+fiftyTwoWeekChangePercent	-10.2413
 fiftyTwoWeekHigh	73.74
-fiftyTwoWeekHighChange	-43.11
-fiftyTwoWeekHighChangePercent	-0.58462167
+fiftyTwoWeekHighChange	-42.39
+fiftyTwoWeekHighChangePercent	-0.5748576
 fiftyTwoWeekLow	25.78
-fiftyTwoWeekLowChange	4.8499985
-fiftyTwoWeekLowChangePercent	0.18813027
+fiftyTwoWeekLowChange	5.5699997
+fiftyTwoWeekLowChangePercent	0.21605894
 fiftyTwoWeekRange	25.78 - 73.74
 financialCurrency	USD
 firstTradeDateMilliseconds	1333114200000
 floatShares	128144630
-forwardEps	2.15339
-forwardPE	14.224084
+forwardEps	2.13157
+forwardPE	14.707469
 freeCashflow	78322752
 fullExchangeName	NasdaqGM
 fullTimeEmployees	2872
-fulldayChange	-0.050001144
-fulldayChangePercent	-0.1632957
-fulldayPrice	30.57
+fulldayChange	-0.6399994
+fulldayChangePercent	-2.0006235
+fulldayPrice	31.35
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1790812800
-graham_intrinsic_value	7.35
+graham_intrinsic_value	7.14
 grossMargins	0.30037
 grossProfits	399039008
 hasPrePostMarketData	True
 heldPercentInsiders	0.03031
-heldPercentInstitutions	0.96572
+heldPercentInstitutions	0.96589994
 impliedSharesOutstanding	131798220
 industry	Solar
 industryDisp	Solar
@@ -97,8 +97,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Enphase Energy, Inc., together with its subsidiaries, designs, develops, manufactures, and sells home energy solutions for the solar photovoltaic industry in the United States and internationally. The company offers semiconductor-based microinverter that converts energy at the individual solar module level and combines with its proprietary networking and software technologies to provide energy monitoring and control. It also provides microinverter units and related accessories; IQ Battery and related accessories; IQ PowerPack 1500 and related accessories; IQ Combiner, IQ Gateway, and IQ Energy Router; cloud-based monitoring service; and electric vehicle charging solutions, as well as design, proposal, permitting, installation and solar appointment generation services, and Enphase Care services. The company sells its solutions to solar distributors; and directly to large installers, original equipment manufacturers, strategic partners, and homeowners, as well as through its legacy product upgrade program or online store. Enphase Energy, Inc. was incorporated in 2006 and is headquartered in Fremont, California.
 longName	Enphase Energy, Inc.
 market	us_market
-marketCap	4036979456
-marketState	POST
+marketCap	4131874304
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_40485464
 mostRecentQuarter	1782777600
@@ -106,7 +106,7 @@ netIncomeToCommon	134024000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	4370023509
 numberOfAnalystOpinions	26
-open	30.62
+open	31.29
 operatingCashflow	204691008
 operatingMargins	0.17981
 overallRisk	4
@@ -114,14 +114,14 @@ payoutRatio	0.0
 pegRatio	0.75
 phone	707 774 7000
 postMarketChange	-0.059999466
-postMarketChangePercent	-0.19588464
-postMarketPrice	30.57
-postMarketTime	1792446868
-previousClose	30.62
-priceEpsCurrentYear	15.422728
+postMarketChangePercent	-0.19138585
+postMarketPrice	31.29
+postMarketTime	1792712150
+previousClose	31.99
+priceEpsCurrentYear	15.78526
 priceHint	2
-priceToBook	3.424642
-priceToSalesTrailing12Months	3.0387454
+priceToBook	3.5051432
+priceToSalesTrailing12Months	3.1101754
 profitMargins	0.100880004
 quickRatio	2.529
 quoteSourceName	Nasdaq Real Time Price
@@ -129,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.31034
 region	US
-regularMarketChange	0.0099983215
-regularMarketChangePercent	0.03265291
-regularMarketDayHigh	30.935
-regularMarketDayLow	29.785
-regularMarketDayRange	29.785 - 30.935
-regularMarketOpen	30.62
-regularMarketPreviousClose	30.62
-regularMarketPrice	30.63
-regularMarketTime	1792440001
-regularMarketVolume	3477568
+regularMarketChange	-0.639999
+regularMarketChangePercent	-2.00062
+regularMarketDayHigh	32.03
+regularMarketDayLow	30.8601
+regularMarketDayRange	30.8601 - 32.03
+regularMarketOpen	31.29
+regularMarketPreviousClose	31.99
+regularMarketPrice	31.35
+regularMarketTime	1792699201
+regularMarketVolume	4217670
 returnOnAssets	0.023759998
 returnOnEquity	0.12996
 revenueGrowth	-0.196
@@ -160,7 +160,7 @@ state	CA
 symbol	ENPH
 targetHighPrice	212.0
 targetLowPrice	24.0
-targetMeanPrice	50.62692
+targetMeanPrice	50.28077
 targetMedianPrice	41.5
 totalCash	937708032
 totalCashPerShare	7.096
@@ -169,14 +169,14 @@ totalRevenue	1328502016
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	1.0
-trailingPE	30.63
+trailingEps	0.98
+trailingPE	31.989796
 trailingPegRatio	0.7455
 triggerable	True
-twoHundredDayAverage	41.2021
-twoHundredDayAverageChange	-10.5721
-twoHundredDayAverageChangePercent	-0.2565913
+twoHundredDayAverage	41.17735
+twoHundredDayAverageChange	-9.827349
+twoHundredDayAverageChangePercent	-0.23865908
 typeDisp	Equity
-volume	3477568
+volume	4217670
 website	https://www.enphase.com
 zip	94538

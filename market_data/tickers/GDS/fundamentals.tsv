@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.32887465
-SandP52WeekChange	0.13723719
+52WeekChange	-0.31202567
+SandP52WeekChange	0.15118182
 address1	Building C, Sunland International
 address2	4th and 5th Floor No. 999 Zhouhai Road Pudong
 allTimeHigh	116.76
@@ -8,14 +8,14 @@ allTimeLow	5.01
 ask	42.12
 askSize	2
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	3167090
-averageDailyVolume3Month	1778257
-averageVolume	1778257
-averageVolume10days	3167090
+averageDailyVolume10Day	3275560
+averageDailyVolume3Month	1877798
+averageVolume	1877798
+averageVolume10days	3275560
 beta	0.42
 bid	24.14
 bidSize	2
-bookValue	22.503426
+bookValue	22.5483
 city	Shanghai
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Wei  Huang', 'age': 58, 'title': 'Founder, Chairman of the Board & CEO', 'yearBorn': 1967, 'fiscalYear': 2019, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel A.  Newman', 'age': 64, 'title': 'Chief Financial Officer', 'yearBorn': 1961, 'fiscalYear': 2019, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Laura  Chen', 'title': 'Head of Investor Relations', 'fiscalYear': 2019, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kejing  Zhang', 'age': 42, 'title': 'Executive Vice President of Sales & Service', 'yearBorn': 1983, 'fiscalYear': 2019, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Yan  Liang', 'age': 50, 'title': 'Executive Vice President of Data Center Operation & Delivery', 'yearBorn': 1975, 'fiscalYear': 2019, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Yixin  Qian', 'age': 53, 'title': 'Executive Vice President of Operation', 'yearBorn': 1972, 'fiscalYear': 2019, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1577750400
@@ -23,12 +23,12 @@ corporateActions	[]
 country	China
 cryptoTradeable	False
 currency	USD
-currentPrice	22.47
+currentPrice	22.14
 currentRatio	1.783
 customPriceAlertConfidence	HIGH
 dateShortInterest	1790726400
-dayHigh	23.78
-dayLow	22.19
+dayHigh	22.82
+dayLow	21.67
 debtToEquity	142.517
 displayName	GDS
 dividendYield	0.0
@@ -39,11 +39,11 @@ earningsTimestampEnd	1795005000
 earningsTimestampStart	1795005000
 ebitda	5501655040
 ebitdaMargins	0.44861
-enterpriseToEbitda	7.436
-enterpriseToRevenue	3.336
-enterpriseValue	40909942784
+enterpriseToEbitda	7.403
+enterpriseToRevenue	3.321
+enterpriseValue	40727220224
 epsCurrentYear	2.74927
-epsForward	0.006282584
+epsForward	0.012659105
 epsTrailingTwelveMonths	2.15
 esgPopulated	False
 exchange	NGM
@@ -51,34 +51,34 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	31.4882
-fiftyDayAverageChange	-9.0182
-fiftyDayAverageChangePercent	-0.28639936
-fiftyTwoWeekChangePercent	-32.887466
+fiftyDayAverage	30.9552
+fiftyDayAverageChange	-8.815201
+fiftyDayAverageChangePercent	-0.28477284
+fiftyTwoWeekChangePercent	-31.202566
 fiftyTwoWeekHigh	48.61
-fiftyTwoWeekHighChange	-26.140001
-fiftyTwoWeekHighChangePercent	-0.53774947
-fiftyTwoWeekLow	22.19
-fiftyTwoWeekLowChange	0.27999878
-fiftyTwoWeekLowChangePercent	0.012618241
-fiftyTwoWeekRange	22.19 - 48.61
+fiftyTwoWeekHighChange	-26.470001
+fiftyTwoWeekHighChangePercent	-0.5445382
+fiftyTwoWeekLow	21.67
+fiftyTwoWeekLowChange	0.4699993
+fiftyTwoWeekLowChangePercent	0.02168894
+fiftyTwoWeekRange	21.67 - 48.61
 financialCurrency	CNY
 firstTradeDateMilliseconds	1478093400000
 floatShares	132591597
-forwardEps	0.006282584
-forwardPE	3576.554
+forwardEps	0.012659105
+forwardPE	1748.9388
 freeCashflow	-4602513408
 fullExchangeName	NasdaqGM
 fullTimeEmployees	2434
-fulldayChange	-0.6100006
-fulldayChangePercent	-2.6429837
-fulldayPrice	22.47
+fulldayChange	-1.4300003
+fulldayChangePercent	-6.0670357
+fulldayPrice	22.14
 gmtOffSetMilliseconds	-14400000
 grossMargins	0.24849
 grossProfits	3047390976
 hasPrePostMarketData	True
-heldPercentInsiders	0.01472
-heldPercentInstitutions	0.53848
+heldPercentInsiders	0.014780001
+heldPercentInstitutions	0.53901
 impliedSharesOutstanding	200377613
 industry	Information Technology Services
 industryDisp	Information Technology Services
@@ -89,8 +89,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	GDS Holdings Limited, together with its subsidiaries, engages in the development and operation of data centers in the People's Republic of China. It provides colocation services comprising critical facilities space, customer-available power, racks, and cooling; managed hosting services, including business continuity and disaster recovery, network management, data storage, system security, operating system, database, and server middleware services; managed cloud services; and consulting services. The company serves cloud service providers, large Internet companies, financial institutions, telecommunications carriers and IT service providers, large domestic private sector, and multinational corporations. GDS Holdings Limited was founded in 2001 and is headquartered in Shanghai, the People's Republic of China.
 longName	GDS Holdings Limited
 market	us_market
-marketCap	4502484992
-marketState	POST
+marketCap	4436360192
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_403751487
 mostRecentQuarter	1782777600
@@ -98,21 +98,21 @@ netIncomeToCommon	3658700032
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	6675140559
 numberOfAnalystOpinions	16
-open	23.77
+open	22.34
 operatingCashflow	3584009984
 operatingMargins	0.14222
 payoutRatio	0.0
-pegRatio	0.53
+pegRatio	0.54
 phone	86 21 2029 2200
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	22.47
-postMarketTime	1792445057
-previousClose	23.08
-priceEpsCurrentYear	8.173079
+postMarketPrice	22.14
+postMarketTime	1792704546
+previousClose	23.57
+priceEpsCurrentYear	8.053046
 priceHint	2
-priceToBook	0.9985146
-priceToSalesTrailing12Months	0.36713392
+priceToBook	0.98189217
+priceToSalesTrailing12Months	0.36174208
 profitMargins	0.30519
 quickRatio	1.375
 quoteSourceName	Nasdaq Real Time Price
@@ -120,16 +120,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.25
 region	US
-regularMarketChange	-0.6100006
-regularMarketChangePercent	-2.6429837
-regularMarketDayHigh	23.78
-regularMarketDayLow	22.19
-regularMarketDayRange	22.19 - 23.78
-regularMarketOpen	23.77
-regularMarketPreviousClose	23.08
-regularMarketPrice	22.47
-regularMarketTime	1792440001
-regularMarketVolume	3804095
+regularMarketChange	-1.43
+regularMarketChangePercent	-6.06704
+regularMarketDayHigh	22.82
+regularMarketDayLow	21.67
+regularMarketDayRange	21.67 - 22.82
+regularMarketOpen	22.34
+regularMarketPreviousClose	23.57
+regularMarketPrice	22.14
+regularMarketTime	1792699200
+regularMarketVolume	1949273
 returnOnAssets	0.015700001
 returnOnEquity	0.12767
 revenueGrowth	0.065
@@ -147,10 +147,10 @@ shortPercentOfFloat	0.1003
 shortRatio	10.02
 sourceInterval	15
 symbol	GDS
-targetHighPrice	63.030895
-targetLowPrice	40.1952
-targetMeanPrice	50.935974
-targetMedianPrice	50.518993
+targetHighPrice	62.9546
+targetLowPrice	40.232544
+targetMeanPrice	50.974865
+targetMedianPrice	50.565926
 totalCash	14927347712
 totalCashPerShare	76.793
 totalDebt	47377907712
@@ -159,13 +159,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.15
-trailingPE	10.451162
+trailingPE	10.297673
 trailingPegRatio	7.6781
 triggerable	True
-twoHundredDayAverage	37.2516
-twoHundredDayAverageChange	-14.781599
-twoHundredDayAverageChangePercent	-0.39680442
+twoHundredDayAverage	37.0446
+twoHundredDayAverageChange	-14.904602
+twoHundredDayAverageChangePercent	-0.40234208
 typeDisp	Equity
-volume	3804095
+volume	1949273
 website	https://www.gds-services.com
 zip	200137

@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-10-19 |
+| Date | str | 2026-10-22 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | FXI Dec 2026 32.000 put (FXI261218P00032000) st... |
+| Headline | str | FXI Jun 2027 27.000 put (FXI270617P00027000) in... |
 | Summary | str | Markets have been rising globally, with the exc... |
-| URL | str | https://news.google.com/rss/articles/CBMib0FVX3... |
+| URL | str | https://news.google.com/rss/articles/CBMibEFVX3... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News
@@ -57,12 +57,12 @@ This report documents the file structures and column data types used in `market_
 | USD_EUR | float64 | 1.1231 |
 | USD_JPY | float64 | 158.0 |
 | FOOD_CPI | float64 | 350.905 |
-| CORN_PRICE | float64 | 213.1902 |
-| WHEAT_PRICE | float64 | 228.7388 |
-| SUGAR_PRICE | float64 | 14.8123 |
-| WTI_CRUDE | float64 | 101.91 |
-| NAT_GAS_PRICE | float64 | 2.9632 |
-| COPPER_PRICE | float64 | 13542.8209 |
+| CORN_PRICE | float64 | 236.9161 |
+| WHEAT_PRICE | float64 | 246.8518 |
+| SUGAR_PRICE | float64 | 17.9371 |
+| WTI_CRUDE | float64 | 107.89 |
+| NAT_GAS_PRICE | float64 | 2.9538 |
+| COPPER_PRICE | float64 | 14473.0559 |
 | ELECTRIC_POWER_INDEX | float64 | 123.5223 |
 | RD_INVESTMENT | float64 | 950.518 |
 | US_BIRTH_RATE | float64 | 10.6 |
@@ -74,35 +74,35 @@ This report documents the file structures and column data types used in `market_
 | GDP | float64 | 32563.03 |
 | REAL_GDP | float64 | 24408.011 |
 | UNRATE | float64 | 4.2 |
-| HOUSING_STARTS | float64 | 1275.0 |
+| HOUSING_STARTS | float64 | 1221.0 |
 | RECESSION_PROB | float64 | 0.62 |
 | UMICH_SENTIMENT | float64 | 51.7 |
 | SAVINGS_RATE | float64 | 4.1 |
 | M2_MONEY | float64 | 23342.8 |
 | M2_VELOCITY | float64 | 1.418 |
-| FED_ASSETS | float64 | 6755639.0 |
+| FED_ASSETS | float64 | 6753604.0 |
 | CPI | float64 | 336.298 |
 | FEDFUNDS | float64 | 3.75 |
-| US02Y | float64 | 4.74 |
-| US10Y | float64 | 5.09 |
-| US30Y | float64 | 5.43 |
-| HY_SPREAD | float64 | 3.31 |
-| CORP_SPREAD | float64 | 0.85 |
-| BAA_SPREAD | float64 | 1.46 |
+| US02Y | float64 | 4.81 |
+| US10Y | float64 | 5.13 |
+| US30Y | float64 | 5.42 |
+| HY_SPREAD | float64 | 3.27 |
+| CORP_SPREAD | float64 | 0.88 |
+| BAA_SPREAD | float64 | 1.44 |
 | AAA_SPREAD | float64 | 0.97 |
 | FEDFUNDS_UPPER | float64 | 4.0 |
 | SOFR | float64 | 3.88 |
-| US03M | float64 | 4.26 |
-| US01Y | float64 | 4.46 |
-| US05Y | float64 | 4.89 |
-| US10Y_REAL | float64 | 2.74 |
-| BREAKEVEN_10Y | float64 | 2.35 |
-| TERM_PREMIUM_10Y | float64 | 1.0729 |
-| HY_YIELD | float64 | 8.14 |
-| CORP_YIELD | float64 | 5.86 |
-| US_POLICY_UNCERTAINTY | float64 | 517.94 |
+| US03M | float64 | 4.25 |
+| US01Y | float64 | 4.52 |
+| US05Y | float64 | 4.95 |
+| US10Y_REAL | float64 | 2.76 |
+| BREAKEVEN_10Y | float64 | 2.32 |
+| TERM_PREMIUM_10Y | float64 | 0.9857 |
+| HY_YIELD | float64 | 8.17 |
+| CORP_YIELD | float64 | 5.92 |
+| US_POLICY_UNCERTAINTY | float64 | 168.22 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 358.5228 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
-| ST_LOUIS_FIN_STRESS | float64 | -0.7206 |
+| ST_LOUIS_FIN_STRESS | float64 | -0.6328 |
 | KANSAS_CITY_FIN_STRESS | float64 | -0.9858 |
 | CHICAGO_FED_ACTIVITY | float64 | -0.04 |

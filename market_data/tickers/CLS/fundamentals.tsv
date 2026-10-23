@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.14779556
-SandP52WeekChange	0.13723719
+52WeekChange	0.07738829
+SandP52WeekChange	0.15118182
 address1	5140 Yonge Street
 address2	Suite 1900
 allTimeHigh	474.03
 allTimeLow	2.58
-ask	302.07
-askSize	80
+ask	269.69
+askSize	120
 auditRisk	1
 averageAnalystRating	1.2 - Strong Buy
-averageDailyVolume10Day	1942070
-averageDailyVolume3Month	2572453
-averageVolume	2572453
-averageVolume10days	1942070
+averageDailyVolume10Day	2146080
+averageDailyVolume3Month	2555196
+averageVolume	2555196
+averageVolume10days	2146080
 beta	1.316
-bid	300.5
+bid	268.38
 bidSize	240
 boardRisk	3
 bookValue	21.562
@@ -26,18 +26,18 @@ corporateActions	[]
 country	Canada
 cryptoTradeable	False
 currency	USD
-currentPrice	300.35
+currentPrice	269.01
 currentRatio	1.226
 customPriceAlertConfidence	HIGH
 dateShortInterest	1790726400
-dayHigh	315.25
-dayLow	300.1025
+dayHigh	291.99
+dayLow	267.7
 debtToEquity	39.571
-discount_to_intrinsic_value	38.32
+discount_to_intrinsic_value	37.0
 displayName	Celestica
 dividendYield	0.0
-earningsCallTimestampEnd	1793131200
-earningsCallTimestampStart	1793131200
+earningsCallTimestampEnd	1793102400
+earningsCallTimestampStart	1793102400
 earningsGrowth	0.742
 earningsQuarterlyGrowth	0.748
 earningsTimestamp	1793044800
@@ -45,12 +45,12 @@ earningsTimestampEnd	1793044800
 earningsTimestampStart	1793044800
 ebitda	1561699968
 ebitdaMargins	0.10014
-enterpriseToEbitda	22.398
-enterpriseToRevenue	2.243
-enterpriseValue	34979069952
-epsCurrentYear	11.18019
-epsForward	19.67174
-epsTrailingTwelveMonths	9.63
+enterpriseToEbitda	20.091
+enterpriseToRevenue	2.012
+enterpriseValue	31375529984
+epsCurrentYear	11.17988
+epsForward	19.71962
+epsTrailingTwelveMonths	8.51
 eps_normalized_growth	0.42854530143245295
 esgPopulated	False
 exchange	NYQ
@@ -58,36 +58,36 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EDT
 executiveTeam	[]
-fiftyDayAverage	332.8386
-fiftyDayAverageChange	-32.488586
-fiftyDayAverageChangePercent	-0.09761064
-fiftyTwoWeekChangePercent	14.779556
+fiftyDayAverage	332.0756
+fiftyDayAverageChange	-63.065582
+fiftyDayAverageChangePercent	-0.18991333
+fiftyTwoWeekChangePercent	7.7388287
 fiftyTwoWeekHigh	474.03
-fiftyTwoWeekHighChange	-173.68
-fiftyTwoWeekHighChangePercent	-0.3663903
+fiftyTwoWeekHighChange	-205.01999
+fiftyTwoWeekHighChangePercent	-0.43250424
 fiftyTwoWeekLow	244.51
-fiftyTwoWeekLowChange	55.84001
-fiftyTwoWeekLowChangePercent	0.22837517
+fiftyTwoWeekLowChange	24.500015
+fiftyTwoWeekLowChangePercent	0.10020047
 fiftyTwoWeekRange	244.51 - 474.03
 financialCurrency	USD
 firstTradeDateMilliseconds	899213400000
 floatShares	114053031
-forwardEps	19.67174
-forwardPE	15.268096
+forwardEps	19.71962
+forwardPE	13.641745
 freeCashflow	729075008
 fullExchangeName	NYSE
 fullTimeEmployees	23803
-fulldayChange	-4.98999
-fulldayChangePercent	-1.6424706
-fulldayPrice	300.35
+fulldayChange	-37.379883
+fulldayChangePercent	-12.271391
+fulldayPrice	269.01
 gmtOffSetMilliseconds	-14400000
 governanceEpochDate	1790812800
-graham_intrinsic_value	486.99
+graham_intrinsic_value	426.99
 grossMargins	0.11951999
 grossProfits	1863900032
 hasPrePostMarketData	True
 heldPercentInsiders	0.0097
-heldPercentInstitutions	0.67406
+heldPercentInstitutions	0.67421997
 impliedSharesOutstanding	126111117
 industry	Electronic Components
 industryDisp	Electronic Components
@@ -101,8 +101,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Celestica Inc., together with its subsidiaries, provides supply chain solutions in Asia, North America, and internationally. It operates through two segments, Advanced Technology Solutions, and Connectivity and Cloud Solutions. The company offers a range of product manufacturing and related supply chain services, including design and development, new product introduction, engineering services, component sourcing, electronics manufacturing and assembly, testing, mechanical assembly, systems integration, precision machining, logistics, asset management, product licensing, and after-market repair and return services. It also provides hardware platform solutions, which includes development of infrastructure platforms, and hardware and software design solutions and services, including open-source software that can be used as-is or customized for specific applications; and management of program, including design and supply chain, manufacturing, and after-market support, including IT asset disposition and asset management services. The company offers its products and services to original equipment manufacturers, and cloud-based and other service providers, including hyperscalers, and other companies in aerospace and defense, industrial, HealthTech, capital equipment, communications, and enterprise markets. The company has a strategic collaboration with Advanced Micro Devices, Inc. for the development of Helios, a rack-scale AI platform. The company was incorporated in 1994 and is headquartered in Toronto, Canada.
 longName	Celestica Inc.
 market	us_market
-marketCap	37877477376
-marketState	PREPRE
+marketCap	33925152768
+marketState	POSTPOST
 maxAge	86400
 messageBoardId	finmb_26238
 mostRecentQuarter	1782777600
@@ -110,22 +110,22 @@ netIncomeToCommon	1116400000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	45790470389
 numberOfAnalystOpinions	18
-open	314.08
+open	289.69
 operatingCashflow	1144000000
 operatingMargins	0.098179996
 overallRisk	2
 payoutRatio	0.0
 pegRatio	1.0
 phone	416 448 2211
-postMarketChange	0.6499939
-postMarketChangePercent	0.21641214
-postMarketPrice	301.0
-postMarketTime	1792454047
-previousClose	303.81
-priceEpsCurrentYear	26.864481
+postMarketChange	-1.7799072
+postMarketChangePercent	-0.66165096
+postMarketPrice	267.2301
+postMarketTime	1792713491
+previousClose	304.61
+priceEpsCurrentYear	24.061975
 priceHint	2
-priceToBook	13.929599
-priceToSalesTrailing12Months	2.4288998
+priceToBook	12.476115
+priceToSalesTrailing12Months	2.1754563
 profitMargins	0.07159
 quickRatio	0.627
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.22727
 region	US
-regularMarketChange	-3.45999
-regularMarketChangePercent	-1.13887
-regularMarketDayHigh	315.25
-regularMarketDayLow	300.1025
-regularMarketDayRange	300.1025 - 315.25
-regularMarketOpen	314.08
-regularMarketPreviousClose	303.81
-regularMarketPrice	300.35
-regularMarketTime	1792440097
-regularMarketVolume	1959875
+regularMarketChange	-35.6
+regularMarketChangePercent	-11.6871
+regularMarketDayHigh	291.99
+regularMarketDayLow	267.7
+regularMarketDayRange	267.7 - 291.99
+regularMarketOpen	289.69
+regularMarketPreviousClose	304.61
+regularMarketPrice	269.01
+regularMarketTime	1792699203
+regularMarketVolume	3308876
 returnOnAssets	0.10802
 returnOnEquity	0.52691
 revenueGrowth	0.624
@@ -173,14 +173,14 @@ totalRevenue	15594500096
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	9.63
-trailingPE	31.188993
+trailingEps	8.51
+trailingPE	31.611046
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	333.47595
-twoHundredDayAverageChange	-33.125946
-twoHundredDayAverageChangePercent	-0.099335335
+twoHundredDayAverage	333.54294
+twoHundredDayAverageChange	-64.53293
+twoHundredDayAverageChangePercent	-0.19347712
 typeDisp	Equity
-volume	1959875
+volume	3308876
 website	https://www.celestica.com
 zip	M2N 6L7
