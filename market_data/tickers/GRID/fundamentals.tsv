@@ -3,10 +3,10 @@ allTimeHigh	199.99
 allTimeLow	22.16
 ask	188.6
 askSize	2
-averageDailyVolume10Day	514960
-averageDailyVolume3Month	579267
-averageVolume	579267
-averageVolume10days	514960
+averageDailyVolume10Day	692000
+averageDailyVolume3Month	596418
+averageVolume	596418
+averageVolume10days	692000
 beta3Year	1.42
 bid	186.41
 bidSize	2
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	167.18
-dayLow	162.28
+dayHigh	167.205
+dayLow	162.8301
 displayName	NASDAQ Clean Edge Smart Grid
 dividendDate	1483056000
 dividendYield	0.87
@@ -26,76 +26,76 @@ esgPopulated	False
 exchange	NGM
 exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EDT
+exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	178.9242
-fiftyDayAverageChange	-15.734192
-fiftyDayAverageChangePercent	-0.08793776
-fiftyTwoWeekChangePercent	10.035491
+fiftyDayAverage	176.091
+fiftyDayAverageChange	-11.581009
+fiftyDayAverageChangePercent	-0.065767184
+fiftyTwoWeekChangePercent	4.417646
 fiftyTwoWeekHigh	199.99
-fiftyTwoWeekHighChange	-36.800003
-fiftyTwoWeekHighChangePercent	-0.18400921
+fiftyTwoWeekHighChange	-35.48001
+fiftyTwoWeekHighChangePercent	-0.17740892
 fiftyTwoWeekLow	144.62
-fiftyTwoWeekLowChange	18.570007
-fiftyTwoWeekLowChangePercent	0.12840553
+fiftyTwoWeekLowChange	19.89
+fiftyTwoWeekLowChangePercent	0.13753285
 fiftyTwoWeekRange	144.62 - 199.99
 firstTradeDateMilliseconds	1258468200000
-fiveYearAverageReturn	0.1300396
+fiveYearAverageReturn	0.1126684
 fullExchangeName	NasdaqGM
-fulldayChange	-7.5
-fulldayChangePercent	-4.398827
-fulldayPrice	163.19
+fulldayChange	-5.9299927
+fulldayChangePercent	-3.4812684
+fulldayPrice	164.51
 fundFamily	First Trust
 fundInceptionDate	1258329600
-gmtOffSetMilliseconds	-14400000
+gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund will normally invest at least 90% of its net assets (including investment borrowings) in the common stocks and depositary receipts that comprise the index. The index includes companies that are primarily engaged and involved in electric grid, electric meters and devices, networks, energy storage and management, and enabling software used by the smart grid infrastructure sector. The fund is non-diversified.
 longName	First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_79682012
-navPrice	170.32
+navPrice	164.65
 netAssets	11866589200.0
 netExpenseRatio	0.56
-open	167.18
+open	165.86
 phone	630-241-4141
 postMarketChange	0.009994507
 postMarketChangePercent	0.00612446
 postMarketPrice	163.2
 postMarketTime	1792701885
-previousClose	170.5
+previousClose	170.34
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-7.31
-regularMarketChangePercent	-4.28739
-regularMarketDayHigh	167.18
-regularMarketDayLow	162.28
-regularMarketDayRange	162.28 - 167.18
-regularMarketOpen	167.18
-regularMarketPreviousClose	170.5
-regularMarketPrice	163.19
-regularMarketTime	1792699201
-regularMarketVolume	2212024
+regularMarketChange	-5.830002
+regularMarketChangePercent	-3.4225676
+regularMarketDayHigh	167.205
+regularMarketDayLow	162.8301
+regularMarketDayRange	162.8301 - 167.205
+regularMarketOpen	165.86
+regularMarketPreviousClose	170.34
+regularMarketPrice	164.51
+regularMarketTime	1793390401
+regularMarketVolume	715001
 shortName	First Trust NASDAQ Clean Edge S
 sourceInterval	15
 symbol	GRID
-threeYearAverageReturn	0.26650828
+threeYearAverageReturn	0.2518368
 totalAssets	11866589184
 tradeable	False
-trailingPE	27.124075
+trailingPE	27.343473
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-7.13201
 trailingThreeMonthReturns	-7.13201
 triggerable	True
-twoHundredDayAverage	178.40166
-twoHundredDayAverageChange	-15.211655
-twoHundredDayAverageChangePercent	-0.08526633
+twoHundredDayAverage	178.72945
+twoHundredDayAverageChange	-14.219452
+twoHundredDayAverageChangePercent	-0.07955853
 typeDisp	ETF
-volume	2212024
+volume	715001
 yield	0.0087
 ytdReturn	16.47615

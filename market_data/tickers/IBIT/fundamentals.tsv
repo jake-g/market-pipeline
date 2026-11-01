@@ -3,10 +3,10 @@ allTimeHigh	71.82
 allTimeLow	22.02
 ask	36.73
 askSize	30
-averageDailyVolume10Day	37599290
-averageDailyVolume3Month	46431351
-averageVolume	46431351
-averageVolume10days	37599290
+averageDailyVolume10Day	42111970
+averageDailyVolume3Month	47123387
+averageVolume	47123387
+averageVolume10days	42111970
 beta3Year	0.0
 bid	36.71
 bidSize	31
@@ -16,35 +16,35 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	46.39
-dayLow	45.712
+dayHigh	44.1
+dayLow	43.02
 displayName	iShares Bitcoin Trust
 dividendYield	0.0
 esgPopulated	False
 exchange	NGM
 exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EDT
+exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	44.7358
-fiftyDayAverageChange	1.3241997
-fiftyDayAverageChangePercent	0.029600445
-fiftyTwoWeekChangePercent	-23.529411
-fiftyTwoWeekHigh	65.97
-fiftyTwoWeekHighChange	-19.91
-fiftyTwoWeekHighChangePercent	-0.30180386
+fiftyDayAverage	45.8908
+fiftyDayAverageChange	-2.5307999
+fiftyDayAverageChangePercent	-0.055148304
+fiftyTwoWeekChangePercent	-28.3661
+fiftyTwoWeekHigh	61.39
+fiftyTwoWeekHighChange	-18.029999
+fiftyTwoWeekHighChangePercent	-0.29369602
 fiftyTwoWeekLow	32.84
-fiftyTwoWeekLowChange	13.220001
-fiftyTwoWeekLowChangePercent	0.40255788
-fiftyTwoWeekRange	32.84 - 65.97
+fiftyTwoWeekLowChange	10.52
+fiftyTwoWeekLowChangePercent	0.32034105
+fiftyTwoWeekRange	32.84 - 61.39
 firstTradeDateMilliseconds	1704983400000
 fullExchangeName	NasdaqGM
-fulldayChange	-1.8699989
-fulldayChangePercent	-3.9088607
-fulldayPrice	46.06
+fulldayChange	-2.0119972
+fulldayChangePercent	-4.4016566
+fulldayPrice	43.36
 fundFamily	iShares
 fundInceptionDate	1704412800
-gmtOffSetMilliseconds	-14400000
+gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
 ipoExpectedDate	2024-01-11
 language	en-US
@@ -52,32 +52,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The shares are intended to constitute a simple means of making an investment similar to an investment in bitcoin rather than by acquiring, holding and trading bitcoin directly on a peer-to-peer or other basis or via a digital asset exchange. The fund is non-diversified.
 longName	iShares Bitcoin Trust ETF
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_1843774300
-navPrice	47.7626
+navPrice	43.27796
 netAssets	67060466000.0
 netExpenseRatio	0.25
-open	46.275
-postMarketChange	-0.058502197
-postMarketChangePercent	-0.12701301
-postMarketPrice	46.0015
-postMarketTime	1792713452
-previousClose	47.84
+open	43.622
+postMarketChange	0.33800125
+postMarketChangePercent	0.7795232
+postMarketPrice	43.698
+postMarketTime	1793404789
+previousClose	45.71
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.78
-regularMarketChangePercent	-3.72073
-regularMarketDayHigh	46.39
-regularMarketDayLow	45.712
-regularMarketDayRange	45.712 - 46.39
-regularMarketOpen	46.275
-regularMarketPreviousClose	47.84
-regularMarketPrice	46.06
-regularMarketTime	1792699201
-regularMarketVolume	43210671
+regularMarketChange	-2.3499985
+regularMarketChangePercent	-5.1411037
+regularMarketDayHigh	44.1
+regularMarketDayLow	43.02
+regularMarketDayRange	43.02 - 44.1
+regularMarketOpen	43.622
+regularMarketPreviousClose	45.71
+regularMarketPrice	43.36
+regularMarketTime	1793390401
+regularMarketVolume	119909667
 shortName	iShares Bitcoin Trust ETF
 sourceInterval	15
 symbol	IBIT
@@ -89,10 +89,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	42.77516
 trailingThreeMonthReturns	42.77516
 triggerable	True
-twoHundredDayAverage	41.731377
-twoHundredDayAverageChange	4.3286247
-twoHundredDayAverageChangePercent	0.1037259
+twoHundredDayAverage	41.484375
+twoHundredDayAverageChange	1.8756256
+twoHundredDayAverageChangePercent	0.04521282
 typeDisp	ETF
-volume	43210671
+volume	119909667
 yield	0.0
 ytdReturn	-4.30143

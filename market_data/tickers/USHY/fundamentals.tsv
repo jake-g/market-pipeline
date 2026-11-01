@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	41.941666
 allTimeLow	31.581
-ask	35.78
-askSize	104400
-averageDailyVolume10Day	13873980
-averageDailyVolume3Month	13592734
-averageVolume	13592734
-averageVolume10days	13873980
+ask	35.98
+askSize	64400
+averageDailyVolume10Day	19301170
+averageDailyVolume3Month	14571771
+averageVolume	14571771
+averageVolume10days	19301170
 beta3Year	0.68
-bid	35.58
-bidSize	84400
+bid	35.25
+bidSize	45600
 category	High Yield Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	35.6399
-dayLow	35.46
+dayHigh	35.815
+dayLow	35.72
 displayName	Broad USD HY Corp Bond ETF
 dividendYield	7.12
 epsTrailingTwelveMonths	3.4079502
@@ -25,78 +25,78 @@ esgPopulated	False
 exchange	BTS
 exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EDT
+exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	36.2455
-fiftyDayAverageChange	-0.6654968
-fiftyDayAverageChangePercent	-0.018360812
-fiftyTwoWeekChangePercent	-5.4521265
-fiftyTwoWeekHigh	37.82
-fiftyTwoWeekHighChange	-2.2399979
-fiftyTwoWeekHighChangePercent	-0.059227865
+fiftyDayAverage	36.0914
+fiftyDayAverageChange	-0.33140182
+fiftyDayAverageChangePercent	-0.009182293
+fiftyTwoWeekChangePercent	-4.000002
+fiftyTwoWeekHigh	37.69
+fiftyTwoWeekHighChange	-1.9300003
+fiftyTwoWeekHighChangePercent	-0.051207226
 fiftyTwoWeekLow	35.3
-fiftyTwoWeekLowChange	0.2800026
-fiftyTwoWeekLowChangePercent	0.007932085
-fiftyTwoWeekRange	35.3 - 37.82
+fiftyTwoWeekLowChange	0.45999908
+fiftyTwoWeekLowChangePercent	0.013031136
+fiftyTwoWeekRange	35.3 - 37.69
 firstTradeDateMilliseconds	1509024600000
-fiveYearAverageReturn	0.0362746
+fiveYearAverageReturn	0.0373955
 fullExchangeName	Cboe US
-fulldayChange	0.030002594
-fulldayChangePercent	0.08439548
-fulldayPrice	35.58
+fulldayChange	-0.10000229
+fulldayChangePercent	-0.27886862
+fulldayPrice	35.76
 fundFamily	iShares
 fundInceptionDate	1508889600
-gmtOffSetMilliseconds	-14400000
+gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund will invest at least 80% of its assets in the component securities of the underlying index and it will invest at least 90% of its assets in fixed income securities of the types included in the underlying index that BFA believes will help the fund track the underlying index. The underlying index is designed to provide a broad representation of the U.S. dollar-denominated high yield corporate bond market.
 longName	iShares Broad USD High Yield Corporate Bond ETF
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_533589528
-navPrice	35.52432
+navPrice	35.66649
 netAssets	26005198800.0
 netExpenseRatio	0.08
-open	35.46
+open	35.77
 phone	415-670-2000
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	35.58
-postMarketTime	1792699211
-previousClose	35.55
+postMarketPrice	35.76
+postMarketTime	1793390912
+previousClose	35.86
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.0300026
-regularMarketChangePercent	0.0843955
-regularMarketDayHigh	35.6399
-regularMarketDayLow	35.46
-regularMarketDayRange	35.46 - 35.6399
-regularMarketOpen	35.46
-regularMarketPreviousClose	35.55
-regularMarketPrice	35.58
-regularMarketTime	1792699201
-regularMarketVolume	19335857
+regularMarketChange	-0.100002
+regularMarketChangePercent	-0.278869
+regularMarketDayHigh	35.815
+regularMarketDayLow	35.72
+regularMarketDayRange	35.72 - 35.815
+regularMarketOpen	35.77
+regularMarketPreviousClose	35.86
+regularMarketPrice	35.76
+regularMarketTime	1793390401
+regularMarketVolume	31643623
 shortName	iShares Broad USD High Yield Co
 sourceInterval	15
 symbol	USHY
-threeYearAverageReturn	0.0884031
+threeYearAverageReturn	0.08712909
 totalAssets	26005198848
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	10.440294
+trailingPE	10.493111
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-1.73614
 trailingThreeMonthReturns	-1.73614
 triggerable	True
-twoHundredDayAverage	36.8701
-twoHundredDayAverageChange	-1.2900963
-twoHundredDayAverageChangePercent	-0.034990314
+twoHundredDayAverage	36.806026
+twoHundredDayAverageChange	-1.0460281
+twoHundredDayAverageChangePercent	-0.028420024
 typeDisp	ETF
-volume	19335857
+volume	31643623
 yield	0.0712
 ytdReturn	0.13681

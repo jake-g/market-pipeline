@@ -12,15 +12,13 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 ## Chokepoint Status
 | Chokepoint    |   Vessels |   Congestion Index |
 |---------------|-----------|--------------------|
-| Hormuz        |         4 |               0.07 |
-| Bab_el_Mandeb |        32 |               0.46 |
-| Suez_Canal    |        43 |               0.61 |
-| Panama_Canal  |        29 |               0.81 |
-| Malacca       |       227 |               1.03 |
-| Taiwan_Strait |       230 |               1.05 |
+| Hormuz        |         2 |               0.03 |
+| Panama_Canal  |        28 |               0.78 |
+| Malacca       |       212 |               0.96 |
+| Taiwan_Strait |       240 |               1.09 |
 
 ## Shipping Macro Metrics
 | Metric                              |   Latest | YoY Chg       | Date       |
 |-------------------------------------|----------|---------------|------------|
 | Ocean Freight PPI (PCU483111483111) |    534.8 | (+36.79% YoY) | 2026-09-01 |
-| US Customs Duties (B235RC1Q027SBEA) |    306.4 | (+13.23% YoY) | 2026-04-01 |
+| US Customs Duties (B235RC1Q027SBEA) |    275.3 | (-17.51% YoY) | 2026-07-01 |

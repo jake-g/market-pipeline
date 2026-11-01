@@ -10,7 +10,7 @@ averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
 averageVolume10days	0
-beta3Year	1.0
+beta3Year	0.96
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
@@ -24,26 +24,26 @@ esgPopulated	False
 exchange	NAS
 exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
-exchangeTimezoneShortName	EDT
+exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	617.338
-fiftyDayAverageChange	-3.6780396
-fiftyDayAverageChangePercent	-0.0059579024
-fiftyTwoWeekChangePercent	13.329924
+fiftyDayAverage	616.6686
+fiftyDayAverageChange	-9.598572
+fiftyDayAverageChangePercent	-0.0155652035
+fiftyTwoWeekChangePercent	8.9051485
 fiftyTwoWeekHigh	625.93
-fiftyTwoWeekHighChange	-12.27002
-fiftyTwoWeekHighChangePercent	-0.019602863
+fiftyTwoWeekHighChange	-18.859985
+fiftyTwoWeekHighChangePercent	-0.030131143
 fiftyTwoWeekLow	507.8
-fiftyTwoWeekLowChange	105.859985
-fiftyTwoWeekLowChangePercent	0.20846787
+fiftyTwoWeekLowChange	99.27002
+fiftyTwoWeekLowChangePercent	0.19549039
 fiftyTwoWeekRange	507.8 - 625.93
 firstTradeDateMilliseconds	868282200000
 fullExchangeName	Nasdaq
-fulldayChange	-7.49
-fulldayChangePercent	-1.205828
-fulldayPrice	613.66
+fulldayChange	-11.19
+fulldayChangePercent	-1.8099182
+fulldayPrice	607.07
 fundInceptionDate	868233600
-gmtOffSetMilliseconds	-14400000
+gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	False
 language	en-US
 lastCapGain	75.0
@@ -51,7 +51,7 @@ lastDividendValue	5.0312
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the S&P 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. It is non-diversified.
 longName	Vanguard Institutional Index Instl Pl
 market	us_market
-marketState	POSTPOST
+marketState	CLOSED
 maxAge	86400
 messageBoardId	finmb_28113781
 morningStarOverallRating	4
@@ -59,28 +59,28 @@ morningStarRiskRating	3
 netAssets	348681830000.0
 netExpenseRatio	0.02
 phone	800-523-1036
-previousClose	621.14996
+previousClose	618.26
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	-7.49
-regularMarketChangePercent	-1.205828
-regularMarketPreviousClose	621.14996
-regularMarketPrice	613.66
-regularMarketTime	1792714150
+regularMarketChange	-11.19
+regularMarketChangePercent	-1.8099182
+regularMarketPreviousClose	618.26
+regularMarketPrice	607.07
+regularMarketTime	1793405315
 shortName	Vanguard Institutional Index Fu
 sourceInterval	15
 symbol	VIIIX
 totalAssets	348681830400
 tradeable	False
-trailingPE	24.25662
+trailingPE	23.996134
 trailingPegRatio	None
 trailingThreeMonthReturns	2.2982
 triggerable	False
-twoHundredDayAverage	584.7592
-twoHundredDayAverageChange	28.900757
-twoHundredDayAverageChangePercent	0.049423344
+twoHundredDayAverage	586.6603
+twoHundredDayAverageChange	20.409729
+twoHundredDayAverageChangePercent	0.03478969
 typeDisp	Fund
 yield	0.0106
 ytdReturn	12.73071
