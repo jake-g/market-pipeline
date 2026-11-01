@@ -526,7 +526,7 @@ def generate_macro_report() -> None:
     corr_vals: Dict[Tuple[str, str], float] = {
         (a, b): float(str(corr_df.loc[a, b])) for i, a in enumerate(corr_cols)
         for b in corr_cols[i + 1:]
-        if pd.notna(corr_df.loc[a, b])
+        if str(corr_df.loc[a, b]).lower() != "nan"
     }
     pairs = [(a, b, v) for (a, b), v in corr_vals.items()]
     pairs.sort(key=lambda x: x[2], reverse=True)

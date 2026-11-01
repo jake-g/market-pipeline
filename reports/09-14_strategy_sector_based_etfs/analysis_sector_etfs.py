@@ -886,8 +886,8 @@ def build_section(m: pd.DataFrame, corr: pd.DataFrame, fr: pd.DataFrame,
       "### 0. Scorecard — what the data says about the matrix",
       "",
       f"- **Best risk-adjusted theme (1Y Sharpe):** {best_sh} "
-      f"({th.loc[best_sh, 'Sharpe_1Y']:.2f}); VTI {vti['Sharpe_1Y']:.2f}.",
-      f"- **Deepest 1Y drawdown:** {worst_dd} ({th.loc[worst_dd, 'MaxDD_1Y']:.0f}%).",
+      f"({float(str(th.loc[best_sh, 'Sharpe_1Y'])):.2f}); VTI {vti['Sharpe_1Y']:.2f}.",
+      f"- **Deepest 1Y drawdown:** {worst_dd} ({float(str(th.loc[worst_dd, 'MaxDD_1Y'])):.0f}%).",
       f"- **Most redundant pairs (3Y weekly corr):** {pair_str(top_pairs)}.",
       f"- **Most independent pairs:** {pair_str(low_pairs)}.",
       f"- **Most 'own-theme' variance (least explained by market/style/semis "

@@ -339,11 +339,11 @@ def get_intrinsic_value_metrics(ticker: str,
         "Ticker":
             ticker,
         "Graham_Value":
-            float(str(graham_val)) if pd.notna(graham_val) and
-            str(graham_val).lower() != 'nan' else np.nan,
+            float(str(graham_val))
+            if str(graham_val).lower() not in ('nan', 'none', '') else np.nan,
         "Discount_to_Intrinsic_Value_Pct":
             float(str(discount))
-            if pd.notna(discount) and str(discount).lower() != 'nan' else np.nan
+            if str(discount).lower() not in ('nan', 'none', '') else np.nan
     }
   except Exception as e:
     logger.warning("Could not retrieve intrinsic value metrics for %s: %s",

@@ -1588,8 +1588,8 @@ async def run_analysis() -> None:
         if len(pair_df) > 10:
           pair_ewma = compute_ewma_correlation(pair_df, lambda_decay=0.94)
           val_cell = pair_ewma.loc[ticker, "Open_Model_Factor"]
-          corr_open_factor = float(
-              str(val_cell)) if pd.notna(val_cell) else np.nan
+          corr_open_factor = (float(str(val_cell)) if
+                              str(val_cell).lower() != "nan" else np.nan)
 
       close_val = tech.get("Close")
       close_price = np.nan

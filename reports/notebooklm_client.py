@@ -294,25 +294,63 @@ class MarketNewsClient:
     except Exception as e:
       logger.warning("Failed to prune sources: %s", e)
 
-  async def upload_news_text(self, text_content: str, title: str):
-    """Uploads arbitrary text structure as a source to the notebook."""
+  async def upload_news_text(self,
+                             text_content: str,
+                             title: str,
+                             max_chars: int = 250_000) -> bool:
+    """Uploads text as a notebook source, chunking on failure or size.
+
+    Args:
+      text_content (str): The text to upload.
+      title (str): Source title (chunks get a ' (part i/N)' suffix).
+      max_chars (int): Chunk size used when the single upload fails or the
+        text is larger than this limit.
+
+    Returns:
+      bool: True if every part uploaded successfully.
+    """
     if not self.notebook_id:
       raise ValueError("Not connected to a notebook. Call connect() first.")
 
     await self._prune_sources_if_needed()
+    client = self.client
+    if client is None or not hasattr(client, 'sources'):
+      logger.error("Client or sources not available.")
+      return False
 
-    logger.info("Uploading news source to NotebookLM: %s", title)
-    try:
-      client = self.client
-      if client is not None and hasattr(client, 'sources'):
+    async def _add(body: str, name: str) -> bool:
+      try:
         await client.sources.add_text(self.notebook_id,
-                                      title=title,
-                                      content=text_content,
+                                      title=name,
+                                      content=body,
                                       wait=True)
-      else:
-        logger.error("Client or sources not available.")
-    except Exception as e:
-      logger.error("Error uploading text: %s", e)
+        return True
+      except Exception as e:  # pylint: disable=broad-except
+        logger.error("Error uploading text '%s': %s", name, e)
+        return False
+
+    logger.info("Uploading news source to NotebookLM: %s (%d chars)", title,
+                len(text_content))
+    if len(text_content) <= max_chars and await _add(text_content, title):
+      return True
+
+    # Fallback: split on paragraph boundaries into <= max_chars parts.
+    parts: List[str] = []
+    buf = ""
+    for para in text_content.split("\n\n"):
+      if len(buf) + len(para) + 2 > max_chars and buf:
+        parts.append(buf)
+        buf = ""
+      buf = f"{buf}\n\n{para}" if buf else para
+    if buf:
+      parts.append(buf)
+    if len(parts) <= 1:
+      return False
+    logger.warning("Retrying '%s' as %d chunked sources", title, len(parts))
+    ok = True
+    for i, part in enumerate(parts, 1):
+      ok = await _add(part, f"{title} (part {i}/{len(parts)})") and ok
+    return ok
 
   async def upload_file(self, file_path: str, prune: bool = True):
     """Uploads a local file (PDF, Markdown, TXT) to the notebook as a source.

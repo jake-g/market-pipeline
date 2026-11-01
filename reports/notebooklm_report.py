@@ -663,8 +663,11 @@ async def generate_report(market_data_dir: str,
             if full_texts:
               final_market_feed_doc += "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
                   full_texts)
-            await db.upload_news_text(final_market_feed_doc, title=feed_title)
-            logger.info("✅ Uploaded single aggregated file: %s", feed_title)
+            if await db.upload_news_text(final_market_feed_doc,
+                                         title=feed_title):
+              logger.info("✅ Uploaded single aggregated file: %s", feed_title)
+            else:
+              logger.error("❌ Failed to upload aggregated file: %s", feed_title)
 
         if mode == 'feed_upload':
           return
@@ -763,8 +766,10 @@ async def generate_report(market_data_dir: str,
             except Exception as e:
               logger.warning(
                   f"Could not deduplicate old periodic feed source: {e}")
-          await db.upload_news_text(final_market_feed_doc, title=feed_title)
-          logger.info("✅ Uploaded bounded news text: %s", feed_title)
+          if await db.upload_news_text(final_market_feed_doc, title=feed_title):
+            logger.info("✅ Uploaded bounded news text: %s", feed_title)
+          else:
+            logger.error("❌ Failed to upload bounded news text: %s", feed_title)
 
       # Final Prompting
       if prompt:
