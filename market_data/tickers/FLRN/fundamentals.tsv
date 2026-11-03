@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	45.6
 allTimeLow	25.93
-ask	30.86
-askSize	35800
+ask	0.0
+askSize	26500
 averageDailyVolume10Day	970240
 averageDailyVolume3Month	1385454
 averageVolume	1385454
 averageVolume10days	970240
 beta3Year	0.0
-bid	30.58
-bidSize	14300
+bid	0.0
+bidSize	15900
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	30.84
-dayLow	30.82
+dayHigh	30.73
+dayLow	30.7
 displayName	Bloomberg Inv Grade Fltg Rt ETF
 dividendYield	4.32
 esgPopulated	False
@@ -27,22 +27,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	30.7924
-fiftyDayAverageChange	0.027599335
-fiftyDayAverageChangePercent	0.00089630345
+fiftyDayAverageChange	-0.082401276
+fiftyDayAverageChangePercent	-0.0026760264
 fiftyTwoWeekChangePercent	0.3255248
 fiftyTwoWeekHigh	30.87
-fiftyTwoWeekHighChange	-0.050001144
-fiftyTwoWeekHighChangePercent	-0.0016197325
+fiftyTwoWeekHighChange	-0.16000175
+fiftyTwoWeekHighChangePercent	-0.005183082
 fiftyTwoWeekLow	30.63
-fiftyTwoWeekLowChange	0.19000053
-fiftyTwoWeekLowChangePercent	0.0062030866
+fiftyTwoWeekLowChange	0.07999992
+fiftyTwoWeekLowChangePercent	0.0026118162
 fiftyTwoWeekRange	30.63 - 30.87
 firstTradeDateMilliseconds	1322749800000
 fiveYearAverageReturn	0.044927
 fullExchangeName	NYSEArca
-fulldayChange	0.00399971
-fulldayChangePercent	0.012973435
-fulldayPrice	30.82
+fulldayChange	0.0051136017
+fulldayChangePercent	0.016653977
+fulldayPrice	30.71
 fundFamily	State Street Investment Management
 fundInceptionDate	1322611200
 gmtOffSetMilliseconds	-18000000
@@ -52,32 +52,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally invests substantially all, but at least 80%, of its total assets in the securities comprising the index and in securities that the Adviser determines have economic characteristics that are substantially identical to the economic characteristics of the securities that comprise the index. The index is designed to measure the performance of U.S. dollar-denominated, investment grade floating rate notes.
 longName	State Street SPDR Bloomberg Investment Grade Floating Rate ETF
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_143773983
 navPrice	30.81504
 netAssets	3069519620.0
 netExpenseRatio	0.15
-open	30.83
-postMarketChange	0.013999939
-postMarketChangePercent	0.045424853
-postMarketPrice	30.834
-postMarketTime	1793396171
-previousClose	30.83
+open	30.72
+postMarketChange	0.00010108948
+postMarketChangePercent	0.00032917448
+postMarketPrice	30.7101
+postMarketTime	1793653673
+previousClose	30.705
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.0100002
-regularMarketChangePercent	-0.0324367
-regularMarketDayHigh	30.84
-regularMarketDayLow	30.82
-regularMarketDayRange	30.82 - 30.84
-regularMarketOpen	30.83
-regularMarketPreviousClose	30.83
-regularMarketPrice	30.82
-regularMarketTime	1793390400
-regularMarketVolume	1069121
+regularMarketChange	0.00499916
+regularMarketChangePercent	0.0162813
+regularMarketDayHigh	30.73
+regularMarketDayLow	30.7
+regularMarketDayRange	30.7 - 30.73
+regularMarketOpen	30.72
+regularMarketPreviousClose	30.705
+regularMarketPrice	30.71
+regularMarketTime	1793653200
+regularMarketVolume	1596077
 shortName	State Street SPDR Bloomberg Inv
 sourceInterval	15
 symbol	FLRN
@@ -91,9 +91,9 @@ trailingThreeMonthNavReturns	1.02046
 trailingThreeMonthReturns	1.02046
 triggerable	True
 twoHundredDayAverage	30.78415
-twoHundredDayAverageChange	0.035850525
-twoHundredDayAverageChangePercent	0.0011645774
+twoHundredDayAverageChange	-0.074150085
+twoHundredDayAverageChangePercent	-0.0024087098
 typeDisp	ETF
-volume	1069121
+volume	1596077
 yield	0.0432
 ytdReturn	3.1616

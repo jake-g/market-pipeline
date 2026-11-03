@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	71.57
 allTimeLow	11.144444
-ask	62.39
-askSize	15700
+ask	0.0
+askSize	1400
 averageDailyVolume10Day	23169250
 averageDailyVolume3Month	19397910
 averageVolume	19397910
 averageVolume10days	23169250
 beta3Year	1.0
-bid	60.77
-bidSize	31600
+bid	0.0
+bidSize	800
 bookValue	52.559
 category	Diversified Emerging Mkts
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	61.445
-dayLow	60.575
+dayHigh	62.365
+dayLow	61.05
 displayName	MSCI Emerging Markets ETF
 dividendYield	1.67
 epsTrailingTwelveMonths	4.6635504
@@ -29,23 +29,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	66.1144
-fiftyDayAverageChange	-5.074402
-fiftyDayAverageChangePercent	-0.076751836
+fiftyDayAverageChange	-5.004402
+fiftyDayAverageChangePercent	-0.07569307
 fiftyTwoWeekChangePercent	9.68554
 fiftyTwoWeekHigh	71.57
-fiftyTwoWeekHighChange	-10.529999
-fiftyTwoWeekHighChangePercent	-0.14712867
+fiftyTwoWeekHighChange	-10.459999
+fiftyTwoWeekHighChangePercent	-0.1461506
 fiftyTwoWeekLow	52.38
-fiftyTwoWeekLowChange	8.66
-fiftyTwoWeekLowChangePercent	0.16533028
+fiftyTwoWeekLowChange	8.73
+fiftyTwoWeekLowChangePercent	0.16666666
 fiftyTwoWeekRange	52.38 - 71.57
 financialCurrency	USD
 firstTradeDateMilliseconds	1050327000000
 fiveYearAverageReturn	0.061705098
 fullExchangeName	NYSEArca
-fulldayChange	-1.5100021
-fulldayChangePercent	-2.4075289
-fulldayPrice	61.04
+fulldayChange	0.11000061
+fulldayChangePercent	0.1802107
+fulldayPrice	61.11
 fundFamily	iShares
 fundInceptionDate	1049673600
 gmtOffSetMilliseconds	-18000000
@@ -56,33 +56,33 @@ longBusinessSummary	The fund generally will invest at least 80% of its assets in
 longName	iShares MSCI Emerging Markets ETF
 market	us_market
 marketCap	47393677312
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_8797528
 navPrice	60.94213
 netAssets	31071397900.0
 netExpenseRatio	0.72
-open	61.24
-postMarketChange	0.16999817
-postMarketChangePercent	0.27850288
-postMarketPrice	61.21
-postMarketTime	1793403571
-previousClose	62.72
+open	62.07
+postMarketChange	0.040000916
+postMarketChangePercent	0.06545723
+postMarketPrice	61.15
+postMarketTime	1793666720
+previousClose	61.04
 priceHint	2
-priceToBook	1.1613616
-quoteSourceName	Delayed Quote
+priceToBook	1.1626934
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.68
-regularMarketChangePercent	-2.67857
-regularMarketDayHigh	61.445
-regularMarketDayLow	60.575
-regularMarketDayRange	60.575 - 61.445
-regularMarketOpen	61.24
-regularMarketPreviousClose	62.72
-regularMarketPrice	61.04
-regularMarketTime	1793390400
-regularMarketVolume	37550967
+regularMarketChange	0.0699997
+regularMarketChangePercent	0.114678
+regularMarketDayHigh	62.365
+regularMarketDayLow	61.05
+regularMarketDayRange	61.05 - 62.365
+regularMarketOpen	62.07
+regularMarketPreviousClose	61.04
+regularMarketPrice	61.11
+regularMarketTime	1793653200
+regularMarketVolume	24949792
 sharesOutstanding	752400000
 shortName	iShares MSCI Emerging Index Fun
 sourceInterval	15
@@ -91,16 +91,16 @@ threeYearAverageReturn	0.21343121
 totalAssets	31071397888
 tradeable	False
 trailingAnnualDividendRate	0.76
-trailingAnnualDividendYield	0.012117347
-trailingPE	13.08874
+trailingAnnualDividendYield	0.0124508515
+trailingPE	13.10375
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-2.36965
 trailingThreeMonthReturns	-2.36965
 triggerable	True
 twoHundredDayAverage	63.8805
-twoHundredDayAverageChange	-2.8404999
-twoHundredDayAverageChangePercent	-0.044465836
+twoHundredDayAverageChange	-2.7705002
+twoHundredDayAverageChangePercent	-0.043370046
 typeDisp	ETF
-volume	37550967
+volume	24949792
 yield	0.0167
 ytdReturn	22.76825

@@ -5,33 +5,33 @@ address1	One Madison Avenue
 address2	Suite 2400
 allTimeHigh	444.65
 allTimeLow	31.55
-ask	149.22
-askSize	2
+ask	160.0
+askSize	13
 auditRisk	10
 averageAnalystRating	2.0 - Buy
 averageDailyVolume10Day	8111950
 averageDailyVolume3Month	9145390
 averageVolume	9145390
 averageVolume10days	8111950
-beta	3.409
-bid	141.4
-bidSize	1
+beta	3.353
+bid	124.3
+bidSize	2
 boardRisk	10
 bookValue	52.653
 city	New York
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Brian  Armstrong', 'age': 42, 'title': 'Co-Founder, Chairman & CEO', 'yearBorn': 1983, 'fiscalYear': 2025, 'totalPay': 9713000, 'exercisedValue': 39133852, 'unexercisedValue': 1675806336}, {'maxAge': 1, 'name': 'Ms. Emilie M. Choi', 'age': 46, 'title': 'President & COO', 'yearBorn': 1979, 'fiscalYear': 2025, 'totalPay': 2196839, 'exercisedValue': 30390270, 'unexercisedValue': 192454368}, {'maxAge': 1, 'name': 'Mr. Frederick Ernest Ehrsam III', 'age': 36, 'title': 'Co-Founder & Independent Director', 'yearBorn': 1989, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Alesia Jeanne Haas', 'age': 48, 'title': 'Chief Financial Officer', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 740500, 'exercisedValue': 0, 'unexercisedValue': 152466336}, {'maxAge': 1, 'name': 'Mr. Paul  Grewal J.D.', 'age': 53, 'title': 'Advisor', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 740500, 'exercisedValue': 26650546, 'unexercisedValue': 71806000}, {'maxAge': 1, 'name': 'Mr. Lawrence J. Brock', 'age': 53, 'title': 'Advisor', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 740500, 'exercisedValue': 0, 'unexercisedValue': 3250937}, {'maxAge': 1, 'name': 'Ms. Jennifer N. Jones', 'title': 'Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rob  Witoff', 'title': 'Chief Technology Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Anil K. Gupta', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Molly  Abraham', 'title': 'General Counsel & Secretary', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	143.54
+currentPrice	137.83
 currentRatio	2.425
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	148.5
-dayLow	136.9
+dayHigh	143.7711
+dayLow	135.47
 debtToEquity	49.395
 discount_to_intrinsic_value	-413.62
 displayName	Coinbase Global
@@ -45,11 +45,11 @@ earningsTimestampEnd	1793304000
 earningsTimestampStart	1793304000
 ebitda	271502016
 ebitdaMargins	0.0499
-enterpriseToEbitda	132.85
-enterpriseToRevenue	6.629
-enterpriseValue	36068945920
-epsCurrentYear	-0.3889
-epsForward	2.66447
+enterpriseToEbitda	127.281
+enterpriseToRevenue	6.351
+enterpriseValue	34557145088
+epsCurrentYear	-0.36034
+epsForward	2.47161
 epsTrailingTwelveMonths	-2.77
 eps_normalized_growth	-0.1247628031454382
 esgPopulated	False
@@ -59,27 +59,27 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	179.7396
-fiftyDayAverageChange	-36.1996
-fiftyDayAverageChangePercent	-0.20140025
+fiftyDayAverageChange	-41.90959
+fiftyDayAverageChangePercent	-0.2331684
 fiftyTwoWeekChangePercent	-56.558323
 fiftyTwoWeekHigh	342.8
-fiftyTwoWeekHighChange	-199.26
-fiftyTwoWeekHighChangePercent	-0.5812719
-fiftyTwoWeekLow	136.89
-fiftyTwoWeekLowChange	6.649994
-fiftyTwoWeekLowChangePercent	0.048579108
-fiftyTwoWeekRange	136.89 - 342.8
+fiftyTwoWeekHighChange	-204.96999
+fiftyTwoWeekHighChangePercent	-0.5979288
+fiftyTwoWeekLow	135.47
+fiftyTwoWeekLowChange	2.3600006
+fiftyTwoWeekLowChangePercent	0.017420836
+fiftyTwoWeekRange	135.47 - 342.8
 financialCurrency	USD
 firstTradeDateMilliseconds	1618407000000
-floatShares	220579699
-forwardEps	2.66447
-forwardPE	53.871876
+floatShares	220735909
+forwardEps	2.47161
+forwardPE	55.76527
 freeCashflow	3681990144
 fullExchangeName	NasdaqGS
 fullTimeEmployees	4951
-fulldayChange	-15.339996
-fulldayChangePercent	-9.552274
-fulldayPrice	143.54
+fulldayChange	-7.199997
+fulldayChangePercent	-5.0160213
+fulldayPrice	137.83
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	37.57
@@ -99,31 +99,31 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally. It provides the primary financial account in the crypto economy for consumers; a brokerage platform with a pool of liquidity across the crypto marketplace for institutions; and a suite of products granting access to build onchain for developers. The company was founded in 2012 and is based in New York, New York.
 longName	Coinbase Global, Inc.
 market	us_market
-marketCap	38004142080
-marketState	CLOSED
+marketCap	36492341248
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_377154867
 mostRecentQuarter	1790726400
 netIncomeToCommon	-701620992
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	38004141019
-numberOfAnalystOpinions	33
-open	148.23
+numberOfAnalystOpinions	34
+open	140.36
 operatingCashflow	1409211008
 operatingMargins	-0.01423
 overallRisk	10
 payoutRatio	0.0
 pegRatio	2.1
 phone	888 908 7930
-postMarketChange	1.7100067
-postMarketChangePercent	1.1913103
-postMarketPrice	145.25
-postMarketTime	1793404783
-previousClose	160.59
-priceEpsCurrentYear	-369.0923
+postMarketChange	-0.6325073
+postMarketChangePercent	-0.45890394
+postMarketPrice	137.1975
+postMarketTime	1793667489
+previousClose	143.54
+priceEpsCurrentYear	-382.49988
 priceHint	2
-priceToBook	2.7261503
-priceToSalesTrailing12Months	6.984312
+priceToBook	2.6177046
+priceToSalesTrailing12Months	6.706477
 profitMargins	-0.12894
 quickRatio	1.262
 quoteSourceName	Nasdaq Real Time Price
@@ -131,16 +131,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.97368
 region	US
-regularMarketChange	-17.050003
-regularMarketChangePercent	-10.617102
-regularMarketDayHigh	148.5
-regularMarketDayLow	136.9
-regularMarketDayRange	136.9 - 148.5
-regularMarketOpen	148.23
-regularMarketPreviousClose	160.59
-regularMarketPrice	143.54
-regularMarketTime	1793390401
-regularMarketVolume	20893993
+regularMarketChange	-5.7099915
+regularMarketChangePercent	-3.9779794
+regularMarketDayHigh	143.7711
+regularMarketDayLow	135.47
+regularMarketDayRange	135.47 - 143.7711
+regularMarketOpen	140.36
+regularMarketPreviousClose	143.54
+regularMarketPrice	137.83
+regularMarketTime	1793653202
+regularMarketVolume	10634242
 returnOnAssets	0.00014
 returnOnEquity	-0.046830002
 revenueGrowth	-0.342
@@ -162,8 +162,8 @@ state	NY
 symbol	COIN
 targetHighPrice	280.0
 targetLowPrice	110.0
-targetMeanPrice	205.48788
-targetMedianPrice	205.0
+targetMeanPrice	198.44412
+targetMedianPrice	201.5
 totalCash	8820883456
 totalCashPerShare	33.316
 totalDebt	6885685760
@@ -176,9 +176,9 @@ trailingPE	59.25
 trailingPegRatio	2.0988
 triggerable	True
 twoHundredDayAverage	178.24695
-twoHundredDayAverageChange	-34.706955
-twoHundredDayAverageChangePercent	-0.19471276
+twoHundredDayAverageChange	-40.416946
+twoHundredDayAverageChangePercent	-0.22674692
 typeDisp	Equity
-volume	20893993
+volume	10634242
 website	https://www.coinbase.com
 zip	10010

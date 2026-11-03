@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	109.83
 allTimeLow	8.45
-ask	44.5
-askSize	13500
+ask	0.0
+askSize	2700
 averageDailyVolume10Day	19052040
 averageDailyVolume3Month	16831754
 averageVolume	16831754
 averageVolume10days	19052040
 beta3Year	1.22
-bid	44.48
-bidSize	6900
+bid	0.0
+bidSize	10700
 bookValue	21.348
 category	Commodities Focused
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	45.06
-dayLow	44.11
+dayHigh	46.1297
+dayLow	45.49
 dividendYield	0.0
 epsTrailingTwelveMonths	-3.46
 esgPopulated	False
@@ -28,23 +28,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	55.8196
-fiftyDayAverageChange	-11.219601
-fiftyDayAverageChangePercent	-0.20099752
+fiftyDayAverageChange	-10.249599
+fiftyDayAverageChangePercent	-0.18362008
 fiftyTwoWeekChangePercent	1.9195557
 fiftyTwoWeekHigh	109.83
-fiftyTwoWeekHighChange	-65.23
-fiftyTwoWeekHighChangePercent	-0.5939179
+fiftyTwoWeekHighChange	-64.26
+fiftyTwoWeekHighChangePercent	-0.58508605
 fiftyTwoWeekLow	42.51
-fiftyTwoWeekLowChange	2.0900002
-fiftyTwoWeekLowChangePercent	0.049164906
+fiftyTwoWeekLowChange	3.0600014
+fiftyTwoWeekLowChangePercent	0.0719831
 fiftyTwoWeekRange	42.51 - 109.83
 financialCurrency	USD
 firstTradeDateMilliseconds	1146231000000
 fiveYearAverageReturn	0.1508741
 fullExchangeName	NYSEArca
-fulldayChange	-2.7831001
-fulldayChangePercent	-5.886421
-fulldayPrice	44.6
+fulldayChange	-0.099998474
+fulldayChangePercent	-0.22421184
+fulldayPrice	45.57
 fundFamily	iShares
 fundInceptionDate	1145577600
 gmtOffSetMilliseconds	-18000000
@@ -54,33 +54,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The Trust seeks to reflect such performance before payment of the Trust's expenses and liabilities. It is not actively managed. The Trust does not engage in any activities designed to obtain a profit from, or to ameliorate losses caused by, changes in the price of silver.
 longName	iShares Silver Trust
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_22769902
 navPrice	45.22368
 netAssets	29961824300.0
 netExpenseRatio	0.5
-open	44.99
-postMarketChange	-0.10309982
-postMarketChangePercent	-0.23116553
-postMarketPrice	44.4969
-postMarketTime	1793404796
-previousClose	47.28
+open	45.88
+postMarketChange	0.21319962
+postMarketChangePercent	0.4678508
+postMarketPrice	45.7832
+postMarketTime	1793667595
+previousClose	44.6
 priceHint	2
-priceToBook	2.0891886
+priceToBook	2.1346262
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-2.68
-regularMarketChangePercent	-5.66836
-regularMarketDayHigh	45.06
-regularMarketDayLow	44.11
-regularMarketDayRange	44.11 - 45.06
-regularMarketOpen	44.99
-regularMarketPreviousClose	47.28
-regularMarketPrice	44.6
-regularMarketTime	1793390400
-regularMarketVolume	40249053
+regularMarketChange	0.970001
+regularMarketChangePercent	2.17489
+regularMarketDayHigh	46.1297
+regularMarketDayLow	45.49
+regularMarketDayRange	45.49 - 46.1297
+regularMarketOpen	45.88
+regularMarketPreviousClose	44.6
+regularMarketPrice	45.57
+regularMarketTime	1793653200
+regularMarketVolume	20782328
 sharesOutstanding	341449984
 shortName	iShares Silver Trust
 sourceInterval	15
@@ -95,9 +95,9 @@ trailingThreeMonthNavReturns	3.15709
 trailingThreeMonthReturns	3.15709
 triggerable	True
 twoHundredDayAverage	64.2319
-twoHundredDayAverageChange	-19.631905
-twoHundredDayAverageChangePercent	-0.30564103
+twoHundredDayAverageChange	-18.661903
+twoHundredDayAverageChangePercent	-0.29053947
 typeDisp	ETF
-volume	40249053
+volume	20782328
 yield	0.0
 ytdReturn	-15.9658

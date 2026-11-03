@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	195.8
 allTimeLow	30.03
-ask	196.0
-askSize	100
+ask	0.0
+askSize	600
 averageDailyVolume10Day	464860
 averageDailyVolume3Month	507940
 averageVolume	507940
 averageVolume10days	464860
 beta3Year	-0.01
-bid	193.67
-bidSize	500
+bid	0.0
+bidSize	800
 bookValue	56.102
 category	Equity Energy
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	195.8
-dayLow	193.365
+dayHigh	192.79
+dayLow	187.3
 displayName	Energy Index Fund ETF Shares
 dividendYield	2.37
 epsTrailingTwelveMonths	10.179821
@@ -29,23 +29,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	182.0626
-fiftyDayAverageChange	13.3974
-fiftyDayAverageChangePercent	0.07358678
+fiftyDayAverageChange	5.317398
+fiftyDayAverageChangePercent	0.029206427
 fiftyTwoWeekChangePercent	56.844807
 fiftyTwoWeekHigh	195.8
-fiftyTwoWeekHighChange	-0.33999634
-fiftyTwoWeekHighChangePercent	-0.0017364471
+fiftyTwoWeekHighChange	-8.419998
+fiftyTwoWeekHighChangePercent	-0.043003052
 fiftyTwoWeekLow	122.08
-fiftyTwoWeekLowChange	73.380005
-fiftyTwoWeekLowChangePercent	0.6010813
+fiftyTwoWeekLowChange	65.3
+fiftyTwoWeekLowChangePercent	0.5348952
 fiftyTwoWeekRange	122.08 - 195.8
 financialCurrency	USD
 firstTradeDateMilliseconds	1096464600000
 fiveYearAverageReturn	0.23277621
 fullExchangeName	NYSEArca
-fulldayChange	1.6291046
-fulldayChangePercent	0.8484478
-fulldayPrice	195.46
+fulldayChange	-6.4600067
+fulldayChangePercent	-3.3050275
+fulldayPrice	187.38
 fundFamily	Vanguard
 fundInceptionDate	1095897600
 gmtOffSetMilliseconds	-18000000
@@ -56,33 +56,33 @@ longBusinessSummary	The fund employs an indexing investment approach designed to
 longName	Vanguard Energy Index Fund ETF Shares
 market	us_market
 marketCap	6865231872
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_8815884
 navPrice	195.5
 netAssets	12669258800.0
 netExpenseRatio	0.09
-open	193.86
-postMarketChange	-1.8209076
-postMarketChangePercent	-0.9316011
-postMarketPrice	193.6391
-postMarketTime	1793393905
-previousClose	192.01
+open	191.96
+postMarketChange	1.6199951
+postMarketChangePercent	0.8645507
+postMarketPrice	189.0
+postMarketTime	1793665548
+previousClose	195.46
 priceHint	2
-priceToBook	3.4840114
+priceToBook	3.339988
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	3.45001
-regularMarketChangePercent	1.79679
-regularMarketDayHigh	195.8
-regularMarketDayLow	193.365
-regularMarketDayRange	193.365 - 195.8
-regularMarketOpen	193.86
-regularMarketPreviousClose	192.01
-regularMarketPrice	195.46
-regularMarketTime	1793390400
-regularMarketVolume	414159
+regularMarketChange	-8.08
+regularMarketChangePercent	-4.13384
+regularMarketDayHigh	192.79
+regularMarketDayLow	187.3
+regularMarketDayRange	187.3 - 192.79
+regularMarketOpen	191.96
+regularMarketPreviousClose	195.46
+regularMarketPrice	187.38
+regularMarketTime	1793653200
+regularMarketVolume	862980
 sharesOutstanding	41751700
 shortName	Vanguard Energy ETF
 sourceInterval	15
@@ -91,16 +91,16 @@ threeYearAverageReturn	0.2125839
 totalAssets	12669258752
 tradeable	False
 trailingAnnualDividendRate	2.469
-trailingAnnualDividendYield	0.0128587065
-trailingPE	19.200731
+trailingAnnualDividendYield	0.01263174
+trailingPE	18.407003
 trailingPegRatio	None
 trailingThreeMonthNavReturns	15.21938
 trailingThreeMonthReturns	15.21938
 triggerable	True
 twoHundredDayAverage	165.63805
-twoHundredDayAverageChange	29.82196
-twoHundredDayAverageChangePercent	0.18004294
+twoHundredDayAverageChange	21.741959
+twoHundredDayAverageChangePercent	0.13126187
 typeDisp	ETF
-volume	414159
+volume	862980
 yield	0.023699999
 ytdReturn	39.25734

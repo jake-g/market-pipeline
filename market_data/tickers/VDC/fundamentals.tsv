@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	244.35
 allTimeLow	30.0
-ask	242.68
-askSize	200
+ask	0.0
+askSize	100
 averageDailyVolume10Day	139270
 averageDailyVolume3Month	163425
 averageVolume	163425
 averageVolume10days	139270
 beta3Year	0.5
-bid	240.24
-bidSize	300
+bid	0.0
+bidSize	200
 category	Consumer Defensive
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	244.22
-dayLow	241.78
+dayHigh	247.1461
+dayLow	243.27
 displayName	Consumer Staples Idx Fd ETF
 dividendYield	2.24
 epsTrailingTwelveMonths	8.940064
@@ -28,22 +28,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	228.9464
-fiftyDayAverageChange	13.373611
-fiftyDayAverageChangePercent	0.05841372
+fiftyDayAverageChange	17.913605
+fiftyDayAverageChangePercent	0.078243665
 fiftyTwoWeekChangePercent	16.803242
-fiftyTwoWeekHigh	244.35
-fiftyTwoWeekHighChange	-2.0299988
-fiftyTwoWeekHighChangePercent	-0.00830775
+fiftyTwoWeekHigh	247.1461
+fiftyTwoWeekHighChange	-0.2861023
+fiftyTwoWeekHighChangePercent	-0.0011576242
 fiftyTwoWeekLow	205.45
-fiftyTwoWeekLowChange	36.87001
-fiftyTwoWeekLowChangePercent	0.17945978
-fiftyTwoWeekRange	205.45 - 244.35
+fiftyTwoWeekLowChange	41.410004
+fiftyTwoWeekLowChangePercent	0.20155758
+fiftyTwoWeekRange	205.45 - 247.1461
 firstTradeDateMilliseconds	1075473000000
 fiveYearAverageReturn	0.0801274
 fullExchangeName	NYSEArca
-fulldayChange	3.430008
-fulldayChangePercent	1.4358106
-fulldayPrice	242.32
+fulldayChange	6.279999
+fulldayChangePercent	2.5916138
+fulldayPrice	246.86
 fundFamily	Vanguard
 fundInceptionDate	1075075200
 gmtOffSetMilliseconds	-18000000
@@ -53,32 +53,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the consumer staples sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard Consumer Staples Index Fund ETF Shares
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_22939079
 navPrice	242.22
 netAssets	8700480500.0
 netExpenseRatio	0.09
-open	243.03
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	242.32
-postMarketTime	1793390484
-previousClose	238.89
+open	243.27
+postMarketChange	1.7400055
+postMarketChangePercent	0.7048552
+postMarketPrice	248.6
+postMarketTime	1793665532
+previousClose	242.32
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	3.43001
-regularMarketChangePercent	1.43581
-regularMarketDayHigh	244.22
-regularMarketDayLow	241.78
-regularMarketDayRange	241.78 - 244.22
-regularMarketOpen	243.03
-regularMarketPreviousClose	238.89
-regularMarketPrice	242.32
-regularMarketTime	1793390400
-regularMarketVolume	161832
+regularMarketChange	4.53999
+regularMarketChangePercent	1.87355
+regularMarketDayHigh	247.1461
+regularMarketDayLow	243.27
+regularMarketDayRange	243.27 - 247.1461
+regularMarketOpen	243.27
+regularMarketPreviousClose	242.32
+regularMarketPrice	246.86
+regularMarketTime	1793653200
+regularMarketVolume	314928
 shortName	Vanguard Consumer Staples ETF
 sourceInterval	15
 symbol	VDC
@@ -87,15 +87,15 @@ totalAssets	8700480512
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	27.10495
+trailingPE	27.612776
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-2.8339
 trailingThreeMonthReturns	-2.8339
 triggerable	True
 twoHundredDayAverage	229.4985
-twoHundredDayAverageChange	12.821503
-twoHundredDayAverageChangePercent	0.05586748
+twoHundredDayAverageChange	17.361496
+twoHundredDayAverageChangePercent	0.075649716
 typeDisp	ETF
-volume	161832
+volume	314928
 yield	0.0224
 ytdReturn	5.00017

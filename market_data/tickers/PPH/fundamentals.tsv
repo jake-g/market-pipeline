@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	120.86
-dayLow	118.965
+dayHigh	119.72
+dayLow	118.4
 dividendDate	1475798400
 dividendYield	1.99
 epsTrailingTwelveMonths	4.374421
@@ -28,22 +28,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	112.5908
-fiftyDayAverageChange	6.7392044
-fiftyDayAverageChangePercent	0.05985573
+fiftyDayAverageChange	6.6192017
+fiftyDayAverageChangePercent	0.058789898
 fiftyTwoWeekChangePercent	28.532959
 fiftyTwoWeekHigh	120.86
-fiftyTwoWeekHighChange	-1.5299988
-fiftyTwoWeekHighChangePercent	-0.012659265
+fiftyTwoWeekHighChange	-1.6500015
+fiftyTwoWeekHighChangePercent	-0.013652172
 fiftyTwoWeekLow	91.67
-fiftyTwoWeekLowChange	27.660004
-fiftyTwoWeekLowChangePercent	0.30173454
+fiftyTwoWeekLowChange	27.54
+fiftyTwoWeekLowChangePercent	0.30042547
 fiftyTwoWeekRange	91.67 - 120.86
 firstTradeDateMilliseconds	949415400000
 fiveYearAverageReturn	0.1183223
 fullExchangeName	NasdaqGM
-fulldayChange	3.0200043
-fulldayChangePercent	2.5829663
-fulldayPrice	119.33
+fulldayChange	-0.08000183
+fulldayChangePercent	-0.067042515
+fulldayPrice	119.21
 fundFamily	VanEck
 fundInceptionDate	1324339200
 gmtOffSetMilliseconds	-18000000
@@ -53,33 +53,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund normally invests at least 80% of its total assets in securities that comprise the fund's benchmark index. The index includes common stocks and depositary receipts of U.S. exchange-listed companies in the pharmaceutical industry. Such companies may include medium-capitalization companies and foreign companies that are listed on a U.S. exchange. It is non-diversified.
 longName	VanEck Pharmaceutical ETF
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_3588556
 navPrice	119.32
 netAssets	1021110210.0
 netExpenseRatio	0.36
-open	119.73
+open	118.83
 phone	888-658-8287
-postMarketChange	0.6100006
-postMarketChangePercent	0.511188
-postMarketPrice	119.94
-postMarketTime	1793400569
-previousClose	116.92
+postMarketChange	0.040000916
+postMarketChangePercent	0.033555
+postMarketPrice	119.25
+postMarketTime	1793657807
+previousClose	119.33
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	2.4100037
-regularMarketChangePercent	2.0612416
-regularMarketDayHigh	120.86
-regularMarketDayLow	118.965
-regularMarketDayRange	118.965 - 120.86
-regularMarketOpen	119.73
-regularMarketPreviousClose	116.92
-regularMarketPrice	119.33
-regularMarketTime	1793390400
-regularMarketVolume	1277557
+regularMarketChange	-0.12000275
+regularMarketChangePercent	-0.10056377
+regularMarketDayHigh	119.72
+regularMarketDayLow	118.4
+regularMarketDayRange	118.4 - 119.72
+regularMarketOpen	118.83
+regularMarketPreviousClose	119.33
+regularMarketPrice	119.21
+regularMarketTime	1793653201
+regularMarketVolume	175144
 sharesOutstanding	11547000
 shortName	VanEck Pharmaceutical ETF
 sourceInterval	15
@@ -87,15 +87,15 @@ symbol	PPH
 threeYearAverageReturn	0.1892292
 totalAssets	1021110208
 tradeable	False
-trailingPE	27.27904
+trailingPE	27.251606
 trailingPegRatio	None
 trailingThreeMonthNavReturns	0.5239
 trailingThreeMonthReturns	0.5239
 triggerable	True
 twoHundredDayAverage	107.9086
-twoHundredDayAverageChange	11.421402
-twoHundredDayAverageChangePercent	0.1058433
+twoHundredDayAverageChange	11.301399
+twoHundredDayAverageChangePercent	0.10473122
 typeDisp	ETF
-volume	1277557
+volume	175144
 yield	0.0199
 ytdReturn	7.51598

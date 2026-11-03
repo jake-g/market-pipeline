@@ -14,8 +14,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	LOW
-dayHigh	0.0
-dayLow	0.0
+dayHigh	4.921
+dayLow	4.869
 displayName	CBOE Interest Rate 10 Year T
 esgPopulated	False
 exchange	CGI
@@ -23,43 +23,43 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/Chicago
 exchangeTimezoneShortName	CST
 fiftyDayAverage	5.01288
-fiftyDayAverageChange	-0.08387995
-fiftyDayAverageChangePercent	-0.016732886
+fiftyDayAverageChange	-0.118879795
+fiftyDayAverageChangePercent	-0.02371487
 fiftyTwoWeekChangePercent	20.043839
 fiftyTwoWeekHigh	5.364
-fiftyTwoWeekHighChange	-0.43499994
-fiftyTwoWeekHighChangePercent	-0.08109619
-fiftyTwoWeekLow	0.0
-fiftyTwoWeekLowChange	4.929
-fiftyTwoWeekLowChangePercent	0.25202224
-fiftyTwoWeekRange	0.0 - 5.364
+fiftyTwoWeekHighChange	-0.4699998
+fiftyTwoWeekHighChangePercent	-0.087621145
+fiftyTwoWeekLow	3.956
+fiftyTwoWeekLowChange	0.93799996
+fiftyTwoWeekLowChangePercent	0.23710817
+fiftyTwoWeekRange	3.956 - 5.364
 firstTradeDateMilliseconds	-252326400000
 fullExchangeName	Cboe Indices
-fulldayChange	-0.059999943
-fulldayChangePercent	-1.2026447
-fulldayPrice	4.929
+fulldayChange	-0.034999847
+fulldayChangePercent	-0.7100801
+fulldayPrice	4.894
 gmtOffSetMilliseconds	-21600000
 hasPrePostMarketData	False
 language	en-US
 longName	CBOE Interest Rate 10 Year T Note
 market	usir_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_INDEXTNX
-open	0.0
-previousClose	4.989
+open	4.9040003
+previousClose	4.929
 priceHint	4
 quoteType	INDEX
 region	US
-regularMarketChange	-0.059999943
-regularMarketChangePercent	-1.2026447
-regularMarketDayHigh	0.0
-regularMarketDayLow	0.0
-regularMarketDayRange	0.0 - 0.0
-regularMarketOpen	0.0
-regularMarketPreviousClose	4.989
-regularMarketPrice	4.929
-regularMarketTime	1793386794
+regularMarketChange	-0.034999847
+regularMarketChangePercent	-0.7100801
+regularMarketDayHigh	4.921
+regularMarketDayLow	4.869
+regularMarketDayRange	4.869 - 4.921
+regularMarketOpen	4.9040003
+regularMarketPreviousClose	4.929
+regularMarketPrice	4.894
+regularMarketTime	1793649591
 regularMarketVolume	0
 shortName	10-Year Bond
 sourceInterval	15
@@ -68,7 +68,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	False
 twoHundredDayAverage	4.547055
-twoHundredDayAverageChange	0.38194513
-twoHundredDayAverageChangePercent	0.08399836
+twoHundredDayAverageChange	0.3469453
+twoHundredDayAverageChangePercent	0.0763011
 typeDisp	Index
 volume	0

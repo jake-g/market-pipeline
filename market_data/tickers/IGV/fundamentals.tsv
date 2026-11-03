@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	117.99
 allTimeLow	3.83
-ask	104.94
-askSize	700
+ask	0.0
+askSize	1200
 averageDailyVolume10Day	8044020
 averageDailyVolume3Month	9431321
 averageVolume	9431321
 averageVolume10days	8044020
 beta3Year	1.22
-bid	104.3
-bidSize	900
+bid	0.0
+bidSize	200
 bookValue	398.979
 category	Technology
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	107.05
-dayLow	103.33
+dayHigh	104.75
+dayLow	101.74
 displayName	Expanded Tech-Software ETF
 dividendYield	0.02
 epsTrailingTwelveMonths	3.3388815
@@ -29,23 +29,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	106.9924
-fiftyDayAverageChange	-2.7024002
-fiftyDayAverageChangePercent	-0.02525787
+fiftyDayAverageChange	-5.0923996
+fiftyDayAverageChangePercent	-0.0475959
 fiftyTwoWeekChangePercent	-9.861713
 fiftyTwoWeekHigh	116.32
-fiftyTwoWeekHighChange	-12.029999
-fiftyTwoWeekHighChangePercent	-0.103421584
+fiftyTwoWeekHighChange	-14.419998
+fiftyTwoWeekHighChangePercent	-0.12396835
 fiftyTwoWeekLow	73.93
-fiftyTwoWeekLowChange	30.36
-fiftyTwoWeekLowChangePercent	0.41065875
+fiftyTwoWeekLowChange	27.970001
+fiftyTwoWeekLowChangePercent	0.37833086
 fiftyTwoWeekRange	73.93 - 116.32
 financialCurrency	USD
 firstTradeDateMilliseconds	995376600000
 fiveYearAverageReturn	0.0350645
 fullExchangeName	Cboe US
-fulldayChange	-3.5
-fulldayChangePercent	-3.241641
-fulldayPrice	104.29
+fulldayChange	-3.0699997
+fulldayChangePercent	-2.9437144
+fulldayPrice	101.9
 fundFamily	iShares
 fundInceptionDate	994723200
 gmtOffSetMilliseconds	-18000000
@@ -55,34 +55,34 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally will invest at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index. The index measures the performance of U.S.-traded stocks from the software industry and select companies from the interactive home entertainment and interactive media and services sub-industries in the U.S. and Canada. The fund is non-diversified.
 longName	iShares Expanded Tech-Software Sector ETF
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_8796877
 navPrice	104.35315
 netAssets	13912004600.0
 netExpenseRatio	0.38
-open	106.8
+open	104.54
 phone	415-670-2000
-postMarketChange	0.1800003
-postMarketChangePercent	0.17259593
-postMarketPrice	104.47
-postMarketTime	1793402855
-previousClose	107.97
+postMarketChange	0.049995422
+postMarketChangePercent	0.04906322
+postMarketPrice	101.95
+postMarketTime	1793664777
+previousClose	104.29
 priceHint	2
-priceToBook	0.2613922
+priceToBook	0.2554019
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-3.68
-regularMarketChangePercent	-3.40835
-regularMarketDayHigh	107.05
-regularMarketDayLow	103.33
-regularMarketDayRange	103.33 - 107.05
-regularMarketOpen	106.8
-regularMarketPreviousClose	107.97
-regularMarketPrice	104.29
-regularMarketTime	1793390401
-regularMarketVolume	13690632
+regularMarketChange	-2.39
+regularMarketChangePercent	-2.29169
+regularMarketDayHigh	104.75
+regularMarketDayLow	101.74
+regularMarketDayRange	101.74 - 104.75
+regularMarketOpen	104.54
+regularMarketPreviousClose	104.29
+regularMarketPrice	101.9
+regularMarketTime	1793653201
+regularMarketVolume	10737128
 sharesOutstanding	12500000
 shortName	iShares Expanded Tech-Software 
 sourceInterval	15
@@ -92,15 +92,15 @@ totalAssets	13912004608
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	31.235012
+trailingPE	30.519203
 trailingPegRatio	None
 trailingThreeMonthNavReturns	17.46164
 trailingThreeMonthReturns	17.46164
 triggerable	True
 twoHundredDayAverage	93.9609
-twoHundredDayAverageChange	10.329102
-twoHundredDayAverageChangePercent	0.109929785
+twoHundredDayAverageChange	7.939102
+twoHundredDayAverageChangePercent	0.08449368
 typeDisp	ETF
-volume	13690632
+volume	10737128
 yield	0.0002
 ytdReturn	0.67572

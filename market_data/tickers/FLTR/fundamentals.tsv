@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	26.2
 allTimeLow	19.42
-ask	25.6
-askSize	20600
+ask	0.0
+askSize	21800
 averageDailyVolume10Day	1647090
 averageDailyVolume3Month	1516001
 averageVolume	1516001
 averageVolume10days	1647090
 beta3Year	0.01
-bid	25.56
-bidSize	24300
+bid	0.0
+bidSize	24100
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	25.58
-dayLow	25.56
+dayHigh	25.49
+dayLow	25.47
 dividendYield	4.49
 esgPopulated	False
 exchange	PCX
@@ -26,22 +26,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	25.5616
-fiftyDayAverageChange	0.008399963
-fiftyDayAverageChangePercent	0.0003286165
+fiftyDayAverageChange	-0.08160019
+fiftyDayAverageChangePercent	-0.0031922958
 fiftyTwoWeekChangePercent	0.4715085
 fiftyTwoWeekHigh	25.61
-fiftyTwoWeekHighChange	-0.040000916
-fiftyTwoWeekHighChangePercent	-0.0015619256
+fiftyTwoWeekHighChange	-0.13000107
+fiftyTwoWeekHighChangePercent	-0.005076184
 fiftyTwoWeekLow	25.35
-fiftyTwoWeekLowChange	0.21999931
-fiftyTwoWeekLowChangePercent	0.0086784735
+fiftyTwoWeekLowChange	0.12999916
+fiftyTwoWeekLowChangePercent	0.0051281718
 fiftyTwoWeekRange	25.35 - 25.61
 firstTradeDateMilliseconds	1303824600000
 fiveYearAverageReturn	0.0481271
 fullExchangeName	NYSEArca
-fulldayChange	-0.0077991486
-fulldayChangePercent	-0.030501168
-fulldayPrice	25.57
+fulldayChange	0.0023002625
+fulldayChangePercent	0.009029667
+fulldayPrice	25.48
 fundFamily	VanEck
 fundInceptionDate	1303689600
 gmtOffSetMilliseconds	-18000000
@@ -51,33 +51,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund normally invests at least 80% of its total assets in securities that comprise the fund's benchmark index. The index is comprised of U.S. dollar-denominated floating rate notes issued by corporate entities or similar commercial entities that are public reporting companies in the United States and rated investment grade. The fund is non-diversified.
 longName	VanEck IG Floating Rate ETF
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_130729142
 navPrice	25.57
 netAssets	3419643650.0
 netExpenseRatio	0.14
-open	25.58
+open	25.47
 phone	888-658-8287
-postMarketChange	-0.0077991486
-postMarketChangePercent	-0.030501168
-postMarketPrice	25.5622
-postMarketTime	1793394300
-previousClose	25.57
+postMarketChange	-0.0031986237
+postMarketChangePercent	-0.012553468
+postMarketPrice	25.4768
+postMarketTime	1793654055
+previousClose	25.4745
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0
-regularMarketChangePercent	0.0
-regularMarketDayHigh	25.58
-regularMarketDayLow	25.56
-regularMarketDayRange	25.56 - 25.58
-regularMarketOpen	25.58
-regularMarketPreviousClose	25.57
-regularMarketPrice	25.57
-regularMarketTime	1793390400
-regularMarketVolume	1945757
+regularMarketChange	0.00549889
+regularMarketChangePercent	0.0215858
+regularMarketDayHigh	25.49
+regularMarketDayLow	25.47
+regularMarketDayRange	25.47 - 25.49
+regularMarketOpen	25.47
+regularMarketPreviousClose	25.4745
+regularMarketPrice	25.48
+regularMarketTime	1793653200
+regularMarketVolume	2059231
 shortName	VanEck IG Floating Rate ETF
 sourceInterval	15
 symbol	FLTR
@@ -89,9 +89,9 @@ trailingThreeMonthNavReturns	1.09468
 trailingThreeMonthReturns	1.09468
 triggerable	True
 twoHundredDayAverage	25.53385
-twoHundredDayAverageChange	0.03614998
-twoHundredDayAverageChangePercent	0.0014157669
+twoHundredDayAverageChange	-0.053850174
+twoHundredDayAverageChangePercent	-0.002108972
 typeDisp	ETF
-volume	1945757
+volume	2059231
 yield	0.044899996
 ytdReturn	3.4294

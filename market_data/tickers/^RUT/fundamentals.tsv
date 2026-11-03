@@ -14,52 +14,52 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	2842.9998
-dayLow	2787.1216
+dayHigh	2846.0251
+dayLow	2805.1096
 esgPopulated	False
 exchange	WCB
 exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 fiftyDayAverage	2859.5706
-fiftyDayAverageChange	-47.72632
-fiftyDayAverageChangePercent	-0.01669003
+fiftyDayAverageChange	-53.69458
+fiftyDayAverageChangePercent	-0.018777149
 fiftyTwoWeekChangePercent	13.782549
 fiftyTwoWeekHigh	3069.71
-fiftyTwoWeekHighChange	-257.86572
-fiftyTwoWeekHighChangePercent	-0.084003285
+fiftyTwoWeekHighChange	-263.83398
+fiftyTwoWeekHighChangePercent	-0.08594753
 fiftyTwoWeekLow	2303.46
-fiftyTwoWeekLowChange	508.38428
-fiftyTwoWeekLowChangePercent	0.22070463
+fiftyTwoWeekLowChange	502.41602
+fiftyTwoWeekLowChangePercent	0.21811363
 fiftyTwoWeekRange	2303.46 - 3069.71
 firstTradeDateMilliseconds	558279000000
 fullExchangeName	Chicago Options
-fulldayChange	-47.375732
-fulldayChangePercent	-1.6569461
-fulldayPrice	2811.8442
+fulldayChange	-5.9682617
+fulldayChangePercent	-0.21225435
+fulldayPrice	2805.876
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	False
 language	en-US
 longName	 Russell 2000 Index
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_INDEXRUT
-open	2838.7732
-previousClose	2859.22
+open	2829.8857
+previousClose	2811.8442
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	INDEX
 region	US
-regularMarketChange	-47.375732
-regularMarketChangePercent	-1.6569461
-regularMarketDayHigh	2842.9998
-regularMarketDayLow	2787.1216
-regularMarketDayRange	2787.1216 - 2842.9998
-regularMarketOpen	2838.7732
-regularMarketPreviousClose	2859.22
-regularMarketPrice	2811.8442
-regularMarketTime	1793392205
+regularMarketChange	-5.9682617
+regularMarketChangePercent	-0.21225435
+regularMarketDayHigh	2846.0251
+regularMarketDayLow	2805.1096
+regularMarketDayRange	2805.1096 - 2846.0251
+regularMarketOpen	2829.8857
+regularMarketPreviousClose	2811.8442
+regularMarketPrice	2805.876
+regularMarketTime	1793655004
 regularMarketVolume	0
 shortName	Russell 2000
 sourceInterval	15
@@ -68,7 +68,7 @@ tradeable	False
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	2805.158
-twoHundredDayAverageChange	6.6862793
-twoHundredDayAverageChangePercent	0.002383566
+twoHundredDayAverageChange	0.7180176
+twoHundredDayAverageChangePercent	0.00025596333
 typeDisp	Index
 volume	0

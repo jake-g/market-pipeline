@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	61.54
 allTimeLow	18.5
-ask	55.95
-askSize	14000
+ask	55.87
+askSize	100
 averageDailyVolume10Day	7712690
 averageDailyVolume3Month	6927764
 averageVolume	6927764
 averageVolume10days	7712690
 beta3Year	0.75
-bid	55.37
-bidSize	4200
+bid	55.7
+bidSize	6500
 bookValue	48.146
 category	Diversified Emerging Mkts
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	55.83
-dayLow	55.2338
+dayHigh	56.475
+dayLow	55.665
 displayName	FTSE EM Index Fund ETF Shares
 dividendYield	2.05
 epsTrailingTwelveMonths	3.6778133
@@ -29,23 +29,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	59.4704
-fiftyDayAverageChange	-3.9604034
-fiftyDayAverageChangePercent	-0.066594526
+fiftyDayAverageChange	-3.770401
+fiftyDayAverageChangePercent	-0.06339962
 fiftyTwoWeekChangePercent	0.7623911
 fiftyTwoWeekHigh	61.54
-fiftyTwoWeekHighChange	-6.0300026
-fiftyTwoWeekHighChangePercent	-0.09798509
+fiftyTwoWeekHighChange	-5.84
+fiftyTwoWeekHighChangePercent	-0.09489763
 fiftyTwoWeekLow	52.2
-fiftyTwoWeekLowChange	3.3099976
-fiftyTwoWeekLowChangePercent	0.06340992
+fiftyTwoWeekLowChange	3.5
+fiftyTwoWeekLowChangePercent	0.06704981
 fiftyTwoWeekRange	52.2 - 61.54
 financialCurrency	USD
 firstTradeDateMilliseconds	1110465000000
 fiveYearAverageReturn	0.049100198
 fullExchangeName	NYSEArca
-fulldayChange	-0.6499977
-fulldayChangePercent	-1.1484059
-fulldayPrice	55.51
+fulldayChange	0.040000916
+fulldayChangePercent	0.07206074
+fulldayPrice	55.7
 fundFamily	Vanguard
 fundInceptionDate	1109894400
 gmtOffSetMilliseconds	-18000000
@@ -56,33 +56,33 @@ longBusinessSummary	The index measures the investment return of stocks issued by
 longName	Vanguard FTSE Emerging Markets Index Fund ETF Shares
 market	us_market
 marketCap	82704752640
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_20936186
 navPrice	55.5
 netAssets	164656923000.0
 netExpenseRatio	0.06
-open	55.72
-postMarketChange	0.44000244
-postMarketChangePercent	0.7926544
-postMarketPrice	55.95
-postMarketTime	1793400368
-previousClose	56.6
+open	56.17
+postMarketChange	-0.40000153
+postMarketChangePercent	-0.7181356
+postMarketPrice	55.3
+postMarketTime	1793657672
+previousClose	55.51
 priceHint	2
-priceToBook	1.1529514
+priceToBook	1.1568978
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.09
-regularMarketChangePercent	-1.9258
-regularMarketDayHigh	55.83
-regularMarketDayLow	55.2338
-regularMarketDayRange	55.2338 - 55.83
-regularMarketOpen	55.72
-regularMarketPreviousClose	56.6
-regularMarketPrice	55.51
-regularMarketTime	1793390400
-regularMarketVolume	11972967
+regularMarketChange	0.190002
+regularMarketChangePercent	0.342285
+regularMarketDayHigh	56.475
+regularMarketDayLow	55.665
+regularMarketDayRange	55.665 - 56.475
+regularMarketOpen	56.17
+regularMarketPreviousClose	55.51
+regularMarketPrice	55.7
+regularMarketTime	1793653200
+regularMarketVolume	15121581
 sharesOutstanding	1418119936
 shortName	Vanguard FTSE Emerging Markets 
 sourceInterval	15
@@ -91,16 +91,16 @@ threeYearAverageReturn	0.16755229
 totalAssets	164656922624
 tradeable	False
 trailingAnnualDividendRate	1.122
-trailingAnnualDividendYield	0.019823322
-trailingPE	15.093207
+trailingAnnualDividendYield	0.020212574
+trailingPE	15.144869
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-0.14719
 trailingThreeMonthReturns	-0.14719
 triggerable	True
 twoHundredDayAverage	58.3326
-twoHundredDayAverageChange	-2.8226013
-twoHundredDayAverageChangePercent	-0.04838806
+twoHundredDayAverageChange	-2.6325989
+twoHundredDayAverageChangePercent	-0.045130834
 typeDisp	ETF
-volume	11972967
+volume	15121581
 yield	0.020499999
 ytdReturn	11.02156

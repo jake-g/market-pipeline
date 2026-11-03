@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	77.915
-dayLow	77.8025
+dayHigh	77.66
+dayLow	77.54
 displayName	Short-Term Corp Bond Idx Fd ETF
 dividendDate	1486425600
 dividendYield	4.56
@@ -28,22 +28,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	77.72
-fiftyDayAverageChange	0.16999817
-fiftyDayAverageChangePercent	0.0021873156
+fiftyDayAverageChange	-0.1800003
+fiftyDayAverageChangePercent	-0.00231601
 fiftyTwoWeekChangePercent	-2.123648
 fiftyTwoWeekHigh	80.26
-fiftyTwoWeekHighChange	-2.3700027
-fiftyTwoWeekHighChangePercent	-0.029529065
+fiftyTwoWeekHighChange	-2.7200012
+fiftyTwoWeekHighChangePercent	-0.03388987
 fiftyTwoWeekLow	76.89
-fiftyTwoWeekLowChange	1.0
-fiftyTwoWeekLowChangePercent	0.013005593
+fiftyTwoWeekLowChange	0.6500015
+fiftyTwoWeekLowChangePercent	0.008453655
 fiftyTwoWeekRange	76.89 - 80.26
 firstTradeDateMilliseconds	1258986600000
 fiveYearAverageReturn	0.025136499
 fullExchangeName	NasdaqGM
-fulldayChange	0.12870026
-fulldayChangePercent	0.16549894
-fulldayPrice	77.89
+fulldayChange	-0.055503845
+fulldayChangePercent	-0.07153894
+fulldayPrice	77.54
 fundFamily	Vanguard
 fundInceptionDate	1258588800
 gmtOffSetMilliseconds	-18000000
@@ -53,32 +53,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the Bloomberg U.S. 1-5 Year Corporate Bond Index, which includes U.S. dollar-denominated, investment-grade, fixed-rate, taxable debt securities issued by U.S. and non-U.S. industrial, utility, and financial companies, all with maturities between 1 and 5 years. Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the bonds that make up the Target Index.
 longName	Vanguard Short-Term Corporate Bond Index Fund ETF Shares
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_81834125
 navPrice	77.89
 netAssets	50868535000.0
 netExpenseRatio	0.03
-open	77.88
-postMarketChange	0.0037002563
-postMarketChangePercent	0.0047506182
-postMarketPrice	77.8937
-postMarketTime	1793396892
-previousClose	77.765
+open	77.58
+postMarketChange	-0.010002136
+postMarketChangePercent	-0.012899324
+postMarketPrice	77.53
+postMarketTime	1793654222
+previousClose	77.5855
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.125
-regularMarketChangePercent	0.1607407
-regularMarketDayHigh	77.915
-regularMarketDayLow	77.8025
-regularMarketDayRange	77.8025 - 77.915
-regularMarketOpen	77.88
-regularMarketPreviousClose	77.765
-regularMarketPrice	77.89
-regularMarketTime	1793390400
-regularMarketVolume	3708842
+regularMarketChange	-0.04550171
+regularMarketChangePercent	-0.05864718
+regularMarketDayHigh	77.66
+regularMarketDayLow	77.54
+regularMarketDayRange	77.54 - 77.66
+regularMarketOpen	77.58
+regularMarketPreviousClose	77.5855
+regularMarketPrice	77.54
+regularMarketTime	1793653200
+regularMarketVolume	3754702
 shortName	Vanguard Short-Term Corporate B
 sourceInterval	15
 symbol	VCSH
@@ -90,9 +90,9 @@ trailingThreeMonthNavReturns	-1.04985
 trailingThreeMonthReturns	-1.04985
 triggerable	True
 twoHundredDayAverage	78.79885
-twoHundredDayAverageChange	-0.9088516
-twoHundredDayAverageChangePercent	-0.011533818
+twoHundredDayAverageChange	-1.2588501
+twoHundredDayAverageChangePercent	-0.015975488
 typeDisp	ETF
-volume	3708842
+volume	3754702
 yield	0.0456
 ytdReturn	-0.12129

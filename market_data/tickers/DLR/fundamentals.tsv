@@ -5,39 +5,39 @@ address1	601 West 2nd Street
 address2	Floor 32
 allTimeHigh	208.14
 allTimeLow	12.0
-ask	184.06
-askSize	100
+ask	0.0
+askSize	300
 auditRisk	2
 averageAnalystRating	1.4 - Strong Buy
 averageDailyVolume10Day	2407270
 averageDailyVolume3Month	2043804
 averageVolume	2043804
 averageVolume10days	2407270
-beta	1.011
-bid	170.0
-bidSize	200
+beta	1.002
+bid	0.0
+bidSize	300
 boardRisk	2
 bookValue	73.037
 city	Austin
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Andrew P. Power', 'age': 45, 'title': 'President, CEO & Director', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 6896813, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew R. Mercier', 'age': 45, 'title': 'Chief Financial Officer', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 2039441, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jeannie  Lee', 'age': 48, 'title': 'Executive VP, General Counsel & Secretary', 'yearBorn': 1977, 'fiscalYear': 2025, 'totalPay': 1641275, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey Michael  Tapley CFA', 'age': 61, 'title': 'Chief Operating Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gregory S. Wright', 'age': 60, 'title': 'Chief Investment Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 2185981, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Christine B. Kornegay', 'age': 61, 'title': 'Chief Accounting Officer', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher  Sharp', 'age': 50, 'title': 'Chief Technology Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 1197306, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jordan  Sadler', 'title': 'Senior VP of Public & Private Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Cindy A. Fiedelman', 'age': 58, 'title': 'Chief Human Resources Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1162629, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Shaun  Woodhouse', 'title': 'Head of Sales Asia Pacific', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	7
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	180.7
+currentPrice	175.95
 currentRatio	0.575
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	185.18
-dayLow	174.82
+dayHigh	179.72
+dayLow	173.78
 debtToEquity	69.085
-discount_to_intrinsic_value	-47.51
+discount_to_intrinsic_value	-43.64
 displayName	Digital Realty Trust
 dividendDate	1790726400
 dividendRate	4.88
-dividendYield	2.7
+dividendYield	2.77
 earningsCallTimestampEnd	1793307600
 earningsCallTimestampStart	1793307600
 earningsGrowth	2.205
@@ -47,10 +47,10 @@ earningsTimestampEnd	1793304000
 earningsTimestampStart	1793304000
 ebitda	3367802112
 ebitdaMargins	0.47563
-enterpriseToEbitda	27.103
-enterpriseToRevenue	12.891
-enterpriseValue	91278032896
-epsCurrentYear	3.20987
+enterpriseToEbitda	26.57
+enterpriseToRevenue	12.637
+enterpriseValue	89480986624
+epsCurrentYear	3.31387
 epsForward	3.03459
 epsTrailingTwelveMonths	2.37
 eps_normalized_growth	12.466028380738472
@@ -63,28 +63,28 @@ exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	415 738 6501
 fiftyDayAverage	181.4506
-fiftyDayAverageChange	-0.75061035
-fiftyDayAverageChangePercent	-0.00413672
+fiftyDayAverageChange	-5.5006104
+fiftyDayAverageChangePercent	-0.030314643
 fiftyTwoWeekChangePercent	5.0825715
 fiftyTwoWeekHigh	208.14
-fiftyTwoWeekHighChange	-27.440002
-fiftyTwoWeekHighChangePercent	-0.13183436
+fiftyTwoWeekHighChange	-32.190002
+fiftyTwoWeekHighChangePercent	-0.15465553
 fiftyTwoWeekLow	146.23
-fiftyTwoWeekLowChange	34.47
-fiftyTwoWeekLowChangePercent	0.23572455
+fiftyTwoWeekLowChange	29.720001
+fiftyTwoWeekLowChangePercent	0.20324148
 fiftyTwoWeekRange	146.23 - 208.14
 financialCurrency	USD
 firstTradeDateMilliseconds	1099056600000
 fiveYearAvgDividendYield	3.27
-floatShares	358232930
+floatShares	358441009
 forwardEps	3.03459
-forwardPE	59.546757
+forwardPE	57.981472
 freeCashflow	3930522112
 fullExchangeName	NYSE
 fullTimeEmployees	4282
-fulldayChange	-2.25
-fulldayChangePercent	-1.2301131
-fulldayPrice	180.7
+fulldayChange	-4.75
+fulldayChangePercent	-2.6286664
+fulldayPrice	175.95
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	122.5
@@ -106,8 +106,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Digital Realty Trust, Inc. brings companies and data together by delivering the full spectrum of data center, colocation, and interconnection solutions. Platform DIGITAL, the company's global data center platform, provides customers with a secure data meeting place and a proven Pervasive Datacenter Architecture (PDx) solution methodology for powering innovation, from cloud and digital transformation to emerging technologies like artificial intelligence (AI), and efficiently managing Data Gravity challenges. Digital Realty gives its customers access to the connected data communities that matter to them with a global data center footprint of 300+ facilities in 55+ metros across 30+ countries on six continents. Digital Realty Trust, Inc. was founded in 2004 and is based in Austin, Texas.
 longName	Digital Realty Trust, Inc.
 market	us_market
-marketCap	68243832832
-marketState	CLOSED
+marketCap	66449928192
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_11041860
 mostRecentQuarter	1790726400
@@ -115,39 +115,39 @@ netIncomeToCommon	885832000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	67742261600
 numberOfAnalystOpinions	32
-open	185.65
+open	180.0
 operatingCashflow	2696439040
 operatingMargins	0.17211
 overallRisk	7
 payoutRatio	2.0591002
 pegRatio	11.85
 phone	737 281 0101
-postMarketChange	-0.039993286
-postMarketChangePercent	-0.022132423
-postMarketPrice	180.66
-postMarketTime	1793400643
-previousClose	182.91
-priceEpsCurrentYear	56.295113
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	175.95
+postMarketTime	1793662598
+previousClose	180.7
+priceEpsCurrentYear	53.09502
 priceHint	2
-priceToBook	2.4740884
-priceToSalesTrailing12Months	9.637964
+priceToBook	2.4090528
+priceToSalesTrailing12Months	9.384614
 profitMargins	0.13086
 quickRatio	0.574
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.44118
 region	US
-regularMarketChange	-2.21001
-regularMarketChangePercent	-1.20825
-regularMarketDayHigh	185.18
-regularMarketDayLow	174.82
-regularMarketDayRange	174.82 - 185.18
-regularMarketOpen	185.65
-regularMarketPreviousClose	182.91
-regularMarketPrice	180.7
-regularMarketTime	1793390403
-regularMarketVolume	3839985
+regularMarketChange	-4.75
+regularMarketChangePercent	-2.62867
+regularMarketDayHigh	179.72
+regularMarketDayLow	173.78
+regularMarketDayRange	173.78 - 179.72
+regularMarketOpen	180.0
+regularMarketPreviousClose	180.7
+regularMarketPrice	175.95
+regularMarketTime	1793653203
+regularMarketVolume	3636934
 returnOnAssets	0.01585
 returnOnEquity	0.03339
 revenueGrowth	0.207
@@ -169,23 +169,23 @@ state	TX
 symbol	DLR
 targetHighPrice	250.0
 targetLowPrice	190.0
-targetMeanPrice	224.90625
-targetMedianPrice	226.0
+targetMeanPrice	224.21875
+targetMedianPrice	225.0
 totalCash	837094016
 totalCashPerShare	2.213
 totalDebt	20891783168
 totalRevenue	7080731136
 tradeable	False
 trailingAnnualDividendRate	4.88
-trailingAnnualDividendYield	0.026679788
+trailingAnnualDividendYield	0.027006088
 trailingEps	2.37
-trailingPE	76.24473
+trailingPE	74.24051
 trailingPegRatio	11.8453
 triggerable	True
 twoHundredDayAverage	183.3206
-twoHundredDayAverageChange	-2.6206055
-twoHundredDayAverageChangePercent	-0.014295205
+twoHundredDayAverageChange	-7.3706055
+twoHundredDayAverageChangePercent	-0.040206093
 typeDisp	Equity
-volume	3839985
+volume	3636934
 website	https://www.digitalrealty.com
 zip	78701

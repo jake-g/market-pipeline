@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	48.79
 allTimeLow	23.79
-ask	24.04
-askSize	196800
+ask	0.0
+askSize	261400
 averageDailyVolume10Day	4239440
 averageDailyVolume3Month	5330620
 averageVolume	5330620
 averageVolume10days	4239440
 beta3Year	0.24
-bid	24.0
-bidSize	232900
+bid	0.0
+bidSize	204600
 category	Short Government
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	24.02
-dayLow	24.0
+dayHigh	23.95
+dayLow	23.92
 displayName	Short-Term U.S. Treasury ETF
 dividendYield	3.83
 esgPopulated	False
@@ -27,22 +27,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	23.9346
-fiftyDayAverageChange	0.08539963
-fiftyDayAverageChangePercent	0.0035680407
+fiftyDayAverageChange	-0.004600525
+fiftyDayAverageChangePercent	-0.0001922123
 fiftyTwoWeekChangePercent	-1.2741446
 fiftyTwoWeekHigh	24.46
-fiftyTwoWeekHighChange	-0.43999863
-fiftyTwoWeekHighChangePercent	-0.017988497
+fiftyTwoWeekHighChange	-0.5299988
+fiftyTwoWeekHighChangePercent	-0.02166798
 fiftyTwoWeekLow	23.79
-fiftyTwoWeekLowChange	0.22999954
-fiftyTwoWeekLowChangePercent	0.009667908
+fiftyTwoWeekLowChange	0.13999939
+fiftyTwoWeekLowChangePercent	0.0058847996
 fiftyTwoWeekRange	23.79 - 24.46
 firstTradeDateMilliseconds	1281015000000
 fiveYearAverageReturn	0.020809
 fullExchangeName	NYSEArca
-fulldayChange	0.024600983
-fulldayChangePercent	0.102589585
-fulldayPrice	24.02
+fulldayChange	-0.017000198
+fulldayChangePercent	-0.07102059
+fulldayPrice	23.93
 fundFamily	Schwab ETFs
 fundInceptionDate	1280966400
 gmtOffSetMilliseconds	-18000000
@@ -52,33 +52,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund will invest at least 90% of its net assets (including, for this purpose, any borrowings for investment purposes) in securities included in the index. The index includes all publicly-issued U.S. Treasury securities that have a remaining maturity of greater than or equal to one year and less than three years, are rated investment grade, and have $300 million or more of outstanding face value. The securities in the index must be denominated in U.S. dollars and must be fixed-rate and non-convertible.
 longName	Schwab Short-Term U.S. Treasury ETF
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_111311606
 navPrice	24.01
 netAssets	15282102300.0
 netExpenseRatio	0.03
-open	24.0
+open	23.93
 phone	1-800-435-4000
-postMarketChange	-0.015399933
-postMarketChangePercent	-0.06411296
-postMarketPrice	24.0046
-postMarketTime	1793398443
-previousClose	23.98
+postMarketChange	0.0049991608
+postMarketChangePercent	0.020890767
+postMarketPrice	23.935
+postMarketTime	1793664953
+previousClose	23.937
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.0400009
-regularMarketChangePercent	0.166809
-regularMarketDayHigh	24.02
-regularMarketDayLow	24.0
-regularMarketDayRange	24.0 - 24.02
-regularMarketOpen	24.0
-regularMarketPreviousClose	23.98
-regularMarketPrice	24.02
-regularMarketTime	1793390400
-regularMarketVolume	2663946
+regularMarketChange	-0.00699997
+regularMarketChangePercent	-0.0292433
+regularMarketDayHigh	23.95
+regularMarketDayLow	23.92
+regularMarketDayRange	23.92 - 23.95
+regularMarketOpen	23.93
+regularMarketPreviousClose	23.937
+regularMarketPrice	23.93
+regularMarketTime	1793653200
+regularMarketVolume	11235066
 shortName	Schwab Short-Term U.S. Treasury
 sourceInterval	15
 symbol	SCHO
@@ -92,9 +92,9 @@ trailingThreeMonthNavReturns	-0.16247
 trailingThreeMonthReturns	-0.16247
 triggerable	True
 twoHundredDayAverage	24.13795
-twoHundredDayAverageChange	-0.11795044
-twoHundredDayAverageChangePercent	-0.004886514
+twoHundredDayAverageChange	-0.20795059
+twoHundredDayAverageChangePercent	-0.008615089
 typeDisp	ETF
-volume	2663946
+volume	11235066
 yield	0.0383
 ytdReturn	0.46324

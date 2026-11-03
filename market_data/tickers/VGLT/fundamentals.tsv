@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	52.62
-dayLow	52.255
+dayHigh	52.6763
+dayLow	52.325
 displayName	Long-Term Trsy Idx Fd ETF
 dividendDate	1496793600
 dividendYield	5.04
@@ -28,22 +28,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	51.7046
-fiftyDayAverageChange	0.8253975
-fiftyDayAverageChangePercent	0.015963715
+fiftyDayAverageChange	0.70539856
+fiftyDayAverageChangePercent	0.013642859
 fiftyTwoWeekChangePercent	-7.922876
 fiftyTwoWeekHigh	57.9
-fiftyTwoWeekHighChange	-5.3700027
-fiftyTwoWeekHighChangePercent	-0.09274616
+fiftyTwoWeekHighChange	-5.4900017
+fiftyTwoWeekHighChangePercent	-0.09481868
 fiftyTwoWeekLow	49.3
-fiftyTwoWeekLowChange	3.2299995
-fiftyTwoWeekLowChangePercent	0.06551723
+fiftyTwoWeekLowChange	3.1100006
+fiftyTwoWeekLowChangePercent	0.06308318
 fiftyTwoWeekRange	49.3 - 57.9
 firstTradeDateMilliseconds	1262615400000
 fiveYearAverageReturn	-0.0669928
 fullExchangeName	NasdaqGM
-fulldayChange	0.26000214
-fulldayChangePercent	0.4973262
-fulldayPrice	52.53
+fulldayChange	0.021499634
+fulldayChangePercent	0.04109375
+fulldayPrice	52.41
 fundFamily	Vanguard
 fundInceptionDate	1258588800
 gmtOffSetMilliseconds	-18000000
@@ -53,32 +53,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the Bloomberg U.S. Long Treasury Index. This index includes fixed income securities issued by the U.S. Treasury (not including inflation-protected bonds, floating rate securities and certain other security types), with maturities greater than 10 years. Under normal circumstances, at least 80% of the fund's assets will be invested in bonds included in the index.
 longName	Vanguard Long-Term Treasury Index Fund ETF Shares
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_81834816
 navPrice	52.49
 netAssets	14842457100.0
 netExpenseRatio	0.03
-open	52.53
-postMarketChange	0.010002136
-postMarketChangePercent	0.019040808
-postMarketPrice	52.54
-postMarketTime	1793400225
-previousClose	52.28
+open	52.49
+postMarketChange	-0.069999695
+postMarketChangePercent	-0.13356172
+postMarketPrice	52.34
+postMarketTime	1793656092
+previousClose	52.3185
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.25
-regularMarketChangePercent	0.47819433
-regularMarketDayHigh	52.62
-regularMarketDayLow	52.255
-regularMarketDayRange	52.255 - 52.62
-regularMarketOpen	52.53
-regularMarketPreviousClose	52.28
-regularMarketPrice	52.53
-regularMarketTime	1793390400
-regularMarketVolume	3625205
+regularMarketChange	0.09149933
+regularMarketChangePercent	0.17488904
+regularMarketDayHigh	52.6763
+regularMarketDayLow	52.325
+regularMarketDayRange	52.325 - 52.6763
+regularMarketOpen	52.49
+regularMarketPreviousClose	52.3185
+regularMarketPrice	52.41
+regularMarketTime	1793653200
+regularMarketVolume	3212895
 shortName	Vanguard Long-Term Treasury ETF
 sourceInterval	15
 symbol	VGLT
@@ -90,9 +90,9 @@ trailingThreeMonthNavReturns	-7.99062
 trailingThreeMonthReturns	-7.99062
 triggerable	True
 twoHundredDayAverage	54.1568
-twoHundredDayAverageChange	-1.6268005
-twoHundredDayAverageChangePercent	-0.030038713
+twoHundredDayAverageChange	-1.7467995
+twoHundredDayAverageChangePercent	-0.03225448
 typeDisp	ETF
-volume	3625205
+volume	3212895
 yield	0.0504
 ytdReturn	-7.41948

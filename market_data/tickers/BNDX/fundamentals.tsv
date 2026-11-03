@@ -16,7 +16,7 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	47.405
+dayHigh	47.39
 dayLow	47.31
 displayName	Total Intl Bond Idx Fd ETF
 dividendDate	1496793600
@@ -28,22 +28,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	47.1632
-fiftyDayAverageChange	0.22679901
-fiftyDayAverageChangePercent	0.004808813
+fiftyDayAverageChange	0.1867981
+fiftyDayAverageChangePercent	0.0039606746
 fiftyTwoWeekChangePercent	-4.6478868
 fiftyTwoWeekHigh	49.73
-fiftyTwoWeekHighChange	-2.3400002
-fiftyTwoWeekHighChangePercent	-0.047054097
+fiftyTwoWeekHighChange	-2.380001
+fiftyTwoWeekHighChangePercent	-0.047858458
 fiftyTwoWeekLow	46.63
-fiftyTwoWeekLowChange	0.7599983
-fiftyTwoWeekLowChangePercent	0.016298484
+fiftyTwoWeekLowChange	0.7199974
+fiftyTwoWeekLowChangePercent	0.0154406475
 fiftyTwoWeekRange	46.63 - 49.73
 firstTradeDateMilliseconds	1370352600000
 fiveYearAverageReturn	0.003133
 fullExchangeName	NasdaqGM
-fulldayChange	0.07999802
-fulldayChangePercent	0.16909325
-fulldayPrice	47.39
+fulldayChange	0.069999695
+fulldayChangePercent	0.14808482
+fulldayPrice	47.35
 fundFamily	Vanguard
 fundInceptionDate	1369958400
 gmtOffSetMilliseconds	-18000000
@@ -53,7 +53,7 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the Bloomberg Global Aggregate ex-USD Float Adjusted RIC Capped Index (USD Hedged). This index provides a broad-based measure of the global, investment-grade, fixed-rate bond markets. It is non-diversified.
 longName	Vanguard Total International Bond Index Fund ETF Shares
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_204607725
 navPrice	47.33
@@ -64,21 +64,21 @@ postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	47.39
 postMarketTime	1793390674
-previousClose	47.31
+previousClose	47.27
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
 regularMarketChange	0.07999802
-regularMarketChangePercent	0.16909324
-regularMarketDayHigh	47.405
+regularMarketChangePercent	0.16923633
+regularMarketDayHigh	47.39
 regularMarketDayLow	47.31
-regularMarketDayRange	47.31 - 47.405
+regularMarketDayRange	47.31 - 47.39
 regularMarketOpen	47.31
-regularMarketPreviousClose	47.31
-regularMarketPrice	47.39
-regularMarketTime	1793390400
-regularMarketVolume	5029523
+regularMarketPreviousClose	47.27
+regularMarketPrice	47.35
+regularMarketTime	1793653201
+regularMarketVolume	4220871
 shortName	Vanguard Total International Bo
 sourceInterval	15
 symbol	BNDX
@@ -92,9 +92,9 @@ trailingThreeMonthNavReturns	-2.6373
 trailingThreeMonthReturns	-2.6373
 triggerable	True
 twoHundredDayAverage	47.93055
-twoHundredDayAverageChange	-0.54055023
-twoHundredDayAverageChangePercent	-0.011277781
+twoHundredDayAverageChange	-0.58055115
+twoHundredDayAverageChangePercent	-0.012112341
 typeDisp	ETF
-volume	5029523
+volume	4220871
 yield	0.0468
 ytdReturn	-1.41832

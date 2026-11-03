@@ -12,27 +12,27 @@ averageDailyVolume10Day	2852330
 averageDailyVolume3Month	2432290
 averageVolume	2432290
 averageVolume10days	2852330
-beta	1.463
-bid	446.4
-bidSize	2
+beta	1.439
+bid	441.1
+bidSize	1
 boardRisk	6
 bookValue	46.123
 city	Sunnyvale
-companyOfficers	[{'maxAge': 1, 'name': 'Dr. Gary S. Guthart Ph.D.', 'age': 59, 'title': 'Executive Chair', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 2140275, 'exercisedValue': 44367860, 'unexercisedValue': 69788808}, {'maxAge': 1, 'name': 'Mr. David J. Rosa', 'age': 57, 'title': 'CEO & Director', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 2322608, 'exercisedValue': 27076576, 'unexercisedValue': 65149152}, {'maxAge': 1, 'name': 'Mr. Jamie E. Samath', 'age': 54, 'title': 'Executive VP, CFO & Enterprise Technology Leader', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 1481816, 'exercisedValue': 678331, 'unexercisedValue': 1121478}, {'maxAge': 1, 'name': 'Mr. Henry L. Charlton', 'age': 55, 'title': 'Senior VP of Global Business Operations', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1453840, 'exercisedValue': 3150448, 'unexercisedValue': 5902177}, {'maxAge': 1, 'name': 'Mr. Gary H. Loeb J.D.', 'age': 55, 'title': 'Executive VP and Chief Legal & Compliance Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1335480, 'exercisedValue': 1032824, 'unexercisedValue': 2955669}, {'maxAge': 1, 'name': 'Mr. Fredrik  Widman', 'title': 'VP, Principal Accounting Officer & Corporate Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Milind  Wagle', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel P. Connally C.F.A.', 'title': 'VP & Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Christopher R. Carlson Ph.D.', 'title': 'Executive Vice President of Research, Corporate Development, Corporate Strategy & Intuitive Ventures', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Taylor  Patton', 'title': 'Chief Commercial and Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	432.01
+currentPrice	436.87
 currentRatio	3.327
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	453.6
-dayLow	431.1949
+dayHigh	446.455
+dayLow	436.04
 debtToEquity	0.953
-discount_to_intrinsic_value	-595.58
+discount_to_intrinsic_value	-603.4
 displayName	Intuitive Surgical
 dividendYield	0.0
 earningsCallTimestampEnd	1792526400
@@ -44,10 +44,10 @@ earningsTimestampEnd	1800565200
 earningsTimestampStart	1800565200
 ebitda	4470700032
 ebitdaMargins	0.38614
-enterpriseToEbitda	32.622
-enterpriseToRevenue	12.597
-enterpriseValue	145842651136
-epsCurrentYear	11.25466
+enterpriseToEbitda	32.999
+enterpriseToRevenue	12.742
+enterpriseValue	147527335936
+epsCurrentYear	11.25264
 epsForward	12.4521
 epsTrailingTwelveMonths	8.27
 eps_normalized_growth	-0.18925096642737926
@@ -59,27 +59,27 @@ exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	408 523 1390
 fiftyDayAverage	401.5432
-fiftyDayAverageChange	30.466797
-fiftyDayAverageChangePercent	0.07587427
+fiftyDayAverageChange	35.326782
+fiftyDayAverageChangePercent	0.087977536
 fiftyTwoWeekChangePercent	-20.617044
 fiftyTwoWeekHigh	603.88
-fiftyTwoWeekHighChange	-171.87
-fiftyTwoWeekHighChangePercent	-0.28460953
+fiftyTwoWeekHighChange	-167.01001
+fiftyTwoWeekHighChangePercent	-0.2765616
 fiftyTwoWeekLow	328.57
-fiftyTwoWeekLowChange	103.44
-fiftyTwoWeekLowChangePercent	0.31481877
+fiftyTwoWeekLowChange	108.29999
+fiftyTwoWeekLowChangePercent	0.32961008
 fiftyTwoWeekRange	328.57 - 603.88
 financialCurrency	USD
 firstTradeDateMilliseconds	961162200000
 floatShares	344598520
 forwardEps	12.4521
-forwardPE	34.69375
+forwardPE	35.08404
 freeCashflow	3434800128
 fullExchangeName	NasdaqGS
 fullTimeEmployees	17021
-fulldayChange	-16.460022
-fulldayChangePercent	-3.6678896
-fulldayPrice	432.01
+fulldayChange	4.98999
+fulldayChangePercent	1.1550636
+fulldayPrice	436.87
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	62.11
@@ -101,8 +101,8 @@ lastSplitFactor	3:1
 longBusinessSummary	Intuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to minimally invasive care in the United States and internationally. It offers the da Vinci Surgical System that enables surgical procedures using a minimally invasive approach; and Ion endoluminal system, which extends its commercial offerings beyond surgery into diagnostic endoluminal procedures enabling minimally invasive biopsies in the lung. The company also provides a suite of stapling, energy, and core instrumentation for its multi-port da Vinci surgical systems; progressive learning pathways to support the use of its technology; infrastructure of customer service and support specialists, a complement of services to its customers, including installation, repair, maintenance, 24/7 technical support, and proactive system health monitoring; and integrated digital capabilities providing connected offerings, streamlining performance for hospitals with program-enhancing insights. It sells its products through direct sales organizations, such as capital and clinical sales teams. Intuitive Surgical, Inc. was incorporated in 1995 and is headquartered in Sunnyvale, California.
 longName	Intuitive Surgical, Inc.
 market	us_market
-marketCap	152619646976
-marketState	CLOSED
+marketCap	154336575488
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_30239
 mostRecentQuarter	1790726400
@@ -110,22 +110,22 @@ netIncomeToCommon	2957199872
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	152619645196
 numberOfAnalystOpinions	30
-open	453.6
+open	439.79
 operatingCashflow	4089499904
 operatingMargins	0.33286
 overallRisk	4
 payoutRatio	0.0
 pegRatio	2.0
 phone	408 523 2100
-postMarketChange	0.28997803
-postMarketChangePercent	0.06712299
-postMarketPrice	432.3
-postMarketTime	1793404386
-previousClose	448.76
-priceEpsCurrentYear	38.38499
+postMarketChange	1.8800049
+postMarketChangePercent	0.43033507
+postMarketPrice	438.75
+postMarketTime	1793659272
+previousClose	432.01
+priceEpsCurrentYear	38.82378
 priceHint	2
-priceToBook	9.366477
-priceToSalesTrailing12Months	13.181866
+priceToBook	9.471847
+priceToSalesTrailing12Months	13.330158
 profitMargins	0.25542
 quickRatio	2.316
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.76471
 region	US
-regularMarketChange	-16.75
-regularMarketChangePercent	-3.7325072
-regularMarketDayHigh	453.6
-regularMarketDayLow	431.1949
-regularMarketDayRange	431.1949 - 453.6
-regularMarketOpen	453.6
-regularMarketPreviousClose	448.76
-regularMarketPrice	432.01
-regularMarketTime	1793390401
-regularMarketVolume	3481627
+regularMarketChange	4.8599854
+regularMarketChangePercent	1.1249706
+regularMarketDayHigh	446.455
+regularMarketDayLow	436.04
+regularMarketDayRange	436.04 - 446.455
+regularMarketOpen	439.79
+regularMarketPreviousClose	432.01
+regularMarketPrice	436.87
+regularMarketTime	1793653201
+regularMarketVolume	3813505
 returnOnAssets	0.118549995
 returnOnEquity	0.17932
 revenueGrowth	0.217
@@ -174,13 +174,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	8.27
-trailingPE	52.23821
+trailingPE	52.825874
 trailingPegRatio	2.0008
 triggerable	True
 twoHundredDayAverage	433.061
-twoHundredDayAverageChange	-1.0509949
-twoHundredDayAverageChangePercent	-0.0024268979
+twoHundredDayAverageChange	3.8089905
+twoHundredDayAverageChangePercent	0.008795505
 typeDisp	Equity
-volume	3481627
+volume	3813505
 website	https://www.intuitive.com
 zip	94086-5304

@@ -5,17 +5,17 @@ address1	Sterling Plaza 2
 address2	3rd Floor 3545 Factoria Blvd. SE
 allTimeHigh	200.66
 allTimeLow	0.151042
-ask	199.9
-askSize	300
+ask	0.0
+askSize	200
 auditRisk	8
 averageAnalystRating	3.2 - Hold
 averageDailyVolume10Day	1144140
 averageDailyVolume3Month	1055125
 averageVolume	1055125
 averageVolume10days	1144140
-beta	1.064
-bid	198.0
-bidSize	100
+beta	1.068
+bid	0.0
+bidSize	200
 boardRisk	1
 bookValue	16.295
 city	Bellevue
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	198.85
+currentPrice	200.56
 currentRatio	1.566
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	199.76
-dayLow	198.19
+dayHigh	203.13
+dayLow	197.01
 debtToEquity	26.745
-discount_to_intrinsic_value	44.0
+discount_to_intrinsic_value	44.01
 displayName	Expeditors Intl of Washington
 dividendDate	1781481600
 dividendRate	1.62
@@ -45,12 +45,12 @@ earningsTimestampEnd	1793712600
 earningsTimestampStart	1793712600
 ebitda	1263714048
 ebitdaMargins	0.10499
-enterpriseToEbitda	20.089
-enterpriseToRevenue	2.109
-enterpriseValue	25386844160
+enterpriseToEbitda	20.265
+enterpriseToRevenue	2.128
+enterpriseValue	25609127936
 epsCurrentYear	7.88411
 epsForward	8.10276
-epsTrailingTwelveMonths	6.87
+epsTrailingTwelveMonths	6.93
 eps_normalized_growth	0.4091188241924666
 esgPopulated	False
 exDividendDate	1780272000
@@ -60,31 +60,31 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	191.7488
-fiftyDayAverageChange	7.1012115
-fiftyDayAverageChangePercent	0.03703393
+fiftyDayAverageChange	8.811203
+fiftyDayAverageChangePercent	0.045951802
 fiftyTwoWeekChangePercent	62.37955
-fiftyTwoWeekHigh	200.66
-fiftyTwoWeekHighChange	-1.8099976
-fiftyTwoWeekHighChangePercent	-0.0090202205
+fiftyTwoWeekHigh	203.13
+fiftyTwoWeekHighChange	-2.5700073
+fiftyTwoWeekHighChangePercent	-0.012652032
 fiftyTwoWeekLow	120.94
-fiftyTwoWeekLowChange	77.91
-fiftyTwoWeekLowChangePercent	0.6442038
-fiftyTwoWeekRange	120.94 - 200.66
+fiftyTwoWeekLowChange	79.619995
+fiftyTwoWeekLowChangePercent	0.6583429
+fiftyTwoWeekRange	120.94 - 203.13
 financialCurrency	USD
 firstTradeDateMilliseconds	465053400000
 fiveYearAvgDividendYield	1.12
 floatShares	129032591
 forwardEps	8.10276
-forwardPE	24.54102
+forwardPE	24.752058
 freeCashflow	797562240
 fullExchangeName	NYSE
 fullTimeEmployees	20389
-fulldayChange	0.47940063
-fulldayChangePercent	0.24164556
-fulldayPrice	198.85
+fulldayChange	1.7099915
+fulldayChangePercent	0.85994035
+fulldayPrice	200.56
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
-graham_intrinsic_value	355.09
+graham_intrinsic_value	358.19
 grossMargins	0.13549
 grossProfits	1630770944
 hasPrePostMarketData	True
@@ -105,8 +105,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Expeditors International of Washington, Inc., together with its subsidiaries, provides logistics services in the Americas, North Asia, South Asia, Europe, and Middle East, Africa, and India. The company offers airfreight services, such as air freight consolidation and forwarding; ocean freight and ocean services, including ocean freight consolidation, direct ocean forwarding, and order management; customs brokerage and other services, import, intra-continental ground transportation and delivery, and warehousing and distribution services; and customs clearance, purchase order management, vendor consolidation, time-definite transportation services, temperature-controlled transit, cargo insurance, specialized cargo monitoring and tracking, and other logistics solutions. It also provides optimization, trade compliance consulting, cargo insurance, cargo security, and solutions. In addition, it acts as a freight consolidator or as an agent for the airline that carries the shipment. Further, the company provides ancillary services that include preparation of shipping and customs documentation, packing, crating, insurance services, and the preparation of documentation to comply with local export and import laws. The company was incorporated in 1979 and is headquartered in Bellevue, Washington.
 longName	Expeditors International of Washington, Inc.
 market	us_market
-marketCap	25848635392
-marketState	CLOSED
+marketCap	26070919168
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_270071
 mostRecentQuarter	1782777600
@@ -114,22 +114,22 @@ netIncomeToCommon	918798976
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	25848635184
 numberOfAnalystOpinions	15
-open	198.92
+open	200.96
 operatingCashflow	972540992
 operatingMargins	0.107080005
 overallRisk	2
 payoutRatio	0.23
 pegRatio	3.15
 phone	206 674 3400
-postMarketChange	0.01939392
-postMarketChangePercent	0.00975304
-postMarketPrice	198.8694
-postMarketTime	1793391607
-previousClose	198.39
-priceEpsCurrentYear	25.221617
+postMarketChange	-0.55999756
+postMarketChangePercent	-0.27921697
+postMarketPrice	200.0
+postMarketTime	1793667061
+previousClose	198.85
+priceEpsCurrentYear	25.438509
 priceHint	2
-priceToBook	12.20313
-priceToSalesTrailing12Months	2.1476097
+priceToBook	12.30807
+priceToSalesTrailing12Months	2.166078
 profitMargins	0.07634
 quickRatio	1.431
 quoteSourceName	Delayed Quote
@@ -137,16 +137,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.16667
 region	US
-regularMarketChange	0.460007
-regularMarketChangePercent	0.23187
-regularMarketDayHigh	199.76
-regularMarketDayLow	198.19
-regularMarketDayRange	198.19 - 199.76
-regularMarketOpen	198.92
-regularMarketPreviousClose	198.39
-regularMarketPrice	198.85
-regularMarketTime	1793390403
-regularMarketVolume	1557712
+regularMarketChange	1.70999
+regularMarketChangePercent	0.85994
+regularMarketDayHigh	203.13
+regularMarketDayLow	197.01
+regularMarketDayRange	197.01 - 203.13
+regularMarketOpen	200.96
+regularMarketPreviousClose	198.85
+regularMarketPrice	200.56
+regularMarketTime	1793653203
+regularMarketVolume	1873643
 returnOnAssets	0.1523
 returnOnEquity	0.4267
 revenueGrowth	0.321
@@ -176,15 +176,15 @@ totalDebt	567284992
 totalRevenue	12036001792
 tradeable	False
 trailingAnnualDividendRate	1.58
-trailingAnnualDividendYield	0.007964111
-trailingEps	6.87
-trailingPE	28.944689
+trailingAnnualDividendYield	0.0079456875
+trailingEps	6.93
+trailingPE	28.940838
 trailingPegRatio	3.1496
 triggerable	True
 twoHundredDayAverage	166.89195
-twoHundredDayAverageChange	31.958054
-twoHundredDayAverageChangePercent	0.19148949
+twoHundredDayAverageChange	33.668045
+twoHundredDayAverageChangePercent	0.20173559
 typeDisp	Equity
-volume	1557712
+volume	1873643
 website	https://www.expeditors.com
 zip	98006

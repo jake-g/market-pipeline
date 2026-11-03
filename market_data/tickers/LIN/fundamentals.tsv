@@ -12,7 +12,7 @@ averageDailyVolume10Day	2011020
 averageDailyVolume3Month	2055350
 averageVolume	2055350
 averageVolume10days	2011020
-beta	0.713
+beta	0.68
 bid	491.62
 bidSize	1
 boardRisk	8
@@ -21,22 +21,22 @@ city	Woking
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Sanjiv  Lamba', 'age': 61, 'title': 'CEO & Chairman of the Board', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 4960158, 'exercisedValue': 0, 'unexercisedValue': 31225560}, {'maxAge': 1, 'name': 'Mr. Matthew J. White C.F.A.', 'age': 53, 'title': 'Executive VP & CFO', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 2373314, 'exercisedValue': 0, 'unexercisedValue': 73164592}, {'maxAge': 1, 'name': 'Mr. Sean F. Durbin', 'age': 54, 'title': 'COO & EVP', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 1914226, 'exercisedValue': 2184081, 'unexercisedValue': 7511608}, {'maxAge': 1, 'name': 'Mr. Guillermo  Bichara', 'age': 50, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 1894107, 'exercisedValue': 0, 'unexercisedValue': 19582772}, {'maxAge': 1, 'name': 'Mr. Benjamin W. Glazer', 'age': 51, 'title': 'Senior VP of Americas', 'yearBorn': 1974, 'fiscalYear': 2025, 'totalPay': 1495496, 'exercisedValue': 0, 'unexercisedValue': 12038388}, {'maxAge': 1, 'name': 'Denny  Brown', 'title': 'Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Juan  Pelaez', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Karin  Griggel', 'title': 'Chief Compliance Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Desiree Co Bacher', 'age': 54, 'title': 'Senior VP & Chief Human Resources Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Moloy  Banerjee', 'age': 59, 'title': 'President of ASEAN & South Asia', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
-corporateActions	[]
+corporateActions	[{'header': 'Dividend', 'message': 'LIN announced a cash dividend of $1.60 with an ex-date of Dec. 3, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1796274000000, 'amount': '1.60'}}]
 country	United Kingdom
 cryptoTradeable	False
 currency	USD
-currentPrice	514.24
+currentPrice	519.72
 currentRatio	0.858
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	517.7
-dayLow	508.73
+dayHigh	522.92
+dayLow	516.12
 debtToEquity	65.135
-discount_to_intrinsic_value	-302.92
+discount_to_intrinsic_value	-302.93
 displayName	Linde
 dividendDate	1797465600
 dividendRate	6.4
-dividendYield	1.24
+dividendYield	1.23
 earningsCallTimestampEnd	1793278800
 earningsCallTimestampStart	1793278800
 earningsGrowth	-0.105
@@ -46,12 +46,12 @@ earningsTimestampEnd	1793277000
 earningsTimestampStart	1793277000
 ebitda	13818000384
 ebitdaMargins	0.38131002
-enterpriseToEbitda	18.846
-enterpriseToRevenue	7.186
-enterpriseValue	260407246848
-epsCurrentYear	17.89052
-epsForward	19.57855
-epsTrailingTwelveMonths	15.06
+enterpriseToEbitda	19.028
+enterpriseToRevenue	7.255
+enterpriseValue	262923026432
+epsCurrentYear	17.89155
+epsForward	19.55268
+epsTrailingTwelveMonths	15.22
 eps_normalized_growth	0.005458797447067676
 esgPopulated	False
 exDividendDate	1796256000
@@ -61,31 +61,31 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	483.526
-fiftyDayAverageChange	30.71399
-fiftyDayAverageChangePercent	0.06352086
+fiftyDayAverageChange	36.19397
+fiftyDayAverageChangePercent	0.07485424
 fiftyTwoWeekChangePercent	24.76102
 fiftyTwoWeekHigh	548.2
-fiftyTwoWeekHighChange	-33.960022
-fiftyTwoWeekHighChangePercent	-0.061948232
+fiftyTwoWeekHighChange	-28.480042
+fiftyTwoWeekHighChangePercent	-0.05195192
 fiftyTwoWeekLow	387.78
-fiftyTwoWeekLowChange	126.45999
-fiftyTwoWeekLowChangePercent	0.32611272
+fiftyTwoWeekLowChange	131.93997
+fiftyTwoWeekLowChangePercent	0.34024438
 fiftyTwoWeekRange	387.78 - 548.2
 financialCurrency	USD
 firstTradeDateMilliseconds	708787800000
 fiveYearAvgDividendYield	1.29
-floatShares	457600938
-forwardEps	19.57855
-forwardPE	26.265478
+floatShares	457591757
+forwardEps	19.55268
+forwardPE	26.5805
 freeCashflow	4192624896
 fullExchangeName	NasdaqGS
 fullTimeEmployees	64512
-fulldayChange	11.850006
-fulldayChangePercent	2.3551638
-fulldayPrice	514.24
+fulldayChange	7.5
+fulldayChangePercent	1.458463
+fulldayPrice	519.72
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
-graham_intrinsic_value	127.63
+graham_intrinsic_value	128.98
 grossMargins	0.47864
 grossProfits	17344999424
 hasPrePostMarketData	True
@@ -106,8 +106,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Linde plc operates as an industrial gas company worldwide. The company offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and process gases, such as hydrogen, helium, carbon dioxide, carbon monoxide, electronic gases, specialty gases, and acetylene. It also engages in the design and construction of turnkey process plants for third-party customers, as well as for its gas businesses, including air separation, hydrogen, synthesis, olefin, and natural gas plants. The company serves the healthcare, chemicals and energy, manufacturing, metals and mining, food and beverage, and electronics industries. It operates in the United States, Brazil, Mexico, Canada, Germany, the United Kingdom, Eastern Europe, China, Australia, South Korea, and India. Linde plc was founded in 1879 and is based in Woking, the United Kingdom.
 longName	Linde plc
 market	us_market
-marketCap	236079235072
-marketState	CLOSED
+marketCap	238595014656
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_318049
 mostRecentQuarter	1790726400
@@ -115,22 +115,22 @@ netIncomeToCommon	7007000064
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	236079242512
 numberOfAnalystOpinions	27
-open	509.55
+open	519.34
 operatingCashflow	10709999616
 operatingMargins	0.27967
 overallRisk	5
 payoutRatio	0.41830003
 pegRatio	2.0
 phone	44 14 8324 2200
-postMarketChange	0.76000977
-postMarketChangePercent	0.14779282
-postMarketPrice	515.0
-postMarketTime	1793396369
-previousClose	503.15
-priceEpsCurrentYear	28.743713
+postMarketChange	3.75
+postMarketChangePercent	0.7215424
+postMarketPrice	523.47
+postMarketTime	1793659210
+previousClose	514.24
+priceEpsCurrentYear	29.048347
 priceHint	2
-priceToBook	5.9885173
-priceToSalesTrailing12Months	6.514687
+priceToBook	6.052334
+priceToSalesTrailing12Months	6.584111
 profitMargins	0.19336
 quickRatio	0.639
 quoteSourceName	Nasdaq Real Time Price
@@ -138,16 +138,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.68966
 region	US
-regularMarketChange	11.089996
-regularMarketChangePercent	2.2041135
-regularMarketDayHigh	517.7
-regularMarketDayLow	508.73
-regularMarketDayRange	508.73 - 517.7
-regularMarketOpen	509.55
-regularMarketPreviousClose	503.15
-regularMarketPrice	514.24
-regularMarketTime	1793390400
-regularMarketVolume	3116947
+regularMarketChange	5.4799805
+regularMarketChangePercent	1.0656465
+regularMarketDayHigh	522.92
+regularMarketDayLow	516.12
+regularMarketDayRange	516.12 - 522.92
+regularMarketOpen	519.34
+regularMarketPreviousClose	514.24
+regularMarketPrice	519.72
+regularMarketTime	1793653201
+regularMarketVolume	2649339
 returnOnAssets	0.071729995
 returnOnEquity	0.17723
 revenueGrowth	0.092
@@ -166,9 +166,9 @@ shortPercentOfFloat	0.0135
 shortRatio	2.86
 sourceInterval	15
 symbol	LIN
-targetHighPrice	591.0
+targetHighPrice	595.0
 targetLowPrice	400.0
-targetMeanPrice	549.03705
+targetMeanPrice	549.37036
 targetMedianPrice	556.0
 totalCash	3947000064
 totalCashPerShare	8.598
@@ -176,15 +176,15 @@ totalDebt	26702000128
 totalRevenue	36238000128
 tradeable	False
 trailingAnnualDividendRate	6.3
-trailingAnnualDividendYield	0.012521118
-trailingEps	15.06
-trailingPE	34.14608
+trailingAnnualDividendYield	0.012251089
+trailingEps	15.22
+trailingPE	34.14717
 trailingPegRatio	2.0023
 triggerable	True
 twoHundredDayAverage	492.94064
-twoHundredDayAverageChange	21.299347
-twoHundredDayAverageChangePercent	0.043208744
+twoHundredDayAverageChange	26.779327
+twoHundredDayAverageChangePercent	0.054325663
 typeDisp	Equity
-volume	3116947
+volume	2649339
 website	https://www.linde.com
 zip	GU21 6HT

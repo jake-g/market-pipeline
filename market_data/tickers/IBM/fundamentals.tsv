@@ -4,39 +4,39 @@ SandP52WeekChange	0.10626137
 address1	One New Orchard Road
 allTimeHigh	332.46
 allTimeLow	3.824092
-ask	257.94
-askSize	100
+ask	0.0
+askSize	200
 auditRisk	8
 averageAnalystRating	2.3 - Buy
 averageDailyVolume10Day	5896650
 averageDailyVolume3Month	5502907
 averageVolume	5502907
 averageVolume10days	5896650
-beta	0.724
-bid	257.0
+beta	0.764
+bid	0.0
 bidSize	100
 boardRisk	7
 bookValue	37.6
 city	Armonk
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Arvind  Krishna', 'age': 62, 'title': 'CEO, President & Chairman', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 7351817, 'exercisedValue': 0, 'unexercisedValue': 33839440}, {'maxAge': 1, 'name': 'Mr. James J. Kavanaugh', 'age': 58, 'title': 'CFO and Senior VP of Finance & Operations', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 4113265, 'exercisedValue': 0, 'unexercisedValue': 20841604}, {'maxAge': 1, 'name': 'Ms. Anne E. Robinson', 'age': 54, 'title': 'Senior VP & Chief Legal Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 3138695, 'exercisedValue': 0, 'unexercisedValue': 856166}, {'maxAge': 1, 'name': 'Mr. Robert D. Thomas', 'age': 76, 'title': 'Senior VP of IBM Software & Chief Commercial Officer', 'yearBorn': 1949, 'fiscalYear': 2025, 'totalPay': 3702023, 'exercisedValue': 0, 'unexercisedValue': 17113948}, {'maxAge': 1, 'name': 'Mr. Gary D. Cohn', 'age': 64, 'title': 'Executive Vice Chairman', 'yearBorn': 1961, 'fiscalYear': 2025, 'totalPay': 3672470, 'exercisedValue': 0, 'unexercisedValue': 16222157}, {'maxAge': 1, 'name': 'Olympia  McNerney', 'title': 'Global Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Nickle Jaclyn LaMoreaux', 'age': 45, 'title': 'Senior VP & Chief Human Resources Officer', 'yearBorn': 1980, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Bernard S. Meyerson Ph.D.', 'title': 'Chief Innovation Officer Emeritus', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alexander Franz Stern', 'age': 59, 'title': 'Senior Vice President of Strategy and Mergers & Acquisitions', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kirill  Korniliev', 'title': 'VP of Sales and Head of The Industry Solutions Area In Central & Eastern Europe', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	3
 corporateActions	[{'header': 'Dividend', 'message': 'IBM announced a cash dividend of $1.69 with an ex-date of Nov. 10, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1794286800000, 'amount': '1.69'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	257.81
+currentPrice	252.51
 currentRatio	0.855
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	259.59
-dayLow	254.7105
+dayHigh	259.87
+dayLow	252.36
 debtToEquity	185.439
-discount_to_intrinsic_value	-192.91
+discount_to_intrinsic_value	-186.89
 displayName	IBM
 dividendDate	1796860800
 dividendRate	6.76
-dividendYield	2.62
+dividendYield	2.68
 earningsCallTimestampEnd	1792616400
 earningsCallTimestampStart	1792616400
 earningsGrowth	0.25
@@ -46,11 +46,11 @@ earningsTimestampEnd	1801083600
 earningsTimestampStart	1801083600
 ebitda	16634000384
 ebitdaMargins	0.23808001
-enterpriseToEbitda	18.06
-enterpriseToRevenue	4.3
-enterpriseValue	300412600320
-epsCurrentYear	12.41987
-epsForward	13.23529
+enterpriseToEbitda	17.759
+enterpriseToRevenue	4.228
+enterpriseValue	295403454464
+epsCurrentYear	12.419
+epsForward	13.23404
 epsTrailingTwelveMonths	11.72
 eps_normalized_growth	-0.18917381864852345
 esgPopulated	False
@@ -61,28 +61,28 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	235.1662
-fiftyDayAverageChange	22.643799
-fiftyDayAverageChangePercent	0.096288495
+fiftyDayAverageChange	17.343796
+fiftyDayAverageChangePercent	0.073751226
 fiftyTwoWeekChangePercent	-15.397239
 fiftyTwoWeekHigh	332.46
-fiftyTwoWeekHighChange	-74.649994
-fiftyTwoWeekHighChangePercent	-0.22453828
+fiftyTwoWeekHighChange	-79.95
+fiftyTwoWeekHighChangePercent	-0.24048005
 fiftyTwoWeekLow	199.19
-fiftyTwoWeekLowChange	58.619995
-fiftyTwoWeekLowChangePercent	0.29429185
+fiftyTwoWeekLowChange	53.319992
+fiftyTwoWeekLowChangePercent	0.26768407
 fiftyTwoWeekRange	199.19 - 332.46
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	3.46
 floatShares	943183307
-forwardEps	13.23529
-forwardPE	19.478985
+forwardEps	13.23404
+forwardPE	19.080341
 freeCashflow	12354875392
 fullExchangeName	NYSE
 fullTimeEmployees	264300
-fulldayChange	-0.80999756
-fulldayChangePercent	-0.3136122
-fulldayPrice	257.81
+fulldayChange	-6.9100037
+fulldayChangePercent	-2.6802697
+fulldayPrice	252.51
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	88.02
@@ -106,8 +106,8 @@ lastSplitFactor	1046:1000
 longBusinessSummary	International Business Machines Corporation, together with its subsidiaries, provides integrated solutions and services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through Software, Consulting, Infrastructure, and Financing segments. The Software segment offers hybrid cloud and AI platforms that allow clients to realize their digital and AI transformations across the applications, data, and environments in which they operate. The Consulting segment delivers strategy and technology services and intelligent operations, providing business transformation, technology implementation, managed services, application modernization, and AI-powered solutions. The Infrastructure segment provides on-premises and cloud-based server, and storage solutions, as well as life-cycle services for hybrid cloud infrastructure deployment. The Financing segment offers client and commercial financing, and facilitates IBM clients' acquisition of hardware, software, and services. It operates a data streaming platform. The company has partnerships with various companies, including hyperscalers, service providers, global system integrators, and software and hardware vendors that include Adobe, Amazon Web Services, Microsoft, Oracle, Salesforce, Samsung Electronics and SAP, and others. It also has a collaboration with Arm Holdings plc to develop new dual-architecture hardware for AI and data intensive workloads; partnership with three.ws to advance ai-powered 3d agent technology; and collaboration with Lightwell to help strengthen open source software supply chain. Additionally, it offers operational resilience, logistics, and future-ready technology to the UK Ministry of Defence through Team ORION. The company was formerly known as Computing-Tabulating-Recording Co. and changed its name to International Business Machines Corporation in 1924. International Business Machines Corporation was incorporated in 1911 and is headquartered in Armonk, New York.
 longName	International Business Machines Corporation
 market	us_market
-marketCap	243661602816
-marketState	CLOSED
+marketCap	238652456960
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_112350
 mostRecentQuarter	1790726400
@@ -115,22 +115,22 @@ netIncomeToCommon	11160000512
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	243661594737
 numberOfAnalystOpinions	23
-open	258.28
+open	258.12
 operatingCashflow	15831000064
 operatingMargins	0.16968
 overallRisk	6
 payoutRatio	0.5751
 pegRatio	2.43
 phone	914 499 1900
-postMarketChange	-0.33999634
-postMarketChangePercent	-0.13187864
-postMarketPrice	257.47
-postMarketTime	1793403864
-previousClose	258.28
-priceEpsCurrentYear	20.757866
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	252.51
+postMarketTime	1793663399
+previousClose	257.81
+priceEpsCurrentYear	20.332556
 priceHint	2
-priceToBook	6.856649
-priceToSalesTrailing12Months	3.4874563
+priceToBook	6.7156916
+priceToSalesTrailing12Months	3.4157617
 profitMargins	0.15989
 quickRatio	0.681
 quoteSourceName	Delayed Quote
@@ -138,16 +138,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.28
 region	US
-regularMarketChange	-0.470001
-regularMarketChangePercent	-0.181974
-regularMarketDayHigh	259.59
-regularMarketDayLow	254.7105
-regularMarketDayRange	254.7105 - 259.59
-regularMarketOpen	258.28
-regularMarketPreviousClose	258.28
-regularMarketPrice	257.81
-regularMarketTime	1793390402
-regularMarketVolume	5567815
+regularMarketChange	-5.3
+regularMarketChangePercent	-2.05578
+regularMarketDayHigh	259.87
+regularMarketDayLow	252.36
+regularMarketDayRange	252.36 - 259.87
+regularMarketOpen	258.12
+regularMarketPreviousClose	257.81
+regularMarketPrice	252.51
+regularMarketTime	1793653202
+regularMarketVolume	5592757
 returnOnAssets	0.05328
 returnOnEquity	0.34769002
 revenueGrowth	0.047
@@ -177,15 +177,15 @@ totalDebt	67140001792
 totalRevenue	69868003328
 tradeable	False
 trailingAnnualDividendRate	6.74
-trailingAnnualDividendYield	0.026095709
+trailingAnnualDividendYield	0.026143283
 trailingEps	11.72
-trailingPE	21.99744
+trailingPE	21.545221
 trailingPegRatio	2.43
 triggerable	True
 twoHundredDayAverage	249.1619
-twoHundredDayAverageChange	8.648102
-twoHundredDayAverageChangePercent	0.034708764
+twoHundredDayAverageChange	3.3480988
+twoHundredDayAverageChangePercent	0.0134374425
 typeDisp	Equity
-volume	5567815
+volume	5592757
 website	https://www.ibm.com
 zip	10504

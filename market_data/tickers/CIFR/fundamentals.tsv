@@ -5,7 +5,7 @@ address1	1 Vanderbilt Avenue
 address2	Floor 54
 allTimeHigh	30.14
 allTimeLow	0.382
-ask	8.93
+ask	6.83
 askSize	2
 auditRisk	9
 averageAnalystRating	1.4 - Strong Buy
@@ -13,11 +13,11 @@ averageDailyVolume10Day	46645530
 averageDailyVolume3Month	39910232
 averageVolume	39910232
 averageVolume10days	46645530
-beta	3.208
-bid	5.64
-bidSize	2
+beta	3.541
+bid	5.8
+bidSize	1
 boardRisk	7
-bookValue	1.357
+bookValue	1.989
 city	New York
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Rodney Tyler Page', 'age': 49, 'title': 'CEO & Director', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 2489000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Patrick Arthur Kelly', 'age': 45, 'title': 'Co-President & COO', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 1326500, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William  Iwaschuk', 'age': 49, 'title': 'Co-President, Chief Legal Officer & Corporate Secretary', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 1326500, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gregory  Mumford C.F.A.', 'age': 32, 'title': 'Chief Financial Officer', 'yearBorn': 1993, 'fiscalYear': 2025, 'totalPay': 507955, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John  Franceski', 'title': 'Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bryan  Keller', 'title': 'Chief Technology Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Olivia  Stennett', 'title': 'Chief Administrative Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Courtney  Knight', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Daniel  Cho', 'title': 'Director of Corporate Development & Strategy', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Samy  Biyadi', 'title': 'Head of Origination & Leasing', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	7.29
+currentPrice	6.86
 currentRatio	2.996
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	7.99
-dayLow	6.93
+dayHigh	7.39
+dayLow	6.62
 debtToEquity	950.563
 displayName	Cipher Digital
 dividendYield	0.0
@@ -42,12 +42,12 @@ earningsTimestampEnd	1793626200
 earningsTimestampStart	1793626200
 ebitda	96083000
 ebitdaMargins	0.50281
-enterpriseToEbitda	81.245
-enterpriseToRevenue	40.85
-enterpriseValue	7806223872
+enterpriseToEbitda	79.387
+enterpriseToRevenue	39.916
+enterpriseValue	7627760640
 epsCurrentYear	-0.60076
 epsForward	0.21984
-epsTrailingTwelveMonths	-2.87
+epsTrailingTwelveMonths	-2.77
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	15
@@ -55,27 +55,27 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	14.1731
-fiftyDayAverageChange	-6.8831005
-fiftyDayAverageChangePercent	-0.48564535
+fiftyDayAverageChange	-7.3131003
+fiftyDayAverageChangePercent	-0.51598454
 fiftyTwoWeekChangePercent	-67.97012
 fiftyTwoWeekHigh	30.14
-fiftyTwoWeekHighChange	-22.849998
-fiftyTwoWeekHighChangePercent	-0.7581287
-fiftyTwoWeekLow	6.93
-fiftyTwoWeekLowChange	0.36000013
-fiftyTwoWeekLowChangePercent	0.051948074
-fiftyTwoWeekRange	6.93 - 30.14
+fiftyTwoWeekHighChange	-23.279999
+fiftyTwoWeekHighChangePercent	-0.7723955
+fiftyTwoWeekLow	6.62
+fiftyTwoWeekLowChange	0.24000025
+fiftyTwoWeekLowChangePercent	0.036253814
+fiftyTwoWeekRange	6.62 - 30.14
 financialCurrency	USD
 firstTradeDateMilliseconds	1603200600000
 floatShares	325213923
 forwardEps	0.21984
-forwardPE	33.16048
+forwardPE	31.204512
 freeCashflow	-2897558784
 fullExchangeName	NasdaqGS
 fullTimeEmployees	66
-fulldayChange	-0.7210002
-fulldayChangePercent	-8.901237
-fulldayPrice	7.29
+fulldayChange	-0.46000004
+fulldayChangePercent	-6.3100142
+fulldayPrice	6.86
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 grossMargins	-0.100360006
@@ -93,32 +93,32 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Cipher Digital Inc., together with its subsidiaries, develops and operates industrial-scale data centers for bitcoin mining and high-performance compute (HPC) hosting in the United States. It develops HPC data center facilities across various sites for hyperscaler tenants; operates power at one bitcoin mining data center; and maintains a pipeline across various sites. The company was formerly known as Cipher Mining Inc. and change its name to Cipher Digital Inc. in February 2026. The company was founded in 2021 and is headquartered in New York, New York.
 longName	Cipher Digital Inc.
 market	us_market
-marketCap	3025573888
-marketState	CLOSED
+marketCap	2847110912
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_706582752
 mostRecentQuarter	1782777600
-nameChangeDate	2026-11-01
+nameChangeDate	2026-11-03
 netIncomeToCommon	-1119332992
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	3023498809
 numberOfAnalystOpinions	22
-open	7.51
+open	7.36
 operatingCashflow	-256490000
 operatingMargins	-3.01691
 overallRisk	9
 payoutRatio	0.0
 phone	332 262 2300
-postMarketChange	0.089000225
-postMarketChangePercent	1.2208536
-postMarketPrice	7.379
-postMarketTime	1793404697
+postMarketChange	0.040100098
+postMarketChangePercent	0.58454955
+postMarketPrice	6.9001
+postMarketTime	1793667535
 prevName	Good Works Acquisition Corp.
-previousClose	8.1
-priceEpsCurrentYear	-12.13463
+previousClose	7.29
+priceEpsCurrentYear	-11.41887
 priceHint	2
-priceToBook	5.372144
-priceToSalesTrailing12Months	15.832993
+priceToBook	3.4489694
+priceToSalesTrailing12Months	14.899086
 profitMargins	0.0
 quickRatio	0.618
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.40909
 region	US
-regularMarketChange	-0.8100004
-regularMarketChangePercent	-10.000005
-regularMarketDayHigh	7.99
-regularMarketDayLow	6.93
-regularMarketDayRange	6.93 - 7.99
-regularMarketOpen	7.51
-regularMarketPreviousClose	8.1
-regularMarketPrice	7.29
-regularMarketTime	1793390401
-regularMarketVolume	56617486
+regularMarketChange	-0.42999983
+regularMarketChangePercent	-5.8984885
+regularMarketDayHigh	7.39
+regularMarketDayLow	6.62
+regularMarketDayRange	6.62 - 7.39
+regularMarketOpen	7.36
+regularMarketPreviousClose	7.29
+regularMarketPrice	6.86
+regularMarketTime	1793653202
+regularMarketVolume	55412573
 returnOnAssets	-0.00797
 returnOnEquity	-1.67485
 revenueGrowth	-0.43
@@ -155,11 +155,11 @@ shortRatio	2.19
 sourceInterval	15
 state	NY
 symbol	CIFR
-syntheticPEG	-0.771173953488372
+syntheticPEG	-0.7256863255813953
 targetHighPrice	59.0
-targetLowPrice	12.0
-targetMeanPrice	28.54545
-targetMedianPrice	27.25
+targetLowPrice	11.0
+targetMeanPrice	27.59091
+targetMedianPrice	26.0
 totalCash	831828992
 totalCashPerShare	2.004
 totalDebt	5586800128
@@ -167,13 +167,13 @@ totalRevenue	191092992
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-2.87
+trailingEps	-2.77
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	17.747274
-twoHundredDayAverageChange	-10.457274
-twoHundredDayAverageChangePercent	-0.5892327
+twoHundredDayAverageChange	-10.887274
+twoHundredDayAverageChangePercent	-0.61346173
 typeDisp	Equity
-volume	56617486
+volume	55412573
 website	https://www.cipherdigital.com
 zip	10017

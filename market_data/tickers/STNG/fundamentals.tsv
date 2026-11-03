@@ -4,16 +4,16 @@ SandP52WeekChange	0.10626137
 address1	99 Boulevard du Jardin Exotique
 allTimeHigh	130.1
 allTimeLow	8.28
-ask	94.5
-askSize	200
+ask	0.0
+askSize	100
 averageAnalystRating	1.6 - Buy
 averageDailyVolume10Day	1344280
 averageDailyVolume3Month	1023439
 averageVolume	1023439
 averageVolume10days	1344280
-beta	-0.183
-bid	91.83
-bidSize	100
+beta	-0.141
+bid	0.0
+bidSize	300
 bookValue	83.064
 city	Monaco
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Emanuele A. Lauro', 'age': 47, 'title': 'Founder, Chairman & CEO', 'yearBorn': 1978, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert L. Bugbee', 'age': 65, 'title': 'President & Director', 'yearBorn': 1960, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher  Avella', 'age': 45, 'title': 'Chief Financial Officer', 'yearBorn': 1980, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Cameron  Mackey', 'age': 57, 'title': 'Chief Operating Officer', 'yearBorn': 1968, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. James  Doyle', 'title': 'Head of Corporate Development & Investor Relations', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Charlotte  Wheatcroft', 'title': 'Secretary', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Lars Dencker Nielsen', 'title': 'Commercial Director', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David Rodney Morant', 'title': 'Managing Director - Scorpio UK', 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -21,18 +21,18 @@ corporateActions	[{'header': 'Dividend', 'message': 'STNG announced a cash divid
 country	Monaco
 cryptoTradeable	False
 currency	USD
-currentPrice	92.6
+currentPrice	86.62
 currentRatio	20.651
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	95.595
-dayLow	91.75
+dayHigh	92.73
+dayLow	86.57
 debtToEquity	13.534
-discount_to_intrinsic_value	90.7
+discount_to_intrinsic_value	90.71
 displayName	Scorpio Tankers
 dividendDate	1796342400
 dividendRate	3.0
-dividendYield	3.24
+dividendYield	3.46
 earningsCallTimestampEnd	1793188800
 earningsCallTimestampStart	1793188800
 earningsGrowth	1.659
@@ -42,12 +42,12 @@ earningsTimestampEnd	1793190600
 earningsTimestampStart	1793190600
 ebitda	721564032
 ebitdaMargins	0.58157
-enterpriseToEbitda	3.859
-enterpriseToRevenue	2.244
-enterpriseValue	2784589056
+enterpriseToEbitda	3.474
+enterpriseToRevenue	2.02
+enterpriseValue	2506632448
 epsCurrentYear	15.73902
 epsForward	8.98996
-epsTrailingTwelveMonths	19.27
+epsTrailingTwelveMonths	18.03
 eps_normalized_growth	2.4998395639222553
 esgPopulated	False
 exDividendDate	1794528000
@@ -57,30 +57,30 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	83.7218
-fiftyDayAverageChange	8.878197
-fiftyDayAverageChangePercent	0.106044024
+fiftyDayAverageChange	2.898201
+fiftyDayAverageChangePercent	0.03461704
 fiftyTwoWeekChangePercent	50.275887
 fiftyTwoWeekHigh	95.6
-fiftyTwoWeekHighChange	-3.0
-fiftyTwoWeekHighChangePercent	-0.031380754
+fiftyTwoWeekHighChange	-8.979996
+fiftyTwoWeekHighChangePercent	-0.09393301
 fiftyTwoWeekLow	48.93
-fiftyTwoWeekLowChange	43.67
-fiftyTwoWeekLowChangePercent	0.89249945
+fiftyTwoWeekLowChange	37.690002
+fiftyTwoWeekLowChangePercent	0.7702841
 fiftyTwoWeekRange	48.93 - 95.6
 financialCurrency	USD
 firstTradeDateMilliseconds	1270042200000
 fiveYearAvgDividendYield	1.68
 floatShares	39159800
 forwardEps	8.98996
-forwardPE	10.30038
+forwardPE	9.635194
 freeCashflow	427363136
 fullExchangeName	NYSE
 fullTimeEmployees	24
-fulldayChange	-2.4700012
-fulldayChangePercent	-2.5980868
-fulldayPrice	92.6
+fulldayChange	-5.9799957
+fulldayChangePercent	-6.4578786
+fulldayPrice	86.62
 gmtOffSetMilliseconds	-18000000
-graham_intrinsic_value	996.0
+graham_intrinsic_value	931.91
 grossMargins	0.73923
 grossProfits	917172992
 hasPrePostMarketData	True
@@ -100,8 +100,8 @@ lastSplitFactor	1:10
 longBusinessSummary	Scorpio Tankers Inc., together with its subsidiaries, engages in the seaborne transportation of crude oil and refined petroleum products worldwide. As of March 19, 2026, its fleet consisted of 90 wholly owned tankers, including 34 LR2, 42MR, and 14 Handymax. Scorpio Tankers Inc. was incorporated in 2009 and is headquartered in Monaco.
 longName	Scorpio Tankers Inc.
 market	us_market
-marketCap	4729901568
-marketState	CLOSED
+marketCap	4424450048
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_98337595
 mostRecentQuarter	1790726400
@@ -109,7 +109,7 @@ netIncomeToCommon	956233984
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	4729901602
 numberOfAnalystOpinions	10
-open	94.02
+open	91.01
 operatingCashflow	833297984
 operatingMargins	0.43738997
 payoutRatio	0.0919
@@ -117,30 +117,30 @@ pegRatio	2.46
 phone	377 9798 5716
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	92.6
-postMarketTime	1793395578
-previousClose	95.07
-priceEpsCurrentYear	5.8834662
+postMarketPrice	86.62
+postMarketTime	1793663262
+previousClose	92.6
+priceEpsCurrentYear	5.5035195
 priceHint	2
-priceToBook	1.114803
-priceToSalesTrailing12Months	3.812245
+priceToBook	1.0428103
+priceToSalesTrailing12Months	3.5660546
 profitMargins	0.77071
 quickRatio	19.863
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.6
 region	US
-regularMarketChange	-2.47
-regularMarketChangePercent	-2.59809
-regularMarketDayHigh	95.595
-regularMarketDayLow	91.75
-regularMarketDayRange	91.75 - 95.595
-regularMarketOpen	94.02
-regularMarketPreviousClose	95.07
-regularMarketPrice	92.6
-regularMarketTime	1793390403
-regularMarketVolume	1403700
+regularMarketChange	-5.98
+regularMarketChangePercent	-6.45788
+regularMarketDayHigh	92.73
+regularMarketDayLow	86.57
+regularMarketDayRange	86.57 - 92.73
+regularMarketOpen	91.01
+regularMarketPreviousClose	92.6
+regularMarketPrice	86.62
+regularMarketTime	1793653202
+regularMarketVolume	1253883
 returnOnAssets	0.08625
 returnOnEquity	0.27577
 revenueGrowth	0.104
@@ -168,15 +168,15 @@ totalDebt	522534016
 totalRevenue	1240712960
 tradeable	False
 trailingAnnualDividendRate	1.77
-trailingAnnualDividendYield	0.018617861
-trailingEps	19.27
-trailingPE	4.805397
+trailingAnnualDividendYield	0.01911447
+trailingEps	18.03
+trailingPE	4.804215
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	77.047
-twoHundredDayAverageChange	15.553001
-twoHundredDayAverageChangePercent	0.20186383
+twoHundredDayAverageChange	9.573006
+twoHundredDayAverageChangePercent	0.124248914
 typeDisp	Equity
-volume	1403700
+volume	1253883
 website	https://www.scorpiotankers.com
 zip	98000

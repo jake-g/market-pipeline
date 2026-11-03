@@ -4,7 +4,7 @@ SandP52WeekChange	0.10626137
 address1	909 Kifer Road
 allTimeHigh	197.13
 allTimeLow	1.472
-ask	143.71
+ask	132.3
 askSize	1
 auditRisk	1
 averageAnalystRating	2.9 - Hold
@@ -12,11 +12,11 @@ averageDailyVolume10Day	6348800
 averageDailyVolume3Month	4533248
 averageVolume	4533248
 averageVolume10days	6348800
-beta	1.037
-bid	129.5
+beta	1.04
+bid	120.33
 bidSize	1
 boardRisk	7
-bookValue	1.666
+bookValue	3.059
 city	Sunnyvale
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Ken  Xie', 'age': 62, 'title': 'Co-Founder, Chairman & CEO', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 1302937, 'exercisedValue': 63146744, 'unexercisedValue': 72547136}, {'maxAge': 1, 'name': 'Mr. Michael  Xie', 'age': 56, 'title': 'Co-Founder, President, CTO & Director', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 773876, 'exercisedValue': 49409128, 'unexercisedValue': 45537936}, {'maxAge': 1, 'name': 'Ms. Christiane  Ohlgart', 'age': 57, 'title': 'Chief Accounting Officer, CFO and Principal Financial & Accounting Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 774515, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John  Whittle J.D.', 'age': 56, 'title': 'Chief Operating Officer', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 960000, 'exercisedValue': 0, 'unexercisedValue': 8168728}, {'maxAge': 1, 'name': 'Mr. Anthony  Luscri', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Anthony  James', 'title': 'Executive Vice President of Marketing', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert  May', 'title': 'Executive Vice President of Technology & Product Management', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Joe  Sarno', 'title': 'Executive Vice President of International Sales', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Carl  Windsor', 'title': 'Chief Information Security Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Trevor  Pagliara', 'title': 'Executive Vice President of US Sales', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	136.08
+currentPrice	126.21
 currentRatio	1.397
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	138.79
-dayLow	134.4001
+dayHigh	135.8925
+dayLow	125.8
 debtToEquity	24.947
-discount_to_intrinsic_value	13.96
+discount_to_intrinsic_value	14.02
 displayName	Fortinet
 dividendYield	0.0
 earningsCallTimestampEnd	1793219400
@@ -44,12 +44,12 @@ earningsTimestampEnd	1793217600
 earningsTimestampStart	1793217600
 ebitda	2753799936
 ebitdaMargins	0.34943
-enterpriseToEbitda	34.767
-enterpriseToRevenue	12.148
-enterpriseValue	95740805120
-epsCurrentYear	3.56492
-epsForward	3.8716
-epsTrailingTwelveMonths	3.06
+enterpriseToEbitda	32.133
+enterpriseToRevenue	11.228
+enterpriseValue	88489213952
+epsCurrentYear	3.56479
+epsForward	3.89514
+epsTrailingTwelveMonths	2.84
 eps_normalized_growth	0.4020730268190573
 esgPopulated	False
 exchange	NMS
@@ -59,30 +59,30 @@ exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	408 235 7737
 fiftyDayAverage	171.3448
-fiftyDayAverageChange	-35.2648
-fiftyDayAverageChangePercent	-0.2058119
+fiftyDayAverageChange	-45.134804
+fiftyDayAverageChangePercent	-0.26341507
 fiftyTwoWeekChangePercent	55.484463
 fiftyTwoWeekHigh	197.13
-fiftyTwoWeekHighChange	-61.050003
-fiftyTwoWeekHighChangePercent	-0.3096941
+fiftyTwoWeekHighChange	-70.920006
+fiftyTwoWeekHighChangePercent	-0.3597626
 fiftyTwoWeekLow	73.55
-fiftyTwoWeekLowChange	62.53
-fiftyTwoWeekLowChangePercent	0.8501699
+fiftyTwoWeekLowChange	52.659996
+fiftyTwoWeekLowChangePercent	0.71597546
 fiftyTwoWeekRange	73.55 - 197.13
 financialCurrency	USD
 firstTradeDateMilliseconds	1258554600000
-floatShares	619749708
-forwardEps	3.8716
-forwardPE	35.148262
+floatShares	619903997
+forwardEps	3.89514
+forwardPE	32.401917
 freeCashflow	2487812608
 fullExchangeName	NasdaqGS
 fullTimeEmployees	15540
-fulldayChange	-2.6634064
-fulldayChangePercent	-1.9147421
-fulldayPrice	136.08
+fulldayChange	-10.090004
+fulldayChangePercent	-7.414759
+fulldayPrice	126.21
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
-graham_intrinsic_value	158.16
+graham_intrinsic_value	146.79
 grossMargins	0.7975
 grossProfits	6285000192
 hasPrePostMarketData	True
@@ -100,31 +100,31 @@ lastSplitFactor	5:1
 longBusinessSummary	Fortinet, Inc. provides cybersecurity and convergence of networking and security solutions worldwide. The company offers FortiOS, a unified operating system designed to address cybersecurity threats; FortiASIC application-specific integrated circuit (ASIC)-based security processing units; FortiCloud, a private cloud software as a service platform; FortiAI, which provides a dual-layered defense across the Fortinet Security Fabric; FortiEndpoint, which converges secure connectivity, endpoint protection, and capabilities into a single agent; and OT Security, which protect the engineered systems that underpin infrastructure and supply chains. It also provides secure networking solutions that focus on the convergence of networking and security; network firewall solutions comprising FortiGate data centers, hyperscale, and distributed firewalls; wireless local area network solutions; and secure connectivity solutions. In addition, the company offers the Fortinet Unified Secure Access Service Edge solutions that include firewall, software-defined wide-area network, secure web gateway, cloud access services broker, data loss prevention, and zero trust network access; and web application firewalls, cloud network security with virtualized firewalls, cloud-native firewalls, cloud-native application protection, and code security. Further, it provides AI-driven security operation solutions, which include a suite of cybersecurity solutions, as well as FortiEDR, FortiXDR, FortiNDR, FortiSandbox, FortiDeceptor, FortiDLP, and FortiRecon. Additionally, the company offers FortiGuard Labs, a cybersecurity threat intelligence and research organization; FortiGuard and Other Security Services, a suite of AI-powered security capabilities that consists of FortiGuard application, content, device, NOC/SOC, and web security services; and FortiCare technical support services. Fortinet, Inc. was incorporated in 2000 and is headquartered in Sunnyvale, California.
 longName	Fortinet, Inc.
 market	us_market
-marketCap	99979304960
-marketState	CLOSED
+marketCap	92727721984
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_2689126
 mostRecentQuarter	1790726400
 netIncomeToCommon	2282299904
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	99979301555
-numberOfAnalystOpinions	36
-open	137.01
+numberOfAnalystOpinions	37
+open	135.875
 operatingCashflow	3686899968
 operatingMargins	0.33819
 overallRisk	6
 payoutRatio	0.0
 pegRatio	1.5
 phone	408 235 7700
-postMarketChange	0.3565979
-postMarketChangePercent	0.26205018
-postMarketPrice	136.4366
-postMarketTime	1793404640
-previousClose	139.1
-priceEpsCurrentYear	38.171967
+postMarketChange	0.020004272
+postMarketChangePercent	0.01584999
+postMarketPrice	126.23
+postMarketTime	1793666653
+previousClose	136.08
+priceEpsCurrentYear	35.40461
 priceHint	2
-priceToBook	81.68067
-priceToSalesTrailing12Months	12.68628
+priceToBook	41.25858
+priceToSalesTrailing12Months	11.766133
 profitMargins	0.28959998
 quickRatio	1.23
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.90698
 region	US
-regularMarketChange	-3.0200043
-regularMarketChangePercent	-2.171103
-regularMarketDayHigh	138.79
-regularMarketDayLow	134.4001
-regularMarketDayRange	134.4001 - 138.79
-regularMarketOpen	137.01
-regularMarketPreviousClose	139.1
-regularMarketPrice	136.08
-regularMarketTime	1793390401
-regularMarketVolume	8678028
+regularMarketChange	-9.870003
+regularMarketChangePercent	-7.253088
+regularMarketDayHigh	135.8925
+regularMarketDayLow	125.8
+regularMarketDayRange	125.8 - 135.8925
+regularMarketOpen	135.875
+regularMarketPreviousClose	136.08
+regularMarketPrice	126.21
+regularMarketTime	1793653201
+regularMarketVolume	11925549
 returnOnAssets	0.15218
 returnOnEquity	1.53077
 revenueGrowth	0.205
@@ -163,8 +163,8 @@ state	CA
 symbol	FTNT
 targetHighPrice	190.0
 targetLowPrice	110.0
-targetMeanPrice	145.70833
-targetMedianPrice	140.0
+targetMeanPrice	145.95946
+targetMedianPrice	142.0
 totalCash	4799000064
 totalCashPerShare	6.532
 totalDebt	560499968
@@ -172,14 +172,14 @@ totalRevenue	7880900096
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	3.06
-trailingPE	44.47059
+trailingEps	2.84
+trailingPE	44.440144
 trailingPegRatio	1.4963
 triggerable	True
 twoHundredDayAverage	128.38425
-twoHundredDayAverageChange	7.695755
-twoHundredDayAverageChangePercent	0.05994314
+twoHundredDayAverageChange	-2.1742477
+twoHundredDayAverageChangePercent	-0.016935471
 typeDisp	Equity
-volume	8678028
+volume	11925549
 website	https://www.fortinet.com
 zip	94086

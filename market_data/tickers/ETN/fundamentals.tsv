@@ -5,7 +5,7 @@ address1	Eaton House
 address2	30 Pembroke Road
 allTimeHigh	478.0
 allTimeLow	0.8677
-ask	371.75
+ask	0.0
 askSize	40
 auditRisk	3
 averageAnalystRating	1.6 - Buy
@@ -13,31 +13,31 @@ averageDailyVolume10Day	2769410
 averageDailyVolume3Month	2151095
 averageVolume	2151095
 averageVolume10days	2769410
-beta	1.128
-bid	370.8
-bidSize	120
+beta	1.139
+bid	0.0
+bidSize	160
 boardRisk	1
 bookValue	52.147
 city	Dublin
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Paulo Ruiz Sternadt', 'age': 50, 'title': 'CEO & Director', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 2391001, 'exercisedValue': 895968, 'unexercisedValue': 6736955}, {'maxAge': 1, 'name': 'Ms. Lucy Clark Dougherty', 'age': 55, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1725728, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kaled H. Awada', 'age': 50, 'title': 'Executive VP & Chief Human Resources Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 1582464, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Heath B. Monesmith', 'age': 54, 'title': 'President & COO of Electrical Sector', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 1660520, 'exercisedValue': 0, 'unexercisedValue': 6796919}, {'maxAge': 1, 'name': 'Mr. David B. Foster', 'age': 53, 'title': 'Executive VP & CFO', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Andrea  Trabacchin', 'age': 47, 'title': 'Senior VP, Controller & Principal Accounting Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Yan  Jin', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jimmy  Yam', 'title': 'Vice President of Sales', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sergio  Letelier', 'title': 'Senior Vice President of Strategy & Corporate Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Howard  Liu', 'title': 'President of Asia Pacific Region - Electrical Sector', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	5
 corporateActions	[{'header': 'Dividend', 'message': 'ETN announced a cash dividend of $1.10 with an ex-date of Nov. 10, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1794286800000, 'amount': '1.10'}}]
 country	Ireland
 cryptoTradeable	False
 currency	USD
-currentPrice	369.97
+currentPrice	366.07
 currentRatio	1.24
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	382.235
-dayLow	364.84
+dayHigh	377.89
+dayLow	363.76
 debtToEquity	105.059
-discount_to_intrinsic_value	-401.15
+discount_to_intrinsic_value	-395.87
 displayName	Eaton
 dividendDate	1795737600
 dividendRate	4.4
-dividendYield	1.19
+dividendYield	1.2
 earningsCallTimestampEnd	1793721600
 earningsCallTimestampStart	1793721600
 earningsGrowth	-0.159
@@ -47,11 +47,11 @@ earningsTimestampEnd	1793712600
 earningsTimestampStart	1793712600
 ebitda	6639000064
 ebitdaMargins	0.22111
-enterpriseToEbitda	24.759
-enterpriseToRevenue	5.474
-enterpriseValue	164372348928
-epsCurrentYear	13.60251
-epsForward	16.29552
+enterpriseToEbitda	24.53
+enterpriseToRevenue	5.424
+enterpriseValue	162857582592
+epsCurrentYear	13.60059
+epsForward	16.31094
 epsTrailingTwelveMonths	9.83
 eps_normalized_growth	-0.1840977371007142
 esgPopulated	False
@@ -62,28 +62,28 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	411.1322
-fiftyDayAverageChange	-41.1622
-fiftyDayAverageChangePercent	-0.100119136
+fiftyDayAverageChange	-45.062195
+fiftyDayAverageChangePercent	-0.10960512
 fiftyTwoWeekChangePercent	-4.294175
 fiftyTwoWeekHigh	478.0
-fiftyTwoWeekHighChange	-108.03
-fiftyTwoWeekHighChangePercent	-0.22600418
+fiftyTwoWeekHighChange	-111.92999
+fiftyTwoWeekHighChangePercent	-0.23416317
 fiftyTwoWeekLow	311.92
-fiftyTwoWeekLowChange	58.049988
-fiftyTwoWeekLowChangePercent	0.18610537
+fiftyTwoWeekLowChange	54.149994
+fiftyTwoWeekLowChangePercent	0.17360218
 fiftyTwoWeekRange	311.92 - 478.0
 financialCurrency	USD
 firstTradeDateMilliseconds	76253400000
 fiveYearAvgDividendYield	1.38
 floatShares	387712532
-forwardEps	16.29552
-forwardPE	22.703785
+forwardEps	16.31094
+forwardPE	22.44322
 freeCashflow	3106125056
 fullExchangeName	NYSE
 fullTimeEmployees	97303
-fulldayChange	-22.860016
-fulldayChangePercent	-5.8061604
-fulldayPrice	369.97
+fulldayChange	-3.850006
+fulldayChangePercent	-1.0406266
+fulldayPrice	366.07
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	73.82
@@ -107,8 +107,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Eaton Corporation plc operates as a power management company in the United States, Canada, Latin America, Europe, and the Asia Pacific. It operates through Electrical Americas, Electrical Global, Aerospace, Vehicle, and eMobility segments. The company offers electrical and industrial components, power distribution and assemblies, residential products, single- and three-phase power quality and connectivity products, wiring devices, circuit protection products, utility power distribution products, and power reliability equipment; and hazardous duty electrical equipment, emergency lighting, fire detection, intrinsically safe explosion-proof instrumentation, and structural support systems. It also provides pumps, motors, hydraulic power units, hoses and fittings, and electro-hydraulic pumps; valves, cylinders, electronic controls, electromechanical actuators, sensors, aircraft flap and slat systems, and nose wheel steering systems; hose and thermoplastic tubing products, fittings, adapters, couplings, and sealing and ducting products; air-to-air refueling systems, fuel pumps, fuel inerting products, sensors, and adapters and regulators; oxygen generation systems, payload carriages, and thermal management products; wiring connectors and cables; and hydraulic and bag filters, strainers and cartridges, and golf grips for manufacturers of commercial and military aircraft, related aftermarket customers, and industrial applications. In addition, the company offers transmissions, clutches, hybrid power systems, superchargers, engine valves and valve actuation systems, locking and limited slip differentials, transmission controls, and fuel vapor components for the vehicle industry; and voltage inverters, converters, fuses, circuit protection units, vehicle controls, power distribution systems, fuel tank isolation valves, and commercial vehicle hybrid systems. The company was formerly known as Abeiron Limited. The company was founded in 1911 and is based in Dublin, Ireland.
 longName	Eaton Corporation plc
 market	us_market
-marketCap	143659352064
-marketState	CLOSED
+marketCap	142144978944
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_175265
 mostRecentQuarter	1782777600
@@ -116,39 +116,39 @@ netIncomeToCommon	3828999936
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	143696348000
 numberOfAnalystOpinions	26
-open	373.65
+open	373.92
 operatingCashflow	4950000128
 operatingMargins	0.16563
 overallRisk	2
 payoutRatio	0.4354
 pegRatio	2.25
 phone	353 1 637 2900
-postMarketChange	0.88998413
-postMarketChangePercent	0.24055575
-postMarketPrice	370.86
-postMarketTime	1793403601
-previousClose	393.72
-priceEpsCurrentYear	27.198656
+postMarketChange	2.4299927
+postMarketChangePercent	0.6638054
+postMarketPrice	368.5
+postMarketTime	1793667415
+previousClose	369.97
+priceEpsCurrentYear	26.915745
 priceHint	2
-priceToBook	7.0947514
-priceToSalesTrailing12Months	4.784498
+priceToBook	7.019963
+priceToSalesTrailing12Months	4.734063
 profitMargins	0.12752
 quickRatio	0.704
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.57143
 region	US
-regularMarketChange	-23.75
-regularMarketChangePercent	-6.03221
-regularMarketDayHigh	382.235
-regularMarketDayLow	364.84
-regularMarketDayRange	364.84 - 382.235
-regularMarketOpen	373.65
-regularMarketPreviousClose	393.72
-regularMarketPrice	369.97
-regularMarketTime	1793390403
-regularMarketVolume	3640095
+regularMarketChange	-3.89999
+regularMarketChangePercent	-1.05414
+regularMarketDayHigh	377.89
+regularMarketDayLow	363.76
+regularMarketDayRange	363.76 - 377.89
+regularMarketOpen	373.92
+regularMarketPreviousClose	369.97
+regularMarketPrice	366.07
+regularMarketTime	1793653203
+regularMarketVolume	3191300
 returnOnAssets	0.07052
 returnOnEquity	0.19684
 revenueGrowth	0.214
@@ -177,15 +177,15 @@ totalDebt	21326000128
 totalRevenue	30026000384
 tradeable	False
 trailingAnnualDividendRate	4.28
-trailingAnnualDividendYield	0.01087067
+trailingAnnualDividendYield	0.011568506
 trailingEps	9.83
-trailingPE	37.636826
+trailingPE	37.24008
 trailingPegRatio	2.2475
 triggerable	True
 twoHundredDayAverage	396.93436
-twoHundredDayAverageChange	-26.964355
-twoHundredDayAverageChangePercent	-0.067931525
+twoHundredDayAverageChange	-30.86435
+twoHundredDayAverageChangePercent	-0.07775681
 typeDisp	Equity
-volume	3640095
+volume	3191300
 website	https://www.eaton.com
 zip	D04 Y0C2

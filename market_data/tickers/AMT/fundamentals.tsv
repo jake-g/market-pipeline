@@ -5,7 +5,7 @@ address1	222 Berkeley Street
 address2	11th Floor
 allTimeHigh	303.72
 allTimeLow	0.6
-ask	190.0
+ask	0.0
 askSize	100
 auditRisk	1
 averageAnalystRating	1.5 - Buy
@@ -13,31 +13,31 @@ averageDailyVolume10Day	3877070
 averageDailyVolume3Month	2804001
 averageVolume	2804001
 averageVolume10days	3877070
-beta	0.885
-bid	179.83
-bidSize	700
+beta	0.842
+bid	0.0
+bidSize	200
 boardRisk	3
 bookValue	7.576
 city	Boston
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Steven O. Vondran J.D.', 'age': 54, 'title': 'President, CEO & Director', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 3325757, 'exercisedValue': 0, 'unexercisedValue': 2707355}, {'maxAge': 1, 'name': 'Mr. Rodney M. Smith', 'age': 59, 'title': 'Executive VP, CFO & Treasurer', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 1647286, 'exercisedValue': 3163067, 'unexercisedValue': 2776813}, {'maxAge': 1, 'name': 'Mr. Eugene M. Noel', 'age': 56, 'title': 'Executive VP & COO', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 1581269, 'exercisedValue': 0, 'unexercisedValue': 3332160}, {'maxAge': 1, 'name': 'Ms. Ruth T. Dowling', 'age': 55, 'title': 'Executive VP, Chief Administrative Officer, General Counsel & Secretary', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1547966, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul  Blanchett', 'age': 41, 'title': 'SVP & Chief Accounting Officer', 'yearBorn': 1984, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Spencer Harris Kurn', 'title': 'Senior Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Brenna D. Jones', 'title': 'SVP & Chief Human Resources Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Colleen Richards Powell', 'title': 'Senior VP & Chief Diversity, Equity and Inclusion Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Juan A. Font', 'age': 56, 'title': 'Senior VP and President & CEO of Coresite', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard C. Rossi Jr.', 'title': 'Executive VP & President of U.S. Tower', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	3
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	187.78
+currentPrice	188.3
 currentRatio	0.353
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	189.99
-dayLow	186.58
+dayHigh	189.23
+dayLow	184.525
 debtToEquity	463.814
-discount_to_intrinsic_value	-252.17
+discount_to_intrinsic_value	-253.14
 displayName	American Tower
 dividendDate	1792454400
 dividendRate	7.16
-dividendYield	3.81
+dividendYield	3.8
 earningsCallTimestampEnd	1793104200
 earningsCallTimestampStart	1793104200
 earningsGrowth	-0.099
@@ -47,9 +47,9 @@ earningsTimestampEnd	1793104200
 earningsTimestampStart	1793104200
 ebitda	7076599808
 ebitdaMargins	0.64277
-enterpriseToEbitda	19.325
-enterpriseToRevenue	12.422
-enterpriseValue	136756822016
+enterpriseToEbitda	19.359
+enterpriseToRevenue	12.444
+enterpriseValue	136997978112
 epsCurrentYear	6.99488
 epsForward	7.00741
 epsTrailingTwelveMonths	7.1
@@ -63,28 +63,28 @@ exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	617 375 7575
 fiftyDayAverage	175.8686
-fiftyDayAverageChange	11.911392
-fiftyDayAverageChangePercent	0.06772893
+fiftyDayAverageChange	12.4313965
+fiftyDayAverageChangePercent	0.07068571
 fiftyTwoWeekChangePercent	6.3066125
 fiftyTwoWeekHigh	202.5
-fiftyTwoWeekHighChange	-14.720001
-fiftyTwoWeekHighChangePercent	-0.072691366
+fiftyTwoWeekHighChange	-14.199997
+fiftyTwoWeekHighChangePercent	-0.07012344
 fiftyTwoWeekLow	160.06
-fiftyTwoWeekLowChange	27.720001
-fiftyTwoWeekLowChangePercent	0.17318507
+fiftyTwoWeekLowChange	28.240005
+fiftyTwoWeekLowChangePercent	0.17643388
 fiftyTwoWeekRange	160.06 - 202.5
 financialCurrency	USD
 firstTradeDateMilliseconds	888589800000
-fiveYearAvgDividendYield	2.97
+fiveYearAvgDividendYield	2.98
 floatShares	462256323
 forwardEps	7.00741
-forwardPE	26.797346
+forwardPE	26.871555
 freeCashflow	3017250048
 fullExchangeName	NYSE
 fullTimeEmployees	4866
-fulldayChange	1.3699951
-fulldayChangePercent	0.737032
-fulldayPrice	187.78
+fulldayChange	0.5200043
+fulldayChangePercent	0.27692208
+fulldayPrice	188.3
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	53.32
@@ -106,33 +106,33 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	American Tower Corporation one of the largest global REITs, is a leading independent owner, operator and developer of multitenant communications real estate with a portfolio of over 147,000 communications sites and a highly interconnected footprint of U.S. data center facilities. American Tower Corporation was incorporated in 1995 in Delaware and is based in Massachusetts, Boston.
 longName	American Tower Corporation
 market	us_market
-marketCap	87085522944
-marketState	CLOSED
+marketCap	87326679040
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_24766
 mostRecentQuarter	1790726400
-nameChangeDate	2026-11-01
+nameChangeDate	2026-11-03
 netIncomeToCommon	3313499904
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	87085520357
 numberOfAnalystOpinions	23
-open	187.93
+open	185.94
 operatingCashflow	5707700224
 operatingMargins	0.45558998
 overallRisk	1
 payoutRatio	0.9958
 pegRatio	1.84
 phone	617 375 7500
-postMarketChange	-0.1000061
-postMarketChangePercent	-0.05325706
-postMarketPrice	187.68
-postMarketTime	1793404654
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	188.3
+postMarketTime	1793662598
 prevName	American Tower Corporation (REIT)
-previousClose	185.88
-priceEpsCurrentYear	26.845348
+previousClose	187.78
+priceEpsCurrentYear	26.91969
 priceHint	2
-priceToBook	24.786165
-priceToSalesTrailing12Months	7.910034
+priceToBook	24.854805
+priceToSalesTrailing12Months	7.9319386
 profitMargins	0.30097
 quickRatio	0.306
 quoteSourceName	Delayed Quote
@@ -140,16 +140,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.52
 region	US
-regularMarketChange	1.89999
-regularMarketChangePercent	1.02216
-regularMarketDayHigh	189.99
-regularMarketDayLow	186.58
-regularMarketDayRange	186.58 - 189.99
-regularMarketOpen	187.93
-regularMarketPreviousClose	185.88
-regularMarketPrice	187.78
-regularMarketTime	1793390403
-regularMarketVolume	3112342
+regularMarketChange	0.520004
+regularMarketChangePercent	0.276922
+regularMarketDayHigh	189.23
+regularMarketDayLow	184.525
+regularMarketDayRange	184.525 - 189.23
+regularMarketOpen	185.94
+regularMarketPreviousClose	187.78
+regularMarketPrice	188.3
+regularMarketTime	1793653203
+regularMarketVolume	2687528
 returnOnAssets	0.04935
 returnOnEquity	0.32959998
 revenueGrowth	0.025
@@ -179,15 +179,15 @@ totalDebt	45294198784
 totalRevenue	11009500160
 tradeable	False
 trailingAnnualDividendRate	7.07
-trailingAnnualDividendYield	0.038035292
+trailingAnnualDividendYield	0.037650444
 trailingEps	7.1
-trailingPE	26.447887
+trailingPE	26.521128
 trailingPegRatio	1.8352
 triggerable	True
 twoHundredDayAverage	177.41325
-twoHundredDayAverageChange	10.366745
-twoHundredDayAverageChangePercent	0.058432754
+twoHundredDayAverageChange	10.886749
+twoHundredDayAverageChangePercent	0.061363786
 typeDisp	Equity
-volume	3112342
+volume	2687528
 website	https://www.americantower.com
 zip	02116

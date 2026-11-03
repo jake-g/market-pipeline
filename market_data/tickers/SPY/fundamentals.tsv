@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	781.62
 allTimeLow	42.8125
-ask	757.18
-askSize	120
+ask	0.0
+askSize	520
 averageDailyVolume10Day	40164130
 averageDailyVolume3Month	41462520
 averageVolume	41462520
 averageVolume10days	40164130
 beta3Year	0.96
-bid	757.0
-bidSize	240
+bid	0.0
+bidSize	320
 bookValue	429.22
 category	Large Blend
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	761.46
-dayLow	750.36
+dayHigh	763.855
+dayLow	751.6
 displayName	S&P 500 ETF Trust
 dividendYield	0.99
 epsTrailingTwelveMonths	31.49715
@@ -29,23 +29,23 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	767.4944
-fiftyDayAverageChange	-11.774414
-fiftyDayAverageChangePercent	-0.0153413685
+fiftyDayAverageChange	-15.394409
+fiftyDayAverageChangePercent	-0.02005801
 fiftyTwoWeekChangePercent	10.592091
 fiftyTwoWeekHigh	781.62
-fiftyTwoWeekHighChange	-25.900024
-fiftyTwoWeekHighChangePercent	-0.033136338
+fiftyTwoWeekHighChange	-29.52002
+fiftyTwoWeekHighChangePercent	-0.037767738
 fiftyTwoWeekLow	629.28
-fiftyTwoWeekLowChange	126.43994
-fiftyTwoWeekLowChangePercent	0.20092794
+fiftyTwoWeekLowChange	122.81995
+fiftyTwoWeekLowChangePercent	0.19517535
 fiftyTwoWeekRange	629.28 - 781.62
 financialCurrency	USD
 firstTradeDateMilliseconds	728317800000
 fiveYearAverageReturn	0.11966
 fullExchangeName	NYSEArca
-fulldayChange	-12.23999
-fulldayChangePercent	-1.5909315
-fulldayPrice	755.72
+fulldayChange	-5.3999634
+fulldayChangePercent	-0.71454555
+fulldayPrice	752.1
 fundFamily	State Street Investment Management
 fundInceptionDate	727660800
 gmtOffSetMilliseconds	-18000000
@@ -56,33 +56,33 @@ longBusinessSummary	The trust seeks to achieve its investment objective by holdi
 longName	State Street SPDR S&P 500 ETF Trust
 market	us_market
 marketCap	653176274944
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_6160262
 navPrice	755.58594
 netAssets	809216110000.0
 netExpenseRatio	0.0945
-open	761.38
-postMarketChange	1.4000244
-postMarketChangePercent	0.18525703
-postMarketPrice	757.12
-postMarketTime	1793404799
-previousClose	769.36
+open	759.45
+postMarketChange	0.78204346
+postMarketChangePercent	0.103981316
+postMarketPrice	752.882
+postMarketTime	1793667571
+previousClose	755.72
 priceHint	2
-priceToBook	1.7606821
+priceToBook	1.7522482
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-13.64
-regularMarketChangePercent	-1.7729
-regularMarketDayHigh	761.46
-regularMarketDayLow	750.36
-regularMarketDayRange	750.36 - 761.46
-regularMarketOpen	761.38
-regularMarketPreviousClose	769.36
-regularMarketPrice	755.72
-regularMarketTime	1793390400
-regularMarketVolume	77142196
+regularMarketChange	-3.62
+regularMarketChangePercent	-0.479013
+regularMarketDayHigh	763.855
+regularMarketDayLow	751.6
+regularMarketDayRange	751.6 - 763.855
+regularMarketOpen	759.45
+regularMarketPreviousClose	755.72
+regularMarketPrice	752.1
+regularMarketTime	1793653200
+regularMarketVolume	50778592
 sharesOutstanding	917782016
 shortName	State Street SPDR S&P 500 ETF T
 sourceInterval	15
@@ -91,16 +91,16 @@ threeYearAverageReturn	0.2328269
 totalAssets	809216114688
 tradeable	False
 trailingAnnualDividendRate	5.662
-trailingAnnualDividendYield	0.007359364
-trailingPE	23.99328
+trailingAnnualDividendYield	0.0074921935
+trailingPE	23.87835
 trailingPegRatio	None
 trailingThreeMonthNavReturns	2.27941
 trailingThreeMonthReturns	2.27941
 triggerable	True
 twoHundredDayAverage	728.8541
-twoHundredDayAverageChange	26.865845
-twoHundredDayAverageChangePercent	0.036860388
+twoHundredDayAverageChange	23.24585
+twoHundredDayAverageChangePercent	0.031893693
 typeDisp	ETF
-volume	77142196
+volume	50778592
 yield	0.0099
 ytdReturn	12.67538

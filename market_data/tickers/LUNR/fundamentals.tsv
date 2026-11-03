@@ -12,25 +12,25 @@ averageDailyVolume10Day	5960840
 averageDailyVolume3Month	8327439
 averageVolume	8327439
 averageVolume10days	5960840
-beta	1.864
+beta	1.907
 bid	9.93
 bidSize	2
 boardRisk	9
 bookValue	-1.714
 city	Houston
-companyOfficers	[{'maxAge': 1, 'name': 'Dr. Kamal Seyed Ghaffarian Ph.D.', 'age': 66, 'title': 'Co-Founder & Chairman', 'yearBorn': 1959, 'fiscalYear': 2025, 'totalPay': 105000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Stephen J. Altemus', 'age': 61, 'title': 'Co-Founder, President, CEO & Director', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1566113, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Timothy P. Crain', 'age': 52, 'title': 'Co- Founder, Senior VP & CTO', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 589701, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Peter  McGrath II', 'age': 57, 'title': 'Senior VP & CFO', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 862310, 'exercisedValue': 0, 'unexercisedValue': 802669}, {'maxAge': 1, 'name': 'Mr. Steven  Vontur', 'title': 'Chief Accounting Officer & Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Ben  Bussey', 'title': 'Chief Scientist', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Stephen  Zhang', 'title': 'Senior Director of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Anna Chiara Jones', 'age': 45, 'title': 'Senior VP, General Counsel & Corporate Secretary', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 300012, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jade  Marcantel', 'title': 'Chief Human Capital Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jack  Fischer', 'title': 'Senior VP & Chief Integration Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	10.67
+currentPrice	9.86
 currentRatio	1.658
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	11.3
-dayLow	10.285
+dayHigh	10.9171
+dayLow	9.82
 debtToEquity	52.818
 displayName	Intuitive Machines
 dividendYield	0.0
@@ -41,9 +41,9 @@ earningsTimestampEnd	1794490200
 earningsTimestampStart	1794490200
 ebitda	-74371000
 ebitdaMargins	-0.15174
-enterpriseToEbitda	-42.552
-enterpriseToRevenue	6.457
-enterpriseValue	3164636416
+enterpriseToEbitda	-40.665
+enterpriseToRevenue	6.171
+enterpriseValue	3024318976
 epsCurrentYear	-0.52
 epsForward	-0.155
 epsTrailingTwelveMonths	-0.95
@@ -54,27 +54,27 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	13.8614
-fiftyDayAverageChange	-3.1913996
-fiftyDayAverageChangePercent	-0.23023646
+fiftyDayAverageChange	-4.0014
+fiftyDayAverageChangePercent	-0.28867215
 fiftyTwoWeekChangePercent	-7.8583775
 fiftyTwoWeekHigh	46.75
-fiftyTwoWeekHighChange	-36.08
-fiftyTwoWeekHighChangePercent	-0.77176476
+fiftyTwoWeekHighChange	-36.89
+fiftyTwoWeekHighChangePercent	-0.7890909
 fiftyTwoWeekLow	7.78
-fiftyTwoWeekLowChange	2.8899999
-fiftyTwoWeekLowChangePercent	0.37146527
+fiftyTwoWeekLowChange	2.0799994
+fiftyTwoWeekLowChangePercent	0.2673521
 fiftyTwoWeekRange	7.78 - 46.75
 financialCurrency	USD
 firstTradeDateMilliseconds	1637159400000
 floatShares	131614245
 forwardEps	-0.155
-forwardPE	-68.83871
+forwardPE	-63.6129
 freeCashflow	-79995872
 fullExchangeName	NasdaqGM
 fullTimeEmployees	525
-fulldayChange	-1.0100002
-fulldayChangePercent	-8.647262
-fulldayPrice	10.67
+fulldayChange	-0.7300005
+fulldayChangePercent	-6.841616
+fulldayPrice	9.86
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 grossMargins	0.16349001
@@ -92,8 +92,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Intuitive Machines, Inc. operates as a space infrastructure and services company in the United States. The company provides delivery services for the transportation and delivery of payloads, such as satellites, scientific instruments, and cargo to various destinations in space, rideshare delivery, and lunar surface access; data transmission services, which include the collection, processing, and interpretation of space-based data, as well as utilizing AI applications, such as command, control, communications, reconnaissance and prospecting; and infrastructure as a service solutions for navigation, maintenance, scientific data collection, and system health monitoring. It also offers Nova-C lunar lander that combines flight-proven with a scalable design to meet the demands of the emerging lunar economy; Micro Nova Hopper develops propulsive drone that is designed to land, deploy, and hop on the company's IM-2 mission; and Nova-D developed to transport critical payloads, including infrastructure services, such as fission surface power systems, lunar terrain vehicles, and rovers enabling sustainable lunar exploration and development. In addition, the company provides lunar data network. It serves its products to the U.S. government, which include NASA, national security space, U.S. department of Defense, and state governments; commercial; and international customers. The company was founded in 2013 and is headquartered in Houston, Texas.
 longName	Intuitive Machines, Inc.
 market	us_market
-marketCap	1722276352
-marketState	CLOSED
+marketCap	1591531776
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_710155302
 mostRecentQuarter	1782777600
@@ -101,21 +101,21 @@ netIncomeToCommon	-131196000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	1721469197
 numberOfAnalystOpinions	9
-open	10.985
+open	10.74
 operatingCashflow	-126352000
 operatingMargins	-0.18099001
 overallRisk	10
 payoutRatio	0.0
 phone	281 520 3703
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	10.67
-postMarketTime	1793404577
-previousClose	11.68
-priceEpsCurrentYear	-20.519232
+postMarketChange	0.14000034
+postMarketChangePercent	1.4198818
+postMarketPrice	10.0
+postMarketTime	1793667373
+previousClose	10.67
+priceEpsCurrentYear	-18.961538
 priceHint	2
-priceToBook	-6.2252045
-priceToSalesTrailing12Months	3.5139892
+priceToBook	-5.7526255
+priceToSalesTrailing12Months	3.2472289
 profitMargins	-0.26635998
 quickRatio	1.345
 quoteSourceName	Nasdaq Real Time Price
@@ -123,16 +123,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.3
 region	US
-regularMarketChange	-1.0100002
-regularMarketChangePercent	-8.647263
-regularMarketDayHigh	11.3
-regularMarketDayLow	10.285
-regularMarketDayRange	10.285 - 11.3
-regularMarketOpen	10.985
-regularMarketPreviousClose	11.68
-regularMarketPrice	10.67
-regularMarketTime	1793390401
-regularMarketVolume	5336967
+regularMarketChange	-0.8100004
+regularMarketChangePercent	-7.5913815
+regularMarketDayHigh	10.9171
+regularMarketDayLow	9.82
+regularMarketDayRange	9.82 - 10.9171
+regularMarketOpen	10.74
+regularMarketPreviousClose	10.67
+regularMarketPrice	9.86
+regularMarketTime	1793653201
+regularMarketVolume	6006370
 returnOnAssets	-0.055170003
 returnOnEquity	-0.30769
 revenueGrowth	3.098
@@ -152,7 +152,7 @@ shortRatio	4.44
 sourceInterval	15
 state	TX
 symbol	LUNR
-syntheticPEG	-0.22220371207230472
+syntheticPEG	-0.20533537766300838
 targetHighPrice	43.0
 targetLowPrice	13.0
 targetMeanPrice	29.0
@@ -168,9 +168,9 @@ trailingEps	-0.95
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	19.76745
-twoHundredDayAverageChange	-9.09745
-twoHundredDayAverageChangePercent	-0.46022376
+twoHundredDayAverageChange	-9.907451
+twoHundredDayAverageChangePercent	-0.50120026
 typeDisp	Equity
-volume	5336967
+volume	6006370
 website	https://www.intuitivemachines.com
 zip	77059

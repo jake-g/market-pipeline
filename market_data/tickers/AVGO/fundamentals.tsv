@@ -4,7 +4,7 @@ SandP52WeekChange	0.10626137
 address1	3421 Hillview Ave
 allTimeHigh	495.0
 allTimeLow	1.433
-ask	319.83
+ask	336.0
 askSize	1
 auditRisk	3
 averageAnalystRating	1.2 - Strong Buy
@@ -12,31 +12,31 @@ averageDailyVolume10Day	21503620
 averageDailyVolume3Month	23028417
 averageVolume	23028417
 averageVolume10days	21503620
-beta	1.476
-bid	323.35
-bidSize	1
+beta	1.508
+bid	320.0
+bidSize	3
 boardRisk	3
 bookValue	20.882
 city	Palo Alto
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Hock Eng Tan', 'age': 73, 'title': 'President, CEO & Executive Director', 'yearBorn': 1952, 'fiscalYear': 2025, 'totalPay': 2926926, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark D. Brazeal J.D.', 'age': 57, 'title': 'Chief Legal & Corporate Affairs Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1405063, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Charlie B. Kawwas Ph.D.', 'age': 54, 'title': 'President of Semiconductor Solutions', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 2093876, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kirsten M. Spears', 'age': 61, 'title': 'Consultant', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1027632, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': "Ms. Amie Thuener O'Toole", 'age': 50, 'title': 'Chief Financial Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alan  Davidson', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ji  Yoo', 'title': 'Director of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jill  Turner', 'title': 'Vice President of Human Resources', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Frank  Ostojic', 'title': 'Senior VP & GM of ASIC Products Division', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rich  Nelson', 'title': 'Senior VP & GM of Broadband Video Group', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	326.08
+currentPrice	322.23
 currentRatio	2.504
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	331.98
-dayLow	319.3
+dayHigh	333.5599
+dayLow	321.865
 debtToEquity	59.604
-discount_to_intrinsic_value	19.43
+discount_to_intrinsic_value	20.38
 displayName	Broadcom
 dividendDate	1790726400
 dividendRate	2.6
-dividendYield	0.8
+dividendYield	0.81
 earningsCallTimestampEnd	1796940000
 earningsCallTimestampStart	1796940000
 earningsGrowth	2.153
@@ -46,9 +46,9 @@ earningsTimestampEnd	1796850000
 earningsTimestampStart	1796850000
 ebitda	52259999744
 ebitdaMargins	0.58651
-enterpriseToEbitda	30.464
-enterpriseToRevenue	17.867
-enterpriseValue	1592029216768
+enterpriseToEbitda	30.112
+enterpriseToRevenue	17.661
+enterpriseValue	1573650694144
 epsCurrentYear	11.66568
 epsForward	19.46507
 epsTrailingTwelveMonths	7.83
@@ -61,28 +61,28 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	352.8062
-fiftyDayAverageChange	-26.726227
-fiftyDayAverageChangePercent	-0.07575328
+fiftyDayAverageChange	-30.576202
+fiftyDayAverageChangePercent	-0.08666571
 fiftyTwoWeekChangePercent	-10.059303
 fiftyTwoWeekHigh	495.0
-fiftyTwoWeekHighChange	-168.92001
-fiftyTwoWeekHighChangePercent	-0.34125257
+fiftyTwoWeekHighChange	-172.76999
+fiftyTwoWeekHighChangePercent	-0.3490303
 fiftyTwoWeekLow	289.96
-fiftyTwoWeekLowChange	36.119995
-fiftyTwoWeekLowChangePercent	0.124568895
+fiftyTwoWeekLowChange	32.27002
+fiftyTwoWeekLowChangePercent	0.11129128
 fiftyTwoWeekRange	289.96 - 495.0
 financialCurrency	USD
 firstTradeDateMilliseconds	1249565400000
 fiveYearAvgDividendYield	1.24
 floatShares	4715677998
 forwardEps	19.46507
-forwardPE	16.752058
+forwardPE	16.554268
 freeCashflow	30596499456
 fullExchangeName	NasdaqGS
 fullTimeEmployees	33000
-fulldayChange	-17.868195
-fulldayChangePercent	-5.179187
-fulldayPrice	326.08
+fulldayChange	-3.5299988
+fulldayChangePercent	-1.0825561
+fulldayPrice	322.23
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	404.71
@@ -105,8 +105,8 @@ lastSplitFactor	10:1
 longBusinessSummary	Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.
 longName	Broadcom Inc.
 market	us_market
-marketCap	1556585250816
-marketState	CLOSED
+marketCap	1538206859264
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_25016048
 mostRecentQuarter	1785628800
@@ -114,22 +114,22 @@ netIncomeToCommon	38264999936
 nextFiscalYearEnd	1793577600
 nonDilutedMarketCap	1556585226379
 numberOfAnalystOpinions	48
-open	330.71
+open	328.37
 operatingCashflow	40653000704
 operatingMargins	0.54307
 overallRisk	9
 payoutRatio	0.32439998
 pegRatio	0.32
 phone	650 427 6000
-postMarketChange	1.0518188
-postMarketChangePercent	0.32256466
-postMarketPrice	327.1318
-postMarketTime	1793404798
-previousClose	345.0
-priceEpsCurrentYear	27.952078
+postMarketChange	1.1129761
+postMarketChangePercent	0.345398
+postMarketPrice	323.343
+postMarketTime	1793667533
+previousClose	326.08
+priceEpsCurrentYear	27.622051
 priceHint	2
-priceToBook	15.615362
-priceToSalesTrailing12Months	17.469309
+priceToBook	15.430994
+priceToSalesTrailing12Months	17.26305
 profitMargins	0.42944
 quickRatio	2.153
 quoteSourceName	Nasdaq Real Time Price
@@ -137,16 +137,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.23529
 region	US
-regularMarketChange	-18.920013
-regularMarketChangePercent	-5.4840617
-regularMarketDayHigh	331.98
-regularMarketDayLow	319.3
-regularMarketDayRange	319.3 - 331.98
-regularMarketOpen	330.71
-regularMarketPreviousClose	345.0
-regularMarketPrice	326.08
-regularMarketTime	1793390401
-regularMarketVolume	36511750
+regularMarketChange	-3.8499756
+regularMarketChangePercent	-1.1806843
+regularMarketDayHigh	333.5599
+regularMarketDayLow	321.865
+regularMarketDayRange	321.865 - 333.5599
+regularMarketOpen	328.37
+regularMarketPreviousClose	326.08
+regularMarketPrice	322.23
+regularMarketTime	1793653201
+regularMarketVolume	20318871
 returnOnAssets	0.15369001
 returnOnEquity	0.44245
 revenueGrowth	0.855
@@ -176,15 +176,15 @@ totalDebt	59419000832
 totalRevenue	89103998976
 tradeable	False
 trailingAnnualDividendRate	2.6
-trailingAnnualDividendYield	0.0075362315
+trailingAnnualDividendYield	0.007973503
 trailingEps	7.83
-trailingPE	41.644955
+trailingPE	41.15326
 trailingPegRatio	0.3229
 triggerable	True
 twoHundredDayAverage	367.6745
-twoHundredDayAverageChange	-41.594513
-twoHundredDayAverageChangePercent	-0.11312863
+twoHundredDayAverageChange	-45.44449
+twoHundredDayAverageChangePercent	-0.12359978
 typeDisp	Equity
-volume	36511750
+volume	20318871
 website	https://www.broadcom.com
 zip	94304

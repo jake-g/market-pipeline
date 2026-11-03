@@ -5,7 +5,7 @@ address1	206 East 9th Street
 address2	Suite 1400
 allTimeHigh	286.99
 allTimeLow	7.9875
-ask	248.57
+ask	255.4
 askSize	1
 auditRisk	10
 averageAnalystRating	1.7 - Buy
@@ -13,9 +13,9 @@ averageDailyVolume10Day	9449450
 averageDailyVolume3Month	9828475
 averageVolume	9828475
 averageVolume10days	9449450
-beta	1.197
-bid	249.32
-bidSize	1
+beta	1.15
+bid	229.77
+bidSize	2
 boardRisk	9
 bookValue	4.983
 city	Austin
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	250.43
+currentPrice	241.81
 currentRatio	1.57
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	264.905
-dayLow	245.15
+dayHigh	253.6099
+dayLow	240.17
 debtToEquity	15.958
 displayName	CrowdStrike
 dividendYield	0.0
@@ -42,12 +42,12 @@ earningsTimestampEnd	1796158800
 earningsTimestampStart	1796158800
 ebitda	106861000
 ebitdaMargins	0.0198
-enterpriseToEbitda	2360.713
-enterpriseToRevenue	46.75
-enterpriseValue	252268134400
-epsCurrentYear	1.25679
-epsForward	1.61123
-epsTrailingTwelveMonths	0.06
+enterpriseToEbitda	2278.117
+enterpriseToRevenue	45.114
+enterpriseValue	243441811456
+epsCurrentYear	1.25689
+epsForward	1.6105
+epsTrailingTwelveMonths	0.05
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	15
@@ -55,27 +55,27 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	240.2516
-fiftyDayAverageChange	10.1783905
-fiftyDayAverageChangePercent	0.042365547
+fiftyDayAverageChange	1.5583954
+fiftyDayAverageChangePercent	0.006486514
 fiftyTwoWeekChangePercent	81.49732
 fiftyTwoWeekHigh	286.99
-fiftyTwoWeekHighChange	-36.559998
-fiftyTwoWeekHighChangePercent	-0.12739119
+fiftyTwoWeekHighChange	-45.179993
+fiftyTwoWeekHighChangePercent	-0.15742707
 fiftyTwoWeekLow	85.68
-fiftyTwoWeekLowChange	164.75
-fiftyTwoWeekLowChangePercent	1.9228525
+fiftyTwoWeekLowChange	156.13
+fiftyTwoWeekLowChangePercent	1.8222456
 fiftyTwoWeekRange	85.68 - 286.99
 financialCurrency	USD
 firstTradeDateMilliseconds	1560346200000
-floatShares	1008104809
-forwardEps	1.61123
-forwardPE	155.42784
+floatShares	1007326619
+forwardEps	1.6105
+forwardPE	150.14592
 freeCashflow	1995385472
 fullExchangeName	NasdaqGS
 fullTimeEmployees	11706
-fulldayChange	-10.378693
-fulldayChangePercent	-3.9742267
-fulldayPrice	250.43
+fulldayChange	-9.62999
+fulldayChangePercent	-3.8453817
+fulldayPrice	241.81
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 grossMargins	0.75185996
@@ -95,8 +95,8 @@ lastSplitFactor	4:1
 longBusinessSummary	CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software as a service (SaaS) subscription-based model. The company offers corporate endpoint and cloud workload security, managed security, security and vulnerability management, IT operations management, identity protection, threat intelligence, data protection, SaaS security posture management, and AI powered workflow automation, and securing generative AI workload services, as well as security orchestration, automation, and response; and security information and event management, and log management services. It primarily sells subscriptions to its Falcon platform and cloud modules. The company has a strategic alliance with Cognizant Technology Solutions Corporation to help enterprises secure artificial intelligence across its lifecycle, from the AI agents and models to the foundational infrastructure that supports the entire AI ecosystem and with Snowflake to bring AI-native security and enterprise data at scale. Additionally, it has a partnership with Fortanix Inc. to combine its Falcon platform with Fortanix Confidential AI to provide an integrated solution for end-to-end AI security. The company was incorporated in 2011 and is headquartered in Austin, Texas.
 longName	CrowdStrike Holdings, Inc.
 market	us_market
-marketCap	256424001536
-marketState	CLOSED
+marketCap	247597678592
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_420347413
 mostRecentQuarter	1785456000
@@ -104,22 +104,22 @@ netIncomeToCommon	44995000
 nextFiscalYearEnd	1801353600
 nonDilutedMarketCap	256424002482
 numberOfAnalystOpinions	50
-open	261.06
+open	253.0
 operatingCashflow	2016615040
 operatingMargins	-0.02259
 overallRisk	10
 payoutRatio	0.0
 pegRatio	6.46
 phone	888 512 8906
-postMarketChange	0.3413086
-postMarketChangePercent	0.13628903
-postMarketPrice	250.7713
-postMarketTime	1793404799
-previousClose	261.15
-priceEpsCurrentYear	199.2616
+postMarketChange	0.33000183
+postMarketChangePercent	0.13647154
+postMarketPrice	242.14
+postMarketTime	1793667520
+previousClose	250.43
+priceEpsCurrentYear	192.38754
 priceHint	2
-priceToBook	50.256874
-priceToSalesTrailing12Months	47.519848
+priceToBook	48.526993
+priceToSalesTrailing12Months	45.88418
 profitMargins	0.00834
 quickRatio	1.366
 quoteSourceName	Nasdaq Real Time Price
@@ -127,16 +127,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.69811
 region	US
-regularMarketChange	-10.720001
-regularMarketChangePercent	-4.1049213
-regularMarketDayHigh	264.905
-regularMarketDayLow	245.15
-regularMarketDayRange	245.15 - 264.905
-regularMarketOpen	261.06
-regularMarketPreviousClose	261.15
-regularMarketPrice	250.43
-regularMarketTime	1793390401
-regularMarketVolume	12503061
+regularMarketChange	-8.619995
+regularMarketChangePercent	-3.4420776
+regularMarketDayHigh	253.6099
+regularMarketDayLow	240.17
+regularMarketDayRange	240.17 - 253.6099
+regularMarketOpen	253.0
+regularMarketPreviousClose	250.43
+regularMarketPrice	241.81
+regularMarketTime	1793653201
+regularMarketVolume	9274782
 returnOnAssets	-0.0078100003
 returnOnEquity	0.01461
 revenueGrowth	0.258
@@ -158,7 +158,7 @@ state	TX
 symbol	CRWD
 targetHighPrice	325.0
 targetLowPrice	132.0
-targetMeanPrice	247.25
+targetMeanPrice	248.45
 targetMedianPrice	250.0
 totalCash	5013847040
 totalCashPerShare	4.897
@@ -167,14 +167,14 @@ totalRevenue	5396145152
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	0.06
-trailingPE	4173.8335
+trailingEps	0.05
+trailingPE	4836.1997
 trailingPegRatio	6.4627
 triggerable	True
 twoHundredDayAverage	167.24203
-twoHundredDayAverageChange	83.18796
-twoHundredDayAverageChangePercent	0.4974106
+twoHundredDayAverageChange	74.56796
+twoHundredDayAverageChangePercent	0.44586855
 typeDisp	Equity
-volume	12503061
+volume	9274782
 website	https://www.crowdstrike.com
 zip	78701

@@ -4,35 +4,35 @@ SandP52WeekChange	0.10626137
 address1	300 Boston Scientific Way
 allTimeHigh	109.5
 allTimeLow	2.34375
-ask	42.2
-askSize	300
+ask	0.0
+askSize	600
 auditRisk	10
 averageAnalystRating	1.9 - Buy
 averageDailyVolume10Day	22144730
 averageDailyVolume3Month	19595098
 averageVolume	19595098
 averageVolume10days	22144730
-beta	0.575
-bid	41.64
-bidSize	500
+beta	0.585
+bid	0.0
+bidSize	200
 boardRisk	8
 bookValue	17.232
 city	Marlborough
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Michael F. Mahoney', 'age': 60, 'title': 'Chairman, President & CEO', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 5732403, 'exercisedValue': 25786816, 'unexercisedValue': 80468448}, {'maxAge': 1, 'name': 'Mr. Jonathan R. Monson', 'age': 51, 'title': 'Executive VP & CFO', 'yearBorn': 1974, 'fiscalYear': 2025, 'totalPay': 1470301, 'exercisedValue': 1713888, 'unexercisedValue': 4918464}, {'maxAge': 1, 'name': 'Mr. Vance R. Brown J.D.', 'age': 55, 'title': 'EVP, General Counsel & Corporate Secretary', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1602123, 'exercisedValue': 0, 'unexercisedValue': 3446400}, {'maxAge': 1, 'name': 'Mr. Joseph M. Fitzgerald', 'age': 61, 'title': 'Executive VP & Group President of Cardiovascular', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 2396262, 'exercisedValue': 23536068, 'unexercisedValue': 23706244}, {'maxAge': 1, 'name': 'Mr. Arthur Crosswell  Butcher', 'age': 54, 'title': 'Executive VP and Group President of MedSurg & Asia Pacific', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 1976990, 'exercisedValue': 5381204, 'unexercisedValue': 8240690}, {'maxAge': 1, 'name': "Mr. Paudie  O'Connor", 'age': 57, 'title': 'Executive Vice President of Global Operations', 'yearBorn': 1968, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Emily M. Woodworth', 'age': 47, 'title': 'Senior VP, Global Controller & Chief Accounting Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Adam  Smith', 'title': 'General Manager of Global Sales & Marketing', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': "Ms. Miriam  O'sullivan", 'age': 44, 'title': 'Senior VP & Chief Human Resources Officer', 'yearBorn': 1981, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Brenda  Becker', 'age': 65, 'title': 'Senior Vice President of Global Government Affairs', 'yearBorn': 1960, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	4
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	41.98
+currentPrice	44.32
 currentRatio	1.24
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	43.28
-dayLow	41.725
+dayHigh	44.36
+dayLow	41.9
 debtToEquity	50.151
-discount_to_intrinsic_value	-135.86
+discount_to_intrinsic_value	-149.01
 displayName	Boston Scientific
 dividendYield	0.0
 earningsCallTimestampEnd	1793188800
@@ -44,11 +44,11 @@ earningsTimestampEnd	1793190600
 earningsTimestampStart	1793190600
 ebitda	5694000128
 ebitdaMargins	0.27024
-enterpriseToEbitda	12.85
-enterpriseToRevenue	3.473
-enterpriseValue	73165651968
-epsCurrentYear	3.17581
-epsForward	3.15356
+enterpriseToEbitda	13.445
+enterpriseToRevenue	3.633
+enterpriseValue	76556853248
+epsCurrentYear	3.17575
+epsForward	3.1439
 epsTrailingTwelveMonths	2.37
 eps_normalized_growth	-0.06402656543133523
 esgPopulated	False
@@ -58,27 +58,27 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	44.7938
-fiftyDayAverageChange	-2.8138008
-fiftyDayAverageChangePercent	-0.06281675
+fiftyDayAverageChange	-0.47380066
+fiftyDayAverageChangePercent	-0.010577371
 fiftyTwoWeekChangePercent	-57.419617
 fiftyTwoWeekHigh	105.65
-fiftyTwoWeekHighChange	-63.670002
-fiftyTwoWeekHighChangePercent	-0.6026503
+fiftyTwoWeekHighChange	-61.33
+fiftyTwoWeekHighChangePercent	-0.5805017
 fiftyTwoWeekLow	39.57
-fiftyTwoWeekLowChange	2.4099998
-fiftyTwoWeekLowChangePercent	0.060904723
+fiftyTwoWeekLowChange	4.75
+fiftyTwoWeekLowChangePercent	0.12004044
 fiftyTwoWeekRange	39.57 - 105.65
 financialCurrency	USD
 firstTradeDateMilliseconds	706282200000
 floatShares	1444983283
-forwardEps	3.15356
-forwardPE	13.311939
+forwardEps	3.1439
+forwardPE	14.09714
 freeCashflow	2451375104
 fullExchangeName	NYSE
 fullTimeEmployees	59000
-fulldayChange	-0.6899986
-fulldayChangePercent	-1.6163005
-fulldayPrice	41.98
+fulldayChange	2.2400017
+fulldayChangePercent	5.3358784
+fulldayPrice	44.32
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	17.8
@@ -100,8 +100,8 @@ lastSplitFactor	2:1
 longBusinessSummary	Boston Scientific Corporation develops, manufactures, and markets medical devices for use in various interventional medical specialties worldwide. The company operates in two segments, MedSurg and Cardiovascular. It offers devices to diagnose and treat a range of gastrointestinal conditions, such as resolution clips, biliary stent systems, stents and electrocautery enhanced delivery systems, SpyGlass, single-use scopes used for diagnostic and therapeutic procedures in the pancreaticobiliary system, in endoscopic retrograde cholangiopancreatography procedures, and single-use duodenoscopes, as well as endoluminal surgery and infection prevention products; devices to treat urological conditions, including ureteral stents, catheters, baskets, guidewires, urinary and bowel dysfunction, sheaths, balloons, single-use digital flexible ureteroscopes, holmium laser systems, penile implants, artificial urinary sphincter, laser system, and hydrogel systems; and devices to treat neurological movement disorders and manage chronic pain, such as spinal cord stimulator systems, radiofrequency ablation, and intraosseous nerve ablation and deep brain stimulation systems. The company also provides technologies for diagnosing and treating a range of diseases and abnormalities of the heart; WATCHMAN FLX, a left atrial appendage closure (LAAC) device; and implantable devices that monitor the heart and deliver electricity to treat cardiac abnormalities, such as cardioverter and cardiac resynchronization therapy defibrillators, MRI S-ICD systems, cardiac resynchronization therapy pacemakers, remote patient management systems, insertable cardiac monitor systems, and remote cardiac monitoring systems. In addition, it offers diagnosis and treatment of rate and rhythm disorders of the heart; peripheral arterial and venous diseases; and products to diagnose and treat forms of cancer. The company was incorporated in 1979 and is headquartered in Marlborough, Massachusetts.
 longName	Boston Scientific Corporation
 market	us_market
-marketCap	60838658048
-marketState	CLOSED
+marketCap	64229855232
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_317627
 mostRecentQuarter	1790726400
@@ -109,22 +109,22 @@ netIncomeToCommon	3502000128
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	60838655501
 numberOfAnalystOpinions	28
-open	42.95
+open	42.07
 operatingCashflow	4528999936
 operatingMargins	0.20241
 overallRisk	7
 payoutRatio	0.0
 pegRatio	0.62
 phone	508 683 4000
-postMarketChange	0.020000458
-postMarketChangePercent	0.047642823
-postMarketPrice	42.0
-postMarketTime	1793404512
-previousClose	42.69
-priceEpsCurrentYear	13.218675
+postMarketChange	-0.02999878
+postMarketChangePercent	-0.067686774
+postMarketPrice	44.29
+postMarketTime	1793667007
+previousClose	41.98
+priceEpsCurrentYear	13.955758
 priceHint	2
-priceToBook	2.436165
-priceToSalesTrailing12Months	2.887454
+priceToBook	2.571959
+priceToSalesTrailing12Months	3.0484033
 profitMargins	0.16621
 quickRatio	0.558
 quoteSourceName	Delayed Quote
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.90323
 region	US
-regularMarketChange	-0.709999
-regularMarketChangePercent	-1.66315
-regularMarketDayHigh	43.28
-regularMarketDayLow	41.725
-regularMarketDayRange	41.725 - 43.28
-regularMarketOpen	42.95
-regularMarketPreviousClose	42.69
-regularMarketPrice	41.98
-regularMarketTime	1793390402
-regularMarketVolume	22464533
+regularMarketChange	2.34
+regularMarketChangePercent	5.57408
+regularMarketDayHigh	44.36
+regularMarketDayLow	41.9
+regularMarketDayRange	41.9 - 44.36
+regularMarketOpen	42.07
+regularMarketPreviousClose	41.98
+regularMarketPrice	44.32
+regularMarketTime	1793653202
+regularMarketVolume	22714528
 returnOnAssets	0.06191
 returnOnEquity	0.14319
 revenueGrowth	0.014
@@ -161,9 +161,9 @@ shortRatio	2.17
 sourceInterval	15
 state	MA
 symbol	BSX
-targetHighPrice	78.0
+targetHighPrice	60.0
 targetLowPrice	41.0
-targetMeanPrice	50.67
+targetMeanPrice	49.59857
 targetMedianPrice	49.0
 totalCash	539000000
 totalCashPerShare	0.372
@@ -173,13 +173,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.37
-trailingPE	17.713081
+trailingPE	18.700422
 trailingPegRatio	0.6246
 triggerable	True
 twoHundredDayAverage	56.517
-twoHundredDayAverageChange	-14.536999
-twoHundredDayAverageChangePercent	-0.25721464
+twoHundredDayAverageChange	-12.196999
+twoHundredDayAverageChangePercent	-0.21581115
 typeDisp	Equity
-volume	22464533
+volume	22714528
 website	https://www.bostonscientific.com
 zip	01752-1234

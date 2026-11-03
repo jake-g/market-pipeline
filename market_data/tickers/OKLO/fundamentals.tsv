@@ -4,17 +4,17 @@ SandP52WeekChange	0.10626137
 address1	3190 Coronado Drive
 allTimeHigh	193.84
 allTimeLow	5.35
-ask	25.3
-askSize	100
+ask	0.0
+askSize	500
 auditRisk	9
-averageAnalystRating	2.2 - Buy
+averageAnalystRating	2.1 - Buy
 averageDailyVolume10Day	7566910
 averageDailyVolume3Month	9709342
 averageVolume	9709342
 averageVolume10days	7566910
-beta	1.215
-bid	25.23
-bidSize	400
+beta	1.313
+bid	0.0
+bidSize	1200
 boardRisk	9
 bookValue	17.686
 city	Santa Clara
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	25.25
+currentPrice	23.52
 currentRatio	48.463
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	25.48
-dayLow	24.49
+dayHigh	25.91
+dayLow	23.44
 debtToEquity	0.127
 displayName	Oklo
 dividendYield	0.0
@@ -41,12 +41,12 @@ earningsTimestampEnd	1793971800
 earningsTimestampStart	1793971800
 ebitda	-216798000
 ebitdaMargins	0.0
-enterpriseToEbitda	-10.313
-enterpriseToRevenue	1847.879
-enterpriseValue	2235933696
+enterpriseToEbitda	-8.829
+enterpriseToRevenue	1581.92
+enterpriseValue	1914123136
 epsCurrentYear	-0.97573
-epsForward	-1.05335
-epsTrailingTwelveMonths	-0.94
+epsForward	-1.06414
+epsTrailingTwelveMonths	-0.88
 esgPopulated	False
 exchange	NYQ
 exchangeDataDelayedBy	20
@@ -54,27 +54,27 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	35.528
-fiftyDayAverageChange	-10.278
-fiftyDayAverageChangePercent	-0.28929296
+fiftyDayAverageChange	-12.007999
+fiftyDayAverageChangePercent	-0.33798692
 fiftyTwoWeekChangePercent	-80.066315
 fiftyTwoWeekHigh	132.11
-fiftyTwoWeekHighChange	-106.86
-fiftyTwoWeekHighChangePercent	-0.8088714
-fiftyTwoWeekLow	24.49
-fiftyTwoWeekLowChange	0.7600002
-fiftyTwoWeekLowChangePercent	0.031033084
-fiftyTwoWeekRange	24.49 - 132.11
+fiftyTwoWeekHighChange	-108.59
+fiftyTwoWeekHighChangePercent	-0.8219665
+fiftyTwoWeekLow	23.44
+fiftyTwoWeekLowChange	0.07999992
+fiftyTwoWeekLowChangePercent	0.003412966
+fiftyTwoWeekRange	23.44 - 132.11
 financialCurrency	USD
 firstTradeDateMilliseconds	1625751000000
 floatShares	157354190
-forwardEps	-1.05335
-forwardPE	-23.97114
+forwardEps	-1.06414
+forwardPE	-22.102356
 freeCashflow	-239324880
 fullExchangeName	NYSE
 fullTimeEmployees	215
-fulldayChange	-1.5207996
-fulldayChangePercent	-5.6725087
-fulldayPrice	25.25
+fulldayChange	-1.7999992
+fulldayChangePercent	-7.12871
+fulldayPrice	23.52
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 grossMargins	0.40412998
@@ -92,8 +92,8 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Oklo Inc. develops fission power plants to provide energy at scale to customers in the United States. The company offers Aurora Powerhouse, which is designed to produce between 15 and up to 75 megawatts of electricity. It is also commercializing nuclear fuel recycling and fuel fabrication technology that can convert used nuclear fuel into usable fuel for its reactors. The company was formerly known as AltC Acquisition Corp. and changed its name to Oklo Inc. in May 2024. Oklo Inc. was founded in 2013 and is headquartered in Santa Clara, California.
 longName	Oklo Inc.
 market	us_market
-marketCap	4696945664
-marketState	CLOSED
+marketCap	4375135232
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_544611249
 mostRecentQuarter	1782777600
@@ -101,38 +101,38 @@ netIncomeToCommon	-152768992
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	4696945662
 numberOfAnalystOpinions	20
-open	25.15
+open	25.51
 operatingCashflow	-116919000
 operatingMargins	-60.4876
 overallRisk	9
 payoutRatio	0.0
 phone	650 550 0127
-postMarketChange	0.03919983
-postMarketChangePercent	0.15524685
-postMarketPrice	25.2892
-postMarketTime	1793404777
-previousClose	26.81
-priceEpsCurrentYear	-25.878061
+postMarketChange	0.10249901
+postMarketChangePercent	0.4357951
+postMarketPrice	23.6225
+postMarketTime	1793667258
+previousClose	25.25
+priceEpsCurrentYear	-24.10503
 priceHint	2
-priceToBook	1.4276829
-priceToSalesTrailing12Months	3881.7732
+priceToBook	1.3298653
+priceToSalesTrailing12Months	3615.8142
 profitMargins	0.0
 quickRatio	47.627
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	2.16667
+recommendationMean	2.12
 region	US
-regularMarketChange	-1.56
-regularMarketChangePercent	-5.81872
-regularMarketDayHigh	25.48
-regularMarketDayLow	24.49
-regularMarketDayRange	24.49 - 25.48
-regularMarketOpen	25.15
-regularMarketPreviousClose	26.81
-regularMarketPrice	25.25
-regularMarketTime	1793390402
-regularMarketVolume	10081340
+regularMarketChange	-1.73
+regularMarketChangePercent	-6.85148
+regularMarketDayHigh	25.91
+regularMarketDayLow	23.44
+regularMarketDayRange	23.44 - 25.91
+regularMarketOpen	25.51
+regularMarketPreviousClose	25.25
+regularMarketPrice	23.52
+regularMarketTime	1793653202
+regularMarketVolume	8615786
 returnOnAssets	-0.06651
 returnOnEquity	-0.07696
 revenuePerShare	0.007
@@ -162,13 +162,13 @@ totalRevenue	1210000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-0.94
+trailingEps	-0.88
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	53.85465
-twoHundredDayAverageChange	-28.604649
-twoHundredDayAverageChangePercent	-0.5311454
+twoHundredDayAverageChange	-30.334648
+twoHundredDayAverageChangePercent	-0.5632689
 typeDisp	Equity
-volume	10081340
+volume	8615786
 website	https://www.oklo.com
 zip	95054

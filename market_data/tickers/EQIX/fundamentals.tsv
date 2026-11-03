@@ -13,31 +13,31 @@ averageDailyVolume10Day	649650
 averageDailyVolume3Month	549512
 averageVolume	549512
 averageVolume10days	649650
-beta	0.97
+beta	0.966
 bid	1036.69
 bidSize	1
 boardRisk	8
 bookValue	146.856
 city	Redwood City
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Charles John Meyers', 'age': 59, 'title': 'Executive Chairman', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Adaire Rita Fox-Martin', 'age': 61, 'title': 'President, CEO & Director', 'yearBorn': 1964, 'fiscalYear': 2025, 'totalPay': 1237934, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Raouf F. Abdel', 'age': 57, 'title': 'Executive Vice President of Global Operations', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 605523, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Keith D. Taylor', 'age': 63, 'title': 'Special Advisor', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 714498, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michael Shane Paladin', 'age': 47, 'title': 'Executive VP & Chief Customer and Revenue Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'totalPay': 589560, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Olivier C. Leonetti', 'age': 60, 'title': 'Chief Financial Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ryan C. Burke', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kurt  Pletcher', 'age': 54, 'title': 'Chief Legal Officer', 'yearBorn': 1971, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. DD  Dasgupta', 'title': 'Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Brandi Galvin Morandi J.D.', 'age': 52, 'title': 'Chief People Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 629870, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	7
 corporateActions	[{'header': 'Dividend', 'message': 'EQIX announced a cash dividend of $5.16 with an ex-date of Nov. 18, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1794978000000, 'amount': '5.16'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	1013.7
+currentPrice	993.69
 currentRatio	1.04
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	1039.16
-dayLow	1001.43
+dayHigh	1023.33
+dayLow	977.11
 debtToEquity	181.481
-discount_to_intrinsic_value	-17.79
+discount_to_intrinsic_value	-17.8
 displayName	Equinix
 dividendDate	1797379200
 dividendRate	20.64
-dividendYield	2.04
+dividendYield	2.08
 earningsCallTimestampEnd	1793223000
 earningsCallTimestampStart	1793223000
 earningsGrowth	0.294
@@ -47,12 +47,12 @@ earningsTimestampEnd	1793217600
 earningsTimestampStart	1793217600
 ebitda	4689999872
 ebitdaMargins	0.46221
-enterpriseToEbitda	26.527
-enterpriseToRevenue	12.261
-enterpriseValue	124409454592
+enterpriseToEbitda	26.104
+enterpriseToRevenue	12.066
+enterpriseValue	122428702720
 epsCurrentYear	18.73667
-epsForward	20.125
-epsTrailingTwelveMonths	16.65
+epsForward	20.695
+epsTrailingTwelveMonths	16.32
 eps_normalized_growth	0.27778673317511426
 esgPopulated	False
 exDividendDate	1794960000
@@ -63,31 +63,31 @@ exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	650 598 6900
 fiftyDayAverage	1022.2716
-fiftyDayAverageChange	-8.571594
-fiftyDayAverageChangePercent	-0.00838485
+fiftyDayAverageChange	-28.581604
+fiftyDayAverageChangePercent	-0.027958915
 fiftyTwoWeekChangePercent	21.716059
 fiftyTwoWeekHigh	1128.68
-fiftyTwoWeekHighChange	-114.98004
-fiftyTwoWeekHighChangePercent	-0.101871245
+fiftyTwoWeekHighChange	-134.99005
+fiftyTwoWeekHighChangePercent	-0.11959992
 fiftyTwoWeekLow	720.62
-fiftyTwoWeekLowChange	293.08002
-fiftyTwoWeekLowChangePercent	0.40670535
+fiftyTwoWeekLowChange	273.07
+fiftyTwoWeekLowChangePercent	0.3789376
 fiftyTwoWeekRange	720.62 - 1128.68
 financialCurrency	USD
 firstTradeDateMilliseconds	966000600000
 fiveYearAvgDividendYield	1.88
 floatShares	98604243
-forwardEps	20.125
-forwardPE	50.370186
+forwardEps	20.695
+forwardPE	48.015945
 freeCashflow	3177874944
 fullExchangeName	NasdaqGS
 fullTimeEmployees	13716
-fulldayChange	-22.970032
-fulldayChangePercent	-2.2157514
-fulldayPrice	1013.7
+fulldayChange	-19.900024
+fulldayChangePercent	-1.9631078
+fulldayPrice	993.69
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
-graham_intrinsic_value	860.58
+graham_intrinsic_value	843.53
 grossMargins	0.51996
 grossProfits	5276000256
 hasPrePostMarketData	True
@@ -108,17 +108,17 @@ lastSplitFactor	1:32
 longBusinessSummary	Equinix, Inc. shortens the path to boundless connectivity anywhere in the world. Its digital infrastructure, data center footprint and interconnected ecosystems empower innovations that enhance our work, life and planet. Equinix connects economies, countries, organizations and communities, delivering seamless digital experiences and cutting-edge AI quickly, efficiently and everywhere. Equinix, Inc. was established on June 22, 1998 and is based in Redwood City, United States.
 longName	Equinix, Inc.
 market	us_market
-marketCap	100344463360
-marketState	CLOSED
+marketCap	98363703296
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_28202
 mostRecentQuarter	1790726400
-nameChangeDate	2026-11-01
+nameChangeDate	2026-11-03
 netIncomeToCommon	1648000000
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	100344457956
 numberOfAnalystOpinions	32
-open	1039.16
+open	1013.795
 operatingCashflow	4171000064
 operatingMargins	0.25019
 overallRisk	3
@@ -127,14 +127,14 @@ pegRatio	2.93
 phone	650 598 6000
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	1013.7
-postMarketTime	1793392402
+postMarketPrice	993.69
+postMarketTime	1793655230
 prevName	Equinix, Inc. (REIT)
-previousClose	1036.67
-priceEpsCurrentYear	54.102467
+previousClose	1013.7
+priceEpsCurrentYear	53.034504
 priceHint	2
-priceToBook	6.90268
-priceToSalesTrailing12Months	9.889076
+priceToBook	6.766424
+priceToSalesTrailing12Months	9.693871
 profitMargins	0.16240999
 quickRatio	0.816
 quoteSourceName	Nasdaq Real Time Price
@@ -142,16 +142,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.45714
 region	US
-regularMarketChange	-22.970032
-regularMarketChangePercent	-2.2157514
-regularMarketDayHigh	1039.16
-regularMarketDayLow	1001.43
-regularMarketDayRange	1001.43 - 1039.16
-regularMarketOpen	1039.16
-regularMarketPreviousClose	1036.67
-regularMarketPrice	1013.7
-regularMarketTime	1793390401
-regularMarketVolume	663002
+regularMarketChange	-20.01001
+regularMarketChangePercent	-1.9739578
+regularMarketDayHigh	1023.33
+regularMarketDayLow	977.11
+regularMarketDayRange	977.11 - 1023.33
+regularMarketOpen	1013.795
+regularMarketPreviousClose	1013.7
+regularMarketPrice	993.69
+regularMarketTime	1793653201
+regularMarketVolume	737240
 returnOnAssets	0.037720002
 returnOnEquity	0.1145
 revenueGrowth	0.104
@@ -173,23 +173,23 @@ state	CA
 symbol	EQIX
 targetHighPrice	1380.0
 targetLowPrice	1100.0
-targetMeanPrice	1234.0938
-targetMedianPrice	1225.0
+targetMeanPrice	1234.875
+targetMedianPrice	1230.0
 totalCash	2361999872
 totalCashPerShare	23.861
 totalDebt	26410999808
 totalRevenue	10147000320
 tradeable	False
 trailingAnnualDividendRate	20.17
-trailingAnnualDividendYield	0.019456528
-trailingEps	16.65
-trailingPE	60.882885
+trailingAnnualDividendYield	0.019897405
+trailingEps	16.32
+trailingPE	60.88787
 trailingPegRatio	2.928
 triggerable	True
 twoHundredDayAverage	1010.7345
-twoHundredDayAverageChange	2.9655151
-twoHundredDayAverageChangePercent	0.00293402
+twoHundredDayAverageChange	-17.044495
+twoHundredDayAverageChangePercent	-0.016863475
 typeDisp	Equity
-volume	663002
+volume	737240
 website	https://www.equinix.com
 zip	94065-1562

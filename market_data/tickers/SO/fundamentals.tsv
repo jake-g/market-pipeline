@@ -4,39 +4,39 @@ SandP52WeekChange	0.10626137
 address1	30 Ivan Allen Jr. Boulevard, NW
 allTimeHigh	100.84
 allTimeLow	3.35995
-ask	94.12
-askSize	100
+ask	0.0
+askSize	200
 auditRisk	5
 averageAnalystRating	2.6 - Hold
 averageDailyVolume10Day	5263680
 averageDailyVolume3Month	5992746
 averageVolume	5992746
 averageVolume10days	5263680
-beta	0.301
-bid	93.59
+beta	0.286
+bid	0.0
 bidSize	300
 boardRisk	5
 bookValue	34.398
 city	Atlanta
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Christopher C. Womack', 'age': 67, 'title': 'CEO, President & Chairman', 'yearBorn': 1958, 'fiscalYear': 2025, 'totalPay': 5431992, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David P. Poroch', 'age': 55, 'title': 'Executive VP & CFO', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1599434, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Stanley W. Connally Jr.', 'age': 56, 'title': 'Executive VP & COO', 'yearBorn': 1969, 'fiscalYear': 2025, 'totalPay': 2327228, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel S. Tucker', 'age': 55, 'title': 'Senior Advisor', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 2442857, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kimberly Scheibe Greene', 'age': 59, 'title': 'Chairman, President & CEO of Georgia Power', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 2873203, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. J. Jeffrey Peoples', 'age': 65, 'title': 'Chairman, President & CEO of Alabama Power Company', 'yearBorn': 1960, 'fiscalYear': 2025, 'totalPay': 2460797, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew M. Kim', 'title': 'SVP, Comptroller & Chief Accounting Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Greg  MacLeod', 'title': 'Director of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sterling A. Spainhour Jr., J.D.', 'age': 56, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1969, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sloane N. Drake', 'age': 48, 'title': 'Executive VP & Chief Human Resources Officer', 'yearBorn': 1977, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
 corporateActions	[{'header': 'Dividend', 'message': 'SO announced a cash dividend of $0.76 with an ex-date of Nov. 16, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1794805200000, 'amount': '0.76'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	93.71
+currentPrice	94.61
 currentRatio	0.787
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	94.33
-dayLow	93.47
+dayHigh	94.85
+dayLow	93.08
 debtToEquity	182.058
 discount_to_intrinsic_value	15.44
 displayName	Southern Company
 dividendDate	1796601600
 dividendRate	3.04
-dividendYield	3.24
+dividendYield	3.21
 earningsCallTimestampEnd	1793901600
 earningsCallTimestampStart	1793901600
 earningsGrowth	0.304
@@ -46,12 +46,12 @@ earningsTimestampEnd	1793885400
 earningsTimestampStart	1793885400
 ebitda	14257999872
 ebitdaMargins	0.47245
-enterpriseToEbitda	12.952
-enterpriseToRevenue	6.119
-enterpriseValue	184675516416
+enterpriseToEbitda	13.025
+enterpriseToRevenue	6.154
+enterpriseValue	185710837760
 epsCurrentYear	4.59328
-epsForward	4.91996
-epsTrailingTwelveMonths	4.15
+epsForward	4.91814
+epsTrailingTwelveMonths	4.19
 eps_normalized_growth	0.10861119282802334
 esgPopulated	False
 exDividendDate	1794787200
@@ -61,31 +61,31 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	87.7838
-fiftyDayAverageChange	5.926201
-fiftyDayAverageChangePercent	0.06750905
+fiftyDayAverageChange	6.8262024
+fiftyDayAverageChangePercent	0.07776153
 fiftyTwoWeekChangePercent	0.60118437
 fiftyTwoWeekHigh	99.58
-fiftyTwoWeekHighChange	-5.8700027
-fiftyTwoWeekHighChangePercent	-0.058947608
+fiftyTwoWeekHighChange	-4.970001
+fiftyTwoWeekHighChangePercent	-0.049909633
 fiftyTwoWeekLow	81.69
-fiftyTwoWeekLowChange	12.019997
-fiftyTwoWeekLowChangePercent	0.14714159
+fiftyTwoWeekLowChange	12.919998
+fiftyTwoWeekLowChangePercent	0.15815887
 fiftyTwoWeekRange	81.69 - 99.58
 financialCurrency	USD
 firstTradeDateMilliseconds	378657000000
 fiveYearAvgDividendYield	3.54
 floatShares	1147636606
-forwardEps	4.91996
-forwardPE	19.046902
+forwardEps	4.91814
+forwardPE	19.236948
 freeCashflow	-3913374976
 fullExchangeName	NYSE
 fullTimeEmployees	29502
-fulldayChange	0.59830475
-fulldayChangePercent	0.64340764
-fulldayPrice	93.71
+fulldayChange	0.8899994
+fulldayChangePercent	0.9497379
+fulldayPrice	94.61
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
-graham_intrinsic_value	110.81
+graham_intrinsic_value	111.88
 grossMargins	0.48289
 grossProfits	14572999680
 hasPrePostMarketData	True
@@ -106,8 +106,8 @@ lastSplitFactor	10000:6109
 longBusinessSummary	The Southern Company, through its subsidiaries, engages in the sale of electricity. The company offers electric service to retail customers and wholesale customers; and energy-related products and services to natural gas choice markets. It also develops, constructs, acquires, owns, operates, and manages power generation assets, as well as battery energy storage projects; sells electricity at market-based rates in the wholesale market; and deploys microgrids for commercial, industrial, governmental, and utility customers. In addition, the company is involved in the distribution of natural gas in Illinois, Georgia, Virginia, and Tennessee; distributes energy and resilience solutions; and invests in telecommunications. The Southern Company was incorporated in 1945 and is headquartered in Atlanta, Georgia.
 longName	The Southern Company
 market	us_market
-marketCap	107800518656
-marketState	CLOSED
+marketCap	108835848192
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_120623
 mostRecentQuarter	1782777600
@@ -115,22 +115,22 @@ netIncomeToCommon	4657999872
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	107800513543
 numberOfAnalystOpinions	20
-open	93.99
+open	93.39
 operatingCashflow	10650999808
 operatingMargins	0.29612
 overallRisk	1
 payoutRatio	0.71809995
 pegRatio	2.21
 phone	404 506 5000
-postMarketChange	-0.12169647
-postMarketChangePercent	-0.12986498
-postMarketPrice	93.5883
-postMarketTime	1793400651
-previousClose	92.99
-priceEpsCurrentYear	20.401545
+postMarketChange	-0.05000305
+postMarketChangePercent	-0.052851763
+postMarketPrice	94.56
+postMarketTime	1793662655
+previousClose	93.71
+priceEpsCurrentYear	20.597483
 priceHint	2
-priceToBook	2.7242863
-priceToSalesTrailing12Months	3.5720375
+priceToBook	2.7504506
+priceToSalesTrailing12Months	3.6063437
 profitMargins	0.15435
 quickRatio	0.441
 quoteSourceName	Delayed Quote
@@ -138,16 +138,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.58333
 region	US
-regularMarketChange	0.720001
-regularMarketChangePercent	0.774278
-regularMarketDayHigh	94.33
-regularMarketDayLow	93.47
-regularMarketDayRange	93.47 - 94.33
-regularMarketOpen	93.99
-regularMarketPreviousClose	92.99
-regularMarketPrice	93.71
-regularMarketTime	1793390402
-regularMarketVolume	6067469
+regularMarketChange	0.900002
+regularMarketChangePercent	0.960411
+regularMarketDayHigh	94.85
+regularMarketDayLow	93.08
+regularMarketDayRange	93.08 - 94.85
+regularMarketOpen	93.39
+regularMarketPreviousClose	93.71
+regularMarketPrice	94.61
+regularMarketTime	1793653202
+regularMarketVolume	6059862
 returnOnAssets	0.03271
 returnOnEquity	0.114829995
 revenueGrowth	0.001
@@ -177,15 +177,15 @@ totalDebt	77086998528
 totalRevenue	30179000320
 tradeable	False
 trailingAnnualDividendRate	2.98
-trailingAnnualDividendYield	0.032046456
-trailingEps	4.15
-trailingPE	22.580723
+trailingAnnualDividendYield	0.031800237
+trailingEps	4.19
+trailingPE	22.579952
 trailingPegRatio	2.2147
 triggerable	True
 twoHundredDayAverage	92.4337
-twoHundredDayAverageChange	1.2762985
-twoHundredDayAverageChangePercent	0.013807719
+twoHundredDayAverageChange	2.1763
+twoHundredDayAverageChangePercent	0.023544444
 typeDisp	Equity
-volume	6067469
+volume	6059862
 website	https://www.southerncompany.com
 zip	30308

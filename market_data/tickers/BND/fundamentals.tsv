@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	71.61
-dayLow	71.405
+dayHigh	71.4999
+dayLow	71.29
 displayName	Total Bond Mkt Idx Fd ETF
 dividendDate	1530835200
 dividendYield	4.17
@@ -28,22 +28,22 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	71.1272
-fiftyDayAverageChange	0.4328003
-fiftyDayAverageChangePercent	0.0060848775
+fiftyDayAverageChange	0.20280457
+fiftyDayAverageChangePercent	0.0028512941
 fiftyTwoWeekChangePercent	-3.6228955
 fiftyTwoWeekHigh	75.23
-fiftyTwoWeekHighChange	-3.6700058
-fiftyTwoWeekHighChangePercent	-0.048783805
+fiftyTwoWeekHighChange	-3.9000015
+fiftyTwoWeekHighChangePercent	-0.05184104
 fiftyTwoWeekLow	69.65
-fiftyTwoWeekLowChange	1.909996
-fiftyTwoWeekLowChangePercent	0.02742277
+fiftyTwoWeekLowChange	1.6800003
+fiftyTwoWeekLowChangePercent	0.024120606
 fiftyTwoWeekRange	69.65 - 75.23
 firstTradeDateMilliseconds	1176211800000
 fiveYearAverageReturn	-0.0017423
 fullExchangeName	NasdaqGM
-fulldayChange	0.119903564
-fulldayChangePercent	0.16797923
-fulldayPrice	71.56
+fulldayChange	0.0067977905
+fulldayChangePercent	0.00953364
+fulldayPrice	71.33
 fundFamily	Vanguard
 fundInceptionDate	1466726400
 gmtOffSetMilliseconds	-18000000
@@ -53,33 +53,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	This index measures the performance of a wide spectrum of public, investment-grade, taxable, fixed income securities in the United States-including government, corporate, and international dollar-denominated bonds, as well as mortgage-backed and asset-backed securities-all with maturities of more than 1 year. All of the fund's investments will be selected through the sampling process, and at least 80% of its assets will be invested in bonds held in the index.
 longName	Vanguard Total Bond Market Index Fund ETF Shares
 market	us_market
-marketState	CLOSED
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_33837570
 navPrice	71.56
 netAssets	389050991000.0
 netExpenseRatio	0.03
-open	71.54
+open	71.39
 phone	800-523-1036
-postMarketChange	-0.06009674
-postMarketChangePercent	-0.08398092
-postMarketPrice	71.4999
-postMarketTime	1793402342
-previousClose	71.38
+postMarketChange	0.08000183
+postMarketChangePercent	0.11215734
+postMarketPrice	71.41
+postMarketTime	1793662212
+previousClose	71.3032
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.1800003
-regularMarketChangePercent	0.2521719
-regularMarketDayHigh	71.61
-regularMarketDayLow	71.405
-regularMarketDayRange	71.405 - 71.61
-regularMarketOpen	71.54
-regularMarketPreviousClose	71.38
-regularMarketPrice	71.56
-regularMarketTime	1793390402
-regularMarketVolume	8096953
+regularMarketChange	0.026802063
+regularMarketChangePercent	0.037588865
+regularMarketDayHigh	71.4999
+regularMarketDayLow	71.29
+regularMarketDayRange	71.29 - 71.4999
+regularMarketOpen	71.39
+regularMarketPreviousClose	71.3032
+regularMarketPrice	71.33
+regularMarketTime	1793653201
+regularMarketVolume	10827729
 shortName	Vanguard Total Bond Market ETF
 sourceInterval	15
 symbol	BND
@@ -91,9 +91,9 @@ trailingThreeMonthNavReturns	-3.43491
 trailingThreeMonthReturns	-3.43491
 triggerable	True
 twoHundredDayAverage	72.87075
-twoHundredDayAverageChange	-1.3107529
-twoHundredDayAverageChangePercent	-0.017987367
+twoHundredDayAverageChange	-1.5407486
+twoHundredDayAverageChangePercent	-0.02114358
 typeDisp	ETF
-volume	8096953
+volume	10827729
 yield	0.0417
 ytdReturn	-2.74919

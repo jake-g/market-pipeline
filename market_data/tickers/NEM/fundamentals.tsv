@@ -5,39 +5,39 @@ address1	6900 E Layton Avenue
 address2	Suite 700
 allTimeHigh	135.29
 allTimeLow	7.366667
-ask	107.54
-askSize	200
+ask	0.0
+askSize	300
 auditRisk	5
 averageAnalystRating	1.7 - Buy
 averageDailyVolume10Day	6493780
 averageDailyVolume3Month	6959921
 averageVolume	6959921
 averageVolume10days	6493780
-beta	0.53
-bid	106.53
-bidSize	500
+beta	0.573
+bid	0.0
+bidSize	100
 boardRisk	1
 bookValue	34.204
 city	Denver
-companyOfficers	[{'maxAge': 1, 'name': 'Ms. Natascha  Viljoen BEng (PrEng), EMBA', 'age': 55, 'title': 'CEO, President & Director', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 2840795, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Peter I. Wexler J.D.', 'age': 57, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 1537358, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Peter Ivan Toth BBus (IB), MIB', 'age': 55, 'title': 'Executive VP, Chief Sustainability & Development Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1897772, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brian C. Tabolt CPA', 'age': 44, 'title': 'Executive VP & CFO', 'yearBorn': 1981, 'fiscalYear': 2025, 'totalPay': 793861, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Rodgers', 'age': 61, 'title': 'Executive VP & COO', 'yearBorn': 1964, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Joshua L. Cage', 'age': 50, 'title': 'Chief Accounting Officer & Controller', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Thornton', 'age': 44, 'title': 'Executive VP & Chief Technical Officer', 'yearBorn': 1981, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Neil  Backhouse', 'title': 'Group Head of Treasury & Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Logan  Hennessey', 'title': 'SVP, Group Head of Legal Governance & Compliance, Deputy General Counsel and Corporate Secretary', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Shannon  Brushe', 'title': 'Global Media Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
 corporateActions	[{'header': 'Dividend', 'message': 'NEM announced a cash dividend of $0.26 with an ex-date of Nov. 25, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1795582800000, 'amount': '0.26'}}]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	106.61
+currentPrice	109.09
 currentRatio	2.45
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	108.07
-dayLow	104.51
+dayHigh	110.83
+dayLow	108.04
 debtToEquity	15.576
 discount_to_intrinsic_value	70.04
 displayName	Newmont
 dividendDate	1797811200
 dividendRate	1.04
-dividendYield	0.98
+dividendYield	0.95
 earningsCallTimestampEnd	1792704600
 earningsCallTimestampStart	1792704600
 earningsGrowth	0.407
@@ -47,12 +47,12 @@ earningsTimestampEnd	1792699200
 earningsTimestampStart	1792699200
 ebitda	17613000704
 ebitdaMargins	0.66199
-enterpriseToEbitda	6.116
-enterpriseToRevenue	4.049
-enterpriseValue	107720384512
+enterpriseToEbitda	6.262
+enterpriseToRevenue	4.146
+enterpriseValue	110297587712
 epsCurrentYear	9.15164
-epsForward	10.00084
-epsTrailingTwelveMonths	8.62
+epsForward	9.99839
+epsTrailingTwelveMonths	8.82
 eps_normalized_growth	0.3788147820754737
 esgPopulated	False
 exDividendDate	1795564800
@@ -63,28 +63,28 @@ exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	303 837 5837
 fiftyDayAverage	120.6368
-fiftyDayAverageChange	-14.026802
-fiftyDayAverageChangePercent	-0.11627299
+fiftyDayAverageChange	-11.546806
+fiftyDayAverageChangePercent	-0.095715456
 fiftyTwoWeekChangePercent	30.6175
 fiftyTwoWeekHigh	135.29
-fiftyTwoWeekHighChange	-28.679993
-fiftyTwoWeekHighChangePercent	-0.21198902
+fiftyTwoWeekHighChange	-26.199997
+fiftyTwoWeekHighChangePercent	-0.19365805
 fiftyTwoWeekLow	78.6
-fiftyTwoWeekLowChange	28.010002
-fiftyTwoWeekLowChangePercent	0.35636136
+fiftyTwoWeekLowChange	30.489998
+fiftyTwoWeekLowChangePercent	0.38791347
 fiftyTwoWeekRange	78.6 - 135.29
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
-fiveYearAvgDividendYield	2.06
+fiveYearAvgDividendYield	2.05
 floatShares	1036855000
-forwardEps	10.00084
-forwardPE	10.660105
+forwardEps	9.99839
+forwardPE	10.910756
 freeCashflow	9154124800
 fullExchangeName	NYSE
 fullTimeEmployees	17500
-fulldayChange	-5.1839066
-fulldayChangePercent	-4.6367674
-fulldayPrice	106.61
+fulldayChange	1.159996
+fulldayChangePercent	1.0880743
+fulldayPrice	109.09
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1790812800
 graham_intrinsic_value	386.59
@@ -108,8 +108,8 @@ lastSplitFactor	5:4
 longBusinessSummary	Newmont Corporation operates as a gold producer. It also explores for copper, silver, lead, zinc, and other metals. It has operations and/or assets in the United States, Papua New Guinea, Australia, Ghana, Suriname, Argentina, Dominican Republic, Chile, Peru, Ecuador, Mexico, and Canada. The company was founded in 1916 and is headquartered in Denver, Colorado.
 longName	Newmont Corporation
 market	us_market
-marketCap	110788386816
-marketState	CLOSED
+marketCap	113365581824
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_291795
 mostRecentQuarter	1790726400
@@ -117,39 +117,39 @@ netIncomeToCommon	9240000512
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	110788385452
 numberOfAnalystOpinions	21
-open	107.35
+open	108.88
 operatingCashflow	13098000384
 operatingMargins	0.49992
 overallRisk	1
 payoutRatio	0.1195
 pegRatio	2.78
 phone	303 863 7414
-postMarketChange	0.006095886
-postMarketChangePercent	0.005717931
-postMarketPrice	106.6161
-postMarketTime	1793403756
-previousClose	111.8
-priceEpsCurrentYear	11.649279
+postMarketChange	0.30000305
+postMarketChangePercent	0.2750051
+postMarketPrice	109.39
+postMarketTime	1793667571
+previousClose	106.61
+priceEpsCurrentYear	11.920267
 priceHint	2
-priceToBook	3.116887
-priceToSalesTrailing12Months	4.1640377
+priceToBook	3.189393
+priceToSalesTrailing12Months	4.260903
 profitMargins	0.34729
 quickRatio	1.864
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.65217
 region	US
-regularMarketChange	-5.19
-regularMarketChangePercent	-4.64222
-regularMarketDayHigh	108.07
-regularMarketDayLow	104.51
-regularMarketDayRange	104.51 - 108.07
-regularMarketOpen	107.35
-regularMarketPreviousClose	111.8
-regularMarketPrice	106.61
-regularMarketTime	1793390402
-regularMarketVolume	8735448
+regularMarketChange	2.48
+regularMarketChangePercent	2.32623
+regularMarketDayHigh	110.83
+regularMarketDayLow	108.04
+regularMarketDayRange	108.04 - 110.83
+regularMarketOpen	108.88
+regularMarketPreviousClose	106.61
+regularMarketPrice	109.09
+regularMarketTime	1793653202
+regularMarketVolume	5711475
 returnOnAssets	0.16371
 returnOnEquity	0.27259
 revenueGrowth	0.152
@@ -179,15 +179,15 @@ totalDebt	5584000000
 totalRevenue	26606000128
 tradeable	False
 trailingAnnualDividendRate	1.04
-trailingAnnualDividendYield	0.009302325
-trailingEps	8.62
-trailingPE	12.367749
+trailingAnnualDividendYield	0.009755182
+trailingEps	8.82
+trailingPE	12.368481
 trailingPegRatio	None
 triggerable	True
 twoHundredDayAverage	112.44285
-twoHundredDayAverageChange	-5.8328476
-twoHundredDayAverageChangePercent	-0.051873885
+twoHundredDayAverageChange	-3.3528519
+twoHundredDayAverageChangePercent	-0.029818276
 typeDisp	Equity
-volume	8735448
+volume	5711475
 website	https://www.newmont.com
 zip	80237

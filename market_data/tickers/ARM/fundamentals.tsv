@@ -4,32 +4,32 @@ SandP52WeekChange	0.10626137
 address1	110 Fulbourn Road
 allTimeHigh	452.7
 allTimeLow	46.5
-ask	256.9
-askSize	2
+ask	201.09
+askSize	1
 averageAnalystRating	2.0 - Buy
 averageDailyVolume10Day	4843070
 averageDailyVolume3Month	4896521
 averageVolume	4896521
 averageVolume10days	4843070
-beta	3.789
+beta	3.939
 bid	204.23
 bidSize	1
 bookValue	8.081
 city	Cambridge
-companyOfficers	[{'maxAge': 1, 'name': 'Mr. Rene Anthony Andrada  Haas', 'age': 63, 'title': 'CEO & Director', 'yearBorn': 1962, 'fiscalYear': 2026, 'totalPay': 5071000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jason E. Child', 'age': 56, 'title': 'Executive VP & CFO', 'yearBorn': 1969, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eric  Hayes', 'title': 'Executive Vice President of Operations', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Laura  Bartels', 'title': 'Chief Accounting Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeffrey Thomas Kvaal', 'title': 'VP & Head of Investor Relations', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Spencer  Collins', 'age': 43, 'title': 'Executive VP, Chief Legal Officer, Company Secretary & Head of Corporate Development', 'yearBorn': 1982, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Ami M. Badani', 'age': 46, 'title': 'Chief Marketing Officer', 'yearBorn': 1979, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Charlotte  Eaton', 'age': 41, 'title': 'Chief People Officer', 'yearBorn': 1984, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard  Grisenthwaite', 'age': 56, 'title': 'Executive VP & Chief Architect', 'yearBorn': 1969, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. William  Abbey', 'age': 54, 'title': 'Executive VP & Chief Commercial Officer', 'yearBorn': 1971, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
+companyOfficers	[]
 compensationAsOfEpochDate	1798675200
 corporateActions	[]
 country	United Kingdom
 cryptoTradeable	False
 currency	USD
-currentPrice	205.97
+currentPrice	196.79
 currentRatio	5.252
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	209.0
-dayLow	198.77
+dayHigh	207.0
+dayLow	196.115
 debtToEquity	5.62
-discount_to_intrinsic_value	-310.82
+discount_to_intrinsic_value	-309.39
 displayName	Arm Holdings
 dividendYield	0.0
 earningsCallTimestampEnd	1793829600
@@ -41,12 +41,12 @@ earningsTimestampEnd	1793826000
 earningsTimestampStart	1793826000
 ebitda	1063699968
 ebitdaMargins	0.20629999
-enterpriseToEbitda	203.603
-enterpriseToRevenue	42.004
-enterpriseValue	216572952576
-epsCurrentYear	2.22945
-epsForward	3.06651
-epsTrailingTwelveMonths	0.97
+enterpriseToEbitda	194.386
+enterpriseToRevenue	40.103
+enterpriseValue	206768717824
+epsCurrentYear	2.23381
+epsForward	3.05776
+epsTrailingTwelveMonths	0.93
 eps_normalized_growth	1.0090795677848239
 esgPopulated	False
 exchange	NMS
@@ -55,29 +55,29 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fiftyDayAverage	258.7294
-fiftyDayAverageChange	-52.7594
-fiftyDayAverageChangePercent	-0.2039173
+fiftyDayAverageChange	-61.939407
+fiftyDayAverageChangePercent	-0.2393984
 fiftyTwoWeekChangePercent	22.106945
 fiftyTwoWeekHigh	452.7
-fiftyTwoWeekHighChange	-246.73001
-fiftyTwoWeekHighChangePercent	-0.5450188
+fiftyTwoWeekHighChange	-255.91002
+fiftyTwoWeekHighChangePercent	-0.5652971
 fiftyTwoWeekLow	100.02
-fiftyTwoWeekLowChange	105.950005
-fiftyTwoWeekLowChangePercent	1.0592883
+fiftyTwoWeekLowChange	96.77
+fiftyTwoWeekLowChangePercent	0.96750647
 fiftyTwoWeekRange	100.02 - 452.7
 financialCurrency	USD
 firstTradeDateMilliseconds	1694698200000
 floatShares	142599360
-forwardEps	3.06651
-forwardPE	67.167564
+forwardEps	3.05776
+forwardPE	64.35757
 freeCashflow	1334499968
 fullExchangeName	NasdaqGS
 fullTimeEmployees	9584
-fulldayChange	-21.87851
-fulldayChangePercent	-9.5635395
-fulldayPrice	205.97
+fulldayChange	-8.970001
+fulldayChangePercent	-4.355004
+fulldayPrice	196.79
 gmtOffSetMilliseconds	-18000000
-graham_intrinsic_value	50.14
+graham_intrinsic_value	48.07
 grossMargins	0.97537005
 grossProfits	5029000192
 hasPrePostMarketData	True
@@ -94,8 +94,8 @@ lastFiscalYearEnd	1774915200
 longBusinessSummary	Arm Holdings plc researches, develops, licenses, and markets central processing unit (CPU) intellectual property (IP), graphics processing unit IP, systems IP, compute subsystems (CSS), and associated software, tools and related services. The company provides a product portfolio, including CPU IP, GPU and neural processing unit (NPU) accelerators, system IP such as interconnects, compute platform products including pre-integrated CSSs, and development tools and software. The company serves semiconductor companies, original equipment manufacturers (OEMs), cloud service providers (CSPs), and organizations developing chips for end markets such as smartphones, consumer electronics, industrial IoT, embedded systems, cloud data centers, networking, automotive, and robotics. It provides its products and services in the United States, China, Japan, Taiwan, Korea, and internationally. The company was founded in 1990 and is based in Cambridge, United Kingdom. Arm Holdings plc operates as a subsidiary of SoftBank Group Corp.
 longName	Arm Holdings plc
 market	us_market
-marketCap	219975663616
-marketState	CLOSED
+marketCap	210171428864
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_667281196
 mostRecentQuarter	1782777600
@@ -103,21 +103,21 @@ netIncomeToCommon	1044000000
 nextFiscalYearEnd	1806451200
 nonDilutedMarketCap	219975665256
 numberOfAnalystOpinions	40
-open	206.796
+open	207.18
 operatingCashflow	2094000000
 operatingMargins	0.07603
 payoutRatio	0.0
 pegRatio	1.69
 phone	44 1223 400 400
-postMarketChange	0.92149353
-postMarketChangePercent	0.4473921
-postMarketPrice	206.8915
-postMarketTime	1793404786
-previousClose	228.77
-priceEpsCurrentYear	92.38602
+postMarketChange	0.2210083
+postMarketChangePercent	0.11230668
+postMarketPrice	197.011
+postMarketTime	1793667572
+previousClose	205.97
+priceEpsCurrentYear	88.09612
 priceHint	2
-priceToBook	25.488182
-priceToSalesTrailing12Months	42.664017
+priceToBook	24.352182
+priceToSalesTrailing12Months	40.762497
 profitMargins	0.20247999
 quickRatio	5.063
 quoteSourceName	Nasdaq Real Time Price
@@ -125,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.95349
 region	US
-regularMarketChange	-22.800003
-regularMarketChangePercent	-9.966343
-regularMarketDayHigh	209.0
-regularMarketDayLow	198.77
-regularMarketDayRange	198.77 - 209.0
-regularMarketOpen	206.796
-regularMarketPreviousClose	228.77
-regularMarketPrice	205.97
-regularMarketTime	1793390401
-regularMarketVolume	10567825
+regularMarketChange	-9.180008
+regularMarketChangePercent	-4.4569635
+regularMarketDayHigh	207.0
+regularMarketDayLow	196.115
+regularMarketDayRange	196.115 - 207.0
+regularMarketOpen	207.18
+regularMarketPreviousClose	205.97
+regularMarketPrice	196.79
+regularMarketTime	1793653201
+regularMarketVolume	6268887
 returnOnAssets	0.05415
 returnOnEquity	0.13352999
 revenueGrowth	0.224
@@ -163,14 +163,14 @@ totalRevenue	5155999744
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	0.97
-trailingPE	212.3402
+trailingEps	0.93
+trailingPE	211.60214
 trailingPegRatio	1.6915
 triggerable	True
 twoHundredDayAverage	228.92618
-twoHundredDayAverageChange	-22.956177
-twoHundredDayAverageChangePercent	-0.10027764
+twoHundredDayAverageChange	-32.136185
+twoHundredDayAverageChangePercent	-0.14037794
 typeDisp	Equity
-volume	10567825
+volume	6268887
 website	https://www.arm.com
 zip	CB1 9NJ
