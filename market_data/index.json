@@ -19352,14 +19352,14 @@
                 "type": "file",
                 "name": "11_02_decision_tree.png",
                 "path": "reports/11-02_strategy_semis_hyperscaler_dip/plots/11_02_decision_tree.png",
-                "size": 631534,
+                "size": 820420,
                 "lines": 0
               },
               {
                 "type": "file",
                 "name": "11_02_deployment_tree.png",
                 "path": "reports/11-02_strategy_semis_hyperscaler_dip/plots/11_02_deployment_tree.png",
-                "size": 1947678,
+                "size": 966725,
                 "lines": 0
               },
               {
@@ -19387,7 +19387,7 @@
                 "type": "file",
                 "name": "11_02_index_tree.png",
                 "path": "reports/11-02_strategy_semis_hyperscaler_dip/plots/11_02_index_tree.png",
-                "size": 586321,
+                "size": 787908,
                 "lines": 0
               },
               {
@@ -19424,8 +19424,8 @@
             "type": "file",
             "name": "analyze_11_02.py",
             "path": "reports/11-02_strategy_semis_hyperscaler_dip/analyze_11_02.py",
-            "size": 175041,
-            "lines": 3924
+            "size": 119604,
+            "lines": 3156
           },
           {
             "type": "file",
@@ -19433,6 +19433,13 @@
             "path": "reports/11-02_strategy_semis_hyperscaler_dip/model_holdings_metrics.tsv",
             "size": 27198,
             "lines": 47
+          },
+          {
+            "type": "file",
+            "name": "notebooklm_critique.md",
+            "path": "reports/11-02_strategy_semis_hyperscaler_dip/notebooklm_critique.md",
+            "size": 1588,
+            "lines": 7
           },
           {
             "type": "file",
@@ -19445,8 +19452,15 @@
             "type": "file",
             "name": "REPORT.md",
             "path": "reports/11-02_strategy_semis_hyperscaler_dip/REPORT.md",
-            "size": 117944,
-            "lines": 708
+            "size": 48801,
+            "lines": 375
+          },
+          {
+            "type": "file",
+            "name": "run_notebooklm_critique.py",
+            "path": "reports/11-02_strategy_semis_hyperscaler_dip/run_notebooklm_critique.py",
+            "size": 5607,
+            "lines": 101
           }
         ]
       },
