@@ -13,9 +13,31 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 | Chokepoint    |   Vessels |   Congestion Index |
 |---------------|-----------|--------------------|
 | Hormuz        |         2 |               0.03 |
+| Bab_el_Mandeb |        36 |               0.51 |
+| Suez_Canal    |        46 |               0.66 |
 | Panama_Canal  |        28 |               0.78 |
 | Malacca       |       212 |               0.96 |
 | Taiwan_Strait |       240 |               1.09 |
+
+Data as of 2026-10-25
+
+> [!WARNING]
+> Chokepoint data is **9 days stale** (last observation 2026-10-25). The IMF PortWatch `Daily_Chokepoints_Data` service is currently returning errors; values above are the last real observations and are **not** carried forward as current.
+
+## Major Port Calls (7-day avg vs prior 4 weeks)
+| Port                   | Country                  | Last Date   |   7d Avg Calls |   4w Avg Calls | Δ%     |   Container 7d |   Tanker 7d |
+|------------------------|--------------------------|-------------|----------------|----------------|--------|----------------|-------------|
+| Singapore              | Singapore                | 2026-10-30  |          115   |          117.9 | -2.4%  |           36.6 |        67.3 |
+| Rotterdam              | The Netherlands          | 2026-10-30  |           74.1 |           83.2 | -10.9% |           15.6 |        39.9 |
+| Antwerp                | Belgium                  | 2026-10-30  |           49   |           53.7 | -8.7%  |           11.3 |        27   |
+| Busan                  | Korea                    | 2026-10-30  |           46.6 |           47.6 | -2.1%  |           28.3 |         8.4 |
+| Ningbo                 | China                    | 2026-10-30  |           45.6 |           45.8 | -0.5%  |           24.3 |        12.3 |
+| Kaohsiung              | Taiwan Province of China | 2026-10-30  |           30.9 |           25.6 | +20.3% |           18.9 |         4   |
+| Houston (US-TX)        | United States            | 2026-10-30  |           23.6 |           20.1 | +17.4% |            3   |        15.9 |
+| Hamburg                | Germany                  | 2026-10-30  |           14.7 |           16.9 | -13.1% |            7.7 |         3.6 |
+| Los Angeles-Long Beach | United States            | 2026-10-30  |           11.3 |            9.6 | +17.0% |            7   |         2   |
+
+Source: IMF PortWatch `Daily_Ports_Data` (`port_calls.tsv`).
 
 ## Shipping Macro Metrics
 | Metric                              |   Latest | YoY Chg       | Date       |
