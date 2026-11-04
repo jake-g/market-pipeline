@@ -43,6 +43,10 @@ FINANCIALS_FILENAME = "financials_quarterly.tsv"
 MACRO_FILENAME = "economic_indicators.tsv"
 
 # Default Feeds
+# Supplementary recency window (Google `when:Nd`) for topics whose primary
+# query is an exact-phrase search in TICKER_SEARCH_TERMS.
+TOPIC_RECENT_WINDOW_DAYS = 7
+
 DEFAULT_NEWS_FEEDS: Dict[str, str] = {
     "Yahoo":
         "https://finance.yahoo.com/rss/headline?s={term}",
@@ -286,8 +290,8 @@ TICKER_SEARCH_TERMS: Dict[str, str] = {
         '"Military drones" OR "Defense drone technology"',
     "Hormuz":
         '"Strait of Hormuz shipping" OR "Hormuz geopolitics"',
-    "OPEC":
-        '"OPEC oil policy" OR "OPEC+ production"',
+    "OPEC+":
+        '"OPEC+" OR "OPEC oil policy" OR "OPEC+ production"',
     "Uranium":
         '"Uranium prices" OR "Uranium mining"',
     "Natural Gas":
@@ -1312,15 +1316,26 @@ class MarketFetcher:
 
     cached_fresh = []
 
+    # Build the (source, query) list. Topics that carry a precision phrase in
+    # TICKER_SEARCH_TERMS also get a recency-bounded plain query: Google's
+    # exact-phrase search is sparse (often <50 hits, months old) and was
+    # starving hot topics (Israel, Interest Rates) of current headlines.
+    queries: List[Tuple[str, str, str]] = []  # (src_name, query_term, url)
     for src_name, url_template in feeds.items():
+      query_term = ticker
+      if src_name == "Google" and ticker in TICKER_SEARCH_TERMS:
+        query_term = TICKER_SEARCH_TERMS[ticker]
+      url = url_template.format(term=urllib.parse.quote(query_term))
+      queries.append((src_name, query_term, url))
+      if (src_name == "Google" and ticker in config.NEWS_TOPICS and
+          query_term != ticker):
+        recent_term = f"{ticker} when:{TOPIC_RECENT_WINDOW_DAYS}d"
+        queries.append(
+            (src_name, recent_term,
+             url_template.format(term=urllib.parse.quote(recent_term))))
+
+    for src_name, query_term, url in queries:
       try:
-        query_term = ticker
-        if src_name == "Google" and ticker in TICKER_SEARCH_TERMS:
-          query_term = TICKER_SEARCH_TERMS[ticker]
-
-        safe_term = urllib.parse.quote(query_term)
-        url = url_template.format(term=safe_term)
-
         raw_content = self._fetch_rss_content(url, src_name, ticker)
         if not raw_content:
           continue
@@ -1346,8 +1361,12 @@ class MarketFetcher:
           else:
             summary_text = re.sub(r'<[^>]+>', '', summary_text).strip()[:500]
 
-          # Noise filter for short/ambiguous tickers
-          if ticker in TICKER_SEARCH_TERMS:
+          # Noise filter for short/ambiguous tickers only. Topics (e.g.
+          # "Hormuz", "Israel") also carry search terms for query precision
+          # but must NOT be filtered to finance keywords, otherwise
+          # geopolitical headlines are dropped wholesale.
+          if (ticker in TICKER_SEARCH_TERMS and
+              ticker not in config.NEWS_TOPICS):
             text_lower = (entry.title + " " + summary_text).lower()
             fin_kw = [
                 'stock', 'shares', 'earnings', 'dividend', 'revenue',
