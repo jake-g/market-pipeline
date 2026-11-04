@@ -1,3 +1,4 @@
+import argparse
 import asyncio
 import datetime
 import json
@@ -24,6 +25,41 @@ PORTWATCH_CHOKEPOINTS: Dict[str, Tuple[str, float]] = {
     "Suez Canal": ("Suez_Canal", 70.0),
     "Bab el-Mandeb Strait": ("Bab_el_Mandeb", 70.0),
 }
+
+# IMF PortWatch ArcGIS FeatureServer. The hosted path casing has flipped in the
+# past, so both variants are tried before giving up.
+PORTWATCH_HOST = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG"
+PORTWATCH_PATHS: Tuple[str, ...] = ("arcgis", "ArcGIS")
+PORTWATCH_MAX_RECORDS = 1000
+# The service intermittently answers "Invalid URL" / times out; retry a few
+# times per path before declaring an outage.
+PORTWATCH_RETRIES = 3
+PORTWATCH_RETRY_SLEEP_SECONDS = 2.0
+PORTWATCH_TIMEOUT_SECONDS = 30
+PORTWATCH_PORT_IDS_CACHE_SECONDS = 86400 * 30
+
+# Major ports tracked in port_calls.tsv, using native PortWatch `portname`
+# values (Los Angeles and Long Beach are a single PortWatch port).
+PORTWATCH_PORTS: Tuple[str, ...] = (
+    "Shanghai",
+    "Ningbo",
+    "Singapore",
+    "Busan",
+    "Rotterdam",
+    "Antwerp",
+    "Los Angeles-Long Beach",
+    "Houston (US-TX)",
+    "Jebel Ali",
+    "Kaohsiung",
+    "Hamburg",
+)
+PORT_CALLS_COLUMNS = [
+    "Date", "Port", "Country", "Portcalls", "Portcalls_Container",
+    "Portcalls_Tanker", "Portcalls_Dry_Bulk", "Import_Tons", "Export_Tons"
+]
+CHOKEPOINT_COLUMNS = [
+    "Date", "Chokepoint_Name", "Vessel_Count", "Congestion_Index"
+]
 
 
 class ShippingFetcher:
@@ -64,6 +100,12 @@ class ShippingFetcher:
       handler.setFormatter(formatter)
       self.logger.addHandler(handler)
       self.logger.setLevel(logging.INFO)
+      self.logger.propagate = False
+
+  @property
+  def port_calls_out_file(self) -> Path:
+    """Path of the long-format port calls TSV."""
+    return self.shipping_out_dir / "port_calls.tsv"
 
   def _get_cache_path(self, cache_key: str) -> Path:
     """Gets the filesystem path for a specific cache key.
@@ -418,156 +460,336 @@ class ShippingFetcher:
     }
 
   def gather_daily_metrics(self) -> pd.DataFrame:
-    '''Gathers all API metrics into a structured dataframe.
+    """Gathers live AISstream vessel counts for today.
+
+    Only chokepoints with a live vessel count > 0 are returned; nothing is
+    carried forward or defaulted so that gaps are never disguised as data.
 
     Returns:
-        pd.DataFrame: Today's bottleneck metrics.
-    '''
+        pd.DataFrame: Today's observed chokepoint rows (may be empty).
+    """
+    if not config.AISSTREAM_API_KEY:
+      self.logger.warning("AISSTREAM_API_KEY not set; skipping live AIS.")
+      return pd.DataFrame(columns=CHOKEPOINT_COLUMNS)
+
     chokepoints = self._get_default_chokepoints()
-
-    rows = []
-
     today_str = datetime.date.today().strftime("%Y-%m-%d")
     self.logger.info("Gathering AIS data for %d chokepoints...",
                      len(chokepoints))
-
-    # Read existing metrics to carry forward last known valid data if live AIS stream is silent
-    last_known_metrics = {}
-    try:
-      pw_df = self.fetch_portwatch_metrics(days=7)
-      if pw_df is not None and not pw_df.empty:
-        latest_date = pw_df["Date"].max()
-        for _, r in pw_df[pw_df["Date"] == latest_date].iterrows():
-          last_known_metrics[r["Chokepoint_Name"]] = r
-    except Exception:
-      pass
-
-    if self.shipping_out_file.exists():
-      try:
-        ex_df = pd.read_csv(self.shipping_out_file, sep='\t')
-        valid_ex = ex_df[ex_df['Vessel_Count'] > 0]
-        for p_name in chokepoints:
-          if p_name not in last_known_metrics:
-            p_rows = valid_ex[valid_ex['Chokepoint_Name'] == p_name]
-            if not p_rows.empty:
-              last_known_metrics[p_name] = p_rows.iloc[0]
-      except Exception:
-        pass
-
+    rows = []
     for point_name, params in tqdm(chokepoints.items(), desc="Shipping Data"):
       vessel_data = self.fetch_chokepoint_vessels(point_name, params)
-      vessels = vessel_data.get("data", []) if vessel_data else []
-      vessel_count = len(vessels)
-
-      if vessel_count > 0:
-        congestion = self.calculate_congestion_index(vessel_data or {},
-                                                     params['baseline'])
-      elif point_name in last_known_metrics:
-        # Fallback to previous day's valid vessel count & congestion metric
-        prev_row = last_known_metrics[point_name]
-        vessel_count = int(prev_row['Vessel_Count'])
-        congestion = float(prev_row['Congestion_Index'])
-      else:
-        # Fallback to default historical baseline
-        vessel_count = int(params['baseline'])
-        congestion = 1.0
-
+      vessel_count = len(vessel_data.get("data", [])) if vessel_data else 0
+      if vessel_count <= 0:
+        continue
+      congestion = self.calculate_congestion_index(vessel_data or {},
+                                                   params["baseline"])
       rows.append({
           "Date": today_str,
           "Chokepoint_Name": point_name,
           "Vessel_Count": vessel_count,
           "Congestion_Index": round(congestion, 2),
       })
+    return pd.DataFrame(rows, columns=CHOKEPOINT_COLUMNS)
 
-    return pd.DataFrame(rows)
+  def _portwatch_query(self, layer: str, params: Dict[str,
+                                                      str]) -> Optional[Dict]:
+    """Queries a PortWatch FeatureServer layer, handling ArcGIS error bodies.
+
+    ArcGIS returns HTTP 200 with an ``{"error": {...}}`` body on failure, so
+    the payload is inspected explicitly. Both path casings are attempted.
+
+    Args:
+        layer: FeatureServer service name (e.g. ``Daily_Ports_Data``).
+        params: Query-string parameters; ``f=json`` is added.
+
+    Returns:
+        Optional[Dict]: Parsed JSON payload, or None if every attempt failed.
+    """
+    query = dict(params, f="json")
+    attempts = [
+        (a, p) for a in range(PORTWATCH_RETRIES) for p in PORTWATCH_PATHS
+    ]
+    for attempt, path in attempts:
+      if attempt and path == PORTWATCH_PATHS[0]:
+        time.sleep(PORTWATCH_RETRY_SLEEP_SECONDS * attempt)
+      url = f"{PORTWATCH_HOST}/{path}/rest/services/{layer}/FeatureServer/0/query"
+      try:
+        resp = requests.get(url,
+                            params=query,
+                            timeout=PORTWATCH_TIMEOUT_SECONDS,
+                            headers={"User-Agent": "Mozilla/5.0"})
+      except requests.RequestException as e:
+        self.logger.warning("PortWatch %s request failed (%s): %s", layer, path,
+                            e)
+        continue
+      if resp.status_code != 200:
+        self.logger.warning("PortWatch %s HTTP %s (%s)", layer,
+                            resp.status_code, path)
+        continue
+      try:
+        data = resp.json()
+      except ValueError as e:
+        self.logger.warning("PortWatch %s returned non-JSON (%s): %s", layer,
+                            path, e)
+        continue
+      if "error" in data:
+        err = data["error"]
+        self.logger.warning("PortWatch %s ArcGIS error (%s): code=%s %s", layer,
+                            path, err.get("code"), err.get("message"))
+        continue
+      return data
+    return None
+
+  def _portwatch_features(self, layer: str,
+                          params: Dict[str, str]) -> Optional[List[Dict]]:
+    """Fetches all feature attributes for a query, paging via resultOffset.
+
+    Args:
+        layer: FeatureServer service name.
+        params: Query parameters (without paging keys).
+
+    Returns:
+        Optional[List[Dict]]: Attribute dicts, or None if the query failed.
+    """
+    rows: List[Dict] = []
+    offset = 0
+    while True:
+      page = dict(params,
+                  resultOffset=str(offset),
+                  resultRecordCount=str(PORTWATCH_MAX_RECORDS))
+      data = self._portwatch_query(layer, page)
+      if data is None:
+        return None
+      features = data.get("features", [])
+      rows.extend(f["attributes"] for f in features if "attributes" in f)
+      if not data.get("exceededTransferLimit") or not features:
+        return rows
+      offset += len(features)
 
   def fetch_portwatch_metrics(self, days: int = 90) -> Optional[pd.DataFrame]:
-    """Fetches real daily maritime chokepoint transit counts from IMF PortWatch."""
+    """Fetches real daily maritime chokepoint transit counts from IMF PortWatch.
+
+    Args:
+        days: Lookback window in days.
+
+    Returns:
+        Optional[pd.DataFrame]: Rows with native PortWatch dates, or None when
+        the service is unavailable. Failures are never cached.
+    """
     today = datetime.date.today()
     start_date = (today - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
     cache_key = f"portwatch_daily_{today.strftime('%Y%m%d')}"
     cached = self._load_cache(cache_key, expiry_seconds=3600 * 6)
-    if cached is not None and isinstance(cached,
-                                         pd.DataFrame) and not cached.empty:
+    if isinstance(cached, pd.DataFrame) and not cached.empty:
       return cached
 
-    url = ("https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/"
-           "Daily_Chokepoints_Data/FeatureServer/0/query")
-    where = f"date >= '{start_date}'"
-    params: Dict[str, str] = {
-        "where": where,
+    params = {
+        "where": f"date >= '{start_date}'",
         "outFields": "date,portname,portid,n_total,capacity",
         "orderByFields": "date DESC",
-        "resultRecordCount": "1000",
-        "f": "json",
+        "returnGeometry": "false",
     }
-    try:
-      resp = requests.get(url,
-                          params=params,
-                          timeout=10,
-                          headers={"User-Agent": "Mozilla/5.0"})
-      if resp.status_code == 200:
-        data = resp.json()
-        features = data.get("features", [])
-        if features:
-          rows = [f["attributes"] for f in features if "attributes" in f]
-          df = pd.DataFrame(rows)
-          if not df.empty and "portname" in df.columns:
-            df = df[df["portname"].isin(PORTWATCH_CHOKEPOINTS)].copy()
-            df["Chokepoint_Name"] = df["portname"].apply(
-                lambda p: PORTWATCH_CHOKEPOINTS[p][0])
-            df["Baseline"] = df["portname"].apply(
-                lambda p: PORTWATCH_CHOKEPOINTS[p][1])
-            df["Date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
-            df["Vessel_Count"] = df["n_total"].fillna(0).astype(int)
-            df["Congestion_Index"] = (df["Vessel_Count"] /
-                                      df["Baseline"]).round(2)
-            out_df = df[[
-                "Date", "Chokepoint_Name", "Vessel_Count", "Congestion_Index"
-            ]].sort_values(["Date", "Chokepoint_Name"], ascending=[False, True])
-            self._save_cache(cache_key, out_df)
-            self.logger.info(
-                "Fetched %d real chokepoint transit records from IMF PortWatch.",
-                len(out_df))
-            return out_df
-    except Exception as e:
-      self.logger.warning("IMF PortWatch query failed, using fallback: %s", e)
-    return None
+    rows = self._portwatch_features("Daily_Chokepoints_Data", params)
+    if not rows:
+      self.logger.warning("IMF PortWatch chokepoint data unavailable.")
+      return None
+
+    df = pd.DataFrame(rows)
+    if "portname" not in df.columns:
+      return None
+    df = df[df["portname"].isin(PORTWATCH_CHOKEPOINTS)].copy()
+    if df.empty:
+      return None
+    df["Chokepoint_Name"] = df["portname"].map(
+        lambda p: PORTWATCH_CHOKEPOINTS[p][0])
+    df["Baseline"] = df["portname"].map(lambda p: PORTWATCH_CHOKEPOINTS[p][1])
+    df["Date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
+    df["Vessel_Count"] = df["n_total"].fillna(0).astype(int)
+    df["Congestion_Index"] = (df["Vessel_Count"] / df["Baseline"]).round(2)
+    out_df = df[CHOKEPOINT_COLUMNS].sort_values(["Date", "Chokepoint_Name"],
+                                                ascending=[False, True])
+    self._save_cache(cache_key, out_df)
+    self.logger.info(
+        "Fetched %d real chokepoint transit records from PortWatch.",
+        len(out_df))
+    return out_df
+
+  @staticmethod
+  def purge_synthetic_rows(df: pd.DataFrame) -> pd.DataFrame:
+    """Drops trailing carry-forward duplicates from chokepoint rows.
+
+    Earlier versions relabelled the latest PortWatch rows with today's date.
+    Walking dates in ascending order, a date is synthetic when every one of its
+    (chokepoint, Vessel_Count, Congestion_Index) tuples equals the most recent
+    prior observation. Only the trailing run of such dates is removed, so the
+    last genuine observation date becomes the max Date. Safe to rerun.
+
+    Args:
+        df: Chokepoint rows with CHOKEPOINT_COLUMNS.
+
+    Returns:
+        pd.DataFrame: Rows with the synthetic tail removed.
+    """
+    if df.empty:
+      return df
+    last_seen: Dict[str, Tuple[int, float]] = {}
+    synthetic_dates: List[str] = []
+    for date, grp in df.sort_values("Date").groupby("Date", sort=True):
+      names: List[str] = grp["Chokepoint_Name"].astype(str).tolist()
+      counts: List[int] = grp["Vessel_Count"].astype(int).tolist()
+      idx: List[float] = grp["Congestion_Index"].astype(float).tolist()
+      vals = dict(zip(names, zip(counts, idx)))
+      is_dup = bool(last_seen) and all(
+          last_seen.get(k) == v for k, v in vals.items())
+      synthetic_dates = synthetic_dates + [str(date)] if is_dup else []
+      last_seen.update(vals)
+    return df[~df["Date"].isin(synthetic_dates)]
 
   def generate_daily_shipping_report(self) -> None:
-    '''Aggregates metrics and outputs the TSV for NotebookLM.'''
-    pw_df = self.fetch_portwatch_metrics(days=90)
-    if pw_df is not None and not pw_df.empty:
-      df = pw_df.copy()
-      today_str = datetime.date.today().strftime("%Y-%m-%d")
-      latest_pw_date = df["Date"].max()
-      if latest_pw_date < today_str:
-        today_rows = df[df["Date"] == latest_pw_date].copy()
-        today_rows["Date"] = today_str
-        df = pd.concat([today_rows, df], ignore_index=True)
-    else:
-      df = self.gather_daily_metrics()
+    """Merges native-dated PortWatch chokepoint rows into the TSV.
 
-    if df.empty:
-      self.logger.warning(
-          "No shipping data gathered. Skipping report generation.")
-      return
-
-    # Save to TSV (append if exists, otherwise write)
+    Rows are never relabelled to today. When PortWatch is unavailable the TSV
+    is left untouched (apart from synthetic-row cleanup) unless AISstream is
+    configured and returns live counts.
+    """
+    existing = pd.DataFrame(columns=CHOKEPOINT_COLUMNS)
     if self.shipping_out_file.exists():
-      existing_df = pd.read_csv(self.shipping_out_file, sep='\t')
-      # Remove overlapping rows
-      existing_df = existing_df[~existing_df['Date'].isin(df['Date'])]
-      final_df = pd.concat([existing_df, df], ignore_index=True)
-    else:
-      final_df = df
+      existing = pd.read_csv(self.shipping_out_file, sep="\t")
+      cleaned = self.purge_synthetic_rows(existing)
+      if len(cleaned) != len(existing):
+        self.logger.warning("Purged %d synthetic carry-forward rows from %s",
+                            len(existing) - len(cleaned),
+                            self.shipping_out_file.name)
+      existing = cleaned
 
-    # Order rows
+    new_df = self.fetch_portwatch_metrics(days=90)
+    if new_df is None or new_df.empty:
+      last_date = existing["Date"].max() if not existing.empty else None
+      stale = ((datetime.date.today() -
+                datetime.date.fromisoformat(last_date)).days
+               if last_date else -1)
+      self.logger.warning(
+          "PortWatch chokepoints unavailable; last observed date = %s "
+          "(%d days stale)", last_date, stale)
+      new_df = self.gather_daily_metrics()
+      if new_df.empty:
+        self.logger.warning("No live AIS counts; chokepoint TSV not updated.")
+        if not existing.empty:
+          self._write_chokepoints(existing)
+        return
+
+    self._write_chokepoints(pd.concat([existing, new_df], ignore_index=True))
+
+  def _write_chokepoints(self, df: pd.DataFrame) -> None:
+    """Deduplicates on (Date, Chokepoint_Name) and writes the TSV."""
+    final_df = df.drop_duplicates(subset=["Date", "Chokepoint_Name"],
+                                  keep="last")
     final_df = final_df.sort_values(by=["Date", "Chokepoint_Name"],
                                     ascending=[False, True])
-    final_df.to_csv(self.shipping_out_file, sep='\t', index=False)
-    self.logger.info("Saved shipping metrics to %s",
-                     self.shipping_out_file.name)
+    final_df.to_csv(self.shipping_out_file, sep="\t", index=False)
+    self.logger.info("Saved shipping metrics to %s (latest date %s)",
+                     self.shipping_out_file.name, final_df["Date"].max())
+
+  def fetch_portwatch_port_ids(self) -> Dict[str, Tuple[str, str]]:
+    """Resolves PORTWATCH_PORTS names to PortWatch port ids (cached 30 days).
+
+    Returns:
+        Dict[str, Tuple[str, str]]: portname -> (portid, country).
+    """
+    cache_key = "portwatch_port_ids"
+    cached = self._load_cache(cache_key,
+                              expiry_seconds=PORTWATCH_PORT_IDS_CACHE_SECONDS)
+    if isinstance(cached, dict) and cached:
+      return cached
+
+    names = ",".join(f"'{p}'" for p in PORTWATCH_PORTS)
+    params = {
+        "where": f"portname IN ({names})",
+        "outFields": "portid,portname,country",
+        "returnGeometry": "false",
+    }
+    rows = self._portwatch_features("PortWatch_ports_database", params)
+    if not rows:
+      return {}
+    ids = {r["portname"]: (r["portid"], r.get("country", "")) for r in rows}
+    missing = sorted(set(PORTWATCH_PORTS) - set(ids))
+    if missing:
+      self.logger.warning("PortWatch port ids not found for: %s", missing)
+    self._save_cache(cache_key, ids)
+    return ids
+
+  def fetch_portwatch_port_calls(self,
+                                 days: int = 90) -> Optional[pd.DataFrame]:
+    """Fetches daily port calls for major ports and merges into port_calls.tsv.
+
+    Args:
+        days: Lookback window in days (use 365 for a backfill).
+
+    Returns:
+        Optional[pd.DataFrame]: Newly fetched long-format rows, or None if
+        PortWatch was unavailable.
+    """
+    port_ids = self.fetch_portwatch_port_ids()
+    if not port_ids:
+      self.logger.warning(
+          "No PortWatch port ids resolved; skipping port calls.")
+      return None
+
+    start = (datetime.date.today() -
+             datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+    out_fields = ("date,portid,portname,country,portcalls,"
+                  "portcalls_container,portcalls_tanker,"
+                  "portcalls_dry_bulk,import,export")
+    # One query per port: the service is flaky, so partial progress is kept
+    # and gaps are filled idempotently on the next run.
+    rows: List[Dict] = []
+    failed: List[str] = []
+    for name, (pid, _) in port_ids.items():
+      params = {
+          "where": f"portid IN ('{pid}') AND date >= '{start}'",
+          "outFields": out_fields,
+          "orderByFields": "date ASC",
+          "returnGeometry": "false",
+      }
+      port_rows = self._portwatch_features("Daily_Ports_Data", params)
+      if port_rows is None:
+        failed.append(name)
+      else:
+        rows.extend(port_rows)
+    if failed:
+      self.logger.warning("PortWatch port calls failed for: %s", failed)
+    if not rows:
+      self.logger.warning("PortWatch port calls unavailable.")
+      return None
+
+    df = pd.DataFrame(rows).rename(
+        columns={
+            "date": "Date",
+            "portname": "Port",
+            "country": "Country",
+            "portcalls": "Portcalls",
+            "portcalls_container": "Portcalls_Container",
+            "portcalls_tanker": "Portcalls_Tanker",
+            "portcalls_dry_bulk": "Portcalls_Dry_Bulk",
+            "import": "Import_Tons",
+            "export": "Export_Tons",
+        })
+    df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%Y-%m-%d")
+    df = df[PORT_CALLS_COLUMNS]
+
+    if self.port_calls_out_file.exists():
+      existing = pd.read_csv(self.port_calls_out_file, sep="\t")
+      merged = pd.concat([existing, df], ignore_index=True)
+    else:
+      merged = df
+    merged = merged.drop_duplicates(subset=["Date", "Port"], keep="last")
+    merged = merged.sort_values(["Date", "Port"], ascending=[False, True])
+    merged.to_csv(self.port_calls_out_file, sep="\t", index=False)
+    self.logger.info("Saved %d port-call rows to %s (latest date %s)",
+                     len(merged), self.port_calls_out_file.name,
+                     merged["Date"].max())
+    return df
 
 
 class TariffFetcher:
@@ -860,28 +1082,32 @@ class TariffFetcher:
       self.logger.info("Saved macro metrics to shipping_macro.tsv")
 
 
-if __name__ == "__main__":
-  import argparse
+def main() -> None:
+  """CLI entrypoint: chokepoints, port calls, then tariffs."""
   parser = argparse.ArgumentParser(description="Run Shipping & Tariff Fetchers")
   parser.add_argument("--backfill",
                       action="store_true",
-                      help="Fetch deep history")
+                      help="Fetch deep history (port calls: 365 days)")
   args = parser.parse_args()
-
-  fetcher_start_time = time.time()
+  logger = logging.getLogger("shipping_fetcher")
+  start = time.time()
 
   t0 = time.time()
   shipping_fetcher = ShippingFetcher()
   shipping_fetcher.generate_daily_shipping_report()
-  print(
-      f"⏱️  [Shipping] Daily shipping report generated in {int(time.time() - t0)}s"
-  )
+  shipping_fetcher.fetch_portwatch_port_calls(days=365 if args.backfill else 90)
+  logger.info("[Shipping] Daily shipping report generated in %ds",
+              int(time.time() - t0))
 
   t0 = time.time()
   tariff_fetcher = TariffFetcher()
   tariff_fetcher.generate_tariff_report(backfill=args.backfill)
-  print(f"⏱️  [Shipping] Tariff report generated in {int(time.time() - t0)}s")
+  logger.info("[Shipping] Tariff report generated in %ds",
+              int(time.time() - t0))
+  logger.info("Total Shipping Fetcher execution time: %ds",
+              int(time.time() - start))
 
-  print(
-      f"🏁 Total Shipping Fetcher execution time: {int(time.time() - fetcher_start_time)}s"
-  )
+
+if __name__ == "__main__":
+  logging.basicConfig(level=logging.INFO, format="%(message)s")
+  main()

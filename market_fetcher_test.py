@@ -995,19 +995,17 @@ class TestShippingFetcher(unittest.TestCase):
     self.assertEqual(val_cap, 5.0)
 
   def test_generate_daily_shipping_report(self):
-    """Verify full loop generates TSV and formats Dataframe properly."""
-    config.AISSTREAM_API_KEY = None  # Safely force the mock data returns
-    with patch.object(self.fetcher.logger, "warning"):
+    """PortWatch down + no AIS key: no rows written, warning logged."""
+    config.AISSTREAM_API_KEY = None
+    with patch.object(self.fetcher, "fetch_portwatch_metrics",
+                      return_value=None), \
+        patch.object(self.fetcher.logger, "warning") as mock_warn:
       self.fetcher.generate_daily_shipping_report()
 
     tsv_file = self.test_dir / "shipping" / "chokepoint_metrics.tsv"
-    self.assertTrue(tsv_file.exists())
-
-    df = pd.read_csv(tsv_file, sep='\t')
-    # Validate multiple geofences fetched
-    self.assertIn("Hormuz", df["Chokepoint_Name"].values)
-    self.assertIn("Taiwan_Strait", df["Chokepoint_Name"].values)
-    self.assertTrue(len(df) > 0)
+    self.assertFalse(tsv_file.exists())
+    msgs = [str(c.args[0]) for c in mock_warn.call_args_list]
+    self.assertTrue(any("PortWatch chokepoints unavailable" in m for m in msgs))
 
 
 class TestTariffFetcher(unittest.TestCase):

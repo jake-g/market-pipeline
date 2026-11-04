@@ -42,6 +42,10 @@ SHIPPING_CHOKEPOINT_TSV = os.path.join(config.MARKET_DATA_DIR, "shipping",
                                        "chokepoint_metrics.tsv")
 SHIPPING_MACRO_TSV = os.path.join(config.MARKET_DATA_DIR, "shipping",
                                   "shipping_macro.tsv")
+SHIPPING_PORT_CALLS_TSV = os.path.join(config.MARKET_DATA_DIR, "shipping",
+                                       "port_calls.tsv")
+# Chokepoint data older than this (days) triggers a staleness warning.
+SHIPPING_STALE_DAYS = 3
 
 RENDERED_DIR = os.path.join(REPORTS_DIR, "news", "rendered")
 
@@ -688,6 +692,65 @@ right rebases commodities and the dollar to 100 at the window start.
   render_markdown_to_pdf(report_path)
 
 
+def load_port_calls() -> Optional[pd.DataFrame]:
+  """Loads port_calls.tsv with a parsed Date column, or None if missing."""
+  if not os.path.exists(SHIPPING_PORT_CALLS_TSV):
+    return None
+  pc = pd.read_csv(SHIPPING_PORT_CALLS_TSV, sep="\t")
+  if pc.empty or "Date" not in pc.columns:
+    return None
+  pc["Date"] = pd.to_datetime(pc["Date"])
+  return pc.sort_values(["Port", "Date"])
+
+
+def build_port_calls_table(pc: pd.DataFrame) -> str:
+  """Builds a 7-day vs prior-4-week port-calls markdown table per port."""
+  rows: List[List[Any]] = []
+  for port, g in pc.groupby("Port"):
+    g = g.set_index("Date").sort_index()
+    last = g.index.max()
+    recent = g[g.index > last - pd.Timedelta(days=7)]
+    prior = g[(g.index <= last - pd.Timedelta(days=7)) &
+              (g.index > last - pd.Timedelta(days=35))]
+    avg7 = recent["Portcalls"].mean()
+    avg4w = prior["Portcalls"].mean() if not prior.empty else np.nan
+    delta = safe_pct_change(avg4w, avg7)
+    rows.append([
+        port,
+        g["Country"].iloc[-1],
+        last.strftime("%Y-%m-%d"),
+        round(avg7, 1),
+        round(avg4w, 1) if pd.notna(avg4w) else "n/a",
+        f"{delta:+.1f}%" if pd.notna(delta) else "n/a",
+        round(recent["Portcalls_Container"].mean(), 1),
+        round(recent["Portcalls_Tanker"].mean(), 1),
+    ])
+  rows.sort(key=lambda r: -float(r[3]))
+  return tabulate(rows,
+                  headers=[
+                      "Port", "Country", "Last Date", "7d Avg Calls",
+                      "4w Avg Calls", "Δ%", "Container 7d", "Tanker 7d"
+                  ],
+                  tablefmt="github")
+
+
+def plot_port_calls(ax: Any, pc: pd.DataFrame) -> bool:
+  """Overlays z-scored 7-day rolling port calls per port; True if drawn."""
+  drawn = False
+  for port, g in pc.groupby("Port"):
+    s = g.set_index("Date")["Portcalls"].rolling(7, min_periods=4).mean()
+    s = s.dropna()
+    if len(s) < 2 or s.std() == 0:
+      continue
+    ax.plot(s.index, (s - s.mean()) / s.std(),
+            label=f"{port} calls (7d)",
+            linewidth=1.2,
+            linestyle="--",
+            alpha=0.8)
+    drawn = True
+  return drawn
+
+
 def generate_shipping_report() -> None:
   """Generates global maritime shipping and supply chain intelligence report."""
   if not os.path.exists(SHIPPING_CHOKEPOINT_TSV):
@@ -760,14 +823,18 @@ def generate_shipping_report() -> None:
           ax_macro.plot(group["Date"], norm_v, label=name, linewidth=2.2)
           has_shipping_macro = True
 
-  if has_shipping_macro:
+  port_calls = load_port_calls()
+  has_port_calls = port_calls is not None and plot_port_calls(
+      ax_macro, port_calls)
+
+  if has_shipping_macro or has_port_calls:
     ax_macro.set_title(
-        "Freight Macro Trends (Z-Score)",
+        "Freight Macro & Port Calls (Z-Score, 7d)",
         fontweight="bold",
         fontsize=12,
     )
     ax_macro.set_ylabel("Z-Score")
-    ax_macro.legend(loc="upper left", framealpha=0.9, fontsize=9)
+    ax_macro.legend(loc="upper left", framealpha=0.9, fontsize=7, ncol=2)
     ax_macro.grid(True, alpha=0.3)
   else:
     pivot_df = df.pivot(index="Date",
@@ -785,6 +852,29 @@ def generate_shipping_report() -> None:
   timeline_img_path = os.path.join(RENDERED_DIR, "shipping_timeline.png")
   plt.savefig(timeline_img_path, dpi=300)
   plt.close()
+
+  # Staleness of chokepoint data (PortWatch outage detection).
+  data_as_of = latest_date.strftime("%Y-%m-%d")
+  stale_days = (pd.Timestamp(datetime.date.today()) - latest_date).days
+  stale_md = ""
+  if stale_days > SHIPPING_STALE_DAYS:
+    stale_md = f"""
+> [!WARNING]
+> Chokepoint data is **{stale_days} days stale** (last observation \
+{data_as_of}). The IMF PortWatch `Daily_Chokepoints_Data` service is \
+currently returning errors; values above are the last real observations and \
+are **not** carried forward as current.
+"""
+
+  # Major port calls table.
+  port_calls_md = ""
+  if port_calls is not None:
+    port_calls_md = f"""
+## Major Port Calls (7-day avg vs prior 4 weeks)
+{build_port_calls_table(port_calls)}
+
+Source: IMF PortWatch `Daily_Ports_Data` (`port_calls.tsv`).
+"""
 
   # 2. Latest Status Table
   table_md = tabulate(
@@ -848,7 +938,9 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 
 ## Chokepoint Status
 {table_md}
-{macro_section}
+
+Data as of {data_as_of}
+{stale_md}{port_calls_md}{macro_section}
 """
 
   report_path = os.path.join(REPORTS_DIR, "news", "SHIPPING_REPORT.md")
