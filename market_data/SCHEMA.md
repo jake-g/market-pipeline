@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-10-26 |
-| Source | str | Yahoo |
-| Sentiment | float64 | -0.106 |
-| Headline | str | Egan-Jones Examines Why China's Growth Has Not ... |
+| Date | str | 2026-11-03 |
+| Source | str | Google |
+| Sentiment | float64 | 0.357 |
+| Headline | str | BD Launches BACTEC FXI Culture System - Infecti... |
 | Summary | str | Egan-Jones released an analysis examining why C... |
-| URL | str | https://finance.yahoo.com/markets/stocks/articl... |
+| URL | str | https://news.google.com/rss/articles/CBMiqAFBVV... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News
@@ -48,14 +48,14 @@ This report documents the file structures and column data types used in `market_
 | AIR_PPI | float64 | 181.846 |
 | TRUCK_PPI | float64 | 219.384 |
 | WAREHOUSE_PPI | float64 | 166.867 |
-| MFG_CONST | float64 | 170701.0 |
+| MFG_CONST | float64 | 170217.0 |
 | TECH_PULSE | float64 | 95.1941 |
 | CHINA_IMPORTS | float64 | 27133.8159 |
 | TARIFFS | float64 | 275.296 |
-| USD_INDEX | float64 | 121.3202 |
-| USD_CNY | float64 | 6.6702 |
-| USD_EUR | float64 | 1.1199 |
-| USD_JPY | float64 | 156.87 |
+| USD_INDEX | float64 | 121.6656 |
+| USD_CNY | float64 | 6.6538 |
+| USD_EUR | float64 | 1.1163 |
+| USD_JPY | float64 | 157.47 |
 | FOOD_CPI | float64 | 350.905 |
 | CORN_PRICE | float64 | 236.9161 |
 | WHEAT_PRICE | float64 | 246.8518 |
@@ -75,32 +75,32 @@ This report documents the file structures and column data types used in `market_
 | REAL_GDP | float64 | 24611.077 |
 | UNRATE | float64 | 4.2 |
 | HOUSING_STARTS | float64 | 1221.0 |
-| RECESSION_PROB | float64 | 0.62 |
+| RECESSION_PROB | float64 | 0.4 |
 | UMICH_SENTIMENT | float64 | 48.1 |
 | SAVINGS_RATE | float64 | 3.8 |
 | M2_MONEY | float64 | 23413.9 |
 | M2_VELOCITY | float64 | 1.417 |
 | FED_ASSETS | float64 | 6745635.0 |
 | CPI | float64 | 336.298 |
-| FEDFUNDS | float64 | 3.75 |
-| US02Y | float64 | 4.61 |
-| US10Y | float64 | 4.98 |
-| US30Y | float64 | 5.32 |
-| HY_SPREAD | float64 | 3.26 |
-| CORP_SPREAD | float64 | 0.89 |
-| BAA_SPREAD | float64 | 1.49 |
-| AAA_SPREAD | float64 | 1.0 |
+| FEDFUNDS | float64 | 3.88 |
+| US02Y | float64 | 4.59 |
+| US10Y | float64 | 4.91 |
+| US30Y | float64 | 5.28 |
+| HY_SPREAD | float64 | 3.43 |
+| CORP_SPREAD | float64 | 0.94 |
+| BAA_SPREAD | float64 | 1.53 |
+| AAA_SPREAD | float64 | 1.08 |
 | FEDFUNDS_UPPER | float64 | 4.0 |
-| SOFR | float64 | 3.94 |
-| US03M | float64 | 4.18 |
-| US01Y | float64 | 4.42 |
-| US05Y | float64 | 4.78 |
-| US10Y_REAL | float64 | 2.63 |
-| BREAKEVEN_10Y | float64 | 2.34 |
-| TERM_PREMIUM_10Y | float64 | 0.9358 |
-| HY_YIELD | float64 | 7.99 |
+| SOFR | float64 | 3.95 |
+| US03M | float64 | 4.21 |
+| US01Y | float64 | 4.38 |
+| US05Y | float64 | 4.7 |
+| US10Y_REAL | float64 | 2.62 |
+| BREAKEVEN_10Y | float64 | 2.3 |
+| TERM_PREMIUM_10Y | float64 | 0.9089 |
+| HY_YIELD | float64 | 8.12 |
 | CORP_YIELD | float64 | 5.79 |
-| US_POLICY_UNCERTAINTY | float64 | 251.1 |
+| US_POLICY_UNCERTAINTY | float64 | 415.28 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 373.5523 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.5837 |

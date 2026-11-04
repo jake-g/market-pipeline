@@ -13,8 +13,6 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 | Chokepoint    |   Vessels |   Congestion Index |
 |---------------|-----------|--------------------|
 | Hormuz        |         2 |               0.03 |
-| Bab_el_Mandeb |        36 |               0.51 |
-| Suez_Canal    |        46 |               0.66 |
 | Panama_Canal  |        28 |               0.78 |
 | Malacca       |       212 |               0.96 |
 | Taiwan_Strait |       240 |               1.09 |
