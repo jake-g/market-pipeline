@@ -1,7 +1,7 @@
 # Makefile for market-pipeline
 # Handles setup, testing, formatting, serving, and other utility tasks.
 
-.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch fetch-data sync-notebooklm sync market-fetch shipping-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth backup-reports clean
+.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch fetch-data sync-notebooklm sync market-fetch shipping-fetch political-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth backup-reports clean
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
 export PYTHONSAFEPATH := 1
@@ -25,7 +25,8 @@ help:
 	@echo "  make sync-notebooklm    - Run NotebookLM pipeline (news feed, periodic reports, PDFs)"
 	@echo "  make market-fetch       - Run market fetcher stage (Prices, Financials, News)"
 	@echo "  make shipping-fetch     - Run shipping & maritime chokepoint fetcher stage"
-	@echo "  make reports-macro      - Generate macro economic indicator & shipping reports"
+	@echo "  make political-fetch    - Run political sentiment fetcher (Polymarket odds, approval)"
+	@echo "  make reports-macro      - Generate macro economic indicator, shipping & political reports"
 	@echo "  make portfolio          - Run portfolio synthesis pipeline (LIVE mode)"
 	@echo "  make portfolio-offline  - Run portfolio synthesis pipeline (OFFLINE mode)"
 	@echo "  make sync-news          - Upload daily market feed news archive to NotebookLM"
@@ -159,12 +160,13 @@ fetch:
 # Alias for make fetch
 sync: fetch
 
-# Fast data-only fetch (market + shipping + macro + portfolio + backup + dashboard, ~3m)
+# Fast data-only fetch (market + shipping + political + macro + portfolio + backup + dashboard, ~3m)
 fetch-data: setup
 	@echo "📊 Running Data Fetch Pipeline (market + shipping + macro + portfolio + dashboard)..."
 	@t_data_start=$$(date +%s); \
 	$(MAKE) market-fetch && \
 	$(MAKE) shipping-fetch && \
+	$(MAKE) political-fetch && \
 	$(MAKE) reports-macro && \
 	$(MAKE) portfolio && \
 	$(MAKE) backup-reports && \
@@ -192,6 +194,12 @@ shipping-fetch: setup
 	@t_start=$$(date +%s); \
 	venv/bin/python3 shipping_fetcher.py 2>&1 | tee logs/run_shipping_fetcher.log; \
 	echo "⏱️  [Pipeline] Shipping Fetcher completed in $$(($$(date +%s)-t_start))s."
+
+political-fetch: setup
+	@echo "🗳️  Running Political Sentiment Fetcher (Polymarket + approval polls)..."
+	@t_start=$$(date +%s); \
+	venv/bin/python3 political_fetcher.py 2>&1 | tee logs/run_political_fetcher.log; \
+	echo "⏱️  [Pipeline] Political Fetcher completed in $$(($$(date +%s)-t_start))s."
 
 reports-macro: setup
 	@echo "🌍 Generating Macro & Shipping Reports..."

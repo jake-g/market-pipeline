@@ -45,6 +45,63 @@ SHIPPING_MACRO_TSV = os.path.join(config.MARKET_DATA_DIR, "shipping",
 
 RENDERED_DIR = os.path.join(REPORTS_DIR, "news", "rendered")
 
+POLITICAL_ODDS_TSV = os.path.join(config.MARKET_DATA_DIR, "political",
+                                  "political_odds.tsv")
+POLITICAL_EVENTS_TSV = os.path.join(config.MARKET_DATA_DIR, "political",
+                                    "political_events.tsv")
+# Odds older than this (days) trigger a staleness warning.
+POLITICAL_STALE_DAYS = 2
+# Movers table ignores thin sub-markets below this lifetime volume (USD).
+POLITICAL_MOVER_MIN_VOLUME = 10_000
+# (label, key, outcome); outcome None = top outcome on the latest date.
+POLITICAL_DASHBOARD: List[Tuple[str, str, Optional[str]]] = [
+    ("House → Democrats", "house_2026", "Democratic Party"),
+    ("Senate → Democrats", "senate_2026", "Democratic Party"),
+    ("Dec FOMC (top)", "fed_decision_dec_2026", None),
+    ("Fed cuts in 2026 (top)", "fed_cuts_2026", None),
+    ("Fed funds end-2026 (top)", "fed_rate_end_2026", None),
+    ("10Y high 2026 (top bucket)", "us10y_high_2026", None),
+    ("Shutdown by Dec 31", "gov_shutdown", "December 31"),
+    ("US recession 2026", "us_recession_2026", "Yes"),
+    ("Taiwan invasion 2026", "china_taiwan_invasion", "Yes"),
+    ("Taiwan invasion by 2027", "china_taiwan_invasion_2027", "Yes"),
+    ("Hormuz normal by Dec 31", "hormuz_traffic_normal", "Yes"),
+    ("Anthropic IPO by Dec 15", "anthropic_ipo", "December 15, 2026"),
+    ("Trump approve (14d)", "approval_trump", "Approve"),
+    ("Trump disapprove (14d)", "approval_trump", "Disapprove"),
+]
+# (label, key, outcome) for the geopolitics tail-risk dashboard.
+POLITICAL_TAIL_RISKS: List[Tuple[str, str, Optional[str]]] = [
+    ("China invades Taiwan 2026", "china_taiwan_invasion", "Yes"),
+    ("China invades Taiwan by 2027", "china_taiwan_invasion_2027", "Yes"),
+    ("China–Taiwan clash", "china_taiwan_clash", "Yes"),
+    ("China–Taiwan blockade", "china_taiwan_blockade", "Yes"),
+    ("US–China military clash", "us_china_military_clash", "Yes"),
+    ("US invades Iran", "us_invade_iran", "Yes"),
+    ("Iran regime falls 2026", "iran_regime_fall_2026", "Yes"),
+    ("Hormuz traffic normal", "hormuz_traffic_normal", "Yes"),
+    ("US acquires Greenland", "greenland_acquire", "Yes"),
+    ("US strikes Cuba", "us_strike_cuba", "Yes"),
+    ("NK invades SK", "nk_invade_sk", "Yes"),
+    ("India–Pakistan strike", "india_pakistan_strike", "Yes"),
+    ("Ukraine joins NATO", "ukraine_nato", "Yes"),
+    ("US default 2027", "us_default_2027", "Yes"),
+    ("Fed emergency cut", "fed_emergency_cut", "Yes"),
+    ("AI bubble burst (top)", "ai_bubble_burst", None),
+    ("US recession 2026", "us_recession_2026", "Yes"),
+]
+# Section title -> (categories, plots embedded under the section).
+POLITICAL_SECTIONS: Dict[str, Tuple[List[str], List[str]]] = {
+    "Elections": (["elections", "elections_2028", "approval"],
+                  ["political_elections.png", "political_approval.png"]),
+    "Fed & Rates": (["fed", "rates"], ["political_fed_rates.png"]),
+    "Fiscal, Economy & Trade":
+        (["fiscal", "economy", "trade", "energy", "domestic"], []),
+    "Geopolitics": (["geopolitics"], ["political_geopolitics.png"]),
+    "Markets & IPOs": (["markets"], []),
+    "Foreign Politics": (["foreign_elections"], []),
+}
+
 
 def safe_pct_change(old_val: float, new_val: float) -> float:
   """Computes percentage change safely handling nulls and zeros."""
@@ -801,6 +858,442 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
   render_markdown_to_pdf(report_path)
 
 
+# ---------------------------------------------------------------------------
+# Political sentiment report: prediction-market odds + approval + calendar
+# ---------------------------------------------------------------------------
+
+
+def _fmt_prob(x: float) -> str:
+  return "—" if pd.isna(x) else f"{x * 100:.1f}%"
+
+
+def _fmt_pp(x: float) -> str:
+  return "—" if pd.isna(x) else f"{x * 100:+.1f}"
+
+
+def _fmt_volume(x: float) -> str:
+  return f"${x / 1e6:.1f}M" if x >= 1e6 else f"${x / 1e3:.0f}K"
+
+
+def _latest_and_deltas(
+    df: pd.DataFrame,
+    key: str,
+    outcome: Optional[str] = None) -> Optional[Dict[str, Any]]:
+  """Latest probability of a (key, outcome) and its 1/7/30-day changes.
+
+  "Now" is the key's own latest date (approval polls lag the odds by weeks)
+  and each delta compares against the nearest prior print on or before the
+  target date, so sparse histories degrade to NaN rather than crash.
+
+  Args:
+    df: Long-format political odds frame with a datetime ``Date`` column.
+    key: Config key (e.g. ``house_2026``).
+    outcome: Sub-market label; None picks the top outcome on the latest date.
+
+  Returns:
+    Dict with key, outcome, category, prob, d1, d7, d30, volume, date; or
+    None when the key/outcome is absent.
+  """
+  sub = df[df["Key"] == key]
+  if sub.empty:
+    return None
+  if outcome is None:
+    latest = sub[sub["Date"] == sub["Date"].max()]
+    outcome = str(
+        latest.sort_values("Prob", ascending=False)["Outcome"].iloc[0])
+  sub = sub[sub["Outcome"] == outcome].sort_values("Date")
+  if sub.empty:
+    return None
+  s = sub.set_index("Date")["Prob"].astype(float)
+  now, when = float(s.iloc[-1]), s.index[-1]
+  return {
+      "key": key,
+      "outcome": outcome,
+      "category": str(sub["Category"].iloc[-1]),
+      "prob": now,
+      "d1": now - _nearest_before(s, when - pd.Timedelta(days=1)),
+      "d7": now - _nearest_before(s, when - pd.Timedelta(days=7)),
+      "d30": now - _nearest_before(s, when - pd.Timedelta(days=30)),
+      "volume": float(sub["Volume_USD"].iloc[-1]),
+      "date": when,
+  }
+
+
+def _political_snapshot(df: pd.DataFrame) -> pd.DataFrame:
+  """One row per (Key, Outcome) with latest prob, deltas and volume."""
+  pairs = df[["Key", "Outcome"]].drop_duplicates().itertuples(index=False)
+  rows = [_latest_and_deltas(df, k, o) for k, o in pairs]
+  return pd.DataFrame([r for r in rows if r is not None])
+
+
+def _political_series(df: pd.DataFrame, key: str, outcome: str) -> pd.Series:
+  sub = df[(df["Key"] == key) & (df["Outcome"] == outcome)].sort_values("Date")
+  return sub.set_index("Date")["Prob"].astype(float)
+
+
+def _bar_distribution(ax: Any, snap: pd.DataFrame, key: str,
+                      title: str) -> None:
+  """Horizontal bars of the current outcome distribution for one key."""
+  d = snap[snap["key"] == key].sort_values("prob")
+  if d.empty:
+    ax.set_visible(False)
+    return
+  ax.barh(d["outcome"], d["prob"] * 100, color="#457B9D", alpha=0.85)
+  for y, (p, d7) in enumerate(zip(d["prob"], d["d7"])):
+    ax.text(p * 100 + 1,
+            y,
+            f"{p*100:.0f}% ({_fmt_pp(d7)} 7d)",
+            va="center",
+            fontsize=8)
+  ax.set_xlim(0, 115)
+  ax.set_title(title, fontweight="bold", fontsize=10)
+  ax.tick_params(axis="y", labelsize=8)
+  ax.grid(True, axis="x", alpha=0.3)
+
+
+def _plot_political_elections(df: pd.DataFrame, snap: pd.DataFrame,
+                              path: str) -> None:
+  """House/Senate Dem-control timeline + 2028 nominee/winner top-5 odds."""
+  setup_plot_aesthetics()
+  fig, (ax_tl, ax_bar) = plt.subplots(1, 2, figsize=(16, 7))
+  for key, c, lab in (("house_2026", "#1D3557", "House → Dem"),
+                      ("senate_2026", "#E63946", "Senate → Dem")):
+    s = _political_series(df, key, "Democratic Party")
+    if not s.empty:
+      ax_tl.plot(s.index, s * 100, label=lab, color=c, linewidth=2)
+  ax_tl.axhline(50, color="gray", linestyle=":", linewidth=1)
+  ax_tl.set_ylim(0, 100)
+  ax_tl.set_ylabel("Probability (%)")
+  ax_tl.set_title("2026 Midterms: Democratic control", fontweight="bold")
+  ax_tl.legend(loc="lower right", fontsize=9)
+  ax_tl.grid(True, alpha=0.3)
+  ax_tl.tick_params(axis="x", rotation=30)
+
+  labels, vals, colors = [], [], []
+  for key, c, prefix in (("pres_winner_2028", "#6D597A",
+                          "Winner"), ("gop_nominee_2028", "#E63946", "GOP"),
+                         ("dem_nominee_2028", "#1D3557", "Dem")):
+    top = snap[snap["key"] == key].nlargest(5, "prob").sort_values("prob")
+    for _, r in top.iterrows():
+      labels.append(f"{prefix}: {r['outcome']}")
+      vals.append(r["prob"] * 100)
+      colors.append(c)
+  if vals:
+    ax_bar.barh(labels, vals, color=colors, alpha=0.85)
+    for y, v in enumerate(vals):
+      ax_bar.text(v + 0.5, y, f"{v:.0f}%", va="center", fontsize=8)
+    ax_bar.tick_params(axis="y", labelsize=8)
+  ax_bar.set_xlabel("Probability (%)")
+  ax_bar.set_title("2028: nominee & winner odds (top 5)", fontweight="bold")
+  ax_bar.grid(True, axis="x", alpha=0.3)
+  plt.tight_layout()
+  plt.savefig(path, dpi=300)
+  plt.close()
+
+
+def _plot_political_fed_rates(df: pd.DataFrame, snap: pd.DataFrame,
+                              path: str) -> None:
+  """Fed/rates distributions (left) and top-outcome timelines (right)."""
+  setup_plot_aesthetics()
+  fig = plt.figure(figsize=(16, 11))
+  gs = fig.add_gridspec(4, 2, width_ratios=[1, 1.15], hspace=0.6)
+  dists = (("fed_decision_dec_2026", "Dec 2026 FOMC decision"),
+           ("fed_cuts_2026", "Number of Fed cuts in 2026"),
+           ("fed_rate_end_2026", "Fed funds upper bound, end-2026"),
+           ("fed_rate_end_2027", "Fed funds upper bound, end-2027"))
+  for i, (key, title) in enumerate(dists):
+    _bar_distribution(fig.add_subplot(gs[i, 0]), snap, key, title)
+
+  ax_tl = fig.add_subplot(gs[:, 1])
+  for key, c in (("fed_decision_dec_2026", "#1D3557"), ("us10y_high_2026",
+                                                        "#E63946")):
+    top = _latest_and_deltas(df, key)
+    if top is None:
+      continue
+    s = _political_series(df, key, top["outcome"])
+    ax_tl.plot(s.index,
+               s * 100,
+               color=c,
+               linewidth=2,
+               label=f"{key}: {top['outcome']}")
+  ax_tl.set_ylim(0, 100)
+  ax_tl.set_ylabel("Probability (%)")
+  ax_tl.set_title("Top-outcome probability over time", fontweight="bold")
+  ax_tl.legend(loc="upper left", fontsize=9)
+  ax_tl.grid(True, alpha=0.3)
+  ax_tl.tick_params(axis="x", rotation=30)
+  plt.savefig(path, dpi=300, bbox_inches="tight")
+  plt.close()
+
+
+def _plot_political_geopolitics(df: pd.DataFrame, path: str) -> None:
+  """Tail-risk dashboard: current Yes-prob bars coloured by 30-day change."""
+  rows = [
+      r for r in (_latest_and_deltas(df, k, o)
+                  for _, k, o in POLITICAL_TAIL_RISKS) if r is not None
+  ]
+  if not rows:
+    return
+  labels = {k: lab for lab, k, _ in POLITICAL_TAIL_RISKS}
+  d = pd.DataFrame(rows).sort_values("prob")
+  d30 = d["d30"].fillna(0.0) * 100
+  span = max(5.0, float(d30.abs().max()))
+  norm = plt.Normalize(-span, span)
+  cmap = plt.get_cmap("coolwarm")
+
+  setup_plot_aesthetics()
+  fig, ax = plt.subplots(figsize=(13, 8))
+  ax.barh([labels[k] for k in d["key"]],
+          d["prob"] * 100,
+          color=cmap(norm(d30.values)),
+          edgecolor="black",
+          linewidth=0.4)
+  for y, (p, c) in enumerate(zip(d["prob"], d["d30"])):
+    ax.text(p * 100 + 0.8,
+            y,
+            f"{p*100:.0f}%  ({_fmt_pp(c)} 30d)",
+            va="center",
+            fontsize=8)
+  sm = plt.cm.ScalarMappable(norm=norm, cmap=cmap)
+  sm.set_array([])
+  fig.colorbar(sm, ax=ax, pad=0.02).set_label("30-day change (pp)")
+  ax.set_xlim(0, 115)
+  ax.set_xlabel("Current probability (%)")
+  ax.set_title("Geopolitical & market tail risks (red = rising)",
+               fontweight="bold")
+  ax.grid(True, axis="x", alpha=0.3)
+  plt.tight_layout()
+  plt.savefig(path, dpi=300)
+  plt.close()
+
+
+def _plot_political_approval(df: pd.DataFrame, snap: pd.DataFrame,
+                             path: str) -> None:
+  """Approve/Disapprove 14d-average timeline + approval-low-2026 buckets."""
+  setup_plot_aesthetics()
+  fig, (ax_tl, ax_bar) = plt.subplots(1,
+                                      2,
+                                      figsize=(16, 6),
+                                      gridspec_kw={"width_ratios": [1.6, 1]})
+  for outcome, c in (("Approve", "#2A9D8F"), ("Disapprove", "#E63946")):
+    s = _political_series(df, "approval_trump", outcome)
+    if not s.empty:
+      ax_tl.plot(s.index, s * 100, label=outcome, color=c, linewidth=2)
+  ax_tl.set_ylabel("Share (%)")
+  ax_tl.set_title("Trump job approval (14-day poll average, VoteHub)",
+                  fontweight="bold")
+  ax_tl.legend(loc="center left", fontsize=9)
+  ax_tl.grid(True, alpha=0.3)
+  _bar_distribution(ax_bar, snap, "approval_low_2026",
+                    "Lowest approval in 2026 (Polymarket)")
+  plt.tight_layout()
+  plt.savefig(path, dpi=300)
+  plt.close()
+
+
+def _political_read_through(get: Any) -> List[str]:
+  """Threshold rules over dashboard probabilities -> 4-6 bullets."""
+  bullets: List[str] = []
+  fomc = get("fed_decision_dec_2026", None)
+  if fomc:
+    p = fomc["prob"] * 100
+    if "increase" in fomc["outcome"] and p > 60:
+      bullets.append(f"**Rates gate unlikely to release**: Dec FOMC "
+                     f"`{fomc['outcome']}` at {p:.0f}% — hike priced.")
+    elif "decrease" in fomc["outcome"] and p > 60:
+      bullets.append(f"**Easing priced**: Dec FOMC `{fomc['outcome']}` "
+                     f"at {p:.0f}%.")
+    else:
+      bullets.append(f"**Dec FOMC contested**: top outcome "
+                     f"`{fomc['outcome']}` only {p:.0f}%.")
+  hormuz = get("hormuz_traffic_normal", "Yes")
+  if hormuz:
+    p = hormuz["prob"] * 100
+    bullets.append(
+        f"**Oil tail open**: Hormuz-normal-by-Dec-31 only {p:.0f}%." if p <
+        25 else f"**Hormuz normalization priced** at {p:.0f}%.")
+  house, senate = get("house_2026",
+                      "Democratic Party"), get("senate_2026",
+                                               "Democratic Party")
+  if house and senate:
+    h, s = house["prob"] * 100, senate["prob"] * 100
+    if h > 90 and s > 90:
+      bullets.append(f"**Gridlock priced**: Dem House {h:.0f}% / Senate "
+                     f"{s:.0f}% — expect veto politics, little fiscal "
+                     "legislation.")
+    elif h < 50 and s < 50:
+      bullets.append(f"**Unified GOP control favored**: Dem House {h:.0f}% "
+                     f"/ Senate {s:.0f}%.")
+    else:
+      bullets.append(f"**Split-control base case**: Dem House {h:.0f}% / "
+                     f"Senate {s:.0f}%.")
+  tw = get("china_taiwan_invasion_2027", "Yes")
+  if tw and tw["prob"] * 100 > 8:
+    bullets.append(f"**Semis supply-chain tail**: Taiwan invasion by 2027 "
+                   f"at {tw['prob']*100:.0f}%.")
+  rec = get("us_recession_2026", "Yes")
+  if rec:
+    p = rec["prob"] * 100
+    bullets.append(f"**Recession risk elevated**: 2026 recession {p:.0f}%."
+                   if p > 30 else f"**Growth scare not priced**: 2026 "
+                   f"recession only {p:.0f}%.")
+  sd = get("gov_shutdown", "December 31")
+  if sd and sd["prob"] * 100 > 50:
+    bullets.append(f"**Fiscal noise ahead**: shutdown by Dec 31 at "
+                   f"{sd['prob']*100:.0f}%.")
+  return bullets[:6]
+
+
+def generate_political_report() -> None:
+  """Generates the political sentiment report from prediction-market odds."""
+  if not os.path.exists(POLITICAL_ODDS_TSV):
+    logger.warning("Political data missing at %s", POLITICAL_ODDS_TSV)
+    return
+  logger.info("Generating Political Sentiment Report...")
+  os.makedirs(RENDERED_DIR, exist_ok=True)
+  df = pd.read_csv(POLITICAL_ODDS_TSV, sep="\t")
+  if df.empty or "Date" not in df.columns:
+    logger.warning("Political odds TSV empty or malformed. Skipping report.")
+    return
+  df["Date"] = pd.to_datetime(df["Date"])
+  snap = _political_snapshot(df)
+  cache: Dict[Tuple[str, Optional[str]], Optional[Dict[str, Any]]] = {}
+
+  def get(key: str, outcome: Optional[str]) -> Optional[Dict[str, Any]]:
+    if (key, outcome) not in cache:
+      cache[(key, outcome)] = _latest_and_deltas(df, key, outcome)
+    return cache[(key, outcome)]
+
+  # Plots
+  _plot_political_elections(
+      df, snap, os.path.join(RENDERED_DIR, "political_elections.png"))
+  _plot_political_fed_rates(
+      df, snap, os.path.join(RENDERED_DIR, "political_fed_rates.png"))
+  _plot_political_geopolitics(
+      df, os.path.join(RENDERED_DIR, "political_geopolitics.png"))
+  _plot_political_approval(df, snap,
+                           os.path.join(RENDERED_DIR, "political_approval.png"))
+
+  # Header / staleness
+  data_as_of = df["Date"].max()
+  stale_days = (pd.Timestamp(datetime.date.today()) - data_as_of).days
+  stale_md = ""
+  if stale_days > POLITICAL_STALE_DAYS:
+    stale_md = (f"\n> [!WARNING]\n> Odds are **{stale_days} days stale** "
+                f"(last print {data_as_of:%Y-%m-%d}); run "
+                "`make political-fetch`.\n")
+
+  # Regime dashboard
+  dash_rows: List[List[Any]] = []
+  missing: List[str] = []
+  for label, key, outcome in POLITICAL_DASHBOARD:
+    r = get(key, outcome)
+    if r is None:
+      missing.append(f"{key}/{outcome or 'top'}")
+      continue
+    dash_rows.append([
+        label, r["outcome"],
+        _fmt_prob(r["prob"]),
+        _fmt_pp(r["d1"]),
+        _fmt_pp(r["d7"]),
+        _fmt_pp(r["d30"]), f"{r['date']:%Y-%m-%d}"
+    ])
+  if missing:
+    logger.warning("Political dashboard keys missing: %s", ", ".join(missing))
+  dash_md = tabulate(
+      dash_rows,
+      headers=["Signal", "Outcome", "Prob", "Δ1d", "Δ7d", "Δ30d", "As of"],
+      tablefmt="github",
+      disable_numparse=True)
+
+  # Biggest movers (7d), excluding approval and thin markets
+  mv = snap[(snap["category"] != "approval") &
+            (snap["volume"] >= POLITICAL_MOVER_MIN_VOLUME)].dropna(
+                subset=["d7"])
+  mv = mv.reindex(mv["d7"].abs().sort_values(ascending=False).index).head(12)
+  movers_md = tabulate(
+      [[
+          r["key"], r["outcome"],
+          _fmt_prob(r["prob"]),
+          _fmt_pp(r["d1"]),
+          _fmt_pp(r["d7"]),
+          _fmt_pp(r["d30"]),
+          _fmt_volume(r["volume"])
+      ] for _, r in mv.iterrows()],
+      headers=["Key", "Outcome", "Prob", "Δ1d", "Δ7d", "Δ30d", "Volume"],
+      tablefmt="github",
+      disable_numparse=True)
+
+  # Per-category sections: top-3 outcomes per key
+  sections_md = ""
+  for title, (cats, plots) in POLITICAL_SECTIONS.items():
+    sub = snap[snap["category"].isin(cats)]
+    if sub.empty:
+      continue
+    rows = []
+    for k, g in sub.groupby("key", sort=True):
+      for _, row in g.nlargest(3, "prob").iterrows():
+        rows.append([
+            str(k), row["outcome"],
+            _fmt_prob(row["prob"]),
+            _fmt_pp(row["d7"])
+        ])
+    body = tabulate(rows,
+                    headers=["Key", "Outcome", "Prob", "Δ7d"],
+                    tablefmt="github",
+                    disable_numparse=True)
+    imgs = "".join(f"\n![{p}](rendered/{p})\n" for p in plots)
+    sections_md += f"\n### {title}\n{body}\n{imgs}"
+
+  # Upcoming events (next 90 days)
+  events_md = "*No events calendar found.*"
+  if os.path.exists(POLITICAL_EVENTS_TSV):
+    ev = pd.read_csv(POLITICAL_EVENTS_TSV, sep="\t")
+    ev["Date"] = pd.to_datetime(ev["Date"])
+    today = pd.Timestamp(datetime.date.today())
+    ev = ev[(ev["Date"] >= today) &
+            (ev["Date"] <= today + pd.Timedelta(days=90))].sort_values("Date")
+    events_md = tabulate([[
+        f"{r['Date']:%Y-%m-%d}", r["Event"], r["Category"],
+        "" if pd.isna(r["Notes"]) else r["Notes"]
+    ] for _, r in ev.iterrows()],
+                         headers=["Date", "Event", "Category", "Notes"],
+                         tablefmt="github")
+
+  read_md = "\n".join(f"- {b}" for b in _political_read_through(get))
+
+  report_md = f"""# Political Sentiment Report
+
+*Generated {datetime.date.today():%Y-%m-%d}. Probabilities are Polymarket
+Yes-prices (0–100%); Δ columns are percentage-point changes versus the
+nearest prior print 1 / 7 / 30 days earlier.*
+
+> [!NOTE]
+> Sources: Polymarket Gamma/CLOB (odds, volume) and VoteHub (approval polls,
+> 14-day trailing mean). Data as of {data_as_of:%Y-%m-%d}.
+{stale_md}
+## Regime Dashboard
+{dash_md}
+
+## Biggest Movers (7-day, volume ≥ ${POLITICAL_MOVER_MIN_VOLUME/1e3:.0f}K)
+{movers_md}
+
+## Market Read-Through
+{read_md}
+
+## Markets by Category
+{sections_md}
+## Upcoming Key Events (next 90 days)
+{events_md}
+"""
+  report_path = os.path.join(REPORTS_DIR, "news", "POLITICAL_REPORT.md")
+  with open(report_path, "w", encoding="utf-8") as f:
+    f.write(clean_md(report_md))
+  logger.info("Generated %s", report_path)
+  render_markdown_to_pdf(report_path)
+
+
 if __name__ == "__main__":
   generate_macro_report()
   generate_shipping_report()
+  generate_political_report()

@@ -23,6 +23,7 @@ Pipeline for fetching, backfilling, and analyzing financial data (Prices, News, 
   - **Macroeconomic Indicators**: 52 FRED Economic & Geopolitical indicators (Currencies, Energy, R&D, Demographics, Food, Spreads, US/EU/Global Economic Policy Uncertainty, St. Louis & Kansas City Financial Stress Indices, Chicago Fed Activity).
   - **Insider Trading**: SEC Form 4 extraction via `sec-edgar-downloader`.
   - **Shipping & Global Logistics**: Maritime chokepoint congestion and macro tariff policies via AISStream and FRED.
+  - **Political Sentiment**: Daily prediction-market odds (Polymarket: midterm House/Senate control, Fed path, shutdown, Iran, tariffs, 2028 nominees), a 14-day presidential approval poll average (VoteHub), and a key-events calendar, rolled up into an auto-generated `POLITICAL_REPORT.md`/PDF (regime dashboard, movers, tail-risk plots) via `make reports-macro`. Keyless APIs; `make political-fetch` or `python political_fetcher.py --backfill --days 120`. See `market_data/political/README.md`.
   - **ML Sentiment**: AlphaVantage Sentiment scoring and Hybrid TextBlob fallbacks.
   - **Calculated Metrics**: Graham Intrinsic Value, EPS Growth estimates, Technicals (RSI, MACD).
 
