@@ -73,6 +73,14 @@ class PoliticalFetcherTest(unittest.TestCase):
     self.assertEqual(len(rows), 6)
     self.assertEqual(rows[0]["Outcome"], "Party 9")  # highest prob first
 
+  def test_parse_event_markets_all_closed_resolved(self):
+    ev = _event(2)
+    for m in ev["markets"]:
+      m["closed"] = True
+    rows = PoliticalFetcher.parse_event_markets(ev, "house_2026", "elections")
+    self.assertEqual(len(rows), 2)
+    self.assertEqual(rows[0]["Outcome"], "Party 1")
+
   def test_parse_price_history_daily_last_and_start_filter(self):
     t0 = int(datetime.datetime(2026, 1, 1).timestamp())  # local midnight
     payload = {

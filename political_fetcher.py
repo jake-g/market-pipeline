@@ -155,9 +155,11 @@ class PoliticalFetcher:
         Rows with Key, Category, Question, Outcome, Prob, Volume_USD,
         Market_Id and Token_Id (Yes-side CLOB token for history lookups).
     """
+    all_markets = event.get("markets", [])
+    has_open = any(not m.get("closed") for m in all_markets)
     rows = []
-    for m in event.get("markets", []):
-      if m.get("closed"):
+    for m in all_markets:
+      if has_open and m.get("closed"):
         continue  # Resolved sub-market (e.g. a past date bucket).
       try:
         prices = [float(p) for p in json.loads(m["outcomePrices"] or "")]
