@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-11-03 |
+| Date | str | 2026-11-04 |
 | Source | str | Google |
-| Sentiment | float64 | 0.357 |
-| Headline | str | BD Launches BACTEC FXI Culture System - Infecti... |
-| Summary | str | Egan-Jones released an analysis examining why C... |
-| URL | str | https://news.google.com/rss/articles/CBMiqAFBVV... |
+| Sentiment | float64 | 0.367 |
+| Headline | str | China supports stocks with cheap buyback loans ... |
+| Summary | str | China's central bank is subsidizing buybacks wh... |
+| URL | str | https://news.google.com/rss/articles/CBMiiwFBVV... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News

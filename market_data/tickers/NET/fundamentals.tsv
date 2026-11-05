@@ -1,36 +1,36 @@
 Metric	Value
-52WeekChange	0.13135302
-SandP52WeekChange	0.10626137
+52WeekChange	0.19740927
+SandP52WeekChange	0.11368406
 address1	101 Townsend Street
 allTimeHigh	370.35
 allTimeLow	14.5
-ask	0.0
-askSize	440
+ask	265.0
+askSize	120
 auditRisk	1
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	3412760
-averageDailyVolume3Month	3424981
-averageVolume	3424981
-averageVolume10days	3412760
+averageDailyVolume10Day	3613580
+averageDailyVolume3Month	3406251
+averageVolume	3406251
+averageVolume10days	3613580
 beta	1.367
-bid	0.0
-bidSize	40
+bid	267.4
+bidSize	200
 boardRisk	8
 bookValue	4.552
 city	San Francisco
-companyOfficers	[]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Matthew  Prince J.D.', 'age': 50, 'title': 'Co-Founder, Co-Chairman & CEO', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 2299951, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Zatlyn', 'age': 46, 'title': 'Co-Founder, President & Co-Chair of the Board', 'yearBorn': 1979, 'fiscalYear': 2025, 'totalPay': 1794059, 'exercisedValue': 146556432, 'unexercisedValue': 341190816}, {'maxAge': 1, 'name': 'Mr. Thomas Josef Seifert', 'age': 62, 'title': 'Chief Financial Officer', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 750000, 'exercisedValue': 33655736, 'unexercisedValue': 35956140}, {'maxAge': 1, 'name': 'Ms. Janel  Riley', 'age': 47, 'title': 'VP of Finance & Chief Accounting Officer', 'yearBorn': 1978, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Philip Alan Winslow Jr., C.F.A., Jr.', 'title': 'Vice President of Strategic Finance, Treasury and Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. W.  Ling', 'title': 'Head of Governance Risk & Compliance', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Alissa  Starzak', 'age': 52, 'title': 'Chief Legal Officer & Secretary', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Daniella  Vallurupalli', 'title': 'VP & Head of Global Communications', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark F. Anderson', 'age': 63, 'title': 'President of Revenue', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 7665, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dane  Knecht', 'title': 'Senior Vice President of Emerging Technology & Incubation', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	10
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	265.17
+currentPrice	266.58
 currentRatio	1.818
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	282.0
-dayLow	263.86
+dayHigh	273.0
+dayLow	257.83
 debtToEquity	217.858
 displayName	Cloudflare
 dividendYield	0.0
@@ -41,11 +41,11 @@ earningsTimestampEnd	1793912400
 earningsTimestampStart	1793912400
 ebitda	-3610000
 ebitdaMargins	-0.0014399999
-enterpriseToEbitda	-25980.113
-enterpriseToRevenue	37.331
-enterpriseValue	93788209152
-epsCurrentYear	1.26379
-epsForward	1.69008
+enterpriseToEbitda	-26813.598
+enterpriseToRevenue	38.529
+enterpriseValue	96797081600
+epsCurrentYear	1.26399
+epsForward	1.69208
 epsTrailingTwelveMonths	-0.58
 esgPopulated	False
 exchange	NYQ
@@ -53,35 +53,35 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	320.7248
-fiftyDayAverageChange	-55.55478
-fiftyDayAverageChangePercent	-0.17321636
-fiftyTwoWeekChangePercent	13.135302
+fiftyDayAverage	320.0308
+fiftyDayAverageChange	-53.450806
+fiftyDayAverageChangePercent	-0.1670177
+fiftyTwoWeekChangePercent	19.740927
 fiftyTwoWeekHigh	370.35
-fiftyTwoWeekHighChange	-105.17999
-fiftyTwoWeekHighChangePercent	-0.2840016
+fiftyTwoWeekHighChange	-103.77002
+fiftyTwoWeekHighChangePercent	-0.28019446
 fiftyTwoWeekLow	158.83
-fiftyTwoWeekLowChange	106.34001
-fiftyTwoWeekLowChangePercent	0.6695209
+fiftyTwoWeekLowChange	107.749985
+fiftyTwoWeekLowChangePercent	0.6783982
 fiftyTwoWeekRange	158.83 - 370.35
 financialCurrency	USD
 firstTradeDateMilliseconds	1568381400000
 floatShares	320457500
-forwardEps	1.69008
-forwardPE	156.8979
+forwardEps	1.69208
+forwardPE	157.54573
 freeCashflow	691946368
 fullExchangeName	NYSE
 fullTimeEmployees	5156
-fulldayChange	-17.720001
-fulldayChangePercent	-6.31279
-fulldayPrice	265.17
+fulldayChange	-10.119995
+fulldayChangePercent	-3.6985583
+fulldayPrice	263.5
 gmtOffSetMilliseconds	-18000000
-governanceEpochDate	1790812800
+governanceEpochDate	1793491200
 grossMargins	0.72577006
 grossProfits	1823376000
 hasPrePostMarketData	True
 heldPercentInsiders	0.0061500003
-heldPercentInstitutions	0.90709
+heldPercentInstitutions	0.90538
 impliedSharesOutstanding	356079715
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -92,48 +92,48 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Cloudflare, Inc. operates as a cloud services provider that delivers a range of services to businesses worldwide. The company provides a cloud-based security solution to secure a range of combination of platforms, including public and private cloud, on-premises, software-as-a-service applications, and Internet of things (IoT) devices; and application security products comprising web application firewall, bot management, distributed denial of service mitigation, API security, SSL/TLS encryption, client-side security, and security center products. It also offers application performance solutions, such as content delivery, load balancing, DNS, smart shield, video stream delivery, web optimization, cloudfare waiting room, and cloudfare data localization suite; SASE platform that combines network services and Zero Trust and workplace security products that provides a cloud-based network and security-as-a-service; network services, including magic WAN, magic transit, magic firewall, cloudflare network interconnect, and spectrum. In addition, the company provides zero trust security services which include cloudflare zero trust network access, secure web gateway, and one client; and remote browser isolation, cloud access security broker, cloud email security, digital experience monitoring, and data loss prevention products. Further, it provides developer-based solutions comprising workers AI, vectorize, AI gateway, cloudflare workers, cloudflare pages, R2 object storage, workers KV, durable objects, D1, hyperdrive, queues, cloudfare stream, cloudfare images, and cloudflare realtime; and consumer offerings, such as 1.1.1.1 DNS and with WARPm and cloudfare registrar that offers secure registration and management of domain names. The company serves customers in technology, healthcare, financial services, consumer and retail, industrial, and non-profit industries, as well as government. The company was incorporated in 2009 and is headquartered in San Francisco, California.
 longName	Cloudflare, Inc.
 market	us_market
-marketCap	94421663744
-marketState	PREPRE
+marketCap	94923726848
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_81851700
 mostRecentQuarter	1782777600
 netIncomeToCommon	-206275008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	99951576000
+nonDilutedMarketCap	97430531617
 numberOfAnalystOpinions	31
-open	282.27
+open	268.2
 operatingCashflow	633427968
 operatingMargins	-0.07603
 overallRisk	10
 payoutRatio	0.0
 pegRatio	2.38
 phone	888 993 5273
-postMarketChange	-0.47000122
-postMarketChangePercent	-0.17724524
-postMarketPrice	264.7
-postMarketTime	1793666623
-previousClose	280.7
-priceEpsCurrentYear	209.82126
+postMarketChange	-3.0799866
+postMarketChangePercent	-1.1553705
+postMarketPrice	263.5
+postMarketTime	1793837198
+previousClose	273.62
+priceEpsCurrentYear	210.90355
 priceHint	2
-priceToBook	58.253517
-priceToSalesTrailing12Months	37.583008
+priceToBook	58.563267
+priceToSalesTrailing12Months	37.782845
 profitMargins	-0.082100004
 quickRatio	1.755
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.94118
+recommendationMean	1.91176
 region	US
-regularMarketChange	-15.53
-regularMarketChangePercent	-5.5326
-regularMarketDayHigh	282.0
-regularMarketDayLow	263.86
-regularMarketDayRange	263.86 - 282.0
-regularMarketOpen	282.27
-regularMarketPreviousClose	280.7
-regularMarketPrice	265.17
-regularMarketTime	1793653385
-regularMarketVolume	4126436
+regularMarketChange	-7.04001
+regularMarketChangePercent	-2.57291
+regularMarketDayHigh	273.0
+regularMarketDayLow	257.83
+regularMarketDayRange	257.83 - 273.0
+regularMarketOpen	268.2
+regularMarketPreviousClose	273.62
+regularMarketPrice	266.58
+regularMarketTime	1793826233
+regularMarketVolume	3407133
 returnOnAssets	-0.02037
 returnOnEquity	-0.14425999
 revenueGrowth	0.359
@@ -167,10 +167,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.58
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	248.09676
-twoHundredDayAverageChange	17.073257
-twoHundredDayAverageChangePercent	0.06881693
+twoHundredDayAverage	248.94914
+twoHundredDayAverageChange	17.630844
+twoHundredDayAverageChangePercent	0.07082107
 typeDisp	Equity
-volume	4126436
+volume	3407133
 website	https://www.cloudflare.com
 zip	94107

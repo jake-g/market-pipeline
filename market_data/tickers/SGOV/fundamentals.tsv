@@ -2,22 +2,22 @@ Metric	Value
 allTimeHigh	100.75
 allTimeLow	99.96
 ask	0.0
-askSize	679900
-averageDailyVolume10Day	21333700
-averageDailyVolume3Month	21764487
-averageVolume	21764487
-averageVolume10days	21333700
+askSize	947600
+averageDailyVolume10Day	23235020
+averageDailyVolume3Month	21722673
+averageVolume	21722673
+averageVolume10days	23235020
 beta3Year	0.0
 bid	0.0
-bidSize	679500
+bidSize	1238500
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	100.43
-dayLow	100.42
+dayHigh	100.45
+dayLow	100.44
 displayName	0-3 Month Treasury Bond ETF
 dividendYield	3.69
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	100.5748
-fiftyDayAverageChange	-0.14479828
-fiftyDayAverageChangePercent	-0.0014397074
-fiftyTwoWeekChangePercent	0.32868385
+fiftyDayAverage	100.5668
+fiftyDayAverageChange	-0.11680603
+fiftyDayAverageChangePercent	-0.0011614771
+fiftyTwoWeekChangePercent	0.019919872
 fiftyTwoWeekHigh	100.74
-fiftyTwoWeekHighChange	-0.30999756
-fiftyTwoWeekHighChangePercent	-0.0030772043
+fiftyTwoWeekHighChange	-0.29000092
+fiftyTwoWeekHighChangePercent	-0.002878707
 fiftyTwoWeekLow	100.27
-fiftyTwoWeekLowChange	0.16000366
-fiftyTwoWeekLowChangePercent	0.0015957282
+fiftyTwoWeekLowChange	0.1800003
+fiftyTwoWeekLowChangePercent	0.0017951562
 fiftyTwoWeekRange	100.27 - 100.74
 firstTradeDateMilliseconds	1591018200000
-fiveYearAverageReturn	0.0384869
+fiveYearAverageReturn	0.0385399
 fullExchangeName	NYSE
-fulldayChange	0.028999329
-fulldayChangePercent	0.028883506
-fulldayPrice	100.43
+fulldayChange	0.009994507
+fulldayChangePercent	0.0099507235
+fulldayPrice	100.45
 fundFamily	iShares
 fundInceptionDate	1590451200
 gmtOffSetMilliseconds	-18000000
@@ -52,47 +52,47 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity of less than or equal to three months. The fund will invest at least 80% of its assets in the component securities of the underlying index, and the fund will invest at least 90% of its assets in U.S. Treasury securities that BFA believes will help the fund track the underlying index.
 longName	iShares 0-3 Month Treasury Bond ETF
 market	us_market
-marketState	PREPRE
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_662509181
-navPrice	100.73887
+navPrice	100.43241
 netAssets	112259588000.0
 netExpenseRatio	0.09
-open	100.43
+open	100.44
 phone	415-670-2000
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	100.43
-postMarketTime	1793667599
-previousClose	100.401
+postMarketPrice	100.45
+postMarketTime	1793837347
+previousClose	100.44
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0289993
-regularMarketChangePercent	0.0288835
-regularMarketDayHigh	100.43
-regularMarketDayLow	100.42
-regularMarketDayRange	100.42 - 100.43
-regularMarketOpen	100.43
-regularMarketPreviousClose	100.401
-regularMarketPrice	100.43
-regularMarketTime	1793653214
-regularMarketVolume	38128304
+regularMarketChange	0.00999451
+regularMarketChangePercent	0.00995072
+regularMarketDayHigh	100.45
+regularMarketDayLow	100.44
+regularMarketDayRange	100.44 - 100.45
+regularMarketOpen	100.44
+regularMarketPreviousClose	100.44
+regularMarketPrice	100.45
+regularMarketTime	1793826023
+regularMarketVolume	25415159
 shortName	iShares 0-3 Month Treasury Bond
 sourceInterval	15
 symbol	SGOV
-threeYearAverageReturn	0.044976603
+threeYearAverageReturn	0.0448777
 totalAssets	112259588096
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	0.92007
 trailingThreeMonthReturns	0.92007
 triggerable	True
-twoHundredDayAverage	100.5464
-twoHundredDayAverageChange	-0.11640167
-twoHundredDayAverageChangePercent	-0.0011576911
+twoHundredDayAverage	100.54535
+twoHundredDayAverageChange	-0.09535217
+twoHundredDayAverageChangePercent	-0.0009483499
 typeDisp	ETF
-volume	38128304
+volume	25415159
 yield	0.0369
 ytdReturn	2.71001

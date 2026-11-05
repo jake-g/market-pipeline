@@ -1,6 +1,6 @@
 # Macroeconomic Regime Report
 
-*Generated 2026-11-03. All statistics are computed on
+*Generated 2026-11-04. All statistics are computed on
 native FRED observations (not the forward-filled daily grid); Δ columns are
 percentage changes for levels and percentage-point (pp) changes for rates,
 spreads and ratios.*
@@ -11,7 +11,7 @@ spreads and ratios.*
 ## Alerts
 - ⚠️ **FREIGHT_PPI** at 534.80 is +2.8σ from its 5-year mean (98th percentile).
 - ⚠️ **TRUCK_PPI** at 219.38 is +2.4σ from its 5-year mean (98th percentile).
-- ⏳ **CHINA_IMPORTS** stale: last observation 2026-08-01 (94d; typical cadence 31d).
+- ⏳ **CHINA_IMPORTS** stale: last observation 2026-08-01 (95d; typical cadence 31d).
 - ⚠️ **ELECTRIC_POWER_INDEX** at 123.52 is +3.0σ from its 5-year mean (98th percentile).
 - 🚨 **RD_INVESTMENT**: latest move +27.18 is 3.1σ of its 5Y move distribution (now 977.70, 2026-07-01).
 - ⚠️ **RD_INVESTMENT** at 977.70 is +2.0σ from its 5-year mean (95th percentile).

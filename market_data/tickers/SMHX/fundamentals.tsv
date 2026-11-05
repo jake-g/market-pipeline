@@ -3,10 +3,10 @@ allTimeHigh	68.36
 allTimeLow	18.46
 ask	58.67
 askSize	1
-averageDailyVolume10Day	78110
-averageDailyVolume3Month	60484
-averageVolume	60484
-averageVolume10days	78110
+averageDailyVolume10Day	80800
+averageDailyVolume3Month	60151
+averageVolume	60151
+averageVolume10days	80800
 beta3Year	0.0
 bid	58.5
 bidSize	1
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	52.5
-dayLow	50.16
+dayHigh	51.9668
+dayLow	49.42
 displayName	Fabless Semiconductor ETF
 dividendYield	0.01
 epsTrailingTwelveMonths	1.4454389
@@ -27,22 +27,22 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	57.1942
-fiftyDayAverageChange	-6.9547005
-fiftyDayAverageChangePercent	-0.121598005
-fiftyTwoWeekChangePercent	25.351261
+fiftyDayAverage	57.0517
+fiftyDayAverageChange	-6.777302
+fiftyDayAverageChangePercent	-0.11879228
+fiftyTwoWeekChangePercent	29.306042
 fiftyTwoWeekHigh	68.36
-fiftyTwoWeekHighChange	-18.120502
-fiftyTwoWeekHighChangePercent	-0.26507464
+fiftyTwoWeekHighChange	-18.085602
+fiftyTwoWeekHighChangePercent	-0.2645641
 fiftyTwoWeekLow	34.535
-fiftyTwoWeekLowChange	15.704498
-fiftyTwoWeekLowChangePercent	0.4547415
+fiftyTwoWeekLowChange	15.739399
+fiftyTwoWeekLowChangePercent	0.4557521
 fiftyTwoWeekRange	34.535 - 68.36
 firstTradeDateMilliseconds	1724851800000
 fullExchangeName	NasdaqGM
-fulldayChange	-1.4899979
-fulldayChangePercent	-2.8764439
-fulldayPrice	50.2395
+fulldayChange	-0.91619873
+fulldayChangePercent	-1.7694067
+fulldayPrice	50.8638
 fundFamily	VanEck
 fundInceptionDate	1724716800
 gmtOffSetMilliseconds	-18000000
@@ -53,33 +53,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund normally invests at least 80% of its total assets in securities that comprise the fund’s benchmark index. The Fabless Index is composed of U.S.-listed common stocks of companies that derive at least 50% of their revenues from the semiconductor industry and operate as fabless semiconductor companies. The fund is non-diversified.
 longName	VanEck Fabless Semiconductor ETF
 market	us_market
-marketState	PREPRE
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_1885852102
 navPrice	51.77
 netAssets	302908608.0
 netExpenseRatio	0.35
-open	52.24
+open	51.32
 phone	888-658-8287
-postMarketChange	0.1550026
-postMarketChangePercent	0.29955086
-postMarketPrice	51.9
-postMarketTime	1793396369
-previousClose	51.8
+postMarketChange	0.5638008
+postMarketChangePercent	1.1208764
+postMarketPrice	50.8638
+postMarketTime	1793826695
+previousClose	51.78
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.5605011
-regularMarketChangePercent	-3.0125504
-regularMarketDayHigh	52.5
-regularMarketDayLow	50.16
-regularMarketDayRange	50.16 - 52.5
-regularMarketOpen	52.24
-regularMarketPreviousClose	51.8
-regularMarketPrice	50.2395
-regularMarketTime	1793653200
-regularMarketVolume	79028
+regularMarketChange	-1.5056
+regularMarketChangePercent	-2.9076862
+regularMarketDayHigh	51.9668
+regularMarketDayLow	49.42
+regularMarketDayRange	49.42 - 51.9668
+regularMarketOpen	51.32
+regularMarketPreviousClose	51.78
+regularMarketPrice	50.2744
+regularMarketTime	1793826000
+regularMarketVolume	85731
 shortName	VanEck Fabless Semiconductor ET
 sourceInterval	15
 symbol	SMHX
@@ -87,15 +87,15 @@ totalAssets	302908608
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	34.757263
+trailingPE	34.781406
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-5.16594
 trailingThreeMonthReturns	-5.16594
 triggerable	True
-twoHundredDayAverage	51.734615
-twoHundredDayAverageChange	-1.4951172
-twoHundredDayAverageChangePercent	-0.028899744
+twoHundredDayAverage	51.8495
+twoHundredDayAverageChange	-1.5751
+twoHundredDayAverageChangePercent	-0.030378306
 typeDisp	ETF
-volume	79028
+volume	85731
 yield	0.0001
 ytdReturn	59.33719

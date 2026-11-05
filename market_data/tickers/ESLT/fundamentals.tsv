@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.62099004
-SandP52WeekChange	0.10626137
+52WeekChange	0.626825
+SandP52WeekChange	0.11368406
 address1	Advanced Technology Center
 address2	P.O. Box 539
 allTimeHigh	1016.06
@@ -8,33 +8,33 @@ allTimeLow	3.5
 ask	690.28
 askSize	2
 averageAnalystRating	2.7 - Hold
-averageDailyVolume10Day	88830
-averageDailyVolume3Month	86917
-averageVolume	86917
-averageVolume10days	88830
+averageDailyVolume10Day	90430
+averageDailyVolume3Month	87837
+averageVolume	87837
+averageVolume10days	90430
 beta	-0.403
 bid	844.57
 bidSize	1
 bookValue	94.292
 city	Haifa
-companyOfficers	[]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Bezhalel  Machlis', 'age': 62, 'title': 'President & CEO', 'yearBorn': 1963, 'fiscalYear': 2022, 'totalPay': 3052000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Yoram  Shmuely', 'age': 64, 'title': 'Executive VP & GM of Aerospace Division', 'yearBorn': 1961, 'fiscalYear': 2022, 'totalPay': 1095000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Yehuda  Vered', 'age': 67, 'title': 'Executive Vice President of Strategy & Special Projects', 'yearBorn': 1958, 'fiscalYear': 2022, 'totalPay': 943000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Oren  Sabag', 'age': 51, 'title': 'Executive VP and GM of ISTAR & EW', 'yearBorn': 1974, 'fiscalYear': 2022, 'totalPay': 1371000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Yaacov  Kagan Ph.D.', 'age': 60, 'title': 'Executive VP & CFO', 'yearBorn': 1965, 'fiscalYear': 2022, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Yuval  Ramon', 'age': 59, 'title': 'Executive VP & COO', 'yearBorn': 1966, 'fiscalYear': 2022, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Yehoshua  Yehuda Ph.D.', 'age': 57, 'title': 'Executive Vice President & Chief Technology Officer', 'yearBorn': 1968, 'fiscalYear': 2022, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Daniella L. Finn', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2022, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Block Temin', 'age': 69, 'title': 'Executive VP, Chief Compliance Officer & Senior Counsel', 'yearBorn': 1956, 'fiscalYear': 2022, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jonathan  Ariel', 'age': 68, 'title': 'Executive VP & Chief Legal Officer', 'yearBorn': 1957, 'fiscalYear': 2022, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1672444800
 corporateActions	[]
 country	Israel
 cryptoTradeable	False
 currency	USD
-currentPrice	742.47
+currentPrice	703.46
 currentRatio	1.395
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	773.54
-dayLow	740.74
+dayHigh	739.4
+dayLow	700.0
 debtToEquity	19.325
-discount_to_intrinsic_value	-6.57
+discount_to_intrinsic_value	-0.97
 displayName	Elbit Systems
 dividendDate	1792972800
 dividendRate	4.0
-dividendYield	0.54
+dividendYield	0.53
 earningsCallTimestampEnd	1794924000
 earningsCallTimestampStart	1794924000
 earningsGrowth	0.342
@@ -44,9 +44,9 @@ earningsTimestampEnd	1794922200
 earningsTimestampStart	1794922200
 ebitda	983289984
 ebitdaMargins	0.115059994
-enterpriseToEbitda	35.2
-enterpriseToRevenue	4.05
-enterpriseValue	34612006912
+enterpriseToEbitda	35.873
+enterpriseToRevenue	4.127
+enterpriseValue	35273744384
 epsCurrentYear	16.38465
 epsForward	18.61218
 epsTrailingTwelveMonths	13.29
@@ -59,37 +59,37 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	972 4 831 6659
-fiftyDayAverage	723.8454
-fiftyDayAverageChange	18.624573
-fiftyDayAverageChangePercent	0.025730042
-fiftyTwoWeekChangePercent	62.099003
+fiftyDayAverage	724.3926
+fiftyDayAverageChange	-20.932556
+fiftyDayAverageChangePercent	-0.028896702
+fiftyTwoWeekChangePercent	62.6825
 fiftyTwoWeekHigh	1016.06
-fiftyTwoWeekHighChange	-273.59003
-fiftyTwoWeekHighChangePercent	-0.26926562
+fiftyTwoWeekHighChange	-312.59998
+fiftyTwoWeekHighChangePercent	-0.30765897
 fiftyTwoWeekLow	453.0
-fiftyTwoWeekLowChange	289.46997
-fiftyTwoWeekLowChangePercent	0.63900656
+fiftyTwoWeekLowChange	250.46002
+fiftyTwoWeekLowChangePercent	0.5528919
 fiftyTwoWeekRange	453.0 - 1016.06
 financialCurrency	USD
 firstTradeDateMilliseconds	849105000000
 fiveYearAvgDividendYield	0.69
 floatShares	27477831
 forwardEps	18.61218
-forwardPE	39.891617
+forwardPE	37.79568
 freeCashflow	-38483000
 fullExchangeName	NasdaqGS
 fullTimeEmployees	21000
-fulldayChange	-37.210022
-fulldayChangePercent	-4.772474
-fulldayPrice	742.47
+fulldayChange	-53.159973
+fulldayChangePercent	-7.02598
+fulldayPrice	703.46
 gmtOffSetMilliseconds	-18000000
 graham_intrinsic_value	696.71
 grossMargins	0.25030002
 grossProfits	2139099008
 hasPrePostMarketData	True
-heldPercentInsiders	0.41224
-heldPercentInstitutions	0.2755
-impliedSharesOutstanding	46866389
+heldPercentInsiders	0.41208
+heldPercentInstitutions	0.27589
+impliedSharesOutstanding	46872887
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
 industryKey	aerospace-defense
@@ -101,16 +101,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Elbit Systems Ltd., together with its subsidiaries, develops and supplies defense and homeland security arenas products and services in Israel, North America, Europe, the Asia-Pacific, Latin America, and internationally. The company operates through five segments: Aerospace; C4I and Cyber; Intelligence, Surveillance, Target Acquisition and Reconnaissance and Electronic Warfare; Land; and Elbit Systems of America. It offers airborne platforms, unmanned aerial solutions, precision guided munition sensors, aerostructures, training and simulator systems, flight academy solutions, and commercial aviation systems; and command, control, communications, computer, intelligence, surveillance and reconnaissance systems, as well as data links and radio communication systems and equipment, cyber intelligence solutions, and autonomous and homeland security solutions. The company also provides various electro-optic laser solutions and countermeasure systems and products, naval combat management and sonar systems, and electronic warfare, signal Intelligence, and radar systems; indirect fire, turrets and weapons, ammunition and munition, and active protection systems; and products, system solutions, and support services to defense, homeland security, law enforcement, commercial aviation, and medical instrumentation markets. It serves various governments and companies. The company was incorporated in 1966 and is based in Haifa, Israel.
 longName	Elbit Systems Ltd.
 market	us_market
-marketCap	34796883968
-marketState	PREPRE
+marketCap	32973203456
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_645738
 mostRecentQuarter	1782777600
 netIncomeToCommon	635979008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	36924029022
+nonDilutedMarketCap	35594801357
 numberOfAnalystOpinions	6
-open	770.91
+open	732.96
 operatingCashflow	992190016
 operatingMargins	0.09567001
 payoutRatio	0.2333
@@ -118,13 +118,13 @@ pegRatio	8.79
 phone	972 77 294 0000
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	742.47
-postMarketTime	1793653213
-previousClose	779.68
-priceEpsCurrentYear	45.314976
+postMarketPrice	703.46
+postMarketTime	1793826014
+previousClose	756.62
+priceEpsCurrentYear	42.93409
 priceHint	2
-priceToBook	7.8741565
-priceToSalesTrailing12Months	4.071682
+priceToBook	7.460442
+priceToSalesTrailing12Months	3.858288
 profitMargins	0.07442
 quickRatio	0.886
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	none
 recommendationMean	2.66667
 region	US
-regularMarketChange	-37.210022
-regularMarketChangePercent	-4.7724733
-regularMarketDayHigh	773.54
-regularMarketDayLow	740.74
-regularMarketDayRange	740.74 - 773.54
-regularMarketOpen	770.91
-regularMarketPreviousClose	779.68
-regularMarketPrice	742.47
-regularMarketTime	1793653201
-regularMarketVolume	125411
+regularMarketChange	-53.159973
+regularMarketChangePercent	-7.02598
+regularMarketDayHigh	739.4
+regularMarketDayLow	700.0
+regularMarketDayRange	700.0 - 739.4
+regularMarketOpen	732.96
+regularMarketPreviousClose	756.62
+regularMarketPrice	703.46
+regularMarketTime	1793826000
+regularMarketVolume	123130
 returnOnAssets	0.0387
 returnOnEquity	0.15237
 revenueGrowth	0.159
@@ -149,7 +149,7 @@ revenuePerShare	183.806
 sector	Industrials
 sectorDisp	Industrials
 sectorKey	industrials
-sharesOutstanding	46866389
+sharesOutstanding	46872887
 sharesPercentSharesOut	0.0049
 sharesShort	227480
 sharesShortPreviousMonthDate	1789430400
@@ -169,15 +169,15 @@ totalDebt	852236992
 totalRevenue	8546071040
 tradeable	False
 trailingAnnualDividendRate	3.75
-trailingAnnualDividendYield	0.0048096655
+trailingAnnualDividendYield	0.004956253
 trailingEps	13.29
-trailingPE	55.866814
+trailingPE	52.93153
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	785.5253
-twoHundredDayAverageChange	-43.05536
-twoHundredDayAverageChangePercent	-0.05481091
+twoHundredDayAverage	785.7644
+twoHundredDayAverageChange	-82.30438
+twoHundredDayAverageChangePercent	-0.10474435
 typeDisp	Equity
-volume	125411
+volume	123130
 website	https://www.elbitsystems.com
 zip	3100401

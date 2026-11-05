@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.20617044
-SandP52WeekChange	0.10626137
+52WeekChange	-0.19651806
+SandP52WeekChange	0.11368406
 address1	1020 Kifer Road
 allTimeHigh	616.0
 allTimeLow	0.666667
@@ -8,31 +8,31 @@ ask	450.0
 askSize	1
 auditRisk	1
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	2852330
-averageDailyVolume3Month	2432290
-averageVolume	2432290
-averageVolume10days	2852330
+averageDailyVolume10Day	2808450
+averageDailyVolume3Month	2402398
+averageVolume	2402398
+averageVolume10days	2808450
 beta	1.439
 bid	441.1
 bidSize	1
 boardRisk	6
 bookValue	46.123
 city	Sunnyvale
-companyOfficers	[]
+companyOfficers	[{'maxAge': 1, 'name': 'Dr. Gary S. Guthart Ph.D.', 'age': 59, 'title': 'Executive Chair', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 2140275, 'exercisedValue': 44367860, 'unexercisedValue': 69788808}, {'maxAge': 1, 'name': 'Mr. David J. Rosa', 'age': 57, 'title': 'CEO & Director', 'yearBorn': 1968, 'fiscalYear': 2025, 'totalPay': 2322608, 'exercisedValue': 27076576, 'unexercisedValue': 65149152}, {'maxAge': 1, 'name': 'Mr. Jamie E. Samath', 'age': 54, 'title': 'Executive VP, CFO & Enterprise Technology Leader', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 1481816, 'exercisedValue': 678331, 'unexercisedValue': 1121478}, {'maxAge': 1, 'name': 'Mr. Henry L. Charlton', 'age': 55, 'title': 'Senior VP of Global Business Operations', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1453840, 'exercisedValue': 3150448, 'unexercisedValue': 5902177}, {'maxAge': 1, 'name': 'Mr. Gary H. Loeb J.D.', 'age': 55, 'title': 'Executive VP and Chief Legal & Compliance Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1335480, 'exercisedValue': 1032824, 'unexercisedValue': 2955669}, {'maxAge': 1, 'name': 'Mr. Mark P. Brosius', 'age': 58, 'title': 'EVP, Chief Manufacturing & Supply Chain Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1018593, 'exercisedValue': 2104750, 'unexercisedValue': 22041914}, {'maxAge': 1, 'name': 'Mr. Fredrik  Widman', 'title': 'VP, Principal Accounting Officer & Corporate Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Milind  Wagle', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Daniel P. Connally C.F.A.', 'title': 'VP & Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Christopher R. Carlson Ph.D.', 'title': 'Executive Vice President of Research, Corporate Development, Corporate Strategy & Intuitive Ventures', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	6
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	436.87
+currentPrice	482.1
 currentRatio	3.327
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	446.455
-dayLow	436.04
+dayHigh	485.85
+dayLow	453.69
 debtToEquity	0.953
-discount_to_intrinsic_value	-593.52
+discount_to_intrinsic_value	-658.89
 displayName	Intuitive Surgical
 dividendYield	0.0
 earningsCallTimestampEnd	1792526400
@@ -44,12 +44,12 @@ earningsTimestampEnd	1800565200
 earningsTimestampStart	1800565200
 ebitda	4470700032
 ebitdaMargins	0.38614
-enterpriseToEbitda	32.999
-enterpriseToRevenue	12.742
-enterpriseValue	147527335936
+enterpriseToEbitda	33.3
+enterpriseToRevenue	12.858
+enterpriseValue	148872314880
 epsCurrentYear	11.25264
-epsForward	12.4521
-epsTrailingTwelveMonths	8.27
+epsForward	12.46877
+epsTrailingTwelveMonths	8.34
 eps_normalized_growth	-0.18925096642737926
 esgPopulated	False
 exchange	NMS
@@ -58,36 +58,36 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	408 523 1390
-fiftyDayAverage	401.5432
-fiftyDayAverageChange	35.326782
-fiftyDayAverageChangePercent	0.087977536
-fiftyTwoWeekChangePercent	-20.617044
+fiftyDayAverage	404.048
+fiftyDayAverageChange	78.052
+fiftyDayAverageChangePercent	0.19317508
+fiftyTwoWeekChangePercent	-19.651806
 fiftyTwoWeekHigh	603.88
-fiftyTwoWeekHighChange	-167.01001
-fiftyTwoWeekHighChangePercent	-0.2765616
+fiftyTwoWeekHighChange	-121.78
+fiftyTwoWeekHighChangePercent	-0.20166259
 fiftyTwoWeekLow	328.57
-fiftyTwoWeekLowChange	108.29999
-fiftyTwoWeekLowChangePercent	0.32961008
+fiftyTwoWeekLowChange	153.53
+fiftyTwoWeekLowChangePercent	0.46726725
 fiftyTwoWeekRange	328.57 - 603.88
 financialCurrency	USD
 firstTradeDateMilliseconds	961162200000
 floatShares	344598520
-forwardEps	12.4521
-forwardPE	35.08404
+forwardEps	12.46877
+forwardPE	38.6646
 freeCashflow	3434800128
 fullExchangeName	NasdaqGS
 fullTimeEmployees	17021
-fulldayChange	4.98999
-fulldayChangePercent	1.1550636
-fulldayPrice	436.87
+fulldayChange	38.98999
+fulldayChangePercent	8.846283
+fulldayPrice	479.74
 gmtOffSetMilliseconds	-18000000
-governanceEpochDate	1790812800
-graham_intrinsic_value	62.99
+governanceEpochDate	1793491200
+graham_intrinsic_value	63.53
 grossMargins	0.66642
 grossProfits	7715800064
 hasPrePostMarketData	True
 heldPercentInsiders	0.00524
-heldPercentInstitutions	0.91400003
+heldPercentInstitutions	0.91136
 impliedSharesOutstanding	353278038
 industry	Medical Instruments & Supplies
 industryDisp	Medical Instruments & Supplies
@@ -101,31 +101,31 @@ lastSplitFactor	3:1
 longBusinessSummary	Intuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to minimally invasive care in the United States and internationally. It offers the da Vinci Surgical System that enables surgical procedures using a minimally invasive approach; and Ion endoluminal system, which extends its commercial offerings beyond surgery into diagnostic endoluminal procedures enabling minimally invasive biopsies in the lung. The company also provides a suite of stapling, energy, and core instrumentation for its multi-port da Vinci surgical systems; progressive learning pathways to support the use of its technology; infrastructure of customer service and support specialists, a complement of services to its customers, including installation, repair, maintenance, 24/7 technical support, and proactive system health monitoring; and integrated digital capabilities providing connected offerings, streamlining performance for hospitals with program-enhancing insights. It sells its products through direct sales organizations, such as capital and clinical sales teams. Intuitive Surgical, Inc. was incorporated in 1995 and is headquartered in Sunnyvale, California.
 longName	Intuitive Surgical, Inc.
 market	us_market
-marketCap	154336575488
-marketState	PREPRE
+marketCap	170315350016
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_30239
 mostRecentQuarter	1790726400
 netIncomeToCommon	2957199872
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	152619645196
+nonDilutedMarketCap	155707295248
 numberOfAnalystOpinions	30
-open	439.79
+open	458.99
 operatingCashflow	4089499904
 operatingMargins	0.33286
 overallRisk	4
 payoutRatio	0.0
-pegRatio	2.0
+pegRatio	2.04
 phone	408 523 2100
-postMarketChange	1.8800049
-postMarketChangePercent	0.43033507
-postMarketPrice	438.75
-postMarketTime	1793659272
-previousClose	432.01
-priceEpsCurrentYear	38.82378
+postMarketChange	-2.3600159
+postMarketChangePercent	-0.48952827
+postMarketPrice	479.74
+postMarketTime	1793835191
+previousClose	440.75
+priceEpsCurrentYear	42.84328
 priceHint	2
-priceToBook	9.471847
-priceToSalesTrailing12Months	13.330158
+priceToBook	10.452486
+priceToSalesTrailing12Months	14.710256
 profitMargins	0.25542
 quickRatio	2.316
 quoteSourceName	Nasdaq Real Time Price
@@ -133,16 +133,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.76471
 region	US
-regularMarketChange	4.8599854
-regularMarketChangePercent	1.1249706
-regularMarketDayHigh	446.455
-regularMarketDayLow	436.04
-regularMarketDayRange	436.04 - 446.455
-regularMarketOpen	439.79
-regularMarketPreviousClose	432.01
-regularMarketPrice	436.87
-regularMarketTime	1793653201
-regularMarketVolume	3813505
+regularMarketChange	41.350006
+regularMarketChangePercent	9.381737
+regularMarketDayHigh	485.85
+regularMarketDayLow	453.69
+regularMarketDayRange	453.69 - 485.85
+regularMarketOpen	458.99
+regularMarketPreviousClose	440.75
+regularMarketPrice	482.1
+regularMarketTime	1793826000
+regularMarketVolume	4794953
 returnOnAssets	0.118549995
 returnOnEquity	0.17932
 revenueGrowth	0.217
@@ -173,14 +173,14 @@ totalRevenue	11578000384
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	8.27
-trailingPE	52.825874
-trailingPegRatio	2.0008
+trailingEps	8.34
+trailingPE	57.805756
+trailingPegRatio	2.0413
 triggerable	True
-twoHundredDayAverage	433.061
-twoHundredDayAverageChange	3.8089905
-twoHundredDayAverageChangePercent	0.008795505
+twoHundredDayAverage	432.0674
+twoHundredDayAverageChange	50.032593
+twoHundredDayAverageChangePercent	0.115798116
 typeDisp	Equity
-volume	3813505
+volume	4794953
 website	https://www.intuitive.com
 zip	94086-5304

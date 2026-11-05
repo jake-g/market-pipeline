@@ -3,10 +3,10 @@ allTimeHigh	70.86
 allTimeLow	56.07
 ask	58.46
 askSize	9
-averageDailyVolume10Day	5836410
-averageDailyVolume3Month	5794734
-averageVolume	5794734
-averageVolume10days	5836410
+averageDailyVolume10Day	5794280
+averageDailyVolume3Month	5872296
+averageVolume	5872296
+averageVolume10days	5794280
 beta3Year	0.8
 bid	58.44
 bidSize	59
@@ -17,7 +17,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
 dayHigh	57.64
-dayLow	57.5037
+dayLow	57.42
 displayName	Intm-Term Trsy Idx Fd ETF
 dividendDate	1496793600
 dividendYield	4.03
@@ -27,23 +27,23 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	57.3248
-fiftyDayAverageChange	0.24520111
-fiftyDayAverageChangePercent	0.0042774
-fiftyTwoWeekChangePercent	-3.7018538
+fiftyDayAverage	57.291
+fiftyDayAverageChange	0.32899857
+fiftyDayAverageChangePercent	0.005742587
+fiftyTwoWeekChangePercent	-4.0274086
 fiftyTwoWeekHigh	60.76
-fiftyTwoWeekHighChange	-3.1899986
-fiftyTwoWeekHighChangePercent	-0.052501626
+fiftyTwoWeekHighChange	-3.1399994
+fiftyTwoWeekHighChangePercent	-0.05167873
 fiftyTwoWeekLow	56.35
-fiftyTwoWeekLowChange	1.2200012
-fiftyTwoWeekLowChangePercent	0.021650422
+fiftyTwoWeekLowChange	1.2700005
+fiftyTwoWeekLowChangePercent	0.02253772
 fiftyTwoWeekRange	56.35 - 60.76
 firstTradeDateMilliseconds	1258986600000
-fiveYearAverageReturn	0.0015351
+fiveYearAverageReturn	0.0009302
 fullExchangeName	NasdaqGM
-fulldayChange	-0.010997772
-fulldayChangePercent	-0.019109612
-fulldayPrice	57.57
+fulldayChange	0.18999863
+fulldayChangePercent	0.33083513
+fulldayPrice	57.62
 fundFamily	Vanguard
 fundInceptionDate	1258588800
 gmtOffSetMilliseconds	-18000000
@@ -53,36 +53,36 @@ legalType	Exchange Traded Fund
 longBusinessSummary	Under normal circumstances, the fund invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the bonds that make up the Bloomberg U.S. Treasury 3-10 Year Index. The fund invests by sampling the Target Index, meaning that it holds a range of securities that, in the aggregate, approximates the full Target Index in terms of key risk factors and other characteristics.
 longName	Vanguard Intermediate-Term Treasury Index Fund ETF Shares
 market	us_market
-marketState	PREPRE
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_81834765
-navPrice	57.72
+navPrice	57.42
 netAssets	47829746000.0
 netExpenseRatio	0.03
-open	57.555
-postMarketChange	-0.02999878
-postMarketChangePercent	-0.052108355
-postMarketPrice	57.54
-postMarketTime	1793656500
-previousClose	57.551
+open	57.53
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	57.62
+postMarketTime	1793829104
+previousClose	57.43
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.019001007
-regularMarketChangePercent	0.033015948
+regularMarketChange	0.18999863
+regularMarketChangePercent	0.33083513
 regularMarketDayHigh	57.64
-regularMarketDayLow	57.5037
-regularMarketDayRange	57.5037 - 57.64
-regularMarketOpen	57.555
-regularMarketPreviousClose	57.551
-regularMarketPrice	57.57
-regularMarketTime	1793653201
-regularMarketVolume	5182590
+regularMarketDayLow	57.42
+regularMarketDayRange	57.42 - 57.64
+regularMarketOpen	57.53
+regularMarketPreviousClose	57.43
+regularMarketPrice	57.62
+regularMarketTime	1793826001
+regularMarketVolume	4760652
 shortName	Vanguard Intermediate-Term Trea
 sourceInterval	15
 symbol	VGIT
-threeYearAverageReturn	0.045434598
+threeYearAverageReturn	0.0388475
 totalAssets	47829745664
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-2.90953
 trailingThreeMonthReturns	-2.90953
 triggerable	True
-twoHundredDayAverage	58.7456
-twoHundredDayAverageChange	-1.175602
-twoHundredDayAverageChangePercent	-0.020011744
+twoHundredDayAverage	58.722
+twoHundredDayAverageChange	-1.1020012
+twoHundredDayAverageChangePercent	-0.01876641
 typeDisp	ETF
-volume	5182590
+volume	4760652
 yield	0.0403
 ytdReturn	-2.95576

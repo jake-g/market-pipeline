@@ -1,39 +1,39 @@
 Metric	Value
-52WeekChange	-0.5524929
-SandP52WeekChange	0.10626137
+52WeekChange	-0.5101136
+SandP52WeekChange	0.11368406
 address1	South Tower
 address2	5th Floor 303 2nd Street
 allTimeHigh	282.95
 allTimeLow	37.35
-ask	0.0
-askSize	300
+ask	101.67
+askSize	200
 auditRisk	7
-averageAnalystRating	2.1 - Buy
-averageDailyVolume10Day	8604480
-averageDailyVolume3Month	6085082
-averageVolume	6085082
-averageVolume10days	8604480
+averageAnalystRating	2.2 - Buy
+averageDailyVolume10Day	9939170
+averageDailyVolume3Month	6131706
+averageVolume	6131706
+averageVolume10days	9939170
 beta	2.275
-bid	0.0
-bidSize	100
+bid	101.68
+bidSize	300
 boardRisk	9
 bookValue	18.547
 city	San Francisco
-companyOfficers	[]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Steven Ladd Huffman', 'age': 41, 'title': 'Co-Founder, CEO, President & Director', 'yearBorn': 1984, 'fiscalYear': 2025, 'totalPay': 3101009, 'exercisedValue': 190139344, 'unexercisedValue': 407177952}, {'maxAge': 1, 'name': 'Mr. Andrew  Vollero', 'age': 58, 'title': 'Chief Financial Officer', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1341487, 'exercisedValue': 0, 'unexercisedValue': 31282992}, {'maxAge': 1, 'name': 'Ms. Jennifer L. Wong', 'age': 49, 'title': 'Chief Operating Officer', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 1708899, 'exercisedValue': 45891144, 'unexercisedValue': 293720064}, {'maxAge': 1, 'name': 'Ms. Michelle  Reynolds', 'age': 42, 'title': 'Chief Accounting Officer', 'yearBorn': 1983, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Amit  Puntambekar', 'title': 'Chief Technology Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Jesse  Rose', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul T. Cappuccio J.D.', 'age': 63, 'title': 'Chief Legal Officer & Corporate Secretary', 'yearBorn': 1962, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Adam  Collins', 'title': 'Chief Communications Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jim  Squires', 'title': 'Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Nellie  Peshkov', 'title': 'Chief People Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
-compensationRisk	9
+compensationRisk	10
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	90.97
+currentPrice	101.89
 currentRatio	10.796
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	95.82
-dayLow	90.5
+dayHigh	104.55
+dayLow	97.78
 debtToEquity	0.877
-discount_to_intrinsic_value	64.29
+discount_to_intrinsic_value	60.33
 displayName	Reddit
 dividendYield	0.0
 earningsCallTimestampEnd	1793305800
@@ -45,12 +45,12 @@ earningsTimestampEnd	1793304000
 earningsTimestampStart	1793304000
 ebitda	924921024
 ebitdaMargins	0.29944
-enterpriseToEbitda	15.746
-enterpriseToRevenue	4.715
-enterpriseValue	14563714048
-epsCurrentYear	7.77236
-epsForward	9.21742
-epsTrailingTwelveMonths	4.86
+enterpriseToEbitda	16.827
+enterpriseToRevenue	5.039
+enterpriseValue	15563938816
+epsCurrentYear	7.71588
+epsForward	9.28575
+epsTrailingTwelveMonths	4.9
 eps_normalized_growth	0.5167619018398009
 esgPopulated	False
 exchange	NYQ
@@ -58,36 +58,36 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	150.3696
-fiftyDayAverageChange	-59.399597
-fiftyDayAverageChangePercent	-0.39502397
-fiftyTwoWeekChangePercent	-55.24929
+fiftyDayAverage	147.9922
+fiftyDayAverageChange	-46.102203
+fiftyDayAverageChangePercent	-0.31151778
+fiftyTwoWeekChangePercent	-51.01136
 fiftyTwoWeekHigh	263.5
-fiftyTwoWeekHighChange	-172.53
-fiftyTwoWeekHighChangePercent	-0.6547628
+fiftyTwoWeekHighChange	-161.61
+fiftyTwoWeekHighChangePercent	-0.6133207
 fiftyTwoWeekLow	89.28
-fiftyTwoWeekLowChange	1.6900024
-fiftyTwoWeekLowChangePercent	0.01892924
+fiftyTwoWeekLowChange	12.610001
+fiftyTwoWeekLowChangePercent	0.14124104
 fiftyTwoWeekRange	89.28 - 263.5
 financialCurrency	USD
 firstTradeDateMilliseconds	1711027800000
-floatShares	141165034
-forwardEps	9.21742
-forwardPE	9.869356
+floatShares	141352335
+forwardEps	9.28575
+forwardPE	10.972727
 freeCashflow	811615232
 fullExchangeName	NYSE
 fullTimeEmployees	2555
-fulldayChange	-1.2100067
-fulldayChangePercent	-1.3190958
-fulldayPrice	90.97
+fulldayChange	6.1039963
+fulldayChangePercent	6.34841
+fulldayPrice	102.254
 gmtOffSetMilliseconds	-18000000
-governanceEpochDate	1790812800
-graham_intrinsic_value	254.78
+governanceEpochDate	1793491200
+graham_intrinsic_value	256.88
 grossMargins	0.91547996
 grossProfits	2827800064
 hasPrePostMarketData	True
-heldPercentInsiders	0.00657
-heldPercentInstitutions	0.92759
+heldPercentInsiders	0.00654
+heldPercentInstitutions	0.9235
 impliedSharesOutstanding	193093731
 industry	Internet Content & Information
 industryDisp	Internet Content & Information
@@ -99,48 +99,48 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Reddit, Inc. operates a digital community in the United States and internationally. The company's platform enables user to engage in conversations, explore passions, research new hobbies, exchange goods and services, create new communities and experiences, share laughs, and find belonging. It also organizes communities based on specific interests that enable users to engage in conversations by sharing experiences, submitting links, uploading images and videos, and replying to one another. Reddit, Inc. was founded in 2005 and is headquartered in San Francisco, California.
 longName	Reddit, Inc.
 market	us_market
-marketCap	17565736960
-marketState	PREPRE
+marketCap	19674318848
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_29927936
 mostRecentQuarter	1790726400
 netIncomeToCommon	991696000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	17712487943
-numberOfAnalystOpinions	30
-open	92.21
+nonDilutedMarketCap	17565736708
+numberOfAnalystOpinions	29
+open	97.9
 operatingCashflow	1204733056
 operatingMargins	0.29229
 overallRisk	10
 payoutRatio	0.0
-pegRatio	0.46
+pegRatio	0.47
 phone	415 494 8016
-postMarketChange	0.33919525
-postMarketChangePercent	0.37286496
-postMarketPrice	91.3092
-postMarketTime	1793667479
-previousClose	91.73
-priceEpsCurrentYear	11.704296
+postMarketChange	0.3639984
+postMarketChangePercent	0.35724646
+postMarketPrice	102.254
+postMarketTime	1793836570
+previousClose	96.15
+priceEpsCurrentYear	13.205234
 priceHint	2
-priceToBook	4.904836
-priceToSalesTrailing12Months	5.6867657
+priceToBook	5.4936104
+priceToSalesTrailing12Months	6.369402
 profitMargins	0.32105
 quickRatio	10.536
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	2.14706
+recommendationMean	2.21875
 region	US
-regularMarketChange	-0.760002
-regularMarketChangePercent	-0.828521
-regularMarketDayHigh	95.82
-regularMarketDayLow	90.5
-regularMarketDayRange	90.5 - 95.82
-regularMarketOpen	92.21
-regularMarketPreviousClose	91.73
-regularMarketPrice	90.97
-regularMarketTime	1793653462
-regularMarketVolume	11806222
+regularMarketChange	5.74
+regularMarketChangePercent	5.96984
+regularMarketDayHigh	104.55
+regularMarketDayLow	97.78
+regularMarketDayRange	97.78 - 104.55
+regularMarketOpen	97.9
+regularMarketPreviousClose	96.15
+regularMarketPrice	101.89
+regularMarketTime	1793826233
+regularMarketVolume	8162898
 returnOnAssets	0.16598
 returnOnEquity	0.32029998
 revenueGrowth	0.53
@@ -162,7 +162,7 @@ state	CA
 symbol	RDDT
 targetHighPrice	272.0
 targetLowPrice	100.0
-targetMeanPrice	158.84666
+targetMeanPrice	154.15172
 targetMedianPrice	150.0
 totalCash	3033432064
 totalCashPerShare	15.71
@@ -171,14 +171,14 @@ totalRevenue	3088880128
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	4.86
-trailingPE	18.718107
-trailingPegRatio	0.4576
+trailingEps	4.9
+trailingPE	20.793877
+trailingPegRatio	0.4538
 triggerable	True
-twoHundredDayAverage	159.37015
-twoHundredDayAverageChange	-68.40015
-twoHundredDayAverageChangePercent	-0.42919046
+twoHundredDayAverage	158.00694
+twoHundredDayAverageChange	-56.116943
+twoHundredDayAverageChangePercent	-0.35515493
 typeDisp	Equity
-volume	11806222
+volume	8162898
 website	https://redditinc.com
 zip	94107

@@ -2,22 +2,22 @@ Metric	Value
 allTimeHigh	105.09
 allTimeLow	99.56
 ask	0.0
-askSize	12200
-averageDailyVolume10Day	774190
-averageDailyVolume3Month	688757
-averageVolume	688757
-averageVolume10days	774190
+askSize	8900
+averageDailyVolume10Day	818600
+averageDailyVolume3Month	698603
+averageVolume	698603
+averageVolume10days	818600
 beta3Year	0.02
 bid	0.0
-bidSize	14600
+bidSize	10000
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	99.9
-dayLow	99.89
+dayHigh	99.93
+dayLow	99.91
 displayName	Access Treasury 0-1 Year ETF
 dividendYield	3.64
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	100.018
-fiftyDayAverageChange	-0.12799835
-fiftyDayAverageChangePercent	-0.0012797532
-fiftyTwoWeekChangePercent	0.30026436
+fiftyDayAverage	100.0092
+fiftyDayAverageChange	-0.079200745
+fiftyDayAverageChangePercent	-0.00079193455
+fiftyTwoWeekChangePercent	-0.02001524
 fiftyTwoWeekHigh	100.26
-fiftyTwoWeekHighChange	-0.37000275
-fiftyTwoWeekHighChangePercent	-0.0036904323
+fiftyTwoWeekHighChange	-0.33000183
+fiftyTwoWeekHighChangePercent	-0.0032914605
 fiftyTwoWeekLow	99.82
-fiftyTwoWeekLowChange	0.069999695
-fiftyTwoWeekLowChangePercent	0.00070125924
+fiftyTwoWeekLowChange	0.11000061
+fiftyTwoWeekLowChangePercent	0.0011019896
 fiftyTwoWeekRange	99.82 - 100.26
 firstTradeDateMilliseconds	1473859800000
-fiveYearAverageReturn	0.0363832
+fiveYearAverageReturn	0.0363945
 fullExchangeName	NYSEArca
-fulldayChange	0.025497437
-fulldayChangePercent	0.025524365
-fulldayPrice	99.89
+fulldayChange	0.012199402
+fulldayChangePercent	0.012211613
+fulldayPrice	99.9122
 fundFamily	Goldman Sachs
 fundInceptionDate	1473120000
 gmtOffSetMilliseconds	-18000000
@@ -52,37 +52,37 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund seeks to achieve its investment objective by investing at least 80% of its assets (exclusive of collateral held from securities lending) in securities included in its underlying index. The index is designed to measure the performance of U.S. Treasury Securities with a maximum remaining maturity of 12 months. The investment adviser uses a representative sampling strategy to manage the fund.
 longName	Goldman Sachs Access Treasury 0-1 Year ETF
 market	us_market
-marketState	PREPRE
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_379291762
-navPrice	100.19
+navPrice	99.9
 netAssets	7915498500.0
 netExpenseRatio	0.12
-open	99.89
+open	99.9
 phone	(212) 902-1000
-postMarketChange	0.020004272
-postMarketChangePercent	0.020026302
-postMarketPrice	99.91
-postMarketTime	1793665060
-previousClose	99.8945
+postMarketChange	-0.017799377
+postMarketChangePercent	-0.017811846
+postMarketPrice	99.9122
+postMarketTime	1793834885
+previousClose	99.9
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.00450134
-regularMarketChangePercent	-0.0045061
-regularMarketDayHigh	99.9
-regularMarketDayLow	99.89
-regularMarketDayRange	99.89 - 99.9
-regularMarketOpen	99.89
-regularMarketPreviousClose	99.8945
-regularMarketPrice	99.89
-regularMarketTime	1793653200
-regularMarketVolume	964462
+regularMarketChange	0.0299988
+regularMarketChangePercent	0.0300288
+regularMarketDayHigh	99.93
+regularMarketDayLow	99.91
+regularMarketDayRange	99.91 - 99.93
+regularMarketOpen	99.9
+regularMarketPreviousClose	99.9
+regularMarketPrice	99.93
+regularMarketTime	1793826000
+regularMarketVolume	1348296
 shortName	Goldman Sachs Access Treasury 0
 sourceInterval	15
 symbol	GBIL
-threeYearAverageReturn	0.0443478
+threeYearAverageReturn	0.044049002
 totalAssets	7915498496
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.87452
 trailingThreeMonthReturns	0.87452
 triggerable	True
-twoHundredDayAverage	100.03955
-twoHundredDayAverageChange	-0.14955139
-twoHundredDayAverageChangePercent	-0.0014949227
+twoHundredDayAverage	100.03775
+twoHundredDayAverageChange	-0.10774994
+twoHundredDayAverageChangePercent	-0.0010770928
 typeDisp	ETF
-volume	964462
+volume	1348296
 yield	0.0364
 ytdReturn	2.55299
