@@ -632,28 +632,86 @@ def main():
                                     {}).get("result",
                                             [{}])[0].get("portfolios", [])
 
-          old_map = {p.get("name", "Unknown"): p for p in old_portfolios}
+          old_map = {
+              p.get("pfName", p.get("name", "Unknown")): p
+              for p in old_portfolios
+          }
 
-          logger.info("========== Live vs Local Cache Value Diff ==========")
-          for p in new_portfolios:
-            name = p.get("name", "Unknown")
-            new_val = p.get("currentMarketValue", 0)
-            if name in old_map:
-              old_val = old_map[name].get("currentMarketValue", 0)
-              diff = new_val - old_val
-              if abs(diff) > 0.01:
-                sign = "+" if diff > 0 else ""
-                logger.info(
-                    f"DIFF [{name}]: Value changed by {sign}${diff:,.2f} (from ${old_val:,.2f} to ${new_val:,.2f})"
+          live_quotes = {}
+          for np_item in new_portfolios:
+            for npos in np_item.get("positions", []):
+              nsym = npos.get("symbol")
+              nqty = npos.get("quantity", 0)
+              nval = npos.get("currentMarketValue", 0)
+              if nsym and nqty > 0 and nval > 0:
+                live_quotes[nsym] = (
+                    nval / nqty,
+                    npos.get("dailyPercentGain", 0.0),
                 )
-            else:
-              logger.info(
-                  f"DIFF: New portfolio added: {name} (${new_val:,.2f})")
+
+          logger.info("========== Live vs Local Cache Sync Check ==========")
+          for p in new_portfolios:
+            name = p.get("pfName", p.get("name", "Unknown"))
+            la = p.get("linkedAccount") or {}
+            status = la.get("status") or {}
+            new_sync = la.get("lastSynchronizedAt") or p.get("lastUpdated", 0)
+            if status.get("stale"):
+              logger.warning(
+                  "Yodlee link for '%s' is marked STALE (action: %s). "
+                  "Reconnect at https://finance.yahoo.com/portfolios",
+                  name,
+                  status.get("actionToRefresh", "REFRESH"),
+              )
+            if name in old_map:
+              old_p = old_map[name]
+              old_la = old_p.get("linkedAccount") or {}
+              old_sync = old_la.get("lastSynchronizedAt") or old_p.get(
+                  "lastUpdated", 0)
+              if old_sync and new_sync and old_sync > new_sync:
+                logger.warning(
+                    "Preserving newer local positions for '%s' "
+                    "(local sync %d > Yahoo Yodlee sync %d).",
+                    name,
+                    old_sync,
+                    new_sync,
+                )
+                updated_positions = []
+                total_mkt_val = float(old_p.get("cashPosition", 0.0))
+                for opos in old_p.get("positions", []):
+                  pos_copy = dict(opos)
+                  osym = pos_copy.get("symbol")
+                  oqty = float(pos_copy.get("quantity", 0.0))
+                  if osym in live_quotes and oqty > 0 and osym != "VMFXX":
+                    u_price, day_pct = live_quotes[osym]
+                    old_cost = float(pos_copy.get(
+                        "currentMarketValue", 0.0)) - float(
+                            pos_copy.get("totalGain", 0.0))
+                    new_val = round(oqty * u_price, 2)
+                    new_gain = round(new_val - old_cost, 2)
+                    new_pct = (round((new_gain / old_cost) *
+                                     100, 2) if old_cost > 0 else 0.0)
+                    prev_val = (new_val / (1.0 + day_pct / 100.0)
+                                if day_pct != -100.0 else new_val)
+                    pos_copy["currentMarketValue"] = new_val
+                    pos_copy["totalGain"] = new_gain
+                    pos_copy["totalPercentGain"] = new_pct
+                    pos_copy["dailyGain"] = round(new_val - prev_val, 2)
+                    pos_copy["dailyPercentGain"] = round(day_pct, 2)
+                  total_mkt_val += float(pos_copy.get("currentMarketValue",
+                                                      0.0))
+                  updated_positions.append(pos_copy)
+                p["positions"] = updated_positions
+                p["cashPosition"] = old_p.get("cashPosition",
+                                              p.get("cashPosition", 0))
+                p["currentMarketValue"] = round(total_mkt_val, 2)
+                p["lastUpdated"] = old_sync
+                if "linkedAccount" in p and isinstance(p["linkedAccount"],
+                                                       dict):
+                  p["linkedAccount"]["lastSynchronizedAt"] = old_sync
           logger.info("====================================================")
         except Exception as e:
           logger.warning(
-              f"Could not compute structural diff against existing portfolio.json: {e}"
-          )
+              "Could not compute structural diff against portfolio.json: %s", e)
     if not args.local_json:
       with open(json_cache_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)

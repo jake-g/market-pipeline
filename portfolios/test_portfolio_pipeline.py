@@ -217,8 +217,9 @@ class TestPortfolioPipeline(unittest.TestCase):
     self.assertEqual(res["crumb"], "mycrumb")
     self.assertIn("crumb_cookie=123", res["cookie"])
 
+  @patch("portfolios.yahoo_portfolio_fetcher.logger")
   @patch("portfolios.yahoo_portfolio_fetcher.requests.get")
-  def test_verify_auth_failure_does_not_clear_file(self, mock_get):
+  def test_verify_auth_failure_does_not_clear_file(self, mock_get, mock_logger):
     """Test that verify_yahoo_auth 401 does NOT wipe CURL_AUTH_FILE."""
     mock_resp = unittest.mock.MagicMock()
     mock_resp.status_code = 401
@@ -234,6 +235,7 @@ class TestPortfolioPipeline(unittest.TestCase):
       self.assertFalse(result)
       with open(test_auth_file, "r", encoding="utf-8") as f:
         self.assertEqual(f.read(), "curl pending_new_credentials")
+      mock_logger.error.assert_called()
 
 
 if __name__ == '__main__':
