@@ -1,22 +1,22 @@
 Metric	Value
-52WeekChange	-0.6766667
-SandP52WeekChange	0.11368406
+52WeekChange	-0.6473464
+SandP52WeekChange	0.1440854
 address1	333 Encinal Street
 allTimeHigh	20.95
 allTimeLow	3.15
-ask	5.33
-askSize	38400
+ask	5.21
+askSize	31000
 auditRisk	7
 averageAnalystRating	3.1 - Hold
-averageDailyVolume10Day	16506570
-averageDailyVolume3Month	24349475
-averageVolume	24349475
-averageVolume10days	16506570
+averageDailyVolume10Day	17183950
+averageDailyVolume3Month	24250657
+averageVolume	24250657
+averageVolume10days	17183950
 beta	2.836
-bid	5.06
-bidSize	30700
+bid	5.25
+bidSize	7900
 boardRisk	6
-bookValue	1.791
+bookValue	1.541
 city	Santa Cruz
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Paul Cahill Sciarra', 'age': 45, 'title': 'Executive Chairman of the Board', 'yearBorn': 1980, 'fiscalYear': 2025, 'totalPay': 50000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. JoeBen  Bevirt', 'age': 52, 'title': 'Founder, CEO, Chief Architect, President & Director', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 661433, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rodrigo  Brumana', 'age': 50, 'title': 'CFO & Treasurer', 'yearBorn': 1975, 'fiscalYear': 2025, 'totalPay': 681003, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Bonny W. Simi', 'age': 63, 'title': 'President of Operations', 'yearBorn': 1962, 'fiscalYear': 2025, 'totalPay': 600933, 'exercisedValue': 5489972, 'unexercisedValue': 3028676}, {'maxAge': 1, 'name': 'Ms. Katherine  DeHoff J.D.', 'age': 49, 'title': 'Chief Legal Officer & Corporate Secretary', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 679079, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sergei  Novikov', 'age': 55, 'title': 'Corporate Controller, Principal Accounting Officer & Treasurer', 'yearBorn': 1970, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Teresa J. Thuruthiyil', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Gregory J. Bowles', 'age': 50, 'title': 'Chief Policy Officer', 'yearBorn': 1975, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Eric  Allison Ph.D.', 'age': 49, 'title': 'Chief Product Officer', 'yearBorn': 1976, 'fiscalYear': 2025, 'totalPay': 436116, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Robert S. Wiesenthal', 'age': 58, 'title': 'Founder and CEO of BLADE Air Mobility, Inc.', 'yearBorn': 1967, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
@@ -25,12 +25,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	5.05
+currentPrice	5.3
 currentRatio	17.975
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	5.22
-dayLow	4.94
+dayHigh	5.82
+dayLow	4.82
 debtToEquity	42.322
 displayName	Joby Aviation
 dividendYield	0.0
@@ -41,40 +41,40 @@ earningsTimestampEnd	1793826000
 earningsTimestampStart	1793826000
 ebitda	-838780032
 ebitdaMargins	0.0
-enterpriseToEbitda	-3.912
-enterpriseToRevenue	28.214
-enterpriseValue	3281139456
+enterpriseToEbitda	-4.148
+enterpriseToRevenue	29.915
+enterpriseValue	3478964480
 epsCurrentYear	-0.77
 epsForward	-0.645
-epsTrailingTwelveMonths	-0.97
+epsTrailingTwelveMonths	-1.02
 esgPopulated	False
 exchange	NYQ
 exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	5.8292
-fiftyDayAverageChange	-0.7791996
-fiftyDayAverageChangePercent	-0.13367179
-fiftyTwoWeekChangePercent	-67.666664
+fiftyDayAverage	5.7858
+fiftyDayAverageChange	-0.4857998
+fiftyDayAverageChangePercent	-0.083964154
+fiftyTwoWeekChangePercent	-64.734634
 fiftyTwoWeekHigh	17.1
-fiftyTwoWeekHighChange	-12.05
-fiftyTwoWeekHighChangePercent	-0.70467836
+fiftyTwoWeekHighChange	-11.8
+fiftyTwoWeekHighChangePercent	-0.69005847
 fiftyTwoWeekLow	4.43
-fiftyTwoWeekLowChange	0.62000036
-fiftyTwoWeekLowChangePercent	0.13995494
+fiftyTwoWeekLowChange	0.87000036
+fiftyTwoWeekLowChangePercent	0.19638835
 fiftyTwoWeekRange	4.43 - 17.1
 financialCurrency	USD
 firstTradeDateMilliseconds	1604932200000
 floatShares	669627217
 forwardEps	-0.645
-forwardPE	-7.8294578
+forwardPE	-8.217054
 freeCashflow	-436446240
 fullExchangeName	NYSE
 fullTimeEmployees	2559
-fulldayChange	0.42850018
-fulldayChangePercent	8.835055
-fulldayPrice	5.2785
+fulldayChange	0.23000002
+fulldayChangePercent	4.5544558
+fulldayPrice	5.3
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.34289002
@@ -92,30 +92,30 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Joby Aviation, Inc., an air mobility company, engages in research, develop, test, manufacture, and sale of electric vertical takeoff and landing aircraft in the United States, Japan, Europe, and internationally. The company offers facilitation of passenger transportation via helicopter or fixed wing aircraft. It is also involved in the provision of government flight services, customer demonstration, and engineering services; and exhibition activities. Joby Aviation, Inc. was founded in 2009 and is headquartered in Santa Cruz, California.
 longName	Joby Aviation, Inc.
 market	us_market
-marketCap	5031286272
-marketState	POST
+marketCap	5280359936
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_551384045
 mostRecentQuarter	1782777600
 netIncomeToCommon	-878155008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	4792175323
+nonDilutedMarketCap	4832027093
 numberOfAnalystOpinions	9
-open	4.94
+open	5.77
 operatingCashflow	-609942016
 operatingMargins	-6.75181
 overallRisk	8
 payoutRatio	0.0
 phone	831 201 6700
-postMarketChange	0.22849989
-postMarketChangePercent	4.52475
-postMarketPrice	5.2785
-postMarketTime	1793837173
-previousClose	4.85
-priceEpsCurrentYear	-6.558442
+postMarketChange	-0.01999998
+postMarketChangePercent	-0.3773581
+postMarketPrice	5.28
+postMarketTime	1793926716
+previousClose	5.05
+priceEpsCurrentYear	-6.883117
 priceHint	2
-priceToBook	2.819654
-priceToSalesTrailing12Months	43.263134
+priceToBook	3.4393253
+priceToSalesTrailing12Months	45.404877
 profitMargins	0.0
 quickRatio	17.665
 quoteSourceName	Nasdaq Real Time Price
@@ -123,16 +123,16 @@ quoteType	EQUITY
 recommendationKey	none
 recommendationMean	3.09091
 region	US
-regularMarketChange	0.2
-regularMarketChangePercent	4.12372
-regularMarketDayHigh	5.22
-regularMarketDayLow	4.94
-regularMarketDayRange	4.94 - 5.22
-regularMarketOpen	4.94
-regularMarketPreviousClose	4.85
-regularMarketPrice	5.05
-regularMarketTime	1793826003
-regularMarketVolume	23361264
+regularMarketChange	0.25
+regularMarketChangePercent	4.95049
+regularMarketDayHigh	5.82
+regularMarketDayLow	4.82
+regularMarketDayRange	4.82 - 5.82
+regularMarketOpen	5.77
+regularMarketPreviousClose	5.05
+regularMarketPrice	5.3
+regularMarketTime	1793912403
+regularMarketVolume	44608745
 returnOnAssets	-0.27508
 returnOnEquity	-0.65902
 revenueGrowth	2574.933
@@ -152,7 +152,7 @@ shortRatio	5.99
 sourceInterval	15
 state	CA
 symbol	JOBY
-syntheticPEG	-3.040645251740531e-05
+syntheticPEG	-3.191171964474415e-05
 targetHighPrice	18.0
 targetLowPrice	4.0
 targetMeanPrice	10.00889
@@ -164,13 +164,13 @@ totalRevenue	116295000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-0.97
+trailingEps	-1.02
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	8.52215
-twoHundredDayAverageChange	-3.4721498
-twoHundredDayAverageChangePercent	-0.4074265
+twoHundredDayAverage	8.4738
+twoHundredDayAverageChange	-3.1737995
+twoHundredDayAverageChangePercent	-0.37454265
 typeDisp	Equity
-volume	23361264
+volume	44608745
 website	https://www.jobyaviation.com
 zip	95060

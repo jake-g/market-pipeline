@@ -10,7 +10,7 @@ averageDailyVolume10Day	0
 averageDailyVolume3Month	0
 averageVolume	0
 averageVolume10days	0
-beta3Year	1.08
+beta3Year	1.1
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
@@ -18,7 +18,7 @@ currency	USD
 customPriceAlertConfidence	NONE
 displayName	Vanguard FTSE Social Admiral
 dividendRate	0.4562
-dividendYield	0.82
+dividendYield	0.84
 epsTrailingTwelveMonths	2.9568465
 esgPopulated	False
 exchange	NAS
@@ -26,22 +26,22 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	73.6188
-fiftyDayAverageChange	-0.46879578
-fiftyDayAverageChangePercent	-0.0063678813
-fiftyTwoWeekChangePercent	9.570408
+fiftyDayAverage	73.614
+fiftyDayAverageChange	-3.8339996
+fiftyDayAverageChangePercent	-0.05208248
+fiftyTwoWeekChangePercent	13.3757
 fiftyTwoWeekHigh	75.17
-fiftyTwoWeekHighChange	-2.0199966
-fiftyTwoWeekHighChangePercent	-0.026872378
+fiftyTwoWeekHighChange	-5.3899994
+fiftyTwoWeekHighChangePercent	-0.071704134
 fiftyTwoWeekLow	58.5
-fiftyTwoWeekLowChange	14.650002
-fiftyTwoWeekLowChangePercent	0.25042737
+fiftyTwoWeekLowChange	11.279999
+fiftyTwoWeekLowChangePercent	0.19282049
 fiftyTwoWeekRange	58.5 - 75.17
 firstTradeDateMilliseconds	1549549800000
 fullExchangeName	Nasdaq
-fulldayChange	1.48
-fulldayChangePercent	2.0650203
-fulldayPrice	73.15
+fulldayChange	-3.37
+fulldayChangePercent	-4.6069717
+fulldayPrice	69.78
 fundInceptionDate	1042502400
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	False
@@ -51,35 +51,35 @@ lastDividendValue	0.4562
 longBusinessSummary	The index is composed of large- and mid-cap stocks of companies that are screened for certain environmental, social, and corporate governance (ESG) criteria by the index provider. The manager attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. It is non-diversified.
 longName	Vanguard FTSE Social Index Admiral
 market	us_market
-marketState	POST
+marketState	PREPRE
 maxAge	86400
 messageBoardId	finmb_28116251
 morningStarOverallRating	3
 morningStarRiskRating	5
 netAssets	29540145200.0
 netExpenseRatio	0.11
-previousClose	71.67
+previousClose	73.15
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	1.48
-regularMarketChangePercent	2.0650203
-regularMarketPreviousClose	71.67
-regularMarketPrice	73.15
-regularMarketTime	1793836169
+regularMarketChange	-3.37
+regularMarketChangePercent	-4.6069717
+regularMarketPreviousClose	73.15
+regularMarketPrice	69.78
+regularMarketTime	1793927057
 shortName	Vanguard FTSE Social Index Fund
 sourceInterval	15
 symbol	VFTAX
 totalAssets	29540145152
 tradeable	False
-trailingPE	24.739195
+trailingPE	23.599466
 trailingPegRatio	None
-trailingThreeMonthReturns	3.38972
+trailingThreeMonthReturns	0.97407
 triggerable	False
-twoHundredDayAverage	69.37775
-twoHundredDayAverageChange	3.772255
-twoHundredDayAverageChangePercent	0.054372694
+twoHundredDayAverage	69.4216
+twoHundredDayAverageChange	0.35839844
+twoHundredDayAverageChangePercent	0.005162636
 typeDisp	Fund
-yield	0.0082
-ytdReturn	13.09043
+yield	0.0084
+ytdReturn	10.32426
