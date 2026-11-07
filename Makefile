@@ -284,7 +284,7 @@ private-status:
 	@$(PRIVATE_GIT) status
 
 private-add:
-	@$(PRIVATE_GIT) add . ':!market_data/**'
+	@$(PRIVATE_GIT) add -A -- . ':(exclude)market_data' 2>/dev/null || true
 	@$(PRIVATE_GIT) add -f -- reports/ portfolios/ \
 		':!reports/backups/**' ':!reports/rendered/**' \
 		':!**/*.pdf' ':!**/*.zip' ':!**/*.stub' \
