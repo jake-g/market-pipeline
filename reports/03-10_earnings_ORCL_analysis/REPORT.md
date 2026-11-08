@@ -1,4 +1,6 @@
-# ORCL Q3 Earnings Trade Analysis\n\n## Executive Summary
+# ORCL Q3 Earnings Trade Analysis
+
+## Executive Summary
 Oracle (ORCL) is cementing its position as a Tier-1 Cloud target. This report details Q3 earnings reactions and predictive near-term price scenarios.
 
 **AI Tactical Insight:** ORCL historically exhibits a **"Gap Trap,"** fading from +8.90% intraday peaks to a +4.28% average close [2, 3]. However, Q3 beats driven by **OCI (Oracle Cloud)** growth offer fuel for potential trend breaks [1, 4].
