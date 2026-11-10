@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-11-04 |
+| Date | str | 2026-11-09 |
 | Source | str | Google |
-| Sentiment | float64 | 0.367 |
-| Headline | str | China supports stocks with cheap buyback loans ... |
+| Sentiment | float64 | 0.0 |
+| Headline | str | (FXI) and the Role of Price-Sensitive Allocatio... |
 | Summary | str | China's central bank is subsidizing buybacks wh... |
-| URL | str | https://news.google.com/rss/articles/CBMiiwFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMixgFBVV... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News
@@ -73,7 +73,7 @@ This report documents the file structures and column data types used in `market_
 | CREDIT_CARD_DELINQUENCY | float64 | 2.62 |
 | GDP | float64 | 33010.036 |
 | REAL_GDP | float64 | 24611.077 |
-| UNRATE | float64 | 4.2 |
+| UNRATE | float64 | 4.1 |
 | HOUSING_STARTS | float64 | 1221.0 |
 | RECESSION_PROB | float64 | 0.4 |
 | UMICH_SENTIMENT | float64 | 48.1 |
@@ -83,24 +83,24 @@ This report documents the file structures and column data types used in `market_
 | FED_ASSETS | float64 | 6748145.0 |
 | CPI | float64 | 336.298 |
 | FEDFUNDS | float64 | 3.88 |
-| US02Y | float64 | 4.58 |
-| US10Y | float64 | 4.9 |
-| US30Y | float64 | 5.28 |
-| HY_SPREAD | float64 | 3.32 |
-| CORP_SPREAD | float64 | 0.91 |
-| BAA_SPREAD | float64 | 1.52 |
-| AAA_SPREAD | float64 | 1.06 |
+| US02Y | float64 | 4.46 |
+| US10Y | float64 | 4.84 |
+| US30Y | float64 | 5.25 |
+| HY_SPREAD | float64 | 3.42 |
+| CORP_SPREAD | float64 | 0.93 |
+| BAA_SPREAD | float64 | 1.57 |
+| AAA_SPREAD | float64 | 1.13 |
 | FEDFUNDS_UPPER | float64 | 4.0 |
-| SOFR | float64 | 3.94 |
-| US03M | float64 | 4.21 |
-| US01Y | float64 | 4.39 |
-| US05Y | float64 | 4.69 |
-| US10Y_REAL | float64 | 2.64 |
-| BREAKEVEN_10Y | float64 | 2.24 |
+| SOFR | float64 | 3.89 |
+| US03M | float64 | 4.17 |
+| US01Y | float64 | 4.28 |
+| US05Y | float64 | 4.59 |
+| US10Y_REAL | float64 | 2.6 |
+| BREAKEVEN_10Y | float64 | 2.23 |
 | TERM_PREMIUM_10Y | float64 | 0.9089 |
-| HY_YIELD | float64 | 8.0 |
-| CORP_YIELD | float64 | 5.74 |
-| US_POLICY_UNCERTAINTY | float64 | 283.13 |
+| HY_YIELD | float64 | 8.06 |
+| CORP_YIELD | float64 | 5.73 |
+| US_POLICY_UNCERTAINTY | float64 | 292.85 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 373.5523 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.5224 |

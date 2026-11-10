@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	109.83
 allTimeLow	8.45
-ask	0.0
-askSize	3600
-averageDailyVolume10Day	21216170
-averageDailyVolume3Month	17022760
-averageVolume	17022760
-averageVolume10days	21216170
+ask	47.6
+askSize	1300
+averageDailyVolume10Day	20754840
+averageDailyVolume3Month	17099060
+averageVolume	17099060
+averageVolume10days	20754840
 beta3Year	1.26
-bid	0.0
-bidSize	8100
+bid	47.59
+bidSize	5900
 bookValue	21.348
 category	Commodities Focused
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	47.955
-dayLow	46.54
+dayHigh	47.88
+dayLow	47.36
 dividendYield	0.0
 epsTrailingTwelveMonths	-3.46
 esgPopulated	False
@@ -27,24 +27,24 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	54.8262
-fiftyDayAverageChange	-7.8961983
-fiftyDayAverageChangePercent	-0.14402236
-fiftyTwoWeekChangePercent	8.289326
+fiftyDayAverage	54.215
+fiftyDayAverageChange	-6.6526985
+fiftyDayAverageChangePercent	-0.12270956
+fiftyTwoWeekChangePercent	2.3585916
 fiftyTwoWeekHigh	109.83
-fiftyTwoWeekHighChange	-62.9
-fiftyTwoWeekHighChangePercent	-0.5727033
-fiftyTwoWeekLow	43.24
-fiftyTwoWeekLowChange	3.6899986
-fiftyTwoWeekLowChangePercent	0.08533762
-fiftyTwoWeekRange	43.24 - 109.83
+fiftyTwoWeekHighChange	-62.2677
+fiftyTwoWeekHighChangePercent	-0.5669462
+fiftyTwoWeekLow	44.11
+fiftyTwoWeekLowChange	3.452301
+fiftyTwoWeekLowChangePercent	0.07826572
+fiftyTwoWeekRange	44.11 - 109.83
 financialCurrency	USD
 firstTradeDateMilliseconds	1146231000000
-fiveYearAverageReturn	0.1647433
+fiveYearAverageReturn	0.1596408
 fullExchangeName	NYSEArca
-fulldayChange	-0.7099991
-fulldayChangePercent	-1.5055113
-fulldayPrice	46.93
+fulldayChange	0.6923027
+fulldayChangePercent	1.4771426
+fulldayPrice	47.5623
 fundFamily	iShares
 fundInceptionDate	1145577600
 gmtOffSetMilliseconds	-18000000
@@ -54,38 +54,38 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The Trust seeks to reflect such performance before payment of the Trust's expenses and liabilities. It is not actively managed. The Trust does not engage in any activities designed to obtain a profit from, or to ameliorate losses caused by, changes in the price of silver.
 longName	iShares Silver Trust
 market	us_market
-marketState	PREPRE
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_22769902
-navPrice	46.92664
+navPrice	46.95242
 netAssets	25189589000.0
 netExpenseRatio	0.5
-open	47.74
+open	47.5
 postMarketChange	0.020000458
 postMarketChangePercent	0.042617638
 postMarketPrice	46.95
 postMarketTime	1793926740
-previousClose	47.16
+previousClose	46.87
 priceHint	2
-priceToBook	2.1983325
-quoteSourceName	Delayed Quote
+priceToBook	2.2279513
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.23
-regularMarketChangePercent	-0.4877
-regularMarketDayHigh	47.955
-regularMarketDayLow	46.54
-regularMarketDayRange	46.54 - 47.955
-regularMarketOpen	47.74
-regularMarketPreviousClose	47.16
-regularMarketPrice	46.93
-regularMarketTime	1793912400
-regularMarketVolume	26120249
+regularMarketChange	0.6923027
+regularMarketChangePercent	1.4771426
+regularMarketDayHigh	47.88
+regularMarketDayLow	47.36
+regularMarketDayRange	47.36 - 47.88
+regularMarketOpen	47.5
+regularMarketPreviousClose	46.87
+regularMarketPrice	47.5623
+regularMarketTime	1794244651
+regularMarketVolume	7201201
 sharesOutstanding	341449984
 shortName	iShares Silver Trust
 sourceInterval	15
 symbol	SLV
-threeYearAverageReturn	0.30499688
+threeYearAverageReturn	0.3051931
 totalAssets	25189588992
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -94,10 +94,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-13.32519
 trailingThreeMonthReturns	-13.32519
 triggerable	True
-twoHundredDayAverage	63.6711
-twoHundredDayAverageChange	-16.7411
-twoHundredDayAverageChangePercent	-0.2629309
+twoHundredDayAverage	63.28465
+twoHundredDayAverageChange	-15.722347
+twoHundredDayAverageChangePercent	-0.24843857
 typeDisp	ETF
-volume	26120249
+volume	7201201
 yield	0.0
 ytdReturn	-30.70772

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.44110775
-SandP52WeekChange	0.1440854
+52WeekChange	0.43018258
+SandP52WeekChange	0.079683185
 address1	171 Collins Street
 address2	Level 18
 allTimeHigh	98.71
 allTimeLow	1.132095
-ask	78.58
-askSize	200
+ask	82.51
+askSize	100
 averageAnalystRating	2.8 - Hold
-averageDailyVolume10Day	3360550
-averageDailyVolume3Month	2784804
-averageVolume	2784804
-averageVolume10days	3360550
-beta	0.885
-bid	78.48
-bidSize	100
+averageDailyVolume10Day	3630240
+averageDailyVolume3Month	2860739
+averageVolume	2860739
+averageVolume10days	3630240
+beta	0.886
+bid	82.44
+bidSize	1100
 bookValue	20.048
 city	Melbourne
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Brandon  Craig', 'title': 'CEO & Director', 'fiscalYear': 2026, 'totalPay': 1999000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Vandita  Pant B.Com., M.B.A.', 'age': 54, 'title': 'Chief Financial Officer', 'yearBorn': 1971, 'fiscalYear': 2026, 'totalPay': 2378000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mike P. Henry B.Sc., BSc (Chem)', 'age': 59, 'title': 'Executive Officer', 'yearBorn': 1966, 'fiscalYear': 2026, 'totalPay': 4089000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Geraldine A. Slattery B.Sc., M.Sc.', 'age': 55, 'title': 'President of Australia', 'yearBorn': 1970, 'fiscalYear': 2026, 'totalPay': 2365000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Johan  van Jaarsveld B.E., Ph.D.', 'age': 53, 'title': 'Chief Technical Officer', 'yearBorn': 1972, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Dinesh  Bishop', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Caroline  Cox B.A., L.L.B., M.A.', 'age': 54, 'title': 'Chief Legal, Governance & External Affairs Officer', 'yearBorn': 1971, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. James  Agar', 'title': 'Vice President of Communications', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Michiel  Hovers', 'title': 'Group Sales & Marketing Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jad  Vodopija B.A.', 'title': 'Chief People Officer', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -23,17 +23,17 @@ corporateActions	[]
 country	Australia
 cryptoTradeable	False
 currency	USD
-currentPrice	78.58
+currentPrice	82.51
 currentRatio	1.885
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	82.185
-dayLow	77.84
+dayHigh	82.7094
+dayLow	81.91
 debtToEquity	50.473
 displayName	BHP
 dividendDate	1790121600
 dividendRate	3.96
-dividendYield	5.04
+dividendYield	4.96
 earningsCallTimestampEnd	1787005800
 earningsCallTimestampStart	1787005800
 earningsGrowth	-0.09
@@ -43,12 +43,12 @@ earningsTimestampEnd	1786996800
 earningsTimestampStart	1786996800
 ebitda	29902999552
 ebitdaMargins	0.5089
-enterpriseToEbitda	7.185
-enterpriseToRevenue	3.657
-enterpriseValue	214863609856
+enterpriseToEbitda	7.297
+enterpriseToRevenue	3.713
+enterpriseValue	218191118336
 epsCurrentYear	4.69476
 epsForward	4.78264
-epsTrailingTwelveMonths	3.79
+epsTrailingTwelveMonths	3.86
 esgPopulated	False
 exDividendDate	1788480000
 exchange	NYQ
@@ -57,35 +57,35 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	61 3 9609 3015
-fiftyDayAverage	85.7322
-fiftyDayAverageChange	-7.152199
-fiftyDayAverageChangePercent	-0.08342488
-fiftyTwoWeekChangePercent	44.110775
+fiftyDayAverage	85.0476
+fiftyDayAverageChange	-2.5375977
+fiftyDayAverageChangePercent	-0.029837381
+fiftyTwoWeekChangePercent	43.018257
 fiftyTwoWeekHigh	98.71
-fiftyTwoWeekHighChange	-20.129997
-fiftyTwoWeekHighChangePercent	-0.20393068
+fiftyTwoWeekHighChange	-16.199997
+fiftyTwoWeekHighChangePercent	-0.16411708
 fiftyTwoWeekLow	52.18
-fiftyTwoWeekLowChange	26.400002
-fiftyTwoWeekLowChangePercent	0.505941
+fiftyTwoWeekLowChange	30.330002
+fiftyTwoWeekLowChangePercent	0.5812572
 fiftyTwoWeekRange	52.18 - 98.71
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	5.62
 floatShares	2478230563
 forwardEps	4.78264
-forwardPE	16.430256
+forwardPE	17.251978
 freeCashflow	9592375296
 fullExchangeName	NYSE
 fullTimeEmployees	38833
-fulldayChange	-1.1200027
-fulldayChangePercent	-1.3975577
-fulldayPrice	78.58
+fulldayChange	2.6200027
+fulldayChangePercent	3.279513
+fulldayPrice	82.51
 gmtOffSetMilliseconds	-18000000
 grossMargins	0.85920995
 grossProfits	50487001088
 hasPrePostMarketData	True
 heldPercentInsiders	0.00014
-heldPercentInstitutions	0.04677
+heldPercentInstitutions	0.046830002
 impliedSharesOutstanding	2541476901
 industry	Other Industrial Metals & Mining
 industryDisp	Other Industrial Metals & Mining
@@ -100,17 +100,17 @@ lastSplitFactor	1121:1000
 longBusinessSummary	BHP Group Limited operates as a resources company in Australia, Europe, China, Japan, India, South Korea, rest of Asia, North America, and South America. The company operates through three segments: Copper, Iron Ore, and Coal. It explores for copper, iron, steelmaking coal, energy coal, nickel, potash, cobalt, sulphide, ammonium sulphate, silver, gold, molybdenum, uranium, and zinc deposits. The company is also involved in the services, marketing, trading, and finance businesses; potash, nickel, and copper development; mining, smelting, refining of nickel; and provision of towing, freight, administrative, and marketing support and other services. BHP Group Limited was founded in 1851 and is headquartered in Melbourne, Australia.
 longName	BHP Group Limited
 market	us_market
-marketCap	199709261824
-marketState	PREPRE
+marketCap	209697259520
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_256654
 mostRecentQuarter	1782777600
-nameChangeDate	2026-11-06
+nameChangeDate	2026-11-09
 netIncomeToCommon	9832999936
 nextFiscalYearEnd	1814313600
-nonDilutedMarketCap	196776913472
+nonDilutedMarketCap	202971529405
 numberOfAnalystOpinions	7
-open	81.92
+open	82.55
 operatingCashflow	21777999872
 operatingMargins	0.4334
 payoutRatio	0.6884
@@ -121,28 +121,28 @@ postMarketChangePercent	-1.2471409
 postMarketPrice	77.6
 postMarketTime	1793922145
 prevName	BHP Group
-previousClose	80.14
-priceEpsCurrentYear	16.73781
+previousClose	79.89
+priceEpsCurrentYear	17.574915
 priceHint	2
-priceToBook	3.919593
-priceToSalesTrailing12Months	3.3987281
+priceToBook	4.1156225
+priceToSalesTrailing12Months	3.5687077
 profitMargins	0.16734
 quickRatio	1.434
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
-recommendationKey	hold
+recommendationKey	none
 recommendationMean	2.75
 region	US
-regularMarketChange	-1.56
-regularMarketChangePercent	-1.94659
-regularMarketDayHigh	82.185
-regularMarketDayLow	77.84
-regularMarketDayRange	77.84 - 82.185
-regularMarketOpen	81.92
-regularMarketPreviousClose	80.14
-regularMarketPrice	78.58
-regularMarketTime	1793912402
-regularMarketVolume	6956767
+regularMarketChange	2.6200027
+regularMarketChangePercent	3.279513
+regularMarketDayHigh	82.7094
+regularMarketDayLow	81.91
+regularMarketDayRange	81.91 - 82.7094
+regularMarketOpen	82.55
+regularMarketPreviousClose	79.89
+regularMarketPrice	82.51
+regularMarketTime	1794244506
+regularMarketVolume	1242348
 returnOnAssets	0.13434
 returnOnEquity	0.24002
 revenueGrowth	0.183
@@ -171,15 +171,15 @@ totalDebt	28426999808
 totalRevenue	58759999488
 tradeable	False
 trailingAnnualDividendRate	1.72
-trailingAnnualDividendYield	0.02146244
-trailingEps	3.79
-trailingPE	20.73351
+trailingAnnualDividendYield	0.021529604
+trailingEps	3.86
+trailingPE	21.375648
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	81.67785
-twoHundredDayAverageChange	-3.097847
-twoHundredDayAverageChangePercent	-0.037927628
+twoHundredDayAverage	81.8173
+twoHundredDayAverageChange	0.69270325
+twoHundredDayAverageChangePercent	0.0084664645
 typeDisp	Equity
-volume	6956767
+volume	1242348
 website	https://www.bhp.com
 zip	3000

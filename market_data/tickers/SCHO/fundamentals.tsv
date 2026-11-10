@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	48.79
 allTimeLow	23.79
-ask	0.0
-askSize	185400
-averageDailyVolume10Day	4257170
-averageDailyVolume3Month	5394842
-averageVolume	5394842
-averageVolume10days	4257170
+ask	23.97
+askSize	171400
+averageDailyVolume10Day	4998560
+averageDailyVolume3Month	5535995
+averageVolume	5535995
+averageVolume10days	4998560
 beta3Year	0.25
-bid	0.0
-bidSize	234900
+bid	23.96
+bidSize	166800
 category	Short Government
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	24.0
-dayLow	23.9222
+dayHigh	23.99
+dayLow	23.96
 displayName	Short-Term U.S. Treasury ETF
 dividendYield	3.82
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	23.9246
-fiftyDayAverageChange	0.0753994
-fiftyDayAverageChangePercent	0.0031515427
-fiftyTwoWeekChangePercent	-1.6830862
+fiftyDayAverage	23.92
+fiftyDayAverageChange	0.04229927
+fiftyDayAverageChangePercent	0.0017683641
+fiftyTwoWeekChangePercent	-1.559937
 fiftyTwoWeekHigh	24.46
-fiftyTwoWeekHighChange	-0.45999908
-fiftyTwoWeekHighChangePercent	-0.018806178
+fiftyTwoWeekHighChange	-0.49769974
+fiftyTwoWeekHighChangePercent	-0.020347496
 fiftyTwoWeekLow	23.79
-fiftyTwoWeekLowChange	0.20999908
-fiftyTwoWeekLowChangePercent	0.008827199
+fiftyTwoWeekLowChange	0.17229843
+fiftyTwoWeekLowChangePercent	0.007242473
 fiftyTwoWeekRange	23.79 - 24.46
 firstTradeDateMilliseconds	1281015000000
-fiveYearAverageReturn	0.020668099
+fiveYearAverageReturn	0.020883702
 fullExchangeName	NYSEArca
-fulldayChange	0.059999466
-fulldayChangePercent	0.25051966
-fulldayPrice	24.0
+fulldayChange	-0.017700195
+fulldayChangePercent	-0.07381233
+fulldayPrice	23.9623
 fundFamily	Schwab ETFs
 fundInceptionDate	1280966400
 gmtOffSetMilliseconds	-18000000
@@ -52,37 +52,37 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund will invest at least 90% of its net assets (including, for this purpose, any borrowings for investment purposes) in securities included in the index. The index includes all publicly-issued U.S. Treasury securities that have a remaining maturity of greater than or equal to one year and less than three years, are rated investment grade, and have $300 million or more of outstanding face value. The securities in the index must be denominated in U.S. dollars and must be fixed-rate and non-convertible.
 longName	Schwab Short-Term U.S. Treasury ETF
 market	us_market
-marketState	PREPRE
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_111311606
-navPrice	23.94
+navPrice	23.98
 netAssets	15741517800.0
 netExpenseRatio	0.03
-open	23.925
+open	23.98
 phone	1-800-435-4000
 postMarketChange	-0.020000458
 postMarketChangePercent	-0.08333524
 postMarketPrice	23.98
 postMarketTime	1793925286
-previousClose	23.95
+previousClose	23.98
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0499992
-regularMarketChangePercent	0.208765
-regularMarketDayHigh	24.0
-regularMarketDayLow	23.9222
-regularMarketDayRange	23.9222 - 24.0
-regularMarketOpen	23.925
-regularMarketPreviousClose	23.95
-regularMarketPrice	24.0
-regularMarketTime	1793912400
-regularMarketVolume	4874160
+regularMarketChange	-0.017700195
+regularMarketChangePercent	-0.07381233
+regularMarketDayHigh	23.99
+regularMarketDayLow	23.96
+regularMarketDayRange	23.96 - 23.99
+regularMarketOpen	23.98
+regularMarketPreviousClose	23.98
+regularMarketPrice	23.9623
+regularMarketTime	1794244579
+regularMarketVolume	2533964
 shortName	Schwab Short-Term U.S. Treasury
 sourceInterval	15
 symbol	SCHO
-threeYearAverageReturn	0.0410752
+threeYearAverageReturn	0.0420169
 totalAssets	15741517824
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.59747
 trailingThreeMonthReturns	0.59747
 triggerable	True
-twoHundredDayAverage	24.1316
-twoHundredDayAverageChange	-0.13159943
-twoHundredDayAverageChangePercent	-0.005453407
+twoHundredDayAverage	24.12785
+twoHundredDayAverageChange	-0.16555023
+twoHundredDayAverageChangePercent	-0.006861375
 typeDisp	ETF
-volume	4874160
+volume	2533964
 yield	0.0382
 ytdReturn	1.3879

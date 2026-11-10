@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	31.18
 allTimeLow	21.42
-ask	0.0
-askSize	191400
-averageDailyVolume10Day	4869120
-averageDailyVolume3Month	3278768
-averageVolume	3278768
-averageVolume10days	4869120
+ask	24.14
+askSize	7500
+averageDailyVolume10Day	3961000
+averageDailyVolume3Month	3341385
+averageVolume	3341385
+averageVolume10days	3961000
 beta3Year	0.46
-bid	0.0
-bidSize	68000
+bid	24.13
+bidSize	7800
 category	High Yield Bond
 companyOfficers	[]
 corporateActions	[]
@@ -17,7 +17,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
 dayHigh	24.14
-dayLow	24.035
+dayLow	24.1
 displayName	Bloomberg Short HY Bond ETF
 dividendYield	7.18
 epsTrailingTwelveMonths	27.58
@@ -27,23 +27,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	24.381
-fiftyDayAverageChange	-0.29100037
-fiftyDayAverageChangePercent	-0.011935539
-fiftyTwoWeekChangePercent	-4.5490503
+fiftyDayAverage	24.347
+fiftyDayAverageChange	-0.22200012
+fiftyDayAverageChangePercent	-0.009118171
+fiftyTwoWeekChangePercent	-5.049312
 fiftyTwoWeekHigh	25.49
-fiftyTwoWeekHighChange	-1.3999996
-fiftyTwoWeekHighChangePercent	-0.054923486
+fiftyTwoWeekHighChange	-1.3649998
+fiftyTwoWeekHighChangePercent	-0.053550404
 fiftyTwoWeekLow	23.97
-fiftyTwoWeekLowChange	0.12000084
-fiftyTwoWeekLowChangePercent	0.005006293
+fiftyTwoWeekLowChange	0.15500069
+fiftyTwoWeekLowChangePercent	0.006466445
 fiftyTwoWeekRange	23.97 - 25.49
 firstTradeDateMilliseconds	1333978200000
-fiveYearAverageReturn	0.044622697
+fiveYearAverageReturn	0.043720897
 fullExchangeName	NYSEArca
-fulldayChange	-0.045000076
-fulldayChangePercent	-0.18645152
-fulldayPrice	24.09
+fulldayChange	0.055000305
+fulldayChangePercent	0.22850148
+fulldayPrice	24.125
 fundFamily	State Street Investment Management
 fundInceptionDate	1331683200
 gmtOffSetMilliseconds	-18000000
@@ -53,49 +53,49 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally invests substantially all, but at least 80%, of its total assets in the securities comprising the index and in securities that the Adviser determines have economic characteristics that are substantially identical to the economic characteristics of the securities that comprise the index. The index is designed to measure the performance of short-term publicly issued U.S. dollar-denominated high yield corporate bonds.
 longName	State Street SPDR Bloomberg Short Term High Yield Bond ETF
 market	us_market
-marketState	PREPRE
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_182187069
-navPrice	24.0773
+navPrice	24.0403
 netAssets	4327490000.0
 netExpenseRatio	0.4
-open	24.14
+open	24.11
 postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	24.13
 postMarketTime	1793826085
-previousClose	24.13
+previousClose	24.07
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.039999
-regularMarketChangePercent	-0.165765
+regularMarketChange	0.055000305
+regularMarketChangePercent	0.22850148
 regularMarketDayHigh	24.14
-regularMarketDayLow	24.035
-regularMarketDayRange	24.035 - 24.14
-regularMarketOpen	24.14
-regularMarketPreviousClose	24.13
-regularMarketPrice	24.09
-regularMarketTime	1793912400
-regularMarketVolume	4107038
+regularMarketDayLow	24.1
+regularMarketDayRange	24.1 - 24.14
+regularMarketOpen	24.11
+regularMarketPreviousClose	24.07
+regularMarketPrice	24.125
+regularMarketTime	1794244634
+regularMarketVolume	2101947
 shortName	State Street SPDR Bloomberg Sho
 sourceInterval	15
 symbol	SJNK
-threeYearAverageReturn	0.0694637
+threeYearAverageReturn	0.069597
 totalAssets	4327490048
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	0.87345904
+trailingPE	0.8747281
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-1.12459
 trailingThreeMonthReturns	-1.12459
 triggerable	True
-twoHundredDayAverage	24.8758
-twoHundredDayAverageChange	-0.785799
-twoHundredDayAverageChangePercent	-0.031588897
+twoHundredDayAverage	24.862
+twoHundredDayAverageChange	-0.7369995
+twoHundredDayAverageChangePercent	-0.029643614
 typeDisp	ETF
-volume	4107038
+volume	2101947
 yield	0.0718
 ytdReturn	0.46881

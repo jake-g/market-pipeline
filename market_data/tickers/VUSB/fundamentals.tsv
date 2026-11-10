@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	51.26
 allTimeLow	48.08
-ask	0.0
-askSize	3300
-averageDailyVolume10Day	2057080
-averageDailyVolume3Month	1951945
-averageVolume	1951945
-averageVolume10days	2057080
+ask	49.53
+askSize	18000
+averageDailyVolume10Day	2382700
+averageDailyVolume3Month	2005101
+averageVolume	2005101
+averageVolume10days	2382700
 beta3Year	0.1
-bid	0.0
-bidSize	3500
+bid	49.52
+bidSize	5000
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	49.53
-dayLow	49.47
+dayHigh	49.54
+dayLow	49.52
 displayName	Ultra-Short Bond ETF Shares
 dividendYield	4.27
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	49.5435
-fiftyDayAverageChange	-0.023498535
-fiftyDayAverageChangePercent	-0.00047430108
-fiftyTwoWeekChangePercent	-0.6823182
+fiftyDayAverage	49.5337
+fiftyDayAverageChange	-0.00869751
+fiftyDayAverageChangePercent	-0.00017558773
+fiftyTwoWeekChangePercent	-0.66198707
 fiftyTwoWeekHigh	50.03
-fiftyTwoWeekHighChange	-0.5099983
-fiftyTwoWeekHighChangePercent	-0.01019385
+fiftyTwoWeekHighChange	-0.50499725
+fiftyTwoWeekHighChangePercent	-0.010093889
 fiftyTwoWeekLow	49.37
-fiftyTwoWeekLowChange	0.15000153
-fiftyTwoWeekLowChangePercent	0.0030383132
+fiftyTwoWeekLowChange	0.1550026
+fiftyTwoWeekLowChangePercent	0.003139611
 fiftyTwoWeekRange	49.37 - 50.03
 firstTradeDateMilliseconds	1617802200000
-fiveYearAverageReturn	0.0371316
+fiveYearAverageReturn	0.0372987
 fullExchangeName	Cboe US
-fulldayChange	0.019798279
-fulldayChangePercent	0.040004604
-fulldayPrice	49.52
+fulldayChange	0.005001068
+fulldayChangePercent	0.010100087
+fulldayPrice	49.525
 fundFamily	Vanguard
 fundInceptionDate	1617667200
 gmtOffSetMilliseconds	-18000000
@@ -52,38 +52,38 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an active management approach, investing in a diversified portfolio of high-quality and, to a lesser extent, medium-quality bonds. It is expected to maintain a dollar-weighted average maturity of 0 to 2 years. Under normal circumstances, the fund will invest at least 80% of its assets in fixed income securities.
 longName	Vanguard Ultra-Short Bond ETF
 market	us_market
-marketState	PREPRE
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_702253379
-navPrice	49.47
-netAssets	9904151600.0
+navPrice	49.51
+netAssets	9905651700.0
 netExpenseRatio	0.1
-open	49.48
+open	49.53
 phone	800-523-1036
 postMarketChange	-0.0102005005
 postMarketChangePercent	-0.020598749
 postMarketPrice	49.5098
 postMarketTime	1793923464
-previousClose	49.49
+previousClose	49.52
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0299988
-regularMarketChangePercent	0.0606158
-regularMarketDayHigh	49.53
-regularMarketDayLow	49.47
-regularMarketDayRange	49.47 - 49.53
-regularMarketOpen	49.48
-regularMarketPreviousClose	49.49
-regularMarketPrice	49.52
-regularMarketTime	1793912400
-regularMarketVolume	2347133
+regularMarketChange	0.005001068
+regularMarketChangePercent	0.010100087
+regularMarketDayHigh	49.54
+regularMarketDayLow	49.52
+regularMarketDayRange	49.52 - 49.54
+regularMarketOpen	49.53
+regularMarketPreviousClose	49.52
+regularMarketPrice	49.525
+regularMarketTime	1794244680
+regularMarketVolume	695865
 shortName	Vanguard Ultra-Short Bond ETF
 sourceInterval	15
 symbol	VUSB
-threeYearAverageReturn	0.0510188
-totalAssets	9904151552
+threeYearAverageReturn	0.0515523
+totalAssets	9905651712
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
@@ -91,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.83096
 trailingThreeMonthReturns	0.83096
 triggerable	True
-twoHundredDayAverage	49.7047
-twoHundredDayAverageChange	-0.18470001
-twoHundredDayAverageChangePercent	-0.0037159466
+twoHundredDayAverage	49.70055
+twoHundredDayAverageChange	-0.17554855
+twoHundredDayAverageChangePercent	-0.003532125
 typeDisp	ETF
-volume	2347133
+volume	695865
 yield	0.0427
 ytdReturn	2.82719

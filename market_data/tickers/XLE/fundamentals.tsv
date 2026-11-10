@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	90.94
 allTimeLow	9.69
-ask	0.0
-askSize	300
-averageDailyVolume10Day	38039030
-averageDailyVolume3Month	31351568
-averageVolume	31351568
-averageVolume10days	38039030
+ask	62.06
+askSize	6400
+averageDailyVolume10Day	40987400
+averageDailyVolume3Month	32345012
+averageVolume	32345012
+averageVolume10days	40987400
 beta3Year	-0.22
-bid	0.0
-bidSize	3500
+bid	62.06
+bidSize	21000
 bookValue	52.115
 category	Equity Energy
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	64.535
-dayLow	61.63
+dayHigh	62.28
+dayLow	60.85
 displayName	Energy Select Sector SPDR ETF
 dividendYield	2.18
 epsTrailingTwelveMonths	4.003596
@@ -28,24 +28,24 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	65.1016
-fiftyDayAverageChange	-3.4715996
-fiftyDayAverageChangePercent	-0.053325873
-fiftyTwoWeekChangePercent	43.922054
+fiftyDayAverage	65.0722
+fiftyDayAverageChange	-2.947197
+fiftyDayAverageChangePercent	-0.045291185
+fiftyTwoWeekChangePercent	36.40288
 fiftyTwoWeekHigh	70.15
-fiftyTwoWeekHighChange	-8.52
-fiftyTwoWeekHighChangePercent	-0.12145403
+fiftyTwoWeekHighChange	-8.025002
+fiftyTwoWeekHighChangePercent	-0.11439774
 fiftyTwoWeekLow	43.77
-fiftyTwoWeekLowChange	17.86
-fiftyTwoWeekLowChangePercent	0.40804204
+fiftyTwoWeekLowChange	18.355
+fiftyTwoWeekLowChangePercent	0.41935113
 fiftyTwoWeekRange	43.77 - 70.15
 financialCurrency	USD
 firstTradeDateMilliseconds	914337000000
-fiveYearAverageReturn	0.21339199
+fiveYearAverageReturn	0.2029233
 fullExchangeName	NYSEArca
-fulldayChange	-1.7000008
-fulldayChangePercent	-2.6763237
-fulldayPrice	61.63
+fulldayChange	0.50500107
+fulldayChangePercent	0.81954086
+fulldayPrice	62.125
 fundFamily	State Street Investment Management
 fundInceptionDate	913766400
 gmtOffSetMilliseconds	-18000000
@@ -56,51 +56,51 @@ longBusinessSummary	In seeking to track the performance of the index, the fund e
 longName	State Street Energy Select Sector SPDR ETF
 market	us_market
 marketCap	10758529024
-marketState	PREPRE
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_8795479
-navPrice	63.52348
+navPrice	61.63788
 netAssets	46373700000.0
 netExpenseRatio	0.08
-open	64.13
+open	61.25
 postMarketChange	0.27000046
 postMarketChangePercent	0.43809906
 postMarketPrice	61.9
 postMarketTime	1793926777
-previousClose	63.52
+previousClose	61.62
 priceHint	2
-priceToBook	1.182577
-quoteSourceName	Delayed Quote
+priceToBook	1.1920751
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.89
-regularMarketChangePercent	-2.97544
-regularMarketDayHigh	64.535
-regularMarketDayLow	61.63
-regularMarketDayRange	61.63 - 64.535
-regularMarketOpen	64.13
-regularMarketPreviousClose	63.52
-regularMarketPrice	61.63
-regularMarketTime	1793912400
-regularMarketVolume	67361743
+regularMarketChange	0.50500107
+regularMarketChangePercent	0.81954086
+regularMarketDayHigh	62.28
+regularMarketDayLow	60.85
+regularMarketDayRange	60.85 - 62.28
+regularMarketOpen	61.25
+regularMarketPreviousClose	61.62
+regularMarketPrice	62.125
+regularMarketTime	1794244684
+regularMarketVolume	16036091
 sharesOutstanding	186424000
 shortName	State Street Energy Select Sect
 sourceInterval	15
 symbol	XLE
-threeYearAverageReturn	0.1721534
+threeYearAverageReturn	0.164754
 totalAssets	46373699584
 tradeable	False
 trailingAnnualDividendRate	2.16
-trailingAnnualDividendYield	0.03400504
-trailingPE	15.393662
+trailingAnnualDividendYield	0.035053555
+trailingPE	15.517301
 trailingPegRatio	None
 trailingThreeMonthNavReturns	18.28328
 trailingThreeMonthReturns	18.28328
 triggerable	True
-twoHundredDayAverage	59.00545
-twoHundredDayAverageChange	2.6245499
-twoHundredDayAverageChangePercent	0.044479787
+twoHundredDayAverage	59.1334
+twoHundredDayAverageChange	2.9916
+twoHundredDayAverageChangePercent	0.050590698
 typeDisp	ETF
-volume	67361743
+volume	16036091
 yield	0.0218
 ytdReturn	59.60577

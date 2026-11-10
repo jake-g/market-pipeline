@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.47788417
-SandP52WeekChange	0.1440854
+52WeekChange	0.46605802
+SandP52WeekChange	0.079683185
 address1	One Johnson & Johnson Plaza
 allTimeHigh	282.02
 allTimeLow	0.142361
-ask	272.32
-askSize	80
+ask	279.78
+askSize	40
 auditRisk	4
 averageAnalystRating	1.9 - Buy
-averageDailyVolume10Day	7276090
-averageDailyVolume3Month	6926739
-averageVolume	6926739
-averageVolume10days	7276090
+averageDailyVolume10Day	7583900
+averageDailyVolume3Month	7005659
+averageVolume	7005659
+averageVolume10days	7583900
 beta	0.2
-bid	272.71
-bidSize	120
+bid	279.66
+bidSize	320
 boardRisk	7
 bookValue	33.87
 city	New Brunswick
@@ -25,17 +25,17 @@ corporateActions	[{'header': 'Dividend', 'message': 'JNJ announced a cash divide
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	272.32
+currentPrice	279.99
 currentRatio	1.016
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	281.92
-dayLow	271.64
+dayHigh	280.274
+dayLow	276.2
 debtToEquity	54.767
-discount_to_intrinsic_value	-441.4
+discount_to_intrinsic_value	-449.83
 dividendDate	1796688000
 dividendRate	5.36
-dividendYield	1.97
+dividendYield	1.94
 earningsCallTimestampEnd	1791894600
 earningsCallTimestampStart	1791894600
 earningsGrowth	-0.959
@@ -45,9 +45,9 @@ earningsTimestampEnd	1800970200
 earningsTimestampStart	1800970200
 ebitda	34502000640
 ebitdaMargins	0.34733
-enterpriseToEbitda	19.795
-enterpriseToRevenue	6.876
-enterpriseValue	682981720064
+enterpriseToEbitda	20.068
+enterpriseToRevenue	6.97
+enterpriseValue	692370210816
 epsCurrentYear	11.11973
 epsForward	11.61786
 epsTrailingTwelveMonths	6.59
@@ -59,37 +59,37 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	265.5316
-fiftyDayAverageChange	6.7884216
-fiftyDayAverageChangePercent	0.0255654
-fiftyTwoWeekChangePercent	47.788418
+fiftyDayAverage	265.787
+fiftyDayAverageChange	14.203003
+fiftyDayAverageChangePercent	0.053437542
+fiftyTwoWeekChangePercent	46.6058
 fiftyTwoWeekHigh	282.02
-fiftyTwoWeekHighChange	-9.699982
-fiftyTwoWeekHighChangePercent	-0.03439466
+fiftyTwoWeekHighChange	-2.0299988
+fiftyTwoWeekHighChangePercent	-0.007198067
 fiftyTwoWeekLow	185.12
-fiftyTwoWeekLowChange	87.20001
-fiftyTwoWeekLowChangePercent	0.47104588
+fiftyTwoWeekLowChange	94.869995
+fiftyTwoWeekLowChangePercent	0.51247835
 fiftyTwoWeekRange	185.12 - 282.02
 financialCurrency	USD
 firstTradeDateMilliseconds	-252322200000
 fiveYearAvgDividendYield	2.67
 floatShares	2403386350
 forwardEps	11.61786
-forwardPE	23.439774
+forwardPE	24.099962
 freeCashflow	18501875712
 fullExchangeName	NYSE
 fullTimeEmployees	138200
-fulldayChange	-6.700012
-fulldayChangePercent	-2.4247293
-fulldayPrice	272.32
+fulldayChange	3.769989
+fulldayChangePercent	1.3648502
+fulldayPrice	279.99
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
-graham_intrinsic_value	50.3
+graham_intrinsic_value	50.92
 grossMargins	0.67775
 grossProfits	67323998208
 hasPrePostMarketData	True
 heldPercentInsiders	0.00054000004
-heldPercentInstitutions	0.76664
+heldPercentInstitutions	0.76861
 impliedSharesOutstanding	2407310266
 industry	Drug Manufacturers - General
 industryDisp	Drug Manufacturers - General
@@ -105,16 +105,16 @@ lastSplitFactor	2:1
 longBusinessSummary	Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. The MedTech segment provides a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesalers, hospitals and retailers, and used in the professional fields by physicians, nurses, hospitals, eye care professionals and clinics. This segment also offers products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others, as well as open, laparoscopic, and robotic surgical procedures; instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies; breast aesthetics and reconstruction; contact lenses under the ACUVUE brand; intraocular lenses for cataract surgery, and other products used in cataract and refractive procedures under the TECNIS brand. The company was founded in 1886 and is based in New Brunswick, New Jersey.
 longName	Johnson & Johnson
 market	us_market
-marketCap	655558770688
-marketState	PREPRE
+marketCap	674022817792
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_139677
 mostRecentQuarter	1790467200
 netIncomeToCommon	16094999552
 nextFiscalYearEnd	1798416000
-nonDilutedMarketCap	665187972701
+nonDilutedMarketCap	664947241674
 numberOfAnalystOpinions	22
-open	278.915
+open	278.0
 operatingCashflow	26158999552
 operatingMargins	0.25737
 overallRisk	4
@@ -125,28 +125,28 @@ postMarketChange	-1.0
 postMarketChangePercent	-0.36721504
 postMarketPrice	271.32
 postMarketTime	1793926800
-previousClose	276.32
-priceEpsCurrentYear	24.489803
+previousClose	276.22
+priceEpsCurrentYear	25.179567
 priceHint	2
-priceToBook	8.040154
-priceToSalesTrailing12Months	6.5994744
+priceToBook	8.266607
+priceToSalesTrailing12Months	6.785351
 profitMargins	0.16203
 quickRatio	0.653
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.91304
 region	US
-regularMarketChange	-4.0
-regularMarketChangePercent	-1.4476
-regularMarketDayHigh	281.92
-regularMarketDayLow	271.64
-regularMarketDayRange	271.64 - 281.92
-regularMarketOpen	278.915
-regularMarketPreviousClose	276.32
-regularMarketPrice	272.32
-regularMarketTime	1793912402
-regularMarketVolume	9645514
+regularMarketChange	3.769989
+regularMarketChangePercent	1.3648502
+regularMarketDayHigh	280.274
+regularMarketDayLow	276.2
+regularMarketDayRange	276.2 - 280.274
+regularMarketOpen	278.0
+regularMarketPreviousClose	276.22
+regularMarketPrice	279.99
+regularMarketTime	1794244597
+regularMarketVolume	1850089
 returnOnAssets	0.0846
 returnOnEquity	0.20018
 revenueGrowth	0.059
@@ -176,15 +176,15 @@ totalDebt	44650999808
 totalRevenue	99334995968
 tradeable	False
 trailingAnnualDividendRate	5.28
-trailingAnnualDividendYield	0.01910828
+trailingAnnualDividendYield	0.019115198
 trailingEps	6.59
-trailingPE	41.323215
-trailingPegRatio	3.1091
+trailingPE	42.4871
+trailingPegRatio	3.108
 triggerable	True
-twoHundredDayAverage	247.76884
-twoHundredDayAverageChange	24.551163
-twoHundredDayAverageChangePercent	0.09908898
+twoHundredDayAverage	248.32906
+twoHundredDayAverageChange	31.660934
+twoHundredDayAverageChangePercent	0.12749588
 typeDisp	Equity
-volume	9645514
+volume	1850089
 website	https://www.jnj.com
 zip	08933

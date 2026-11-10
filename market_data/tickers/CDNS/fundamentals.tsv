@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.01562643
-SandP52WeekChange	0.1440854
+52WeekChange	-0.027421415
+SandP52WeekChange	0.079683185
 address1	Building 5
 address2	2655 Seely Avenue
 allTimeHigh	416.69
@@ -9,13 +9,13 @@ ask	326.07
 askSize	1
 auditRisk	3
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	2845040
-averageDailyVolume3Month	2413365
-averageVolume	2413365
-averageVolume10days	2845040
+averageDailyVolume10Day	2858550
+averageDailyVolume3Month	2439953
+averageVolume	2439953
+averageVolume10days	2858550
 beta	1.102
-bid	325.59
-bidSize	1
+bid	335.19
+bidSize	2
 boardRisk	2
 bookValue	25.057
 city	San Jose
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	311.43
+currentPrice	335.025
 currentRatio	1.36
 customPriceAlertConfidence	HIGH
 dateShortInterest	1792022400
-dayHigh	322.85
-dayLow	308.45
+dayHigh	335.79
+dayLow	321.9301
 debtToEquity	40.908
-discount_to_intrinsic_value	-759.0
+discount_to_intrinsic_value	-761.95
 displayName	Cadence Design Systems
 dividendYield	0.0
 earningsCallTimestampEnd	1793048400
@@ -45,12 +45,12 @@ earningsTimestampEnd	1793044800
 earningsTimestampStart	1793044800
 ebitda	2220476928
 ebitdaMargins	0.36211
-enterpriseToEbitda	39.054
-enterpriseToRevenue	14.142
-enterpriseValue	86719152128
+enterpriseToEbitda	40.103
+enterpriseToRevenue	14.522
+enterpriseValue	89048637440
 epsCurrentYear	8.42246
 epsForward	9.84527
-epsTrailingTwelveMonths	4.75
+epsTrailingTwelveMonths	5.03
 eps_normalized_growth	-0.025666792925251092
 esgPopulated	False
 exchange	NMS
@@ -59,36 +59,36 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	408 428 5001
-fiftyDayAverage	320.8476
-fiftyDayAverageChange	-9.417603
-fiftyDayAverageChangePercent	-0.02935226
-fiftyTwoWeekChangePercent	1.562643
+fiftyDayAverage	319.83
+fiftyDayAverageChange	15.195007
+fiftyDayAverageChangePercent	0.04750964
+fiftyTwoWeekChangePercent	-2.7421415
 fiftyTwoWeekHigh	416.69
-fiftyTwoWeekHighChange	-105.26001
-fiftyTwoWeekHighChangePercent	-0.25260988
+fiftyTwoWeekHighChange	-81.66501
+fiftyTwoWeekHighChangePercent	-0.19598505
 fiftyTwoWeekLow	262.75
-fiftyTwoWeekLowChange	48.679993
-fiftyTwoWeekLowChangePercent	0.18527114
+fiftyTwoWeekLowChange	72.274994
+fiftyTwoWeekLowChangePercent	0.27507132
 fiftyTwoWeekRange	262.75 - 416.69
 financialCurrency	USD
 firstTradeDateMilliseconds	550330200000
 floatShares	273160757
 forwardEps	9.84527
-forwardPE	31.632448
+forwardPE	34.02903
 freeCashflow	1746447872
 fullExchangeName	NasdaqGS
 fullTimeEmployees	13800
-fulldayChange	-13.669983
-fulldayChangePercent	-4.1484537
-fulldayPrice	311.43
+fulldayChange	15.10498
+fulldayChangePercent	4.7214866
+fulldayPrice	335.025
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
-graham_intrinsic_value	36.26
+graham_intrinsic_value	38.87
 grossMargins	0.85678
 grossProfits	5253856768
 hasPrePostMarketData	True
 heldPercentInsiders	0.0032600001
-heldPercentInstitutions	0.92504
+heldPercentInstitutions	0.92576
 impliedSharesOutstanding	274379000
 industry	Software - Application
 industryDisp	Software - Application
@@ -102,31 +102,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Cadence Design Systems, Inc. develops computational, AI-driven software, hardware, and silicon intellectual property products and solutions. The company offers functional verification services, such as Jasper, a formal verification platform; Xcelium, a parallel logic simulation platform; Verisium, a generative AI solution; Palladium, an enterprise emulation platform; and Protium, a prototyping platform for chip verification, as well as digital IC design and sign off products, including Innovus platform; and custom IC design and simulation product include Virtuoso, a platform to design and verify analog. It also provides Xcelium logic simulator and other front-end verification and virtual prototyping technologies; controllers and physical interfaces; PCI Express, universal accelerator and compute express links, and multiple memory interfaces; and Tensilica, a digital signal processor. In addition, the company's design IP portfolio includes serializer/deserializer, peripheral component interconnect, USB, and other standard protocols; and Secure-IC, a solution for embedded security IP. Additionally, it provides System Design and Analysis (SD&A) platform, a solution that enables end-to-end system-level design and verification across chips, packages, PCBs, and electronic systems; Allegro X and Orca X platforms for PCB and advanced packaging; Sigrity X for signal and power integrity; AIR for RF design; Fidelity for computational fluid dynamics; Celsius for thermal and airflow analysis; Clarity 3D solver for electromagnetic and power electronics analysis and simulation; Integrity 3D-IC solution for 3D-IC and multi-chiplet designs; the Optimality Intelligent System Explorer, Reality digital twin, and Millennium enterprise multiphasic platforms; Allegro system design platform; and molecular modeling and simulation solutions and services. The company has a strategic collaboration with NVIDIA. The company was incorporated in 1987 and is headquartered in San Jose, California.
 longName	Cadence Design Systems, Inc.
 market	us_market
-marketCap	85449850880
-marketState	PREPRE
+marketCap	91923824640
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_25941
 mostRecentQuarter	1790726400
 netIncomeToCommon	1380619008
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	90413368080
+nonDilutedMarketCap	87779329680
 numberOfAnalystOpinions	24
-open	322.04
+open	324.73
 operatingCashflow	1967931008
 operatingMargins	0.28927
 overallRisk	1
 payoutRatio	0.0
-pegRatio	2.44
+pegRatio	2.33
 phone	408 943 1234
 postMarketChange	0.24002075
 postMarketChangePercent	0.077070534
 postMarketPrice	311.67
 postMarketTime	1793926528
-previousClose	329.52
-priceEpsCurrentYear	36.976135
+previousClose	319.92
+priceEpsCurrentYear	39.777573
 priceHint	2
-priceToBook	12.428863
-priceToSalesTrailing12Months	13.934852
+priceToBook	13.370516
+priceToSalesTrailing12Months	14.990604
 profitMargins	0.22514999
 quickRatio	1.093
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.33333
 region	US
-regularMarketChange	-18.09
-regularMarketChangePercent	-5.4898
-regularMarketDayHigh	322.85
-regularMarketDayLow	308.45
-regularMarketDayRange	308.45 - 322.85
-regularMarketOpen	322.04
-regularMarketPreviousClose	329.52
-regularMarketPrice	311.43
-regularMarketTime	1793912402
-regularMarketVolume	3296574
+regularMarketChange	15.10498
+regularMarketChangePercent	4.7214866
+regularMarketDayHigh	335.79
+regularMarketDayLow	321.9301
+regularMarketDayRange	321.9301 - 335.79
+regularMarketOpen	324.73
+regularMarketPreviousClose	319.92
+regularMarketPrice	335.025
+regularMarketTime	1794244549
+regularMarketVolume	443597
 returnOnAssets	0.10515001
 returnOnEquity	0.22869
 revenueGrowth	0.22
@@ -174,14 +174,14 @@ totalRevenue	6132096000
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	4.75
-trailingPE	65.56421
-trailingPegRatio	2.4391
+trailingEps	5.03
+trailingPE	66.60536
+trailingPegRatio	2.3282
 triggerable	True
-twoHundredDayAverage	327.7267
-twoHundredDayAverageChange	-16.296722
-twoHundredDayAverageChangePercent	-0.04972656
+twoHundredDayAverage	327.7288
+twoHundredDayAverageChange	7.2962036
+twoHundredDayAverageChangePercent	0.02226293
 typeDisp	Equity
-volume	3296574
+volume	443597
 website	https://www.cadence.com
 zip	95134

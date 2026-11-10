@@ -1,12 +1,12 @@
 # Macroeconomic Regime Report
 
-*Generated 2026-11-06. All statistics are computed on
+*Generated 2026-11-09. All statistics are computed on
 native FRED observations (not the forward-filled daily grid); Δ columns are
 percentage changes for levels and percentage-point (pp) changes for rates,
 spreads and ratios.*
 
 ## Regime Read
-**Mid-cycle.** Growth expansion (CFNAI +0.07), inflation re-accelerating (CPI 3.7% YoY, +0.3pp in 3M); 10Y 4.90% (+0.27pp 3M), curve 10s2s +0.32, real fed funds +0.16%; HY spread 3.32% (+59bp 3M), WTI $100 (+22% 3M); unemployment 4.2%, UMich sentiment 48.
+**Mid-cycle.** Growth expansion (CFNAI +0.07), inflation re-accelerating (CPI 3.7% YoY, +0.3pp in 3M); 10Y 4.84% (+0.21pp 3M), curve 10s2s +0.38, real fed funds +0.16%; HY spread 3.42% (+71bp 3M), WTI $100 (+22% 3M); unemployment 4.1%, UMich sentiment 48.
 
 ## Alerts
 - ⚠️ **FREIGHT_PPI** at 534.80 is +2.8σ from its 5-year mean (98th percentile).
@@ -65,11 +65,11 @@ right rebases commodities and the dollar to 100 at the window start.
 | Indicator     |   Latest | Δ1M     | Δ3M     | Δ1Y     |   5Y Z |   5Y pct | 3M   | As of      |
 |---------------|----------|---------|---------|---------|--------|----------|------|------------|
 | FEDFUNDS      |     3.88 | +0.13pp | +0.25pp | -0.21pp |    0.2 |       42 | ↑    | 2026-10-01 |
-| US02Y         |     4.58 | -0.25pp | +0.38pp | +1.00pp |    0.7 |       78 | ↑    | 2026-11-04 |
-| US10Y         |     4.9  | -0.38pp | +0.27pp | +0.80pp |    1.3 |       97 | →    | 2026-11-04 |
-| US30Y         |     5.28 | -0.35pp | +0.10pp | +0.61pp |    1.3 |       97 | →    | 2026-11-04 |
-| YC_10Y_2Y     |     0.32 | -0.13pp | -0.11pp | -0.20pp |    0.6 |       61 | ↓    | 2026-11-04 |
-| YC_30Y_10Y    |     0.38 | +0.03pp | -0.17pp | -0.19pp |    0.4 |       69 | ↓    | 2026-11-04 |
+| US02Y         |     4.46 | -0.38pp | +0.28pp | +0.83pp |    0.6 |       73 | ↑    | 2026-11-05 |
+| US10Y         |     4.84 | -0.47pp | +0.21pp | +0.67pp |    1.2 |       96 | →    | 2026-11-05 |
+| US30Y         |     5.25 | -0.41pp | +0.08pp | +0.51pp |    1.2 |       96 | →    | 2026-11-05 |
+| YC_10Y_2Y     |     0.38 | -0.09pp | -0.07pp | -0.16pp |    0.7 |       66 | ↓    | 2026-11-05 |
+| YC_30Y_10Y    |     0.41 | +0.06pp | -0.13pp | -0.16pp |    0.6 |       71 | ↓    | 2026-11-05 |
 | REAL_FEDFUNDS |     0.16 | +0.13pp | -0.16pp | -0.90pp |    0.2 |       34 | ↓    | 2026-10-01 |
 
 ### Inflation & Growth
@@ -87,7 +87,7 @@ right rebases commodities and the dollar to 100 at the window start.
 ### Labor & Consumer
 | Indicator               |         Latest | Δ1M     | Δ3M     | Δ1Y     |   5Y Z |   5Y pct | 3M   | As of      |
 |-------------------------|----------------|---------|---------|---------|--------|----------|------|------------|
-| UNRATE                  |     4.2        | +0.10pp | +0.00pp | -0.20pp |    0.8 |       68 | →    | 2026-09-01 |
+| UNRATE                  |     4.1        | -0.10pp | +0.00pp | -0.30pp |    0.5 |       54 | →    | 2026-10-01 |
 | UMICH_SENTIMENT         |    48.1        | -7.0%   | -2.8%   | -12.7%  |   -1.7 |        2 | ↓    | 2026-09-01 |
 | SAVINGS_RATE            |     3.8        | -0.20pp | -0.60pp | -1.30pp |   -1.2 |       13 | ↓    | 2026-09-01 |
 | DISPOSABLE_INCOME       | 18366.1        | -0.3%   | +0.0%   | +1.0%   |    1.1 |       95 | →    | 2026-09-01 |
@@ -98,10 +98,10 @@ right rebases commodities and the dollar to 100 at the window start.
 ### Credit & Stress
 | Indicator              |       Latest | Δ1M     | Δ3M     | Δ1Y     |   5Y Z |   5Y pct | 3M   | As of      |
 |------------------------|--------------|---------|---------|---------|--------|----------|------|------------|
-| HY_SPREAD              |  3.32        | +0.22pp | +0.59pp | +0.19pp |    0.7 |       81 | ↑    | 2026-11-04 |
-| BAA_SPREAD             |  1.52        | +0.05pp | -0.12pp | -0.20pp |   -1.1 |       13 | ↓    | 2026-11-04 |
-| AAA_SPREAD             |  1.06        | +0.06pp | -0.14pp | -0.11pp |    0.3 |       54 | ↓    | 2026-11-04 |
-| CORP_SPREAD            |  0.91        | +0.06pp | +0.13pp | +0.08pp |    0.2 |       62 | ↑    | 2026-11-04 |
+| HY_SPREAD              |  3.42        | +0.39pp | +0.71pp | +0.29pp |    1   |       86 | ↑    | 2026-11-06 |
+| BAA_SPREAD             |  1.57        | +0.11pp | -0.05pp | -0.13pp |   -0.9 |       19 | ↓    | 2026-11-05 |
+| AAA_SPREAD             |  1.13        | +0.14pp | -0.05pp | +0.01pp |    0.7 |       73 | ↓    | 2026-11-05 |
+| CORP_SPREAD            |  0.93        | +0.09pp | +0.15pp | +0.12pp |    0.4 |       69 | ↑    | 2026-11-05 |
 | ST_LOUIS_FIN_STRESS    | -0.52        | +0.28pp | +0.30pp | -0.02pp |   -0.1 |       53 | ↑    | 2026-10-30 |
 | KANSAS_CITY_FIN_STRESS | -0.89        | +0.10pp | -0.05pp | -0.35pp |   -1.3 |        3 | ↓    | 2026-10-01 |
 | FED_ASSETS             |  6.74814e+06 | +0.1%   | +0.1%   | +2.4%   |   -1   |       31 | →    | 2026-11-04 |
@@ -116,14 +116,14 @@ right rebases commodities and the dollar to 100 at the window start.
 | USD_JPY     |   157.47 | +0.1% | -1.3%  | +2.1%  |    1   |       85 | →    | 2026-10-30 |
 
 ### Policy & Trade
-| Indicator                 |   Latest | Δ1M    | Δ3M    | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
-|---------------------------|----------|--------|--------|--------|--------|----------|------|------------|
-| US_POLICY_UNCERTAINTY     |   283.13 | +13.5% | -26.7% | -0.9%  |    0.4 |       74 | →    | 2026-11-04 |
-| EUROPE_POLICY_UNCERTAINTY |   373.55 | -1.9%  | +4.1%  | -17.5% |    0   |       56 | ↑    | 2026-10-01 |
-| TARIFFS                   |   275.3  | -10.2% | -10.2% | -17.5% |    1.1 |       74 | ↓    | 2026-07-01 |
-| CHINA_IMPORTS             | 31484.6  | +16.0% | +25.2% | +33.9% |   -0.3 |       36 | ↑    | 2026-09-01 |
-| TECH_PULSE                |    95.19 | -0.6%  | -1.2%  | +1.7%  |    0.5 |       64 | ↓    | 2026-09-01 |
-| RD_INVESTMENT             |   977.7  | +2.9%  | +2.9%  | +11.9% |    2   |       95 | ↑    | 2026-07-01 |
+| Indicator                 |   Latest | Δ1M    | Δ3M     | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
+|---------------------------|----------|--------|---------|--------|--------|----------|------|------------|
+| US_POLICY_UNCERTAINTY     |   292.85 | -3.4%  | +117.3% | -51.1% |    0.5 |       75 | ↑    | 2026-11-08 |
+| EUROPE_POLICY_UNCERTAINTY |   373.55 | -1.9%  | +4.1%   | -17.5% |    0   |       56 | ↑    | 2026-10-01 |
+| TARIFFS                   |   275.3  | -10.2% | -10.2%  | -17.5% |    1.1 |       74 | ↓    | 2026-07-01 |
+| CHINA_IMPORTS             | 31484.6  | +16.0% | +25.2%  | +33.9% |   -0.3 |       36 | ↑    | 2026-09-01 |
+| TECH_PULSE                |    95.19 | -0.6%  | -1.2%   | +1.7%  |    0.5 |       64 | ↓    | 2026-09-01 |
+| RD_INVESTMENT             |   977.7  | +2.9%  | +2.9%   | +11.9% |    2   |       95 | ↑    | 2026-07-01 |
 
 ### Logistics & Power
 | Indicator            |    Latest | Δ1M   | Δ3M    | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
