@@ -1,7 +1,7 @@
 # Makefile for market-pipeline
 # Handles setup, testing, formatting, serving, and other utility tasks.
 
-.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch fetch-data sync-notebooklm sync market-fetch shipping-fetch political-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth backup-reports clean
+.PHONY: help setup format test test-unit test-auth server server-bg server-stop server-status fetch fetch-data sync-notebooklm sync sync-vault market-fetch shipping-fetch political-fetch reports-macro portfolio portfolio-offline sync-news reports-periodic sync-reports dashboard-build yahoo-creds deploy-preview reports-historical notebooklm-auth backup-reports clean
 
 PYTHON_BIN := $(shell which python3.11 2>/dev/null || which python3)
 export PYTHONSAFEPATH := 1
@@ -21,6 +21,7 @@ help:
 	@echo "  make test-auth          - Verify Yahoo Finance and NotebookLM authentication status"
 	@echo "  make fetch              - Run full daily market data pipeline & commit updates"
 	@echo "  make sync               - Alias for make fetch"
+	@echo "  make sync-vault         - Sync generated market reports into local Obsidian vault"
 	@echo "  make fetch-data         - Run fast data pipeline only (no NotebookLM upload, ~3m)"
 	@echo "  make sync-notebooklm    - Run NotebookLM pipeline (news feed, periodic reports, PDFs)"
 	@echo "  make market-fetch       - Run market fetcher stage (Prices, Financials, News)"
@@ -155,10 +156,19 @@ fetch:
 	(git commit -m "Auto-update market data: $$(date)" || echo "No new market data to commit.") && \
 	(git push origin main || echo "No public changes to push or push failed.") && \
 	echo "💾 Syncing private reports and data to Gitea..." && \
-	$(MAKE) private-push
+	$(MAKE) private-push && \
+	$(MAKE) sync-vault
 
 # Alias for make fetch
 sync: fetch
+
+# Sync generated market reports into local Obsidian vault (no-op if absent)
+sync-vault: OBSIDIAN_DIR ?= $(abspath $(CURDIR)/../obsidian)
+sync-vault:
+	@if [ -n "$(OBSIDIAN_DIR)" ] && [ -f "$(OBSIDIAN_DIR)/Makefile" ]; then \
+		echo "🗂️  Syncing market reports into Obsidian vault..."; \
+		($(MAKE) -C "$(OBSIDIAN_DIR)" vault-sync-market SOURCE_DIR="$(CURDIR)" || echo "⚠️  Obsidian vault sync skipped."); \
+	fi
 
 # Fast data-only fetch (market + shipping + political + macro + portfolio + backup + dashboard, ~3m)
 fetch-data: setup
