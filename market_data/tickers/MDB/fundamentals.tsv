@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.16331005
-SandP52WeekChange	0.079683185
+52WeekChange	-0.09141171
+SandP52WeekChange	0.097798586
 address1	1633 Broadway
 address2	38th Floor
 allTimeHigh	590.0
@@ -9,10 +9,10 @@ ask	320.38
 askSize	1
 auditRisk	1
 averageAnalystRating	1.6 - Buy
-averageDailyVolume10Day	1372520
-averageDailyVolume3Month	2202362
-averageVolume	2202362
-averageVolume10days	1372520
+averageDailyVolume10Day	1389570
+averageDailyVolume3Month	2181475
+averageVolume	2181475
+averageVolume10days	1389570
 beta	1.743
 bid	327.69
 bidSize	1
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	329.9
+currentPrice	343.71
 currentRatio	4.866
 customPriceAlertConfidence	HIGH
-dateShortInterest	1792022400
-dayHigh	330.99
-dayLow	312.11
+dateShortInterest	1793318400
+dayHigh	346.0
+dayLow	335.5
 debtToEquity	1.846
 displayName	MongoDB
 dividendYield	0.0
@@ -42,9 +42,9 @@ earningsTimestampEnd	1796158800
 earningsTimestampStart	1796158800
 ebitda	13854000
 ebitdaMargins	0.0049799997
-enterpriseToEbitda	1648.924
-enterpriseToRevenue	8.209
-enterpriseValue	22844198912
+enterpriseToEbitda	1760.275
+enterpriseToRevenue	8.764
+enterpriseValue	24386852864
 epsCurrentYear	6.55555
 epsForward	7.89868
 epsTrailingTwelveMonths	0.72
@@ -54,35 +54,35 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	373.354
-fiftyDayAverageChange	-43.45401
-fiftyDayAverageChangePercent	-0.116388224
-fiftyTwoWeekChangePercent	-16.331005
+fiftyDayAverage	368.5412
+fiftyDayAverageChange	-24.831207
+fiftyDayAverageChangePercent	-0.067377016
+fiftyTwoWeekChangePercent	-9.1411705
 fiftyTwoWeekHigh	473.1
-fiftyTwoWeekHighChange	-143.20001
-fiftyTwoWeekHighChangePercent	-0.30268446
+fiftyTwoWeekHighChange	-129.39001
+fiftyTwoWeekHighChangePercent	-0.273494
 fiftyTwoWeekLow	215.68
-fiftyTwoWeekLowChange	114.22
-fiftyTwoWeekLowChangePercent	0.5295809
+fiftyTwoWeekLowChange	128.03
+fiftyTwoWeekLowChangePercent	0.59361094
 fiftyTwoWeekRange	215.68 - 473.1
 financialCurrency	USD
 firstTradeDateMilliseconds	1508419800000
 floatShares	78588350
 forwardEps	7.89868
-forwardPE	41.76647
+forwardPE	43.514862
 freeCashflow	561356224
 fullExchangeName	NasdaqGM
 fullTimeEmployees	5783
-fulldayChange	17.070007
-fulldayChangePercent	5.4566402
-fulldayPrice	329.9
+fulldayChange	11.72998
+fulldayChangePercent	3.5333395
+fulldayPrice	343.71
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.72688
 grossProfits	2022732032
 hasPrePostMarketData	True
 heldPercentInsiders	0.02612
-heldPercentInstitutions	0.96413004
+heldPercentInstitutions	0.93671
 impliedSharesOutstanding	80556341
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
@@ -93,18 +93,18 @@ lastFiscalYearEnd	1769817600
 longBusinessSummary	MongoDB, Inc., together with its subsidiaries, provides general purpose database platform worldwide. The company offers MongoDB Atlas, a hosted multi-cloud database-as-a-service solution; MongoDB Enterprise Advanced, a commercial database server for enterprise customers to run in the cloud, on-premises, or in a hybrid environment; and Community Server, a free-to-download version of its database, which includes the functionality that developers need to get started with MongoDB. It offers professional services comprising consulting and training. The company was formerly known as 10gen, Inc. and changed its name to MongoDB, Inc. in August 2013. MongoDB, Inc. was incorporated in 2007 and is headquartered in New York, New York.
 longName	MongoDB, Inc.
 market	us_market
-marketCap	26575538176
+marketCap	27688019968
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_46952162
 mostRecentQuarter	1785456000
 netIncomeToCommon	58897000
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	25200440155
-numberOfAnalystOpinions	37
-open	315.0
+nonDilutedMarketCap	26743094085
+numberOfAnalystOpinions	38
+open	346.0
 operatingCashflow	666622976
-operatingMargins	0.0368
+operatingMargins	-0.00468
 overallRisk	5
 payoutRatio	0.0
 pegRatio	1.67
@@ -113,11 +113,11 @@ postMarketChange	1.1400146
 postMarketChangePercent	0.37427843
 postMarketPrice	305.73
 postMarketTime	1793926684
-previousClose	312.83
-priceEpsCurrentYear	50.32377
+previousClose	331.98
+priceEpsCurrentYear	52.43038
 priceHint	2
-priceToBook	8.92659
-priceToSalesTrailing12Months	9.550031
+priceToBook	9.300267
+priceToSalesTrailing12Months	9.949805
 profitMargins	0.02116
 quickRatio	4.467
 quoteSourceName	Nasdaq Real Time Price
@@ -125,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.58537
 region	US
-regularMarketChange	17.070007
-regularMarketChangePercent	5.4566402
-regularMarketDayHigh	330.99
-regularMarketDayLow	312.11
-regularMarketDayRange	312.11 - 330.99
-regularMarketOpen	315.0
-regularMarketPreviousClose	312.83
-regularMarketPrice	329.9
-regularMarketTime	1794244578
-regularMarketVolume	274699
+regularMarketChange	11.72998
+regularMarketChangePercent	3.5333395
+regularMarketDayHigh	346.0
+regularMarketDayLow	335.5
+regularMarketDayRange	335.5 - 346.0
+regularMarketOpen	346.0
+regularMarketPreviousClose	331.98
+regularMarketPrice	343.71
+regularMarketTime	1794416905
+regularMarketVolume	294073
 returnOnAssets	-0.0022200001
 returnOnEquity	0.01989
 revenueGrowth	0.305
@@ -144,20 +144,20 @@ sectorDisp	Technology
 sectorKey	technology
 shareHolderRightsRisk	5
 sharesOutstanding	80556341
-sharesPercentSharesOut	0.033099998
-sharesShort	2664891
-sharesShortPreviousMonthDate	1789430400
-sharesShortPriorMonth	2879053
+sharesPercentSharesOut	0.0345
+sharesShort	2780933
+sharesShortPreviousMonthDate	1790726400
+sharesShortPriorMonth	2831157
 shortName	MongoDB, Inc.
-shortPercentOfFloat	0.034
-shortRatio	0.91
+shortPercentOfFloat	0.0355
+shortRatio	1.39
 sourceInterval	15
 state	NY
 symbol	MDB
 targetHighPrice	565.0
 targetLowPrice	335.0
-targetMeanPrice	453.65134
-targetMedianPrice	465.0
+targetMeanPrice	452.68683
+targetMedianPrice	462.5
 totalCash	2411254016
 totalCashPerShare	29.933
 totalDebt	55013000
@@ -166,13 +166,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.72
-trailingPE	458.19443
+trailingPE	477.37497
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	335.96426
-twoHundredDayAverageChange	-6.06427
-twoHundredDayAverageChangePercent	-0.018050343
+twoHundredDayAverage	335.2113
+twoHundredDayAverageChange	8.498688
+twoHundredDayAverageChangePercent	0.025353225
 typeDisp	Equity
-volume	274699
+volume	294073
 website	https://www.mongodb.com
 zip	10019

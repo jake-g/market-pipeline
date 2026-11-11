@@ -1,6 +1,6 @@
 # Macroeconomic Regime Report
 
-*Generated 2026-11-09. All statistics are computed on
+*Generated 2026-11-11. All statistics are computed on
 native FRED observations (not the forward-filled daily grid); Δ columns are
 percentage changes for levels and percentage-point (pp) changes for rates,
 spreads and ratios.*
@@ -110,7 +110,7 @@ right rebases commodities and the dollar to 100 at the window start.
 | Indicator   |   Latest | Δ1M   | Δ3M    | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |
 |-------------|----------|-------|--------|--------|--------|----------|------|------------|
 | WTI_CRUDE   |    99.64 | +1.8% | +21.6% | +61.3% |    1.4 |       89 | ↑    | 2026-11-03 |
-| USD_INDEX   |   121.67 | +0.6% | +1.7%  | +0.3%  |    0.2 |       66 | →    | 2026-10-30 |
+| USD_INDEX   |   121.67 | +0.6% | +1.7%  | +0.3%  |    0.2 |       65 | →    | 2026-10-30 |
 | USD_CNY     |     6.65 | -0.8% | -1.5%  | -6.4%  |   -1.2 |       10 | →    | 2026-10-30 |
 | USD_EUR     |     1.12 | -1.6% | -3.1%  | -3.5%  |    0.3 |       63 | →    | 2026-10-30 |
 | USD_JPY     |   157.47 | +0.1% | -1.3%  | +2.1%  |    1   |       85 | →    | 2026-10-30 |

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.3988996
-SandP52WeekChange	0.079683185
+52WeekChange	-0.41634816
+SandP52WeekChange	0.097798586
 address1	25 St Stephen’s Green
 address2	First Floor Dublin 2
 allTimeHigh	212.6
 allTimeLow	16.53
-ask	92.53
+ask	89.81
 askSize	1
 averageAnalystRating	2.0 - Buy
-averageDailyVolume10Day	5942090
-averageDailyVolume3Month	6200398
-averageVolume	6200398
-averageVolume10days	5942090
+averageDailyVolume10Day	6439620
+averageDailyVolume3Month	6238025
+averageVolume	6238025
+averageVolume10days	6439620
 beta	-0.079
-bid	75.0
-bidSize	20
+bid	76.0
+bidSize	6
 bookValue	47.66451
 city	Dublin
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Lei  Chen', 'age': 45, 'title': 'General Counsel, Co-CEO & Co-Chairman of the Board', 'yearBorn': 1980, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jiazhen  Zhao', 'age': 41, 'title': 'Co-CEO & Co-Chairman of the Board', 'yearBorn': 1984, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Jun  Liu', 'age': 42, 'title': 'Vice President of Finance', 'yearBorn': 1983, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Junyun  Xiao', 'age': 45, 'title': 'Senior Vice President of Operation', 'yearBorn': 1980, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Zhenwei  Zheng', 'age': 41, 'title': 'Senior Vice President of Product Development', 'yearBorn': 1984, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mi  Wang', 'title': 'Senior Vice President of Engineering', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'David  Liu', 'title': 'Vice President of Strategy', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Peng  Cheng', 'title': 'IR Director', 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,14 +22,14 @@ corporateActions	[]
 country	Ireland
 cryptoTradeable	False
 currency	USD
-currentPrice	80.35
+currentPrice	79.1
 currentRatio	2.618
 customPriceAlertConfidence	HIGH
-dateShortInterest	1792022400
-dayHigh	81.4
-dayLow	80.105
+dateShortInterest	1793318400
+dayHigh	79.42
+dayLow	78.16
 debtToEquity	1.082
-discount_to_intrinsic_value	-16.97
+discount_to_intrinsic_value	-15.15
 displayName	PDD
 dividendYield	0.0
 earningsCallTimestampEnd	1787571000
@@ -41,9 +41,9 @@ earningsTimestampEnd	1795008600
 earningsTimestampStart	1795008600
 ebitda	99100975104
 ebitdaMargins	0.21985
-enterpriseToEbitda	-3.378
-enterpriseToRevenue	-0.743
-enterpriseValue	-334767554560
+enterpriseToEbitda	-3.43
+enterpriseToRevenue	-0.754
+enterpriseValue	-339874054144
 epsCurrentYear	68.5383
 epsForward	12.360203
 epsTrailingTwelveMonths	8.89
@@ -54,35 +54,35 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	79.8238
-fiftyDayAverageChange	0.52619934
-fiftyDayAverageChangePercent	0.0065920106
-fiftyTwoWeekChangePercent	-39.88996
-fiftyTwoWeekHigh	139.12
-fiftyTwoWeekHighChange	-58.769997
-fiftyTwoWeekHighChangePercent	-0.42244104
+fiftyDayAverage	79.628
+fiftyDayAverageChange	-0.5279999
+fiftyDayAverageChangePercent	-0.006630832
+fiftyTwoWeekChangePercent	-41.634815
+fiftyTwoWeekHigh	138.5
+fiftyTwoWeekHighChange	-59.4
+fiftyTwoWeekHighChangePercent	-0.42888087
 fiftyTwoWeekLow	71.94
-fiftyTwoWeekLowChange	8.409996
-fiftyTwoWeekLowChangePercent	0.11690292
-fiftyTwoWeekRange	71.94 - 139.12
+fiftyTwoWeekLowChange	7.159996
+fiftyTwoWeekLowChangePercent	0.09952732
+fiftyTwoWeekRange	71.94 - 138.5
 financialCurrency	CNY
 firstTradeDateMilliseconds	1532611800000
 floatShares	753947663
 forwardEps	12.360203
-forwardPE	6.5007024
+forwardPE	6.3995714
 freeCashflow	74635272192
 fullExchangeName	NasdaqGS
 fullTimeEmployees	25474
-fulldayChange	-2.6800003
-fulldayChangePercent	-3.2277493
-fulldayPrice	80.35
+fulldayChange	-0.30000305
+fulldayChangePercent	-0.3778376
+fulldayPrice	79.1
 gmtOffSetMilliseconds	-18000000
 graham_intrinsic_value	68.7
 grossMargins	0.56318
 grossProfits	253868965888
 hasPrePostMarketData	True
-heldPercentInsiders	0.00719
-heldPercentInstitutions	0.31125
+heldPercentInsiders	0.0071799997
+heldPercentInstitutions	0.29737
 impliedSharesOutstanding	1423396462
 industry	Internet Retail
 industryDisp	Internet Retail
@@ -93,49 +93,49 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	PDD Holdings Inc., a multinational commerce group that owns and operates a portfolio of businesses. The company operates Pinduoduo platform, which provides various product categories and interactive shopping experiences; and Temu, an online platform, which enables merchants to streamline their manufacturing and commercial operations. The company was formerly known as Pinduoduo Inc. and changed its name to PDD Holdings Inc. in February 2023. PDD Holdings Inc. was incorporated in 2015 and is based in Dublin, Ireland.
 longName	PDD Holdings Inc.
 market	us_market
-marketCap	114369904640
+marketCap	112590659584
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_572577901
 mostRecentQuarter	1782777600
-nameChangeDate	2026-11-09
+nameChangeDate	2026-11-11
 netIncomeToCommon	92075540480
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	118184608239
+nonDilutedMarketCap	113017679082
 numberOfAnalystOpinions	33
-open	80.935
+open	78.68
 operatingCashflow	111894691840
-operatingMargins	0.2471
+operatingMargins	0.21863002
 payoutRatio	0.0
-pegRatio	0.72
+pegRatio	0.7
 phone	353 1 539 7938
 postMarketChange	-0.8999939
 postMarketChangePercent	-1.0720595
 postMarketPrice	83.05
 postMarketTime	1793926528
 prevName	Pinduoduo Inc.
-previousClose	83.03
-priceEpsCurrentYear	1.1723372
+previousClose	79.4
+priceEpsCurrentYear	1.1540992
 priceHint	2
-priceToBook	1.6857406
-priceToSalesTrailing12Months	0.253718
+priceToBook	1.6595156
+priceToSalesTrailing12Months	0.24977091
 profitMargins	0.20426
 quickRatio	2.214
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	2.0
+recommendationMean	2.02857
 region	US
-regularMarketChange	-2.6800003
-regularMarketChangePercent	-3.2277493
-regularMarketDayHigh	81.4
-regularMarketDayLow	80.105
-regularMarketDayRange	80.105 - 81.4
-regularMarketOpen	80.935
-regularMarketPreviousClose	83.03
-regularMarketPrice	80.35
-regularMarketTime	1794244617
-regularMarketVolume	3053686
+regularMarketChange	-0.30000305
+regularMarketChangePercent	-0.3778376
+regularMarketDayHigh	79.42
+regularMarketDayLow	78.16
+regularMarketDayRange	78.16 - 79.42
+regularMarketOpen	78.68
+regularMarketPreviousClose	79.4
+regularMarketPrice	79.1
+regularMarketTime	1794416939
+regularMarketVolume	2111872
 returnOnAssets	0.100109994
 returnOnEquity	0.22745001
 revenueGrowth	0.081
@@ -144,19 +144,19 @@ sector	Consumer Cyclical
 sectorDisp	Consumer Cyclical
 sectorKey	consumer-cyclical
 sharesOutstanding	1423396462
-sharesPercentSharesOut	0.0225
-sharesShort	32096005
-sharesShortPreviousMonthDate	1789430400
-sharesShortPriorMonth	28248886
+sharesPercentSharesOut	0.02
+sharesShort	28439599
+sharesShortPreviousMonthDate	1790726400
+sharesShortPriorMonth	29572737
 shortName	PDD Holdings Inc.
-shortPercentOfFloat	0.0372
-shortRatio	5.4
+shortPercentOfFloat	0.033
+shortRatio	5.38
 sourceInterval	15
 symbol	PDD
-targetHighPrice	151.35336
-targetLowPrice	85.788605
-targetMeanPrice	113.830215
-targetMedianPrice	112.53453
+targetHighPrice	151.33292
+targetLowPrice	85.77701
+targetMeanPrice	113.814835
+targetMedianPrice	112.519325
 totalCash	456414003200
 totalCashPerShare	324.446
 totalDebt	4844000256
@@ -165,13 +165,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	8.89
-trailingPE	9.038244
-trailingPegRatio	0.7227
+trailingPE	8.897637
+trailingPegRatio	0.6908
 triggerable	True
-twoHundredDayAverage	90.46245
-twoHundredDayAverageChange	-10.11245
-twoHundredDayAverageChangePercent	-0.11178616
+twoHundredDayAverage	90.19575
+twoHundredDayAverageChange	-11.095749
+twoHundredDayAverageChangePercent	-0.12301854
 typeDisp	Equity
-volume	3053686
+volume	2111872
 website	https://www.pddholdings.com
 zip	D02 XF99
