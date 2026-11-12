@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.66555184
-SandP52WeekChange	0.097798586
+52WeekChange	-0.60205245
+SandP52WeekChange	0.13089299
 address1	Guanjie Building
 address2	Southeast 1st Floor 10# Jiuxianqiao East Road Chaoyang District
 allTimeHigh	44.45
 allTimeLow	1.39
-ask	4.17
+ask	3.76
 askSize	2
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	6946160
-averageDailyVolume3Month	5501692
-averageVolume	5501692
-averageVolume10days	6946160
+averageDailyVolume10Day	7259140
+averageDailyVolume3Month	5586851
+averageVolume	5586851
+averageVolume10days	7259140
 beta	0.297
-bid	2.63
-bidSize	2
+bid	2.9
+bidSize	5
 bookValue	2.151329
 city	Beijing
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Sheng  Chen', 'age': 56, 'title': 'Co-Founder, Interim CEO & Executive Chairman', 'yearBorn': 1969, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Xinyuan  Liu', 'title': 'Head of Director of Investor', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Derek  Li', 'title': 'Group Executive VP & General Counsel', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Xiao  Liu', 'age': 44, 'title': 'Rotating President & Group Executive VP', 'yearBorn': 1981, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ju  Ma', 'title': 'Group Executive VP & Rotating President', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Wen  Teng', 'title': 'Rotating Chief Executive Officer', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kun  Yan', 'title': 'Group Executive Vice President', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Xiaomang  Li', 'title': 'Group Senior Vice President', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Zhihua  Zhang', 'age': 42, 'title': 'Group Senior VP & Head of Operations Finance', 'yearBorn': 1983, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jie  Dong', 'title': 'President of 21Vianet Group & CEO of Internet Capital', 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,12 +22,12 @@ corporateActions	[]
 country	China
 cryptoTradeable	False
 currency	USD
-currentPrice	3.58
+currentPrice	3.125
 currentRatio	0.973
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	3.68
-dayLow	3.22
+dayHigh	3.32
+dayLow	2.92
 debtToEquity	309.206
 displayName	VNET
 dividendYield	0.0
@@ -38,10 +38,10 @@ earningsTimestampEnd	1795440600
 earningsTimestampStart	1795440600
 ebitda	3281273088
 ebitdaMargins	0.30556
-enterpriseToEbitda	9.465
-enterpriseToRevenue	2.892
-enterpriseValue	31058733056
-epsCurrentYear	-3.86
+enterpriseToEbitda	9.508
+enterpriseToRevenue	2.905
+enterpriseValue	31197730816
+epsCurrentYear	-3.856
 epsForward	0.08154895
 epsTrailingTwelveMonths	-1.22
 esgPopulated	False
@@ -51,28 +51,28 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	86 10 8456 4234
-fiftyDayAverage	5.0882
-fiftyDayAverageChange	-1.5082002
-fiftyDayAverageChangePercent	-0.29641134
-fiftyTwoWeekChangePercent	-66.55518
+fiftyDayAverage	5.0336
+fiftyDayAverageChange	-1.9085999
+fiftyDayAverageChangePercent	-0.37917194
+fiftyTwoWeekChangePercent	-60.205246
 fiftyTwoWeekHigh	14.48
-fiftyTwoWeekHighChange	-10.9
-fiftyTwoWeekHighChangePercent	-0.75276244
+fiftyTwoWeekHighChange	-11.355
+fiftyTwoWeekHighChangePercent	-0.78418505
 fiftyTwoWeekLow	2.91
-fiftyTwoWeekLowChange	0.66999984
-fiftyTwoWeekLowChangePercent	0.2302405
+fiftyTwoWeekLowChange	0.21499991
+fiftyTwoWeekLowChangePercent	0.07388313
 fiftyTwoWeekRange	2.91 - 14.48
 financialCurrency	CNY
 firstTradeDateMilliseconds	1303392600000
 floatShares	63952804
 forwardEps	0.08154895
-forwardPE	43.900013
+forwardPE	38.32054
 freeCashflow	-3814723584
 fullExchangeName	NasdaqGS
 fullTimeEmployees	2784
-fulldayChange	0.5799999
-fulldayChangePercent	19.33333
-fulldayPrice	3.58
+fulldayChange	-0.365
+fulldayChangePercent	-10.458452
+fulldayPrice	3.125
 gmtOffSetMilliseconds	-18000000
 grossMargins	0.20491
 grossProfits	2200460032
@@ -89,17 +89,17 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	VNET Group, Inc. provides data center hosting and related services in China. The company offers managed hosting services comprising managed retail services, such as colocation services that dedicate data center space to house customers' servers and networking equipment, as well as allow customers to lease partial or entire cabinets for their servers; interconnectivity services that allow customers to connect their servers; and value-added services, including hybrid IT, bare metal, firewall, server load balancing, data backup and recovery, data center management, server management, and standby server services. It also provides cloud services that allow customers to run applications over the internet using IT infrastructure; and VPN services that extend customers' private networks by setting up connections through the public internet. In addition, the company offers server administration services, including operating system support and assistance with updates, server monitoring, server backup and restoration, server security evaluation, firewall services, and disaster recovery services. It serves information technology and cloud services, communications and social networking, gaming and entertainment, e-commerce, automobile, financial services, and blue-chip and small-to-mid-sized enterprises; government agencies; individuals; and telecommunication carriers. The company was formerly known as 21Vianet Group, Inc. and changed its name to VNET Group, Inc. in October 2021. VNET Group, Inc. was founded in 1996 and is headquartered in Beijing, China.
 longName	VNET Group, Inc.
 market	us_market
-marketCap	1021135104
+marketCap	891353984
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_129459462
 mostRecentQuarter	1782777600
-nameChangeDate	2026-11-11
+nameChangeDate	2026-11-12
 netIncomeToCommon	-2381378048
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	855699834
+nonDilutedMarketCap	999742639
 numberOfAnalystOpinions	15
-open	3.25
+open	3.29
 operatingCashflow	1747992960
 operatingMargins	0.07775
 payoutRatio	0.0
@@ -110,11 +110,11 @@ postMarketChangePercent	1.26984
 postMarketPrice	3.19
 postMarketTime	1793926052
 prevName	21Vianet Group, Inc.
-previousClose	3.0
-priceEpsCurrentYear	-0.92746115
+previousClose	3.49
+priceEpsCurrentYear	-0.81042534
 priceHint	4
-priceToBook	1.6640875
-priceToSalesTrailing12Months	0.09508918
+priceToBook	1.4525905
+priceToSalesTrailing12Months	0.08300383
 profitMargins	-0.06237
 quickRatio	0.752
 quoteSourceName	Nasdaq Real Time Price
@@ -122,16 +122,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.26667
 region	US
-regularMarketChange	0.5799999
-regularMarketChangePercent	19.33333
-regularMarketDayHigh	3.68
-regularMarketDayLow	3.22
-regularMarketDayRange	3.22 - 3.68
-regularMarketOpen	3.25
-regularMarketPreviousClose	3.0
-regularMarketPrice	3.58
-regularMarketTime	1794416970
-regularMarketVolume	3867411
+regularMarketChange	-0.365
+regularMarketChangePercent	-10.458452
+regularMarketDayHigh	3.32
+regularMarketDayLow	2.92
+regularMarketDayRange	2.92 - 3.32
+regularMarketOpen	3.29
+regularMarketPreviousClose	3.49
+regularMarketPrice	3.125
+regularMarketTime	1794505379
+regularMarketVolume	4457284
 returnOnAssets	0.0117
 returnOnEquity	-0.04701
 revenueGrowth	0.142
@@ -149,10 +149,10 @@ shortPercentOfFloat	0.2889
 shortRatio	7.44
 sourceInterval	15
 symbol	VNET
-targetHighPrice	25.189205
-targetLowPrice	4.6077065
-targetMeanPrice	10.294423
-targetMedianPrice	8.007985
+targetHighPrice	25.191095
+targetLowPrice	4.6080523
+targetMeanPrice	9.892809
+targetMedianPrice	7.503153
 totalCash	6720690176
 totalCashPerShare	23.692
 totalDebt	30983540736
@@ -163,10 +163,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-1.22
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	8.0661
-twoHundredDayAverageChange	-4.4861
-twoHundredDayAverageChangePercent	-0.5561672
+twoHundredDayAverage	8.02685
+twoHundredDayAverageChange	-4.9018497
+twoHundredDayAverageChangePercent	-0.61068165
 typeDisp	Equity
-volume	3867411
+volume	4457284
 website	https://www.vnet.com
 zip	100016

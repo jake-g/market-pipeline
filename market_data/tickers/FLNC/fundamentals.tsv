@@ -1,37 +1,37 @@
 Metric	Value
-52WeekChange	-0.74440396
-SandP52WeekChange	0.097798586
+52WeekChange	-0.6873846
+SandP52WeekChange	0.13089299
 address1	2107 Wilson Boulevard
 address2	Suite 900
 allTimeHigh	39.4
 allTimeLow	3.46
-ask	6.41
+ask	6.02
 askSize	2
 auditRisk	9
 averageAnalystRating	3.0 - Hold
-averageDailyVolume10Day	7979450
-averageDailyVolume3Month	7051868
-averageVolume	7051868
-averageVolume10days	7979450
+averageDailyVolume10Day	7994010
+averageDailyVolume3Month	7083937
+averageVolume	7083937
+averageVolume10days	7994010
 beta	2.793
-bid	3.76
+bid	3.54
 bidSize	2
 boardRisk	9
 bookValue	2.607
 city	Arlington
-companyOfficers	[]
+companyOfficers	[{'maxAge': 1, 'name': 'Mr. Axel  Meier', 'age': 62, 'title': 'Interim CEO & Director', 'yearBorn': 1963, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ricardo  Roizen Gottlieb', 'title': 'Interim Chief Financial Officer', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bernerd Raymond Da Santos Avila', 'age': 61, 'title': 'Executive VP, COO & Principal Operating Officer', 'yearBorn': 1964, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Michelle  Philpotas', 'age': 58, 'title': 'Chief Accounting Officer', 'yearBorn': 1967, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Chris  Shelton', 'title': 'Vice President of Finance, GID & IR', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Vincent Winslow Mathis J.D.', 'age': 61, 'title': 'Senior VP, Chief Legal & Compliance Officer and Secretary', 'yearBorn': 1964, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Shayla  Ebsen', 'title': 'Director of Communications', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Roman  Loosen', 'title': 'Senior VP, Chief Supply Chain & Manufacturing Officer', 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeff  Monday', 'age': 42, 'title': 'Chief Growth Officer & SVP', 'yearBorn': 1983, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Marco  Boos', 'title': 'Senior VP & Chief Customer Success Officer', 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	3
 corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	5.255
+currentPrice	4.89
 currentRatio	1.341
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	5.29
-dayLow	4.98
+dayHigh	4.975
+dayLow	4.685
 debtToEquity	95.812
 displayName	Fluence Energy
 dividendYield	0.0
@@ -42,9 +42,9 @@ earningsTimestampEnd	1795467600
 earningsTimestampStart	1795467600
 ebitda	-77972000
 ebitdaMargins	-0.02963
-enterpriseToEbitda	-10.706
-enterpriseToRevenue	0.317
-enterpriseValue	834784192
+enterpriseToEbitda	-11.018
+enterpriseToRevenue	0.326
+enterpriseValue	859122048
 epsCurrentYear	-1.30278
 epsForward	-0.53053
 epsTrailingTwelveMonths	-0.6
@@ -54,28 +54,28 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	7.3467
-fiftyDayAverageChange	-2.0917
-fiftyDayAverageChangePercent	-0.28471288
-fiftyTwoWeekChangePercent	-74.4404
+fiftyDayAverage	7.2399
+fiftyDayAverageChange	-2.3499002
+fiftyDayAverageChangePercent	-0.32457635
+fiftyTwoWeekChangePercent	-68.738464
 fiftyTwoWeekHigh	33.51
-fiftyTwoWeekHighChange	-28.254997
-fiftyTwoWeekHighChangePercent	-0.8431811
-fiftyTwoWeekLow	4.78
-fiftyTwoWeekLowChange	0.4749999
-fiftyTwoWeekLowChangePercent	0.09937236
-fiftyTwoWeekRange	4.78 - 33.51
+fiftyTwoWeekHighChange	-28.619999
+fiftyTwoWeekHighChangePercent	-0.8540734
+fiftyTwoWeekLow	4.685
+fiftyTwoWeekLowChange	0.20499992
+fiftyTwoWeekLowChangePercent	0.043756653
+fiftyTwoWeekRange	4.685 - 33.51
 financialCurrency	USD
 firstTradeDateMilliseconds	1635427800000
 floatShares	89069226
 forwardEps	-0.53053
-forwardPE	-9.9051895
+forwardPE	-9.217198
 freeCashflow	2418875
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1670
-fulldayChange	0.34500027
-fulldayChangePercent	7.026482
-fulldayPrice	5.255
+fulldayChange	-0.19000006
+fulldayChangePercent	-3.7401586
+fulldayPrice	4.89
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.09364
@@ -94,16 +94,16 @@ lastFiscalYearEnd	1759190400
 longBusinessSummary	Fluence Energy, Inc., through its subsidiaries, provides energy storage and optimization software for renewables and storage applications in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. It sells energy storage products with integrated hardware, software, and digital intelligence. The company's energy storage products include Gridstack Pro, a large-scale front-of-the-meter application; Gridstack, a front-of-the-meter application; Ultrastack for critical system requirements of distribution and transmission networks; Smartstack, a split architecture design, incorporating embedded intelligence and higher energy density compared to traditional AC systems; Fluence Mosaic, a conventional bidding software; and Fluence Nispera, an asset performance management (APM) software. The company also provides operational and maintenance services; and digital applications. It serves independent power producers, developers, conglomerates, utilities/load-serving entities, and commercial and industrial customers. Fluence Energy, Inc. was founded in 2018 and is headquartered in Arlington, Virginia.
 longName	Fluence Energy, Inc.
 market	us_market
-marketCap	1022952960
+marketCap	951900992
 marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_1683252955
 mostRecentQuarter	1782777600
 netIncomeToCommon	-80868000
 nextFiscalYearEnd	1790726400
-nonDilutedMarketCap	702217399
+nonDilutedMarketCap	727271027
 numberOfAnalystOpinions	20
-open	5.1
+open	4.802
 operatingCashflow	-100791000
 operatingMargins	-0.0421
 overallRisk	9
@@ -114,11 +114,11 @@ postMarketChange	0.06500006
 postMarketChangePercent	1.2757617
 postMarketPrice	5.16
 postMarketTime	1793926699
-previousClose	4.91
-priceEpsCurrentYear	-4.033682
-priceHint	2
-priceToBook	2.0157268
-priceToSalesTrailing12Months	0.38868
+previousClose	5.08
+priceEpsCurrentYear	-3.7535114
+priceHint	4
+priceToBook	1.8757191
+priceToSalesTrailing12Months	0.3616832
 profitMargins	-0.03073
 quickRatio	0.702
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	2.95652
 region	US
-regularMarketChange	0.34500027
-regularMarketChangePercent	7.026482
-regularMarketDayHigh	5.29
-regularMarketDayLow	4.98
-regularMarketDayRange	4.98 - 5.29
-regularMarketOpen	5.1
-regularMarketPreviousClose	4.91
-regularMarketPrice	5.255
-regularMarketTime	1794416875
-regularMarketVolume	2534319
+regularMarketChange	-0.19000006
+regularMarketChangePercent	-3.7401586
+regularMarketDayHigh	4.975
+regularMarketDayLow	4.685
+regularMarketDayRange	4.685 - 4.975
+regularMarketOpen	4.802
+regularMarketPreviousClose	5.08
+regularMarketPrice	4.89
+regularMarketTime	1794505294
+regularMarketVolume	3279949
 returnOnAssets	-0.02953
 returnOnEquity	-0.23536
 revenueGrowth	0.079
@@ -169,10 +169,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-0.6
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	14.740375
-twoHundredDayAverageChange	-9.485374
-twoHundredDayAverageChangePercent	-0.64349616
+twoHundredDayAverage	14.623575
+twoHundredDayAverageChange	-9.733576
+twoHundredDayAverageChangePercent	-0.66560847
 typeDisp	Equity
-volume	2534319
+volume	3279949
 website	https://fluenceenergy.com
 zip	22201

@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-11-10 |
+| Date | str | 2026-11-12 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | Ribo Submits European Clinical Trial Applicatio... |
+| Headline | str | Alibaba Q2 Preview: Cash Flow Pressures Will Co... |
 | Summary | str | China's central bank is subsidizing buybacks wh... |
-| URL | str | https://news.google.com/rss/articles/CBMi2wJBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMiqwFBVV... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News
@@ -52,11 +52,11 @@ This report documents the file structures and column data types used in `market_
 | TECH_PULSE | float64 | 95.1941 |
 | CHINA_IMPORTS | float64 | 31484.5938 |
 | TARIFFS | float64 | 275.296 |
-| USD_INDEX | float64 | 121.6656 |
-| USD_CNY | float64 | 6.6538 |
-| USD_EUR | float64 | 1.1163 |
-| USD_JPY | float64 | 157.47 |
-| FOOD_CPI | float64 | 350.905 |
+| USD_INDEX | float64 | 121.8803 |
+| USD_CNY | float64 | 6.676 |
+| USD_EUR | float64 | 1.1154 |
+| USD_JPY | float64 | 158.23 |
+| FOOD_CPI | float64 | 352.359 |
 | CORN_PRICE | float64 | 236.9161 |
 | WHEAT_PRICE | float64 | 246.8518 |
 | SUGAR_PRICE | float64 | 17.9371 |
@@ -81,26 +81,26 @@ This report documents the file structures and column data types used in `market_
 | M2_MONEY | float64 | 23413.9 |
 | M2_VELOCITY | float64 | 1.417 |
 | FED_ASSETS | float64 | 6748145.0 |
-| CPI | float64 | 336.298 |
+| CPI | float64 | 337.476 |
 | FEDFUNDS | float64 | 3.88 |
-| US02Y | float64 | 4.46 |
-| US10Y | float64 | 4.84 |
-| US30Y | float64 | 5.25 |
-| HY_SPREAD | float64 | 3.42 |
-| CORP_SPREAD | float64 | 0.93 |
-| BAA_SPREAD | float64 | 1.57 |
-| AAA_SPREAD | float64 | 1.13 |
+| US02Y | float64 | 4.56 |
+| US10Y | float64 | 4.88 |
+| US30Y | float64 | 5.26 |
+| HY_SPREAD | float64 | 3.34 |
+| CORP_SPREAD | float64 | 0.91 |
+| BAA_SPREAD | float64 | 1.51 |
+| AAA_SPREAD | float64 | 1.07 |
 | FEDFUNDS_UPPER | float64 | 4.0 |
-| SOFR | float64 | 3.89 |
-| US03M | float64 | 4.17 |
-| US01Y | float64 | 4.28 |
-| US05Y | float64 | 4.59 |
-| US10Y_REAL | float64 | 2.6 |
-| BREAKEVEN_10Y | float64 | 2.23 |
-| TERM_PREMIUM_10Y | float64 | 0.9089 |
-| HY_YIELD | float64 | 8.06 |
+| SOFR | float64 | 3.88 |
+| US03M | float64 | 4.24 |
+| US01Y | float64 | 4.38 |
+| US05Y | float64 | 4.67 |
+| US10Y_REAL | float64 | 2.66 |
+| BREAKEVEN_10Y | float64 | 2.2 |
+| TERM_PREMIUM_10Y | float64 | 0.8738 |
+| HY_YIELD | float64 | 8.0 |
 | CORP_YIELD | float64 | 5.73 |
-| US_POLICY_UNCERTAINTY | float64 | 292.85 |
+| US_POLICY_UNCERTAINTY | float64 | 426.62 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 373.5523 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.5224 |
