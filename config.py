@@ -153,7 +153,12 @@ SECTORS = {
         "VEA", "VWO", "EFA", "EEM", "URTH", "CIBR", "VIG", "VIS", "VYM", "VAW",
         "VXUS", "EWY", "SCHB"
     ],
-    "Mutual Funds": ["VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX"],
+    # VIEIX, VBTIX and VTMNX stand in for the 401(k) extended market,
+    # total bond and developed markets index trusts, which have no ticker.
+    "Mutual Funds": [
+        "VMFXX", "VFTAX", "VIGIX", "VIIIX", "VEMRX", "VTIFX", "VIEIX",
+        "VBTIX", "VTMNX"
+    ],
     "Fixed Income & Preferred": [
         "PFFD", "PFXF", "FAGOX", "FASPX", "VBIL", "VUSB"
     ],
