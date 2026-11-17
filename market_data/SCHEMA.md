@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-11-12 |
+| Date | str | 2026-11-17 |
 | Source | str | Google |
 | Sentiment | float64 | 0.0 |
-| Headline | str | Alibaba Q2 Preview: Cash Flow Pressures Will Co... |
+| Headline | str | How Might Trump's Trip to China Affect iShares ... |
 | Summary | str | China's central bank is subsidizing buybacks wh... |
-| URL | str | https://news.google.com/rss/articles/CBMiqwFBVV... |
+| URL | str | https://news.google.com/rss/articles/CBMi0gFBVV... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News

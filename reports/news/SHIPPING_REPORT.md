@@ -19,17 +19,17 @@ Data as of 2026-11-16
 ## Major Port Calls (7-day avg vs prior 4 weeks)
 | Port                   | Country                  | Last Date   |   7d Avg Calls |   4w Avg Calls | Δ%     |   Container 7d |   Tanker 7d |
 |------------------------|--------------------------|-------------|----------------|----------------|--------|----------------|-------------|
-| Singapore              | Singapore                | 2026-11-06  |          114   |          117.6 | -3.1%  |           33   |        70.1 |
-| Rotterdam              | The Netherlands          | 2026-11-06  |           81   |           81   | -0.0%  |           18.3 |        41   |
-| Shanghai               | China                    | 2026-11-06  |           77.9 |           77.5 | +0.5%  |           30.1 |        15.7 |
-| Antwerp                | Belgium                  | 2026-11-06  |           58.7 |           52   | +12.8% |           12.6 |        32   |
-| Ningbo                 | China                    | 2026-11-06  |           48.9 |           45.3 | +7.8%  |           27.9 |        12   |
-| Busan                  | Korea                    | 2026-11-06  |           47   |           46.9 | +0.3%  |           27.6 |         7.1 |
-| Kaohsiung              | Taiwan Province of China | 2026-11-06  |           30.7 |           26.2 | +17.0% |           18.4 |         3.9 |
-| Houston (US-TX)        | United States            | 2026-11-06  |           20.7 |           20.6 | +0.5%  |            3   |        13.3 |
-| Hamburg                | Germany                  | 2026-11-06  |           17.6 |           16.1 | +8.8%  |            9.7 |         3.6 |
-| Los Angeles-Long Beach | United States            | 2026-11-06  |            8.9 |            9.8 | -9.8%  |            4.3 |         2.3 |
-| Jebel Ali              | United Arab Emirates     | 2026-11-06  |            4.6 |            4.6 | +0.0%  |            1.6 |         0.9 |
+| Singapore              | Singapore                | 2026-11-13  |          121   |          116   | +4.3%  |           34.4 |        74.4 |
+| Rotterdam              | The Netherlands          | 2026-11-13  |           81.9 |           80.2 | +2.0%  |           18   |        41.1 |
+| Shanghai               | China                    | 2026-11-13  |           71.9 |           78.8 | -8.8%  |           27.7 |        13.9 |
+| Antwerp                | Belgium                  | 2026-11-13  |           57   |           53.8 | +6.0%  |           12.4 |        34   |
+| Ningbo                 | China                    | 2026-11-13  |           48.6 |           45.7 | +6.3%  |           28.3 |        11.1 |
+| Busan                  | Korea                    | 2026-11-13  |           46.6 |           47.3 | -1.6%  |           28.4 |         7.1 |
+| Kaohsiung              | Taiwan Province of China | 2026-11-13  |           28.7 |           27.1 | +5.9%  |           17.9 |         4.3 |
+| Houston (US-TX)        | United States            | 2026-11-13  |           22.4 |           20.9 | +7.4%  |            2.9 |        15   |
+| Hamburg                | Germany                  | 2026-11-13  |           16   |           16.6 | -3.4%  |            7   |         4   |
+| Los Angeles-Long Beach | United States            | 2026-11-13  |           10.6 |            9.8 | +8.0%  |            6.4 |         2   |
+| Jebel Ali              | United Arab Emirates     | 2026-11-13  |            5.9 |            4.7 | +25.2% |            2.3 |         1.1 |
 
 Source: IMF PortWatch `Daily_Ports_Data` (`port_calls.tsv`).
 
