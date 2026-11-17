@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	109.83
 allTimeLow	8.45
-ask	45.12
-askSize	2400
-averageDailyVolume10Day	20512240
-averageDailyVolume3Month	16919034
-averageVolume	16919034
-averageVolume10days	20512240
+ask	42.39
+askSize	10100
+averageDailyVolume10Day	17463190
+averageDailyVolume3Month	17108748
+averageVolume	17108748
+averageVolume10days	17463190
 beta3Year	1.26
-bid	45.11
-bidSize	3000
+bid	42.38
+bidSize	3400
 bookValue	21.348
 category	Commodities Focused
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	45.585
-dayLow	44.849
+dayHigh	42.915
+dayLow	42.01
 dividendYield	0.0
 epsTrailingTwelveMonths	-3.46
 esgPopulated	False
@@ -27,24 +27,24 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	53.479
-fiftyDayAverageChange	-8.311501
-fiftyDayAverageChangePercent	-0.15541616
-fiftyTwoWeekChangePercent	-1.6237855
+fiftyDayAverage	52.8716
+fiftyDayAverageChange	-10.481602
+fiftyDayAverageChangePercent	-0.19824634
+fiftyTwoWeekChangePercent	-2.9469967
 fiftyTwoWeekHigh	109.83
-fiftyTwoWeekHighChange	-64.662506
-fiftyTwoWeekHighChangePercent	-0.58875084
-fiftyTwoWeekLow	44.11
-fiftyTwoWeekLowChange	1.0574989
-fiftyTwoWeekLowChangePercent	0.023974132
-fiftyTwoWeekRange	44.11 - 109.83
+fiftyTwoWeekHighChange	-67.44
+fiftyTwoWeekHighChangePercent	-0.6140399
+fiftyTwoWeekLow	42.01
+fiftyTwoWeekLowChange	0.38000107
+fiftyTwoWeekLowChangePercent	0.009045491
+fiftyTwoWeekRange	42.01 - 109.83
 financialCurrency	USD
 firstTradeDateMilliseconds	1146231000000
-fiveYearAverageReturn	0.15239139
+fiveYearAverageReturn	0.1350877
 fullExchangeName	NYSEArca
-fulldayChange	-1.482502
-fulldayChangePercent	-3.1779249
-fulldayPrice	45.1675
+fulldayChange	-1.6800003
+fulldayChangePercent	-3.8069346
+fulldayPrice	42.45
 fundFamily	iShares
 fundInceptionDate	1145577600
 gmtOffSetMilliseconds	-18000000
@@ -54,38 +54,38 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The Trust seeks to reflect such performance before payment of the Trust's expenses and liabilities. It is not actively managed. The Trust does not engage in any activities designed to obtain a profit from, or to ameliorate losses caused by, changes in the price of silver.
 longName	iShares Silver Trust
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22769902
-navPrice	47.59008
+navPrice	45.16516
 netAssets	25189589000.0
 netExpenseRatio	0.5
-open	45.48
-postMarketChange	0.020000458
-postMarketChangePercent	0.042617638
-postMarketPrice	46.95
-postMarketTime	1793926740
-previousClose	46.65
+open	42.59
+postMarketChange	0.060001373
+postMarketChangePercent	0.14154606
+postMarketPrice	42.45
+postMarketTime	1794875450
+previousClose	44.13
 priceHint	2
-priceToBook	2.115772
+priceToBook	1.9856662
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.482502
-regularMarketChangePercent	-3.1779249
-regularMarketDayHigh	45.585
-regularMarketDayLow	44.849
-regularMarketDayRange	44.849 - 45.585
-regularMarketOpen	45.48
-regularMarketPreviousClose	46.65
-regularMarketPrice	45.1675
-regularMarketTime	1794505357
-regularMarketVolume	10761839
+regularMarketChange	-1.74
+regularMarketChangePercent	-3.9429
+regularMarketDayHigh	42.915
+regularMarketDayLow	42.01
+regularMarketDayRange	42.01 - 42.915
+regularMarketOpen	42.59
+regularMarketPreviousClose	44.13
+regularMarketPrice	42.39
+regularMarketTime	1794862800
+regularMarketVolume	27602776
 sharesOutstanding	341449984
 shortName	iShares Silver Trust
 sourceInterval	15
 symbol	SLV
-threeYearAverageReturn	0.3171596
+threeYearAverageReturn	0.29267251
 totalAssets	25189588992
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -94,10 +94,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-13.32519
 trailingThreeMonthReturns	-13.32519
 triggerable	True
-twoHundredDayAverage	62.5268
-twoHundredDayAverageChange	-17.359299
-twoHundredDayAverageChangePercent	-0.27762973
+twoHundredDayAverage	61.9172
+twoHundredDayAverageChange	-19.527199
+twoHundredDayAverageChangePercent	-0.315376
 typeDisp	ETF
-volume	10761839
+volume	27602776
 yield	0.0
 ytdReturn	-30.70772

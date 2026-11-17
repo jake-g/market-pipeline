@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.5323591
-SandP52WeekChange	0.13089299
+52WeekChange	0.5569358
+SandP52WeekChange	0.1332742
 address1	Esplanaden 50
 allTimeHigh	19.14
 allTimeLow	3.54
-ask	14.85
-askSize	2641
+ask	14.84
+askSize	1900
 averageAnalystRating	3.0 - Hold
-averageDailyVolume10Day	111320
-averageDailyVolume3Month	110368
-averageVolume	110368
-averageVolume10days	111320
+averageDailyVolume10Day	122520
+averageDailyVolume3Month	109259
+averageVolume	109259
+averageVolume10days	122520
 beta	0.546
-bid	14.84
-bidSize	1400
+bid	14.82
+bidSize	802
 bookValue	18.676094
 city	Copenhagen
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Vincent  Clerc', 'age': 53, 'title': 'CEO & Member of Management Board', 'yearBorn': 1972, 'fiscalYear': 2025, 'totalPay': 3997368, 'exercisedValue': 0, 'unexercisedValue': 1818648}, {'maxAge': 1, 'name': 'Mr. Robert  Erni', 'age': 59, 'title': 'CFO & Member of the Executive Board', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Rabab  Boulos', 'title': 'Chief Operating Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Navneet  Kapoor', 'age': 55, 'title': 'Chief Technology & Information Officer', 'yearBorn': 1970, 'fiscalYear': 2025, 'totalPay': 1979148, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Martin Christopher Dunwoodie', 'title': 'Head of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mikkel  Linnet', 'title': 'Head of Global Media Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Roberta  Duarte', 'title': 'Chief People Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Caroline  Pontoppidan', 'age': 60, 'title': 'Chief Corporate Affairs Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Katharina  Poehlmann', 'title': 'Senior VP & Head of Strategy', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Karsten  Kildahl', 'title': 'Chief Commercial Officer & Emerging Markets', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -25,14 +25,14 @@ currency	USD
 currentPrice	14.82
 currentRatio	2.159
 customPriceAlertConfidence	LOW
-dayHigh	14.82
-dayLow	14.73
+dayHigh	15.03
+dayLow	14.82
 debtToEquity	30.231
-discount_to_intrinsic_value	80.76
+discount_to_intrinsic_value	79.69
 displayName	A.P. Møller - Mærsk
 dividendDate	1776124800
 dividendRate	0.37
-dividendYield	2.51
+dividendYield	2.45
 earningsCallTimestampEnd	1746694800
 earningsCallTimestampStart	1746694800
 earningsGrowth	1.986
@@ -41,9 +41,9 @@ earningsTimestampEnd	1754548200
 earningsTimestampStart	1754548200
 ebitda	7927000064
 ebitdaMargins	0.13178
-enterpriseToEbitda	5.553
-enterpriseToRevenue	0.732
-enterpriseValue	44017405952
+enterpriseToEbitda	5.608
+enterpriseToRevenue	0.739
+enterpriseValue	44452302848
 epsForward	-0.28262
 epsTrailingTwelveMonths	1.46
 eps_normalized_growth	3.258115759488394
@@ -54,10 +54,10 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	17.3978
-fiftyDayAverageChange	-2.5778008
-fiftyDayAverageChangePercent	-0.14816819
-fiftyTwoWeekChangePercent	53.235912
+fiftyDayAverage	17.332
+fiftyDayAverageChange	-2.512001
+fiftyDayAverageChangePercent	-0.14493428
+fiftyTwoWeekChangePercent	55.69358
 fiftyTwoWeekHigh	18.76
 fiftyTwoWeekHighChange	-3.9400005
 fiftyTwoWeekHighChangePercent	-0.21002135
@@ -74,11 +74,11 @@ forwardPE	-52.4379
 freeCashflow	3652124928
 fullExchangeName	OTC Markets OTCPK
 fullTimeEmployees	100000
-fulldayChange	0.15999985
-fulldayChangePercent	1.0914042
+fulldayChange	-0.19000053
+fulldayChangePercent	-1.2658263
 fulldayPrice	14.82
 gmtOffSetMilliseconds	-18000000
-graham_intrinsic_value	77.01
+graham_intrinsic_value	72.97
 grossMargins	0.26103002
 grossProfits	15701999616
 hasPrePostMarketData	False
@@ -100,21 +100,21 @@ longBusinessSummary	A.P. Møller - Mærsk A/S, together with its subsidiaries, o
 longName	A.P. Møller - Mærsk A/S
 market	us_market
 marketCap	42597015552
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_875418
 mostRecentQuarter	1790726400
 netIncomeToCommon	4232000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	42194252964
+nonDilutedMarketCap	42980843952
 numberOfAnalystOpinions	1
-open	14.78
+open	15.03
 operatingCashflow	10174999552
 operatingMargins	0.07877
 payoutRatio	0.2522
-pegRatio	3.35
+pegRatio	3.47
 phone	45 33 63 33 63
-previousClose	14.66
+previousClose	15.01
 priceHint	2
 priceToBook	0.7935278
 priceToSalesTrailing12Months	0.7081445
@@ -125,16 +125,16 @@ quoteType	EQUITY
 recommendationKey	hold
 recommendationMean	3.0
 region	US
-regularMarketChange	0.15999985
-regularMarketChangePercent	1.0914042
-regularMarketDayHigh	14.82
-regularMarketDayLow	14.73
-regularMarketDayRange	14.73 - 14.82
-regularMarketOpen	14.78
-regularMarketPreviousClose	14.66
+regularMarketChange	-0.19000053
+regularMarketChangePercent	-1.2658263
+regularMarketDayHigh	15.03
+regularMarketDayLow	14.82
+regularMarketDayRange	14.82 - 15.03
+regularMarketOpen	15.03
+regularMarketPreviousClose	15.01
 regularMarketPrice	14.82
-regularMarketTime	1794500600
-regularMarketVolume	16388
+regularMarketTime	1794862711
+regularMarketVolume	11281
 returnOnAssets	0.03286
 returnOnEquity	0.07595
 revenueGrowth	0.274
@@ -156,15 +156,15 @@ totalDebt	17888999424
 totalRevenue	60152999936
 tradeable	False
 trailingAnnualDividendRate	75.461
-trailingAnnualDividendYield	5.147408
+trailingAnnualDividendYield	5.0273814
 trailingEps	1.46
 trailingPE	10.150684
-trailingPegRatio	3.3522
+trailingPegRatio	3.4709
 triggerable	False
-twoHundredDayAverage	13.9838
-twoHundredDayAverageChange	0.83619976
-twoHundredDayAverageChangePercent	0.05979775
+twoHundredDayAverage	14.01
+twoHundredDayAverageChange	0.80999947
+twoHundredDayAverageChangePercent	0.057815805
 typeDisp	Equity
-volume	16388
+volume	11281
 website	https://www.maersk.com
 zip	1263

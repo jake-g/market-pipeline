@@ -3,10 +3,10 @@ allTimeHigh	83.5
 allTimeLow	71.19
 ask	78.57
 askSize	7
-averageDailyVolume10Day	5419920
-averageDailyVolume3Month	5918787
-averageVolume	5918787
-averageVolume10days	5419920
+averageDailyVolume10Day	5022880
+averageDailyVolume3Month	5940381
+averageVolume	5940381
+averageVolume10days	5022880
 beta3Year	0.43
 bid	78.56
 bidSize	10
@@ -16,7 +16,7 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	77.44
+dayHigh	77.38
 dayLow	77.29
 displayName	Short-Term Corp Bond Idx Fd ETF
 dividendDate	1486425600
@@ -27,23 +27,23 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	77.575
-fiftyDayAverageChange	-0.28499603
-fiftyDayAverageChangePercent	-0.003673813
-fiftyTwoWeekChangePercent	-2.7369738
+fiftyDayAverage	77.5384
+fiftyDayAverageChange	-0.22840118
+fiftyDayAverageChangePercent	-0.0029456525
+fiftyTwoWeekChangePercent	-3.0010045
 fiftyTwoWeekHigh	80.26
-fiftyTwoWeekHighChange	-2.9700012
-fiftyTwoWeekHighChangePercent	-0.03700475
+fiftyTwoWeekHighChange	-2.9500046
+fiftyTwoWeekHighChangePercent	-0.0367556
 fiftyTwoWeekLow	76.89
-fiftyTwoWeekLowChange	0.40000153
-fiftyTwoWeekLowChangePercent	0.005202257
+fiftyTwoWeekLowChange	0.41999817
+fiftyTwoWeekLowChangePercent	0.005462325
 fiftyTwoWeekRange	76.89 - 80.26
 firstTradeDateMilliseconds	1258986600000
-fiveYearAverageReturn	0.025114601
+fiveYearAverageReturn	0.024447
 fullExchangeName	NasdaqGM
-fulldayChange	-0.1800003
-fulldayChangePercent	-0.2323484
-fulldayPrice	77.29
+fulldayChange	0.05000305
+fulldayChangePercent	0.06472887
+fulldayPrice	77.31
 fundFamily	Vanguard
 fundInceptionDate	1258588800
 gmtOffSetMilliseconds	-18000000
@@ -53,46 +53,46 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund manager employs an indexing investment approach designed to track the performance of the Bloomberg U.S. 1-5 Year Corporate Bond Index, which includes U.S. dollar-denominated, investment-grade, fixed-rate, taxable debt securities issued by U.S. and non-U.S. industrial, utility, and financial companies, all with maturities between 1 and 5 years. Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the bonds that make up the Target Index.
 longName	Vanguard Short-Term Corporate Bond Index Fund ETF Shares
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_81834125
-navPrice	77.43
+navPrice	77.23
 netAssets	52919521000.0
 netExpenseRatio	0.03
-open	77.41
-postMarketChange	-0.11519623
-postMarketChangePercent	-0.14791504
-postMarketPrice	77.7648
-postMarketTime	1793922115
-previousClose	77.47
+open	77.31
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	77.31
+postMarketTime	1794869643
+previousClose	77.25
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.1800003
-regularMarketChangePercent	-0.2323484
-regularMarketDayHigh	77.44
+regularMarketChange	0.05999756
+regularMarketChangePercent	0.077666745
+regularMarketDayHigh	77.38
 regularMarketDayLow	77.29
-regularMarketDayRange	77.29 - 77.44
-regularMarketOpen	77.41
-regularMarketPreviousClose	77.47
-regularMarketPrice	77.29
-regularMarketTime	1794505392
-regularMarketVolume	1592686
+regularMarketDayRange	77.29 - 77.38
+regularMarketOpen	77.31
+regularMarketPreviousClose	77.25
+regularMarketPrice	77.31
+regularMarketTime	1794862800
+regularMarketVolume	2868100
 shortName	Vanguard Short-Term Corporate B
 sourceInterval	15
 symbol	VCSH
-threeYearAverageReturn	0.0538023
+threeYearAverageReturn	0.0523004
 totalAssets	52919521280
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	0.25618
 trailingThreeMonthReturns	0.25618
 triggerable	True
-twoHundredDayAverage	78.71235
-twoHundredDayAverageChange	-1.422348
-twoHundredDayAverageChangePercent	-0.018070202
+twoHundredDayAverage	78.6854
+twoHundredDayAverageChange	-1.3754044
+twoHundredDayAverageChangePercent	-0.01747979
 typeDisp	ETF
-volume	1592686
+volume	2868100
 yield	0.045300003
 ytdReturn	1.06553

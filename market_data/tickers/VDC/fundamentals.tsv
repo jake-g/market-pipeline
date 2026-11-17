@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	253.93
 allTimeLow	30.0
-ask	250.09
-askSize	100
-averageDailyVolume10Day	198800
-averageDailyVolume3Month	173956
-averageVolume	173956
-averageVolume10days	198800
+ask	254.67
+askSize	200
+averageDailyVolume10Day	199390
+averageDailyVolume3Month	174540
+averageVolume	174540
+averageVolume10days	199390
 beta3Year	0.4
-bid	250.02
-bidSize	200
+bid	250.55
+bidSize	1000
 category	Consumer Defensive
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	251.03
-dayLow	248.94
+dayHigh	254.64
+dayLow	251.87
 displayName	Consumer Staples Idx Fd ETF
 dividendYield	2.02
 epsTrailingTwelveMonths	8.940064
@@ -27,23 +27,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	231.4526
-fiftyDayAverageChange	18.27739
-fiftyDayAverageChangePercent	0.078968175
-fiftyTwoWeekChangePercent	18.296158
-fiftyTwoWeekHigh	253.93
-fiftyTwoWeekHighChange	-4.199997
-fiftyTwoWeekHighChangePercent	-0.01653998
+fiftyDayAverage	232.2424
+fiftyDayAverageChange	20.377594
+fiftyDayAverageChangePercent	0.08774278
+fiftyTwoWeekChangePercent	20.37772
+fiftyTwoWeekHigh	254.64
+fiftyTwoWeekHighChange	-2.0200043
+fiftyTwoWeekHighChangePercent	-0.007932785
 fiftyTwoWeekLow	207.34
-fiftyTwoWeekLowChange	42.39
-fiftyTwoWeekLowChangePercent	0.20444681
-fiftyTwoWeekRange	207.34 - 253.93
+fiftyTwoWeekLowChange	45.28
+fiftyTwoWeekLowChangePercent	0.21838526
+fiftyTwoWeekRange	207.34 - 254.64
 firstTradeDateMilliseconds	1075473000000
-fiveYearAverageReturn	0.0805091
+fiveYearAverageReturn	0.083531104
 fullExchangeName	NYSEArca
-fulldayChange	0.47999573
-fulldayChangePercent	0.19257602
-fulldayPrice	249.73
+fulldayChange	-0.33551025
+fulldayChangePercent	-0.13326061
+fulldayPrice	251.4345
 fundFamily	Vanguard
 fundInceptionDate	1075075200
 gmtOffSetMilliseconds	-18000000
@@ -53,49 +53,49 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the consumer staples sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.
 longName	Vanguard Consumer Staples Index Fund ETF Shares
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_22939079
-navPrice	249.25
+navPrice	251.78
 netAssets	9564463100.0
 netExpenseRatio	0.09
-open	251.205
-postMarketChange	-0.3500061
-postMarketChangePercent	-0.14093259
-postMarketPrice	248.0
-postMarketTime	1793914388
-previousClose	249.25
+open	253.88
+postMarketChange	-1.1855011
+postMarketChangePercent	-0.46928236
+postMarketPrice	251.4345
+postMarketTime	1794870011
+previousClose	251.77
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.47999573
-regularMarketChangePercent	0.19257602
-regularMarketDayHigh	251.03
-regularMarketDayLow	248.94
-regularMarketDayRange	248.94 - 251.03
-regularMarketOpen	251.205
-regularMarketPreviousClose	249.25
-regularMarketPrice	249.73
-regularMarketTime	1794505223
-regularMarketVolume	63706
+regularMarketChange	0.849991
+regularMarketChangePercent	0.337606
+regularMarketDayHigh	254.64
+regularMarketDayLow	251.87
+regularMarketDayRange	251.87 - 254.64
+regularMarketOpen	253.88
+regularMarketPreviousClose	251.77
+regularMarketPrice	252.62
+regularMarketTime	1794862800
+regularMarketVolume	152683
 shortName	Vanguard Consumer Staples ETF
 sourceInterval	15
 symbol	VDC
-threeYearAverageReturn	0.1352455
+threeYearAverageReturn	0.13917461
 totalAssets	9564463104
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	27.933804
+trailingPE	28.257067
 trailingPegRatio	None
 trailingThreeMonthNavReturns	5.73295
 trailingThreeMonthReturns	5.73295
 triggerable	True
-twoHundredDayAverage	230.40816
-twoHundredDayAverageChange	19.321838
-twoHundredDayAverageChangePercent	0.083859175
+twoHundredDayAverage	230.6705
+twoHundredDayAverageChange	21.949493
+twoHundredDayAverageChangePercent	0.09515518
 typeDisp	ETF
-volume	63706
+volume	152683
 yield	0.0202
 ytdReturn	16.6016
