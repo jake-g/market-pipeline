@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	105.09
 allTimeLow	99.56
-ask	0.0
-askSize	38900
-averageDailyVolume10Day	1140370
-averageDailyVolume3Month	781518
-averageVolume	781518
-averageVolume10days	1140370
+ask	100.03
+askSize	13000
+averageDailyVolume10Day	1064020
+averageDailyVolume3Month	783651
+averageVolume	783651
+averageVolume10days	1064020
 beta3Year	0.02
-bid	0.0
-bidSize	19700
+bid	100.02
+bidSize	19900
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	100.01
-dayLow	100.0
+dayHigh	100.04
+dayLow	100.02
 displayName	Access Treasury 0-1 Year ETF
 dividendYield	3.59
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	99.9938
-fiftyDayAverageChange	0.016204834
-fiftyDayAverageChangePercent	0.0001620584
-fiftyTwoWeekChangePercent	-0.06995797
+fiftyDayAverage	99.9964
+fiftyDayAverageChange	0.023597717
+fiftyDayAverageChangePercent	0.00023598567
+fiftyTwoWeekChangePercent	-0.049966574
 fiftyTwoWeekHigh	100.26
-fiftyTwoWeekHighChange	-0.25
-fiftyTwoWeekHighChangePercent	-0.0024935168
+fiftyTwoWeekHighChange	-0.2400055
+fiftyTwoWeekHighChangePercent	-0.002393831
 fiftyTwoWeekLow	99.82
-fiftyTwoWeekLowChange	0.19000244
-fiftyTwoWeekLowChangePercent	0.0019034506
+fiftyTwoWeekLowChange	0.19999695
+fiftyTwoWeekLowChangePercent	0.002003576
 fiftyTwoWeekRange	99.82 - 100.26
 firstTradeDateMilliseconds	1473859800000
-fiveYearAverageReturn	0.0365812
+fiveYearAverageReturn	0.0366227
 fullExchangeName	NYSEArca
-fulldayChange	0.010604858
-fulldayChangePercent	0.010605919
-fulldayPrice	100.001
+fulldayChange	0.005004883
+fulldayChangePercent	0.005003882
+fulldayPrice	100.025
 fundFamily	Goldman Sachs
 fundInceptionDate	1473120000
 gmtOffSetMilliseconds	-18000000
@@ -55,34 +55,34 @@ market	us_market
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_379291762
-navPrice	100.0
+navPrice	100.02
 netAssets	7898360800.0
 netExpenseRatio	0.12
-open	100.0
+open	100.03
 phone	(212) 902-1000
-postMarketChange	-0.009002686
-postMarketChangePercent	-0.009001785
-postMarketPrice	100.001
-postMarketTime	1794868540
-previousClose	99.99
+postMarketChange	0.005004883
+postMarketChangePercent	0.005003882
+postMarketPrice	100.025
+postMarketTime	1795035764
+previousClose	100.02
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.0200043
-regularMarketChangePercent	0.0200063
-regularMarketDayHigh	100.01
-regularMarketDayLow	100.0
-regularMarketDayRange	100.0 - 100.01
-regularMarketOpen	100.0
-regularMarketPreviousClose	99.99
-regularMarketPrice	100.01
-regularMarketTime	1794862800
-regularMarketVolume	614498
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
+regularMarketDayHigh	100.04
+regularMarketDayLow	100.02
+regularMarketDayRange	100.02 - 100.04
+regularMarketOpen	100.03
+regularMarketPreviousClose	100.02
+regularMarketPrice	100.02
+regularMarketTime	1795035600
+regularMarketVolume	511036
 shortName	Goldman Sachs Access Treasury 0
 sourceInterval	15
 symbol	GBIL
-threeYearAverageReturn	0.044013802
+threeYearAverageReturn	0.0437352
 totalAssets	7898360832
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.93312
 trailingThreeMonthReturns	0.93312
 triggerable	True
-twoHundredDayAverage	100.0305
-twoHundredDayAverageChange	-0.020500183
-twoHundredDayAverageChangePercent	-0.00020493932
+twoHundredDayAverage	100.02995
+twoHundredDayAverageChange	-0.00995636
+twoHundredDayAverageChangePercent	-9.953378e-05
 typeDisp	ETF
-volume	614498
+volume	511036
 yield	0.0359
 ytdReturn	2.94232

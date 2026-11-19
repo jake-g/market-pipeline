@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	45.6
 allTimeLow	25.93
-ask	30.78
-askSize	43200
-averageDailyVolume10Day	1364000
-averageDailyVolume3Month	1321562
-averageVolume	1321562
-averageVolume10days	1364000
+ask	32.34
+askSize	77000
+averageDailyVolume10Day	2000170
+averageDailyVolume3Month	1444898
+averageVolume	1444898
+averageVolume10days	2000170
 beta3Year	0.0
-bid	30.76
-bidSize	25800
+bid	0.0
+bidSize	58300
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
@@ -17,7 +17,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
 dayHigh	30.78
-dayLow	30.75
+dayLow	30.77
 displayName	Bloomberg Inv Grade Fltg Rt ETF
 dividendYield	4.26
 esgPopulated	False
@@ -26,10 +26,10 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	30.778
-fiftyDayAverageChange	-0.00799942
-fiftyDayAverageChangePercent	-0.00025990707
-fiftyTwoWeekChangePercent	-0.16233921
+fiftyDayAverage	30.7786
+fiftyDayAverageChange	-0.008600235
+fiftyDayAverageChangePercent	-0.00027942256
+fiftyTwoWeekChangePercent	-0.06495714
 fiftyTwoWeekHigh	30.87
 fiftyTwoWeekHighChange	-0.10000038
 fiftyTwoWeekHighChangePercent	-0.0032394032
@@ -38,11 +38,11 @@ fiftyTwoWeekLowChange	0.1400013
 fiftyTwoWeekLowChangePercent	0.004570725
 fiftyTwoWeekRange	30.63 - 30.87
 firstTradeDateMilliseconds	1322749800000
-fiveYearAverageReturn	0.0452389
+fiveYearAverageReturn	0.0453066
 fullExchangeName	NYSEArca
-fulldayChange	0.01309967
-fulldayChangePercent	0.042600553
-fulldayPrice	30.7631
+fulldayChange	0.0
+fulldayChangePercent	0.0
+fulldayPrice	30.77
 fundFamily	State Street Investment Management
 fundInceptionDate	1322611200
 gmtOffSetMilliseconds	-18000000
@@ -55,33 +55,33 @@ market	us_market
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_143773983
-navPrice	30.75354
+navPrice	30.75823
 netAssets	3155460100.0
 netExpenseRatio	0.15
-open	30.77
-postMarketChange	-0.0069007874
-postMarketChangePercent	-0.022426998
-postMarketPrice	30.7631
-postMarketTime	1794864955
-previousClose	30.75
+open	30.78
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	30.77
+postMarketTime	1795035704
+previousClose	30.77
 priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	0.0200005
-regularMarketChangePercent	0.0650421
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
 regularMarketDayHigh	30.78
-regularMarketDayLow	30.75
-regularMarketDayRange	30.75 - 30.78
-regularMarketOpen	30.77
-regularMarketPreviousClose	30.75
+regularMarketDayLow	30.77
+regularMarketDayRange	30.77 - 30.78
+regularMarketOpen	30.78
+regularMarketPreviousClose	30.77
 regularMarketPrice	30.77
-regularMarketTime	1794862800
-regularMarketVolume	7872957
+regularMarketTime	1795035600
+regularMarketVolume	984774
 shortName	State Street SPDR Bloomberg Inv
 sourceInterval	15
 symbol	FLRN
-threeYearAverageReturn	0.053137697
+threeYearAverageReturn	0.053021997
 totalAssets	3155460096
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -90,10 +90,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	1.01688
 trailingThreeMonthReturns	1.01688
 triggerable	True
-twoHundredDayAverage	30.77965
-twoHundredDayAverageChange	-0.009649277
-twoHundredDayAverageChangePercent	-0.00031349534
+twoHundredDayAverage	30.7793
+twoHundredDayAverageChange	-0.009300232
+twoHundredDayAverageChangePercent	-0.00030215865
 typeDisp	ETF
-volume	7872957
+volume	984774
 yield	0.042600002
 ytdReturn	3.50703
