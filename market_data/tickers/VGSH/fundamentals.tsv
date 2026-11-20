@@ -3,10 +3,10 @@ allTimeHigh	75.2
 allTimeLow	57.31
 ask	58.05
 askSize	537
-averageDailyVolume10Day	5114460
-averageDailyVolume3Month	6196550
-averageVolume	6196550
-averageVolume10days	5114460
+averageDailyVolume10Day	5071790
+averageDailyVolume3Month	6201242
+averageVolume	6201242
+averageVolume10days	5071790
 beta3Year	0.25
 bid	58.04
 bidSize	17
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	57.68
-dayLow	57.63
+dayHigh	57.84
+dayLow	57.77
 displayName	Short-Term Trsy Idx Fd ETF
 dividendDate	1496793600
 dividendYield	3.76
@@ -27,23 +27,23 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	57.6516
-fiftyDayAverageChange	0.008399963
-fiftyDayAverageChangePercent	0.00014570217
-fiftyTwoWeekChangePercent	-1.8887162
+fiftyDayAverage	57.6468
+fiftyDayAverageChange	0.17219925
+fiftyDayAverageChangePercent	0.0029871431
+fiftyTwoWeekChangePercent	-2.004075
 fiftyTwoWeekHigh	59.01
-fiftyTwoWeekHighChange	-1.3499985
-fiftyTwoWeekHighChangePercent	-0.022877453
+fiftyTwoWeekHighChange	-1.1909981
+fiftyTwoWeekHighChangePercent	-0.020182988
 fiftyTwoWeekLow	57.38
-fiftyTwoWeekLowChange	0.27999878
-fiftyTwoWeekLowChangePercent	0.0048797275
+fiftyTwoWeekLowChange	0.43899918
+fiftyTwoWeekLowChangePercent	0.007650735
 fiftyTwoWeekRange	57.38 - 59.01
 firstTradeDateMilliseconds	1258986600000
-fiveYearAverageReturn	0.020630801
+fiveYearAverageReturn	0.0206642
 fullExchangeName	NasdaqGM
-fulldayChange	0.03730011
-fulldayChangePercent	0.06468975
-fulldayPrice	57.6973
+fulldayChange	0.11899948
+fulldayChangePercent	0.20623827
+fulldayPrice	57.819
 fundFamily	Vanguard
 fundInceptionDate	1258588800
 gmtOffSetMilliseconds	-18000000
@@ -53,32 +53,32 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the Bloomberg U.S. Treasury 1-3 Year Index. This index includes fixed income securities issued by the U.S. Treasury (not including inflation-protected securities, floating rate securities and certain other security types), all with maturities between 1 and 3 years. At least 80% of the fund's assets will be invested in bonds included in the index.
 longName	Vanguard Short-Term Treasury Index Fund ETF Shares
 market	us_market
-marketState	POST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_81834845
-navPrice	57.64
+navPrice	57.69
 netAssets	41377878000.0
 netExpenseRatio	0.03
-open	57.63
+open	57.77
 postMarketChange	0.03730011
 postMarketChangePercent	0.06468975
 postMarketPrice	57.6973
 postMarketTime	1795046248
-previousClose	57.66
+previousClose	57.7
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0
-regularMarketChangePercent	0.0
-regularMarketDayHigh	57.68
-regularMarketDayLow	57.63
-regularMarketDayRange	57.63 - 57.68
-regularMarketOpen	57.63
-regularMarketPreviousClose	57.66
-regularMarketPrice	57.66
-regularMarketTime	1795035600
-regularMarketVolume	3321386
+regularMarketChange	0.11899948
+regularMarketChangePercent	0.20623827
+regularMarketDayHigh	57.84
+regularMarketDayLow	57.77
+regularMarketDayRange	57.77 - 57.84
+regularMarketOpen	57.77
+regularMarketPreviousClose	57.7
+regularMarketPrice	57.819
+regularMarketTime	1795200090
+regularMarketVolume	5250289
 shortName	Vanguard Short-Term Treasury ET
 sourceInterval	15
 symbol	VGSH
@@ -89,10 +89,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.61235
 trailingThreeMonthReturns	0.61235
 triggerable	True
-twoHundredDayAverage	58.15135
-twoHundredDayAverageChange	-0.49134827
-twoHundredDayAverageChangePercent	-0.008449473
+twoHundredDayAverage	58.14165
+twoHundredDayAverageChange	-0.3226509
+twoHundredDayAverageChangePercent	-0.0055493936
 typeDisp	ETF
-volume	3321386
+volume	5250289
 yield	0.0376
 ytdReturn	1.41009

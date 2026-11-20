@@ -244,6 +244,8 @@ TICKER_SEARCH_TERMS: Dict[str, str] = {
         '"Corgi Lithography & Semiconductor Photonics ETF" OR "EUV ETF"',
     "CHAT":
         '"Roundhill Generative AI & Technology ETF" OR "CHAT ETF"',
+    "ANT":
+        '"Anthropic stock" OR "ANT stock"',
 
     # News Topic Search Overrides to prevent generic noise in Google News
     "AI":

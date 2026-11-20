@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.2771536
-SandP52WeekChange	0.105142
+52WeekChange	0.39496458
+SandP52WeekChange	0.08675468
 address1	85 Rio Grande Drive
 address2	Suite 200
 allTimeHigh	79.5
 allTimeLow	0.511
 ask	38.5
-askSize	4
+askSize	3
 auditRisk	6
 averageAnalystRating	1.4 - Strong Buy
-averageDailyVolume10Day	34381240
-averageDailyVolume3Month	20247151
-averageVolume	20247151
-averageVolume10days	34381240
+averageDailyVolume10Day	26948310
+averageDailyVolume3Month	20457706
+averageVolume	20457706
+averageVolume10days	26948310
 beta	3.978
-bid	12.84
+bid	12.52
 bidSize	2
 boardRisk	6
 bookValue	5.69
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	18.24
+currentPrice	16.23
 currentRatio	3.49
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	18.7014
-dayLow	17.225
+dayHigh	17.525
+dayLow	15.8208
 debtToEquity	32.311
 displayName	Riot Platforms
 dividendDate	1508284800
@@ -45,11 +45,11 @@ earningsTimestampEnd	1793799000
 earningsTimestampStart	1793799000
 ebitda	-887756032
 ebitdaMargins	-1.31381
-enterpriseToEbitda	-7.229
-enterpriseToRevenue	9.497
-enterpriseValue	6417493504
-epsCurrentYear	-1.31395
-epsForward	-0.81325
+enterpriseToEbitda	-7.516
+enterpriseToRevenue	9.875
+enterpriseValue	6672618496
+epsCurrentYear	-1.30395
+epsForward	-0.90325
 epsTrailingTwelveMonths	-4.12
 esgPopulated	False
 exDividendDate	1507766400
@@ -58,35 +58,35 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	17.8477
-fiftyDayAverageChange	0.39229965
-fiftyDayAverageChangePercent	0.021980403
-fiftyTwoWeekChangePercent	27.71536
+fiftyDayAverage	17.7067
+fiftyDayAverageChange	-1.4766998
+fiftyDayAverageChangePercent	-0.083397806
+fiftyTwoWeekChangePercent	39.496456
 fiftyTwoWeekHigh	30.32
-fiftyTwoWeekHighChange	-12.08
-fiftyTwoWeekHighChangePercent	-0.39841688
+fiftyTwoWeekHighChange	-14.09
+fiftyTwoWeekHighChangePercent	-0.46470976
 fiftyTwoWeekLow	11.5
-fiftyTwoWeekLowChange	6.74
-fiftyTwoWeekLowChangePercent	0.5860869
+fiftyTwoWeekLowChange	4.7299995
+fiftyTwoWeekLowChangePercent	0.4113043
 fiftyTwoWeekRange	11.5 - 30.32
 financialCurrency	USD
 firstTradeDateMilliseconds	1459431000000
 floatShares	349063657
-forwardEps	-0.81325
-forwardPE	-22.428528
+forwardEps	-0.90325
+forwardPE	-17.968447
 freeCashflow	-754805248
 fullExchangeName	NasdaqCM
 fullTimeEmployees	816
-fulldayChange	1.4000015
-fulldayChangePercent	8.211153
-fulldayPrice	18.45
+fulldayChange	-1.5
+fulldayChangePercent	-8.4602375
+fulldayPrice	16.23
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.23854999
 grossProfits	161194000
 hasPrePostMarketData	True
-heldPercentInsiders	0.06845
-heldPercentInstitutions	0.84556
+heldPercentInsiders	0.068280004
+heldPercentInstitutions	0.84775
 impliedSharesOutstanding	375183965
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -99,17 +99,17 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Riot Platforms, Inc., together with its subsidiaries, operates as a Bitcoin mining company in the United States. It operates in two segments, Bitcoin Mining and Engineering. The company offers comprehensive and critical infrastructure for bitcoin mining and data center services at its facilities. The company also designs and manufactures power distribution equipment and engineered-to-order electrical products; and electricity distribution product design, manufacturing, and installation services for large-scale industrial and governmental customers, as well as data center, power generation, utility, water, industrial, and alternative energy markets. The company was founded in 2000 and is based in Castle Rock, Colorado.
 longName	Riot Platforms, Inc.
 market	us_market
-marketCap	6843355648
-marketState	POST
+marketCap	6089235456
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_1532998
 mostRecentQuarter	1790726400
-nameChangeDate	2026-11-18
+nameChangeDate	2026-11-20
 netIncomeToCommon	-1424360960
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	6396886603
+nonDilutedMarketCap	6655763539
 numberOfAnalystOpinions	22
-open	17.44
+open	17.45
 operatingCashflow	-592646976
 operatingMargins	-1.9386301
 overallRisk	5
@@ -120,11 +120,11 @@ postMarketChangePercent	1.1513213
 postMarketPrice	18.45
 postMarketTime	1795046539
 prevName	Riot Blockchain, Inc.
-previousClose	17.05
-priceEpsCurrentYear	-13.881807
+previousClose	17.73
+priceEpsCurrentYear	-12.446796
 priceHint	2
-priceToBook	3.2056239
-priceToSalesTrailing12Months	10.127637
+priceToBook	2.8523724
+priceToSalesTrailing12Months	9.011598
 profitMargins	-2.10794
 quickRatio	2.387
 quoteSourceName	Nasdaq Real Time Price
@@ -132,16 +132,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.36364
 region	US
-regularMarketChange	1.1900005
-regularMarketChangePercent	6.979476
-regularMarketDayHigh	18.7014
-regularMarketDayLow	17.225
-regularMarketDayRange	17.225 - 18.7014
-regularMarketOpen	17.44
-regularMarketPreviousClose	17.05
-regularMarketPrice	18.24
-regularMarketTime	1795035600
-regularMarketVolume	25898940
+regularMarketChange	-1.5
+regularMarketChangePercent	-8.4602375
+regularMarketDayHigh	17.525
+regularMarketDayLow	15.8208
+regularMarketDayRange	15.8208 - 17.525
+regularMarketOpen	17.45
+regularMarketPreviousClose	17.73
+regularMarketPrice	16.23
+regularMarketTime	1795200052
+regularMarketVolume	19712063
 returnOnAssets	-0.21766001
 returnOnEquity	-0.50517
 revenueGrowth	0.007
@@ -161,7 +161,7 @@ shortRatio	2.96
 sourceInterval	15
 state	CO
 symbol	RIOT
-syntheticPEG	0.2331447817047817
+syntheticPEG	0.18678219334719334
 targetHighPrice	50.0
 targetLowPrice	23.0
 targetMeanPrice	32.51727
@@ -177,10 +177,10 @@ trailingEps	-4.12
 trailingPE	27.258846
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	19.365225
-twoHundredDayAverageChange	-1.1252251
-twoHundredDayAverageChangePercent	-0.058105446
+twoHundredDayAverage	19.397675
+twoHundredDayAverageChange	-3.167675
+twoHundredDayAverageChangePercent	-0.1633018
 typeDisp	Equity
-volume	25898940
+volume	19712063
 website	https://www.riotplatforms.com
 zip	80104

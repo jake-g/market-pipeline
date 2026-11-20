@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	105.09
 allTimeLow	99.56
-ask	100.03
-askSize	13000
-averageDailyVolume10Day	1064020
-averageDailyVolume3Month	783651
-averageVolume	783651
-averageVolume10days	1064020
+ask	100.08
+askSize	11500
+averageDailyVolume10Day	827200
+averageDailyVolume3Month	792785
+averageVolume	792785
+averageVolume10days	827200
 beta3Year	0.02
-bid	100.02
-bidSize	19900
+bid	0.0
+bidSize	26900
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	100.04
-dayLow	100.02
+dayHigh	100.08
+dayLow	100.07
 displayName	Access Treasury 0-1 Year ETF
 dividendYield	3.59
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	99.9964
-fiftyDayAverageChange	0.023597717
-fiftyDayAverageChangePercent	0.00023598567
-fiftyTwoWeekChangePercent	-0.049966574
+fiftyDayAverage	99.9998
+fiftyDayAverageChange	0.07519531
+fiftyDayAverageChangePercent	0.0007519546
+fiftyTwoWeekChangePercent	-0.07990599
 fiftyTwoWeekHigh	100.26
-fiftyTwoWeekHighChange	-0.2400055
-fiftyTwoWeekHighChangePercent	-0.002393831
+fiftyTwoWeekHighChange	-0.18500519
+fiftyTwoWeekHighChangePercent	-0.0018452542
 fiftyTwoWeekLow	99.82
-fiftyTwoWeekLowChange	0.19999695
-fiftyTwoWeekLowChangePercent	0.002003576
+fiftyTwoWeekLowChange	0.25499725
+fiftyTwoWeekLowChangePercent	0.0025545708
 fiftyTwoWeekRange	99.82 - 100.26
 firstTradeDateMilliseconds	1473859800000
-fiveYearAverageReturn	0.0366227
+fiveYearAverageReturn	0.0366434
 fullExchangeName	NYSEArca
-fulldayChange	0.005004883
-fulldayChangePercent	0.005003882
-fulldayPrice	100.025
+fulldayChange	0.035095215
+fulldayChangePercent	0.03508297
+fulldayPrice	100.075
 fundFamily	Goldman Sachs
 fundInceptionDate	1473120000
 gmtOffSetMilliseconds	-18000000
@@ -52,33 +52,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The fund seeks to achieve its investment objective by investing at least 80% of its assets (exclusive of collateral held from securities lending) in securities included in its underlying index. The index is designed to measure the performance of U.S. Treasury Securities with a maximum remaining maturity of 12 months. The investment adviser uses a representative sampling strategy to manage the fund.
 longName	Goldman Sachs Access Treasury 0-1 Year ETF
 market	us_market
-marketState	POST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_379291762
-navPrice	100.02
+navPrice	100.04
 netAssets	7898360800.0
 netExpenseRatio	0.12
-open	100.03
+open	100.08
 phone	(212) 902-1000
 postMarketChange	0.005004883
 postMarketChangePercent	0.005003882
 postMarketPrice	100.025
 postMarketTime	1795035764
-previousClose	100.02
+previousClose	100.0399
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0
-regularMarketChangePercent	0.0
-regularMarketDayHigh	100.04
-regularMarketDayLow	100.02
-regularMarketDayRange	100.02 - 100.04
-regularMarketOpen	100.03
-regularMarketPreviousClose	100.02
-regularMarketPrice	100.02
-regularMarketTime	1795035600
-regularMarketVolume	511036
+regularMarketChange	0.035095215
+regularMarketChangePercent	0.03508297
+regularMarketDayHigh	100.08
+regularMarketDayLow	100.07
+regularMarketDayRange	100.07 - 100.08
+regularMarketOpen	100.08
+regularMarketPreviousClose	100.0399
+regularMarketPrice	100.075
+regularMarketTime	1795199992
+regularMarketVolume	696586
 shortName	Goldman Sachs Access Treasury 0
 sourceInterval	15
 symbol	GBIL
@@ -91,10 +91,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.93312
 trailingThreeMonthReturns	0.93312
 triggerable	True
-twoHundredDayAverage	100.02995
-twoHundredDayAverageChange	-0.00995636
-twoHundredDayAverageChangePercent	-9.953378e-05
+twoHundredDayAverage	100.03065
+twoHundredDayAverageChange	0.04434967
+twoHundredDayAverageChangePercent	0.00044336083
 typeDisp	ETF
-volume	511036
+volume	696586
 yield	0.0359
 ytdReturn	2.94232

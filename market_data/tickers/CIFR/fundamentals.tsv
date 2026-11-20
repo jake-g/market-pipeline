@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.56087554
-SandP52WeekChange	0.105142
+52WeekChange	-0.54204947
+SandP52WeekChange	0.08675468
 address1	1 Vanderbilt Avenue
 address2	Floor 54
 allTimeHigh	30.14
 allTimeLow	0.382
 ask	7.05
-askSize	1
+askSize	2
 auditRisk	9
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	58321390
-averageDailyVolume3Month	43720125
-averageVolume	43720125
-averageVolume10days	58321390
+averageDailyVolume10Day	49221220
+averageDailyVolume3Month	43955470
+averageVolume	43955470
+averageVolume10days	49221220
 beta	3.541
-bid	5.02
+bid	4.53
 bidSize	2
 boardRisk	7
 bookValue	1.446
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	6.57
+currentPrice	5.57
 currentRatio	1.692
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	7.02
-dayLow	6.2484
+dayHigh	6.3314
+dayLow	5.46
 debtToEquity	897.747
 displayName	Cipher Digital
 dividendYield	0.0
@@ -42,9 +42,9 @@ earningsTimestampEnd	1793626200
 earningsTimestampStart	1793626200
 ebitda	22543000
 ebitdaMargins	0.15431
-enterpriseToEbitda	351.273
-enterpriseToRevenue	54.206
-enterpriseValue	7918750208
+enterpriseToEbitda	352.488
+enterpriseToRevenue	54.393
+enterpriseValue	7946131968
 epsCurrentYear	-0.645
 epsForward	0.082
 epsTrailingTwelveMonths	-2.77
@@ -54,35 +54,35 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	11.9069
-fiftyDayAverageChange	-5.3369
-fiftyDayAverageChangePercent	-0.4482191
-fiftyTwoWeekChangePercent	-56.087555
+fiftyDayAverage	11.5111
+fiftyDayAverageChange	-5.9410996
+fiftyDayAverageChangePercent	-0.5161192
+fiftyTwoWeekChangePercent	-54.20495
 fiftyTwoWeekHigh	30.14
-fiftyTwoWeekHighChange	-23.57
-fiftyTwoWeekHighChangePercent	-0.78201723
+fiftyTwoWeekHighChange	-24.57
+fiftyTwoWeekHighChangePercent	-0.81519574
 fiftyTwoWeekLow	5.071
-fiftyTwoWeekLowChange	1.4990001
-fiftyTwoWeekLowChangePercent	0.29560244
+fiftyTwoWeekLowChange	0.49900007
+fiftyTwoWeekLowChangePercent	0.098402694
 fiftyTwoWeekRange	5.071 - 30.14
 financialCurrency	USD
 firstTradeDateMilliseconds	1603200600000
 floatShares	368387047
 forwardEps	0.082
-forwardPE	80.12195
+forwardPE	67.92683
 freeCashflow	-3427504384
 fullExchangeName	NasdaqGS
 fullTimeEmployees	66
-fulldayChange	0.23000002
-fulldayChangePercent	3.5825548
-fulldayPrice	6.65
+fulldayChange	-0.90999985
+fulldayChangePercent	-14.043207
+fulldayPrice	5.57
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	-0.52658004
 grossProfits	-76927000
 hasPrePostMarketData	True
-heldPercentInsiders	0.03313
-heldPercentInstitutions	0.93303
+heldPercentInsiders	0.03226
+heldPercentInstitutions	0.95088
 impliedSharesOutstanding	456365113
 industry	Information Technology Services
 industryDisp	Information Technology Services
@@ -93,17 +93,17 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Cipher Digital Inc., together with its subsidiaries, develops and operates industrial-scale data centers for bitcoin mining and high-performance compute (HPC) hosting in the United States. It develops HPC data center facilities across various sites for hyperscaler tenants; operates power at one bitcoin mining data center; and maintains a pipeline across various sites. The company was formerly known as Cipher Mining Inc. and change its name to Cipher Digital Inc. in February 2026. The company was founded in 2021 and is headquartered in New York, New York.
 longName	Cipher Digital Inc.
 market	us_market
-marketCap	2998318848
-marketState	POST
+marketCap	2541953792
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_706582752
 mostRecentQuarter	1790726400
-nameChangeDate	2026-11-18
+nameChangeDate	2026-11-20
 netIncomeToCommon	-1084445056
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	2929864025
+nonDilutedMarketCap	2964091408
 numberOfAnalystOpinions	22
-open	6.665
+open	6.315
 operatingCashflow	-337625984
 operatingMargins	-0.59641
 overallRisk	9
@@ -114,11 +114,11 @@ postMarketChangePercent	1.2176548
 postMarketPrice	6.65
 postMarketTime	1795046315
 prevName	Good Works Acquisition Corp.
-previousClose	6.42
-priceEpsCurrentYear	-10.186048
+previousClose	6.48
+priceEpsCurrentYear	-8.635659
 priceHint	2
-priceToBook	4.5435686
-priceToSalesTrailing12Months	20.524199
+priceToBook	3.8520057
+priceToSalesTrailing12Months	17.400272
 profitMargins	0.0
 quickRatio	0.46
 quoteSourceName	Nasdaq Real Time Price
@@ -126,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.45455
 region	US
-regularMarketChange	0.1500001
-regularMarketChangePercent	2.33645
-regularMarketDayHigh	7.02
-regularMarketDayLow	6.2484
-regularMarketDayRange	6.2484 - 7.02
-regularMarketOpen	6.665
-regularMarketPreviousClose	6.42
-regularMarketPrice	6.57
-regularMarketTime	1795035601
-regularMarketVolume	45247761
+regularMarketChange	-0.90999985
+regularMarketChangePercent	-14.043207
+regularMarketDayHigh	6.3314
+regularMarketDayLow	5.46
+regularMarketDayRange	5.46 - 6.3314
+regularMarketOpen	6.315
+regularMarketPreviousClose	6.48
+regularMarketPrice	5.57
+regularMarketTime	1795199961
+regularMarketVolume	38064003
 returnOnAssets	-0.010369999
 returnOnEquity	-1.53919
 revenueGrowth	-0.628
@@ -155,7 +155,7 @@ shortRatio	1.77
 sourceInterval	15
 state	NY
 symbol	CIFR
-syntheticPEG	-1.275827229299363
+syntheticPEG	-1.0816374203821655
 targetHighPrice	59.0
 targetLowPrice	9.5
 targetMeanPrice	22.86364
@@ -170,10 +170,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-2.77
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	17.09925
-twoHundredDayAverageChange	-10.529251
-twoHundredDayAverageChangePercent	-0.61577266
+twoHundredDayAverage	17.01195
+twoHundredDayAverageChange	-11.44195
+twoHundredDayAverageChangePercent	-0.6725831
 typeDisp	Equity
-volume	45247761
+volume	38064003
 website	https://www.cipherdigital.com
 zip	10017

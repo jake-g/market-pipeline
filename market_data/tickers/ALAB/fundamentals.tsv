@@ -1,17 +1,17 @@
 Metric	Value
-52WeekChange	0.4900359
-SandP52WeekChange	0.105142
+52WeekChange	0.49224257
+SandP52WeekChange	0.08675468
 address1	2345 North First Street
 allTimeHigh	499.476
 allTimeLow	36.215
-ask	211.8
+ask	194.62
 askSize	2
 auditRisk	7
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	5975120
-averageDailyVolume3Month	4260414
-averageVolume	4260414
-averageVolume10days	5975120
+averageDailyVolume10Day	4921880
+averageDailyVolume3Month	4304729
+averageVolume	4304729
+averageVolume10days	4921880
 beta	3.86
 bid	185.0
 bidSize	1
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	216.75
+currentPrice	187.52
 currentRatio	8.027
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	222.0
-dayLow	209.2201
+dayHigh	205.9299
+dayLow	182.4
 debtToEquity	2.25
-discount_to_intrinsic_value	-71.41
+discount_to_intrinsic_value	-45.99
 displayName	Astera Labs
 dividendYield	0.0
 earningsCallTimestampEnd	1793741400
@@ -57,36 +57,36 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	290.5596
-fiftyDayAverageChange	-73.8096
-fiftyDayAverageChangePercent	-0.25402567
-fiftyTwoWeekChangePercent	49.00359
+fiftyDayAverage	287.4252
+fiftyDayAverageChange	-99.9052
+fiftyDayAverageChangePercent	-0.34758678
+fiftyTwoWeekChangePercent	49.22426
 fiftyTwoWeekHigh	499.476
-fiftyTwoWeekHighChange	-282.726
-fiftyTwoWeekHighChangePercent	-0.5660452
+fiftyTwoWeekHighChange	-311.956
+fiftyTwoWeekHighChangePercent	-0.6245665
 fiftyTwoWeekLow	97.89
-fiftyTwoWeekLowChange	118.86
-fiftyTwoWeekLowChangePercent	1.21422
+fiftyTwoWeekLowChange	89.630005
+fiftyTwoWeekLowChangePercent	0.9156196
 fiftyTwoWeekRange	97.89 - 499.476
 financialCurrency	USD
 firstTradeDateMilliseconds	1710941400000
-floatShares	157305615
+floatShares	157405241
 forwardEps	7.15194
-forwardPE	30.306463
+forwardPE	26.21946
 freeCashflow	131361376
 fullExchangeName	NasdaqGS
 fullTimeEmployees	756
-fulldayChange	8.819992
-fulldayChangePercent	4.168238
-fulldayPrice	220.42
+fulldayChange	-24.080002
+fulldayChangePercent	-11.379963
+fulldayPrice	187.52
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
-graham_intrinsic_value	126.45
+graham_intrinsic_value	128.45
 grossMargins	0.73892
 grossProfits	1149934976
 hasPrePostMarketData	True
-heldPercentInsiders	0.10241
-heldPercentInstitutions	0.73740995
+heldPercentInsiders	0.101289995
+heldPercentInstitutions	0.74036
 impliedSharesOutstanding	174782075
 industry	Semiconductors
 industryDisp	Semiconductors
@@ -98,16 +98,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Astera Labs, Inc. designs, manufactures, and sells semiconductor-based connectivity solutions for cloud and AI infrastructure in Taiwan and the United States. It offers an intelligent connectivity platform, comprised of semiconductor-based, high-speed, mixed-signal connectivity products that integrate a matrix of microcontrollers and sensors, and COSMOS. The company provides COSMOS software suite, a connectivity system management and optimization software that enables management and optimization of resources for large fleets at cloud-scale via link, fleet, and RAS management capabilities. In addition, it offers PCIe/CXL smart DSP retimers and cable modules; ethernet smart cable modules for cloud and AI infrastructure; CXL memory connectivity controllers; and smart fabric switches. The company serves hyperscalers and system original equipment manufacturers. Astera Labs, Inc. was incorporated in 2017 and is based in San Jose, California.
 longName	Astera Labs, Inc.
 market	us_market
-marketCap	37884014592
-marketState	POST
+marketCap	32775137280
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_558258765
 mostRecentQuarter	1790726400
 netIncomeToCommon	461324000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	36983887070
+nonDilutedMarketCap	37884014756
 numberOfAnalystOpinions	22
-open	216.13
+open	202.69
 operatingCashflow	436742016
 operatingMargins	0.25516
 overallRisk	7
@@ -118,10 +118,10 @@ postMarketChangePercent	1.693194
 postMarketPrice	220.42
 postMarketTime	1795046466
 previousClose	211.6
-priceEpsCurrentYear	49.475006
+priceEpsCurrentYear	42.803013
 priceHint	2
-priceToBook	18.943365
-priceToSalesTrailing12Months	24.343252
+priceToBook	16.388742
+priceToSalesTrailing12Months	21.060425
 profitMargins	0.29643
 quickRatio	7.037
 quoteSourceName	Nasdaq Real Time Price
@@ -129,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.8
 region	US
-regularMarketChange	5.149994
-regularMarketChangePercent	2.4338343
-regularMarketDayHigh	222.0
-regularMarketDayLow	209.2201
-regularMarketDayRange	209.2201 - 222.0
-regularMarketOpen	216.13
+regularMarketChange	-24.080002
+regularMarketChangePercent	-11.379963
+regularMarketDayHigh	205.9299
+regularMarketDayLow	182.4
+regularMarketDayRange	182.4 - 205.9299
+regularMarketOpen	202.69
 regularMarketPreviousClose	211.6
-regularMarketPrice	216.75
-regularMarketTime	1795035601
-regularMarketVolume	4568014
+regularMarketPrice	187.52
+regularMarketTime	1795199930
+regularMarketVolume	3503035
 returnOnAssets	0.1341
 returnOnEquity	0.28205
 revenueGrowth	1.537
@@ -158,7 +158,7 @@ shortRatio	1.94
 sourceInterval	15
 state	CA
 symbol	ALAB
-syntheticPEG	0.3092496224489796
+syntheticPEG	0.2675455102040816
 targetHighPrice	500.0
 targetLowPrice	225.0
 targetMeanPrice	344.1467
@@ -171,13 +171,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	2.53
-trailingPE	85.671936
+trailingPE	74.118576
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	258.01822
-twoHundredDayAverageChange	-41.26822
-twoHundredDayAverageChangePercent	-0.15994304
+twoHundredDayAverage	258.644
+twoHundredDayAverageChange	-71.12401
+twoHundredDayAverageChangePercent	-0.27498803
 typeDisp	Equity
-volume	4568014
+volume	3503035
 website	https://www.asteralabs.com
 zip	95131

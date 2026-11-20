@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	43.5
 allTimeLow	22.22
-ask	27.34
-askSize	400
-averageDailyVolume10Day	74910
-averageDailyVolume3Month	122393
-averageVolume	122393
-averageVolume10days	74910
+ask	26.19
+askSize	1000
+averageDailyVolume10Day	64280
+averageDailyVolume3Month	123684
+averageVolume	123684
+averageVolume10days	64280
 beta3Year	1.17
-bid	27.24
-bidSize	200
+bid	26.14
+bidSize	600
 category	Real Estate
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	27.325
-dayLow	26.94
+dayHigh	26.54
+dayLow	26.0627
 displayName	Data & Infrastructure RE ETF
 dividendDate	1530144000
 dividendYield	4.9
@@ -28,23 +28,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	28.61652
-fiftyDayAverageChange	-1.3753204
-fiftyDayAverageChangePercent	-0.048060365
-fiftyTwoWeekChangePercent	-5.2832785
+fiftyDayAverage	28.48034
+fiftyDayAverageChange	-2.3753395
+fiftyDayAverageChangePercent	-0.08340278
+fiftyTwoWeekChangePercent	-7.0981207
 fiftyTwoWeekHigh	35.81
-fiftyTwoWeekHighChange	-8.568802
-fiftyTwoWeekHighChangePercent	-0.23928516
-fiftyTwoWeekLow	26.94
-fiftyTwoWeekLowChange	0.30119896
-fiftyTwoWeekLowChangePercent	0.011180362
-fiftyTwoWeekRange	26.94 - 35.81
+fiftyTwoWeekHighChange	-9.705002
+fiftyTwoWeekHighChangePercent	-0.27101374
+fiftyTwoWeekLow	26.0627
+fiftyTwoWeekLowChange	0.04229927
+fiftyTwoWeekLowChangePercent	0.0016229812
+fiftyTwoWeekRange	26.0627 - 35.81
 firstTradeDateMilliseconds	1526477400000
-fiveYearAverageReturn	-0.0529557
+fiveYearAverageReturn	-0.052367903
 fullExchangeName	NYSEArca
-fulldayChange	0.0
-fulldayChangePercent	0.0
-fulldayPrice	27.2412
+fulldayChange	-0.5950012
+fulldayChangePercent	-2.228469
+fulldayPrice	26.105
 fundFamily	Pacer
 fundInceptionDate	1526342400
 gmtOffSetMilliseconds	-18000000
@@ -54,50 +54,50 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The advisor employs a “passive management” (or indexing) investment approach designed to track the total return performance, before fees and expenses, of the index. The index is generally composed of equity securities of developed markets companies that derive at least 85% of their earnings or revenues from real estate operations in the data and infrastructure real estate sectors (“Eligible Companies”).
 longName	Pacer Data & Infrastructure Real Estate ETF
 market	us_market
-marketState	POST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_554892518
-navPrice	27.25
+navPrice	26.7553
 netAssets	291599616.0
 netExpenseRatio	0.49
-open	27.18
+open	26.54
 phone	(610) 644-8100
 postMarketChange	-0.35770035
 postMarketChangePercent	-1.2840269
 postMarketPrice	27.5
 postMarketTime	1794868065
-previousClose	27.25
+previousClose	26.7
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-0.00880051
-regularMarketChangePercent	-0.0322954
-regularMarketDayHigh	27.325
-regularMarketDayLow	26.94
-regularMarketDayRange	26.94 - 27.325
-regularMarketOpen	27.18
-regularMarketPreviousClose	27.25
-regularMarketPrice	27.2412
-regularMarketTime	1795035300
-regularMarketVolume	39064
+regularMarketChange	-0.5950012
+regularMarketChangePercent	-2.228469
+regularMarketDayHigh	26.54
+regularMarketDayLow	26.0627
+regularMarketDayRange	26.0627 - 26.54
+regularMarketOpen	26.54
+regularMarketPreviousClose	26.7
+regularMarketPrice	26.105
+regularMarketTime	1795199509
+regularMarketVolume	50966
 shortName	Pacer Data & Infrastructure Rea
 sourceInterval	15
 symbol	SRVR
-threeYearAverageReturn	0.019621
+threeYearAverageReturn	0.0195112
 totalAssets	291599616
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	26.543219
+trailingPE	25.43613
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-6.89484
 trailingThreeMonthReturns	-6.89484
 triggerable	True
-twoHundredDayAverage	31.634575
-twoHundredDayAverageChange	-4.3933754
-twoHundredDayAverageChangePercent	-0.13887891
+twoHundredDayAverage	31.598536
+twoHundredDayAverageChange	-5.493536
+twoHundredDayAverageChangePercent	-0.17385413
 typeDisp	ETF
-volume	39064
+volume	50966
 yield	0.049000002
 ytdReturn	1.27556

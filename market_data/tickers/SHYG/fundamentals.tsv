@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	50.96
 allTimeLow	36.9
-ask	42.45
-askSize	6700
-averageDailyVolume10Day	1983100
-averageDailyVolume3Month	1657332
-averageVolume	1657332
-averageVolume10days	1983100
+ask	40.71
+askSize	10100
+averageDailyVolume10Day	1738750
+averageDailyVolume3Month	1653379
+averageVolume	1653379
+averageVolume10days	1738750
 beta3Year	0.44
-bid	40.82
-bidSize	25300
+bid	40.7
+bidSize	8200
 category	High Yield Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	40.8757
-dayLow	40.8
+dayHigh	40.775
+dayLow	40.69
 displayName	0-5 Year HY Corp Bond ETF
 dividendYield	7.17
 epsTrailingTwelveMonths	3.927258
@@ -27,23 +27,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	41.2894
-fiftyDayAverageChange	-0.44939804
-fiftyDayAverageChangePercent	-0.010884102
-fiftyTwoWeekChangePercent	-4.3335676
+fiftyDayAverage	41.2476
+fiftyDayAverageChange	-0.5425987
+fiftyDayAverageChangePercent	-0.013154673
+fiftyTwoWeekChangePercent	-4.6973586
 fiftyTwoWeekHigh	43.14
-fiftyTwoWeekHighChange	-2.2999992
-fiftyTwoWeekHighChangePercent	-0.05331477
-fiftyTwoWeekLow	40.8
-fiftyTwoWeekLowChange	0.040000916
-fiftyTwoWeekLowChangePercent	0.0009804146
-fiftyTwoWeekRange	40.8 - 43.14
+fiftyTwoWeekHighChange	-2.4349976
+fiftyTwoWeekHighChangePercent	-0.05644408
+fiftyTwoWeekLow	40.69
+fiftyTwoWeekLowChange	0.015003204
+fiftyTwoWeekLowChangePercent	0.00036871972
+fiftyTwoWeekRange	40.69 - 43.14
 firstTradeDateMilliseconds	1382016600000
-fiveYearAverageReturn	0.0452293
+fiveYearAverageReturn	0.045598403
 fullExchangeName	NYSEArca
-fulldayChange	0.0
-fulldayChangePercent	0.0
-fulldayPrice	40.84
+fulldayChange	-0.07499695
+fulldayChangePercent	-0.18390621
+fulldayPrice	40.705
 fundFamily	iShares
 fundInceptionDate	1381795200
 gmtOffSetMilliseconds	-18000000
@@ -53,33 +53,33 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The index is designed to reflect the performance of U.S. dollar-denominated high yield corporate debt. The fund will invest at least 80% of its assets in the component securities of the underlying index, and the fund will invest at least 90% of its assets in fixed income securities of the types included in the underlying index that BFA believes will help the fund track the underlying index.
 longName	iShares 0-5 Year High Yield Corporate Bond ETF
 market	us_market
-marketState	POST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_243961960
-navPrice	40.81493
+navPrice	40.77101
 netAssets	7712920100.0
 netExpenseRatio	0.3
-open	40.85
+open	40.72
 phone	415-670-2000
 postMarketChange	0.05999756
 postMarketChangePercent	0.14587298
 postMarketPrice	41.19
 postMarketTime	1793915056
-previousClose	40.84
+previousClose	40.78
 priceHint	2
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0
-regularMarketChangePercent	0.0
-regularMarketDayHigh	40.8757
-regularMarketDayLow	40.8
-regularMarketDayRange	40.8 - 40.8757
-regularMarketOpen	40.85
-regularMarketPreviousClose	40.84
-regularMarketPrice	40.84
-regularMarketTime	1795035600
-regularMarketVolume	1210840
+regularMarketChange	-0.07499695
+regularMarketChangePercent	-0.18390621
+regularMarketDayHigh	40.775
+regularMarketDayLow	40.69
+regularMarketDayRange	40.69 - 40.775
+regularMarketOpen	40.72
+regularMarketPreviousClose	40.78
+regularMarketPrice	40.705
+regularMarketTime	1795199941
+regularMarketVolume	1240093
 sharesOutstanding	64800000
 shortName	iShares 0-5 Year High Yield Cor
 sourceInterval	15
@@ -89,15 +89,15 @@ totalAssets	7712920064
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	10.399113
+trailingPE	10.364738
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-0.59581
 trailingThreeMonthReturns	-0.59581
 triggerable	True
-twoHundredDayAverage	42.0958
-twoHundredDayAverageChange	-1.2557983
-twoHundredDayAverageChangePercent	-0.029831916
+twoHundredDayAverage	42.0761
+twoHundredDayAverageChange	-1.3710976
+twoHundredDayAverageChangePercent	-0.03258614
 typeDisp	ETF
-volume	1210840
+volume	1240093
 yield	0.0717
 ytdReturn	1.17394

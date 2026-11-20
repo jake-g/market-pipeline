@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	106.47
 allTimeLow	61.5
-ask	76.66
-askSize	48800
-averageDailyVolume10Day	41036190
-averageDailyVolume3Month	48687209
-averageVolume	48687209
-averageVolume10days	41036190
+ask	76.42
+askSize	18800
+averageDailyVolume10Day	35508660
+averageDailyVolume3Month	48845654
+averageVolume	48845654
+averageVolume10days	35508660
 beta3Year	0.65
-bid	76.65
-bidSize	26400
+bid	76.41
+bidSize	41100
 bookValue	87.966
 category	High Yield Bond
 companyOfficers	[]
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	76.75
-dayLow	76.56
+dayHigh	76.57
+dayLow	76.38
 displayName	iBoxx $ HY Corp Bond ETF
 dividendYield	6.09
 epsForward	0.06
@@ -29,25 +29,25 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	77.4858
-fiftyDayAverageChange	-0.8358002
-fiftyDayAverageChangePercent	-0.010786494
-fiftyTwoWeekChangePercent	-4.3917656
+fiftyDayAverage	77.3974
+fiftyDayAverageChange	-0.96240234
+fiftyDayAverageChangePercent	-0.012434556
+fiftyTwoWeekChangePercent	-4.7779026
 fiftyTwoWeekHigh	81.24
-fiftyTwoWeekHighChange	-4.5899963
-fiftyTwoWeekHighChangePercent	-0.056499217
-fiftyTwoWeekLow	76.39
-fiftyTwoWeekLowChange	0.26000214
-fiftyTwoWeekLowChangePercent	0.0034036147
-fiftyTwoWeekRange	76.39 - 81.24
+fiftyTwoWeekHighChange	-4.8050003
+fiftyTwoWeekHighChangePercent	-0.059145745
+fiftyTwoWeekLow	76.38
+fiftyTwoWeekLowChange	0.055000305
+fiftyTwoWeekLowChangePercent	0.0007200878
+fiftyTwoWeekRange	76.38 - 81.24
 financialCurrency	USD
 firstTradeDateMilliseconds	1176298200000
-fiveYearAverageReturn	0.0326695
-forwardPE	1277.5
+fiveYearAverageReturn	0.0328903
+forwardPE	1273.9166
 fullExchangeName	NYSEArca
-fulldayChange	0.020004272
-fulldayChangePercent	0.026105015
-fulldayPrice	76.65
+fulldayChange	-0.09500122
+fulldayChangePercent	-0.12413593
+fulldayPrice	76.435
 fundFamily	iShares
 fundInceptionDate	1175644800
 gmtOffSetMilliseconds	-18000000
@@ -57,52 +57,52 @@ legalType	Exchange Traded Fund
 longBusinessSummary	The underlying index is a rules-based index consisting of U.S. dollar-denominated, high yield corporate bonds for sale in the U.S. The fund will invest at least 80% of its assets in the component securities of the underlying index, and the fund will invest at least 90% of its assets in fixed income securities of the types included in the underlying index that the advisor believes will help the fund track the underlying index.
 longName	iShares iBoxx $ High Yield Corporate Bond ETF
 market	us_market
-marketState	POST
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_33837611
-navPrice	76.61781
+navPrice	76.53429
 netAssets	17711200300.0
 netExpenseRatio	0.49
-open	76.66
+open	76.44
 phone	415-670-2000
 postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	76.65
 postMarketTime	1795045320
-previousClose	76.63
+previousClose	76.53
 priceHint	2
-priceToBook	0.87135935
-quoteSourceName	Delayed Quote
+priceToBook	0.8689152
+quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.0200043
-regularMarketChangePercent	0.026105
-regularMarketDayHigh	76.75
-regularMarketDayLow	76.56
-regularMarketDayRange	76.56 - 76.75
-regularMarketOpen	76.66
-regularMarketPreviousClose	76.63
-regularMarketPrice	76.65
-regularMarketTime	1795035600
-regularMarketVolume	33467689
+regularMarketChange	-0.09500122
+regularMarketChangePercent	-0.12413593
+regularMarketDayHigh	76.57
+regularMarketDayLow	76.38
+regularMarketDayRange	76.38 - 76.57
+regularMarketOpen	76.44
+regularMarketPreviousClose	76.53
+regularMarketPrice	76.435
+regularMarketTime	1795200005
+regularMarketVolume	40365250
 sharesOutstanding	195600000
 shortName	iShares iBoxx $ High Yield Corp
 sourceInterval	15
 symbol	HYG
-threeYearAverageReturn	0.0695291
+threeYearAverageReturn	0.0696221
 totalAssets	17711200256
 tradeable	False
 trailingAnnualDividendRate	3.803
-trailingAnnualDividendYield	0.049628083
-trailingPE	10.539462
+trailingAnnualDividendYield	0.049692933
+trailingPE	10.509899
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-1.1889
 trailingThreeMonthReturns	-1.1889
 triggerable	True
-twoHundredDayAverage	79.2895
-twoHundredDayAverageChange	-2.6394958
-twoHundredDayAverageChangePercent	-0.03328935
+twoHundredDayAverage	79.2487
+twoHundredDayAverageChange	-2.8137054
+twoHundredDayAverageChangePercent	-0.03550475
 typeDisp	ETF
-volume	33467689
+volume	40365250
 yield	0.060900003
 ytdReturn	0.15354

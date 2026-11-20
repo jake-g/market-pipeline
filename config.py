@@ -106,7 +106,7 @@ SECTORS = {
         "GOOG", "PLTR", "MSFT", "META", "AAPL", "ORCL", "IBM", "AMZN", "SNOW",
         "CRM", "ADBE", "CSCO", "NOW", "RDDT", "IONQ", "PANW", "CRWD", "NET",
         "DELL", "HPE", "SMCI", "TTD", "VGT", "APP", "MNDY", "DDOG", "FTNT",
-        "ZS", "NBIS", "CRWV", "MDB", "CHAT"
+        "ZS", "NBIS", "CRWV", "MDB", "CHAT", "ANT"
     ],
     "China & Intl AI": [
         "BABA", "BIDU", "TCEHY", "PDD", "JD", "GDS", "VNET", "KWEB", "FXI"

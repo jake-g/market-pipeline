@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.09167498
-SandP52WeekChange	0.105142
+52WeekChange	-0.027462006
+SandP52WeekChange	0.08675468
 address1	2929 Allen Parkway
 address2	22nd Floor Suite 2200
 allTimeHigh	451.28
@@ -9,10 +9,10 @@ ask	318.13
 askSize	1
 auditRisk	6
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	1242380
-averageDailyVolume3Month	1024876
-averageVolume	1024876
-averageVolume10days	1242380
+averageDailyVolume10Day	944180
+averageDailyVolume3Month	1007415
+averageVolume	1007415
+averageVolume10days	944180
 beta	1.579
 bid	382.72
 bidSize	1
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	360.18
+currentPrice	334.78
 currentRatio	0.893
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	364.06
-dayLow	352.41
+dayHigh	348.98
+dayLow	324.19
 debtToEquity	596.943
 displayName	Talen Energy
 dividendYield	0.0
@@ -44,11 +44,11 @@ earningsTimestampEnd	1793712600
 earningsTimestampStart	1793712600
 ebitda	674000000
 ebitdaMargins	0.15041
-enterpriseToEbitda	36.624
-enterpriseToRevenue	5.509
-enterpriseValue	24684769280
-epsCurrentYear	22.42
-epsForward	30.94
+enterpriseToEbitda	36.702
+enterpriseToRevenue	5.52
+enterpriseValue	24736974848
+epsCurrentYear	24.03333
+epsForward	32.18
 epsTrailingTwelveMonths	-5.59
 eps_normalized_growth	0.28939313548459644
 esgPopulated	False
@@ -57,35 +57,35 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	336.0921
-fiftyDayAverageChange	24.08789
-fiftyDayAverageChangePercent	0.0716705
-fiftyTwoWeekChangePercent	-9.167499
+fiftyDayAverage	337.7897
+fiftyDayAverageChange	-3.0097046
+fiftyDayAverageChangePercent	-0.008909995
+fiftyTwoWeekChangePercent	-2.7462006
 fiftyTwoWeekHigh	449.841
-fiftyTwoWeekHighChange	-89.66101
-fiftyTwoWeekHighChangePercent	-0.19931711
+fiftyTwoWeekHighChange	-115.061005
+fiftyTwoWeekHighChangePercent	-0.2557815
 fiftyTwoWeekLow	279.77
-fiftyTwoWeekLowChange	80.41
-fiftyTwoWeekLowChangePercent	0.2874147
+fiftyTwoWeekLowChange	55.01001
+fiftyTwoWeekLowChangePercent	0.19662584
 fiftyTwoWeekRange	279.77 - 449.841
 financialCurrency	USD
 firstTradeDateMilliseconds	1685712600000
-floatShares	33458630
-forwardEps	30.94
-forwardPE	11.641241
+floatShares	33461241
+forwardEps	32.18
+forwardPE	10.403356
 freeCashflow	941625024
 fullExchangeName	NasdaqGS
 fullTimeEmployees	1880
-fulldayChange	5.5400085
-fulldayChangePercent	1.5618417
-fulldayPrice	360.18
+fulldayChange	-21.130005
+fulldayChangePercent	-5.9368954
+fulldayPrice	334.78
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.42668998
 grossProfits	1912000000
 hasPrePostMarketData	True
-heldPercentInsiders	0.01498
-heldPercentInstitutions	1.13749
+heldPercentInsiders	0.0136899995
+heldPercentInstitutions	1.1490799
 impliedSharesOutstanding	43505312
 industry	Utilities - Independent Power Producers
 industryDisp	Utilities - Independent Power Producers
@@ -97,16 +97,16 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Talen Energy Corporation, an independent power producer and infrastructure company, produces and sells electricity, capacity, and ancillary services into wholesale power markets in the United States. The company's plants generate power using a variety of fuels, such as nuclear, fossil, oil, natural gas, and coal power plants. It owns and operates approximately 13.1 GW of power infrastructure. Talen Energy Corporation was incorporated in 2014 and is headquartered in Houston, Texas.
 longName	Talen Energy Corporation
 market	us_market
-marketCap	15669742592
-marketState	POST
+marketCap	14564708352
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_276190901
 mostRecentQuarter	1790726400
 netIncomeToCommon	-254000000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	15431769219
+nonDilutedMarketCap	15669743276
 numberOfAnalystOpinions	20
-open	358.1
+open	348.25
 operatingCashflow	770000000
 operatingMargins	0.03325
 overallRisk	2
@@ -116,28 +116,28 @@ postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	360.18
 postMarketTime	1795040516
-previousClose	354.71
-priceEpsCurrentYear	16.06512
+previousClose	355.91
+priceEpsCurrentYear	13.929821
 priceHint	2
-priceToBook	10.786416
-priceToSalesTrailing12Months	3.49693
+priceToBook	10.025755
+priceToSalesTrailing12Months	3.2503254
 profitMargins	-0.05668
 quickRatio	0.498
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.5
 region	US
-regularMarketChange	5.470001
-regularMarketChangePercent	1.5421052
-regularMarketDayHigh	364.06
-regularMarketDayLow	352.41
-regularMarketDayRange	352.41 - 364.06
-regularMarketOpen	358.1
-regularMarketPreviousClose	354.71
-regularMarketPrice	360.18
-regularMarketTime	1795035600
-regularMarketVolume	709509
+regularMarketChange	-21.130005
+regularMarketChangePercent	-5.9368954
+regularMarketDayHigh	348.98
+regularMarketDayLow	324.19
+regularMarketDayRange	324.19 - 348.98
+regularMarketOpen	348.25
+regularMarketPreviousClose	355.91
+regularMarketPrice	334.78
+regularMarketTime	1795200075
+regularMarketVolume	777506
 returnOnAssets	0.00879
 returnOnEquity	-0.16535999
 revenueGrowth	0.961
@@ -157,7 +157,7 @@ shortRatio	3.88
 sourceInterval	15
 state	TX
 symbol	TLN
-syntheticPEG	-0.36152922360248446
+syntheticPEG	-0.3230855900621118
 targetHighPrice	560.0
 targetLowPrice	307.0
 targetMeanPrice	452.65
@@ -172,10 +172,10 @@ trailingAnnualDividendYield	0.0
 trailingEps	-5.59
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	348.89398
-twoHundredDayAverageChange	11.286011
-twoHundredDayAverageChangePercent	0.032347966
+twoHundredDayAverage	349.18207
+twoHundredDayAverageChange	-14.402069
+twoHundredDayAverageChangePercent	-0.041245155
 typeDisp	Equity
-volume	709509
+volume	777506
 website	https://www.talenenergy.com
 zip	77019

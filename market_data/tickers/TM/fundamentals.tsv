@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	0.0830369
-SandP52WeekChange	0.105142
+52WeekChange	0.06755388
+SandP52WeekChange	0.08675468
 address1	1 Toyota-cho
 allTimeHigh	255.23
 allTimeLow	3.237711
-ask	210.42
-askSize	100
+ask	209.54
+askSize	200
 averageAnalystRating	2.3 - Buy
-averageDailyVolume10Day	413170
-averageDailyVolume3Month	330273
-averageVolume	330273
-averageVolume10days	413170
+averageDailyVolume10Day	365330
+averageDailyVolume3Month	334789
+averageVolume	334789
+averageVolume10days	365330
 beta	0.375
-bid	210.14
-bidSize	300
+bid	209.29
+bidSize	200
 bookValue	12.564346
 city	Toyota
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Yoichi  Miyazaki', 'age': 62, 'title': 'CFO, Operating Officer, Executive VP & Director', 'yearBorn': 1963, 'fiscalYear': 2026, 'totalPay': 1694564, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Hiroki  Nakajima', 'age': 63, 'title': 'Operating Officer, Executive VP, CTO & Director', 'yearBorn': 1962, 'fiscalYear': 2026, 'totalPay': 1662949, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Koji  Sato', 'age': 56, 'title': 'Vice Chairman & Chief Industry Officer', 'yearBorn': 1969, 'fiscalYear': 2026, 'totalPay': 2396417, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kenta  Kon', 'age': 57, 'title': 'President, CEO & Representative Director', 'yearBorn': 1968, 'fiscalYear': 2026, 'totalPay': 682884, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Takanori  Azuma', 'title': 'Chief Risk Officer & Chief Officer of Accounting Group', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Gill A.  Pratt', 'title': 'Chief Scientist, CEO & Executive Fellow of Toyota Research Institute, Inc.', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Masahiro  Yamamoto', 'title': 'Chief Officer of General Administration & Human Resources Group', 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Hirofumi  Muta', 'age': 69, 'title': 'Chief Officer -Safety & Health Promotion, Plant & Environmental Engg Divs, Production Control Group', 'yearBorn': 1956, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nobuhiko  Murakami', 'age': 66, 'title': 'Senior Managing Officer & CEO of East Asia, Oceania & Middle East Region', 'yearBorn': 1959, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Shigeki  Tomoyama', 'age': 67, 'title': 'Executive Fellow & CEO of Japan Business Group', 'yearBorn': 1958, 'fiscalYear': 2026, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,18 +22,18 @@ corporateActions	[]
 country	Japan
 cryptoTradeable	False
 currency	USD
-currentPrice	210.14
+currentPrice	209.64
 currentRatio	1.193
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	212.2
-dayLow	210.14
+dayHigh	211.3773
+dayLow	208.647
 debtToEquity	112.774
-discount_to_intrinsic_value	80.83
+discount_to_intrinsic_value	81.17
 displayName	Toyota Motor
 dividendDate	1780876800
 dividendRate	6.27
-dividendYield	2.94
+dividendYield	2.97
 earningsCallTimestampEnd	1793854800
 earningsCallTimestampStart	1793854800
 earningsGrowth	-0.101
@@ -43,9 +43,9 @@ earningsTimestampEnd	1801747800
 earningsTimestampStart	1801747800
 ebitda	5954998894592
 ebitdaMargins	0.112320006
-enterpriseToEbitda	5.684
+enterpriseToEbitda	5.677
 enterpriseToRevenue	0.638
-enterpriseValue	33848962318336
+enterpriseValue	33808445341696
 epsForward	15.78
 epsTrailingTwelveMonths	21.93
 eps_normalized_growth	1.8872621420360352
@@ -56,36 +56,36 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	195.5908
-fiftyDayAverageChange	14.549194
-fiftyDayAverageChangePercent	0.07438588
-fiftyTwoWeekChangePercent	8.30369
+fiftyDayAverage	196.344
+fiftyDayAverageChange	13.296005
+fiftyDayAverageChangePercent	0.06771791
+fiftyTwoWeekChangePercent	6.755388
 fiftyTwoWeekHigh	248.9
-fiftyTwoWeekHighChange	-38.759995
-fiftyTwoWeekHighChangePercent	-0.15572517
+fiftyTwoWeekHighChange	-39.259995
+fiftyTwoWeekHighChangePercent	-0.157734
 fiftyTwoWeekLow	166.1
-fiftyTwoWeekLowChange	44.039993
-fiftyTwoWeekLowChangePercent	0.26514143
+fiftyTwoWeekLowChange	43.539993
+fiftyTwoWeekLowChangePercent	0.26213118
 fiftyTwoWeekRange	166.1 - 248.9
 financialCurrency	JPY
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	2.75
 floatShares	17365847838
 forwardEps	15.78
-forwardPE	13.316857
+forwardPE	13.2851715
 freeCashflow	-3042246918144
 fullExchangeName	NYSE
 fullTimeEmployees	367173
-fulldayChange	-2.9799957
-fulldayChangePercent	-1.3982713
-fulldayPrice	210.14
+fulldayChange	-1.3300018
+fulldayChangePercent	-0.63042223
+fulldayPrice	209.64
 gmtOffSetMilliseconds	-18000000
-graham_intrinsic_value	1096.07
+graham_intrinsic_value	1113.37
 grossMargins	0.16929
 grossProfits	8975255863296
 hasPrePostMarketData	True
 heldPercentInsiders	6.0000002e-05
-heldPercentInstitutions	0.023359999
+heldPercentInstitutions	0.02339
 impliedSharesOutstanding	1173604837
 industry	Auto Manufacturers
 industryDisp	Auto Manufacturers
@@ -101,46 +101,46 @@ lastSplitFactor	11:10
 longBusinessSummary	Toyota Motor Corporation designs, manufactures, assembles, and sells passenger vehicles, minivans and commercial vehicles, and related parts and accessories in Japan, North America, Europe, Asia, Central and South America, Oceania, Africa, the Middle East, and internationally. The company operates through Automotive, Financial Services, and All Other segments. The company offers subcompact and compact cars; mini-vehicles; mid-size, luxury, sports, and specialty cars; recreational and sport-utility vehicles; pickup trucks; minivans; trucks; and buses. It also develops and sells battery and hybrid electric vehicles and batteries. In addition, the company provides financial services, such as retail financing and leasing, wholesale financing, insurance, and credit cards. Further, it operates GAZOO.com, a web portal for automobile information, as well as engages in telecommunications and other businesses. It offers vehicles under the Toyota and Lexus brand names. It has strategic manufacturing alliance with Joby Aviation, Inc. to establish a joint venture to realize air mobility. Toyota Motor Corporation was founded in 1933 and is headquartered in Toyota, Japan.
 longName	Toyota Motor Corporation
 market	us_market
-marketCap	246621323264
-marketState	POST
+marketCap	246034530304
+marketState	REGULAR
 maxAge	86400
 messageBoardId	finmb_319676
 mostRecentQuarter	1790726400
 netIncomeToCommon	4311117987840
 nextFiscalYearEnd	1806451200
-nonDilutedMarketCap	251152554866
+nonDilutedMarketCap	248689699972
 numberOfAnalystOpinions	4
-open	211.75
+open	209.0
 operatingCashflow	4132235116544
 operatingMargins	0.074640006
 payoutRatio	0.139
-pegRatio	19.96
+pegRatio	19.65
 phone	81 565 28 2121
 postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	210.14
 postMarketTime	1795035638
-previousClose	213.12
+previousClose	210.97
 priceHint	2
-priceToBook	16.725103
-priceToSalesTrailing12Months	0.00465177
+priceToBook	16.685308
+priceToSalesTrailing12Months	0.004640702
 profitMargins	0.08132
 quickRatio	0.978
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	2.25
 region	US
-regularMarketChange	-2.98
-regularMarketChangePercent	-1.39827
-regularMarketDayHigh	212.2
-regularMarketDayLow	210.14
-regularMarketDayRange	210.14 - 212.2
-regularMarketOpen	211.75
-regularMarketPreviousClose	213.12
-regularMarketPrice	210.14
-regularMarketTime	1795035602
-regularMarketVolume	229876
+regularMarketChange	-1.3300018
+regularMarketChangePercent	-0.63042223
+regularMarketDayHigh	211.3773
+regularMarketDayLow	208.647
+regularMarketDayRange	208.647 - 211.3773
+regularMarketOpen	209.0
+regularMarketPreviousClose	210.97
+regularMarketPrice	209.64
+regularMarketTime	1795200035
+regularMarketVolume	171441
 returnOnAssets	0.02479
 returnOnEquity	0.115839995
 revenueGrowth	0.086
@@ -168,15 +168,15 @@ totalDebt	43199817056256
 totalRevenue	53016661065728
 tradeable	False
 trailingAnnualDividendRate	100.0
-trailingAnnualDividendYield	0.46921924
+trailingAnnualDividendYield	0.47400105
 trailingEps	21.93
-trailingPE	9.582307
-trailingPegRatio	19.9621
+trailingPE	9.559507
+trailingPegRatio	19.7288
 triggerable	True
-twoHundredDayAverage	197.74055
-twoHundredDayAverageChange	12.399445
-twoHundredDayAverageChangePercent	0.06270562
+twoHundredDayAverage	197.48206
+twoHundredDayAverageChange	12.157944
+twoHundredDayAverageChangePercent	0.061564803
 typeDisp	Equity
-volume	229876
+volume	171441
 website	https://global.toyota
 zip	471-8571
