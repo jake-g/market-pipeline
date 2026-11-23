@@ -3,10 +3,10 @@ allTimeHigh	170.0
 allTimeLow	18.83
 ask	150.72
 askSize	2
-averageDailyVolume10Day	330630
-averageDailyVolume3Month	325578
-averageVolume	325578
-averageVolume10days	330630
+averageDailyVolume10Day	333290
+averageDailyVolume3Month	333209
+averageVolume	333209
+averageVolume10days	333290
 beta3Year	1.77
 bid	149.19
 bidSize	2
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	118.11
-dayLow	112.56
+dayHigh	123.61
+dayLow	119.94
 dividendYield	1.05
 epsTrailingTwelveMonths	5.4125547
 esgPopulated	False
@@ -26,75 +26,76 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	141.2596
-fiftyDayAverageChange	-27.980598
-fiftyDayAverageChangePercent	-0.19807927
-fiftyTwoWeekChangePercent	18.010653
+fiftyDayAverage	140.54
+fiftyDayAverageChange	-19.209991
+fiftyDayAverageChangePercent	-0.13668701
+fiftyTwoWeekChangePercent	6.3872457
 fiftyTwoWeekHigh	170.0
-fiftyTwoWeekHighChange	-56.721
-fiftyTwoWeekHighChangePercent	-0.33365294
-fiftyTwoWeekLow	98.21
-fiftyTwoWeekLowChange	15.069
-fiftyTwoWeekLowChangePercent	0.15343651
-fiftyTwoWeekRange	98.21 - 170.0
+fiftyTwoWeekHighChange	-48.67
+fiftyTwoWeekHighChangePercent	-0.2862941
+fiftyTwoWeekLow	101.41
+fiftyTwoWeekLowChange	19.919998
+fiftyTwoWeekLowChangePercent	0.19643031
+fiftyTwoWeekRange	101.41 - 170.0
 firstTradeDateMilliseconds	1536154200000
-fiveYearAverageReturn	0.1793044
+fiveYearAverageReturn	0.1567355
 fullExchangeName	NasdaqGM
-fulldayChange	-6.4309998
-fulldayChangePercent	-5.372149
-fulldayPrice	113.279
+fulldayChange	9.919998
+fulldayChangePercent	8.902449
+fulldayPrice	121.35
 fundFamily	Defiance ETFs LLC
 fundInceptionDate	1536019200
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
 ipoExpectedDate	2024-08-13
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund uses a “passive management” (or indexing) approach to track the total return performance, before fees and expenses, of the index. The index consists of a modified equal-weighted portfolio of the stock of companies whose business activities, products, and/or services relate to the development of quantum computing and machine learning technology.
 longName	Defiance Quantum ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_569773992
-navPrice	120.2458
+navPrice	112.4494
 netAssets	5055830500.0
 netExpenseRatio	0.4
-open	117.39
+open	123.06
 phone	(414) 765-5586
-postMarketChange	-0.05000305
-postMarketChangePercent	-0.040652886
-postMarketPrice	122.95
-postMarketTime	1795035612
-previousClose	119.71
+postMarketChange	0.019996643
+postMarketChangePercent	0.016481202
+postMarketPrice	121.35
+postMarketTime	1795468667
+previousClose	111.43
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-6.4309998
-regularMarketChangePercent	-5.372149
-regularMarketDayHigh	118.11
-regularMarketDayLow	112.56
-regularMarketDayRange	112.56 - 118.11
-regularMarketOpen	117.39
-regularMarketPreviousClose	119.71
-regularMarketPrice	113.279
-regularMarketTime	1795200056
-regularMarketVolume	418771
+regularMarketChange	9.900002
+regularMarketChangePercent	8.884503
+regularMarketDayHigh	123.61
+regularMarketDayLow	119.94
+regularMarketDayRange	119.94 - 123.61
+regularMarketOpen	123.06
+regularMarketPreviousClose	111.43
+regularMarketPrice	121.33
+regularMarketTime	1795467601
+regularMarketVolume	456550
 shortName	Defiance Quantum ETF
 sourceInterval	15
 symbol	QTUM
-threeYearAverageReturn	0.3636935
+threeYearAverageReturn	0.3154434
 totalAssets	5055830528
 tradeable	False
-trailingPE	20.928934
+trailingPE	22.4164
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-4.93207
 trailingThreeMonthReturns	-4.93207
 triggerable	True
-twoHundredDayAverage	138.50195
-twoHundredDayAverageChange	-25.222954
-twoHundredDayAverageChangePercent	-0.18211262
+twoHundredDayAverage	138.50845
+twoHundredDayAverageChange	-17.178452
+twoHundredDayAverageChangePercent	-0.12402457
 typeDisp	ETF
-volume	418508
+volume	456550
 yield	0.0105
 ytdReturn	23.25914

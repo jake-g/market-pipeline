@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.008854985
-SandP52WeekChange	0.08675468
+52WeekChange	0.025839448
+SandP52WeekChange	0.0306139
 address1	222 Berkeley Street
 address2	11th Floor
 allTimeHigh	303.72
 allTimeLow	0.6
-ask	185.24
-askSize	100
+ask	180.5
+askSize	600
 auditRisk	1
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	2359430
-averageDailyVolume3Month	2882434
-averageVolume	2882434
-averageVolume10days	2359430
+averageDailyVolume10Day	2340640
+averageDailyVolume3Month	2898434
+averageVolume	2898434
+averageVolume10days	2340640
 beta	0.842
-bid	185.11
-bidSize	200
+bid	179.58
+bidSize	100
 boardRisk	3
 bookValue	7.576
 city	Boston
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	185.47
+currentPrice	179.31
 currentRatio	0.353
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	185.7725
-dayLow	182.86
+dayHigh	185.37
+dayLow	179.23
 debtToEquity	463.814
-discount_to_intrinsic_value	-254.12
+discount_to_intrinsic_value	-232.23
 displayName	American Tower
 dividendDate	1792454400
 dividendRate	7.16
-dividendYield	3.95
+dividendYield	3.89
 earningsCallTimestampEnd	1793104200
 earningsCallTimestampStart	1793104200
 earningsGrowth	-0.099
@@ -47,9 +47,9 @@ earningsTimestampEnd	1793104200
 earningsTimestampStart	1793104200
 ebitda	7076599808
 ebitdaMargins	0.64277
-enterpriseToEbitda	18.891
-enterpriseToRevenue	12.142
-enterpriseValue	133682069504
+enterpriseToEbitda	19.091
+enterpriseToRevenue	12.271
+enterpriseValue	135101186048
 epsCurrentYear	6.97794
 epsForward	6.97997
 epsTrailingTwelveMonths	7.1
@@ -62,42 +62,43 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	617 375 7575
-fiftyDayAverage	179.5266
-fiftyDayAverageChange	5.943405
-fiftyDayAverageChangePercent	0.033105988
-fiftyTwoWeekChangePercent	0.8854985
+fiftyDayAverage	179.6538
+fiftyDayAverageChange	-0.34379578
+fiftyDayAverageChangePercent	-0.0019136572
+fiftyTwoWeekChangePercent	2.5839448
 fiftyTwoWeekHigh	202.5
-fiftyTwoWeekHighChange	-17.029999
-fiftyTwoWeekHighChangePercent	-0.08409876
+fiftyTwoWeekHighChange	-23.190002
+fiftyTwoWeekHighChangePercent	-0.11451853
 fiftyTwoWeekLow	160.06
-fiftyTwoWeekLowChange	25.410004
-fiftyTwoWeekLowChangePercent	0.158753
+fiftyTwoWeekLowChange	19.25
+fiftyTwoWeekLowChangePercent	0.1202674
 fiftyTwoWeekRange	160.06 - 202.5
 financialCurrency	USD
 firstTradeDateMilliseconds	888589800000
 fiveYearAvgDividendYield	3.0
-floatShares	462228498
+floatShares	462316613
 forwardEps	6.97997
-forwardPE	26.571747
+forwardPE	25.689222
 freeCashflow	3017250048
 fullExchangeName	NYSE
 fullTimeEmployees	4866
-fulldayChange	4.3200073
-fulldayChangePercent	2.3847682
-fulldayPrice	185.47
+fulldayChange	-4.900009
+fulldayChangePercent	-2.6600125
+fulldayPrice	179.31
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
-graham_intrinsic_value	52.37
+graham_intrinsic_value	53.97
 grossMargins	0.73517
 grossProfits	8093899776
 hasPrePostMarketData	True
 heldPercentInsiders	0.001
-heldPercentInstitutions	0.98100996
+heldPercentInstitutions	0.97853994
 impliedSharesOutstanding	463763555
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
 industryKey	reit-specialty
 irWebsite	http://www.americantower.com/atcweb/irpages/irhome.asp
+isCMEFuture	False
 isEarningsDateEstimate	False
 language	en-US
 lastDividendDate	1790726400
@@ -106,33 +107,33 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	American Tower Corporation one of the largest global REITs, is a leading independent owner, operator and developer of multitenant communications real estate with a portfolio of over 147,000 communications sites and a highly interconnected footprint of U.S. data center facilities. American Tower Corporation was incorporated in 1995 in Delaware and is based in Massachusetts, Boston.
 longName	American Tower Corporation
 market	us_market
-marketCap	86014230528
-marketState	REGULAR
+marketCap	83157442560
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_24766
 mostRecentQuarter	1790726400
-nameChangeDate	2026-11-20
+nameChangeDate	2026-11-23
 netIncomeToCommon	3313499904
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	84010767988
+nonDilutedMarketCap	85429884466
 numberOfAnalystOpinions	24
-open	183.29
+open	184.48
 operatingCashflow	5707700224
 operatingMargins	0.45494
 overallRisk	1
 payoutRatio	0.9958
-pegRatio	1.81
+pegRatio	1.8
 phone	617 375 7500
-postMarketChange	-3.966507
-postMarketChangePercent	-2.1461458
-postMarketPrice	180.8535
-postMarketTime	1795045200
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	179.31
+postMarketTime	1795470044
 prevName	American Tower Corporation (REIT)
-previousClose	181.15
-priceEpsCurrentYear	26.579477
+previousClose	184.21
+priceEpsCurrentYear	25.696695
 priceHint	2
-priceToBook	24.481256
-priceToSalesTrailing12Months	7.812728
+priceToBook	23.668161
+priceToSalesTrailing12Months	7.553244
 profitMargins	0.30097
 quickRatio	0.306
 quoteSourceName	Nasdaq Real Time Price
@@ -140,16 +141,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.5
 region	US
-regularMarketChange	4.3200073
-regularMarketChangePercent	2.3847682
-regularMarketDayHigh	185.7725
-regularMarketDayLow	182.86
-regularMarketDayRange	182.86 - 185.7725
-regularMarketOpen	183.29
-regularMarketPreviousClose	181.15
-regularMarketPrice	185.47
-regularMarketTime	1795199938
-regularMarketVolume	933002
+regularMarketChange	-4.90001
+regularMarketChangePercent	-2.66001
+regularMarketDayHigh	185.37
+regularMarketDayLow	179.23
+regularMarketDayRange	179.23 - 185.37
+regularMarketOpen	184.48
+regularMarketPreviousClose	184.21
+regularMarketPrice	179.31
+regularMarketTime	1795467603
+regularMarketVolume	2712139
 returnOnAssets	0.04935
 returnOnEquity	0.32959998
 revenueGrowth	0.025
@@ -179,15 +180,15 @@ totalDebt	45294198784
 totalRevenue	11009500160
 tradeable	False
 trailingAnnualDividendRate	7.07
-trailingAnnualDividendYield	0.039028432
+trailingAnnualDividendYield	0.03838011
 trailingEps	7.1
-trailingPE	26.122536
-trailingPegRatio	1.7704
+trailingPE	25.25493
+trailingPegRatio	1.8003
 triggerable	True
-twoHundredDayAverage	178.14516
-twoHundredDayAverageChange	7.3248444
-twoHundredDayAverageChangePercent	0.04111728
+twoHundredDayAverage	178.20876
+twoHundredDayAverageChange	1.1012421
+twoHundredDayAverageChangePercent	0.006179506
 typeDisp	Equity
-volume	933002
+volume	2712139
 website	https://www.americantower.com
 zip	02116

@@ -1,15 +1,15 @@
 Metric	Value
 allTimeHigh	112.99
 allTimeLow	102.23
-ask	110.28
-askSize	16400
-averageDailyVolume10Day	3483450
-averageDailyVolume3Month	3740110
-averageVolume	3740110
-averageVolume10days	3483450
+ask	0.0
+askSize	238000
+averageDailyVolume10Day	3826770
+averageDailyVolume3Month	3819373
+averageVolume	3819373
+averageVolume10days	3826770
 beta3Year	0.01
-bid	110.27
-bidSize	179700
+bid	0.0
+bidSize	186100
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
@@ -17,7 +17,7 @@ cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
 dayHigh	110.28
-dayLow	110.26
+dayLow	110.27
 displayName	0–1 Year Treasury Bond ETF
 dividendDate	1522972800
 dividendYield	3.63
@@ -27,63 +27,64 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	110.2022
-fiftyDayAverageChange	0.0677948
-fiftyDayAverageChangePercent	0.00061518553
-fiftyTwoWeekChangePercent	-0.13589263
+fiftyDayAverage	110.2048
+fiftyDayAverageChange	0.07519531
+fiftyDayAverageChangePercent	0.00068232336
+fiftyTwoWeekChangePercent	-0.099647045
 fiftyTwoWeekHigh	110.46
-fiftyTwoWeekHighChange	-0.19000244
-fiftyTwoWeekHighChangePercent	-0.0017201018
+fiftyTwoWeekHighChange	-0.1800003
+fiftyTwoWeekHighChangePercent	-0.001629552
 fiftyTwoWeekLow	109.86
-fiftyTwoWeekLowChange	0.40999603
-fiftyTwoWeekLowChangePercent	0.0037319865
+fiftyTwoWeekLowChange	0.41999817
+fiftyTwoWeekLowChangePercent	0.0038230307
 fiftyTwoWeekRange	109.86 - 110.46
 firstTradeDateMilliseconds	1168525800000
-fiveYearAverageReturn	0.0366522
+fiveYearAverageReturn	0.0367838
 fullExchangeName	NYSE
-fulldayChange	0.039993286
-fulldayChangePercent	0.03628167
-fulldayPrice	110.27
+fulldayChange	0.0
+fulldayChangePercent	0.0
+fulldayPrice	110.28
 fundFamily	iShares
 fundInceptionDate	1167955200
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund will invest at least 80% of its assets in the component securities of the underlying index, and it will invest at least 90% of its assets in U.S. Treasury securities that BFA believes will help the fund track the underlying index. The index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity of less than or equal to one year.
 longName	iShares 0–1 Year Treasury Bond ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_31131108
-navPrice	110.22309
+navPrice	110.26705
 netAssets	21425623000.0
 netExpenseRatio	0.15
-open	110.26
+open	110.27
 phone	415-670-2000
-postMarketChange	-0.008003235
-postMarketChangePercent	-0.007261146
-postMarketPrice	110.212
-postMarketTime	1795046364
-previousClose	110.23
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	110.28
+postMarketTime	1795473769
+previousClose	110.28
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.039993286
-regularMarketChangePercent	0.03628167
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
 regularMarketDayHigh	110.28
-regularMarketDayLow	110.26
-regularMarketDayRange	110.26 - 110.28
-regularMarketOpen	110.26
-regularMarketPreviousClose	110.23
-regularMarketPrice	110.27
-regularMarketTime	1795200052
-regularMarketVolume	3889726
+regularMarketDayLow	110.27
+regularMarketDayRange	110.27 - 110.28
+regularMarketOpen	110.27
+regularMarketPreviousClose	110.28
+regularMarketPrice	110.28
+regularMarketTime	1795467614
+regularMarketVolume	3407116
 shortName	iShares 0-1 Year Treasury Bond 
 sourceInterval	15
 symbol	SHV
-threeYearAverageReturn	0.0437783
+threeYearAverageReturn	0.0439361
 totalAssets	21425623040
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -92,10 +93,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	0.91748
 trailingThreeMonthReturns	0.91748
 triggerable	True
-twoHundredDayAverage	110.2211
-twoHundredDayAverageChange	0.04889679
-twoHundredDayAverageChangePercent	0.0004436246
+twoHundredDayAverage	110.2217
+twoHundredDayAverageChange	0.058296204
+twoHundredDayAverageChangePercent	0.0005288995
 typeDisp	ETF
-volume	3889726
+volume	3407116
 yield	0.0363
 ytdReturn	2.95645

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.29010445
-SandP52WeekChange	0.08675468
+52WeekChange	-0.31221956
+SandP52WeekChange	0.0306139
 address1	4250 Congress Street
 address2	Suite 900
 allTimeHigh	334.55
 allTimeLow	6.125
-ask	81.3
-askSize	100
+ask	84.0
+askSize	200
 auditRisk	9
 averageAnalystRating	1.8 - Buy
-averageDailyVolume10Day	1943320
-averageDailyVolume3Month	2433525
-averageVolume	2433525
-averageVolume10days	1943320
+averageDailyVolume10Day	2090440
+averageDailyVolume3Month	2443109
+averageVolume	2443109
+averageVolume10days	2090440
 beta	1.358
-bid	81.2
+bid	81.8
 bidSize	200
 boardRisk	7
 bookValue	70.388
@@ -26,17 +26,17 @@ corporateActions	[{'header': 'Dividend', 'message': 'ALB announced a cash divide
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	81.55
+currentPrice	82.58
 currentRatio	2.344
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	84.84
-dayLow	81.051
+dayHigh	84.305
+dayLow	81.3
 debtToEquity	18.467
 displayName	Albemarle
 dividendDate	1799020800
 dividendRate	1.64
-dividendYield	1.98
+dividendYield	2.06
 earningsCallTimestampEnd	1793883600
 earningsCallTimestampStart	1793883600
 earningsQuarterlyGrowth	19.962
@@ -45,9 +45,9 @@ earningsTimestampEnd	1793826000
 earningsTimestampStart	1793826000
 ebitda	1696167936
 ebitdaMargins	0.27566
-enterpriseToEbitda	7.341
-enterpriseToRevenue	2.024
-enterpriseValue	12452289536
+enterpriseToEbitda	7.117
+enterpriseToRevenue	1.962
+enterpriseValue	12071117824
 epsCurrentYear	10.45239
 epsForward	7.66276
 epsTrailingTwelveMonths	4.15
@@ -59,41 +59,42 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	980 299 5512
-fiftyDayAverage	100.3732
-fiftyDayAverageChange	-18.823196
-fiftyDayAverageChangePercent	-0.1875321
-fiftyTwoWeekChangePercent	-29.010445
+fiftyDayAverage	99.6168
+fiftyDayAverageChange	-17.036797
+fiftyDayAverageChangePercent	-0.17102332
+fiftyTwoWeekChangePercent	-31.221956
 fiftyTwoWeekHigh	221.0
-fiftyTwoWeekHighChange	-139.45
-fiftyTwoWeekHighChangePercent	-0.63099545
-fiftyTwoWeekLow	81.051
-fiftyTwoWeekLowChange	0.49900055
-fiftyTwoWeekLowChangePercent	0.006156624
-fiftyTwoWeekRange	81.051 - 221.0
+fiftyTwoWeekHighChange	-138.42
+fiftyTwoWeekHighChangePercent	-0.62633485
+fiftyTwoWeekLow	79.38
+fiftyTwoWeekLowChange	3.2000046
+fiftyTwoWeekLowChangePercent	0.04031248
+fiftyTwoWeekRange	79.38 - 221.0
 financialCurrency	USD
 firstTradeDateMilliseconds	761927400000
 fiveYearAvgDividendYield	1.01
 floatShares	117595634
 forwardEps	7.66276
-forwardPE	10.64238
+forwardPE	10.776796
 freeCashflow	1250136064
 fullExchangeName	NYSE
 fullTimeEmployees	7800
-fulldayChange	-1.3799973
-fulldayChangePercent	-1.6640507
-fulldayPrice	81.55
+fulldayChange	2.880005
+fulldayChangePercent	3.613557
+fulldayPrice	82.58
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.26166
 grossProfits	1610024960
 hasPrePostMarketData	True
 heldPercentInsiders	0.00204
-heldPercentInstitutions	1.03833
+heldPercentInstitutions	1.02912
 impliedSharesOutstanding	118009849
 industry	Specialty Chemicals
 industryDisp	Specialty Chemicals
 industryKey	specialty-chemicals
 irWebsite	http://phx.corporate-ir.net/phoenix.zhtml?c=117031&p=irol-IRHome
+isCMEFuture	False
 isEarningsDateEstimate	False
 language	en-US
 lastDividendDate	1789084800
@@ -104,16 +105,16 @@ lastSplitFactor	2:1
 longBusinessSummary	Albemarle Corporation provides energy storage solutions worldwide. It operates through three segments: Energy Storage, Specialties, and Ketjen. The Energy Storage segment offers lithium compounds, including lithium carbonate, lithium hydroxide, and lithium chloride for use in lithium batteries used in consumer electronics and electric vehicles; power grids and solar panels; high-performance greases; and specialty glass used in consumer appliances and electronics. The Specialties segment provides bromine and highly specialized lithium solutions for various industries, such as energy, mobility, connectivity, and health comprising fire safety compounds; bromine-based specialty chemical products, including elemental bromine, alkyl bromides, inorganic bromides, brominated powdered activated carbon, and various bromine fine chemicals; lithium specialties, such as butyllithium and lithium aluminum hydride; cesium products for the chemical and pharmaceutical industries; and zirconium, barium, and titanium products for pyrotechnical applications, including airbag initiators. This segment also provides organic synthesis processes in the areas of steroid chemistry and vitamins, and various life science applications, as well as intermediates for the pharmaceutical industry; technical services, including handling and use of reactive lithium products; and recycling services for lithium-containing by-products. The Ketjen segment offers clean fuels technologies, including hydroprocessing catalysts together with isomerization and alkylation catalysts; fluidized catalytic cracking catalysts and additives; and performance catalyst solutions comprising organometallics and curatives. It serves the grid storage, automotive, aerospace, conventional energy, electronics, construction, agriculture and food, pharmaceuticals, and medical device industries. Albemarle Corporation was founded in 1887 and is headquartered in Charlotte, North Carolina.
 longName	Albemarle Corporation
 market	us_market
-marketCap	9623703552
-marketState	REGULAR
+marketCap	9745253376
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_18671
 mostRecentQuarter	1790726400
 netIncomeToCommon	514880992
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	9786556777
+nonDilutedMarketCap	9405384965
 numberOfAnalystOpinions	21
-open	82.245
+open	84.1
 operatingCashflow	1850521984
 operatingMargins	0.17072001
 overallRisk	7
@@ -122,13 +123,13 @@ pegRatio	0.79
 phone	980 299 5700
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	85.82
-postMarketTime	1795037553
-previousClose	82.93
-priceEpsCurrentYear	7.802044
+postMarketPrice	82.58
+postMarketTime	1795474702
+previousClose	79.7
+priceEpsCurrentYear	7.9005857
 priceHint	2
-priceToBook	1.1585782
-priceToSalesTrailing12Months	1.5640231
+priceToBook	1.1732113
+priceToSalesTrailing12Months	1.5837772
 profitMargins	0.11078
 quickRatio	1.438
 quoteSourceName	Nasdaq Real Time Price
@@ -136,16 +137,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.81818
 region	US
-regularMarketChange	-1.3799973
-regularMarketChangePercent	-1.6640507
-regularMarketDayHigh	84.84
-regularMarketDayLow	81.051
-regularMarketDayRange	81.051 - 84.84
-regularMarketOpen	82.245
-regularMarketPreviousClose	82.93
-regularMarketPrice	81.55
-regularMarketTime	1795199904
-regularMarketVolume	1867488
+regularMarketChange	2.88
+regularMarketChangePercent	3.61356
+regularMarketDayHigh	84.305
+regularMarketDayLow	81.3
+regularMarketDayRange	81.3 - 84.305
+regularMarketOpen	84.1
+regularMarketPreviousClose	79.7
+regularMarketPrice	82.58
+regularMarketTime	1795467603
+regularMarketVolume	2438900
 returnOnAssets	0.03951
 returnOnEquity	0.07047
 revenueGrowth	0.188
@@ -175,15 +176,15 @@ totalDebt	1998168064
 totalRevenue	6153171968
 tradeable	False
 trailingAnnualDividendRate	1.625
-trailingAnnualDividendYield	0.019594839
+trailingAnnualDividendYield	0.020388959
 trailingEps	4.15
-trailingPE	19.650602
+trailingPE	19.898796
 trailingPegRatio	0.7941
 triggerable	True
-twoHundredDayAverage	144.00755
-twoHundredDayAverageChange	-62.45755
-twoHundredDayAverageChangePercent	-0.43371025
+twoHundredDayAverage	143.62366
+twoHundredDayAverageChange	-61.043655
+twoHundredDayAverageChangePercent	-0.42502508
 typeDisp	Equity
-volume	1867488
+volume	2438900
 website	https://www.albemarle.com
 zip	28209

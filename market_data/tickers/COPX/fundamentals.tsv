@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	99.99
 allTimeLow	8.66
-ask	57.22
-askSize	200
-averageDailyVolume10Day	4743910
-averageDailyVolume3Month	3097126
-averageVolume	3097126
-averageVolume10days	4743910
+ask	60.19
+askSize	1000
+averageDailyVolume10Day	5220430
+averageDailyVolume3Month	3118685
+averageVolume	3118685
+averageVolume10days	5220430
 beta3Year	1.57
-bid	57.14
-bidSize	300
+bid	60.15
+bidSize	200
 category	Natural Resources
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	59.37
-dayLow	56.78
+dayHigh	61.94
+dayLow	59.825
 dividendYield	2.66
 epsTrailingTwelveMonths	4.55614
 esgPopulated	False
@@ -26,74 +26,75 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	78.9302
-fiftyDayAverageChange	-21.820198
-fiftyDayAverageChangePercent	-0.2764493
-fiftyTwoWeekChangePercent	1.5242338
+fiftyDayAverage	78.2862
+fiftyDayAverageChange	-18.1362
+fiftyDayAverageChangePercent	-0.23166534
+fiftyTwoWeekChangePercent	-6.132311
 fiftyTwoWeekHigh	99.99
-fiftyTwoWeekHighChange	-42.879997
-fiftyTwoWeekHighChangePercent	-0.42884287
-fiftyTwoWeekLow	56.78
-fiftyTwoWeekLowChange	0.33000183
-fiftyTwoWeekLowChangePercent	0.005811938
-fiftyTwoWeekRange	56.78 - 99.99
+fiftyTwoWeekHighChange	-39.839996
+fiftyTwoWeekHighChangePercent	-0.39843982
+fiftyTwoWeekLow	56.14
+fiftyTwoWeekLowChange	4.010002
+fiftyTwoWeekLowChangePercent	0.07142861
+fiftyTwoWeekRange	56.14 - 99.99
 firstTradeDateMilliseconds	1271770200000
-fiveYearAverageReturn	0.1381512
+fiveYearAverageReturn	0.1195927
 fullExchangeName	NYSEArca
-fulldayChange	-2.1699982
-fulldayChangePercent	-3.6599734
-fulldayPrice	57.11
+fulldayChange	4.2599983
+fulldayChangePercent	7.5625744
+fulldayPrice	60.59
 fundFamily	Global X Funds
 fundInceptionDate	1271635200
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index and in American Depositary Receipts ("ADRs") and Global Depositary Receipts ("GDRs") based on the securities in the underlying index. The underlying index is designed to measure broad-based equity market performance of global companies involved in the copper mining industry. The fund is non-diversified.
 longName	Global X Copper Miners ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_102327242
-navPrice	60.27
+navPrice	57.28
 netAssets	6328031700.0
 netExpenseRatio	0.65
-open	58.2
+open	61.04
 phone	+1 8884938631
-postMarketChange	0.40999985
-postMarketChangePercent	0.6700439
-postMarketPrice	61.6
-postMarketTime	1795044420
-previousClose	59.28
+postMarketChange	0.43999863
+postMarketChangePercent	0.7315023
+postMarketPrice	60.59
+postMarketTime	1795473865
+previousClose	56.33
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-2.1699982
-regularMarketChangePercent	-3.6599734
-regularMarketDayHigh	59.37
-regularMarketDayLow	56.78
-regularMarketDayRange	56.78 - 59.37
-regularMarketOpen	58.2
-regularMarketPreviousClose	59.28
-regularMarketPrice	57.11
-regularMarketTime	1795199964
-regularMarketVolume	3639056
+regularMarketChange	3.82
+regularMarketChangePercent	6.78147
+regularMarketDayHigh	61.94
+regularMarketDayLow	59.825
+regularMarketDayRange	59.825 - 61.94
+regularMarketOpen	61.04
+regularMarketPreviousClose	56.33
+regularMarketPrice	60.15
+regularMarketTime	1795467600
+regularMarketVolume	6318581
 shortName	Global X Copper Miners ETF
 sourceInterval	15
 symbol	COPX
-threeYearAverageReturn	0.24019091
+threeYearAverageReturn	0.2008291
 totalAssets	6328031744
 tradeable	False
-trailingPE	12.534734
+trailingPE	13.201965
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-8.15706
 trailingThreeMonthReturns	-8.15706
 triggerable	True
-twoHundredDayAverage	82.26745
-twoHundredDayAverageChange	-25.157448
-twoHundredDayAverageChangePercent	-0.30580077
+twoHundredDayAverage	82.14255
+twoHundredDayAverageChange	-21.992546
+twoHundredDayAverageChangePercent	-0.26773635
 typeDisp	ETF
-volume	3639056
+volume	6318581
 yield	0.026600001
 ytdReturn	0.89706

@@ -2,22 +2,22 @@ Metric	Value
 allTimeHigh	100.75
 allTimeLow	99.96
 ask	0.0
-askSize	760200
-averageDailyVolume10Day	24479060
-averageDailyVolume3Month	23090948
-averageVolume	23090948
-averageVolume10days	24479060
+askSize	668000
+averageDailyVolume10Day	26400920
+averageDailyVolume3Month	23511217
+averageVolume	23511217
+averageVolume10days	26400920
 beta3Year	0.0
 bid	0.0
-bidSize	703300
+bidSize	586400
 category	Ultrashort Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	100.64
-dayLow	100.63
+dayHigh	100.65
+dayLow	100.64
 displayName	0-3 Month Treasury Bond ETF
 dividendYield	3.64
 esgPopulated	False
@@ -26,10 +26,10 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	100.5644
-fiftyDayAverageChange	0.07559967
-fiftyDayAverageChangePercent	0.0007517538
-fiftyTwoWeekChangePercent	0.009942055
+fiftyDayAverage	100.5668
+fiftyDayAverageChange	0.07319641
+fiftyDayAverageChangePercent	0.0007278387
+fiftyTwoWeekChangePercent	0.029814243
 fiftyTwoWeekHigh	100.74
 fiftyTwoWeekHighChange	-0.099998474
 fiftyTwoWeekHighChangePercent	-0.0009926392
@@ -38,61 +38,62 @@ fiftyTwoWeekLowChange	0.37000275
 fiftyTwoWeekLowChangePercent	0.0036900644
 fiftyTwoWeekRange	100.27 - 100.74
 firstTradeDateMilliseconds	1591018200000
-fiveYearAverageReturn	0.038891397
+fiveYearAverageReturn	0.038974
 fullExchangeName	NYSE
-fulldayChange	0.02999878
-fulldayChangePercent	0.029816896
-fulldayPrice	100.64
+fulldayChange	0.010002136
+fulldayChangePercent	0.00993853
+fulldayPrice	100.65
 fundFamily	iShares
 fundInceptionDate	1590451200
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity of less than or equal to three months. The fund will invest at least 80% of its assets in the component securities of the underlying index, and the fund will invest at least 90% of its assets in U.S. Treasury securities that BFA believes will help the fund track the underlying index.
 longName	iShares 0-3 Month Treasury Bond ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_662509181
-navPrice	100.59979
+navPrice	100.63213
 netAssets	116836942000.0
 netExpenseRatio	0.09
-open	100.63
+open	100.65
 phone	415-670-2000
-postMarketChange	-0.0073013306
-postMarketChangePercent	-0.007257784
-postMarketPrice	100.5927
-postMarketTime	1795046578
-previousClose	100.61
+postMarketChange	0.010002136
+postMarketChangePercent	0.00993853
+postMarketPrice	100.65
+postMarketTime	1795475189
+previousClose	100.64
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.02999878
-regularMarketChangePercent	0.029816896
-regularMarketDayHigh	100.64
-regularMarketDayLow	100.63
-regularMarketDayRange	100.63 - 100.64
-regularMarketOpen	100.63
-regularMarketPreviousClose	100.61
+regularMarketChange	0.0
+regularMarketChangePercent	0.0
+regularMarketDayHigh	100.65
+regularMarketDayLow	100.64
+regularMarketDayRange	100.64 - 100.65
+regularMarketOpen	100.65
+regularMarketPreviousClose	100.64
 regularMarketPrice	100.64
-regularMarketTime	1795200062
-regularMarketVolume	26395288
+regularMarketTime	1795467618
+regularMarketVolume	37020751
 shortName	iShares 0-3 Month Treasury Bond
 sourceInterval	15
 symbol	SGOV
-threeYearAverageReturn	0.044703897
+threeYearAverageReturn	0.044807702
 totalAssets	116836941824
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	0.9379
 trailingThreeMonthReturns	0.9379
 triggerable	True
-twoHundredDayAverage	100.54405
-twoHundredDayAverageChange	0.095947266
-twoHundredDayAverageChangePercent	0.0009542809
+twoHundredDayAverage	100.54525
+twoHundredDayAverageChange	0.09474945
+twoHundredDayAverageChangePercent	0.0009423563
 typeDisp	ETF
-volume	26395288
+volume	37020751
 yield	0.0364
 ytdReturn	3.07181

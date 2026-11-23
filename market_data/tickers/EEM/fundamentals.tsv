@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	71.57
 allTimeLow	11.144444
-ask	54.47
-askSize	16400
-averageDailyVolume10Day	29824960
-averageDailyVolume3Month	22220887
-averageVolume	22220887
-averageVolume10days	29824960
+ask	57.83
+askSize	18200
+averageDailyVolume10Day	31950210
+averageDailyVolume3Month	22919045
+averageVolume	22919045
+averageVolume10days	31950210
 beta3Year	1.07
-bid	54.46
+bid	57.8
 bidSize	5700
 bookValue	52.559
 category	Diversified Emerging Mkts
@@ -17,8 +17,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	56.08
-dayLow	54.25
+dayHigh	58.82
+dayLow	57.66
 displayName	MSCI Emerging Markets ETF
 dividendYield	1.83
 epsTrailingTwelveMonths	4.2592454
@@ -28,79 +28,80 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	64.012
-fiftyDayAverageChange	-9.542
-fiftyDayAverageChangePercent	-0.1490658
-fiftyTwoWeekChangePercent	6.873822
+fiftyDayAverage	63.732
+fiftyDayAverageChange	-5.9019966
+fiftyDayAverageChangePercent	-0.09260649
+fiftyTwoWeekChangePercent	0.33544302
 fiftyTwoWeekHigh	71.57
-fiftyTwoWeekHighChange	-17.099998
-fiftyTwoWeekHighChangePercent	-0.2389269
-fiftyTwoWeekLow	52.38
-fiftyTwoWeekLowChange	2.0900002
-fiftyTwoWeekLowChangePercent	0.039900728
-fiftyTwoWeekRange	52.38 - 71.57
+fiftyTwoWeekHighChange	-13.739998
+fiftyTwoWeekHighChangePercent	-0.19197986
+fiftyTwoWeekLow	52.58
+fiftyTwoWeekLowChange	5.25
+fiftyTwoWeekLowChangePercent	0.099847846
+fiftyTwoWeekRange	52.58 - 71.57
 financialCurrency	USD
 firstTradeDateMilliseconds	1050327000000
-fiveYearAverageReturn	0.0501476
+fiveYearAverageReturn	0.0353853
 fullExchangeName	NYSEArca
-fulldayChange	-2.2799988
-fulldayChangePercent	-4.017973
-fulldayPrice	54.47
+fulldayChange	3.9900017
+fulldayChangePercent	7.4108505
+fulldayPrice	57.83
 fundFamily	iShares
 fundInceptionDate	1049673600
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund generally will invest at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index. The index is designed to measure equity market performance in the global emerging markets. The underlying index includes large- and mid-capitalization companies and may change over time.
 longName	iShares MSCI Emerging Markets ETF
 market	us_market
 marketCap	47393677312
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_8797528
-navPrice	56.55042
+navPrice	53.9787
 netAssets	28246675500.0
 netExpenseRatio	0.72
-open	55.7
+open	58.81
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	57.88
-postMarketTime	1795045320
-previousClose	56.75
+postMarketPrice	57.83
+postMarketTime	1795472911
+previousClose	53.84
 priceHint	2
-priceToBook	1.0363592
-quoteSourceName	Nasdaq Real Time Price
+priceToBook	1.1002873
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-2.2799988
-regularMarketChangePercent	-4.017973
-regularMarketDayHigh	56.08
-regularMarketDayLow	54.25
-regularMarketDayRange	54.25 - 56.08
-regularMarketOpen	55.7
-regularMarketPreviousClose	56.75
-regularMarketPrice	54.47
-regularMarketTime	1795199981
-regularMarketVolume	34836696
+regularMarketChange	3.99
+regularMarketChangePercent	7.41085
+regularMarketDayHigh	58.82
+regularMarketDayLow	57.66
+regularMarketDayRange	57.66 - 58.82
+regularMarketOpen	58.81
+regularMarketPreviousClose	53.84
+regularMarketPrice	57.83
+regularMarketTime	1795467600
+regularMarketVolume	59668681
 sharesOutstanding	752400000
 shortName	iShares MSCI Emerging Index Fun
 sourceInterval	15
 symbol	EEM
-threeYearAverageReturn	0.16463579
+threeYearAverageReturn	0.1322037
 totalAssets	28246675456
 tradeable	False
 trailingAnnualDividendRate	0.76
-trailingAnnualDividendYield	0.01339207
-trailingPE	12.7886505
+trailingAnnualDividendYield	0.014115899
+trailingPE	13.577523
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-5.3863
 trailingThreeMonthReturns	-5.3863
 triggerable	True
-twoHundredDayAverage	63.9401
-twoHundredDayAverageChange	-9.4701
-twoHundredDayAverageChangePercent	-0.14810893
+twoHundredDayAverage	63.91665
+twoHundredDayAverageChange	-6.086647
+twoHundredDayAverageChangePercent	-0.09522788
 typeDisp	ETF
-volume	34836696
+volume	59668681
 yield	0.0183
 ytdReturn	11.93237

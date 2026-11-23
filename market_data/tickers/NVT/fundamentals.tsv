@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.07508707
-SandP52WeekChange	0.08675468
+52WeekChange	-0.021709919
+SandP52WeekChange	0.0306139
 address1	The Mille
 address2	8th Floor (East) 1000 Great West Road
 allTimeHigh	184.64
 allTimeLow	10.535
-ask	102.0
-askSize	200
+ask	115.0
+askSize	300
 auditRisk	2
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	3221940
-averageDailyVolume3Month	2733903
-averageVolume	2733903
-averageVolume10days	3221940
+averageDailyVolume10Day	3029790
+averageDailyVolume3Month	2761175
+averageVolume	2761175
+averageVolume10days	3029790
 beta	1.381
-bid	101.87
-bidSize	300
+bid	107.0
+bidSize	500
 boardRisk	2
 bookValue	25.449
 city	London
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United Kingdom
 cryptoTradeable	False
 currency	USD
-currentPrice	101.86
+currentPrice	111.92
 currentRatio	2.395
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	107.0
-dayLow	100.2947
+dayHigh	114.44
+dayLow	110.78
 debtToEquity	57.043
-discount_to_intrinsic_value	51.3
+discount_to_intrinsic_value	48.08
 displayName	nVent Electric
 dividendDate	1793923200
 dividendRate	0.84
-dividendYield	0.78
+dividendYield	0.82
 earningsCallTimestampEnd	1793365200
 earningsCallTimestampStart	1793365200
 earningsGrowth	0.654
@@ -47,9 +47,9 @@ earningsTimestampEnd	1793363400
 earningsTimestampStart	1793363400
 ebitda	1165100032
 ebitdaMargins	0.22004
-enterpriseToEbitda	16.044
-enterpriseToRevenue	3.53
-enterpriseValue	18692849664
+enterpriseToEbitda	15.176
+enterpriseToRevenue	3.339
+enterpriseValue	17681246208
 epsCurrentYear	5.38343
 epsForward	7.03176
 epsTrailingTwelveMonths	4.12
@@ -61,41 +61,42 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	141.5456
-fiftyDayAverageChange	-39.685593
-fiftyDayAverageChangePercent	-0.28037322
-fiftyTwoWeekChangePercent	7.508707
+fiftyDayAverage	140.3348
+fiftyDayAverageChange	-28.414795
+fiftyDayAverageChangePercent	-0.20247862
+fiftyTwoWeekChangePercent	-2.170992
 fiftyTwoWeekHigh	184.64
-fiftyTwoWeekHighChange	-82.78
-fiftyTwoWeekHighChangePercent	-0.4483319
+fiftyTwoWeekHighChange	-72.72
+fiftyTwoWeekHighChangePercent	-0.3938475
 fiftyTwoWeekLow	93.22
-fiftyTwoWeekLowChange	8.639999
-fiftyTwoWeekLowChangePercent	0.09268396
+fiftyTwoWeekLowChange	18.699997
+fiftyTwoWeekLowChangePercent	0.2006007
 fiftyTwoWeekRange	93.22 - 184.64
 financialCurrency	USD
 firstTradeDateMilliseconds	1524576600000
 fiveYearAvgDividendYield	1.05
-floatShares	160846629
+floatShares	160773910
 forwardEps	7.03176
-forwardPE	14.485704
+forwardPE	15.916356
 freeCashflow	503687488
 fullExchangeName	NYSE
 fullTimeEmployees	12000
-fulldayChange	-6.239998
-fulldayChangePercent	-5.772431
-fulldayPrice	101.86
+fulldayChange	10.080002
+fulldayChangePercent	9.8978815
+fulldayPrice	111.92
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
-graham_intrinsic_value	209.17
+graham_intrinsic_value	215.55
 grossMargins	0.36174
 grossProfits	1915399936
 hasPrePostMarketData	True
 heldPercentInsiders	0.0080699995
-heldPercentInstitutions	0.98920995
+heldPercentInstitutions	0.98070997
 impliedSharesOutstanding	161598060
 industry	Electrical Equipment & Parts
 industryDisp	Electrical Equipment & Parts
 industryKey	electrical-equipment-parts
+isCMEFuture	False
 isEarningsDateEstimate	False
 language	en-US
 lastDividendDate	1792713600
@@ -104,48 +105,48 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	nVent Electric plc designs, manufactures, markets, installs, and services electrical connection and protection solutions in the America, Europe, the Middle East, India, Africa, the Asia Pacific, and internationally. It operates in two segments, Systems Protection and Electrical Connections. The company provides solutions to protect electronics, systems, and data in mission critical applications, including data centers. It also offers solutions that connect power and data infrastructure. In addition, the company provides bus systems, cable management, control buildings, liquid and air-cooling solutions, electrical connections, enclosures, equipment protection, power connections, and power management solutions, switchgear systems, as well as tools and test instruments. The company markets its products through electrical distributors, retail, contractors, and original equipment manufacturers under the nVent CADDY, ERICO, HOFFMAN, ILSCO, SCHROFF, and TRACHTE brand names. Its products are used for various applications, such as industrial, commercial and residential, infrastructure, and energy. The company was founded in 1903 and is based in London, the United Kingdom.
 longName	nVent Electric plc
 market	us_market
-marketCap	16460379136
-marketState	REGULAR
+marketCap	18086055936
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_542155250
 mostRecentQuarter	1790726400
 netIncomeToCommon	674400000
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	23898324693
+nonDilutedMarketCap	16457146430
 numberOfAnalystOpinions	18
-open	105.0
+open	114.0
 operatingCashflow	773900032
 operatingMargins	0.17708999
 overallRisk	1
 payoutRatio	0.2015
-pegRatio	0.57
+pegRatio	0.53
 phone	44 20 3966 0279
-postMarketChange	-0.29000092
-postMarketChangePercent	-0.2639011
-postMarketPrice	109.6
-postMarketTime	1795036220
-previousClose	108.1
-priceEpsCurrentYear	18.921022
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	111.92
+postMarketTime	1795470733
+previousClose	101.84
+priceEpsCurrentYear	20.789719
 priceHint	2
-priceToBook	4.002515
-priceToSalesTrailing12Months	3.1087232
+priceToBook	4.397815
+priceToSalesTrailing12Months	3.41575
 profitMargins	0.12833
 quickRatio	1.845
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.25
 region	US
-regularMarketChange	-6.239998
-regularMarketChangePercent	-5.772431
-regularMarketDayHigh	107.0
-regularMarketDayLow	100.2947
-regularMarketDayRange	100.2947 - 107.0
-regularMarketOpen	105.0
-regularMarketPreviousClose	108.1
-regularMarketPrice	101.86
-regularMarketTime	1795200040
-regularMarketVolume	1317061
+regularMarketChange	10.08
+regularMarketChangePercent	9.89788
+regularMarketDayHigh	114.44
+regularMarketDayLow	110.78
+regularMarketDayRange	110.78 - 114.44
+regularMarketOpen	114.0
+regularMarketPreviousClose	101.84
+regularMarketPrice	111.92
+regularMarketTime	1795467602
+regularMarketVolume	3586485
 returnOnAssets	0.07883
 returnOnEquity	0.17423001
 revenueGrowth	0.437
@@ -166,7 +167,7 @@ sourceInterval	15
 symbol	NVT
 targetHighPrice	233.0
 targetLowPrice	139.0
-targetMeanPrice	197.55556
+targetMeanPrice	197.11111
 targetMedianPrice	200.0
 totalCash	1121799936
 totalCashPerShare	6.942
@@ -174,15 +175,15 @@ totalDebt	2345900032
 totalRevenue	5294900224
 tradeable	False
 trailingAnnualDividendRate	0.83
-trailingAnnualDividendYield	0.0076780757
+trailingAnnualDividendYield	0.008150039
 trailingEps	4.12
-trailingPE	24.7233
-trailingPegRatio	0.5733
+trailingPE	27.165049
+trailingPegRatio	0.5313
 triggerable	True
-twoHundredDayAverage	144.88205
-twoHundredDayAverageChange	-43.02205
-twoHundredDayAverageChangePercent	-0.29694533
+twoHundredDayAverage	144.8219
+twoHundredDayAverageChange	-32.9019
+twoHundredDayAverageChangePercent	-0.22718872
 typeDisp	Equity
-volume	1317061
+volume	3586485
 website	https://www.nvent.com
 zip	TW8 9DW

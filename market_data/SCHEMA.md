@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-11-20 |
-| Source | str | Google |
-| Sentiment | float64 | 0.0 |
-| Headline | str | Growing Wealth With Gold And China - Seeking Alpha |
-| Summary | str | When even a policymaker known for patience star... |
-| URL | str | https://news.google.com/rss/articles/CBMigAFBVV... |
+| Date | str | 2026-11-23 |
+| Source | str | Yahoo |
+| Sentiment | float64 | 0.3 |
+| Headline | str | SPY And Gold Fell Together. Did Bonds Save 60/40? |
+| Summary | str | Update, Nov 23: In Monday morning trading, SPY ... |
+| URL | str | https://www.trefis.com/stock/spy/articles/62755... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News
@@ -40,7 +40,7 @@ This report documents the file structures and column data types used in `market_
 | Summary | float64 | nan |
 | URL | str | https://news.google.com/rss/articles/CBMigwFBVV... |
 
-## 2. Macro Files
+## 3. Macro Files
 ### `market_data/macro/economic_indicators.tsv` - Economic Indicators
 | Indicator (Column) | Type | Example |
 |---|---|---|
@@ -52,10 +52,10 @@ This report documents the file structures and column data types used in `market_
 | TECH_PULSE | float64 | 95.6264 |
 | CHINA_IMPORTS | float64 | 31484.5938 |
 | TARIFFS | float64 | 275.296 |
-| USD_INDEX | float64 | 122.6503 |
-| USD_CNY | float64 | 6.671 |
-| USD_EUR | float64 | 1.1034 |
-| USD_JPY | float64 | 159.93 |
+| USD_INDEX | float64 | 123.5978 |
+| USD_CNY | float64 | 6.677 |
+| USD_EUR | float64 | 1.0981 |
+| USD_JPY | float64 | 158.76 |
 | FOOD_CPI | float64 | 352.359 |
 | CORN_PRICE | float64 | 236.9161 |
 | WHEAT_PRICE | float64 | 246.8518 |
@@ -83,26 +83,26 @@ This report documents the file structures and column data types used in `market_
 | FED_ASSETS | float64 | 6741452.0 |
 | CPI | float64 | 337.476 |
 | FEDFUNDS | float64 | 3.88 |
-| US02Y | float64 | 4.8 |
-| US10Y | float64 | 5.07 |
-| US30Y | float64 | 5.41 |
-| HY_SPREAD | float64 | 3.52 |
-| CORP_SPREAD | float64 | 0.94 |
-| BAA_SPREAD | float64 | 1.52 |
-| AAA_SPREAD | float64 | 1.06 |
+| US02Y | float64 | 4.63 |
+| US10Y | float64 | 4.92 |
+| US30Y | float64 | 5.31 |
+| HY_SPREAD | float64 | 3.76 |
+| CORP_SPREAD | float64 | 0.98 |
+| BAA_SPREAD | float64 | 1.61 |
+| AAA_SPREAD | float64 | 1.15 |
 | FEDFUNDS_UPPER | float64 | 4.0 |
-| SOFR | float64 | 3.91 |
-| US03M | float64 | 4.34 |
-| US01Y | float64 | 4.62 |
-| US05Y | float64 | 4.89 |
-| US10Y_REAL | float64 | 2.88 |
-| BREAKEVEN_10Y | float64 | 2.16 |
+| SOFR | float64 | 3.92 |
+| US03M | float64 | 4.32 |
+| US01Y | float64 | 4.51 |
+| US05Y | float64 | 4.71 |
+| US10Y_REAL | float64 | 2.77 |
+| BREAKEVEN_10Y | float64 | 2.13 |
 | TERM_PREMIUM_10Y | float64 | 0.9864 |
-| HY_YIELD | float64 | 8.35 |
-| CORP_YIELD | float64 | 5.91 |
-| US_POLICY_UNCERTAINTY | float64 | 162.28 |
+| HY_YIELD | float64 | 8.46 |
+| CORP_YIELD | float64 | 5.84 |
+| US_POLICY_UNCERTAINTY | float64 | 259.27 |
 | EUROPE_POLICY_UNCERTAINTY | float64 | 373.5523 |
 | GLOBAL_POLICY_UNCERTAINTY | float64 | 241.6905 |
 | ST_LOUIS_FIN_STRESS | float64 | -0.8655 |
 | KANSAS_CITY_FIN_STRESS | float64 | -0.885 |
-| CHICAGO_FED_ACTIVITY | float64 | 0.07 |
+| CHICAGO_FED_ACTIVITY | float64 | -0.06 |

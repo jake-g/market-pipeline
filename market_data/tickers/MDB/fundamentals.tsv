@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	-0.075253725
-SandP52WeekChange	0.08675468
+52WeekChange	-0.13528717
+SandP52WeekChange	0.0306139
 address1	1633 Broadway
 address2	38th Floor
 allTimeHigh	590.0
@@ -9,10 +9,10 @@ ask	320.38
 askSize	1
 auditRisk	1
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	1091840
-averageDailyVolume3Month	2137557
-averageVolume	2137557
-averageVolume10days	1091840
+averageDailyVolume10Day	1132660
+averageDailyVolume3Month	2148642
+averageVolume	2148642
+averageVolume10days	1132660
 beta	1.743
 bid	327.69
 bidSize	1
@@ -26,12 +26,12 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	288.54
+currentPrice	312.69
 currentRatio	4.866
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	300.58
-dayLow	284.48
+dayHigh	316.9699
+dayLow	301.04
 debtToEquity	1.846
 displayName	MongoDB
 dividendYield	0.0
@@ -42,11 +42,11 @@ earningsTimestampEnd	1796158800
 earningsTimestampStart	1796158800
 ebitda	13854000
 ebitdaMargins	0.0049799997
-enterpriseToEbitda	1556.936
-enterpriseToRevenue	7.751
-enterpriseValue	21569798144
+enterpriseToEbitda	1492.336
+enterpriseToRevenue	7.43
+enterpriseValue	20674816000
 epsCurrentYear	6.55473
-epsForward	7.92293
+epsForward	7.92265
 epsTrailingTwelveMonths	0.72
 esgPopulated	False
 exchange	NGM
@@ -54,70 +54,71 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	360.1476
-fiftyDayAverageChange	-71.607605
-fiftyDayAverageChangePercent	-0.19882849
-fiftyTwoWeekChangePercent	-7.5253725
+fiftyDayAverage	358.6214
+fiftyDayAverageChange	-45.931396
+fiftyDayAverageChangePercent	-0.12807769
+fiftyTwoWeekChangePercent	-13.528717
 fiftyTwoWeekHigh	473.1
-fiftyTwoWeekHighChange	-184.56
-fiftyTwoWeekHighChangePercent	-0.39010778
+fiftyTwoWeekHighChange	-160.41
+fiftyTwoWeekHighChangePercent	-0.3390615
 fiftyTwoWeekLow	215.68
-fiftyTwoWeekLowChange	72.860016
-fiftyTwoWeekLowChangePercent	0.33781537
+fiftyTwoWeekLowChange	97.01001
+fiftyTwoWeekLowChangePercent	0.44978678
 fiftyTwoWeekRange	215.68 - 473.1
 financialCurrency	USD
 firstTradeDateMilliseconds	1508419800000
 floatShares	78584322
-forwardEps	7.92293
-forwardPE	36.418346
+forwardEps	7.92265
+forwardPE	39.467857
 freeCashflow	561356224
 fullExchangeName	NasdaqGM
 fullTimeEmployees	5783
-fulldayChange	-8.470001
-fulldayChangePercent	-2.851756
-fulldayPrice	288.54
+fulldayChange	26.803009
+fulldayChangePercent	9.374959
+fulldayPrice	312.703
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.72688
 grossProfits	2022732032
 hasPrePostMarketData	True
 heldPercentInsiders	0.02615
-heldPercentInstitutions	0.95333
+heldPercentInstitutions	0.95338
 impliedSharesOutstanding	80556341
 industry	Software - Infrastructure
 industryDisp	Software - Infrastructure
 industryKey	software-infrastructure
+isCMEFuture	False
 isEarningsDateEstimate	False
 language	en-US
 lastFiscalYearEnd	1769817600
 longBusinessSummary	MongoDB, Inc., together with its subsidiaries, provides general purpose database platform worldwide. The company offers MongoDB Atlas, a hosted multi-cloud database-as-a-service solution; MongoDB Enterprise Advanced, a commercial database server for enterprise customers to run in the cloud, on-premises, or in a hybrid environment; and Community Server, a free-to-download version of its database, which includes the functionality that developers need to get started with MongoDB. It offers professional services comprising consulting and training. The company was formerly known as 10gen, Inc. and changed its name to MongoDB, Inc. in August 2013. MongoDB, Inc. was incorporated in 2007 and is headquartered in New York, New York.
 longName	MongoDB, Inc.
 market	us_market
-marketCap	23243728896
-marketState	REGULAR
+marketCap	25189163008
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_46952162
 mostRecentQuarter	1785456000
 netIncomeToCommon	58897000
 nextFiscalYearEnd	1801353600
-nonDilutedMarketCap	24707435348
+nonDilutedMarketCap	23031057891
 numberOfAnalystOpinions	38
-open	290.84
+open	310.15
 operatingCashflow	666622976
 operatingMargins	-0.00468
 overallRisk	5
 payoutRatio	0.0
 pegRatio	1.67
 phone	646 727 4092
-postMarketChange	4.181305
-postMarketChangePercent	1.3632764
-postMarketPrice	310.8913
-postMarketTime	1795045537
-previousClose	297.01
-priceEpsCurrentYear	44.020123
+postMarketChange	0.013000488
+postMarketChangePercent	0.0041576284
+postMarketPrice	312.703
+postMarketTime	1795469688
+previousClose	285.9
+priceEpsCurrentYear	47.704483
 priceHint	2
-priceToBook	7.807452
-priceToSalesTrailing12Months	8.352731
+priceToBook	8.460914
+priceToSalesTrailing12Months	9.051831
 profitMargins	0.02116
 quickRatio	4.467
 quoteSourceName	Nasdaq Real Time Price
@@ -125,16 +126,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.53659
 region	US
-regularMarketChange	-8.470001
-regularMarketChangePercent	-2.851756
-regularMarketDayHigh	300.58
-regularMarketDayLow	284.48
-regularMarketDayRange	284.48 - 300.58
-regularMarketOpen	290.84
-regularMarketPreviousClose	297.01
-regularMarketPrice	288.54
-regularMarketTime	1795200026
-regularMarketVolume	780915
+regularMarketChange	26.790009
+regularMarketChangePercent	9.370413
+regularMarketDayHigh	316.9699
+regularMarketDayLow	301.04
+regularMarketDayRange	301.04 - 316.9699
+regularMarketOpen	310.15
+regularMarketPreviousClose	285.9
+regularMarketPrice	312.69
+regularMarketTime	1795467601
+regularMarketVolume	1216142
 returnOnAssets	-0.0022200001
 returnOnEquity	0.01989
 revenueGrowth	0.305
@@ -166,13 +167,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.72
-trailingPE	400.75
+trailingPE	434.29166
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	333.24506
-twoHundredDayAverageChange	-44.705048
-twoHundredDayAverageChangePercent	-0.13415067
+twoHundredDayAverage	333.04205
+twoHundredDayAverageChange	-20.35205
+twoHundredDayAverageChangePercent	-0.061109554
 typeDisp	Equity
-volume	780915
+volume	1216142
 website	https://www.mongodb.com
 zip	10019

@@ -10,14 +10,16 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 ![Congestion Timeline](rendered/shipping_timeline.png)
 
 ## Chokepoint Status
-| Chokepoint   |   Vessels |   Congestion Index |
-|--------------|-----------|--------------------|
-| Panama_Canal |         1 |               0.03 |
+| Chokepoint    |   Vessels |   Congestion Index |
+|---------------|-----------|--------------------|
+| Hormuz        |         2 |               0.03 |
+| Bab_el_Mandeb |        34 |               0.49 |
+| Suez_Canal    |        44 |               0.63 |
+| Panama_Canal  |        30 |               0.83 |
+| Taiwan_Strait |       223 |               1.01 |
+| Malacca       |       258 |               1.17 |
 
-Data as of 2026-11-16
-
-> [!WARNING]
-> Chokepoint data is **4 days stale** (last observation 2026-11-16). The IMF PortWatch `Daily_Chokepoints_Data` service is currently returning errors; values above are the last real observations and are **not** carried forward as current.
+Data as of 2026-11-15
 
 ## Major Port Calls (7-day avg vs prior 4 weeks)
 | Port                   | Country                  | Last Date   |   7d Avg Calls |   4w Avg Calls | Δ%     |   Container 7d |   Tanker 7d |

@@ -1,14 +1,14 @@
 Metric	Value
 allTimeHigh	167.61
 allTimeLow	17.04
-ask	155.54
-askSize	800
-averageDailyVolume10Day	1135230
-averageDailyVolume3Month	1137501
-averageVolume	1137501
-averageVolume10days	1135230
+ask	156.78
+askSize	300
+averageDailyVolume10Day	1174550
+averageDailyVolume3Month	1155509
+averageVolume	1155509
+averageVolume10days	1174550
 beta3Year	0.64
-bid	155.54
+bid	156.77
 bidSize	300
 category	Large Value
 companyOfficers	[]
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	158.24
-dayLow	155.25
+dayHigh	157.26
+dayLow	155.5425
 displayName	High Div Yield Idx Fd ETF
 dividendYield	2.24
 epsTrailingTwelveMonths	8.280837
@@ -27,73 +27,74 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	160.4132
-fiftyDayAverageChange	-4.683197
-fiftyDayAverageChangePercent	-0.029194588
-fiftyTwoWeekChangePercent	12.134194
+fiftyDayAverage	160.2322
+fiftyDayAverageChange	-3.3721924
+fiftyDayAverageChangePercent	-0.02104566
+fiftyTwoWeekChangePercent	8.957661
 fiftyTwoWeekHigh	167.61
-fiftyTwoWeekHighChange	-11.880005
-fiftyTwoWeekHighChangePercent	-0.070878856
-fiftyTwoWeekLow	138.63
-fiftyTwoWeekLowChange	17.09999
-fiftyTwoWeekLowChangePercent	0.12334985
-fiftyTwoWeekRange	138.63 - 167.61
+fiftyTwoWeekHighChange	-10.75
+fiftyTwoWeekHighChangePercent	-0.06413698
+fiftyTwoWeekLow	140.18
+fiftyTwoWeekLowChange	16.680008
+fiftyTwoWeekLowChangePercent	0.11898993
+fiftyTwoWeekRange	140.18 - 167.61
 firstTradeDateMilliseconds	1163687400000
-fiveYearAverageReturn	0.109275
+fiveYearAverageReturn	0.102926195
 fullExchangeName	NYSEArca
-fulldayChange	-1.3700104
-fulldayChangePercent	-0.87206256
-fulldayPrice	155.73
+fulldayChange	2.8293
+fulldayChangePercent	1.83876
+fulldayPrice	156.699
 fundFamily	Vanguard
 fundInceptionDate	1163116800
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the the Target Index, which consists of common stocks of companies that pay dividends that generally are higher than average (excluding real estate investment trusts (“REITs”)). Under normal circumstances, it invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the stocks that make up the Target Index.
 longName	Vanguard High Dividend Yield Index Fund ETF Shares
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_30273256
-navPrice	157.09
+navPrice	153.78
 netAssets	100987871000.0
 netExpenseRatio	0.04
-open	157.48
-postMarketChange	0.0
-postMarketChangePercent	0.0
-postMarketPrice	159.79
-postMarketTime	1795038797
-previousClose	157.1
+open	156.72
+postMarketChange	-0.16099548
+postMarketChangePercent	-0.10263642
+postMarketPrice	156.699
+postMarketTime	1795472354
+previousClose	153.87
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.3700104
-regularMarketChangePercent	-0.87206256
-regularMarketDayHigh	158.24
-regularMarketDayLow	155.25
-regularMarketDayRange	155.25 - 158.24
-regularMarketOpen	157.48
-regularMarketPreviousClose	157.1
-regularMarketPrice	155.73
-regularMarketTime	1795200074
-regularMarketVolume	1002412
+regularMarketChange	2.99001
+regularMarketChangePercent	1.9432
+regularMarketDayHigh	157.26
+regularMarketDayLow	155.5425
+regularMarketDayRange	155.5425 - 157.26
+regularMarketOpen	156.72
+regularMarketPreviousClose	153.87
+regularMarketPrice	156.86
+regularMarketTime	1795467600
+regularMarketVolume	1678678
 shortName	Vanguard High Dividend Yield ET
 sourceInterval	15
 symbol	VYM
-threeYearAverageReturn	0.1809941
+threeYearAverageReturn	0.16537729
 totalAssets	100987871232
 tradeable	False
-trailingPE	18.806068
+trailingPE	18.94253
 trailingPegRatio	None
 trailingThreeMonthNavReturns	1.71818
 trailingThreeMonthReturns	1.71818
 triggerable	True
-twoHundredDayAverage	158.131
-twoHundredDayAverageChange	-2.401001
-twoHundredDayAverageChangePercent	-0.01518362
+twoHundredDayAverage	158.1404
+twoHundredDayAverageChange	-1.2803955
+twoHundredDayAverageChangePercent	-0.008096575
 typeDisp	ETF
-volume	1002412
+volume	1678678
 yield	0.0224
 ytdReturn	16.13469

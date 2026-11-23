@@ -1,6 +1,6 @@
 Metric	Value
-52WeekChange	0.51301277
-SandP52WeekChange	0.08675468
+52WeekChange	0.31059718
+SandP52WeekChange	0.0306139
 address1	3050 Bowers Avenue
 address2	P.O. Box 58039
 allTimeHigh	739.67
@@ -9,12 +9,12 @@ ask	343.63
 askSize	1
 auditRisk	2
 averageAnalystRating	1.5 - Strong Buy
-averageDailyVolume10Day	8125860
-averageDailyVolume3Month	7099107
-averageVolume	7099107
-averageVolume10days	8125860
+averageDailyVolume10Day	8597210
+averageDailyVolume3Month	7234401
+averageVolume	7234401
+averageVolume10days	8597210
 beta	1.673
-bid	335.0
+bid	340.0
 bidSize	1
 boardRisk	3
 bookValue	32.921
@@ -22,22 +22,22 @@ city	Santa Clara
 companyOfficers	[{'maxAge': 1, 'name': 'Mr. Gary E. Dickerson', 'age': 68, 'title': 'President, CEO & Executive Director', 'yearBorn': 1957, 'fiscalYear': 2025, 'totalPay': 2704357, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Brice A. Hill', 'age': 58, 'title': 'Senior VP, CFO & Global Information Services', 'yearBorn': 1967, 'fiscalYear': 2025, 'totalPay': 1774802, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Omkaram  Nalamasu Ph.D.', 'age': 67, 'title': 'SVP, CTO, President Applied Ventures, LLC & Chair of the Growth Technical Advisory Board', 'yearBorn': 1958, 'fiscalYear': 2025, 'totalPay': 1443365, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Prabu G. Raja Ph.D.', 'age': 62, 'title': 'President of Semiconductor Products Group', 'yearBorn': 1963, 'fiscalYear': 2025, 'totalPay': 1872993, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Timothy M. Deane', 'age': 59, 'title': 'Senior Vice President of Applied Global Services', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 1614256, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Adam  Sanders', 'age': 53, 'title': 'VP, Corporate Controller & Chief Accounting Officer', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Teri A. Little J.D.', 'age': 60, 'title': 'Senior VP, Chief Legal Officer & Corporate Secretary', 'yearBorn': 1965, 'fiscalYear': 2025, 'totalPay': 2699177, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Joseph M. Pon', 'title': 'Chief Public Affairs Officer and Corporate VP of Communications & Public Affairs', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Joji Sekhon Gill', 'age': 60, 'title': 'Senior VP & Chief Human Resources Officer', 'yearBorn': 1965, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Charles W. Read', 'age': 59, 'title': 'Corporate VP of Business Units & Operations CFO', 'yearBorn': 1966, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
 compensationAsOfEpochDate	1767139200
 compensationRisk	1
-corporateActions	[{'header': 'Dividend', 'message': 'AMAT announced a cash dividend of $0.53 with an ex-date of Nov. 19, 2026', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1795064400000, 'amount': '0.53'}}]
+corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	310.905
+currentPrice	346.87
 currentRatio	2.344
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	330.5
-dayLow	304.0076
+dayHigh	352.91
+dayLow	335.4617
 debtToEquity	25.021
-discount_to_intrinsic_value	51.47
+discount_to_intrinsic_value	47.46
 displayName	Applied Materials
 dividendDate	1796860800
 dividendRate	2.12
-dividendYield	0.63
+dividendYield	0.7
 earningsCallTimestampEnd	1794519000
 earningsCallTimestampStart	1794519000
 earningsGrowth	0.431
@@ -47,11 +47,11 @@ earningsTimestampEnd	1802379600
 earningsTimestampStart	1802379600
 ebitda	11918999552
 ebitdaMargins	0.34602
-enterpriseToEbitda	22.314
-enterpriseToRevenue	7.721
-enterpriseValue	265964486656
-epsCurrentYear	19.29543
-epsForward	24.61703
+enterpriseToEbitda	19.899
+enterpriseToRevenue	6.886
+enterpriseValue	237178585088
+epsCurrentYear	19.30049
+epsForward	24.62536
 epsTrailingTwelveMonths	12.62
 eps_normalized_growth	0.46204552024544254
 esgPopulated	False
@@ -61,42 +61,43 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	428.716
-fiftyDayAverageChange	-117.811005
-fiftyDayAverageChangePercent	-0.27479964
-fiftyTwoWeekChangePercent	51.301277
+fiftyDayAverage	425.6388
+fiftyDayAverageChange	-78.7688
+fiftyDayAverageChangePercent	-0.1850602
+fiftyTwoWeekChangePercent	31.05972
 fiftyTwoWeekHigh	739.67
-fiftyTwoWeekHighChange	-428.76498
-fiftyTwoWeekHighChangePercent	-0.57967067
-fiftyTwoWeekLow	215.5
-fiftyTwoWeekLowChange	95.405
-fiftyTwoWeekLowChangePercent	0.4427146
-fiftyTwoWeekRange	215.5 - 739.67
+fiftyTwoWeekHighChange	-392.8
+fiftyTwoWeekHighChangePercent	-0.53104764
+fiftyTwoWeekLow	222.86
+fiftyTwoWeekLowChange	124.009995
+fiftyTwoWeekLowChangePercent	0.556448
+fiftyTwoWeekRange	222.86 - 739.67
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 fiveYearAvgDividendYield	0.7
-floatShares	789931090
-forwardEps	24.61703
-forwardPE	12.629672
+floatShares	789923160
+forwardEps	24.62536
+forwardPE	14.085885
 freeCashflow	2520250112
 fullExchangeName	NasdaqGS
 fullTimeEmployees	41500
-fulldayChange	-28.024994
-fulldayChangePercent	-8.268668
-fulldayPrice	310.905
+fulldayChange	44.929993
+fulldayChangePercent	14.846509
+fulldayPrice	347.56
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
-graham_intrinsic_value	640.71
+graham_intrinsic_value	660.24
 grossMargins	0.49988
 grossProfits	17219000320
 hasPrePostMarketData	True
 heldPercentInsiders	0.00373
-heldPercentInstitutions	0.84946996
+heldPercentInstitutions	0.85046
 impliedSharesOutstanding	793597443
 industry	Semiconductor Equipment & Materials
 industryDisp	Semiconductor Equipment & Materials
 industryKey	semiconductor-equipment-materials
 irWebsite	http://www.appliedmaterials.com/investor-relations
+isCMEFuture	False
 isEarningsDateEstimate	True
 language	en-US
 lastDividendDate	1795046400
@@ -107,48 +108,48 @@ lastSplitFactor	2:1
 longBusinessSummary	Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and 200 millimeter and other equipment and factory automation software for semiconductor and other products. It serves manufacturers of semiconductor wafers and chips, and other electronic devices. Applied Materials, Inc. was incorporated in 1967 and is headquartered in Santa Clara, California.
 longName	Applied Materials, Inc.
 market	us_market
-marketCap	246733406208
-marketState	REGULAR
+marketCap	275275153408
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_251230
 mostRecentQuarter	1792886400
 netIncomeToCommon	10087999488
 nextFiscalYearEnd	1824422400
-nonDilutedMarketCap	268973981355
+nonDilutedMarketCap	240166394175
 numberOfAnalystOpinions	36
-open	329.75
+open	351.915
 operatingCashflow	8867999744
 operatingMargins	0.32944
 overallRisk	1
 payoutRatio	0.16479999
-pegRatio	0.74
+pegRatio	0.64
 phone	408 727 5555
-postMarketChange	3.8001099
-postMarketChangePercent	1.0786574
-postMarketPrice	356.1001
-postMarketTime	1795046459
-previousClose	338.93
-priceEpsCurrentYear	16.112883
+postMarketChange	0.69000244
+postMarketChangePercent	0.1989225
+postMarketPrice	347.56
+postMarketTime	1795475057
+previousClose	302.63
+priceEpsCurrentYear	17.972082
 priceHint	2
-priceToBook	9.443972
-priceToSalesTrailing12Months	7.1629043
+priceToBook	10.536435
+priceToSalesTrailing12Months	7.9914985
 profitMargins	0.29286
 quickRatio	1.584
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	strong_buy
-recommendationMean	1.475
+recommendationMean	1.45
 region	US
-regularMarketChange	-28.024994
-regularMarketChangePercent	-8.268668
-regularMarketDayHigh	330.5
-regularMarketDayLow	304.0076
-regularMarketDayRange	304.0076 - 330.5
-regularMarketOpen	329.75
-regularMarketPreviousClose	338.93
-regularMarketPrice	310.905
-regularMarketTime	1795199935
-regularMarketVolume	6213572
+regularMarketChange	44.23999
+regularMarketChangePercent	14.618507
+regularMarketDayHigh	352.91
+regularMarketDayLow	335.4617
+regularMarketDayRange	335.4617 - 352.91
+regularMarketOpen	351.915
+regularMarketPreviousClose	302.63
+regularMarketPrice	346.87
+regularMarketTime	1795467601
+regularMarketVolume	12415689
 returnOnAssets	0.17363001
 returnOnEquity	0.4337
 revenueGrowth	0.531
@@ -180,13 +181,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	12.62
-trailingPE	24.635895
-trailingPegRatio	0.7147
+trailingPE	27.485737
+trailingPegRatio	0.6382
 triggerable	True
-twoHundredDayAverage	447.1581
-twoHundredDayAverageChange	-136.25311
-twoHundredDayAverageChangePercent	-0.30470902
+twoHundredDayAverage	447.1513
+twoHundredDayAverageChange	-100.28131
+twoHundredDayAverageChangePercent	-0.22426707
 typeDisp	Equity
-volume	6213572
+volume	12415689
 website	https://www.appliedmaterials.com
 zip	95052-8039

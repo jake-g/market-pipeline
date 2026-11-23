@@ -25,32 +25,33 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	28.2946
-fiftyDayAverageChange	0.115400314
-fiftyDayAverageChangePercent	0.004078528
-fiftyTwoWeekChangePercent	-4.3434324
+fiftyDayAverage	28.3004
+fiftyDayAverageChange	0.20960045
+fiftyDayAverageChangePercent	0.0074062715
+fiftyTwoWeekChangePercent	-4.1358414
 fiftyTwoWeekHigh	29.81
-fiftyTwoWeekHighChange	-1.3999996
-fiftyTwoWeekHighChangePercent	-0.046964094
+fiftyTwoWeekHighChange	-1.2999992
+fiftyTwoWeekHighChangePercent	-0.043609504
 fiftyTwoWeekLow	28.08
-fiftyTwoWeekLowChange	0.32999992
-fiftyTwoWeekLowChangePercent	0.011752134
+fiftyTwoWeekLowChange	0.4300003
+fiftyTwoWeekLowChangePercent	0.015313401
 fiftyTwoWeekRange	28.08 - 29.81
 firstTradeDateMilliseconds	1370352600000
 fullExchangeName	Nasdaq
-fulldayChange	0.0
-fulldayChangePercent	0.0
-fulldayPrice	28.41
+fulldayChange	0.1
+fulldayChangePercent	0.35198873
+fulldayPrice	28.51
 fundInceptionDate	1369958400
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	False
+isCMEFuture	False
 language	en-US
 lastCapGain	-8.0
 lastDividendValue	0.691
 longBusinessSummary	The fund employs an indexing investment approach designed to track the performance of the Bloomberg Global Aggregate ex-USD Float Adjusted RIC Capped Index (USD Hedged). This index provides a broad-based measure of the global, investment-grade, fixed-rate bond markets. It is non-diversified.
 longName	Vanguard Total Intl Bd Idx Institutional
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_204607725
 morningStarOverallRating	3
@@ -62,11 +63,11 @@ priceHint	2
 quoteSourceName	Delayed Quote
 quoteType	MUTUALFUND
 region	US
-regularMarketChange	0.0
-regularMarketChangePercent	0.0
+regularMarketChange	0.1
+regularMarketChangePercent	0.35198873
 regularMarketPreviousClose	28.41
-regularMarketPrice	28.41
-regularMarketTime	1795180229
+regularMarketPrice	28.51
+regularMarketTime	1795439278
 shortName	Vanguard Total International Bo
 sourceInterval	15
 symbol	VTIFX
@@ -77,9 +78,9 @@ trailingAnnualDividendYield	0.0
 trailingPegRatio	None
 trailingThreeMonthReturns	-0.0486
 triggerable	False
-twoHundredDayAverage	28.7198
-twoHundredDayAverageChange	-0.3098011
-twoHundredDayAverageChangePercent	-0.010787021
+twoHundredDayAverage	28.71675
+twoHundredDayAverageChange	-0.20674896
+twoHundredDayAverageChangePercent	-0.0071995948
 typeDisp	Fund
 yield	0.0444
 ytdReturn	0.05791

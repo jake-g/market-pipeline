@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	-0.57115996
-SandP52WeekChange	0.08675468
+52WeekChange	-0.637161
+SandP52WeekChange	0.0306139
 address1	10680 Treena Street
 address2	6th Floor
 allTimeHigh	1635.0
 allTimeLow	2.8
-ask	30.9
+ask	30.88
 askSize	2
 auditRisk	4
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	5249200
-averageDailyVolume3Month	4350014
-averageVolume	4350014
-averageVolume10days	5249200
+averageDailyVolume10Day	5150550
+averageDailyVolume3Month	4410582
+averageVolume	4410582
+averageVolume10days	5150550
 beta	1.165
-bid	28.65
-bidSize	2
+bid	28.01
+bidSize	5
 boardRisk	3
 bookValue	18.385
 city	San Diego
@@ -26,14 +26,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	27.5
+currentPrice	28.5
 currentRatio	5.418
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	29.405
-dayLow	27.27
+dayHigh	29.73
+dayLow	28.225
 debtToEquity	7.128
-discount_to_intrinsic_value	-3006.62
+discount_to_intrinsic_value	-3024.33
 displayName	Kratos Defense & Security
 dividendYield	0.0
 earningsCallTimestampEnd	1793916000
@@ -45,13 +45,13 @@ earningsTimestampEnd	1793912400
 earningsTimestampStart	1793912400
 ebitda	89900000
 ebitdaMargins	0.05459
-enterpriseToEbitda	49.21
-enterpriseToRevenue	2.687
-enterpriseValue	4424009728
+enterpriseToEbitda	43.43
+enterpriseToRevenue	2.371
+enterpriseValue	3904374528
 epsCurrentYear	0.84276
 epsForward	1.11827
 epsTrailingTwelveMonths	0.12
-eps_normalized_growth	-0.532627985773233
+eps_normalized_growth	-0.5326279857732336
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	15
@@ -59,41 +59,42 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	858 812 7301
-fiftyDayAverage	40.7708
-fiftyDayAverageChange	-13.270802
-fiftyDayAverageChangePercent	-0.3254977
-fiftyTwoWeekChangePercent	-57.115997
+fiftyDayAverage	40.3748
+fiftyDayAverageChange	-11.874802
+fiftyDayAverageChangePercent	-0.29411417
+fiftyTwoWeekChangePercent	-63.716103
 fiftyTwoWeekHigh	134.0
-fiftyTwoWeekHighChange	-106.5
-fiftyTwoWeekHighChangePercent	-0.79477614
-fiftyTwoWeekLow	27.27
-fiftyTwoWeekLowChange	0.22999954
-fiftyTwoWeekLowChangePercent	0.00843416
-fiftyTwoWeekRange	27.27 - 134.0
+fiftyTwoWeekHighChange	-105.5
+fiftyTwoWeekHighChangePercent	-0.78731346
+fiftyTwoWeekLow	26.6
+fiftyTwoWeekLowChange	1.8999996
+fiftyTwoWeekLowChangePercent	0.07142856
+fiftyTwoWeekRange	26.6 - 134.0
 financialCurrency	USD
 firstTradeDateMilliseconds	941812200000
-floatShares	185839132
+floatShares	185844780
 forwardEps	1.11827
-forwardPE	24.591557
+forwardPE	25.485794
 freeCashflow	-111575000
 fullExchangeName	NasdaqGS
 fullTimeEmployees	4300
-fulldayChange	-2.1499996
-fulldayChangePercent	-7.2512636
-fulldayPrice	27.5
+fulldayChange	1.8100014
+fulldayChangePercent	6.731132
+fulldayPrice	28.7
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
-graham_intrinsic_value	0.89
+graham_intrinsic_value	0.91
 grossMargins	0.23021999
 grossProfits	379100000
 hasPrePostMarketData	True
 heldPercentInsiders	0.01283
-heldPercentInstitutions	0.83369005
+heldPercentInstitutions	0.83303
 impliedSharesOutstanding	188273508
 industry	Aerospace & Defense
 industryDisp	Aerospace & Defense
 industryKey	aerospace-defense
 irWebsite	http://ir.kratosdefense.com/index.cfm
+isCMEFuture	False
 isEarningsDateEstimate	False
 language	en-US
 lastFiscalYearEnd	1766880000
@@ -102,31 +103,31 @@ lastSplitFactor	1:10
 longBusinessSummary	Kratos Defense & Security Solutions, Inc., a technology company, provides technology, hardware, products, system, and software for the defense, national security, and commercial markets in the United States, other North America, the Asia Pacific, the Middle East, Europe, and Internationally. The company operates through Kratos Government Solutions and Unmanned Systems segments. It offers virtualized ground systems for satellites and space vehicles, including software for command and control, telemetry, and tracking and control; jet powered unmanned aerial drone systems and hypersonic vehicles and rocket systems; propulsion systems for drones, missiles, loitering munitions, supersonic systems, spacecraft and launch systems, command, control, communication, computing, combat, and intelligence surveillance and reconnaissance; and microwave electronic products for missile, radar, missile defense, space, and satellite; and counter unmanned aircraft systems, directed energy, communication and other systems, and virtual and augmented reality training systems for the warfighter. In addition, It supplies turbine engines, engine components, accessories, and fuel management systems for PT6A, Twin-Pac, and JT15D aircraft engines. The company primarily serves national security-related agencies, the U.S. Department of Defense, intelligence and classified agencies, international government agencies, and domestic and international commercial customers. Kratos Defense & Security Solutions, Inc. was formerly known as Wireless Facilities, Inc. and changed its name to Kratos Defense & Security Solutions, Inc. in August 1999. Kratos Defense & Security Solutions, Inc. was incorporated in 1994 and is headquartered in San Diego, California.
 longName	Kratos Defense & Security Solutions, Inc.
 market	us_market
-marketCap	5177521152
-marketState	REGULAR
+marketCap	5365794816
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_36652
 mostRecentQuarter	1790467200
 netIncomeToCommon	22000000
 nextFiscalYearEnd	1798416000
-nonDilutedMarketCap	5582309512
+nonDilutedMarketCap	5062674630
 numberOfAnalystOpinions	25
-open	28.92
+open	29.375
 operatingCashflow	-31500000
 operatingMargins	0.00789
 overallRisk	4
 payoutRatio	0.0
 pegRatio	36.41
 phone	858 812 7300
-postMarketChange	0.22970009
-postMarketChangePercent	0.75959027
-postMarketPrice	30.4697
-postMarketTime	1795046228
-previousClose	29.65
-priceEpsCurrentYear	32.63088
+postMarketChange	0.20000076
+postMarketChangePercent	0.7017571
+postMarketPrice	28.7
+postMarketTime	1795474420
+previousClose	26.89
+priceEpsCurrentYear	33.817455
 priceHint	2
-priceToBook	1.4957846
-priceToSalesTrailing12Months	3.1441798
+priceToBook	1.5501767
+priceToSalesTrailing12Months	3.258514
 profitMargins	0.013359999
 quickRatio	4.632
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +135,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.32
 region	US
-regularMarketChange	-2.1499996
-regularMarketChangePercent	-7.2512636
-regularMarketDayHigh	29.405
-regularMarketDayLow	27.27
-regularMarketDayRange	27.27 - 29.405
-regularMarketOpen	28.92
-regularMarketPreviousClose	29.65
-regularMarketPrice	27.5
-regularMarketTime	1795200014
-regularMarketVolume	3296194
+regularMarketChange	1.6100006
+regularMarketChangePercent	5.9873586
+regularMarketDayHigh	29.73
+regularMarketDayLow	28.225
+regularMarketDayRange	28.225 - 29.73
+regularMarketOpen	29.375
+regularMarketPreviousClose	26.89
+regularMarketPrice	28.5
+regularMarketTime	1795467601
+regularMarketVolume	4535533
 returnOnAssets	0.00246
 returnOnEquity	0.0081
 revenueGrowth	0.357
@@ -175,13 +176,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	0.12
-trailingPE	229.16667
+trailingPE	237.5
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	58.75195
-twoHundredDayAverageChange	-31.25195
-twoHundredDayAverageChangePercent	-0.53193045
+twoHundredDayAverage	58.46015
+twoHundredDayAverageChange	-29.960152
+twoHundredDayAverageChangePercent	-0.5124884
 typeDisp	Equity
-volume	3296194
+volume	4535533
 website	https://www.kratosdefense.com
 zip	92131

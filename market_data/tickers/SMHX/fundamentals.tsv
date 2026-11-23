@@ -3,10 +3,10 @@ allTimeHigh	68.36
 allTimeLow	18.46
 ask	58.67
 askSize	1
-averageDailyVolume10Day	101420
-averageDailyVolume3Month	70646
-averageVolume	70646
-averageVolume10days	101420
+averageDailyVolume10Day	103530
+averageDailyVolume3Month	73317
+averageVolume	73317
+averageVolume10days	103530
 beta3Year	0.0
 bid	58.5
 bidSize	1
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	45.08
-dayLow	41.9739
+dayHigh	47.4999
+dayLow	45.63
 displayName	Fabless Semiconductor ETF
 dividendYield	0.02
 epsTrailingTwelveMonths	1.3631041
@@ -27,59 +27,60 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	55.32788
-fiftyDayAverageChange	-12.927982
-fiftyDayAverageChangePercent	-0.23366126
-fiftyTwoWeekChangePercent	28.646612
+fiftyDayAverage	55.01568
+fiftyDayAverageChange	-8.215679
+fiftyDayAverageChangePercent	-0.14933342
+fiftyTwoWeekChangePercent	9.546661
 fiftyTwoWeekHigh	68.36
-fiftyTwoWeekHighChange	-25.960102
-fiftyTwoWeekHighChangePercent	-0.37975574
-fiftyTwoWeekLow	34.535
-fiftyTwoWeekLowChange	7.8648987
-fiftyTwoWeekLowChangePercent	0.22773704
-fiftyTwoWeekRange	34.535 - 68.36
+fiftyTwoWeekHighChange	-21.560001
+fiftyTwoWeekHighChangePercent	-0.31538913
+fiftyTwoWeekLow	34.74
+fiftyTwoWeekLowChange	12.059998
+fiftyTwoWeekLowChangePercent	0.34715018
+fiftyTwoWeekRange	34.74 - 68.36
 firstTradeDateMilliseconds	1724851800000
 fullExchangeName	NasdaqGM
-fulldayChange	-3.7901
-fulldayChangePercent	-8.205456
-fulldayPrice	42.3999
+fulldayChange	5.2599983
+fulldayChangePercent	12.804279
+fulldayPrice	46.34
 fundFamily	VanEck
 fundInceptionDate	1724716800
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
 ipoExpectedDate	2024-08-28
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund normally invests at least 80% of its total assets in securities that comprise the fund’s benchmark index. The Fabless Index is composed of U.S.-listed common stocks of companies that derive at least 50% of their revenues from the semiconductor industry and operate as fabless semiconductor companies. The fund is non-diversified.
 longName	VanEck Fabless Semiconductor ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_1885852102
-navPrice	46.19
+navPrice	40.96
 netAssets	242008048.0
 netExpenseRatio	0.35
-open	45.08
+open	46.99
 phone	888-658-8287
-postMarketChange	-0.020000458
-postMarketChangePercent	-0.044673793
-postMarketPrice	44.75
-postMarketTime	1793914149
-previousClose	46.19
+postMarketChange	-0.45999908
+postMarketChangePercent	-0.982904
+postMarketPrice	46.34
+postMarketTime	1795469376
+previousClose	41.08
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-3.7901
-regularMarketChangePercent	-8.205456
-regularMarketDayHigh	45.08
-regularMarketDayLow	41.9739
-regularMarketDayRange	41.9739 - 45.08
-regularMarketOpen	45.08
-regularMarketPreviousClose	46.19
-regularMarketPrice	42.3999
-regularMarketTime	1795199983
-regularMarketVolume	88162
+regularMarketChange	5.7199974
+regularMarketChangePercent	13.924045
+regularMarketDayHigh	47.4999
+regularMarketDayLow	45.63
+regularMarketDayRange	45.63 - 47.4999
+regularMarketOpen	46.99
+regularMarketPreviousClose	41.08
+regularMarketPrice	46.8
+regularMarketTime	1795467600
+regularMarketVolume	173965
 shortName	VanEck Fabless Semiconductor ET
 sourceInterval	15
 symbol	SMHX
@@ -87,15 +88,15 @@ totalAssets	242008048
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	31.1054
+trailingPE	34.3334
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-5.56366
 trailingThreeMonthReturns	-5.56366
 triggerable	True
-twoHundredDayAverage	52.39186
-twoHundredDayAverageChange	-9.991962
-twoHundredDayAverageChangePercent	-0.19071592
+twoHundredDayAverage	52.410004
+twoHundredDayAverageChange	-5.6100044
+twoHundredDayAverageChangePercent	-0.10704072
 typeDisp	ETF
-volume	88162
+volume	173965
 yield	0.0002
 ytdReturn	36.16518

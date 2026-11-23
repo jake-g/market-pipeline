@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	21.98
 allTimeLow	12.26
-ask	15.53
-askSize	3400
-averageDailyVolume10Day	1273790
-averageDailyVolume3Month	847395
-averageVolume	847395
-averageVolume10days	1273790
+ask	16.01
+askSize	5400
+averageDailyVolume10Day	1354680
+averageDailyVolume3Month	871100
+averageVolume	871100
+averageVolume10days	1354680
 beta3Year	0.65
-bid	15.52
-bidSize	2400
+bid	15.39
+bidSize	3500
 category	Preferred Stock
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	15.7101
-dayLow	15.46
+dayHigh	16.025
+dayLow	15.7
 displayName	Pfd Secs ex Financials ETF
 dividendYield	6.35
 esgPopulated	False
@@ -26,63 +26,64 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	17.1066
-fiftyDayAverageChange	-1.5816002
-fiftyDayAverageChangePercent	-0.09245556
-fiftyTwoWeekChangePercent	-8.773971
+fiftyDayAverage	17.0564
+fiftyDayAverageChange	-1.0664005
+fiftyDayAverageChangePercent	-0.06252202
+fiftyTwoWeekChangePercent	-11.104685
 fiftyTwoWeekHigh	19.07
-fiftyTwoWeekHighChange	-3.545
-fiftyTwoWeekHighChangePercent	-0.18589409
-fiftyTwoWeekLow	15.46
-fiftyTwoWeekLowChange	0.06499958
-fiftyTwoWeekLowChangePercent	0.0042043715
-fiftyTwoWeekRange	15.46 - 19.07
+fiftyTwoWeekHighChange	-3.08
+fiftyTwoWeekHighChangePercent	-0.16151023
+fiftyTwoWeekLow	15.33
+fiftyTwoWeekLowChange	0.65999985
+fiftyTwoWeekLowChangePercent	0.043052826
+fiftyTwoWeekRange	15.33 - 19.07
 firstTradeDateMilliseconds	1342704600000
-fiveYearAverageReturn	0.0070192
+fiveYearAverageReturn	0.0006516
 fullExchangeName	NYSEArca
-fulldayChange	-0.17500019
-fulldayChangePercent	-1.114651
-fulldayPrice	15.525
+fulldayChange	0.6000004
+fulldayChangePercent	3.903711
+fulldayPrice	15.97
 fundFamily	VanEck
 fundInceptionDate	1342396800
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund normally invests at least 80% of its total assets in securities that comprise the fund's benchmark index. The index is comprised of U.S. exchange-listed hybrid debt, preferred stock and convertible preferred stock issued by non-financial corporations. The fund is non-diversified.
 longName	VanEck Preferred Securities ex Financials ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_214279555
-navPrice	15.73
+navPrice	15.39
 netAssets	2210425340.0
 netExpenseRatio	0.4
-open	15.62
+open	15.7
 phone	888-658-8287
-postMarketChange	-0.07999992
-postMarketChangePercent	-0.50377786
-postMarketPrice	15.8
-postMarketTime	1795042236
-previousClose	15.7
+postMarketChange	-0.019999504
+postMarketChangePercent	-0.12507507
+postMarketPrice	15.97
+postMarketTime	1795472077
+previousClose	15.37
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.17500019
-regularMarketChangePercent	-1.114651
-regularMarketDayHigh	15.7101
-regularMarketDayLow	15.46
-regularMarketDayRange	15.46 - 15.7101
-regularMarketOpen	15.62
-regularMarketPreviousClose	15.7
-regularMarketPrice	15.525
-regularMarketTime	1795200043
-regularMarketVolume	1270606
+regularMarketChange	0.62
+regularMarketChangePercent	4.03383
+regularMarketDayHigh	16.025
+regularMarketDayLow	15.7
+regularMarketDayRange	15.7 - 16.025
+regularMarketOpen	15.7
+regularMarketPreviousClose	15.37
+regularMarketPrice	15.99
+regularMarketTime	1795467600
+regularMarketVolume	1190849
 shortName	VanEck Preferred Securities ex 
 sourceInterval	15
 symbol	PFXF
-threeYearAverageReturn	0.054158702
+threeYearAverageReturn	0.0423349
 totalAssets	2210425344
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +92,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-4.01148
 trailingThreeMonthReturns	-4.01148
 triggerable	True
-twoHundredDayAverage	17.85515
-twoHundredDayAverageChange	-2.3301506
-twoHundredDayAverageChangePercent	-0.130503
+twoHundredDayAverage	17.8418
+twoHundredDayAverageChange	-1.8518009
+twoHundredDayAverageChangePercent	-0.10379002
 typeDisp	ETF
-volume	1270606
+volume	1190849
 yield	0.0635
 ytdReturn	-1.43575

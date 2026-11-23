@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	1013920.0
 allTimeLow	15.88
-ask	23.88
-askSize	200
-averageDailyVolume10Day	5652680
-averageDailyVolume3Month	3673985
-averageVolume	3673985
-averageVolume10days	5652680
+ask	22.51
+askSize	7300
+averageDailyVolume10Day	6206200
+averageDailyVolume3Month	3892414
+averageVolume	3892414
+averageVolume10days	6206200
 beta3Year	-58.63
-bid	23.87
-bidSize	500
+bid	22.5
+bidSize	200
 category	Trading--Miscellaneous
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	24.43
-dayLow	22.05
+dayHigh	23.21
+dayLow	21.65
 displayName	VIX Short-Term Futures ETF
 dividendYield	0.0
 esgPopulated	False
@@ -26,63 +26,64 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	17.5456
-fiftyDayAverageChange	6.274399
-fiftyDayAverageChangePercent	0.35760525
-fiftyTwoWeekChangePercent	-36.88276
-fiftyTwoWeekHigh	39.33
-fiftyTwoWeekHighChange	-15.510002
-fiftyTwoWeekHighChangePercent	-0.39435548
+fiftyDayAverage	17.7186
+fiftyDayAverageChange	4.8614006
+fiftyDayAverageChangePercent	0.2743671
+fiftyTwoWeekChangePercent	-22.905529
+fiftyTwoWeekHigh	38.59
+fiftyTwoWeekHighChange	-16.01
+fiftyTwoWeekHighChangePercent	-0.41487432
 fiftyTwoWeekLow	15.88
-fiftyTwoWeekLowChange	7.9399996
-fiftyTwoWeekLowChangePercent	0.49999997
-fiftyTwoWeekRange	15.88 - 39.33
+fiftyTwoWeekLowChange	6.7
+fiftyTwoWeekLowChangePercent	0.42191434
+fiftyTwoWeekRange	15.88 - 38.59
 firstTradeDateMilliseconds	1294151400000
-fiveYearAverageReturn	-0.42971587
+fiveYearAverageReturn	-0.40321308
 fullExchangeName	Cboe US
-fulldayChange	0.94000053
-fulldayChangePercent	4.108394
-fulldayPrice	23.82
+fulldayChange	-3.7390003
+fulldayChangePercent	-14.408479
+fulldayPrice	22.211
 fundFamily	ProShares
 fundInceptionDate	1294012800
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The index seeks to offer exposure to market volatility through publicly traded futures markets and is designed to measure the implied volatility of the S&P 500 over 30 days in the future.
 longName	ProShares VIX Short-Term Futures ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_117792624
-navPrice	22.851
+navPrice	26.348
 netAssets	232520192.0
 netExpenseRatio	0.96
-open	23.19
+open	22.27
 phone	240-497-6400
-postMarketChange	-0.5299988
-postMarketChangePercent	-2.5980332
-postMarketPrice	19.87
-postMarketTime	1795045698
-previousClose	22.88
+postMarketChange	-0.36899948
+postMarketChangePercent	-1.6341872
+postMarketPrice	22.211
+postMarketTime	1795475172
+previousClose	25.95
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	0.94000053
-regularMarketChangePercent	4.108394
-regularMarketDayHigh	24.43
-regularMarketDayLow	22.05
-regularMarketDayRange	22.05 - 24.43
-regularMarketOpen	23.19
-regularMarketPreviousClose	22.88
-regularMarketPrice	23.82
-regularMarketTime	1795200082
-regularMarketVolume	6958326
+regularMarketChange	-3.37
+regularMarketChangePercent	-12.9865
+regularMarketDayHigh	23.21
+regularMarketDayLow	21.65
+regularMarketDayRange	21.65 - 23.21
+regularMarketOpen	22.27
+regularMarketPreviousClose	25.95
+regularMarketPrice	22.58
+regularMarketTime	1795467600
+regularMarketVolume	5425772
 shortName	VIX Short-Term Futures ETF
 sourceInterval	15
 symbol	VIXY
-threeYearAverageReturn	-0.3495235
+threeYearAverageReturn	-0.2934137
 totalAssets	232520192
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +92,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-9.80718
 trailingThreeMonthReturns	-9.80718
 triggerable	True
-twoHundredDayAverage	23.2106
-twoHundredDayAverageChange	0.6093998
-twoHundredDayAverageChangePercent	0.026255237
+twoHundredDayAverage	23.19825
+twoHundredDayAverageChange	-0.6182499
+twoHundredDayAverageChangePercent	-0.026650712
 typeDisp	ETF
-volume	6958326
+volume	5425772
 yield	0.0
 ytdReturn	-28.36041

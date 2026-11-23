@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	32.0
-allTimeLow	16.62
-ask	16.06
-askSize	2500
-averageDailyVolume10Day	1683280
-averageDailyVolume3Month	983396
-averageVolume	983396
-averageVolume10days	1683280
+allTimeLow	15.67
+ask	17.9
+askSize	5700
+averageDailyVolume10Day	1644760
+averageDailyVolume3Month	1009721
+averageVolume	1009721
+averageVolume10days	1644760
 beta3Year	0.0
-bid	16.05
-bidSize	300
+bid	17.89
+bidSize	400
 category	Technology
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	17.09
-dayLow	15.795
+dayHigh	18.345
+dayLow	17.6016
 displayName	Corgi Lithography & Semi ETF
 epsTrailingTwelveMonths	0.42884728
 esgPopulated	False
@@ -26,69 +26,70 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	22.2174
-fiftyDayAverageChange	-6.1373997
-fiftyDayAverageChangePercent	-0.27624294
-fiftyTwoWeekChangePercent	-33.673084
+fiftyDayAverage	22.0536
+fiftyDayAverageChange	-4.1536007
+fiftyDayAverageChangePercent	-0.18834116
+fiftyTwoWeekChangePercent	-40.50585
 fiftyTwoWeekHigh	32.0
-fiftyTwoWeekHighChange	-15.92
-fiftyTwoWeekHighChangePercent	-0.4975
-fiftyTwoWeekLow	15.795
-fiftyTwoWeekLowChange	0.28499985
-fiftyTwoWeekLowChangePercent	0.018043675
-fiftyTwoWeekRange	15.795 - 32.0
+fiftyTwoWeekHighChange	-14.1
+fiftyTwoWeekHighChangePercent	-0.440625
+fiftyTwoWeekLow	15.67
+fiftyTwoWeekLowChange	2.2299995
+fiftyTwoWeekLowChangePercent	0.14231011
+fiftyTwoWeekRange	15.67 - 32.0
 firstTradeDateMilliseconds	1778074200000
 fullExchangeName	Cboe US
-fulldayChange	-1.4899998
-fulldayChangePercent	-8.480363
-fulldayPrice	16.08
+fulldayChange	2.2399998
+fulldayChangePercent	14.213196
+fulldayPrice	18.0
 fundFamily	Corgi Funds
 fundInceptionDate	1777939200
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund is an ETF that seeks to meet its objective by having adviser's actively manage the fund and, under ordinary market conditions, invest at least 80% of its net assets in a portfolio of companies materially involved in the development, deployment, and operation of photonics and light-based technologies, including extreme ultraviolet lithography and related semiconductor manufacturing and inspection tools, that the adviser believes are positioned to benefit from increasing demand for advanced semiconductors, high-speed communications, precision sensing, and next-generation computing. It is non-diversified.
 longName	Corgi Lithography & Semiconductor Photonics ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_1992790722
-navPrice	17.5805
+navPrice	15.7661
 netAssets	260473328.0
 netExpenseRatio	0.35
-open	17.07
-postMarketChange	0.20999908
-postMarketChangePercent	1.1640747
-postMarketPrice	18.25
-postMarketTime	1795045418
-previousClose	17.57
+open	18.41
+postMarketChange	0.10000038
+postMarketChangePercent	0.55866134
+postMarketPrice	18.0
+postMarketTime	1795473304
+previousClose	15.76
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-1.4899998
-regularMarketChangePercent	-8.480363
-regularMarketDayHigh	17.09
-regularMarketDayLow	15.795
-regularMarketDayRange	15.795 - 17.09
-regularMarketOpen	17.07
-regularMarketPreviousClose	17.57
-regularMarketPrice	16.08
-regularMarketTime	1795199985
-regularMarketVolume	1091174
+regularMarketChange	2.14
+regularMarketChangePercent	13.5787
+regularMarketDayHigh	18.345
+regularMarketDayLow	17.6016
+regularMarketDayRange	17.6016 - 18.345
+regularMarketOpen	18.41
+regularMarketPreviousClose	15.76
+regularMarketPrice	17.9
+regularMarketTime	1795467600
+regularMarketVolume	1046292
 shortName	Corgi Lithography & Semiconduct
 sourceInterval	15
 symbol	EUV
 totalAssets	260473328
 tradeable	False
-trailingPE	37.495865
+trailingPE	41.7398
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-12.07456
 trailingThreeMonthReturns	-12.07456
 triggerable	True
-twoHundredDayAverage	24.793695
-twoHundredDayAverageChange	-8.713696
-twoHundredDayAverageChangePercent	-0.35144803
+twoHundredDayAverage	24.728704
+twoHundredDayAverageChange	-6.828705
+twoHundredDayAverageChangePercent	-0.27614486
 typeDisp	ETF
-volume	1091174
+volume	1046292

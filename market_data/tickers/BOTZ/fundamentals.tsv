@@ -3,10 +3,10 @@ allTimeHigh	41.71
 allTimeLow	14.69
 ask	37.93
 askSize	2
-averageDailyVolume10Day	891650
-averageDailyVolume3Month	714625
-averageVolume	714625
-averageVolume10days	891650
+averageDailyVolume10Day	1019540
+averageDailyVolume3Month	742704
+averageVolume	742704
+averageVolume10days	1019540
 beta3Year	1.86
 bid	37.38
 bidSize	2
@@ -16,8 +16,8 @@ corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	28.595
-dayLow	27.64
+dayHigh	29.785
+dayLow	29.3
 displayName	Robotics & Artificial ETF
 dividendDate	1483660800
 dividendYield	0.54
@@ -28,76 +28,77 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	33.6395
-fiftyDayAverageChange	-5.859499
-fiftyDayAverageChangePercent	-0.17418508
-fiftyTwoWeekChangePercent	-13.406986
+fiftyDayAverage	33.4807
+fiftyDayAverageChange	-4.0707016
+fiftyDayAverageChangePercent	-0.12158352
+fiftyTwoWeekChangePercent	-19.75345
 fiftyTwoWeekHigh	41.71
-fiftyTwoWeekHighChange	-13.929998
-fiftyTwoWeekHighChangePercent	-0.33397263
-fiftyTwoWeekLow	27.64
-fiftyTwoWeekLowChange	0.1400013
-fiftyTwoWeekLowChangePercent	0.00506517
-fiftyTwoWeekRange	27.64 - 41.71
+fiftyTwoWeekHighChange	-12.299999
+fiftyTwoWeekHighChangePercent	-0.2948933
+fiftyTwoWeekLow	27.205
+fiftyTwoWeekLowChange	2.205
+fiftyTwoWeekLowChangePercent	0.081051275
+fiftyTwoWeekRange	27.205 - 41.71
 firstTradeDateMilliseconds	1473773400000
-fiveYearAverageReturn	-0.0475143
+fiveYearAverageReturn	-0.062878
 fullExchangeName	NasdaqGM
-fulldayChange	-1.2199993
-fulldayChangePercent	-4.2068944
-fulldayPrice	27.78
+fulldayChange	2.3864994
+fulldayChangePercent	8.728966
+fulldayPrice	29.7265
 fundFamily	Global X Funds
 fundInceptionDate	1473638400
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund invests at least 80% of its total assets in the securities of the underlying index. The underlying index is designed to provide exposure to exchange-listed companies in developed markets that are involved in the development of robotics and/or artificial intelligence as defined by Indxx, the provider of the underlying index. The fund is non-diversified.
 longName	Global X Robotics & Artificial Intelligence ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_369688055
-navPrice	29.49
+navPrice	27.89
 netAssets	3035232260.0
 netExpenseRatio	0.68
-open	28.375
+open	29.54
 phone	+1 8884938631
-postMarketChange	0.060001373
-postMarketChangePercent	0.20195684
-postMarketPrice	29.77
-postMarketTime	1795040510
-previousClose	29.0
+postMarketChange	0.3164997
+postMarketChangePercent	1.0761635
+postMarketPrice	29.7265
+postMarketTime	1795470334
+previousClose	27.34
 priceHint	2
 quoteSourceName	Nasdaq Real Time Price
 quoteType	ETF
 region	US
-regularMarketChange	-1.2199993
-regularMarketChangePercent	-4.2068944
-regularMarketDayHigh	28.595
-regularMarketDayLow	27.64
-regularMarketDayRange	27.64 - 28.595
-regularMarketOpen	28.375
-regularMarketPreviousClose	29.0
-regularMarketPrice	27.78
-regularMarketTime	1795199952
-regularMarketVolume	1321085
+regularMarketChange	2.0699997
+regularMarketChangePercent	7.5713234
+regularMarketDayHigh	29.785
+regularMarketDayLow	29.3
+regularMarketDayRange	29.3 - 29.785
+regularMarketOpen	29.54
+regularMarketPreviousClose	27.34
+regularMarketPrice	29.41
+regularMarketTime	1795467601
+regularMarketVolume	1944999
 shortName	Global X Robotics & Artificial 
 sourceInterval	15
 symbol	BOTZ
-threeYearAverageReturn	0.0505528
+threeYearAverageReturn	0.016882
 totalAssets	3035232256
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingPE	30.186401
+trailingPE	31.957598
 trailingPegRatio	None
 trailingThreeMonthNavReturns	-8.97616
 trailingThreeMonthReturns	-8.97616
 triggerable	True
-twoHundredDayAverage	36.134377
-twoHundredDayAverageChange	-8.354376
-twoHundredDayAverageChangePercent	-0.23120299
+twoHundredDayAverage	36.092224
+twoHundredDayAverageChange	-6.6822243
+twoHundredDayAverageChangePercent	-0.18514304
 typeDisp	ETF
-volume	1321085
+volume	1944999
 yield	0.0054
 ytdReturn	-10.36471

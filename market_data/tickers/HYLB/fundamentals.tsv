@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	41.248
 allTimeLow	30.432
-ask	34.8
-askSize	18400
-averageDailyVolume10Day	2303110
-averageDailyVolume3Month	1680150
-averageVolume	1680150
-averageVolume10days	2303110
+ask	34.89
+askSize	23800
+averageDailyVolume10Day	2166600
+averageDailyVolume3Month	1702815
+averageVolume	1702815
+averageVolume10days	2166600
 beta3Year	0.65
-bid	34.79
-bidSize	21700
+bid	34.88
+bidSize	26400
 category	High Yield Bond
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	34.8799
-dayLow	34.7801
+dayHigh	34.96
+dayLow	34.845
 displayName	USD High Yield Corp Bond ETF
 dividendYield	6.74
 esgPopulated	False
@@ -26,63 +26,64 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	35.2774
-fiftyDayAverageChange	-0.4673996
-fiftyDayAverageChangePercent	-0.013249264
-fiftyTwoWeekChangePercent	-5.063981
+fiftyDayAverage	35.2552
+fiftyDayAverageChange	-0.3852005
+fiftyDayAverageChangePercent	-0.010926062
+fiftyTwoWeekChangePercent	-5.541974
 fiftyTwoWeekHigh	37.11
-fiftyTwoWeekHighChange	-2.2999992
-fiftyTwoWeekHighChangePercent	-0.061977882
-fiftyTwoWeekLow	34.7801
-fiftyTwoWeekLowChange	0.029899597
-fiftyTwoWeekLowChangePercent	0.0008596754
-fiftyTwoWeekRange	34.7801 - 37.11
+fiftyTwoWeekHighChange	-2.2400017
+fiftyTwoWeekHighChangePercent	-0.060361132
+fiftyTwoWeekLow	34.74
+fiftyTwoWeekLowChange	0.12999725
+fiftyTwoWeekLowChangePercent	0.0037420047
+fiftyTwoWeekRange	34.74 - 37.11
 firstTradeDateMilliseconds	1481639400000
-fiveYearAverageReturn	0.0353279
+fiveYearAverageReturn	0.034600697
 fullExchangeName	NYSEArca
-fulldayChange	-0.05999756
-fulldayChangePercent	-0.17208536
-fulldayPrice	34.81
+fulldayChange	0.084999084
+fulldayChangePercent	0.24446099
+fulldayPrice	34.87
 fundFamily	Xtrackers
 fundInceptionDate	1480982400
 gmtOffSetMilliseconds	-18000000
 hasPrePostMarketData	True
+isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
 longBusinessSummary	The fund will normally invest at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in high yield corporate bonds. The index comprised of U.S. dollar-denominated high yield corporate bonds. It will concentrate its investments (i.e., hold 25% or more of its total assets) in a particular industry or group of industries to the extent that its underlying index is concentrated.
 longName	Xtrackers USD High Yield Corporate Bond ETF
 market	us_market
-marketState	REGULAR
+marketState	POST
 maxAge	86400
 messageBoardId	finmb_382117293
-navPrice	34.92
+navPrice	34.796
 netAssets	3300858110.0
 netExpenseRatio	0.05
-open	34.8
+open	34.94
 phone	2122505883
 postMarketChange	0.0
 postMarketChangePercent	0.0
 postMarketPrice	34.91
 postMarketTime	1795038865
-previousClose	34.87
+previousClose	34.77
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	-0.05999756
-regularMarketChangePercent	-0.17208536
-regularMarketDayHigh	34.8799
-regularMarketDayLow	34.7801
-regularMarketDayRange	34.7801 - 34.8799
-regularMarketOpen	34.8
-regularMarketPreviousClose	34.87
-regularMarketPrice	34.81
-regularMarketTime	1795200003
-regularMarketVolume	1167606
+regularMarketChange	0.0999985
+regularMarketChangePercent	0.2876
+regularMarketDayHigh	34.96
+regularMarketDayLow	34.845
+regularMarketDayRange	34.845 - 34.96
+regularMarketOpen	34.94
+regularMarketPreviousClose	34.77
+regularMarketPrice	34.87
+regularMarketTime	1795467600
+regularMarketVolume	1721075
 shortName	Xtrackers USD High Yield Corpor
 sourceInterval	15
 symbol	HYLB
-threeYearAverageReturn	0.0715178
+threeYearAverageReturn	0.0698758
 totalAssets	3300858112
 tradeable	False
 trailingAnnualDividendRate	0.0
@@ -91,10 +92,10 @@ trailingPegRatio	None
 trailingThreeMonthNavReturns	-1.1884
 trailingThreeMonthReturns	-1.1884
 triggerable	True
-twoHundredDayAverage	36.17035
-twoHundredDayAverageChange	-1.3603477
-twoHundredDayAverageChangePercent	-0.037609473
+twoHundredDayAverage	36.1602
+twoHundredDayAverageChange	-1.2901993
+twoHundredDayAverageChangePercent	-0.035680093
 typeDisp	ETF
-volume	1167606
+volume	1721075
 yield	0.0674
 ytdReturn	0.36642
