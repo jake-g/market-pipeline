@@ -32,6 +32,7 @@ import config
 # Config Logging
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
+logging.getLogger("yfinance").setLevel(logging.CRITICAL)
 
 # Filename Constants
 PRICES_FILENAME = "prices.tsv"
@@ -506,7 +507,8 @@ SKIP_EARNINGS: List[str] = [
 
 
     # Vanguard Mutual Funds (Institutional/Admiral Shares - No Form 4)
-    "VEMRX", "VFTAX", "VIGIX", "VIIIX", "VMFXX", "VTIFX",
+    "VBTIX", "VEMRX", "VFTAX", "VIEIX", "VIGIX", "VIIIX", "VMFXX", "VTIFX",
+    "VTMNX",
 
     # Sector & Thematic ETFs
     "SMH", "SOXQ", "IBIT", "GLDM", "PAVE", "ITA", "URA", "NLR", "XLE",
@@ -780,18 +782,27 @@ class MarketFetcher:
 
           # Check if we need to backfill older data
           req_start_dt = pd.to_datetime(start_date)
+          today_ts = pd.Timestamp.now().normalize()
+          is_crypto = ticker.endswith('-USD')
+          if not is_crypto and today_ts.weekday() == 5:
+            last_market_day = today_ts - pd.Timedelta(days=1)
+          elif not is_crypto and today_ts.weekday() == 6:
+            last_market_day = today_ts - pd.Timedelta(days=2)
+          else:
+            last_market_day = today_ts
 
           if existing_min > req_start_dt:
             self.logger.debug(
-                f"{ticker}: Existing data starts {existing_min.date()}, requested {req_start_dt.date()}. Refetching full history."
-            )
+                f"{ticker}: Existing data starts {existing_min.date()}, "
+                f"requested {req_start_dt.date()}. Refetching full history.")
             current_start = start_date
-          elif existing_max >= (pd.Timestamp.now().normalize() -
-                                pd.Timedelta(days=1)):
+          elif (not is_crypto and today_ts.weekday() >= 5 and
+                existing_max >= last_market_day):
             fetch_needed = False
           else:
-            current_start = (existing_max +
-                             datetime.timedelta(days=1)).strftime('%Y-%m-%d')
+            # Re-fetch from existing_max so today's intraday/close bar is
+            # fetched on Tue-Fri and finalised Adj Close replaces raw Close.
+            current_start = existing_max.strftime('%Y-%m-%d')
 
       except Exception as e:
         self.logger.error(f"Error reading {ticker} prices: {e}")
@@ -2315,12 +2326,16 @@ class MarketFetcher:
         # Check prices
         price_range = "Missing"
         nan_count = 0
+        min_price_date: Optional[datetime.date] = None
+        max_price_date: Optional[datetime.date] = None
         if prices_file.exists():
           try:
             df = pd.read_csv(prices_file, sep='\t')
             if not df.empty and 'Date' in df.columns:
               dates = pd.to_datetime(df['Date'])
-              price_range = f"{dates.min().date()} to {dates.max().date()}"
+              min_price_date = dates.min().date()
+              max_price_date = dates.max().date()
+              price_range = f"{min_price_date} to {max_price_date}"
               nan_count = int(df.isna().sum().sum())
           except:
             price_range = "Error"
@@ -2347,19 +2362,26 @@ class MarketFetcher:
           except:
             pass
 
-        # Check Missing Files
-        expected_files = [PRICES_FILENAME, FUNDAMENTALS_FILENAME]
-
-        if ticker not in SKIP_INSIDER:
-          expected_files.append(NEWS_FILENAME)
-
-        # Add conditional files
-        if ticker not in SKIP_EARNINGS:
-          expected_files.append(EARNINGS_FILENAME)
-          expected_files.append(FINANCIALS_FILENAME)
-
-        if ticker not in SKIP_INSIDER:
-          expected_files.append(INSIDER_FILENAME)
+        # Check Missing Files (skip SEC filings for 401k trusts & archived dirs)
+        is_trust = " " in ticker
+        is_archived = (max_price_date is not None and
+                       (datetime.date.today() - max_price_date).days > 120)
+        if is_trust:
+          expected_files = [PRICES_FILENAME]
+        elif is_archived:
+          expected_files = [PRICES_FILENAME, FUNDAMENTALS_FILENAME]
+        else:
+          expected_files = [PRICES_FILENAME, FUNDAMENTALS_FILENAME]
+          if ticker not in SKIP_INSIDER:
+            expected_files.append(NEWS_FILENAME)
+          if ticker not in SKIP_EARNINGS:
+            is_recent_ipo = (min_price_date is not None and
+                             (datetime.date.today() - min_price_date).days < 90)
+            if not is_recent_ipo:
+              expected_files.append(EARNINGS_FILENAME)
+            expected_files.append(FINANCIALS_FILENAME)
+          if ticker not in SKIP_INSIDER:
+            expected_files.append(INSIDER_FILENAME)
 
         files_missing_list = []
         for fname in expected_files:
@@ -2606,7 +2628,7 @@ class MarketFetcher:
     # Macro Files (Flat)
     macro_file = self.data_dir / "macro" / MACRO_FILENAME
     if macro_file.exists():
-      report.append("## 2. Macro Files")
+      report.append("## 3. Macro Files")
       report.append(
           f"### `market_data/macro/{MACRO_FILENAME}` - Economic Indicators")
       try:
@@ -2707,29 +2729,29 @@ def main():
   if not args.tickers:
     t0 = time.time()
     fetcher.update_macro()
-    print(f"⏱️  [Stage 1/7] Macro updated in {int(time.time() - t0)}s")
+    print(f"⏱️  [Stage 1/8] Macro updated in {int(time.time() - t0)}s")
 
   # 2. Prices
   t0 = time.time()
   fetcher.update_prices(sorted_tickers, start_date=config.DEFAULT_START_DATE)
-  print(f"⏱️  [Stage 2/7] Prices updated in {int(time.time() - t0)}s")
+  print(f"⏱️  [Stage 2/8] Prices updated in {int(time.time() - t0)}s")
 
   # 3. Fundamentals & Earnings
   t0 = time.time()
   fetcher.update_fundamentals(sorted_tickers,
                               include_alphavantage=config.ENABLE_ALPHA_VANTAGE)
-  print(f"⏱️  [Stage 3/7] Fundamentals updated in {int(time.time() - t0)}s")
+  print(f"⏱️  [Stage 3/8] Fundamentals updated in {int(time.time() - t0)}s")
 
   # 4. Financials (Row-Based)
   t0 = time.time()
   fetcher.update_financials(sorted_tickers,
                             include_alphavantage=config.ENABLE_ALPHA_VANTAGE)
-  print(f"⏱️  [Stage 4/7] Financials updated in {int(time.time() - t0)}s")
+  print(f"⏱️  [Stage 4/8] Financials updated in {int(time.time() - t0)}s")
 
   # 5. Insider Trading (SEC)
   t0 = time.time()
   fetcher.update_insider_trading(sorted_tickers, limit=args.insider_limit)
-  print(f"⏱️  [Stage 5/7] Insider Trading updated in {int(time.time() - t0)}s")
+  print(f"⏱️  [Stage 5/8] Insider Trading updated in {int(time.time() - t0)}s")
 
   # 6. News & Sentiment (Optional Topic Limits)
   if args.limit_topics:
@@ -2749,10 +2771,7 @@ def main():
                       limit=args.news_limit,
                       days_back=args.news_days,
                       include_alphavantage=config.ENABLE_ALPHA_VANTAGE)
-  print(f"⏱️  [Stage 6/7] News & Sentiment updated in {int(time.time() - t0)}s")
-
-  print("\n✅ All updates complete.")
-  print(f"📁 Database: {os.path.abspath(fetcher.data_dir)}")
+  print(f"⏱️  [Stage 6/8] News & Sentiment updated in {int(time.time() - t0)}s")
 
   # 7. Schema & Stats Report
   t0 = time.time()
@@ -2765,6 +2784,8 @@ def main():
   fetcher.backup_reports()
   print(f"⏱️  [Stage 8/8] Reports Backup archived in {int(time.time() - t0)}s")
 
+  print("\n✅ All updates complete.")
+  print(f"📁 Database: {os.path.abspath(fetcher.data_dir)}")
   print(
       f"🏁 Total Market Fetcher execution time: {int(time.time() - start_time)}s"
   )

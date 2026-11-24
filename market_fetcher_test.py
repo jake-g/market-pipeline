@@ -310,7 +310,7 @@ class TestMarketFetcherDataIO(unittest.TestCase):
       mock_dl_cls.assert_not_called()
 
 
-class TestMarketFetcherExtraction(unittest.TestCase):
+class TestMarketFetcherExtraction(unittest.TestCase):  # pylint: disable=too-many-public-methods
 
   def setUp(self):
     logging.basicConfig(level=logging.ERROR)
@@ -453,6 +453,47 @@ class TestMarketFetcherExtraction(unittest.TestCase):
     df = pd.read_csv(prices_file, sep='\t', index_col=0, parse_dates=True)
     self.assertFalse(df['Close'].isna().any())
     self.assertAlmostEqual(df.loc[stale_day, 'Close'], 101.5)
+
+  @patch("market_fetcher.yf.download")
+  def test_update_prices_fetches_today_when_yesterday_exists(
+      self, mock_download):
+    """Having yesterday's valid close must NOT skip fetching today's session."""
+    # Pick a crypto ticker (-USD) so the test is deterministic 7 days/week.
+    crypto = "BTC-USD"
+    crypto_dir = self.test_dir / "tickers" / crypto
+    crypto_dir.mkdir(parents=True, exist_ok=True)
+    today = pd.Timestamp.now().normalize()
+    yesterday = today - pd.Timedelta(days=1)
+    first_day = today - pd.Timedelta(days=5)
+    prices_file = crypto_dir / "prices.tsv"
+    pd.DataFrame(
+        {
+            'Open': [90.0, 95.0],
+            'High': [92.0, 96.0],
+            'Low': [89.0, 94.0],
+            'Close': [91.0, 95.5],
+            'Volume': [100, 120]
+        },
+        index=pd.DatetimeIndex([first_day, yesterday],
+                               name='Date')).to_csv(prices_file, sep='\t')
+    mock_download.return_value = pd.DataFrame(
+        {
+            'Open': [95.0, 96.0],
+            'High': [96.0, 99.0],
+            'Low': [94.0, 95.5],
+            'Close': [95.5, 98.25],
+            'Adj Close': [95.5, 98.25],
+            'Volume': [120, 150]
+        },
+        index=pd.DatetimeIndex([yesterday, today]))
+
+    self.fetcher.update_prices([crypto],
+                               start_date=first_day.strftime('%Y-%m-%d'))
+
+    mock_download.assert_called_once()
+    df = pd.read_csv(prices_file, sep='\t', index_col=0, parse_dates=True)
+    self.assertIn(today, df.index)
+    self.assertAlmostEqual(df.loc[today, 'Close'], 98.25)
 
   @patch("market_fetcher.yf.Ticker")
   def test_update_fundamentals(self, mock_ticker_cls):

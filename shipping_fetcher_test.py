@@ -170,6 +170,52 @@ class TestShippingFetcherPortWatch(unittest.TestCase):
     self.assertEqual(saved.iloc[0]["Portcalls"], 90)
     self.assertEqual(saved.iloc[0]["Import_Tons"], 10)
 
+  @patch("shipping_fetcher.time.sleep")
+  @patch("shipping_fetcher.requests.get")
+  def test_timeout_skips_second_path_casing_per_attempt(self, get, _sleep):
+    import requests as req_mod
+    get.side_effect = req_mod.Timeout("read timed out")
+    self.assertIsNone(self.fetcher.fetch_portwatch_metrics(days=7))
+    self.assertEqual(get.call_count, shipping_fetcher.PORTWATCH_RETRIES)
+
+  @patch("shipping_fetcher.requests.get")
+  def test_port_calls_batches_ports_and_uses_incremental_window(self, get):
+    ids = {
+        "features": [
+            {
+                "attributes": {
+                    "portid": "p1",
+                    "portname": "Shanghai",
+                    "country": "CN"
+                }
+            },
+            {
+                "attributes": {
+                    "portid": "p2",
+                    "portname": "Singapore",
+                    "country": "SG"
+                }
+            },
+        ]
+    }
+    today = datetime.date.today()
+    recent = (today - datetime.timedelta(days=5)).isoformat()
+    get.side_effect = [
+        _resp(ids),
+        _resp({"features": [_port_feature(recent, "p1", "Shanghai", 70)]}),
+        _resp({"features": [_port_feature(recent, "p2", "Singapore", 110)]}),
+    ]
+    self.fetcher.fetch_portwatch_port_calls(days=90)
+    first_where = get.call_args_list[1].kwargs["params"]["where"]
+    self.assertIn("'p1','p2'", first_where)
+    self.assertNotIn("orderByFields", get.call_args_list[1].kwargs["params"])
+
+    # Second 90-day run narrows `start` to max_existing - 7d (~12 days ago).
+    self.fetcher.fetch_portwatch_port_calls(days=90)
+    second_where = get.call_args_list[2].kwargs["params"]["where"]
+    expected_inc = (today - datetime.timedelta(days=12)).isoformat()
+    self.assertIn(f"date >= '{expected_inc}'", second_where)
+
 
 if __name__ == "__main__":
   unittest.main()

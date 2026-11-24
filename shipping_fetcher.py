@@ -507,38 +507,42 @@ class ShippingFetcher:
         Optional[Dict]: Parsed JSON payload, or None if every attempt failed.
     """
     query = dict(params, f="json")
-    attempts = [
-        (a, p) for a in range(PORTWATCH_RETRIES) for p in PORTWATCH_PATHS
-    ]
-    for attempt, path in attempts:
-      if attempt and path == PORTWATCH_PATHS[0]:
+    for attempt in range(PORTWATCH_RETRIES):
+      if attempt:
         time.sleep(PORTWATCH_RETRY_SLEEP_SECONDS * attempt)
-      url = f"{PORTWATCH_HOST}/{path}/rest/services/{layer}/FeatureServer/0/query"
-      try:
-        resp = requests.get(url,
-                            params=query,
-                            timeout=PORTWATCH_TIMEOUT_SECONDS,
-                            headers={"User-Agent": "Mozilla/5.0"})
-      except requests.RequestException as e:
-        self.logger.warning("PortWatch %s request failed (%s): %s", layer, path,
-                            e)
-        continue
-      if resp.status_code != 200:
-        self.logger.warning("PortWatch %s HTTP %s (%s)", layer,
-                            resp.status_code, path)
-        continue
-      try:
-        data = resp.json()
-      except ValueError as e:
-        self.logger.warning("PortWatch %s returned non-JSON (%s): %s", layer,
-                            path, e)
-        continue
-      if "error" in data:
-        err = data["error"]
-        self.logger.warning("PortWatch %s ArcGIS error (%s): code=%s %s", layer,
-                            path, err.get("code"), err.get("message"))
-        continue
-      return data
+      for path in PORTWATCH_PATHS:
+        url = (f"{PORTWATCH_HOST}/{path}/rest/services/{layer}"
+               "/FeatureServer/0/query")
+        try:
+          resp = requests.get(url,
+                              params=query,
+                              timeout=PORTWATCH_TIMEOUT_SECONDS,
+                              headers={"User-Agent": "Mozilla/5.0"})
+        except requests.Timeout as e:
+          self.logger.warning("PortWatch %s request timed out (%s): %s", layer,
+                              path, e)
+          # Both path casings hit the same backend table; don't double timeouts.
+          break
+        except requests.RequestException as e:
+          self.logger.warning("PortWatch %s request failed (%s): %s", layer,
+                              path, e)
+          continue
+        if resp.status_code != 200:
+          self.logger.warning("PortWatch %s HTTP %s (%s)", layer,
+                              resp.status_code, path)
+          continue
+        try:
+          data = resp.json()
+        except ValueError as e:
+          self.logger.warning("PortWatch %s returned non-JSON (%s): %s", layer,
+                              path, e)
+          continue
+        if "error" in data:
+          err = data["error"]
+          self.logger.warning("PortWatch %s ArcGIS error (%s): code=%s %s",
+                              layer, path, err.get("code"), err.get("message"))
+          continue
+        return data
     return None
 
   def _portwatch_features(self, layer: str,
@@ -736,29 +740,51 @@ class ShippingFetcher:
           "No PortWatch port ids resolved; skipping port calls.")
       return None
 
+    existing = (pd.read_csv(self.port_calls_out_file, sep="\t")
+                if self.port_calls_out_file.exists() else pd.DataFrame())
+
     start = (datetime.date.today() -
              datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+    # Daily_Ports_Data has ~4.5M rows with no index on `date`; when routine
+    # runs already have local history, only fetch a 7-day overlap window.
+    if days <= 90 and not existing.empty and "Date" in existing.columns:
+      max_existing = pd.to_datetime(existing["Date"]).max()
+      if pd.notna(max_existing):
+        inc_start = (max_existing.date() -
+                     datetime.timedelta(days=7)).strftime("%Y-%m-%d")
+        start = max(start, inc_start)
+
     out_fields = ("date,portid,portname,country,portcalls,"
                   "portcalls_container,portcalls_tanker,"
                   "portcalls_dry_bulk,import,export")
-    # One query per port: the service is flaky, so partial progress is kept
-    # and gaps are filled idempotently on the next run.
-    rows: List[Dict] = []
-    failed: List[str] = []
-    for name, (pid, _) in port_ids.items():
-      params = {
-          "where": f"portid IN ('{pid}') AND date >= '{start}'",
-          "outFields": out_fields,
-          "orderByFields": "date ASC",
-          "returnGeometry": "false",
-      }
-      port_rows = self._portwatch_features("Daily_Ports_Data", params)
-      if port_rows is None:
-        failed.append(name)
-      else:
-        rows.extend(port_rows)
-    if failed:
-      self.logger.warning("PortWatch port calls failed for: %s", failed)
+    pids_sql = ",".join(f"'{pid}'" for _, (pid, _) in port_ids.items())
+    # Omit orderByFields: `date` is unindexed on ArcGIS, and we sort in pandas.
+    batched_params = {
+        "where": f"portid IN ({pids_sql}) AND date >= '{start}'",
+        "outFields": out_fields,
+        "returnGeometry": "false",
+    }
+    batched_rows = self._portwatch_features("Daily_Ports_Data", batched_params)
+    if batched_rows is not None:
+      rows: List[Dict] = batched_rows
+    else:
+      # Fallback per port for large cold backfills.
+      rows = []
+      failed: List[str] = []
+      for name, (pid, _) in port_ids.items():
+        params = {
+            "where": f"portid IN ('{pid}') AND date >= '{start}'",
+            "outFields": out_fields,
+            "returnGeometry": "false",
+        }
+        port_rows = self._portwatch_features("Daily_Ports_Data", params)
+        if port_rows is None:
+          failed.append(name)
+        else:
+          rows.extend(port_rows)
+      if failed:
+        self.logger.warning("PortWatch port calls failed for: %s", failed)
+
     if not rows:
       self.logger.warning("PortWatch port calls unavailable.")
       return None
@@ -778,8 +804,7 @@ class ShippingFetcher:
     df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%Y-%m-%d")
     df = df[PORT_CALLS_COLUMNS]
 
-    if self.port_calls_out_file.exists():
-      existing = pd.read_csv(self.port_calls_out_file, sep="\t")
+    if not existing.empty:
       merged = pd.concat([existing, df], ignore_index=True)
     else:
       merged = df
@@ -826,6 +851,7 @@ class TariffFetcher:
       handler.setFormatter(formatter)
       self.logger.addHandler(handler)
       self.logger.setLevel(logging.INFO)
+      self.logger.propagate = False
 
   def _get_cache_path(self, cache_key: str) -> Path:
     safe_key = "".join(

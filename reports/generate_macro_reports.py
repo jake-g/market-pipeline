@@ -44,8 +44,9 @@ SHIPPING_MACRO_TSV = os.path.join(config.MARKET_DATA_DIR, "shipping",
                                   "shipping_macro.tsv")
 SHIPPING_PORT_CALLS_TSV = os.path.join(config.MARKET_DATA_DIR, "shipping",
                                        "port_calls.tsv")
-# Chokepoint data older than this (days) triggers a staleness warning.
-SHIPPING_STALE_DAYS = 3
+# Chokepoint data older than this (days) triggers a staleness warning
+# (IMF PortWatch AIS data normally lags wall-clock dates by ~6-10 days).
+SHIPPING_STALE_DAYS = 10
 
 RENDERED_DIR = os.path.join(REPORTS_DIR, "news", "rendered")
 
@@ -771,7 +772,15 @@ def generate_shipping_report() -> None:
   setup_plot_aesthetics()
   fig, (ax_bar, ax_macro) = plt.subplots(1, 2, figsize=(15, 6))
 
-  latest_date = df["Date"].max()
+  # PortWatch sometimes publishes an incomplete trailing AIS ingestion day
+  # with only 1-2 chokepoints and near-zero counts. Select the latest date
+  # that covers the full chokepoint set (fallback to overall max date).
+  expected_count = df["Chokepoint_Name"].nunique()
+  counts_by_date = df.groupby("Date")["Chokepoint_Name"].nunique()
+  complete_dates = counts_by_date[counts_by_date >= expected_count]
+  latest_date = (complete_dates.index.max()
+                 if not complete_dates.empty else df["Date"].max())
+  df = df[df["Date"] <= latest_date].copy()
   latest_df = (df[df["Date"] == latest_date].copy().sort_values(
       "Congestion_Index", ascending=True))
 
@@ -860,10 +869,10 @@ def generate_shipping_report() -> None:
   if stale_days > SHIPPING_STALE_DAYS:
     stale_md = f"""
 > [!WARNING]
-> Chokepoint data is **{stale_days} days stale** (last observation \
-{data_as_of}). The IMF PortWatch `Daily_Chokepoints_Data` service is \
-currently returning errors; values above are the last real observations and \
-are **not** carried forward as current.
+> Chokepoint data is **{stale_days} days stale** (last complete observation \
+{data_as_of}). IMF PortWatch `Daily_Chokepoints_Data` is lagging beyond its \
+normal publication window or returning errors; values above are the last real \
+observations and are **not** carried forward as current.
 """
 
   # Major port calls table.

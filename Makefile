@@ -61,7 +61,7 @@ format: setup
 # Run fast unit tests (fail-fast pre-flight)
 test-unit: setup
 	@echo "🧪 Running Fast Unit Tests..."
-	@venv/bin/python3 -m unittest market_fetcher_test.py portfolios.test_portfolio_pipeline reports.report_utils_test
+	@venv/bin/python3 -m unittest market_fetcher_test.py shipping_fetcher_test.py political_fetcher_test.py portfolios.test_portfolio_pipeline reports.report_utils_test reports.notebooklm_client_test
 
 # Run tests
 test: format

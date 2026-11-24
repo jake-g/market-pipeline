@@ -1,5 +1,5 @@
 # Data Stats Report
-Date: 2026-11-23 15:45
+Date: 2026-11-23 16:56
 
 ## 1. Global Metrics
 - **Total Tickers**: 346
@@ -44,7 +44,7 @@ Date: 2026-11-23 15:45
 | BDRY | 2018-03-22 to 2026-11-23 | 215 | 1 | 0 | None |
 | BHP | 2018-01-02 to 2026-11-23 | 4718 | 1 | 0 | None |
 | BIDU | 2018-01-02 to 2026-11-23 | 720 | 1 | 0 | None |
-| BITF | 2019-08-16 to 2026-06-04 | 494 | 0 | 0 | earnings.tsv financials_quarterly.tsv insider_trading.tsv |
+| BITF | 2019-08-16 to 2026-06-04 | 494 | 0 | 0 | None |
 | BLK | 2018-01-02 to 2026-11-23 | 7396 | 35 | 0 | None |
 | BMNR | 2025-06-05 to 2026-11-23 | 2411 | 0 | 0 | None |
 | BND | 2018-01-02 to 2026-11-23 | 137 | 0 | 0 | None |
@@ -93,7 +93,7 @@ Date: 2026-11-23 15:45
 | DIS | 2018-01-02 to 2026-11-23 | 2869 | 9 | 0 | None |
 | DLR | 2018-01-02 to 2026-11-23 | 2333 | 335 | 0 | None |
 | DRAM | 2026-04-02 to 2026-11-23 | 307 | 0 | 0 | None |
-| Developed Mkts Idx Trust | 2018-01-02 to 2026-04-23 | 4 | 0 | 31320 | earnings.tsv financials_quarterly.tsv insider_trading.tsv |
+| Developed Mkts Idx Trust | 2018-01-02 to 2026-04-23 | 4 | 0 | 31320 | None |
 | EEM | 2018-01-02 to 2026-11-23 | 851 | 0 | 0 | None |
 | EFA | 2018-01-02 to 2026-11-23 | 1036 | 0 | 0 | None |
 | ENPH | 2018-01-02 to 2026-11-23 | 1868 | 14 | 0 | None |
@@ -156,9 +156,9 @@ Date: 2026-11-23 15:45
 | ISRG | 2018-01-02 to 2026-11-23 | 2504 | 597 | 0 | None |
 | ITA | 2018-01-02 to 2026-11-23 | 291 | 0 | 0 | None |
 | IWM | 2018-01-02 to 2026-11-23 | 1456 | 0 | 0 | None |
-| Inst Tot Bd Mkt Ix Tr | 2018-01-02 to 2026-04-23 | 0 | 0 | 40960 | news.tsv earnings.tsv financials_quarterly.tsv insider_trading.tsv |
-| Instl 500 Index Trust | 2018-01-02 to 2026-04-22 | 26 | 0 | 31305 | earnings.tsv financials_quarterly.tsv insider_trading.tsv |
-| Instl Ext Market Idx Tr | 2018-01-02 to 2026-04-23 | 0 | 0 | 23615 | news.tsv earnings.tsv financials_quarterly.tsv insider_trading.tsv |
+| Inst Tot Bd Mkt Ix Tr | 2018-01-02 to 2026-04-23 | 0 | 0 | 40960 | None |
+| Instl 500 Index Trust | 2018-01-02 to 2026-04-22 | 26 | 0 | 31305 | None |
+| Instl Ext Market Idx Tr | 2018-01-02 to 2026-04-23 | 0 | 0 | 23615 | None |
 | JD | 2018-01-02 to 2026-11-23 | 2644 | 0 | 0 | None |
 | JNJ | 2018-01-02 to 2026-11-23 | 4546 | 12 | 0 | None |
 | JOBY | 2020-11-09 to 2026-11-23 | 2994 | 44 | 0 | None |
@@ -597,8 +597,4 @@ Date: 2026-11-23 15:45
 | CHICAGO_FED_ACTIVITY | 19845 | 1967-03-01 | 2026-11-23 | Daily |
 
 ## 5. Missing Files / Anomalies
-- **BITF**: Missing earnings.tsv, financials_quarterly.tsv, insider_trading.tsv
-- **Developed Mkts Idx Trust**: Missing earnings.tsv, financials_quarterly.tsv, insider_trading.tsv
-- **Inst Tot Bd Mkt Ix Tr**: Missing news.tsv, earnings.tsv, financials_quarterly.tsv, insider_trading.tsv
-- **Instl 500 Index Trust**: Missing earnings.tsv, financials_quarterly.tsv, insider_trading.tsv
-- **Instl Ext Market Idx Tr**: Missing news.tsv, earnings.tsv, financials_quarterly.tsv, insider_trading.tsv
+No missing core files detected.
