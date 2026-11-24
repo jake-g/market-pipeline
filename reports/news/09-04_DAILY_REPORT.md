@@ -8,9 +8,9 @@
 
 | Index / Asset | 1-Day % | Key Macro Print / Event | Risk Posture |
 | :--- | :--- | :--- | :--- |
-| **SPY** | n/a | August non-farm payrolls significantly exceeded expectations with double projected job growth, pushing September Fed rate hike odds past 60% and driving Treasury yields higher [1, 2]. | **Risk-On** - Broad market equities absorbed macro rate headwinds as robust economic expansion data offset tight monetary policy fears [1]. |
-| **QQQ** | n/a | Strong August payrolls print drove a Treasury yield spike and September Fed rate hike probability above 60%, testing high-multiple tech valuations [1, 2]. | **Risk-On** - Tech equities demonstrated resilience as persistent corporate AI spending counteracted Treasury yield volatility [1]. |
-| **SOXX** | n/a | August payroll blowout triggered rate hike concerns and yield pressure, yet foundational chip complex demand and memory supply tightness insulated semiconductor equities [1, 2]. | **Risk-On** - Semiconductor complex outpaced broader market benchmarks as advanced packaging capacity bottlenecks and tape-out volume protected multiples [1]. |
+| **SPY** | -0.39% | August non-farm payrolls significantly exceeded expectations with double projected job growth, pushing September Fed rate hike odds past 60% and driving Treasury yields higher [1, 2]. | **Risk-On** - Broad market equities absorbed macro rate headwinds as robust economic expansion data offset tight monetary policy fears [1]. |
+| **QQQ** | +0.18% | Strong August payrolls print drove a Treasury yield spike and September Fed rate hike probability above 60%, testing high-multiple tech valuations [1, 2]. | **Risk-On** - Tech equities demonstrated resilience as persistent corporate AI spending counteracted Treasury yield volatility [1]. |
+| **SOXX** | +3.51% | August payroll blowout triggered rate hike concerns and yield pressure, yet foundational chip complex demand and memory supply tightness insulated semiconductor equities [1, 2]. | **Risk-On** - Semiconductor complex outpaced broader market benchmarks as advanced packaging capacity bottlenecks and tape-out volume protected multiples [1]. |
 
 ## Top AI Thematic Insights
 
@@ -59,36 +59,36 @@
 | **TTD** | -4.0% | Retrenched following announcements of a 15% global workforce reduction alongside executive leadership transitions [29]. |
 | **NET** | -2.34% | Dipped alongside broader cloud software softness despite unveiling new OpenAI-integrated security tools [14, 27]. |
 | **FSLR** | -1.43% | Underperformed market benchmarks due to near-term utility-scale solar sentiment weakness [28]. |
-| **ZS** | n/a | Experienced valuation de-rating following fiscal 2027 billings and sales forward guidance that missed buy-side expectations [17]. |
-| **APP** | n/a | Retrenched post-earnings despite a 3% intraday bounce as market models adjusted for digital ad growth deceleration [29, 30]. |
+| **ZS** | -4.50% | Experienced valuation de-rating following fiscal 2027 billings and sales forward guidance that missed buy-side expectations [17]. |
+| **APP** | +2.23% | Retrenched post-earnings despite a 3% intraday bounce as market models adjusted for digital ad growth deceleration [29, 30]. |
 
 ## Watchlist Check
 
 | Ticker | 1-Day % | One-line read (continuation / reversal / news-driven / no news) |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | Continuation - Ticks up alongside chip complex, shrugging off Treasury yield pressure [1]. |
-| **TSM** | n/a | News-driven - Gains on insider buying and critical supplier standing to Magnificent Seven peers [7, 8]. |
-| **AMD** | n/a | Continuation - Moves higher as semiconductor equities absorb macro rate hike odds [1]. |
-| **AVGO** | n/a | Reversal - Post-earnings weakness stabilizes as Morningstar models AI revenue growth extending to 2030 [38]. |
-| **MRVL** | n/a | News-driven - Highlighted alongside TSMC as a essential pick-and-shovel infrastructure play for AI buildouts [39]. |
-| **MU** | n/a | Continuation - Pops on robust HBM capacity commitments while David Tepper maintains top institutional holding [5, 6]. |
-| **ANET** | n/a | Continuation - Maintains momentum fueled by enterprise AI networking demand and cash flow durability [32]. |
-| **COHR** | n/a | News-driven - Sees fair value target increase driven by tight AI optical transceiver capacity [31]. |
-| **WDC** | n/a | Reversal - Faces valuation scrutiny following a 5.9% multi-day rally [34]. |
-| **SMH** | n/a | No news - Semiconductor ETF benchmark tracked in strategy asset allocation updates [37, 40]. |
-| **SOXX** | n/a | Continuation - Holds firm as chip sector absorbs macro interest rate headwinds [1, 37]. |
-| **IONQ** | n/a | News-driven - Draws interest as market anticipates multi-year revenue target announcements [41]. |
-| **CRWV** | n/a | News-driven - Captures valuation interest ahead of Goldman Sachs tech conference appearance [15, 42]. |
-| **AAPL** | n/a | No news - Featured in seasonal retail hardware promotional deals [43]. |
-| **AMZN** | n/a | No news - Referenced via strategic backing of commercial EV fleet scaling [44]. |
-| **GOOG** | n/a | No news - Evaluated within broader enterprise AI infrastructure adoption trends [45]. |
+| **NVDA** | +0.84% | Continuation - Ticks up alongside chip complex, shrugging off Treasury yield pressure [1]. |
+| **TSM** | +2.85% | News-driven - Gains on insider buying and critical supplier standing to Magnificent Seven peers [7, 8]. |
+| **AMD** | +4.69% | Continuation - Moves higher as semiconductor equities absorb macro rate hike odds [1]. |
+| **AVGO** | +0.21% | Reversal - Post-earnings weakness stabilizes as Morningstar models AI revenue growth extending to 2030 [38]. |
+| **MRVL** | +7.05% | News-driven - Highlighted alongside TSMC as a essential pick-and-shovel infrastructure play for AI buildouts [39]. |
+| **MU** | +6.10% | Continuation - Pops on robust HBM capacity commitments while David Tepper maintains top institutional holding [5, 6]. |
+| **ANET** | +1.22% | Continuation - Maintains momentum fueled by enterprise AI networking demand and cash flow durability [32]. |
+| **COHR** | +6.60% | News-driven - Sees fair value target increase driven by tight AI optical transceiver capacity [31]. |
+| **WDC** | +5.86% | Reversal - Faces valuation scrutiny following a 5.9% multi-day rally [34]. |
+| **SMH** | +2.61% | No news - Semiconductor ETF benchmark tracked in strategy asset allocation updates [37, 40]. |
+| **SOXX** | +3.51% | Continuation - Holds firm as chip sector absorbs macro interest rate headwinds [1, 37]. |
+| **IONQ** | +1.28% | News-driven - Draws interest as market anticipates multi-year revenue target announcements [41]. |
+| **CRWV** | +5.68% | News-driven - Captures valuation interest ahead of Goldman Sachs tech conference appearance [15, 42]. |
+| **AAPL** | -2.51% | No news - Featured in seasonal retail hardware promotional deals [43]. |
+| **AMZN** | -0.15% | No news - Referenced via strategic backing of commercial EV fleet scaling [44]. |
+| **GOOG** | -1.05% | No news - Evaluated within broader enterprise AI infrastructure adoption trends [45]. |
 | **TSLA** | -5.0% | News-driven - Retrenches on regulatory scrutiny regarding Cybercab's steering-wheel-free design [18]. |
-| **PANW** | n/a | Reversal - Displays hammer chart setup signaling potential technical support near term [16]. |
-| **CCJ** | n/a | News-driven - Upgraded to "Strong-Buy" at Jefferies on nuclear baseload power fundamentals [12]. |
-| **NVT** | n/a | Continuation - Evaluated on elevated free cash flow generation and earnings valuation metrics [35]. |
+| **PANW** | +0.40% | Reversal - Displays hammer chart setup signaling potential technical support near term [16]. |
+| **CCJ** | +0.12% | News-driven - Upgraded to "Strong-Buy" at Jefferies on nuclear baseload power fundamentals [12]. |
+| **NVT** | +2.59% | Continuation - Evaluated on elevated free cash flow generation and earnings valuation metrics [35]. |
 | **VST** | +3.5% | Continuation - Gains on Thiel and Bridgewater backing alongside expanding AI power agreement pipelines [10, 11]. |
 | **CEG** | +4.9% | Continuation - Rallies as nuclear utilities capture long-term AI data center power demand [9]. |
-| **STM** | n/a | Continuation - Outperforms European benchmarks in Milan trading on sector-wide semiconductor strength [36]. |
+| **STM** | +1.88% | Continuation - Outperforms European benchmarks in Milan trading on sector-wide semiconductor strength [36]. |
 | **ENTG** | +6.2% | Continuation - Jumps as chip-equipment sector rebounds on solid operational guidance [4, 46]. |
 
 ## References

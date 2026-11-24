@@ -2,11 +2,6 @@
 *(Generated via NotebookLM Integration on 2026-09-03)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-I have compiled and delivered your daily market intelligence report for **September 3, 2026**. The finalized document, **`2026-09-03_daily_market_report.md`**, has been generated and is now live in your Studio panel.
-
-This daily report details today's critical macroeconomic and equity catalysts, tracing the **secular shift toward open-weight local reasoning models**, the **VGT-led tech revision boom**, and **market sentiment distortions driven by algorithmic ticker-confusion events**:
-
-***
 
 # Daily Market Intelligence Report: 2026-09-03
 

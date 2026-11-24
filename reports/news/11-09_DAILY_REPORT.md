@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | **SPY** | +1.70% | Benchmark advances as dip-buying in major tech holdings outweighs corporate governance news [1][3]. |
 | **QQQ** | +2.19% | Tech composite rallies strongly driven by cloud outperformance and ad-tech momentum [1][20]. |
-| **SOXX** | n/a | Semiconductor sector sees strong net inflows despite single-stock governance volatility [31]. |
+| **SOXX** | +7.49% | Semiconductor sector sees strong net inflows despite single-stock governance volatility [31]. |
 | **Key Macro Driver** | Catalyst Print | Equity markets digested easing crude oil prices and upcoming CPI inflation data alongside Treasury yield stabilization and Fed positioning [1][2][3]. |
 | **Risk Posture** | Risk-On | Investors demonstrated a strong dip-buying recovery across major benchmarks despite executive governance shocks in individual tech leaders [4][5]. |
 
@@ -72,26 +72,26 @@
 | :--- | :--- | :--- |
 | **NVDA** | -4.1% | `News-Driven` Premarket decline following internal board executive probe [6]. |
 | **TSM** | +4.7% | `Reversal` Strong rally as Taiwan benchmark index rebounds [7]. |
-| **AMD** | n/a | `Continuation` Shares advance on Google Cloud partner agreement [9]. |
-| **AVGO** | n/a | `No News` Institutional position expanded by asset management firm [26]. |
-| **MRVL** | n/a | `No News` Analysts maintain buy rating despite target reduction [27]. |
+| **AMD** | +13.26% | `Continuation` Shares advance on Google Cloud partner agreement [9]. |
+| **AVGO** | +8.78% | `No News` Institutional position expanded by asset management firm [26]. |
+| **MRVL** | +9.49% | `No News` Analysts maintain buy rating despite target reduction [27]. |
 | **MU** | -22.0% | `Reversal` Shares drop sharply on AI margin expansion worries [21]. |
-| **COHR** | n/a | `No News` Evaluated against ad tech and semiconductor peers [28]. |
-| **WDC** | n/a | `No News` Highlighted in frontier quantum computing stock screener [29]. |
-| **SOXX** | n/a | `Continuation` Sector fund attracted strong net investor inflows [31]. |
-| **IONQ** | n/a | `Continuation` Raised full year revenue guidance driving sector [32]. |
-| **CRWV** | n/a | `Reversal` Stock touches low breaching key support level [15]. |
-| **AAPL** | n/a | `No News` Institutional stake expanded following fair value bump [33]. |
+| **COHR** | +16.79% | `No News` Evaluated against ad tech and semiconductor peers [28]. |
+| **WDC** | +9.86% | `No News` Highlighted in frontier quantum computing stock screener [29]. |
+| **SOXX** | +7.49% | `Continuation` Sector fund attracted strong net investor inflows [31]. |
+| **IONQ** | +8.34% | `Continuation` Raised full year revenue guidance driving sector [32]. |
+| **CRWV** | +5.56% | `Reversal` Stock touches low breaching key support level [15]. |
+| **AAPL** | +2.43% | `No News` Institutional stake expanded following fair value bump [33]. |
 | **AMZN** | +5.67% | `Continuation` Strong opening gain following cloud growth momentum [19]. |
 | **GOOG** | +3.0% | `Continuation` Shares rally despite removal from focus list [20]. |
-| **TSLA** | n/a | `News-Driven` Overnight slip as focus shifts toward Cybercab [34]. |
-| **PANW** | n/a | `Continuation` Technical support holds firm ahead of earnings [35]. |
-| **CCJ** | n/a | `Continuation` Nuclear fuel demand targets technical support zone [36]. |
-| **VST** | n/a | `Continuation` Stock holds key support amid nuclear rebound [37]. |
-| **CEG** | n/a | `Continuation` Beat quarterly earnings expectations and raised guidance [12]. |
-| **RKLB** | n/a | `News-Driven` Highlighted among top US stocks to watch [48]. |
-| **STM** | n/a | `No News` Completed share repurchase program maintaining strong treasury [38]. |
-| **ENTG** | n/a | `News-Driven` Listed among semiconductor stocks with China exposure [39]. |
+| **TSLA** | +5.54% | `News-Driven` Overnight slip as focus shifts toward Cybercab [34]. |
+| **PANW** | +5.43% | `Continuation` Technical support holds firm ahead of earnings [35]. |
+| **CCJ** | +5.71% | `Continuation` Nuclear fuel demand targets technical support zone [36]. |
+| **VST** | +7.31% | `Continuation` Stock holds key support amid nuclear rebound [37]. |
+| **CEG** | +10.46% | `Continuation` Beat quarterly earnings expectations and raised guidance [12]. |
+| **RKLB** | +10.91% | `News-Driven` Highlighted among top US stocks to watch [48]. |
+| **STM** | +6.76% | `No News` Completed share repurchase program maintaining strong treasury [38]. |
+| **ENTG** | +9.44% | `News-Driven` Listed among semiconductor stocks with China exposure [39]. |
 | **SPY** | +1.70% | `Continuation` Benchmark advances on broad market dip buying [3]. |
 | **QQQ** | +2.19% | `Continuation` Tech index gains on mega cap cloud momentum [1]. |
 

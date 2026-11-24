@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-22)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 ## Top AI Thematic Insights
 
 ### AMD's Milestone \$1 Trillion Valuation & Semiconductor Rally (AMD, SOXX)
@@ -60,7 +61,3 @@ Today’s session was defined by an explosive semiconductor rally led by AMD's \
 9. "Current price of Bitcoin for September 21, 2026" — Fortune, 2026-09-21 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UandlQUZUZUM5RHN3LWdaRDMwQ1ZPTmp2QUM4TW1yRGxTN0hqSFRVQjV6a2otV0dETnVfQ0FiTTdmclJES2dKUVJQek5PcjkybU54QjdBcU10aUdQa254c0QzbW90RFk?oc=5`
 10. "Crypto Rally Broadens as Ether's Multi-Year Breakout Against Bitcoin Draws Attention" — finance.biggo.com, 2026-09-21 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMidkFVX3lxTE0yS3lRS1RpQ2N0UHlwOXluWEp1ekk1aUNZUUYyc25yVWEtOWMxVDFfa09KU0lWcEVxOHE4cUx0NXR3ejdhRzIySEN6WmljSmZheEd2MUlkSzhJWXNwWnMxNkRTRWNGU1dLYUpkM3M2MFF5QVRlcHc?oc=5`
 11. "BP stock heads into the open after a 0.25 percent gain" — AD HOC NEWS, 2026-09-21 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZTMyM29rSnV2UjBaVnNyQmdlS201QUhUZGlkYzFfME1ka0poSk5NV1ZxN3gxYzc4NVVTa05sUnVZYTJlUWx6eFRTeG1GaXVGa1BiMkxUQmZtcWJNclRRTHpnT3c0NEVtUmhPMklVaWZreV83aERVcVIzdHdUS1Vfc2dSMmJ4R2Q3U3A5Wnc5WEd0eTJsMzhuSjVvbjNWM21FU0RCZ0tXT0JLRlFxWlBQN0pMOGRlM3c4?oc=5`
-
-***
-
-📈 **Next Steps:** The report is published as **`2026-09-21_daily_market_report.md`** in your Studio panel. Would you like me to write a Python script to compare the multi-month performance delta between \$1T+ semiconductor leaders (AMD, NVDA) and cybersecurity platforms across your 2026 dataset?

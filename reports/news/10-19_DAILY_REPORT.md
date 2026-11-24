@@ -8,9 +8,9 @@
 
 | Benchmark ETF | 1-Day % | Key Macro Event / Driver | Risk Posture | Justification |
 | :--- | :--- | :--- | :--- | :--- |
-| `SPY` | n/a | Escalating borrowing costs and Fed price stability emphasis [1]. | Risk-Off | Broader equity markets faced heavy pressure as rising interest rates and shifting monetary policy expectations dampened risk asset sentiment [1]. |
-| `QQQ` | n/a | $260B AI software valuation compression and tech momentum reversal [2]. | Risk-Off | Growing scrutiny over high capex spending, debt-financed AI infrastructure, and unit economics triggered broad profit-taking across tech and cloud software [2]. |
-| `SOXX` | n/a | Semiconductor eight-session losing streak, memory weakness, and IP litigation [3, 4, 5]. | Risk-Off | Chip equities extended their longest losing streak in eight sessions driven by DRAM ETF bear market slides and licensing disputes between major designers [3, 4, 5]. |
+| `SPY` | `+0.42%` | Escalating borrowing costs and Fed price stability emphasis [1]. | Risk-Off | Broader equity markets faced heavy pressure as rising interest rates and shifting monetary policy expectations dampened risk asset sentiment [1]. |
+| `QQQ` | `+1.21%` | $260B AI software valuation compression and tech momentum reversal [2]. | Risk-Off | Growing scrutiny over high capex spending, debt-financed AI infrastructure, and unit economics triggered broad profit-taking across tech and cloud software [2]. |
+| `SOXX` | `+1.73%` | Semiconductor eight-session losing streak, memory weakness, and IP litigation [3, 4, 5]. | Risk-Off | Chip equities extended their longest losing streak in eight sessions driven by DRAM ETF bear market slides and licensing disputes between major designers [3, 4, 5]. |
 
 ## Top AI Thematic Insights
 
@@ -51,7 +51,7 @@
 | `GD` | +2.09% | Advanced during broader market drop; supported by strong aerospace and defense demand [31]. |
 | `HAL` | +1.7% | Moved higher bucking market weakness ahead of Q3 earnings print [32]. |
 | `D` | +1.28% | Closed higher as Evercore lifted price target to $70.00 amid utility sector rotation [33, 34]. |
-| `F` | n/a | Advanced as investors evaluated robust truck sales and stable 2026 operational outlook [35]. |
+| `F` | `-2.04%` | Advanced as investors evaluated robust truck sales and stable 2026 operational outlook [35]. |
 
 ### Top Losers
 
@@ -64,31 +64,31 @@
 | `WDC` | -6.51% | Extended weekly losing streak after Wells Fargo cut price target to $450 [6, 38]. |
 | `DDOG` | -6.0% | Fell as cloud software sector retreated on AI debt financing concerns [10]. |
 | `MRVL` | -3.90% | Declined amid elevated borrowing costs and broad semiconductor multiple compression [7]. |
-| `ZS` | n/a | Pomerantz securities fraud investigation launched following guidance revision and CFO departure [15]. |
-| `TTD` | n/a | Evercore flagged reduced digital advertising budgets, compounding YTD drawdown [39]. |
+| `ZS` | `+2.48%` | Pomerantz securities fraud investigation launched following guidance revision and CFO departure [15]. |
+| `TTD` | `+0.25%` | Evercore flagged reduced digital advertising budgets, compounding YTD drawdown [39]. |
 
 ## Watchlist Check
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| `NVDA` | n/a | `no news` – Cited as benchmark comparison for local AI compute laptops and chip designer valuations [4, 40]. |
+| `NVDA` | `+1.38%` | `no news` – Cited as benchmark comparison for local AI compute laptops and chip designer valuations [4, 40]. |
 | `AMD` | -5.0% | `reversal` – Dropped along with chip designers following the Arm/Qualcomm licensing verdict [4]. |
 | `MRVL` | -3.90% | `reversal` – Pulled back amid macroeconomic borrowing cost pressures and semiconductor weakness [7]. |
 | `MU` | -3.0% | `reversal` – Declined alongside SK Hynix and SanDisk as memory sector slid into a bear market [8]. |
 | `WDC` | -6.51% | `continuation` – Headed for third consecutive weekly loss as Wells Fargo lowered price targets [6, 38]. |
-| `SOXX` | n/a | `continuation` – Extended losing streak to eight straight sessions amid prolonged chip sector pressure [3]. |
-| `CRWV` | n/a | `news-driven` – Experienced sharp selloff on debt default fears, though JPMorgan defended underlying demand [13, 14]. |
-| `AAPL` | n/a | `news-driven` – Gained focus as high demand reportedly pushed new iPhone delivery timelines into December [41]. |
-| `AMZN` | n/a | `news-driven` – Announced massive 1GW nuclear energy procurement deal in Indiana to power data centers [16]. |
-| `GOOG` | n/a | `news-driven` – Finalized content licensing agreement with CNN to provide material for AI models [42]. |
-| `TSLA` | n/a | `no news` – Remains high-volume trading focus alongside space/auto hardware developments [43]. |
-| `NLR` | n/a | `no news` – Cited as nuclear power ETF play despite experiencing a 28% drawdown over the past year [20]. |
-| `CCJ` | n/a | `news-driven` – Stock trades 36% below record highs, with market focus turning to upcoming Q3 earnings [19]. |
-| `NVT` | n/a | `news-driven` – Scheduled Q3 financial result announcement for October 30 [25]. |
+| `SOXX` | `+1.73%` | `continuation` – Extended losing streak to eight straight sessions amid prolonged chip sector pressure [3]. |
+| `CRWV` | `-0.44%` | `news-driven` – Experienced sharp selloff on debt default fears, though JPMorgan defended underlying demand [13, 14]. |
+| `AAPL` | `-0.15%` | `news-driven` – Gained focus as high demand reportedly pushed new iPhone delivery timelines into December [41]. |
+| `AMZN` | `+4.98%` | `news-driven` – Announced massive 1GW nuclear energy procurement deal in Indiana to power data centers [16]. |
+| `GOOG` | `+0.96%` | `news-driven` – Finalized content licensing agreement with CNN to provide material for AI models [42]. |
+| `TSLA` | `+3.76%` | `no news` – Remains high-volume trading focus alongside space/auto hardware developments [43]. |
+| `NLR` | `-1.11%` | `no news` – Cited as nuclear power ETF play despite experiencing a 28% drawdown over the past year [20]. |
+| `CCJ` | `-1.01%` | `news-driven` – Stock trades 36% below record highs, with market focus turning to upcoming Q3 earnings [19]. |
+| `NVT` | `-0.32%` | `news-driven` – Scheduled Q3 financial result announcement for October 30 [25]. |
 | `VST` | -1.4% | `reversal` – Dipped slightly while redeeming $1 billion of Series A Preferred Stock [17, 44]. |
-| `CEG` | n/a | `no news` – Positioned as leading nuclear fleet operator benefiting from data center power contracts [18]. |
-| `STM` | n/a | `no news` – Cited in context of Aptos blockchain Block STM upgrade and motor racing entries (non-equity reference) [45, 46]. |
-| `ENTG` | n/a | `reversal` – Shares fell in afternoon trading as investors weighed macro borrowing cost headwinds [1]. |
+| `CEG` | `-3.02%` | `no news` – Positioned as leading nuclear fleet operator benefiting from data center power contracts [18]. |
+| `STM` | `+0.48%` | `no news` – Cited in context of Aptos blockchain Block STM upgrade and motor racing entries (non-equity reference) [45, 46]. |
+| `ENTG` | `+4.16%` | `reversal` – Shares fell in afternoon trading as investors weighed macro borrowing cost headwinds [1]. |
 
 ## References
 

@@ -2,13 +2,6 @@
 *(Generated via NotebookLM Integration on 2026-09-09)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-I have compiled and delivered your daily market intelligence report for **September 8, 2026**. The finalized document, **`2026-09-08_daily_market_report.md`**, has been generated and is now live in your Studio panel.
-
-This daily report details today's key macroeconomic and equity catalysts, highlighting **OpenAI's fresh infrastructure win for Nvidia** [1], **Barclays' \$3.6 trillion annual energy investment roadmap** [2] alongside **BP's outperformance** [3, 4], **Palo Alto Networks' \$21.2 billion RPO milestone** [5], and **IonQ's fault-tolerant quantum algorithm breakthrough** [6] amid post-Labor Day rate hike fears under Fed Chair Kevin Warsh [7].
-
-The full report is presented below for your review:
-
-***
 
 # Daily Market Intelligence Report: 2026-09-08
 

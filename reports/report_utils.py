@@ -1010,6 +1010,28 @@ def analyze_earnings_movement(ticker: str,
     return pd.DataFrame()
 
 
+def _filter_news_date_window(
+    news: pd.DataFrame,
+    start_date: Optional[datetime.datetime],
+    end_date: Optional[datetime.datetime],
+) -> pd.DataFrame:
+  """Filters a news DataFrame inclusively across calendar day boundaries."""
+  parsed = pd.to_datetime(news['Date'], errors='coerce')
+  if getattr(parsed.dt, 'tz', None) is not None:
+    parsed = parsed.dt.tz_localize(None)
+  news = news.copy()
+  news['Date'] = parsed
+  news = news.dropna(subset=['Date'])
+  if start_date:
+    start_norm = pd.Timestamp(start_date).tz_localize(None).normalize()
+    news = news[news['Date'] >= start_norm]
+  if end_date:
+    end_norm = (pd.Timestamp(end_date).tz_localize(None).normalize() +
+                pd.Timedelta(days=1) - pd.Timedelta(microseconds=1))
+    news = news[news['Date'] <= end_norm]
+  return news.sort_values('Date', ascending=False)
+
+
 def get_recent_news(
     topic: str,
     market_data_dir: str,
@@ -1019,23 +1041,12 @@ def get_recent_news(
   """Retrieves the most recent news headlines for a generalized topic."""
   try:
     path = os.path.join(market_data_dir, f"topics/{topic}/news.tsv")
-    news = pd.read_csv(path, sep="	")
-    news['Date'] = pd.to_datetime(news['Date'])
-    if start_date:
-      news = news[news['Date'] >= start_date]
-    if end_date:
-      news = news[news['Date'] <= end_date]
+    news = pd.read_csv(path, sep="\t")
+    news = _filter_news_date_window(news, start_date, end_date)
 
-    news = news.sort_values('Date', ascending=False)
-
-    # If we have a bounded range, include everything up to a reasonable cap (e.g., 50)
-    # If it exceeds the cap, sample systematically to fit the cap to prevent huge payloads
-    if start_date and end_date:
-      cap = max(limit, 50)  # Fallback to 50 if limit is low but we are bounded
-      if len(news) > cap:
-        indices = np.linspace(0, len(news) - 1, cap, dtype=int)
-        return news.iloc[indices]
-      return news
+    if start_date and end_date and len(news) > limit:
+      indices = np.linspace(0, len(news) - 1, limit, dtype=int)
+      return news.iloc[indices]
 
     return news.head(limit)
   except FileNotFoundError:
@@ -1055,22 +1066,12 @@ def get_recent_ticker_news(
   """Retrieves the most recent news headlines for a specific ticker."""
   try:
     path = os.path.join(market_data_dir, f"tickers/{ticker}/news.tsv")
-    news = pd.read_csv(path, sep="	")
-    news['Date'] = pd.to_datetime(news['Date'])
-    if start_date:
-      news = news[news['Date'] >= start_date]
-    if end_date:
-      news = news[news['Date'] <= end_date]
+    news = pd.read_csv(path, sep="\t")
+    news = _filter_news_date_window(news, start_date, end_date)
 
-    news = news.sort_values('Date', ascending=False)
-
-    # If we have a bounded range, include everything up to a reasonable cap (e.g., 50)
-    if start_date and end_date:
-      cap = max(limit, 50)
-      if len(news) > cap:
-        indices = np.linspace(0, len(news) - 1, cap, dtype=int)
-        return news.iloc[indices]
-      return news
+    if start_date and end_date and len(news) > limit:
+      indices = np.linspace(0, len(news) - 1, limit, dtype=int)
+      return news.iloc[indices]
 
     return news.head(limit)
   except FileNotFoundError:
@@ -2087,17 +2088,23 @@ def build_daily_news_digest(
 
   all_news = []
 
-  # When building periodic reports spanning many days, we sample systematically
-  # across the whole window. We use moderate limits to avoid exploding the context.
-  topic_limit = 15 if start_date else 5
-  ticker_limit = 5 if start_date else 3
+  # Bound single-day digests to the session + immediate lead-in (3d on Mondays
+  # for weekend news, 1d Tue-Fri) instead of pulling months-old quiet-ETF rows.
+  effective_start = start_date
+  if effective_start is None and target_date is not None:
+    lead_days = 3 if target_date.weekday() == 0 else 1
+    effective_start = target_date - datetime.timedelta(days=lead_days)
+
+  # Keep daily feeds in 1 unchunked source (<=250KB) and weekly in ~2 chunks.
+  topic_limit = 4 if start_date else 3
+  ticker_limit = 2
 
   # 1. Fetch from all config.NEWS_TOPICS
   for topic in config.NEWS_TOPICS:
     df = get_recent_news(topic,
                          market_data_dir,
                          limit=topic_limit,
-                         start_date=start_date,
+                         start_date=effective_start,
                          end_date=target_date)
 
     # Retrospective Fallback: If bounded context is suspiciously sparse (< 10 items)
@@ -2116,7 +2123,7 @@ def build_daily_news_digest(
         df = get_recent_news(topic,
                              market_data_dir,
                              limit=topic_limit,
-                             start_date=start_date,
+                             start_date=effective_start,
                              end_date=target_date)
       except Exception as e:
         logger.warning(f"Failed retrospective fetch for {topic}: {e}")
@@ -2131,7 +2138,7 @@ def build_daily_news_digest(
       df = get_recent_ticker_news(ticker,
                                   market_data_dir,
                                   limit=ticker_limit,
-                                  start_date=start_date,
+                                  start_date=effective_start,
                                   end_date=target_date)
       if not df.empty:
         df['Source_Label'] = f"{ticker} ({sector_name})"
@@ -2153,7 +2160,7 @@ def build_daily_news_digest(
 
   # Optimization: if handling massive time chunks (e.g., yearly scans of 5000+ items),
   # O(N^2) fuzzy checking will freeze the program.
-  use_fuzzy = len(combined_df) < 500
+  use_fuzzy = len(combined_df) < 800
 
   for _, row in combined_df.iterrows():
     if not pd.notna(row['Date']) or not pd.notna(row['Headline']):
@@ -2176,10 +2183,19 @@ def build_daily_news_digest(
     if 'Summary' in row and pd.notna(row['Summary']) and len(
         str(row['Summary']).strip()) > 10:
       summary_raw = str(row['Summary']).strip()
-      summary_raw = summary_raw.replace('\n', ' ').replace('\r', '')
+      summary_raw = summary_raw.replace('\n', ' ').replace('\r', '')[:240]
 
+    dt_val = pd.to_datetime(row['Date'], errors='coerce')
+    dt_str = dt_val.strftime('%Y-%m-%d') if pd.notna(dt_val) else str(
+        row['Date'])
+    text_blob += f"Date: {dt_str}\n"
     text_blob += f"Title: {headline}\n"
     text_blob += f"Topic/Ticker: {row.get('Source_Label', 'News')}\n"
+    if 'Sentiment' in row and pd.notna(row['Sentiment']):
+      try:
+        text_blob += f"Sentiment: {float(row['Sentiment']):+.2f}\n"
+      except (TypeError, ValueError):
+        pass
 
     # Capture the link for deep fetching later
     link = str(row.get('URL', '')).strip()
@@ -2200,30 +2216,33 @@ def build_daily_news_digest(
 def _append_shipping_to_digest(market_data_dir: str, text_blob: str,
                                start_date: Optional[datetime.datetime],
                                target_date: Optional[datetime.datetime]) -> str:
+  del start_date  # Always surface the latest published snapshot <= target_date.
   files_to_check = [
       ("Global Congestion",
-       os.path.join(market_data_dir, "shipping", "chokepoint_metrics.tsv")),
+       os.path.join(market_data_dir, "shipping", "chokepoint_metrics.tsv"), 6),
+      ("Major Port Calls",
+       os.path.join(market_data_dir, "shipping", "port_calls.tsv"), 8),
       ("Geopolitics & Tariffs",
-       os.path.join(market_data_dir, "shipping", "tariffs.tsv")),
+       os.path.join(market_data_dir, "shipping", "tariffs.tsv"), 5),
       ("Macro Constraints",
-       os.path.join(market_data_dir, "shipping", "shipping_macro.tsv")),
+       os.path.join(market_data_dir, "shipping", "shipping_macro.tsv"), 5),
   ]
 
   shipping_blob = ""
-  for label, file_path in files_to_check:
+  for label, file_path, row_cap in files_to_check:
     if os.path.exists(file_path):
       try:
         df = pd.read_csv(file_path, sep="\t")
         if "Date" in df.columns:
           df['ParsedDate'] = pd.to_datetime(df['Date'],
                                             utc=True).dt.tz_localize(None)
-          if start_date:
-            df = df[df['ParsedDate'] >= start_date]
           if target_date:
-            df = df[df['ParsedDate'] <= target_date]
+            end_bound = (
+                pd.Timestamp(target_date).tz_localize(None).normalize() +
+                pd.Timedelta(days=1) - pd.Timedelta(microseconds=1))
+            df = df[df['ParsedDate'] <= end_bound]
 
-          # We only care about appending the recent active points so we take the top 5
-          df = df.sort_values(by="ParsedDate", ascending=False).head(5)
+          df = df.sort_values(by="ParsedDate", ascending=False).head(row_cap)
 
           if not df.empty:
             shipping_blob += f"--- {label} ---\n"

@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-29)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 # Daily Market Intelligence Report: 2026-09-10
 
 ## Top AI Thematic Insights
@@ -72,7 +73,3 @@ Today's session showcased a sharp divergence between earnings-beating cloud enab
 15. "Salesforce Flatlines After GPT-6 Astra Erases 4%" — TradingView, 2026-09-10 Daily Market Feed (Passage 682). URL: `https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcWl2dXlDX0xLOElDaDZDaFJ5aW5zMWcyX3FVRk94dWdmVExseEptY1JoX01qWVhOSTYtLXN5ckNXSTc5YkduUnlISml3NS15SWk2bXFSVXZBeVREaXRzdlFwRzdlS2RSeHZkRjlTVG1icUpjTE9TV3I5T2YxUm5SdFkxbFM4UkN6TzNKUmlGSjBRRUNzVS13QzgyRXd6b1l4X3lHUnFIc2xPMDA?oc=5`
 16. "Apple, ServiceTitan, Meta, Micron, Casey’s, Jersey Mike’s, and More Stocks That Explain Today’s Market" — Yahoo Finance, 2026-09-10 Daily Market Feed (Passage 683). URL: `https://finance.yahoo.com/m/13a3fc8d-331b-3afb-987e-238ad4d3ede5/apple%2C-servicetitan%2C-meta%2C.html?.tsrc=rss`
 17. "Stock Market Today (Sept. 9, 2026): Dow, Russell 2000 fall as Brent passes \$101/bbl; Treasury yields set new 52wk highs" — TheStreet, 2026-09-10 Daily Market Feed (Passage 683). URL: `https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026?.tsrc=rss`
-
-***
-
-📈 **Next Steps:** I have published the report file as **`2026-09-10_daily_market_report-v3.md`** in your Studio panel. Would you like me to write a Python script to compare the multi-month performance delta between rate-sensitive enterprise software stocks and hard-asset energy producers across your 2026 dataset?

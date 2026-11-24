@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-15)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 # Daily Market Intelligence Report: 2026-09-09
 
 ## Top AI Thematic Insights
@@ -72,7 +73,3 @@ Today’s session showcased a sharp performance gap between long-duration energy
 11. "Home Depot stock slips as investors digest strong earnings and guidance" — AD HOC NEWS, 2026-09-09 Daily Market Feed (Passage 692). URL: `https://news.google.com/rss/articles/CBMizwFBVV95cUxNZjk0bG5kRUZWczI0X0l4QWdJmXptQ3dLbXNXQ2UyamItczNZalhyTEw3R3lPMUVHS2pta0psa2ZhOV_HRWdEdlk5cjNqMmdqRXNlQU5oUndNVDNCd2ZtemdLNnowMzkxS1ZidFRrZGxDaTN0a0HJZXEyV1p3ajgwNXVJc1lDM21xNFI6ZVNrSF_jeENlbDRzQ0lzNi1NZzhXMVFTaGxmbjJoLXgzVjZ1Yk5TeWdWbW9hdzBCTjZPenJfYUhLOGs?oc=5`
 12. "Matson: Better Fundamentals, Limited Upside After The Rally" — Seeking Alpha, 2026-09-09 Daily Market Feed (Passage 693). URL: `https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGhFRmdnTVpnZUkxeFpoWHR1TVN1MWJoN2hQUE9QRk9mdHRieDBoNkZSMUdLcHVETVZVdkM0OElIQ2RybTZSN2RMU2cybWExTmR3NEJLU1FJX0R3SW1EN2x0TWZ3SUc4dFNMS2tMY1dpaHI1NzNoSmRBb1RHa0NSbkRBSHQ2Qmxub2YxNmJwODUybGk3NS0wWmNCaENnZHpldFE?oc=5`
 13. "ConocoPhillips stock underperforms Wednesday when compared to competitors despite daily gains" — MarketWatch, 2026-09-09 Daily Market Feed (Passage 693). URL: `https://news.google.com/rss/articles/CBMigAJBVV95cUxObXExbVlDRUdjSG1XRk5NTWJSb3hzVmtVVnNYRF92RC1GbUtWd3lUOVNCRTZhSjYyVlpiRUFUSktyMGRlX0RDeUtuM2JIUndUM3hocGliY0Q5a0pTR2VNb2xGRDFYd0ZfRkxsUUE5MmxCTThxOTJVb0FfOXFpN1RNVHU0d09LVmJNT21uMnBiZmU4QTBaZmViNmxtMk1fZmQ0JnBZaV9YMFFzNmJOUWZfcFBYNWtKUVYyQzhEOWJ1TE5IZmdTS25OOVNEMHU0SmNvY0FQVWxieTg4Z3FTbFk0ZVdSOHZFdEhIeW81SG9hRmZaWHJrUTRPNTc3d0UyUUhq?oc=5`
-
-***
-
-📈 **Next Steps:** I have published version 2 (**`2026-09-09_daily_market_report-v2.md`**) in your Studio panel. Would you like me to write a Python script to synthesize your September daily feeds so far and plot the performance delta between specialized energy infrastructure plays (like BP and Shell) against rate-sensitive growth indices?

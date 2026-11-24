@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-29)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 # Daily Market Intelligence Report: 2026-09-25
 
 ## Top AI Thematic Insights
@@ -62,7 +63,3 @@ Friday's session closed out a winning week for broad indices, propelled by Akama
 8. "Nvidia, Meta, Akamai, Comcast, Zscaler, Nike, and More Stocks That Explain Today's Market" — Barron's / 富途牛牛, 2026-09-25 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMipgFBVV95cUxOaWx4di1KV0NkaHlOa0p4VzZUbVFsMEZKcDY5bjhkdm54dkNMVXhIcmxPbnB5alY3Vm9DNjNITDZmLUZWQklvQl_od0M3VXhDdDgzd0FMY0hjYWF6WG50YzVwdERYT0Z1UnlRVFVvbnpoRGNpOVhMd2JUTjlYQnVBd1FYZ2o2cHVSN2ZtbURtSVN1eFgzcnpESGlzZ3FjUm5LWHpmU0JR?oc=5`
 9. "Microsoft, Meta, Akamai, Zscaler, Comcast, and More Stocks That Explain Today's Market" — Barron's / 富途牛牛, 2026-09-25 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMirgFBVV95cUxON2YycWdvLXJrVk9lc0dScFJtVHJTOVhPSldnSkFIYUctbmlxRnd3SmdLakZYLWdaUTAtTHlld2xjWlVfZFJGNjU1WXd3Vk96Z0dkNFZxdjRCS0pWTFFzQndDU2RlXy1JMHEzOHB3cDhSZk1KQS1EY0NlMS13RjdYOHJtVno1TWZ6ekxMVFV3YmdqbmZ6R0Zoajc3UHRpbDNYYjZMOGFpcm81elVwQ0E?oc=5`
 10. "Costco Confirms Its Food Court Churro Is Coming Back — COST Stock Flat Despite Q4 Beat" — Yahoo Finance, 2026-09-25 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMinwFBVV95cUxOZERoMzUzbDNmU3ZNaUlvVHdyYWhZMTFWdFJtNkpSNnFMNkM3YjY5WjRIX0wxMVA3U3VhZFlLemRKcDdaX3lqZEdmLXhuU1hncnBOSzh1Yi1hUWN3Wmdodk1RTDVoYlNoRzVMWUFGbU5MQjZ6R0HBY3JyZS00SGNoUVc3dEJtVWtXQjVocDRMbWdpZWRVM1dyT3JKTU9fVEk?oc=5`
-
-***
-
-📈 **Next Steps:** The report is also saved in your Studio panel as `2026-09-25_daily_market_report.md`. Would you like me to run a Python analysis across your September dataset comparing the multi-week performance trends between edge delivery networks (AKAM, NET) and vertically integrated neocloud operators (NBIS, IREN)?

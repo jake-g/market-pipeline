@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-21)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 ## Top AI Thematic Insights
 
 ### The Frontier Model Safety Pause & The Semiconductor Hardware Re-Rating
@@ -84,7 +85,3 @@ The quantitative leaderboard for the week of September 13 to September 19, 2026,
 19. "01_MONTHLY_REPORT.pdf" [PDF] — January 2026 Top AI Thematic Insights (AI Training to Deployment Phase shift).
 20. "05_MONTHLY_REPORT.pdf" [PDF] — May 2026 Top AI Thematic Insights (Transition from AI Training to Inference Era).
 21. "07_MONTHLY_REPORT.pdf" [PDF] — July 2026 Top AI Thematic Insights (Arrival of the Valuation Wall and Revenue Verification).
-
-***
-
-📈 **Next Steps:** The report **`2026-09-13_to_2026-09-19_weekly_synthesis_report.md`** is published and available in your Studio panel. Would you like me to run a Python analysis across your September market feeds to plot the multi-week performance delta between vertically integrated neoclouds (IREN, Nebius) and rate-sensitive clean energy proxies?

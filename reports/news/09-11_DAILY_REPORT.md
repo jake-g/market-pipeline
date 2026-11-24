@@ -2,11 +2,6 @@
 *(Generated via NotebookLM Integration on 2026-09-15)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-I have compiled and published your daily market intelligence report for **September 11, 2026** directly to your Studio panel.
-
-The full report is presented below:
-
-***
 
 # Daily Market Intelligence Report: 2026-09-11
 

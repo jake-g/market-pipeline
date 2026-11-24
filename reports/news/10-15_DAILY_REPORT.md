@@ -6,13 +6,11 @@
 
 ## 1. Regime Dashboard
 
-*Data Coverage Note: Quantitative price action feed coverage for 2026-10-15 is thin; benchmark metrics and specific ticker performance without explicit daily feed figures are populated as "n/a" per directive guidelines.*
-
 | Benchmark / Metric | Value / Status | Context / Detail |
 | :--- | :--- | :--- |
-| `SPY 1-Day %` | n/a | Quantitative price action summary data unavailable for 2026-10-15. |
-| `QQQ 1-Day %` | n/a | Quantitative price action summary data unavailable for 2026-10-15. |
-| `SOXX 1-Day %` | n/a | Semiconductor sector extended its losing streak to a seventh straight session [3]. |
+| `SPY 1-Day %` | `+0.28%` | Quantitative price action summary data unavailable for 2026-10-15. |
+| `QQQ 1-Day %` | `-0.13%` | Quantitative price action summary data unavailable for 2026-10-15. |
+| `SOXX 1-Day %` | `-0.91%` | Semiconductor sector extended its losing streak to a seventh straight session [3]. |
 | `Primary Macro Event` | Yield & Inflation Pressure | September CPI rose 0.6% and the 10-year Treasury yield reached 5.26%, intensifying rate pressure across clean tech and growth equities [1, 2, 4]. |
 | `Risk Posture` | Risk-Off | Rising Treasury yields and elevated inflation prints are driving selloffs across high-multiple technology equities, neocloud infrastructure providers, and nuclear developers [1, 2, 3]. |
 
@@ -76,28 +74,28 @@
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
 | `AVGO` | +0.7% | Continuation - Surged on multi-year AI commitments [8, 21]. |
-| `MRVL` | n/a | Reversal - Dipped more than the broader market [7]. |
+| `MRVL` | `-1.65%` | Reversal - Dipped more than the broader market [7]. |
 | `MU` | -3.0% | News-driven - Pressure from rival server memory expansion [5]. |
 | `WDC` | -4.4% | News-driven - Fell on rival server memory threat [5, 6]. |
-| `SOXX` | n/a | Continuation - Extended losing streak to seven sessions [3]. |
+| `SOXX` | `-0.91%` | Continuation - Extended losing streak to seven sessions [3]. |
 | `IONQ` | -6.0% | News-driven - Diluted by major equity capital raise [10]. |
-| `CRWV` | n/a | News-driven - Bond yield reached 15% post-announcement [9]. |
-| `CEG` | n/a | News-driven - Nuclear agreements highlight long-term demand growth [30]. |
+| `CRWV` | `+5.94%` | News-driven - Bond yield reached 15% post-announcement [9]. |
+| `CEG` | `-1.62%` | News-driven - Nuclear agreements highlight long-term demand growth [30]. |
 | `VST` | -6.7% | Reversal - Pullback amid data center timing concerns [12, 13]. |
 | `CCJ` | -5.4% | News-driven - Declined on valuation metric reset [27]. |
 | `NVT` | -5.4% | Reversal - Fell back despite strong intrinsic valuation [28]. |
-| `STM` | n/a | News-driven - Experiencing unusual options market activity [31]. |
-| `ENTG` | n/a | News-driven - Initiated with bullish analyst coverage [32]. |
-| `AAPL` | n/a | News-driven - Purchased by Global Wealth Strategies [33]. |
-| `AMZN` | n/a | News-driven - Recalled 113k acetaminophen bottles [34]. |
-| `GOOG` | n/a | News-driven - Creator economy shifting media entertainment dynamic [35]. |
-| `TSLA` | n/a | News-driven - Preparing for quarterly earnings announcement [36]. |
-| `PANW` | n/a | News-driven - SASE growth providing competitive sector edge [37]. |
-| `COHR` | n/a | News-driven - Shares withheld for executive tax obligations [38]. |
-| `SPY` | n/a | No news - Included in macro trading overview [39]. |
-| `QQQ` | n/a | No news - Covered in general trading preview [39]. |
-| `NVDA` | n/a | No news - Referenced in general market trading preview [39]. |
-| `IREN` | n/a | News-driven - Hurt by neocloud funding selloff pressure [11]. |
+| `STM` | `-0.64%` | News-driven - Experiencing unusual options market activity [31]. |
+| `ENTG` | `-4.06%` | News-driven - Initiated with bullish analyst coverage [32]. |
+| `AAPL` | `-0.28%` | News-driven - Purchased by Global Wealth Strategies [33]. |
+| `AMZN` | `+0.27%` | News-driven - Recalled 113k acetaminophen bottles [34]. |
+| `GOOG` | `+0.37%` | News-driven - Creator economy shifting media entertainment dynamic [35]. |
+| `TSLA` | `-1.29%` | News-driven - Preparing for quarterly earnings announcement [36]. |
+| `PANW` | `-1.27%` | News-driven - SASE growth providing competitive sector edge [37]. |
+| `COHR` | `-4.83%` | News-driven - Shares withheld for executive tax obligations [38]. |
+| `SPY` | `+0.28%` | No news - Included in macro trading overview [39]. |
+| `QQQ` | `-0.13%` | No news - Covered in general trading preview [39]. |
+| `NVDA` | `-1.84%` | No news - Referenced in general market trading preview [39]. |
+| `IREN` | `-0.56%` | News-driven - Hurt by neocloud funding selloff pressure [11]. |
 
 ---
 

@@ -8,7 +8,7 @@
 
 | Benchmark Weekly % | Best Sector/Theme (%) | Worst Sector/Theme (%) | Key Macro Event | Risk Posture |
 | :--- | :--- | :--- | :--- | :--- |
-| SPY: n/a <br> QQQ: n/a <br> SOXX: n/a [1] | Bio & MedTech / Cybersecurity (NET +6.0% daily) [2, 3] | Semiconductors / Memory Constraints (ALAB -2.32%) [4, 5] | OpenAI clarifies annualized revenue near $50B versus $70B market expectations, sparking tech pullbacks [1] | Neutral |
+| SPY: +1.16% <br> QQQ: +0.23% <br> SOXX: -5.01% [1] | Bio & MedTech / Cybersecurity (NET +6.0% daily) [2, 3] | Semiconductors / Memory Constraints (ALAB -2.32%) [4, 5] | OpenAI clarifies annualized revenue near $50B versus $70B market expectations, sparking tech pullbacks [1] | Neutral |
 
 ## Top AI Thematic Insights
 
@@ -50,50 +50,50 @@
 | :--- | :--- | :--- |
 | NET | +6.0% | Deno team platform integration and Oppenheimer price target upgrade to $430 [3] |
 | AVGO | +3.7% | Positive custom AI silicon demand tailwinds from Marvell investor day [6] |
-| MRNA | n/a | Leads S&P 500 performance (+663% YTD) ahead of Oct 24 cancer vaccine data release [2, 19] |
-| CRWD | n/a | Falcon cybersecurity platform launch on the OpenAI Marketplace [14] |
-| SNPS | n/a | Upgraded to Buy by HSBC with $700 price target on custom AI and OpenAI deals [5, 7] |
-| COHR | n/a | Strong earnings performance and high-speed optical AI demand [12] |
-| TSM | n/a | Record Q3 2026 revenue and $2B GlobalFoundries CoWoS interposer order [13, 25] |
-| MRK | n/a | Presented positive Phase 2b/3 BRUNELLO trial results at AAO 2026 [23] |
+| MRNA | +18.41% | Leads S&P 500 performance (+663% YTD) ahead of Oct 24 cancer vaccine data release [2, 19] |
+| CRWD | +1.85% | Falcon cybersecurity platform launch on the OpenAI Marketplace [14] |
+| SNPS | +4.10% | Upgraded to Buy by HSBC with $700 price target on custom AI and OpenAI deals [5, 7] |
+| COHR | -7.25% | Strong earnings performance and high-speed optical AI demand [12] |
+| TSM | -4.12% | Record Q3 2026 revenue and $2B GlobalFoundries CoWoS interposer order [13, 25] |
+| MRK | +0.90% | Presented positive Phase 2b/3 BRUNELLO trial results at AAO 2026 [23] |
 
 ### Top Losers
 
 | Ticker | Week % | Catalyst (Citation) |
 | :--- | :--- | :--- |
 | ALAB | -2.32% | Short-term profit-taking following Aries 7 PCIe 7 signal conditioning launch [4] |
-| ORCL | n/a | Shares sank after OpenAI clarified its annualized revenue run-rate near $50B versus $70B expected [1] |
-| AAPL | n/a | Slashed iPhone 18 Pro build orders 15-20% due to severe memory shortages [9] |
-| PLD | n/a | Texas data center development faced state power grid hookup restrictions [16, 17] |
-| RDDT | n/a | Share price consolidated following a prior 34% decline [26] |
-| ENTG | n/a | Flat two-year sales and constrained free cash flow weighed on AI materials narrative [27] |
-| SMCI | n/a | Legal risks escalated as former contractor pleaded guilty in $2.5B AI server case [28] |
-| ADI | n/a | ADI Global Distribution shares dropped despite cheap cash flow valuation [29, 30] |
+| ORCL | -0.27% | Shares sank after OpenAI clarified its annualized revenue run-rate near $50B versus $70B expected [1] |
+| AAPL | +0.88% | Slashed iPhone 18 Pro build orders 15-20% due to severe memory shortages [9] |
+| PLD | +0.45% | Texas data center development faced state power grid hookup restrictions [16, 17] |
+| RDDT | +8.15% | Share price consolidated following a prior 34% decline [26] |
+| ENTG | -0.41% | Flat two-year sales and constrained free cash flow weighed on AI materials narrative [27] |
+| SMCI | -4.19% | Legal risks escalated as former contractor pleaded guilty in $2.5B AI server case [28] |
+| ADI | -2.63% | ADI Global Distribution shares dropped despite cheap cash flow valuation [29, 30] |
 
 ## Watchlist Check
 
 | Ticker | Week % | vs SPY (pct-pts) | Read |
 | :--- | :--- | :--- | :--- |
-| SPY | n/a | n/a | Event-Driven |
-| SOXX | n/a | n/a | Lagging |
-| NVDA | n/a | n/a | Event-Driven |
-| TSM | n/a | n/a | Leading |
-| AMD | n/a | n/a | Lagging |
-| AVGO | +3.7% | n/a | Leading |
-| MRVL | n/a | n/a | Leading |
-| COHR | n/a | n/a | Leading |
-| WDC | n/a | n/a | Leading |
-| SMH | n/a | n/a | Event-Driven |
-| IONQ | n/a | n/a | Event-Driven |
-| AAPL | n/a | n/a | Lagging |
-| AMZN | n/a | n/a | Event-Driven |
-| GOOG | n/a | n/a | Lagging |
-| TSLA | n/a | n/a | Event-Driven |
-| PANW | n/a | n/a | Event-Driven |
-| HOOD | n/a | n/a | Leading |
-| NVT | n/a | n/a | Leading |
-| ENTG | n/a | n/a | Lagging |
-| MRK | n/a | n/a | Leading |
+| SPY | +1.16% | +0.00pp | Event-Driven |
+| SOXX | -5.01% | -6.17pp | Lagging |
+| NVDA | -2.00% | -3.16pp | Event-Driven |
+| TSM | -4.12% | -5.28pp | Lagging |
+| AMD | -4.07% | -5.23pp | Lagging |
+| AVGO | +3.7% | +0.64pp | Leading |
+| MRVL | +1.12% | -0.04pp | Leading |
+| COHR | -7.25% | -8.41pp | Lagging |
+| WDC | -4.34% | -5.50pp | Lagging |
+| SMH | -4.32% | -5.48pp | Event-Driven |
+| IONQ | -8.86% | -10.02pp | Event-Driven |
+| AAPL | +0.88% | -0.28pp | Lagging |
+| AMZN | +4.34% | +3.18pp | Event-Driven |
+| GOOG | +2.21% | +1.05pp | Leading |
+| TSLA | +3.27% | +2.11pp | Event-Driven |
+| PANW | +3.85% | +2.69pp | Event-Driven |
+| HOOD | -3.30% | -4.46pp | Lagging |
+| NVT | -1.26% | -2.42pp | Lagging |
+| ENTG | -0.41% | -1.57pp | Lagging |
+| MRK | +0.90% | -0.26pp | Lagging |
 
 ### What I would do differently going into next week
 - **Trim exposure** to consumer hardware original equipment manufacturers (e.g., Apple) facing elevated component cost inflation and order cuts driven by memory supply shortages.

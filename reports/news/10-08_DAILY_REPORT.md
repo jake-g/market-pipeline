@@ -8,7 +8,7 @@ Note: Direct quantitative price action summary data for 2026-10-08 is thin in th
 
 | SPY 1-Day % | QQQ 1-Day % | SOXX 1-Day % | Key Macro Print / Event | Risk Posture & Justification |
 | :--- | :--- | :--- | :--- | :--- |
-| n/a | -1.3% [1] | n/a | Federal Reserve minutes signal potential additional 2026 rate hikes as crude oil surges on Mideast conflict and hurricane risks [2, 3]. | **Risk-Off** — Soaring crude oil prices and hawkish Federal Reserve rate expectations drove Treasury yields higher, triggering a broad selloff across high-duration AI and tech equities [1-3]. |
+| -0.42% | -1.3% [1] | -3.35% | Federal Reserve minutes signal potential additional 2026 rate hikes as crude oil surges on Mideast conflict and hurricane risks [2, 3]. | **Risk-Off** — Soaring crude oil prices and hawkish Federal Reserve rate expectations drove Treasury yields higher, triggering a broad selloff across high-duration AI and tech equities [1-3]. |
 
 ## Top AI Thematic Insights
 
@@ -38,10 +38,10 @@ Note: Direct quantitative price action summary data for 2026-10-08 is thin in th
 | Ticker | 1-Day % | Catalyst (with citation) |
 | :--- | :--- | :--- |
 | **BP** | +3.50% | Advanced +3.50% as crude oil prices surged on Middle East supply disruption concerns [10]. |
-| **TTE** | n/a | TotalEnergies CEO confirmed repair completion at Saudi Arabia's Satorp refinery amid rising energy prices [11]. |
-| **SNPS** | n/a | Reaffirmed Strong Buy status on strategic AI chip design partnerships with Nvidia and TSMC [9]. |
-| **GEV** | n/a | Highlighted by analysts as the essential power grid supplier enabling AI data center expansion [8]. |
-| **ANET** | n/a | In focus as YTD performance reached +64.7% on strong AI Ethernet networking demand [12]. |
+| **TTE** | +2.13% | TotalEnergies CEO confirmed repair completion at Saudi Arabia's Satorp refinery amid rising energy prices [11]. |
+| **SNPS** | -0.98% | Reaffirmed Strong Buy status on strategic AI chip design partnerships with Nvidia and TSMC [9]. |
+| **GEV** | +0.23% | Highlighted by analysts as the essential power grid supplier enabling AI data center expansion [8]. |
+| **ANET** | -2.25% | In focus as YTD performance reached +64.7% on strong AI Ethernet networking demand [12]. |
 
 ### Top Losers
 | Ticker | 1-Day % | Catalyst (with citation) |
@@ -59,15 +59,15 @@ Note: Direct quantitative price action summary data for 2026-10-08 is thin in th
 | **MRVL** | -4.60% | reversal — Pulled back 4.60% in broad AI hardware profit-taking ahead of OCP Global Summit [4]. |
 | **IREN** | -4% | news-driven — Dropped 4% following a SemiAnalysis report flagging Canadian data center outages [7]. |
 | **QQQ** | -1.3% | reversal — Declined 1.3% as hawkish Fed rate expectations and rising yields hit growth tech [1]. |
-| **SOXX** | n/a | reversal — Sector ETF faced hedging pressure as traders bought puts following AI stock pullbacks [13]. |
-| **SNPS** | n/a | news-driven — Reaffirmed Strong Buy status on strategic AI design partnerships with Nvidia and TSMC [9]. |
-| **NVDA** | n/a | news-driven — In focus as EDA design automation partner SNPS received analyst upgrades [9]. |
-| **TSM** | n/a | news-driven — Cited alongside Nvidia as a primary partner in Synopsys's AI software ecosystem [9]. |
-| **ANET** | n/a | continuation — Highlighted for its +64.7% YTD performance driven by AI Ethernet networking deployment [12]. |
-| **COHR** | n/a | news-driven — Featured in technology research notes analyzing AI optical component backlog [14]. |
-| **GEV** | n/a | news-driven — Recognized by analysts as the core gas turbine power supplier for AI data centers [8]. |
-| **HOOD** | n/a | news-driven — Analyzed by Wall Street for platform growth drivers and retail crypto volume catalysts [15]. |
-| **SPY** | n/a | reversal — Retreated as 10-year Treasury yields and crude oil prices spiked simultaneously [2, 3]. |
+| **SOXX** | -3.35% | reversal — Sector ETF faced hedging pressure as traders bought puts following AI stock pullbacks [13]. |
+| **SNPS** | -0.98% | news-driven — Reaffirmed Strong Buy status on strategic AI design partnerships with Nvidia and TSMC [9]. |
+| **NVDA** | -2.94% | news-driven — In focus as EDA design automation partner SNPS received analyst upgrades [9]. |
+| **TSM** | -3.01% | news-driven — Cited alongside Nvidia as a primary partner in Synopsys's AI software ecosystem [9]. |
+| **ANET** | -2.25% | continuation — Highlighted for its +64.7% YTD performance driven by AI Ethernet networking deployment [12]. |
+| **COHR** | -9.63% | news-driven — Featured in technology research notes analyzing AI optical component backlog [14]. |
+| **GEV** | +0.23% | news-driven — Recognized by analysts as the core gas turbine power supplier for AI data centers [8]. |
+| **HOOD** | -2.28% | news-driven — Analyzed by Wall Street for platform growth drivers and retail crypto volume catalysts [15]. |
+| **SPY** | -0.42% | reversal — Retreated as 10-year Treasury yields and crude oil prices spiked simultaneously [2, 3]. |
 
 ## References
 

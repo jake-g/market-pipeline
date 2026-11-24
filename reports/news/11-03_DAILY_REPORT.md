@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | Value / Status | Details / Justification |
 | :--- | :--- | :--- |
-| **SPY 1-Day %** | n/a | Exact single-day percentage performance for SPY is omitted from the feed context. |
-| **QQQ 1-Day %** | n/a | Exact single-day percentage performance for QQQ is omitted from the feed context. |
-| **SOXX 1-Day %** | n/a | Exact single-day percentage performance for SOXX is omitted from the feed context. |
+| **SPY 1-Day %** | +0.30% | Closed at $754.35 (session range $752.39–$757.07). |
+| **QQQ 1-Day %** | +0.62% | Closed at $685.28 (session range $683.18–$688.69). |
+| **SOXX 1-Day %** | +2.50% | Closed at $155.00 (session range $153.94–$157.54). |
 | **Key Macro Event / Print** | Central Bank Rate Hike & Midterm Election Backdrop | Reserve Bank of Australia raised cash rates to 4.85%, explicitly citing AI infrastructure investment as an inflationary driver, while US election night coverage focused on data center build-out policy [1] [2]. |
 | **Risk Posture** | Neutral | Semiconductor and power grid equities rallied on expanding AI infrastructure backlogs, while escalating high-yield debt concerns for neoclouds and selective mega-cap software pullbacks created mixed market direction. |
 
@@ -77,30 +77,30 @@
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | `news-driven` Institutional capital rotated toward Apple while paring positions in high-beta semiconductor leaders [37]. |
-| **TSM** | n/a | `no news` Highlighted by analysts as a core wide-moat semiconductor holding for consistent structural returns [38]. |
-| **AMD** | n/a | `news-driven` Tech futures and options volatility moved higher ahead of quarterly earnings results [2] [39]. |
-| **AVGO** | n/a | `news-driven` Institutional regulatory filings showed position trimming by major state retirement funds [40]. |
-| **MRVL** | n/a | `reversal` Bank of America downgraded the stock to Neutral over valuation and strategic concerns regarding the proposed Lumentum deal [11] [12]. |
-| **MU** | n/a | `no news` Media coverage focused on relative positioning in memory markets versus Western Digital [41]. |
-| **ANET** | n/a | `news-driven` Arista earnings coverage lifted tech futures alongside AMD ahead of election night prints [2]. |
+| **NVDA** | +2.29% | `news-driven` Institutional capital rotated toward Apple while paring positions in high-beta semiconductor leaders [37]. |
+| **TSM** | +1.55% | `no news` Highlighted by analysts as a core wide-moat semiconductor holding for consistent structural returns [38]. |
+| **AMD** | +3.65% | `news-driven` Tech futures and options volatility moved higher ahead of quarterly earnings results [2] [39]. |
+| **AVGO** | +3.07% | `news-driven` Institutional regulatory filings showed position trimming by major state retirement funds [40]. |
+| **MRVL** | +0.33% | `reversal` Bank of America downgraded the stock to Neutral over valuation and strategic concerns regarding the proposed Lumentum deal [11] [12]. |
+| **MU** | +2.58% | `no news` Media coverage focused on relative positioning in memory markets versus Western Digital [41]. |
+| **ANET** | +3.52% | `news-driven` Arista earnings coverage lifted tech futures alongside AMD ahead of election night prints [2]. |
 | **COHR** | +6.0% | `continuation` Optical sector momentum built ahead of the company's scheduled quarterly earnings release [14]. |
-| **WDC** | n/a | `no news` Highlighted in relative valuation comparisons against memory peer Micron Technology [41]. |
-| **SOXX** | n/a | `no news` Semiconductor index referenced in context of South Korea doubling its national AI chip budget [42]. |
-| **IONQ** | n/a | `continuation` Pure-play quantum momentum continued following quarterly revenue growth of 287% [43]. |
-| **CRWV** | n/a | `continuation` Shares broke to a new 52-week low of $50.15 as market scrutiny centered on double-digit bond yields [3] [4]. |
-| **AAPL** | n/a | `news-driven` Shares acted as a capital safe haven during tech sector volatility and hyperscaler cash flow concerns [37] [44]. |
-| **AMZN** | n/a | `continuation` Analysts reiterated positive price targets citing internal AI software engineering transitions [45] [46]. |
-| **GOOG** | n/a | `reversal` Free cash flow turned negative as capital expenditure scaled up to finance AI data center expansion [6]. |
-| **TSLA** | n/a | `continuation` Investor focus remained on soft operating margins following record quarterly delivery updates [47]. |
-| **PANW** | n/a | `news-driven` Sector software funds trimmed position sizes during automated portfolio rebalancing [48]. |
-| **CCJ** | n/a | `continuation` Management lifted full-year revenue outlook based on strengthening nuclear energy demand [19]. |
+| **WDC** | +2.59% | `no news` Highlighted in relative valuation comparisons against memory peer Micron Technology [41]. |
+| **SOXX** | +2.50% | `no news` Semiconductor index referenced in context of South Korea doubling its national AI chip budget [42]. |
+| **IONQ** | +6.46% | `continuation` Pure-play quantum momentum continued following quarterly revenue growth of 287% [43]. |
+| **CRWV** | +7.16% | `continuation` Shares broke to a new 52-week low of $50.15 as market scrutiny centered on double-digit bond yields [3] [4]. |
+| **AAPL** | -1.90% | `news-driven` Shares acted as a capital safe haven during tech sector volatility and hyperscaler cash flow concerns [37] [44]. |
+| **AMZN** | +2.06% | `continuation` Analysts reiterated positive price targets citing internal AI software engineering transitions [45] [46]. |
+| **GOOG** | +0.08% | `reversal` Free cash flow turned negative as capital expenditure scaled up to finance AI data center expansion [6]. |
+| **TSLA** | -1.32% | `continuation` Investor focus remained on soft operating margins following record quarterly delivery updates [47]. |
+| **PANW** | -0.43% | `news-driven` Sector software funds trimmed position sizes during automated portfolio rebalancing [48]. |
+| **CCJ** | -1.12% | `continuation` Management lifted full-year revenue outlook based on strengthening nuclear energy demand [19]. |
 | **NVT** | +4.5% | `continuation` Stock maintained its upward trend as analysts assessed electrical enclosure and cooling valuation multiples [49]. |
 | **VST** | +5.0% | `continuation` Advanced alongside power grid peers following positive PJM market forecast upgrades [18]. |
-| **CEG** | n/a | `continuation` Gained ground as long-term nuclear power purchase agreement (PPA) pricing dynamics improved [18] [50]. |
-| **STM** | n/a | `news-driven` Unveiled its new STM32A microcontroller family designed for edge AI, robotics, and automotive systems [51]. |
-| **ENTG** | n/a | `news-driven` Announced strategic product expansion into SiC and synthetic diamond thermal management materials for advanced packaging [15]. |
-| **SPY** | n/a | `news-driven` Broad-market ETF registered estimated single-day capital inflows of $5.73 billion [52]. |
+| **CEG** | +2.39% | `continuation` Gained ground as long-term nuclear power purchase agreement (PPA) pricing dynamics improved [18] [50]. |
+| **STM** | +2.90% | `news-driven` Unveiled its new STM32A microcontroller family designed for edge AI, robotics, and automotive systems [51]. |
+| **ENTG** | +0.79% | `news-driven` Announced strategic product expansion into SiC and synthetic diamond thermal management materials for advanced packaging [15]. |
+| **SPY** | +0.30% | `news-driven` Broad-market ETF registered estimated single-day capital inflows of $5.73 billion [52]. |
 
 ---
 

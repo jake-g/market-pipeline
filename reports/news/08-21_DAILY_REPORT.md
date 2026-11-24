@@ -2,13 +2,6 @@
 *(Generated via NotebookLM Integration on 2026-08-31)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-I have updated and synchronized the daily market intelligence report for August 21, 2026, as **`2026-08-21_daily_market_report-v3.md`** inside your Studio panel.
-
-The updated version prioritizes the major macroeconomic, geopolitical, and corporate catalysts from today's feed. It details **the transition toward physical-layer defense ("attritable mass")**, **the historic QQQ index fee cut**, and **the K-shaped earnings divergence** in the software sector.
-
-The complete report is presented below:
-
-***
 
 # Daily Market Intelligence Report: 2026-08-21 (Version v3)
 

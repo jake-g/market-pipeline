@@ -6,9 +6,7 @@
 
 | Benchmark Index | 1-Day % | Primary Macro Event / Print | Risk Posture |
 | :--- | :--- | :--- | :--- |
-| **SPY** | n/a | 10-Yr Treasury yield tops 5.0% as Brent crude holds near \$100/bbl ahead of Hormuz talks [1, 2]. | **Risk-Off** — Frontier AI safety warnings and optical equity dilution triggered a sharp hardware pullback [3-5]. |
-
-*Note: The standalone "2026-09-14 Daily Market Feed - Quantitative Price Action Summary" source is absent from the uploaded dataset; benchmark 1-day index percentages are designated as n/a.* [3, 6]
+| **SPY** | -0.45% | 10-Yr Treasury yield tops 5.0% as Brent crude holds near \$100/bbl ahead of Hormuz talks [1, 2]. | **Risk-Off** — Frontier AI safety warnings and optical equity dilution triggered a sharp hardware pullback [3-5]. |
 
 ---
 
@@ -69,20 +67,20 @@
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | News-driven: Slid alongside chip sector on Anthropic/OpenAI safety slowdown calls [3, 6]. |
-| **TSM** | n/a | News-driven: Opened down 3.26% on AI slowdown warnings impacting foundry sentiment [3, 7]. |
-| **AMD** | n/a | News-driven: Pulled lower in chipmaker sell-off triggered by frontier lab safety debate [3]. |
-| **MRVL** | n/a | News-driven: Lower in regular session on broad AI buildout rethink [3, 6]. |
-| **MU** | n/a | News-driven: Memory shares slipped on AI industry slowdown calls [3]. |
+| **NVDA** | -3.36% | News-driven: Slid alongside chip sector on Anthropic/OpenAI safety slowdown calls [3, 6]. |
+| **TSM** | -3.52% | News-driven: Opened down 3.26% on AI slowdown warnings impacting foundry sentiment [3, 7]. |
+| **AMD** | -4.40% | News-driven: Pulled lower in chipmaker sell-off triggered by frontier lab safety debate [3]. |
+| **MRVL** | -7.32% | News-driven: Lower in regular session on broad AI buildout rethink [3, 6]. |
+| **MU** | -5.25% | News-driven: Memory shares slipped on AI industry slowdown calls [3]. |
 | **COHR** | -11.0% | Reversal: Sinks 11% in optical sector sell-off following Corning's \$2B equity offering [5]. |
-| **IONQ** | n/a | News-driven: Presenting 9 peer-reviewed research papers at 2026 IEEE Quantum Week [14]. |
-| **CRWV** | n/a | News-driven: Software/cloud debate weighs on neocloud infrastructure sentiment [3]. |
+| **IONQ** | +2.04% | News-driven: Presenting 9 peer-reviewed research papers at 2026 IEEE Quantum Week [14]. |
+| **CRWV** | -6.75% | News-driven: Software/cloud debate weighs on neocloud infrastructure sentiment [3]. |
 | **GOOG** | +3.0% | Continuation: Gains 3.02% as software and large-cap tech diverge [11]. |
-| **AAPL** | n/a | News-driven: Tracked alongside Mag 7 as rate pressures and AI debate persist [6]. |
+| **AAPL** | +0.24% | News-driven: Tracked alongside Mag 7 as rate pressures and AI debate persist [6]. |
 | **PANW** | +11.0% | Reversal: Rallies 11% as AI safety warnings trigger cyber security bid [4]. |
-| **VST** | n/a | News-driven: Highlighted as balanced nuclear/power winner in AI power boom [12]. |
-| **ENTG** | n/a | No news: Semiconductor materials peer affected by broader chip weakness [3]. |
-| **MRK** | n/a | News-driven: Inks clinical collaboration with Perspective Therapeutics [13]. |
+| **VST** | -5.16% | News-driven: Highlighted as balanced nuclear/power winner in AI power boom [12]. |
+| **ENTG** | -8.45% | No news: Semiconductor materials peer affected by broader chip weakness [3]. |
+| **MRK** | +0.64% | News-driven: Inks clinical collaboration with Perspective Therapeutics [13]. |
 
 ---
 

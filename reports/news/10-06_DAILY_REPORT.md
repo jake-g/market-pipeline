@@ -9,8 +9,8 @@
 | Metric / Benchmark | 1-Day % / Status | Notes / Justification |
 | :--- | :--- | :--- |
 | **SPY** | +0.2% | S&P 500 gained 0.2% during session trading reported in market context [14]. |
-| **QQQ** | n/a | Specific ETF daily percentage not reported in feed text. |
-| **SOXX** | n/a | Benchmark extended gains led by constituent strength in ARM (+8%), AMD (+3%), and NVDA (+2%) [7]. |
+| **QQQ** | +0.46% | Closed at $759.66 (session range $759.10–$762.86). |
+| **SOXX** | -0.01% | Benchmark extended gains led by constituent strength in ARM (+8%), AMD (+3%), and NVDA (+2%) [7]. |
 | **Key Macro Event / Print** | Multi-Decade Yield Highs | 10-year and 30-year U.S. Treasury yields reached their highest levels since 2002, pressuring valuation ceilings across high-duration growth assets [24, 25]. |
 | **Risk Posture** | Neutral | Multi-decade Treasury yield peaks generated macro pressure on utility and tech valuations despite selective momentum in semiconductor and server equities [7, 24, 25]. |
 
@@ -80,21 +80,21 @@
 | :--- | :--- | :--- |
 | **NVDA** | +2.0% | `News-driven` — Highlighted as a 'best in breed' valuation opportunity while AMZN moves to offload $8B of NVDA chips [7, 8, 26]. |
 | **AMD** | +3.0% | `Continuation` — Climbed 3.0% as chip stocks extended monthly momentum, sitting on a 39% monthly gain following recent acquisition [7]. |
-| **MRVL** | n/a | `News-driven` — Unveiled 2nm optical interconnects at ECOC 2026 and secured AT&S substrate manufacturing capacity [5]. |
-| **COHR** | n/a | `News-driven` — Confirmed AI data center capacity is fully booked through calendar year 2027 [6]. |
+| **MRVL** | +5.81% | `News-driven` — Unveiled 2nm optical interconnects at ECOC 2026 and secured AT&S substrate manufacturing capacity [5]. |
+| **COHR** | +1.41% | `News-driven` — Confirmed AI data center capacity is fully booked through calendar year 2027 [6]. |
 | **WDC** | -7.0% | `Reversal` — Dropped 7.0% as Toshiba's plan to double HDD production capacity weighed on storage makers [18]. |
-| **SOXX** | n/a | `Continuation` — Sector ETF extended gains as semiconductor strength continued across top constituent holdings [7, 26]. |
-| **IONQ** | n/a | `News-driven` — Unveiled real-time quantum error correction decoder deployed at NVIDIA research center following an 11.6% September gain [11, 27]. |
-| **CRWV** | n/a | `News-driven` — Expanded infrastructure beyond GPUs with NVIDIA Vera and Vera Rubin architecture for agentic AI [12]. |
-| **AAPL** | n/a | `News-driven` — Developing a Siri-powered smart home hub while institutional investors adjusted holdings [28]. |
-| **AMZN** | n/a | `News-driven` — Added to Goldman Sachs Conviction List and agreed a 20-year PPA with CEG while offloading $8B in AI chips [1, 2, 8]. |
-| **GOOG** | n/a | `Continuation` — Valuation metrics highlighted as increasingly attractive amid cloud AI execution [29]. |
-| **TSLA** | n/a | `News-driven` — Q3 delivery metrics topped Wall Street expectations alongside strong energy storage performance [30]. |
-| **PANW** | n/a | `News-driven` — Highlighted for cybersecurity market leadership as AI agent adoption accelerates [31]. |
-| **CCJ** | n/a | `News-driven` — Institutional position increases coincided with tailwinds from the U.S.-South Korea nuclear framework [33]. |
-| **VST** | n/a | `News-driven` — Federal government preparing approximately $4B loan to upgrade nuclear plants in Ohio and Pennsylvania [3]. |
-| **CEG** | n/a | `News-driven` — Secured 20-year Amazon PPA backing $3B+ in Maryland infrastructure and nuclear capacity despite target price adjustments [2]. |
-| **RKLB** | n/a | `Continuation` — Tracked alongside satellite enablers following recent sector performance pullbacks [34]. |
+| **SOXX** | -0.01% | `Continuation` — Sector ETF extended gains as semiconductor strength continued across top constituent holdings [7, 26]. |
+| **IONQ** | +0.74% | `News-driven` — Unveiled real-time quantum error correction decoder deployed at NVIDIA research center following an 11.6% September gain [11, 27]. |
+| **CRWV** | +4.95% | `News-driven` — Expanded infrastructure beyond GPUs with NVIDIA Vera and Vera Rubin architecture for agentic AI [12]. |
+| **AAPL** | +0.22% | `News-driven` — Developing a Siri-powered smart home hub while institutional investors adjusted holdings [28]. |
+| **AMZN** | +1.95% | `News-driven` — Added to Goldman Sachs Conviction List and agreed a 20-year PPA with CEG while offloading $8B in AI chips [1, 2, 8]. |
+| **GOOG** | +0.22% | `Continuation` — Valuation metrics highlighted as increasingly attractive amid cloud AI execution [29]. |
+| **TSLA** | +0.51% | `News-driven` — Q3 delivery metrics topped Wall Street expectations alongside strong energy storage performance [30]. |
+| **PANW** | +3.23% | `News-driven` — Highlighted for cybersecurity market leadership as AI agent adoption accelerates [31]. |
+| **CCJ** | +6.35% | `News-driven` — Institutional position increases coincided with tailwinds from the U.S.-South Korea nuclear framework [33]. |
+| **VST** | +10.77% | `News-driven` — Federal government preparing approximately $4B loan to upgrade nuclear plants in Ohio and Pennsylvania [3]. |
+| **CEG** | +12.25% | `News-driven` — Secured 20-year Amazon PPA backing $3B+ in Maryland infrastructure and nuclear capacity despite target price adjustments [2]. |
+| **RKLB** | +2.79% | `Continuation` — Tracked alongside satellite enablers following recent sector performance pullbacks [34]. |
 | **STM** | +6.18% | `Reversal` — Shares moved up 6.18% following key operational updates [15]. |
 | **SPY** | +0.2% | `Continuation` — Recorded a +0.2% session gain as broader market indices held key levels amid multi-decade yield pressures [14]. |
 

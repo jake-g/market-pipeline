@@ -9,8 +9,8 @@
 | Benchmark (SPY, QQQ, SOXX) | 1-Day % | Dominant Macro Catalyst | Risk Posture |
 | :--- | :--- | :--- | :--- |
 | **SPY** | +1.6% [40] | Democratic Midterm Election Sweep [1] | *Neutral / Selective Risk-On* |
-| **QQQ** | n/a | Democratic Midterm Election Sweep [1] | *Neutral / Selective Risk-On* |
-| **SOXX** | n/a | Democratic Midterm Election Sweep [1] | *Neutral / Selective Risk-On* |
+| **QQQ** | +0.97% | Democratic Midterm Election Sweep [1] | *Neutral / Selective Risk-On* |
+| **SOXX** | -3.14% | Democratic Midterm Election Sweep [1] | *Neutral / Selective Risk-On* |
 
 *Context*: Broader equity rallies driven by the legislative sweep (Dow +1,000+ pts [2]) were offset by targeted regulatory and policy selloffs across AI energy and data center power infrastructure [3, 4].
 
@@ -56,7 +56,7 @@
 | **JOBY** | +4% | Expanded $37M U.S. Air Force contract for autonomous aircraft technology [26]. |
 | **GE** | +3.20% | Rallied on operational execution and strategic developments in rare earth supply security [27]. |
 | **TTD** | +2.88% | Advanced ahead of Q3 earnings fueled by connected TV (CTV) ad spend strength [28]. |
-| **APP** | n/a | Q3 net income surged 72% ($1.44B) on 55% top-line growth ($2.18B) [17]. |
+| **APP** | +10.69% | Q3 net income surged 72% ($1.44B) on 55% top-line growth ($2.18B) [17]. |
 
 ### Top Losers
 
@@ -81,23 +81,23 @@
 | **CEG** | -8% | Reversal: Grid infrastructure selloff despite commercial backing from Google nuclear deal and $5B DOE loan offer [7, 11]. |
 | **CRWV** | -4% | Reversal: Plunged due to Texas gubernatorial transition stoking data center moratorium fears [9, 10]. |
 | **IREN** | -5% | Reversal: Suffered severe drawdown linked to Texas election results and AI infrastructure policy risks [10]. |
-| **NVDA** | n/a | News-driven: Facing severe China export restrictions with customers receiving as little as 1% of chip orders [14]. |
-| **AMD** | n/a | News-driven: Surged after-hours on strong 2027 growth targets despite $1.1B OpenAI/Meta deal costs [19, 21]. |
-| **IONQ** | n/a | News-driven: Announced $1.15B stock acquisition of Quantum Elisity ahead of Q3 earnings [22]. |
-| **TSLA** | n/a | Reversal: Shares declined as Democratic midterm sweep raised regulatory and congressional subpoena threats [31]. |
-| **AAPL** | n/a | News-driven: Implemented cost-cutting measures by tightening internal daily AI budgets for engineers [32]. |
+| **NVDA** | -3.17% | News-driven: Facing severe China export restrictions with customers receiving as little as 1% of chip orders [14]. |
+| **AMD** | +1.01% | News-driven: Surged after-hours on strong 2027 growth targets despite $1.1B OpenAI/Meta deal costs [19, 21]. |
+| **IONQ** | -1.50% | News-driven: Announced $1.15B stock acquisition of Quantum Elisity ahead of Q3 earnings [22]. |
+| **TSLA** | -3.34% | Reversal: Shares declined as Democratic midterm sweep raised regulatory and congressional subpoena threats [31]. |
+| **AAPL** | +5.30% | News-driven: Implemented cost-cutting measures by tightening internal daily AI budgets for engineers [32]. |
 | **AMZN** | +6% | Continuation: Rallied as post-election perspective refocused market attention on AWS AI revenue acceleration [33]. |
-| **GOOG** | n/a | Continuation: Advanced alongside hyperscaler peers as election uncertainty cleared [43]. |
-| **PANW** | n/a | News-driven: Technical PSU share vesting event noted as stock holds consensus Wall Street buy rating [41]. |
-| **CCJ** | n/a | Continuation: Supported by Westinghouse AP1000 regulatory extension through 2066 and domestic development interest [34]. |
-| **WDC** | n/a | Continuation: Sustained by memory price surges and customer supply contracts despite institutional trimming [35, 36]. |
-| **MU** | n/a | Continuation: Margin expansion outlook reinforced by rising memory pricing dynamics across hardware tech [35]. |
+| **GOOG** | +3.25% | Continuation: Advanced alongside hyperscaler peers as election uncertainty cleared [43]. |
+| **PANW** | -0.62% | News-driven: Technical PSU share vesting event noted as stock holds consensus Wall Street buy rating [41]. |
+| **CCJ** | -1.21% | Continuation: Supported by Westinghouse AP1000 regulatory extension through 2066 and domestic development interest [34]. |
+| **WDC** | -6.77% | Continuation: Sustained by memory price surges and customer supply contracts despite institutional trimming [35, 36]. |
+| **MU** | -7.00% | Continuation: Margin expansion outlook reinforced by rising memory pricing dynamics across hardware tech [35]. |
 | **NVT** | -6% | Reversal: Slid post-Q3 earnings print alongside broader network hardware price adjustments [37]. |
-| **ENTG** | n/a | News-driven: Net institutional accumulation noted via iShares AI ETF portfolio positioning updates [38]. |
-| **COHR** | n/a | News-driven: Upward post-earnings move driven by Q1 2027 beat and elevated AI optical demand [39]. |
-| **TSM** | n/a | News-driven: Institutional stake additions by TT International reflect ongoing core foundry positioning [44]. |
-| **AVGO** | n/a | News-driven: Highlighted as top indirect vehicle for OpenAI and Anthropic compute growth [42]. |
-| **RKLB** | n/a | News-driven: Positioned alongside space technology peers ahead of upcoming Q3 financial reporting [45]. |
+| **ENTG** | -6.47% | News-driven: Net institutional accumulation noted via iShares AI ETF portfolio positioning updates [38]. |
+| **COHR** | -5.98% | News-driven: Upward post-earnings move driven by Q1 2027 beat and elevated AI optical demand [39]. |
+| **TSM** | -2.24% | News-driven: Institutional stake additions by TT International reflect ongoing core foundry positioning [44]. |
+| **AVGO** | -2.00% | News-driven: Highlighted as top indirect vehicle for OpenAI and Anthropic compute growth [42]. |
+| **RKLB** | -3.78% | News-driven: Positioned alongside space technology peers ahead of upcoming Q3 financial reporting [45]. |
 
 ---
 

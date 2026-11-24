@@ -66,11 +66,11 @@ In the energy and defense sectors, structural capital allocation will remain ins
 
 | Ticker | Performance | Detailed News Catalyst |
 | :--- | :--- | :--- |
-| **MU** | `n/a` | Reported an 11-fold year-over-year jump in data center revenue on strong HBM/DRAM demand [21]. |
-| **BA** | `n/a` | Awarded a $20 billion U.S. Navy fighter jet contract over competing defense primes [12]. |
-| **HII** | `n/a` | Secured a $5.1B USS Harry S. Truman overhaul contract and 10 ROMULUS autonomous surface vessel awards [17, 25]. |
-| **COHR** | `n/a` | Advanced on AI optical transceiver demand, posting a 33.9% gain over six months [26]. |
-| **HPE** | `n/a` | Booked a $1.2B AMD Helios server order from Vultr and raised its long-term financial guidance [7, 8]. |
+| **MU** | `+11.10%` | Reported an 11-fold year-over-year jump in data center revenue on strong HBM/DRAM demand [21]. |
+| **BA** | `-10.46%` | Awarded a $20 billion U.S. Navy fighter jet contract over competing defense primes [12]. |
+| **HII** | `-8.29%` | Secured a $5.1B USS Harry S. Truman overhaul contract and 10 ROMULUS autonomous surface vessel awards [17, 25]. |
+| **COHR** | `+3.59%` | Advanced on AI optical transceiver demand, posting a 33.9% gain over six months [26]. |
+| **HPE** | `+22.61%` | Booked a $1.2B AMD Helios server order from Vultr and raised its long-term financial guidance [7, 8]. |
 | **RKLB** | `6.2%` | Surged on strong customer demand across commercial launch schedules and space systems contracts [27]. |
 | **CRWD** | `5.1%` | Outperformed broader market indices over five sessions due to strong institutional demand for security [44]. |
 | **MNDY** | `5.1%` | Advanced following cooler macro inflation prints and positive enterprise workflow positioning [20, 28]. |

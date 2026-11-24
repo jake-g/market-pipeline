@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-29)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 # Daily Market Intelligence Report: 2026-09-24
 
 ## Top AI Thematic Insights
@@ -61,7 +62,3 @@ Today’s session was defined by discount rate pressure from 5.1% 10-year Treasu
 6. "5 ETF Areas That Have Nearly Doubled in First Nine Months of 2026" — Yahoo Finance, 2026-09-24 Daily Market Feed. URL: `https://finance.yahoo.com/markets/stocks/articles/5-etf-areas-nearly-doubled-120000308.html?.tsrc=rss`
 7. "01_MONTHLY_REPORT.pdf" [PDF] — January 2026 Top AI Thematic Insights (AI Training to Deployment Phase shift).
 8. "07_MONTHLY_REPORT.pdf" [PDF] — July 2026 Top AI Thematic Insights (Arrival of the Valuation Wall and Revenue Verification).
-
-***
-
-📈 **Next Steps:** The full report is published and available as **`2026-09-24_daily_market_report.md`** in your Studio panel. Would you like me to write a Python script across your September dataset comparing the multi-week performance delta between financialized crypto treasury holdings (MSTR) and pure-play digital asset miners (CLSK, MARA)?

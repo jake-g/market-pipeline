@@ -10,9 +10,9 @@ Specific quantitative market feed data for October 12, 2026, is limited in the p
 
 | Benchmark Ticker | 1-Day % | Primary Macro Event / Driver |
 | :--- | :--- | :--- |
-| SPY | n/a | Calmer yields and waning rate hike bets boost broader market indexes [32]. |
-| QQQ | n/a | Semiconductor strength offsets broader macroeconomic headwind concerns [51]. |
-| SOXX | n/a | Chip stocks surge despite blowout jobs report pushing rate hike odds past 60% [51]. |
+| SPY | -0.06% | Calmer yields and waning rate hike bets boost broader market indexes [32]. |
+| QQQ | -0.70% | Semiconductor strength offsets broader macroeconomic headwind concerns [51]. |
+| SOXX | -2.60% | Chip stocks surge despite blowout jobs report pushing rate hike odds past 60% [51]. |
 
 `Risk-On`
 Semiconductor equities and core market indexes rallied as rate hike concerns eased and strong operational updates supported technology valuations [32, 51].
@@ -77,31 +77,31 @@ Semiconductor equities and core market indexes rallied as rate hike concerns eas
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| NVDA | n/a | **Continuation** Ticked higher alongside broader chip sector momentum despite macroeconomic yield pressures [51]. |
-| TSM | n/a | **News-driven** Gained on insider buying and strong long-term AI hardware buildout positioning [52, 71]. |
+| NVDA | -1.29% | **Continuation** Ticked higher alongside broader chip sector momentum despite macroeconomic yield pressures [51]. |
+| TSM | -1.98% | **News-driven** Gained on insider buying and strong long-term AI hardware buildout positioning [52, 71]. |
 | AMD | +3.0% | **Continuation** Advanced 3.0% as chip equities shrugged off rising Fed rate hike probabilities [51]. |
-| AVGO | n/a | **News-driven** Recent sell-off offers buy-side entry point as Morningstar projects strengthening AI ASIC demand through 2030 [54]. |
-| MRVL | n/a | **News-driven** Gained ground as analysts highlighted indispensable custom AI silicon position [52]. |
-| MU | n/a | **News-driven** Advanced as HBM capacity remains booked out despite Tepper stake trimming [55, 72]. |
-| ANET | n/a | **Continuation** Up 37.3% over six months on persistent hyperscale AI networking demand [59]. |
-| COHR | n/a | **News-driven** Modeled fair value target raised to $415.36 on sold-out optical transceiver capacity [56]. |
+| AVGO | -1.88% | **News-driven** Recent sell-off offers buy-side entry point as Morningstar projects strengthening AI ASIC demand through 2030 [54]. |
+| MRVL | -3.42% | **News-driven** Gained ground as analysts highlighted indispensable custom AI silicon position [52]. |
+| MU | -3.88% | **News-driven** Advanced as HBM capacity remains booked out despite Tepper stake trimming [55, 72]. |
+| ANET | -2.70% | **Continuation** Up 37.3% over six months on persistent hyperscale AI networking demand [59]. |
+| COHR | -7.87% | **News-driven** Modeled fair value target raised to $415.36 on sold-out optical transceiver capacity [56]. |
 | WDC | +5.9% | **Continuation** Extended momentum following a 5.9% rally driven by strengthening storage market demand [73]. |
-| CRWV | n/a | **News-driven** Highlighted for sales-based valuation appeal vs Nebius infrastructure model [25, 26]. |
-| SOXX | n/a | **Continuation** Outperformed broader market as the semiconductor complex absorbed rate hike headwinds [51]. |
-| SMH | n/a | **Continuation** Tracked semiconductor sector momentum as investors compared ETF structures against SOXX [82]. |
-| IONQ | n/a | **News-driven** Focused on upcoming multiyear revenue targets and full-stack platform coverage [74]. |
+| CRWV | -2.22% | **News-driven** Highlighted for sales-based valuation appeal vs Nebius infrastructure model [25, 26]. |
+| SOXX | -2.60% | **Continuation** Outperformed broader market as the semiconductor complex absorbed rate hike headwinds [51]. |
+| SMH | -2.05% | **Continuation** Tracked semiconductor sector momentum as investors compared ETF structures against SOXX [82]. |
+| IONQ | -9.07% | **News-driven** Focused on upcoming multiyear revenue targets and full-stack platform coverage [74]. |
 | TSLA | -5.0% | **Reversal** Dropped 5.0% after Cybercab's steering-wheel-free design faced regulatory scrutiny [31]. |
-| PANW | n/a | **Reversal** Technical support expected following hammer pattern despite insider sale disclosures [75, 76]. |
-| CCJ | n/a | **News-driven** Upgraded to "Strong-Buy" by Jefferies amid favorable uranium market dynamics [18]. |
-| NVT | n/a | **No news** Shares reflect elevated valuation multiples relative to underlying cash flow metrics [77]. |
+| PANW | -3.57% | **Reversal** Technical support expected following hammer pattern despite insider sale disclosures [75, 76]. |
+| CCJ | -2.20% | **News-driven** Upgraded to "Strong-Buy" by Jefferies amid favorable uranium market dynamics [18]. |
+| NVT | -2.78% | **No news** Shares reflect elevated valuation multiples relative to underlying cash flow metrics [77]. |
 | VST | +3.5% | **Continuation** Up 3.5% supported by AI power purchase agreements and institutional backing [78]. |
 | CEG | +4.9% | **Continuation** Gained 4.9% as nuclear energy assets attract ongoing AI data center power demand [65]. |
-| STM | n/a | **News-driven** Advanced on European exchange as firm implements AI monitoring solutions [79, 80]. |
+| STM | -3.03% | **News-driven** Advanced on European exchange as firm implements AI monitoring solutions [79, 80]. |
 | ENTG | +6.2% | **Reversal** Jumped 6.2% as semiconductor equipment ecosystem rebounded [64]. |
-| RKLB | n/a | **Continuation** Tracked space sector momentum as orbital infrastructure demand expanded [14]. |
-| GOOG | n/a | **No news** Maintained positioning as hyperscale cloud providers evaluate enterprise AI spending [83]. |
-| SPY | n/a | **Continuation** Rebounded on calmer Treasury yields as aggressive rate hike bets waned [32]. |
-| QQQ | n/a | **Continuation** Tech-heavy index stabilized as semiconductor strength offset rate environment concerns [51]. |
+| RKLB | -3.67% | **Continuation** Tracked space sector momentum as orbital infrastructure demand expanded [14]. |
+| GOOG | +0.32% | **No news** Maintained positioning as hyperscale cloud providers evaluate enterprise AI spending [83]. |
+| SPY | -0.06% | **Continuation** Rebounded on calmer Treasury yields as aggressive rate hike bets waned [32]. |
+| QQQ | -0.70% | **Continuation** Tech-heavy index stabilized as semiconductor strength offset rate environment concerns [51]. |
 
 ---
 

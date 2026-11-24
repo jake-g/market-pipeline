@@ -1,210 +1,156 @@
 # Market Intelligence Report
-*(Generated via NotebookLM Integration on 2026-11-12)*
+*(Generated via NotebookLM Integration on 2026-11-23)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
 # Daily Market Intelligence Note: November 12, 2026
 
-## 1. Regime Dashboard
+## Regime Dashboard
 
-| Benchmark / Metric | 1-Day % Change / Value | Key Driver / Notes |
+| Benchmark / Metric | 1-Day Return / Value | Key Driver / Status |
 | :--- | :--- | :--- |
-| **SPY** | -0.7% | Pressured pre-market by broad tech contagion and semiconductor leadership uncertainty [26]. |
-| **QQQ** | n/a | Technology index pulled lower as chip sector volatility offsets recent AI momentum [27]. |
-| **SOXX** | n/a | Semiconductor ETF pulled back in pre-market trading following executive turmoil at NVIDIA [28]. |
-| **Dominant Macro Event** | Resignation of NVIDIA CEO Jensen Huang amid executive investigation into a relationship with an alleged Chinese spy [1], driving cross-market tech liquidations. |
-| **Risk Posture** | **Risk-Off** Widespread semiconductor volatility and executive stability concerns across major AI supply chain constituents have forced broad risk reductions across high-beta tech equities. |
+| `SPY (S&P 500 ETF)` | `-0.35%` | $757.12 |
+| `QQQ (Nasdaq 100 ETF)` | `-0.32%` | $688.17 |
+| `SOXX (Semiconductor ETF)` | `-0.26%` | $154.99 |
+| `Dominant Macro Event` | US10Y = 5.10% (`+2.00%`) | 10-Year Treasury Yield (`^TNX`) surging +2.00% to 5.10% alongside a +6.92% jump in `^VIX` to 18.70, triggered by executive leadership disruption at NVIDIA. |
+| `Tactical Risk Posture` | `Risk-Off` | Broad risk-aversion across tech and speculative assets. |
 
-## 2. Top AI Thematic Insights
+Elevated 10-Year Treasury yields (5.10%), contracting cryptocurrency asset prices (BTC-USD -3.79% to $71,342.97), and executive instability at market leader NVIDIA (-4.34%) drive near-term broad technology and speculative asset risk-aversion across global capital markets [1, 2, 33, 34].
 
-### NVIDIA Executive Leadership Crisis & Semiconductor Sector Contagion (NVDA, CRWV, SMCI, ALAB, AMD, AVGO)
-*   **What Happened:** NVIDIA (NVDA) CEO Jensen Huang resigned effective immediately following disclosures regarding an investigation into a personal relationship with an alleged Chinese spy, with CFO Colette Kress stepping in as interim CEO [1], [2]. NVIDIA shares plunged 10% to 11% [3], triggering pre-market contagion across ecosystem partners including Super Micro Computer (SMCI -12.9%), Astera Labs (ALAB), and CoreWeave (CRWV) [4], [5], [30]; however, CRWV's initial pre-market drag sharply reversed into a +25% regular session surge powered by Anthropic IPO sympathy and its $132.5B backlog [7], [19]. Conversely, direct competitors AMD and Broadcom (AVGO) captured market share rotation gains to cushion broader sector declines [6].
-*   **Why It Matters:** Huang’s departure removes the AI hardware cycle's primary advocate, elevating governance risk premiums across NVDA's customer base and accelerating multi-sourcing strategies among hyperscalers seeking to mitigate key-person dependency. While baseline compute demand remains structural, immediate execution timelines and strategic partner alignments face systemic de-grossing and valuation re-ratings across high-beta infrastructure providers.
-*   **Strategic Realignment:** Institutional portfolios are executing capital shifts away from single-vendor concentration in high-beta hardware suppliers toward diversified megacap chipmakers (AMD, AVGO) offering immediate operational stability and secondary sourcing upside [6].
+---
 
-### AI Infrastructure Capex Surge vs. Execution & Debt Bottlenecks (CRWV, NBIS, HPE, MSFT)
-*   **What Happened:** CoreWeave (CRWV) posted Q3 revenue growth of 168% Y/Y driven by robust pricing and a $132.5B backlog [7], while Nebius Group (NBIS) reported Q3 revenue of $980.8M (+571% Y/Y) and EBITDA of $465.8M [9], yet NBIS stock plunged 22% after cutting its revenue outlook due to physical capacity deployment delays and raising capex expectations to $27B–$45B [8]. Concurrently, HPE launched Cray hybrid supercomputing storage and intelligent rack controllers to mitigate high-density power and cooling constraints [10], while Microsoft (MSFT) directly lobbied the White House to contest proposed federal bans on Chinese optical transceivers inside AI data centers [11].
-*   **Why It Matters:** AI compute monetization is increasingly constrained by physical data center delivery schedules, debt-financed capital intensity, and sovereign compute export controls rather than underlying end-user workload demand.
-*   **Strategic Realignment:** Institutional allocations are favoring asset-light turnkey rack management and cooling infrastructure providers (HPE) while de-weighting debt-heavy neocloud providers (NBIS) facing capital intensity expansion ($27B–$45B capex), margin compression, and execution bottlenecks [8], [10].
+## Top AI Thematic Insights
 
-### Energy Grid Dependencies & Nuclear Power Realignment for AI Compute (CCJ, NEE, D)
-*   **What Happened:** Cameco (CCJ) slashed its 2026 uranium production outlook following extended operational downtime at its Key Lake facility, even as 30+ nations expanded binding commitments to triple nuclear capacity for AI baseload power requirements [12], [13]. In domestic utility markets, NextEra Energy (NEE) and Dominion Energy (D) faced fresh regulatory intervention from Virginia's Consumer Counsel questioning competitive assumptions, consumer rate protections, and market concentration impacts tied to their proposed utility consolidation [14].
-*   **Why It Matters:** Enterprise AI data center scaling faces severe baseload power constraints. Regulatory friction surrounding utility mergers alongside upstream nuclear fuel supply disruptions threatens to delay power delivery timelines for gigawatt-scale AI clusters.
-*   **Strategic Realignment:** Equity analysts are extending operational timelines for AI grid interconnection, building in higher regulatory risk discounts for large-scale utility mergers, and overweighting primary nuclear fuel producers facing structural supply deficits [12], [14].
+### Executive Disruption & Leadership Shockwave (NVDA, SMCI, IREN)
+*   **What happened:** NVIDIA CEO Jensen Huang unexpectedly resigned, with CFO Colette Kress assuming the role of interim CEO [1, 2, 3]. This executive shockwave drove NVIDIA shares down -4.34% ($166.19) and sparked aggressive liquidation across AI server infrastructure suppliers and crypto-mining data center converts, pulling Super Micro Computer down -11.30% ($26.99) and IREN down -6.53% ($19.48) [1, 2, 3].
+*   **Why it matters:** Huang's abrupt exit removes the primary visionary figurehead and public advocate of the primary AI hardware buildout. This leadership transition introduces immediate governance evaluation, heightens short-term sentiment volatility across major semiconductor indices (SMH -1.03%, SOXX -0.26%), and forces institutional investors to re-assess corporate governance premiums [1, 2].
+*   **What it changes going forward:** Portfolio allocation strategies will accelerate capital diversification away from single-vendor concentration risks, broadening institutional order flows into custom ASIC designs, alternative chip architects, and specialized optical networking fabrics [1, 2, 4, 5, 6].
 
-### Geopolitical Restrictions & Post-Quantum / Next-Gen Hardware Pivots (TSM, TCEHY, BABA, IONQ)
-*   **What Happened:** The U.S. Commerce Department prepared new regulations preventing Chinese tech leaders (including Tencent and Alibaba) from accessing overseas remote AI chip centers, pressuring Chinese ADRs [15]. Concurrently, TSMC (TSM) confirmed an internal employee data breach with an active 3 Bitcoin ransom demand [16], while IonQ (IONQ) expanded federal distribution of quantum computing and post-quantum cryptographic security tools via a strategic deal with Carahsoft [17].
-*   **Why It Matters:** Cross-border compute access restrictions are severely narrowing foreign market expansion for overseas cloud infrastructure, while hardware supply-chain cybersecurity and post-quantum encryption emerge as non-negotiable buy-side risk factors.
-*   **Strategic Realignment:** Portfolio strategy is prioritizing government-contracted quantum architecture (IONQ) and onshore semiconductor supply chains over foreign-exposed cloud platforms vulnerable to export control enforcement and data integrity breaches [15], [17].
+### Semiconductor & Networking Divergence (AMD, AVGO, ANET, MRVL)
+*   **What happened:** Custom silicon vendors and enterprise networking providers sharply decoupled from GPU manufacturer weakness [1, 4, 5, 6]. Advanced Micro Devices surged +5.86% ($585.30) following a $2.5 billion strategic Anthropic deal, Broadcom rose +5.54% ($364.36) on custom chip demand, and Arista Networks gained +5.06% ($206.63) on robust enterprise networking orders [1, 4, 5, 6]. Conversely, Marvell Technology fell -2.58% ($164.45) due to competitive PCIe interconnect pressures from Astera Labs [1, 22].
+*   **Why it matters:** High-capacity interconnect fabrics and custom enterprise ASIC accelerators are proving to be structurally essential components of data center architecture [4, 5, 6]. This price action confirms that backend network topology capex remains resilient even when primary GPU hardware anchors experience price pullbacks [1, 4, 5, 6].
+*   **What it changes going forward:** Hyperscaler capital expenditure is broadening beyond mono-vendor GPU clusters toward integrated networking environments, custom enterprise silicon, and multi-vendor cluster interconnect topologies [4, 5, 6].
+
+### Neocloud Backlog Expansion vs. Speculative Tech Retrenchment (CRWV, IONQ, NBIS)
+*   **What happened:** CoreWeave (CRWV -6.86%, $56.60) reported robust Q3 operational results featuring +168% Y/Y revenue growth, a $132.5 billion contracted backlog, and a ~$28 billion Anthropic lease agreement [1, 7]. Despite these multi-billion dollar commercial commitments, macro rate pressures dragged CRWV lower alongside speculative high-beta platforms and early-stage quantum operators (IONQ -9.40%, NBIS -16.84%) [1, 7, 8, 9].
+*   **Why it matters:** Macro-level liquidity tightening—marked by the 10-Year US Treasury yield holding at 5.10%—is overriding localized fundamental earnings beats [1, 7, 8, 9]. Higher cost-of-capital environments are forcing market participants to heavily discount non-profitable growth narratives and heavily leveraged compute models [1, 7, 8, 9].
+*   **What it changes going forward:** Institutional portfolio managers will strictly enforce valuation screens, favoring operators with clear multi-year revenue conversion, bankable contract backlogs, and non-dilutive balance sheet financing over speculative partnerships [7, 8, 9].
+
+### Power Infrastructure & Grid Modernization for AI (CEG, VST, TLN, CCJ, NLR)
+*   **What happened:** Independent power producers and utility generators continued to demonstrate relative strength (CEG +2.79% to $281.97, TLN +2.10% to $386.68, VST +0.79% to $134.51), bolstered by major grid supply agreements such as Talen Energy's 7-year, 750-MW capacity deal [1, 10, 11]. Meanwhile, nuclear upstream funds and uranium miners underwent profit-taking (CCJ -3.42%, NLR -2.91%) [1, 30, 31].
+*   **Why it matters:** Power availability remains the absolute binding physical constraint for next-generation AI data center buildouts [10, 11]. Contracted utility assets provide highly defensible cash flows and long-term earnings visibility that insulate portfolios against equity market sell-offs [1, 10, 11].
+*   **What it changes going forward:** Hyperscale cloud operators will increasingly bypass legacy grid queues by executing long-dated, off-grid power purchase agreements directly with nuclear and independent power producers to secure uninterrupted baseload power [10, 11].
 
 ### Expert Forward Projection
-*   **Congressional Briefing & Export Regulation Impact:** Former NVIDIA CEO Jensen Huang’s scheduled briefing with U.S. lawmakers regarding foreign intelligence interactions will catalyze heightened regulatory oversight [29]; watch for House Select Committee draft legislation establishing mandatory federal security audits on advanced GPU IP exports.
-*   **Capacity Expansion Milestones for Neocloud Providers:** Nebius Group’s (NBIS) target of achieving $12B–$13B in 2027 revenue requires deployment of $40B–$45B in cumulative capex [8]; track quarterly megawatt data center energized capacity metrics to confirm whether deployment delays abate.
-*   **FCC Data Center Transceiver Rulemaking:** Microsoft’s executive pressure against proposed bans on Chinese optical transceivers will dictate data center interconnect supply chain costs [11]; monitor White House and FCC regulatory determinations regarding optical speed thresholds and compliance grandfather clauses.
+*   **NVIDIA Governance & Architecture Guidance:** Valuation stability in NVDA is contingent on interim CEO Colette Kress retaining core engineering leadership and re-confirming production shipment schedules for next-generation GPU architectures. **Trigger to watch:** Formal 8-K regulatory filing or corporate press release confirming permanent CEO succession plans and product roadmap execution timelines.
+*   **Networking Capital Rotation:** Institutional capital rotation from pure-play GPU hardware into optical networking and interconnect vendors (ANET, AVGO) will persist as long as macro interest rates constrain mega-cap technology multiples. **Trigger to watch:** US 10-Year Treasury yield breaking decisively above 5.15% or maintaining multi-week persistence above 5.00%.
+*   **Neocloud Debt & Backlog Realization:** Re-pricing of specialized AI cloud providers (CRWV) will pivot back toward multi-year fundamentals once market rate volatility stabilizes. **Trigger to watch:** Formal execution of finalized debt refinancing facilities or additional hyperscaler backlog expansion announcements exceeding $10 billion.
 
-## 3. Quantitative Market Action & Specific Equities
+---
+
+## Quantitative Market Action & Specific Equities
 
 ### Top Winners
 
 | Ticker | 1-Day % | Catalyst (with citation) |
 | :--- | :--- | :--- |
-| **CRWV** | +25% | Stock jumped 25% driven by Anthropic IPO sympathy and a robust $132.5B backlog after reporting Q3 revenue growth of +168% Y/Y [7], [19]. |
-| **LUNR** | +14% | Pre-market surge of 14% on record Q3 revenue of $269.35M and narrowed net losses [18]. |
-| **AMD** | n/a | Gained pre-market on institutional bets to capture enterprise GPU market share post-NVIDIA leadership shakeup [6]. |
-| **AVGO** | n/a | Institutional position increased by Joseph Group Capital Management as stock buffered broader semiconductor downturn [6], [20]. |
-| **AAPL** | n/a | Hovering near all-time highs supported by product pipeline momentum under CEO John Ternus [21]. |
+| `LUNR` | `+6.98%` | Record Q3 revenue beat and backlog expansion exceeding market expectations [1, 12]. |
+| `AMD` | `+5.86%` | AI trade tailwinds and $2.5B Anthropic strategic investment commitment [1, 4]. |
+| `AVGO` | `+5.54%` | Rated top risk-adjusted AI stock on strong custom silicon and enterprise networking demand [1, 5]. |
+| `ANET` | `+5.06%` | Accelerated hardware deployments driven by surging enterprise AI networking demand [1, 6]. |
+| `CLS` | `+4.57%` | Benefiting from a 50% global surge in energy infrastructure and power grid buildouts [1, 13]. |
+| `CEG` | `+2.79%` | Growing baseload nuclear power demand for hyperscaler AI data center infrastructure [1, 10]. |
+| `SWKS` | `+2.73%` | Semiconductor sector allocation shifts following officer equity transaction disclosure [1, 14]. |
+| `FRO` | `+2.68%` | Tanker booking rate strength supported by a crude oil price rally (WTI +2.55% to $88.74) [1, 15]. |
 
 ### Top Losers
 
 | Ticker | 1-Day % | Catalyst (with citation) |
 | :--- | :--- | :--- |
-| **NBIS** | -22% | Tumbled 22% due to capacity deployment delays and escalating $27B–$45B capex outlook, despite posting Q3 revenue of $980.8M (+571% Y/Y) and $465.8M EBITDA [8], [9]. |
-| **SMCI** | -12.9% | Dropped 12.9% following reports that the company could face a U.S. Department of Justice probe [5]. |
-| **NVDA** | -10% to -11% | Plunged 10% to 11% following CEO Jensen Huang's immediate resignation amid personal investigation disclosures [1], [3]. |
-| **QCOM** | -9.5% | Plunged 9.5% due to persistent handset demand weakness and data center growth uncertainty [22]. |
-| **LCID** | -8% | Slipped 8% as ongoing cash-burn concerns overshadowed Saudi capital lifelines [23]. |
-| **PLTR** | -7% | Fell 7% after Q3 bookings growth (+6%) significantly lagged revenue expansion (+96%) [24]. |
-| **ACHR** | -6% | Declined 6% amid sector-wide eVTOL risk-off pullbacks despite Cathie Wood Ark investment additions [25], [36]. |
-| **JOBY** | -4% | Slipped 4% due to broad risk-off sentiment in next-generation aviation equities [25]. |
+| `NBIS` | `-16.84%` | High-beta technology retrenchment following broader software and cloud pullback [1, 8]. |
+| `VNET` | `-11.46%` | Asian tech weakness and US proposals targeting remote Chinese access to AI chips [1, 17, 18]. |
+| `GDS` | `-11.36%` | China data center sell-off driving equity to a new 52-week low [1, 19]. |
+| `SMCI` | `-11.30%` | Server hardware pull-back triggered by NVIDIA CEO resignation [1, 2]. |
+| `ACHR` | `-10.91%` | Broad risk-off de-risking across speculative industrial automation and eVTOL names [1]. |
+| `KULR` | `-10.73%` | Liquidation across small-cap micro-technology and battery infrastructure assets [1]. |
+| `IONQ` | `-9.40%` | Quantum equity profit-taking despite securing expanded federal Carahsoft partnership [1, 9]. |
+| `JOBY` | `-9.18%` | Profit-taking across advanced air mobility names following recent guidance updates [1, 20]. |
 
-## 4. Watchlist Check
+---
 
-| Ticker | 1-Day % | One-Line Read |
+## Watchlist Check
+
+| Ticker | 1-Day Return | One-Line Read |
 | :--- | :--- | :--- |
-| **NVDA** | -10% to -11% | `News-Driven` Plunged following immediate resignation of CEO Jensen Huang amid executive investigation [1], [3]. |
-| **TSM** | n/a | `News-Driven` Confirmed employee data leak involving a 3 Bitcoin ransom demand [16]. |
-| **AMD** | n/a | `Reversal` Gained on market expectations of capturing GPU share during NVIDIA leadership transition [6]. |
-| **AVGO** | n/a | `Continuation` Institutional holdings expanded as stock buffered broader semiconductor sell-off [6], [20]. |
-| **MRVL** | n/a | `News-Driven` Expanded board of directors to ten members amid pending acquisition agreements [31]. |
-| **MU** | -4% | `News-Driven` Slipped pre-market following labor union exits from profit-sharing negotiations in Taiwan [30]. |
-| **ANET** | n/a | `No News` Highlighted by analysts as key structural AI networking play alongside TSM [28]. |
-| **WDC** | n/a | `News-Driven` Selected for new crypto perpetual futures listings while earnings trend higher [32]. |
-| **IONQ** | n/a | `News-Driven` Partnered with Carahsoft to distribute quantum infrastructure across federal agencies [17]. |
-| **CRWV** | +25% | `Reversal` Surged 25% backed by Anthropic IPO sympathy and a $132.5B backlog after initial pre-market drag [7], [19]. |
-| **AAPL** | n/a | `Continuation` Trades near record highs supported by new executive product leadership [21]. |
-| **AMZN** | n/a | `No News` Maintained stable long-term fundamentals as core mega-cap tech holding. |
-| **GOOG** | n/a | `News-Driven` Joined $1B Series A funding round for frontier AI research firm Mirendil [33]. |
-| **TSLA** | n/a | `Continuation` Maintained Hold rating at J.P. Morgan with $430 price target [34]. |
-| **PANW** | n/a | `News-Driven` Evaluated against sector peers amid accelerating demand for enterprise zero-trust security [35]. |
-| **CCJ** | n/a | `News-Driven` Cut 2026 production outlook following operational downtime at Key Lake [12]. |
-| **RKLB** | n/a | `News-Driven` Added by Cathie Wood's Ark funds while perpetual futures trading opened [32], [36]. |
-| **STM** | n/a | `News-Driven` Scheduled investor webcast detailing new STM32 edge integration architecture [37]. |
-| **ENTG** | n/a | `No News` Stock monitored following recent industry-wide semiconductor valuation re-ratings [38]. |
-| **SPY** | -0.7% | `Reversal` Slid 0.7% pre-bell driven by mega-cap technology sell-offs [26]. |
-| **QQQ** | n/a | `Reversal` Technology benchmark pulled lower by hardware sector instability [27]. |
-| **SOXX** | n/a | `Reversal` Semiconductor index faced selling pressure following leadership shakeups at component leaders [28]. |
+| `NVDA` | `-4.34%` | Reversal / News-driven: CEO Jensen Huang resigns unexpectedly [1, 2]. |
+| `TSM` | `-1.90%` | Reversal / News-driven: Dragged down by net ETF selling ($38M) and tech tape weakness [1, 21]. |
+| `AMD` | `+5.86%` | Continuation / News-driven: Surges on custom silicon momentum and $2.5B Anthropic bet [1, 4]. |
+| `AVGO` | `+5.54%` | Continuation / News-driven: Outperforms after selection as top risk-adjusted AI stock pick [1, 5]. |
+| `MRVL` | `-2.58%` | Reversal / News-driven: Underperforms chip peers amid Astera Labs PCIe competition [1, 22]. |
+| `MU` | `-1.59%` | Reversal / No news: Pulled lower in broader semiconductor index sell-off [1]. |
+| `ANET` | `+5.06%` | Continuation / News-driven: Gains on surging enterprise AI networking demand [1, 6]. |
+| `COHR` | `-1.04%` | Reversal / News-driven: Softens despite CEO purchasing 5,000 shares at $199.48 [1, 23]. |
+| `WDC` | `-0.67%` | Reversal / No news: Modest decline inline with memory and storage peer group [1]. |
+| `SMH` | `-1.03%` | Reversal / News-driven: Semiconductor ETF drops due to heavy NVDA weighting [1]. |
+| `SOXX` | `-0.26%` | Reversal / News-driven: Index slips as macro rate pressure offsets AMD and AVGO gains [1, 24]. |
+| `IONQ` | `-9.40%` | Reversal / News-driven: Sharp pullback despite expanding Carahsoft federal contract [1, 9]. |
+| `CRWV` | `-6.86%` | Reversal / News-driven: Tech sell-off overrides Q3 revenue beat (+168% Y/Y) [1, 7]. |
+| `IREN` | `-6.53%` | Reversal / News-driven: Sinks alongside crypto asset weakness and NVDA fallout [1, 3]. |
+| `AAPL` | `-0.14%` | Continuation / News-driven: Resilient near all-time high on iPhone Duo and HomeView pipeline [1, 25]. |
+| `AMZN` | `+0.48%` | Continuation / News-driven: Upward drift following annual platform sales announcements [1, 26]. |
+| `GOOG` | `+1.62%` | Continuation / News-driven: Outperforms after analyst selection as top risk-adjusted AI pick [1, 5]. |
+| `TSLA` | `+1.69%` | Continuation / News-driven: Rallies on market reports of prospective SpaceX merger [1, 27]. |
+| `PANW` | `-3.53%` | Reversal / News-driven: Drops with tech tape despite fastest security product ramp record [1, 28]. |
+| `HOOD` | `-3.82%` | Reversal / News-driven: Softens despite record October prediction market trading volume [1, 29]. |
+| `NLR` | `-2.91%` | Reversal / News-driven: Institutional profit-taking across nuclear energy ETF holdings [1, 30]. |
+| `CCJ` | `-3.42%` | Reversal / News-driven: Uranium equities pull back despite global nuclear expansion push [1, 31]. |
+| `NVT` | `-1.05%` | Reversal / News-driven: Pullback following executive stock unit vesting disclosures [1, 32]. |
+| `VST` | `+0.79%` | Continuation / No news: Supported by ongoing grid infrastructure power demand [1]. |
+| `CEG` | `+2.79%` | Continuation / News-driven: Gains on nuclear power generation demand for AI data centers [1, 10]. |
+| `IBIT` | `-4.45%` | Reversal / News-driven: Bitcoin ETF drops amid 5 straight days of net institutional outflows [1, 33]. |
+| `BMNR` | `-4.11%` | Reversal / News-driven: Retrenchment following Bitcoin drop below $73k level [1, 34]. |
+| `RKLB` | `-3.14%` | Reversal / News-driven: Slips in market dip despite successful ESCAPADE Mars maneuvers [1, 35]. |
+| `STM` | `+0.43%` | Continuation / No news: Slight upward drift in quiet trading session [1]. |
+| `ENTG` | `-0.65%` | Reversal / News-driven: Minor drop following Analyst/Investor Day presentation [1, 36]. |
+| `MRK` | `-0.16%` | Reversal / News-driven: Flat trading session amid broader pharma valuation checks [1, 37]. |
 
-## 5. References
+---
 
-[1] Nvidia CEO Jensen Huang resigns amid investigation into relationship with alleged Chinese spy - Fox Business
-`https://news.google.com/rss/articles/CBMixwFBVV95cUxPZENYUWtBZE5feWpKWlJSWXk4dFFRRXhETUluaEk4NjI2Vk5FUEVod0swejlIOUlGMFdqM3h1YTMwTnJXblpSX3pNc082dHhKajJTS3p2UHd4ZmIzd2k5S25uVFZha1lMcUpZeFdUaUptVU5BN1_ta2tDYlhTZDlhZ1oxZDNGV2htbXY2WWVPNDFvWU1QY195SmR2cG1Ic0lzVjNKTHI0eXRLVU5HRmsxV3JQX2c3REJCbkEtdEZUUENhblJsdkhv0gHMAUFVX3lxTFBVNGlGM29zQmNDYjlWejltWTYwSFpmeWd6c0Y5eWhkX05IcGRZSUxtU3JoS01IYlo4WHBCM3Z0WTRfVVVPLVNURi1MYlBTOVZvWGQxQUJCWEo5Vmp4a0xybVcwbUpWT2w4ckhsTHFoZkhZSFVzdzI5LXlhSWpCVGEyR1JwU1VpOUJQTXJYbm43UU1OOE1ZQk1KRVNDRXNRY3hJS25zTzAxZ0RXZTNROU83VUZXQ0dvQzdkSHZDakEtckRHOHJhQjlBcS1RQg?oc=5`
+## References
 
-[2] Nvidia CEO Huang resigns, effective immediately; CFO Kress takes over - Seeking Alpha
-`https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNFE4Qk9xd0Q0bjBNZDVYT0pzS0otSWNZS1p6TjNyTm5weEtwNWY2S3lXN1hjZUZqU0QwX2djTkNKLVRkVFJJaXIxYTlULVVUNWs5Nm14VU5zZjE3RUZlNFVyZmNSZ3JyUmJuN2JtUFp1TkZpUmV5S1FNTWNMekVPcjZiV1hOZkwyRXM4TVBBUG1IY0FTbFpWUnU2Qll1NGpSMG5KWjlQV3k?oc=5`
-
-[3] Nvidia Sinks 11% on Report Board Will Oust Jensen Huang; Bernstein Downgrades: “We’ve Had Enough” - TIKR
-`https://www.tikr.com/blog/nvidia-sinks-11-on-report-board-will-oust-jensen-huang-weve-had-enough?ref=yahoofinance&tlnk=yf-261112-mw4r43fw&.tsrc=rss`
-
-[4] CoreWeave Stock (CRWV) Plunges on Nvidia Contagion After CEO Jensen Huang Resigns - TipRanks
-`https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVpkdFBRSzVhN3llTjR3c3N4QWF1UDVha0dNaWdUTlhQWjlmN0FJb2NNLVBtalZRbDVQcDBGZGlFUHJrcTE1Y3N6V2U3c2JPNjllRlRSZE1KNFdlVDE5ZUphbWxoV0JEc05ZUnowUGU1Nzl1eGF2d3RzcklENlNnSllQbENOM25DT01xZWNtS21oX0kyR0FuaXhIZTNKeUthRjdraXBzd2IyRlFEZms1WHl3?oc=5`
-
-[5] SHARES OF SUPER MICRO COMPUTER DOWN 12.9% AS SEMAFOR REPORTS CO COULD FACE DOJ PROBE - Moomoo
-`https://news.google.com/rss/articles/CBMinAFBVV95cUxQaGFGZk9vRXp4blRJZHVIRmVuY1liYncybUIwcWMxVzAtNkdTcU1WOWdZV2psbTdIU2d4OFpEaGQtVFNMczVnOFRTenA1RGR1UEZKeC12LV9qQ00yTHB1SU0xNFp0SDdsVlVtQ0hBdjdCU0w4eW1Ib2huakUtd1dGNXZTajBZckVVa3Y1b3BCV3BUd3B1dEtfUHZQTWE?oc=5`
-
-[6] Nvidia Turmoil Lifts AMD, Broadcom on Bets for Business Gains - Yahoo Finance
-`https://news.google.com/rss/articles/CBMimgFBVV95cUxPRk1PbmFRUG90eDd2Z181b0h4QWRmblNCZHN5bVhsTENzQWpRQkdQWUVkMHlsWXRJZXEyajVheUxHRHg4UU1RLVotbHRjQWlPTXE0TnRpM0gxMnFxYjZMcHR0VVdvSTBvc2xLVHVTeHp3TE5JVzBrdEhGVHFHRTZkaTZmeGZmeGhyTUd0RlFOSlphTXRQbEYyXzln?oc=5`
-
-[7] CRWV's Q3 Earnings Beat on Strong Pricing, Revenues Climb 168% Y/Y - Yahoo Finance
-`https://finance.yahoo.com/technology/ai/articles/crwvs-q3-earnings-beat-strong-125500323.html?.tsrc=rss`
-
-[8] Nebius shares tumble 22% as capacity delays hit revenue outlook and capex rises to $27 billion - Blockspace Media
-`https://blockspace.media/insight/nebius-cuts-2026-revenue-outlook/?.tsrc=rss`
-
-[9] Nebius Group N.V. (NBIS) Stock: Q3 EBITDA Hits $465.8 Million as Revenue Jumps 571% - Blockonomi
-`https://news.google.com/rss/articles/CBMiowFBVV95cUxOcm1mTzQtVDBST1pTX201TzgxYkRLWjNoS1B6SU5XQlF6OGtyRjU4eWlNZ0Fvd2xOcXNvTmw5LXdrOTRTc1M1Vl9pOXdKcVBycm55dmhzeG5ZZmc5SjlmZzZfUFEzZnBBTXl4dy1BSW5fTDE4QUNEWl8tX2tFaVFkRlFCUlpoWEw0WDY5Z1BTUXRmbkFPc2ZvTnRxZ1B5REdHbGZB?oc=5`
-
-[10] HPE Addresses Industry Demand for Scalable HPC Solutions With World’s Fastest Hybrid Supercomputing Storage and Intelligent Rack Management - Yahoo Finance
-`https://finance.yahoo.com/technology/articles/hpe-addresses-industry-demand-scalable-140000597.html?.tsrc=rss`
-
-[11] Microsoft Is Fighting a Ban on Chinese Parts Inside AI Data Centers - 24/7 Wall St
-`https://247wallst.com/investing/2026/11/12/microsoft-is-fighting-a-ban-on-chinese-parts-inside-ai-data-centers/?.tsrc=rss`
-
-[12] CCJ's Share of Uranium Output Down 20% in Q3: Will 2026 Targets be Met? - Yahoo Finance
-`https://finance.yahoo.com/markets/stocks/articles/ccjs-share-uranium-output-down-124400298.html?.tsrc=rss`
-
-[13] The Best Uranium Stocks to Buy and Hold as Nuclear Power Expands - Motley Fool
-`https://www.fool.com/investing/2026/11/12/best-uranium-stocks-buy-hold-nuclear-ccj-ues/?.tsrc=rss`
-
-[14] NextEra Energy (NEE) Draws Fresh Virginia Questions Over Merger Consumer Protections - Yahoo Finance
-`https://finance.yahoo.com/energy/articles/nextera-energy-nee-draws-fresh-010909823.html?.tsrc=rss`
-
-[15] Alibaba, Tencent shares fall on report U.S. weighs curbs on remote AI chip access - Yahoo Finance
-`https://finance.yahoo.com/technology/ai/articles/alibaba-tencent-shares-fall-report-054436336.html?.tsrc=rss`
-
-[16] TSM Stock: TSMC Confirms Employee Data Leak as Seller Seeks 3 Bitcoin for the Records - FinanceFeeds
-`https://news.google.com/rss/articles/CBMieEFVX3lxTE1mak40ZVpNd1pKdWJJc0UwYnpvQmNuQXdJbmlxUXMzS3hRMDJQUy0tMUJncWlXaWxYRUhLWVlXSFVhYnc5V3RJRWhzNG5qTGxPeHNQNURVYWR4QlFTVzF5LTNQTHl3R3hhcUZ0TnhlV1g5U3JjYVBNQg?oc=5`
-
-[17] Can IonQ's Latest Carahsoft Deal Accelerate Federal Quantum Adoption? - Yahoo Finance
-`https://finance.yahoo.com/technology/ai/articles/ionqs-latest-carahsoft-deal-accelerate-111100359.html?.tsrc=rss`
-
-[18] Intuitive Machines jumps 14% as record revenue and backlog beat expectations - Proactive Investors
-`https://www.proactiveinvestors.com/companies/news/1101680/intuitive-machines-jumps-14-as-record-revenue-and-backlog-beat-expectations-1101680.html?.tsrc=rss`
-
-[19] CoreWeave Stock Jumps 25%: Does The Anthropic IPO Help? - Trefis
-`https://www.trefis.com/stock/crwv/articles/624611/coreweave-stock-jumps-25-does-the-anthropic-ipo-help/2026-11-12?.tsrc=rss`
-
-[20] Broadcom Inc. $AVGO Stock Position Increased by Joseph Group Capital Management - MarketBeat
-`https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdF92U24zM2Q4ckRDWVlhUGlxcjdVajlLSEtLZnpnUC1XOG9NejBGMGNKU1JLTmtleDJLNlREVUctbW9QdHNOUXktVXZKMHVMbllEOGNxaVZkNWFkdWVGZlBFcE8xdEJWVk90WEpselFhaFFyNUAZZjZscFM1aVpybkJjdzg1TndfQTZRSzZKNE0zX2Nfd0JidS1BUGlfaDJZbjlTNlNkZXlobjlMMmlxU1lqYjZXaDlQc1N4Ykdhd01KNW52UnNWcXJaWVhoUmZqZnZORw?oc=5`
-
-[21] Apple Is Hovering Around an All-Time High Despite the Broader Tech Sell-Off... - Motley Fool
-`https://www.fool.com/investing/2026/11/12/apple-all-time-high-tech-sell-off-duo-homeview/?.tsrc=rss`
-
-[22] Semiconductor ETFs to Buy as Qualcomm Plunges Despite Q4 Earnings Beat - Yahoo Finance
-`https://finance.yahoo.com/markets/stocks/articles/semiconductor-etfs-buy-qualcomm-plunges-105300424.html?.tsrc=rss`
-
-[23] Lucid Sinks 8% as Cash-Burn Worries Linger After Earnings... - 24/7 Wall St
-`https://247wallst.com/investing/2026/11/12/lucid-sinks-8-as-cash-burn-worries-linger-after-earnings-rivian-falls-3-tesla-holds-steady-after-musks-jensen-huang-remark/?.tsrc=rss`
-
-[24] Palantir Grew Revenue 96%. Its Stock Fell 7% Because Bookings Rose Just 6% - TIKR
-`https://www.tikr.com/blog/palantir-grew-revenue-96-its-stock-fell-7-because-bookings-rose-just-6?ref=yahoofinance&tlnk=yf-261112-h664ccgf&.tsrc=rss`
-
-[25] Archer Aviation Slides 6% Despite Cathie Wood’s Second Straight Day of Buying... - 24/7 Wall St
-`https://247wallst.com/investing/2026/11/12/archer-aviation-slides-6-despite-cathie-woods-second-straight-day-of-buying-joby-aviation-falls-4-ehang-declines-2-despite-sri-lanka-milestone/?.tsrc=rss`
-
-[26] Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Nvidia Leadership Uncertainty - Yahoo Finance
-`https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140846632.html?.tsrc=rss`
-
-[27] ProShares UltraPro QQQ ETF (TQQQ) Price Prediction... - Blockchain News
-`https://news.google.com/rss/articles/CBMipwFBVV95cUxNRktWWnhCLUJPRHBHdzdlNFFWTHlTVmQ2R19NbVpZcXU4QnU2TUhXalZKeVRCVVA0S1FzWHRvWFlpcmRlMXBMRU42UEJzNi1jdUdKQkJVMDcyVlhubFFsN2lkb3R5TkQ4ODBveFNtTi13WldFbk1lcTk1YjMxd0lDMmlGWVFCNFREQURqNC02cGUtYUJrekw1R08xekhpY21KNlRlWElzSQ?oc=5`
-
-[28] The Zacks Analyst Blog Highlights iShares Semiconductor ETF, NVIDIA, Arista, TSMC and Micron - Yahoo Finance
-`https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-ishares-134000412.html?.tsrc=rss`
-
-[29] Jensen Huang agrees to brief Congress on relationship with alleged spy, lawmaker says - NBC News
-`https://news.google.com/rss/articles/CBMivAFBVV95cUxQNHdabVYxUHdYSngtalQxNEVSQzNsd0ZXUUREd0NGQXl0NU95VUFkQ0pIRExGTmtCLXg5aEU3aFJxRmRHRzlDZjdmOHRQSllmVmhqengza1dDNUU0cXQ3VXdVSEZkTjNORmd5c0xMUG44SWNTODBpMGhPaHNKaTVWNF84YzdvSFhSd0gwNUlUaHl5LVhISTFCVU9LcEo5VXFQNjVwV203T3BrQ2Y1OVBhZS1PQjVTdnVUVWNKLQ?oc=5`
-
-[30] Micron Falls Over 4% Pre-Market as Taiwan Taoyuan Plant Union Exits Profit-Sharing Talks... - TradingKey
-`https://news.google.com/rss/articles/CBMicEFVX3lxTFAyNW00azRPbU53bUFVbXhxcC1yWDAtVDJEMDZwV1BPVm1MMHZFSkRmdk9WUkVFYUtzZlJBanF2d1dnSjU0b0lXRlhGWFVJdDFZWDktVEtESFg5SUVnVFJpVGE5cnpzZThfbVJYQlE4NDQ?oc=5`
-
-[31] Marvell Technology (MRVL) Expands Board to Ten Members with Thre - GuruFocus
-`https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYlotbVlJQU1lX1Bwa3VtdnlUSDJFYXl0VG1vaklDYll5bTV1YkR4VkdTbEpXaXdpVUpNcjE2TFd3UVlwOHRJRlpMYk5vdWNOSlpFS1M5UHRZdFpaOGJCWUw5cE1pTC16ekVuQUVQc2c3bHlOLXhvVV9iZEpNYmFIZ1BHb0V0bTR4dXdiMzRXc0VLa292U19sQUU4dF83Sm4tWDcyNUQzdmdBeklrZHVDMUhDLTFTU1Y4SWxydEYtZ0xFTExieUhDSlFKNnhxS2RhMDI4ZGhmVQ?oc=5`
-
-[32] Coinbase launches perpetual futures for BMNR, WDC, RKLB and AAOI - Crypto Briefing
-`https://news.google.com/rss/articles/CBMifkFVX3lxTE9iTW9CLXlfQWpBaTdreUYwMmViVTJTcUNwcllPTGVuYWhVSkFJdHlubWtkaHBmY0trT0JvalFwalJZOTNRU2xPUlVpYmFxN1k2bjNZYTNWczdwc1BEWlRQWE1JdjhzT1ZOc2g5dm1SdDNIeFhHT2tVYzltWG5VUQ?oc=5`
-
-[33] Mirendil Raises $1B to Democratize Frontier AI R&D - Yahoo Finance
-`https://finance.yahoo.com/technology/ai/articles/mirendil-raises-1b-democratize-frontier-173000747.html?.tsrc=rss`
-
-[34] J.P. Morgan Maintains Tesla(TSLA.US) With Hold Rating, Maintains Target Price $430 - Moomoo
-`https://news.google.com/rss/articles/CBMirwFBVV95cUxPTS1KSmZ2cnluZUVwTV9QcjEzTGNvX2VSRWlyM3F2NGFkdURIQVFFSC1PMFRrWkc2ZGhzcjIxZm5lUVN3QU8wTnNuMWxIM2RLbkZiVndGeERVdG1VZU5GZEhSRUJ2Q1hROGpWNmRkN3pAzVJqVWZvTy13V3JUdWNXbW9Gc2VPRWl4YmVKTGwwYmpkRDYzM284Q0xrZU4tMkFBOTFSWU5QNk1CWXB2eTU0?oc=5`
-
-[35] PANW vs. NET: Which Cybersecurity Stock Should You Buy Right Now? - Yahoo Finance
-`https://finance.yahoo.com/markets/stocks/articles/panw-vs-net-cybersecurity-stock-130700289.html?.tsrc=rss`
-
-[36] ACHR, RKLB: Cathie Wood Buys More of Archer Aviation and Rocket Lab Stocks - TipRanks
-`https://news.google.com/rss/articles/CBMipAFBVV95cUxNeG95UnhqNy1UN3ZhTGh3UDFpWUVrR29PWElDMGZ2YlRraXlrRVhWUUFBb2Y5aGFYeC1QUnVBZzFmMGVYRkZaa3FwTUxZYlRNUV9XN0ZvU0RVS2VVWlU3YnpjTlZOdDlKSVpfRmQ0N2NvUHJ3QlhwdWhCQ1BQY0s5YjlUZlJMdzlCY2lVY1dscmhkVGZMWUNRQ3FVOGQ3UXZhUFFrTA?oc=5`
-
-[37] STMicroelectronics to host investor call on STM32 pioneering the convergence era - Yahoo Finance
-`https://finance.yahoo.com/technology/articles/stmicroelectronics-host-investor-call-stm32-063000741.html?.tsrc=rss`
-
-[38] What Just Happened To Entegris Stock? - Trefis
-`https://news.google.com/rss/articles/CBMingFBVV95cUxQLXlBaW51SzBsOWl1b0l6aGZkWWEyY3U3aERLRUZQSFloWUtjYWw0d3BwQkNaMlFpanU1d1pNMng4MVg5cy04ZmxwdkVLTE1xb2RRUHNHcmc3eTZjbVJCSnIyNXJsc2ZER0lPdDQ0QzNUMHNMbnBXMUJNcUh6Q29VSVY2WThUd3hJVUxkVi1SQURDdmd6anB3dGVCTGM3UQ?oc=5`
+*   `[1]` 2026-11-12 Daily Market Feed - Quantitative Snapshot & Market News Digest
+*   `[2]` Jensen Huang’s Resignation Quiets the AI Boom’s Best PR Asset - WSJ - `https://news.google.com/rss/articles/CBMinwFBVV95cUxQc1YwRjh2d1VoVXFibHlWVzdHWWxURGR5S2tVZ3pncW5PX2pfUGdVNENyNkp0M1JqcHJSYzMyZ0tQdFkxeUNkRF93MnJWSFdyN3hrSkxLemhGcDY5MDk5a3dBN0dXbzNmM2FLbWN2ZGFIQnpXYU1qX3hFZ1BVUmQ5a0N6dmpxeVFELXZrRl9YcXlyWGMwU3d0aFg4VFotclU?oc=5`
+*   `[3]` Jensen Huang resigns as Nvidia CEO amid scandal - CoinDesk / Yahoo - `http://videos.coindesk.com/previews/T3qsPd0W?.tsrc=rss`
+*   `[4]` AMD Stock: What Does Its $2.5 Billion Anthropic Bet Buy? - Trefis - `https://www.trefis.com/stock/amd/articles/624618/2026-11-12?.tsrc=rss`
+*   `[5]` Alphabet vs. Broadcom: the best AI stocks for risk and reward - Yahoo Finance - `https://finance.yahoo.com/markets/stocks/articles/alphabet-vs-broadcom-best-ai-163818058.html?.tsrc=rss`
+*   `[6]` Cisco lifts annual revenue forecast on strong AI networking demand - Reuters - `https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcDgteG5IeXZjU1k1UDdhbFkyZlVCaHI1d0pPdGp2elFReVRRclN6dWhTM2NuSUk3cGdUSnRRU2c4aWpCcS14blFsN3hLTTNCSktQbXpTUVgxRjVJV1R1YldHdEVYMXJvVHg3TzJiOXhEM0owM08ySlI1bmNkMG5GQXhnQl9iVExNWlN1Z0ZweFk3YldGWDltNFpnekdDZWpVcTJ3QTFlUUxNWXlLX0NjLUhvTjRtNzlrYnlXdXJiTmc?oc=5`
+*   `[7]` CRWV's Q3 Earnings Beat on Strong Pricing, Revenues Climb 168% Y/Y - Yahoo Finance - `https://finance.yahoo.com/technology/ai/articles/crwvs-q3-earnings-beat-strong-125500323.html?.tsrc=rss`
+*   `[8]` Nebius Group (NBIS) Gets Gartner Backing Through A $13 Million AI Platform Win - Yahoo Finance Canada - `https://news.google.com/rss/articles/CBMihgFBVV95cUxNWlJOTjBfdmxtcDhkeGZ1ZUhPMEVIUEtZempFSFRHaWNQcUVmaVNLeHpTZzBMR2xkeXJWTzhFRFJiS1NndlFGcE9jXzRYajlmTFNzUlFSSk00dTZRR3pMbnFkRHRNS1BlekxQVjlDSFBrRTBIWlpaUWxBMV9UalNoRnZPMmFpZw?oc=5`
+*   `[9]` Can IonQ's Latest Carahsoft Deal Accelerate Federal Quantum Adoption? - Yahoo Finance - `https://finance.yahoo.com/technology/ai/articles/ionqs-latest-carahsoft-deal-accelerate-111100359.html?.tsrc=rss`
+*   `[10]` What Could Send Constellation Energy Stock Higher? - Trefis - `https://www.trefis.com/stock/ceg/articles/624309/2026-11-11?.tsrc=rss`
+*   `[11]` Talen Energy's 750-MW Capacity Deal Boosts Long-Term Revenue Outlook - Yahoo Finance - `https://finance.yahoo.com/energy/articles/talen-energys-750-mw-capacity-152200955.html?.tsrc=rss`
+*   `[12]` Intuitive Machines jumps 14% as record revenue and backlog beat expectations - Proactive Investors - `https://www.proactiveinvestors.com/companies/news/1101680/intuitive-machines-jumps-14-as-record-revenue-and-backlog-beat-expectations-1101680.html?.tsrc=rss`
+*   `[13]` 3 Canadian Growth Stocks To Own In November 2026 - Yahoo Finance - `https://finance.yahoo.com/markets/stocks/articles/3-canadian-growth-stocks-own-021817704.html?.tsrc=rss`
+*   `[14]` Skyworks Solutions Officer Robert Terry Announces Plan to Sell 5,724 Shares - Kalkine Media - `https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMPhkNXVaTVNndi1HUFNrb1ZOTTR0dDNEZ0dyZ1pURXZCNFZWSWVpVmtEaDgwdXE0ZVVSUmhRajF1dDFTVFlNUkVyRzBlSnUtQk1NamY1UWJOTmNvNVV1d0pkNDl1djltbDVYMHpzaE05c3dRaXQwd3VXbHZSdTdTVktTODFMNHhIcWdnZzhQWDlwZmdkZlFoOEtOVUxwX1Bta0trQ1RaaUxYMWFZc0xxaDJ0bkNTMmhJckRHTWF0VnVtTWZkSmk2cTYyTnllLWpnSEoyNmtzbkF2Vi0x?oc=5`
+*   `[15]` Can INSW's Record Q3 and Strong Q4 Bookings Sustain Cash Returns? - Yahoo Finance - `https://finance.yahoo.com/markets/stocks/articles/insws-record-q3-strong-q4-142500769.html?.tsrc=rss`
+*   `[16]` Iron Mountain Continues To Execute, But Cash Flow Tells A More Cautious Story - Seeking Alpha - `https://news.google.com/rss/articles/CBMitgFBVV95cUxOaHZIN1h4bGJueEVNT0Zsc2lHeGU3UVNoVmtsbjBVVTdRanNDSTNRellUNVl1ZGlFQXkzWk1yc09aV2x0U1d3RDg0SDMzWXR4UmhoNGM2VVJSZGtGaGJSWVFUSGZIVExnOGxmZHNOVy1FeUtwTzRLbHN1M2dRQXVMZjZPUHBQZGt2RDNfYzlEcElPUEF3SzR1Q0RrQkMwREFseWx3OVRVX0RRb3lEMTV0bTBaS1R4UQ?oc=5`
+*   `[17]` Quantropi Enters Vietnam Market Through Strategic Partnership with VNet - Newswav - `https://news.google.com/rss/articles/CBMitgFBVV95cUxPMDdMbVlGdGU5cTIzdkowa1FVTVRUTDdCZ293T2VHX0dTMFI4Q1FKNHpkNG5Ib2ZONEhuVG5kYklFeWdiaEdnUVNOaVlnWUNuaVlZSFg1anJpTVo4eFFTWWFpRkdSemZueGs4cXZvMmdQbEtEaVAyc1NUUXJwNmZWZnIyQ09UUEV6a2hFU2FnQXl2REdiUzcxbUZNWnY1TWR1N2hPNVV1UTRxS0J1bXFfdHBRNHg2QQ?oc=5`
+*   `[18]` Alibaba, Tencent shares fall on report U.S. weighs curbs on remote AI chip access - Yahoo Finance - `https://finance.yahoo.com/technology/ai/articles/alibaba-tencent-shares-fall-report-054436336.html?.tsrc=rss`
+*   `[19]` GDS (NASDAQ:GDS) Sets New 52-Week Low - What's Next? - MarketBeat - `https://news.google.com/rss/articles/CBMiqgFBVV95cUxORURzYU5falkzN3NIZnRRT0JraGZSYTQwNWMtdGZleGF2V3pDX2k0M1NCNmtMdi12cnVFZEMzSF9sdmMzZjZmQ09fY2dPQm9WSUtHWUtTZlppUWYtT3hISTUxd1BwTFN3TW1DYzNJOFQzVmRwcFpDeW5zZWxlSXZ6LUZVck9FanBBNHhhY3RKUGRlT2g5bzZsTE0xYXg2Ql9xeWJFeG1tU0s5QQ?oc=5`
+*   `[20]` Is Joby Aviation (JOBY) Fairly Valued After Raised Guidance And New Air Force Funding? - Simply Wall St - `https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa0h0WlhGTVRVaTVEYkRyNEtYSHZyU1hGcHdPOWtVbUxJeEpUcUwtbmdQWkxfbVFndzBrTDNfS3JkV3B3Nk9yNDlma1QwMlNTbGtEUkNJMDM5Qjd6NXl2TnQyN2NGOG9oczZ0RlI1Tjg0ZFdyT28yaHktaVJEdGhGdG1FWnF6VHJ0OVFaM3l4SFRGcGtOamFWOENkdDJNRGMwQTdONl9ZZzVqVzk3c1BReVJXc3dFNEtIT0lyd2VVM3hycG5pelVZNHBsVnY5NWcwY3fSAdcBQVVfeXFMT2UxbVpMLU5BQURZUVh0dWFqbVFvOWFhdmVZbTJsckhvenRoUmRNTkV1aTR3Y2ZieWpkdGxmMDNIcTNZZGMxRWRaNldKSm93Sm9iMm5RQ055a1czZzR1NTBrdTZPeC1oRTN2Z2tRVTg0M0cyVmdYc0VvQjFMNnVyZC1ickR4Vk1IZnpDZnhXZ1V0S0JMc3dLMnJ5dV9zemhwTWFBYXJWU1F5MkpqZDdwVGhqUnBVQUd2cWNXUlNYZy1sOG5VZTVqbkQtRkRlaVNfOGxCSlRMMjQ?oc=5`
+*   `[21]` ETFs Are Net Sellers of Taiwan Semiconductor (TSM) on Nov. 10 - Yahoo Finance - `https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-taiwan-semiconductor-110233871.html?.tsrc=rss`
+*   `[22]` ALAB Benefits From Strong PCIe Demand: Can It Beat MRVL & CRDO? - Yahoo Finance - `https://finance.yahoo.com/technology/articles/alab-benefits-strong-pcie-demand-171000041.html?.tsrc=rss`
+*   `[23]` At $199.48 a share, Coherent (COHR) CEO buys 5,000 shares. - Stock Titan - `https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZlRtSWZpY2Qwek9sd1lYRG9PTkVBMnlneGIxdDFJWXVOWHRXWVZtNngxejNBLThVb2xjenZPUnFTVFBUTjVHN3RhUGY2NktsLUczNHE5eTZWZVpPN0RsQVJIaWF2dmJNTllhTWNITlFGRWRqY25uOGdHZEttMHBhOHBJM25LSG9jS21SamRvTmxtNUV6MFVOeEZTVGlaYXF5U1FpT1VrbUlRNWs?oc=5`
+*   `[24]` Stan Wong’s Top Picks for Nov. 12, 2026 - BNN Bloomberg - `https://news.google.com/rss/articles/CBMijAFBVV95cUxPdnpCa0YwY1I5bnU5UWdubVhNMnRUQjVhNi1RUDdCS0tXcHhTT2pTemdlZWZiSW53X3EyMFNwT0t0cEhJbHdpa25MeDktYjFfTEtrVDVvdU1xY0dNemtEQ2Vial8yRDNaeVNyVkN2UkVCOENiYTY1WERNR0kzMkk2cVZyQnpEc3Zhb2JJSg?oc=5`
+*   `[25]` Apple Is Hovering Around an All-Time High Despite the Broader Tech Sell-Off - The Motley Fool - `https://www.fool.com/investing/2026/11/12/apple-all-time-high-tech-sell-off-duo-homeview/?.tsrc=rss`
+*   `[26]` The Best Books of 2026, According to Amazon - Book Riot - `https://news.google.com/rss/articles/CBMiWEFVX3lxTE95X3FPaE1jdVgtWktFMHNYZkRXZlpkRFoyYkt1MEpQNVBuYjBuRzVwYVNEbkU0SkZydEJiMlZiV2Y1UkhFa0xXUE5fRXdpWklGamMtVUhiMmw?oc=5`
+*   `[27]` Tesla Stock Best Run in a Year on SpaceX Merger Report - Benzinga - `https://news.google.com/rss/articles/CBMingFBVV95cUxOOGdjYnNTT08wcTZGTW5uNVNOQk12ZjVFSDlsSFpaTW1lYlY0TjhLUjZEamY4NG1uZWpjRk5ob3lpR19mX0tCdXNWNkdkTUxpa3VxQXhoZklmYVV4QldUc3k0TlpGck9JZHzcU3VHaXppMmFOTkhpcnA0Q1hieVNYYnBFSU1GVzg4QVJDek9PNzZ1bGhRU2lKTzZuQUFZZw?oc=5`
+*   `[28]` Palo Alto Networks (PANW): Its AI Security Tool Became the Company’s Fastest Product Ramp - Yahoo Finance - `https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-ai-211137568.html?.tsrc=rss`
+*   `[29]` Robinhood's Prediction Market Bet Is Paying Off. Is the Stock a Buy? - The Motley Fool - `https://www.fool.com/investing/2026/11/12/robinhood-s-prediction-market-bet-is-paying-off-is-the-stock-a-buy/?.tsrc=rss`
+*   `[30]` Behavioral Patterns of NLR and Institutional Flows - Stock Traders Daily - `https://news.google.com/rss/articles/CBMiygFBVV95cUxOTTVFaVZteG04cnBZdjB4bXJjTzgzd1FuN0VLVS1wMnh0eER6cjhRa2FTZ2hjRDgxc29GLUpMZkYxUVJZZmJ0TUVWWjExUThNTVk2dk5FY1JLbXZud0l0YTJRdGhWU19sYU11aFVBdFBWWS1hOXN1dkdkLTAzQjg1TmtsUjhBNGxYSjdvcDVHOUp4aTVfU1pKUWFOOENaZ08wcDJoOUp5dXFKU2hEUVp3S2dYeHN0aFhuR1RySUJkZjE3ZHNDeXI1OURR?oc=5`
+*   `[31]` The Best Uranium Stocks to Buy and Hold as Nuclear Power Expands - The Motley Fool - `https://www.fool.com/investing/2026/11/12/best-uranium-stocks-buy-hold-nuclear-ccj-ues/?.tsrc=rss`
+*   `[32]` The general counsel’s 22,226 stock units at nVent Electric (NVT) all vest on November 10, 2030 - Stock Titan - `https://news.google.com/rss/articles/CBMisgFBVV95cUxPSHdkb1JHVGtNWXhUOV9oX3l2N3lmaE50SXpncEhfX0kzRWc4VGdMbmQ0UTRCdlRKSEphMUR2ak1XeUgtM0paT3VnSExJb2NnR21VVVIxaWkyZ1A2ZFdwWlVKejF0VWkwMUVWN2FneDJ2RTRKc1o4ZHZRc1M2YkREazVZTDJsLXh1dE5PTENmdG9fNWpkWGl1NE5wWDBDTVFwdkxPOUVzcktRTjZyOWpOQUV3?oc=5`
+*   `[33]` 5 Days of Bitcoin ETF Outflows, Brought to You Mostly by BlackRock - BeInCrypto - `https://beincrypto.com/blackrock-bitcoin-etf-outflows-five-days/?.tsrc=rss`
+*   `[34]` Bitcoin Falls Below $73K For First Time Since August - StockTwits - `https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-falls-below-73-k-for-first-time-since-august-amid-nvidia-rout/cNGzD5IR9aW?.tsrc=rss`
+*   `[35]` Can RKLB's ESCAPADE Mission Strengthen Its Deep-Space Capabilities? - Yahoo Finance - `https://finance.yahoo.com/technology/articles/rklbs-escapade-mission-strengthen-deep-121200996.html?.tsrc=rss`
+*   `[36]` Entegris, Inc. (ENTG) Analyst/Investor Day - Slideshow - Seeking Alpha - `https://news.google.com/rss/articles/CBMirAFBVV95cUxNWU9pRjFxUmkwQUVQcFhUSF9yc1F2UzdWT285bWkzUERZdFdnWkJLM3FaUTNfTHo0VmJrQjAzaWJWY0NveEhvbkNHTEN5Q2M1TFpjZGZrQlFvT3paUTBTVHVEdndBSlpNMUVWcTY1alo3UUV6bk9La19MZmxqajRDRkg2bHdBV0ZVOXZwa1Z2Ylk0ckZEWlpyMVBsMnlBc2NYOTM1ZW9jVk9jMll2?oc=5`
+*   `[37]` Is Amgen Stock Priced Right Against Its Peers? - Trefis - `https://www.trefis.com/stock/amgn/articles/624559/is-amgen-stock-priced-right-against-its-peers/2026-11-12?.tsrc=rss`

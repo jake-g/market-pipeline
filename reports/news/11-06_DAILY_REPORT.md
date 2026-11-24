@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | 1-Day % | Macro Event / Key Print | Risk Posture |
 | :--- | :--- | :--- | :--- |
-| **SPY** | n/a | October US Non-Farm Payrolls added 165,000 jobs, beating consensus as unemployment fell to 4.1% `[16][17]`. Q3 labor productivity rose 3.6% while weekly initial jobless claims dropped to 189,000 `[16]`. University of Michigan Consumer Sentiment preliminary index printed at 51.0 for November (vs 48.0 Oct) `[18]`. | **Neutral** – Resilient labor fundamentals and strong productivity gains are counterbalanced across broad equities by post-midterm political uncertainty and high-multiple AI tech volatility `[16][17][18]`. |
-| **QQQ** | n/a | October US Non-Farm Payrolls added 165,000 jobs, beating consensus as unemployment fell to 4.1% `[16][17]`. Q3 labor productivity rose 3.6% while weekly initial jobless claims dropped to 189,000 `[16]`. University of Michigan Consumer Sentiment preliminary index printed at 51.0 for November (vs 48.0 Oct) `[18]`. | **Neutral** – Solid consumer sentiment and low jobless claims provide underlying macro support, but tech-multiple compression across enterprise software equities keeps upside constrained `[16][18]`. |
-| **SOXX** | n/a | October US Non-Farm Payrolls added 165,000 jobs, beating consensus as unemployment fell to 4.1% `[16][17]`. Q3 labor productivity rose 3.6% while weekly initial jobless claims dropped to 189,000 `[16]`. University of Michigan Consumer Sentiment preliminary index printed at 51.0 for November (vs 48.0 Oct) `[18]`. | **Neutral** – Institutional dip-buying in top-tier chip design houses faces offsetting pressure from advanced packaging bottlenecks and post-election legislative oversight `[16][20][21]`. |
+| **SPY** | +0.31% | October US Non-Farm Payrolls added 165,000 jobs, beating consensus as unemployment fell to 4.1% `[16][17]`. Q3 labor productivity rose 3.6% while weekly initial jobless claims dropped to 189,000 `[16]`. University of Michigan Consumer Sentiment preliminary index printed at 51.0 for November (vs 48.0 Oct) `[18]`. | **Neutral** – Resilient labor fundamentals and strong productivity gains are counterbalanced across broad equities by post-midterm political uncertainty and high-multiple AI tech volatility `[16][17][18]`. |
+| **QQQ** | +1.40% | October US Non-Farm Payrolls added 165,000 jobs, beating consensus as unemployment fell to 4.1% `[16][17]`. Q3 labor productivity rose 3.6% while weekly initial jobless claims dropped to 189,000 `[16]`. University of Michigan Consumer Sentiment preliminary index printed at 51.0 for November (vs 48.0 Oct) `[18]`. | **Neutral** – Solid consumer sentiment and low jobless claims provide underlying macro support, but tech-multiple compression across enterprise software equities keeps upside constrained `[16][18]`. |
+| **SOXX** | +3.51% | October US Non-Farm Payrolls added 165,000 jobs, beating consensus as unemployment fell to 4.1% `[16][17]`. Q3 labor productivity rose 3.6% while weekly initial jobless claims dropped to 189,000 `[16]`. University of Michigan Consumer Sentiment preliminary index printed at 51.0 for November (vs 48.0 Oct) `[18]`. | **Neutral** – Institutional dip-buying in top-tier chip design houses faces offsetting pressure from advanced packaging bottlenecks and post-election legislative oversight `[16][20][21]`. |
 
 ---
 
@@ -59,9 +59,9 @@
 | :--- | :--- | :--- |
 | **TEAM** | -12% | Sank after issuing slower FY2027 revenue growth guidance of ~13.75%, overshadowing Q3 operational beat `[7]`. |
 | **CCJ** | -4.7% | Eased back following technical documentation filings for the renewal of its at-the-market equity offering program `[22]`. |
-| **STM** | n/a | Traded lower after taking a €67 million impairment and re-baselining FY2030 long-term financial targets `[32]`. |
-| **VNET** | n/a | Faced selling pressure as heavy debt and fair-value hits widened quarterly net losses despite 14.2% revenue growth `[20]`. |
-| **ASML** | n/a | Softened as global equipment shipping timelines faced political oversight and cross-border trade friction `[20]`. |
+| **STM** | +4.43% | Traded lower after taking a €67 million impairment and re-baselining FY2030 long-term financial targets `[32]`. |
+| **VNET** | +0.32% | Faced selling pressure as heavy debt and fair-value hits widened quarterly net losses despite 14.2% revenue growth `[20]`. |
+| **ASML** | +5.02% | Softened as global equipment shipping timelines faced political oversight and cross-border trade friction `[20]`. |
 
 ---
 
@@ -70,28 +70,28 @@
 | Ticker | 1-Day % | One-line Read |
 | :--- | :--- | :--- |
 | **NVDA** | +5% | **Reversal**: Bounced 5% as semiconductor buyers stepped back in post-election, supported by net SOXX ETF additions `[21][28]`. |
-| **TSM** | n/a | **News-driven**: Evaluating strategic expansion into advanced memory chip manufacturing to relieve HBM packaging constraints `[20]`. |
+| **TSM** | +6.33% | **News-driven**: Evaluating strategic expansion into advanced memory chip manufacturing to relieve HBM packaging constraints `[20]`. |
 | **AMD** | +8% | **Reversal**: Led chip sector rally with an 8% gain as 53 ETFs added net new shares to portfolios `[21][28]`. |
-| **AVGO** | n/a | **No news**: Custom AI ASIC foundry ecosystem position remains key structural focus amid broad market volatility `[20]`. |
-| **MRVL** | n/a | **News-driven**: Scheduled Q3 FY2027 financial results conference call for December 1, 2026 `[24]`. |
-| **MU** | n/a | **Continuation**: Forward P/E compressed to 3.72 following multi-week drawdown, representing a steep valuation discount to design peers `[19]`. |
-| **COHR** | n/a | **News-driven**: Reaffirmed buy recommendations following Q1 top-line growth and expanding optical networking demand `[33]`. |
+| **AVGO** | +0.74% | **No news**: Custom AI ASIC foundry ecosystem position remains key structural focus amid broad market volatility `[20]`. |
+| **MRVL** | +5.73% | **News-driven**: Scheduled Q3 FY2027 financial results conference call for December 1, 2026 `[24]`. |
+| **MU** | +5.12% | **Continuation**: Forward P/E compressed to 3.72 following multi-week drawdown, representing a steep valuation discount to design peers `[19]`. |
+| **COHR** | +13.58% | **News-driven**: Reaffirmed buy recommendations following Q1 top-line growth and expanding optical networking demand `[33]`. |
 | **WDC** | +3% | **Reversal**: Advanced 3% as institutional traders bet data center AI storage demand will outlast short-term market drawdowns `[30]`. |
-| **SOXX** | n/a | **News-driven**: Semiconductor benchmark adjusted ETF portfolio holdings, adding shares of AMD and NVDA `[28]`. |
-| **IONQ** | n/a | **News-driven**: Rallied after beating Q3 revenue estimates, raising full-year guidance, and reporting 336% YoY top-line growth `[13]`. |
+| **SOXX** | +3.51% | **News-driven**: Semiconductor benchmark adjusted ETF portfolio holdings, adding shares of AMD and NVDA `[28]`. |
+| **IONQ** | +23.42% | **News-driven**: Rallied after beating Q3 revenue estimates, raising full-year guidance, and reporting 336% YoY top-line growth `[13]`. |
 | **CRWV** | +10% | **Reversal**: Surged 10% post-earnings on peer validation, solidifying its $104 billion infrastructure backlog `[1][9]`. |
 | **IREN** | +15% | **Reversal**: Jumped 15% post-earnings beat, driving short-covering across AI neocloud providers `[9]`. |
-| **AAPL** | n/a | **News-driven**: Reclaimed global market cap leadership title from NVDA during tech sector rotation `[14]`. |
-| **AMZN** | n/a | **News-driven**: Shifted Prime food delivery partner from Grubhub to Uber Eats effective immediately `[36]`. |
-| **GOOG** | n/a | **News-driven**: Hyperscale cloud momentum maintained while challenging California AB 1709 regulatory constraints `[35]`. |
+| **AAPL** | -0.52% | **News-driven**: Reclaimed global market cap leadership title from NVDA during tech sector rotation `[14]`. |
+| **AMZN** | -0.35% | **News-driven**: Shifted Prime food delivery partner from Grubhub to Uber Eats effective immediately `[36]`. |
+| **GOOG** | +0.78% | **News-driven**: Hyperscale cloud momentum maintained while challenging California AB 1709 regulatory constraints `[35]`. |
 | **TSLA** | +3% | **Reversal**: Rose 3% as management confirmed plans to wind down Cybertruck production to reallocate capacity to Cybercab and robotics `[29]`. |
 | **PANW** | +2% | **Continuation**: Advanced 2% on platformization traction and 24.5% sales growth while evaluating its seventh acquisition this year `[3][11][12]`. |
 | **CCJ** | -4.7% | **Continuation**: Declined 4.7% following technical filings for its renewed at-the-market equity offering program `[22]`. |
-| **NVT** | n/a | **News-driven**: Highlighted for solid operational execution across electrical enclosures and liquid cooling equipment lines `[31]`. |
-| **VST** | n/a | **News-driven**: Surged following strong Q3 sales results driven by expanding data center electrical load demand `[31]`. |
-| **CEG** | n/a | **News-driven**: Scheduled Q3 earnings report for November 9, with market focus on nuclear power hyperscale PPAs `[23]`. |
-| **STM** | n/a | **Continuation**: Re-baselined FY2030 financial targets and recorded a €67 million impairment due to end-market softness `[32]`. |
-| **ENTG** | n/a | **No news**: Subject to relative valuation scrutiny within semiconductor process chemical suppliers `[37]`. |
+| **NVT** | +7.97% | **News-driven**: Highlighted for solid operational execution across electrical enclosures and liquid cooling equipment lines `[31]`. |
+| **VST** | +10.55% | **News-driven**: Surged following strong Q3 sales results driven by expanding data center electrical load demand `[31]`. |
+| **CEG** | +4.30% | **News-driven**: Scheduled Q3 earnings report for November 9, with market focus on nuclear power hyperscale PPAs `[23]`. |
+| **STM** | +4.43% | **Continuation**: Re-baselined FY2030 financial targets and recorded a €67 million impairment due to end-market softness `[32]`. |
+| **ENTG** | +2.59% | **No news**: Subject to relative valuation scrutiny within semiconductor process chemical suppliers `[37]`. |
 
 ---
 

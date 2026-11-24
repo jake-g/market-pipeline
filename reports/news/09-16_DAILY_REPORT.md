@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-21)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 ## Top AI Thematic Insights
 
 ### Intel's 4% Surge on SK Hynix Memory-Chip Foundry Negotiations (INTC)
@@ -60,7 +61,3 @@ Today’s session showcased a sharp rally in foundry enablers and energy-allianc
 6. "ASML Vs. Taiwan Semiconductor Manufacturing: One Is More Misunderstood" — 24/7 Wall St., 2026-09-16 Daily Market Feed. URL: `https://247wallst.com/investing/2026/09/16/asml-vs-taiwan-semiconductor-manufacturing-one-is-more-misunderstood/?.tsrc=rss`
 7. "01_MONTHLY_REPORT.pdf" [PDF] — January 2026 Top AI Thematic Insights (AI Training to Deployment Phase shift).
 8. "05_MONTHLY_REPORT.pdf" [PDF] — May 2026 Top AI Thematic Insights (Transition from AI Training to Inference Era).
-
-***
-
-📈 **Next Steps:** I have also published this report as **`2026-09-16_daily_market_report-v2.md`** to your Studio panel. Would you like me to write a Python script to compare the multi-month performance delta between domestic chip foundry enablers (Intel, TSMC) and rate-sensitive growth equities across your 2026 dataset?

@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | 1-Day % / Status | Key Takeaway / Trigger |
 | :--- | :--- | :--- |
-| `SPY` | `n/a` | Broader index movements digested stronger-than-expected economic labor data [35]. |
-| `QQQ` | `n/a` | Tech-heavy benchmark evaluated higher yield pressures against chip sector resilience [35], [87]. |
-| `SOXX` | `n/a` | Semiconductor ETF displayed directional strength as chip stocks shrugged off rising rate hike odds following the August jobs report [35], [87]. |
+| `SPY` | `-0.39%` | Broader index movements digested stronger-than-expected economic labor data [35]. |
+| `QQQ` | `+0.18%` | Tech-heavy benchmark evaluated higher yield pressures against chip sector resilience [35], [87]. |
+| `SOXX` | `+3.51%` | Semiconductor ETF displayed directional strength as chip stocks shrugged off rising rate hike odds following the August jobs report [35], [87]. |
 | `Macro Event` | Rate Hike Fears | U.S. August jobs report added over double the expected jobs, driving Treasury yield spikes and elevating September Fed rate hike probability above 60% [35], [87]. |
 | `Risk Posture` | `Neutral` | Semiconductor equity resilience amidst surging Treasury yields reflects robust discount rate absorption and structural equity risk premium durability across core technology holdings [35], [87]. |
 
@@ -70,21 +70,21 @@
 
 | Ticker | 1-Day % | One-line Read |
 | :--- | :--- | :--- |
-| `SOXX` | `n/a` | News-driven (Chip stocks absorb macro employment surprise and rate hike bets) [87]. |
-| `SMH` | `n/a` | Continuation (Semiconductor ETF trading dynamics relative to SOXX) [88]. |
-| `MRVL` | `n/a` | Continuation (Gaining traction on AI chip market positioning and industry peer trade-ups) [71], [72]. |
-| `IONQ` | `n/a` | News-driven (Initiated with Buy at B. Riley; multiyear revenue guidance focus) [119], [120]. |
-| `CRWV` | `n/a` | Continuation (Valuation checks highlight low sales multiple vs. AI cloud peers) [74], [75]. |
-| `AAPL` | `n/a` | News-driven (Monitored ahead of foldable launch rumors and executive transition) [60], [62]. |
-| `AMZN` | `n/a` | News-driven (DOJ price probe expansion offset by Labor Day sales momentum) [67], [68]. |
-| `GOOG` | `n/a` | Continuation (Quantum computing leadership positioning alongside AI search) [65]. |
+| `SOXX` | `+3.51%` | News-driven (Chip stocks absorb macro employment surprise and rate hike bets) [87]. |
+| `SMH` | `+2.61%` | Continuation (Semiconductor ETF trading dynamics relative to SOXX) [88]. |
+| `MRVL` | `+7.05%` | Continuation (Gaining traction on AI chip market positioning and industry peer trade-ups) [71], [72]. |
+| `IONQ` | `+1.28%` | News-driven (Initiated with Buy at B. Riley; multiyear revenue guidance focus) [119], [120]. |
+| `CRWV` | `+5.68%` | Continuation (Valuation checks highlight low sales multiple vs. AI cloud peers) [74], [75]. |
+| `AAPL` | `-2.51%` | News-driven (Monitored ahead of foldable launch rumors and executive transition) [60], [62]. |
+| `AMZN` | `-0.15%` | News-driven (DOJ price probe expansion offset by Labor Day sales momentum) [67], [68]. |
+| `GOOG` | `-1.05%` | Continuation (Quantum computing leadership positioning alongside AI search) [65]. |
 | `TSLA` | `-5.0%` | News-driven (Regulatory scrutiny over steering-wheel-free Cybercab layout) [98]. |
-| `PANW` | `n/a` | Reversal (Technical hammer chart pattern points to near-term technical hammer support) [117]. |
-| `CCJ` | `n/a` | News-driven (Upgraded to Strong-Buy by Jefferies on nuclear fuel demand) [38]. |
+| `PANW` | `+0.40%` | Reversal (Technical hammer chart pattern points to near-term technical hammer support) [117]. |
+| `CCJ` | `+0.12%` | News-driven (Upgraded to Strong-Buy by Jefferies on nuclear fuel demand) [38]. |
 | `VST` | `+3.5%` | Continuation (Sustained momentum from Thiel/Bridgewater backing and multi-year PPA backlogs) [22]. |
 | `CEG` | `+4.9%` | Continuation (Nuclear energy tailwinds and multi-decade PPA visibility for hyperscale data center powering) [31]. |
-| `STM` | `n/a` | News-driven (Deployed AI loitering detection; holds Moderate Buy rating) [69], [110]. |
-| `ANET` | `n/a` | Continuation (Maintains six-month rally of 37.3% on enterprise AI networking demand) [128]. |
+| `STM` | `+1.88%` | News-driven (Deployed AI loitering detection; holds Moderate Buy rating) [69], [110]. |
+| `ANET` | `+1.22%` | Continuation (Maintains six-month rally of 37.3% on enterprise AI networking demand) [128]. |
 
 ---
 

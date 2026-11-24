@@ -2,15 +2,13 @@
 *(Generated via NotebookLM Integration on 2026-10-12)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-Note: The "Quantitative Price Action Summary" table for 2026-10-01 was omitted from source selection; performance figures without explicit text mentions in today's feed are marked as "n/a".
-
 ## Regime Dashboard
 
 | Index / Macro Metric | 1-Day % / Value | Key Catalyst & Risk Posture |
 | :--- | :--- | :--- |
-| **SPY** | n/a | **BEA reported August Personal Consumption Expenditures (PCE) rose +0.9% MoM**, signaling resilient consumer demand and steady economic expansion [1]. |
-| **QQQ** | n/a | **Enterprise software rally (SNPS +9.22%, IBM +5.00%, NOW +3.50%)** provided top-line support as corporate buyers transition AI models to production workflows [2-4]. |
-| **SOXX** | n/a | **Micron (MU) reported record Q4 revenue and robust HBM guidance**, though memory shares faced post-earnings profit taking (-3.00%) [5]. |
+| **SPY** | +0.18% | **BEA reported August Personal Consumption Expenditures (PCE) rose +0.9% MoM**, signaling resilient consumer demand and steady economic expansion [1]. |
+| **QQQ** | +0.31% | **Enterprise software rally (SNPS +9.22%, IBM +5.00%, NOW +3.50%)** provided top-line support as corporate buyers transition AI models to production workflows [2-4]. |
+| **SOXX** | +1.35% | **Micron (MU) reported record Q4 revenue and robust HBM guidance**, though memory shares faced post-earnings profit taking (-3.00%) [5]. |
 | **Risk Posture** | **Risk-On** | Resilient macroeconomic consumption (+0.9% PCE) and strong corporate software/hardware catalysts offset elevated long-end Treasury yield overhangs [1, 2, 5]. |
 
 ---
@@ -61,8 +59,8 @@ Note: The "Quantitative Price Action Summary" table for 2026-10-01 was omitted f
 | **DIS** | **-3.08%** | **Walt Disney Co** fell 3.08% as traders digested moderating theme park attendance and streaming CapEx burdens [14]. |
 | **MU** | **-3.00%** | **Micron Technology** slipped 3.00% despite posting record Q4 results and above-consensus guidance [5]. |
 | **APP** | **-3.00%** | **AppLovin** fell 3.00% after Wells Fargo called its e-commerce Pixel install spike a false start [8]. |
-| **WDC** | **n/a** | **Western Digital** dipped in tandem with Micron's post-earnings memory sector profit-taking [5]. |
-| **RIVN** | **n/a** | **Rivian Automotive** sank as market gains favored profitable enterprise tech over unprofitable EV OEMs [15]. |
+| **WDC** | +1.78% | **Western Digital** dipped in tandem with Micron's post-earnings memory sector profit-taking [5]. |
+| **RIVN** | -1.20% | **Rivian Automotive** sank as market gains favored profitable enterprise tech over unprofitable EV OEMs [15]. |
 
 ---
 
@@ -70,24 +68,24 @@ Note: The "Quantitative Price Action Summary" table for 2026-10-01 was omitted f
 
 | Ticker | 1-Day % | One-line read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | **News-driven:** Authorized record \$150B buyback program while funding massive GPU CapEx [7]. |
-| **AVGO** | n/a | **News-driven:** Inked \$42B circular financing deal with Anthropic to lease custom AI chips [6]. |
+| **NVDA** | +1.09% | **News-driven:** Authorized record \$150B buyback program while funding massive GPU CapEx [7]. |
+| **AVGO** | -2.15% | **News-driven:** Inked \$42B circular financing deal with Anthropic to lease custom AI chips [6]. |
 | **MU** | **-3.00%** | **Reversal:** Slipped 3% despite record Q4 earnings and above-consensus guidance [5]. |
-| **WDC** | n/a | **Continuation:** Dipped alongside Micron in post-earnings memory sector profit-taking [5]. |
-| **ANET** | n/a | **News-driven:** Gained attention on AI data center networking demand and Cisco order spillover [16]. |
-| **AAPL** | n/a | **News-driven:** CEO John Ternus considering major corporate overhaul and product release shift [17]. |
-| **TSLA** | n/a | **Continuation:** Advanced after Cathie Wood noted Musk working with Trump/Xi on China hurdles [18]. |
-| **VST** | n/a | **News-driven:** Down 30% YTD over ERCOT power prices; analyst reiterates 115% upside target [9]. |
-| **ENTG** | n/a | **News-driven:** Announced Q3 2026 earnings release date for October 29 [19]. |
-| **IONQ** | n/a | **Continuation:** Tracked ongoing institutional interest following quantum sector analyst rating upgrades [20]. |
-| **GEV** | n/a | **News-driven:** CEO delivered constructive end-market update amid Google Georgia nuclear deal [10, 11]. |
-| **AMD** | n/a | **News-driven:** Won \$1.2B AI server gear order via HPE for Vultr cloud deployment [21]. |
-| **TSM** | n/a | **Continuation:** Analyzed in semiconductor equipment and foundry capacity outlook reports [22]. |
-| **GOOG** | n/a | **News-driven:** Expanded Georgia nuclear energy commitments to power AI data centers [10]. |
-| **AMZN** | n/a | **News-driven:** Locked in 20-year nuclear power agreement for surging data center electricity demand [23]. |
-| **SPY** | n/a | **Macro-driven:** Benchmark tracking market reaction to August PCE inflation (+0.9% PCE) [1]. |
-| **QQQ** | n/a | **Macro-driven:** Benchmark supported by enterprise software sector rally (IBM, NOW, SNPS) [2-4]. |
-| **SOXX** | n/a | **Macro-driven:** Benchmark digesting Micron Q4 earnings report and memory sector pullbacks [5]. |
+| **WDC** | +1.78% | **Continuation:** Dipped alongside Micron in post-earnings memory sector profit-taking [5]. |
+| **ANET** | +0.44% | **News-driven:** Gained attention on AI data center networking demand and Cisco order spillover [16]. |
+| **AAPL** | -0.81% | **News-driven:** CEO John Ternus considering major corporate overhaul and product release shift [17]. |
+| **TSLA** | -0.20% | **Continuation:** Advanced after Cathie Wood noted Musk working with Trump/Xi on China hurdles [18]. |
+| **VST** | +1.01% | **News-driven:** Down 30% YTD over ERCOT power prices; analyst reiterates 115% upside target [9]. |
+| **ENTG** | +2.86% | **News-driven:** Announced Q3 2026 earnings release date for October 29 [19]. |
+| **IONQ** | +0.30% | **Continuation:** Tracked ongoing institutional interest following quantum sector analyst rating upgrades [20]. |
+| **GEV** | +3.89% | **News-driven:** CEO delivered constructive end-market update amid Google Georgia nuclear deal [10, 11]. |
+| **AMD** | +0.65% | **News-driven:** Won \$1.2B AI server gear order via HPE for Vultr cloud deployment [21]. |
+| **TSM** | +0.66% | **Continuation:** Analyzed in semiconductor equipment and foundry capacity outlook reports [22]. |
+| **GOOG** | -1.71% | **News-driven:** Expanded Georgia nuclear energy commitments to power AI data centers [10]. |
+| **AMZN** | -0.37% | **News-driven:** Locked in 20-year nuclear power agreement for surging data center electricity demand [23]. |
+| **SPY** | +0.18% | **Macro-driven:** Benchmark tracking market reaction to August PCE inflation (+0.9% PCE) [1]. |
+| **QQQ** | +0.31% | **Macro-driven:** Benchmark supported by enterprise software sector rally (IBM, NOW, SNPS) [2-4]. |
+| **SOXX** | +1.35% | **Macro-driven:** Benchmark digesting Micron Q4 earnings report and memory sector pullbacks [5]. |
 
 ---
 

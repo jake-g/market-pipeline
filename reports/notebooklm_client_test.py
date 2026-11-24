@@ -2,13 +2,18 @@
 
 import asyncio
 import datetime
+import os
+import shutil
+import tempfile
 import unittest
 from unittest.mock import AsyncMock
 from unittest.mock import MagicMock
 
 from reports.notebooklm_client import looks_like_studio_stub
 from reports.notebooklm_client import MarketNewsClient
+from reports.notebooklm_client import matches_source_title
 from reports.notebooklm_client import title_date
+from reports.notebooklm_report import build_prompt_quant_brief
 
 
 class MockSource:
@@ -245,6 +250,62 @@ class TestMarketNewsClientSync(unittest.TestCase):
     self.client.upload_file.assert_called_once()
     uploaded_path = self.client.upload_file.call_args[0][0]
     self.assertTrue(uploaded_path.endswith("05_MONTHLY_REPORT.pdf"))
+
+  def test_chunked_source_matching_and_scoping(self):
+    """Chunked '(part i/N)' sources match base titles and day-grouped feeds."""
+    base = "2026-11-23 Daily Market Feed"
+    self.assertTrue(matches_source_title(base, base))
+    self.assertTrue(matches_source_title(f"{base} (part 1/4)", base))
+    self.assertFalse(
+        matches_source_title(f"{base} - Quantitative Price Action Summary",
+                             base))
+
+    self.mock_sources_api.list.return_value = [
+        MockSource("c1", "2026-11-23 Daily Market Feed (part 1/2)", None),
+        MockSource("c2", "2026-11-23 Daily Market Feed (part 2/2)", None),
+        MockSource("d2", "2026-11-22 Daily Market Feed (part 1/2)", None),
+        MockSource("d3", "2026-11-21 Daily Market Feed", None),
+    ]
+    found = asyncio.run(self.client.find_source_ids([base]))
+    self.assertEqual(found, ["c1", "c2"])
+
+    recent = asyncio.run(self.client.recent_feed_source_ids(days=2))
+    self.assertEqual(recent, ["c2", "c1", "d2"])
+
+
+class TestQuantBriefAndMovers(unittest.TestCase):
+  """Tests ground-truth quant brief session alignment and mover filtering."""
+
+  def setUp(self):
+    self.tmp_dir = tempfile.mkdtemp()
+
+  def tearDown(self):
+    shutil.rmtree(self.tmp_dir)
+
+  def _write_prices(self, ticker: str, rows: list[tuple[str, float]]) -> None:
+    t_dir = os.path.join(self.tmp_dir, "tickers", ticker)
+    os.makedirs(t_dir, exist_ok=True)
+    with open(os.path.join(t_dir, "prices.tsv"), "w", encoding="utf-8") as f:
+      f.write("Date\tOpen\tHigh\tLow\tClose\tVolume\n")
+      for dt_str, px in rows:
+        f.write(f"{dt_str}\t{px}\t{px}\t{px}\t{px}\t1000\n")
+
+  def test_excludes_stale_mutual_funds_and_inverse_etfs(self):
+    """Delayed prior-session mutual funds and MUZ do not pollute movers."""
+    self._write_prices("SPY", [("2026-11-20", 100.0), ("2026-11-23", 105.0)])
+    self._write_prices("NVDA", [("2026-11-20", 100.0), ("2026-11-23", 130.0)])
+    self._write_prices("CRWD", [("2026-11-20", 100.0), ("2026-11-23", 91.0)])
+    self._write_prices("MUZ", [("2026-11-20", 20.0), ("2026-11-23", 12.0)])
+    # Delayed mutual fund with Friday's bar only
+    self._write_prices("FAGOX", [("2026-11-19", 50.0), ("2026-11-20", 46.0)])
+
+    dt = datetime.datetime(2026, 11, 23)
+    brief = build_prompt_quant_brief(self.tmp_dir, dt, dt)
+    self.assertIn("SPY +5.00%", brief)
+    self.assertIn("NVDA +30.00%", brief)
+    self.assertIn("CRWD -9.00%", brief)
+    self.assertNotIn("FAGOX", brief)
+    self.assertNotIn("MUZ", brief)
 
 
 if __name__ == "__main__":

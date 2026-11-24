@@ -74,6 +74,12 @@ def _source_sort_key(src: Any) -> tuple:
   return (d or _dt.date.max, str(created or ""), getattr(src, "title", ""))
 
 
+def matches_source_title(actual_title: str, base_title: str) -> bool:
+  """True when ``actual_title`` equals ``base_title`` or a chunk suffix."""
+  return (actual_title == base_title or
+          actual_title.startswith(f"{base_title} (part "))
+
+
 def looks_like_studio_stub(
     answer: str, required_markers: Optional[List[str]] = None) -> bool:
   """True if the chat answer is a Studio confirmation, not the report."""
@@ -179,13 +185,16 @@ class MarketNewsClient:
     except Exception as e:
       logger.warning("Failed to sync yearly/monthly reports: %s", e)
 
-  async def _prune_sources_if_needed(self, threshold: int = 95):
+  async def _prune_sources_if_needed(self,
+                                     threshold: int = 95,
+                                     needed: int = 0):
     """Checks source count and prunes oldest daily/weekly reports if exceeding.
 
     Maintains yearly and monthly reports as long as possible.
 
     Args:
       threshold (int): The max allowed sources before pruning starts.
+      needed (int): Extra source slots to reserve ahead of multi-chunk uploads.
     """
     client = self.client
     if (not self.notebook_id or client is None or
@@ -194,12 +203,14 @@ class MarketNewsClient:
 
     try:
       sources = await client.sources.list(self.notebook_id)
-      if len(sources) < threshold:
+      if len(sources) + needed < threshold:
         return
 
       logger.info(
-          "NotebookLM source count (%d) exceeds threshold (%d). Pruning...",
+          "NotebookLM source count (%d + %d needed) exceeds threshold (%d). "
+          "Pruning...",
           len(sources),
+          needed,
           threshold,
       )
 
@@ -269,8 +280,21 @@ class MarketNewsClient:
       weekly_sources.sort(key=_source_sort_key)
       unknown_sources.sort(key=_source_sort_key)
 
-      # Combine lists by priority (Daily first, then Weekly, then Unknown)
-      prune_candidates = daily_sources + weekly_sources + unknown_sources
+      # Combine lists by priority (Daily first, then Weekly, then Unknown),
+      # while deferring active sources from the last 3 days behind older ones.
+      ordered = daily_sources + weekly_sources + unknown_sources
+      today = _dt.date.today()
+
+      def _is_active_recent(src: Any) -> bool:
+        src_title = getattr(src, "title", "") or ""
+        if src_title.startswith("Historical Context:"):
+          return True
+        d = title_date(src_title)
+        return d is not None and 0 <= (today - d).days <= 3
+
+      older = [s for s in ordered if not _is_active_recent(s)]
+      active = [s for s in ordered if _is_active_recent(s)]
+      prune_candidates = older + active
 
       if not prune_candidates:
         logger.warning("No prune candidates (daily/weekly/unknown) found, "
@@ -279,7 +303,7 @@ class MarketNewsClient:
 
       # Target: prune enough to get below threshold with safety margin
       safety_margin = min(5, threshold // 2)
-      prune_target = len(sources) - threshold + safety_margin
+      prune_target = len(sources) + needed - threshold + safety_margin
       prune_count = min(prune_target, len(prune_candidates))
 
       for i in range(prune_count):
@@ -312,7 +336,6 @@ class MarketNewsClient:
     if not self.notebook_id:
       raise ValueError("Not connected to a notebook. Call connect() first.")
 
-    await self._prune_sources_if_needed()
     client = self.client
     if client is None or not hasattr(client, 'sources'):
       logger.error("Client or sources not available.")
@@ -331,8 +354,10 @@ class MarketNewsClient:
 
     logger.info("Uploading news source to NotebookLM: %s (%d chars)", title,
                 len(text_content))
-    if len(text_content) <= max_chars and await _add(text_content, title):
-      return True
+    if len(text_content) <= max_chars:
+      await self._prune_sources_if_needed(needed=1)
+      if await _add(text_content, title):
+        return True
 
     # Fallback: split on paragraph boundaries into <= max_chars parts.
     parts: List[str] = []
@@ -346,6 +371,7 @@ class MarketNewsClient:
       parts.append(buf)
     if len(parts) <= 1:
       return False
+    await self._prune_sources_if_needed(needed=len(parts))
     logger.warning("Retrying '%s' as %d chunked sources", title, len(parts))
     ok = True
     for i, part in enumerate(parts, 1):
@@ -379,16 +405,18 @@ class MarketNewsClient:
       logger.error("Error uploading file: %s", e)
 
   async def find_source_ids(self, titles: List[str]) -> List[str]:
-    """Returns ids of sources whose title matches any of ``titles``."""
+    """Returns ids of sources matching any of ``titles`` (including chunks)."""
     client = self.client
     if not self.notebook_id or client is None or not hasattr(client, "sources"):
       return []
-    wanted = set(titles)
     sources = await client.sources.list(self.notebook_id)
-    return [s.id for s in sources if getattr(s, "title", "") in wanted]
+    return [
+        s.id for s in sources if any(
+            matches_source_title(getattr(s, "title", ""), t) for t in titles)
+    ]
 
   async def recent_feed_source_ids(self, days: int = 5) -> List[str]:
-    """Ids of the ``days`` most recent '... Daily Market Feed' sources."""
+    """Ids of all sources for the ``days`` most recent Daily Market Feeds."""
     client = self.client
     if not self.notebook_id or client is None or not hasattr(client, "sources"):
       return []
@@ -398,7 +426,17 @@ class MarketNewsClient:
         "Quantitative" not in getattr(s, "title", "")
     ]
     feeds.sort(key=_source_sort_key, reverse=True)
-    return [s.id for s in feeds[:days]]
+    kept_ids: List[str] = []
+    seen_keys: List[str] = []
+    for src in feeds:
+      raw_title = getattr(src, "title", "")
+      base_key = raw_title.split(" (part ", 1)[0]
+      if base_key not in seen_keys:
+        if len(seen_keys) >= days:
+          continue
+        seen_keys.append(base_key)
+      kept_ids.append(src.id)
+    return kept_ids
 
   async def _download_latest_report_artifact(self) -> str:
     """Fetches the newest Studio report artifact as markdown, then deletes it."""

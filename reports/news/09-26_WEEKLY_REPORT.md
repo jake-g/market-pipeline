@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-29)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 # Weekly Macroeconomic & AI Synthesis Report: September 20 – September 26, 2026
 
 ## Top AI Thematic Insights
@@ -107,7 +108,3 @@ The quantitative performance for the week of September 20 to September 26, 2026,
 34. "What Happens To Cloudflare Stock If Its Growth Cools?" — Trefis, 2026-09-22 Daily Market Feed. URL: `https://www.trefis.com/articles/616148/what-happens-to-cloudflare-stock-if-its-growth-cools/2026-09-22?.tsrc=rss`
 35. "UiPath's CTO Sells Over 40,000 Shares Amid a 16% One-Year Return" — The Motley Fool, 2026-09-22 Daily Market Feed. URL: `https://www.fool.com/coverage/filings/2026/09/22/uipath-s-cto-sells-over-40-000-shares-amid-a-16-one-year-return/?.tsrc=rss`
 36. "Zhipu AI's market capitalization has hit a new low, falling back to HK\$300 billion" — Moomoo, 2026-09-25 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMimgFBVV95cUxQeTFvNjZPYk1pY0E1eE5uY0NxNkIyZThHemQtS240aGRuZ1ZWTzFsWFJyUGh1QURiTDU1cHpULUd1YmlTTzZNRmNhdFU3Y3J1ajUzM3gzOU5tckVnVTIxd3NiQWd2QWNNQnhyWFZqRXBQZUQ2RWE0bzM3ZmNxTzBvbG1HSG8tRk16SkVYcUlPWklkTnZLZGdGbUxn?oc=5`
-
-***
-
-💡 **Next Steps:** The synthesis report is published and available in your Studio panel as `2026-09-20_to_2026-09-26_weekly_synthesis_report.md`. Would you like me to write a Python script across your September dataset comparing the multi-week performance correlation between power-secured neoclouds (Nebius, IREN) and specialized cybersecurity platforms (CIBR, CRWD, PANW)?

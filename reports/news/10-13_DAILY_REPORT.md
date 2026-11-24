@@ -8,7 +8,7 @@ Note: Direct quantitative price action summary data for 2026-10-13 is thin in th
 
 | SPY 1-Day % | QQQ 1-Day % | SOXX 1-Day % | Key Macro Print / Event | Risk Posture & Justification |
 | ------ | ------ | ------ | ------ | ------ |
-| n/a | n/a | n/a | U.S. 1-year inflation expectations jumped to 4.7% ahead of Wednesday's CPI release while Q3 bank earnings kicked off [1, 2]. | **Risk-Off** — A five-month high in inflation expectations (4.7%) and a sixth consecutive session of semiconductor losses pressed high-valuation tech equities ahead of bank earnings and CPI data [1-3]. |
+| -0.01% | -0.33% | -0.18% | U.S. 1-year inflation expectations jumped to 4.7% ahead of Wednesday's CPI release while Q3 bank earnings kicked off [1, 2]. | **Risk-Off** — A five-month high in inflation expectations (4.7%) and a sixth consecutive session of semiconductor losses pressed high-valuation tech equities ahead of bank earnings and CPI data [1-3]. |
 
 ## Top AI Thematic Insights
 
@@ -41,9 +41,9 @@ Note: Direct quantitative price action summary data for 2026-10-13 is thin in th
 | **TLN** | +14.0% | Fermi surged +14.0% following AMD credit support for Project Matador's 222 MW AI campus lease [7]. |
 | **MA** | +1.58% | Mastercard climbed +1.58% supported by stablecoin settlement optimism and Wall Street price target upgrades [14]. |
 | **CVX** | +1.4% | Chevron advanced +1.4% after analyst upgrades cited fortress balance sheet resilience [15]. |
-| **TTE** | n/a | TotalEnergies expanded its U.S. solar footprint by 700 MW via a \$1.2 billion KKR joint venture [16]. |
-| **BP** | n/a | Energy equities edged higher premarket driven by sticky crude prices and NVIDIA AI partnership deployment [17]. |
-| **VST** | n/a | Analyst commentary reiterated 90% upside on nuclear and power grid positioning [8]. |
+| **TTE** | +0.66% | TotalEnergies expanded its U.S. solar footprint by 700 MW via a \$1.2 billion KKR joint venture [16]. |
+| **BP** | +3.85% | Energy equities edged higher premarket driven by sticky crude prices and NVIDIA AI partnership deployment [17]. |
+| **VST** | +2.68% | Analyst commentary reiterated 90% upside on nuclear and power grid positioning [8]. |
 
 ### Top Losers
 
@@ -62,34 +62,34 @@ Note: Direct quantitative price action summary data for 2026-10-13 is thin in th
 
 | Ticker | 1-Day % | One-Line Read |
 | ------ | ------ | ------ |
-| **NVDA** | n/a | news-driven — Energy majors expand NVIDIA AI adoption while hyperscalers scale custom silicon [10, 17]. |
-| **TSM** | n/a | news-driven — Suppliers shift to local-for-local manufacturing strategies to secure TSMC foundry orders [23]. |
-| **AMD** | n/a | news-driven — Backs Fermi's 222 MW AI campus lease while raising GDDR6 VRAM pricing [7]. |
-| **AVGO** | n/a | news-driven — Commits \$92B in chip-buying financing for Anthropic and OpenAI [4]. |
-| **MRVL** | n/a | news-driven — Details long-term revenue targets and joins MSFT/ORCL server security group [24]. |
+| **NVDA** | +0.97% | news-driven — Energy majors expand NVIDIA AI adoption while hyperscalers scale custom silicon [10, 17]. |
+| **TSM** | +0.17% | news-driven — Suppliers shift to local-for-local manufacturing strategies to secure TSMC foundry orders [23]. |
+| **AMD** | +1.90% | news-driven — Backs Fermi's 222 MW AI campus lease while raising GDDR6 VRAM pricing [7]. |
+| **AVGO** | +0.73% | news-driven — Commits \$92B in chip-buying financing for Anthropic and OpenAI [4]. |
+| **MRVL** | +1.08% | news-driven — Details long-term revenue targets and joins MSFT/ORCL server security group [24]. |
 | **MU** | -4.0% | reversal — Fell -4.0% on competitive threats from Chinese memory manufacturer CXMT [5]. |
-| **ANET** | n/a | no news — Fundamental demand for high-speed AI Ethernet networking remains intact ahead of earnings. |
-| **SOXX** | n/a | reversal — Extended losing streak to six consecutive sessions on AI funding concerns [3]. |
-| **IONQ** | n/a | no news — Evaluated by Wall Street against data platform peers following recent acquisition moves [20]. |
-| **CRWV** | n/a | news-driven — Substantive AI backlog highlighted alongside scrutiny over debt servicing obligations [25]. |
-| **IREN** | n/a | news-driven — Accelerates global site buildouts across North America, Europe, and Australia [26]. |
-| **AAPL** | n/a | news-driven — Institutional buying noted as market awaits Siri AI hub integration [12]. |
-| **AMZN** | n/a | no news — Holds focus following 20-year nuclear PPA execution with CEG. |
-| **GOOG** | n/a | no news — Options sentiment reflects cautious tactical positioning ahead of CPI data. |
-| **TSLA** | n/a | no news — Maintained momentum following Q3 delivery beat and energy storage expansion. |
+| **ANET** | -3.02% | no news — Fundamental demand for high-speed AI Ethernet networking remains intact ahead of earnings. |
+| **SOXX** | -0.18% | reversal — Extended losing streak to six consecutive sessions on AI funding concerns [3]. |
+| **IONQ** | -4.25% | no news — Evaluated by Wall Street against data platform peers following recent acquisition moves [20]. |
+| **CRWV** | -3.05% | news-driven — Substantive AI backlog highlighted alongside scrutiny over debt servicing obligations [25]. |
+| **IREN** | +0.00% | news-driven — Accelerates global site buildouts across North America, Europe, and Australia [26]. |
+| **AAPL** | +0.09% | news-driven — Institutional buying noted as market awaits Siri AI hub integration [12]. |
+| **AMZN** | -0.37% | no news — Holds focus following 20-year nuclear PPA execution with CEG. |
+| **GOOG** | +0.16% | no news — Options sentiment reflects cautious tactical positioning ahead of CPI data. |
+| **TSLA** | -0.74% | no news — Maintained momentum following Q3 delivery beat and energy storage expansion. |
 | **PANW** | -3.01% | news-driven — Partnered with Anthropic on OT critical infrastructure defense despite -3.01% dip [9, 22]. |
-| **HOOD** | n/a | news-driven — Highlighted as primary trading rail for emerging AI agent crypto transactions [27]. |
-| **NVT** | n/a | news-driven — Recognized for high ROIC and specialized liquid cooling electrical infrastructure [28]. |
-| **VST** | n/a | news-driven — Analyst reiterates 90% price target upside on AI nuclear power demand [8]. |
-| **CEG** | n/a | no news — Retains structural tailwinds from 20-year Amazon and Google nuclear PPAs. |
-| **IBIT** | n/a | no news — Option flows monitored as Bitcoin tests key support levels. |
-| **BMNR** | n/a | news-driven — Treasury firm ETH holdings tracked as Korean market volatility triggers margin calls [29]. |
-| **STM** | n/a | reversal — Slipped during international equity profit-taking across semi-cap holdings [30]. |
-| **ENTG** | n/a | news-driven — Initiated at Overweight by Barclays on semiconductor materials expansion [31]. |
-| **MRK** | n/a | reversal — Pulled back alongside defensive healthcare peers ahead of earnings [32]. |
-| **WDC** | n/a | continuation — Memory and storage makers remain volatile amidst HDD output expansion concerns [33]. |
-| **SPY** | n/a | no news — Retail sentiment remains resilient despite rising inflation expectations and rate volatility [2]. |
-| **QQQ** | n/a | reversal — Tech index pressured by chip sector losses and elevated 1-year inflation expectations [1-3]. |
+| **HOOD** | +1.19% | news-driven — Highlighted as primary trading rail for emerging AI agent crypto transactions [27]. |
+| **NVT** | -0.81% | news-driven — Recognized for high ROIC and specialized liquid cooling electrical infrastructure [28]. |
+| **VST** | +2.68% | news-driven — Analyst reiterates 90% price target upside on AI nuclear power demand [8]. |
+| **CEG** | +0.65% | no news — Retains structural tailwinds from 20-year Amazon and Google nuclear PPAs. |
+| **IBIT** | +0.58% | no news — Option flows monitored as Bitcoin tests key support levels. |
+| **BMNR** | -1.43% | news-driven — Treasury firm ETH holdings tracked as Korean market volatility triggers margin calls [29]. |
+| **STM** | -1.80% | reversal — Slipped during international equity profit-taking across semi-cap holdings [30]. |
+| **ENTG** | +0.72% | news-driven — Initiated at Overweight by Barclays on semiconductor materials expansion [31]. |
+| **MRK** | -2.39% | reversal — Pulled back alongside defensive healthcare peers ahead of earnings [32]. |
+| **WDC** | -1.61% | continuation — Memory and storage makers remain volatile amidst HDD output expansion concerns [33]. |
+| **SPY** | -0.01% | no news — Retail sentiment remains resilient despite rising inflation expectations and rate volatility [2]. |
+| **QQQ** | -0.33% | reversal — Tech index pressured by chip sector losses and elevated 1-year inflation expectations [1-3]. |
 
 ## References
 

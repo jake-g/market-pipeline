@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | 1-Day % / Status | Context |
 | :--- | :--- | :--- |
-| **SPY** | n/a | Broad-market equities experienced selling pressure as hotter-than-expected CPI data drove Treasury yields higher across the curve, weighing on equity valuation multiples. |
-| **QQQ** | n/a | Short-duration growth and high-multiple technology equities underperformed due to aggressive hawkish repricing of Federal Reserve December rate hike expectations. |
-| **SOXX** | n/a | Semiconductor equities faced cross-currents from macro rate repricing, global fab capacity expansion tracking, and ongoing debates over U.S. chip export control enforcement. |
+| **SPY** | -0.37% | Broad-market equities experienced selling pressure as hotter-than-expected CPI data drove Treasury yields higher across the curve, weighing on equity valuation multiples. |
+| **QQQ** | -0.68% | Short-duration growth and high-multiple technology equities underperformed due to aggressive hawkish repricing of Federal Reserve December rate hike expectations. |
+| **SOXX** | -0.12% | Semiconductor equities faced cross-currents from macro rate repricing, global fab capacity expansion tracking, and ongoing debates over U.S. chip export control enforcement. |
 | **Key Macro Event** | U.S. October CPI Print | October CPI exceeded consensus estimates, driving a sharp surge in Fed rate hike expectations for December and triggering immediate liquidation across gold, silver, and digital assets. |
 
 **[Risk-Off]** Hotter-than-expected U.S. October CPI data fueled surging Fed rate hike expectations, triggering broad sell-offs across major equity indexes, digital assets, and precious metals.
@@ -73,17 +73,17 @@
 
 | Ticker | 1-Day % | One-line Read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | `News-driven` Shares slipped as macro equity volatility and foreign chip export control scrutiny weighed on investor sentiment. |
-| **TSM** | n/a | `No news` Equity remains modeled at a 7% valuation discount as international fabrication facility expansions proceed on schedule. |
-| **AMD** | n/a | `News-driven` Technical benchmarks detailing DLSS 5 support on RX 9000 series GPUs highlighted advancing consumer silicon capabilities. |
-| **ANET** | n/a | `Continuation` Institutional filings confirm sustained fund position accumulation driven by expanding hyperscale switching demand. |
-| **SOXX** | n/a | `Reversal` Semiconductor benchmark experienced broad-based selling pressure in tandem with high-multiple tech following the CPI release. |
+| **NVDA** | -5.47% | `News-driven` Shares slipped as macro equity volatility and foreign chip export control scrutiny weighed on investor sentiment. |
+| **TSM** | +2.02% | `No news` Equity remains modeled at a 7% valuation discount as international fabrication facility expansions proceed on schedule. |
+| **AMD** | +1.30% | `News-driven` Technical benchmarks detailing DLSS 5 support on RX 9000 series GPUs highlighted advancing consumer silicon capabilities. |
+| **ANET** | -0.62% | `Continuation` Institutional filings confirm sustained fund position accumulation driven by expanding hyperscale switching demand. |
+| **SOXX** | -0.12% | `Reversal` Semiconductor benchmark experienced broad-based selling pressure in tandem with high-multiple tech following the CPI release. |
 | **CRWV** | +8.0% | `Reversal` Stock rebounded sharply after-hours following announcement of a Q3 revenue backlog increase to $132.5 billion. |
 | **IREN** | -10.0% | `News-driven` Equity plunged following analyst price target cuts tied to Microsoft expansion delays and balance sheet deficit projections. |
-| **VST** | n/a | `No news` Shares maintained institutional focus as hyperscalers aggressively seek co-located nuclear and grid power capacity [24]. |
-| **CEG** | n/a | `No news` Maintained market leadership positioning in nuclear power generation discussions despite broad macro pressure [24]. |
-| **IBIT** | n/a | `News-driven` Spot ETF recorded $213 million in single-day net outflows as Bitcoin broke below the $75,000 price level [25]. |
-| **BMNR** | n/a | `News-driven` Reported fiscal 2026 ETH staking revenue of $121.4 million alongside expanding net operating losses [22]. |
+| **VST** | -2.05% | `No news` Shares maintained institutional focus as hyperscalers aggressively seek co-located nuclear and grid power capacity [24]. |
+| **CEG** | -3.02% | `No news` Maintained market leadership positioning in nuclear power generation discussions despite broad macro pressure [24]. |
+| **IBIT** | -1.51% | `News-driven` Spot ETF recorded $213 million in single-day net outflows as Bitcoin broke below the $75,000 price level [25]. |
+| **BMNR** | -2.85% | `News-driven` Reported fiscal 2026 ETH staking revenue of $121.4 million alongside expanding net operating losses [22]. |
 
 ---
 

@@ -4,8 +4,6 @@
 
 # Daily Market Intelligence Note – November 17, 2026
 
-*Note: The primary feed for 2026-11-17 consists strictly of quantitative price action summary data; historical periodic reports are utilized solely to contextualize thematic evolution.*
-
 ---
 
 ## 1. Regime Dashboard

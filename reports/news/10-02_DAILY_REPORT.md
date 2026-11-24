@@ -8,9 +8,9 @@
 
 | Benchmark | 1-Day % | Key Driver / Context |
 | :--- | :--- | :--- |
-| **SPY** | n/a | S&P 500 index posted a +0.2% gain amid broad resilience as energy price surges offset rate pressures [31]. |
-| **QQQ** | n/a | Tech index underpinned by semiconductor M&A activity and expanding hyperscale AI server orders [26, 32]. |
-| **SOXX** | n/a | Semiconductor equities post broad gains led by Arm (+8%), AMD (+3%), and Nvidia (+2%) on strong AI compute demand [27]. |
+| **SPY** | +0.74% | S&P 500 index posted a +0.2% gain amid broad resilience as energy price surges offset rate pressures [31]. |
+| **QQQ** | +1.02% | Tech index underpinned by semiconductor M&A activity and expanding hyperscale AI server orders [26, 32]. |
+| **SOXX** | +2.18% | Semiconductor equities post broad gains led by Arm (+8%), AMD (+3%), and Nvidia (+2%) on strong AI compute demand [27]. |
 
 Broad market action is governed by elevated U.S. Treasury yields reaching multi-decade highs, driven by continuous capital absorption from massive AI infrastructure funding needs and ongoing Iran war supply shocks in energy markets [3, 15].
 
@@ -55,7 +55,7 @@ Broad market action is governed by elevated U.S. Treasury yields reaching multi-
 | **HPE** | +8% | Landed first $1.2B Helios AI server order from enterprise customer [32]. |
 | **STM** | +6.18% | Gained on solid operational tailwinds and semiconductor sector buying [21]. |
 | **LUNR** | +4.7% | Advanced on defense and space infrastructure contract traction [14]. |
-| **IONQ** | n/a | Released real-time quantum error correction decoder and expanded Nvidia research integrations [29, 34]. |
+| **IONQ** | -0.50% | Released real-time quantum error correction decoder and expanded Nvidia research integrations [29, 34]. |
 
 ### Top Losers
 
@@ -78,19 +78,19 @@ Broad market action is governed by elevated U.S. Treasury yields reaching multi-
 | :--- | :--- | :--- |
 | **NVDA** | +2% | `Continuation` — Highlighted as best-in-breed on sale while expanding footprint across quantum labs and autonomous trucking [8, 24, 27]. |
 | **AMD** | +3% | `Continuation` — Maintains strong upward momentum sitting on a 39% monthly gain following recent major acquisition [27]. |
-| **MRVL** | n/a | `News-driven` — Unveiled 2nm optical interconnects and secured critical AT&S substrate manufacturing capacity for AI infrastructure [22]. |
+| **MRVL** | +1.57% | `News-driven` — Unveiled 2nm optical interconnects and secured critical AT&S substrate manufacturing capacity for AI infrastructure [22]. |
 | **WDC** | -7% | `Reversal` — Shares broke lower after news broke that Toshiba plans to double hard disk drive output [25]. |
-| **SOXX** | n/a | `Continuation` — Semiconductor sector strength backed by server backlog conversion and major cash M&A deals [26, 27, 32]. |
-| **IONQ** | n/a | `Continuation` — Released a real-time quantum error correction decoder and expanded Nvidia lab deployments [29, 34]. |
-| **CRWV** | n/a | `News-driven` — Expanding infrastructure strategy by incorporating NVIDIA Vera and Vera Rubin platforms for agentic AI workloads [28]. |
-| **AAPL** | n/a | `News-driven` — Developing a Siri-powered smart home hub as analysts weigh valuation levels against fair value estimates [18, 19]. |
-| **AMZN** | n/a | `News-driven` — Added to Goldman Sachs Conviction List while evaluating offloading $8B in Nvidia chips and executing nuclear PPAs [1, 6, 20]. |
-| **GOOG** | n/a | `News-driven` — Valuation multiples remain compressed as broader markets weigh cloud segment execution against global yields [23]. |
-| **TSLA** | n/a | `News-driven` — Reported Q3 delivery figures that beat Wall Street consensus alongside strong energy storage figures [30]. |
-| **PANW** | n/a | `News-driven` — Technical setup holds breakout levels supported by rapid growth in identity and AI-agent security [33]. |
-| **CCJ** | n/a | `News-driven` — Well-positioned to capture demand from the new U.S.-South Korea framework supporting up to eight nuclear reactors [13]. |
-| **VST** | n/a | `News-driven` — Finalizing $4 billion in federal loans to expand nuclear power plant capacity across Ohio and Pennsylvania [7]. |
-| **CEG** | n/a | `Reversal` — Pressured by utility sector rate selloff despite securing a massive 20-year Amazon nuclear PPA [4, 5, 6]. |
+| **SOXX** | +2.18% | `Continuation` — Semiconductor sector strength backed by server backlog conversion and major cash M&A deals [26, 27, 32]. |
+| **IONQ** | -0.50% | `Continuation` — Released a real-time quantum error correction decoder and expanded Nvidia lab deployments [29, 34]. |
+| **CRWV** | +1.19% | `News-driven` — Expanding infrastructure strategy by incorporating NVIDIA Vera and Vera Rubin platforms for agentic AI workloads [28]. |
+| **AAPL** | +1.02% | `News-driven` — Developing a Siri-powered smart home hub as analysts weigh valuation levels against fair value estimates [18, 19]. |
+| **AMZN** | +1.33% | `News-driven` — Added to Goldman Sachs Conviction List while evaluating offloading $8B in Nvidia chips and executing nuclear PPAs [1, 6, 20]. |
+| **GOOG** | +1.62% | `News-driven` — Valuation multiples remain compressed as broader markets weigh cloud segment execution against global yields [23]. |
+| **TSLA** | +4.65% | `News-driven` — Reported Q3 delivery figures that beat Wall Street consensus alongside strong energy storage figures [30]. |
+| **PANW** | +1.76% | `News-driven` — Technical setup holds breakout levels supported by rapid growth in identity and AI-agent security [33]. |
+| **CCJ** | -0.60% | `News-driven` — Well-positioned to capture demand from the new U.S.-South Korea framework supporting up to eight nuclear reactors [13]. |
+| **VST** | +0.19% | `News-driven` — Finalizing $4 billion in federal loans to expand nuclear power plant capacity across Ohio and Pennsylvania [7]. |
+| **CEG** | -0.55% | `Reversal` — Pressured by utility sector rate selloff despite securing a massive 20-year Amazon nuclear PPA [4, 5, 6]. |
 | **STM** | +6.18% | `Continuation` — Advanced 6.18% driven by broad semiconductor buying and robust industrial tech positioning [21]. |
 
 ---

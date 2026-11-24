@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | 1-Day % Change | Key Macro Event / Print | Risk Posture |
 | :--- | :--- | :--- | :--- |
-| **SPY** | n/a | US GDP running near 2.2% annualized while long-term yields push past 5% and inflation sits at 3.7%. | **Neutral** — Broad equity benchmarks face persistent macro head-winds from long-term Treasury yields surpassing 5% and Brent crude holding above $110/bbl despite underlying GDP stability. |
-| **QQQ** | n/a | Big-tech earnings season underway amid market scrutiny of elevated AI capital expenditures. | **Neutral** — Mega-cap technology indices reflect balanced consolidation as institutional capital weighs sustained multi-billion-dollar AI infrastructure capex against upcoming quarterly execution targets. |
-| **SOXX** | n/a | Semiconductor capital flows showing active ETF rebalancing and mixed pre-market positioning. | **Neutral** — Chip sector displays targeted rebalancing, supported by institutional ETF accumulation ($61.6M AMD share purchase) while capped by persistent supply constraint signals. |
+| **SPY** | +0.34% | US GDP running near 2.2% annualized while long-term yields push past 5% and inflation sits at 3.7%. | **Neutral** — Broad equity benchmarks face persistent macro head-winds from long-term Treasury yields surpassing 5% and Brent crude holding above $110/bbl despite underlying GDP stability. |
+| **QQQ** | -0.10% | Big-tech earnings season underway amid market scrutiny of elevated AI capital expenditures. | **Neutral** — Mega-cap technology indices reflect balanced consolidation as institutional capital weighs sustained multi-billion-dollar AI infrastructure capex against upcoming quarterly execution targets. |
+| **SOXX** | -0.38% | Semiconductor capital flows showing active ETF rebalancing and mixed pre-market positioning. | **Neutral** — Chip sector displays targeted rebalancing, supported by institutional ETF accumulation ($61.6M AMD share purchase) while capped by persistent supply constraint signals. |
 
 ---
 
@@ -74,30 +74,30 @@
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | **news-driven** — Big 3 Chinese hyperscalers order $35B in chips while RTX PRO 5500 allocation limits loom. |
-| **TSM** | n/a | **news-driven** — Fund managers in Taiwan face personal trading scrutiny involving holdings. |
-| **AMD** | n/a | **news-driven** — SOXX ETF added $61.6M in shares as company details new Arm chip collaboration. |
-| **AVGO** | n/a | **news-driven** — Highlighted in top Wall Street research calls framing stock as a once-in-a-decade opportunity. |
-| **MRVL** | n/a | **continuation** — High-speed connectivity thesis intact as trading volume aligns with rotational strategy timing. |
-| **MU** | n/a | **news-driven** — Disclosed $25.69M insider sale by company officer amidst regional memory sector easing. |
-| **COHR** | n/a | **continuation** — Edges higher in sympathetic movement with data center optical hardware expansion announcements. |
-| **WDC** | n/a | **news-driven** — Target price trimmed by Morgan Stanley citing near-term HDD sector pricing dynamics. |
-| **SMH** | n/a | **news-driven** — Semiconductor ETF faced uneven pre-market sentiment on AI expenditure debate. |
-| **SOXX** | n/a | **news-driven** — ETF bought $61.6M in AMD shares while options flow shows active $515 put positioning. |
-| **IONQ** | n/a | **continuation** — Outperforming broader benchmarks as sell-side reiterates buying opportunities in quantum tech. |
+| **NVDA** | -0.29% | **news-driven** — Big 3 Chinese hyperscalers order $35B in chips while RTX PRO 5500 allocation limits loom. |
+| **TSM** | +1.16% | **news-driven** — Fund managers in Taiwan face personal trading scrutiny involving holdings. |
+| **AMD** | -0.62% | **news-driven** — SOXX ETF added $61.6M in shares as company details new Arm chip collaboration. |
+| **AVGO** | -0.07% | **news-driven** — Highlighted in top Wall Street research calls framing stock as a once-in-a-decade opportunity. |
+| **MRVL** | +1.40% | **continuation** — High-speed connectivity thesis intact as trading volume aligns with rotational strategy timing. |
+| **MU** | -0.98% | **news-driven** — Disclosed $25.69M insider sale by company officer amidst regional memory sector easing. |
+| **COHR** | -0.09% | **continuation** — Edges higher in sympathetic movement with data center optical hardware expansion announcements. |
+| **WDC** | +3.44% | **news-driven** — Target price trimmed by Morgan Stanley citing near-term HDD sector pricing dynamics. |
+| **SMH** | -0.38% | **news-driven** — Semiconductor ETF faced uneven pre-market sentiment on AI expenditure debate. |
+| **SOXX** | -0.38% | **news-driven** — ETF bought $61.6M in AMD shares while options flow shows active $515 put positioning. |
+| **IONQ** | +1.56% | **continuation** — Outperforming broader benchmarks as sell-side reiterates buying opportunities in quantum tech. |
 | **CRWV** | -4.0% | **reversal** — Dropped 4% following reiteration of HSBC sell call highlighting debt servicing exposure. |
-| **AAPL** | n/a | **news-driven** — Stock received Wall Street analyst target cuts ahead of mega-cap technology earnings reports. |
-| **AMZN** | n/a | **news-driven** — Focus highlighted by expanded data center liquid cooling and optical deal with 3M. |
-| **GOOG** | n/a | **news-driven** — Q3 earnings preview highlights cloud growth metrics balanced against regulatory antitrust risks. |
+| **AAPL** | -1.00% | **news-driven** — Stock received Wall Street analyst target cuts ahead of mega-cap technology earnings reports. |
+| **AMZN** | +0.07% | **news-driven** — Focus highlighted by expanded data center liquid cooling and optical deal with 3M. |
+| **GOOG** | -1.11% | **news-driven** — Q3 earnings preview highlights cloud growth metrics balanced against regulatory antitrust risks. |
 | **TSLA** | +3.8% | **continuation** — Surged to $368 ahead of Q3 earnings report and prospective AI catalysts. |
 | **PANW** | -1.92% | **reversal** — Dipped to $340.28 despite broader technology sector intraday resilience. |
-| **NLR** | n/a | **news-driven** — Showcased 8-minute heavy-duty hydrogen truck refueling benchmark in collaboration with Toyota. |
-| **CCJ** | n/a | **news-driven** — Listed among top Canadian nuclear opportunities amid elevated oil risk premiums. |
-| **NVT** | n/a | **news-driven** — Coverage reinstated with Overweight rating by JP Morgan analysts. |
-| **VST** | n/a | **news-driven** — Analysts highlight long-term hyperscaler power purchase contracts and upside potential despite trailing stock decline. |
-| **CEG** | n/a | **continuation** — Outperforming nuclear sector peers over trailing 3-month timeline on AI power demand. |
-| **STM** | n/a | **news-driven** — Price target lowered to $50 by TD Cowen amid global industrial chip market update. |
-| **ENTG** | n/a | **news-driven** — Cited as key market player in global silicon reclaim wafer strategic business report. |
+| **NLR** | -0.09% | **news-driven** — Showcased 8-minute heavy-duty hydrogen truck refueling benchmark in collaboration with Toyota. |
+| **CCJ** | -0.24% | **news-driven** — Listed among top Canadian nuclear opportunities amid elevated oil risk premiums. |
+| **NVT** | -1.27% | **news-driven** — Coverage reinstated with Overweight rating by JP Morgan analysts. |
+| **VST** | +0.41% | **news-driven** — Analysts highlight long-term hyperscaler power purchase contracts and upside potential despite trailing stock decline. |
+| **CEG** | -1.65% | **continuation** — Outperforming nuclear sector peers over trailing 3-month timeline on AI power demand. |
+| **STM** | +0.37% | **news-driven** — Price target lowered to $50 by TD Cowen amid global industrial chip market update. |
+| **ENTG** | -1.12% | **news-driven** — Cited as key market player in global silicon reclaim wafer strategic business report. |
 
 ---
 

@@ -2,17 +2,6 @@
 *(Generated via NotebookLM Integration on 2026-08-31)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-I have compiled and delivered your daily market intelligence report for August 31, 2026. The finalized document, **`2026-08-31_daily_market_report.md`**, has been generated and is now live in your Studio panel.
-
-The report provides a highly structured, data-driven synthesis of today's critical macroeconomic and equity catalysts:
-* **The Open-Weight Reasoning Waves**: Analysis of IBM's Granite 4.2 launch and its integration into the secular shift toward local, API-free models first triggered by Alibaba's Qwen3.8-27B release, which continues to challenge legacy SaaS seat-based margins.
-* **Jim Cramer's AI Concentration Warning**: A deep dive into the portfolio concentration trap, demonstrating how the datacenter power bottleneck has quietly converted traditional industrial value anchors like **Caterpillar (CAT)** into AI-linked proxies.
-* **Wildfire Deadlines and Utility Vulnerabilities**: Focus on today's August 31 legislative deadline for California's wildfire-liability protections, which continues to inject significant tail-risk into the utility sector's physical backbone.
-* **KO vs. XOM Dividend Divergences**: A structural comparison of the payout pressures facing Coca-Cola and ExxonMobil, highlighting the value of operational flexibility over capital-heavy, commodity-dependent models in a restrictive monetary regime.
-
-The complete report, featuring structured markdown tables of today's quantitative winners and losers, expert near-term projections, and a fully mapped References appendix matching today's exact headlines and URLs, is presented below for your immediate review:
-
-***
 
 # Daily Market Intelligence Report: 2026-08-31
 

@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | 1-Day % / Status | Key Context / Print |
 | :--- | :--- | :--- |
-| **SPY** | n/a | S&P 500 index tumbles 4.40% in indiscriminate hedge fund de-leveraging [1], marking its sharpest drawdown since the April 2025 tariff turmoil [39]. |
-| **QQQ** | n/a | Nasdaq Composite enters official correction territory, down 5.08% (slammed 1,421 points) amid heavy tech unwinds [2], [3], [39]. |
-| **SOXX** | n/a | PHLX Semiconductor Index (SOX) drops 8.92% to 9,352.46 in historic hardware liquidation [4]. |
+| **SPY** | -4.41% | S&P 500 index tumbles 4.40% in indiscriminate hedge fund de-leveraging [1], marking its sharpest drawdown since the April 2025 tariff turmoil [39]. |
+| **QQQ** | -6.49% | Nasdaq Composite enters official correction territory, down 5.08% (slammed 1,421 points) amid heavy tech unwinds [2], [3], [39]. |
+| **SOXX** | -12.15% | PHLX Semiconductor Index (SOX) drops 8.92% to 9,352.46 in historic hardware liquidation [4]. |
 | **Primary Macro / Event Driver** | Event-Driven Risk | 2026 US Midterm Election results spur immediate de-risking from tech/AI, driving Dow down 1,800+ points [5] as equity volatility (`^VIX`) experiences its sharpest surge since April 2025 [40]. |
 
 **Risk-Off** – Midterm election political headwinds, emerging regulatory friction on cross-border tech deals, and severe AI hardware liquidation require immediate capital preservation and selective repositioning.
@@ -75,27 +75,27 @@
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | Reversal – Enters bear market amid chip liquidation [2]. |
+| **NVDA** | -9.26% | Reversal – Enters bear market amid chip liquidation [2]. |
 | **TSM** | -7.46% | Reversal – Pulls back on datacenter spending concerns [9]. |
-| **AMD** | n/a | Reversal – Swept lower in historical chip crash [30]. |
+| **AMD** | -17.26% | Reversal – Swept lower in historical chip crash [30]. |
 | **AVGO** | -6.42% | Reversal – Moderates as spending durability faces test [10]. |
 | **MU** | -17.00% | Reversal – Plunges on Taiwan halt, memory repricing [8]. |
-| **COHR** | n/a | News-Driven – Outperforms on raised guidance, laser demand [13]. |
+| **COHR** | -12.98% | News-Driven – Outperforms on raised guidance, laser demand [13]. |
 | **WDC** | -17.40% | Reversal – Tumbles amid sector-wide semiconductor exit [11]. |
-| **IONQ** | n/a | News-Driven – Raises revenue forecast after strong Q3 [14]. |
-| **CRWV** | n/a | Reversal – Skids alongside broader AI infrastructure unwind [31]. |
+| **IONQ** | -10.53% | News-Driven – Raises revenue forecast after strong Q3 [14]. |
+| **CRWV** | -9.83% | Reversal – Skids alongside broader AI infrastructure unwind [31]. |
 | **AAPL** | +5.30% | Reversal – Rallies on dip-buy signals and bond sale [22], [23]. |
-| **AMZN** | n/a | News-Driven – Partners with Uber Eats for delivery [32]. |
+| **AMZN** | -2.19% | News-Driven – Partners with Uber Eats for delivery [32]. |
 | **GOOG** | -2.00% | Reversal – Declines as AI capex outpaces cash [33]. |
-| **TSLA** | n/a | Reversal – Drops as Democratic win alters outlook [34]. |
-| **PANW** | n/a | News-Driven – Executive sells shares under pre-set plan [35]. |
-| **NLR** | n/a | No News – Concentrated nuclear ETF faces broader pressure [18]. |
-| **VST** | n/a | Reversal – Sell rating follows multi-week 35% drawdown [36]. |
-| **CEG** | n/a | No News – Focus remains on nuclear supply execution [37]. |
+| **TSLA** | -10.77% | Reversal – Drops as Democratic win alters outlook [34]. |
+| **PANW** | -9.59% | News-Driven – Executive sells shares under pre-set plan [35]. |
+| **NLR** | -4.03% | No News – Concentrated nuclear ETF faces broader pressure [18]. |
+| **VST** | -6.15% | Reversal – Sell rating follows multi-week 35% drawdown [36]. |
+| **CEG** | -2.47% | No News – Focus remains on nuclear supply execution [37]. |
 | **ENTG** | -6.50% | Reversal – Drops despite expanding Kioxia memory deal [15], [38]. |
-| **SPY** | n/a | Reversal – S&P 500 drops 4.4% in liquidation [1]. |
-| **QQQ** | n/a | Reversal – Nasdaq enters correction on tech exit [2], [3]. |
-| **SOXX** | n/a | Reversal – PHLX Semiconductor Index slides 8.92% [4]. |
+| **SPY** | -4.41% | Reversal – S&P 500 drops 4.4% in liquidation [1]. |
+| **QQQ** | -6.49% | Reversal – Nasdaq enters correction on tech exit [2], [3]. |
+| **SOXX** | -12.15% | Reversal – PHLX Semiconductor Index slides 8.92% [4]. |
 
 ---
 

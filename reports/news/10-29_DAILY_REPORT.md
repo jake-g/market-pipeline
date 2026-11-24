@@ -10,9 +10,9 @@
 
 | Index / Benchmark | 1-Day % Change | Key Macro Print / Driver | Risk Posture & Justification |
 |---|---|---|---|
-| `SPY` | n/a | Federal Reserve held benchmark interest rates at 3.75%–4.00% in a 10–2 vote amidst high-stakes Big Tech earnings updates [48]. | `Neutral` - Equities remain constrained by sticky inflation and interest-rate sensitivity while digesting hyperscaler capital expenditure trajectory [10][48]. |
-| `QQQ` | n/a | Tech sector earnings momentum is offset by record Credit Default Swap (CDS) spreads for core hyperscalers [10][48]. | `Neutral` - Nasdaq performance lags as massive AI infrastructure spending forces markets to subject hyperscaler cash flows to rigorous testing [7][10][25]. |
-| `SOXX` | n/a | SK Hynix signaled a persistent AI-driven memory chip supply shortage stretching through 2030 [25][69]. | `Risk-On` - Upward momentum in semiconductors remains supported by structural HBM demand, chip equipment surges, and active optical networking M&A [25][52][76]. |
+| `SPY` | `-0.38%` | Federal Reserve held benchmark interest rates at 3.75%–4.00% in a 10–2 vote amidst high-stakes Big Tech earnings updates [48]. | `Neutral` - Equities remain constrained by sticky inflation and interest-rate sensitivity while digesting hyperscaler capital expenditure trajectory [10][48]. |
+| `QQQ` | `-1.42%` | Tech sector earnings momentum is offset by record Credit Default Swap (CDS) spreads for core hyperscalers [10][48]. | `Neutral` - Nasdaq performance lags as massive AI infrastructure spending forces markets to subject hyperscaler cash flows to rigorous testing [7][10][25]. |
+| `SOXX` | `-1.55%` | SK Hynix signaled a persistent AI-driven memory chip supply shortage stretching through 2030 [25][69]. | `Risk-On` - Upward momentum in semiconductors remains supported by structural HBM demand, chip equipment surges, and active optical networking M&A [25][52][76]. |
 
 ---
 
@@ -46,25 +46,25 @@
 
 | Ticker | 1-Day % | Catalyst (with citation) |
 |---|---|---|
-| `VICR` | n/a | Surged (+11% in Oct 28 feed) alongside Meta's $95B AI build-out announcement, backed by Q3 revenue rising 78% [32]. |
-| `TTMI` | n/a | Rallied (+10% in Oct 28 feed) on hardware supply-chain tailwinds from Meta's $95B AI build-out announcement [32]. |
-| `CRWV` | n/a | CoreWeave closed up (+7.32% in Oct 28 feed) after announcing global expansions to its high-density AI infrastructure footprint [41][48]. |
-| `LRCX` | n/a | Jumped (+5.4% in Oct 28 feed) following SK Hynix guidance signaling a multi-year memory equipment shortage [76]. |
-| `FN` | n/a | Gained momentum (+4.7% in Oct 28 feed) driven by strong AI demand and optical packaging program expansion [26][31]. |
-| `KLAC` | n/a | Gained (+3.3% in Oct 28 feed) as Q3 sales topped Wall Street estimates on AI factory equipment build-outs [80][81]. |
-| `ORCL` | n/a | Projected $30B in FY29 cash flow and raised 2030 revenue target above $225B, driving its best day in 5 months [20][21]. |
+| `VICR` | `-4.63%` | Surged (+11% in Oct 28 feed) alongside Meta's $95B AI build-out announcement, backed by Q3 revenue rising 78% [32]. |
+| `TTMI` | `-3.48%` | Rallied (+10% in Oct 28 feed) on hardware supply-chain tailwinds from Meta's $95B AI build-out announcement [32]. |
+| `CRWV` | `-4.99%` | CoreWeave closed up (+7.32% in Oct 28 feed) after announcing global expansions to its high-density AI infrastructure footprint [41][48]. |
+| `LRCX` | `+0.22%` | Jumped (+5.4% in Oct 28 feed) following SK Hynix guidance signaling a multi-year memory equipment shortage [76]. |
+| `FN` | `-5.07%` | Gained momentum (+4.7% in Oct 28 feed) driven by strong AI demand and optical packaging program expansion [26][31]. |
+| `KLAC` | `+5.46%` | Gained (+3.3% in Oct 28 feed) as Q3 sales topped Wall Street estimates on AI factory equipment build-outs [80][81]. |
+| `ORCL` | `-3.45%` | Projected $30B in FY29 cash flow and raised 2030 revenue target above $225B, driving its best day in 5 months [20][21]. |
 
 ### Top Losers
 
 | Ticker | 1-Day % | Catalyst (with citation) |
 |---|---|---|
-| `ON` | n/a | Slid (-3.86% in Oct 28 feed) after NXP Semiconductors issued cautious outlooks, reviving auto chip downturn worries [56][57]. |
-| `IONQ` | n/a | Slipped (-1.7% in Oct 28 feed) as quantum computing hardware uncertainty drove ETF diversification preferences [15][45]. |
-| `ZS` | n/a | Dipped (-1.63% in Oct 28 feed) during trading session amidst broader software sector volatility [36]. |
-| `PDD` | n/a | Slipped (-1.11% in Oct 28 feed) at closing despite maintaining a debt-free balance sheet [70]. |
-| `APP` | n/a | Slid (-1.08% in Oct 28 feed) as AI model performance gains slowed ahead of Q3 earnings [37][38]. |
-| `PLTR` | n/a | Ticked down (-0.1% in Oct 28 feed) slightly as analysis flagged stock operating 5% above fair value [4][17]. |
-| `INTC` | n/a | Trailed broader index performance ahead of earnings amid TSMC price increase pressures [62][64]. |
+| `ON` | `-0.52%` | Slid (-3.86% in Oct 28 feed) after NXP Semiconductors issued cautious outlooks, reviving auto chip downturn worries [56][57]. |
+| `IONQ` | `-2.19%` | Slipped (-1.7% in Oct 28 feed) as quantum computing hardware uncertainty drove ETF diversification preferences [15][45]. |
+| `ZS` | `-3.12%` | Dipped (-1.63% in Oct 28 feed) during trading session amidst broader software sector volatility [36]. |
+| `PDD` | `+2.34%` | Slipped (-1.11% in Oct 28 feed) at closing despite maintaining a debt-free balance sheet [70]. |
+| `APP` | `-1.95%` | Slid (-1.08% in Oct 28 feed) as AI model performance gains slowed ahead of Q3 earnings [37][38]. |
+| `PLTR` | `-0.20%` | Ticked down (-0.1% in Oct 28 feed) slightly as analysis flagged stock operating 5% above fair value [4][17]. |
+| `INTC` | `-3.62%` | Trailed broader index performance ahead of earnings amid TSMC price increase pressures [62][64]. |
 
 ---
 
@@ -72,28 +72,28 @@
 
 | Ticker | 1-Day % | One-Line Read |
 |---|---|---|
-| `NVDA` | n/a | `news-driven` Deepening AI infrastructure presence through new digital twin deals and a $4B commitment to Meta [42][68]. |
-| `TSM` | n/a | `continuation` Sustaining long-term setup as Q3 revenue rose 41.2% alongside 2nm scale-up and foundry price increases [61][62][63]. |
-| `AMD` | n/a | `news-driven` CFO issued a bullish operational update following a $4B joint AI initiative with Meta [42][66]. |
-| `AVGO` | n/a | `news-driven` Established a major AI rack lease backstop alongside a $63B Anthropic transaction [72][74]. |
-| `MRVL` | n/a | `news-driven` In active negotiations to acquire optical supplier Lumentum to bolster AI hardware connectivity [52]. |
-| `MU` | n/a | `continuation` Benefiting from SK Hynix industry signals forecasting an HBM memory deficit through 2030 [69][71]. |
-| `COHR` | n/a | `news-driven` Positioned as a key beneficiary of optical networking demand amid sector M&A activity [50][52]. |
-| `WDC` | n/a | `continuation` Q1 earnings call confirmed durable pricing power and accelerating enterprise storage demand [55]. |
-| `SMH` | n/a | `no news` Undergirded pre-bell by tech sector resilience and Fed interest rate policy outlook [75]. |
-| `SOXX` | n/a | `continuation` Supported by structural demand across memory chip makers and semiconductor capital equipment vendors [33][35]. |
-| `IONQ` | n/a | `reversal` Slipped as quantum computing hardware uncertainty drove ETF diversification preferences [15][45]. |
-| `CRWV` | n/a | `continuation` Advanced after expanding its global high-density AI cloud infrastructure footprint [41][48]. |
-| `IREN` | n/a | `news-driven` Completed a $363 million equipment financing deal for high-density AI compute assets [49]. |
-| `AAPL` | n/a | `reversal` Moving against the Nasdaq for the first time on record despite analyst price target upgrades [23][24]. |
-| `GOOG` | n/a | `reversal` Pressured by Q3 earnings misses as capital expenditures more than doubled year-over-year [5][7]. |
-| `PANW` | n/a | `news-driven` Traded lower following security vulnerability disclosures and PHP2Shell patch releases [46]. |
-| `NVT` | n/a | `news-driven` Gaining coverage as a specialized liquid cooling provider for high-density AI data centers [54]. |
-| `STM` | n/a | `news-driven` Expanding industrial footprint with tactical UAVs and naval platforms at Afridex 2026 [79]. |
-| `ENTG` | n/a | `no news` Confirmed a $0.10 quarterly cash dividend ahead of projected 14.8% revenue growth [58][60]. |
-| `MRK` | n/a | `no news` Market monitoring upcoming Q3 earnings print with consensus EPS estimated at $2.09 [77][78]. |
-| `SPY` | n/a | `no news` Digesting Fed benchmark rate pause decision while options markets evaluate VIX historical ranges [47][48]. |
-| `QQQ` | n/a | `no news` Lagging broader market indices pending upcoming earnings prints from megacap hyperscalers [25][48]. |
+| `NVDA` | `-0.80%` | `news-driven` Deepening AI infrastructure presence through new digital twin deals and a $4B commitment to Meta [42][68]. |
+| `TSM` | `-1.75%` | `continuation` Sustaining long-term setup as Q3 revenue rose 41.2% alongside 2nm scale-up and foundry price increases [61][62][63]. |
+| `AMD` | `-2.08%` | `news-driven` CFO issued a bullish operational update following a $4B joint AI initiative with Meta [42][66]. |
+| `AVGO` | `-1.94%` | `news-driven` Established a major AI rack lease backstop alongside a $63B Anthropic transaction [72][74]. |
+| `MRVL` | `-13.24%` | `news-driven` In active negotiations to acquire optical supplier Lumentum to bolster AI hardware connectivity [52]. |
+| `MU` | `-4.98%` | `continuation` Benefiting from SK Hynix industry signals forecasting an HBM memory deficit through 2030 [69][71]. |
+| `COHR` | `-0.99%` | `news-driven` Positioned as a key beneficiary of optical networking demand amid sector M&A activity [50][52]. |
+| `WDC` | `-0.25%` | `continuation` Q1 earnings call confirmed durable pricing power and accelerating enterprise storage demand [55]. |
+| `SMH` | `-1.06%` | `no news` Undergirded pre-bell by tech sector resilience and Fed interest rate policy outlook [75]. |
+| `SOXX` | `-1.55%` | `continuation` Supported by structural demand across memory chip makers and semiconductor capital equipment vendors [33][35]. |
+| `IONQ` | `-2.19%` | `reversal` Slipped as quantum computing hardware uncertainty drove ETF diversification preferences [15][45]. |
+| `CRWV` | `-4.99%` | `continuation` Advanced after expanding its global high-density AI cloud infrastructure footprint [41][48]. |
+| `IREN` | `-8.98%` | `news-driven` Completed a $363 million equipment financing deal for high-density AI compute assets [49]. |
+| `AAPL` | `+1.48%` | `reversal` Moving against the Nasdaq for the first time on record despite analyst price target upgrades [23][24]. |
+| `GOOG` | `-12.29%` | `reversal` Pressured by Q3 earnings misses as capital expenditures more than doubled year-over-year [5][7]. |
+| `PANW` | `-3.53%` | `news-driven` Traded lower following security vulnerability disclosures and PHP2Shell patch releases [46]. |
+| `NVT` | `-1.41%` | `news-driven` Gaining coverage as a specialized liquid cooling provider for high-density AI data centers [54]. |
+| `STM` | `+3.03%` | `news-driven` Expanding industrial footprint with tactical UAVs and naval platforms at Afridex 2026 [79]. |
+| `ENTG` | `+0.43%` | `no news` Confirmed a $0.10 quarterly cash dividend ahead of projected 14.8% revenue growth [58][60]. |
+| `MRK` | `+3.83%` | `no news` Market monitoring upcoming Q3 earnings print with consensus EPS estimated at $2.09 [77][78]. |
+| `SPY` | `-0.38%` | `no news` Digesting Fed benchmark rate pause decision while options markets evaluate VIX historical ranges [47][48]. |
+| `QQQ` | `-1.42%` | `no news` Lagging broader market indices pending upcoming earnings prints from megacap hyperscalers [25][48]. |
 
 ---
 

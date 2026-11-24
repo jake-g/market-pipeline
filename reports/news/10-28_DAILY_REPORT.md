@@ -8,9 +8,9 @@
 
 | Benchmark Ticker | 1-Day % Change | Key Macro Event / Print of the Day | Risk Posture & Justification |
 | :--- | :--- | :--- | :--- |
-| `SPY` | n/a | Federal Reserve holds benchmark interest rates at 3.75%–4.00% in a 10–2 vote [12]. | **Neutral** - The Fed's rate pause stabilizes corporate borrowing costs, but elevated hyperscaler credit default swap spreads and capex expansion temper broader market upside [2, 12]. |
-| `QQQ` | n/a | Federal Reserve holds benchmark interest rates at 3.75%–4.00% in a 10–2 vote [12]. | **Neutral** - Broad tech valuation multiples face headwinds from accelerating cloud capex commitments and record-high megacap debt protection spreads despite policy rate stability [1, 2, 12]. |
-| `SOXX` | n/a | Federal Reserve holds benchmark interest rates at 3.75%–4.00% in a 10–2 vote [12]. | **Risk-On** - Benchmark interest rate stability paired with expanding hyperscaler infrastructure spending commitments provides a favorable macro cost-of-capital backdrop for semiconductor capital allocation [10, 12, 29]. |
+| `SPY` | `+0.34%` | Federal Reserve holds benchmark interest rates at 3.75%–4.00% in a 10–2 vote [12]. | **Neutral** - The Fed's rate pause stabilizes corporate borrowing costs, but elevated hyperscaler credit default swap spreads and capex expansion temper broader market upside [2, 12]. |
+| `QQQ` | `+0.60%` | Federal Reserve holds benchmark interest rates at 3.75%–4.00% in a 10–2 vote [12]. | **Neutral** - Broad tech valuation multiples face headwinds from accelerating cloud capex commitments and record-high megacap debt protection spreads despite policy rate stability [1, 2, 12]. |
+| `SOXX` | `+2.13%` | Federal Reserve holds benchmark interest rates at 3.75%–4.00% in a 10–2 vote [12]. | **Risk-On** - Benchmark interest rate stability paired with expanding hyperscaler infrastructure spending commitments provides a favorable macro cost-of-capital backdrop for semiconductor capital allocation [10, 12, 29]. |
 
 ---
 
@@ -71,26 +71,26 @@
 
 | Ticker | 1-Day % | One-Line Technical/Fundamental Read |
 | :--- | :--- | :--- |
-| `NVDA` | n/a | `[News-Driven]` Deepened AI digital twin and agent deals while committing $4B alongside AMD to Meta's infrastructure raise [28, 29]. |
-| `TSM` | n/a | `[Continuation]` Sustained pricing leverage and 41.2% Q3 revenue growth reinforce market leadership in advanced 2nm nodes [31, 32]. |
-| `AMD` | n/a | `[News-Driven]` CFO delivered bullish operational updates while committing $4B alongside NVIDIA to Meta's AI push [29, 33]. |
-| `AVGO` | n/a | `[Continuation]` Secured a $63B Anthropic partnership backed by a structured AI rack lease backstop [3, 4]. |
-| `MRVL` | n/a | `[News-Driven]` In advanced discussions to acquire optical component provider Lumentum [9]. |
-| `MU` | n/a | `[Reversal]` Surged following SK Hynix projections of extended HBM supply deficits through 2030 [7, 34]. |
-| `COHR` | n/a | `[News-Driven]` Positioned as a key strategic beneficiary of optical interconnect consolidation [11, 35]. |
-| `WDC` | n/a | `[Continuation]` Q1 results confirmed strong storage pricing and robust server demand driving cash flows [8]. |
-| `SOXX` | n/a | `[News-Driven]` Options flows and ETF activity tracked sector adjustments post-Fed rate decision [12, 36]. |
+| `NVDA` | `-1.17%` | `[News-Driven]` Deepened AI digital twin and agent deals while committing $4B alongside AMD to Meta's infrastructure raise [28, 29]. |
+| `TSM` | `+0.60%` | `[Continuation]` Sustained pricing leverage and 41.2% Q3 revenue growth reinforce market leadership in advanced 2nm nodes [31, 32]. |
+| `AMD` | `+3.24%` | `[News-Driven]` CFO delivered bullish operational updates while committing $4B alongside NVIDIA to Meta's AI push [29, 33]. |
+| `AVGO` | `+2.77%` | `[Continuation]` Secured a $63B Anthropic partnership backed by a structured AI rack lease backstop [3, 4]. |
+| `MRVL` | `+3.32%` | `[News-Driven]` In advanced discussions to acquire optical component provider Lumentum [9]. |
+| `MU` | `+5.86%` | `[Reversal]` Surged following SK Hynix projections of extended HBM supply deficits through 2030 [7, 34]. |
+| `COHR` | `+1.61%` | `[News-Driven]` Positioned as a key strategic beneficiary of optical interconnect consolidation [11, 35]. |
+| `WDC` | `+4.08%` | `[Continuation]` Q1 results confirmed strong storage pricing and robust server demand driving cash flows [8]. |
+| `SOXX` | `+2.13%` | `[News-Driven]` Options flows and ETF activity tracked sector adjustments post-Fed rate decision [12, 36]. |
 | `IONQ` | -1.7% | `[Reversal]` Shares dropped 1.7% amid broader quantum hardware uncertainty [37]. |
 | `CRWV` | +7.32% | `[Continuation]` Gained 7.32% supported by international cloud expansion and Oracle cash flow guidance [15, 38]. |
-| `IREN` | n/a | `[News-Driven]` Completed a $363 million financing deal for high-density compute infrastructure [39]. |
-| `AAPL` | n/a | `[News-Driven]` Monness upgraded price target on new products while trading independently from Nasdaq trends [40, 41]. |
-| `GOOG` | n/a | `[Reversal]` Under pressure as doubled Q3 capex missed revenue targets and pushed CDS spreads to record highs [1, 2]. |
-| `PANW` | n/a | `[News-Driven]` Traded down following security updates released for PHP2Shell vulnerabilities [42]. |
-| `NVT` | n/a | `[News-Driven]` Attracting institutional interest as an alternative liquid cooling play for data centers [43]. |
-| `STM` | n/a | `[News-Driven]` Highlighted tactical UAVs and naval technology platforms at Afridex 2026 [44]. |
+| `IREN` | `+5.10%` | `[News-Driven]` Completed a $363 million financing deal for high-density compute infrastructure [39]. |
+| `AAPL` | `-0.94%` | `[News-Driven]` Monness upgraded price target on new products while trading independently from Nasdaq trends [40, 41]. |
+| `GOOG` | `+1.60%` | `[Reversal]` Under pressure as doubled Q3 capex missed revenue targets and pushed CDS spreads to record highs [1, 2]. |
+| `PANW` | `-1.79%` | `[News-Driven]` Traded down following security updates released for PHP2Shell vulnerabilities [42]. |
+| `NVT` | `+4.16%` | `[News-Driven]` Attracting institutional interest as an alternative liquid cooling play for data centers [43]. |
+| `STM` | `-0.33%` | `[News-Driven]` Highlighted tactical UAVs and naval technology platforms at Afridex 2026 [44]. |
 | `ENTG` | +6.1% | `[Continuation]` Advanced 6.1% backed by 14.8% projected revenue growth and dividend validation [16, 45]. |
-| `MRK` | n/a | `[News-Driven]` Q3 consensus EPS estimate set at $2.09 ahead of upcoming earnings release [46]. |
-| `SMH` | n/a | `[News-Driven]` ETF action supported by broader semiconductor pre-market strength post-Fed outlook [47]. |
+| `MRK` | `-0.63%` | `[News-Driven]` Q3 consensus EPS estimate set at $2.09 ahead of upcoming earnings release [46]. |
+| `SMH` | `+1.74%` | `[News-Driven]` ETF action supported by broader semiconductor pre-market strength post-Fed outlook [47]. |
 
 ---
 

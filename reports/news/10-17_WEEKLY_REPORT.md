@@ -8,9 +8,9 @@
 
 | Metric / Indicator | Weekly Performance / Status | Summary & Primary Driver |
 | :--- | :--- | :--- |
-| **SPY Weekly %** | n/a | Broad market pressure driven by persistent inflation concerns and higher interest rates weighing on tech valuations [3, 13]. |
-| **QQQ Weekly %** | n/a | Tech sector underperformance driven by elevated borrowing costs, AI infrastructure spending scrutiny, and chip equipment weakness [3, 36, 37]. |
-| **SOXX Weekly %** | n/a (12% sell-off by Oct 16) [36, 37] | Semiconductor sell-off driven by inflation fears, interest rate pressure, and funding concerns in AI infrastructure, marking a 9-day losing streak [3, 36, 37]. |
+| **SPY Weekly %** | -1.97% | Broad market pressure driven by persistent inflation concerns and higher interest rates weighing on tech valuations [3, 13]. |
+| **QQQ Weekly %** | -5.52% | Tech sector underperformance driven by elevated borrowing costs, AI infrastructure spending scrutiny, and chip equipment weakness [3, 36, 37]. |
+| **SOXX Weekly %** | -11.80% [36, 37] | Semiconductor sell-off driven by inflation fears, interest rate pressure, and funding concerns in AI infrastructure, marking a 9-day losing streak [3, 36, 37]. |
 | **Best Sector / Theme** | Bio & MedTech / Healthcare (+29% YTD for ABBV) [31] | Strong clinical execution (e.g., AbbVie Phase 3 DLBCL win [30] and Amgen raised revenue guidance [33]) driven by defensive rotation [13]. |
 | **Worst Sector / Theme** | Semiconductor Equipment / Optical (-25% AMAT, -24% LRCX) [11, 14] | Severe multi-day pullbacks across chip equipment and optical networking over AI capital cost bottlenecks and elevated yields [11, 14, 17, 35]. |
 | **Macro Event That Mattered Most** | Macro Inflation & Rate Pressure | Persistent inflation fears and sustained high interest rates continue to keep pressure on central banks and increase capital costs for tech infrastructure [3, 13, 35]. |
@@ -116,14 +116,14 @@
 
 | Ticker | Week % | Catalyst (with citation) |
 | :--- | :--- | :--- |
-| **RDDT** | n/a | Reddit demonstrated a 69% revenue surge and a 24% net margin, outpacing digital media peers in AI licensing and user growth [26]. |
-| **SMCI** | n/a | Super Micro Computer surged 45.1% between July 17 and October 15 on record order backlogs and FY27 revenue targets of $65B–$72B [27]. |
-| **QRVO / SWKS** | n/a | Qorvo shares rallied 32.3% YTD following its combination and acquisition deal with Skyworks Solutions [4]. |
-| **ABBV** | n/a | AbbVie gained nearly 29% YTD on a Phase 3 DLBCL progression-free survival win and 70.2% response in Crohn's interim trials [30, 31, 32]. |
-| **AMGN** | n/a | Amgen climbed 15.2% post-earnings after raising its fiscal 2026 full-year revenue forecast [33]. |
-| **AAPL** | n/a | Apple capped off its best weekly performance since its September launch, supported by solid initial iPhone duo demand tracking [44]. |
-| **ENTG** | n/a | Entegris modelled fair value target lifted to $179.21 (Street range $180–$212) on advanced node alignment [21]. |
-| **TSM** | n/a | TSMC highlighted as a safe-haven foundry play amid sector volatility and AI hardware market dominance [1]. |
+| **RDDT** | -2.36% | Reddit demonstrated a 69% revenue surge and a 24% net margin, outpacing digital media peers in AI licensing and user growth [26]. |
+| **SMCI** | -24.44% | Super Micro Computer surged 45.1% between July 17 and October 15 on record order backlogs and FY27 revenue targets of $65B–$72B [27]. |
+| **QRVO / SWKS** | +4.39% (SWKS) | Qorvo shares rallied 32.3% YTD following its combination and acquisition deal with Skyworks Solutions [4]. |
+| **ABBV** | +3.87% | AbbVie gained nearly 29% YTD on a Phase 3 DLBCL progression-free survival win and 70.2% response in Crohn's interim trials [30, 31, 32]. |
+| **AMGN** | +4.25% | Amgen climbed 15.2% post-earnings after raising its fiscal 2026 full-year revenue forecast [33]. |
+| **AAPL** | +2.03% | Apple capped off its best weekly performance since its September launch, supported by solid initial iPhone duo demand tracking [44]. |
+| **ENTG** | -16.31% | Entegris modelled fair value target lifted to $179.21 (Street range $180–$212) on advanced node alignment [21]. |
+| **TSM** | -8.98% | TSMC highlighted as a safe-haven foundry play amid sector volatility and AI hardware market dominance [1]. |
 
 ---
 
@@ -131,14 +131,14 @@
 
 | Ticker | Week % | Catalyst (with citation) |
 | :--- | :--- | :--- |
-| **TTD** | n/a | Trade Desk shares sit down 74.1% over the past year (91% off record highs), testing long-term technical support at $13.13 [28, 29]. |
-| **AMAT** | n/a | Applied Materials suffered 9 straight red sessions, dropping 25% amidst a broad semiconductor equipment pullback [11]. |
-| **LRCX** | n/a | Lam Research extended a 10-day losing streak to a 24% loss due to macro tech re-ratings and buyback cash flow scrutiny [12, 14]. |
-| **KLAC** | n/a | KLA Corporation fell 20% over a 10-day losing streak as institutional holders trimmed positions [5, 6]. |
-| **NET** | n/a | Cloudflare extended a 5-day losing streak to an 18% loss despite receiving sell-side rating upgrades [22]. |
-| **PLTR** | n/a | Palantir closed 11% lower in a single trading session during the broader AI equity sell-off [34]. |
-| **PANW** | n/a | Palo Alto Networks dropped nearly 8% in a single session to $342.00 despite Citi raising its price target to $440 [23]. |
-| **SNOW** | n/a | Snowflake shares fell 8% on Friday over enterprise tech spending caution and valuation scrutiny [39]. |
+| **TTD** | +1.24% | Trade Desk shares sit down 74.1% over the past year (91% off record highs), testing long-term technical support at $13.13 [28, 29]. |
+| **AMAT** | -19.28% | Applied Materials suffered 9 straight red sessions, dropping 25% amidst a broad semiconductor equipment pullback [11]. |
+| **LRCX** | -17.22% | Lam Research extended a 10-day losing streak to a 24% loss due to macro tech re-ratings and buyback cash flow scrutiny [12, 14]. |
+| **KLAC** | -15.25% | KLA Corporation fell 20% over a 10-day losing streak as institutional holders trimmed positions [5, 6]. |
+| **NET** | -17.91% | Cloudflare extended a 5-day losing streak to an 18% loss despite receiving sell-side rating upgrades [22]. |
+| **PLTR** | -11.01% | Palantir closed 11% lower in a single trading session during the broader AI equity sell-off [34]. |
+| **PANW** | -18.33% | Palo Alto Networks dropped nearly 8% in a single session to $342.00 despite Citi raising its price target to $440 [23]. |
+| **SNOW** | -16.82% | Snowflake shares fell 8% on Friday over enterprise tech spending caution and valuation scrutiny [39]. |
 
 ---
 
@@ -148,39 +148,39 @@
 
 | Ticker | Week % | vs SPY (pct-pts) | Read (leading / lagging / event-driven) |
 | :--- | :--- | :--- | :--- |
-| **NVDA** | n/a | n/a | **Lagging:** Under pressure from photonic startup headlines and sector-wide chip pullback [2]. |
-| **TSM** | n/a | n/a | **Leading:** Highlighted as a safe bet in the AI market amid foundry dominance [1]. |
-| **AMD** | n/a | n/a | **Event-Driven:** Powered HPE ProLiant Gen13 server launches for enterprise AI [45]. |
-| **AVGO** | n/a | n/a | **Leading:** Analyst note cited stock trading at a 37% discount to fair value [16]. |
-| **MRVL** | n/a | n/a | **Event-Driven:** Named alongside next-gen photonic computing discussions [2]. |
-| **MU** | n/a | n/a | **Lagging:** Exposed to severe memory supply shortage and oversupply debates [40, 41]. |
-| **ANET** | n/a | n/a | **Lagging:** Moving in tandem with high-valuation networking and data center infra [19]. |
-| **COHR** | n/a | n/a | **Lagging:** Extended overnight sell-off on AI infrastructure funding fears [17]. |
-| **WDC** | n/a | n/a | **Event-Driven:** Positioned for AI data center buildout ahead of Oct 22 earnings [19, 20]. |
-| **SMH** | n/a | n/a | **Lagging:** Dragged down by systemic semiconductor equipment losing streaks [11, 14, 36]. |
-| **SOXX** | n/a (-12% by Oct 16) [36] | n/a | **Lagging:** Dropped for 9 consecutive sessions (longest losing streak since 2006) [36, 37]. |
-| **IONQ** | n/a | n/a | **Lagging:** Moving in line with speculative quantum/tech hardware pullbacks [2]. |
-| **CRWV** | n/a | n/a | **Lagging:** Subject to broader AI cloud computing multiple compression [35]. |
-| **IREN** | n/a | n/a | **Lagging:** Affected by elevated capital costs for power/hosting facilities [35]. |
-| **AAPL** | n/a | n/a | **Leading:** Capped off best week since September launch on solid iPhone demand [44]. |
-| **AMZN** | n/a | n/a | **Event-Driven:** Focus turning to upcoming earnings announcement window [46]. |
-| **GOOG** | n/a | n/a | **Lagging:** Trading in line with mega-cap tech margin and capital spending scrutiny [3]. |
-| **TSLA** | n/a | n/a | **Lagging:** Market weighing China market risks and broader macro interest rate environment [41]. |
-| **PANW** | n/a | n/a | **Event-Driven:** Fell ~8% to $342 following Citi target boost to $440 [23]. |
-| **HOOD** | n/a | n/a | **Lagging:** Sensitive to retail trading volumes during market pullbacks [47]. |
-| **NLR** | n/a | n/a | **Leading:** Supported by long-term nuclear power interest for data center grids [19]. |
-| **CCJ** | n/a | n/a | **Leading:** Benefiting from structural utility power demand and nuclear contracts [19]. |
-| **NVT** | n/a | n/a | **Event-Driven:** Announced intention to acquire Nitek assets for physical security push [18]. |
-| **VST** | n/a | n/a | **Leading:** Capitalizing on long-term data center power buildouts [19]. |
-| **CEG** | n/a | n/a | **Leading:** Benefiting from baseline grid power demand from hyperscalers [19]. |
-| **IBIT** | n/a | n/a | **Lagging:** Tracking crypto risk asset retrenchment during macro sell-offs [3]. |
-| **BMNR** | n/a | n/a | **Lagging:** Small-cap crypto/tech proxy under yield pressure [35]. |
-| **RKLB** | n/a | n/a | **Event-Driven:** Tracking commercial space and satellite sector updates [49]. |
-| **STM** | n/a | n/a | **Lagging:** Institutional buying noted, but affected by global chip weakness [9]. |
-| **ENTG** | n/a | n/a | **Leading:** Modelled fair value raised to $179.21 on wafer equipment cycles [21]. |
-| **MRK** | n/a | n/a | **Leading:** Supported by Phase 3 cancer vaccine progress alongside Moderna [50]. |
-| **SPY** | n/a | n/a | **Lagging:** Broad market index pressured by inflation and high interest rates [3, 13]. |
-| **QQQ** | n/a | n/a | **Lagging:** Tech-heavy benchmark dragged down by 12% semi ETF decline [3, 36]. |
+| **NVDA** | -6.61% | -4.64pp | **Lagging:** Under pressure from photonic startup headlines and sector-wide chip pullback [2]. |
+| **TSM** | -8.98% | -7.01pp | **Lagging:** Highlighted as a safe bet in the AI market amid foundry dominance [1]. |
+| **AMD** | -13.05% | -11.08pp | **Event-Driven:** Powered HPE ProLiant Gen13 server launches for enterprise AI [45]. |
+| **AVGO** | -9.07% | -7.10pp | **Lagging:** Analyst note cited stock trading at a 37% discount to fair value [16]. |
+| **MRVL** | -17.24% | -15.27pp | **Event-Driven:** Named alongside next-gen photonic computing discussions [2]. |
+| **MU** | -14.58% | -12.61pp | **Lagging:** Exposed to severe memory supply shortage and oversupply debates [40, 41]. |
+| **ANET** | -18.34% | -16.38pp | **Lagging:** Moving in tandem with high-valuation networking and data center infra [19]. |
+| **COHR** | -25.50% | -23.53pp | **Lagging:** Extended overnight sell-off on AI infrastructure funding fears [17]. |
+| **WDC** | -16.43% | -14.46pp | **Event-Driven:** Positioned for AI data center buildout ahead of Oct 22 earnings [19, 20]. |
+| **SMH** | -10.53% | -8.56pp | **Lagging:** Dragged down by systemic semiconductor equipment losing streaks [11, 14, 36]. |
+| **SOXX** | -11.80% [36] | -9.84pp | **Lagging:** Dropped for 9 consecutive sessions (longest losing streak since 2006) [36, 37]. |
+| **IONQ** | -21.58% | -19.62pp | **Lagging:** Moving in line with speculative quantum/tech hardware pullbacks [2]. |
+| **CRWV** | -25.21% | -23.24pp | **Lagging:** Subject to broader AI cloud computing multiple compression [35]. |
+| **IREN** | -23.30% | -21.33pp | **Lagging:** Affected by elevated capital costs for power/hosting facilities [35]. |
+| **AAPL** | +2.03% | +4.00pp | **Leading:** Capped off best week since September launch on solid iPhone demand [44]. |
+| **AMZN** | -4.74% | -2.77pp | **Event-Driven:** Focus turning to upcoming earnings announcement window [46]. |
+| **GOOG** | -3.15% | -1.18pp | **Lagging:** Trading in line with mega-cap tech margin and capital spending scrutiny [3]. |
+| **TSLA** | -7.31% | -5.34pp | **Lagging:** Market weighing China market risks and broader macro interest rate environment [41]. |
+| **PANW** | -18.33% | -16.37pp | **Event-Driven:** Fell ~8% to $342 following Citi target boost to $440 [23]. |
+| **HOOD** | -9.31% | -7.34pp | **Lagging:** Sensitive to retail trading volumes during market pullbacks [47]. |
+| **NLR** | -8.72% | -6.75pp | **Lagging:** Supported by long-term nuclear power interest for data center grids [19]. |
+| **CCJ** | -7.43% | -5.46pp | **Lagging:** Benefiting from structural utility power demand and nuclear contracts [19]. |
+| **NVT** | -15.17% | -13.20pp | **Event-Driven:** Announced intention to acquire Nitek assets for physical security push [18]. |
+| **VST** | -5.86% | -3.89pp | **Lagging:** Capitalizing on long-term data center power buildouts [19]. |
+| **CEG** | -8.96% | -6.99pp | **Lagging:** Benefiting from baseline grid power demand from hyperscalers [19]. |
+| **IBIT** | -0.86% | +1.11pp | **Leading:** Tracking crypto risk asset retrenchment during macro sell-offs [3]. |
+| **BMNR** | -9.86% | -7.89pp | **Lagging:** Small-cap crypto/tech proxy under yield pressure [35]. |
+| **RKLB** | -25.47% | -23.50pp | **Event-Driven:** Tracking commercial space and satellite sector updates [49]. |
+| **STM** | -12.81% | -10.84pp | **Lagging:** Institutional buying noted, but affected by global chip weakness [9]. |
+| **ENTG** | -16.31% | -14.35pp | **Lagging:** Modelled fair value raised to $179.21 on wafer equipment cycles [21]. |
+| **MRK** | +0.24% | +2.21pp | **Leading:** Supported by Phase 3 cancer vaccine progress alongside Moderna [50]. |
+| **SPY** | -1.97% | +0.00pp | **Lagging:** Broad market index pressured by inflation and high interest rates [3, 13]. |
+| **QQQ** | -5.52% | -3.55pp | **Lagging:** Tech-heavy benchmark dragged down by 12% semi ETF decline [3, 36]. |
 
 ---
 

@@ -8,10 +8,10 @@
 
 | Benchmark / Metric | 1-Day % Performance | Key Macro Event / Driver | Risk Posture |
 | :--- | :--- | :--- | :--- |
-| **SPY** | n/a | September CPI increases 0.6% MoM (sharpest monthly rise since April), driving headline CPI to 3.7% [23, 24]. | Rates / Inflation Pressure |
-| **QQQ** | n/a | 10-Year Treasury yield climbs to 5.26%, driving systemic multiple compression across high-growth tech [13, 24]. | Rates / Inflation Pressure |
-| **SOXX** | n/a | Semiconductor index heads for its 7th straight losing session—its longest decline since May 2025 [14]. | Supply / Valuation Recalibration |
-| **Overall Macro Context** | n/a | Broad macro regime shifting into elevated cost-of-capital environment as inflation spikes re-ignite hawkish rate repricing [13, 23, 24]. | **Risk-Off** |
+| **SPY** | -1.08% | September CPI increases 0.6% MoM (sharpest monthly rise since April), driving headline CPI to 3.7% [23, 24]. | Rates / Inflation Pressure |
+| **QQQ** | -1.97% | 10-Year Treasury yield climbs to 5.26%, driving systemic multiple compression across high-growth tech [13, 24]. | Rates / Inflation Pressure |
+| **SOXX** | -4.50% | Semiconductor index heads for its 7th straight losing session—its longest decline since May 2025 [14]. | Supply / Valuation Recalibration |
+| **Overall Macro Context** | US10Y 5.19% / ^VIX +10.48% | Broad macro regime shifting into elevated cost-of-capital environment as inflation spikes re-ignite hawkish rate repricing [13, 23, 24]. | **Risk-Off** |
 
 *Risk Posture Justification:* Surging 10-Year Treasury yields at 5.26% combined with a 0.6% monthly CPI spike have reignited inflation fears, triggering a 7-day losing streak in semiconductor indices (SOXX) and driving severe re-pricing across capital-intensive AI infrastructure [13, 14, 23].
 
@@ -52,7 +52,7 @@
 | **CVX** | +2.00% | Chevron gains 2.00% as broader energy sector equities firm on crude price support. | [2] |
 | **WM** | +1.85% | Closes up 1.85% at $215.75, bucking broader market declines on resilient cash flow profile. | [3] |
 | **AVGO** | +0.70% | Broadcom gains 0.70% as multi-year custom AI revenue commitments validate long-term outlook. | [4] |
-| **ASTS** | n/a | AST SpaceMobile bounces overnight after pressing FCC on spectrum access and regulatory clarity. | [25] |
+| **ASTS** | -10.45% | AST SpaceMobile bounces overnight after pressing FCC on spectrum access and regulatory clarity. | [25] |
 
 ### Top Losers
 
@@ -73,29 +73,29 @@
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | `[News-Driven]` Synopsys expands adoption of NVIDIA CUDA-X libraries for AI chipmaking workflows [15]. |
+| **NVDA** | -3.16% | `[News-Driven]` Synopsys expands adoption of NVIDIA CUDA-X libraries for AI chipmaking workflows [15]. |
 | **AVGO** | +0.70% | `[Continuation]` Shares gain 0.70% on strong long-term AI custom ASIC revenue commitments [4]. |
-| **MRVL** | n/a | `[News-Driven]` Pressured by chip selloff despite record revenue guidance backed by NVIDIA partnership [26]. |
+| **MRVL** | -8.73% | `[News-Driven]` Pressured by chip selloff despite record revenue guidance backed by NVIDIA partnership [26]. |
 | **MU** | -3.00% | `[Reversal]` Micron declines 3.00% as China's CXMT enters high-density server memory market [16]. |
-| **COHR** | n/a | `[No News]` Insider filing shows CFO holds 52,571 shares following routine tax withholding [27]. |
+| **COHR** | -9.19% | `[No News]` Insider filing shows CFO holds 52,571 shares following routine tax withholding [27]. |
 | **WDC** | -4.40% | `[Continuation]` Shares fall 4.40% on memory supply increase threats from rival CXMT [16]. |
-| **SOXX** | n/a | `[Continuation]` Semiconductor benchmark heading for 7th straight losing session amid rate spike [14]. |
+| **SOXX** | -4.50% | `[Continuation]` Semiconductor benchmark heading for 7th straight losing session amid rate spike [14]. |
 | **IONQ** | -6.00% | `[News-Driven]` Shares drop 6.00% after announcing ~$2B equity/warrant offering post-acquisition [20]. |
-| **CRWV** | n/a | `[News-Driven]` Debt yields reach 15% post-capital raise, sparking private credit contagion concerns [21]. |
-| **IREN** | n/a | `[News-Driven]` Pressured alongside neocloud peers by elevated capital costs and equity dilution risks [22]. |
-| **AAPL** | n/a | `[No News]` Institutional fund filings show net buying position additions heading into Q4 [28]. |
-| **AMZN** | n/a | `[News-Driven]` Under regulatory scrutiny as lawmakers demand FAA review of drone delivery hub [29]. |
-| **GOOG** | n/a | `[News-Driven]` YouTube position strengthened by structural shifts in creator-led media spending [30]. |
-| **TSLA** | n/a | `[News-Driven]` Driverless fleet expansion in Austin generates focus ahead of quarterly results [31]. |
-| **PANW** | n/a | `[News-Driven]` Outperforming cybersecurity peers on SASE momentum and platformization strategy [32]. |
+| **CRWV** | -15.46% | `[News-Driven]` Debt yields reach 15% post-capital raise, sparking private credit contagion concerns [21]. |
+| **IREN** | -12.18% | `[News-Driven]` Pressured alongside neocloud peers by elevated capital costs and equity dilution risks [22]. |
+| **AAPL** | +0.50% | `[No News]` Institutional fund filings show net buying position additions heading into Q4 [28]. |
+| **AMZN** | -1.74% | `[News-Driven]` Under regulatory scrutiny as lawmakers demand FAA review of drone delivery hub [29]. |
+| **GOOG** | -1.68% | `[News-Driven]` YouTube position strengthened by structural shifts in creator-led media spending [30]. |
+| **TSLA** | -2.15% | `[News-Driven]` Driverless fleet expansion in Austin generates focus ahead of quarterly results [31]. |
+| **PANW** | -5.54% | `[News-Driven]` Outperforming cybersecurity peers on SASE momentum and platformization strategy [32]. |
 | **CCJ** | -5.40% | `[Reversal]` Cameco dips 5.40% on valuation adjustments despite favorable nuclear macro backdrop [11]. |
 | **NVT** | -5.40% | `[Continuation]` Declines 5.40% to $152.72 alongside broad pullbacks across electrical equipment providers [33]. |
 | **VST** | -6.70% | `[Reversal]` Vistra slides 6.70% as elevated benchmark rates trigger systematic profit-taking [9]. |
-| **CEG** | n/a | `[News-Driven]` Positioned advantageously in long-term nuclear power purchase agreements with hyperscalers [5]. |
-| **STM** | n/a | `[News-Driven]` STMicroelectronics experiences unusual institutional options trading activity [34]. |
-| **ENTG** | n/a | `[News-Driven]` Initiated on a bullish rating by Wall Street analysts and declares cash dividend [35]. |
-| **SPY** | n/a | `[No News]` Core equity benchmark faces broad macro pressure from 0.6% monthly CPI surge [23]. |
-| **QQQ** | n/a | `[No News]` Tech index re-pricing as 10-Year Treasury yield reaches 5.26% [13]. |
+| **CEG** | -5.50% | `[News-Driven]` Positioned advantageously in long-term nuclear power purchase agreements with hyperscalers [5]. |
+| **STM** | -5.39% | `[News-Driven]` STMicroelectronics experiences unusual institutional options trading activity [34]. |
+| **ENTG** | -5.01% | `[News-Driven]` Initiated on a bullish rating by Wall Street analysts and declares cash dividend [35]. |
+| **SPY** | -1.08% | `[No News]` Core equity benchmark faces broad macro pressure from 0.6% monthly CPI surge [23]. |
+| **QQQ** | -1.97% | `[No News]` Tech index re-pricing as 10-Year Treasury yield reaches 5.26% [13]. |
 
 ---
 

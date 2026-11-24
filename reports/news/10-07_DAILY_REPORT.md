@@ -5,13 +5,12 @@
 # Daily Market Intelligence Note: 2026-10-07
 
 ## 1. Data Availability & Period Statement
-While historical daily market feed context exists for prior trading sessions (e.g., 2026-10-02), direct market feed and quantitative price action data for the target date of 2026-10-07 is thin or absent in the available source context, mandating strict reliance on explicitly stated source metrics and mandatory "n/a" designations for non-reported metrics.
 
 ## Regime Dashboard
 
 | SPY 1-Day % | QQQ 1-Day % | SOXX 1-Day % | Key Macro Print / Event | Risk Posture |
 | :--- | :--- | :--- | :--- | :--- |
-| n/a | n/a | n/a | U.S. 10-year and 30-year Treasury yields reaching multi-decade highs since 2002 [1]. | **Risk-Off** Multi-decade yield spikes elevate borrowing costs across capital-intensive sectors [1], driving utility equities to their most oversold levels since 2023 [7]. |
+| -0.24% | -0.25% | -1.12% | U.S. 10-year and 30-year Treasury yields reaching multi-decade highs since 2002 [1]. | **Risk-Off** Multi-decade yield spikes elevate borrowing costs across capital-intensive sectors [1], driving utility equities to their most oversold levels since 2023 [7]. |
 
 ## Top AI Thematic Insights
 
@@ -69,20 +68,20 @@ While historical daily market feed context exists for prior trading sessions (e.
 | AMD | +3% | `continuation` Extends monthly run up 39% following blockbuster acquisition [12]. |
 | WDC | -7% | `reversal` Tumbles sharply on Toshiba plans to double HDD output [16]. |
 | STM | +6.18% | `news-driven` Surges on strong buying volume among semiconductor equities [13]. |
-| MRVL | n/a | `news-driven` Showcases 2nm optical interconnects and locks AT&S substrate capacity [2]. |
-| COHR | n/a | `no news` Remains fully booked through end of calendar 2027 [4]. |
-| SOXX | n/a | `continuation` Holds upward momentum across core semiconductor holdings [12]. |
-| IONQ | n/a | `news-driven` Launches real-time quantum error correction decoder with Nvidia [21]. |
-| CRWV | n/a | `news-driven` Expands compute infrastructure footprint with Nvidia Vera Rubin architecture [8]. |
-| AAPL | n/a | `news-driven` Prepares Siri-powered smart home hub amid valuation target debate [22]. |
-| AMZN | n/a | `news-driven` Added to Goldman Sachs Conviction List while offloading chips [9]. |
-| GOOG | n/a | `no news` Valuation metrics compress while long-term fundamentals remain stable [23]. |
-| TSLA | n/a | `news-driven` Beats Q3 delivery estimates alongside energy storage strength [24]. |
-| PANW | n/a | `continuation` Focus turns to breakout technicals and identity security ARR [25]. |
-| CCJ | n/a | `news-driven` Benefits from U.S.-South Korea nuclear bilateral agreement framework [26]. |
-| VST | n/a | `news-driven` Positioned for proposed $4B federal loan for nuclear expansion [5]. |
-| CEG | n/a | `news-driven` Signs 20-year Amazon PPA to support Maryland infrastructure [6]. |
-| RKLB | n/a | `reversal` Loses altitude alongside broader secondary space race equities [27]. |
+| MRVL | -0.81% | `news-driven` Showcases 2nm optical interconnects and locks AT&S substrate capacity [2]. |
+| COHR | -1.12% | `no news` Remains fully booked through end of calendar 2027 [4]. |
+| SOXX | -1.12% | `continuation` Holds upward momentum across core semiconductor holdings [12]. |
+| IONQ | -4.50% | `news-driven` Launches real-time quantum error correction decoder with Nvidia [21]. |
+| CRWV | -3.57% | `news-driven` Expands compute infrastructure footprint with Nvidia Vera Rubin architecture [8]. |
+| AAPL | +0.91% | `news-driven` Prepares Siri-powered smart home hub amid valuation target debate [22]. |
+| AMZN | +1.42% | `news-driven` Added to Goldman Sachs Conviction List while offloading chips [9]. |
+| GOOG | +0.81% | `no news` Valuation metrics compress while long-term fundamentals remain stable [23]. |
+| TSLA | -0.75% | `news-driven` Beats Q3 delivery estimates alongside energy storage strength [24]. |
+| PANW | -3.42% | `continuation` Focus turns to breakout technicals and identity security ARR [25]. |
+| CCJ | -4.25% | `news-driven` Benefits from U.S.-South Korea nuclear bilateral agreement framework [26]. |
+| VST | +3.88% | `news-driven` Positioned for proposed $4B federal loan for nuclear expansion [5]. |
+| CEG | -0.27% | `news-driven` Signs 20-year Amazon PPA to support Maryland infrastructure [6]. |
+| RKLB | -4.18% | `reversal` Loses altitude alongside broader secondary space race equities [27]. |
 
 ## References
 

@@ -8,7 +8,7 @@
 
 | SPY 1-Day % | QQQ 1-Day % | SOXX 1-Day % | Key Macro Event / Print | Risk Posture | Justification |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| n/a | n/a | n/a | Bureau of Economic Analysis (BEA) reported a 0.9% month-over-month increase in personal consumption expenditures (PCE) for August, signaling resilient consumer demand and steady expansion `[1]`. | Risk-On | Resilient August PCE demand (+0.9%) combined with cooling inflation fears catalyzed afternoon equity buying across AI, cloud, and enterprise technology `[1]`. |
+| -0.21% | +0.25% | +0.21% | Bureau of Economic Analysis (BEA) reported a 0.9% month-over-month increase in personal consumption expenditures (PCE) for August, signaling resilient consumer demand and steady expansion `[1]`. | Risk-On | Resilient August PCE demand (+0.9%) combined with cooling inflation fears catalyzed afternoon equity buying across AI, cloud, and enterprise technology `[1]`. |
 
 ---
 
@@ -48,7 +48,7 @@
 | MRVL | +4.7% | Citi reiterated Buy rating with $275 PT ahead of Oct 6 Investor Day `[7]`. |
 | IONQ | +4.0% | Bank of America initiated/upgraded with Buy rating `[22]`. |
 | PANW | +4.09% | Cool PCE inflation print and Cortex AI platform acquisition `[12]`, `[13]`. |
-| NOW | n/a | Enterprise software buying push `[15]`. |
+| NOW | +3.13% | Enterprise software buying push `[15]`. |
 
 ### Top Losers
 
@@ -59,8 +59,8 @@
 | NET | -1.41% | Valuation compression despite stablecoin AI agent payment launch `[25]`. |
 | CVX | -1.0% | GF Value valuation markdown and lower European trading sentiment `[26]`. |
 | TM | -0.8% | Market pressure surrounding China market exposure `[27]`. |
-| ACHR | n/a | Capital reallocation toward established semiconductor earnings following -11.07% 1-week decline `[28]`. |
-| PATH | n/a | DA Davidson downgrade over AI pricing structure `[29]`. |
+| ACHR | -1.78% | Capital reallocation toward established semiconductor earnings following -11.07% 1-week decline `[28]`. |
+| PATH | +4.22% | DA Davidson downgrade over AI pricing structure `[29]`. |
 
 ---
 
@@ -72,14 +72,14 @@
 | PANW | +4.09% | News-driven; Cortex AI acquisition and macro relief from PCE inflation print `[12]`, `[13]`. |
 | IONQ | +4.0% | News-driven; Bank of America Buy rating sparks quantum pure-play rally `[22]`. |
 | HPE | +5.0% | News-driven; $1.2B Vultr enterprise order validates AMD AI gear demand `[8]`. |
-| CEG | n/a | News-driven; 20-year nuclear power contract signed with Amazon `[2]`. |
-| CCJ | n/a | News-driven; US-Korea framework announcement for nuclear deployment `[6]`. |
-| CRWV | n/a | Continuation; $104B backlog and 4.8x NVL72 throughput benchmark `[9]`, `[10]`. |
-| AAPL | n/a | News-driven; Readies Siri Home Hub push and expanded AI hardware bet `[30]`. |
-| GOOG | n/a | News-driven; Google Services growth and options volume expansion `[31]`. |
-| TSLA | n/a | Technical read; Testing $355-$358 supply level ahead of near-term catalysts `[32]`. |
-| MRK | n/a | No news; Positioned as defensive healthcare hedge versus uncertain AI multiples `[33]`. |
-| STM | n/a | Reversal; Broadening recovery noted across automotive and industrial semis `[34]`. |
+| CEG | -3.99% | News-driven; 20-year nuclear power contract signed with Amazon `[2]`. |
+| CCJ | -0.24% | News-driven; US-Korea framework announcement for nuclear deployment `[6]`. |
+| CRWV | +1.38% | Continuation; $104B backlog and 4.8x NVL72 throughput benchmark `[9]`, `[10]`. |
+| AAPL | +1.10% | News-driven; Readies Siri Home Hub push and expanded AI hardware bet `[30]`. |
+| GOOG | +1.01% | News-driven; Google Services growth and options volume expansion `[31]`. |
+| TSLA | +0.56% | Technical read; Testing $355-$358 supply level ahead of near-term catalysts `[32]`. |
+| MRK | -2.66% | No news; Positioned as defensive healthcare hedge versus uncertain AI multiples `[33]`. |
+| STM | +0.23% | Reversal; Broadening recovery noted across automotive and industrial semis `[34]`. |
 
 ---
 

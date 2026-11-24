@@ -8,9 +8,9 @@
 
 | Index / ETF | 1-Day Change (%) | Key Macro Driver / Event |
 | :--- | :--- | :--- |
-| SPY | n/a | Tech sector selloff led by severe declines in semiconductor equities like Intel [1] |
-| QQQ | n/a | Late afternoon pressure across broad technology sector equities [2] |
-| SOXX | n/a | Volatility driven by Intel logging its worst daily drop since the 1970s [1] |
+| SPY | -0.48% | Tech sector selloff led by severe declines in semiconductor equities like Intel [1] |
+| QQQ | -1.36% | Late afternoon pressure across broad technology sector equities [2] |
+| SOXX | -3.79% | Volatility driven by Intel logging its worst daily drop since the 1970s [1] |
 
 **Risk Posture:** Risk-Off — *Broad market performance is pressured by severe selloffs in semiconductor equities and energy sector pullbacks driven by lower crude oil prices.* [1][3]
 
@@ -75,24 +75,24 @@
 
 | Ticker | 1-Day % | One-line read (continuation / reversal / news-driven / no news) |
 | :--- | :--- | :--- |
-| AAPL | n/a | news-driven — Apple acquires agentic AI startup amid holiday margin drop [29][30] |
-| AMZN | n/a | continuation — Cloud revenue surges while serving as X-Energy anchor [10][31] |
-| GOOG | n/a | continuation — Buying window opens following recent post-earnings stock pullback [32] |
-| TSLA | n/a | no news — European regional delivery split creates mixed momentum backdrop [33] |
+| AAPL | -1.83% | news-driven — Apple acquires agentic AI startup amid holiday margin drop [29][30] |
+| AMZN | +2.20% | continuation — Cloud revenue surges while serving as X-Energy anchor [10][31] |
+| GOOG | -0.06% | continuation — Buying window opens following recent post-earnings stock pullback [32] |
+| TSLA | +1.00% | no news — European regional delivery split creates mixed momentum backdrop [33] |
 | MRVL | -12.7% | news-driven — Shares slide following $115B all-stock Lumentum buyout announcement [24] |
 | COHR | -4.9% | continuation — Stock experiences pullback amid optical interconnect sector re-rating [27] |
-| WDC | n/a | no news — Hard drive peer Seagate signals strong HAMR growth [34] |
-| IONQ | n/a | no news — Defense contract updates confirm existing capital allocation structure [35] |
-| CRWV | n/a | news-driven — Strategic alliance signed with CrowdStrike for AI workloads [8] |
+| WDC | -7.52% | no news — Hard drive peer Seagate signals strong HAMR growth [34] |
+| IONQ | -6.23% | no news — Defense contract updates confirm existing capital allocation structure [35] |
+| CRWV | -8.60% | news-driven — Strategic alliance signed with CrowdStrike for AI workloads [8] |
 | PANW | -2.0% | continuation — Shares slide alongside broader cybersecurity peer group pressure [16] |
-| NLR | n/a | no news — Uranium ETF tracks technical levels amidst high energy prices [36] |
-| CCJ | n/a | continuation — Lags historic uranium price strength following third quarter [37] |
-| NVT | n/a | news-driven — Price target raised by Bernstein on strong demand [38] |
-| VST | n/a | news-driven — Acquired 5,500 MW gas plant portfolio before earnings [11] |
+| NLR | -2.29% | no news — Uranium ETF tracks technical levels amidst high energy prices [36] |
+| CCJ | -4.59% | continuation — Lags historic uranium price strength following third quarter [37] |
+| NVT | -1.81% | news-driven — Price target raised by Bernstein on strong demand [38] |
+| VST | -2.72% | news-driven — Acquired 5,500 MW gas plant portfolio before earnings [11] |
 | CEG | -1.9% | continuation — Shares pull back relative to broader utility market [39] |
-| STM | n/a | no news — Technical indicators reflect seasonal return patterns [40] |
-| ENTG | n/a | news-driven — Reports Q3 results in earnings call presentation [41] |
-| SOXX | n/a | news-driven — Adds AMD and Micron stakes amid chip volatility [42] |
+| STM | +0.92% | no news — Technical indicators reflect seasonal return patterns [40] |
+| ENTG | -1.83% | news-driven — Reports Q3 results in earnings call presentation [41] |
+| SOXX | -3.79% | news-driven — Adds AMD and Micron stakes amid chip volatility [42] |
 
 ---
 

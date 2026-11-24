@@ -8,9 +8,9 @@
 
 | Index / Benchmark | 1-Day % | Key Driver / Macro Context |
 | :--- | :--- | :--- |
-| **SPY** | n/a | Equities edge higher as primary market catalysts focus on Anthropic's mega-IPO filing and AI enthusiasm ahead of high-volume earnings week [1]. |
-| **QQQ** | n/a | Tech benchmark tests key support levels ahead of Q3 earnings reports from Microsoft, Amazon, and Alphabet, alongside macro rate expectations [2]. |
-| **SOXX** | n/a | Semiconductor sentiment faces counter-currents following disclosure of a new short position by Michael Burry despite $15.95B in YTD sector inflows [3]. |
+| **SPY** | +0.71% | Equities edge higher as primary market catalysts focus on Anthropic's mega-IPO filing and AI enthusiasm ahead of high-volume earnings week [1]. |
+| **QQQ** | +1.11% | Tech benchmark tests key support levels ahead of Q3 earnings reports from Microsoft, Amazon, and Alphabet, alongside macro rate expectations [2]. |
+| **SOXX** | +2.85% | Semiconductor sentiment faces counter-currents following disclosure of a new short position by Michael Burry despite $15.95B in YTD sector inflows [3]. |
 
 ### Macro Event Summary
 The macro backdrop for October 26, 2026, is dominated by expectations that the Federal Reserve will hold benchmark interest rates steady during its October policy meeting [4]. Fixed-income and equity markets are digesting persistent stagflation concerns driven by rising corporate load growth, energy costs, and high capital expenditure commitments against cooling consumer economic indicators [4, 5].
@@ -80,29 +80,29 @@ The macro backdrop for October 26, 2026, is dominated by expectations that the F
 
 | Ticker | 1-Day % | One-Line Read (Continuation / Reversal / News-Driven / No News) |
 | :--- | :--- | :--- |
-| **SOXX** | n/a | News-Driven (Michael Burry short position disclosed against $15.95B YTD sector inflows) [3]. |
+| **SOXX** | +2.85% | News-Driven (Michael Burry short position disclosed against $15.95B YTD sector inflows) [3]. |
 | **MRVL** | +3.99% | Continuation (Gains sustained by custom AI silicon acceleration and enterprise demand) [15]. |
 | **WDC** | +5.00% | News-Driven (BofA note on structural memory supply lock-ins drives sharp upside) [11]. |
 | **MU** | +4.00% | News-Driven (Re-rating on long-term HBM contract structure disclosures) [11]. |
 | **IONQ** | -1.70% | Reversal (Pullback into upcoming Q3 earnings disclosure) [34, 35]. |
-| **CRWV** | n/a | Reversal (Extended slide following industry critique of neocloud financing structures) [16]. |
-| **IREN** | n/a | Reversal (Weakness alongside broader crypto-mining and neocloud peer group) [16]. |
-| **NVDA** | n/a | News-Driven (Evaluating Meta's $35B chip order loop alongside market cap positioning) [36, 37]. |
-| **TSM** | n/a | No News (Fiduciary asset acquisition noted; cash flow valuation flagged by analysts) [38, 39]. |
-| **AMD** | n/a | News-Driven (Framed by analysts as key beneficiary in fractured AI chip ecosystem) [40]. |
-| **AAPL** | n/a | News-Driven (iPhone innovation cycle focus vs. Nvidia market cap valuation dynamic) [37, 41]. |
-| **AMZN** | n/a | News-Driven (Market positioning ahead of high-stakes Q3 earnings release later this week) [1]. |
-| **GOOG** | n/a | News-Driven (Evaluating organic search traffic slowdown against expanding AI CapEx commitments) [42]. |
-| **TSLA** | n/a | News-Driven (Cybercab deployments in Austin offset by analyst notes flagging 38% downside risk) [43]. |
+| **CRWV** | +1.75% | Reversal (Extended slide following industry critique of neocloud financing structures) [16]. |
+| **IREN** | +2.09% | Reversal (Weakness alongside broader crypto-mining and neocloud peer group) [16]. |
+| **NVDA** | +2.39% | News-Driven (Evaluating Meta's $35B chip order loop alongside market cap positioning) [36, 37]. |
+| **TSM** | +1.40% | No News (Fiduciary asset acquisition noted; cash flow valuation flagged by analysts) [38, 39]. |
+| **AMD** | +2.80% | News-Driven (Framed by analysts as key beneficiary in fractured AI chip ecosystem) [40]. |
+| **AAPL** | -1.10% | News-Driven (iPhone innovation cycle focus vs. Nvidia market cap valuation dynamic) [37, 41]. |
+| **AMZN** | +0.44% | News-Driven (Market positioning ahead of high-stakes Q3 earnings release later this week) [1]. |
+| **GOOG** | -0.97% | News-Driven (Evaluating organic search traffic slowdown against expanding AI CapEx commitments) [42]. |
+| **TSLA** | +5.21% | News-Driven (Cybercab deployments in Austin offset by analyst notes flagging 38% downside risk) [43]. |
 | **PANW** | +7.00% | Continuation (Cybersecurity sector momentum pushes equity toward $387 price target) [28]. |
-| **HOOD** | n/a | News-Driven (Bernstein highlights prediction market business as Q3 growth driver) [44]. |
-| **CCJ** | n/a | News-Driven (Market evaluating 89x premium valuation multiple ahead of Oct 30 earnings) [45]. |
-| **CEG** | n/a | News-Driven (Analyzing Calpine transaction integration for long-term power grid growth) [46]. |
-| **VST** | n/a | No News (Options volume concentration in out-of-the-money put options noted) [47, 48]. |
-| **RKLB** | n/a | Continuation (Focus remains on launch cadence and Starlink satellite contract pull-through) [49, 50]. |
-| **STM** | n/a | No News (Analyst preview flags healthy revenue outlook ahead of Q3 reporting) [51]. |
-| **SPY** | n/a | News-Driven (Broader market edging higher driven by Anthropic IPO filing enthusiasm) [1]. |
-| **QQQ** | n/a | News-Driven (Testing support ahead of Big Tech earnings barrage and Fed interest rate decision) [2]. |
+| **HOOD** | -2.35% | News-Driven (Bernstein highlights prediction market business as Q3 growth driver) [44]. |
+| **CCJ** | +0.60% | News-Driven (Market evaluating 89x premium valuation multiple ahead of Oct 30 earnings) [45]. |
+| **CEG** | -0.38% | News-Driven (Analyzing Calpine transaction integration for long-term power grid growth) [46]. |
+| **VST** | +1.12% | No News (Options volume concentration in out-of-the-money put options noted) [47, 48]. |
+| **RKLB** | +2.32% | Continuation (Focus remains on launch cadence and Starlink satellite contract pull-through) [49, 50]. |
+| **STM** | +2.66% | No News (Analyst preview flags healthy revenue outlook ahead of Q3 reporting) [51]. |
+| **SPY** | +0.71% | News-Driven (Broader market edging higher driven by Anthropic IPO filing enthusiasm) [1]. |
+| **QQQ** | +1.11% | News-Driven (Testing support ahead of Big Tech earnings barrage and Fed interest rate decision) [2]. |
 
 ---
 

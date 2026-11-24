@@ -19,7 +19,9 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from market_fetcher import MarketFetcher
 from reports.notebooklm_client import looks_like_studio_stub
 from reports.notebooklm_client import MarketNewsClient
+from reports.notebooklm_client import matches_source_title
 from reports.notebooklm_client import NotebookLMQuotaError
+from reports.notebooklm_client import title_date
 from reports.report_utils import clean_md
 
 logging.basicConfig(level=logging.INFO)
@@ -33,18 +35,25 @@ logger = logging.getLogger(__name__)
 OUTPUT_RULES = """
 OUTPUT RULES (non-negotiable):
 1. Return the COMPLETE report as markdown text in this chat reply. Do NOT create a Studio report, note, document or file, and do NOT reply with a summary of what you created.
-2. Every number must come from the uploaded sources. Performance cells MUST show the exact percentage from the "Quantitative Price Action Summary" (e.g. "+4.7%"), never words like "Strong Rebound". If a ticker's number is not in the summary, say "n/a".
+2. Every price/return number MUST come from the AUTHORITATIVE QUANTITATIVE SNAPSHOT and "Quantitative Price Action Summary" (e.g. "+4.71%"), never words like "Strong Rebound". NEVER write "n/a" for SPY, QQQ, SOXX, or any Watchlist / Winner / Loser ticker whose exact percentage is listed in the quantitative snapshot.
 3. Cite inline with [n] and end with a numbered "## References" appendix mapping every [n] to the exact Source Headline and URL from the uploaded text. No uncited claims about events.
 4. Be dense: short declarative sentences, bullets over prose, no filler, no restating the prompt, no disclaimers.
-5. If the uploaded data for the period is thin, say so in one line and shorten the report rather than padding it with generic commentary.
+5. If qualitative news for a specific ticker is thin, still report its exact quantitative return and note "no company-specific news" rather than writing "n/a" for its return.
 """
+
+PRIORITY_WATCHLIST = ("NVDA", "TSM", "AMD", "AVGO", "MRVL", "MU", "ANET",
+                      "COHR", "WDC", "SMH", "SOXX", "IONQ", "CRWV", "IREN",
+                      "AAPL", "AMZN", "GOOG", "TSLA", "PANW", "HOOD", "NLR",
+                      "CCJ", "NVT", "VST", "CEG", "IBIT", "BMNR", "RKLB", "STM",
+                      "ENTG", "MRK")
+
+REGIME_BENCHMARKS = ("SPY", "QQQ", "SOXX", "SMH", "IWM", "DIA", "TLT", "^VIX",
+                     "^TNX", "BTC-USD", "GC=F", "CL=F")
 
 WATCHLIST_HINT = (
     "Priority tickers when choosing what to cover (these are held "
-    "or tracked): NVDA, TSM, AMD, AVGO, MRVL, MU, ANET, COHR, "
-    "WDC, SMH, SOXX, IONQ, CRWV, IREN, AAPL, AMZN, GOOG, TSLA, "
-    "PANW, HOOD, NLR, CCJ, NVT, VST, CEG, IBIT, BMNR, RKLB, STM, "
-    "ENTG, MRK, plus SPY/QQQ/SOXX as benchmarks.")
+    "or tracked): " + ", ".join(PRIORITY_WATCHLIST) +
+    ", plus SPY/QQQ/SOXX as benchmarks.")
 
 PROMPT_DAILY = """You are a buy-side analyst writing the daily market intelligence note for {date}.
 
@@ -170,113 +179,387 @@ CRITICAL INSTRUCTIONS:
 4. You MUST include a numbered '## References' appendix at the very end. Map every single inline citation (e.g., [1], [2]) to the exact Source Headline and URL provided in the uploaded text so the reader can find the original article. Strictly format as Markdown.""" + OUTPUT_RULES
 
 
-def build_price_analysis_blob(market_data_dir: str,
-                              start_date: Optional[datetime],
-                              end_date: Optional[datetime]) -> str:
-  """Iterates over ticker price TSVs to calculate return profiles across the bounded date range."""
-  tickers_dir = os.path.join(market_data_dir, 'tickers')
-  if not os.path.exists(tickers_dir):
-    return ""
+def _read_fundamental_metrics(ticker_path: str) -> Dict[str, str]:
+  """Reads key valuation metrics (Fwd P/E, Mkt Cap) from fundamentals.tsv."""
+  fpath = os.path.join(ticker_path, "fundamentals.tsv")
+  out: Dict[str, str] = {"FwdPE": "-", "MktCap": "-"}
+  if not os.path.exists(fpath):
+    return out
+  try:
+    df = pd.read_csv(fpath, sep="\t")
+    if "Metric" not in df.columns or "Value" not in df.columns:
+      return out
+    kv = dict(zip(df["Metric"].astype(str), df["Value"].astype(str)))
+    pe_raw = kv.get("forwardPE") or kv.get("trailingPE")
+    if pe_raw and pe_raw.lower() not in ("none", "nan"):
+      out["FwdPE"] = f"{float(pe_raw):.1f}x"
+    mc_raw = kv.get("marketCap")
+    if mc_raw and mc_raw.lower() not in ("none", "nan"):
+      mc = float(mc_raw)
+      if mc >= 1e12:
+        out["MktCap"] = f"${mc / 1e12:.2f}T"
+      elif mc >= 1e9:
+        out["MktCap"] = f"${mc / 1e9:.1f}B"
+      elif mc >= 1e6:
+        out["MktCap"] = f"${mc / 1e6:.0f}M"
+  except Exception:
+    pass
+  return out
 
-  results = []
-  for ticker_path in glob.glob(os.path.join(tickers_dir, '*')):
+
+def _compute_price_records(market_data_dir: str, start_date: Optional[datetime],
+                           end_date: Optional[datetime]) -> pd.DataFrame:
+  """Computes exact return, price, 5D trend, and valuation rows for tickers."""
+  tickers_dir = os.path.join(market_data_dir, "tickers")
+  if not os.path.exists(tickers_dir):
+    return pd.DataFrame()
+
+  start_norm = (pd.Timestamp(start_date).tz_localize(None).normalize()
+                if start_date else None)
+  end_norm = (pd.Timestamp(end_date).tz_localize(None).normalize()
+              if end_date else None)
+  is_single_day = (start_norm is not None and end_norm is not None and
+                   start_norm == end_norm)
+  watchlist_set = set(PRIORITY_WATCHLIST) | set(REGIME_BENCHMARKS)
+
+  results: List[Dict[str, Any]] = []
+  for ticker_path in glob.glob(os.path.join(tickers_dir, "*")):
     if not os.path.isdir(ticker_path):
       continue
     ticker = os.path.basename(ticker_path)
-    prices_file = os.path.join(ticker_path, 'prices.tsv')
+    if " " in ticker:
+      continue  # Skip legacy trust directories with NaN placeholders.
+    prices_file = os.path.join(ticker_path, "prices.tsv")
     if not os.path.exists(prices_file):
       continue
 
     try:
-      df = pd.read_csv(prices_file, sep='\t')
-      if 'Date' not in df.columns or 'Close' not in df.columns:
+      df = pd.read_csv(prices_file, sep="\t")
+      if "Date" not in df.columns or "Close" not in df.columns:
         continue
-      df['ParsedDate'] = (pd.to_datetime(
-          df['Date'], utc=True).dt.tz_localize(None).dt.normalize())
-
-      # Sort first to maintain chronological order in master list
-      df = df.sort_values('ParsedDate').reset_index(drop=True)
+      df = df.dropna(subset=["Close"]).copy()
+      if df.empty:
+        continue
+      df["ParsedDate"] = (pd.to_datetime(
+          df["Date"], utc=True).dt.tz_localize(None).dt.normalize())
+      df = df.sort_values("ParsedDate").reset_index(drop=True)
 
       mask = pd.Series(True, index=df.index)
-      if start_date:
-        start_norm = pd.Timestamp(start_date).tz_localize(None).normalize()
-        mask = mask & (df['ParsedDate'] >= start_norm)
-      if end_date:
-        end_norm = pd.Timestamp(end_date).tz_localize(None).normalize()
-        mask = mask & (df['ParsedDate'] <= end_norm)
-
+      if start_norm is not None:
+        mask = mask & (df["ParsedDate"] >= start_norm)
+      if end_norm is not None:
+        mask = mask & (df["ParsedDate"] <= end_norm)
       df_range = df[mask]
+
+      # Holiday / intraday pre-close fallback on single-day lookups: use the
+      # most recent trading session within 4 days <= end_norm.
+      if df_range.empty and is_single_day and end_norm is not None:
+        recent = df[(df["ParsedDate"] <= end_norm) &
+                    (df["ParsedDate"] >= end_norm - pd.Timedelta(days=4))]
+        df_range = recent.tail(1)
 
       if df_range.empty:
         continue
 
-      if len(df_range) == 1:
-        idx = df_range.index[0]
-        try:
-          row_pos = df.index.get_loc(idx)
-          # If we have a previous row in the fully sorted frame, use its close as the baseline
-          if isinstance(row_pos, int) and row_pos > 0:
-            start_price = df.iloc[row_pos - 1]['Close']
-            end_price = df_range.iloc[0]['Close']
-            high_price = df_range.iloc[0][
-                'High'] if 'High' in df_range.columns else end_price
-            low_price = df_range.iloc[0][
-                'Low'] if 'Low' in df_range.columns else end_price
-          else:
-            continue
-        except Exception:
-          continue
+      first_pos = int(df_range.index[0])
+      last_pos = int(df_range.index[-1])
+      end_price = float(df.iloc[last_pos]["Close"])
+      as_of_date = df.iloc[last_pos]["ParsedDate"].strftime("%Y-%m-%d")
+
+      # Always anchor period return to the prior trading session's close so
+      # Monday moves are included in Mon-Fri weekly windows.
+      if first_pos > 0:
+        start_price = float(df.iloc[first_pos - 1]["Close"])
+      elif len(df_range) > 1:
+        start_price = float(df_range.iloc[0]["Close"])
+      elif "Open" in df_range.columns and pd.notna(df_range.iloc[0]["Open"]):
+        start_price = float(df_range.iloc[0]["Open"])
       else:
-        start_price = df_range.iloc[0]['Close']
-        end_price = df_range.iloc[-1]['Close']
-        high_price = df_range['High'].max(
-        ) if 'High' in df_range.columns else df_range['Close'].max()
-        low_price = df_range['Low'].min(
-        ) if 'Low' in df_range.columns else df_range['Close'].min()
+        continue
 
-      return_pct = ((end_price - start_price) / start_price) * 100
+      if start_price <= 0:
+        continue
 
+      high_price = (float(df_range["High"].max())
+                    if "High" in df_range.columns else end_price)
+      low_price = (float(df_range["Low"].min())
+                   if "Low" in df_range.columns else end_price)
+      return_pct = ((end_price - start_price) / start_price) * 100.0
+
+      ret_5d: Optional[float] = None
+      if last_pos >= 5 and float(df.iloc[last_pos - 5]["Close"]) > 0:
+        p5 = float(df.iloc[last_pos - 5]["Close"])
+        ret_5d = ((end_price - p5) / p5) * 100.0
+
+      fund = (_read_fundamental_metrics(ticker_path)
+              if ticker in watchlist_set else {
+                  "FwdPE": "-",
+                  "MktCap": "-"
+              })
       results.append({
-          'Ticker': ticker,
-          'Return_Pct': return_pct,
-          'Start_Price': start_price,
-          'End_Price': end_price,
-          'High': high_price,
-          'Low': low_price
+          "Ticker": ticker,
+          "As_Of": as_of_date,
+          "Return_Pct": return_pct,
+          "Ret_5D": ret_5d,
+          "Start_Price": start_price,
+          "End_Price": end_price,
+          "High": high_price,
+          "Low": low_price,
+          "FwdPE": fund["FwdPE"],
+          "MktCap": fund["MktCap"],
       })
+    except Exception:
+      continue
+
+  if not results:
+    return pd.DataFrame()
+  out_df = pd.DataFrame(results)
+  if is_single_day:
+    spy_rows = out_df[out_df["Ticker"] == "SPY"]
+    if not spy_rows.empty:
+      session_as_of = str(spy_rows.iloc[0]["As_Of"])
+      keep_mask = (out_df["As_Of"] >= session_as_of) | (
+          out_df["Ticker"].isin(REGIME_BENCHMARKS))
+      out_df = out_df[keep_mask]
+  return out_df.sort_values("Return_Pct",
+                            ascending=False).reset_index(drop=True)
+
+
+def _filter_equity_movers(res_df: pd.DataFrame) -> pd.DataFrame:
+  """Filters price records to clean equities/ETFs for Winner/Loser rankings."""
+  if res_df.empty:
+    return res_df
+
+  def _is_eligible(ticker: str) -> bool:
+    if ticker in {"VIXY", "MUZ"}:
+      return False
+    if ticker.startswith("^") or "=F" in ticker or ticker.endswith("-USD"):
+      return False
+    if len(ticker) == 5 and ticker.endswith("X"):
+      return False
+    return True
+
+  filtered = res_df[res_df["Ticker"].map(_is_eligible)]
+  return filtered if not filtered.empty else res_df
+
+
+def _build_macro_political_snapshot(market_data_dir: str,
+                                    end_date: Optional[datetime]) -> str:
+  """Builds a compact macro (FRED), shipping, and Polymarket snapshot."""
+  end_bound = (pd.Timestamp(end_date).tz_localize(None).normalize()
+               if end_date else pd.Timestamp.now().normalize())
+  lines: List[str] = []
+
+  macro_path = os.path.join(market_data_dir, "macro", "economic_indicators.tsv")
+  if os.path.exists(macro_path):
+    try:
+      mdf = pd.read_csv(macro_path, sep="\t")
+      date_col = "DATE" if "DATE" in mdf.columns else mdf.columns[0]
+      mdf["_dt"] = pd.to_datetime(mdf[date_col], errors="coerce")
+      mdf = mdf[mdf["_dt"] <= end_bound]
+      wanted_macro = [
+          "US10Y", "US02Y", "FEDFUNDS", "HY_SPREAD", "WTI_CRUDE", "USD_INDEX",
+          "CPI", "UNRATE"
+      ]
+      parts = []
+      for col in wanted_macro:
+        if col in mdf.columns:
+          valid = mdf[[date_col, col]].dropna()
+          if not valid.empty:
+            val = float(valid.iloc[-1][col])
+            parts.append(f"{col}={val:.2f}")
+      if parts:
+        lines.append("FRED Macro: " + ", ".join(parts))
     except Exception:
       pass
 
-  if not results:
+  ship_path = os.path.join(market_data_dir, "shipping",
+                           "chokepoint_metrics.tsv")
+  if os.path.exists(ship_path):
+    try:
+      sdf = pd.read_csv(ship_path, sep="\t")
+      sdf["_dt"] = pd.to_datetime(sdf["Date"], errors="coerce")
+      sdf = sdf[sdf["_dt"] <= end_bound]
+      if not sdf.empty:
+        expected = sdf["Chokepoint_Name"].nunique()
+        by_dt = sdf.groupby("_dt")["Chokepoint_Name"].nunique()
+        comp = by_dt[by_dt >= expected]
+        best_dt = comp.index.max() if not comp.empty else sdf["_dt"].max()
+        sub = sdf[sdf["_dt"] == best_dt].sort_values("Chokepoint_Name")
+        items = [
+            f"{r['Chokepoint_Name']}={int(r['Vessel_Count'])}v "
+            f"({float(r['Congestion_Index']):.2f}x)" for _, r in sub.iterrows()
+        ]
+        lines.append(f"Chokepoints (as of {best_dt.strftime('%Y-%m-%d')}): " +
+                     ", ".join(items))
+    except Exception:
+      pass
+
+  pol_path = os.path.join(market_data_dir, "political", "political_odds.tsv")
+  if os.path.exists(pol_path):
+    try:
+      pdf = pd.read_csv(pol_path, sep="\t")
+      if {"Date", "Key", "Outcome", "Prob"}.issubset(pdf.columns):
+        pdf["_dt"] = pd.to_datetime(pdf["Date"], errors="coerce")
+        pdf = pdf[pdf["_dt"] <= end_bound]
+        if not pdf.empty:
+          latest_pol = pdf[pdf["_dt"] == pdf["_dt"].max()]
+          focus_keys = ("fed_decision_dec_2026", "fed_cuts_2026",
+                        "us_recession_2026", "china_tariff_2026",
+                        "ai_bubble_burst", "hormuz_traffic_normal")
+          pol_items = []
+          for key in focus_keys:
+            kdf = latest_pol[latest_pol["Key"] == key].sort_values(
+                "Prob", ascending=False)
+            if not kdf.empty:
+              top = kdf.iloc[0]
+              prob_pct = float(
+                  top["Prob"]) * (100.0 if float(top["Prob"]) <= 1.0 else 1.0)
+              pol_items.append(f"{key}[{top['Outcome']}]={prob_pct:.0f}%")
+          if pol_items:
+            lines.append("Polymarket Odds: " + ", ".join(pol_items))
+    except Exception:
+      pass
+
+  return "\n".join(lines)
+
+
+def build_price_analysis_blob(market_data_dir: str,
+                              start_date: Optional[datetime],
+                              end_date: Optional[datetime]) -> str:
+  """Builds a comprehensive quantitative price, watchlist, and macro summary."""
+  res_df = _compute_price_records(market_data_dir, start_date, end_date)
+  if res_df.empty:
     return ""
 
-  res_df = pd.DataFrame(results).sort_values('Return_Pct', ascending=False)
+  by_ticker = {r["Ticker"]: r for _, r in res_df.iterrows()}
+  spy_ret = by_ticker["SPY"]["Return_Pct"] if "SPY" in by_ticker else 0.0
+  as_of = str(res_df["As_Of"].max())
 
-  blob = "### QUANTITATIVE PRICE ACTION SUMMARY\n"
-  blob += "Top Winners:\n"
-  for _, row in res_df.head(15).iterrows():
-    blob += f"- {row['Ticker']}: +{row['Return_Pct']:.2f}% (Start: ${row['Start_Price']:.2f}, End: ${row['End_Price']:.2f}, High: ${row['High']:.2f})\n"
+  from tabulate import tabulate
+  blob = f"### QUANTITATIVE PRICE ACTION SUMMARY (As of {as_of})\n\n"
 
+  # 1. Regime Benchmarks Table
+  bench_rows = []
+  for b in REGIME_BENCHMARKS:
+    if b in by_ticker:
+      r = by_ticker[b]
+      r5 = f"{r['Ret_5D']:+.2f}%" if pd.notna(r["Ret_5D"]) else "-"
+      bench_rows.append([
+          b, f"{r['Return_Pct']:+.2f}%", r5, f"${r['Start_Price']:.2f}",
+          f"${r['End_Price']:.2f}", f"${r['Low']:.2f}-${r['High']:.2f}"
+      ])
+  if bench_rows:
+    blob += "#### Regime Benchmarks & Cross-Asset Indicators\n"
+    blob += tabulate(
+        bench_rows,
+        headers=["Benchmark", "Period %", "5D %", "Start", "Close", "Range"],
+        tablefmt="pipe") + "\n\n"
+
+  # 2. Priority Watchlist Table (with vs-SPY & Valuation)
+  watch_rows = []
+  for w in PRIORITY_WATCHLIST:
+    if w in by_ticker:
+      r = by_ticker[w]
+      vs_spy = r["Return_Pct"] - spy_ret
+      r5 = f"{r['Ret_5D']:+.2f}%" if pd.notna(r["Ret_5D"]) else "-"
+      watch_rows.append([
+          w, f"{r['Return_Pct']:+.2f}%", f"{vs_spy:+.2f}pp", r5,
+          f"${r['End_Price']:.2f}", r["FwdPE"], r["MktCap"]
+      ])
+  if watch_rows:
+    blob += "#### Priority Watchlist Performance & Valuation\n"
+    blob += tabulate(watch_rows,
+                     headers=[
+                         "Ticker", "Period %", "vs SPY", "5D %", "Close",
+                         "Fwd P/E", "Mkt Cap"
+                     ],
+                     tablefmt="pipe") + "\n\n"
+
+  # 3. Top 15 Winners & Top 15 Losers (clean equities/ETFs only)
+  eq_df = _filter_equity_movers(res_df)
+
+  blob += "#### Top 15 Winners\n"
+  for _, row in eq_df.head(15).iterrows():
+    blob += (
+        f"- {row['Ticker']}: {row['Return_Pct']:+.2f}% "
+        f"(Start: ${row['Start_Price']:.2f}, Close: ${row['End_Price']:.2f}, "
+        f"High: ${row['High']:.2f})\n")
+
+  blob += "\n#### Top 15 Losers\n"
+  losers_df = eq_df.sort_values("Return_Pct", ascending=True).head(15)
+  for _, row in losers_df.iterrows():
+    blob += (
+        f"- {row['Ticker']}: {row['Return_Pct']:+.2f}% "
+        f"(Start: ${row['Start_Price']:.2f}, Close: ${row['End_Price']:.2f}, "
+        f"Low: ${row['Low']:.2f})\n")
+
+  # 4. Macro, Shipping & Political Snapshot
+  macro_snap = _build_macro_political_snapshot(market_data_dir, end_date)
+  if macro_snap:
+    blob += f"\n#### Macro, Shipping & Prediction Market Pulse\n{macro_snap}\n"
+
+  # 5. Full Ticker Lookup Table
   blob += "\n### FULL TICKER LOOKUP TABLE\n"
-  try:
-    from tabulate import tabulate
-    display_df = res_df[['Ticker', 'Return_Pct', 'Start_Price',
-                         'End_Price']].copy()
-    display_df['Return_Pct'] = display_df['Return_Pct'].map(
-        lambda x: f"{x:+.2f}%")
-    display_df['Start_Price'] = display_df['Start_Price'].map(
-        lambda x: f"${x:.2f}")
-    display_df['End_Price'] = display_df['End_Price'].map(lambda x: f"${x:.2f}")
-    table_text = tabulate(display_df.values.tolist(),
-                          headers=['Ticker', 'Return %', 'Start', 'End'],
-                          tablefmt='pipe')
-    blob += table_text + "\n"
-  except ImportError:
-    # Fallback to simple format if tabulate is unavailable
-    for _, row in res_df.iterrows():
-      blob += f"- {row['Ticker']}: {row['Return_Pct']:+.2f}%\n"
-
+  display_df = res_df[["Ticker", "Return_Pct", "Start_Price",
+                       "End_Price"]].copy()
+  display_df["Return_Pct"] = display_df["Return_Pct"].map(
+      lambda x: f"{x:+.2f}%")
+  display_df["Start_Price"] = display_df["Start_Price"].map(
+      lambda x: f"${x:.2f}")
+  display_df["End_Price"] = display_df["End_Price"].map(lambda x: f"${x:.2f}")
+  blob += tabulate(display_df.values.tolist(),
+                   headers=["Ticker", "Return %", "Start", "End"],
+                   tablefmt="pipe") + "\n"
   return blob
+
+
+def build_prompt_quant_brief(market_data_dir: str,
+                             start_date: Optional[datetime],
+                             end_date: Optional[datetime]) -> str:
+  """Builds a compact (~1.8KB) ground-truth data block injected into prompts."""
+  res_df = _compute_price_records(market_data_dir, start_date, end_date)
+  if res_df.empty:
+    return ""
+
+  by_ticker = {r["Ticker"]: r for _, r in res_df.iterrows()}
+  spy_ret = by_ticker["SPY"]["Return_Pct"] if "SPY" in by_ticker else 0.0
+  as_of = str(res_df["As_Of"].max())
+
+  bench_parts = [
+      f"{b} {by_ticker[b]['Return_Pct']:+.2f}% (${by_ticker[b]['End_Price']:.2f})"
+      for b in REGIME_BENCHMARKS
+      if b in by_ticker
+  ]
+  watch_parts = [
+      f"{w} {by_ticker[w]['Return_Pct']:+.2f}% "
+      f"(vs SPY {by_ticker[w]['Return_Pct'] - spy_ret:+.2f}pp, "
+      f"${by_ticker[w]['End_Price']:.2f})"
+      for w in PRIORITY_WATCHLIST
+      if w in by_ticker
+  ]
+  eq_df = _filter_equity_movers(res_df)
+  win_parts = [
+      f"{r['Ticker']} {r['Return_Pct']:+.2f}% (${r['End_Price']:.2f})"
+      for _, r in eq_df.head(10).iterrows()
+  ]
+  lose_parts = [
+      f"{r['Ticker']} {r['Return_Pct']:+.2f}% (${r['End_Price']:.2f})" for _, r
+      in eq_df.sort_values("Return_Pct", ascending=True).head(10).iterrows()
+  ]
+
+  lines = [
+      f"\nAUTHORITATIVE QUANTITATIVE SNAPSHOT (As of {as_of} — exact exchange "
+      "closes from market_data; use these exact numbers, NEVER write 'n/a'):",
+      "Benchmarks: " + " | ".join(bench_parts),
+      "Priority Watchlist: " + " | ".join(watch_parts),
+      "Top 10 Winners: " + " | ".join(win_parts),
+      "Top 10 Losers: " + " | ".join(lose_parts),
+  ]
+  macro_snap = _build_macro_political_snapshot(market_data_dir, end_date)
+  if macro_snap:
+    lines.append(macro_snap)
+  return "\n".join(lines) + "\n"
 
 
 async def list_notebooklm_projects(filter_keyword: Optional[str] = None):
@@ -357,7 +640,7 @@ def _manifest_path(project_name: str) -> str:
 
 async def upload_directory_to_notebooklm(dir_path: str,
                                          project_name: str = "Market Reports",
-                                         limit: int = 35):
+                                         limit: int = 40):
   """Syncs rendered PDFs to a NotebookLM project, uploading only deltas.
 
   A sha256 manifest (``logs/.notebooklm_manifest_<project>.json``) records
@@ -369,7 +652,7 @@ async def upload_directory_to_notebooklm(dir_path: str,
   Args:
     dir_path (str): Directory containing PDFs (searched recursively).
     project_name (str): Target NotebookLM notebook title.
-    limit (int): Newest-N PDFs (by mtime) considered for sync.
+    limit (int): Structural + newest calendar PDFs considered for sync.
   """
   if not os.path.exists(dir_path):
     logger.error("Directory not found: %s", dir_path)
@@ -384,13 +667,25 @@ async def upload_directory_to_notebooklm(dir_path: str,
     except (OSError, ValueError):
       manifest = {}
 
-  # Candidate files: newest N PDFs, skipping quarantined stubs.
+  pinned_tags = (
+      "MONTHLY_REPORT",
+      "YEARLY_REPORT",
+      "PROSPECTIVE_REPORT",
+      "MACRO_REPORT",
+      "POLITICAL_REPORT",
+      "SHIPPING_REPORT",
+      "PORTFOLIO_REPORT",
+  )
   pdf_files = []
   for root, _, files in os.walk(dir_path):
     for file in files:
       if file.endswith(".pdf"):
         path = os.path.join(root, file)
-        pdf_files.append((path, file, os.path.getmtime(path)))
+        is_pinned = 1 if any(t in file for t in pinned_tags) else 0
+        t_dt = title_date(file)
+        dt_ord = t_dt.toordinal() if t_dt else 0
+        pdf_files.append(
+            (path, file, (is_pinned, dt_ord, os.path.getmtime(path))))
   pdf_files.sort(key=lambda x: x[2], reverse=True)
   latest = pdf_files[:limit]
 
@@ -612,7 +907,7 @@ async def generate_report(market_data_dir: str,
                       feed_title)
           existing_sources = await db.client.sources.list(db.notebook_id)
           for src in existing_sources:
-            if getattr(src, 'title', '') == feed_title:
+            if matches_source_title(getattr(src, 'title', ''), feed_title):
               logger.info("Source '%s' already exists.", feed_title)
               feed_exists = True
               break
@@ -659,7 +954,11 @@ async def generate_report(market_data_dir: str,
                 full_texts.append(
                     f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
 
-            final_market_feed_doc = f"# {feed_title}\n\n{text_blob}\n\n"
+            feed_quant = build_prompt_quant_brief(market_data_dir,
+                                                  target_date_obj,
+                                                  target_date_obj)
+            final_market_feed_doc = (
+                f"# {feed_title}\n{feed_quant}\n{text_blob}\n\n")
             if full_texts:
               final_market_feed_doc += "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
                   full_texts)
@@ -729,25 +1028,31 @@ async def generate_report(market_data_dir: str,
             else:
               top_df = combined_df
 
-            # Limit deep fetch differently based on period (e.g. Yearly shouldn't fetch 20 URLs, let's keep it to top 10-15)
             urls_to_fetch = [
                 str(row.get('URL', '')).strip()
                 for _, row in top_df.iterrows()
                 if str(row.get('URL', '')).strip().startswith('http')
-            ][:20]  # Expanded to 20 urls for richer deep context
+            ][:15]
 
             if urls_to_fetch:
-
               logger.info(
-                  f"Scraping deep context for {len(urls_to_fetch)} top URLs...")
-              for idx, url in enumerate(urls_to_fetch):
-                text = await MarketFetcher.fetch_article_text(url,
-                                                              max_paragraphs=30)
-                if text and len(text) > 100:
+                  f"Scraping deep context for {len(urls_to_fetch)} top URLs "
+                  "concurrently...")
+              tasks = [
+                  MarketFetcher.fetch_article_text(url, max_paragraphs=30)
+                  for url in urls_to_fetch
+              ]
+              scraped = await asyncio.gather(*tasks, return_exceptions=True)
+              for idx, text in enumerate(scraped):
+                if isinstance(text, str) and text and len(text) > 100:
                   full_texts.append(
                       f"FULL ARTICLE CONTEXT {idx+1}:\n{text[:3000]}\n")
 
-          final_market_feed_doc = f"# {feed_title} News Digest\n\n{text_blob}\n\n"
+          period_quant = build_prompt_quant_brief(market_data_dir,
+                                                  target_start.to_pydatetime(),
+                                                  target_end.to_pydatetime())
+          final_market_feed_doc = (
+              f"# {feed_title} News Digest\n{period_quant}\n{text_blob}\n\n")
           if full_texts:
             final_market_feed_doc += "====== COMBINED DEEP CONTEXT ======\n\n" + "\n\n".join(
                 full_texts)
@@ -759,7 +1064,7 @@ async def generate_report(market_data_dir: str,
             try:
               sources = await db.client.sources.list(db.notebook_id)
               for src in sources:
-                if getattr(src, 'title', '') == feed_title:
+                if matches_source_title(getattr(src, 'title', ''), feed_title):
                   logger.info("Deleting old periodic feed source (ID: %s)",
                               src.id)
                   await db.client.sources.delete(db.notebook_id, src.id)
@@ -792,6 +1097,9 @@ async def generate_report(market_data_dir: str,
             ts = te  # Single day; build_price_analysis_blob looks back 1 row
 
           quant_summary = build_price_analysis_blob(market_data_dir, ts, te)
+          quant_brief = build_prompt_quant_brief(market_data_dir, ts, te)
+          if quant_brief:
+            prompt = f"{prompt}\n{quant_brief}"
 
           # Deduplicate Quantitative Summary
           summary_title = f"{feed_title} - Quantitative Price Action Summary" if 'feed_title' in locals(
@@ -804,7 +1112,8 @@ async def generate_report(market_data_dir: str,
             try:
               sources = await db.client.sources.list(db.notebook_id)
               for src in sources:
-                if getattr(src, 'title', '') == summary_title:
+                if matches_source_title(getattr(src, 'title', ''),
+                                        summary_title):
                   logger.info("Deleting old summary (ID: %s)", src.id)
                   await db.client.sources.delete(db.notebook_id, src.id)
             except Exception as e:
@@ -922,7 +1231,8 @@ async def generate_report(market_data_dir: str,
               try:
                 sources = await db.client.sources.list(db.notebook_id)
                 for src in sources:
-                  if getattr(src, 'title', '') == history_title:
+                  if matches_source_title(getattr(src, 'title', ''),
+                                          history_title):
                     await db.client.sources.delete(db.notebook_id, src.id)
               except Exception as e:
                 logger.warning(f"Could not deduplicate historical context: {e}")
@@ -952,9 +1262,10 @@ async def generate_report(market_data_dir: str,
               feed_title, f"{feed_title} - Quantitative Price Action Summary",
               "Historical Context: Recent Periodic Reports"
           ]
+          await asyncio.sleep(3)
           scoped_ids = await db.find_source_ids(wanted_titles)
-          if mode in ['daily', 'weekly']:
-            for sid in await db.recent_feed_source_ids(days=5):
+          if mode == 'weekly':
+            for sid in await db.recent_feed_source_ids(days=3):
               if sid not in scoped_ids:
                 scoped_ids.append(sid)
           required_markers = ["## References"]

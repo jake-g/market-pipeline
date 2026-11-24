@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-29)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 # Daily Market Intelligence Report: 2026-09-18
 
 ## Top AI Thematic Insights
@@ -61,7 +62,3 @@ Today’s session was defined by an unwinding in mobile chipmakers following Qua
 9. "XLE Looks 28.7% Overvalued on GF Value™ Amid Solid Dividend Fund" — GuruFocus, 2026-09-18 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMirAFBVV95cUxOQURYX0lFOHY5SHVNeF_1OGdBSkxPemM2NVBOUUVQM212eF_Yb0d1cTJZWTVQN010OElLLU1VZDhRS3E0bWZ1ekFrdnIwSjY1Q29kVmNwT0tDV0gzWGNiM2RWOVY3NUdqaDBCVE1LNzRRMTZtempyRGJwRTB2dWdwVmZzSEhqM0xib0JsN2FEc1ZfQU1FUnNwajcyeDBrd04tY3pUbW9oNDM1eGZk?oc=5`
 10. "Document AI Market Worth \$35.34 Billion by 2031 - Report by MarketsandMarkets" — Futu / MarketsandMarkets, 2026-09-18 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMimgFBVV95cUxNbERfODBWQXJydG1oaEQ0U010bHlkNmItY0VWaFE1WHJid0FrT3EyNExZN0o4SUJ0ZmVxbmtFVkxvUXYxcHV0azgxalhGMmxTbTkxdTA1cFB1bDFOV3p5ZGNjRVHxbGZqMWtJNE9oUHh6QWs2RVQ2VmpuWm5ESURVLXl6U1JyeFRZYmtYblVWV0tCOHExZGM5QUd3?oc=5`
 11. "Taiwan prepares 150-qubit quantum computer RFP, seeks 'win-win' partnerships with global suppliers" — Digitimes, 2026-09-18 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMipwFBVV95cUxNTVZ0T2lMNXhJZHVma3VtdExheExPRmlOT21hQVJEZ2VER2kwNnNCbENzRHJfalI5Vjh3bGgxV0HUVlpQMnpyVzZyT3A1UDZIZGxOVEh6ekZZZDhQN09qS2FVbVI3VG82ZkZ2STB0OVYwUzhnY0JOb1d5dDVQVFd6RnhVbkd0YWE3OEdtT2VTY2M3T0N2cFc2Mnk4cF_3iZm`
-
-***
-
-📈 **Next Steps:** I have published **`2026-09-18_daily_market_report.md`** to your Studio panel. Would you like me to run a Python script across your September dataset comparing performance trends between rate-sensitive clean technology stocks and cash-flowing energy producers?

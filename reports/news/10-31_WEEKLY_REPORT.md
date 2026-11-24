@@ -10,7 +10,7 @@
 
 | SPY Weekly % | QQQ Weekly % | SOXX Weekly % | Best Sector/Theme (%) | Worst Sector/Theme (%) | Key Macro Event | Risk Posture Next Week |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| n/a | n/a | n/a | Legacy Auto & Hybrids (GM +15%, Ford +12%) | Semiconductors & Digital Platforms (Intel -45% Oct, Reddit -41% / -25.2%) | Federal Reserve holds benchmark interest rates steady while escalating Big Tech AI capex and balance sheet strains trigger equity sell-offs. | **Risk-Off** — The Nasdaq-100 briefly fell into correction territory as chip stocks faced a $1T wipeout, hyperscaler cash flows turned negative, and credit rating countdowns highlighted unsustainable capex spirals. |
+| -0.56% | -1.97% | -1.40% | Legacy Auto & Hybrids (GM +15%, Ford +12%) | Semiconductors & Digital Platforms (Intel -45% Oct, Reddit -41% / -25.2%) | Federal Reserve holds benchmark interest rates steady while escalating Big Tech AI capex and balance sheet strains trigger equity sell-offs. | **Risk-Off** — The Nasdaq-100 briefly fell into correction territory as chip stocks faced a $1T wipeout, hyperscaler cash flows turned negative, and credit rating countdowns highlighted unsustainable capex spirals. |
 
 ---
 
@@ -63,10 +63,10 @@
 | **F** | `+12%` | Advanced 12% following a third-quarter earnings beat, an elevated full-year profit floor, and record revenue in its software and auto adjacency divisions [15, 18]. |
 | **LITE** | `+11%` | Rose 11% weekly (and 15% in after-hours trading on Oct 28) following news reports that Marvell Technology is in advanced talks to acquire the optical equipment maker [6, 19]. |
 | **RIVN** | `+5.1%` | Gained 5.1% after reporting a 38% YoY revenue increase in Q3 2026, raising full-year outlook metrics, and expanding its Volkswagen joint venture to include AI voice assistant technology licensing [16, 20]. |
-| **NVT** | `n/a` | Reported record third-quarter sales, orders, and adjusted EPS driven by strong data center activity, subsequently raising its full-year sales and earnings guidance [23]. |
-| **ORCL** | `n/a` | Highlighted following a 10% surge on ambitious long-term AI infrastructure growth targets and key supply chain partnerships [24]. |
-| **WEC** | `n/a` | Delivered Q3 earnings of $1.18 per share versus $0.83 YoY, driven by capital plan execution, operating efficiency, and warm weather power demand [25]. |
-| **CLS** | `n/a` | Raised full-year guidance on accelerating demand for AI server manufacturing and data center contract assembly [26]. |
+| **NVT** | `+0.46%` | Reported record third-quarter sales, orders, and adjusted EPS driven by strong data center activity, subsequently raising its full-year sales and earnings guidance [23]. |
+| **ORCL** | `+3.57%` | Highlighted following a 10% surge on ambitious long-term AI infrastructure growth targets and key supply chain partnerships [24]. |
+| **WEC** | `+4.48%` | Delivered Q3 earnings of $1.18 per share versus $0.83 YoY, driven by capital plan execution, operating efficiency, and warm weather power demand [25]. |
+| **CLS** | `+2.12%` | Raised full-year guidance on accelerating demand for AI server manufacturing and data center contract assembly [26]. |
 
 ### Top Losers
 
@@ -77,9 +77,9 @@
 | **DDOG** | `-12%` | Dropped nearly 12% in tandem with broader SaaS and cloud software valuation contractions triggered by AI spending and cash flow concerns [22]. |
 | **APP** | `-12%` | Declined 12% to touch a new 52-week low, pressured in sympathy by weak quarterly user metrics and platform results from Reddit and Roblox [13]. |
 | **COHR** | `-11%` | Fell 11% weekly as weak quarterly updates from Intel and Amazon depressed sentiment across hardware and optical component suppliers [7]. |
-| **INTC** | `n/a` | Suffered a historical 45% plunge in October—its worst monthly decline ever—after delivering a weak PC outlook that damaged sentiment across CPU competitors [4, 8]. |
-| **QCOM** | `n/a` | Fell 11% in a single trading session following Intel's PC market warning, pressuring handset and processing chip valuations [8]. |
-| **ARM** | `n/a` | Slipped by nearly 10% in a single session as CPU market peers experienced heavy selling following Intel's quarterly guidance [9]. |
+| **INTC** | `-24.38%` | Suffered a historical 45% plunge in October—its worst monthly decline ever—after delivering a weak PC outlook that damaged sentiment across CPU competitors [4, 8]. |
+| **QCOM** | `-6.32%` | Fell 11% in a single trading session following Intel's PC market warning, pressuring handset and processing chip valuations [8]. |
+| **ARM** | `-2.07%` | Slipped by nearly 10% in a single session as CPU market peers experienced heavy selling following Intel's quarterly guidance [9]. |
 
 ---
 
@@ -87,39 +87,39 @@
 
 | Ticker | Week % | vs SPY (pct-pts) | Read |
 | :--- | :--- | :--- | :--- |
-| **NVDA** | n/a | n/a | Lagging |
-| **TSM** | n/a | n/a | Lagging |
-| **AMD** | n/a | n/a | Lagging |
-| **AVGO** | n/a | n/a | Lagging |
-| **MRVL** | -14% | n/a | Lagging |
-| **MU** | n/a | n/a | Lagging |
-| **ANET** | n/a | n/a | Leading |
-| **COHR** | -11% | n/a | Lagging |
-| **WDC** | n/a | n/a | Event-Driven |
-| **SMH** | n/a | n/a | Lagging |
-| **SOXX** | n/a | n/a | Lagging |
-| **IONQ** | n/a | n/a | Event-Driven |
-| **CRWV** | n/a | n/a | Event-Driven |
-| **IREN** | n/a | n/a | Event-Driven |
-| **AAPL** | n/a | n/a | Event-Driven |
-| **AMZN** | n/a | n/a | Lagging |
-| **GOOG** | n/a | n/a | Lagging |
-| **TSLA** | n/a | n/a | Event-Driven |
-| **PANW** | n/a | n/a | Lagging |
-| **HOOD** | n/a | n/a | Event-Driven |
-| **NLR** | n/a | n/a | Event-Driven |
-| **CCJ** | n/a | n/a | Event-Driven |
-| **NVT** | n/a | n/a | Leading |
-| **VST** | n/a | n/a | Leading |
-| **CEG** | n/a | n/a | Event-Driven |
-| **IBIT** | n/a | n/a | Event-Driven |
-| **BMNR** | n/a | n/a | Event-Driven |
-| **RKLB** | n/a | n/a | Leading |
-| **STM** | n/a | n/a | Event-Driven |
-| **ENTG** | n/a | n/a | Event-Driven |
-| **MRK** | n/a | n/a | Event-Driven |
-| **SPY** | n/a | n/a | Lagging |
-| **QQQ** | n/a | n/a | Lagging |
+| **NVDA** | -3.00% | -2.44pp | Lagging |
+| **TSM** | -2.96% | -2.40pp | Lagging |
+| **AMD** | -2.32% | -1.76pp | Lagging |
+| **AVGO** | +1.37% | +1.93pp | Leading |
+| **MRVL** | -14% | -13.49pp | Lagging |
+| **MU** | +0.82% | +1.38pp | Leading |
+| **ANET** | -2.04% | -1.48pp | Lagging |
+| **COHR** | -11% | +1.05pp | Leading |
+| **WDC** | +6.53% | +7.09pp | Event-Driven |
+| **SMH** | -0.89% | -0.33pp | Lagging |
+| **SOXX** | -1.40% | -0.84pp | Lagging |
+| **IONQ** | -3.93% | -3.37pp | Event-Driven |
+| **CRWV** | +1.16% | +1.72pp | Event-Driven |
+| **IREN** | -3.85% | -3.29pp | Event-Driven |
+| **AAPL** | -0.89% | -0.33pp | Event-Driven |
+| **AMZN** | -3.08% | -2.53pp | Lagging |
+| **GOOG** | -12.31% | -11.75pp | Lagging |
+| **TSLA** | +7.41% | +7.97pp | Event-Driven |
+| **PANW** | -3.86% | -3.30pp | Lagging |
+| **HOOD** | -10.60% | -10.04pp | Event-Driven |
+| **NLR** | +1.52% | +2.08pp | Event-Driven |
+| **CCJ** | -2.15% | -1.59pp | Event-Driven |
+| **NVT** | +0.46% | +1.02pp | Leading |
+| **VST** | -1.28% | -0.72pp | Lagging |
+| **CEG** | +3.52% | +4.08pp | Event-Driven |
+| **IBIT** | -5.66% | -5.10pp | Event-Driven |
+| **BMNR** | -9.91% | -9.35pp | Event-Driven |
+| **RKLB** | +4.05% | +4.61pp | Leading |
+| **STM** | +6.18% | +6.74pp | Event-Driven |
+| **ENTG** | +14.85% | +15.41pp | Event-Driven |
+| **MRK** | +2.93% | +3.48pp | Event-Driven |
+| **SPY** | -0.56% | +0.00pp | Lagging |
+| **QQQ** | -1.97% | -1.42pp | Lagging |
 
 ### Portfolio Posture Adjustments
 

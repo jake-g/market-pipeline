@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | Value / Posture | Context / Justification |
 | :--- | :--- | :--- |
-| **SPY** | n/a | Percentage change not explicitly reported in context feed [1]. |
-| **QQQ** | n/a | Percentage change not explicitly reported in context feed [1]. |
-| **SOXX** | n/a | Benchmark extended its drawdown streak to eight consecutive sessions as chipmakers face mounting macro pressure [10]. |
+| **SPY** | -1.11% | Closed at $763.25 (session range $760.64–$773.25). |
+| **QQQ** | -2.50% | Closed at $709.80 (session range $707.23–$725.96). |
+| **SOXX** | -4.14% | Benchmark extended its drawdown streak to eight consecutive sessions as chipmakers face mounting macro pressure [10]. |
 | **Macro Event / Print** | AI Software Valuation Reversal | AI software equities shed $260 billion in market value following Goldman Sachs alarms regarding high debt financing costs, hawkish Federal Reserve interest rate commentary, and escalating borrowing yields [1], [2]. |
 | **Risk Posture** | Risk-Off | Broad technology risk reduction is accelerating across software balance sheets, leverage-heavy GPU platforms, and semiconductor supply chains [1], [2], [3]. |
 
@@ -70,26 +70,26 @@
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| **NVDA** | n/a | `no news` Key compute anchor traded down in sector-wide valuation reset [14], [42]. |
-| **TSM** | n/a | `continuation` Slipped alongside broader semiconductor sector drawdown [14]. |
+| **NVDA** | -1.43% | `no news` Key compute anchor traded down in sector-wide valuation reset [14], [42]. |
+| **TSM** | -2.28% | `continuation` Slipped alongside broader semiconductor sector drawdown [14]. |
 | **AMD** | -5.00% | `reversal` Slipped 5% amid broader semiconductor drag following Arm litigation loss [14], [15]. |
 | **MRVL** | -5.60% | `continuation` Extended downside slide amid tech sector debt financing anxieties [12]. |
 | **MU** | -3.00% | `news-driven` Slipped 3% despite analyst commentary downplaying China competition [32]. |
-| **COHR** | n/a | `continuation` Extended multi-day losing streak along with broader chip sector [33]. |
+| **COHR** | -7.06% | `continuation` Extended multi-day losing streak along with broader chip sector [33]. |
 | **WDC** | -6.51% | `reversal` Dropped sharply despite Wells Fargo maintaining an outperform posture [11], [34]. |
-| **SOXX** | n/a | `continuation` Extended losing streak to eight straight sessions on rate fears [10]. |
-| **CRWV** | n/a | `news-driven` Fell on default anxieties despite favorable Wall Street defense [4], [5]. |
-| **AAPL** | n/a | `news-driven` Gained ground on reports of lengthened iPhone delivery timelines [35]. |
-| **AMZN** | n/a | `news-driven` Announced major 1GW nuclear agreement to power Indiana operations [17]. |
-| **GOOG** | n/a | `news-driven` Reached content licensing agreement with CNN for AI models [36]. |
-| **TSLA** | n/a | `no news` Retained high retail interest during broad tech sector drawdown [37]. |
-| **NLR** | n/a | `continuation` Sits down 28% year-over-year despite data center themes [20]. |
-| **CCJ** | n/a | `reversal` Remained 36% below peak awaiting third-quarter financial catalysts [19]. |
-| **NVT** | n/a | `no news` Traded quietly ahead of slated late-October Q3 earnings report [38]. |
+| **SOXX** | -4.14% | `continuation` Extended losing streak to eight straight sessions on rate fears [10]. |
+| **CRWV** | -11.91% | `news-driven` Fell on default anxieties despite favorable Wall Street defense [4], [5]. |
+| **AAPL** | +0.43% | `news-driven` Gained ground on reports of lengthened iPhone delivery timelines [35]. |
+| **AMZN** | -1.87% | `news-driven` Announced major 1GW nuclear agreement to power Indiana operations [17]. |
+| **GOOG** | -2.32% | `news-driven` Reached content licensing agreement with CNN for AI models [36]. |
+| **TSLA** | -2.13% | `no news` Retained high retail interest during broad tech sector drawdown [37]. |
+| **NLR** | -2.20% | `continuation` Sits down 28% year-over-year despite data center themes [20]. |
+| **CCJ** | -2.05% | `reversal` Remained 36% below peak awaiting third-quarter financial catalysts [19]. |
+| **NVT** | -2.54% | `no news` Traded quietly ahead of slated late-October Q3 earnings report [38]. |
 | **VST** | -1.40% | `news-driven` Slipped following execution of $1B preferred stock redemption [18], [39]. |
-| **CEG** | n/a | `no news` Stable posture as nuclear power demand for AI expands [40]. |
-| **RKLB** | n/a | `continuation` Sold off amid broad space race competitive pressures [41]. |
-| **ENTG** | n/a | `reversal` Pulled back late afternoon as borrowing cost concerns mounted [2]. |
+| **CEG** | -1.32% | `no news` Stable posture as nuclear power demand for AI expands [40]. |
+| **RKLB** | -7.98% | `continuation` Sold off amid broad space race competitive pressures [41]. |
+| **ENTG** | -5.53% | `reversal` Pulled back late afternoon as borrowing cost concerns mounted [2]. |
 
 ---
 

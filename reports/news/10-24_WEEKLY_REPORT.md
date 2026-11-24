@@ -8,7 +8,7 @@
 
 | Benchmark Performance | Top / Bottom Themes | Primary Macro Catalyst | Risk Posture Next Week |
 | :--- | :--- | :--- | :--- |
-| `SPY: n/a` <br> `QQQ: n/a` <br> `SOXX: n/a` | **Top**: High-Purity Consumables & Off-Grid Energy Service (`DD: +4.68%` 7-day, `SLB: +7.1%` 1-day) <br>**Bottom**: Leveraged AI Infrastructure & Crypto Assets (`APLD: -31.0%` 30-day, `ETH-USD: -12.0%` MTD) | Brent crude oil surging 3.1% to $116.72/bbl amid Middle East escalation, driving stagflation and interest rate fears ahead of the Federal Reserve meeting `[17]`. | **Risk-Off** |
+| `SPY: -0.43%` <br> `QQQ: -0.76%` <br> `SOXX: -3.08%` | **Top**: High-Purity Consumables & Off-Grid Energy Service (`DD: +4.68%` 7-day, `SLB: +7.1%` 1-day) <br>**Bottom**: Leveraged AI Infrastructure & Crypto Assets (`APLD: -31.0%` 30-day, `ETH-USD: -12.0%` MTD) | Brent crude oil surging 3.1% to $116.72/bbl amid Middle East escalation, driving stagflation and interest rate fears ahead of the Federal Reserve meeting `[17]`. | **Risk-Off** |
 
 ---
 
@@ -49,26 +49,26 @@
 | Ticker | Week % | Catalyst & Narrative Context | Citation |
 | :--- | :--- | :--- | :--- |
 | **DD** | +4.68% | 7-day share price gain supported by the launch of AmberChrom SIL silica gel for GLP-1 and bioprocessing peptide purification. | `[25]` |
-| **CCI** | n/a | Surged +9.06% in a single session following reports of SpaceX negotiating large-scale U.S. tower lease agreements. | `[13]` |
-| **TTMI** | n/a | Jumped +8.4% post-earnings after posting record Q3 revenue ($1.2B) and EPS ($1.46) on data center circuit board demand. | `[16]` |
-| **SLB** | n/a | Rallied +7.1% on Friday after Q3 earnings beat ($9.45B revenue) and Meta modular data center infrastructure partnership. | `[10]`, `[11]`, `[12]` |
-| **MNDY** | n/a | Gained +6.70% in a 1-day response to launching "Harmony," an enterprise AI voice platform for CRM automation. | `[24]` |
-| **CRDO** | n/a | Rebounded +7.0% intraday after Super Micro raised Q1 revenue targets by $4B, signaling accelerated AI server rack deployments. | `[21]` |
-| **HAL** | n/a | Rose +5.2% following quarterly earnings beats and expanding land infrastructure services. | `[17]` |
-| **ALAB** | n/a | Retained a +55.9% 1-year gain as high-speed retimer demand supported long-term cash flow expectations. | `[4]` |
+| **CCI** | +4.51% | Surged +9.06% in a single session following reports of SpaceX negotiating large-scale U.S. tower lease agreements. | `[13]` |
+| **TTMI** | -14.67% | Jumped +8.4% post-earnings after posting record Q3 revenue ($1.2B) and EPS ($1.46) on data center circuit board demand. | `[16]` |
+| **SLB** | +7.19% | Rallied +7.1% on Friday after Q3 earnings beat ($9.45B revenue) and Meta modular data center infrastructure partnership. | `[10]`, `[11]`, `[12]` |
+| **MNDY** | +17.88% | Gained +6.70% in a 1-day response to launching "Harmony," an enterprise AI voice platform for CRM automation. | `[24]` |
+| **CRDO** | -13.21% | Rebounded +7.0% intraday after Super Micro raised Q1 revenue targets by $4B, signaling accelerated AI server rack deployments. | `[21]` |
+| **HAL** | +4.24% | Rose +5.2% following quarterly earnings beats and expanding land infrastructure services. | `[17]` |
+| **ALAB** | -10.03% | Retained a +55.9% 1-year gain as high-speed retimer demand supported long-term cash flow expectations. | `[4]` |
 
 ### Top Losers
 
 | Ticker | Week % | Catalyst & Narrative Context | Citation |
 | :--- | :--- | :--- | :--- |
-| **APLD** | n/a | Dropped -31.0% over a 30-day period as short sellers targeted debt-heavy data center builders amid rising interest rates. | `[14]`, `[15]` |
-| **JOBY** | n/a | Fell -27.0% over a 30-day period driven by valuation resets and capital-intensive commercialization timelines. | `[26]` |
-| **ETH-USD** | n/a | Shed -12.0% month-to-date in October pressured by crypto ETF outflows and technical upgrade delays. | `[29]` |
-| **SCCO** | n/a | Declined -7.3% in a single session as underlying copper prices slipped despite record quarterly net income. | `[19]` |
-| **OKLO** | n/a | Maintained a YTD drop of -61.0% due to delays in commercial monetization despite technical reactor milestones. | `[27]` |
-| **WULF** | n/a | Hit a six-month weekly low, falling ~31.0% over 30 days as $5.7B in debt offset credit facility expansion. | `[8]`, `[9]` |
-| **HD** | n/a | Slipped -3.01% in a single trading session as elevated oil prices ($116.72/bbl) stoked broader stagflation and interest rate fears. | `[17]` |
-| **ASTS** | n/a | Dropped -3.5% overnight after competitor Viasat urged the FCC to deny its international spectrum application. | `[31]` |
+| **APLD** | +1.11% | Dropped -31.0% over a 30-day period as short sellers targeted debt-heavy data center builders amid rising interest rates. | `[14]`, `[15]` |
+| **JOBY** | +2.15% | Fell -27.0% over a 30-day period driven by valuation resets and capital-intensive commercialization timelines. | `[26]` |
+| **ETH-USD** | -1.83% | Shed -12.0% month-to-date in October pressured by crypto ETF outflows and technical upgrade delays. | `[29]` |
+| **SCCO** | -7.73% | Declined -7.3% in a single session as underlying copper prices slipped despite record quarterly net income. | `[19]` |
+| **OKLO** | -5.79% | Maintained a YTD drop of -61.0% due to delays in commercial monetization despite technical reactor milestones. | `[27]` |
+| **WULF** | -3.08% | Hit a six-month weekly low, falling ~31.0% over 30 days as $5.7B in debt offset credit facility expansion. | `[8]`, `[9]` |
+| **HD** | +3.29% | Slipped -3.01% in a single trading session as elevated oil prices ($116.72/bbl) stoked broader stagflation and interest rate fears. | `[17]` |
+| **ASTS** | -2.14% | Dropped -3.5% overnight after competitor Viasat urged the FCC to deny its international spectrum application. | `[31]` |
 
 ---
 
@@ -76,39 +76,39 @@
 
 | Ticker | Week % | vs SPY (pct-pts) | Read |
 | :--- | :--- | :--- | :--- |
-| **NVDA** | n/a | n/a | Leading |
-| **TSM** | n/a | n/a | Leading |
-| **AMD** | n/a | n/a | Event-Driven |
-| **AVGO** | n/a | n/a | Leading |
-| **MRVL** | n/a | n/a | Lagging |
-| **MU** | n/a | n/a | Lagging |
-| **ANET** | n/a | n/a | Leading |
-| **COHR** | n/a | n/a | Leading |
-| **WDC** | n/a | n/a | Event-Driven |
-| **SMH** | n/a | n/a | Lagging |
-| **SOXX** | n/a | n/a | Lagging |
-| **IONQ** | n/a | n/a | Event-Driven |
-| **CRWV** | n/a | n/a | Lagging |
-| **IREN** | n/a | n/a | Lagging |
-| **AAPL** | n/a | n/a | Event-Driven |
-| **AMZN** | n/a | n/a | Leading |
-| **GOOG** | n/a | n/a | Event-Driven |
-| **TSLA** | n/a | n/a | Leading |
-| **PANW** | n/a | n/a | Leading |
-| **HOOD** | n/a | n/a | Lagging |
-| **NLR** | n/a | n/a | Leading |
-| **CCJ** | n/a | n/a | Leading |
-| **NVT** | n/a | n/a | Leading |
-| **VST** | n/a | n/a | Event-Driven |
-| **CEG** | n/a | n/a | Event-Driven |
-| **IBIT** | n/a | n/a | Lagging |
-| **BMNR** | n/a | n/a | Leading |
-| **RKLB** | n/a | n/a | Leading |
-| **STM** | n/a | n/a | Lagging |
-| **ENTG** | n/a | n/a | Lagging |
-| **MRK** | n/a | n/a | Leading |
-| **SPY** | n/a | n/a | Lagging |
-| **QQQ** | n/a | n/a | Lagging |
+| **NVDA** | -1.48% | -1.05pp | Lagging |
+| **TSM** | +1.43% | +1.86pp | Leading |
+| **AMD** | -2.26% | -1.83pp | Event-Driven |
+| **AVGO** | -2.15% | -1.72pp | Lagging |
+| **MRVL** | +0.30% | +0.73pp | Leading |
+| **MU** | -0.15% | +0.28pp | Leading |
+| **ANET** | -2.60% | -2.18pp | Lagging |
+| **COHR** | -10.14% | -9.71pp | Lagging |
+| **WDC** | +3.52% | +3.94pp | Event-Driven |
+| **SMH** | -2.33% | -1.90pp | Lagging |
+| **SOXX** | -3.08% | -2.65pp | Lagging |
+| **IONQ** | -0.03% | +0.40pp | Event-Driven |
+| **CRWV** | -11.65% | -11.22pp | Lagging |
+| **IREN** | -7.71% | -7.28pp | Lagging |
+| **AAPL** | +1.24% | +1.67pp | Event-Driven |
+| **AMZN** | -0.80% | -0.37pp | Lagging |
+| **GOOG** | -5.83% | -5.40pp | Event-Driven |
+| **TSLA** | +4.93% | +5.36pp | Leading |
+| **PANW** | +11.27% | +11.70pp | Leading |
+| **HOOD** | -3.84% | -3.41pp | Lagging |
+| **NLR** | -4.20% | -3.77pp | Lagging |
+| **CCJ** | -3.58% | -3.15pp | Lagging |
+| **NVT** | -11.57% | -11.14pp | Lagging |
+| **VST** | -7.80% | -7.37pp | Event-Driven |
+| **CEG** | -6.61% | -6.18pp | Event-Driven |
+| **IBIT** | -0.41% | +0.02pp | Lagging |
+| **BMNR** | +3.42% | +3.85pp | Leading |
+| **RKLB** | +3.46% | +3.89pp | Leading |
+| **STM** | -3.02% | -2.59pp | Lagging |
+| **ENTG** | -3.04% | -2.61pp | Lagging |
+| **MRK** | -0.47% | -0.04pp | Leading |
+| **SPY** | -0.43% | +0.00pp | Lagging |
+| **QQQ** | -0.76% | -0.33pp | Lagging |
 
 ### Tactical Portfolio Adjustments
 

@@ -9,8 +9,8 @@
 | Metric / Benchmark | 1-Day Change / Reading | Context / Impact |
 | :--- | :--- | :--- |
 | **SPY** | +1.0% [1] | Broad equity ETF advanced pre-market as a massive tech rebound offset hawkish Fed concerns [1]. |
-| **QQQ** | n/a | Invesco QQQ trust recorded $2.44 billion in net buying across 101 holdings, led by Apple additions ($206.7M) [2]. |
-| **SOXX** | n/a | iShares PHLX SOX Semiconductor ETF executed $3.66 billion in net buying across 29 expanded positions [3]. |
+| **QQQ** | +2.31% | Invesco QQQ trust recorded $2.44 billion in net buying across 101 holdings, led by Apple additions ($206.7M) [2]. |
+| **SOXX** | +6.01% | iShares PHLX SOX Semiconductor ETF executed $3.66 billion in net buying across 29 expanded positions [3]. |
 | **Primary Macro Event** | VIX: 19.46 [4] | CoreWeave's strong Q3 report counterbalanced hot US inflation data (VIX at 19.46) and Strait of Hormuz tanker strikes [4, 5, 6]. |
 | **Risk Posture** | **Risk-On** | CoreWeave's Q3 beat-and-raise quarterly report reignited institutional AI compute appetite, driving a broad technology rebound despite persistent inflation pressures and Middle East shipping disruptions [1, 4, 5, 6]. |
 
@@ -72,27 +72,27 @@
 | Ticker | 1-Day % | One-line Read |
 | :--- | :--- | :--- |
 | **NVDA** | +4% | `reversal` - Rebounded +4% following CoreWeave results, overcoming analyst downgrades and CEO scrutiny [11]. |
-| **TSM** | n/a | `continuation` - Ayar Labs won TSMC demo award as ETFs poured $270.8M into TSM shares [34, 35]. |
+| **TSM** | +4.25% | `continuation` - Ayar Labs won TSMC demo award as ETFs poured $270.8M into TSM shares [34, 35]. |
 | **AMD** | +5% | `news-driven` - Rose +5% on DRAM-reducing MEXT software launch and $394.7M SOXX ETF net buying [3, 11, 21]. |
 | **AVGO** | +4% | `continuation` - Advanced +4% backed by Goldman’s $685B Anthropic 2030 projections and $315.3M SOXX buying [3, 11, 36]. |
-| **MRVL** | n/a | `news-driven` - Supported by bullish analyst coverage, CoreWeave sympathy, and $222.6M in net ETF inflows [7, 12, 37]. |
+| **MRVL** | +9.33% | `news-driven` - Supported by bullish analyst coverage, CoreWeave sympathy, and $222.6M in net ETF inflows [7, 12, 37]. |
 | **MU** | +13% | `news-driven` - Surged +13% as CoreWeave Q3 beat restored confidence in high-bandwidth memory demand [8, 9]. |
-| **ANET** | n/a | `news-driven` - Highlighted by Zacks as a premier AI infrastructure value pick during sector dip [14]. |
+| **ANET** | +6.30% | `news-driven` - Highlighted by Zacks as a premier AI infrastructure value pick during sector dip [14]. |
 | **COHR** | +5% | `news-driven` - Gained +5% as neocloud expansion accelerated demand for high-speed optical transceivers [10]. |
-| **SMH** | n/a | `continuation` - Semiconductor ETF broad-based rally led by top quant ranking for Micron [38]. |
-| **SOXX** | n/a | `continuation` - Completed $3.66B in net buying across 29 positions, led by AMD and Broadcom additions [3]. |
-| **IONQ** | n/a | `news-driven` - Raised FY sales guidance to $505M–$515M and expanded government reach with Carahsoft [19]. |
+| **SMH** | +4.82% | `continuation` - Semiconductor ETF broad-based rally led by top quant ranking for Micron [38]. |
+| **SOXX** | +6.01% | `continuation` - Completed $3.66B in net buying across 29 positions, led by AMD and Broadcom additions [3]. |
+| **IONQ** | -2.66% | `news-driven` - Raised FY sales guidance to $505M–$515M and expanded government reach with Carahsoft [19]. |
 | **CRWV** | +20% | `news-driven` - Soared +20% after Q3 revenue beat and full-year 2026 guidance raise [6]. |
-| **IREN** | n/a | `continuation` - Rallied overnight in sympathy with neocloud peer CoreWeave [13]. |
-| **AAPL** | n/a | `news-driven` - Pushing Siri toward agentic AI capabilities as QQQ added $206.7M in shares [2, 39]. |
-| **AMZN** | n/a | `continuation` - Enterprise AWS lock-in provides strong investment backing despite heavy capex spending [40]. |
+| **IREN** | +5.63% | `continuation` - Rallied overnight in sympathy with neocloud peer CoreWeave [13]. |
+| **AAPL** | +2.04% | `news-driven` - Pushing Siri toward agentic AI capabilities as QQQ added $206.7M in shares [2, 39]. |
+| **AMZN** | -1.74% | `continuation` - Enterprise AWS lock-in provides strong investment backing despite heavy capex spending [40]. |
 | **GOOG** | -10% | `reversal` - Fell -10% on $9.1B cash burn disclosures despite 103% Cloud growth and TPU updates [27]. |
-| **TSLA** | n/a | `news-driven` - Heavy call option bias (63%) stands in contrast to a 66.1% October retail sales drop in China [41, 42]. |
-| **PANW** | n/a | `news-driven` - Institutional momentum built as AustralianSuper initiated a new $74.2M stock position [43]. |
-| **CCJ** | n/a | `news-driven` - Keybank National Association OH established a new equity stake in the uranium producer [44]. |
-| **VST** | n/a | `continuation` - CIBC adjusted price target to $175 (30% upside) while focusing on gas fleet AI expansion [18, 45]. |
-| **CEG** | n/a | `news-driven` - CEO cited 6 to 7 years of untapped U.S. grid capacity to power expanding AI data centers [15, 46]. |
-| **STM** | n/a | `no news` - Defense electronics division deployed autonomous underwater vehicles in the Mediterranean [47]. |
+| **TSLA** | +2.91% | `news-driven` - Heavy call option bias (63%) stands in contrast to a 66.1% October retail sales drop in China [41, 42]. |
+| **PANW** | +2.48% | `news-driven` - Institutional momentum built as AustralianSuper initiated a new $74.2M stock position [43]. |
+| **CCJ** | +1.99% | `news-driven` - Keybank National Association OH established a new equity stake in the uranium producer [44]. |
+| **VST** | +1.73% | `continuation` - CIBC adjusted price target to $175 (30% upside) while focusing on gas fleet AI expansion [18, 45]. |
+| **CEG** | +2.60% | `news-driven` - CEO cited 6 to 7 years of untapped U.S. grid capacity to power expanding AI data centers [15, 46]. |
+| **STM** | +3.49% | `no news` - Defense electronics division deployed autonomous underwater vehicles in the Mediterranean [47]. |
 
 ---
 

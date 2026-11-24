@@ -9,8 +9,8 @@
 | Metric / Index | Value / 1-Day % |
 | :--- | :--- |
 | SPY 1-Day % | +0.2% |
-| QQQ 1-Day % | n/a |
-| SOXX 1-Day % | n/a |
+| QQQ 1-Day % | +0.88% |
+| SOXX 1-Day % | +0.10% |
 | Key Macro Event / Print | 10-year and 30-year Treasury yields reaching highest levels since 2002 |
 | Risk Posture | Risk-Off |
 
@@ -63,22 +63,22 @@ With daily performance feed summary data for benchmark equity indices remaining 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
 | NVDA | +2% | News-driven: Valuation compressed to historic lows relative to earnings; Einride adopting Hyperion platform [27] [28] [40] |
-| MRVL | n/a | News-driven: Unveiled 2nm optical links at ECOC 2026; secured AT&S substrate capacity [7] |
-| AMZN | n/a | News-driven: Joined Goldman Conviction List; 20-yr CEG PPA; seeking $8B Nvidia chip offload [4] [9] [29] |
-| AAPL | n/a | News-driven: Preparing Siri-powered smart home hub; facing premium valuation scrutiny [30] [31] |
-| GOOG | n/a | No news: Benchmark tracking amidst broader tech yield sensitivity and DCF discount pressure [26] [32] |
-| TSLA | n/a | News-driven: Q3 delivery figures looming; Munster forecasting beat as EV winter thaws [33] |
-| PANW | n/a | News-driven: Cybersecurity demand sustained via identity and Falcon Shield expansion [34] |
-| CCJ | n/a | News-driven: Gains supported by US-South Korea nuclear framework supporting Westinghouse [35] |
-| VST | n/a | News-driven: White House preparing $4B loan for nuclear capacity upgrades [3] |
-| CEG | n/a | News-driven: BMO PT reduced to $350; backed by 20-year Amazon nuclear PPA [4] [36] |
-| RKLB | n/a | Continuation: Space sector tracking following recent altitude drop across satellite trades [37] |
+| MRVL | -0.38% | News-driven: Unveiled 2nm optical links at ECOC 2026; secured AT&S substrate capacity [7] |
+| AMZN | -0.05% | News-driven: Joined Goldman Conviction List; 20-yr CEG PPA; seeking $8B Nvidia chip offload [4] [9] [29] |
+| AAPL | -0.24% | News-driven: Preparing Siri-powered smart home hub; facing premium valuation scrutiny [30] [31] |
+| GOOG | +1.02% | No news: Benchmark tracking amidst broader tech yield sensitivity and DCF discount pressure [26] [32] |
+| TSLA | +2.20% | News-driven: Q3 delivery figures looming; Munster forecasting beat as EV winter thaws [33] |
+| PANW | +0.87% | News-driven: Cybersecurity demand sustained via identity and Falcon Shield expansion [34] |
+| CCJ | +2.69% | News-driven: Gains supported by US-South Korea nuclear framework supporting Westinghouse [35] |
+| VST | +3.48% | News-driven: White House preparing $4B loan for nuclear capacity upgrades [3] |
+| CEG | +3.93% | News-driven: BMO PT reduced to $350; backed by 20-year Amazon nuclear PPA [4] [36] |
+| RKLB | -1.22% | Continuation: Space sector tracking following recent altitude drop across satellite trades [37] |
 | STM | +6.18% | Reversal: Upward move on strong European trading volume [11] |
-| IONQ | n/a | News-driven: Unveiled real-time quantum error correction decoder on Nvidia stack [38] |
-| CRWV | n/a | News-driven: Expanding into NVIDIA Vera Rubin architecture for agentic AI [39] |
-| SOXX | n/a | Continuation: Broad chip sector momentum challenged by rising benchmark yields [26] [40] |
+| IONQ | -1.83% | News-driven: Unveiled real-time quantum error correction decoder on Nvidia stack [38] |
+| CRWV | -2.49% | News-driven: Expanding into NVIDIA Vera Rubin architecture for agentic AI [39] |
+| SOXX | +0.10% | Continuation: Broad chip sector momentum challenged by rising benchmark yields [26] [40] |
 | SPY | +0.2% | Continuation: Overall market benchmark sensitive to 10-year Treasury yield spikes [1] |
-| QQQ | n/a | Continuation: Tech benchmark evaluating software vs. hardware divergence [26] |
+| QQQ | +0.88% | Continuation: Tech benchmark evaluating software vs. hardware divergence [26] |
 
 ## References
 

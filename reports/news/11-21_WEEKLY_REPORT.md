@@ -2,154 +2,140 @@
 *(Generated via NotebookLM Integration on 2026-11-23)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
-# 2026-11-15 to 2026-11-21 Weekly Macro & Market Synthesis
+# 2026-11-15 to 2026-11-21 Weekly Macro Market Synthesis
 
 ## Week in One Table
 
-| SPY Weekly % | QQQ Weekly % | SOXX Weekly % | Best Sector/Theme (Weekly %) | Worst Sector/Theme (Weekly %) | Most Impactful Macro Event | Next Week Risk Posture |
+| SPY Weekly % | QQQ Weekly % | SOXX Weekly % | Best Theme/Sector % | Worst Theme/Sector % | Key Macro Driver | Risk Posture Next Week |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| n/a | n/a | n/a | E-Commerce / Chinese Tech (+11.10% PDD) [40] | Biotech (-20.87% 7-Day MRNA) [7] | Hawkish Fed Pivot & AI Power Inflation Warnings [46, 50, 52] | Risk-Off |
-
-Note: Quantitative lookup table benchmark returns for SPY, QQQ, and SOXX are unavailable in the source context; summary metrics reflect qualified weekly data points.
+| -8.56% ($689.81) | -10.51% ($608.45) | -17.35% ($123.40) | Cybersecurity / Software Defense (PANW +6.54%) / Treasuries (TLT +2.61%) | Crypto Mining / Data Infra (IREN -34.95%) / Semiconductor Index (SMH -17.81%) | Volatility spike (^VIX +85.96% to 35.89), 10Y yield at 4.92%, 90% Fed rate hike odds, and tech capex de-risking | Risk-Off |
 
 ## Top AI Thematic Insights
 
-### AI Power Infrastructure & Energy Strain (VST, ES, D, CVX)
-* **Weekly Narrative Arc:** Power grid bottlenecks and massive compute requests sparked selling across power utility holdings. Market sentiment turned defensive following Texas data center interconnect moratorium discussions, while Federal Reserve officials explicitly highlighted data center compute energy demand as a key factor driving inflation [23, 26, 46, 50].
-* **Quantitative Grounding:** Vistra (VST) fell -5.9% over the week (-16.1% over 30 days) [23, 26]. Anthropic requested up to 10 GW of additional compute power from SpaceX, while Alpha Compute acquired 430 MW of natural gas power capacity in Pennsylvania [82, 100].
-* **Impact Shift:** Alters the assumption that power utilities can rapidly monetize AI data center expansion without encountering regulatory permitting moratoriums or macroeconomic rate headwinds [19, 26, 46].
-* **Trend Reversal Flag:** REVERSED (Shifted from an aggressive AI growth beneficiary to a regulatory- and grid-constrained utility drag).
+### Semiconductor & Hardware Liquidation (NVDA, TSM, AMD, MU, MRVL, SMH, SOXX)
+- **Weekly Narrative Arc:** Semiconductor equities suffered their worst weekly liquidation in a quarter century [21]. The narrative escalated Monday as TSM halted advanced chip shipments to China due to policy shifts [11]. By mid-week, broad customer capex reductions raised market fears over near-term hardware demand [12]. By Friday, institutional liquidation culminated in a historic weekly drawdown across the entire chip complex [21].
+- **Key Numbers:** Semiconductor benchmarks collapsed, with SMH down -17.81% ($400.06) and SOXX down -17.35% ($123.40). Priority hardware equities cratered across the board: NVDA -22.92%, MU -23.62%, MRVL -22.00%, AMD -20.54%, TSM -20.07%, and AVGO -12.28%.
+- **Structural Shift:** Institutional capital aggressively de-risked from high-beta semiconductor supply chains. Money managers executed the largest reduction in tech allocations since 2006 [20], signaling a shift from capex expansion to balance-sheet defense.
+- **Reversal Flag:** REVERSED. Multi-quarter AI hardware momentum reversed sharply into systemic liquidation as valuation multiples contracted under macroeconomic tight-money pressure.
 
-### Memory & Hardware Supply Chain Bottlenecks (MU, AAPL)
-* **Weekly Narrative Arc:** Upstream memory chip and semiconductor component supply constraints intensified, prompting mega-cap device makers to secure long-term supply lock-ins to protect against structural component shortages extending into 2027 [74, 85, 97, 104].
-* **Quantitative Grounding:** Micron CTO publicly warned that memory supply constraints will tighten further into 2027 [74, 85]. Apple signed a rare 5-year multi-billion-dollar memory supply contract with Samsung [97, 104]. Printed circuit board (PCB) trade groups warned of supply shortages rivaling the 2021 semiconductor crisis [84, 103].
-* **Impact Shift:** Transfers pricing leverage upstream from downstream hardware assemblers to memory fabricators and specialized component suppliers.
-* **Trend Reversal Flag:** Did NOT REVERSE (Persisted in structural supply tightening across critical memory components).
+### AI Infrastructure & High-Beta Cloud Reset (CRWV, IREN, APLD, GDS, ANET, COHR)
+- **Weekly Narrative Arc:** Speculative AI data center hosters, optical interconnect suppliers, and crypto compute providers collapsed. Early-week optimism faded by Wednesday after international cloud provider earnings highlighted free cash flow burn despite top-line revenue growth [6]. By week-end, short-seller activity and tight financing conditions forced broad liquidations across capital-intensive AI hosters [5, 9].
+- **Key Numbers:** Pure-play AI compute hoster CRWV fell -25.64%, while high-beta infrastructure providers collapsed: IREN -34.95%, GDS -32.71%, APLD -28.05%, BMNR -26.17%, ANET -15.04%, and COHR -14.18%.
+- **Structural Shift:** Capital markets restricted cheap debt access for infrastructure buildouts. Investors shifted valuation frameworks from gross compute capacity expansion to immediate net cash generation and interest coverage ratios.
+- **Reversal Flag:** REVERSED. Infrastructure euphoria transitioned into forced unwinds across leveraged data center and power-grid plays.
 
-### International AI Capex & E-Commerce Divergence (PDD, TCEHY, BIDU)
-* **Weekly Narrative Arc:** Q3 financial results across major Chinese internet firms demonstrated a sharp operational bifurcation. PDD Holdings rallied after disciplined marketing cost cuts, whereas Tencent Holdings hit multi-month lows under heavy AI infrastructure capital expenditures [39, 40, 44, 56].
-* **Quantitative Grounding:** PDD surged +11.10% as Q3 non-GAAP operating profit rose 25% to RMB 31.2 billion on RMB 108.3 billion revenue [40, 53]. Tencent dropped to a 2.5-year low as AI capex costs compressed operating margins despite RMB 207.3 billion in revenue and RMB 63.6 billion in net income [39, 44].
-* **Impact Shift:** Shifts investor priority away from unmonetized AI capex toward immediate operating cost control and cash flow defense.
-* **Trend Reversal Flag:** Did NOT REVERSE (Continued the market pattern of rewarding low-capex execution over capex-heavy tech conglomerates).
+### Cybersecurity & Defense Software Rotation (PANW, CRWD, ZS)
+- **Weekly Narrative Arc:** Cybersecurity software decoupled from broader technology index selling. Strong earnings mid-week established security platforms as a defensible software allocation [1]. Through Thursday and Friday, strategic M&A deal announcements and fair value target upgrades reinforced relative capital preservation flows [2, 3].
+- **Key Numbers:** PANW outperformed the market by +15.10 percentage points, gaining +6.54% ($343.32). Sector peers held positive territory despite market drawdowns: CRWD rose +1.25% ($229.44) and ZS gained +1.22% ($194.82).
+- **Structural Shift:** Allocators reallocated capital within technology away from hardware capex toward mission-critical software defense platforms with subscription cash flows.
+- **Reversal Flag:** NO REVERSAL. Cybersecurity maintained its structural outperformance relative to high-beta tech.
 
-### Tech Capex Margin Strain & Defensive Capital Rotation (MRNA, TCEHY, F)
-* **Weekly Narrative Arc:** Expanding capital expenditures, working capital stretch, and balance sheet restructurings triggered rotation out of high-valuation growth assets into defensive sectors. Markets penalized aggressive capex expansion and elongated receivable cycles even when operational milestones were hit [6, 7, 14, 39].
-* **Quantitative Grounding:** Moderna (MRNA) dropped -4.84% in a single session and -20.87% over 7 days after debt restructuring, despite reporting a 42% risk reduction in melanoma Phase 3 trials [6, 7]. Michael Burry flagged elongated collection cycles for Nvidia, with payment wait times stretching from 60 to 64 days and $81 billion in receivables [14].
-* **Impact Shift:** Removes the assumption that technological or clinical R&D milestones guarantee valuation expansion in a high-cost capital environment.
-* **Trend Reversal Flag:** REVERSED (Shifted from rewarding R&D milestones to penalizing capex intensity and working capital expansion).
+### Mega-Cap Capital Preservation Rotation (AAPL, AMZN, GOOG, TSLA)
+- **Weekly Narrative Arc:** Mega-cap tech split along balance sheet quality and non-AI business exposure lines. Early-week selling hit all mega-caps indiscriminately, but by Thursday consumer-focused platforms with durable core operations stabilized [19]. On Friday, cash-rich non-AI models held relative outperformance against AI capital expenditure leaders [19].
+- **Key Numbers:** AAPL proved resilient, declining only -3.85% (outperforming SPY by +4.71 percentage points). AMZN fell -7.44% (+1.12pp vs SPY), while GOOG dropped -9.75% (-1.19pp vs SPY) and TSLA plunged -11.38% (-2.82pp vs SPY).
+- **Structural Shift:** Mega-cap technology no longer trades as a single block; investors are favoring fortress balance sheets over massive AI capital expenditure commitments.
+- **Reversal Flag:** NO REVERSAL. Relative outperformance of cash-rich mega-caps vs. speculative tech intensified.
 
 ### Expert Forward Projection
-* **Expectation 1:** PDD Holdings stock will maintain its post-earnings price level provided non-GAAP operating profit remains above RMB 31.0 billion in subsequent quarterly reports [40, 53]. Refuting data point: Transaction services revenue falling below RMB 100 billion or cash reserves dropping below RMB 455.4 billion in future filings [40, 53].
-* **Expectation 2:** Vistra (VST) share price will stabilize above recent lows if Texas energy regulators permit data center grid interconnects without enacting formal moratorium legislation [23, 26]. Refuting event: Enactment of state-level data center power moratoriums or grid interconnect caps in Texas [26].
-* **Expectation 3:** Tech hardware gross margins will compress across mid-tier original equipment manufacturers (OEMs) as memory contract prices escalate toward 2027 forecasts [74, 85, 104]. Confirming data point: Apple quarterly hardware gross margin reported below consensus target levels following execution of its 5-year Samsung supply deal [97, 104].
-* **Expectation 4:** Federal Reserve policy guidance will shift hawkishly if regional inflation metrics continue to cite AI compute energy demand as a structural inflationary pressure [46, 50, 52]. Confirming data point: Formal FOMC policy statements explicitly listing energy infrastructure constraints as a factor delaying rate cuts [46, 50, 52].
+- **Projection 1:** Volatility (^VIX at 35.89) will retrace below 28.00 within 14 trading days if US 10-Year Treasury yields (^TNX at 4.91%) stay below 5.00%. Confirmation: VIX close below 28.00; Refutation: VIX breach above 40.00.
+- **Projection 2:** Broadcom (AVGO) Q4 earnings on December 9 will dictate whether semiconductor drawdowns stabilize or extend by another 10% [17]. Confirmation: AVGO custom AI ASIC revenue growth exceeding 20% YoY; Refutation: Customer capex reduction guidance.
+- **Projection 3:** Federal Reserve rate decision on December 16 will result in a 25 bps rate hike based on 90% Polymarket odds and persistent inflation metrics. Confirmation: FOMC target rate increase; Refutation: Rate hold or cut.
+- **Projection 4:** US 10-Year Treasury Yield (^TNX at 4.91%) will breach 5.00% within 10 trading days if 25 bps rate hike expectations remain locked at 90%. Confirmation: ^TNX daily close above 5.00%; Refutation: ^TNX retreat below 4.75%.
 
 ## Quantitative Market Action & Specific Equities
-
-Note: Aggregate quantitative summary lookup data for additional equities was unavailable in the source context; tables reflect all explicitly qualified weekly performance metrics.
 
 ### Top Winners
 
 | Ticker | Week % | Catalyst (with citation) |
 | :--- | :--- | :--- |
-| PDD | +11.10% | Q3 non-GAAP operating profit surged 25% to RMB 31.2B due to disciplined cuts in marketing expenses [40, 56]. |
+| MUZ | +59.39% | no company-specific news |
+| PANW | +6.54% | Earned fair value price target upgrades after beating Q1 earnings expectations and expanding applied compute integrations [1]. |
+| PDD | +5.96% | no company-specific news |
+| TLT | +2.61% | Flight-to-safety capital flows into long-term US Treasuries amidst equity market selloff [4]. |
+| VGLT | +2.41% | Long-term Treasury yield retreat prompting fixed-income index gains [4]. |
+| IEF | +1.79% | Intermediate-term Treasury allocation demand as benchmark equity indices dropped [4]. |
+| VGIT | +1.35% | no company-specific news |
+| CRWD | +1.25% | Premium valuation support following strategic acquisition deal talks [2]. |
+| ZS | +1.22% | Inflows into zero-trust cybersecurity providers following strategic deal developments [3]. |
+| BND | +1.09% | no company-specific news |
 
 ### Top Losers
 
 | Ticker | Week % | Catalyst (with citation) |
 | :--- | :--- | :--- |
-| MRNA | -20.87% | 7-day share price decline following debt restructuring despite Phase 3 melanoma trial success [6, 7]. |
-| VST | -5.9% | Weekly share price drop driven by Texas data center power moratorium concerns [23, 26]. |
+| IREN | -34.95% | Severe liquidation across high-beta AI data center hosters and crypto miners [5]. |
+| GDS | -32.71% | Free cash flow concerns following Alibaba AI cloud earnings margin miss [6]. |
+| LUNR | -32.54% | no company-specific news |
+| MSTR | -30.30% | Bitcoin retreat to $60,094.09 combined with heavy crypto ETF capital outflows [10]. |
+| NBIS | -29.83% | Valuation contraction driven by short-seller focus on speculative AI infrastructure [9]. |
+| NXT | -29.36% | no company-specific news |
+| JOBY | -29.13% | no company-specific news |
+| ASTS | -28.62% | Satellite launch delays and operational execution timeline extensions [7]. |
+| IONQ | -28.25% | Quantum computing sector pullback following competitive logical qubit debates [8]. |
+| APLD | -28.05% | Short interest targeting overvalued AI hosting infrastructure platforms [9]. |
 
 ## Watchlist Check
 
-| Ticker | Week % | vs SPY (pct-pts) | Read (leading / lagging / event-driven) |
+| Ticker | Week % | vs SPY (pct-pts) | Read |
 | :--- | :--- | :--- | :--- |
-| NVDA | n/a | n/a | n/a |
-| TSM | n/a | n/a | n/a |
-| AMD | n/a | n/a | n/a |
-| AVGO | n/a | n/a | n/a |
-| MRVL | n/a | n/a | n/a |
-| MU | n/a | n/a | event-driven |
-| ANET | n/a | n/a | n/a |
-| COHR | n/a | n/a | n/a |
-| WDC | n/a | n/a | n/a |
-| SMH | n/a | n/a | n/a |
-| SOXX | n/a | n/a | n/a |
-| IONQ | n/a | n/a | n/a |
-| CRWV | n/a | n/a | n/a |
-| IREN | n/a | n/a | n/a |
-| AAPL | n/a | n/a | event-driven |
-| AMZN | n/a | n/a | n/a |
-| GOOG | n/a | n/a | n/a |
-| TSLA | n/a | n/a | n/a |
-| PANW | n/a | n/a | n/a |
-| HOOD | n/a | n/a | n/a |
-| NLR | n/a | n/a | n/a |
-| CCJ | n/a | n/a | n/a |
-| NVT | n/a | n/a | n/a |
-| VST | -5.9% | n/a | lagging |
-| CEG | n/a | n/a | n/a |
-| IBIT | n/a | n/a | n/a |
-| BMNR | n/a | n/a | n/a |
-| RKLB | n/a | n/a | n/a |
-| STM | n/a | n/a | n/a |
-| ENTG | n/a | n/a | n/a |
-| MRK | n/a | n/a | n/a |
-| SPY | n/a | n/a | n/a |
-| QQQ | n/a | n/a | n/a |
+| NVDA | -22.92% | -14.36pp | Lagging |
+| TSM | -20.07% | -11.51pp | Event-driven |
+| AMD | -20.54% | -11.98pp | Lagging |
+| AVGO | -12.28% | -3.72pp | Event-driven |
+| MRVL | -22.00% | -13.44pp | Event-driven |
+| MU | -23.62% | -15.06pp | Lagging |
+| ANET | -15.04% | -6.48pp | Lagging |
+| COHR | -14.18% | -5.62pp | Lagging |
+| WDC | -11.68% | -3.12pp | Event-driven |
+| SMH | -17.81% | -9.25pp | Lagging |
+| SOXX | -17.35% | -8.79pp | Lagging |
+| IONQ | -28.25% | -19.70pp | Lagging |
+| CRWV | -25.64% | -17.08pp | Lagging |
+| IREN | -34.95% | -26.39pp | Lagging |
+| AAPL | -3.85% | +4.71pp | Leading |
+| AMZN | -7.44% | +1.12pp | Leading |
+| GOOG | -9.75% | -1.19pp | Lagging |
+| TSLA | -11.38% | -2.82pp | Lagging |
+| PANW | +6.54% | +15.10pp | Leading |
+| HOOD | -20.15% | -11.59pp | Lagging |
+| NLR | -13.52% | -4.96pp | Lagging |
+| CCJ | -18.00% | -9.44pp | Event-driven |
+| NVT | -11.20% | -2.65pp | Lagging |
+| VST | -13.35% | -4.79pp | Event-driven |
+| CEG | -15.14% | -6.58pp | Event-driven |
+| IBIT | -15.20% | -6.64pp | Lagging |
+| BMNR | -26.17% | -17.61pp | Lagging |
+| RKLB | -26.18% | -17.62pp | Lagging |
+| STM | -16.31% | -7.75pp | Lagging |
+| ENTG | -15.52% | -6.96pp | Lagging |
+| MRK | -9.50% | -0.94pp | Lagging |
 
 ### What I would do differently going into next week
-* **Trims:** Reduce portfolio allocation in power utility holdings and high-capex tech operators facing regulatory grid permitting bottlenecks or operating margin pressure (e.g., VST, TCEHY) [26, 39].
-* **Adds:** Direct capital toward upstream component fabricators displaying supply lock-in pricing power and digital platforms demonstrating disciplined operating margin execution (e.g., MU, PDD) [40, 85, 104].
-* **Cash allocations:** Expand cash reserves to 15% of total portfolio capital to hedge against hawkish Federal Reserve interest rate risks and energy cost inflation [11, 28, 46, 52].
+
+- **Trims:** Reduce exposure to unhedged, capital-intensive AI hosters and speculative tech assets (IREN, CRWV, IONQ, RKLB) to eliminate refinancing risk.
+- **Adds:** Rotate capital into non-AI mega-cap defensive anchors and outperforming security software platforms (AAPL, PANW, CRWD) while accumulating long Treasuries (TLT) for portfolio protection.
+- **Cash Strategy:** Raise target cash reserves to 25% of total portfolio value by trimming underperforming semiconductor holdings until ^VIX closes below 25.00 and US 10-Year Treasury yields stabilize.
 
 ## References
 
-[6] Moderna's Cancer Vaccine Worked -- and the Stock Plunged Anyway. Here's What Investors Are Missing. - The Motley Fool - https://www.fool.com/investing/2026/11/19/modernas-cancer-vaccine-worked-and-the-stock-plung/?.tsrc=rss
-
-[7] Moderna (MRNA) Dropped, So What Is Behind The Latest Attention? - Yahoo Finance - https://finance.yahoo.com/healthcare/articles/moderna-mrna-dropped-behind-latest-091120954.html?.tsrc=rss
-
-[11] US dollar hits multi-month highs on hawkish Fed bets - TorFX News - https://news.google.com/rss/articles/CBMilwFBVV95cUxPbFlCdC1iWEZfcXMxRTFpTGtOMGp4M1czd0dOX2tLT2lqTEt0eGtRQ2lKMHRCWWZPWXBiSGluMmMtdmUtQlJlY1kyOExQZ2V4Z29uOVUxY1VoT3JNRHI5MUFCeWpZeS1HazBaQUtpeG4wWGhCTHdlZVE4VEEySHhFX3liNE9QLWE3TDNpQzTUYlJTUUhuZ0ww?oc=5
-
-[14] Anthropic, Nvidia And The Next AI Trade: Michael Burry Explains What Could Break The Bull Case - StockTwits - https://stocktwits.com/news-articles/markets/equity/anthropic-nvidia-next-ai-trade-michael-burry-what-could-break-bull-case/cNbLwugR9ig?.tsrc=rss
-
-[19] After midterm votes against data centers, AI builders pledge to cover their own power costs - CEO경제신문 - https://news.google.com/rss/articles/CBMifEFVX3lxTE42TDdQOGdWcUl6ekt2ZWdxSjNSdU9OSUxaZXY4OTdiMVZKaFd2djNFNmJsUmpKeDdjWHI1b1V1dFFrY19PUlFXMEN3dXBtRjhLSUJaRXpjdlZoRlFxaUQzMmVnSG9Eb21RRWNDU19rYjUwdW9EZ0JBcVdHSm4?oc=5
-
-[23] Vistra (VST) Could Be 23% Undervalued After Fresh Guidance And Earnings - Yahoo Finance - https://finance.yahoo.com/markets/stocks/articles/vistra-vst-could-23-undervalued-021130252.html?.tsrc=rss
-
-[26] Vistra Just Dropped 16% in a Month, but Its Plans Always Had “a More Conservative View of the AI Build-Out” - TIKR - https://www.tikr.com/blog/vistra-stock-drop-texas-data-center-moratorium-buy-or-sell?ref=yahoofinance&tlnk=yf-261119-3rqgw84c&.tsrc=rss
-
-[28] Investors lose faith in bonds as stagflation fears reshape asset allocation - Money Marketing - https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ2EtWEZXVGnsQ2R2N0dERjVEeXZ6SWtoV2oyQXRiTFlzS3RHYUdaNHR3OHR0TThLTmJUa2p4Uk5QOHJOcGM3N2ZXWGNRdGZqQWJNNDNCZnNvT2loQjNKalRycGsyeVlSX0RYS0tHcFhUSjctUXVocERFaDB1dFRmazM2cnJNbFdOeWdpbHlTM3pBczRveUN4UlA0ek00WnFJYjB0VkNsUkJ4dk1vLWxGQ1Fhbzc?oc=5
-
-[39] Tencent (SEHK:700) Stock Faces Q3 Results Margin Strain Despite Solid Revenue - Yahoo Finance - https://finance.yahoo.com/markets/stocks/articles/tencent-sehk-700-stock-faces-101410633.html?.tsrc=rss
-
-[40] PDD Stocks Jump 11.10% as Operating Profit Climbs 25% on Flat Revenue - Yahoo Finance - https://finance.yahoo.com/markets/stocks/articles/pdd-stocks-jump-11-10-170738876.html?.tsrc=rss
-
-[44] Tencent shares hit 2-1/2 yr low on Q3 earnings miss - Yahoo Finance - https://finance.yahoo.com/markets/stocks/articles/tencent-shares-hit-2-1-033536258.html?.tsrc=rss
-
-[46] Fed’s Jefferson says AI build-out ‘exerting upward pressure’ on inflation - The Hill - https://news.google.com/rss/articles/CBMidEFVX3lxTFA3UlA4MmVUaEFqenExU0QycTh3dmV3TE45NUdzck0zMUdDNmo0YmxMcFUtMlREaUV6UzlHSk5UQ0staDE3ODZwcHdfME0zbDJBbzgxcWRIWkJWZFJ0VXVocnQ3NlZPSzFkdE1hWUNXSHFGTW1J0gF6QVVfeXFMT0hUUmxwcnJTOTl3ckdPZXRMUlpIVUJDZkE4dXQ6aTRBWEdHNGZmdzlPTUdPTDhDWkRXc2JyUnhCemJyMmE5cmZDQWxUTU02UTVHOEJ6S1Rkd2ZzWTlvemxBUXlOUkx6RXFicURKdmRWRFNlMnpCdW9hUXc?oc=5
-
-[50] Fed's Goolsbee says AI surge could strain US capacity, overheat economy - Yahoo - https://news.google.com/rss/articles/CBMif0FVX3lxTE5NWlBRbmxMcHVVZWsteVhpbWcyRncwX21MVjZLREpFZHhJU0RqVWx0eG1UMS1odm5GRHdqNm9GMDl5T3A4Ykl3WmYtSEdZUnJiYXppMHZVWlRDY1Y0TlJxTXJaYnB5SzdCcUVaMEtRaXdpMXljeGlVWmtRQ3JfajA?oc=5
-
-[52] Fed’s Goolsbee Says All Options on FOMC Table Amid Hot Inflation - Bloomberg - https://news.google.com/rss/articles/CBMitgFBVV95cUxQNXR0LTlxSDlZclBKRURtajdwUHZPcUhwcHhvNC1zYi1NWVhkamc2QURJYmNjWW1UcjlPSmNCVTBqX2ZXRjc0Z3p4NU5nQWJzYk5CZzd6RGFlOFdQTmxrZDlIOEdIdGNBQVV6R1FTcUgta3ZWakpoMFV2QkVOSHJHYkMtRVAyNjAtT0NMVVhuUDhTcTBQc0FtekRWRTRqVWE4aDlvM09mUDJkR3FDRVhCXzBkaV8ydw?oc=5
-
-[53] PDD Holdings Announces Third Quarter 2026 Unaudited Financial Results - Yahoo Finance - https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-announces-third-quarter-113000717.html?.tsrc=rss
-
-[56] PDD Beats On Earnings As Marketing Cuts Mask A Stalled Top Line - Finviz - https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY3BvWHRQSHdBSHF6ekdBVFdCT2NWTEU0V2EtbFVfV3NiV3hOcmNib3FnZDFoTjNONnF0anN0UHpnYXN4UzhFUWcya2JKMWI2Zm96QTRTQXd3YTRlVW80SHBtTWxSWVZlSVdQZno2ZWthWTg5OFNmYmdFU0RmdXd2TEZrVHZuRzFPSndTVmt0ZWxXQWZZeEdLamI2akhhRFdZekd3c3pHUlFhU2lEVGRaTEE3Q0xEejJLT3JpTU9Sb2xTTGxSS2FkTUstWC12M1B3aFc1cjhn?oc=5
-
-[74] Memory supply constraints will be even 'tighter' in 2027: Micron CTO - Yahoo Finance - https://news.google.com/rss/articles/CBMixwFBVV95cUxNM3JFMXQ2YlVvSGdVRXRLd0pPT05SQmVHNjI1R2dQMG1GeVVoeFNMeTJfYmNtbTdqaGxtZDJTdTlab2tBNGIzSXBMMi1DazdtX3dtWTNYclFZS1drQ2w3R0hxQWhvd2FyNzJJU3huQVpjd3EyNkI5NG1LMjNKUDJrOUN5aklPMDFXTjJwbnzeNFRqMFFxcDFYMnFNdUJ5WjlVV0VSc2xqbVIydlVlRHFocU5uRHVFTURFSlEyeUU1OHFQUnFqWXp3?oc=5
-
-[82] Alpha Compute Completes Asset Acquisitions for Alpha Energy 02 Campus - The Manila Times - https://news.google.com/rss/articles/CBMiqwJBVV95cUxNOXRudF_CVTBHcU1JM0tfXzBpZGZ0MXVEdTZKZ3NQcmpSZ081Wkh3Y2V1S0txeEFVcGIxeEJSeEI2enpwSWQyU2otdFNZQUlQcDBNS3BuckNTaFhkTFVWUGh3c2F4aDgzSDY2d1Jyd3c3bGZKdk83cGhaLXEyNUczRTBQUnNKVERndUFXRDl4eGkwUEFQa1VIRUxOSHVkZVZ2MlE3OHA0SHIzQzZPS0x2MUV6ZUZLcS1VbjcxTFYzU2hONVFNM3o1aG1VNjFFV3JtUDcxaXo4MDRwbTlVX0FvLU9sd2h5VVAyTGdoZ012SHdFLUlOUlEwbUpvaHZFZjBndXVlZ3ZLVHVReDFDQU5ESnlMNWNTdG1OOTFvdkV5M2RBWWZ1V2xsZFNJVdIBsAJBVV95cUxNQVN0dDkzbUxDb1ZqandSdzVZLUFNdDBiblRsbFQySFN6dzl6c25DeTlPc0JKSFVxWUR3U3BtVkJVa082MktNdDhqbWtxZF_VVzNJbmpoSlJpTkRsTGplZjFKTWlZemlJYnJ1eTMxVnkwQ3sbTU9URzN1bF_8TEsxUW8ySjR6MG1seExZNUcwNUpuZlVqaWZxYWRxaXZkVnVJQTZGeVVLVlU1OHdrZWtKVGVGaTR3eGNQNU02NjRxOE9welBUd0UtNDNRbzNSQTJOd2V0RWJXRmlWbVFGM0FCR3hFRXlQVUpNWDVmVkUwZWtnamt5N1FXQkpqRGE2b1QycF_biE9nZGcwRWE0WXhFbThNSW10SEZKY0xYa0lmYTRYMXN0ajlV?oc=5
-
-[84] PCB shortage could rival 2021 chip crisis, industry association warns - Evertiq - https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW96ejJSMmI3LVFKYzY4NlFNQXctOFE3OWZubFE3eF_hcS03NHF6cXdUcGxHQWNUWkoteXdMZ0VLdEpqTUpFWjY3YzE2ZVJVelRPQmMyZzdJMWxmRVBOcElIbDZhRmFiOC02MEh5MjBPQlNUZjJGVUJEeFVCcGNXQXpnVS1aSlYyX3ItdzNOQmZ5ai03Z1pjcTVpOURvZnZjRzhTU1ZiVQ?oc=5
-
-[85] Memory supply constraints will be even 'tighter' in 2027: Micron CTO - Yahoo Finance - https://news.google.com/rss/articles/CBMixwFBVV95cUxNM3JFMXQ2YlVvSGdVRXRLd0pPT05SQmVHNjI1R2dQMG1GeVVoeFNMeTJfYmNtbTdqaGxtZDJTdTlab2tBNGIzSXBMMi1DazdtX3dtWTNYclFZS1drQ2w3R0hxQWhvd2FyNzJJU3huQVpjd3EyNkI5NG1LMjNKUDJrOUN5aklPMDFXTjJwbnzeNFRqMFFxcDFYMnFNdUJ5WjlVV0VSc2xqbVIydlVlRHFocU5uRHVFTURFSlEyeUU1OHFQUnFqWXp3?oc=5
-
-[97] AI Chip Crunch Forces Apple into a Rare Five-Year Samsung Memory Deal Worth Billions - Android Headlines - https://news.google.com/rss/articles/CBMilwFBVV95cUxNLVdWcmRiYWV3MHF1TUJWLXhIeG5wZFh0bERrTkplMm80U3dIdURQTXRhbEZoQXZ2dWZ4NE5zNnZNeVdRTlkxOWNyWFRBNUdETzYtY1UtUW9nanJvcXI4dmRfbl_1NHF4TDE4OFBnRzhadzFqNi1jR054VjdPZnUyRHRsMHdZ?oc=5
-
-[100] Elon Musk Says Anthropic Wants To Rent An Additional 10 GW Of Compute From SpaceX - Wccftech - https://news.google.com/rss/articles/CBMingJBVV95cUxNZmo5LTRGUUJTWEFGbVQ2by1xcWx3djMtNXh2VjZ3aXJHRnVabnJicHpMclRHa0VqRmdxM0VYRmItdHduTnF1d2NNODBoMGFDel_KUkU0Sjl4Q1RXX2x3R1V2N0tNQS1KTTVSdS1qdUhBWkFNbW9mRVphODk2Q0NSRzZQZEVnS0HLSWHwAUFVX3lxTFBKVGRIdDVPalBIa1h1R0kxMHN5S0ZnNjdScFV2eGRjZHExX0xVWGZQRlR5NzFlVDBoVGgtYVdaQ0pLSFpyVkNRYzJfOHllb0xHZFRkZFp3ZV_EU0pMM0luQUxpTS13YnIyTi04YXNqWE5rSXA1b2d5RVl5N2kzSE5xUTVIYXNFa3NNenBIYXVfeU14WkFWRzVvTC1rMEhwZEs4blJpemI5elVHdXgtaFV3WFYtdVRUOW0tSk10ZEVRYTBRaUNjRjJFeWsyek5YRk5uMHNqZDQwTzk5RXZ0TTNJUXlqS2pFRFVhTm5uYnVOVkxRbGNCdC0wV1NRYVdPTlBkU3JBeTBwTk1GVXVSend4akc4NnE0OHdDNVpOYUpCc1R4VQ?oc=5
-
-[103] PCB shortage could rival 2021 chip crisis, industry association warns - Evertiq - https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW96ejJSMmI3LVFKYzY4NlFNQXctOFE3OWZubFE3eF_hcS03NHF6cXdUcGxHQWNUWkoteXdMZ0VLdEpqTUpFWjY3YzE2ZVJVelRPQmMyZzdJMWxmRVBOcElIbDZhRmFiOC02MEh5MjBPQlNUZjJGVUJEeFVCcGNXQXpnVS1aSlYyX3ItdzNOQmZ5ai03Z1pjcTVpOURvZnZjRzhTU1ZiVQ?oc=5
-
-[104] AI Chip Crunch Forces Apple into a Rare Five-Year Samsung Memory Deal Worth Billions - Android Headlines - https://news.google.com/rss/articles/CBMilwFBVV95cUxNLVdWcmRiYWV3MHF1TUJWLXhIeG5wZFh0bERrTkplMm80U3dIdURQTXRhbEZoQXZ2dWZ4NE5zNnZNeVdRTlkxOWNyWFRBNUdETzYtY1UtUW9nanJvcXI4dmRfbl_1NHF4TDE4OFBnRzhadzFqNi1jR054VjdPZnUyRHRsMHdZ?oc=5
+1. Palo Alto Networks (PANW) Stock Gets Fair Value Bump After Q1 Beat And Applied Compute - https://news.google.com/rss/articles/CBMimgFBVV95cUxQR24wR1d0WXdCRm9aTzRfVjc4NjM5MllOcXFvNnR1dno1UjVyNm5TckRpYkVta2dIal9VQy1oeWZSOTRWdXJYU0ZZOXg2ZzZsZnBMbXFmUzVzOEM4RHJWd213MUYxaV85VmlHUkRmeFh3VW1SU1ExcENDOHh5M29iZTZ4LXNHNVpCcDMzZVYzOHZieTREdnNhZjVR?oc=5
+2. CrowdStrike (CRWD) Stock Could Trade At A Premium Following Deal Talks - https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNWRJRVZSZHc5Nl9RenVzQW1HbEhpdGFqM3lqbTRZZHhvNWxiaEM0dVZEN0oxamo5M2p4UGJFRU9zUXQ5aXdHLS1JTXc4OXlIODVTNHBLZVM1ZDZOdlZucXdkTFpGOVk3bTU4N2pCU1FmVjVhNUlZX2hlZEZON0xfc3VlUElZYWZmcnR2UDRJQ2JhTlE1QU14d1NkMW83Z3l4Uk1QYm5QdDRuYTRZRHc3Y3BWSnJaOU81aGcxZWI2UUVOMHp3ZZEWcG0wS1hwbnpreFMzeGx30gHbAUFVX3lxTE90NVZGV2VXUEZ1ZGctUi1iZzl6QWoxcXVpcXhlNjZ5UDNlRzBtLWZ4SjEzUV9aSS1VdzdPMTgwQVdYYTE5SlZCVzFCN3VsSnJjQl94dUpjMzZwdkZDdWJRN3dldUZ0dk85YzdxbnhqcGtJaGNjSmJDVjkwYWxueUl0Qk4teUNNNVN6TlJBclhtdFA1VjFXWWFmcEExSGk3X3l1QnREWjczU185eVBQemdVdEFuWjUyd0RvdzFWOGtyVVlfNHBPWkc5blJIYnlCbVF3cThtOXBEOEduZw?oc=5
+3. Key deals this week: PANW, FANG, ZS, LLY, and more (ZS:NASDAQ) - https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcUszTHBJZU94bTByaXFoZ0RwaHpMVWV1MDVSMUpTRlZaN0tSdUlOdnd6dHBicXlmSzQ3QTd4RmRZWGlHX19SSW1QZEs4bWpYQzFsTkJ5OTZtajhkY3NTNUM5MFdWQmJQZjVwZzk3ZF94dzNlQ3I3Z0tqZWZEYUdyY1BvQ0VWLUZ5cndB?oc=5
+4. The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week - https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeHdKb2xlWUpZOFpBa0xLcU9BMVdUQ1hTWlhDYUI2Qi1mczgzWTh5ejFjOV9QaVUtTzBZZGhBTy1VaTJ0NEZlVVRkY0s5b1FTcm5TYVgtOWctSi1GWGQ1ZHRPemkxemd3bno4SmU2REx5anFoemFJTUZJcXA2YjEwR09JN1B1bTNjSnFYdHNQZUpDaHVrdW1NMTBzemFndTg4QklaeURsTWthc2o2OUdEckZIbUw0X0EwQnV0cXpRbms2QkdIWjloNmQzQjRqbkhkS2p1WjhB?oc=5
+5. CoreWeave Crashed: AI Reset Meets Durable & Diversified Compute Demand (NASDAQ:CRWV) - https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVJBa0RRcWZhb2xmaExqbnNxaUZkYjVNUV8zbkNidkMyRzlTN1VsdWkwZjdDQVhYZzlfUnRSNGg4TWN1ZlZNcDY0OThpS1cwSnlFeXNOTF9OVW5BMFBjaTRGR3FEWXVxU09SWXNGR0kxaEJqWklwZW83cF92cGJfb1FHb1hHUjlWWUpQTmhUdWpIcEhUcmZpSy1WTXRDbng1RGNIQTV6WU5uOGl4TVNvRUpR?oc=5
+6. Alibaba’s AI Cloud Revenue Jumped 53%. The Problem? Free Cash Flow. - https://www.tikr.com/blog/alibabas-ai-cloud-revenue-jumped-53-the-problem-free-cash-flow?ref=yahoofinance&tlnk=yf-261121-v738h922&.tsrc=rss
+7. AST SpaceMobile: Launch Issues, But Most Likely Delays Rather Than Complete Breakdowns - https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSUJheVBheUN1b282OEtya20zNkFZMHR4aEczTTd6bldWT2VrMXBjbkFVdGVkbHFvbUloX1l1Z0s5dEliMzVDcEM2T2tQczZfUFo1ZkFxR2puTUh6c0JkRlNpcFFHNmZLeUpRLWxUMEF5SU9RYlV1LTd6QTRCa0owSXBCVXB2TUVDNmpnUTd1dFhBaUFPZEV3cU1odWJlYUEyUDB4NS13ZWRNY2NKa2hidFpzaXRnLTRaT2xKUHB5c0JpYkU?oc=5
+8. D-Wave CEO: No Quantum Rival Has Produced “Even One Logical Qubit” - https://www.tikr.com/blog/d-wave-ceo-no-quantum-rival-has-produced-even-one-logical-qubit?ref=yahoofinance&tlnk=yf-261121-w6vfrgmw&.tsrc=rss
+9. 5 Most Overvalued AI Stocks According to Short Sellers - https://news.google.com/rss/articles/CBMilwFBVV95cUxQWUZqZGZKal9OdFRnanNrcldOMzBNVVJUNTNvbW4wdTJZVDVPbVpPd1YtOFpNdDBsMUtJUmNkMVh3MGU5U2Z5bXhVSHdBd2t4b1JiT1JaYlVMcGtSY0tDWHUtOVY0bWxtS1YtbnlwQXBqVTRKZW5vX2dtaU9MMkJlLUVKN2JkMkc1NTZRd05YTTcwSlVkUFdv?oc=5
+10. Bitcoin Eyes $38,770 as ETF Outflows and Liquidations Surge and the Fear and Greed Index Falls - https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcFBIR2h0enZtWXM3TTg3aWsxXzlOcTJLMVhBc2JLX3FXaUdIUnNRc3FwVlhXN1pTb0c3ckZyTzI0TThxaEZPRUNwMWc4OVRPbXZuVjhpa0ZGUUN4eEN2aGVTNktQREFmMC1oUGZ1d1BfZFF3TFFvUW90TlhNZFJoY3ZLU1FjZ3BPMDVMZTJkNVNVeTl4ZjJ5aTlhOUVwUmxZN3A1Wlg0UnNVbnB4RU5uVXRfR1BlazI5LTMzSExmTDhkVDR3SHkybHNTTkZBOGRySk1sekRn?oc=5
+11. Taiwan Semiconductor Manufacturing (NYSE:TSM) Pauses Advanced Chip Shipments To China - https://news.google.com/rss/articles/CBMipwFBVV95cUxNOGhIWnVaYlI5aFc1emtra29CdDBWS3J0dXVRTFZhQmdXNThUU2hUVXZBYWVLR2RpaHJEX1ZqNnJXTzQyWFJ4Q1BQN1dmeDlXVGxQTDZwTkNKbHlxWUFzT2VaZFFENXBwYjVyV2NCN1d2dVBmODA2MGVUdTk0UEJHcW9Mc2dJRHRTTUpJanI1dGR3dDMyNkVVM1QycU9iVzJ5VGVIUEpJWQ?oc=5
+12. Does Broadcom (AVGO) Have An AI Problem After A Major Customer Cut? - https://news.google.com/rss/articles/CBMizgFBVV95cUxONV9vWEIxR1dEM1ZnVHZkLXMtOHRiS1Z4SUIzVVhyWE5DVlZrS2dQOUh2YmlnSzhNZWZQRjZleTkyeEJJZDlpYkk5dU52b1BaTTBFQnNnZGxQVGlKRkNQdjl6Y2w1b0Q1MEpHWVZxS3JXVDREWWdKeE9nWlR4WV8zVjE0V25BYVJ6Y2ZYNEtBdzJrbC1qc3NsR1hOQUdlNEtUdkZFbDFhU1M4dHR5RHh2UF9GeXRRb2EwU0Z4V1JUSUloOTgtdl8ydEhUZmxVQdIB0wFBVV95cUxPcXBMZjAyN0FSdmFRWkFrY2xVYW9HOG1wNy00QVpzREZvZzVnOS05RjFmdzhaT29ZZ01OV2g3R3FjMEE5OHhPUE5qT1kwN1VKdE83ZTZrYlgwdV80Ukh4THlQazVpQXZYd2tqVFl6Z2o3V0piVG5BM25rS01JWEJpQ0tGcGtISk9sTWszZ2ZFYmVKaUtKSERaZ0VOc2tiMWNlRjRmQ2JhQ1RwT1hIMzBoX3l5Z1p2XzRjZ0RubHE0LWd3bTE3SU1fUFloS1FaVmpqeG5n?oc=5
+13. Oppenheimer’s $425 Target Says Marvell’s Selloff Went Too Far - https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDE5UEh4YThNV3lBY2EyRUVkeVpKVG93MDBfT3NEamJVVVRoTmctZ2lIdGVfZWVDOWRLRktMamYyd2g5ZTlWN2JDOVdYelZWRUlTTWxBbm5nT1hoTGk0Sm1MMEw2Z1B0a2d1S0h5T3ZlLWQyaVdUYzk4MnVaTXpyNkUwdEpCaHhEXzBXNEdR?oc=5
+14. Renaissance Technologies Grew Its SanDisk Stake More Than 55-Fold to $481 Million - https://247wallst.com/investing/2026/11/21/renaissance-technologies-grew-its-sandisk-stake-more-than-55-fold-to-481-million/?.tsrc=rss
+15. Cameco Sees Unusually High Options Volume (NYSE:CCJ) - https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3d3VmY2STEtVUw1ZktzWXE3ckJhSml2VHFnZjl1LXFETDB5WWdFQ3VBTFhVSTlYbTNkR29xZXduRGxMN0tBR04wWGRucEF5NUpRU1VLa3hycTBwdVdNZkZwT2Z6Nm9mM0xCUFdOeU01M2swV3BoMWVGVkVXVHFXQWpDMlE0UVlPVGpaOXVyZW9fNU5uamg3T1pmbjNLMFpXM2VGTmdNa0ZpSFhYZDFPTk53?oc=5
+16. 1 Compelling Reason to Buy Vistra Stock Before November Ends - https://www.fool.com/investing/2026/11/21/1-compelling-reason-to-buy-vistra-stock-before-november-ends/?.tsrc=rss
+17. 3 AI Infrastructure Stocks to Watch Before Broadcom Reports on Dec. 9 - https://247wallst.com/investing/2026/11/21/3-ai-infrastructure-stocks-to-watch-before-broadcom-reports-on-dec-9/?.tsrc=rss
+18. Clorox vs. Merck: 49 and 15 Straight Years of Raises. Which Dividend Pays You More in 10 Years? - https://www.tikr.com/blog/clorox-vs-merck-49-and-15-straight-years-of-raises-which-dividend-pays-you-more-in-10-years?ref=yahoofinancedividend&tlnk=yf-261121-r2f3mvjq&.tsrc=rss
+19. Apple: Shows Us How To Win Without Joining The AI Bubble - https://news.google.com/rss/articles/CBMinAFBVV95cUxNd3UzLTFqblRmSDdPeUl0bmV4TFc2dVdDSTZpT25DVldISy1qMFdKRWJBOUVvTlZjSG1mZWpxeVUxQ2lkSDkzckktWnp2S2ZXMDVORHVDbENFeGRVVENST01MZmtWM2ZRSmIwMlRGbzhSa1RmOHpQVThFZ3JZakdBOEhiLVZPbXJhZ0Nvc081elpUOTViM1I0N3lRQlU?oc=5
+20. ‘End of boom & AI euphoria’: Bank of America says money managers cut tech bets by the most since 2006. Are you ready? - https://finance.yahoo.com/markets/stocks/articles/end-boom-ai-euphoria-bank-122000896.html?.tsrc=rss
+21. Chip Stocks are Now Repeating What Happened in 2001 - https://247wallst.com/investing/2026/11/21/chip-stocks-are-now-repeating-what-happened-in-2001/?.tsrc=rss

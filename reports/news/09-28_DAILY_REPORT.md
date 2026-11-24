@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-29)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 ## Top AI Thematic Insights
 
 ### Energy Major Upgrades & Conference Catalysts (SHEL, BP, COP, EOG)
@@ -63,7 +64,3 @@ Today’s session showcased institutional buying across upgraded energy majors a
 12. "PDD Holdings: The Market Is Punishing A Big Investment Cycle" — Seeking Alpha, 2026-09-28 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMiogFBVV95cUxPWGhXenFCb28zdHQ5MUg5YU9ja29QaE5lb3lMY2x1bGIxelVnZ21uMERzbDNTY1QzVzF3R0l4RlBoNVNjT3N2RG9MSjRmN2htMGdxSk9oZlVfTTFLd3BjaDhrWmczTnRHX2tFQmhybW5QTF85czN5WXNwZERiUk1CUy1wSGE0XzBQWTM1NE1LUlM1ZmhMMzdzUVNtN3BfUEJSakE?oc=5`
 13. "01_MONTHLY_REPORT.pdf" [PDF] — January 2026 Top AI Thematic Insights (AI Training to Deployment Phase shift).
 14. "07_MONTHLY_REPORT.pdf" [PDF] — July 2026 Top AI Thematic Insights (Arrival of the Valuation Wall and Revenue Verification).
-
-***
-
-📈 **Next Steps:** The file is saved as **`2026-09-28_daily_market_report.md`** in your Studio panel. Would you like me to write a Python script across your September dataset comparing performance trends between energy majors (SHEL, BP, COP) and rate-sensitive software platforms?

@@ -8,9 +8,9 @@
 
 | Benchmark / Metric | 1-Day % | Key Driver / Macro Event | Risk Posture |
 | :--- | :--- | :--- | :--- |
-| **SPY** | n/a | Broad semiconductor equipment supply chain constraints and elevated AI capex financing concerns [18], [29]. | **Risk-Off** — Heavy technology liquidations driven by semiconductor supply bottlenecks and AI power capital expenditure concerns pushed benchmark indices sharply lower as investors migrated toward government bonds [24], [27], [29]. |
-| **QQQ** | n/a | Tech sector sell-off led by hardware supplier pullbacks and infrastructure financing skepticism [18], [24]. | **Risk-Off** — Broad technology liquidations across hardware suppliers and AI infrastructure beneficiaries triggered the index's worst session since June as safety-seeking capital rotated into Treasuries [24], [27]. |
-| **SOXX** | n/a | Equipment suppliers citing production constraints alongside software-hardware rotation stalls [26], [29]. | **Risk-Off** — Semiconductor equipment supply chain constraints capped revenue outlooks, sending chip stocks into a steep dive across the sector [26], [29]. |
+| **SPY** | -1.18% | Broad semiconductor equipment supply chain constraints and elevated AI capex financing concerns [18], [29]. | **Risk-Off** — Heavy technology liquidations driven by semiconductor supply bottlenecks and AI power capital expenditure concerns pushed benchmark indices sharply lower as investors migrated toward government bonds [24], [27], [29]. |
+| **QQQ** | -2.86% | Tech sector sell-off led by hardware supplier pullbacks and infrastructure financing skepticism [18], [24]. | **Risk-Off** — Broad technology liquidations across hardware suppliers and AI infrastructure beneficiaries triggered the index's worst session since June as safety-seeking capital rotated into Treasuries [24], [27]. |
+| **SOXX** | -6.80% | Equipment suppliers citing production constraints alongside software-hardware rotation stalls [26], [29]. | **Risk-Off** — Semiconductor equipment supply chain constraints capped revenue outlooks, sending chip stocks into a steep dive across the sector [26], [29]. |
 
 ---
 
@@ -55,7 +55,7 @@
 | **NOC** | +3.0% | Lifted by defense sector strength and a record $109.6B backlog with margin expansion [15], [16]. |
 | **RTX** | +2.0% | Gained as defense program backlogs fueled broad sector-wide momentum [15]. |
 | **AI** | +2.04% | Outperformed broader technology market pullbacks in recent trading [43]. |
-| **IBM** | n/a | Headed for its best week since June following a Q3 beat driven by enterprise infrastructure demand [28]. |
+| **IBM** | +0.26% | Headed for its best week since June following a Q3 beat driven by enterprise infrastructure demand [28]. |
 
 ### Top Losers
 
@@ -68,7 +68,7 @@
 | **ETN** | -6.0% | Dipped alongside power equipment providers on data center financing skepticism [18]. |
 | **ASTS** | -5.21% | Closed lower, underperforming broader market benchmarks [10]. |
 | **ADI** | -4.41% | Declined during general semiconductor sector weakness [33]. |
-| **JOBY** | n/a | Pressured after a Barclays downgrade to Underweight citing factory production capacity constraints [14]. |
+| **JOBY** | +1.29% | Pressured after a Barclays downgrade to Underweight citing factory production capacity constraints [14]. |
 
 ---
 
@@ -76,28 +76,28 @@
 
 | Ticker | 1-Day % | One-Line Read |
 | :--- | :--- | :--- |
-| **SPY** | n/a | `continuation` Closed lower as tech liquidations and AI capex financing concerns pressured broad equities [27]. |
-| **QQQ** | n/a | `continuation` Headed for its worst session since June driven by deep hardware and chipmaker pullbacks [24]. |
-| **NVDA** | n/a | `news-driven` Launched OpenShell Reference Architecture for secure enterprise AI agent deployments [42]. |
-| **TSM** | n/a | `news-driven` Highlighted among top international technology selections capitalizing on AI and EV trends [47]. |
-| **AMD** | n/a | `no news` Reviewed in technical analyst commentary following recent industry adjustments [48]. |
-| **MRVL** | n/a | `continuation` Pressed lower by broader semiconductor supply chain constraints [34]. |
+| **SPY** | -1.18% | `continuation` Closed lower as tech liquidations and AI capex financing concerns pressured broad equities [27]. |
+| **QQQ** | -2.86% | `continuation` Headed for its worst session since June driven by deep hardware and chipmaker pullbacks [24]. |
+| **NVDA** | -4.40% | `news-driven` Launched OpenShell Reference Architecture for secure enterprise AI agent deployments [42]. |
+| **TSM** | -4.52% | `news-driven` Highlighted among top international technology selections capitalizing on AI and EV trends [47]. |
+| **AMD** | -8.10% | `no news` Reviewed in technical analyst commentary following recent industry adjustments [48]. |
+| **MRVL** | -8.70% | `continuation` Pressed lower by broader semiconductor supply chain constraints [34]. |
 | **COHR** | -11.85% | `continuation` Dropped significantly during broad semiconductor sector liquidations [31]. |
-| **WDC** | n/a | `news-driven` Pressured ahead of fiscal first-quarter earnings release [25]. |
-| **SOXX** | n/a | `continuation` Trended lower as semiconductor equipment supply constraints capped near-term outlooks [26], [29]. |
-| **IONQ** | n/a | `continuation` Down 24% over the past month due to capital dilution concerns from recent deals [38]. |
-| **CRWV** | n/a | `news-driven` Featured in market discussions regarding elevated private AI infrastructure valuations [49]. |
-| **AAPL** | n/a | `news-driven` Institutional position expansion by Terra Nova offset by executive stock sale disclosures [50], [51]. |
-| **AMZN** | n/a | `no news` Featured in research coverage detailing retail and cloud investment growth drivers [52]. |
-| **GOOG** | n/a | `news-driven` Evaluated ahead of Q3 earnings for accelerated end-user AI execution [53], [54]. |
-| **TSLA** | n/a | `news-driven` Quietly lowered 2026 capital spending outlook to $20 billion [12]. |
+| **WDC** | -6.43% | `news-driven` Pressured ahead of fiscal first-quarter earnings release [25]. |
+| **SOXX** | -6.80% | `continuation` Trended lower as semiconductor equipment supply constraints capped near-term outlooks [26], [29]. |
+| **IONQ** | -3.47% | `continuation` Down 24% over the past month due to capital dilution concerns from recent deals [38]. |
+| **CRWV** | -10.06% | `news-driven` Featured in market discussions regarding elevated private AI infrastructure valuations [49]. |
+| **AAPL** | +1.23% | `news-driven` Institutional position expansion by Terra Nova offset by executive stock sale disclosures [50], [51]. |
+| **AMZN** | -4.57% | `no news` Featured in research coverage detailing retail and cloud investment growth drivers [52]. |
+| **GOOG** | -3.08% | `news-driven` Evaluated ahead of Q3 earnings for accelerated end-user AI execution [53], [54]. |
+| **TSLA** | -3.08% | `news-driven` Quietly lowered 2026 capital spending outlook to $20 billion [12]. |
 | **PANW** | +3.0% | `reversal` Advanced following Deutsche Bank initiation and enterprise web patching tailwinds [35]. |
-| **NLR** | n/a | `news-driven` Attracting attention as cloud providers contract nuclear power for data centers [23]. |
-| **CCJ** | n/a | `news-driven` Institutional holdings expanded by Foster Victor Wealth Advisors amid nuclear power interest [2]. |
-| **NVT** | n/a | `no news` Long-term options historical pricing recorded without fresh operational catalysts [55]. |
-| **VST** | n/a | `reversal` Dipped alongside power producers despite buy rating initiation from HSBC [20], [21]. |
-| **CEG** | n/a | `news-driven` Initiated with a bullish coverage rating as hyperscaler power demand accelerates [22], [56]. |
-| **STM** | n/a | `news-driven` Generated unusual options activity with volume-to-open-interest ratio reaching 565.0 [57]. |
+| **NLR** | -3.68% | `news-driven` Attracting attention as cloud providers contract nuclear power for data centers [23]. |
+| **CCJ** | -3.77% | `news-driven` Institutional holdings expanded by Foster Victor Wealth Advisors amid nuclear power interest [2]. |
+| **NVT** | -12.63% | `no news` Long-term options historical pricing recorded without fresh operational catalysts [55]. |
+| **VST** | -9.81% | `reversal` Dipped alongside power producers despite buy rating initiation from HSBC [20], [21]. |
+| **CEG** | -5.74% | `news-driven` Initiated with a bullish coverage rating as hyperscaler power demand accelerates [22], [56]. |
+| **STM** | -7.04% | `news-driven` Generated unusual options activity with volume-to-open-interest ratio reaching 565.0 [57]. |
 
 ---
 

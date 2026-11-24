@@ -2,6 +2,7 @@
 *(Generated via NotebookLM Integration on 2026-09-29)*
 > **[View Primary Active Reports Archive directly in NotebookLM](https://notebooklm.google.com/notebook/8bc24a30-b417-4a6e-acdf-1b5588c04bae)**
 
+
 ## Top AI Thematic Insights
 
 ### Macro Relief Rally: \$100 Crude Breakdown & Nasdaq's Historic 4-Year Run
@@ -54,7 +55,3 @@ Today’s session was defined by a strong broad-market tech rally as crude oil p
 6. "Stock Market News for Sep 22, 2026" — Yahoo Finance, 2026-09-22 Daily Market Feed. URL: `https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-22-133900165.html?.tsrc=rss`
 7. "Global Markets Rise as Oil Falls Below \$100 – Sept. 22" — stl.news, 2026-09-22 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMifEFVX3lxTE1tOTR5WEI1elNUT3hiazlpUnFISmJqNWQzcjcyTTRHcHFsTHFIMUlZc0o2NThCY1R6a3hUc3NTVnZoVjdhTmxHVHo0b0g3THFNRHNJX241MEg4MGxHd0JnN2ZEcFE0d2J2bExUc09USUM4ekJ6ZHdkdHUwTTA?oc=5`
 8. "QUICK SPARK: Nasdaq 100 on Track for Best 4-Year Rally Since 1999" — TradingView, 2026-09-22 Daily Market Feed. URL: `https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNFp6WjR2VktHN1_DOUJ1TmJaSGM3R2pWZjJoTmRldmxaSENaQk5UZEZDNHNjX042YzlzQmQ3T3UtdEZNNDZScmJjZTdSX3JoQVEteTkwbnlMSnRDcW1zQW9za3hJSlpKcFo5cFRLEWM0ZVJJSmJZYVpKZVNJN3BMRkctTm1mZHZaTFlmaGtjem9vRWJ0QWpFNE5ieXp1M3FjUVlKOGxhOEUzNVgxN3MxNm5qYXRqSjhUYWt0SHpybFE?oc=5`
-
-***
-
-📈 **Next Steps:** The report is published as **`2026-09-22_daily_market_report.md`** in your Studio panel. Would you like me to write a Python script to analyze the performance delta across your 2026 dataset between energy-secured neocloud operators (Nebius, IREN) and rate-sensitive enterprise software platforms?
