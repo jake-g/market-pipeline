@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-11-23 |
+| Date | str | 2026-11-24 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.3 |
-| Headline | str | SPY And Gold Fell Together. Did Bonds Save 60/40? |
-| Summary | str | Update, Nov 23: In Monday morning trading, SPY ... |
-| URL | str | https://www.trefis.com/stock/spy/articles/62755... |
+| Sentiment | float64 | 0.241 |
+| Headline | str | The New York Fed’s John Williams Won’t Rule Out... |
+| Summary | str | Williams gave a calm speech, then said somethin... |
+| URL | str | https://247wallst.com/investing/2026/11/24/the-... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News

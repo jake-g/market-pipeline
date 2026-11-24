@@ -12,29 +12,29 @@ This report monitors global maritime chokepoints (Strait of Hormuz, Malacca Stra
 ## Chokepoint Status
 | Chokepoint    |   Vessels |   Congestion Index |
 |---------------|-----------|--------------------|
-| Hormuz        |         2 |               0.03 |
-| Bab_el_Mandeb |        34 |               0.49 |
-| Suez_Canal    |        44 |               0.63 |
-| Panama_Canal  |        30 |               0.83 |
-| Taiwan_Strait |       223 |               1.01 |
-| Malacca       |       258 |               1.17 |
+| Hormuz        |         1 |               0.02 |
+| Bab_el_Mandeb |        20 |               0.29 |
+| Suez_Canal    |        33 |               0.47 |
+| Panama_Canal  |        25 |               0.69 |
+| Malacca       |       233 |               1.06 |
+| Taiwan_Strait |       240 |               1.09 |
 
-Data as of 2026-11-15
+Data as of 2026-11-22
 
 ## Major Port Calls (7-day avg vs prior 4 weeks)
 | Port                   | Country                  | Last Date   |   7d Avg Calls |   4w Avg Calls | Δ%     |   Container 7d |   Tanker 7d |
 |------------------------|--------------------------|-------------|----------------|----------------|--------|----------------|-------------|
-| Singapore              | Singapore                | 2026-11-13  |          121   |          116   | +4.3%  |           34.4 |        74.4 |
-| Rotterdam              | The Netherlands          | 2026-11-13  |           81.9 |           80.2 | +2.0%  |           18   |        41.1 |
-| Shanghai               | China                    | 2026-11-13  |           71.9 |           78.8 | -8.8%  |           27.7 |        13.9 |
-| Antwerp                | Belgium                  | 2026-11-13  |           57   |           53.8 | +6.0%  |           12.4 |        34   |
-| Ningbo                 | China                    | 2026-11-13  |           48.6 |           45.7 | +6.3%  |           28.3 |        11.1 |
-| Busan                  | Korea                    | 2026-11-13  |           46.6 |           47.3 | -1.6%  |           28.4 |         7.1 |
-| Kaohsiung              | Taiwan Province of China | 2026-11-13  |           28.7 |           27.1 | +5.9%  |           17.9 |         4.3 |
-| Houston (US-TX)        | United States            | 2026-11-13  |           22.4 |           20.9 | +7.4%  |            2.9 |        15   |
-| Hamburg                | Germany                  | 2026-11-13  |           16   |           16.6 | -3.4%  |            7   |         4   |
-| Los Angeles-Long Beach | United States            | 2026-11-13  |           10.6 |            9.8 | +8.0%  |            6.4 |         2   |
-| Jebel Ali              | United Arab Emirates     | 2026-11-13  |            5.9 |            4.7 | +25.2% |            2.3 |         1.1 |
+| Singapore              | Singapore                | 2026-11-20  |          117.7 |          117.1 | +0.5%  |           33.6 |        71.1 |
+| Rotterdam              | The Netherlands          | 2026-11-20  |           79.1 |           79.5 | -0.4%  |           17   |        42   |
+| Shanghai               | China                    | 2026-11-20  |           71.6 |           77.2 | -7.3%  |           30.4 |        11.9 |
+| Antwerp                | Belgium                  | 2026-11-20  |           56.1 |           53.6 | +4.8%  |           13   |        31.7 |
+| Ningbo                 | China                    | 2026-11-20  |           47.4 |           45.7 | +3.8%  |           29.1 |        10.6 |
+| Busan                  | Korea                    | 2026-11-20  |           45.3 |           46.5 | -2.5%  |           27.9 |         6.9 |
+| Kaohsiung              | Taiwan Province of China | 2026-11-20  |           26.9 |           26.8 | +0.3%  |           16.7 |         4   |
+| Houston (US-TX)        | United States            | 2026-11-20  |           19.6 |           21.5 | -9.0%  |            2.6 |        13.1 |
+| Hamburg                | Germany                  | 2026-11-20  |           18.3 |           16   | +14.0% |            9.4 |         4.3 |
+| Los Angeles-Long Beach | United States            | 2026-11-20  |            9   |           10   | -9.7%  |            4.3 |         2.6 |
+| Jebel Ali              | United Arab Emirates     | 2026-11-20  |            4.3 |            5   | -13.7% |            1.6 |         0.7 |
 
 Source: IMF PortWatch `Daily_Ports_Data` (`port_calls.tsv`).
 
