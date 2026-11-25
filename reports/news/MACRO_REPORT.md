@@ -1,6 +1,6 @@
 # Macroeconomic Regime Report
 
-*Generated 2026-11-24. All statistics are computed on
+*Generated 2026-11-25. All statistics are computed on
 native FRED observations (not the forward-filled daily grid); Δ columns are
 percentage changes for levels and percentage-point (pp) changes for rates,
 spreads and ratios.*
@@ -69,7 +69,7 @@ right rebases commodities and the dollar to 100 at the window start.
 | US02Y         |     4.63 | -0.16pp | +0.44pp | +1.08pp |    0.8 |       79 | →    | 2026-11-20 |
 | US10Y         |     4.92 | -0.20pp | +0.23pp | +0.82pp |    1.3 |       96 | →    | 2026-11-20 |
 | US30Y         |     5.31 | -0.11pp | +0.08pp | +0.58pp |    1.3 |       97 | →    | 2026-11-20 |
-| YC_10Y_2Y     |     0.29 | -0.04pp | -0.21pp | -0.26pp |    0.5 |       58 | ↓    | 2026-11-20 |
+| YC_10Y_2Y     |     0.29 | -0.04pp | -0.21pp | -0.26pp |    0.5 |       59 | ↓    | 2026-11-20 |
 | YC_30Y_10Y    |     0.39 | +0.09pp | -0.15pp | -0.24pp |    0.5 |       70 | ↓    | 2026-11-20 |
 | REAL_FEDFUNDS |    -0.2  | -0.23pp | -0.53pp | -1.27pp |    0.1 |       29 | ↓    | 2026-10-01 |
 
@@ -105,7 +105,7 @@ right rebases commodities and the dollar to 100 at the window start.
 | CORP_SPREAD            |  0.98        | +0.11pp | +0.16pp | +0.13pp |    1   |       83 | ↑    | 2026-11-20 |
 | ST_LOUIS_FIN_STRESS    | -0.87        | -0.15pp | -0.10pp | -0.55pp |   -1.2 |        4 | ↑    | 2026-11-13 |
 | KANSAS_CITY_FIN_STRESS | -0.89        | +0.10pp | -0.05pp | -0.35pp |   -1.3 |        3 | ↓    | 2026-10-01 |
-| FED_ASSETS             |  6.74145e+06 | -0.2%   | -0.3%   | +2.4%   |   -1   |       28 | →    | 2026-11-18 |
+| FED_ASSETS             |  6.74145e+06 | -0.2%   | -0.3%   | +2.4%   |   -0.9 |       28 | →    | 2026-11-18 |
 
 ### Commodities & FX
 | Indicator   |   Latest | Δ1M    | Δ3M   | Δ1Y    |   5Y Z |   5Y pct | 3M   | As of      |

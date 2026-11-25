@@ -22,12 +22,12 @@ This report documents the file structures and column data types used in `market_
 ### `news.tsv` - News Data (RSS + AlphaVantage Sentiment)
 | Column | Type | Example |
 |---|---|---|
-| Date | str | 2026-11-24 |
+| Date | str | 2026-11-25 |
 | Source | str | Yahoo |
-| Sentiment | float64 | 0.241 |
-| Headline | str | The New York Fed’s John Williams Won’t Rule Out... |
-| Summary | str | Williams gave a calm speech, then said somethin... |
-| URL | str | https://247wallst.com/investing/2026/11/24/the-... |
+| Sentiment | float64 | 0.052 |
+| Headline | str | Liberation Day Round 2.0? The Next Wave of Trum... |
+| Summary | str | Washington is reportedly readying tariffs on 16... |
+| URL | str | https://247wallst.com/investing/2026/11/25/libe... |
 
 ## 2. Topic Files (Example: `Data Center Power`)
 ### `news.tsv` - Topic News
