@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	-0.7562384
-SandP52WeekChange	0.0306139
+52WeekChange	-0.6915947
+SandP52WeekChange	0.06965685
 address1	55 Market Street
 address2	Level 5
 allTimeHigh	76.87
 allTimeLow	1.02
-ask	15.72
-askSize	2
+ask	13.92
+askSize	15
 auditRisk	10
 averageAnalystRating	1.5 - Buy
-averageDailyVolume10Day	89852660
-averageDailyVolume3Month	55649365
-averageVolume	55649365
-averageVolume10days	89852660
+averageDailyVolume10Day	93816070
+averageDailyVolume3Month	57103915
+averageVolume	57103915
+averageVolume10days	93816070
 beta	4.335
-bid	14.48
+bid	12.0
 bidSize	1
 boardRisk	6
 bookValue	12.574
@@ -26,12 +26,12 @@ corporateActions	[]
 country	Australia
 cryptoTradeable	False
 currency	USD
-currentPrice	14.64
+currentPrice	12.95
 currentRatio	1.596
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	15.995
-dayLow	14.415
+dayHigh	14.2
+dayLow	12.24
 debtToEquity	199.668
 displayName	IREN
 dividendYield	0.0
@@ -42,9 +42,9 @@ earningsTimestampEnd	1801774800
 earningsTimestampStart	1801774800
 ebitda	-30653000
 ebitdaMargins	-0.044099998
-enterpriseToEbitda	-381.982
-enterpriseToRevenue	16.847
-enterpriseValue	11708904448
+enterpriseToEbitda	-397.626
+enterpriseToRevenue	17.537
+enterpriseValue	12188428288
 epsCurrentYear	-1.66
 epsForward	0.27
 epsTrailingTwelveMonths	-4.08
@@ -54,35 +54,35 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	31.0317
-fiftyDayAverageChange	-16.3917
-fiftyDayAverageChangePercent	-0.5282244
-fiftyTwoWeekChangePercent	-75.62384
+fiftyDayAverage	30.4611
+fiftyDayAverageChange	-17.5111
+fiftyDayAverageChangePercent	-0.57486767
+fiftyTwoWeekChangePercent	-69.15947
 fiftyTwoWeekHigh	70.707
-fiftyTwoWeekHighChange	-56.067
-fiftyTwoWeekHighChangePercent	-0.79294837
+fiftyTwoWeekHighChange	-57.757
+fiftyTwoWeekHighChangePercent	-0.8168498
 fiftyTwoWeekLow	11.75
-fiftyTwoWeekLowChange	2.8900003
-fiftyTwoWeekLowChangePercent	0.24595748
+fiftyTwoWeekLowChange	1.1999998
+fiftyTwoWeekLowChangePercent	0.10212764
 fiftyTwoWeekRange	11.75 - 70.707
 financialCurrency	USD
 firstTradeDateMilliseconds	1637159400000
 floatShares	383241394
 forwardEps	0.27
-forwardPE	54.22222
+forwardPE	47.96296
 freeCashflow	-8780918784
 fullExchangeName	NasdaqGS
 fullTimeEmployees	685
-fulldayChange	3.2224007
-fulldayChangePercent	27.262272
-fulldayPrice	15.0424
+fulldayChange	-1.9300003
+fulldayChangePercent	-13.183062
+fulldayPrice	12.71
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 grossMargins	0.73424006
 grossProfits	510300992
 hasPrePostMarketData	True
 heldPercentInsiders	0.06526
-heldPercentInstitutions	0.61521
+heldPercentInstitutions	0.65904
 impliedSharesOutstanding	424357381
 industry	Capital Markets
 industryDisp	Capital Markets
@@ -95,33 +95,33 @@ lastFiscalYearEnd	1782777600
 longBusinessSummary	IREN Limited operates as a vertically integrated AI cloud services platform in Australia and Canada. It develops, owns, and operates data centers, including the associated land, grid connections, and substations, as well as buildings and cooling. The company also owns and operates compute layers, such as GPUs, CPUs, storage, servers, and networking deployed within that data center infrastructure; and software layers comprising managed services and enterprise support that enables customers to deploy, operate, and manage AI workloads. In addition, it is involved in Bitcoin mining. Further, its division IREN Europe operates a planned AI data center in Badajoz, Spain that deliver approximately 300MW of capacity, including managed services to customers seeking greater choice over where their AI workloads run and how their data and infrastructure are managed in Europe. The company was formerly known as Iris Energy Limited and changed its name to IREN Limited in November 2024. IREN Limited was incorporated in 2018 and is based in Sydney, Australia.
 longName	IREN Limited
 market	us_market
-marketCap	6212592128
+marketCap	5495428096
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_706254871
 mostRecentQuarter	1790726400
-nameChangeDate	2026-11-23
+nameChangeDate	2026-11-24
 netIncomeToCommon	-1350621056
 nextFiscalYearEnd	1814313600
 nonDilutedMarketCap	5015904243
 numberOfAnalystOpinions	19
-open	14.815
+open	14.075
 operatingCashflow	2487418112
 operatingMargins	-0.72913
 overallRisk	10
 payoutRatio	0.0
 pegRatio	3.11
 phone	61 2 7906 8301
-postMarketChange	0.40240002
-postMarketChangePercent	2.7486339
-postMarketPrice	15.0424
-postMarketTime	1795475130
+postMarketChange	-0.23999977
+postMarketChangePercent	-1.8532801
+postMarketPrice	12.71
+postMarketTime	1795567113
 prevName	Iris Energy Limited
-previousClose	11.82
-priceEpsCurrentYear	-8.819278
+previousClose	14.64
+priceEpsCurrentYear	-7.8012047
 priceHint	2
-priceToBook	1.1643072
-priceToSalesTrailing12Months	8.938891
+priceToBook	1.0299029
+priceToSalesTrailing12Months	7.9070115
 profitMargins	-1.94332
 quickRatio	0.981
 quoteSourceName	Nasdaq Real Time Price
@@ -129,16 +129,16 @@ quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.55
 region	US
-regularMarketChange	2.8200006
-regularMarketChangePercent	23.857874
-regularMarketDayHigh	15.995
-regularMarketDayLow	14.415
-regularMarketDayRange	14.415 - 15.995
-regularMarketOpen	14.815
-regularMarketPreviousClose	11.82
-regularMarketPrice	14.64
-regularMarketTime	1795467601
-regularMarketVolume	124604189
+regularMarketChange	-1.6900005
+regularMarketChangePercent	-11.543719
+regularMarketDayHigh	14.2
+regularMarketDayLow	12.24
+regularMarketDayRange	12.24 - 14.2
+regularMarketOpen	14.075
+regularMarketPreviousClose	14.64
+regularMarketPrice	12.95
+regularMarketTime	1795554001
+regularMarketVolume	79855831
 returnOnAssets	-0.02546
 returnOnEquity	-0.33799
 revenueGrowth	-0.05
@@ -173,10 +173,10 @@ trailingEps	-4.08
 trailingPE	54.81818
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	41.727776
-twoHundredDayAverageChange	-27.087776
-twoHundredDayAverageChangePercent	-0.64915454
+twoHundredDayAverage	41.591824
+twoHundredDayAverageChange	-28.641823
+twoHundredDayAverageChangePercent	-0.6886407
 typeDisp	Equity
-volume	124604189
+volume	79855831
 website	https://iren.com
 zip	2000

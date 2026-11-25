@@ -1,19 +1,19 @@
 Metric	Value
-52WeekChange	-0.08500564
-SandP52WeekChange	0.0306139
+52WeekChange	-0.09807551
+SandP52WeekChange	0.06965685
 address1	548 Market St
 address2	PMB 90375
 allTimeHigh	115.1
 allTimeLow	83.05
-ask	86.45
+ask	81.95
 askSize	1
-averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	628436850
-averageDailyVolume3Month	628436850
-averageVolume	628436850
-averageVolume10days	628436850
-bid	87.1
-bidSize	50
+averageAnalystRating	1.5 - Buy
+averageDailyVolume10Day	503798933
+averageDailyVolume3Month	503798933
+averageVolume	503798933
+averageVolume10days	503798933
+bid	81.3
+bidSize	10
 bookValue	-68.142
 city	San Francisco
 companyOfficers	[{'maxAge': 1, 'name': 'Ms. Daniela  Amodei', 'age': 38, 'title': 'Co-Founder, President & Chairperson of the board', 'yearBorn': 1987, 'fiscalYear': 2025, 'totalPay': 3115508, 'exercisedValue': 0, 'unexercisedValue': 13901591}, {'maxAge': 1, 'name': 'Dr. Dario  Amodei', 'age': 42, 'title': 'Co-Founder, CEO & Director', 'yearBorn': 1983, 'fiscalYear': 2025, 'totalPay': 4664808, 'exercisedValue': 0, 'unexercisedValue': 13901591}, {'maxAge': 1, 'name': 'Mr. Krishna  Rao', 'age': 42, 'title': 'Chief Financial Officer', 'yearBorn': 1983, 'fiscalYear': 2025, 'totalPay': 720250, 'exercisedValue': 385285, 'unexercisedValue': 94173888}, {'maxAge': 1, 'name': 'Mr. Tom  Brown', 'title': 'Co-Founder & Chief Compute Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Jared  Kaplan', 'title': 'Co-Founder & Chief Science Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Sam  McCandlish', 'title': 'Co-Founder & Chief Architect', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Christopher  Olah', 'title': 'Co-Founder & Interpretability Research Lead', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jack  Clark', 'title': 'Co-Founder & Head of Public Benefit', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rahul  Patil', 'title': 'Chief Technology Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Vitaly  Gudanets', 'age': 52, 'title': 'Chief Information & Security Officer', 'yearBorn': 1973, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]
@@ -22,48 +22,48 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	87.64
+currentPrice	81.905
 currentRatio	12.083
 customPriceAlertConfidence	HIGH
-dayHigh	94.24
-dayLow	84.62
+dayHigh	83.49
+dayLow	75.61
 debtToEquity	1767.527
 dividendYield	0.0
 ebitda	-3848000000
 ebitdaMargins	-0.109060004
-enterpriseToEbitda	-92.568
-enterpriseToRevenue	10.096
-enterpriseValue	356202414080
-epsCurrentYear	0.55
-epsForward	0.289
-epsTrailingTwelveMonths	-37.98
+enterpriseToEbitda	-88.564
+enterpriseToRevenue	9.659
+enterpriseValue	340795392000
+epsCurrentYear	0.58375
+epsForward	0.51231
+epsTrailingTwelveMonths	-9.49
 esgPopulated	False
 exchange	NMS
 exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	93.04
-fiftyDayAverageChange	-5.4000015
-fiftyDayAverageChangePercent	-0.05803957
-fiftyTwoWeekChangePercent	-8.500565
+fiftyDayAverage	91.24
+fiftyDayAverageChange	-9.334999
+fiftyDayAverageChangePercent	-0.10231257
+fiftyTwoWeekChangePercent	-9.80755
 fiftyTwoWeekHigh	115.1
-fiftyTwoWeekHighChange	-27.46
-fiftyTwoWeekHighChangePercent	-0.23857515
-fiftyTwoWeekLow	83.05
-fiftyTwoWeekLowChange	4.5899963
-fiftyTwoWeekLowChangePercent	0.055267863
-fiftyTwoWeekRange	83.05 - 115.1
+fiftyTwoWeekHighChange	-33.195
+fiftyTwoWeekHighChangePercent	-0.2884014
+fiftyTwoWeekLow	75.61
+fiftyTwoWeekLowChange	6.294998
+fiftyTwoWeekLowChangePercent	0.083256155
+fiftyTwoWeekRange	75.61 - 115.1
 financialCurrency	USD
 firstTradeDateMilliseconds	1795098600000
 floatShares	179319609
-forwardEps	0.289
-forwardPE	303.2526
+forwardEps	0.51231
+forwardPE	159.87389
 fullExchangeName	NasdaqGS
 fullTimeEmployees	5300
-fulldayChange	-1.4567032
-fulldayChangePercent	-1.6384019
-fulldayPrice	87.4533
+fulldayChange	-8.07
+fulldayChangePercent	-9.208124
+fulldayPrice	79.57
 gmtOffSetMilliseconds	-18000000
 grossMargins	0.22261
 grossProfits	7854000128
@@ -81,7 +81,7 @@ lastFiscalYearEnd	1767139200
 longBusinessSummary	Anthropic, PBC develops and maintains advanced artificial intelligence (AI) models in the United States and internationally. The company's Claude Platform lets developers and businesses build, manage, and deploy agentic AI applications on infrastructure. Its direct applications and integrations include Claude Code, a coding agent that handles multi-step software development tasks; Claude Cowork, a work agent that has computer-use capability and enables it to work with professionals on end-to-end business tasks; Claude.ai, a conversational product for enterprises, teams, and individuals; Claude Security, a defensive cybersecurity product; Claude Duet, a proactive agent that monitors connected applications, provide daily briefings, perform tasks, and builds web applications while operating on a cloud-based virtual machine; Claude Tag, a collaborative agent that works alongside teams in productivity tools; Claude Design, which enables users to create polished designs, prototypes, presentations, and other visual work through natural language conversation and direct editing; and Claude Science, an AI workbench for scientific research that brings literature analysis, data processing, and manuscript preparation into a single desktop environment. The company serves financial services, healthcare, life sciences, law, and education industries. Anthropic, PBC was incorporated in 2021 and is based in San Francisco, California.
 longName	Anthropic, PBC Class A Common Stock
 market	us_market
-marketCap	1171452592128
+marketCap	1094794870784
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_716923717
@@ -89,38 +89,38 @@ mostRecentQuarter	1790726400
 netIncomeToCommon	-120897003520
 newListingDate	2026-11-19
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	1175358394580
-numberOfAnalystOpinions	9
-open	93.69
+nonDilutedMarketCap	1171452528892
+numberOfAnalystOpinions	14
+open	83.44
 operatingCashflow	5955999744
 operatingMargins	-0.11609
 phone	415 326 6303
-postMarketChange	-0.18669891
-postMarketChangePercent	-0.21302934
-postMarketPrice	87.4533
-postMarketTime	1795475067
-previousClose	88.91
-priceEpsCurrentYear	159.34544
+postMarketChange	-2.334999
+postMarketChangePercent	-2.8508627
+postMarketPrice	79.57
+postMarketTime	1795567072
+previousClose	87.64
+priceEpsCurrentYear	140.30835
 priceHint	2
-priceToBook	-1.2861378
-priceToSalesTrailing12Months	33.202553
+priceToBook	-1.2019753
+priceToSalesTrailing12Months	31.02984
 profitMargins	0.0
 quickRatio	11.973
 quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
-recommendationMean	1.7
+recommendationMean	1.53846
 region	US
-regularMarketChange	-1.2700043
-regularMarketChangePercent	-1.4284155
-regularMarketDayHigh	94.24
-regularMarketDayLow	84.62
-regularMarketDayRange	84.62 - 94.24
-regularMarketOpen	93.69
-regularMarketPreviousClose	88.91
-regularMarketPrice	87.64
-regularMarketTime	1795467601
-regularMarketVolume	253330731
+regularMarketChange	-5.7350006
+regularMarketChangePercent	-6.5438166
+regularMarketDayHigh	83.49
+regularMarketDayLow	75.61
+regularMarketDayRange	75.61 - 83.49
+regularMarketOpen	83.44
+regularMarketPreviousClose	87.64
+regularMarketPrice	81.905
+regularMarketTime	1795554001
+regularMarketVolume	311641596
 revenueGrowth	11.269
 revenuePerShare	17.435
 sector	Technology
@@ -131,11 +131,11 @@ shortName	Anthropic, PBC
 sourceInterval	15
 state	CA
 symbol	ANT
-syntheticPEG	0.2691033809566066
-targetHighPrice	155.0
+syntheticPEG	0.14187052089803884
+targetHighPrice	300.0
 targetLowPrice	92.0
-targetMeanPrice	118.17333
-targetMedianPrice	111.0
+targetMeanPrice	136.32571
+targetMedianPrice	130.0
 totalCash	131844997120
 totalCashPerShare	59.945
 totalDebt	134985998336
@@ -143,13 +143,13 @@ totalRevenue	35282001920
 tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
-trailingEps	-37.98
+trailingEps	-9.49
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	93.04
-twoHundredDayAverageChange	-5.4000015
-twoHundredDayAverageChangePercent	-0.05803957
+twoHundredDayAverage	91.24
+twoHundredDayAverageChange	-9.334999
+twoHundredDayAverageChangePercent	-0.10231257
 typeDisp	Equity
-volume	253330731
+volume	311641596
 website	https://www.anthropic.com
 zip	94104

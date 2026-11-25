@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.09985173
-SandP52WeekChange	0.0306139
+52WeekChange	0.15504014
+SandP52WeekChange	0.06965685
 address1	7310 North 16th St
 address2	Suite 135
 allTimeHigh	218.59406
 allTimeLow	1.298494
-ask	143.74
-askSize	100
+ask	136.94
+askSize	300
 auditRisk	8
 averageAnalystRating	3.7 - Underperform
-averageDailyVolume10Day	1303920
-averageDailyVolume3Month	1175094
-averageVolume	1175094
-averageVolume10days	1303920
+averageDailyVolume10Day	1407510
+averageDailyVolume3Month	1188655
+averageVolume	1188655
+averageVolume10days	1407510
 beta	1.155
-bid	137.01
-bidSize	200
+bid	136.78
+bidSize	100
 boardRisk	10
 bookValue	15.367
 city	Phoenix
@@ -26,18 +26,18 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	143.32
+currentPrice	136.85
 currentRatio	4.312
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	146.28
-dayLow	140.71
+dayHigh	139.76
+dayLow	133.95
 debtToEquity	63.237
-discount_to_intrinsic_value	63.52
+discount_to_intrinsic_value	65.17
 displayName	Southern Copper
 dividendDate	1795046400
 dividendRate	5.2
-dividendYield	3.88
+dividendYield	3.63
 earningsCallTimestampEnd	1792681200
 earningsCallTimestampStart	1792681200
 earningsGrowth	0.627
@@ -46,10 +46,10 @@ earningsTimestampEnd	1800997200
 earningsTimestampStart	1800997200
 ebitda	10974900224
 ebitdaMargins	0.64155
-enterpriseToEbitda	10.476
-enterpriseToRevenue	6.721
-enterpriseValue	114971672576
-epsCurrentYear	7.92896
+enterpriseToEbitda	10.696
+enterpriseToRevenue	6.862
+enterpriseValue	117386485760
+epsCurrentYear	7.94665
 epsForward	7.55605
 epsTrailingTwelveMonths	7.51
 eps_normalized_growth	0.6687612668825429
@@ -61,29 +61,29 @@ exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
 fax	602 264 1397
-fiftyDayAverage	186.1842
-fiftyDayAverageChange	-42.864197
-fiftyDayAverageChangePercent	-0.23022467
-fiftyTwoWeekChangePercent	9.985172
+fiftyDayAverage	185.3209
+fiftyDayAverageChange	-48.4709
+fiftyDayAverageChangePercent	-0.26155117
+fiftyTwoWeekChangePercent	15.504015
 fiftyTwoWeekHigh	218.59406
-fiftyTwoWeekHighChange	-75.27405
-fiftyTwoWeekHighChangePercent	-0.34435543
-fiftyTwoWeekLow	119.52721
-fiftyTwoWeekLowChange	23.7928
-fiftyTwoWeekLowChangePercent	0.19905762
-fiftyTwoWeekRange	119.52721 - 218.59406
+fiftyTwoWeekHighChange	-81.74405
+fiftyTwoWeekHighChangePercent	-0.37395367
+fiftyTwoWeekLow	122.79455
+fiftyTwoWeekLowChange	14.055458
+fiftyTwoWeekLowChangePercent	0.11446321
+fiftyTwoWeekRange	122.79455 - 218.59406
 financialCurrency	USD
 firstTradeDateMilliseconds	820852200000
-fiveYearAvgDividendYield	3.17
+fiveYearAvgDividendYield	3.16
 floatShares	93998790
 forwardEps	7.55605
-forwardPE	18.967585
+forwardPE	18.111317
 freeCashflow	5579449856
 fullExchangeName	NYSE
 fullTimeEmployees	16617
-fulldayChange	9.479996
-fulldayChangePercent	7.073568
-fulldayPrice	143.5
+fulldayChange	-6.470001
+fulldayChangePercent	-4.5143743
+fulldayPrice	136.85
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 graham_intrinsic_value	392.9
@@ -98,7 +98,7 @@ industryDisp	Copper
 industryKey	copper
 irWebsite	http://www.southerncoppercorp.com/ENG/invrel/Pages/Home.aspx
 isCMEFuture	False
-isEarningsDateEstimate	True
+isEarningsDateEstimate	False
 language	en-US
 lastDividendDate	1786406400
 lastDividendValue	1.076238
@@ -108,7 +108,7 @@ lastSplitFactor	101:100
 longBusinessSummary	Southern Copper Corporation engages in mining, exploring, smelting, and refining copper and other minerals in Mexico, the United States, Peru, Brazil, Chile, and Other American countries. The company is involved in the mining, milling, and flotation of copper ore to produce copper and molybdenum concentrates; smelting of copper concentrates to produce blister and anode copper; refining of anode copper to produce copper cathodes; production of copper-molybdenum concentrates and sulfuric acid; production of refined silver, gold, and other materials; and mining and processing of copper, molybdenum, zinc, silver, gold and lead. It operates the Toquepala and Cuajone open-pit mines, smelter, and refinery in Peru; La Caridad, an open-pit copper mine, as well as copper ore concentrator; and SX-EW plant, a smelter, refinery, and rod plant in Mexico. The company also operates Buenavista, an open-pit copper mine, as well as copper concentrators and operating SX-EW plants in Mexico. In addition, it operates underground mines that produce zinc, lead, copper, silver, and gold; coal mine; and zinc refinery. The company has interests in 164,805 hectares and 505,788 hectares of concessions in Peru and Mexico; and 98,634 hectares and 28,453 hectares of exploration concessions in Argentina and Chile. Southern Copper Corporation was formerly known as Southern Peru Copper Corp. and changed its name to Southern Copper Corporation in July 1996. The company was incorporated in 1952 and is based in Phoenix, Arizona. Southern Copper Corporation operates as a subsidiary of Americas Mining Corporation.
 longName	Southern Copper Corporation
 market	us_market
-marketCap	122294001664
+marketCap	116773191680
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_350405
@@ -117,22 +117,22 @@ netIncomeToCommon	6356499968
 nextFiscalYearEnd	1798675200
 nonDilutedMarketCap	114358368736
 numberOfAnalystOpinions	17
-open	141.44
+open	136.6575
 operatingCashflow	7401600000
 operatingMargins	0.58626
 overallRisk	7
 payoutRatio	0.5243
 pegRatio	5.41
 phone	602 264 1375
-postMarketChange	0.17999268
-postMarketChangePercent	0.12558796
-postMarketPrice	143.5
-postMarketTime	1795470859
-previousClose	134.02
-priceEpsCurrentYear	18.075512
+postMarketChange	0.0
+postMarketChangePercent	0.0
+postMarketPrice	136.85
+postMarketTime	1795555139
+previousClose	143.32
+priceEpsCurrentYear	17.221094
 priceHint	2
-priceToBook	9.32648
-priceToSalesTrailing12Months	7.1488533
+priceToBook	8.905447
+priceToSalesTrailing12Months	6.826127
 profitMargins	0.37158
 quickRatio	3.82
 quoteSourceName	Delayed Quote
@@ -140,16 +140,16 @@ quoteType	EQUITY
 recommendationKey	underperform
 recommendationMean	3.66667
 region	US
-regularMarketChange	9.3
-regularMarketChangePercent	6.93927
-regularMarketDayHigh	146.28
-regularMarketDayLow	140.71
-regularMarketDayRange	140.71 - 146.28
-regularMarketOpen	141.44
-regularMarketPreviousClose	134.02
-regularMarketPrice	143.32
-regularMarketTime	1795467602
-regularMarketVolume	1902198
+regularMarketChange	-6.47
+regularMarketChangePercent	-4.51437
+regularMarketDayHigh	139.76
+regularMarketDayLow	133.95
+regularMarketDayRange	133.95 - 139.76
+regularMarketOpen	136.6575
+regularMarketPreviousClose	143.32
+regularMarketPrice	136.85
+regularMarketTime	1795554002
+regularMarketVolume	1572535
 returnOnAssets	0.27290002
 returnOnEquity	0.52876997
 revenueGrowth	0.391
@@ -171,23 +171,23 @@ state	AZ
 symbol	SCCO
 targetHighPrice	272.11557
 targetLowPrice	143.47913
-targetMeanPrice	177.77461
-targetMedianPrice	172.17496
+targetMeanPrice	175.77461
+targetMedianPrice	169.70117
 totalCash	8062900224
 totalCashPerShare	9.449
 totalDebt	8597499904
 totalRevenue	17106799616
 tradeable	False
 trailingAnnualDividendRate	3.803
-trailingAnnualDividendYield	0.028376361
+trailingAnnualDividendYield	0.026535025
 trailingEps	7.51
-trailingPE	19.083889
+trailingPE	18.22237
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	183.23003
-twoHundredDayAverageChange	-39.91002
-twoHundredDayAverageChangePercent	-0.21781375
+twoHundredDayAverage	182.98544
+twoHundredDayAverageChange	-46.135437
+twoHundredDayAverageChangePercent	-0.25212628
 typeDisp	Equity
-volume	1902198
+volume	1572535
 website	https://www.southerncoppercorp.com
 zip	85020

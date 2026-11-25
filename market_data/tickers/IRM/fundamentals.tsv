@@ -1,21 +1,21 @@
 Metric	Value
-52WeekChange	0.20642042
-SandP52WeekChange	0.0306139
+52WeekChange	0.25250995
+SandP52WeekChange	0.06965685
 address1	85 New Hampshire Avenue
 address2	Suite 150
 allTimeHigh	134.68
 allTimeLow	2.510212
-ask	107.74
-askSize	400
+ask	106.25
+askSize	100
 auditRisk	1
 averageAnalystRating	1.7 - Buy
-averageDailyVolume10Day	1537510
-averageDailyVolume3Month	1574543
-averageVolume	1574543
-averageVolume10days	1537510
+averageDailyVolume10Day	1501250
+averageDailyVolume3Month	1577559
+averageVolume	1577559
+averageVolume10days	1501250
 beta	1.2
-bid	107.57
-bidSize	100
+bid	106.0
+bidSize	200
 boardRisk	3
 bookValue	-4.662
 city	Portsmouth
@@ -26,29 +26,29 @@ corporateActions	[{'header': 'Dividend', 'message': 'IRM announced a cash divide
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	107.29
+currentPrice	106.04
 currentRatio	0.555
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	109.59
-dayLow	106.94
-discount_to_intrinsic_value	-34.04
+dayHigh	107.21
+dayLow	103.4
+discount_to_intrinsic_value	-32.48
 displayName	Iron Mountain
 dividendDate	1799193600
 dividendRate	3.97
-dividendYield	3.89
+dividendYield	3.7
 earningsCallTimestampEnd	1793885400
 earningsCallTimestampStart	1793885400
 earningsGrowth	0.464
 earningsQuarterlyGrowth	0.473
 earningsTimestamp	1793885400
-earningsTimestampEnd	1793885400
-earningsTimestampStart	1793885400
+earningsTimestampEnd	1802352600
+earningsTimestampStart	1802352600
 ebitda	2639223040
 ebitdaMargins	0.33841
-enterpriseToEbitda	19.375
-enterpriseToRevenue	6.557
-enterpriseValue	51134832640
+enterpriseToEbitda	19.806
+enterpriseToRevenue	6.702
+enterpriseValue	52272553984
 epsCurrentYear	2.51699
 epsForward	2.71601
 epsTrailingTwelveMonths	1.53
@@ -60,29 +60,29 @@ exchangeDataDelayedBy	20
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	112.941
-fiftyDayAverageChange	-5.651001
-fiftyDayAverageChangePercent	-0.05003498
-fiftyTwoWeekChangePercent	20.642042
+fiftyDayAverage	112.8456
+fiftyDayAverageChange	-6.8055954
+fiftyDayAverageChangePercent	-0.060308915
+fiftyTwoWeekChangePercent	25.250996
 fiftyTwoWeekHigh	134.68
-fiftyTwoWeekHighChange	-27.389992
-fiftyTwoWeekHighChangePercent	-0.2033709
+fiftyTwoWeekHighChange	-28.639992
+fiftyTwoWeekHighChangePercent	-0.21265216
 fiftyTwoWeekLow	77.77
-fiftyTwoWeekLowChange	29.520004
-fiftyTwoWeekLowChangePercent	0.3795809
+fiftyTwoWeekLowChange	28.270004
+fiftyTwoWeekLowChangePercent	0.36350784
 fiftyTwoWeekRange	77.77 - 134.68
 financialCurrency	USD
 firstTradeDateMilliseconds	823185000000
 fiveYearAvgDividendYield	3.45
 floatShares	294917993
 forwardEps	2.71601
-forwardPE	39.5028
+forwardPE	39.042564
 freeCashflow	-451656640
 fullExchangeName	NYSE
 fullTimeEmployees	29400
-fulldayChange	5.0699997
-fulldayChangePercent	4.95989
-fulldayPrice	107.29
+fulldayChange	-1.25
+fulldayChangePercent	-1.1650666
+fulldayPrice	106.04
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 graham_intrinsic_value	80.05
@@ -90,13 +90,13 @@ grossMargins	0.53871
 grossProfits	4201434880
 hasPrePostMarketData	True
 heldPercentInsiders	0.00878
-heldPercentInstitutions	0.87922996
+heldPercentInstitutions	0.87931
 impliedSharesOutstanding	297833786
 industry	REIT - Specialty
 industryDisp	REIT - Specialty
 industryKey	reit-specialty
 isCMEFuture	False
-isEarningsDateEstimate	False
+isEarningsDateEstimate	True
 language	en-US
 lastDividendDate	1789430400
 lastDividendValue	0.864
@@ -106,16 +106,16 @@ lastSplitFactor	1082:1000
 longBusinessSummary	Iron Mountain Incorporated partners with more than 240,000 customers across 61 countries, including approximately 95% of the Fortune 1000. They serve as the trusted guardians of what matters most, helping to unlock what's possible. By connecting physical, digital, and intelligent workflows, lifecycle solutions help organizations realize enterprise value on a scale. From complex challenges across information management and digital transformation to data security, data centers, and asset lifecycle management, the firm empower organizations to navigate an ever-changing landscape to prepare for tomorrow's possibilities. Their longstanding commitment to safety, security, sustainability, and continuous innovation defines everything they do. Iron Mountain Incorporated was founded in 1951 and is incorporated in Delaware and is based in Portsmouth, New Hampshire.
 longName	Iron Mountain Incorporated
 market	us_market
-marketCap	31954587648
+marketCap	31582296064
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_30292
 mostRecentQuarter	1790726400
 netIncomeToCommon	458504992
 nextFiscalYearEnd	1798675200
-nonDilutedMarketCap	30444569604
+nonDilutedMarketCap	31954586899
 numberOfAnalystOpinions	11
-open	108.85
+open	105.93
 operatingCashflow	1703632000
 operatingMargins	0.20778999
 overallRisk	2
@@ -124,30 +124,30 @@ pegRatio	2.7
 phone	617 535 4766
 postMarketChange	0.0
 postMarketChangePercent	0.0
-postMarketPrice	107.29
-postMarketTime	1795468800
-previousClose	102.22
-priceEpsCurrentYear	42.626312
+postMarketPrice	106.04
+postMarketTime	1795565789
+previousClose	107.29
+priceEpsCurrentYear	42.12969
 priceHint	2
-priceToBook	-23.013727
-priceToSalesTrailing12Months	4.09727
+priceToBook	-22.745602
+priceToSalesTrailing12Months	4.0495343
 profitMargins	0.058790002
 quickRatio	0.448
-quoteSourceName	Delayed Quote
+quoteSourceName	Nasdaq Real Time Price
 quoteType	EQUITY
 recommendationKey	buy
 recommendationMean	1.66667
 region	US
-regularMarketChange	5.07
-regularMarketChangePercent	4.95989
-regularMarketDayHigh	109.59
-regularMarketDayLow	106.94
-regularMarketDayRange	106.94 - 109.59
-regularMarketOpen	108.85
-regularMarketPreviousClose	102.22
-regularMarketPrice	107.29
-regularMarketTime	1795467602
-regularMarketVolume	1748161
+regularMarketChange	-1.25
+regularMarketChangePercent	-1.16507
+regularMarketDayHigh	107.21
+regularMarketDayLow	103.4
+regularMarketDayRange	103.4 - 107.21
+regularMarketOpen	105.93
+regularMarketPreviousClose	107.29
+regularMarketPrice	106.04
+regularMarketTime	1795554002
+regularMarketVolume	1653538
 returnOnAssets	0.04716
 returnOnEquity	2.251
 revenueGrowth	0.135
@@ -177,15 +177,15 @@ totalDebt	20490969088
 totalRevenue	7798994944
 tradeable	False
 trailingAnnualDividendRate	3.456
-trailingAnnualDividendYield	0.03380943
+trailingAnnualDividendYield	0.032211762
 trailingEps	1.53
-trailingPE	70.12418
+trailingPE	69.30719
 trailingPegRatio	None
 triggerable	True
-twoHundredDayAverage	116.69375
-twoHundredDayAverageChange	-9.403748
-twoHundredDayAverageChangePercent	-0.08058485
+twoHundredDayAverage	116.7513
+twoHundredDayAverageChange	-10.711296
+twoHundredDayAverageChangePercent	-0.09174456
 typeDisp	Equity
-volume	1748161
+volume	1653538
 website	https://www.ironmountain.com
 zip	03801

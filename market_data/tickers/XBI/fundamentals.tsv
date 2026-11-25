@@ -1,23 +1,23 @@
 Metric	Value
 allTimeHigh	174.79
 allTimeLow	13.923333
-ask	147.14
-askSize	200
-averageDailyVolume10Day	8423570
-averageDailyVolume3Month	9062967
-averageVolume	9062967
-averageVolume10days	8423570
+ask	156.79
+askSize	1200
+averageDailyVolume10Day	8396570
+averageDailyVolume3Month	9064432
+averageVolume	9064432
+averageVolume10days	8396570
 beta3Year	1.01
-bid	147.13
-bidSize	100
+bid	156.63
+bidSize	200
 category	Health
 companyOfficers	[]
 corporateActions	[]
 cryptoTradeable	False
 currency	USD
 customPriceAlertConfidence	HIGH
-dayHigh	147.81
-dayLow	144.61
+dayHigh	157.3
+dayLow	147.54
 displayName	S&P Biotech ETF
 dividendYield	0.35
 esgPopulated	False
@@ -26,23 +26,23 @@ exchangeDataDelayedBy	0
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	152.711
-fiftyDayAverageChange	-5.550995
-fiftyDayAverageChangePercent	-0.036349673
-fiftyTwoWeekChangePercent	17.22696
+fiftyDayAverage	152.5022
+fiftyDayAverageChange	4.31781
+fiftyDayAverageChangePercent	0.0283131
+fiftyTwoWeekChangePercent	21.249067
 fiftyTwoWeekHigh	169.89
-fiftyTwoWeekHighChange	-22.729996
-fiftyTwoWeekHighChangePercent	-0.13379243
-fiftyTwoWeekLow	117.11
-fiftyTwoWeekLowChange	30.050003
-fiftyTwoWeekLowChangePercent	0.2565964
-fiftyTwoWeekRange	117.11 - 169.89
+fiftyTwoWeekHighChange	-13.069992
+fiftyTwoWeekHighChangePercent	-0.07693209
+fiftyTwoWeekLow	117.72
+fiftyTwoWeekLowChange	39.100006
+fiftyTwoWeekLowChangePercent	0.3321441
+fiftyTwoWeekRange	117.72 - 169.89
 firstTradeDateMilliseconds	1139236200000
-fiveYearAverageReturn	0.029579999
+fiveYearAverageReturn	0.044021703
 fullExchangeName	NYSEArca
-fulldayChange	7.1700134
-fulldayChangePercent	5.114862
-fulldayPrice	147.35
+fulldayChange	9.23999
+fulldayChangePercent	6.2788734
+fulldayPrice	156.4
 fundFamily	State Street Investment Management
 fundInceptionDate	1138665600
 gmtOffSetMilliseconds	-18000000
@@ -50,49 +50,49 @@ hasPrePostMarketData	True
 isCMEFuture	False
 language	en-US
 legalType	Exchange Traded Fund
-longBusinessSummary	In seeking to track the performance of the S&P Biotechnology Select Industry Index (the "index"), the fund employs a sampling strategy. It generally invests substantially all, but at least 80%, of its total assets in the securities comprising the index. The index represents the biotechnology segment of the S&P Total Market Index ("S&P TMI").
+longBusinessSummary	In seeking to track the performance of the S&P Biotechnology Select Industry Index (the "index"), the fund employs a sampling strategy. Under normal market conditions, it will invest at least 80% of its net assets (plus the amount of borrowings for investment purposes) in the securities comprising the index it seeks to track.
 longName	State Street SPDR S&P Biotech ETF
 market	us_market
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_26755274
-navPrice	140.24403
+navPrice	146.73277
 netAssets	10918485000.0
 netExpenseRatio	0.35
-open	145.57
-postMarketChange	0.19000244
-postMarketChangePercent	0.12911282
-postMarketPrice	147.35
-postMarketTime	1795474471
-previousClose	140.18
+open	147.54
+postMarketChange	-0.42001343
+postMarketChangePercent	-0.26783153
+postMarketPrice	156.4
+postMarketTime	1795565328
+previousClose	147.16
 priceHint	2
-quoteSourceName	Nasdaq Real Time Price
+quoteSourceName	Delayed Quote
 quoteType	ETF
 region	US
-regularMarketChange	6.98001
-regularMarketChangePercent	4.97932
-regularMarketDayHigh	147.81
-regularMarketDayLow	144.61
-regularMarketDayRange	144.61 - 147.81
-regularMarketOpen	145.57
-regularMarketPreviousClose	140.18
-regularMarketPrice	147.16
-regularMarketTime	1795467600
-regularMarketVolume	8613283
+regularMarketChange	9.66
+regularMarketChangePercent	6.56429
+regularMarketDayHigh	157.3
+regularMarketDayLow	147.54
+regularMarketDayRange	147.54 - 157.3
+regularMarketOpen	147.54
+regularMarketPreviousClose	147.16
+regularMarketPrice	156.82
+regularMarketTime	1795554000
+regularMarketVolume	17266693
 shortName	State Street SPDR S&P Biotech E
 sourceInterval	15
 symbol	XBI
-threeYearAverageReturn	0.2427337
+threeYearAverageReturn	0.2670048
 totalAssets	10918484992
 tradeable	False
 trailingPegRatio	None
 trailingThreeMonthNavReturns	6.06161
 trailingThreeMonthReturns	6.06161
 triggerable	True
-twoHundredDayAverage	143.4454
-twoHundredDayAverageChange	3.7145996
-twoHundredDayAverageChangePercent	0.025895564
+twoHundredDayAverage	143.55365
+twoHundredDayAverageChange	13.266357
+twoHundredDayAverageChangePercent	0.09241393
 typeDisp	ETF
-volume	8613283
+volume	17266693
 yield	0.0034999999
 ytdReturn	27.99961

@@ -1,20 +1,20 @@
 Metric	Value
-52WeekChange	0.97344804
-SandP52WeekChange	0.0306139
+52WeekChange	1.1998739
+SandP52WeekChange	0.06965685
 address1	2485 Augustine Drive
 allTimeHigh	658.52
 allTimeLow	1.61
-ask	455.0
-askSize	1
+ask	415.9
+askSize	2
 auditRisk	10
 averageAnalystRating	1.3 - Strong Buy
-averageDailyVolume10Day	49818140
-averageDailyVolume3Month	27110325
-averageVolume	27110325
-averageVolume10days	49818140
+averageDailyVolume10Day	50104900
+averageDailyVolume3Month	27696675
+averageVolume	27696675
+averageVolume10days	50104900
 beta	2.542
-bid	456.05
-bidSize	2
+bid	412.1
+bidSize	4
 boardRisk	3
 bookValue	41.701
 city	Santa Clara
@@ -25,14 +25,14 @@ corporateActions	[]
 country	United States
 cryptoTradeable	False
 currency	USD
-currentPrice	453.46
+currentPrice	413.27
 currentRatio	2.725
 customPriceAlertConfidence	HIGH
 dateShortInterest	1793318400
-dayHigh	477.38
-dayLow	432.0105
+dayHigh	428.8677
+dayLow	396.0253
 debtToEquity	13.469
-discount_to_intrinsic_value	-85.2
+discount_to_intrinsic_value	-68.79
 displayName	Advanced Micro Devices
 dividendYield	0.0
 earningsCallTimestampEnd	1793743200
@@ -44,9 +44,9 @@ earningsTimestampEnd	1801602000
 earningsTimestampStart	1801602000
 ebitda	11143000064
 ebitdaMargins	0.24525
-enterpriseToEbitda	61.875
-enterpriseToRevenue	15.175
-enterpriseValue	689471619072
+enterpriseToEbitda	60.238
+enterpriseToRevenue	14.773
+enterpriseValue	671233867776
 epsCurrentYear	8.08438
 epsForward	17.61574
 epsTrailingTwelveMonths	4.68
@@ -58,28 +58,28 @@ exchangeDataDelayedBy	15
 exchangeTimezoneName	America/New_York
 exchangeTimezoneShortName	EST
 executiveTeam	[]
-fiftyDayAverage	553.0976
-fiftyDayAverageChange	-99.6376
-fiftyDayAverageChangePercent	-0.18014471
-fiftyTwoWeekChangePercent	97.3448
+fiftyDayAverage	552.2986
+fiftyDayAverageChange	-139.0286
+fiftyDayAverageChangePercent	-0.25172722
+fiftyTwoWeekChangePercent	119.9874
 fiftyTwoWeekHigh	658.52
-fiftyTwoWeekHighChange	-205.06003
-fiftyTwoWeekHighChangePercent	-0.3113953
+fiftyTwoWeekHighChange	-245.25003
+fiftyTwoWeekHighChangePercent	-0.3724261
 fiftyTwoWeekLow	188.22
-fiftyTwoWeekLowChange	265.24
-fiftyTwoWeekLowChangePercent	1.409202
+fiftyTwoWeekLowChange	225.04999
+fiftyTwoWeekLowChangePercent	1.1956753
 fiftyTwoWeekRange	188.22 - 658.52
 financialCurrency	USD
 firstTradeDateMilliseconds	322151400000
 floatShares	1631394789
 forwardEps	17.61574
-forwardPE	25.74175
+forwardPE	23.460268
 freeCashflow	7357125120
 fullExchangeName	NasdaqGS
 fullTimeEmployees	31000
-fulldayChange	26.109985
-fulldayChangePercent	6.152356
-fulldayPrice	450.5
+fulldayChange	-45.160004
+fulldayChangePercent	-9.958983
+fulldayPrice	408.3
 gmtOffSetMilliseconds	-18000000
 governanceEpochDate	1793491200
 graham_intrinsic_value	244.84
@@ -94,7 +94,7 @@ industryDisp	Semiconductors
 industryKey	semiconductors
 irWebsite	http://phx.corporate-ir.net/phoenix.zhtml?c=74093&p=irol-IRHome
 isCMEFuture	False
-isEarningsDateEstimate	True
+isEarningsDateEstimate	False
 language	en-US
 lastFiscalYearEnd	1766793600
 lastSplitDate	966902400
@@ -102,31 +102,31 @@ lastSplitFactor	2:1
 longBusinessSummary	Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California.
 longName	Advanced Micro Devices, Inc.
 market	us_market
-marketCap	750506016768
+marketCap	683988942848
 marketState	POST
 maxAge	86400
 messageBoardId	finmb_168864
 mostRecentQuarter	1790380800
 netIncomeToCommon	7725000192
 nextFiscalYearEnd	1798329600
-nonDilutedMarketCap	702393278525
+nonDilutedMarketCap	750506034732
 numberOfAnalystOpinions	49
-open	476.33
+open	425.125
 operatingCashflow	9123000320
 operatingMargins	0.17820999
 overallRisk	4
 payoutRatio	0.0
-pegRatio	0.38
+pegRatio	11.99
 phone	408 749 4000
-postMarketChange	-2.9599915
-postMarketChangePercent	-0.6527569
-postMarketPrice	450.5
-postMarketTime	1795475063
-previousClose	424.39
-priceEpsCurrentYear	56.090878
+postMarketChange	-4.970001
+postMarketChangePercent	-1.2026039
+postMarketPrice	408.3
+postMarketTime	1795567021
+previousClose	453.46
+priceEpsCurrentYear	51.119564
 priceHint	2
-priceToBook	10.87408
-priceToSalesTrailing12Months	16.517872
+priceToBook	9.910314
+priceToSalesTrailing12Months	15.0539
 profitMargins	0.16769
 quickRatio	1.725
 quoteSourceName	Nasdaq Real Time Price
@@ -134,16 +134,16 @@ quoteType	EQUITY
 recommendationKey	strong_buy
 recommendationMean	1.33333
 region	US
-regularMarketChange	29.069977
-regularMarketChangePercent	6.8498263
-regularMarketDayHigh	477.38
-regularMarketDayLow	432.0105
-regularMarketDayRange	432.0105 - 477.38
-regularMarketOpen	476.33
-regularMarketPreviousClose	424.39
-regularMarketPrice	453.46
-regularMarketTime	1795467601
-regularMarketVolume	53693661
+regularMarketChange	-40.190002
+regularMarketChangePercent	-8.862966
+regularMarketDayHigh	428.8677
+regularMarketDayLow	396.0253
+regularMarketDayRange	396.0253 - 428.8677
+regularMarketOpen	425.125
+regularMarketPreviousClose	453.46
+regularMarketPrice	413.27
+regularMarketTime	1795554001
+regularMarketVolume	45929868
 returnOnAssets	0.05895
 returnOnEquity	0.1196
 revenueGrowth	0.447
@@ -165,7 +165,7 @@ state	CA
 symbol	AMD
 targetHighPrice	1250.0
 targetLowPrice	525.0
-targetMeanPrice	657.74286
+targetMeanPrice	656.2122
 targetMedianPrice	650.0
 totalCash	15776000000
 totalCashPerShare	9.619
@@ -175,13 +175,13 @@ tradeable	False
 trailingAnnualDividendRate	0.0
 trailingAnnualDividendYield	0.0
 trailingEps	4.68
-trailingPE	96.893166
-trailingPegRatio	0.3797
+trailingPE	88.30556
+trailingPegRatio	0.398
 triggerable	True
-twoHundredDayAverage	429.7861
-twoHundredDayAverageChange	23.67389
-twoHundredDayAverageChangePercent	0.05508296
+twoHundredDayAverage	431.0112
+twoHundredDayAverageChange	-17.74121
+twoHundredDayAverageChangePercent	-0.04116183
 typeDisp	Equity
-volume	53693661
+volume	45929868
 website	https://www.amd.com
 zip	95054
